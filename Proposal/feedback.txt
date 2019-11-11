@@ -1,0 +1,5 @@
+Nice idea!
+
+Project mostly clear, only how to arrive at a conclusion may need more thought; to measure diversity, you might need a test collection that has aspects annotated. I know of some Web collections that did that - maybe there are more. Try to find a good one for that purpose (not sure myself, did Robust 2005 have aspects annotated?).
+
+Implementation-wise you can follow what they did to implement RM3 reranking - maybe your code can then be integrated with Anserini eventually!
