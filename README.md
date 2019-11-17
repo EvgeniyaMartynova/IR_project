@@ -10,6 +10,6 @@ The data set we are going to use is the wikified snapshot of ODP. Available at M
 5. Install Pyserini to work with Anserini through Python as described here https://github.com/castorini/pyserini. Note: you migh need to install `Cython` and `wget` first
 6. The command to build index, run it from the root Anserini folder:
 ```
-nohup sh target/appassembler/bin/IndexCollection -collection TrecCollection -input trec_collection_path -index index_path -generator JsoupGenerator -threads 4 -storePositions -storeDocvectors -storeRawDocs >& log.robust04.pos+docvectors+rawdocs &
+nohup sh target/appassembler/bin/IndexCollection -collection TrecCollection -input trec_collection_path -index index_path -generator JsoupGenerator -threads 4 -storePositions -storeDocvectors -storeRawDocs >& log.odp.pos+docvectors+rawdocs &
 ```
 7. When index is built pass the index folder to pysearch.SimpleSearcher("idex_folder")
