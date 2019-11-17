@@ -41,21 +41,28 @@ def convert_text_to_trec_doc(text, document_number):
 
 
 def convert(opd_path, trec_path):
+    folders_num = len(os.listdir(opd_path))
+    converted_folders = 0
     for directory, directories, files in os.walk(opd_path):
         has_files = len(files) > 0
         if has_files:
             trec_file = open(build__trec_file_path(trec_path, directory), "w+")
+            print("Converting {}".format(directory))
         for file_name in [x for x in files if x.endswith('.txt')]:
             file_text = read_file(directory, file_name)
             docno = build__docno(directory, file_name)
             trec_file.write(convert_text_to_trec_doc(file_text, docno))
 
         if has_files:
+            converted_folders += 1
+            print("Converted {} {} % has finished".format(directory, converted_folders * 100/folders_num))
             trec_file.close()
+
+    print("Conversion has been finished!")
 
 # TODO: pass the paths to a script
 def main():
-    opd_data_path = "../../data/opd/texts"
+    opd_data_path = "../../data/odp/texts"
     output_path = "../../data/trec"
     convert(opd_data_path, output_path)
 
