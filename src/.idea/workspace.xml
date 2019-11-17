@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8975efe-9300-4f34-8b39-4f7aa0caaacb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_converter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trec_converter.py" beforeDir="false" afterPath="$PROJECT_DIR$/trec_converter.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,20 +17,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/trec_converter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="35" />
+            <state relative-caret-position="261">
+              <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_converter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="570">
+              <caret line="38" column="73" selection-start-line="38" selection-start-column="73" selection-end-line="38" selection-end-column="73" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -64,8 +61,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test_build__trec_file_path.py" />
-        <option value="$PROJECT_DIR$/trec_converter.py" />
         <option value="$PROJECT_DIR$/tests/test_converter.py" />
+        <option value="$PROJECT_DIR$/trec_converter.py" />
       </list>
     </option>
   </component>
@@ -217,15 +214,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_converter_TestConverter_test_convert_text_to_trec_doc - 2019.11.17 at 16h 21m 21s.xml">
-      <configuration name="Unittests for test_converter.TestConverter.test_convert_text_to_trec_doc" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_converter_TestConverter_test_convert_text_to_trec_doc - 2019.11.17 at 16h 22m 08s.xml">
-      <configuration name="Unittests for test_converter.TestConverter.test_convert_text_to_trec_doc" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_converter_TestConverter_test_convert_text_to_trec_doc - 2019.11.17 at 16h 22m 44s.xml">
-      <configuration name="Unittests for test_converter.TestConverter.test_convert_text_to_trec_doc" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_converter_TestConverter_test_convert_text_to_trec_doc - 2019.11.17 at 16h 23m 09s.xml">
       <configuration name="Unittests for test_converter.TestConverter.test_convert_text_to_trec_doc" configurationId="tests" />
     </history-entry>
@@ -247,13 +235,22 @@
     <history-entry file="Unittests_for_test_converter_TestConverter_test_conversion - 2019.11.17 at 16h 43m 55s.xml">
       <configuration name="Unittests for test_converter.TestConverter.test_conversion" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_converter_TestConverter_test_conversion - 2019.11.17 at 17h 00m 28s.xml">
+      <configuration name="Unittests for test_converter.TestConverter.test_conversion" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_converter_TestConverter_test_convert_text_to_trec_doc - 2019.11.17 at 17h 00m 38s.xml">
+      <configuration name="Unittests for test_converter.TestConverter.test_convert_text_to_trec_doc" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_converter_TestConverter - 2019.11.17 at 17h 00m 48s.xml">
+      <configuration name="Unittests for test_converter.TestConverter" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="35" y="23" width="1627" height="954" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19305994" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19305994" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" weight="0.32946634" />
@@ -261,7 +258,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32946634" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32946634" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39907193" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -296,20 +293,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trec_converter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_converter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="570">
+          <caret line="38" column="73" selection-start-line="38" selection-start-column="73" selection-end-line="38" selection-end-column="73" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trec_converter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
         </state>
       </provider>
     </entry>

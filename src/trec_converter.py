@@ -14,8 +14,6 @@ new_line = "\n"
 
 trec_file_extension = ".trectext"
 
-# TODO: Add tests, clean up
-
 
 def build__trec_file_path(output_path, directory):
     return output_path + "/" + os.path.basename(directory) + trec_file_extension
@@ -55,6 +53,7 @@ def convert(opd_path, trec_path):
         if has_files:
             trec_file.close()
 
+# TODO: pass the paths to a script
 def main():
     opd_data_path = "../../data/opd/texts"
     output_path = "../../data/trec"
