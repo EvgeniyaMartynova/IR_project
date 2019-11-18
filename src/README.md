@@ -29,10 +29,11 @@ The human assessors are told to judge a document relevant if any piece of the do
 Here is the format that TREC Interactive Track use:
 
 **Definition of topics & aspects:**
+```
 Topic  
-|	    Aspect# 
-|	    |	Aspect gloss  
-|	    | |   
+|	Aspect# 
+|	|	Aspect gloss  
+|	|       |   
 303i	1	has inspired new cosmological theories  
 303i	2	study of gravitational lenses  
 303i	3	more precise estimate of scale, size, and age of universe  
@@ -48,14 +49,16 @@ Topic
 307i	6	Iran - Karun  
 307i	7	India - Narmada  
 307i	8	Kyrgyzstan - Naryn  
-307i	9	Chile - Panque/Bo-Bo/Bio-Bio  
+307i	9	Chile - Panque/Bo-Bo/Bio-Bio 
+```
 
 **Mapping of the documents to the topicts and aspects**
+```
 Topic  
-|    Document  
-|	   |		        Aspect vector:                1 digit/aspect  
-|	   |		        |	                            leftmost digit = aspect #1  
-|	   |		        |	                            "1" = "aspect covered by this doc."  
+|   Document  
+|	  |	        Aspect vector:                1 digit/aspect  
+|	  |	        |	                            leftmost digit = aspect #1  
+|	  |	        |	                            "1" = "aspect covered by this doc."  
 303i FT921-3432		0000000  
 303i FT924-286		1111000  
 303i FT934-5418		0000100  
@@ -63,7 +66,8 @@ Topic
 303i FT944-128		0011111  
 303i FT944-9936		0000000  
 307i FT911-3434		10000000000000000000000  
-307i FT911-3436		10000000000000000000000 
+307i FT911-3436		10000000000000000000000
+```
 
 I think we can get a similar representation exploiting wikification.
 
