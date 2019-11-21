@@ -1,5 +1,6 @@
 #Data
-This are all the data files collected from the english wikipedia.
+
+This are all the data files collected from the english wikipedia. I used the page https://en.wikipedia.org/wiki/Category:All_disambiguation_pages as main page. For each letter of the alphabet I took the first 200 disambiguation pages (first page for each letter).
 
 ## Files
 This folder containes a file for each collected page.
