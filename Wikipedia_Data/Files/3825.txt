@@ -1,0 +1,64 @@
+Title: GM F40 transmission
+Aspects: {'F40'}
+
+The GM MR6/F40 six-speed manual transaxle was first developed for Fiat, and use after by OPEL and Saab applications. Originally a design developed for Fiat, Opel and Saab applications, the F40 (MT2) is developed by GM Powertrain Sweden Södertälje  - Europe six-speed manual transaxle built by Opel in Rüsselsheim am Main , Germany(2004-today) (2002-2003 Gothenburg Sweden). Its first use in a North American application was the Pontiac G6 for the 2006 model year. It is also used in Saab 9-3 2003-2011 and 9-5 2010-2012 models.
+
+
+== Design ==
+The F40 has a three-axis design, with first, second, fifth, and sixth gears on an output shaft behind and below the input shaft, and third and fourth gears are on an output shaft in front of and above the input shaft. Both output shaft pinions drive a helical gear with a conventional differential. The clutch is mounted on a dual-mass flywheel to dampen vibrations on whichever output shaft is idle depending upon which gear is selected.
+Triple-cone synchronizers are used on 1st and 2nd gears. These synchronizers have three friction surfaces, which increase their ability to transfer the flow of torque more smoothly from one gear to another. Synchronizers act as clutches to speed up or slow down the gearsets that are being shifted to, and greater friction area results in easier shifting for the driver. The 3rd, 4th, and reverse synchronizers are double-cone, while the 5th and 6th gear synchronizers are single-cone. All of the friction surfaces on the Synchronizer rings are sintered bronze. The ratios in the 6-speed are widely spaced for versatile performance and efficiency.
+To adapt the F40 to North American applications and maximize performance, 3rd through 6th gears have been changed to higher-ratio gears starting in 2007 model year. The ratio for 3rd gear is now 1.37:1, and the ratio for 4th gear is no longer an overdrive, with a new ratio of 1.05:1. The 5th gear ratio is 0.85:1 and the 6th gear ratio is 0.71:1.
+The addition of a ball-and-spring-type detent on the shift sleeve and detents on the shift rail assists the driver in shifting quicker. The detent raises the force required to move the shift lever which prevents excess movement of the shifter by the driver, and reduces the chance of double bump. Tension between the shift sleeve and the shift rail also prevents the sleeve from vibrating while in gear.
+The F40 is cast in aluminum, and weighs 124 pounds (56.2 kg). It has been certified for up to 295 ft-lb ( 400 Nm) of engine torque.
+The F40 MT2/MU9 uses a Castrol Burmah (BOT 0063) manual transmission fluid, or GM 88862472 gear oil. This gear oil is identified in GM documentation as a synthetic 75W-85 GL-4. No maintenance is required for normal operation.
+
+
+== Applications ==
+2006 Pontiac G6 GTP
+2007 Pontiac G6 GT
+Saab 9-3
+Saab 9-5
+Opel Cascada
+Opel Signum
+Opel Vectra
+Opel Insignia
+2012 Opel Astra GTC/OPC
+2010 Opel Insignia OPC
+2012-X Chevrolet Cruze 1.8 Manual 6
+2011-13 Buick Regal
+2013 Buick Verano
+Alfa Romeo 156
+Alfa Romeo 166
+Alfa Romeo 159
+Alfa Romeo Brera
+Alfa Romeo Nuovo Spider 2008-
+Fiat Nuova Bravo 2007-
+Fiat Nuovo Ducato 2006-
+Lancia Thesis
+Lancia Nuova Delta 2008-
+
+
+== European F40 version / Updates ==
+2008 MR6/F40 (MU9) General Motors Powertrain-Europe F40 six-speed manual car transaxle 2008 Model Year Summary
+Carryover Features and Benefits from 2007 model year
+
+DETENT SYSTEM FOR QUICKER AND EASIER SHIFTINGThe addition of a ball-and-spring-type detent on the shift sleeve and detents on the shift rail assists the driver in shifting quicker. The detent raises the force required to move the shift lever which prevents excess movement of the shifter by the driver, and reduces the chance of double bump. Tension between the shift sleeve and the shift rail also prevents the sleeve from vibrating while in gear.
+
+GEAR RATIO CHANGES FOR QUICKER ACCELERATIONTo adapt the F40 to North American applications and maximize performance, 3rd through 6th gears have been changed to higher-ratio gears starting in 2007 model year. The ratio for 3rd gear is now 1.37:1, and the ratio for 4th gear is no longer an overdrive, with a new ratio of 1.05:1. The 5th gear ratio is 0.85:1 and the 6th gear ratio is 0.71:1.
+
+LOW MAINTENANCEThe MT2/MU9 uses a Castrol Burmah (BOT 0063) manual transmission fluid, and is validated as "fill-for-life". No maintenance is required for normal operation.
+
+OVERVIEWOriginally a design developed for Fiat, Opel and Saab applications, the F40 (MT2) is a GM Powertrain - Europe six-speed manual transaxle built in Russelsheim, Germany. Its first use in a North American application was the Pontiac G6 for the 2006 model year. It is also used in some Saab 9-3 and 9-5 models.
+It is a three-axis design, with first, second, fifth, and sixth gears on an output shaft behind and below the input shaft, and third and fourth gears are on an output shaft in front of and above the input shaft. Both output shaft pinions drive a helical gear with a conventional differential. The clutch is mounted on a dual-mass flywheel to dampen vibrations on whichever output shaft is idle depending upon which gear is selected.
+The F40 is cast in aluminum, and weighs 124 pounds (see specs). It has been certified for up to 400 Nm of engine torque.
+Triple-cone synchronizers are used on 1st and 2nd gears. These synchronizers have three friction surfaces, which increase their ability to transfer the flow of torque more smoothly from one gear to another. Synchronizers act as clutches to speed up or slow down the gearsets that are being shifted to, and greater friction area results in easier shifting for the driver. The 3rd, 4th, and reverse synchronizers are double-cone, while the 5th and 6th gear synchronizers are single-cone. All of the friction surfaces on the synchronizer rings are sintered bronze. The ratios in the 6-speed are widely spaced for versatile performance and efficiency.
+
+
+== References ==
+
+GM F40 transmission. Although the MTF of the F40 transaxle is a fill for life, the actual capacity would be useful for those who have emptied theirs, e.g. when changing the clutch. This information is not shown in this document, but in the user manual of cars fitted with the F40 it is given as 2.8 litres.
+
+
+== External links ==
+http://gmpowertrain.com
+http://www.opel-infos.de/getriebe/f40.html^ GM F40 Transmission.

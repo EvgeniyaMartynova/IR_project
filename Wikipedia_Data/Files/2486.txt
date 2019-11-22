@@ -1,0 +1,1181 @@
+Title: D'Alembert's principle
+Aspects: {"D'Alembert (disambiguation)"}
+
+D'Alembert's principle, also known as the Lagrange–d'Alembert principle, is a statement of the fundamental classical laws of motion. It is named after its discoverer, the French physicist and mathematician Jean le Rond d'Alembert.  It is the dynamic analogue to the principle of virtual work for applied forces in a static system and in fact is  more general than Hamilton's principle, avoiding restriction to holonomic systems. A holonomic constraint depends only on the coordinates and time. It does not depend on the velocities. If the negative terms in accelerations are recognized as inertial forces, the statement of d'Alembert's principle becomes The total virtual work of the impressed forces plus the inertial forces vanishes for reversible displacements.  The principle does not apply for irreversible displacements, such as sliding friction, and more general specification of the irreversibility is required.The principle states that the sum of the differences between the forces acting on a system of mass particles and the time derivatives of the momenta of the system itself projected onto any virtual displacement consistent with the constraints of the system is zero. Thus, in symbols d'Alembert's principle is written as following,
+
+  
+    
+      
+        
+          ∑
+          
+            i
+          
+        
+        (
+        
+          
+            F
+          
+          
+            i
+          
+        
+        −
+        
+          m
+          
+            i
+          
+        
+        
+          
+            a
+          
+          
+            i
+          
+        
+        )
+        ⋅
+        δ
+        
+          
+            r
+          
+          
+            i
+          
+        
+        =
+        0
+        ,
+      
+    
+    {\displaystyle \sum _{i}(\mathbf {F} _{i}-m_{i}\mathbf {a} _{i})\cdot \delta \mathbf {r} _{i}=0,}
+  where :
+
+This above equation is often called d'Alembert's principle, but it was first written in this variational form by Joseph Louis Lagrange.  D'Alembert's contribution was to demonstrate that in the totality of a dynamic system the forces of constraint vanish.  That is to say that the generalized forces 
+  
+    
+      
+        
+          
+            
+              Q
+            
+          
+          
+            j
+          
+        
+      
+    
+    {\displaystyle {\mathbf {Q} }_{j}}
+   need not include constraint forces.  It is equivalent to the somewhat more cumbersome Gauss's principle of least constraint.
+
+
+== General case with changing masses ==
+The general statement of d'Alembert's principle mentions "the time derivatives of the momenta of the system". The momentum of the i-th mass is the product of its mass and velocity:
+
+  
+    
+      
+        
+          
+            p
+          
+          
+            i
+          
+        
+        =
+        
+          m
+          
+            i
+          
+        
+        
+          
+            v
+          
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \mathbf {p} _{i}=m_{i}\mathbf {v} _{i}}
+  and its time derivative is
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  p
+                
+                
+                  i
+                
+              
+              ˙
+            
+          
+        
+        =
+        
+          
+            
+              
+                m
+                ˙
+              
+            
+          
+          
+            i
+          
+        
+        
+          
+            v
+          
+          
+            i
+          
+        
+        +
+        
+          m
+          
+            i
+          
+        
+        
+          
+            
+              
+                
+                  v
+                
+                ˙
+              
+            
+          
+          
+            i
+          
+        
+      
+    
+    {\displaystyle {\dot {\mathbf {p} _{i}}}={\dot {m}}_{i}\mathbf {v} _{i}+m_{i}{\dot {\mathbf {v} }}_{i}}
+  .In many applications, the masses are constant and this equation reduces to
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  p
+                
+                
+                  i
+                
+              
+              ˙
+            
+          
+        
+        =
+        
+          m
+          
+            i
+          
+        
+        
+          
+            
+              
+                
+                  v
+                
+                ˙
+              
+            
+          
+          
+            i
+          
+        
+        =
+        
+          m
+          
+            i
+          
+        
+        
+          
+            a
+          
+          
+            i
+          
+        
+      
+    
+    {\displaystyle {\dot {\mathbf {p} _{i}}}=m_{i}{\dot {\mathbf {v} }}_{i}=m_{i}\mathbf {a} _{i}}
+  ,which appears in the formula given above. However, some applications involve changing masses (for example, chains being rolled up or being unrolled) and in those cases both terms 
+  
+    
+      
+        
+          
+            
+              
+                m
+                ˙
+              
+            
+          
+          
+            i
+          
+        
+        
+          
+            v
+          
+          
+            i
+          
+        
+      
+    
+    {\displaystyle {\dot {m}}_{i}\mathbf {v} _{i}}
+   and 
+  
+    
+      
+        
+          m
+          
+            i
+          
+        
+        
+          
+            
+              
+                
+                  v
+                
+                ˙
+              
+            
+          
+          
+            i
+          
+        
+      
+    
+    {\displaystyle m_{i}{\dot {\mathbf {v} }}_{i}}
+   have to remain present, giving
+
+  
+    
+      
+        
+          ∑
+          
+            i
+          
+        
+        (
+        
+          
+            F
+          
+          
+            i
+          
+        
+        −
+        
+          m
+          
+            i
+          
+        
+        
+          
+            a
+          
+          
+            i
+          
+        
+        −
+        
+          
+            
+              
+                m
+                ˙
+              
+            
+          
+          
+            i
+          
+        
+        
+          
+            v
+          
+          
+            i
+          
+        
+        )
+        ⋅
+        δ
+        
+          
+            r
+          
+          
+            i
+          
+        
+        =
+        0.
+      
+    
+    {\displaystyle \sum _{i}(\mathbf {F} _{i}-m_{i}\mathbf {a} _{i}-{\dot {m}}_{i}\mathbf {v} _{i})\cdot \delta \mathbf {r} _{i}=0.}
+  
+
+
+== Derivation for special cases ==
+To date, nobody has shown that D'Alembert's principle is equivalent to Newton's Second Law. D'Alembert's principle is a more general case .  And it is true only for some very special cases e.g. rigid body constraints.  However, an approximate solution to this problem does exist.Consider Newton's law for a system of particles, i. The total force on each particle is
+
+  
+    
+      
+        
+          
+            F
+          
+          
+            i
+          
+          
+            (
+            T
+            )
+          
+        
+        =
+        
+          m
+          
+            i
+          
+        
+        
+          
+            a
+          
+          
+            i
+          
+        
+        ,
+      
+    
+    {\displaystyle \mathbf {F} _{i}^{(T)}=m_{i}\mathbf {a} _{i},}
+  where
+
+Moving the inertial forces to the left gives an expression that can be considered to represent quasi-static equilibrium, but which is really just a small algebraic manipulation of Newton's law:
+
+  
+    
+      
+        
+          
+            F
+          
+          
+            i
+          
+          
+            (
+            T
+            )
+          
+        
+        −
+        
+          m
+          
+            i
+          
+        
+        
+          
+            a
+          
+          
+            i
+          
+        
+        =
+        
+          0
+        
+        .
+      
+    
+    {\displaystyle \mathbf {F} _{i}^{(T)}-m_{i}\mathbf {a} _{i}=\mathbf {0} .}
+  Considering the virtual work, 
+  
+    
+      
+        δ
+        W
+      
+    
+    {\displaystyle \delta W}
+  , done by the total and inertial forces together through an arbitrary virtual displacement, 
+  
+    
+      
+        δ
+        
+          
+            r
+          
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \delta \mathbf {r} _{i}}
+  , of the system leads to a zero identity, since the forces involved sum to zero for each particle.
+
+  
+    
+      
+        δ
+        W
+        =
+        
+          ∑
+          
+            i
+          
+        
+        
+          
+            F
+          
+          
+            i
+          
+          
+            (
+            T
+            )
+          
+        
+        ⋅
+        δ
+        
+          
+            r
+          
+          
+            i
+          
+        
+        −
+        
+          ∑
+          
+            i
+          
+        
+        
+          m
+          
+            i
+          
+        
+        
+          
+            a
+          
+          
+            i
+          
+        
+        ⋅
+        δ
+        
+          
+            r
+          
+          
+            i
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle \delta W=\sum _{i}\mathbf {F} _{i}^{(T)}\cdot \delta \mathbf {r} _{i}-\sum _{i}m_{i}\mathbf {a} _{i}\cdot \delta \mathbf {r} _{i}=0}
+  The original vector equation could be recovered by recognizing that the work expression must hold for arbitrary displacements. Separating the total forces into applied forces, 
+  
+    
+      
+        
+          
+            F
+          
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \mathbf {F} _{i}}
+  , and constraint forces, 
+  
+    
+      
+        
+          
+            C
+          
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \mathbf {C} _{i}}
+  , yields
+
+  
+    
+      
+        δ
+        W
+        =
+        
+          ∑
+          
+            i
+          
+        
+        
+          
+            F
+          
+          
+            i
+          
+        
+        ⋅
+        δ
+        
+          
+            r
+          
+          
+            i
+          
+        
+        +
+        
+          ∑
+          
+            i
+          
+        
+        
+          
+            C
+          
+          
+            i
+          
+        
+        ⋅
+        δ
+        
+          
+            r
+          
+          
+            i
+          
+        
+        −
+        
+          ∑
+          
+            i
+          
+        
+        
+          m
+          
+            i
+          
+        
+        
+          
+            a
+          
+          
+            i
+          
+        
+        ⋅
+        δ
+        
+          
+            r
+          
+          
+            i
+          
+        
+        =
+        0.
+      
+    
+    {\displaystyle \delta W=\sum _{i}\mathbf {F} _{i}\cdot \delta \mathbf {r} _{i}+\sum _{i}\mathbf {C} _{i}\cdot \delta \mathbf {r} _{i}-\sum _{i}m_{i}\mathbf {a} _{i}\cdot \delta \mathbf {r} _{i}=0.}
+  If arbitrary virtual displacements are assumed to be in directions that are orthogonal to the constraint forces (which is not usually the case, so this derivation works only for special cases), the constraint forces do no work. Such displacements are said to be consistent with the constraints. This leads to the formulation of d'Alembert's principle, which states that the difference of applied forces and inertial forces for a dynamic system does no virtual work:.
+
+  
+    
+      
+        δ
+        W
+        =
+        
+          ∑
+          
+            i
+          
+        
+        (
+        
+          
+            F
+          
+          
+            i
+          
+        
+        −
+        
+          m
+          
+            i
+          
+        
+        
+          
+            a
+          
+          
+            i
+          
+        
+        )
+        ⋅
+        δ
+        
+          
+            r
+          
+          
+            i
+          
+        
+        =
+        0.
+      
+    
+    {\displaystyle \delta W=\sum _{i}(\mathbf {F} _{i}-m_{i}\mathbf {a} _{i})\cdot \delta \mathbf {r} _{i}=0.}
+  There is also a corresponding principle for static systems called the principle of virtual work for applied forces.
+
+
+== D'Alembert's principle of inertial forces ==
+D'Alembert showed that one can transform an accelerating rigid body into an equivalent static system by adding the so-called "inertial force"  and "inertial torque" or moment. The inertial force must act through the center of mass and the inertial torque can act anywhere. The system can then be analyzed exactly as a static system subjected to this "inertial force and moment" and the external forces. The advantage is that, in the equivalent static system one can take moments about any point (not just the center of mass). This often leads to simpler calculations because any force (in turn) can be eliminated from the moment equations by choosing the appropriate point about which to apply the moment equation (sum of moments = zero). Even in the course of Fundamentals of Dynamics and Kinematics of machines, this principle helps in analyzing the forces that act on a link of a mechanism when it is in motion. In textbooks of engineering dynamics this is sometimes referred to as d'Alembert's principle.
+
+
+=== Example for 1D motion of a rigid body ===
+
+To illustrate the concept of d'Alembert's principle, let's use a simple model with a weight 
+  
+    
+      
+        W
+      
+    
+    {\displaystyle W}
+  , suspended from a wire. The weight is subjected to a gravitational force, 
+  
+    
+      
+        W
+        =
+        m
+        g
+      
+    
+    {\displaystyle W=mg}
+  , and a tension force 
+  
+    
+      
+        T
+      
+    
+    {\displaystyle T}
+   in the wire. The mass accelerates upward with an acceleration 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+  . Newton's Second Law becomes 
+  
+    
+      
+        T
+        −
+        W
+        =
+        m
+        a
+      
+    
+    {\displaystyle T-W=ma}
+   or 
+  
+    
+      
+        T
+        =
+        W
+        +
+        m
+        a
+      
+    
+    {\displaystyle T=W+ma}
+  . As an observer with feet planted firmly on the ground, we see that the force 
+  
+    
+      
+        T
+      
+    
+    {\displaystyle T}
+   accelerates the weight, 
+  
+    
+      
+        W
+      
+    
+    {\displaystyle W}
+  , but, if we are moving with the wire we don’t see the acceleration, we feel it. The tension in the wire seems to counteract an acceleration “force” 
+  
+    
+      
+        m
+        a
+      
+    
+    {\displaystyle ma}
+   or 
+  
+    
+      
+        (
+        W
+        
+          /
+        
+        g
+        )
+        a
+      
+    
+    {\displaystyle (W/g)a}
+  .
+
+
+=== Example for plane 2D motion of a rigid body ===
+For a planar rigid body, moving in the plane of the body (the x–y plane), and subjected to forces and torques causing rotation only in this plane, the inertial force is
+
+  
+    
+      
+        
+          
+            F
+          
+          
+            i
+          
+        
+        =
+        −
+        m
+        
+          
+            
+              
+                
+                  r
+                
+                ¨
+              
+            
+          
+          
+            c
+          
+        
+      
+    
+    {\displaystyle \mathbf {F} _{i}=-m{\ddot {\mathbf {r} }}_{c}}
+  where 
+  
+    
+      
+        
+          
+            r
+          
+          
+            c
+          
+        
+      
+    
+    {\displaystyle \mathbf {r} _{c}}
+   is the position vector of the centre of mass of the body, and 
+  
+    
+      
+        m
+      
+    
+    {\displaystyle m}
+   is the mass of the body. The inertial torque (or moment) is
+
+  
+    
+      
+        
+          T
+          
+            i
+          
+        
+        =
+        −
+        I
+        
+          
+            
+              θ
+              ¨
+            
+          
+        
+      
+    
+    {\displaystyle T_{i}=-I{\ddot {\theta }}}
+  where 
+  
+    
+      
+        I
+      
+    
+    {\displaystyle I}
+   is the moment of inertia of the body. If, in addition to the external forces and torques acting on the body, the inertia force acting through the center of mass is added and the inertial torque is added (acting around the centre of mass is as good as anywhere) the system is equivalent to one in static equilibrium. Thus the equations of static equilibrium
+
+  
+    
+      
+        
+          
+            
+              
+                ∑
+                
+                  F
+                  
+                    x
+                  
+                
+              
+              
+                
+                =
+                0
+                ,
+              
+            
+            
+              
+                ∑
+                
+                  F
+                  
+                    y
+                  
+                
+              
+              
+                
+                =
+                0
+                ,
+              
+            
+            
+              
+                ∑
+                T
+              
+              
+                
+                =
+                0
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\sum F_{x}&=0,\\\sum F_{y}&=0,\\\sum T&=0\end{aligned}}}
+  hold. The important thing is that 
+  
+    
+      
+        ∑
+        T
+      
+    
+    {\displaystyle \sum T}
+   is the sum of torques (or moments, including the inertial moment and the moment of the inertial force) taken about any point. The direct application of Newton's laws requires that the angular acceleration equation be applied only about the center of mass.
+
+
+=== Dynamic equilibrium ===
+D'Alembert's form of the principle of virtual work states that a system of rigid bodies is in dynamic equilibrium when the virtual work of the sum of the applied forces and the inertial forces is zero for any virtual displacement of the system.  Thus, dynamic equilibrium of a system of n rigid bodies with m generalized coordinates requires that is to be
+
+  
+    
+      
+        δ
+        W
+        =
+        (
+        
+          Q
+          
+            1
+          
+        
+        +
+        
+          Q
+          
+            1
+          
+          
+            ∗
+          
+        
+        )
+        δ
+        
+          q
+          
+            1
+          
+        
+        +
+        …
+        +
+        (
+        
+          Q
+          
+            m
+          
+        
+        +
+        
+          Q
+          
+            m
+          
+          
+            ∗
+          
+        
+        )
+        δ
+        
+          q
+          
+            m
+          
+        
+        =
+        0
+        ,
+      
+    
+    {\displaystyle \delta W=(Q_{1}+Q_{1}^{*})\delta q_{1}+\ldots +(Q_{m}+Q_{m}^{*})\delta q_{m}=0,}
+  for any set of virtual displacements δqj.  This condition yields m equations,
+
+  
+    
+      
+        
+          Q
+          
+            j
+          
+        
+        +
+        
+          Q
+          
+            j
+          
+          
+            ∗
+          
+        
+        =
+        0
+        ,
+        
+        j
+        =
+        1
+        ,
+        …
+        ,
+        m
+        ,
+      
+    
+    {\displaystyle Q_{j}+Q_{j}^{*}=0,\quad j=1,\ldots ,m,}
+  which can also be written as
+
+  
+    
+      
+        
+          
+            d
+            
+              d
+              t
+            
+          
+        
+        
+          
+            
+              ∂
+              T
+            
+            
+              ∂
+              
+                
+                  
+                    
+                      q
+                      ˙
+                    
+                  
+                
+                
+                  j
+                
+              
+            
+          
+        
+        −
+        
+          
+            
+              ∂
+              T
+            
+            
+              ∂
+              
+                q
+                
+                  j
+                
+              
+            
+          
+        
+        =
+        
+          Q
+          
+            j
+          
+        
+        ,
+        
+        j
+        =
+        1
+        ,
+        …
+        ,
+        m
+        .
+      
+    
+    {\displaystyle {\frac {d}{dt}}{\frac {\partial T}{\partial {\dot {q}}_{j}}}-{\frac {\partial T}{\partial q_{j}}}=Q_{j},\quad j=1,\ldots ,m.}
+  The result is a set of m equations of motion that define the dynamics of the rigid body system.
+
+
+== References ==

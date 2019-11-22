@@ -1,0 +1,38 @@
+Title: Roughness length
+Aspects: {'Z0'}
+
+Roughness length (
+  
+    
+      
+        
+          z
+          
+            0
+          
+        
+      
+    
+    {\displaystyle z_{0}}
+  ) is a parameter of some vertical wind profile equations that model the horizontal mean wind speed near the ground; in the log wind profile, it is equivalent to the height at which the wind speed theoretically becomes zero. In reality the wind at this height no longer follows a mathematical logarithm. It is so named because it is typically related to the height of terrain roughness elements. Whilst it is not a physical length, it can be considered as a length-scale representation of the roughness of the surface.
+
+
+== Application ==
+As an approximation, the roughness length is approximately one-tenth of the height of the surface roughness elements. For example, short grass of height 0.01m has a roughness length of approximately 0.001m. Surfaces are rougher if they have more protrusions. Forests have much larger roughness lengths than tundra, for example. Roughness length is an important concept in urban meteorology as the building of tall structures, such as skyscrapers, has an effect on roughness length and wind patterns.
+
+
+== References ==
+
+
+== External links ==
+Aerodynamic Roughness (Length AMS Glossary)
+Surface Roughness Length
+Roughness
+Roughness (AMS Glossary)
+
+
+== See also ==
+Von Kármán constant
+Monin-Obukhov length
+Wind profile power laws
+Displacement height

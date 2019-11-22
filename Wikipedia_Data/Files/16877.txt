@@ -1,0 +1,75 @@
+Title: Airbus Helicopters H175
+Aspects: {'Z15'}
+
+The Airbus Helicopters H175 is a 7-ton class medium utility helicopter produced by Airbus Helicopters (formerly Eurocopter Group). In China, the H175 is produced by the Aviation Industry Corporation of China (AVIC) as the Avicopter AC352. Originally launched as the Eurocopter EC175 and the Harbin Z-15, it has been referred to as being a 'super-medium' helicopter.
+Formally launched at Heli-Expo in Houston on 24 February 2008, it was predicted by Airbus Helicopters that approximately 800 to 1,000 EC175s would be sold over an initial 20-year period. It entered service in December 2014; in 2015, the EC175 was formally renamed to the H175, in line with Eurocopter's corporate rebranding as Airbus Helicopters.
+
+
+== Development ==
+In February 2005, Eurocopter president Fabrice Brégier revealed that in-depth discussions were being held between Eurocopter and China Aviation Industry Corporation II (AVIC II) on the topic of the co-development of a new medium-heavy twin-engine helicopter, tentatively designated as the EC175. In October 2005, AgustaWestland acknowledged that it had also been approached by AVIC II, and that the firm was interested in participating if Eurocopter failed to secure the co-development contract.On 5 December 2005, the signing of a development contract for the EC175 was announced by Eurocopter and AVIC-II's subsidiary Harbin Aircraft Industry Group (HAIG). Early development work on the project proceeded as per schedule: On 5 December 2006, the Preliminary Design Review (PDR) was completed; the Critical Design Review (CDR) was completed on 5 December 2007, at which point the design of the aircraft and all its sub-systems was frozen. In 2008, it was expected that development of the EC175 would cost €600 million. The EC175 was developed through close cooperation with existing operators via a customer advisory team (CAT) approach.
+
+During the EC175's formal unveiling at Heli-Expo 2008, Eurocopter booked a total of 111 purchase options from 13 customers, including launch customers Bristow Helicopters and the VIH Aviation Group. During the Zhuhai Airshow in November 2008, a letter of intent for 5 Z-15s was signed between HAIG and Chinese domestic general-purpose aviation company Longken General Aviation Cooperation. As defined in 2008, the commercial marketing of the EC175 as follows: HAIG is responsible for selling the type within China and neighboring nations, Airbus Helicopters is responsible for sales to the rest of the world.On 4 December 2009, the EC175 prototype made its unofficial first flight; the official maiden flight of the prototype was on 17 December 2009 in Marignane, France. A two-year delivery delay was encountered, partly due to certification issues with the rotorcraft's Helinix avionics suite. The European Aviation Safety Agency (EASA) were originally expected to issue type certification for the EC175 sometime in 2013; this was formally received in January 2014. In September 2015, Avicopter publicly revealed their first AC352 prototype. In December 2015, flight tests of the Turbomeca Ardiden 3C/WZ16 powerplant were performed using an H175 prototype.An initial assembly line for the EC175 was established at Airbus Helicopters' Marignane facility; in 2008, it was reported that a second assembly line for the type was intended to follow within five years. In April 2014, an agreement between Airbus Helicopters and Avicopter was made for the production of 1,000 EC175; lasting for 20 years, manufacturing is split half-and-half between separate assembly lines operated by the two firms.As of June 2014, the EC175 had the distinction of holding both the 3 km and 6 km time-to-climb records for its class, ratified by FAI, at about a minute per kilometre. In May 2015, a H175 was used as a demonstrator for Airbus Helicopter's low-noise helicopter instrument approach project, a world-first achieved via satellite-augmented navigation to optimise rotorcraft noise levels.By May 2015, the H175 had been certified for single-pilot operations under visual flight rules (VFR); Airbus Helicopters is studying single-pilot operations under instrument flight rules, but this is not considered to be a priority due to low demand for this functionality.
+
+
+== Design ==
+
+Airbus Helicopters is responsible for the H175's main gearbox, tail rotor, avionics, autopilot, hydraulic and electrical systems, doors and transparencies. Airbus Helicopters is also the technical lead and system integrator, and built two of the three prototypes (the first and third). HAIG is responsible for the airframe, tail and intermediate gearboxes, main rotor, fuel system, flight controls and landing gear. Each firm separately handles marketing, customer support, and certification efforts for the type. Both the design and production of the rotorcraft made extensive use of computer-aided design/computer-aided manufacturing (CAD/CAM). CAD allowed Airbus Helicopters and HAIG to create a virtual mock-up, simplifying coordination between partners based 10,000 km apart.Airbus Helicopters-built H175s are powered by two 1,325 kW (1,775 shp) class, Full Authority Digital Engine Control (FADEC)-equipped Pratt & Whitney Canada PT6C-67E turboshaft engines, which provide for a 5,000-hour time between overhaul (TBO) and on-condition maintenance. Chinese-produced AC352s are equipped with two modular 1,800 shp class, dual-FADEC Turbomeca Ardiden 3C/WZ16 turboshaft engines, which were specifically developed by a joint partnership between Turbomeca and AVIC Engine for the rotorcraft. The engines drive the rotorcraft's five-blade Spheriflex main rotor and a three-blade tail rotor. The EC175's main gearbox will incorporate two accessory gearboxes and will be de-clutchable, avoiding the cost and weight of an auxiliary power unit (APU). The gears and the casing of the H175's main gearbox were developed using CATIA V5, a first for Airbus Helicopters.The H175 was designed to exceed EASA CS-29 crashworthiness requirements. It is capable of performing full Category A dual-pilot operation; additionally, it possesses Sea State 6 capability, and can be equipped with two oversized 18-passenger life rafts and an emergency flotation system. Airbus Helicopters states that the H175's noise signature is "way below" International Civil Aviation Organization (ICAO) requirements.
+
+The H175 is built for civilian and parapublic applications, its primary markets being support of the oil and gas industry and search and rescue missions. Other applicable roles include parapublic operations, homeland security, air medical services, utility missions and corporate transportation. The EC175 is offered with multiple interior seating configurations, housing up  to 18 passengers in an oil and gas transport configuration, 9-12 passengers in an executive layout, and 6-8 in a VIP configuration It is fitted with wide sliding doors for ease of access and oversized jettisonable windows for emergency egress. The H175 has a flat floor without any partition between the cockpit and the cabin area, which enables various flexible layouts to be adopted. Either auxiliary fuel tanks or a storage area can be installed beneath the cabin floor, which can be accessed internally; a large luggage compartment externally accessible from either side is present in some configurations.The Helionix avionics suite is used on the H175; much of the state-of-the-art avionics are derived from those developed for the Eurocopter EC225; one such system is the Automatic Flight Control System (AFCS), a 4-axis dual-duplex autopilot which is linked to the rotorcraft's Flight Management System. The cockpit features a total of four 6X8-inch multi-function LCD displays, plus an optional central mission display. The H175's cockpit is night vision goggles-compatible. A sensor operator's console can be installed in the main cabin area, and a chin-mounted electrical-optical sensor can be equipped.
+
+
+== Operational history ==
+In December 2014, the first production H175s, of the oil & gas industry model, entered service with Belgian operator Noordzee Helikopters Vlaanderen (NHV) for operations over the North Sea; by August 2015, the first two examples had accumulated 1,000 flight hours over 750 flights, carrying a total of 11,000 passengers, while achieving a dispatch rate in excess of 90%. NHV has ordered a total of 16 H175s.It has been alleged that the People's Liberation Army intends to order a large quantity of AC352s in the next decade to replace a significant portion of their existing rotorcraft fleet, such as older Mil Mi-8s, Sikorsky S-70s, Harbin Z-8s and Harbin Z-9s.In March 2015, Bristow Group became the then-largest customer for the type, ordering a total of 17 H175s for offshore oil & gas missions. In June 2015, leasing firm Milestone Aviation Group expanded the number of H175s that it had on order to 28 rotorcraft. In June 2015, Russian operator UTair, who had ordered a total of 15 H175s from Eurocopter Vostok in March 2011, announced that the remainder of its order had been placed on hold, this move was linked with a decline in oil prices and international sanctions placed upon Russia.In September 2015, it was announced that the Hong Kong Government Flying Service would become the launch customer for the Search and Rescue (SAR) variant of the H175.
+
+
+== Operators ==
+
+ BelgiumNoordzee Helikopters Vlaanderen Hong KongHong Kong Government Flying Service IrelandMilestone Aviation Group (28 on order) MexicoTransportes Aereos Pegaso (9 on order) NetherlandsHeli Holland RussiaUTair (15 on order) ThailandRoyal Thai Police United KingdomBristow Group (17 on order)
+CHC Helicopter
+
+
+== Variants ==
+EC175
+Original Eurocopter designation before it became Airbus Helicopters.H175
+Re-designation of the EC175. Pratt & Whitney Canada PT6 powered variant produced with different role fits including search and rescue, oil & gas industry, and VIP roles.Z-15
+Original Chinese designation.AC352
+Chinese-produced aircraft with WZ-16 engines.
+
+
+== Specifications (EC175) ==
+
+Data from EASA Type certificate and Airbus Helicopters websiteGeneral characteristics
+Crew: 2 pilots
+Capacity: 12-18 passengers
+Length: 18.06 (59.25 ft)
+Rotor diameter: 14.80 m (48.56 ft)
+Height: 5.34 m (17.52 ft)
+Disc area: 172 m² (1851.39 ft²)
+Empty weight: 4,603 kg (10,150 lb)
+Loaded weight: 7,500 kg (16,535 lb)
+Max. takeoff weight: 7,800 kg (17,535 lb)
+Powerplant: 2 × Pratt & Whitney Canada PT6C-67E turboshaft, 1,324 kW (1,776 shp)  eachPerformance
+
+Maximum speed: 315 km/h (196 mph)
+Cruise speed: 300 km/h (186 mph)
+Range: 1259.36 km (680 nmi, 782.53 mi)
+Service ceiling: 5,500 m (18,045 ft)
+
+
+== See also ==
+
+Aircraft of comparable role, configuration and era
+
+AgustaWestland AW189
+Bell 525
+Kamov Ka-60
+
+
+== References ==
+
+
+== External links ==
+Official page on the Airbus Helicopters website
+Eurocopter unveils its brand-new EC175 at Heli-Expo 2008
+Z-15 Medium Utility Helicopter Programme
+Z-15 Chinese Medium Helicopter (CMH)

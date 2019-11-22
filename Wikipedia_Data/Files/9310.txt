@@ -1,0 +1,50 @@
+Title: Nokia N73
+Aspects: {'N73'}
+
+The Nokia N73 is a smartphone announced by Nokia on 25 April 2006, as part of the Nseries and started shipping on 24 July. The N73 succeeded the N70 and packed in numerous multimedia features. It features a 3.2 megapixel autofocus camera, a front camera, a then-large 2.4 inch display, and stereo speakers, all in a relatively slim and pocketable size and form. It runs on Symbian v9.1 (S60 3rd Edition).
+It became one of the top selling Nseries devices during 2006 and 2007, and its high popularity helped Nokia's sales of 'multimedia' phones grow 28% year-on-year in Q3 2007 (according to Nokia the other top selling from the line were the N70 and N95).
+
+
+== Software ==
+In common with other Nokia 'Nseries' and 'Eseries' phones of its time (late 2006), the N73 comes loaded with many software applications, including contacts, messaging, picture and video galleries, a music player, a Visual FM Radio, RealPlayer, an IM client, a WAP browser, a full web browser based on KHTML/WebKit, a Microsoft Office document viewer, a PDF viewer, an Adobe Flash Lite viewer and some games.
+The majority of these applications support background execution; for example, one may listen to music while browsing the Internet, and then may switch to write a text message or e-mail, without having to close any applications. With the exception of newer Sony Ericsson phones like K550 and W610, smartphones' typically cannot do this or can do it in only a very limited way; for example, only the music player can run in the background.
+Java applications as well as Symbian (S60 release 3) applications can be installed to or removed from the phone by the user, using either the Nokia PC Suite software, which is included with the phone, or the installer application on the phone itself.
+The N73 uses a database system for the supplied 'Gallery' applications (which permanently run in the background, in order to reduce seek and operation times) and again these databases can be updated locally on the device itself. This means that supported image, video and audio files can be placed almost anywhere in the file system and browsed easily, and in the case of MP3 audio files, by ID3 tag (e.g. 'album', 'artist', etc.).
+Notably, Nokia supports firmware upgrades to the N73 to be made by the user via a module in Nokia PC Suite or directly over-the-air.
+
+
+== Variants ==
+Besides the original edition, Nokia released three other variants of N73.
+
+
+=== Music Edition ===
+In addition to the basic N73, Nokia subsequently released the N73 'Music Edition'. The 'multimedia button' on the keypad has been replaced with a button that starts the music player on the phone. The Music Edition also includes a 2GB memory card and the phone is completely black. The music player on the Music Edition supports album art and visualisations, while the regular N73 does not.
+The Music Player application stays in the background at all time (even when music is not being played). In the later firmware versions this application can be terminated, but doing so prevents the Music Edition remote control from working, until the application is started again by using the phone's keypad.
+
+
+=== Internet Edition ===
+The 'N73 Internet Edition' was essentially the Music Edition, but retaining the 'multimedia button' function, rather than a dedicated 'music button'. The 'N73 Internet Edition' is not available in the Middle East and North Africa.
+
+
+=== Special Edition ===
+Nokia has also released another model of the N73 called the 'N73 Special Edition' in the Middle East and North Africa. The phone was released during the Muslim holy month of Ramadan in 2007. The phone has the same hardware as the other editions of the N73 but comes pre-loaded with Islamic applications and the phone is completely white.
+Nokia also released an N73 Special Edition in Indonesia, without pre-loaded Islamic applications.
+
+
+== Firmware ==
+All three versions of the N73 appear to have been updated to the same software as each other. The update on 26 June 2007, updates the standard N73's Music Player to the same version as the Music Edition's enhanced Music Player detailed above, while keeping the 'multimedia button' function, essentially making it an Internet Edition.
+In 2008 updates with the standard features with Nokia Maps Application installed by default (but requires an external bluetooth GPS receiver), Nokia Lifeblog, PTT, and Search applications carried on from the previous updates, plus the addition is the Nokia Mobile TV application also installed by default (requires an external Nokia Mobile TV Receiver SU-33W) which is an application available on N77. The camera is much improved from earlier firmware. In this update, the phone takes 27 seconds to boot, compared to 42 or more in previous versions. Also, the N73 has 20 MB of RAM available after boot. A little change was users may not be able to install the N-Gage application which is modified to work in N73. Making it better compared to ME because of its multimedia keypad rather than having only a single usage button, same features of Music Player like ME that supports album art and visualizations, enhanced control interface and also available on start screen when menu key is pressed and hold after the phone boots up.
+Also, during recent UK Nokia poster campaigns, the black (ME) version of the phone was advertised without the term 'Music Edition', and the O2 UK shop sells the N73 in both Silver/Plum and Black, with the Black version having the multimedia button rather than the music button.
+
+
+== Specifications ==
+
+
+== References ==
+
+
+== External links ==
+Official Nokia N73 Product Page
+Nokia technical specs
+Bluetooth Qualification Program specifications
+"Ready, Set, Snap – Nokia N73 starts shipping" (Press release). Nokia UK. 24 July 2006. Archived from the original on 5 August 2006. Retrieved 25 July 2006.

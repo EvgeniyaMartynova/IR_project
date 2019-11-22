@@ -1,0 +1,84 @@
+Title: Tool steel
+Aspects: {'O series'}
+
+Tool steel refers to a variety of carbon and alloy steels that are particularly well-suited to be made into tools.  Their suitability comes from their distinctive hardness, resistance to abrasion and deformation, and their ability to hold a cutting edge at elevated temperatures. As a result, tool steels are suited for use in the shaping of other materials. 
+With a carbon content between 0.5% and 1.5%, tool steels are manufactured under carefully controlled conditions to produce the required quality. The presence of carbides in their matrix plays the dominant role in the qualities of tool steel. The four major alloying elements that form carbides in tool steel are: tungsten, chromium, vanadium and molybdenum. The rate of dissolution of the different carbides into the austenite form of the iron determines the high-temperature performance of steel (slower is better, making for a heat-resistant steel). Proper heat treatment of these steels is important for adequate performance. The manganese content is often kept low to minimize the possibility of cracking during water quenching.
+There are six groups of tool steels: water-hardening, cold-work, shock-resistant, high-speed, hot-work, and special purpose. The choice of group to select depends on cost, working temperature, required surface hardness, strength, shock resistance, and toughness requirements. The more severe the service condition (higher temperature, abrasiveness, corrosiveness, loading), the higher the alloy content and consequent amount of carbides required for the tool steel.
+Tool steels are used for cutting, pressing, extruding, and coining of metals and other materials. Their use, such as the production of injection molds, is essential, due to their resistance to abrasion, which is an important criterion for a mold that will be used to produce hundreds of thousands of moldings of a product or part.
+The AISI-SAE grades of tool steel is the most common scale used to identify various grades of tool steel. Individual alloys within a grade are given a number; for example: A2, O1, etc.
+
+
+== Water-hardening group ==
+W-group tool steel gets its name from its defining property of having to be water quenched. W-grade steel is essentially high carbon plain-carbon steel. This group of tool steel is the most commonly used tool steel because of its low cost compared to others. They work well for small parts and applications where high temperatures are not encountered; above 150 °C (302 °F) it begins to soften to a noticeable degree. Its hardenability is low, so W-group tool steels must be subjected to a rapid quenching, requiring the use of water. These steels can attain high hardness (above HRC 66) and are rather brittle compared to other tool steels. W-steels are still sold, especially for springs, but are much less widely used than they were in the 19th and early 20th centuries. This is partly because W-steels warp and crack much more during quench than oil-quenched or air hardening steels.
+The toughness of W-group tool steels is increased by alloying with manganese, silicon and molybdenum. Up to 0.20% of vanadium is used to retain fine grain sizes during heat treating.
+Typical applications for various carbon compositions are for W-steels:
+
+0.60–0.75% carbon: machine parts, chisels, setscrews; properties include medium hardness with good toughness and shock resistance.
+0.76–0.90% carbon: forging dies, hammers, and sledges.
+0.91–1.10% carbon: general purpose tooling applications that require a good balance of wear resistance and toughness, such as rasps, drills, cutters, and shear blades.
+1.11–1.30% carbon: files, small drills, lathe tools, razor blades, and other light-duty applications where more wear resistance is required without great toughness. Steel of about 0.8% C gets as hard as steel with more carbon, but the free iron carbide particles in 1% or 1.25% carbon steel make it hold an edge better. However, the fine edge probably rusts off faster than it wears off, if it is used to cut acidic or salty materials.
+
+
+== Cold-work group ==
+The cold-work tool steels include the O series (oil-hardening), the A series (air-hardening), and the D series (high carbon-chromium). These are steels used to cut or form materials that are at low temperatures. This group possesses high hardenability and wear resistance, and average toughness and heat softening resistance. They are used in production of larger parts or parts that require minimal distortion during hardening. The use of oil quenching and air-hardening helps reduce distortion, avoiding the higher stresses caused by the quicker water quenching. More alloying elements are used in these steels, as compared to the water-hardening class. These alloys increase the steels' hardenability, and thus require a less severe quenching process and as a result are less likely to crack. They have high surface hardness and are often used to make knife blades. The machinability of the oil hardening grades is high but for the high carbon-chromium types is low.
+
+
+=== Oil-hardening: the O series ===
+This series includes an O1 type, an O2 type, an O6 type and an O7 type.  All steels in this group are typically hardened at 800 °C, oil quenched, then tempered at < 200 °C.
+
+
+=== Air-hardening: the A series ===
+The first air-hardening-grade tool steel was mushet steel, which was known as air-hardening steel at the time.
+Modern air-hardening steels are characterized by low distortion during heat treatment because of their high-chromium content. Their machinability is good and they have a balance of wear resistance and toughness (i.e. between the D and shock-resistant grades).
+
+
+=== High carbon-chromium: the D series ===
+The D series of the cold-work class of tool steels, which originally included types D2, D3, D6, and D7, contains between 10% and 13% chromium (which is unusually high). These steels retain their hardness up to a temperature of 425 °C (797 °F). Common applications for these tool steels include forging dies, die-casting die blocks, and drawing dies. Due to their high chromium content, certain D-type tool steels are often considered stainless or semi-stainless, however their corrosion resistance is very limited due to the precipitation of the majority of their chromium and carbon constituents as carbides.
+
+
+=== 1.2767 type ===
+ISO 1.2767, also known as DIN X 45 NiCrMo 4, AISI 6F7, and BS EN 20 B, is an air-hardening tool steel with a primary alloying element of nickel. It possesses good toughness, stable grains, and is highly polishable. It is primarily used for dies in plastic injection molding application that involve high stresses. Other applications include blanking dies, forging dies, and industrial blades.
+
+
+== Shock-resisting group ==
+
+The high shock resistance and good hardenability are provided by chromium-tungsten, silicon-molybdenum, silicon-manganese alloying. Shock-resisting group tool steels (S) are designed to resist shock at both low and high temperatures. A low carbon content is required for the necessary toughness (approximately 0.5% carbon). Carbide-forming alloys provide the necessary abrasion resistance, hardenability, and hot-work characteristics. This family of steels displays very high impact toughness and relatively low abrasion resistance and can attain relatively high hardness (HRC 58/60).  In the US, toughness usually derives from 1 to 2% silicon and 0.5–1% molybdenum content. In Europe, shock steels often contain 0.5–0.6% carbon and around 3% nickel. A range of 1.75% to 2.75% nickel is still used in some shock resisting and high strength low alloy steels (HSLA), such as L6, 4340, and Swedish saw steel, but it is relatively expensive. An example of its use is in the production of jackhammer bits.
+
+
+== High-speed group ==
+
+
+== Hot-working group ==
+Hot-working steels are a group of steel used to cut or shape material at high temperatures. H-group tool steels were developed for strength and hardness during prolonged exposure to elevated temperatures. These tool steels are low carbon and moderate to high alloy that provide good hot hardness and toughness and fair wear resistance due to a substantial amount of carbide. H1 to H19 are based on a chromium content of 5%; H20 to H39 are based on a tungsten content of 9-18% and a chromium content of 3–4%; H40 to H59 are molybdenum based.
+Examples include DIN 1.2344 tool steel (H13).
+
+
+== Special-purpose group ==
+P-type tool steel is short for plastic mold steels. They are designed to meet the requirements of zinc die casting and plastic injection molding dies.
+L-type tool steel is short for low alloy special purpose tool steel. L6 is extremely tough.
+F-type tool steel is water hardened and substantially more wear resistant than W-type tool steel.
+
+
+== Comparison ==
+
+
+== See also ==
+Crucible Industries
+List of steel producers
+Silver steel
+
+
+== References ==
+
+
+== Bibliography ==
+Degarmo, E. Paul; Black, J T.; Kohser, Ronald A. (2003), Materials and Processes in Manufacturing (9th ed.), Wiley, ISBN 0-471-65653-4.
+Oberg, Erik; Jones, Franklin D.; McCauley, Christopher J.; Heald, Ricardo M. (2004), Machinery's Handbook (27th ed.), Industrial Press, ISBN 978-0-8311-2700-8.
+
+
+== External links ==
+Software to compare different tool steel grades based on their properties: Steel-guide EU based on A.I.S.I. norm and Steel-guide GB based on British Steel norm.
+Suggested tool steel selections for various purposes
+Tool Steel 
+Comparison of tool steel standards
+Tool Steel Chemical Composition

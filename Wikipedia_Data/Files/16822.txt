@@ -1,0 +1,22 @@
+Title: Z5 (computer)
+Aspects: {'Z5'}
+
+The Z5 was a computer designed by Konrad Zuse and manufactured by Zuse KG following an order by Leitz GMBH in Wetzlar AG in 1950. The computer was delivered in July 1953 and was the first commercial built-to-order mainframe in Germany. The computer was purchased to help with the design of optical lens systems.
+The Z5 is the successor of the Z4, and is much more compact and powerful. Zuse implemented the machine with relays, since vacuum tubes were too unreliable at the time. The Z5 used the same principles as the Z4, but was six times faster.
+It also had punched tape readers, which the Z4 did not have. It had conditional branching and five subroutine loops.
+
+
+== Specifications ==
+Frequency: ca. 40 Hertz
+Arithmetic unit: Floating point numbers (36 bit length)
+Memory: 12 words, 36 bit
+Speed: addition 0.1 second, multiplication 0.4 s, division 0.7 s
+Power consumption: 5000 watts
+Weight: ca. 2000 kg
+
+
+== References ==
+
+
+== External links ==
+Z5 information (German), (Google translation), (English)

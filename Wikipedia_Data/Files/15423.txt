@@ -1,0 +1,152 @@
+Title: Lenovo System x
+Aspects: {'X series'}
+
+System x is a line of x86 servers produced by IBM, and later Lenovo. They were a sub-brand of IBM's System brand, alongside IBM Power Systems, IBM System z and IBM System Storage). In addition, IBM System x was the main component of the IBM System Cluster 1350 solution.
+In January 2014, IBM announced the sale of its x86 server business to Lenovo for $2.3 billion, in a sale completed October 1, 2014.
+
+
+== History ==
+Starting out as IBM PC Server, rebranded Netfinity, then eServer xSeries and now System x, these servers are distinguished by being based on off-the-shelf x86 CPUs; IBM positions them as their "low end" or "entry" offering.
+Previously IBM servers based on AMD Opteron CPUs did not share the xSeries brand; instead they fell directly under the eServer umbrella.  However, current AMD Opteron-based servers fall under the System x brand.
+
+
+== IBM PC Server ==
+
+
+=== PC Server range ===
+IBM PC Server 300
+IBM PC Server 310 (PCI/ISA)
+IBM PC Server 315 (PCI/ISA)
+IBM PC Server 320 (PCI/EISA)
+IBM PC Server 325 (PCI/EISA)
+IBM PC Server 330 (PCI/EISA)
+IBM PC Server 500 (MCA)
+IBM PC Server 520 (PCI/EISA or PCI/MCA)
+IBM PC Server 704 (PCI/EISA)
+IBM PC Server 720 (PCI/MCA)
+
+
+=== Numbering scheme ===
+300 range for high-volume, entry level servers
+500 range for midrange
+700 range for high-end.
+
+
+== IBM Netfinity ==
+
+Not to be confused with a different IBM product with a similar name, NetFinity (notice the capital F).
+
+
+=== Netfinity range ===
+IBM Netfinity 1000
+IBM Netfinity 3000, 3500
+IBM Netfinity 4000R, 4500R
+IBM Netfinity 5000, 5100, 5500, 5500-M10, 5500-M20, 5600
+IBM Netfinity 6000R
+IBM Netfinity 7000, 7000-M10, 7100, 7600
+IBM Netfinity 8500R
+
+
+=== Numbering scheme ===
+The numbering scheme started off similar to that of the IBM PC Servers, but additional ranges were added, like the entry-level 1000 model later on. Models ending with an R, are rack-mount.
+
+
+=== KVM Cabling scheme ===
+Some Netfinity servers used IBM's C2T cabling scheme for Keyboard/Video/Mouse.
+
+
+== IBM eServer ==
+
+
+=== IBM eServer range ===
+IBM eServer was a marketing effort to put all of the diverse IBM server platforms under one header. The AS/400 became the IBM eServer iSeries, the RS/6000 became the IBM eServer pSeries, the S/390 mainframe became the IBM eServer zSeries and the Intel processor based IBM Netfinity servers became the IBM eServer xSeries.
+A few exceptions were however made
+
+IBM eServer 325, 326, 326m
+IBM eServer BladeCenter, BladeCenter T, BladeCenter H, BladeCenter HT
+
+
+==== Numbering scheme ====
+For marketing reasons the AMD processor based e325, e326 and e326m and the BladeCenter which supports non-Intel processor products were not branded xSeries, but were instead placed directly under the eServer brand. The xSeries brand was limited to only Intel-based server products.
+From a numbering perspective the AMD servers did fit into the xSeries range, under the similar x335 and x336 Intel processor products. These numbers were not re-used in the xSeries range to prevent confusion.
+
+
+=== IBM eServer xSeries ===
+
+
+==== xSeries range ====
+IBM eServer xSeries 100, 130, 135, 150
+IBM eServer xSeries 200, 205, 206, 206m, 220, 225, 226, 230, 232, 235, 236, 240, 250, 255, 260
+IBM eServer xSeries 300, 305, 306, 306m, 330, 335, 336, 340, 342, 345, 346, 350, 360, 365, 366, 370, 380, 382
+IBM eServer xSeries 440, 445, 450, 455, 460
+
+
+==== Numbering scheme ====
+100 series are entry-level tower servers
+200 series are tower servers
+300 series are rack-mount servers
+400 series are rack-mount scalable servers
+
+
+==== KVM Cabling scheme ====
+Many xSeries servers used IBM's C2T cabling scheme for Keyboard/Video/Mouse.
+
+
+== IBM System x range ==
+
+IBM System x3105, x3100, x3100 M3, x3100 M4, x3100 M5
+IBM System x3200, x3200 M2, x3200 M3, x3250, x3250 M2, x3250 M3, x3250 M4, x3250 M5, x3250 M6
+IBM System x3300 M3, x3300 M4
+IBM System x3350
+IBM System x3400, x3400 M2, x3400 M3, x3450, x3455
+IBM System x3500, x3500 M2, x3500 M3, x3500 M4
+IBM System x3530 M3, x3530 M4
+IBM System x3550, x3550 M2, x3550 M3, x3550 M4, x3550 M5
+IBM System x3620 M3
+IBM System x3630 M3, x3630 M4
+IBM System x3650, x3650T, x3655, x3650 M2, x3650 M3, x3650 M4, x3650 M4 HD, x3650 M4 BD, 3650 M5
+IBM System x3690 X5
+IBM System x3750 M4
+IBM System x3755, x3755 M3
+IBM System x3800, x3850, x3850 M2, x3850 X5, x3850 X6
+IBM System x3950, x3950 M2, x3950 X5, x3950 X6
+
+
+== Lenovo System x range ==
+These systems are effectively the same as the previous IBM branded models, but with a Lenovo badge.
+
+Lenovo System x3100 M5
+Lenovo System x3250 M5, x3250 M6
+Lenovo System x3500 M5
+Lenovo System x3550 M4, x3550 M5
+Lenovo System x3650 M4, x3650 M5
+Lenovo System x3850 X6
+Lenovo System x3950 X6
+Lenovo NextScale
+Lenovo FlexSystemLenovo also had its own ThinkServer family of Intel servers. This family is technically less advanced than System x. At the time of this writing, System x is being discontinued and replaced by the Lenovo ThinkSystem family of Intel servers.
+
+
+=== Enterprise eX5 architecture ===
+
+
+=== Enterprise X4 architecture ===
+
+
+=== Numbering scheme ===
+2nd digit increments to show capability
+3rd digit is a 0 for tower models, and 5 for rack-mount
+4th digit is a 0 for Intel processors, and 5 for AMD Opteron.
+Models with a T at the end are meant for Telco purposes.
+
+
+== iDataPlex ==
+
+System x iDataPlex, introduced in 2008, was used by many TOP500 supercomputers, including SuperMUC and Stampede. Other smaller installations included SciNet Consortium's General Purpose ClusterIt is an unusual form-factor in that you have two columns of 19" rack servers side-by-side in a single rack. This rack, unlike traditional racks, however was very shallow which is where the space saving came from for large installations. As such it only supports specially designed shallow servers. It was typically deployed in combination with a Rear Door Heat Exchanger (RDHx) to cool the exhaust heat with water.
+It was replaced with IBM NeXtScale in 2014.
+
+
+== See also ==
+List of IBM products
+
+
+== References ==

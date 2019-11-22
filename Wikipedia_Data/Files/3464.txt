@@ -1,0 +1,20 @@
+Title: F-factor (conversion factor)
+Aspects: {'F-factor'}
+
+The F-factor, in diagnostic radiology, is the conversion factor between exposure and absorbed dose.  In other words, it converts between the amount of ionization in air (roentgens or coulombs/kg) and the absorbed dose in air (rads or grays).  The two determinants of the F-factor are the effective Z of the material and the type of ionizing radiation being considered.  Since the effective Z of air and soft tissue is approximately the same, the F-factor is approximately 1 for many x-ray imaging applications.  However, bone has an F-factor of up to 4, due to its higher effective Z.
+
+
+== Radiation-related quantities ==
+The following table shows radiation quantities in SI and non-SI units.
+
+
+== See also ==
+Gray (unit)
+Sievert
+Equivalent dose
+Relative biological effectiveness
+
+
+== References ==
+
+Bushberg et al.,  2002.  The Essential Physics of Medical Imaging.  Philadelphia: Lippincott Williams & Wilkins. (p. 55)

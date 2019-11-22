@@ -1,0 +1,128 @@
+Title: Sound Blaster X-Fi
+Aspects: {'X-Fi'}
+
+Sound Blaster X-Fi is a lineup of sound cards in Creative Technology's Sound Blaster series.
+
+
+== History ==
+The series was launched in August 2005 as a lineup of PCI sound cards, which served as the introduction for their X-Fi audio processing chip, with models ranging from XtremeMusic (lower end), to Platinum, Fatal1ty FPS, and Elite Pro (top of the range).
+
+The top-end Elite Pro model was aimed at musicians, bundled with the X-Fi external I/O box (offering phono with preamp inputs for turntables, high-impedance input for guitars, ​1⁄4 inch mic input, headphone output, line-in, and full size MIDI I/O, as well as optical and RCA Coaxial digital inputs and outputs), and remote control.
+The Platinum and Fatal1ty FPS models both offer a front-panel drive-bay control unit and remote control, while the base model was supplied without any such accessories.
+All but the top model claimed 109 dB signal-to-noise ratio, while the Elite Pro model uses a higher-end DAC, with 116 dB claimed. The bottom two models feature 2 MB onboard X-RAM, while the top models offer 64 MB of X-RAM, designed for use in games to store sound samples for improved gaming performance. Launch reviews did not support Creative's claims of higher performance, however, with even the top-end 64 MB equipped model falling slightly behind the older Audigy cards.October 2006 saw a minor rebranding: the X-Fi XtremeMusic edition, which was in fact a highly capable gaming card, as it offers hardware decoding and EAX support, was replaced with the XtremeGamer model. The revised model featured half-width PCB, non-gold-plated connectors, optical out instead of the digital out and digital I/O module jack, and lacked the connector for users wishing to purchase a separate X-Fi I/O box. Functionality is otherwise the same.
+The market segment occupied by the XtremeMusic was moved downwards, with the introduction of the (cheaper) 'Xtreme Audio' and 'Xtreme Audio Notebook' products, which, despite the "X-Fi" label, are the only products in the X-Fi line not using the EMU20K1 chip (CA20K1) but an older chip similar to the Audigy SE and SB Live! cards (CA0106-WBTLF) and thus lacking the hardware acceleration of 3D sound and EAX sound effects, gaming and content creation features and the I/O extensibility of all the other X-Fi models.
+The other new product introduced was the X-Fi 'XtremeGamer Fatal1ty Pro', identical in function to the Fatal1ty FPS, but made more affordable by the unbundling of the I/O panel and remote control.
+In 2007 Creative Technology unveiled PCI Express x1 and ExpressCard/34 versions of Sound Blaster X-Fi Xtreme Audio during Consumer Electronics Show. Creative did not yet release PCIe versions of their EMU-based X-Fi cards as adapting the CA20K1 chip for PCIe proved to be troublesome, with the company itself reporting design difficulties, latency problems and delays.
+
+In 2008 the X-Fi Titanium series was announced, using the revised CA20K2 chip, which featured an integraded RISC processor for safeguarding against PCIe-induced latencies, a DDR SDRAM interface in place of SDRAM, and an integrated High Definition audio architecture (UAA) component. Products included the Fatal1ty cards with 64 MB X-RAM and an optional I/O drive bay, and the regular Titanium with 16 MB X-RAM, but the same 109 dB SNR spec as the former. Unlike the PCI cards, these cards use software-based Dolby Digital Live 5.1 encoding. In 2010 the Titanium HD was added to the lineup, featuring a new DAC with 122 dB SNR and RCA audio outputs, but dropping support for Windows XP.
+
+
+=== X-Fi USB products ===
+In addition to PCI and PCIe internal sound cards, Creative also released an external USB-based solution (named X-Mod) in November 2006. X-Mod is listed in the same category as the rest of the X-Fi lineup, but is only a stereo device, marketed to improve music playing from laptop computers, and with lower specifications than the internal offerings.
+Other external products that use X-Fi name include USB-based Sound Blaster X-Fi HD, Sound Blaster X-Fi Surround 5.1 Pro, and Sound Blaster X-Fi Go! Pro, Their internal hardware components are different for various usages and needs for gaming, surround, or audiophile standards.
+
+
+== X-Fi features ==
+
+The audio processor on X-Fi was the most powerful at its time of release, offering an extremely robust sample rate conversion (SRC) engine in addition to enhanced internal sound channel routing options and greater 3D audio enhancement capabilities. A significant portion of the audio processing unit was devoted to this resampling engine. The SRC engine was far more capable than previous Creative sound card offerings, a limitation that had been a major thorn in Creative's side. Most digital audio is sampled at 44.1 kHz, a standard no doubt related to CD-DA, while sound cards were often designed to process audio at 48 kHz. So, the 44.1 kHz audio must be resampled to 48 kHz (Creative's previous cards' DSPs operated at 48 kHz) for the audio DSP to be able to process and affect it. A poor resampling implementation introduces artifacts into the audio which can be heard, and measured as higher intermodulation distortion, within higher frequencies (generally 16 kHz and up). X-Fi's resampling engine produces a near-lossless-quality result, far exceeding any known audio card DSP available at the time of release. This functionality is used not only for simple audio playback, but for several other features of the card such as the "Crystalizer", a technology that claims to improve the clarity of digital music through digital analysis (supported by all X-Fi models, including the Xtreme Audio and X-Mod).
+The Sound Blaster X-Fi presents the following features, which are usually implemented with the aid of the X-Fi DSP or in software, in the Xtreme Audio model.
+Since its release X-Fi has caused several unsolved problems with sound glitches on various motherboards.
+
+
+=== Crystalizer ===
+Creative Labs states that the primary function of the Crystalizer is to "restore portions of the sound which were lost during compression". The "compression" that is meant here is not the digital file-size reduction achieved by digital audio data compression technologies like for example mp3. Rather, the idea is to reverse the effects of dynamic range compression, an analog technique that was and is used during the production of most 1990s and newer Audio CDs (with the exception of some classical music recordings) to make them sound louder at the same volume level setting, as it was found that subjectively louder CDs get more airplay and sell better. To achieve this loudness without introducing strong distortion, points in the signal where the volume reaches a maximum are compressed (which means in this case: reduced in volume), then the whole signal is multiplied by a factor so that the maximum volume is reached again. After this, the music as a whole is louder than it was before, but the maximum volume points (mostly transients) are not as pronounced as they were before. Since this whole process is done before the final Audio CD is recorded, its effect is equally present in uncompressed audio files created from such a CD, in lossless compressed audio made from the CD, as well as in lossy compressed audio from that same CD. Transients are typically found in percussive sounds, in plosive consonants of voice recordings, and during the first few milliseconds (the so-called attack phase) of non-percussive instrument sounds. All these tend to be somewhat muffled by dynamic range compression.To undo this effect, the Crystalizer uses a multiband compander (compressor/expander) with dynamically adjusted compression/expansion. Its main function is to detect transients and to increase their relative volume level. As a consequence of enabling the Crystalizer, the signal is altered, and whether the result improves upon the input audio is purely a matter of perception and can depend on the type of audio being played.
+
+
+=== CMSS-3D ===
+"CMSS-3D recreates realistic surround sound from any audio source and puts you right in the center of the action, whether you are using multichannel speakers or headphones." CMSS-3D is a DSP feature that provides audio enhancement. It requires Creative proprietary drivers and is not supported under Linux OS. Depending on the equipment used, CMSS-3D has 3 variants:
+CMSS-3D Headphone: When the Creative Control Panel is set to Headphones, this setting creates virtual 3D positional audio via synthesized binaural cues (see Sound localization and Head-related transfer function). If the application generating the audio uses a hardware-accelerated 3D audio API (i.e. DirectSound3D or OpenAL), the input for the binaural synthesis algorithms consists of up to 128 sound sources positioned arbitrarily in 3D space, this is the most accurate utilisation of CMSS-3D. If the application instead generates multi-channel sound directly (e.g. a media player app or a game with software-based audio processing), the input for the binaural synthesis algorithms consist of the 4 to 7 positional sound sources associated with the application's selected speaker configuration. Such applications may use the Speakers settings defined by Windows in which case it is possible to set the Windows Speakers configuration to a multichannel set-up, e.g. 5.1, so that the application will output multi channel audio.
+CMSS-3D Virtual (Stereo Xpand): When the Creative Control Panel is set to 2/2.1 or 4/4.1 speakers, this setting creates virtual 3D positional audio similar to CMSS-3DHeadphone. The difference is that this includes techniques such as crosstalk cancellation because sound from all speakers reaches BOTH ears which makes the binaural cues more complicated to synthesize. Additionally, the listener must be located in the "sweet spot" between all of the speakers for the effect to work properly. Note that this is not available (including MacroFX and ElevationFilter) when using 5.1 or more speakers. In these cases, 3D audio sources are mapped to speakers by manipulating the relative volume levels for the different speaker positions. Hardware accelerated 3D-audio is still handled as positional audio but translated using the more complex binaural algorithms. Note that more recent driver versions force the synchronisation between Windows Speakers configuration and the X-Fi control panel when this was previously optional so unlike CMSS-3D Headphone some multi-channel applications will not make use of the technology.
+CMSS-3D Surround: When the Creative Control Panel is set to 4/4.1, 5.1, 6.1, or 7.1 speakers, this setting will upmix stereo sources to multiple channels. Note that both CMSS-3DSurround and CMSS-3DVirtual can be enabled when using 4/4.1 speakers. As above hardware-accelerated 3D audio will be translated to the number of channels specified.
+
+
+=== MacroFX ===
+Enabling this setting will apply special filtering algorithms in order to improve localization for sound sources located very close to the listener.
+
+
+=== ElevationFilter ===
+Enabling this setting will apply special filtering algorithms in order to improve localization for sound sources located above or below the listener.
+
+
+=== EAX effects ===
+Environmental Audio Extensions is designed to be enabled by game developers within a game to enhance the "simulated-reality" the user is experiencing; for example, the ringing of game-world swords will sound differently depending on whether the protagonist is currently in a game-world temple vault or in a game-world open field. There are also 8 built-in EAX effects which can be enabled by the user.
+
+
+=== SVM ===
+This is Smart Volume Management. It is a compressor that evens out the dynamic range of any given source so that quieter sounds are louder and loud sounds are quiet. It is best used in circumstances where noise disturbance might be an issue, late at night for instance. Otherwise it is generally preferable to have it disabled as it does render the sound less dynamic, for instance lessening the impact of loud parts in movies, and also making music sound less lively.
+
+
+=== Graphic Equalizer ===
+This function divides music into ten frequency bands, which can be adjusted using the sliders.
+
+
+=== Mixer ===
+There are multiple volume adjustments for different inputs and outputs on the system. The master volume affects all of these settings. The default and recommended value is 50% for all sources, which actually equates to a 0 dB amplification (none), while a 100% value causes a 16 dB amplification.
+
+
+=== MIDI support ===
+As with many of Creative's previous sound cards, the X-Fi supports SoundFonts. Additionally, the Audio Creation Mode of the card allows the use of EAX in MIDI playback via the use of controllers.
+
+
+=== Dolby Digital bitstream out ===
+This setting controls the DD sound encoder.
+
+
+=== DTS (Digital Theater Systems) bitstream out ===
+This setting is the same as Dolby Digital Bitstream Out, only with DTS sound instead.
+
+
+== Operating system support ==
+Although Creative was slow to embrace 64-bit drivers for the X-Fi lineup, most x86-64 architecture based operating systems are now supported. Microsoft Windows 7 includes basic driver support for many of the X-Fi series cards. Many of the X-Fi features however require the software applications provided by Creative in order to utilize the full capabilities of the hardware.
+
+
+=== Linux support ===
+On September 24, 2007 Creative Labs released a closed source unsupported beta driver providing Linux 64-bit OS support for the following Sound Blaster X-Fi series sound cards:
+Creative Sound Blaster X-Fi Elite Pro
+Creative Sound Blaster X-Fi Platinum
+Creative Sound Blaster X-Fi Fatal1ty
+Creative Sound Blaster X-Fi XtremeGamer
+Creative Sound Blaster X-Fi XtremeMusicAn open-source driver is available with OSS v4 build 1013 and above. Datasheets were provided by Creative to enable ALSA driver development.On November 6, 2008 Creative finally released their driver under a GPL license. It supports x86 as well as x86-64 architectures and is listed in their support area.On May 15, 2009 after some communications with Creative, SUSE developer Takashi Iwai finally got a mergeable version of their X-Fi driver. On August 31, 2009 the driver (snd-ctxfi) was included in release of ALSA 1.0.21. Support for Creative Sound Blaster X-Fi Titanium HD was added on January 25, 2012 in ALSA v1.0.25 release. This driver does not support I/O Front panel and its IR, because that documentation part was missing.
+Xtreme Audio that has a different chipset stayed unsupported for longer time. It is currently supported by advanced Linux ALSA driver modules but might require  installation of additional packages from alternative repositories.X-Fi MB as a pure software solution has Windows as a system requirement and thus does not provide Linux support.
+
+
+== X-Fi line-up ==
+
+
+=== Products in the X-Fi Family ===
+SNR is 109 dB for Multi channel analog outputs and 115 dB for Stereo analog outputs.
+All PCI Fatal1ty cards have "Fatal1ty" sign with two red LEDs. PCIe Fatal1ty cards have no illuminated Fatal1ty logo and only features the X-Fi logo illuminated by two white LEDs (however it does have the Fatal1ty branding on the heatsink of the card). Elite Pro card has "X-Fi" sign with two blue LEDs.
+The I/O Console is an external box with analog and digital I/O audio jacks and volume control knobs. It is always bundled with the remote control.
+The I/O Drive Box is an internal 5​1⁄4 drive with analog and digital I/O audio jacks and volume control knobs. Also bundled with the remote control.
+Cards with UAA support (CA0112, integrated in CA20K2 for Titanium cards) can perform basic functions with just the supplied Windows driver.
+All Creative cards have 3x 1/8 inch jacks for analog headphone/speaker output (2 of them are 4-segment-jacks for a total of 7.1 sound output), some partner's cards such as AUDIOTRAK Prodigy 7.1e and Auzentech BRAVURA and Forte have separated headphone output.
+All Creative cards except XtremeGamer have 1x shared 1/8 inch jack for either: Line In / Microphone / Digital Out / Digital I/O Module. The optional Digital I/O Module is an external box for handling digital IO: 1x Coax In, 1x Coax Out, 1x Optical In, 1x Optical Out. The XtremeGamer card has 1x shared 1/8 inch jack for either: Line In / Microphone / Optical Out (TOSLINK minijack). It does not support the Digital I/O Module. Some partner's cards such as Auzentech Prelude and Forte has separated 'Line In / Microphone' and 'Digital I/O' jack.
+For the PCIe X-Fi cards, remote control support requires a USB receiver and is sold separately.
+The Titanium HD lacks analog surround sound outputs.
+
+
+=== X-Fi Xtreme Audio ===
+The entry-level model of the X-Fi series, the Sound Blaster X-Fi Xtreme Audio, does not actually have the EMU20K1 chip but is a re-branded Audigy SE, using the same family of chips (CA0106-WBTLF), and even the same drivers. Thus, not only is all of the X-Fi–related processing performed in software, but it also lacks basic hardware acceleration just like the SB Live! 24-bit, the Audigy SE and other budget Soundblaster models. The X-Fi Xtreme Audio does not use the same drivers as the rest of the X-Fi family (and lacks ASIO), some games do not recognize it as being "X-Fi capable hardware", and the device's hardware profile resembles that of older Live! and Audigy cards.
+
+
+=== X-Fi MB ===
+X-Fi MB is a software solution that enables basic X-Fi features on computers with integrated audio into an X-Fi device. It requires some degree of driver support from the audio hardware manufacturer. X-Fi MB is commonly bundled with motherboards and computer systems, and is comparable to an X-Fi XtremeAudio. Bundled with some Asus and ASRock motherboards, the X-Fi MB is sold as X-Fi Supreme FX and is actually a standard Analog Devices integrated HD audio codec paired with X-Fi MB. The X-Fi features are implemented entirely in the software. Other hardware vendors sell the X-Fi MB solution simply as Sound Blaster X-Fi Integrated Sound.
+X-Fi MB is available in different versions e.g. X-Fi MB, X-Fi MB2, X-Fi MB3 and X-Fi MB5.
+The current version available on select laptops and desktops is X-Fi MB5.
+A non-OEM version of X-Fi MB3 is sold by Creative Labs  and works with compatible motherboard sound chips such as Realtek. X-Fi MB3 provides an effective software version of a full X-Fi card and is also provided with a version of Alchemy that works with non-Creative sound cards to restore legacy EAX effects.
+
+
+== See also ==
+E-mu 20K
+AMD TrueAudio
+
+
+== References ==
+
+
+== External links ==
+Creative Sound Blaster X-Fi - Page unavailable as of February 2015. Creative's official Marketing and Technology page for the Sound Blaster X-Fi series

@@ -1,0 +1,44 @@
+Title: W80 (nuclear warhead)
+Aspects: {'W80'}
+
+The W80 is a low to intermediate yield two-stage thermonuclear warhead deployed by the U.S. enduring stockpile with a variable yield ("dial-a-yield") of 5–150 kt of TNT.
+It was designed for deployment on cruise missiles and is the warhead used in all nuclear-armed ALCM and ACM missiles deployed by the US Air Force, and in the US Navy's BGM-109 Tomahawk.  It is essentially a modification of the widely deployed B61 weapon, which forms the basis of most of the current US stockpile of nuclear gravity bombs.  The very similar W84 warhead was deployed on the retired BGM-109G Ground Launched Cruise Missile.
+
+
+== Dimensions ==
+The W80 is physically quite small: the physics package itself is about the size of a conventional Mk.81 250-pound (110 kg) bomb, 11.8 inches (30 cm) in diameter and 31.4 inches (80 cm) long, and only slightly heavier at about 290 pounds (130 kg).
+Armorers have the ability to select the yield of the resulting explosion in-flight, a capability referred to as variable yield, colloquially referred to as "dial-a-yield". The minimum yield, perhaps using just the boosted fission primary, is around 5 kilotons of TNT; the highest yield is equivalent to around 150 kt.
+
+
+== History ==
+
+
+=== Early development ===
+The Los Alamos National Laboratory began development on the W80 in June 1976, with the brief of producing a custom weapon for the cruise missiles then under construction. With "the basic design" being derived from the B61. The main design differences are presumably a smaller secondary producing only 150 kt yield (the B61 producing a maximum of 170kt in the tactical variants and 340kt in the strategic variants) and simplification of the design giving the weapon only two yield settings; 5 and 150 kt.
+Production of the W80 Model 1 (W80-1 or Mod 1) to arm the ALCM started in January 1979, and a number of warheads had been completed by January 1981 when the first low-temperature test was carried out. To everyone's surprise the test delivered a much lower yield than was expected, apparently due to problems in the TATB based insensitive high explosives used to fire the primary. This problem turned out to affect several models of the B61-based line, and production of all weapons was suspended while a solution was worked on. Production restarted in February 1982.
+In March 1982, designers began working on a W80 variant intended for the Navy's Tomahawk program. The W80 Model 0 (W80-0 or Mod 0) used "supergrade" fission fuel, which has less radioactivity, in the primary in place of the conventional plutonium used in the Air Force's version. "Supergrade" is industry parlance for plutonium alloy bearing an exceptionally high fraction of Pu-239 (>95%), leaving a very low amount of Pu-240 which is a gamma emitter in addition to being a high spontaneous fission isotope. Such plutonium is produced from fuel rods that have been irradiated a very short time as measured in MW-Day/Ton burnup. Such low irradiation times limit the amount of additional neutron capture and therefore buildup of alternate isotope products such as Pu-240 in the rod, and also by consequence is considerably more expensive to produce, needing far more rods irradiated and processed for a given amount of plutonium.  Submarine crew members routinely operate in proximity to stored weapons in torpedo rooms, in contrast to the air force where exposure to warheads is relatively brief. The first models were delivered in December 1983 and the Mod 0 went into full production in March 1984.
+Production of the W80 was completed by September 1990, although the exact date at which the respective Mod 0 and Mod 1 runs ended is not clear.  A total of 1750 Mod 1 and 367 Mod 0 devices were delivered; 1,000 Mod 1 devices were deployed on the original ALCM, another 400 on the later ACM, and 350 Mod 0s on the Tomahawk.
+Some of the original ALCMs equipped with the Mod 1 later had their warheads removed in order to use them with conventional explosives (the CALCM conversion), and under START II only 400 ACMs would have retained their warheads and the rest would have been removed, apparently with all remaining ALCMs converted to CALCMs and their warheads removed to the inactive stockpile.
+
+
+=== 2007 nuclear weapons incident ===
+
+On August 30, 2007, six cruise missiles armed with W80-1 warheads were mistakenly loaded onto a B-52 and flown from Minot Air Force Base, North Dakota, to Barksdale Air Force Base, Louisiana, on a mission to transport cruise missiles for decommissioning. It was not discovered that the six missiles had nuclear warheads until the plane landed at Barksdale, leaving the warheads unaccounted for over 36 hours. This was the first time since 1968 that nuclear warheads were publicly revealed to have been transported on a US bomber. The munitions crews involved in mistakenly loading the nuclear warheads at Minot were temporarily decertified from performing their duties involving nuclear munitions.
+
+
+=== W80-4 Refurbishment and LRSO ===
+A refurbishment of the W80-1, the W80-4, was begun in 2014 and was selected for the ALCM and a new LRSO cruise missile.  It is expected to be delivered around 2025.  The program public descriptions have no additional functional features other than replacing old expired components with new equivalent components.
+
+
+== See also ==
+List of nuclear weapons
+
+
+== References ==
+
+W80 information from Cary Sublette's NuclearWeaponArchive.org
+Gibson, James N. (2000). Nuclear Weapons of the United States: An Illustrated History. Schiffer Publishing. ISBN 0-7643-0063-6.
+
+
+== External links ==
+W80 information from globalsecurity.org

@@ -1,0 +1,264 @@
+Title: N-sphere
+Aspects: {'𝕊'}
+
+In mathematics, the n-sphere is the generalization of the ordinary sphere to spaces of arbitrary dimension.  It is an n-dimensional manifold that can be embedded in Euclidean (n + 1)-space.
+The 0-sphere is a pair of points, the 1-sphere is a circle, and the 2-sphere is an ordinary sphere.  Generally, when embedded in an (n + 1)-dimensional Euclidean space, an n-sphere is the surface or boundary of an (n + 1)-dimensional ball.  That is, for any natural number n, an n-sphere of radius r may be defined in terms of an embedding in (n + 1)-dimensional Euclidean space as the set of points that are at distance r from a central point, where the radius r may be any positive real number. Thus, the n-sphere would be defined by:
+
+  
+    
+      
+        
+          S
+          
+            n
+          
+        
+        =
+        
+          {
+          
+            x
+            ∈
+            
+              
+                R
+              
+              
+                n
+                +
+                1
+              
+            
+            :
+            
+              ‖
+              x
+              ‖
+            
+            =
+            r
+          
+          }
+        
+        .
+      
+    
+    {\displaystyle S^{n}=\left\{x\in \mathbb {R} ^{n+1}:\left\|x\right\|=r\right\}.}
+  In particular:
+
+the pair of points at the ends of a (one-dimensional) line segment is a 0-sphere,
+the circle, which is the one-dimensional circumference of a (two-dimensional) disk in the plane is a 1-sphere,
+the two-dimensional surface of a (three-dimensional) ball in three-dimensional space is a 2-sphere, often simply called a sphere,
+the three-dimensional boundary of a (four-dimensional) 4-ball in four-dimensional Euclidean is a 3-sphere, also known as a glome.
+the n-1 dimensional boundary of a (n-dimensional) n-ball is a general n-sphere which can be denoted as a "glone".An n-sphere embedded in an (n + 1)-dimensional Euclidean space is called a hypersphere.  The n-sphere of unit radius is called the unit n-sphere, denoted Sn, often referred to as the n-sphere.
+When embedded as described, an n-sphere is the surface or boundary of an (n + 1)-dimensional ball. For n ≥ 2, the n-spheres are the simply connected n-dimensional manifolds of constant, positive curvature. The n-spheres admit several other topological descriptions: for example, they can be constructed by gluing two n-dimensional Euclidean spaces together, by identifying the boundary of an n-cube with a point, or (inductively) by forming the suspension of an (n − 1)-sphere.
+
+
+== Description ==
+For any natural number n, an n-sphere of radius r is defined as the set of points in (n + 1)-dimensional Euclidean space that are at distance r from some fixed point c, where r may be any positive real number and where c may be any point in (n + 1)-dimensional space. In particular:
+
+a 0-sphere is a pair of points {c − r, c + r}, and is the boundary of a line segment (1-ball).
+a 1-sphere is a circle of radius r centered at c, and is the boundary of a disk (2-ball).
+a 2-sphere is an ordinary 3-dimensional sphere in 3-dimensional Euclidean space, and is the boundary of an ordinary ball (3-ball).
+a 3-sphere is a sphere in 4-dimensional Euclidean space.
+
+
+=== Euclidean coordinates in (n + 1)-space ===
+The set of points in (n + 1)-space, (x1, x2, ..., xn+1), that define an n-sphere, Sn, is represented by the equation:
+
+  
+    
+      
+        
+          r
+          
+            2
+          
+        
+        =
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+            +
+            1
+          
+        
+        
+          
+            (
+            
+              
+                x
+                
+                  i
+                
+              
+              −
+              
+                c
+                
+                  i
+                
+              
+            
+            )
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle r^{2}=\sum _{i=1}^{n+1}\left(x_{i}-c_{i}\right)^{2}}
+  where c=(c1, c2, ..., cn+1) is a center point, and r is the radius.
+The above n-sphere exists in (n + 1)-dimensional Euclidean space and is an example of an n-manifold.  The volume form ω of an n-sphere of radius r is given by
+
+  
+    
+      
+        ω
+        =
+        
+          
+            1
+            r
+          
+        
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            n
+            +
+            1
+          
+        
+        (
+        −
+        1
+        
+          )
+          
+            j
+            −
+            1
+          
+        
+        
+          x
+          
+            j
+          
+        
+        
+        d
+        
+          x
+          
+            1
+          
+        
+        ∧
+        ⋯
+        ∧
+        d
+        
+          x
+          
+            j
+            −
+            1
+          
+        
+        ∧
+        d
+        
+          x
+          
+            j
+            +
+            1
+          
+        
+        ∧
+        ⋯
+        ∧
+        d
+        
+          x
+          
+            n
+            +
+            1
+          
+        
+        =
+        ∗
+        d
+        r
+      
+    
+    {\displaystyle \omega ={\frac {1}{r}}\sum _{j=1}^{n+1}(-1)^{j-1}x_{j}\,dx_{1}\wedge \cdots \wedge dx_{j-1}\wedge dx_{j+1}\wedge \cdots \wedge dx_{n+1}=*dr}
+  where ∗ is the Hodge star operator; see Flanders (1989, §6.1) for a discussion and proof of this formula in the case r = 1.  As a result,
+
+  
+    
+      
+        d
+        r
+        ∧
+        ω
+        =
+        d
+        
+          x
+          
+            1
+          
+        
+        ∧
+        ⋯
+        ∧
+        d
+        
+          x
+          
+            n
+            +
+            1
+          
+        
+        .
+      
+    
+    {\displaystyle dr\wedge \omega =dx_{1}\wedge \cdots \wedge dx_{n+1}.}
+  
+
+
+=== n-ball ===
+
+The space enclosed by an n-sphere is called an (n + 1)-ball. An (n + 1)-ball is closed if it includes the n-sphere, and it is open if it does not include the n-sphere.
+Specifically:
+
+A 1-ball, a line segment, is the interior of a 0-sphere.
+A 2-ball, a disk, is the interior of a circle (1-sphere).
+A 3-ball, an ordinary ball, is the interior of a sphere (2-sphere).
+A 4-ball is the interior of a 3-sphere, etc.
+
+
+=== Topological description ===
+Topologically, an n-sphere can be constructed as a one-point compactification of n-dimensional Euclidean space.  Briefly, the n-sphere can be described as Sn = Rn ∪ {∞}, which is n-dimensional Euclidean space plus a single point representing infinity in all directions.
+In particular, if a single point is removed from an n-sphere, it becomes homeomorphic to Rn. This forms the basis for stereographic projection.
+
+
+== Volume and surface area ==

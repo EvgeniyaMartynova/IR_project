@@ -1,0 +1,44 @@
+Title: Computational RAM
+Aspects: {'C-RAM'}
+
+Computational RAM or C-RAM is random-access memory with processing elements integrated on the same chip.  This enables C-RAM to be used as a SIMD computer. It also can be used to more efficiently use memory bandwidth within a memory chip.
+
+
+== Overview ==
+The most influential implementations of computational RAM came from The Berkeley IRAM Project. Vector IRAM (V-IRAM) combines DRAM with a vector processor integrated on the same chip.Reconfigurable Architecture DRAM (RADram) is DRAM with reconfigurable computing FPGA logic elements integrated on the same chip.
+SimpleScalar simulations show that RADram (in a system with a conventional processor) can give orders of magnitude better performance on some problems than traditional DRAM (in a system with the same processor).
+Some embarrassingly parallel computational problems are already limited by the von Neumann bottleneck between the CPU and the DRAM.
+Some researchers expect that, for the same total cost, a machine built from computational RAM will run orders of magnitude faster than a traditional general-purpose computer on these kinds of problems.As of 2011, the "DRAM process" (few layers; optimized for high capacitance) and the "CPU process" (optimized for high frequency; typically twice as many BEOL layers as DRAM; since each additional layer reduces yield and increases manufacturing cost, such chips are relatively expensive per square millimeter compared to DRAM) is distinct enough that there are three approaches to computational RAM:
+
+starting with a CPU-optimized process and a device that uses lots of embedded SRAM, add an additional process step (making it even more expensive per square millimeter) to allow replacing the embedded SRAM with embedded DRAM (eDRAM), giving ≈3x area savings on the SRAM areas (and so lowering net cost per chip).
+starting with a system with a separate CPU chip and DRAM chip(s), add small amounts of "coprocessor" computational ability to the DRAM, working within the limits of the DRAM process and adding only small amounts of area to the DRAM, to do things that would otherwise be slowed down by the narrow bottleneck between CPU and DRAM: zero-fill selected areas of memory, copy large blocks of data from one location to another, find where (if anywhere) a given byte occurs in some block of data, etc. The resulting system—the unchanged CPU chip, and "smart DRAM" chip(s)—is at least as fast as the original system, and potentially slightly lower in cost. The cost of the small amount of extra area is expected to be more than paid back in savings in expensive test time, since there is now enough computational capability on a "smart DRAM" for a wafer full of DRAM to do most testing internally in parallel, rather than the traditional approach of fully testing one DRAM chip at a time with an expensive external automatic test equipment.
+starting with a DRAM-optimized process, tweak the process to make it slightly more like the "CPU process", and build a (relatively low-frequency, but low-power and very high bandwidth) general-purpose CPU within the limits of that process.Some CPUs designed to be built on a DRAM process technology (rather than a "CPU" or "logic" process technology specifically optimized for CPUs) include
+The Berkeley IRAM Project, TOMI Technology
+and the AT&T DSP1.
+Because a memory bus to off-chip memory has many times the capacitance of an on-chip memory bus, a system with separate DRAM and CPU chips can have several times the energy consumption of an IRAM system with the same computer performance.
+Because computational DRAM is expected to run hotter than traditional DRAM,
+and increased chip temperatures result in faster charge leakage from the DRAM storage cells,
+computational DRAM is expected to require more frequent DRAM refresh.
+
+
+== Processor-in-/near-memory ==
+A processor-in-/near-memory (PINM) refers to a computer processor (CPU) tightly coupled to memory, generally on the same silicon chip.
+The chief goal of merging the processing and memory components in this way is to reduce memory latency and increase bandwidth. Alternatively reducing the distance that data needs to be moved reduces the power requirements of a system. Much of the complexity (and hence power consumption) in current processors stems from strategies to deal with avoiding memory stalls.
+
+
+== Examples ==
+In the 1980s, a tiny CPU that executed FORTH was fabricated into a DRAM chip to improve PUSH and POP.  FORTH is a stack-oriented programming language and this improved its efficiency.
+The transputer also had large on chip memory given that it was made in the early 1980s making it essentially a processor-in-memory.
+Notable PIM projects include the Berkeley IRAM project (IRAM) at the University of California, Berkeley project and the University of Notre Dame PIM effort.
+
+
+== See also ==
+Computing with Memory
+SyNAPSE also combines processing and memory in one chip.
+
+
+== References ==
+
+
+== Bibliography ==
+Duncan Elliott, Michael Stumm, W. Martin Snelgrove, Christian Cojocaru, Robert McKenzie, "Computational RAM: Implementing Processors in Memory", IEEE Design and Test of Computers, vol. 16, no. 1,  pp. 32–41, Jan–Mar 1999. doi:10.1109/54.748803.

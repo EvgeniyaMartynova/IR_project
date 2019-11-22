@@ -1,0 +1,20 @@
+Title: Complemented group
+Aspects: {'K-group'}
+
+In mathematics, in the realm of group theory, the term complemented group is used in two distinct, but similar ways.
+In (Hall 1937), a complemented group is one in which every subgroup has a group-theoretic complement.  Such groups are called completely factorizable groups in the Russian literature, following (Baeva 1953) and (Černikov 1953).
+The following are equivalent for any finite group G:
+
+G is complemented
+G is a subgroup of a direct product of groups of square-free order (a special type of Z-group)
+G is a supersolvable group with elementary abelian Sylow subgroups (a special type of A-group), (Hall 1937, Theorem 1 and 2).Later, in (Zacher 1953), a group is said to be complemented if the lattice of subgroups is a complemented lattice, that is, if for every subgroup H there is a subgroup K such that H∩K=1 and ⟨H,K⟩ is the whole group.  Hall's definition required in addition that H and K permute, that is, that HK = { hk : h in H, k in K } form a subgroup.  Such groups are also called K-groups in the Italian and lattice theoretic literature, such as (Schmidt 1994, pp. 114–121, Chapter 3.1).  The Frattini subgroup of a K-group is trivial; if a group has a core-free maximal subgroup that is a K-group, then it itself is a K-group; hence subgroups of K-groups need not be K-groups, but quotient groups and direct products of K-groups are K-groups, (Schmidt 1994, pp. 115–116).  In (Costantini & Zacher 2004) it is shown that every finite simple group is a complemented group.  Note that in the classification of finite simple groups, K-group is more used to mean a group whose proper subgroups only have composition factors amongst the known finite simple groups.
+An example of a group that is not complemented (in either sense) is the cyclic group of order p2, where p is a prime number. This group only has one nontrivial subgroup H, the cyclic group of order p, so there can be no other subgroup L to be the complement of H.
+
+
+== References ==
+Baeva, N. V. (1953), "Completely factorizable groups", Doklady Akademii Nauk SSSR (N.S.), 92: 877–880, MR 0059275
+Černikov, S. N. (1953), "Groups with systems of complementary subgroups", Doklady Akademii Nauk SSSR (N.S.), 92: 891–894, MR 0059276
+Costantini, Mauro; Zacher, Giovanni (2004), "The finite simple groups have complemented subgroup lattices", Pacific Journal of Mathematics, 213 (2): 245–251, doi:10.2140/pjm.2004.213.245, ISSN 0030-8730, MR 2036918
+Hall, Philip (1937), "Complemented groups", J. London Math. Soc., 12: 201–204, doi:10.1112/jlms/s1-12.2.201, Zbl 0016.39301
+Schmidt, Roland (1994), Subgroup Lattices of Groups, Expositions in Math, 14, Walter de Gruyter, ISBN 978-3-11-011213-9, MR 1292462
+Zacher, Giovanni (1953), "Caratterizzazione dei gruppi risolubili d'ordine finito complementati", Rendiconti del Seminario Matematico della Università di Padova, 22: 113–122, ISSN 0041-8994, MR 0057878

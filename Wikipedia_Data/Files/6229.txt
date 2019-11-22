@@ -1,0 +1,59 @@
+Title: Palatal approximant
+Aspects: {'J (disambiguation)'}
+
+The voiced palatal approximant is a type of consonant used in many spoken languages. The symbol in the International Phonetic Alphabet that represents this sound is ⟨j⟩. The equivalent X-SAMPA symbol is j, and in the Americanist phonetic notation it is ⟨y⟩. Because the English name of the letter J, jay, does not start with [j] but with [d͡ʒ] (voiced palato-alveolar affricate), this approximant is sometimes called yod instead, as in the phonological history terms yod-dropping and yod-coalescence.
+
+
+== Nature of the sound ==
+The palatal approximant can in many cases be considered the semivocalic equivalent of the close front unrounded vowel [i]. The two are almost identical featurally. They alternate with each other in certain languages, such as French, and in the diphthongs of some languages, ⟨j⟩ and ⟨i̯⟩ with the non-syllabic diacritic are used in different transcription systems to represent the same sound.
+Some languages, though, have a palatal approximant that is unspecified for rounding, and therefore cannot be considered the semivocalic equivalent of either [i] or its rounded counterpart [y] (which would normally correspond to [ɥ]). An example of such language is Spanish, which distinguishes two palatal approximants: an approximant semivowel [j], which is always unrounded, and an unspecified for rounding approximant consonant [ʝ̞]. Eugenio Martínez Celdrán describes the difference between them as follows:
+[j] is shorter and is usually a merely transitory sound. It can only exist together with a full vowel and does not appear in syllable onset. [On the other hand,] [ʝ̞] has a lower amplitude, mainly in F2. It can only appear in syllable onset. It is not noisy either articulatorily or perceptually. [ʝ̞] can vary towards [ʝ] in emphatic pronunciations, having noise (turbulent airstream). (...)
+There is a further argument through which we can establish a clear difference between [j] and [ʝ̞]: the first sound cannot be rounded, not even through co-articulation, whereas the second one is rounded before back vowels or the back semi-vowel. Thus, in words like viuda [ˈbjuð̞a] 'widow', Dios [ˈdjos] 'God', vio [ˈbjo] 's/he saw', etc., the semi-vowel [j] is unrounded; if it were rounded a sound that does not exist in Spanish, [ɥ], would appear. On the other hand, [ʝ̞] is unspecified as far as rounding is concerned and it is assimilated to the labial vowel context: rounded with rounded vowels, e.g. ayuda [aˈʝ̞ʷuð̞a] 'help', coyote [koˈʝ̞ʷote] 'coyote', hoyuelo [oˈʝ̞ʷwelo] 'dimple', etc., and unrounded with unrounded vowels: payaso [paˈʝ̞aso] 'clown', ayer [aˈʝ̞eɾ] 'yesterday'.
+
+He also says that in his opinion, "the IPA shows a lack of precision in the treatment it gives to approximants, if we take into account our understanding of the phonetics of Spanish. [ʝ̞] and [j] are two different segments, but they have to be labelled as voiced palatal approximant consonants. I think that the former is a real consonant, whereas the latter is a semi-consonant, as it has traditionally been called in Spanish, or a semi-vowel, if preferred. The IPA, though, classifies it as a consonant."There is a parallel problem with transcribing the voiced velar approximant.
+The symbol ⟨ʝ̞⟩ may also be used when the palatal approximant is merely an allophone of the voiced palatal fricative /ʝ/ as, compared with ⟨j⟩, it is somewhat more similar to the symbol ⟨ʝ⟩. The X-SAMPA equivalent of ⟨ʝ̞⟩ is j\_o.
+The symbol ⟨ʝ̞⟩ may not display properly in all browsers. In that case, ⟨ʝ˕⟩ should be substituted.
+In the writing systems used for most of the languages of Central, Northern, and Eastern Europe, the letter j denotes the palatal approximant, as in German Jahr 'year'. That is followed by IPA although it may be counterintuitive for English speakers (words occur with this sound in a few loanwords in English like Hebrew "hallelujah" and German "Jägermeister").
+In grammars of Ancient Greek, the palatal approximant, which was lost early in the history of Greek, is sometimes written as ⟨ι̯⟩ (iota with the inverted breve below, the nonsyllabic diacritic or marker of a semivowel).There is also the post-palatal approximant in some languages, which is articulated slightly more back compared with the place of articulation of the prototypical palatal approximant, though not as back as the prototypical velar approximant. It can be considered the semivocalic equivalent of the close central unrounded vowel [ɨ], and the two are almost identical featurally. The International Phonetic Alphabet does not have a separate symbol for that sound, though it can be transcribed as ⟨j̠⟩, ⟨j˗⟩ (both symbols denote a retracted ⟨j⟩), ⟨ɰ̟⟩ or ⟨ɰ˖⟩ (both symbols denote an advanced ⟨ɰ⟩). The equivalent X-SAMPA symbols are j_- and M\_+, respectively. Other possible transcriptions include a centralized ⟨j⟩ (⟨j̈⟩ in the IPA, j_" in X-SAMPA), a centralized ⟨ɰ⟩ (⟨ɰ̈⟩ in the IPA, M\_" in X-SAMPA) and a non-syllabic ⟨ɨ⟩ (⟨ɨ̯⟩ in the IPA, 1_^ in X-SAMPA).
+For the reasons mentioned above and in the article velar approximant, none of these symbols are appropriate for languages such as Spanish, in which the post-palatal approximant consonant (not a semivowel) appears as an allophone of /ɡ/ before front vowels, and is best transcribed ⟨ʝ̞˗⟩, ⟨ʝ˕˗⟩ (both symbols denote a lowered and retracted ⟨ʝ⟩), ⟨ɣ̞˖⟩ or ⟨ɣ˕˖⟩ (both symbols denote a lowered and advanced ⟨ɣ⟩). The equivalent X-SAMPA symbols are j\_o_- and G_o_+.
+Especially in broad transcription, the post-palatal approximant may be transcribed as a palatalized velar approximant (⟨ɰʲ⟩, ⟨ɣ̞ʲ⟩ or ⟨ɣ˕ʲ⟩ in the IPA, M\', M\_j, G'_o or G_o_j in X-SAMPA).
+
+
+== Features ==
+Features of the palatal approximant:
+
+Its manner of articulation is approximant, which means it is produced by narrowing the vocal tract at the place of articulation, but not enough to produce a turbulent airstream. The most common type of this approximant is glide or semivowel. The term glide emphasizes the characteristic of movement (or 'glide') of [j] from the [i] vowel position to a following vowel position. The term semivowel emphasizes that, although the sound is vocalic in nature, it is not 'syllabic' (it does not form the nucleus of a syllable). For a description of the approximant consonant variant used e.g. in Spanish, see above.
+Its place of articulation is palatal, which means it is articulated with the middle or back part of the tongue raised to the hard palate. The otherwise identical post-palatal variant is articulated slightly behind the hard palate, making it sound slightly closer to the velar [ɰ].
+Its phonation is voiced, which means the vocal cords vibrate during the articulation.
+It is an oral consonant, which means air is allowed to escape through the mouth only.
+It is a central consonant, which means it is produced by directing the airstream along the center of the tongue, rather than to the sides.
+The airstream mechanism is pulmonic, which means it is articulated by pushing air solely with the lungs and diaphragm, as in most sounds.
+
+
+== Occurrence ==
+
+
+=== Palatal ===
+
+
+=== Post-palatal ===
+
+
+=== Variable ===
+
+
+== See also ==
+Voiceless palatal approximant
+Palatal lateral approximant
+Nasal palatal approximant
+Index of phonetics articles
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+List of languages with [j] on PHOIBLE

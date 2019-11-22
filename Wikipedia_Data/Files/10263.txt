@@ -1,0 +1,82 @@
+Title: Leptosphaeria maculans
+Aspects: {'P. brassicae'}
+
+Leptosphaeria maculans (anamorph Phoma lingam) is a fungal pathogen of the phylum Ascomycota that is the causal agent of blackleg disease on Brassica crops. Its genome has been sequenced, and L. maculans is a well-studied model phytopathogenic fungus. Symptoms of blackleg generally include basal stem cankers, small grey lesions on leaves, and root rot. The major yield loss is due to stem canker. The fungus is dispersed by the wind as ascospores or rain splash in the case of the conidia. L. maculans grows best in wet conditions and a temperature range of 5–20 degrees Celsius. Rotation of crops, removal of stubble, application of fungicide, and crop resistance are all used to manage blackleg. The fungus is an important pathogen of Brassica napus (canola) crops.
+
+
+== Host and symptoms ==
+L. maculans causes phoma stem canker or blackleg. Symptoms generally include basal stem cankers, small grey oval lesions on the leaf tissue and root rot (as the fungus can directly penetrate roots). L. maculans infects a wide variety of Brassica crops including cabbage (Brassica oleracea) and oilseed rape (Brassica napus). L. maculans is especially virulent on Brassica napus. The first dramatic epidemic of L. maculans occurred in Wisconsin on cabbage. The disease is diagnosed by the presence of small black pycnidia which occur on the edge of the leaf lesions. The presence of these pycnidia allow for this disease to be distinguished from Alternaria brassicae, another foliar pathogen with similar lesions, but no pycnidia.
+
+
+== Disease cycle ==
+L. maculans has a complicated life cycle. The pathogen begins as a saprophyte on stem residue and survives in the stubble. It then begins a hemibiotrophic stage that results in the production of leaf spots. Colonizing the plant tissue systematically, it begins its endophytic stage within the stem. When the growing season ends, the fungus causes cankers at the base of the plant thereby beginning another necrotrophic stage.
+L. maculans has both a teleomorph phase (sexual reproduction to generate pseudothecia that release ascospores) and an anamorph phase (asexual reproduction to produce pycnidia that release pycnidiospores). The disease spreads by wind born dispersal of ascospores and rain splash of conidia. In addition, phoma stem canker can also be spread by infected seeds when the fungus infects the seed pods of Brassica napus during the growing season, but this is far less frequent. The disease is polycyclic in nature even though the conidia are not as virulent as the ascospores.   The disease cycle starts with airborne ascospores which are released from the pseudothecia in the spring. The ascospores enter through the stomata to infect the plant. Soon after the infection, gray lesions and black pycnidia form on the leaves.
+During the growing season, these pycnidia produce conidia that are dispersed by rain splash. These spores cause a secondary infection which is usually less severe than primary infection with ascospores. Stem cankers form from the disease moving systemically through the plant. Following the colonization of the intercellular spaces, the fungus will reach a vascular strand and spread down the stalk between the leaf and the stem. The disease will spread into as well as between the cells of the xylem. This colonization leads to the invasion and destruction of the stem cortex, which leads to the formation of stem canker.Stubble forms after the growing season due to residual plant material left in the field after harvest. The disease overwinters as pseudothecia and mycelium in the stubble. In spring the pseudothecia release their ascospores and the cycle repeats itself.
+
+
+== Environment ==
+Temperature and moisture are the two most important environmental conditions for the development of L. maculans spores. A temperature of 5-20 degrees Celsius is the optimal temperature range for pseudothecia to mature. A wet humid environment increases the severity of the disease due to the dispersal of conidia by rain splash. As well as rain, hail storms also increase the severity of the disease.
+
+
+== Management ==
+Cultural methods such as removing stubble and crop rotation can be very effective. By removing the stubble, overwintering pseudothecia and mycelium are less prevalent, reducing the risk of infection. In Canada, crop rotation decreases blackleg dramatically in canola crops. It is suggested to have a 3-year crop rotation of canola and to plant non-host plants such as cereals in between these periods. Chemical methods, such as the application of fungicides, can decrease instances of disease. EBI and MBC fungicides are typically used. EBI fungicides inhibit Ergosterol biosynthesis whereas MBC fungicides disrupt beta tubuline assembly in mitosis. EBIs are the best option for control of L. maculans as they inhibit the growth of conidia. Although fungicides such as EBIs are effective on conidia, they have no effect on ascospores which will grow regardless of the fungicide concentration. Resistance methods can also be used to great effect. Typically race specific Rlm genes are used for resistance (Rlm1-Rlm9) in Brassica napus crops.
+
+
+=== Plant disease resistance ===
+L. maculans is controlled by both race-specific gene-for-gene resistance via so-called resistance (R) genes detecting corresponding avirulence (Avr) genes and quantitative, broad, resistance traits. Since L. maculans is sequenced  and due to the importance of this pathogen, many different Avr genes have been identified and cloned.
+
+
+==== Arabidopsis thaliana model system ====
+Arabidopsis thaliana is a commonly used model organism in plant sciences which is closely related to Brassica. Interestingly, this model organism shows a very high degree of resistance to L. maculans in all accessions tested with no known virulent races known to date, which makes this pathosystem close to a non-host interaction. Interestingly, this high level of resistance can be broken by mutation and some resistance can be transferred from A. thaliana to Brassica napus - for example is a B. napus chromosome addition line with A. thaliana chromosome 3 more resistant to L. maculans.
+
+
+===== RLM1 and RLM2 =====
+Despite all A. thaliana accessions being resistant to L. maculans, it was discovered that this resistance could be regulated by different loci. In crosses between different accessions, two loci were discovered: RLM1 on chromosome 1 and RLM2 on chromosome 4. The R gene responsible for RLM1 resistance was identified as an R gene of the TIR-NB-LRR family, but the T-DNA insertion mutants were less susceptible than the natural rlm1 allele, indicating that multiple genes at the locus could contribute to resistance.
+
+
+===== RLM3 =====
+In contrast to RLM1 and RLM2 , RLM3 is not specific to L. maculans and mutant alleles in this gene cause broad susceptibility to multiple fungi.
+
+
+===== camalexin =====
+Camalexin is a phytoalexin which is induced independently of RLM1-mediated resistance and mutants disrupted in camalexin biosynthesis show susceptibility to L. maculans, indicating that this is a critical resistance mechanism.
+
+
+===== phytohormones =====
+Mutants in signaling and biosynthesis of the traditional plant disease resistance hormones salicylic acid (SA), jasmonic acid (JA) and ethylene (ET) do not disrupt A. thaliana resistance to L. maculans. On the other hand, are mutants disrupted in abscisic acid (ABA) biosynthesis or signaling susceptible to L. maculans. Interestingly, however, is SA and JA contributing to tolerance in a compatible interaction where RLM1 and camalexin-mediated resistances have been mutated, and a quadruple mutant (where RLM1, camalexin, JA and SA-dependent responses are blocked) is hyper-susceptible. In contrast, ET appears to be detrimental for disease resistance.
+
+
+==== Brassica crops ====
+The Brassica crops consists of combinations of 3 major ancestral genomes (A, B and C) where the most important canola crop is Brassica napus with an AACC genome. Most resistance traits have been introgressed into B. napus from wild Brassica rapa (AA genome) relatives. In contrast, none or very few L. maculans resistance traits can be found in the Brassica oleracea (CC genome) parental species. Additionally, some resistance traits have been introgressed from the "B" genomes from Brassica nigra (BB genome), Brassica juncea (AABB genome) or Brassica carinata (BBCC genome) into B. napus. In the Brassica-L. maculans interactions, there are many race-specific resistance genes known, and some of the corresponding fungal avirulence genes have also been identified.
+
+
+===== Rlm1 =====
+Rlm1 has been mapped to Brassica chromosome A07. Rlm1 will induce a resistance response against an L. maculans strain harboring the AvrLm1 avirulence gene.
+
+
+===== Rlm2 =====
+Rlm2 will induce a resistance response against an L. maculans strain harboring the AvrLm2 avirulence gene. Rlm2 s located on chromosome A10 at the same locus as LepR3 as and has been cloned. The Rlm2 gene encodes for a receptor-like protein with a transmembrane domain and extracellular leucine rich repeats.
+
+
+===== Rlm3 =====
+Rlm3 has been mapped to Brassica chromosome A07. Rlm3 will induce a resistance response against an L. maculans strain harboring the AvrLm3 avirulence gene.
+
+
+===== Rlm4 =====
+Rlm4 has been mapped to Brassica chromosome A07. Rlm4 will induce a resistance response against an L. maculans strain harboring the AvrLm4-7 avirulence gene.
+
+
+===== LepR3 =====
+LepR3 was introduced into the Australian B. napus cultivar Surpass 400 from a wild B. rapa var. sylvestris. This resistance broke already after 3 years of commercial cultivation. LepR3 will induce a resistance response against an L. maculans strain harboring the AvrLm1 avirulence gene. LepR3 is located at the same locus as Rlm2 and also this gene has been cloned. Just like the Rlm2 allele, the encoded LepR3 protein is a receptor-like protein with a transmembrane domain and extracellular leucine rich repeats. The predicted protein structure indicates that the LepR3 and Rlm2 R genes (in contrast to the intracellular Arabidopsis RLM1 R gene) senses L. maculans in the extracellular space (apoplast).
+
+
+== Importance ==
+L. maculans is the most important pathogen of Brassica napus, which is used as a feed source for livestock and for its rapeseed oil. L. maculans destroys around 5–20% of canola yields in France. The disease is very important in England as well: from 2000 to 2002, the disease resulted in approximately £56 million worth of damage per season. Rapeseed oil is the preferred European oil source for biofuel due to its high yield. B. napus produces more oil per land area than other sources like soybeans. Major losses to oilseed crops have also occurred in Australia.  The most recent significant losses were in 2003, to the widely planted B. napus cultivars containing a resistance gene from B. rapa.L. maculans metabolizes brassinin, an important phytoalexin produced by Brassica species, into indole-3-carboxaldehyde and indole-3-carboxylic acid. Virulent isolates proceed through the (3-indolylmethyl)dithiocarbamate S-oxide intermediate, while avirulent isolates first convert brassinin to N-acetyl-3-indolylmethylamine and 3-indolylmethylamine. Research has shown that brassinin could be important as a chemo-preventative agent in the treatment of cancer.As a bioengineering innovation, in 2010 it was shown that a light-driven protein from L. maculans could be used to mediate, alongside earlier reagents, multi-color silencing of neurons in the mammalian nervous system.
+
+
+== References ==
+
+
+== External links ==
+L. maculans genome sequencing
+A thesis from 2006

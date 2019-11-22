@@ -1,0 +1,78 @@
+Title: Eimeria
+Aspects: {'E. palustris'}
+
+Eimeria is a genus of apicomplexan parasites that includes various species capable of causing the disease coccidiosis in animals such as cattle, poultry, and smaller ruminants including sheep and goats. Eimeria species are considered to be monoxenous because the life cycle is completed within a single host, and stenoxenous because they tend to be host specific, although a number of exceptions have been identified. Species of this genus infect a wide variety of hosts. Thirty-one species are known to occur in bats (Chiroptera), two in turtles, and 130 named species infect fish. Two species (E. phocae and E. weddelli) infect seals. Five species infect llamas and alpacas: E. alpacae, E. ivitaensis, E. lamae, E. macusaniensis, and E. punonensis. A number of species infect rodents, including E. couesii, E. kinsellai, E. palustris, E. ojastii and E. oryzomysi. Others infect poultry (E. necatrix and E. tenella), rabbits (E. stiedae) and cattle (E. bovis, E. ellipsoidalis, and E. zuernii). For full species list, see below.
+The most prevalent species of Eimeria that cause coccidiosis in cattle are E. bovis, E. zuernii, and E. auburnensis. In a young, susceptible calf it is estimated that as few as 50,000 infective oocysts can cause severe disease. Eimeria infections are particularly damaging to the poultry industry and costs the United States more than $1.5 billion in annual loses. The most economically important species among poultry are E. tenella, E. acervulina, and E. maxima. The oocysts of what was later called Eimeria steidai were first seen by the pioneering Dutch microscopist Antonie van Leeuwenhoek (1632–1723) in the bile of a rabbit in 1674. The genus is named after the German zoologist Theodor Eimer (1843–1898).
+
+
+== Life cycle ==
+The Eimeria life cycle has an exogenous phase, during which the oocysts are excreted into the environment, and an endogenous phase, where parasite development occurs in the host intestine. During the endogenous phase, several rounds of asexual reproduction, or schizogony take place, after which the sexual differentiation of gametes and fertilisation occurs. Parasite transmission occurs via the oral-fecal route. Infections are common in farming environments where many animals are confined in a small space.
+
+
+=== Oocysts ===
+There are two forms of oocyst: sporulated or late oocyst, and unsporulated or early oocyst. An infected host releases oocysts into the environment in their unsporulated form. These contain a multi-layered cell wall making them highly resistant to environmental pressures. Once released, the unsporulated oocysts undergo meiosis upon contact with oxygen and moisture. This process is known as sporulation and the oocysts take approximately 2 to 7 days to become infectious. The sporulated oocyst is said to be tetrasporic meaning it contains four sporocysts, while each sporocyst is dizoic, i.e. it contains two sporozoites.Once ingested, the oocysts undergo a process called excystation, whereby thousands of sporozoites are released into lumen of the intestine. In the case of E. tenella, this process is thought to occur due to the combination of enzymatic degradation and mechanical abrasion of the oocyst wall in the chicken's gizzard.
+
+
+=== Sporozoites ===
+The motile sporozoites invade the enterocytes of small intestine, and migrate to their respective sites of development. Invasion is mediated through specialised membrane-bound structures on the surface of the parasite that release secretions. This results in the recognition of, and attachment to host cell receptors. This process is known as gliding motility, which is conserved across all species of Apicomplexa. Membrane glyconjugates have been proposed as potential host cell receptors for Eimeria species. After invasion, the sporozoites develop into trophozoites, then into schizonts, where they undergo several rounds of asexual reproduction. This results in many nuclei developing within the schizont. Each nucleus develops into a merozoite.Invasion requires the formation of a moving junction between parasite and host cell membranes. In E. tenella, this involves parasite micronemes and rhoptry proteins including RON2, RON5 and AMA-2. It is unlikely that the host cell is completely passive in the invasion process, although evidence of host physical forces that assist in mediating parasite entry remains controversial.
+
+
+=== Merozoites ===
+When schizonts rupture, merozoites are released, which either go on to re-infect more enterocytes or develop into either male or female gametes via the process of gametogenesis. These gametes fuse to form an oocyst, which is then released in its non-infectious, unsporulated form through the faeces of the host.
+Merozoite invasion also requires the formation of a moving junction, however the proteins involved in this process differs from those on sporozoites. Rhoptry proteins AMA-1 and RON4 are found exclusively on merozoites. There is also a greater diversity of variant surface antigens found on the surface of merozoites. It is hypothesised that this may be due to the fact that merozoites are short-lived and a greater antigen repertoire would permit faster binding and invasion.
+
+
+== Taxonomy ==
+
+The Eimeria lie within the family Eimeriidae. Eimeria accounts for close to 75% of the species within this family, and it is the most specious of the genera of the Apicomplexa with 1,700 described species.Attempts to subdivide this large taxonomic unit into separate genera have been made. The classification of eimeriid coccidian was largely based on morphological and life cycle details. More recently, classification has been done using rDNA and mitochondrial genes, which indicate Eimeria may be paraphyletic to Isospora and Cyclospora Eimeria: These species are tetrasporocystic with dizoic, nonbivalved sporocysts with or without Stieda bodies. This new genus retains the majority of the species.Goussia (Labbe 1896): These species are tetrasporocystic, dizoic, lack Stieda bodies, and have sporocyst walls consisting of two valves joined by a longitudinal suture. This genus contains about 20 species.Crystallospora (Thelohan 1893): The species in this genus is tetrasporocystic and dizoic, and have dodecahedral sporocysts composed of two hexagonal, pyrimidal valves joined at their bases by a suture. This genus contains a single species, Crystallospora cristalloides
+Epieimeria: The species in this genus are tetrasporocystic, dizoic, possess Stieda bodies, and undergo merogony and gametogony on the lumenal surface of the intestinal tract. Three species are in this genus.
+
+
+== Species identification ==
+
+Methods for species identification are varied and among others, include isozyme analysis, the use of rRNA and rDNA probes, DNA assays and recombinant DNA techniques. PCR has proven most useful for outbreak surveillance. Prior to these methods, species identification was based on phenotypic characteristics such as the site of parasite development, the oocyst structure, the host species, cross immunity and the presence of lesions. Out of these, comparing oocyst structures was the most commonly used method.
+
+
+== Genomics ==
+A whole genome sequencing project is in progress with chosen species, Eimeria tenella. The genome is about 60 megabases in size and has a GC-content around 53%. The 14 chromosomes range in size from 1 to > 6 megabases. Since 2013, the sequencing and annotation of a further six avian Eimeria species genomes is in progress.
+
+
+== Pathology and symptoms ==
+
+Coccidiosis typically results in diarrhoea, weight loss and dehydration. A combination of these factors may result in poor growth and death of the animal, particularly amongst young. Other clinical signs include lethargy, depression, and reduced normal grooming behaviour. Diarrhoea may be bloody due to intestinal epithelium dying off when a large number of oocysts and merozoites burst out of the cells.
+The severity of the disease is directly dependent on the number of infective Eimeria oocysts that are ingested. The pathogenesis of infection varies from mild to severe, and is largely dependent on the magnitude of infection. In light infections, the damage to the gut might only be minimal and be rapidly repaired as cells are rapidly replaced by the body. However, in heavy infections, it may only take two weeks for many intestinal epithelial cells to be infected with either Eimeria meronts or gametocytes. These cause the epithelial cells to burst, which causes significant damage to the intestine epithelial layer, resulting in the release of blood, fluid, and electrolytes into the intestine.
+
+
+== Prevention and treatment ==
+Good animal husbandry practices and prophylactic application of anticoccidial drugs that target different stages of the parasite lifecycle, such as sulfonamides, ionophores and toltrazuril, are the preferred methods of disease prevention, particularly in the poultry industry.The following drugs can be used for treatment of coccidiosis in cattle: amprolium, sulfaquinoxaline, and sulfamethazine. However, it is often more effective to prevent this disease in cattle, which can be aided by the products lasalocid, decoquinate, and monensin.There is a growing problem of drug resistance, as well as possible drug residues in the meat once the animal is butchered. As a result, other avenues of control are being explored, particularly vaccine development, although several live attenuated vaccines have been in use since the 1950s. So far, the best practice is to vaccinate the chicks once they hatch from the egg so they are immune for life.
+Infection with Eimeria results in life-long immunity to that particular parasite species, but does not give cross protection against other species.  For these reasons, vaccines for control seem promising, of which live attenuated vaccines are most effective. However, the search for highly immunogenic antigens and overcoming antigenic variation of the parasites remains a challenge. Immunity to the parasite varies depending on parasite and host species, as well as the site of invasion. CD4+ T cells and interferon gamma (γ) are crucial components of natural immunity to infection. Humoral immunity is thought to play little role in protection, and is most likely mediated through secretory IgA antibodies.
+
+
+== Host-parasite relations ==
+
+
+=== Fish ===
+Eimeria aurati - goldfish (Carassius auratus)Eimeria baueri - crucian carp (Carassius carassius)Eimeria lepidosirenis - South American lungfish (Lepidosiren paradoxa)Eimeria leucisci - common barbel (Barbus barbus bocagei)Eimeria rutili - European chub (Leuciscus cephalus cabeda), Iberian nase (Chondrostoma polylepis polylepis)Eimeria vanasi - blue tilapia (Oreochromis aureus)
+
+
+=== Reptiles ===
+Eimeria amphisbaeniarum - Mann's worm lizard (Amphisbaena manni)Eimeria witcheri - Mann's worm lizard (A. manni)Eimeria yemenensae - rock agama (Agama yemenensis)
+
+
+=== Birds ===
+Eimeria acervulina - chicken (Gallus gallus domesticus)Eimeria adenoeides - turkey (Meleagris gallopavo)Eimeria brunetti - chicken (G. g. domesticus)Eimeria colchici - common pheasant (Phasianus colchicus)Eimeria curvata - ruddy ground dove (Columbina talpacoti), scaled dove (Scardafella squammata)Eimeria dispersa - turkey (M. gallopavo), bobwhite quail (Colinus virginianus)Eimeria duodenalis - pheasant (Phasianus colchicus)Eimeria fraterculae - Atlantic puffin (Fratercula arctica)Eimeria gallopavonis - turkey (M. gallopavo)Eimeria innocua - turkey (M. gallopavo)Eimeria praecox - chicken (G. g. domesticus)Eimeria maxima - chicken (G. g. domesticus)Eimeria meleagridis - turkey (M. gallopavo)Eimeria meleagrimitis - turkey (M. gallopavo)Eimeria mitis - chicken (G. g. domesticus)Eimeria necatrix - chicken (G. g. domesticus)Eimeria phasiani - pheasant (P. colchicus)Eimeria procera - grey partridges (Perdix perdix)Eimeria purpureicephali  - red-capped parrot (Purpureicephalus spurius)Eimeria tenella - chicken (G. g. domesticus)
+
+
+=== Mammals ===
+Eimeria ahsata - goat (Capra hircus), sheep (Ovis aries)Eimeria alabamensis - cattle (Bos taurus)Eimeria alijevi - goat (C. hircus)Eimeria aspheronica - goat (C. hircus)Eimeria arloingi - goat (C. hircus)Eimeria arundeli - common wombat (Vombatus ursinus)Eimeria bakuensis - sheep (O. aries)Eimeria bovis - cattle (B. taurus)Eimeria cameli - camels (Camelus bactrianus,Camelus dromedarius)Eimeria caprina - goat (C. hircus)Eimeria caprovina - goat (C. hircus)Eimeria christenseni - goat (C. hircus)Eimeria clethrionomyis - red-backed vole (Clethrionomys gapperi)Eimeria coecicola - rabbit (Oryctolagus cuniculus)Eimeria contorta - mouse (Mus musculus)Eimeria couesii - rice rat (Oryzomys couesi)Eimeria crandallis - sheep (O. aries)Eimeria dammahensis - scimitar-homed oryx (Oryx dammah)Eimeria dowleri - eastern red bat (Lasiurus borealis)Eimeria exigua - rabbit (O. cuniculus)Eimeria falciformis - mouse (M. musculus)Eimeria farasanii - mountain gazelle (Gazella gazelle farasani)Eimeria ferrisi - mouse (M. musculus)Eimeria flavescens - rabbit (O. cuniculus)Eimeria gallatii - red-backed vole (C. gapperi)Eimeria granulosa - goat (C. hircus)Eimeria hirci - goat (C. hircus)Eimeria intestinalis - rabbit (O. cuniculus)Eimeria irresidua - rabbit (O. cuniculus)Eimeria intricata - goat (C. hircus)Eimeria jolchijevi - goat (C. hircus)Eimeria krijgsmanni - mouse (M. musculus)Eimeria larimerensis - Uinta ground squirrel (Spermophilus armatus)Eimeria macusaniensis - llamas (Lama glama), guanacos (Lama guanicoe), alpacas (Vicugna pacos), vicunas (Vicugna vicugna)Eimeria magna - rabbit (O. cuniculus)Eimeria marconii - red-backed vole (Clethrionomys gapperi)Eimeria media - rabbit (O. cuniculus)Eimeria melanuri - garden dormouse (Eliomys quercinus)Eimeria myoxi  - garden dormouse (E. quercinus)Eimeria nagpurensis - rabbit (O. cuniculus)Eimeria nieschulzi - brown rat (R. norvegicus)Eimeria ninakohlyakimovae - goat (C. hircus)Eimeria ovinoidalis - sheep (O. aries)Eimeria pallida - goat (C. hircus)Eimeria palustris - marsh rice rat (Oryzomys palustris)Eimeria papillata - mouse (M. musculus)Eimeria perforans - rabbit (O. cuniculus)Eimeria phocae - Sable Island harbour seals (Phoca vitulina)Eimeria pileata - red-backed vole (Clethrionomys gapperi)Eimeria pipistrellus - Kuhl's pipistrelle (Pipistrellus kuhlii)Eimeria piriformis - rabbit (O. cuniculus)Eimeria prionotemni - Bennett's wallaby (Macropus rufogriseus)Eimeria procyonis - raccoon (Procyon lotor)Eimeria punctata - goat (C. hircus)Eimeria roobroucki - rabbit (O. cuniculus)Eimeria saudiensis - Arabian oryx (Oryx leucoryx)Eimeria sealanderi - eastern red bat (Lasiurus borealis)Eimeria separata - mouse (M. musculus), rat (Rattus rattus)Eimeria stiedae - rabbit (O. cuniculus)Eimeria ursini - southern hairy nosed wombat (Lasiorhinus latifrons)Eimeria vermiformis - mice (M. musculus)Eimeria weybridgensis - sheep (O. aries)Eimeria wobati - southern hairy-nosed wombat (L. latifrons)Eimeria zuernii - cattle (B. taurus)
+
+
+== List of species ==
+
+
+== References ==
+
+
+== External links ==
+An overview of Eimeria and coccidiosis
+The Life Cycle of Coccidia

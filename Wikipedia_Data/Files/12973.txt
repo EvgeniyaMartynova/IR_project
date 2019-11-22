@@ -1,0 +1,17 @@
+Title: Temperature–entropy diagram
+Aspects: {'T-S diagram'}
+
+A temperature–entropy diagram, or T–s diagram, is a thermodynamic diagram used in thermodynamics to visualize changes to temperature and specific entropy during a thermodynamic process or cycle as the graph of a curve. It is a useful and common tool, particularly because it helps to visualize the heat transfer during a process. For reversible (ideal) processes, the area under the T–s curve of a process is the heat transferred to the system during that process.Working fluids are often categorized on the basis of the shape of their T–s diagram.
+An isentropic process is depicted as a vertical line on a T–s diagram, whereas an isothermal process is a horizontal line.
+
+
+== See also ==
+Carnot cycle
+Pressure–volume diagram
+Rankine cycle
+Saturation vapor curve
+Working fluid
+Working fluid selection
+
+
+== References ==

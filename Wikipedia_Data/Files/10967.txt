@@ -1,0 +1,173 @@
+Title: Qʼanjobʼal language
+Aspects: {"Q'anjob'al"}
+
+Qʼanjobʼal (also Kanjobal) is a Mayan language spoken primarily in Guatemala and part of Mexico. According to 1998 estimates compiled by SIL International in Ethnologue, there were approximately 77,700 native speakers, primarily in the Huehuetenango Department of Guatemala. Municipalities where the Qʼanjobʼal language is spoken include San Juan Ixcoy (Yich Kʼox), San Pedro Soloma (Tzʼulumaʼ ), Santa Eulalia (Jolom Konobʼ ), Santa Cruz Barillas (Yalmotx), San Rafael La Independencia, and San Miguel Acatán (Pedro Mateo Pedro 2010). Qʼanjobʼal is taught in public schools through Guatemala's intercultural bilingual education programs.
+
+
+== Classification ==
+Qʼanjobʼal is a member of the Qʼanjobʼalan branch of the Mayan language family. The Mayan language family includes 31 languages, two of which are now extinct. The Qʼanjobʼalan branch includes not only Qʼanjobʼal itself but also Chuj, Akatek, and Jakaltek, also spoken in Guatemala. The Qʼanjobʼalan languages are noted for being among the most conservative of the Mayan language family, although they do include some interesting innovations.
+
+
+== Phonology ==
+Qʼanjobʼal consists of 26 consonant sounds and 5 vowel sounds. The letters of the alphabet are as follows: 
+
+a, bʼ, ch, chʼ, d, e, h, i, j, k, kʼ, l, m, n, o, p, q, qʼ, r, s, t, tʼ, tx, txʼ, tz, tzʼ, u, w, x, xh, y, and ʼ (glottal stop).
+
+The ʼ in chʼ, kʼ, qʼ, tʼ, txʼ, and tzʼ represents an ejective or glottalic egressive, i.e., the consonant is accompanied by a puff of air from the glottis.  The letter r in Qʼanjobʼal has a limited distribution.  It is used mostly in borrowings, primarily in words borrowed from Spanish, such as roxax, rose, from Spanish rosa. It is also used in affect and positional words like kʼarari 'noise of an old engine or the like', jeran 'to be in a broken position/form'. The letters tx and x represent retroflex consonants, pronounced with the tongue curled backward in the mouth. It is believed such retroflection in Qʼanjobʼal is an influence from the Mamean Mayan languages.
+
+
+=== Stress ===
+Primary stress in Qʼanjobʼal is fairly simple. Words in isolation and in final phrase boundaries bear stress on the last syllable. However, words within a phrasal unit (not in final phrase boundary) bear stress on their first syllable.
+
+
+== Morphology and syntax ==
+As in all Mayan languages, Qʼanjobʼal classifies all verbs as either inherently intransitive (calling up only one argument) or as inherently transitive (calling up two arguments). Qʼanjobʼal is an ergative–absolutive language, in which the subject of a transitive verb takes an ergative affix, while the subject of an intransitive verb, as well as the object of a transitive verb, takes an absolutive affix. Ergative affixes are also used for possession.  There are two sets of affixes for ergative: the first set is used for those verbal roots beginning with a consonant, and the second set is used for those beginning with a vowel. However, there is only one set of absolutive affixes with two variations: pronounced like free words or attached to something else.
+Below is the table of ergative prefixes for verbal roots beginning with a consonant:
+
+Ergative prefixes for verbal roots beginning with a vowel:
+
+Absolutive affixes when attached to preceding sounds:
+
+Absolutive affixes not attached to a preceding sound (they take an h):
+
+Note that the third person absolutive affix is 0, i.e., unmarked or empty.
+Examples:
+transitive (ergative)
+X-0-inmaqʼ naq winaq. (Mateo 2008: p.c.)
+COMP-A3S-E1S-hit CL:masc man 
+'I hit the man.'
+intransitive (absolutive)
+X-in way-i. (Mateo 2008: p.c.) 
+COMP-A1S sleep-STAT 
+'I slept.'
+possessive (ergative)
+before vowel:w-aqan
+E1S-foot
+'my foot'
+before consonant:s-qʼab'
+E3S-hand
+'his/her hand'
+However, while verbs are classified as either ergative or absolutive and take their own respective sets of pronoun affixes, this rule is altered in certain cases, such as when a verb becomes progressive:
+Ch-in kuy-w-i.
+INC-A1S study-SFX-STAT
+'I study'.
+but,
+Ipan hin-kuy-w-i.
+PROG E1S-study-SFX-STAT
+'I am studying'.
+In Qʼanjobʼal, aspect (whether an action has been completed or not) is more important than tense. Thus, in most utterances, one will indicate whether the action is incompletive, or whether it is completed, or may happen in the future, in which case it is considered 'unreal', or of irrealis mood, the event still only in the realm of thought or imagination.
+incompletiveCh(i) is used to indicate that an event is incomplete or ongoing at some time:
+Chi-0 toj naq unin bʼay y-atut-al kuy-oj.
+INC-A3S go CL:masc child to E3S-house-ABS study-NZR
+'The boy goes to school'.
+CompletiveMax or x- (both forms are used in free variation) are used to indicate that an event is complete:
+Max-ex mulnaj-i.
+COM-A2P work-STAT
+'You (pl.) worked.'
+X-0 way-i.
+COM-A3S sleep-STAT
+'He/she slept.'
+Future/Irrealis
+The prefix hoq- with the suffix -oq are used to indicate that the event spoken of has not yet happened, but remains only in the realm of the 'unreal' with only the potential for occurrence in the future:
+Hoq-0 saqch-oq heb'.
+IRR-A3 play-IRR A3P
+'They will play.'
+Negative
+Negative particles include kʼam and manaq:
+Kʼam chi-0 y-oche-j.
+NEG INC-A3S E3S-want-SFX
+'He/she doesn't want it.'
+Manaq ix chi-0 toj kuy-oj.
+NEG she INC-A3S go study-NOM
+'It is not she who goes to study.'
+Interrogative
+Questions can be formed simply by using rising intonation with declarative syntax:
+Ch-0-oche-j cha-ch kanal-w-i w-etoq?
+INC-A3S-E2S-SFX INC-A2S dance-SFX-STAT E1S-with
+'Do you want to dance with me?'
+There is also a question particle, mi:
+Watxʼ mi ha-kul?
+good INTER E2S-stomach
+'Is your stomach good?' 
+(Used as common form of greeting, like English 'How are you?')
+Affixation
+Many different affixes are used in Qʼanjobʼal, both prefixes and suffixes. Among these are aj-, used to denote the doer or leader of an action: ajtzʼibʼ, ʼwriterʼ (< tzʼibʼ 'write'), ajbʼe, 'spiritual guide' (< bʼe 'road'); -bʼal, used to indicate the location where something happens: tzombʼal 'market' (< tzon 'buy'); -al, -alil, -il, used to derive abstract nouns from adjectives, adverbs, numerals, transitive verb roots, and nouns: syalixhal 'his/her smallness' (< yalixh 'small'); swinaqil 'husband' (< winaq 'man'); -kʼulal, to derive nouns from intransitive verbs, adjectives, other nouns, etc.: watxkʼulal 'friendliness'; -oj, nominalizer, turning verbs into nouns: kuyoj 'studying' (< kuy 'study').
+
+
+=== Word order ===
+Qʼanjobʼal has a fixed word order. It follows a verb–subject–object (VSO) word order.  All changes to this word order are driven by pragmatic or syntactic factors like focus, negation, interrogation, relativization, etc.  These are subject to an ergative–absolutive pattern where arguments cross-referenced by ergative affixes must become absolutives prior to their fronting (focus, negation, etc.).  This results in some possible subject–verb (SV), object–verb–subject (OVS) orders.  However SVO, SOV and OSV are not possible (or, at least, not attested in any known corpus). The apparent exception is in reflexives and reflexive possessives, where the reflexive phrase ERG-bʼa (noun) or reflexive possessive ERG-noun appears directly following the verb.
+
+
+=== Classifiers ===
+Some Qʼanjobʼal nouns require that certain classifiers be used with them.  Among these are no' (animals), te (trees/wood), ix (female), naq (male), chʼen (stone/metal), xim (corn), and an (plants).
+noʼ jun chej
+CL-animal horse
+'the horse'
+teʼ na
+CL-wood house
+'the house'
+ix unin
+CL-fem child (girl)
+'the girl'
+naq unin
+CL-masc child (boy)
+'the boy'
+chʼen tumin
+CL-metal money
+'the money'
+an kaq
+CL-plant flower
+'the flower'
+
+
+=== Reduplication ===
+Reduplication, or duplication of a root word, is a minor process in the formation of Qʼanjobʼal vocabulary, as in the following:
+txʼitam
+'pig' 
+(onomatopoeic: based on the sound it makes)
+pux-pux
+'belly of animal'
+txʼa-txʼa
+'chewing gum'
+
+
+== Vocabulary ==
+Qʼanjobʼal consists of groups of roots that can take affixes. Words are traditionally classified as nouns, adjectives, adverbs, intransitive and transitive verbs, particles, and positionals. Positionals are a group of roots which cannot function as words on their own; in combination with affixes they are used to describe relationships of position and location. Particles are words that do not take affixes; they mostly function in adverbial roles, and include such things as interrogative particles, affirmative/negative words, markers of time and location, conjunctions, prepositions and demonstratives.
+Locatives are often formed by placing a noun after a possessed body-part term: s-ti bʼe, 'edge of the road' < 'its-mouth road' and s-jolom witz, 'mountaintop' or 'summit' < 'its-head mountain'. Similarly, compound nouns may be formed by placing a noun after another possessed noun: y-atutal kuyoj, 'school' < 'its-house studying'.
+
+
+=== Numbers ===
+
+
+=== Common words ===
+anima, personchʼenej, rock/stoneaʼ ej, water/riverix, womanchikay, grandmothermamin, grandfatherixim, cornkaq, redkʼu, sun/daymam, fathermis, catna, house (also atut)patej, tortillasat kan, sky (lit. snake's eye)son, marimbate', treetxʼi', dogtxʼotxʼej, landtxʼutx', motherunin, childwaykan, starwinaq, manwitz, mountainxajaw, moon/monthyibʼan qʼinal, Earth/worldxumak,flower
+
+
+== Abbreviations used ==
+A1S absolutive first person singular
+A1P absolutive first person plural
+ABS abstractivizer
+CL  classifier
+COM complete
+E1S ergative first person singular
+E1P ergative first person plural
+INC incomplete
+INT interrogative
+IRR irrealis
+NEG negative
+NZR nominalizer
+PL plural
+PROG progressive
+SFX suffix
+STAT status
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+Comunidad Lingüística Qʼanjobʼal, community/sub-committee for Qʼanjobʼal at Academia de Lenguas Mayas de Guatemala [ALMG]
+ELAR archive of Qʼanjobʼal (Maya)

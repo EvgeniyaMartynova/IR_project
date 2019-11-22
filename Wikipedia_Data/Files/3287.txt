@@ -1,0 +1,50 @@
+Title: Bogo-Indian Defence
+Aspects: {'E11'}
+
+The Bogo-Indian Defence is a chess opening characterised by the moves:
+
+1. d4 Nf6
+2. c4 e6
+3. Nf3 Bb4+The position arising after 1.d4 Nf6 2.c4 e6 is common. The traditional move for White here is 3.Nc3, threatening to set up a big pawn centre with 4.e4. However, 3.Nf3 is often played instead as a way of avoiding the Nimzo-Indian Defence (which would follow after 3.Nc3 Bb4). After 3.Nf3, Black usually plays 3...b6 (the Queen's Indian Defence) or 3...d5 (leading to the Queen's Gambit Declined), but can instead play 3...Bb4+, the Bogo-Indian, named after Efim Bogoljubov. This opening is not as popular as the Queen's Indian, but is seen occasionally at all levels.
+The Bogo-Indian is classified as E11 by the Encyclopaedia of Chess Openings (ECO).
+
+  
+   
+
+
+== Variations ==
+White has three viable moves to meet the check. 4.Nc3 is a transposition to the Kasparov Variation of the Nimzo-Indian, therefore the main independent variations are 4.Bd2 and 4.Nbd2.
+
+
+=== 4.Bd2 ===
+4.Bd2 is the most common line; the bishop on b4 is now threatened and Black needs to decide what to do about it. 
+
+The simplest is to trade off the bishop by means of 4...Bxd2+; this line is not particularly popular, but has been played frequently by the Swedish grandmaster Ulf Andersson, often as a drawing line.
+4...Qe7 This is called the Nimzowitsch variation, defending the bishop, and deferring the decision of what to do until later. After 5. g3 Nc6, the main line continues 6. Nc3 Bxc3 7. Bxc3 Ne4 8. Rc1 0-0 9. Bg2 d6 10. d5 Nd8 11. dxe6 Nxe6 and the position is equal. Another alternative is 6. Bg2 Bxd2+ 7. Nbxd2 d6 8. 0-0 a5 9. e4 e5 10. d5 Nb8 11. Ne1 0-0 12. Nd3 Na6 and the position is equal.
+David Bronstein tried the sharper alternative 4...a5, grabbing space on the queenside at the cost of structural weaknesses.
+A more modern line is 4...c5, after 5.Bxb4 cxb4, Black's pawns are doubled, and a pawn has been pulled away from the centre, but the b4 pawn can also be annoying for White since it takes the c3-square away from the knight. In fact, one of White's major alternatives is 6.a3, trading off this pawn at once.
+Simply retreating the bishop by means of 4...Be7 is also possible; Black benefits from losing a tempo since White's dark-square bishop is misplaced at d2. The line is somewhat passive, but solid.
+
+
+=== 4.Nbd2 ===
+4.Nbd2 is an alternative aiming to acquire the bishop for the knight or forcing Black's bishop to retreat. The downside is that the knight is developed to a square where it blocks the bishop, and d2 is a less active square than c3. The line is described in the Gambit Guide as "ambitious". Black's most common replies are 4...b6, 4...0-0, and 4...d5.
+
+
+=== Monticelli Trap ===
+This opening gives rise to the Monticelli Trap.
+
+
+== See also ==
+List of chess openings
+List of chess openings named after people
+
+
+== Notes ==
+
+
+== References ==
+Steffen Pedersen (1999). Gambit Guide to the Bogo Indian. Gambit. ISBN 1-901983-04-8.
+
+
+== Further reading ==
+Taulbut, Shaun (1995). The New Bogo-Indian. Cadogan Books. ISBN 978-1-85744-026-3.

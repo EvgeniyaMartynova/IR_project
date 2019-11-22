@@ -1,0 +1,32 @@
+Title: Neisseria flavescens
+Aspects: {'N. flavescens'}
+
+In 1928, Neisseria flavescens was first isolated from cerebrospinal fluid in the midst of an epidemic meningitis outbreak in Chicago. These gram-negative, aerobic bacteria reside in the mucosal membranes of the upper respiratory tract, functioning as commensals. However, this species can also play a pathogenic role in immunocompromised and diabetic individuals. In rare cases, it has been linked to meningitis, pneumonia, empyema, endocarditis, and sepsis.
+
+
+== Morphology ==
+These bacteria are gram-negative and diplococcus, rendering them virtually indistinguishable from the other Neisseria species. Yet, Neisseria flavescens remains distinct due to its signature pigmented colonies, yellow-gold in color. And it is through this yellow-gold color that this bacteria earned its name, with flavescens precisely translating as "becoming a golden yellow." This pigmentation also indicates N. flavescens' similarity to saccharolytic Neisseria species, which also exhibit pigmentation. In addition, these pigmented species differ from meningococcus, which lack pigmentation.
+
+
+== Biochemical processes ==
+Similar to saccharolytic species, N. flavescens strains are capable of producing polysaccharides from sucrose and are colistin-susceptible. This bacteria is also catalase and oxidase positive. It is not capable of acid-production from glucose, maltose, fructose, sucrose, mannose, or lactose, in contrast to meningococcus, which are active-fermenters. Furthermore, fundamental differences between these two species are again shown, as serological testing reveals N. flavescens' lack of cross-agglutination. At the same time, biochemical testing distinguishes Neisseria flavescens from other gram-negative diplococci, with N. flavescens being DNase negative, weakly positive to Superoxol, and capable of prolyl aminopeptidase production in an enzyme-substrate test.
+
+
+== Molecular biology ==
+Though it shares many similarities with the saccharolytic species, Neisseria flavescens has a greater genetic relation to pathogenic Neisseria species, as molecular studies have shown. In addition, studies implicate that this species plays a role in penicillin-resistant strains of Neisseria meningitidis. The increasing selective pressure from penicillin treatment has led to N. meningitidis' uptake of an altered penicillin-binding protein gene, penA, from Neisseria flavescens via transformation. This modified penicillin-binding protein, also known as mecA, inhibits Neisseria meningitidis' transpeptidases from binding to the β-lactam portion of penicillin.
+
+
+== Disease ==
+Typically serving as a commensal, Neisseria flavescens has also played a pathogenic role, ever since its origin.  Arising from an epidemic meningitis outbreak in Chicago, N. flavescens was isolated from the cerebrospinal fluid of infected individuals. In particular, out of forty-seven total cases of meningitis, fourteen individuals were found to carry N. flavescens, in contrast to carrying one of the typical four meningococci. Additionally, the mortality rate among these fourteen individuals was close to thirty percent, indicating that this bacterium's role as a possible causative agent for meningitis should not be overlooked. Since then, four other cases of meningitis have also found Neisseria flavescens to be the causative agent.Along with meningitis, this organism has also been linked to sepsis following surgery. A patient presented with clinical signs typical of meningococcal-strains: fever, chills, headache, myalgia, arthralgia, and skin rash. To identify the causative agent, smears from skin lesions and blood cultures were obtained from the patient. Gram-negative, diplococci were present in the smear, narrowing the organism down to a Neisseria species. Ultimately, blood cultures revealed N. flavescens to be the culprit, due to observation of yellow-gold colony formation and no sugar fermentation.In addition to blood and CSF, Neisseria flavescens can also act as a pathogen in the lower respiratory tract. Isolation via a transthoracic pulmonary fine-needle aspiration identified N. flavescens as the cause of pneumonia and empyema in a diabetic patient. More specifically, the aspirate was sent off to the respiration department, where it underwent acid fast and gram staining, inoculation, and biochemical testing to identify N. flavescens. Next, 16S rRNA sequencing was done, further confirming that Neisseria flavescens was indeed the causative agent.Lastly, this bacteria has also been the pathogen behind a case of endocarditis.  Testing β-lactamase positive, Neisseria flavescens rendered penicillin an ineffective treatment for the patient and, instead, was targeted by cefotaxime.
+
+
+== See also ==
+Colistin
+mecA
+
+
+== References ==
+
+
+== External links ==
+Type strain of Neisseria flavescens at BacDive -  the Bacterial Diversity Metadatabase

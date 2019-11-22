@@ -1,0 +1,2683 @@
+Title: Jacobi polynomials
+Aspects: {'Q-Jacobi polynomials'}
+
+In mathematics, Jacobi polynomials (occasionally called hypergeometric polynomials) P(α, β)n(x) are a class of classical orthogonal polynomials. They are orthogonal with respect to the weight (1 − x)α(1 + x)β on the interval [−1, 1]. The Gegenbauer polynomials, and thus also the Legendre, Zernike and Chebyshev polynomials, are special cases of the Jacobi polynomials.The Jacobi polynomials were introduced by Carl Gustav Jacob Jacobi.
+
+
+== Definitions ==
+
+
+=== Via the hypergeometric function ===
+The Jacobi polynomials are defined via the hypergeometric function as follows:
+
+  
+    
+      
+        
+          P
+          
+            n
+          
+          
+            (
+            α
+            ,
+            β
+            )
+          
+        
+        (
+        z
+        )
+        =
+        
+          
+            
+              (
+              α
+              +
+              1
+              
+                )
+                
+                  n
+                
+              
+            
+            
+              n
+              !
+            
+          
+        
+        
+        
+          
+
+          
+          
+            2
+          
+        
+        
+          F
+          
+            1
+          
+        
+        
+          (
+          
+            −
+            n
+            ,
+            1
+            +
+            α
+            +
+            β
+            +
+            n
+            ;
+            α
+            +
+            1
+            ;
+            
+              
+                
+                  1
+                  2
+                
+              
+            
+            (
+            1
+            −
+            z
+            )
+          
+          )
+        
+        ,
+      
+    
+    {\displaystyle P_{n}^{(\alpha ,\beta )}(z)={\frac {(\alpha +1)_{n}}{n!}}\,{}_{2}F_{1}\left(-n,1+\alpha +\beta +n;\alpha +1;{\tfrac {1}{2}}(1-z)\right),}
+  where 
+  
+    
+      
+        (
+        α
+        +
+        1
+        
+          )
+          
+            n
+          
+        
+      
+    
+    {\displaystyle (\alpha +1)_{n}}
+   is Pochhammer's symbol (for the rising factorial). In this case, the series for the hypergeometric function is finite, therefore one obtains the following equivalent expression:
+
+  
+    
+      
+        
+          P
+          
+            n
+          
+          
+            (
+            α
+            ,
+            β
+            )
+          
+        
+        (
+        z
+        )
+        =
+        
+          
+            
+              Γ
+              (
+              α
+              +
+              n
+              +
+              1
+              )
+            
+            
+              n
+              !
+              
+              Γ
+              (
+              α
+              +
+              β
+              +
+              n
+              +
+              1
+              )
+            
+          
+        
+        
+          ∑
+          
+            m
+            =
+            0
+          
+          
+            n
+          
+        
+        
+          
+            
+              (
+            
+            
+              n
+              m
+            
+            
+              )
+            
+          
+        
+        
+          
+            
+              Γ
+              (
+              α
+              +
+              β
+              +
+              n
+              +
+              m
+              +
+              1
+              )
+            
+            
+              Γ
+              (
+              α
+              +
+              m
+              +
+              1
+              )
+            
+          
+        
+        
+          
+            (
+            
+              
+                
+                  z
+                  −
+                  1
+                
+                2
+              
+            
+            )
+          
+          
+            m
+          
+        
+        .
+      
+    
+    {\displaystyle P_{n}^{(\alpha ,\beta )}(z)={\frac {\Gamma (\alpha +n+1)}{n!\,\Gamma (\alpha +\beta +n+1)}}\sum _{m=0}^{n}{n \choose m}{\frac {\Gamma (\alpha +\beta +n+m+1)}{\Gamma (\alpha +m+1)}}\left({\frac {z-1}{2}}\right)^{m}.}
+  
+
+
+=== Rodrigues' formula ===
+An equivalent definition is given by Rodrigues' formula:
+
+  
+    
+      
+        
+          P
+          
+            n
+          
+          
+            (
+            α
+            ,
+            β
+            )
+          
+        
+        (
+        z
+        )
+        =
+        
+          
+            
+              (
+              −
+              1
+              
+                )
+                
+                  n
+                
+              
+            
+            
+              
+                2
+                
+                  n
+                
+              
+              n
+              !
+            
+          
+        
+        (
+        1
+        −
+        z
+        
+          )
+          
+            −
+            α
+          
+        
+        (
+        1
+        +
+        z
+        
+          )
+          
+            −
+            β
+          
+        
+        
+          
+            
+              d
+              
+                n
+              
+            
+            
+              d
+              
+                z
+                
+                  n
+                
+              
+            
+          
+        
+        
+          {
+          
+            (
+            1
+            −
+            z
+            
+              )
+              
+                α
+              
+            
+            (
+            1
+            +
+            z
+            
+              )
+              
+                β
+              
+            
+            
+              
+                (
+                
+                  1
+                  −
+                  
+                    z
+                    
+                      2
+                    
+                  
+                
+                )
+              
+              
+                n
+              
+            
+          
+          }
+        
+        .
+      
+    
+    {\displaystyle P_{n}^{(\alpha ,\beta )}(z)={\frac {(-1)^{n}}{2^{n}n!}}(1-z)^{-\alpha }(1+z)^{-\beta }{\frac {d^{n}}{dz^{n}}}\left\{(1-z)^{\alpha }(1+z)^{\beta }\left(1-z^{2}\right)^{n}\right\}.}
+  If 
+  
+    
+      
+        α
+        =
+        β
+        =
+        0
+      
+    
+    {\displaystyle \alpha =\beta =0}
+  , then it reduces to the Legendre polynomials: 
+
+  
+    
+      
+        
+          P
+          
+            n
+          
+        
+        (
+        z
+        )
+        =
+        
+          
+            1
+            
+              
+                2
+                
+                  n
+                
+              
+              n
+              !
+            
+          
+        
+        
+          
+            
+              d
+              
+                n
+              
+            
+            
+              d
+              
+                z
+                
+                  n
+                
+              
+            
+          
+        
+        (
+        
+          z
+          
+            2
+          
+        
+        −
+        1
+        
+          )
+          
+            n
+          
+        
+        
+        .
+      
+    
+    {\displaystyle P_{n}(z)={\frac {1}{2^{n}n!}}{\frac {d^{n}}{dz^{n}}}(z^{2}-1)^{n}\;.}
+  
+
+
+=== Alternate expression for real argument ===
+For real x the Jacobi polynomial can alternatively be written as
+
+  
+    
+      
+        
+          P
+          
+            n
+          
+          
+            (
+            α
+            ,
+            β
+            )
+          
+        
+        (
+        x
+        )
+        =
+        
+          ∑
+          
+            s
+            =
+            0
+          
+          
+            n
+          
+        
+        
+          
+            
+              (
+            
+            
+              
+                n
+                +
+                α
+              
+              
+                n
+                −
+                s
+              
+            
+            
+              )
+            
+          
+        
+        
+          
+            
+              (
+            
+            
+              
+                n
+                +
+                β
+              
+              s
+            
+            
+              )
+            
+          
+        
+        
+          
+            (
+            
+              
+                
+                  x
+                  −
+                  1
+                
+                2
+              
+            
+            )
+          
+          
+            s
+          
+        
+        
+          
+            (
+            
+              
+                
+                  x
+                  +
+                  1
+                
+                2
+              
+            
+            )
+          
+          
+            n
+            −
+            s
+          
+        
+        .
+      
+    
+    {\displaystyle P_{n}^{(\alpha ,\beta )}(x)=\sum _{s=0}^{n}{n+\alpha  \choose n-s}{n+\beta  \choose s}\left({\frac {x-1}{2}}\right)^{s}\left({\frac {x+1}{2}}\right)^{n-s}.}
+  and for integer n
+
+  
+    
+      
+        
+          
+            
+              (
+            
+            
+              z
+              n
+            
+            
+              )
+            
+          
+        
+        =
+        
+          
+            {
+            
+              
+                
+                  
+                    
+                      
+                        Γ
+                        (
+                        z
+                        +
+                        1
+                        )
+                      
+                      
+                        Γ
+                        (
+                        n
+                        +
+                        1
+                        )
+                        Γ
+                        (
+                        z
+                        −
+                        n
+                        +
+                        1
+                        )
+                      
+                    
+                  
+                
+                
+                  n
+                  ≥
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  n
+                  <
+                  0
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle {z \choose n}={\begin{cases}{\frac {\Gamma (z+1)}{\Gamma (n+1)\Gamma (z-n+1)}}&n\geq 0\\0&n<0\end{cases}}}
+  where Γ(z) is the Gamma function.
+In the special case that the four quantities n, n + α, n + β, and n + α + β are nonnegative integers, the Jacobi polynomial can be written as
+
+The sum extends over all integer values of s for which the arguments of the factorials are nonnegative.
+
+
+=== Special cases ===
+
+  
+    
+      
+        
+          P
+          
+            0
+          
+          
+            (
+            α
+            ,
+            β
+            )
+          
+        
+        (
+        z
+        )
+        =
+        1
+        ,
+      
+    
+    {\displaystyle P_{0}^{(\alpha ,\beta )}(z)=1,}
+  
+
+  
+    
+      
+        
+          P
+          
+            1
+          
+          
+            (
+            α
+            ,
+            β
+            )
+          
+        
+        (
+        z
+        )
+        =
+        (
+        α
+        +
+        1
+        )
+        +
+        (
+        α
+        +
+        β
+        +
+        2
+        )
+        
+          
+            
+              z
+              −
+              1
+            
+            2
+          
+        
+        ,
+      
+    
+    {\displaystyle P_{1}^{(\alpha ,\beta )}(z)=(\alpha +1)+(\alpha +\beta +2){\frac {z-1}{2}},}
+  
+  
+    
+      
+        
+          P
+          
+            2
+          
+          
+            (
+            α
+            ,
+            β
+            )
+          
+        
+        (
+        z
+        )
+        =
+        
+          
+            
+              (
+              α
+              +
+              1
+              )
+              (
+              α
+              +
+              2
+              )
+            
+            2
+          
+        
+        +
+        (
+        α
+        +
+        2
+        )
+        (
+        α
+        +
+        β
+        +
+        3
+        )
+        
+          
+            
+              z
+              −
+              1
+            
+            2
+          
+        
+        +
+        
+          
+            
+              (
+              α
+              +
+              β
+              +
+              3
+              )
+              (
+              α
+              +
+              β
+              +
+              4
+              )
+            
+            2
+          
+        
+        
+          
+            (
+            
+              
+                
+                  z
+                  −
+                  1
+                
+                2
+              
+            
+            )
+          
+          
+            2
+          
+        
+        ,
+        .
+        .
+        .
+      
+    
+    {\displaystyle P_{2}^{(\alpha ,\beta )}(z)={\frac {(\alpha +1)(\alpha +2)}{2}}+(\alpha +2)(\alpha +\beta +3){\frac {z-1}{2}}+{\frac {(\alpha +\beta +3)(\alpha +\beta +4)}{2}}\left({\frac {z-1}{2}}\right)^{2},...}
+  
+
+
+== Basic properties ==
+
+
+=== Orthogonality ===
+The Jacobi polynomials satisfy the orthogonality condition
+
+  
+    
+      
+        
+          ∫
+          
+            −
+            1
+          
+          
+            1
+          
+        
+        (
+        1
+        −
+        x
+        
+          )
+          
+            α
+          
+        
+        (
+        1
+        +
+        x
+        
+          )
+          
+            β
+          
+        
+        
+          P
+          
+            m
+          
+          
+            (
+            α
+            ,
+            β
+            )
+          
+        
+        (
+        x
+        )
+        
+          P
+          
+            n
+          
+          
+            (
+            α
+            ,
+            β
+            )
+          
+        
+        (
+        x
+        )
+        
+        d
+        x
+        =
+        
+          
+            
+              2
+              
+                α
+                +
+                β
+                +
+                1
+              
+            
+            
+              2
+              n
+              +
+              α
+              +
+              β
+              +
+              1
+            
+          
+        
+        
+          
+            
+              Γ
+              (
+              n
+              +
+              α
+              +
+              1
+              )
+              Γ
+              (
+              n
+              +
+              β
+              +
+              1
+              )
+            
+            
+              Γ
+              (
+              n
+              +
+              α
+              +
+              β
+              +
+              1
+              )
+              n
+              !
+            
+          
+        
+        
+          δ
+          
+            n
+            m
+          
+        
+        ,
+        
+        α
+        ,
+         
+        β
+        >
+        −
+        1.
+      
+    
+    {\displaystyle \int _{-1}^{1}(1-x)^{\alpha }(1+x)^{\beta }P_{m}^{(\alpha ,\beta )}(x)P_{n}^{(\alpha ,\beta )}(x)\,dx={\frac {2^{\alpha +\beta +1}}{2n+\alpha +\beta +1}}{\frac {\Gamma (n+\alpha +1)\Gamma (n+\beta +1)}{\Gamma (n+\alpha +\beta +1)n!}}\delta _{nm},\qquad \alpha ,\ \beta >-1.}
+  As defined, they do not have unit norm with respect to the weight.  This can be corrected by dividing by the square root of the right hand side of the equation above, when 
+  
+    
+      
+        n
+        =
+        m
+      
+    
+    {\displaystyle n=m}
+  .
+Although it does not yield an orthonormal basis, an alternative normalization is sometimes preferred due to its simplicity:
+
+  
+    
+      
+        
+          P
+          
+            n
+          
+          
+            (
+            α
+            ,
+            β
+            )
+          
+        
+        (
+        1
+        )
+        =
+        
+          
+            
+              (
+            
+            
+              
+                n
+                +
+                α
+              
+              n
+            
+            
+              )
+            
+          
+        
+        .
+      
+    
+    {\displaystyle P_{n}^{(\alpha ,\beta )}(1)={n+\alpha  \choose n}.}
+  
+
+
+=== Symmetry relation ===
+The polynomials have the symmetry relation
+
+  
+    
+      
+        
+          P
+          
+            n
+          
+          
+            (
+            α
+            ,
+            β
+            )
+          
+        
+        (
+        −
+        z
+        )
+        =
+        (
+        −
+        1
+        
+          )
+          
+            n
+          
+        
+        
+          P
+          
+            n
+          
+          
+            (
+            β
+            ,
+            α
+            )
+          
+        
+        (
+        z
+        )
+        ;
+      
+    
+    {\displaystyle P_{n}^{(\alpha ,\beta )}(-z)=(-1)^{n}P_{n}^{(\beta ,\alpha )}(z);}
+  thus the other terminal value is
+
+  
+    
+      
+        
+          P
+          
+            n
+          
+          
+            (
+            α
+            ,
+            β
+            )
+          
+        
+        (
+        −
+        1
+        )
+        =
+        (
+        −
+        1
+        
+          )
+          
+            n
+          
+        
+        
+          
+            
+              (
+            
+            
+              
+                n
+                +
+                β
+              
+              n
+            
+            
+              )
+            
+          
+        
+        .
+      
+    
+    {\displaystyle P_{n}^{(\alpha ,\beta )}(-1)=(-1)^{n}{n+\beta  \choose n}.}
+  
+
+
+=== Derivatives ===
+The kth derivative of the explicit expression leads to
+
+  
+    
+      
+        
+          
+            
+              d
+              
+                k
+              
+            
+            
+              d
+              
+                z
+                
+                  k
+                
+              
+            
+          
+        
+        
+          P
+          
+            n
+          
+          
+            (
+            α
+            ,
+            β
+            )
+          
+        
+        (
+        z
+        )
+        =
+        
+          
+            
+              Γ
+              (
+              α
+              +
+              β
+              +
+              n
+              +
+              1
+              +
+              k
+              )
+            
+            
+              
+                2
+                
+                  k
+                
+              
+              Γ
+              (
+              α
+              +
+              β
+              +
+              n
+              +
+              1
+              )
+            
+          
+        
+        
+          P
+          
+            n
+            −
+            k
+          
+          
+            (
+            α
+            +
+            k
+            ,
+            β
+            +
+            k
+            )
+          
+        
+        (
+        z
+        )
+        .
+      
+    
+    {\displaystyle {\frac {d^{k}}{dz^{k}}}P_{n}^{(\alpha ,\beta )}(z)={\frac {\Gamma (\alpha +\beta +n+1+k)}{2^{k}\Gamma (\alpha +\beta +n+1)}}P_{n-k}^{(\alpha +k,\beta +k)}(z).}
+  
+
+
+=== Differential equation ===
+The Jacobi polynomial P(α, β)n is a solution of the second order linear homogeneous differential equation
+
+  
+    
+      
+        
+          (
+          
+            1
+            −
+            
+              x
+              
+                2
+              
+            
+          
+          )
+        
+        
+          y
+          ″
+        
+        +
+        (
+        β
+        −
+        α
+        −
+        (
+        α
+        +
+        β
+        +
+        2
+        )
+        x
+        )
+        
+          y
+          ′
+        
+        +
+        n
+        (
+        n
+        +
+        α
+        +
+        β
+        +
+        1
+        )
+        y
+        =
+        0.
+      
+    
+    {\displaystyle \left(1-x^{2}\right)y''+(\beta -\alpha -(\alpha +\beta +2)x)y'+n(n+\alpha +\beta +1)y=0.}
+  
+
+
+=== Recurrence relations ===
+The recurrence relation for the Jacobi polynomials of fixed α,β is:
+
+  
+    
+      
+        
+          
+            
+              
+              
+                2
+                n
+                (
+                n
+                +
+                α
+                +
+                β
+                )
+                (
+                2
+                n
+                +
+                α
+                +
+                β
+                −
+                2
+                )
+                
+                  P
+                  
+                    n
+                  
+                  
+                    (
+                    α
+                    ,
+                    β
+                    )
+                  
+                
+                (
+                z
+                )
+              
+            
+            
+              
+              
+                
+                
+                =
+                (
+                2
+                n
+                +
+                α
+                +
+                β
+                −
+                1
+                )
+                
+                  
+                    {
+                  
+                
+                (
+                2
+                n
+                +
+                α
+                +
+                β
+                )
+                (
+                2
+                n
+                +
+                α
+                +
+                β
+                −
+                2
+                )
+                z
+                +
+                
+                  α
+                  
+                    2
+                  
+                
+                −
+                
+                  β
+                  
+                    2
+                  
+                
+                
+                  
+                    }
+                  
+                
+                
+                  P
+                  
+                    n
+                    −
+                    1
+                  
+                  
+                    (
+                    α
+                    ,
+                    β
+                    )
+                  
+                
+                (
+                z
+                )
+                −
+                2
+                (
+                n
+                +
+                α
+                −
+                1
+                )
+                (
+                n
+                +
+                β
+                −
+                1
+                )
+                (
+                2
+                n
+                +
+                α
+                +
+                β
+                )
+                
+                  P
+                  
+                    n
+                    −
+                    2
+                  
+                  
+                    (
+                    α
+                    ,
+                    β
+                    )
+                  
+                
+                (
+                z
+                )
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}&2n(n+\alpha +\beta )(2n+\alpha +\beta -2)P_{n}^{(\alpha ,\beta )}(z)\\&\qquad =(2n+\alpha +\beta -1){\Big \{}(2n+\alpha +\beta )(2n+\alpha +\beta -2)z+\alpha ^{2}-\beta ^{2}{\Big \}}P_{n-1}^{(\alpha ,\beta )}(z)-2(n+\alpha -1)(n+\beta -1)(2n+\alpha +\beta )P_{n-2}^{(\alpha ,\beta )}(z),\end{aligned}}}
+  for n = 2, 3, ....
+Since the Jacobi polynomials can be described in terms of the hypergeometric function, recurrences of the hypergeometric function give equivalent recurrences of the Jacobi polynomials. In particular, Gauss' contiguous relations correspond to the identities
+
+  
+    
+      
+        
+          
+            
+              
+                (
+                z
+                −
+                1
+                )
+                
+                  
+                    d
+                    
+                      d
+                      z
+                    
+                  
+                
+                
+                  P
+                  
+                    n
+                  
+                  
+                    (
+                    α
+                    ,
+                    β
+                    )
+                  
+                
+                (
+                z
+                )
+              
+              
+                
+                =
+                
+                  
+                    1
+                    2
+                  
+                
+                (
+                z
+                −
+                1
+                )
+                (
+                1
+                +
+                α
+                +
+                β
+                +
+                n
+                )
+                
+                  P
+                  
+                    n
+                    −
+                    1
+                  
+                  
+                    (
+                    α
+                    +
+                    1
+                    ,
+                    β
+                    +
+                    1
+                    )
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                n
+                
+                  P
+                  
+                    n
+                  
+                  
+                    (
+                    α
+                    ,
+                    β
+                    )
+                  
+                
+                −
+                (
+                α
+                +
+                n
+                )
+                
+                  P
+                  
+                    n
+                    −
+                    1
+                  
+                  
+                    (
+                    α
+                    ,
+                    α
+                    +
+                    1
+                    )
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                (
+                1
+                +
+                α
+                +
+                β
+                +
+                n
+                )
+                
+                  (
+                  
+                    
+                      P
+                      
+                        n
+                      
+                      
+                        (
+                        α
+                        ,
+                        β
+                        +
+                        1
+                        )
+                      
+                    
+                    −
+                    
+                      P
+                      
+                        n
+                      
+                      
+                        (
+                        α
+                        ,
+                        β
+                        )
+                      
+                    
+                  
+                  )
+                
+              
+            
+            
+              
+              
+                
+                =
+                (
+                α
+                +
+                n
+                )
+                
+                  P
+                  
+                    n
+                  
+                  
+                    (
+                    α
+                    −
+                    1
+                    ,
+                    β
+                    +
+                    1
+                    )
+                  
+                
+                −
+                α
+                
+                  P
+                  
+                    n
+                  
+                  
+                    (
+                    α
+                    ,
+                    β
+                    )
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    
+                      2
+                      (
+                      n
+                      +
+                      1
+                      )
+                      
+                        P
+                        
+                          n
+                          +
+                          1
+                        
+                        
+                          (
+                          α
+                          ,
+                          β
+                          −
+                          1
+                          )
+                        
+                      
+                      −
+                      
+                        (
+                        
+                          z
+                          (
+                          1
+                          +
+                          α
+                          +
+                          β
+                          +
+                          n
+                          )
+                          +
+                          α
+                          +
+                          1
+                          +
+                          n
+                          −
+                          β
+                        
+                        )
+                      
+                      
+                        P
+                        
+                          n
+                        
+                        
+                          (
+                          α
+                          ,
+                          β
+                          )
+                        
+                      
+                    
+                    
+                      1
+                      +
+                      z
+                    
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    
+                      (
+                      2
+                      β
+                      +
+                      n
+                      +
+                      n
+                      z
+                      )
+                      
+                        P
+                        
+                          n
+                        
+                        
+                          (
+                          α
+                          ,
+                          β
+                          )
+                        
+                      
+                      −
+                      2
+                      (
+                      β
+                      +
+                      n
+                      )
+                      
+                        P
+                        
+                          n
+                        
+                        
+                          (
+                          α
+                          ,
+                          β
+                          −
+                          1
+                          )
+                        
+                      
+                    
+                    
+                      1
+                      +
+                      z
+                    
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    
+                      1
+                      −
+                      z
+                    
+                    
+                      1
+                      +
+                      z
+                    
+                  
+                
+                
+                  (
+                  
+                    β
+                    
+                      P
+                      
+                        n
+                      
+                      
+                        (
+                        α
+                        ,
+                        β
+                        )
+                      
+                    
+                    −
+                    (
+                    β
+                    +
+                    n
+                    )
+                    
+                      P
+                      
+                        n
+                      
+                      
+                        (
+                        α
+                        +
+                        1
+                        ,
+                        β
+                        −
+                        1
+                        )
+                      
+                    
+                  
+                  )
+                
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}(z-1){\frac {d}{dz}}P_{n}^{(\alpha ,\beta )}(z)&={\frac {1}{2}}(z-1)(1+\alpha +\beta +n)P_{n-1}^{(\alpha +1,\beta +1)}\\&=nP_{n}^{(\alpha ,\beta )}-(\alpha +n)P_{n-1}^{(\alpha ,\alpha +1)}\\&=(1+\alpha +\beta +n)\left(P_{n}^{(\alpha ,\beta +1)}-P_{n}^{(\alpha ,\beta )}\right)\\&=(\alpha +n)P_{n}^{(\alpha -1,\beta +1)}-\alpha P_{n}^{(\alpha ,\beta )}\\&={\frac {2(n+1)P_{n+1}^{(\alpha ,\beta -1)}-\left(z(1+\alpha +\beta +n)+\alpha +1+n-\beta \right)P_{n}^{(\alpha ,\beta )}}{1+z}}\\&={\frac {(2\beta +n+nz)P_{n}^{(\alpha ,\beta )}-2(\beta +n)P_{n}^{(\alpha ,\beta -1)}}{1+z}}\\&={\frac {1-z}{1+z}}\left(\beta P_{n}^{(\alpha ,\beta )}-(\beta +n)P_{n}^{(\alpha +1,\beta -1)}\right)\,.\end{aligned}}}
+  
+
+
+=== Generating function ===
+The generating function of the Jacobi polynomials is given by
+
+  
+    
+      
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          P
+          
+            n
+          
+          
+            (
+            α
+            ,
+            β
+            )
+          
+        
+        (
+        z
+        )
+        
+          t
+          
+            n
+          
+        
+        =
+        
+          2
+          
+            α
+            +
+            β
+          
+        
+        
+          R
+          
+            −
+            1
+          
+        
+        (
+        1
+        −
+        t
+        +
+        R
+        
+          )
+          
+            −
+            α
+          
+        
+        (
+        1
+        +
+        t
+        +
+        R
+        
+          )
+          
+            −
+            β
+          
+        
+        ,
+      
+    
+    {\displaystyle \sum _{n=0}^{\infty }P_{n}^{(\alpha ,\beta )}(z)t^{n}=2^{\alpha +\beta }R^{-1}(1-t+R)^{-\alpha }(1+t+R)^{-\beta },}
+  where
+
+  
+    
+      
+        R
+        =
+        R
+        (
+        z
+        ,
+        t
+        )
+        =
+        
+          
+            (
+            
+              1
+              −
+              2
+              z
+              t
+              +
+              
+                t
+                
+                  2
+                
+              
+            
+            )
+          
+          
+            
+              1
+              2
+            
+          
+        
+         
+        ,
+      
+    
+    {\displaystyle R=R(z,t)=\left(1-2zt+t^{2}\right)^{\frac {1}{2}}~,}
+  and the branch of square root is chosen so that R(z, 0) = 1.
+
+
+== Asymptotics of Jacobi polynomials ==
+For x in the interior of [−1, 1], the asymptotics of P(α, β)n for large n is given by the Darboux formula
+
+  
+    
+      
+        
+          P
+          
+            n
+          
+          
+            (
+            α
+            ,
+            β
+            )
+          
+        
+        (
+        cos
+        ⁡
+        θ
+        )
+        =
+        
+          n
+          
+            −
+            
+              
+                1
+                2
+              
+            
+          
+        
+        k
+        (
+        θ
+        )
+        cos
+        ⁡
+        (
+        N
+        θ
+        +
+        γ
+        )
+        +
+        O
+        
+          (
+          
+            n
+            
+              −
+              
+                
+                  3
+                  2
+                
+              
+            
+          
+          )
+        
+        ,
+      
+    
+    {\displaystyle P_{n}^{(\alpha ,\beta )}(\cos \theta )=n^{-{\frac {1}{2}}}k(\theta )\cos(N\theta +\gamma )+O\left(n^{-{\frac {3}{2}}}\right),}
+  where
+
+  
+    
+      
+        
+          
+            
+              
+                k
+                (
+                θ
+                )
+              
+              
+                
+                =
+                
+                  π
+                  
+                    −
+                    
+                      
+                        1
+                        2
+                      
+                    
+                  
+                
+                
+                  sin
+                  
+                    −
+                    α
+                    −
+                    
+                      
+                        1
+                        2
+                      
+                    
+                  
+                
+                ⁡
+                
+                  
+                    
+                      θ
+                      2
+                    
+                  
+                
+                
+                  cos
+                  
+                    −
+                    β
+                    −
+                    
+                      
+                        1
+                        2
+                      
+                    
+                  
+                
+                ⁡
+                
+                  
+                    
+                      θ
+                      2
+                    
+                  
+                
+                ,
+              
+            
+            
+              
+                N
+              
+              
+                
+                =
+                n
+                +
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                (
+                α
+                +
+                β
+                +
+                1
+                )
+                ,
+              
+            
+            
+              
+                γ
+              
+              
+                
+                =
+                −
+                
+                  
+                    
+                      π
+                      2
+                    
+                  
+                
+                
+                  (
+                  
+                    α
+                    +
+                    
+                      
+                        
+                          1
+                          2
+                        
+                      
+                    
+                  
+                  )
+                
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}k(\theta )&=\pi ^{-{\frac {1}{2}}}\sin ^{-\alpha -{\frac {1}{2}}}{\tfrac {\theta }{2}}\cos ^{-\beta -{\frac {1}{2}}}{\tfrac {\theta }{2}},\\N&=n+{\tfrac {1}{2}}(\alpha +\beta +1),\\\gamma &=-{\tfrac {\pi }{2}}\left(\alpha +{\tfrac {1}{2}}\right),\end{aligned}}}
+  and the "O" term is uniform on the interval [ε, π-ε] for every ε > 0.
+The asymptotics of the Jacobi polynomials near the points ±1 is given by the Mehler–Heine formula
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  lim
+                  
+                    n
+                    →
+                    ∞
+                  
+                
+                
+                  n
+                  
+                    −
+                    α
+                  
+                
+                
+                  P
+                  
+                    n
+                  
+                  
+                    (
+                    α
+                    ,
+                    β
+                    )
+                  
+                
+                
+                  (
+                  
+                    cos
+                    ⁡
+                    
+                      (
+                      
+                        
+                          
+                            z
+                            n
+                          
+                        
+                      
+                      )
+                    
+                  
+                  )
+                
+              
+              
+                
+                =
+                
+                  
+                    (
+                    
+                      
+                        
+                          z
+                          2
+                        
+                      
+                    
+                    )
+                  
+                  
+                    −
+                    α
+                  
+                
+                
+                  J
+                  
+                    α
+                  
+                
+                (
+                z
+                )
+              
+            
+            
+              
+                
+                  lim
+                  
+                    n
+                    →
+                    ∞
+                  
+                
+                
+                  n
+                  
+                    −
+                    β
+                  
+                
+                
+                  P
+                  
+                    n
+                  
+                  
+                    (
+                    α
+                    ,
+                    β
+                    )
+                  
+                
+                
+                  (
+                  
+                    cos
+                    ⁡
+                    
+                      (
+                      
+                        π
+                        −
+                        
+                          
+                            
+                              z
+                              n
+                            
+                          
+                        
+                      
+                      )
+                    
+                  
+                  )
+                
+              
+              
+                
+                =
+                
+                  
+                    (
+                    
+                      
+                        
+                          z
+                          2
+                        
+                      
+                    
+                    )
+                  
+                  
+                    −
+                    β
+                  
+                
+                
+                  J
+                  
+                    β
+                  
+                
+                (
+                z
+                )
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\lim _{n\to \infty }n^{-\alpha }P_{n}^{(\alpha ,\beta )}\left(\cos \left({\tfrac {z}{n}}\right)\right)&=\left({\tfrac {z}{2}}\right)^{-\alpha }J_{\alpha }(z)\\\lim _{n\to \infty }n^{-\beta }P_{n}^{(\alpha ,\beta )}\left(\cos \left(\pi -{\tfrac {z}{n}}\right)\right)&=\left({\tfrac {z}{2}}\right)^{-\beta }J_{\beta }(z)\end{aligned}}}
+  where the limits are uniform for z in a bounded domain.
+The asymptotics outside [−1, 1] is less explicit.
+
+
+== Applications ==
+
+
+=== Wigner d-matrix ===
+The expression (1) allows the expression of the Wigner d-matrix djm’,m(φ) (for 0 ≤ φ ≤ 4π) in terms of Jacobi polynomials:
+
+  
+    
+      
+        
+          d
+          
+            
+              m
+              ′
+            
+            m
+          
+          
+            j
+          
+        
+        (
+        ϕ
+        )
+        =
+        
+          
+            [
+            
+              
+                
+                  (
+                  j
+                  +
+                  m
+                  )
+                  !
+                  (
+                  j
+                  −
+                  m
+                  )
+                  !
+                
+                
+                  (
+                  j
+                  +
+                  
+                    m
+                    ′
+                  
+                  )
+                  !
+                  (
+                  j
+                  −
+                  
+                    m
+                    ′
+                  
+                  )
+                  !
+                
+              
+            
+            ]
+          
+          
+            
+              1
+              2
+            
+          
+        
+        
+          
+            (
+            
+              sin
+              ⁡
+              
+                
+                  
+                    ϕ
+                    2
+                  
+                
+              
+            
+            )
+          
+          
+            m
+            −
+            
+              m
+              ′
+            
+          
+        
+        
+          
+            (
+            
+              cos
+              ⁡
+              
+                
+                  
+                    ϕ
+                    2
+                  
+                
+              
+            
+            )
+          
+          
+            m
+            +
+            
+              m
+              ′
+            
+          
+        
+        
+          P
+          
+            j
+            −
+            m
+          
+          
+            (
+            m
+            −
+            
+              m
+              ′
+            
+            ,
+            m
+            +
+            
+              m
+              ′
+            
+            )
+          
+        
+        (
+        cos
+        ⁡
+        ϕ
+        )
+        .
+      
+    
+    {\displaystyle d_{m'm}^{j}(\phi )=\left[{\frac {(j+m)!(j-m)!}{(j+m')!(j-m')!}}\right]^{\frac {1}{2}}\left(\sin {\tfrac {\phi }{2}}\right)^{m-m'}\left(\cos {\tfrac {\phi }{2}}\right)^{m+m'}P_{j-m}^{(m-m',m+m')}(\cos \phi ).}
+  
+
+
+== See also ==
+Askey–Gasper inequality
+Big q-Jacobi polynomials
+Continuous q-Jacobi polynomials
+Little q-Jacobi polynomials
+Pseudo Jacobi polynomials
+Jacobi process
+Gegenbauer polynomials
+Romanovski polynomials
+
+
+== Notes ==

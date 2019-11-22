@@ -1,0 +1,51 @@
+Title: LNER Class W1
+Aspects: {'W1'}
+
+The LNER W1 No. 10000 (also known as the Hush-Hush due to its secrecy) was an experimental steam locomotive fitted with a high pressure water-tube boiler. Nigel Gresley was impressed by the results of using high-pressure steam in marine applications and so in 1924 he approached Harold Yarrow of shipyard & boilermakers Yarrow & Company of Glasgow to design a suitable boiler for a railway locomotive, based on Yarrow's design.
+
+
+== Boiler ==
+
+The boiler was not the usual Yarrow design. In operation, particularly its circulation paths, the boiler had more in common with other three-drum designs such as the Woolnough. It has also been described as an evolution of the Brotan-Deffner water-tube firebox, with the firebox extended to become the entire boiler.
+The boiler resembled two elongated marine Yarrow boilers, joined end to end. Both had the usual Yarrow triangular arrangement of a central large steam drum above two separated water drums, linked by multiple rows of slightly curved tubes. The rearward "firebox" area was wide and spanned the frames, placing the water drums at the limits of the loading gauge. The forward "boiler" region was narrow-set, with its water drums placed between the frames. The space outboard of the tubes formed a pair of exhaust flues leading forwards. A large space outside these flue walls but inside the boiler casing was used as an air duct from the air inlet, a crude rectangular slot beneath the smokebox door, which had the effect of both pre-heating the combustion air and also cooling the outer casing to prevent overheating. Longitudinal superheater tubes were placed between the steam generating tubes. The third area forwards contained superheater headers, the regulators and the smokebox. The external boiler casing remained at much the same width throughout, giving an overall triangular, but curved, appearance. The lower edge of each section stepped upwards, and was obvious externally.
+Working pressure was of 450 pounds per square inch (31.0 bar; 3,100 kPa) as opposed to the 180 pounds per square inch (12.4 bar; 1,240 kPa) of the contemporary Gresley A1 locomotives.
+The heavy forgings for the main drums were built in Sheffield by the John Brown shipyard. The boiler was constructed and fitted to the frames by Yarrow in Glasgow, involving the rolling chassis being carried over the LMS, carefully sheeted over to avoid inspection by a rival railway company. This chassis was a 4-2-2-4 at this point, as the centre drivers and rods had not yet been fitted. The first works photographs, with the boiler cladding in grey, were taken in Glasgow, with a wooden dummy centre driver and coupling rod added for the photo.
+
+
+== Motion ==
+This apparatus was based on a Gresley Pacific 4-6-2 chassis, although with an additional axle to accommodate the extra length. This resulted in a 4-6-4 wheel arrangement, making No. 10000 the only standard gauge 4-6-4 tender engine to run on a British railway.
+In UIC notation this wheel arrangement could be described as a 2′C1′1′ (or more fully, 2′C1′1′h4vS) as the two trailing axles were independent, rather than a four-wheeled bogie as for those leading. The forward axle was similar to that of the Pacifics, having outside frames and Cartazzi axleboxes. The rear axle was an inside-framed Bissel truck, pivoted ahead of the leading axle.
+The high pressure necessitated compound expansion; steam being supplied to the two 12-by-26-inch (305 mm × 660 mm) high-pressure inside cylinders and then fed into two larger 20-by-26-inch (508 mm × 660 mm) low-pressure outside cylinders before going to exhaust. High-pressure cylinder diameter was subsequently reduced to 10 in (254 mm). Gresley incorporated an ingenious unique system for giving independent cutoff to the high-pressure cylinders using only two sets of Walschaerts valve gear derived from the outside cranks on the Von Borries principle and using an inside half-length expansion link.
+
+
+== In service ==
+The locomotive was completed at Darlington Works in 1929.
+The locomotive had a corridor tender and ran non-stop London-Edinburgh services to time in 1930; nevertheless steaming was relatively poor during test runs, and in spite of a number of modifications initially to the exhaust, boiler performance never reached the standards of an equivalent firetube boiler. A problem never fully solved was air leakage into the casing.
+
+
+=== Rebuilding ===
+
+When it was deemed that no further progress could be made, the locomotive was taken to Doncaster Works in 1936 and rebuilt with a conventional boiler and three simple expansion cylinders on the normal Gresley layout. A modified A4 boiler was fitted which had 50 sq ft (4.6 m2) of grate area and 20 in (508 mm) diameter cylinders. The valves were considered undersized for the large cylinder diameter and this somewhat limited the speed capabilities of the engine. Its haulage capacity was nonetheless appreciated. The rebuilt engine still retained its additional axle, resulting in a more spacious cab for the driver and fireman.
+No. 10000 never carried a name, although it did carry small works plates on the smoke deflectors bearing the number 10000. In its early form, it was known unofficially as the Hush-Hush as a result of the initial secrecy surrounding the project, and also the Galloping Sausage as a result of its bulging boiler shape. Plans in 1929 to name the original engine British Enterprise were dropped, although nameplates had already been cast; a 1951 plan to name the rebuilt engine Pegasus did not come to fruition either.  From 1948 under British Railways it was renumbered 60700.On 1 September 1955, 60700 had just departed from Peterborough when the front bogie frame broke. The locomotive derailed at a speed of 20 miles per hour (32 km/h) at Westwood Junction. It was recovered and repaired.60700 was withdrawn on 1 June 1959 and was broken up for scrap at the Doncaster Works later that year.
+
+
+== Notes ==
+
+
+== References ==
+Boddy, M. G.; Brown, W. A.; Hennigan, W.; Hoole, Ken; Neve, E.; Yeadon, W. B. (September 1984).  Fry, E. V. (ed.). Locomotives of the L.N.E.R., Part 6C: Tender Engines—Classes Q1 to Y10. Kenilworth: RCTS. ISBN 0-901115-55-X.
+Brown, F. A. S. (1961). Nigel Gresley Locomotive Engineer. Shepperton, Middlesex: Ian Allan. ISBN 0-7110-0591-5.
+Nock, O. S. (1966). "9: Unconventional Locomotives 1929-1935". The British Steam Railway Locomotive. II, from 1925 to 1965. Ian Allan. pp. 106–109.
+van Riemsdijk, John (1994). Compound Locomotives. Penryn, UK: Atlantic Transport Publishers.
+Yeadon, Willie (1990). Yeadon's Register of LNER Locomotives, Vol.2: Gresley A4 and W1 Classes. Irwell Press.
+Brown, William (2010). Hush-Hush. Kestrel Railway Books. ISBN 978-1-905505-15-9.
+
+
+=== Literature ===
+"Tests on Boiler of L.N.E.R. Engine "No. 10,0000"" (PDF), The Engineer, 158: 191–193, 24 August 1934
+"High‐pressure compound locomotive, london & north eastern railway". Journal of the Institution of Locomotive Engineers. 20 (94): 134–136. 1930. doi:10.1243/JILE_PROC_1930_020_012_02.
+
+
+== External links ==
+LNER encyclopedia
+"Hush-Hush Locomotive has Streamline Boiler" Popular Mechanics, March 1930

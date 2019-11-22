@@ -1,0 +1,69 @@
+Title: X-ray binary
+Aspects: {'X-ray star'}
+
+X-ray binaries are a class of binary stars that are luminous in X-rays. 
+The X-rays are produced by matter falling from one component, called the donor (usually a relatively normal star), to the other component, called the accretor, which is very compact: a neutron star or black hole. 
+The infalling matter releases gravitational potential energy, up to several tenths of its rest mass, as X-rays.  (Hydrogen fusion releases only about 0.7 percent of rest mass.)  The lifetime and the mass-transfer rate in an X-ray binary depends on the evolutionary status of the donor star, the mass ratio between the stellar components, and their orbital separation.An estimated 1041 positrons escape per second from a typical low-mass X-ray binary.
+
+
+== Classification ==
+
+X-ray binaries are further subdivided into several (sometimes overlapping) subclasses, that perhaps reflect the underlying physics better.  Note that the classification by mass (high, intermediate, low) refers to the optically visible donor, not to the compact X-ray emitting accretor.
+
+Low-mass X-ray binaries (LMXBs)
+Soft X-ray transients (SXTs)
+Symbiotic X-ray binaries
+Super soft X-ray sources or Super soft sources (SSXs), (SSXB)
+Intermediate-mass X-ray binaries (IMXBs)
+Ultracompact X-ray binaries (UCXBs)
+High-mass X-ray binaries (HMXBs)
+Be/X-ray binaries (BeXRBs)
+Supergiant X-ray binaries (SGXBs)
+Supergiant Fast X-ray Transients (SFXTs)
+Others
+X-ray bursters
+X-ray pulsars
+Microquasars (radio-jet X-ray binaries that can house either a neutron star or a black hole)
+
+
+== Low-mass X-ray binary ==
+A low-mass X-ray binary (LMXB) is a binary star system where one of the components is either a black hole or neutron star.  The other component, a donor, usually fills its Roche lobe and therefore transfers mass to the compact star.  In LMXB systems the donor is less massive than the compact object, and can be on the main sequence, a degenerate dwarf (white dwarf), or an evolved star (red giant). Approximately two hundred LMXBs have been detected in the Milky Way, and of these, thirteen LMXBs have been discovered in globular clusters.  The Chandra X-ray Observatory has revealed LMXBs in many distant galaxies.
+A typical low-mass X-ray binary emits almost all of its radiation in X-rays, and typically less than one percent in visible light, so they are among the brightest objects in the X-ray sky, but relatively faint in visible light. The apparent magnitude is typically around 15 to 20. The brightest part of the system is the accretion disk around the compact object. The orbital periods of LMXBs range from ten minutes to hundreds of days.
+The variability of LXMBs are most commonly observed as X-ray bursters, but can sometimes be seen in the form of X-ray pulsars. The X-ray bursters are created by thermonuclear explosions created by the accretion of Hydrogen and Helium.
+
+
+== Intermediate-mass X-ray binary ==
+An intermediate-mass X-ray binary (IMXB) is a binary star system where one of the components is a neutron star or a black hole. The other component is an intermediate-mass star. An intermediate-mass X-ray binary is the origin for Low-mass X-ray binary systems.
+
+
+== High-mass X-ray binary ==
+A high-mass X-ray binary (HMXB) is a binary star system that is strong in X rays, and in which the normal stellar component is a massive star: usually an O or B star, or a blue supergiant. 
+The compact, X-ray emitting, component is a neutron star or black hole.
+A fraction of the stellar wind of the massive normal star is captured by the compact object, and produces X-rays as it falls onto the compact object.
+In a high-mass X-ray binary, the massive star dominates the emission of optical light, while the compact object is the dominant source of X-rays. 
+The massive stars are very luminous and therefore easily detected. 
+One of the most famous high-mass X-ray binaries is Cygnus X-1, which was the first identified black hole candidate.  
+Other HMXBs include Vela X-1 (not to be confused with Vela X), and 4U 1700-37.
+The variability of HMXBs are observed in the form of X-ray pulsars and not X-ray bursters. These X-ray pulsars are due to the accretion of matter magnetically funneled into the poles of the compact companion. The stellar wind and Roche lobe overflow of the massive normal star accretes in such large quantities, the transfer is very unstable and creates a short lived mass transfer.
+Once a HMXB has reached its end, if the periodicity of the binary was less than a year, it can become a single red giant with a neutron core or a single neutron star. With a longer periodicity, a year and beyond, the HMXB can become a double neutron star binary if uninterrupted by a supernova.
+
+
+== Microquasar ==
+
+A microquasar (or radio emitting X-ray binary) is the smaller cousin of a quasar.  Microquasars are named after quasars, as they have some common characteristics: strong and variable radio emission, often resolvable as a pair of radio jets, and an accretion disk surrounding a compact object which is either a black hole or a neutron star. In quasars, the black hole is supermassive (millions of solar masses); in microquasars, the mass of the compact object is only a few solar masses. In microquasars, the accreted mass comes from a normal star, and the accretion disk is very luminous in the optical and X-ray regions. Microquasars are sometimes called radio-jet X-ray binaries to distinguish them from other X-ray binaries. A part of the radio emission comes from relativistic jets, often showing apparent superluminal motion.Microquasars are very important for the study of relativistic jets. The jets are formed close to the compact object, and timescales near the compact object are proportional to the mass of the compact object. Therefore, ordinary quasars take centuries to go through variations a microquasar experiences in one day.
+Noteworthy microquasars include SS 433, in which atomic emission lines are visible from both jets; GRS 1915+105, with an especially high jet velocity and the very bright Cygnus X-1, detected up to the High Energy gamma rays (E > 60 MeV). Extremely high energies of particles emitting in the VHE band might be explained by several mechanisms of particle acceleration (see Fermi acceleration and Centrifugal mechanism of acceleration).
+
+
+== See also ==
+4U 0614+091
+LS I +61 303
+SS 433
+Quasar
+
+
+== References ==
+
+
+== External links ==
+Negueruela, Ignacio; Torrejon, Jose Miguel; Reig, Pablo; Ribo, Marc; Smith, David M. (2008). "Supergiant Fast X-ray Transients and Other Wind Accretors". A Population Explosion: The Nature & Evolution of X-Ray Binaries in Diverse Environments. 1010: 252–256. arXiv:0801.3863. Bibcode:2008AIPC.1010..252N. doi:10.1063/1.2945052. doi:10.1063/1.2945052 Bibcode: 2008AIPC.1010..252N
+Audio Cain/Gay (2009) Astronomy Cast episode 135: X-ray Astronomy

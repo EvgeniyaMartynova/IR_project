@@ -1,0 +1,72 @@
+Title: Direct2D
+Aspects: {'D2D'}
+
+Direct2D is a 2D vector graphics application programming interface (API) designed by Microsoft and implemented in Windows 10, Windows 8, Windows 7 and Windows Server 2008 R2, and also Windows Vista and Windows Server 2008 (with Platform Update installed).Direct2D takes advantage of hardware acceleration via the graphics processing unit (GPU) found in compatible graphics cards within personal computer, tablet, smartphone and modern graphical device. It offers high visual quality and fast rendering performance while maintaining full interoperability with classic Win32 graphics APIs such as GDI/GDI+ and modern graphics APIs such as Direct3D.
+
+
+== Overview ==
+Direct2D is a native code API based on C++ that can be called by managed code and uses a "lightweight COM" approach just like Direct3D, with minimal amount of abstraction. However, unlike WPF and similarly to GDI/GDI+, Direct2D is an "immediate mode" rendering API with simple BeginDraw/Draw/EndDraw calls; Direct2D has no concept of a "scene" and does not use retained tree structures, and the rendering state is preserved between drawing calls.
+Direct2D can minimize CPU usage and utilize hardware rendering on a graphics card with minimum support of Direct3D Feature Level 9 with WDDM 1.1 drivers. Applications can choose to use it exclusively with CPU, the so-called software rendering by using it in conjunction with WARP10 in situations when hardware capability is not available, such as when running within a device with minimal GPU support, under terminal service, Windows session 0, or when graphics rendering is performed in a remote server with the graphical result sent back to the client device. Direct2D performance and memory usage scale linearly with primitive counts in both software and hardware.
+Direct2D supports high-quality rendering with the following key features:
+
+High-quality subpixel text rendering via DirectWrite for both grayscale and ClearType technique
+Per-primitive antialiasing
+Bézier geometry draw and fill
+Rich geometry operations (e.g. Boolean operations, path widening, outlining, etc.)
+Composite layers
+Primitive blend modes (e.g. source-over, source-copy, min blends, etc.)
+Image built-in and custom effects for photo adjustment, graphical and color transform
+Gradient brush and mesh
+Command list for command buffering and printing
+Scalable ink stroke
+Sprite batch for game developmentDirect2D allows full interoperability with GDI, GDI+, and permits rendering to and from a Direct3D surface, as well as to and from a GDI/GDI+ device context (HDC). It can be used effectively together with Windows Imaging Component (WIC) for image encoding/decoding, and with DirectWrite for text formatting and font processing. Such interoperability allows developers to gradually replace critical code paths with Direct2D code without the need to overhaul their entire source code. In Windows 10 timeframe, an Open Source project called Win2D was developed by Microsoft to further simplify the usage of Direct2D and DirectWrite in Universal Windows Platform (UWP) application. Win2D is a highly-efficient WinRT wrapper of Direct2D and DirectWrite designed from the ground up to integrate seamlessly with XAML Canvas control while preserving the power of the underlying graphics subsystem.
+
+
+== Subsequent versions ==
+
+
+=== Direct2D 1.1 ===
+An updated version of Direct2D was launched with Windows 8 in October 2012. It was also backported to Windows 7 SP1 (but not to Windows Vista) via the Windows 7 platform update. The original version of Direct2D was tied to DirectX 11 (in hardware, up to Direct3D 10.1 is used), whereas this version of Direct2D integrates with DirectX 11.1. Windows 8 also added interoperability between XAML and Direct2D along with Direct3D components, which can be all mixed in an application.
+
+
+=== Direct2D 1.2 ===
+New features were added to Direct2D with Windows 8.1 in October 2013: Geometry realizations, Direct2D effects API, command list API, multithreading APIs, per-device rendering priority, support for JPEG YCbCr images for smaller memory footprint, and support for block compressed formats (DDS files).
+
+
+=== Direct2D 1.3 ===
+The release of Windows 10 in July 2015 brought important updates and new features to Direct2D such as the performance improvement of rendering scalable text without font rasterization, the ability to download the needed font from the cloud on demand without requiring the font installation step, an optimization for faster image loading and image effect rendering, and a more sophisticated way to apply gradient brush through the use of 2D mesh made of gradient patches. This release also introduced a brand-new API extension to support digital ink, which is highly leveraged by the brand-new Microsoft Edge browser as well as the new ink canvas XAML control.
+
+
+== Implementation ==
+In their 2012 paper on the competing NV path rendering OpenGL extension, Mark Kilgard and Jeff Bolz explain (and criticize) the internals of Direct2D as follows: "Direct2D operates by transforming paths on the CPU and then performing a constrained trapezoidal tessellation of each path. The result is a set of pixel-space trapezoids and additional shaded geometry to compute fractional coverage for the left and right edges of the trapezoids. These trapezoids and shaded geometry are then rasterized by the GPU. The resulting performance is generally better than entirely CPU-based approaches and requires no ancillary storage for multisample or stencil state; Direct2D renders directly into an aliased framebuffer with properly antialiased results. Direct2D’s primary disadvantage is [that] the ultimate performance is determined not by the GPU (doing fairly trivial rasterization) but rather by the CPU performing the transformation and trapezoidal tessellation of each path and Direct3D validation work."In July 2012, the Windows 8 team posted the following on the blog of Steven Sinofsky: "To improve geometry rendering performance in Windows 8, we focused on reducing the CPU cost associated with tessellation in two ways. First, we optimized our implementation of tessellation when rendering simple geometries like rectangles, lines, rounded rectangles, and ellipses." These common-case optimizations claimed to improve performance in the range of 184% to 438%, depending on the primitive. The post continued: "Second, to improve performance when rendering irregular geometry (e.g. geographical borders on a map), we use a new graphics hardware feature called Target Independent Rasterization, or TIR. TIR enables Direct2D to spend fewer CPU cycles on tessellation, so it can give drawing instructions to the GPU more quickly and efficiently, without sacrificing visual quality. TIR is available in new GPU hardware designed for Windows 8 that supports DirectX 11.1." This was followed by a benchmark using some 15 SVGs, claiming performance improvements in the range of 151% to 523%. The section concluded: "We worked closely with our graphics hardware partners to design TIR. Dramatic improvements were made possible because of that partnership. DirectX 11.1 hardware is already on the market today and we’re working with our partners to make sure more TIR-capable products will be broadly available."The TIR feature was among those that caused a "war of words" between Nvidia and AMD around December 2012, because Nvidia's Kepler GPU family does not support it, whereas AMD's GCN does. In response to customer demands, an Nvidia support staffer posted that TIR cannot be simply implemented at the driver level, but requires new hardware; the Maxwell 2 architecture, introduced in September 2014, is such hardware.In Windows 8.1, Direct2D can use the Direct3D11 hardware tesselators, but only in conjunction with D2D1_FILL_MODE_ALTERNATE. If another fill mode is used (e.g. D2D1_FILL_MODE_WINDING) then Direct2D falls back to tessellation on the CPU, but still uses TIR for anti-aliasing (if TIR is available). Since hardware tessellation is available in base Direct3D11 (not necessarily 11.1), Microsoft claimed significant performance improvements with Direct2D in Windows 8.1 (vs. Windows 8) on non-TIR hardware.
+
+
+== Uses and performance ==
+Internet Explorer 9 and later versions use Direct2D and DirectWrite for improved performance and visual quality. Direct2D support was added in the alpha version of Firefox 3.7, roughly doubling its rendering speed. (Firefox 4 also added DirectWrite support, but this was made non-default for some fonts in Firefox 7 due to user complaints about the rendering quality. Google Chrome uses its own 2D library called Skia, which in turn renders through ANGLE on Windows.) In Firefox 70.0, on old hardware, Direct2D is disabled on blacklisted old graphics drivers if they lack features and area is blacked out e.g. in Google Maps. Ars Technica's Peter Bright noted in the summer of 2012 that "most desktop applications don't use Direct2D."Microsoft Office 2013 supports either Direct2D+DirectWrite or GDI+Uniscribe for display rendering and typography.
+
+
+== See also ==
+DirectX
+Direct3D
+Cairo – a cross platform vector graphics library
+OpenVG
+Simple and Fast Multimedia Library
+Starling Framework
+Quartz 2D
+
+
+== References ==
+
+
+== External links ==
+Main Direct2D page at MSDN with links to the programming guide, new features in Windows 8.1, interoperability with Direct3D, etc.
+Blog of Direct2D Lead Developer Thomas Olsen
+Blog of Direct2D Developer Tom Mulcahy
+Windows 7: Introducing Direct2D and DirectWrite - PDC 2008 video
+Windows API Code Pack for Microsoft .NET Framework - allows developing Direct2D apps in managed code
+Introducing Direct2D - June 2009 issue of MSDN Magazine
+Drawing with Direct2D - September 2009 issue of MSDN Magazine
+Direct2D API for Microsoft .Net Framework 4 - Direct2D API for Microsoft .Net Framework 4
+USPTO application for target independent rasterization
+Direct2D 1.1 Migration Guide for Windows 7 Developers
+Charles Petzold's column on DirectX has several articles on Direct2D ranging from introductory ones like Triangles and Tessellation or Direct2D Geometries and Their Manipulations to more advanced ones like Finger Painting with Direct2D Geometries, A 2D Portal into a 3D World, etc.

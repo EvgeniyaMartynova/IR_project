@@ -1,0 +1,60 @@
+Title: End-to-end auditable voting systems
+Aspects: {'E2E'}
+
+End-to-end auditable or end-to-end voter verifiable (E2E) systems are voting systems with stringent integrity properties and strong tamper resistance. E2E systems often employ cryptographic methods to craft receipts that allow voters to verify that their votes were counted as cast, without revealing which candidates were voted for. As such, these systems are sometimes referred to as receipt-based systems.
+
+
+== Overview ==
+Electronic voting systems arrive at their final vote totals by a series of steps: 
+
+each voter has an original intent,
+voters express their intent on ballots (whether transient, as on the display of a DRE voting machine, or durable, as in systems with voter verifiable paper trails),
+the ballots are interpreted, to generate electronic cast vote records,
+cast vote records are tallied, generating totals
+where counting is conducted locally, for example, at the precinct or county level, the results from each local level are combined to produce the final tally.Classical approaches to election integrity tended to focus on mechanisms that operated at each step on the chain from voter intent to final total.  Voting is an example of a distributed system, and in general, distributed system designers have long known that such local focus may miss some vulnerabilities while over-protecting others.   The alternative is to use end-to-end measures that are designed to guard the integrity of the entire chain.The failure of current optical scan voting systems to meet
+reasonable end-to-end standards was pointed out in 2002.Comprehensive coverage of election integrity frequently involves multiple stages.  Voters are expected to verify that they have marked their ballots as intended, we use recounts or audits to protect the step from marked ballots to ballot-box totals, and we use publication of all subtotals to allow public verification that the overall totals correctly sum the local totals.While measures such as voter verified paper audit trails and manual recounts increase the effectiveness of our defenses, they offer only weak protection of the integrity of the physical or electronic ballot boxes.  Ballots could be removed, replaced, or could have marks added to them (i.e.,to fill in undervoted contests with votes for a desired candidate or to overvote and spoil votes for undesired candidates).  This shortcoming motivated the development of the end-to-end auditable voting systems discussed here, sometimes referred to as E2E voting systems.  These attempt to cover the entire path from voter attempt to election totals with just two measures:
+
+Individual verifiability, by which any voter may check that his or her ballot is correctly included in the electronic ballot box, and
+Universal verifiability, by which anyone may determine that all of the ballots in the box have been correctly counted.Because of the importance of the right to a secret ballot, some E2E voting schemes also attempt to meet a third requirement, usually referred to as receipt freeness:
+
+No voter can demonstrate how he or she voted to any third party.A researcher has argued that end-to-end auditability and receipt-freeness should be considered to be orthogonal properties.  Other researchers have shown that these properties can co-exist, and these  properties are combined in the 2005 Voluntary Voting System Guidelines promulgated by the Election Assistance Commission. This definition is also predominant in the academic literature.To address ballot stuffing, the following measure can be adopted:
+
+Eligibility verifiability, by which anyone may determine that all counted ballots were cast by registered voters.Alternatively, assertions regarding ballot stuffing can be externally verified by comparing the number of votes cast with the number of registered voters who voted, and by auditing other aspects of the registration and ballot delivery system.
+Support for E2E auditability, based on prior experience using it with in-person elections, is also seen as a requirement for remote voting over the Internet by many experts.
+
+
+== Use in elections ==
+The city of Takoma Park, Maryland used Scantegrity II for its 2009 and 2011 city elections.The STAR-Vote system was under development for Travis County, the fifth most populous county in Texas, where the state capital, Austin, is. Development ended in 2017, because no contractor was willing to bid an open-source system meeting criteria in the request for proposals.
+
+
+== Proposed E2E Systems ==
+In 2004, David Chaum proposed a solution that allows a voter to verify that the vote is cast appropriately and that the vote is accurately counted using visual cryptography. After the voter selects their candidates, a DRE machine prints out a specially formatted version of the ballot on two transparencies. When the layers are stacked, they show the human-readable vote. However, each transparency is encrypted with a form of visual cryptography so that it alone does not reveal any information unless it is decrypted.  The voter selects one layer to destroy at the poll. The DRE retains an electronic copy of the other layer and gives the physical copy as a receipt to allow the voter to confirm that the electronic ballot was not later changed.  The system guards against changes to the voter's ballot and uses a mix-net decryption procedure to ensure that each vote is accurately counted. Sastry, Karloff and Wagner pointed out that there are issues with both of the Chaum and VoteHere cryptographic solutions.Chaum's team subsequently developed Punchscan, which has stronger security properties and uses simpler paper ballots. The paper ballots are voted on and then a privacy-preserving portion of the ballot is scanned by an optical scanner.
+The Prêt à Voter system, invented by Peter Ryan, uses a shuffled candidate order and a traditional mix network. As in Punchscan, the votes are made on paper ballots and a portion of the ballot is scanned.
+The Scratch and Vote system, invented by Ben Adida, uses a scratch-off surface to hide cryptographic information that can be used to verify the correct printing of the ballot.The ThreeBallot voting protocol, invented by Ron Rivest, was designed to provide some of the benefits of a cryptographic voting system without using cryptography. It can in principle be implemented on paper although the presented version requires an electronic verifier.
+The Scantegrity and Scantegrity II systems provide E2E properties, however instead of being a replacement of the entire voting system, as is the case in all the preceding examples, it works as an add-on for existing optical scan voting systems. Scantegrity II  employs invisible ink and was developed by a team that included Chaum, Rivest, and Ryan.  
+The STAR-vote system under development for Travis County, Texas is another way to combine an E2E system with conventionally auditable paper ballots, produced in this case by a ballot marking device.
+
+
+== Examples ==
+ADDER
+Helios
+Prêt à Voter
+Punchscan
+Scantegrity
+Wombat Voting 
+ThreeBallot
+Bingo Voting
+homomorphic secret sharing
+DRE-i (E2E verifiable e-voting without tallying authorities based on pre-computation)
+DRE-ip (E2E verifiable e-voting without tallying authorities based on real-time computation)
+
+
+== References ==
+
+
+== External links ==
+Verifying Elections with Cryptography — Video of Ben Adida's 90-minute tech talk
+Helios: Web-based Open-Audit Voting — PDF describing Ben Adida's Helios web-site
+Helios Voting System web-site
+Simple Auditable & Anonymous Voting Scheme
+Study on Poll-Site Voting and Verification Systems — A review of existing electronic voting systems and its verification systems in supervised environments.

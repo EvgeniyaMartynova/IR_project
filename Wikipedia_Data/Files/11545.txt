@@ -1,0 +1,82 @@
+Title: Carbon star
+Aspects: {'R Star'}
+
+A carbon star is typically an asymptotic giant branch star, a luminous red giant, whose atmosphere contains more carbon than oxygen. The two elements combine in the upper layers of the star, forming carbon monoxide, which consumes all the oxygen in the atmosphere, leaving carbon atoms free to form other carbon compounds, giving the star a "sooty" atmosphere and a strikingly ruby red appearance. There are also some dwarf and supergiant carbon stars, with the more common giant stars sometimes being called classical carbon stars to distinguish them.
+In most stars (such as the Sun), the atmosphere is richer in oxygen than carbon. Ordinary stars not exhibiting the characteristics of carbon stars but cool enough to form carbon monoxide are therefore called oxygen-rich stars.
+Carbon stars have quite distinctive spectral characteristics, and they were first recognized by their spectra by Angelo Secchi in the 1860s, a pioneering time in astronomical spectroscopy.
+
+
+== Spectra ==
+
+By definition carbon stars have dominant spectral Swan bands from the molecule C2. Many other carbon compounds may be present at high levels, such as CH, CN (cyanogen), C3 and SiC2. Carbon is formed in the core and circulated into its upper layers, dramatically changing the layers' composition. In addition to carbon, S-process elements such as barium, technetium, and zirconium are formed in the shell flashes and are "dredged up" to the surface.When astronomers developed the spectral classification of the carbon stars, they had considerable difficulty when trying to correlate the spectra to the stars' effective temperatures. The trouble was with all the atmospheric carbon hiding the absorption lines normally used as temperature indicators for the stars.
+Carbon stars also show a rich spectrum of molecular lines at millimeter wavelengths and submillimeter wavelengths. In the carbon star CW Leonis more than 50 different circumstellar molecules have been detected. This star is often used to search for new circumstellar molecules.
+
+
+=== Secchi ===
+Carbon stars were discovered already in the 1860s when spectral classification pioneer Angelo Secchi erected the Secchi class IV for the carbon stars, which in the late 1890s were reclassified as N class stars.
+
+
+=== Harvard ===
+Using this new Harvard classification, the N class was later enhanced by an R class for less deeply red stars sharing the characteristic carbon bands of the spectrum. Later correlation of this R to N scheme with conventional spectra, showed that the R-N sequence approximately run in parallel with c:a G7 to M10 with regards to star temperature.
+
+
+=== Morgan–Keenan C system ===
+The later N classes correspond less well to the counterparting M types, because the Harvard classification was only partially based on temperature, but also carbon abundance; so it soon became clear that this kind of carbon star classification was incomplete. Instead a new dual number star class C was erected so to deal with temperature and carbon abundance. Such a spectrum measured for Y Canum Venaticorum, was determined to be C54, where 5 refers to temperature dependent features, and 4 to the strength of the C2 Swan bands in the spectrum. (C54 is very often alternatively written C5,4). This Morgan–Keenan C system classification replaced the older R-N classifications from 1960–1993.
+
+
+=== The Revised Morgan–Keenan system ===
+The two-dimensional Morgan–Keenan C classification failed to fulfill the creators' expectations:
+
+it failed to correlate to temperature measurements based on infrared,
+originally being two-dimensional it was soon enhanced by suffixes, CH, CN, j and other features making it impractical for en-masse analyses of foreign galaxies' carbon star populations,
+and it gradually occurred that the old R and N stars actually were two distinct types of carbon stars, having real astrophysical significance.A new revised Morgan–Keenan classification was published in 1993 by Philip Keenan, defining the classes: C-N, C-R and C-H. Later the classes C-J and C-Hd were added. This constitutes the established classification system used today.
+
+
+== Astrophysical mechanisms ==
+Carbon stars can be explained by more than one astrophysical mechanism. Classical carbon stars are distinguished from non-classical ones on the grounds of mass, with classical carbon stars being the more massive.In the classical carbon stars, those belonging to the modern spectral types C-R and C-N, the abundance of carbon is thought to be a product of helium fusion, specifically the triple-alpha process within a star, which giants reach near the end of their lives in the asymptotic giant branch (AGB). These fusion products have been brought to the stellar surface by episodes of convection (the so-called third dredge-up) after the carbon and other products were made. Normally this kind of AGB carbon star fuses hydrogen in a hydrogen burning shell, but in episodes separated by 104-105 years, the star transforms to burning helium in a shell, while the hydrogen fusion temporarily ceases. In this phase, the star's luminosity rises, and material from the interior of the star (notably carbon) moves up. Since the luminosity rises, the star expands so that the helium fusion ceases, and the hydrogen shell burning restarts. During these shell helium flashes, the mass loss from the star is significant, and after many shell helium flashes, an AGB star is transformed into a hot white dwarf and its atmosphere becomes material for a planetary nebula.
+The non-classical kinds of carbon stars, belonging to the types C-J and C-H, are believed to be binary stars, where one star is observed to be a giant star (or occasionally a red dwarf) and the other a white dwarf. The star presently observed to be a giant star accreted carbon-rich material when it was still a main-sequence star from its companion (that is, the star that is now the white dwarf) when the latter was still a classical carbon star. That phase of stellar evolution is relatively brief, and most such stars ultimately end up as white dwarfs. These systems are now being observed a comparatively long time after the mass transfer event, so the extra carbon observed in the present red giant was not produced within that star. This scenario is also accepted as the origin of the barium stars, which are also characterized as having strong spectral features of carbon molecules and of barium (an s-process element). Sometimes the stars whose excess carbon came from this mass transfer are called "extrinsic" carbon stars to distinguish them from the "intrinsic" AGB stars which produce the carbon internally. Many of these extrinsic carbon stars are not luminous or cool enough to have made their own carbon, which was a puzzle until their binary nature was discovered.
+The enigmatic hydrogen deficient carbon stars (HdC), belonging to the spectral class C-Hd, seems to have some relation to R Coronae Borealis variables (RCB), but are not variable themselves and lack a certain infrared radiation typical for RCB:s. Only five HdC:s are known, and none is known to be binary, so the relation to the non-classical carbon stars is not known.
+Other less convincing theories, such as CNO cycle unbalancing and core helium flash have also been proposed as mechanisms for carbon enrichment in the atmospheres of smaller carbon stars.
+
+
+== Other characteristics ==
+
+Most classical carbon stars are variable stars of the long period variable types.
+
+
+=== Observing carbon stars ===
+Due to the insensitivity of night vision to red and a slow adaption of the red sensitive eye rods to the light of the stars, astronomers making magnitude estimates of red variable stars, especially carbon stars, have to know how to deal with the Purkinje effect in order not to underestimate the magnitude of the observed star.
+
+
+=== Generation of interstellar dust ===
+Owing to its low surface gravity, as much as half (or more) of the total mass of a carbon star may be lost by way of powerful stellar winds. The star's remnants, carbon-rich "dust" similar to graphite, therefore become part of the interstellar dust. This dust is believed to be a significant factor in providing the raw materials for the creation of subsequent generations of stars and their planetary systems. The material surrounding a carbon star may blanket it to the extent that the dust absorbs all visible light.
+
+
+== Other classifications ==
+Other types of carbon stars include:
+
+CCS – Cool Carbon Star
+CEMP – Carbon-Enhanced Metal-Poor
+CEMP-no – Carbon-Enhanced Metal-Poor star with no enhancement of elements produced by the r-process or s-process nucleosynthesis
+CEMP-r – Carbon-Enhanced Metal-Poor star with an enhancement of elements produced by r-process nucleosynthesis
+CEMP-s – Carbon-Enhanced Metal-Poor star with an enhancement of elements produced by s-process nucleosynthesis
+CEMP-r/s – Carbon-Enhanced Metal-Poor star with an enhancement of elements produced by both r-process and s-process nucleosynthesis
+CGCS – Cool Galactic Carbon Star
+
+
+== See also ==
+Barium star – Spectral class G to K giants, whose spectra indicate an overabundance of s-process elements by the presence of singly ionized barium
+S-type star – A cool giant with approximately equal quantities of carbon and oxygen in its atmosphere
+Technetium star – Star whose stellar spectrum contains absorption lines of technetium
+Marc Aaronson, American astronomer and noted researcher of carbon starsSpecimens:
+
+R Leporis, Hind's Crimson Star: an example of a carbon star
+IRC +10216, CW Leonis: the most studied carbon star, and also the brightest star in the sky at N-band
+La Superba, Y Canum Venaticorum: one of the brighter carbon stars
+
+
+== References ==
+
+
+== External links ==
+List of 110 carbon stars. Includes HD number; secondary identification for most; position in right ascension and declination ; magnitude; spectrum;  magnitude range (for variable stars); period (of variability cycle).

@@ -1,0 +1,30 @@
+Title: Saber Radar
+Aspects: {'X60'}
+
+The SABER Radar is a project of the Brazilian Army, with the objective of developing 100% Brazilian technology air defense radars. They are being developed by CTEx (Army Technology Center) and produced by BRADAR, a Brazilian company part of Embraer Defense and Security group, with funds from the Ministry of Science and Technology. The tracking system can track both air and ground targets and has a range of up to 60 kilometers and up to 5,000 meters altitude. The radar system is unique in that it can be integrated into weapon systems or missile-based anti-aircraft guns.
+
+
+== Radar ==
+The SABER (Tracking System Based on aerial targets Radio Frequency Emission) radar was developed by the Brazilian Army aiming its operational employment in both military and civilian applications. The SABER is a 3D radar that tracks up to 40 targets simultaneously, classifying them as friend or foe, distinguishing between fixed-wing and rotary-wing aircraft.
+It performs the detection of aerial targets for antiaircraft defenses, providing data for the entire cycle from detection to engagement of air targets.  The SABER radar performs two tasks:
+
+Surveillance: To maintain control centers air defense with the updated information vector, friends and hostile, positioned and correlated to measures of coordination and airspace control, and
+The quest: To transmit data of threats for anti-aircraft weapons systems, shortening the reaction time and ensuring the successful engagement of air targets.
+
+
+== Versions ==
+SABER X60 - The Saber M60 prototype.
+SABER M60 - The first operational Saber series radar. With a range of 75 km, weight of 200 kg, and the ability of tracking up to 40 targets, it has the same functions as large airport radar units.  It can also work in environments such as dense jungles.
+SABER S60 - The project of a secondary radar (IFF) with range up to 90 km of the Saber M60.
+SABER M200 - The project of a similar radar with range up to 200 km.
+SENTIR M20 - The project of a ground radar with range up to 25 km.
+SABER S200 - The project of a secondary radar (IFF) with range up to 400 km of the Saber M200.
+
+
+== See also ==
+Brazilian Army (21+12)
+Brazilian Air Force (1+3+2)
+Brazilian Marine Corps (01)
+
+
+== References ==

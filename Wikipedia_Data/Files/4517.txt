@@ -1,0 +1,409 @@
+Title: Conductance quantum
+Aspects: {'G0'}
+
+The conductance quantum, denoted by the symbol G0, is the quantized unit of electrical conductance. It is defined by the elementary charge e and Planck constant h as:
+
+  
+    
+      
+        
+          G
+          
+            0
+          
+        
+        =
+        
+          
+            
+              2
+              
+                e
+                
+                  2
+                
+              
+            
+            h
+          
+        
+      
+    
+    {\displaystyle G_{0}={\frac {2e^{2}}{h}}}
+   = 7.748091729...×10−5 S.It appears when measuring the conductance of a quantum point contact, and, more generally, is a key component of the Landauer formula, which relates the electrical conductance of a quantum conductor to its quantum properties.  It is twice the reciprocal of the von Klitzing constant (2/RK).
+Note that the conductance quantum does not mean that the conductance of any system must be an integer multiple of G0. Instead, it describes the conductance of two quantum channels (one channel for spin up and one channel for spin down) if the probability for transmitting an electron that enters the channel is unity, i.e. if transport through the channel is ballistic. If the transmission probability is less than unity, then the conductance of the channel is less than G0. The total conductance of a system is equal to the sum of the conductances of all the parallel quantum channels that make up the system.
+
+
+== Derivation ==
+In a 1D wire, connecting two reservoirs of potential 
+  
+    
+      
+        
+          u
+          
+            1
+          
+        
+      
+    
+    {\displaystyle u_{1}}
+   and 
+  
+    
+      
+        
+          u
+          
+            2
+          
+        
+      
+    
+    {\displaystyle u_{2}}
+   adiabatically:
+The density of states is 
+
+  
+    
+      
+        
+          
+            
+              
+                d
+              
+              n
+            
+            
+              
+                d
+              
+              ϵ
+            
+          
+        
+        =
+        
+          
+            2
+            
+              h
+              v
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {\mathrm {d} n}{\mathrm {d} \epsilon }}={\frac {2}{hv}}}
+  ,where the factor 2 comes from electron spin degeneracy, 
+  
+    
+      
+        h
+      
+    
+    {\displaystyle h}
+   is Planck's constant, and 
+  
+    
+      
+        v
+      
+    
+    {\displaystyle v}
+   is the electron velocity.
+The voltage is:
+
+  
+    
+      
+        V
+        =
+        −
+        
+          
+            
+              (
+              
+                μ
+                
+                  1
+                
+              
+              −
+              
+                μ
+                
+                  2
+                
+              
+              )
+            
+            e
+          
+        
+      
+    
+    {\displaystyle V=-{\frac {(\mu _{1}-\mu _{2})}{e}}}
+  ,where 
+  
+    
+      
+        e
+      
+    
+    {\displaystyle e}
+   is the electron charge.
+The 1D current going across is the current density:
+
+  
+    
+      
+        j
+        =
+        −
+        e
+        v
+        (
+        
+          μ
+          
+            1
+          
+        
+        −
+        
+          μ
+          
+            2
+          
+        
+        )
+        
+          
+            
+              
+                d
+              
+              n
+            
+            
+              
+                d
+              
+              ϵ
+            
+          
+        
+      
+    
+    {\displaystyle j=-ev(\mu _{1}-\mu _{2}){\frac {\mathrm {d} n}{\mathrm {d} \epsilon }}}
+  .This results in a quantized conductance:
+
+  
+    
+      
+        
+          G
+          
+            0
+          
+        
+        =
+        
+          
+            I
+            V
+          
+        
+        =
+        
+          
+            j
+            V
+          
+        
+        =
+        
+          
+            
+              2
+              
+                e
+                
+                  2
+                
+              
+            
+            h
+          
+        
+      
+    
+    {\displaystyle G_{0}={\frac {I}{V}}={\frac {j}{V}}={\frac {2e^{2}}{h}}}
+  
+
+
+== Occurrence ==
+Quantized conductance occurs in wires that are ballistic conductors,  when the elastic mean free path is much larger than the length of the wire: 
+  
+    
+      
+        
+          l
+          
+            e
+            l
+            .
+          
+        
+        ≫
+        L
+      
+    
+    {\displaystyle l_{el.}\gg L}
+  . B. J. van Wees et al. first observed the effect in a point contact in 1988.  Carbon nanotubes have quantized conductance independent of diameter. The quantum hall effect can be used to precisely measure the conductance quantum value.
+
+
+== Motivation from the uncertainty principle ==
+A simple, intuitive motivation of the conductance quantum can be made using the Heisenberg uncertainty principle, which states that the minimum energy-time uncertainty is 
+  
+    
+      
+        Δ
+        E
+        Δ
+        t
+        ≈
+        h
+      
+    
+    {\displaystyle \Delta E\Delta t\approx h}
+  , where 
+  
+    
+      
+        h
+      
+    
+    {\displaystyle h}
+   is the Planck constant. The current 
+  
+    
+      
+        I
+      
+    
+    {\displaystyle I}
+   in a quantum channel can be expressed as 
+  
+    
+      
+        e
+        
+          /
+        
+        τ
+      
+    
+    {\displaystyle e/\tau }
+  , where τ is transit time and e is the electron charge. Applying a voltage 
+  
+    
+      
+        V
+      
+    
+    {\displaystyle V}
+   results in an energy 
+  
+    
+      
+        E
+        =
+        e
+        V
+      
+    
+    {\displaystyle E=eV}
+  . If we assume that the energy uncertainty is of order 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+   and the time uncertainty is of order τ, we can write 
+  
+    
+      
+        Δ
+        E
+        Δ
+        t
+        ≈
+        (
+        e
+        V
+        )
+        (
+        e
+        
+          /
+        
+        I
+        )
+        ≈
+        h
+      
+    
+    {\displaystyle \Delta E\Delta t\approx (eV)(e/I)\approx h}
+  . Using the fact that the electrical conductance 
+  
+    
+      
+        G
+        =
+        I
+        
+          /
+        
+        V
+      
+    
+    {\displaystyle G=I/V}
+  , this becomes 
+  
+    
+      
+        G
+        ≈
+        
+          e
+          
+            2
+          
+        
+        
+          /
+        
+        h
+      
+    
+    {\displaystyle G\approx e^{2}/h}
+  .
+
+
+== Notes ==
+
+
+== References ==
+
+
+== See also ==
+Mesoscopic physics
+Quantum point contact
+Quantum wire
+Thermal conductance quantum

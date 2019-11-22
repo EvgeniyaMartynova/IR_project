@@ -1,0 +1,66 @@
+Title: R160 (New York City Subway car)
+Aspects: {'R6'}
+
+The R160 is a class of 1,662 new technology (NTT) New York City Subway cars built by Alstom Transportation and Kawasaki for the subway's B Division. The cars, which entered service between 2006 and 2010, replaced multiple fleets built in the 1960s and 1970s, including all remaining R38, R40/A, and the problem-plagued New York City Subway–operated R44 cars, as well as many R32 and R42 cars.
+
+
+== Description ==
+
+There are two versions of the R160: the R160A (built by Alstom, numbered 8313-8712, 9233-9802, & 9943-9974) and R160B (built by Kawasaki, numbered 8713-9232 & 9803-9942). The two car types are nearly identical to each other, and differ only in a few ways; they are interoperable and can be interchanged with each other.
+The R160 cars are configured in either four-car sets or five-car sets. 372 R160A cars (8313-8652 & 9943-9974) are configured as four-car sets. All of the four-car trains are maintained at East New York Yard for the BMT Eastern Division (J/Z, L, and M). The remaining 630 R160A cars and all R160Bs are configured as five-car sets for use on IND and BMT main line services. Some are maintained at Jamaica Yard, typically operating on the E and F, and the rest are maintained at the Coney Island Yard, typically operating on the N, Q and W.
+The R160A base order was part of a $961,687,121 contract funded in part by a grant from the Federal Transit Administration. The primary base order of the R160 class consisted of 660 cars, 400 R160As to be built by Alstom, and the remaining 260 R160Bs to be built by Kawasaki. The contract included options for further orders, which, if exercised, would have brought total business with NYCT to about US$2.4 billion, for 1,700 subway cars, and Kawasaki would have manufactured 40% (680 cars) of the 1,700 cars. The R160 fleet was purchased at an average cost of $2.0 million USD per car.
+
+
+== Features ==
+
+The R160s are very similar to the R143s; however, the two car types can not be interchanged with each other. The R160s are also visually very similar to the R179s, but the two car types are not interoperable with each other due to electrical incompatibilities between them.The R160s are equipped with regenerative braking, which allows the cars to capture the braking energy as trains enter a station and transfer it to trains on nearby tracks.One of the major changes and highlights of the new cars is the addition of an electronic "FIND" (Flexible Information and Notice Display) system, which includes an LCD screen displaying the route, route information and advertisements, and a tri-color (red, yellow, green) LED strip map which displays the next ten stations, plus five consecutive "further stops" to riders. They were manufactured by KPS N.A., Inc., which is a division of Koito Industries. There are three of these in every car. The display updates the stations at every stop, also giving the number of stops to each station listed. The FIND system replaces a plastic card which had a set route and stations printed on, which was used on the R142, R142A, R143, and R188 subway cars, each of which has 63 (001 through 063) amber LED dots type station indicators. This allows for instant route or line changes with the correct information, which includes, but is not limited to, the omitting of certain stops.
+
+
+=== Experimental features ===
+
+In 2010, R160Bs 8713-8722 were experimentally retrofitted with folding seats, video recording devices, pivoted grab handles, and looped stanchions. This was part of a pilot program designed to maximize rush hour standing space and increase capacity by 19%, in addition to increasing security throughout the system. However, due to several complaints from passengers and Kawasaki's refusal to retrofit an R142 with the same features, the pilot program was cancelled in 2012. These cars had all of these features removed and their interiors were reverted to the appearance of most other R160s. Some of the seats and pivoted handles were re-installed on two 4-car sets of R160As to address the subway's 2017 state of emergency. The folding seats have been prone to vandalism by disgruntled passengers during non-rush hours, due to the fact that they are locked in the folded position according to a timetable.R160As 9798-9802 have experimental looped stanchions with double poles in their center segments, instead of the typical single poles seen in other cars. These looped stanchions are meant to provide twice as many riders with poles to hold onto than in cars with single poles. They were eventually installed in several other cars, including those upgraded to address the 2017 New York City transit crisis.
+In June 2016, the MTA began installing Wi-Fi in four R160s assigned to the Jamaica Yard. In-car Wi-Fi was expanded to 20 R160s by September. This pilot program was not advertised to passengers.Also in 2016, the interiors of the electronic sign boxes on many cars were retrofitted with LCD screens, replacing the MTA Arts for Transit cards that are usually located there. These sign boxes differ from the FIND screens in that the new LCD screens are wider and can display advertisements, public safety announcements, subway trivia and other information, whereas the FIND screens can only display PSAs and the route designation. These screens are similar to the interior LED screens on the R143s, except that the R160s' screens have the capabilities to display multiple colors instead of only red, orange, and green.
+Beginning in October 2017, as part of an action plan to fix the subway's state of emergency that year, 20 R160s typically assigned to the E train were retrofitted with features that are expected to be used on the upcoming R211 cars. The cars have a new blue and gold exterior wrap matching the new paint scheme being used on buses and the Long Island Rail Road's M9 cars, multiple interior artwork, yellow interior stanchions, and interior LCD information screens. The seats at the ends of the cars were removed to increase capacity by 10 passengers per car. By the end of fall 2017, a hundred R160s used on the E are expected to have these features. Also in 2017, some R160s on the L were being retrofitted with seats that folded up during rush hours. Their exteriors were also redesigned with the blue and gold wrap.
+
+
+=== Communications-based train control ===
+The R160s have provisions for future installation for Communications-based train control (CBTC). As originally delivered, only 68 R160As (8313-8380) were retrofitted with CBTC equipment for operation on the L service alongside trains of CBTC-equipped R143 cars. However, 1,486 additional R160s in 309 sets (250 five-car units, and 59 four-car units) are planned to be retrofitted with CBTC for Queens Boulevard service (E, ​F, <F>, ​M, and ​R trains) by June 2020. This will require many of the 5-car sets currently maintained at Coney Island Yard, as well as many of the 4-car sets at East New York Yard, to be retrofitted as well.
+
+
+== History ==
+
+
+=== Construction ===
+On July 31, 2002, it was announced that New York City Transit awarded a $961,687,121 contract to Alstom for 660 new cars, with two new options that could provide for a total of 1040 cars. Kawasaki and Alstom organized a joint venture called Alskaw Inc. for project management, engineering and equipment purchasing to pursue the contract, and to allow for operational compatibility with the R143s, which were built by Kawasaki. The two companies built and delivered the rolling stock through the joint venture. Kawasaki not only manufactured 260 cars for the base contract, but was also the engineering leader for the whole project and provided the trucks for all cars. Alstom assembled 1,002 R160A cars at its manufacturing plant in Hornell, New York, while Kawasaki assembled 660 R160B cars at its plant in Yonkers, New York. Shells for the Alstom-built cars were built in their Lapa plant, in São Paulo, Brazil, and shells for the Kawasaki-built cars were assembled at their Lincoln, Nebraska, plant. The base order consisted of 660 cars, the first option included 620 cars, and the second option included 382 cars.
+
+
+=== Delivery ===
+Early on in the order, Alstom encountered significant start-up production problems since being awarded the base contract. In July 2005, Alstom missed its contractual deadline to deliver the 10-car test train, which arrived five months late with Alstom requesting three additional months to deliver the test train. In addition, the Transit Authority rejected several car shells made earlier at their plant in Lapa, Brazil, near São Paulo, after discovering welding defects.The first 5-car set of R160As (8653-8657) was delivered on November 29, 2005, and the next remaining five cars (8658-8662) were delivered on December 6, 2005 to the New York City Transit Authority, forming a complete 10-car train for acceptance testing and evaluation. The R160As entered revenue service on the A on October 17, 2006 for in-service acceptance testing after several months of exhaustive non-revenue service tests.
+The first train of R160Bs (8713-8722) was delivered on July 22, 2005. The R160Bs entered revenue service on the N on August 17, 2006 for in-service acceptance testing after slightly over a year of successful non-revenue service tests.While Kawasaki had few or no problems in delivering the R160Bs, Alstom was behind on its delivery schedule early on in the R160A order. Alstom was to deliver 200 out of the 400-car base order by September 2007. However, by that month, Alstom had only delivered 80 cars. Under the base contract, Alstom agreed to pay damages of $800 a day for late deliveries of four-car trains, and $1,000 a day for five-car trains, though the Transit Authority had not yet fined Alstom for its late deliveries and was actually negotiating with Alstom to accelerate their delivery schedule. The 200 cars were finally delivered 7 months late in early April 2008.
+On November 10, 2008, the MTA exercised options for 140 R160B cars (9803-9942), and 242 R160A cars, broken down into 32 cars arranged as 4-car sets (9943-9974) and 210 cars arranged in 5-car sets (9593-9802).The option order cars were delivered starting in late 2009, and the final cars were delivered on May 6, 2010. By June 2010, all R160A and R160B cars were in revenue service.
+
+
+=== Post-delivery ===
+
+After Hurricane Sandy, R160B set 8738–8742 was damaged and required an extensive electrical reconstruction at Coney Island Shops. In March 2016, the set underwent pre-service testing and finally returned to service in fall 2016.During the summers of 2013 and 2014, many four-car R160A sets from East New York Yard were temporarily assigned to the C, due to passenger complaints about the R32s used on that route, which had quality issues and were often unreliable. By May 2015, 128 R160As were assigned to make up more than half of the C's fleet, leading to much more reliable service along that route.R160As 8313–8316 and 8377–8380 had new CBTC equipment installed and were set up as a test train as specifications were being developed for the future installation of CBTC on the IND Queens Boulevard Line. The train ran on the IND Culver Line express tracks between Bergen Street and Church Avenue, which have been set up to test CBTC. The cars have since returned to service.
+In March 2018, car 8395 from R160A set 8396-8393 had its trucks' suspension systems replaced with carbon fiber reinforced plastic "efWING" leaf springs from Kawasaki Heavy Industries. The springs are being tested to see the feasibility of replacing heavier metal coil spring-based systems currently found on all subway car trucks. The train is in revenue service as of July 25, 2018. R160B car 9116 also has these springs.
+
+
+== See also ==
+New Technology Train - A list of all NTT trains on the New York City Subway.
+R143 (New York City Subway car) - a similar car also built by Kawasaki Railcar Corp. of Kobe, Japan
+R179 (New York City Subway car) - a similar car built by Bombardier Transportation.
+
+
+== References ==
+Informational notes
+
+Citations
+
+
+== External links ==
+nycsubway.org: R160 cars
+Korman, Joe (January 12, 2018). "BMT-IND Car Assignments". JoeKorNer.
+Korman, Joe (November 6, 2016). "New York City Subway Car Fleet June 2010 through November 2016". JoeKorNer.
+National Geographic video about Alstom's manufacturing of the R160A car on YouTube
+Kawasaki Rail Car, Inc.: R160B

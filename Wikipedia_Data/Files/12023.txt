@@ -1,0 +1,217 @@
+Title: Mazda Wankel engine
+Aspects: {'R26'}
+
+The Mazda Wankel engines are a family of Wankel rotary combustion car engines produced by Mazda. 
+Wankel engines were invented in the early 1960s by Felix Wankel, a German engineer. Over the years, displacement has been increased and turbocharging has been added. Mazda rotary engines have a reputation for being relatively small and powerful at the expense of poor fuel efficiency. The engines became popular with kit car builders, hot rodders and in light aircraft because of their light weight, compact size, tuning potential and inherently high power-to-weight ratio—as is true for all Wankel-type engines. Mazda put the engine into series production with NSU (Ro80) and Citroën (GS Birotor) as part of the Comotor joint-venture between 1967 and 1977.
+Since the end of production of the Mazda RX-8 in 2012, the engine is produced only for single seater racing, with the one-make Star Mazda Championship being contested with a Wankel engine until 2017 (the series transitioned to using a Mazda-branded piston engine in 2018).
+
+
+== Displacement ==
+Wankel engines can be classified by their geometric size in terms of radius (rotor center to tip distance, also the median stator radius) and depth (rotor thickness), and offset (crank throw, eccentricity, also 1/4 the difference between stator's major and minor axes). These metrics function similarly to the bore and stroke measurements of a piston engine. Displacement is 3√3radius·offset·depth, multiplied with the number of rotors (note that this only counts a single face of each rotor as the entire rotor's displacement, because with the eccentric shaft – crankshaft – spinning at three times the rate of the rotor, only one power stroke is created per output revolution, thus only one face of the rotor is actually working per "crankshaft" revolution, roughly equivalent to a 2-stroke engine of similar displacement to ONE rotor face). Nearly all Mazda production Wankel engines share a single rotor radius, 105 mm (4.1 in), with a 15 mm (0.59 in) crankshaft offset. The only engine to diverge from this formula was the rare 13A, which used a 120 mm (4.7 in) rotor radius and 17.5 mm (0.69 in) crankshaft offset.As Wankel engines became commonplace in motor sport events, the problem of correctly representing each engine's displacement for the purposes of competition arose. Rather than force the majority of participants (driving piston engine cars) to halve their quoted displacement (likely resulting in confusion), most racing organizations simply decided to double the quoted displacement of Wankel engines.The key for comparing the displacement between the 4-cycle engine and the rotary engine is in studying the degrees of rotation for a thermodynamic cycle to occur. For a 4-cycle engine to complete every thermodynamic cycle, the engine must rotate 720° or two complete revolutions of the crankshaft. The rotary engine is different. The engine rotor rotates at 1/3 the speed of the crankshaft. On two rotor engines, front and rear rotors are 180° offset from each other. Each rotation of the engine (360°) will bring two faces through the combustion cycle (the torque input to the eccentric shaft). This said, it takes 1080° or three complete revolutions of the crankshaft to complete the entire thermodynamic cycle. Obviously, there is a disparity. How can we get a relatable number to compare to a 4-stroke engine? The best way is to study 720° of rotation of the two-rotor engine. Every 360° of rotation, two faces of the engine complete a combustion cycle. 720° will have a total of four faces completing their cycle. 654 cc (39.9 cu in) per face times four faces equals 2.6 L or 160 cu in. That's a well-reasoned number and now gives something that can be compared to other engines. In addition, since four faces passed by in the comparison, it’s like a four-cylinder engine. The 13B therefore compares well to a 2.6L 4-cylinder 4-cycle engine.By using the same formula, calculating actual displacement in which 1080° is the complete thermodynamic cycle of a rotary engine and a total of six faces completing their cycle, 654 cc (39.9 cu in) per face times six faces equals 3,924 cc (3.924 L; 239.5 cu in), in reference to a Mazda 13B rotary engine. "Each face has a swept volume of 654 cc (39.9 cu in) and there are a total of six faces. With this known, the engine displacement should be 654 cc (39.9 cu in) times six to equal 3,924 cc or 3.9 L or 239.5 cu in."
+
+
+== 40A ==
+Mazda's first prototype Wankel was the 40A, a single-rotor engine very much like the NSU KKM400. Although never produced in volume, the 40A was a valuable testbed for Mazda engineers, and quickly demonstrated two serious challenges to the feasibility of the design: "chatter marks" in the housing, and heavy oil consumption. The chatter marks, nicknamed "devil's fingernails", were caused by the tip-seal vibrating at its natural frequency. The oil consumption problem was addressed with heat-resistant rubber oil seals at the sides of the rotors. This early engine had a rotor radius of 90 mm (3.5 in), an offset of 14 mm (0.55 in), and a depth of 59 mm (2.3 in).
+
+
+== L8A ==
+The very first Mazda Cosmo prototype used a 798 cc (48.7 cu in) L8A two-rotor Wankel. The engine and car were both shown at the 1963 Tokyo Motor Show. Hollow cast iron apex seals reduced vibration by changing their resonance frequency and thus eliminated chatter marks. It used dry-sump lubrication. Rotor radius was up from the 40A to 98 mm (3.9 in), but depth dropped to 56 mm (2.2 in).
+One-, three-, and four-rotor derivatives of the L8A were also created for experimentation.
+
+
+== 10A ==
+The 10A series was Mazda's first production Wankel, appearing in 1965. It was a two-rotor design, with each chamber displacing 491 cc (30.0 cu in) so two chambers (one per rotor) would displace 982 cc (59.9 cu in); the series name reflects this value ("10" suggesting 1.0 litres). These engines featured the mainstream rotor dimensions with a 60 mm (2.4 in) depth.
+The rotor housing was made of sand-cast aluminum plated with chrome, while the aluminum sides were sprayed with molten carbon steel for strength. Cast iron was used for the rotors themselves, and their eccentric shafts were of expensive chrome-molybdenum steel. The addition of aluminum/carbon apex seals addressed the chatter mark problem.
+
+
+=== 0810 ===
+The first 10A engine was the 0810, used in the Series I Cosmo from May, 1965 through July, 1968. These cars, and their revolutionary engine, were often called L10A models. Gross output was 110 hp (82 kW) at 7000 rpm and 130 N⋅m (96 lbf⋅ft) at 3500 rpm, but both numbers were probably optimistic (rpm of the crankshaft).
+The 10A featured twin side intake ports per rotor, each fed by one of four carburetor barrels. Only one port per rotor was used under low loads for added fuel economy. A single peripheral exhaust port routed hot gas through the coolest parts of the housing, and engine coolant flowed axially rather than the radial flow used by NSU. A bit of oil was mixed with the intake charge for lubrication.
+The 0810 was modified for the racing Cosmos used at Nürburgring. These engines had both side- and peripheral-located intake ports switched with a butterfly valve for low- and high-RPM use (respectively)
+Applications:
+
+1965–1968 Mazda Cosmo Series I/L10A
+
+
+=== 0813 ===
+The improved 0813 engine appeared in July, 1968 in the Series II/L10B Cosmo. Its construction was very similar to the 0810.
+Japanese-spec gross output was 100 hp (75 kW) at 7000 rpm and 133 N⋅m (98 lbf⋅ft) at 3500 rpm. The use of less-expensive components raised the weight of the engine from 102 to 122 kg (225 to 269 lb).
+Applications:
+
+1968–1973 Mazda R100/Familia Rotary
+
+
+=== 0866 ===
+The final member of the 10A family was the 1971 0866. This variant featured a cast-iron thermal reactor to reduce exhaust emissions and re-tuned exhaust ports. The new approach to reducing emissions was partly a result of Japanese Government emission control legislation in 1968, with implementation starting in 1975. Mazda called their technology REAPS (Rotary Engine Anti Pollution System). The die-cast rotor housing was now coated with a new process: The new Transplant Coating Process (TCP) featured sprayed-on steel which is then coated with chrome. Gross output was 105 hp (78 kW) at 7000 rpm and 135 N⋅m (100 lbf⋅ft) at 3500 rpm.
+Applications:
+
+1972–1974 Mazda RX-3 (Japan-spec)
+
+
+== 3A ==
+Mazda began development on a single rotor engine displacing 360 cc (22 cu in), and was designed for kei car use in the Mazda Chantez but was never placed into production. A prototype engine is on display at the Mazda Museum in Hiroshima, Japan.
+
+
+== 13A ==
+The 13A was designed especially for front wheel drive applications. It was a two-rotor design, with each chamber displacing 655 cc (40.0 cu in) so two chambers (one per rotor) would displace 1,310 cc (80 cu in); continuing earlier practice, the series name reflects this value ("13" suggesting 1.3 litres). This was the only production Mazda Wankel with different rotor dimensions: Radius was 120 mm (4.7 in) and offset was 17.5 mm (0.69 in), but depth remained the same as the 10A at 60 mm (2.4 in). Another major difference from the previous engines was the integrated water-cooled oil cooler.
+The 13A was used only in the 1969–1972 R130 Luce, where it produced 126 hp (94 kW) and 172 N⋅m (127 lbf⋅ft). This was the end of the line for this engine design: the next Luce was rear wheel drive and Mazda never again made a front wheel drive rotary vehicle.
+Applications:
+
+1970–1972 Mazda R130
+
+
+== 12A ==
+The 12A is an "elongated" version of the 10A: the rotor radius was the same, but the depth was increased by 10 mm (0.39 in) to 70 mm (2.8 in). It continued the two-rotor design; with the depth increase each chamber displaced 573 cc (35.0 cu in) so two chambers (one per rotor) would displace 1,146 cc (69.9 cu in); the series name continues earlier practice and reflects this value ("12" suggesting 1.2 litres). The 12A series was produced for 15 years, from May 1970 through 1985. In 1974, a 12A became the first engine built outside of western Europe or the U.S to finish the 24 hours of Le Mans.
+In 1974, a new process was used to harden the rotor housing. The Sheet-metal Insert Process (SIP) used a sheet of steel much like a conventional piston engine cylinder liner with a chrome plated surface. The side housing coating was also changed to eliminate the troublesome sprayed metal. The new "REST" process created such a strong housing, the old carbon seals could be abandoned in favour of conventional cast iron.
+Early 12A engines also feature a thermal reactor, similar to the 0866 10A, and some use an exhaust port insert to reduce exhaust noise. A lean-burn version was introduced in 1979 (in Japan) and 1980 (in America) which substituted a more-conventional catalytic converter for this "afterburner". A major modification of the 12A architecture was the 6PI which featured variable induction ports.
+Applications:
+
+1970–1972 Mazda R100
+1970–1974 Mazda RX-2, 130 hp (97 kW) and 156 N⋅m (115 lbf⋅ft)
+1972–1974 Mazda RX-3 (Japan), 110 hp (82 kW) and 135 N⋅m (100 lbf⋅ft)
+1972–1974 Mazda RX-4
+1972–1980 Mazda Luce
+1978–1985 Mazda RX-7, 100 hp (75 kW)
+Aero Design DG-1 racing aircraft used two Mazda RX-3 (12A) engines, each driving a propeller—one at the front, the other at the rear of the aircraft.
+Lean-burn
+1979–1985 Mazda RX-7 (Japan)
+1980–1985 Mazda RX-7 (United States)
+6PI
+1981–1985 Mazda Luce
+1981–1985 Mazda Cosmo
+
+
+=== Turbo ===
+
+The ultimate 12A engine was the electronically fuel-injected engine used in the Japan-spec HB series Cosmo, Luce, and SA series RX-7. In 1982 a 12A turbo powered Cosmo coupe was officially the fastest production car in Japan. It featured "semi-direct injection" into both rotors at once. A passive knock sensor was used to eliminate knocking, and later models featured a specially-designed smaller and lighter "Impact Turbo" which was tweaked for the unique exhaust signature of the Wankel engine for a 5-horsepower increase. The engine continued until 1989 in the HB Cosmo series but by that stage it had grown a reputation as a thirsty engine.
+
+Original output is 160 PS (118 kW) at 6,500 rpm, and 226 N⋅m (167 lb⋅ft) at 4,000 rpm.
+Impact Turbo output is 165 PS (121 kW) at 6,000 rpm, and 231 N⋅m (170 lbf⋅ft) at 4,000 rpm.Applications:
+
+1982–1989 Mazda Cosmo
+1982–1985 Mazda Luce
+1984–1985 Mazda RX-7
+
+
+== 12B ==
+The 12B was a short lived engine that was produced for the Mazda RX-2, and the RX-3. It had increased reliability from previous series, and it introduced a single distributor. This was the beginning of the single distributor rotary engines: the earlier 12A and 10A were both twin distributor Wankels. The improved 12B was quietly introduced in 1974.
+Applications:
+
+1974–1978 Mazda RX-2
+1974–1978 Mazda RX-3
+
+
+== 13B ==
+
+The 13B is the most widely produced engine. It was the basis for all future Mazda Wankel engines, and was produced for over 30 years. The 13B has no relation to the 13A. Instead, it is a lengthened version of the 12A, having 80 mm (3.1 in) thick rotors. It was a two-rotor design, with each chamber displacing 654 cc (39.9 cu in) so two chambers (one per rotor) would displace 1.3 L (1,308 cc); the series name reflects this value ("13" suggesting 1.3 litres), as with the 13A of the same displacement but different proportions.
+In the United States, the 13B was available from 1974 through 1978 and was then retired from sedans but continued in 1984–1985 RX-7 GSL-SE. It was then used from 1985-1992 in the RX-7 FC, in Naturally Aspirated or Turbocharged options, then once again in the RX-7 FD in a twin turbocharged form from 1992. It disappeared from the US market again in 1995, when the last US-spec RX-7s were sold. The engine was continually used in Japan from 1972's Mazda Luce/RX-4 through 2002's RX-7.
+
+
+=== AP ===
+The 13B was designed with both high performance and low emissions in mind. Early vehicles using this engine used the AP name.
+Applications:
+
+1975–1980 Mazda Cosmo AP
+1974–1977 Mazda REPU (Rotary Engine Pickup)
+1975–1977 Mazda Roadpacer
+1973–1978 Mazda RX-4
+1975–1980 RX-5
+
+
+=== 13B-RESI ===
+A tuned intake manifold was used in a Wankel engine for the first time with the 13B-RESI. RESI = Rotary Engine Super Injection. The so-called Dynamic Effect Intake featured a two-level intake box which derived a supercharger-like effect from the Helmholtz resonance of the opening and closing intake ports. The RESI engine also featured Bosch L-Jetronic fuel injection. Output was much improved at 135 hp (101 kW) and 180 N⋅m (133 lbf⋅ft).
+Applications:
+
+1984–1985 Mazda HB Luce
+1984–1985 Mazda HB Cosmo
+1984–1985 Mazda FB RX-7 GSL-SE
+
+
+=== 13B-DEI ===
+Like the 12A-SIP, the second-generation RX-7 bowed with a variable-intake system. Dubbed DEI, the engine features both the 6PI and DEI systems, as well as four-injector electronic fuel injection. Total output is up to 146 hp (109 kW) at 6500 rpm and 187 N⋅m (138 lbf⋅ft) at 3500 rpm.
+The 13B-T was turbocharged in 1986. It features the newer four-injector fuel injection of the 6PI engine, but lacks that engine's eponymous variable intake system and 6PI. Mazda went back to the 4 port intake design similar to what was used in the '74–'78 13B. In '86–'88 engines the twin-scroll turbocharger is fed using a two-stage mechanically actuated valve, however, on '89–'91 engines a better turbo design was used with a divided manifold powering the twin-scroll configuration. For engines manufactured between '86-'88 output is rated at 185 hp (138 kW) at 6500 rpm and 248 N⋅m (183 lbf⋅ft) at 3500 rpm.
+Applications:
+
+1986–1988 Mazda FC3S S4 RX-7, 146 hp (109 kW)
+1989–1991 Mazda FC3S S5 RX-7, 160 hp (119 kW)Applications:
+
+1986–1991 Mazda HC Luce Turbo-II, 185 hp (138 kW)
+1986–1988 Mazda FC3S S4 Turbo RX-7 Turbo-II, 185 hp (138 kW)
+1989–1991 Mazda FC3S S5 Turbo RX-7 Turbo-II, 200 hp (149 kW)
+
+
+=== 13B-RE ===
+The 13B-RE from the JC Cosmo series was a similar motor to the 13B-REW but had a few key differences, namely it being endowed with the largest side ports of any later model rotary engine.
+Compared to the twin turbos fitted to the 13B-REW on the FD RX-7, these sequential turbos received a large (HT-15) primary with a smaller (HT-10) secondary turbo. Injector sizes = 550 cc (34 cu in) PRI + SEC.
+Approximately 5000 13B-RE optioned JC Cosmos were sold, making this engine almost as hard to source as its rarer 20B-REW big-brother.Applications:
+
+1990–1995 Eunos Cosmo, 235 hp (175 kW)
+
+
+=== 13B-REW ===
+A twin-turbocharged version of the 13B, the 13B-REW, became famous for its high output and low weight. The twin Hitachi HT-12 turbos were operated sequentially, with only the primary providing boost until 4,500 rpm, and the secondary additionally coming online afterwards. Notably, this was the world's first volume-production sequential twin turbocharger system. Output eventually reached, and may have exceeded, Japan's unofficial maximum of 280 PS (206 kW; 276 hp) DIN for the final revision used in the series 8 Mazda RX-7.
+Applications:
+
+1992–1995 Mazda RX-7, 255 hp (190 kW)
+1996–1998 Mazda RX-7, 255 hp (190 kW)
+1999–2002 Mazda RX-7, 280 hp (209 kW)
+
+
+== 13G/20B ==
+
+In Le Mans racing, the first three-rotor engine used in the 757 was named the 13G.
+The main difference between the 13G and 20B is that the 13G uses a factory peripheral intake port (used for racing) and the 20B (production vehicle) uses side intake ports.
+It was renamed 20B after Mazda's naming convention for the 767 in November 1987. As a three-rotor design, with each chamber displacing 654 cc (39.9 cu in), three chambers (one per rotor) would displace 1,962 cc (119.7 cu in), and so the new series name reflected this value ("20" suggesting 2.0 litres).
+The three-rotor 20B-REW was only used in the 1990-1995 Eunos Cosmo. It was the world's first volume-produced twin-turbo setup. It was offered in both 13B-RE and 20B-REW form. It displaced 1,962 cc (119.7 cu in) per set of three 654 cc (39.9 cu in) chambers (counting only one chamber per rotor) and used 0.7 bar (10 psi; 70 kPa) of boost pressure to produce 300 hp (224 kW) and 407 N⋅m (300 lbf⋅ft).
+A version of the 20B known as the "R20B RENESIS 3 Rotor Engine" was built by Racing Beat in the U.S.A for the Furai concept car which was released on 27 December, 2007.  The engine was tuned to run powerfully on 100% environmentally-friendly ethanol (E100) fuel, produced in partnership with BP  . During a Top Gear photo shoot in 2008, a fire in the engine bay combined with a delay to inform the fire crews, the car was engulfed and the entire car destroyed. This information was withheld until made public in 2013.  
+
+
+== 13J ==
+The first Mazda racing four-rotor engine was the 13J-M used in the 1988 and 1989 (13J-MM with two step induction pipe) 767 Le Mans Group C racers. This motor was replaced by the 26B.
+
+
+== R26B ==
+The most prominent 4-rotor engine from Mazda, the 26B, was used only in various Mazda-built sports prototype cars including the 767 and 787B in replacement of the older 13J. In 1991 the 26B-powered Mazda 787B became the first Japanese car and the first car with anything other than a reciprocating piston engine to win the 24 Hours of Le Mans race outright. The 26B engine displaced 2.6 L (2,622 cc) per set of four chambers (counting only one 654 cc (39.9 cu in) chamber for each of the four rotors) – thus the "26" in the series name suggesting 2.6 litres – and developed 700 hp (522 kW) at 9000 rpm. The engine design uses peripheral intake ports, continually variable geometry intakes, and an additional (third) spark plug per rotor.
+
+
+== 13B-MSP Renesis ==
+
+The Renesis engine – also 13B-MSP (Multi-Side Port) – which first appeared in production in the 2003 Mazda RX-8, is an evolution of the previous 13B. It was designed to reduce exhaust emission and improve fuel economy, which were two of the most recurrent drawbacks of Wankel rotary engines. It is naturally aspirated, unlike its predecessors from the 13B range, and therefore slightly less powerful than Mazda RX-7's twin-turbocharged 13B-REW 255–280 hp (190–209 kW).
+The Renesis design features two major changes from its predecessors. First, the exhaust ports are not peripheral but are located on the side of the housing, which eliminates overlap and allows redesign of the intake port area. This produced noticeably more power thanks to an increased effective compression ratio; however, Mazda engineers discovered that when changing the exhaust port to the side housing, a buildup of carbon in the exhaust port would stop the engine from running. To remedy this, Mazda engineers added a water jacket passage into the side housing. Secondly, the rotors are sealed differently through the use of redesigned side seals, low-height apex seals and the addition of a second cut-off ring. Mazda engineers had originally used apex seals identical to the older design of seal. Mazda changed the apex seal design to reduce friction and push the new engine closer to its limits.
+These and other innovative technologies allow the Renesis to achieve 49% higher output and reduced fuel consumption and emissions. Regarding hydrocarbon (HC) emission characteristics of the RENESIS, the use of the side exhaust port allowed for about 35 – 50% HC reduction compared to the 13B-REW with the peripheral exhaust port. With this reduction, the RENESIS vehicle meets USA LEV-II (LEV). The Renesis won International Engine of the Year and Best New Engine awards 2003 and also holds the "2.5 to 3 liter" (note that the engine is designated as a 1.3–litre by Mazda) size award for 2003 and 2004, where it is considered a 2.6 L engine, but only for the matter of giving awards. It only actually displaces 1.3 liters. This is because a 2-rotor wankel with 654 cc (39.9 cu in) chambers displaces the same volume in one output shaft rotation as that of a 2.6L four-stroke piston engine. Finally, it was on the Ward's 10 Best Engines list for 2004 and 2005.
+The Renesis has also been adapted for a dual-fuel use, allowing it to run on petrol or hydrogen in cars like the Mazda Premacy Hydrogen RE Hybrid and Mazda RX-8 Hydrogen RE.All the Mazda rotary engines have been praised because of their light weight. The unmodified 13B-MSP Renesis Engine has a weight of 112 kg (247 lb), including all standard attachments (except the airbox, alternator, starter motor, cover, etc.), but without engine fluids (such as coolant, oil, etc.). Known to make 157–175 kW (211–235 hp).
+
+
+== 16X ==
+
+Also known as the Renesis II, made its first and only appearance in the Mazda Taiki concept car at the 2007 Tokyo Auto Show, but has not been seen since. It features up to 300 hp (224 kW), a lengthened stroke, reduced width rotor housing, direct injection, and aluminum side housings.
+
+
+== Sales ==
+
+Mazda was fully committed to the Wankel engine just as the energy crisis of the 1970s struck. The company had all but eliminated piston engines from its products in 1974, a decision that nearly led to the company's collapse. A switch to a three-prong approach (piston-gasoline, piston-Diesel, and Wankel) for the 1980s relegated the Wankel to sports car use (in the RX-7 and Cosmo), severely limiting production volume. But the company had continued production continually since the mid-1960s, and was the only maker of Wankel-powered cars when (the RX-8) was discontinued from production in June 2012 with 2000 RX-8 Spirit R models being made for JDM (RHD) market.
+Though not reflected in the graph at right, the RX-8 was a higher-volume car than its predecessors. Sales of the RX-8 peaked in 2004 at 23,690, but continued to decline through 2011, when less than 1000 were produced.
+On November 16, 2011, Mazda CEO Takashi Yamanouchi announced that the company is still committed to producing the rotary engine, saying, "So long as I remain involved with this company... there will be a rotary engine offering or multiple offerings in the lineup."Currently, the engine is produced for SCCA Formula Mazda, and its professional Indy Racing League LLC dba INDYCAR sanctioned Pro Mazda Championship.
+
+
+== Future expectations ==
+Mazda last built a car powered by a rotary engine in 2012, the RX-8, but had to abandon it largely to poor fuel efficiency and emissions. It has continued to work on the technology, however, as it is one of the company's signature features. Mazda officials have previously suggested that if they can get it to perform as well as a reciprocating engine they will bring it back, to power a conventional sports car.On November 16, 2011, Mazda CEO Takashi Yamanouchi announced that the company is still committed to producing the rotary engine, saying, "So long as I remain involved with this company... there will be a rotary engine offering or multiple offerings in the lineup."On November 17, 2016 Senior managing executive officer of Mazda research and development Kiyoshi Fujiwara told journalists at the Los Angeles motor show that the company is currently developing its first EV in 2019, and it’s likely to incorporate a rotary engine, but that the details were still "a big secret."
+He did say, however, that the car is likely to use a new-generation rotary engine as a range extender, similar in concept to a BMW i3.
+In 2013, Mazda displayed a Mazda2 RE prototype car, using a similar rotary range extender EV system.On October 27, 2017 Senior managing executive officer and R&D Chief Kiyoshi Fujiwara told journalists that they were still working on a rotary engine for a sports car, that will potentially in some markets be with hybrid drivetrains, but both will have distinct powertrains from Mazda's first EV, which will be released in 2019/20. "...some cities will ban combustion, therefore we need some additional portion of electrification because the driver can’t use this rotary sports car. Some of the regions we don’t need this small electrification, therefore we can utilise pure rotary engines."
+
+
+== See also ==
+Wankel engine
+Mazda engines
+MidWest AE series
+
+
+== References ==
+
+Yamaguchi, Jack K. (1985). The New Mazda RX-7 and Mazda Rotary Engine Sports Cars. St. Martin's Press, New York. ISBN 0-312-69456-3.
+Jan P. Norbye (1973). "Watch out for Mazda!". Automobile Quarterly. XI.1: 50–61.
+
+
+== External links ==
+Mazda rotary engine page
+Mazda Rotary Engine Specialist

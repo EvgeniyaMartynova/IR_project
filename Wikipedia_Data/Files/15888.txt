@@ -1,0 +1,132 @@
+Title: Extensible Metadata Platform
+Aspects: {'XAP'}
+
+The Extensible Metadata Platform (XMP) is an ISO standard, originally created by Adobe Systems Inc., for the creation, processing and interchange of standardized and custom metadata for digital documents and data sets.
+XMP standardizes a data model, a serialization format and core properties for the definition and processing of extensible metadata. It also provides guidelines for embedding XMP information into popular image, video and document file formats, such as JPEG and PDF, without breaking their readability by applications that do not support XMP. Therefore, the non-XMP metadata have to be reconciled with the XMP properties. Although metadata can alternatively be stored in a sidecar file, embedding metadata avoids problems that occur when metadata is stored separately.
+The XMP data model, serialization format and core properties is published by the International Organization for Standardization as ISO 16684-1:2012 standard.
+
+
+== Data model ==
+The defined XMP data model can be used to store any set of metadata properties. These can be simple name/value pairs, structured values or lists of values. The data can be nested as well. The XMP standard also defines particular namespaces for defined sets of core properties (e.g. a namespace for the Dublin Core Metadata Element Set). Custom namespaces can be used to extend the data model.
+An instance of the XMP data model is called an XMP packet. Adding properties to a packet does not affect existing properties. Software to add or modify properties in an XMP packet should leave properties that are unknown to it untouched.
+For example, it is useful for recording the history of a resource as it passes through multiple processing steps, from being photographed, scanned, or authored as text, through photo editing steps (such as cropping or color adjustment), to assemble into a final document. XMP allows each software program or device along the workflow to add its own information to a digital resource, which carries its metadata along. Prerequisite is that all involved editors either actively support XMP, or at least do not delete it from the resource.
+
+
+== Serialization ==
+The abstract XMP data model needs a concrete representation when it is stored or embedded into a file. As serialization format, a subset of the W3C RDF/XML syntax is most commonly used. It is a syntax to express a Resource Description Framework graph in XML. There are various equivalent ways to serialize the same XMP packet in RDF/XML.
+The most common metadata tags recorded in XMP data are those from the Dublin Core Metadata Initiative, which include things like title, description, creator, and so on. The standard is designed to be extensible, allowing users to add their own custom types of metadata into the XMP data. XMP generally does not allow binary data types to be embedded. This means that any binary data one wants to carry in XMP, such as thumbnail images, must be encoded in some XML-friendly format, such as Base64.
+XMP metadata can describe a document as a whole (the "main" metadata), but can also describe parts of a document, such as pages or included images. This architecture makes it possible to retain authorship and rights information about, for example, images included in a published document. Similarly, it permits documents created from several smaller documents to retain the original metadata associated with the parts.
+
+
+=== Example ===
+This is an example XML document for serialized XMP metadata in a JPEG photo:
+
+This metadata describes various properties of the image like the creator tool, image dimension or a face region within the image.
+
+
+== Embedding ==
+Embedding metadata in files allows easy sharing and transfer of files across products, vendors, platforms, without metadata getting lost; embedding avoids a multitude of problems coming from proprietary vendor-specific metadata databases.
+XMP can be used in several file formats such as PDF, JPEG, JPEG 2000, JPEG XR, GIF, PNG, WebP, HTML, TIFF, Adobe Illustrator, PSD, MP3, MP4, Audio Video Interleave, WAV, RF64, Audio Interchange File Format, PostScript, Encapsulated PostScript, and proposed for DjVu.  In a typical edited JPEG file, XMP information is typically included alongside Exif and IPTC Information Interchange Model data.
+
+
+=== Location in file types ===
+For more details, the XMP Specification, Part 3, Storage in Files listed below has details on embedding in specific file formats.
+
+TIFF – Tag 700
+JPEG – Application segment 1 (0xFFE1) with segment header "http://ns.adobe.com/xap/1.0/\x00"
+JPEG 2000 – "uuid" atom with UID of 0xBE7ACFCB97A942E89C71999491E3AFAC
+PNG – inside an "iTXt" text block with the keyword "XML:com.adobe.xmp"
+GIF – as an Application Extension with identifier "XMP Data" and authentication code "XMP"
+PDF – embedded in a metadata stream contained in a PDF object
+WebP – inside the files XMP chunk
+For file formats that have no support for embedded XMP data, this data can be stored in external .xmp sidecar files.
+
+
+== Support and acceptance ==
+
+
+=== XMP Toolkit ===
+The XMP Toolkit implements metadata handling in two libraries:
+
+XMPCore for creation and manipulation of metadata that follows the XMP Data Model.
+XMPFiles for embedding serialized metadata in files, and for retrieving embedded metadata.Adobe provides the XMP Toolkit free of charge under a BSD license. The Toolkit includes specification  and usage documents (PDFs), API documentation (doxygen/javadoc), C++ source code (XMPCore and XMPFiles) and Java source code (currently only XMPCore). XMPFiles is currently available as a C++/Java implementation in Windows, Mac OS, Unix/Linux.
+
+
+=== Free software and open-source tools (read/write support) ===
+Alfresco - open source CMS, DAM component can read/write XMP (Microsoft Windows, Linux)
+CC PDF Converter - A free open source (GPL) program to convert documents to PDF with embedded Creative-Commons license (Microsoft Windows).
+darktable - RAW developer, can read/write XMP in supported file formats (Linux, Mac OS X, Microsoft Windows, BSD)
+digiKam - open source (GPL) image tagger and organiser (Linux, Mac OS X, Microsoft Windows)
+ExifTool by Phil Harvey, open source Perl module or command line. Can read/write XMP, supports custom XMP schema (platform independent)
+F-Spot - Linux/GNOME photo manager and editor
+Geeqie - Lightweight Gtk+ based image manager (formerly GQView)
+GIMP - GNU Image Manipulation Program
+Gwenview - Linux/KDE photo manager and editor
+iText - Open Source Java library that can read and write XMP embedded in PDF files.
+RawTherapee - Can read "rating" tags from embedded XMP, which are then shown in the File Browser/Filmstrip using RawTherapee’s star rating system.
+Shotwell - Linux/GNOME photo manager, can read/write Exif, IPTC and XMP metadata
+TYPO3 - open source Enterprise CMS. DAM component reads XMP (PHP based)
+
+
+=== Proprietary tools (read/write support) ===
+ACDSee Pro can read and write XMP information for DNG, GIF, JPEG, PNG and TIFF files (Microsoft Windows, Mac OS X).
+Acrobat - can read and write XMP in PDF files  (Microsoft Windows, Mac OS X, partially Linux).
+Aperture - Image management application and RAW developer. Reads/writes XMP sidecar files to (batch) import/export image metadata (Mac OS X).
+Bibble5 can read/write XMP information for RAW, JPG and TIFF files (Microsoft Windows, Mac OS X, Linux).
+Bridge - can read/write and batch edit XMP metadata (Microsoft Windows, Mac OS X)
+Capture One - Photo editing and management software. Reads and writes XMP for all supported image formats (Microsoft Windows, Mac OS X).
+Corel AfterShot Pro - RAW processor (Bibble successor), reads/writes XMP, uses XMP sidecar files for non-destructive image processing (Microsoft Windows, Mac OS X, Linux).
+Cumulus - DAM software, can read/write XMP for all supported image formats, InDesign and PDF files (Microsoft Windows, Mac OS X, Linux)
+DBGallery - Can read/write XMP for JPEG, PSD, RAW, TIFF, DNG, PNG, GIF, JP2, PJX, MPG, MP4, MPEG, MOV  (Microsoft Windows).  Multi-user, central database system.
+Diffractor - can edit and search XMP for most photo (including raw) or video formats. (Microsoft Windows)
+FastPictureViewer - Image viewer (Windows) with XMP embedding and/or sidecar files creation (xmp:Rating, xmp:Label, photoshop:Urgency) (Microsoft Windows)
+Fotoware - Digital Asset Management system - completely based on XMP as core technology. Embeds, searches and reacts to XMP metadata in all file types
+FrameMaker - publishing tool. Stores document metadata in XMP since version 7.0 (Microsoft Windows)
+Illustrator - illustration software, writes document metadata in XMP (Microsoft Windows, Mac OS X)
+Indesign - page layout software, can pass through XMP in placed objects, writes extensive XMP about document contents in layout documents and exported PDF (Microsoft Windows, Mac OS X)
+iOS Photos app - Saves edits made to photos on an iPhone/iPad losslessly as XMP embedded in the original JPEG.
+Lightroom - Image management application and RAW developer. Uses XMP for non-destructive image manipulation and import/export of metadata (Microsoft Windows, Mac OS X)
+MetaLith - can read, analyze and write Exif, IPTC and XMP metadata of multiple JPG and TIFF files
+Microsoft Windows Vista - Photo Gallery saves tags to XMP (Microsoft Windows)
+Photo Mechanic - Reads and writes XMP directly into image files or into XMP sidecar files.
+Photoshop - can read/write XMP in supported images. Allows embedding of non standard XMP data through 'custom XMP panels' (Microsoft Windows, Mac OS X)
+PicaJet - Can read XMP for JPG, TIFF and DNG formats (Microsoft Windows).
+Picasa - Image organizer/viewer, uses XMP for face tagging (Microsoft Windows, Mac OS X, Linux)
+Portfolio - DAM software, can read/write XMP in supported file formats (Microsoft Windows, Mac OS X)
+Stibo STEP - DAM component reads/writes XMP for all supported formats
+TagThatPhoto - photo tagging software reads/writes XMP and face tags in MWG XMP standard format (Microsoft Windows)
+Windows Imaging Component - Microsoft library for working with and processing digital images and image metadata (Microsoft Windows)
+Windows Live Photo Gallery - a photo management and sharing application released as a part of Microsoft's Windows Live initiative. It is an upgraded version of Windows Photo Gallery, which is a part of Windows Vista.
+XnView - can read/write Exif, IPTC and XMP information.
+Zoner Photo Studio - can read/write Exif, IPTC and XMP information for DNG, JPEG, TIFF, HDP and various RAW files (Microsoft Windows).The mainstream IPTC Information Interchange Model editing tools also support editing of XMP data.
+
+
+=== Licensing ===
+XMP is a registered trademark of Adobe Systems Incorporated.
+The XMP specification became an ISO standard and is not proprietary anymore.
+Initially, Adobe released source code for the XMP SDK under a license called the ADOBE SYSTEMS INCORPORATED — OPEN SOURCE LICENSE. The compatibility of this license with the GNU General Public License has been questioned. The license is not listed on the list maintained by the Open Source Initiative and is different from the licenses for most of their open source software.On May 14, 2007, Adobe released the XMP Toolkit SDK under a standard BSD license.On August 28, 2008, Adobe posted a public patent license for the XMP.As of November 2016, Adobe continues to distribute these documents under the XMP Specification Public Patent License.
+
+
+== History ==
+XMP was first introduced by Adobe in April 2001 as part of the Adobe Acrobat 5.0 software product.On June 21, 2004, Adobe announced its collaboration with the International Press Telecommunications Council. In July 2004, a working group led by Adobe Systems' Gunar Penikis and IPTC's Michael Steidl was set up, and volunteers were recruited from AFP (Agence France-Presse), Associated Press, ControlledVocabulary.com, IDEAlliance, Mainichi Shimbun, Reuters, and others, to develop the new schema.The "IPTC Core Schema for XMP" version 1.0 specification was released publicly on March 21, 2005. A set of custom panels for Adobe Photoshop CS can be downloaded from the IPTC. The package includes a User's Guide, example photos with embedded XMP information, the specification document, and an implementation guide for developers. The "User's Guide to the IPTC Core" goes into detail about how each of the fields should be used and is also available directly as a PDF. The next version of the Adobe Creative Suite (CS2) included these custom panels as part of its default set.The Windows Photo Gallery, released with Windows Vista, offers support for the XMP standard, the first time Microsoft has released metadata compatibility beyond Exif.
+
+
+== See also ==
+IPTC Information Interchange Model
+Resource Description Framework (RDF)
+Astronomy Visualization Metadata (AVM)
+Comparison of metadata editors
+Exchangeable Image File Format (Exif)
+
+
+== References ==
+
+
+== External links ==
+Adobe XMP Main Page
+XMP Specification
+XMP Information on coverpages.org
+Creative Commons XMP Recommendation
+Metadata section in the PDF 1.6 Language Reference
+IPTC4XMP (IPTC Core) standard
+Metadata Working Group provides guidance on metadata interoperability

@@ -1,0 +1,14 @@
+Title: Xerox Development Environment
+Aspects: {'XDE'}
+
+The Xerox Development Environment was one of the first Integrated development environments (IDEs). It was first implemented on the Xerox Alto in 1977.
+
+
+== See also ==
+BCPL
+Mesa (programming language)
+
+
+== External links ==
+The Xerox Development Environment (XDE)
+Paper on XDE

@@ -1,0 +1,1888 @@
+Title: Fixed-point combinator
+Aspects: {'Y combinator'}
+
+In mathematics and computer science in general, a fixed point of a function is a value that is mapped to itself by the function. In combinatory logic for computer science, a fixed-point combinator (or fixpoint combinator) is a higher-order function 
+  
+    
+      
+        
+          
+            fix
+          
+        
+      
+    
+    {\displaystyle {\textsf {fix}}}
+   that returns some fixed point of its argument function, if one exists.  
+Formally, if the function f has one or more fixed points, then
+
+  
+    
+      
+        
+          
+            fix
+          
+        
+         
+        f
+        =
+        f
+         
+        (
+        
+          
+            fix
+          
+        
+         
+        f
+        )
+         
+        ,
+      
+    
+    {\displaystyle {\textsf {fix}}\ f=f\ ({\textsf {fix}}\ f)\ ,}
+  and hence, by repeated application,
+
+  
+    
+      
+        
+          
+            fix
+          
+        
+         
+        f
+        =
+        f
+         
+        (
+        f
+         
+        (
+        …
+        f
+         
+        (
+        
+          
+            fix
+          
+        
+         
+        f
+        )
+        …
+        )
+        )
+         
+        .
+      
+    
+    {\displaystyle {\textsf {fix}}\ f=f\ (f\ (\ldots f\ ({\textsf {fix}}\ f)\ldots ))\ .}
+  
+
+
+== Y combinator ==
+In the classical untyped lambda calculus, every function has a fixed point.
+A particular implementation of fix is Curry's paradoxical combinator Y, represented by
+
+  
+    
+      
+        
+          
+            Y
+          
+        
+        =
+        λ
+        f
+        .
+         
+        (
+         
+        λ
+        x
+        .
+        (
+        f
+         
+        (
+        x
+         
+        x
+        )
+        )
+         
+        λ
+        x
+        .
+        (
+        f
+         
+        (
+        x
+         
+        x
+        )
+        )
+         
+        )
+      
+    
+    {\displaystyle {\textsf {Y}}=\lambda f.\ (\ \lambda x.(f\ (x\ x))\ \lambda x.(f\ (x\ x))\ )}
+  In functional programming, the Y combinator can be used to formally define recursive functions in a programming language that does not support recursion.
+This combinator may be used in implementing Curry's paradox.  The heart of Curry's paradox is that untyped lambda calculus is unsound as a deductive system, and the Y combinator demonstrates that by allowing an anonymous expression to represent zero, or even many values.  This is inconsistent in mathematical logic.
+Applied to a function with one variable the Y combinator usually does not terminate.  More interesting results are obtained by applying the Y combinator to functions of two or more variables.  The second variable may be used as a counter, or index.  The resulting function behaves like a while or a for loop in an imperative language.
+Used in this way the Y combinator implements simple recursion.  In the lambda calculus it is not possible to refer to the definition of a function in a function body.  Recursion may only be achieved by passing in a function as a parameter.  The Y combinator demonstrates this style of programming.
+
+
+== Fixed-point combinator ==
+The Y combinator is an implementation of a fixed-point combinator in lambda calculus.  Fixed-point combinators may also be easily defined in other functional and imperative languages.  The implementation in lambda calculus is more difficult due to limitations in lambda calculus.
+The fixed combinator may be used in a number of different areas,
+
+General mathematics
+Untyped lambda calculus
+Typed lambda calculus
+Functional programming
+Imperative programmingFixed point combinators may be applied to a range of different functions, but normally will not terminate unless there is an extra parameter.  When the function to be fixed refers to its parameter, another call to the function is invoked, so the calculation never gets started.  Instead, the extra parameter is used to trigger the start of the calculation.  
+The type of the fixed point is the return type of the function being fixed.  This may be a real or a function or any other type.
+In the untyped lambda calculus, the function to apply the fix point combinator to may be expressed using an encoding, like Church encoding.  In this case particular lambda terms (which define functions) are considered as values.  "Running" (beta reducing) the fixed point combinator on the encoding gives a lambda term for the result which may then be interpreted as fixed point value.
+Alternately a function may be considered as a lambda term defined purely in lambda calculus.
+These different approaches affect how a mathematician and a programmer may regard a fixed point combinator.  A lambda calculus mathematician may see the Y combinator applied to a function as being an expression satisfying the fixed point equation, and therefore a solution.
+In contrast a person only wanting to apply a fixed point combinator to some general programming task may see it only as a means of implementing recursion.
+
+
+=== Values and domains ===
+Every expression has one value.  This is true in general mathematics and it must be true in lambda calculus.  This means that in lambda calculus, applying a fixed point combinator to a function gives you an expression whose value is the fixed point of the function.
+However this is a value in the lambda calculus domain, it may not correspond to any value in the domain of the function,  so in a practical sense it is not necessarily a fixed point of the function, and only in the lambda calculus domain is it a fixed point of the equation.
+For example, consider,
+
+  
+    
+      
+        
+          x
+          
+            2
+          
+        
+        =
+        −
+        1
+        ⇒
+        x
+        =
+        
+          
+            
+              −
+              1
+            
+            x
+          
+        
+        ⇒
+        f
+         
+        x
+        =
+        
+          
+            
+              −
+              1
+            
+            x
+          
+        
+        ∧
+        
+          
+            Y
+          
+        
+         
+        f
+        =
+        x
+      
+    
+    {\displaystyle x^{2}=-1\Rightarrow x={\frac {-1}{x}}\Rightarrow f\ x={\frac {-1}{x}}\land {\textsf {Y}}\ f=x}
+  Division of Signed numbers may be implemented in the Church encoding, so f may be represented by a lambda term.  This equation has no solution in the real numbers.  But in the domain of the complex numbers i and -i are solutions.  This demonstrates that there may be solutions to an equation in another domain.  However the lambda term for the solution for the above equation is weirder than that.  The lambda term 
+  
+    
+      
+        Y
+         
+        f
+      
+    
+    {\displaystyle Y\ f}
+   represents the state where x could be either i or -i, as one value.  The information distinguishing these two values has been lost, in the change of domain.
+For the lambda calculus mathematician, this is a consequence of the definition of lambda calculus.  For the programmer, it means that the beta reduction of the lambda term will loop forever, never reaching a normal form.
+
+
+=== Function versus implementation ===
+The fixed-point combinator may be defined in mathematics and then implemented in other languages. General mathematics defines a function based on its extensional properties. That is, two functions are equal if they perform the same mapping. Lambda calculus and programming languages regard function identity as an intensional property. A function's identity is based on its implementation.
+A lambda calculus function (or term) is an implementation of a mathematical function.  In the lambda calculus there are a number of combinator (implementations) that satisfy the mathematical definition of a fixed-point combinator.
+
+
+=== What is a "combinator"? ===
+Combinatory logic is a higher-order functions theory. A combinator is a closed lambda expression, meaning that it has no free variables. The combinators may be combined to direct values to their correct places in the expression without ever naming them as variables.
+
+
+== Usage ==
+Usually when applied to functions of one parameter, implementations of the fixed point combinator fail to terminate.  Functions with extra parameters are more interesting.
+The Y combinator is an example of what makes the Lambda calculus inconsistent.  So it should be regarded with suspicion.  However it is safe to consider the Y combinator when defined in mathematic logic only.  The definition is,
+
+  
+    
+      
+        
+          
+            Y
+          
+        
+         
+        f
+        =
+        f
+         
+        (
+        
+          
+            Y
+          
+        
+         
+        f
+        )
+      
+    
+    {\displaystyle {\textsf {Y}}\ f=f\ ({\textsf {Y}}\ f)}
+  It is easy to see how Y f may be applied to one variable.  Applying it to two or more variables requires adding them to the equation,
+
+  
+    
+      
+        
+          
+            Y
+          
+        
+         
+        f
+         
+        x
+        =
+        f
+         
+        (
+        
+          
+            Y
+          
+        
+         
+        f
+        )
+         
+        x
+      
+    
+    {\displaystyle {\textsf {Y}}\ f\ x=f\ ({\textsf {Y}}\ f)\ x}
+  This version of the equation must be shown consistent with the previous by the definition for equality of functions,
+
+  
+    
+      
+        (
+        ∀
+        x
+        f
+         
+        x
+        =
+        g
+         
+        x
+        )
+        ≡
+        f
+        =
+        g
+      
+    
+    {\displaystyle (\forall xf\ x=g\ x)\equiv f=g}
+  This definition allows the two equations for Y to be regarded as equivalent, provided that the domain of x is well defined.  So if f has multiple parameters the Y f may still be regarded as a fixed point, with some restrictions.
+
+
+=== The factorial function ===
+The factorial function provides a good example of how the fixed point combinator may be applied to functions of two variables.  The result demonstrates simple recursion, as would be implemented in a single loop, in an imperative language.  The definition of numbers used is explained in Church encoding. The fixed point function is,
+
+  
+    
+      
+        F
+         
+        f
+         
+        n
+        =
+        (
+        IsZero
+        ⁡
+         
+        n
+        )
+         
+        1
+         
+        (
+        multiply
+        ⁡
+         
+        n
+         
+        (
+        f
+         
+        (
+        pred
+        ⁡
+         
+        n
+        )
+        )
+        )
+      
+    
+    {\displaystyle F\ f\ n=(\operatorname {IsZero} \ n)\ 1\ (\operatorname {multiply} \ n\ (f\ (\operatorname {pred} \ n)))}
+  This gives Y F n as,
+
+  
+    
+      
+        
+          
+            fix
+          
+        
+         
+        F
+         
+        n
+      
+    
+    {\displaystyle {\textsf {fix}}\ F\ n}
+  
+
+  
+    
+      
+        =
+        F
+         
+        (
+        
+          
+            fix
+          
+        
+         
+        F
+        )
+         
+        n
+      
+    
+    {\displaystyle =F\ ({\textsf {fix}}\ F)\ n}
+  
+
+  
+    
+      
+        =
+        (
+        IsZero
+        ⁡
+         
+        n
+        )
+         
+        1
+         
+        (
+        multiply
+        ⁡
+         
+        n
+         
+        (
+        (
+        
+          
+            fix
+          
+        
+         
+        F
+        )
+         
+        (
+        pred
+        ⁡
+         
+        n
+        )
+        )
+        )
+      
+    
+    {\displaystyle =(\operatorname {IsZero} \ n)\ 1\ (\operatorname {multiply} \ n\ (({\textsf {fix}}\ F)\ (\operatorname {pred} \ n)))}
+  Setting 
+  
+    
+      
+        
+          
+            fix
+          
+        
+         
+        F
+        =
+        fact
+      
+    
+    {\displaystyle {\textsf {fix}}\ F=\operatorname {fact} }
+   gives,
+
+  
+    
+      
+        fact
+        ⁡
+         
+        n
+        =
+        (
+        IsZero
+        ⁡
+         
+        n
+        )
+         
+        1
+         
+        (
+        multiply
+        ⁡
+         
+        n
+         
+        (
+        fact
+        ⁡
+         
+        (
+        pred
+        ⁡
+         
+        n
+        )
+        )
+        )
+      
+    
+    {\displaystyle \operatorname {fact} \ n=(\operatorname {IsZero} \ n)\ 1\ (\operatorname {multiply} \ n\ (\operatorname {fact} \ (\operatorname {pred} \ n)))}
+  This definition puts F in the role of the body of a loop to be iterated, and is equivalent to the mathematical definition of factorial:
+
+  
+    
+      
+        fact
+        ⁡
+         
+        n
+        =
+        if
+        ⁡
+        n
+        =
+        0
+        then
+        ⁡
+        1
+        else
+        ⁡
+        n
+        ∗
+        fact
+        ⁡
+         
+        (
+        n
+        −
+        1
+        )
+      
+    
+    {\displaystyle \operatorname {fact} \ n=\operatorname {if} n=0\operatorname {then} 1\operatorname {else} n*\operatorname {fact} \ (n-1)}
+  
+
+
+== Fixed point combinators in lambda calculus ==
+The Y combinator, discovered by Haskell B. Curry, is defined as:
+
+  
+    
+      
+        Y
+        =
+        λ
+        f
+        .
+        (
+        λ
+        x
+        .
+        f
+         
+        (
+        x
+         
+        x
+        )
+        )
+         
+        (
+        λ
+        x
+        .
+        f
+         
+        (
+        x
+         
+        x
+        )
+        )
+      
+    
+    {\displaystyle Y=\lambda f.(\lambda x.f\ (x\ x))\ (\lambda x.f\ (x\ x))}
+  Beta reduction of this gives,
+
+By repeatedly applying this equality we get,
+
+  
+    
+      
+        Y
+         
+        g
+        =
+        g
+         
+        (
+        Y
+         
+        g
+        )
+        =
+        g
+         
+        (
+        g
+         
+        (
+        Y
+         
+        g
+        )
+        )
+        =
+        g
+         
+        (
+        …
+        g
+         
+        (
+        Y
+         
+        g
+        )
+        …
+        )
+      
+    
+    {\displaystyle Y\ g=g\ (Y\ g)=g\ (g\ (Y\ g))=g\ (\ldots g\ (Y\ g)\ldots )}
+  Note that the equality above should be thought of as a sequence of multi-step β-reductions from left to right. The lambda term 
+  
+    
+      
+        g
+         
+        (
+        Y
+         
+        g
+        )
+      
+    
+    {\displaystyle g\ (Y\ g)}
+   may not, in general, β-reduce to the term 
+  
+    
+      
+        Y
+         
+        g
+      
+    
+    {\displaystyle Y\ g}
+  . One can interpret the equality signs as β-equivalences instead of multi step β-reductions to allow for going in both directions.
+
+
+=== Equivalent definition of a fixed-point combinator ===
+This fixed-point combinator may be defined as y in,
+
+  
+    
+      
+        x
+        =
+        f
+         
+        x
+        ∧
+        y
+         
+        f
+        =
+        x
+      
+    
+    {\displaystyle x=f\ x\land y\ f=x}
+  An expression for y may be derived using rules from the definition of a let expression.  Firstly using the rule,
+
+  
+    
+      
+        (
+        ∃
+        x
+        E
+        ∧
+        F
+        )
+        
+        ⟺
+        
+        let
+        ⁡
+        x
+        :
+        E
+        in
+        ⁡
+        F
+      
+    
+    {\displaystyle (\exists xE\land F)\iff \operatorname {let} x:E\operatorname {in} F}
+  gives,
+
+  
+    
+      
+        let
+        ⁡
+        x
+        =
+        f
+         
+        x
+        in
+        ⁡
+        y
+         
+        f
+        =
+        x
+      
+    
+    {\displaystyle \operatorname {let} x=f\ x\operatorname {in} y\ f=x}
+  Also using,
+
+  
+    
+      
+        x
+        ∉
+        FV
+        ⁡
+        (
+        E
+        )
+        ∧
+        x
+        ∈
+        FV
+        ⁡
+        (
+        F
+        )
+        →
+        let
+        ⁡
+        x
+        :
+        G
+        in
+        ⁡
+        E
+         
+        F
+        =
+        E
+         
+        (
+        let
+        ⁡
+        x
+        :
+        G
+        in
+        ⁡
+        F
+        )
+      
+    
+    {\displaystyle x\not \in \operatorname {FV} (E)\land x\in \operatorname {FV} (F)\to \operatorname {let} x:G\operatorname {in} E\ F=E\ (\operatorname {let} x:G\operatorname {in} F)}
+  gives
+
+  
+    
+      
+        y
+         
+        f
+        =
+        let
+        ⁡
+        x
+        =
+        f
+         
+        x
+        in
+        ⁡
+        x
+      
+    
+    {\displaystyle y\ f=\operatorname {let} x=f\ x\operatorname {in} x}
+  Then using the eta reduction rule,
+
+  
+    
+      
+        f
+         
+        x
+        =
+        y
+        
+        ⟺
+        
+        f
+        =
+        λ
+        x
+        .
+        y
+      
+    
+    {\displaystyle f\ x=y\iff f=\lambda x.y}
+  gives,
+
+  
+    
+      
+        y
+        =
+        λ
+        f
+        .
+        let
+        ⁡
+        x
+        =
+        f
+         
+        x
+        in
+        ⁡
+        x
+      
+    
+    {\displaystyle y=\lambda f.\operatorname {let} x=f\ x\operatorname {in} x}
+  
+
+
+=== Derivation of the Y combinator ===
+Curry's Y combinator may be readily obtained from the definition of y.
+Starting with,
+
+  
+    
+      
+        λ
+        f
+        .
+        let
+        ⁡
+        x
+        =
+        f
+         
+        x
+        in
+        ⁡
+        x
+      
+    
+    {\displaystyle \lambda f.\operatorname {let} x=f\ x\operatorname {in} x}
+  A lambda abstraction does not support reference to the variable name, in the applied expression, so x must be passed in as a parameter to x.  We can think of this as replacing x by x x, but formally this is not correct.  Instead defining y by 
+  
+    
+      
+        ∀
+        z
+        ,
+        y
+         
+        z
+        =
+        x
+      
+    
+    {\displaystyle \forall z,y\ z=x}
+   gives,
+
+  
+    
+      
+        λ
+        f
+        .
+        let
+        ⁡
+        y
+         
+        z
+        =
+        f
+         
+        (
+        y
+         
+        z
+        )
+        in
+        ⁡
+        y
+         
+        z
+      
+    
+    {\displaystyle \lambda f.\operatorname {let} y\ z=f\ (y\ z)\operatorname {in} y\ z}
+  The let expression may be regarded as the definition of the function y, where z is the parameter.  Instantiation z as y in the call gives,
+
+  
+    
+      
+        λ
+        f
+        .
+        let
+        ⁡
+        y
+         
+        z
+        =
+        f
+         
+        (
+        y
+         
+        z
+        )
+        in
+        ⁡
+        y
+         
+        y
+      
+    
+    {\displaystyle \lambda f.\operatorname {let} y\ z=f\ (y\ z)\operatorname {in} y\ y}
+  And because the parameter z always passes the function y.
+
+  
+    
+      
+        λ
+        f
+        .
+        let
+        ⁡
+        y
+         
+        z
+        =
+        f
+         
+        (
+        z
+         
+        z
+        )
+        in
+        ⁡
+        y
+         
+        y
+      
+    
+    {\displaystyle \lambda f.\operatorname {let} y\ z=f\ (z\ z)\operatorname {in} y\ y}
+  Using the eta reduction rule,
+
+  
+    
+      
+        f
+         
+        x
+        =
+        y
+        ≡
+        f
+        =
+        λ
+        x
+        .
+        y
+      
+    
+    {\displaystyle f\ x=y\equiv f=\lambda x.y}
+  gives,
+
+  
+    
+      
+        λ
+        f
+        .
+        let
+        ⁡
+        y
+        =
+        λ
+        z
+        .
+        f
+         
+        (
+        z
+         
+        z
+        )
+        in
+        ⁡
+        y
+         
+        y
+      
+    
+    {\displaystyle \lambda f.\operatorname {let} y=\lambda z.f\ (z\ z)\operatorname {in} y\ y}
+  A let expression may be expressed as a lambda abstraction using,
+
+  
+    
+      
+        n
+        ∉
+        F
+        V
+        (
+        E
+        )
+        →
+        (
+        let
+        ⁡
+        n
+        =
+        E
+        in
+        ⁡
+        L
+        ≡
+        (
+        λ
+        n
+        .
+        L
+        )
+         
+        E
+        )
+      
+    
+    {\displaystyle n\not \in FV(E)\to (\operatorname {let} n=E\operatorname {in} L\equiv (\lambda n.L)\ E)}
+  gives,
+
+  
+    
+      
+        λ
+        f
+        .
+        (
+        λ
+        y
+        .
+        y
+         
+        y
+        )
+         
+        (
+        λ
+        z
+        .
+        f
+         
+        (
+        z
+         
+        z
+        )
+        )
+      
+    
+    {\displaystyle \lambda f.(\lambda y.y\ y)\ (\lambda z.f\ (z\ z))}
+  This is possibly the simplest implementation of a fixed point combinator in lambda calculus.  However one beta reduction gives the more symmetrical form of Curry's Y combinator.
+
+  
+    
+      
+        λ
+        f
+        .
+        (
+        λ
+        z
+        .
+        f
+         
+        (
+        z
+         
+        z
+        )
+        )
+         
+        (
+        λ
+        z
+        .
+        f
+         
+        (
+        z
+         
+        z
+        )
+        )
+      
+    
+    {\displaystyle \lambda f.(\lambda z.f\ (z\ z))\ (\lambda z.f\ (z\ z))}
+  See also translating between let and lambda expressions.
+
+
+=== Other fixed-point combinators ===
+In untyped lambda calculus fixed-point combinators are not especially rare. In fact there are infinitely many of them. In 2005 Mayer Goldberg showed that the set of fixed-point combinators of untyped lambda calculus is recursively enumerable.The Y combinator can be expressed in the SKI-calculus as
+
+  
+    
+      
+        Y
+        =
+        S
+        (
+        K
+        (
+        S
+        I
+        I
+        )
+        )
+        (
+        S
+        (
+        S
+        (
+        K
+        S
+        )
+        K
+        )
+        (
+        K
+        (
+        S
+        I
+        I
+        )
+        )
+        )
+      
+    
+    {\displaystyle Y=S(K(SII))(S(S(KS)K)(K(SII)))}
+  The simplest fixed point combinator in the SK-calculus, found by John Tromp, is
+
+  
+    
+      
+        
+          Y
+          ′
+        
+        =
+        S
+        S
+        K
+        (
+        S
+        (
+        K
+        (
+        S
+        S
+        (
+        S
+        (
+        S
+        S
+        K
+        )
+        )
+        )
+        )
+        K
+        )
+      
+    
+    {\displaystyle Y'=SSK(S(K(SS(S(SSK))))K)}
+  although note that it is not in normal form, which is longer. This combinator corresponds to the lambda expression
+
+  
+    
+      
+        
+          Y
+          ′
+        
+        =
+        (
+        λ
+        x
+        .
+        λ
+        y
+        .
+        x
+        y
+        x
+        )
+        (
+        λ
+        y
+        .
+        λ
+        x
+        .
+        y
+        (
+        x
+        y
+        x
+        )
+        )
+      
+    
+    {\displaystyle Y'=(\lambda x.\lambda y.xyx)(\lambda y.\lambda x.y(xyx))}
+  The following fixed-point combinator is simpler than the Y combinator, and β-reduces into the Y combinator; it is sometimes cited as the Y combinator itself:
+
+  
+    
+      
+        X
+        =
+        λ
+        f
+        .
+        (
+        λ
+        x
+        .
+        x
+        x
+        )
+        (
+        λ
+        x
+        .
+        f
+        (
+        x
+        x
+        )
+        )
+      
+    
+    {\displaystyle X=\lambda f.(\lambda x.xx)(\lambda x.f(xx))}
+  Another common fixed point combinator is the Turing fixed-point combinator (named after its discoverer, Alan Turing):
+
+  
+    
+      
+        Θ
+        =
+        (
+        λ
+        x
+        .
+        λ
+        y
+        .
+        (
+        y
+        (
+        (
+        x
+        x
+        )
+        y
+        )
+        )
+         
+        λ
+        x
+        .
+        λ
+        y
+        .
+        (
+        y
+        (
+        (
+        x
+        x
+        )
+        y
+        )
+        )
+        )
+      
+    
+    {\displaystyle \Theta =(\lambda x.\lambda y.(y((xx)y))\ \lambda x.\lambda y.(y((xx)y)))}
+  Its advantage over 
+  
+    
+      
+        
+          
+            Y
+          
+        
+      
+    
+    {\displaystyle {\textsf {Y}}}
+   is that 
+  
+    
+      
+        (
+        Θ
+         
+        f
+        )
+      
+    
+    {\displaystyle (\Theta \ f)}
+   beta-reduces to 
+  
+    
+      
+        (
+        f
+         
+        (
+        Θ
+        f
+        )
+        )
+      
+    
+    {\displaystyle (f\ (\Theta f))}
+  ,
+whereas 
+  
+    
+      
+        (
+        
+          
+            Y
+          
+        
+         
+        f
+        )
+      
+    
+    {\displaystyle ({\textsf {Y}}\ f)}
+   and 
+  
+    
+      
+        (
+        f
+         
+        (
+        
+          
+            Y
+          
+        
+        f
+        )
+        )
+      
+    
+    {\displaystyle (f\ ({\textsf {Y}}f))}
+   only beta-reduce to a common term.
+  
+    
+      
+        Θ
+      
+    
+    {\displaystyle \Theta }
+   also has a simple call-by-value form:
+
+  
+    
+      
+        
+          Θ
+          
+            v
+          
+        
+        =
+        (
+        λ
+        x
+        .
+        λ
+        y
+        .
+        (
+        y
+        (
+        λ
+        z
+        .
+        x
+        x
+        y
+        z
+        )
+        )
+        )
+        (
+        λ
+        x
+        .
+        λ
+        y
+        .
+        (
+        y
+        (
+        λ
+        z
+        .
+        x
+        x
+        y
+        z
+        )
+        )
+        )
+      
+    
+    {\displaystyle \Theta _{v}=(\lambda x.\lambda y.(y(\lambda z.xxyz)))(\lambda x.\lambda y.(y(\lambda z.xxyz)))}
+  The analog for mutual recursion is a polyvariadic fix-point combinator,
+ which may be denoted Y*.
+
+
+=== Strict fixed point combinator ===
+The Z combinator will work in strict languages (also called eager languages, where applicative evaluation order is applied). The Z combinator has the next argument defined explicitly, preventing the expansion of Z g in the right hand side of the definition:
+
+  
+    
+      
+        Z
+        g
+        v
+        =
+        g
+        (
+        Z
+        g
+        )
+        v
+      
+    
+    {\displaystyle Zgv=g(Zg)v}
+  and in lambda calculus it is an eta-expansion of the Y combinator:
+
+  
+    
+      
+        Z
+        =
+        λ
+        f
+        .
+        (
+        λ
+        x
+        .
+        f
+        (
+        λ
+        v
+        .
+        x
+        x
+        v
+        )
+        )
+        (
+        λ
+        x
+        .
+        f
+        (
+        λ
+        v
+        .
+        x
+        x
+        v
+        )
+        )
+      
+    
+    {\displaystyle Z=\lambda f.(\lambda x.f(\lambda v.xxv))(\lambda x.f(\lambda v.xxv))}
+  
+
+
+=== Non-standard fixed-point combinators ===
+In untyped lambda calculus there are terms that have the same Böhm tree as a fixed-point combinator, that is they have the same infinite extension λx.x (x (x ... )). These are called non-standard fixed-point combinators. Any fixed-point combinator is also a non-standard one, but not all non-standard fixed-point combinators are fixed-point combinators because some of them fail to satisfy the equation that defines the "standard" ones. These strange combinators are called strictly non-standard fixed-point combinators; an example is the following combinator;
+
+  
+    
+      
+        N
+        =
+        B
+        M
+        (
+        B
+        (
+        B
+        M
+        )
+        B
+        )
+      
+    
+    {\displaystyle N=BM(B(BM)B)}
+  where,
+
+  
+    
+      
+        B
+        =
+        λ
+        x
+        ,
+        y
+        ,
+        z
+        .
+        x
+        (
+        y
+        z
+        )
+      
+    
+    {\displaystyle B=\lambda x,y,z.x(yz)}
+  
+
+  
+    
+      
+        M
+        =
+        λ
+        x
+        .
+        x
+        x
+      
+    
+    {\displaystyle M=\lambda x.xx}
+  The set of non-standard fixed-point combinators is not recursively enumerable.
+
+
+== Implementation in other languages ==
+Note that the Y combinator is a particular implementation of a fixed point combinator in lambda calculus.  Its structure is determined by the limitations of lambda calculus.  It is not necessary or helpful to use this structure in implementing the fixed point combinator in other languages.
+Simple examples of fixed point combinators implemented in some programming paradigms are given below.
+For examples of implementations of the fixed point combinators in various languages see,
+
+Rosetta code - Y combinator
+Java code
+C++ code
+Python
+
+
+=== Lazy functional implementation ===
+In a language that supports lazy evaluation, like in Haskell, it is possible to define a fixed-point combinator using the defining equation of the fixed-point combinator which is conventionally named fix.  Since Haskell has lazy datatypes, this combinator can also be used to define fixed points of data constructors (and not only to implement recursive functions). The definition is given here, followed by some usage examples. The original definition in Data.Function.
+
+
+=== Strict functional implementation ===
+In a strict functional language the argument to f is expanded beforehand, yielding an infinite call sequence,
+
+  
+    
+      
+        f
+         
+        (
+        f
+        .
+        .
+        .
+        (
+        f
+         
+        (
+        fix
+        ⁡
+         
+        f
+        )
+        )
+        .
+        .
+        .
+        )
+         
+        x
+      
+    
+    {\displaystyle f\ (f...(f\ (\operatorname {fix} \ f))...)\ x}
+  .This may be resolved by defining fix with an extra parameter.
+
+
+=== Imperative language implementation ===
+This example is a slightly interpretive implementation of a fixed point combinator.  A class is used to contain the fix function, called fixer.  The function to be fixed is contained in a class that inherits from fixer.  The fix function accesses the function to be fixed as a virtual function.  As for the strict functional definition, fix is explicitly given an extra parameter x, which means that lazy evaluation is not needed.
+
+
+== Typing ==
+In polymorphic lambda calculus (System F) a polymorphic fixed-point combinator has type;
+
+∀a.(a → a) → awhere a is a type variable.  That is, fix takes a function, which maps a → a and uses it to return a value of type a.
+In the simply typed lambda calculus extended with recursive types, fixed-point operators can be written, but the type of a "useful" fixed-point operator (one whose application always returns) may be restricted.
+In the simply typed lambda calculus, the fixed-point combinator Y cannot be assigned a type because at some point it would deal with the self-application sub-term 
+  
+    
+      
+        x
+         
+        x
+      
+    
+    {\displaystyle x~x}
+   by the application rule:
+
+  
+    
+      
+        
+          
+            Γ
+            ⊢
+            x
+            
+            :
+            
+            
+              t
+              
+                1
+              
+            
+            →
+            
+              t
+              
+                2
+              
+            
+            
+            Γ
+            ⊢
+            x
+            
+            :
+            
+            
+              t
+              
+                1
+              
+            
+          
+        
+        
+          Γ
+          ⊢
+          x
+           
+          x
+          
+          :
+          
+          
+            t
+            
+              2
+            
+          
+        
+      
+    
+    {\displaystyle {\Gamma \vdash x\!:\!t_{1}\to t_{2}\quad \Gamma \vdash x\!:\!t_{1}} \over {\Gamma \vdash x~x\!:\!t_{2}}}
+  where 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+   has the infinite type 
+  
+    
+      
+        
+          t
+          
+            1
+          
+        
+        =
+        
+          t
+          
+            1
+          
+        
+        →
+        
+          t
+          
+            2
+          
+        
+      
+    
+    {\displaystyle t_{1}=t_{1}\to t_{2}}
+  . No fixed-point combinator can in fact be typed, in those systems any support for recursion must be explicitly added to the language.
+
+
+=== Type for the Y combinator ===
+In programming languages that support recursive types, it is possible to type the Y combinator by appropriately accounting for the recursion at the type level. The need to self-apply the variable x can be managed using a type (Rec a), which is defined so as to be isomorphic to (Rec a -> a).
+For example, in the following Haskell code, we have In and out being the names of the two directions of the isomorphism, with types:
+
+which lets us write:
+
+Or equivalently in OCaml:
+
+
+== General information ==
+Because fixed point combinators can be used to implement recursion, it is possible to use
+them to describe specific types of recursive computations, such as those in
+fixed-point iteration, iterative methods,
+recursive join in relational databases, data-flow analysis, FIRST and FOLLOW sets of
+non-terminals in a context-free grammar, transitive closure, and other types of
+closure operations.
+A function for which every input is a fixed point is called an identity function. Formally:
+
+  
+    
+      
+        ∀
+        x
+        (
+        f
+         
+        x
+        =
+        x
+        )
+      
+    
+    {\displaystyle \forall x(f\ x=x)}
+  In contrast to universal quantification over all 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  , a fixed point combinator constructs one value that is a fixed point of 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+  . The remarkable property of a fixed point combinator is that it constructs a fixed point for an arbitrary given function 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+  .
+Other functions have the special property that after being applied once, further applications don't have any effect. More formally: 
+
+  
+    
+      
+        ∀
+        x
+        (
+        f
+         
+        (
+        f
+         
+        x
+        )
+        =
+        f
+         
+        x
+        )
+      
+    
+    {\displaystyle \forall x(f\ (f\ x)=f\ x)}
+  Such functions are called idempotent (see also projection). An example of such a function is the function that returns 0 for all even integers, and 1 for all odd integers.
+In lambda calculus, from a computational point of view, applying a fixed point combinator to an identity function or an idempotent function typically results in non-terminating computation. For example, we obtain
+
+  
+    
+      
+        Y
+        (
+        λ
+        x
+        .
+        x
+        )
+        =
+        (
+        λ
+        x
+        .
+        x
+        x
+        )
+        (
+        λ
+        x
+        .
+        x
+        x
+        )
+      
+    
+    {\displaystyle Y(\lambda x.x)=(\lambda x.xx)(\lambda x.xx)}
+  where the resulting term can only reduce to itself and represents an infinite loop.
+Fixed-point combinators do not necessarily exist in more restrictive models of computation. For instance, they do not exist in simply typed lambda calculus.
+The Y combinator allows recursion to be defined as a set of rewrite rules, without requiring native recursion support in the language.In programming languages that support anonymous functions, fixed-point combinators allow the definition and use of anonymous recursive functions, i.e. without having to bind such functions to identifiers. In this setting, the use of fixed-point combinators is sometimes called anonymous recursion.
+
+
+== See also ==
+Fixed-point iteration
+Anonymous function
+Lambda calculus
+Let expression
+Lambda lifting
+
+
+== Notes ==
+
+
+== References ==
+Werner Kluge, Abstract computing machines: a lambda calculus perspective, Springer, 2005, ISBN 3-540-21146-2, pp. 73–77
+Mayer Goldberg, (2005) On the Recursive Enumerability of Fixed-Point Combinators, BRICS Report RS-05-1, University of Aarhus
+Matthias Felleisen. A Lecture on the Why of Y.
+
+
+== External links ==
+https://web.archive.org/web/20090113202334/http://www.latrobe.edu.au/philosophy/phimvt/joy/j05cmp.html
+http://okmij.org/ftp/Computation/fixed-point-combinators.html
+"Fixed-point combinators in Javascript"
+http://www.cs.brown.edu/courses/cs173/2002/Lectures/2002-10-28-lc.pdf
+http://www.mactech.com/articles/mactech/Vol.07/07.05/LambdaCalculus/
+http://www.csse.monash.edu.au/~lloyd/tildeFP/Lambda/Examples/Y/ (executable)
+http://www.ece.uc.edu/~franco/C511/html/Scheme/ycomb.html
+an example and discussion of a perl implementation
+"A Lecture on the Why of Y"
+"A Use of the Y Combinator in Ruby"
+"Functional programming in Ada"
+"Y Combinator in Erlang"
+"The Y Combinator explained with JavaScript"
+"The Y Combinator (Slight Return)" (detailed derivation)
+"The Y Combinator in C#"
+Rosetta code - Y combinator

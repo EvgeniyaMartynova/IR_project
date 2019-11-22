@@ -1,0 +1,207 @@
+Title: Mazda Diesel engine
+Aspects: {'Y4'}
+
+Mazda has a long history of building its own Diesel engines, with the exception of a few units that were built under license.
+
+
+== Inline-fours ==
+PN - 1.7 L (1,720 cc) - Used in the Mazda Familia and Ford Laser
+R2 - 2.2 L (2,184 cc) - Used in the 1984 onwards Mazda Bongo
+SL - 3.5 L (3,455 cc) - Used in the T3500 light truck (Mazda Titan)
+TF - 4.0 L (4,021 cc) -
+TM - 4.6 L (4,553 cc) -
+VS - 3.0 L (2,956 cc) -
+WL - 2.5 L (2,499 cc), bore x stroke 93 mm × 92 mm (3.66 in × 3.62 in) - naturally aspirated or turbodiesel, used in non-US 1995 Mazda MPV, various Mazda B-Series trucks.
+W9 - 2.9 L (2,892 cc), bore x stroke 95 mm × 102 mm (3.74 in × 4.02 in) - naturally aspirated diesel, an enlarged version of the WL
+XB - 2.7 L (2,701 cc) - 81 PS (60 kW; 80 hp), used in 1973 Mazda Parkway (AEXC), E2700 Van and T2700 Titan.
+XC - 3.7 L (3,663 cc) -
+
+
+=== Perkins ===
+These three engines (GA/GB/GC in Perkins' internal parlance) were developed especially for Mazda and were never offered by Perkins themselves.
+
+S2 - 2.2 L (2,209 cc) - License built Perkins 4.135 related to HA and XA, used in 1979 to 1986 Mazda Luce, Bongo/E2200, B2200, Ford Ranger
+XA - 2.5 L (2,522 cc) - License built Perkins 4.154 related to HA and S2, used in 1970 Mazda E2500 and 1971 Mazda Titan, and some Bobcat skid-steer loaders. A six-cylinder version of this is called the "YA".
+HA - 3.0 L (2,977 cc) - License built Perkins 4.182 related to S2 and XAAll of these engines have cast iron blocks and heads, two overhead valves per cylinder driven by maintenance-free timing gears, crossflow heads, are indirect injection. US-market B2200 and Ford Ranger trucks - and possibly the others as well - had rotary Bosch VE-style injection pumps, built by Diesel Kiki under license from Bosch.
+
+
+=== RF ===
+A diesel variation of the 2.0 L (1,998 cc) FE engine which shares its square internal dimensions of 86 mm × 86 mm (3.39 in × 3.39 in) bore and stroke - it is virtually the same block, with identical bell housing pattern and block dimensions. This could be a testament to the F-block's strength as it was over-built for naturally aspirated duty. Its alloy head is entirely different though, with valves directly actuated rather than the rockers of the FE. The glow plugs are located in remote combustion chambers, with fuel delivered by a mechanical pump. The RF is light, with the original naturally aspirated version weighing in at 146 kg (322 lb), 10 kg (22 lb); more than the FE. The RF The RF and R2 continue production to this day as the MZR-CD, with counter-rotating balance-shafts mounted between the engine block and oil pan as well as much evolved head and direct-injection technology. The RF is a SOHC, two valves-per-cylinder engine. One of Mazda's more popular diesel engines, it was also available with a pressure wave supercharger called Comprex.
+Applications:
+
+1987–1992 Mazda Capella/62661 PS (45 kW; 60 hp) at 4000 rpm, 12.3 kg⋅m (121 N⋅m; 89 lb⋅ft) at 2750 rpm (DIN, naturally aspirated EU version)1983–1990 Mazda E-series
+1999-2005 Mazda Premacy
+1999 Mazda Demio
+1984–1986 Ford Tempo/Mercury Topaz
+1984–1987 Ford Escort/Mercury Lynx (North America)
+1988–1991 Kia Concord
+1998–2003 Kia Sportage, Turbo-intercooler diesel variant released for Asia
+1994–1998 Suzuki Vitara
+1998–2003 Suzuki Grand Vitara
+
+
+=== RF 1998 ===
+Latest emission improved version used in Mazda 323 adopts a new swirl chamber with an enlarged volume, revised swirl-chamber-to-main-chamber ratio and a narrower throat area. Engine produces 52 kW (71 PS; 70 hp) at 4500 rpm on a raised 21.7:1 compression ratio, and has an exceptionally wide spread of torque throughout its range, peaking with 128 N⋅m (94 lb⋅ft) at 3000 rpm.
+Further engine features:
+
+optimized intake manifold, with inertia moment effect flow
+camshaft with Mazda's Multi-Function cam profile theory (increases valve lift to 9.1 mm (0.36 in) and enhances the engine's volumetric efficiency at lower speed range, resulting in an improved torque output, never falling below 108 N⋅m (80 lb⋅ft) between 1500 rpm and 4500 rpm)
+electrically controlled distributor-type fuel injection pump
+electronically controlled EGR valveEngines were mounted in:
+
+Mazda 323 P 3D hatchback and 4D sedan since June 1997
+Mazda 323 5D hatchback since August 1998
+
+
+=== RF-CX Comprex ===
+ABB Comprex pressure wave supercharger
+56 kW (76 PS; 75 hp) at 4,000 rpm, 172 N⋅m (127 lb⋅ft) at 2000 rpm (JDM 1987)
+60 kW (82 PS; 80 hp) at 4,000 rpm, 181 N⋅m (133 lb⋅ft) at 2000 rpm (JIS Netto, JDM Comprex 1991)
+Used in JDM Capellas (1987–1991), introduced in June 1992 European Mazda 626
+
+
+=== RF-T DI 1998 (2.0 DiTD) ===
+A direct-injection turbo version 101 bhp (75 kW; 102 PS) with four valves per cylinder, called the DiTD was introduced in the June 1998 Mazda 626 Wagon 2.0 DiTD. Engine has SOHC valve train with rocker arms and mechanically adjusted screws (no hydraulic valve lifters), with Denso V5 rotary injection pump and Denso PCM.
+There were three power versions:
+
+66 kW (90 PS; 89 hp) at 4000 rpm with maximum torque 220 N⋅m (162 lb⋅ft) at 1800 rpm
+74 kW (101 PS; 99 hp) at 4000 rpm with maximum torque 220 N⋅m (162 lb⋅ft) at 1800–2200 rpm
+81 kW (110 PS; 109 hp) at 4000 rpm with maximum torque 230 N⋅m (170 lb⋅ft) at 2000–2600 rpmEngines were mounted in:
+
+Mazda 323 5D hatchback and 4D sedan since August 1998 (66 kW (90 PS; 89 hp) version)
+Mazda 323 5D hatchback and 4D sedan since May 2001 (74 kW (101 PS; 99 hp) version)
+Mazda 626 Capella since June 1998 (74 kW (101 PS; 99 hp) version)
+Mazda 626 Capella since October 2000 (81 kW (110 PS; 109 hp) version)
+Mazda Premacy as DE 2.0L (DIREC-D) Euro III
+
+
+=== RF 2002 (2.0 MZR-CD) ===
+Next evolution of RF engine with common rail direct-injection was introduced in June 2002 European version Mazda 6 with output power 89 kW (121 PS; 119 hp) or 100 kW (136 PS; 134 hp) (both at 3500 rpm), depending on engine version (only difference between the two diesel drivetrains is the shape of their respective torque curves, the larger of the two engines being flatter). 2002 RF Mazda diesel engine includes new dual-mass flywheel and common rail Denso injection with max. pressure of 1800 bar, pilot and post-injection for operating smoothness and soft and acoustically unobtrusive combustion. Both versions have same compression ratio 18.3:1. Torque output (both versions have same maximum 310 N⋅m (229 lb⋅ft) at 2000 rpm), fuel efficiency and NOx emissions were improved by using:
+
+expansive vertical vortex combustion (EVVC), which combines a special piston surface design, with ingenious fuel distribution, to produce a vertical swirl in the combustion chamber
+variable turbine geometry (VNT) turbochargerCombined fuel economy is achieving 6.5 L/100 km (43 mpg‑imp; 36 mpg‑US) and emission rating Euro Stage III (D4) with on a regular basis mounted catalytic converter with Lambda probe and exhaust-gas recirculation system (EGR).
+Engines were mounted in (in order of appearance):
+
+1st generation Mazda 6 Atenza (both versions) since June 2002
+2nd generation Mazda MPV (only High Power version) since June 2002
+
+
+=== RF 2005 (2.0 MZR-CD) ===
+Production of improved, cleaner and more powerful common rail direct-injection turbocharged version of Mazda RF engine was started with July 2005 Mazda 6 facelift. This drivetrain still has most of typical features of its predecessor including belt-driven SOHC valve train with rocker arms and mechanically adjusted screws (in contrast to frequently mismatched, absolutely different ZSD or PSA DW10 Ford Duratorq engines). Mazda applied several technologies to this MZR-CD engine to achieve Euro Stage IV:
+
+new variable geometry turbocharger has 14 percent less inertial moment and is more compact in design (achieved, for instance, by a shorter distance between the exhaust gas inlet and the turbine shaft)
+Denso's 1800 bar second generation common rail system that, depending on driving conditions, uses multi-stage injection of up to nine times per cycle with six-hole injectors
+relatively low compression ratio of 16.7:1 improves power output and torque(???), while at the same time helping to lower combustion noise and emissions
+NOx emissions were reduced by lowering the engine's combustion temperature
+O2 sensor constantly measures residual oxygen in the exhaust gases and this information is sent to 32-bit powertrain control module (PCM), which continuously optimizes the air/fuel mixThere were two power versions of this engine: Standard Power 89 kW (121 PS; 119 hp) at 3500 rpm and a maximum torque of 320 N⋅m (236 lb⋅ft) at 2000 rpm, High Power 105 kW (143 PS; 141 hp) at 3500 rpm and a maximum torque of 360 N⋅m (266 lb⋅ft) at 2000 rpm. Both versions come with a DPF system standard, which traps soot in a coated ceramic filter. As soon as the filter's storage capacity is exhausted, exhaust gas temperature is raised for a short period (using only diesel pre and post-injection techniques, not any fuel burner additive) and the particles burn off. As a result, the RF 2005 engines emit 80 percent less particulate matter than required by Euro Stage IV standards.
+Engines were mounted in (in order of appearance):
+
+1st generation Mazda 6 Atenza (both versions) since July 2005
+Mazda 5 Premacy (both versions) since January 2006
+1st generation Mazda 3 Axela (only High Power version) since March 2007
+
+
+=== RF 2007 (2.0 MZR-CD) ===
+Slightly detuned 103 kW (140 PS; 138 hp) at 3500 rpm and 330 N⋅m (243 lb⋅ft) at 2000 rpm) version of RF 2005 engine was introduced in November 2007's second generation Mazda 6. Newly calibrated powertrain control module mapping resulted in better drivability, fuel efficiency and emission performance. This engine has changed layout of the intake/exhaust, with more efficient EGR cooler, better DPF and combined fuel consumption 5.6 L/100 km (50 mpg‑imp; 42 mpg‑US), less than its predecessor.
+Engine was mounted in (in order of appearance):
+
+2nd generation Mazda 6 Atenza since November 2007
+
+
+=== R2 ===
+A diesel variation of the 2.2 L (2,184 cc) F2 which shares its 86 mm × 94 mm (3.39 in × 3.70 in) bore and stroke.
+Displacement:
+2,184 cc (2.2 L; 133.3 cu in)
+Power net:(Black Top)
+51.5 kW (70 PS; 69 hp) (JIS net) @ 4050 rpm
+Torque:
+142 N⋅m (105 lb⋅ft) - @ 2500 rpm
+Power net:(Silver Top)
+58.1 kW (79 PS; 78 hp) (JIS net) @ 4050 rpm
+Torque:
+171 N⋅m (126 lb⋅ft) - @ 2500 rpm
+Applications:
+
+1987–1991 Mazda B-series
+
+
+=== R2 2008 (2.2 MZR-CD) ===
+New generation RF-based MZR-CD 2.2-litre turbo diesel engine (stroke was lengthened by 8 mm (0.31 in) in comparison to the MZR-CD 2.0 RF engine) was introduced in November 2002 and this powertrain is planned to totally replace RF 2007 and RF 2005 in the future with three (or more, see below) power versions:
+
+MZR-CD 2.2 High Power: produces 136 kW (185 PS; 182 hp) at 3500 rpm and 400 N⋅m (295 lb⋅ft) of torque from 1800 to 3000 rpm, with combined fuel efficiency in 2nd generation Mazda 6: 5.6 L/100 km (50 mpg‑imp; 42 mpg‑US)/5.7 L/100 km (50 mpg‑imp; 41 mpg‑US) and CO2 emissions of 149/152 g/km (sedan and hatchback/wagon).
+MZR-CD 2.2 Mid Power: produces 120 kW (163 PS; 161 hp) at 3500 rpm and 360 N⋅m (266 lb⋅ft) of torque from 1800 to 3000 rpm, with combined fuel efficiency in 2nd generation Mazda 6: 5.5 L/100 km (51 mpg‑imp; 43 mpg‑US)/5.6 L/100 km (50 mpg‑imp; 42 mpg‑US) and CO2 emissions of 147/149 g/km.
+MZR-CD 2.2 Low Power: produces 92 kW (125 PS; 123 hp) at 3500 rpm and 310 N⋅m (229 lb⋅ft) of torque from 1800 to 2600 rpm, with combined fuel efficiency in 2nd generation Mazda 6: 5.5 L/100 km (51 mpg‑imp; 43 mpg‑US)/5.6 L/100 km (50 mpg‑imp; 42 mpg‑US) and CO2 emissions of 147/149 g/km.
+MZR-CD 2.2 Standard Power in 2nd generation Mazda 3 Axela (internal code BL): produces 110 kW (150 PS; 148 hp) at 3500 rpm and 360 N⋅m (266 lb⋅ft) of torque from 1800 to 2600 rpm, with combined fuel efficiency 5.6 L/100 km (50 mpg‑imp; 42 mpg‑US) and CO2 emissions of 144 g/km.
+MZR-CD 2.2 with Selective Catalytic Reduction system in 2009 facelift Mazda CX-7 produces 127 kW (173 PS; 170 hp) at 3500 rpm and 400 N⋅m (295 lb⋅ft) of torque at a low 2000 rpm, with combined fuel efficiency 7.5 L/100 km (38 mpg‑imp; 31 mpg‑US) and CO2 emissions of 199 g/km.2.2 MZR-CD engine features:
+
+Denso HP3-based common rail with system injection pressure increased to 2,000 bar (29,000 psi)
+common rail injectors that have 10 spray small 0.119 mm (0.0047 in) holes (instead of the 6 used on the MZR-CD 2.0) and higher response solenoids
+low compression ratio of 16.3:1, made possible with highly atomizing injectors
+VNT turbocharger with curved vanes and abradable seal
+chain-driven DOHC valve system
+aluminium lower block combined with low-friction, front chain-drive balancer shaft
+newly developed, high thermal resistance DPF system with global-first ceramic support matrix structure
+newly developed EGR cooler
+Euro Stage V emission rating
+new Selective catalytic reduction (SCR) system with AdBlue additive significantly reduces NOx emissions (currently only in Mazda CX-7, in special 15.5 litres (4.1 US gal; 3.4 imp gal) tank located under the luggage compartment, lasts over 20,000 km (12,000 mi) under normal driving conditions)
+electro-hydraulic power-assisted steeringEngine is mounted in (in order of appearance):
+
+2nd generation Mazda 6 Atenza since November 2008 (High, Mid and Low power versions), MZR-CD 2.0-litre turbo diesel remains in the line-up in some markets
+2nd generation Mazda 3 Axela (High and Standard power versions)
+1st generation 2009 facelift Mazda CX-7Engine is planned for (in order of appearance):
+
+1st generation Mazda 5 Premacy (High, Mid and Low power versions)Mazda 2.2 MZR-CD R2 engine has no relation to the family of belt-driven PSA DW12B twin turbo engine.
+
+
+=== SH 2.2 SKYACTIV-D ===
+Introduced at the 41st Tokyo Motor Show (2009)
+
+high fuel pressure common-rail system that controls piezo injectors
+aluminium block
+significantly reduced size and weight of reciprocating and rotating parts (aluminum block, lightweight pistons and connecting rods)
+similar weight to the petrol version
+wide-range, high volume EGR
+two stage (Dual Stage two turbo) twin-turbocharger with high turbopressure over a broader engine rev range
+PM oxidation catalyst-supported diesel particulate filter (DPF) with shorter regeneration
+20 percent better fuel efficiency than Mazda's R2 2.2 MZR-CD
+
+
+=== Y4 ===
+Mazda Y4 engine (called 1.4 MZ-CD or 1.4 CiTD) is a rebadged PSA DV4 engine, produced in the PSA engine plant in Trémery or Ford's engine plant in Dagenham. These 1.4 L (1,399 cc) SOHC 8-valve turbo diesel engines with bore and stroke of 73.7 mm × 82 mm (2.90 in × 3.23 in), and compression ratio 18.0:1 were shipped to Valencia (now in the Mazda 2 DE to Hiroshima or Hofu plants) and mounted into Mazda 2 DY and Mazda 2 DE together with a 5-speed manual transmission. The engine's maximum power is 50 kW (68 PS; 67 hp) at 4,000 rpm, maximum torque 160 N⋅m (118 lb⋅ft) at 1,750 rpm.
+Engine features:
+
+SOH—÷ emission rating (Euro Stage IV with DPF system, catalytic additive in separate 1.8 L tank, refreshed every 60,000 km (37,000 mi)
+
+
+=== Y6 ===
+The Mazda Y6 engine (called 1.6 MZ-CD or 1.6 CiTD) is a rebadged PSA DV6 engine, produced in the PSA engine plant in Trémery and the Ford engine plant in Dagenham. This 1.6 L (1,560 cc) DOHC 16-valve turbo diesel engine has a bore and stroke of 75 mm × 88.3 mm (2.95 in × 3.48 in), and a compression ratio of 18.3:1. The engines are shipped to Hiroshima and mounted into the Mazda 3 (Axela) and Mazda 2 DE in three versions coupled to 5 or 6-speed manuals (Getrag-Ford developed, J65M-R) or 4-speed automatic "Activematic" transmission:
+
+66 kW (90 PS; 89 hp) at 4000 rpm, 215 N⋅m (159 lb⋅ft) at 1750 rpm
+66 kW (90 PS; 89 hp) at 4000 rpm, 205 N⋅m (151 lb⋅ft) at 2000 rpm mounted in Mazda 2 DE
+81 kW (110 PS; 109 hp) at 4000 rpm, 240 N⋅m (177 lb⋅ft) at 1750 rpmEngine features:
+
+DOHC belt-driven
+aluminium cylinder block with cast iron liners
+dual-mass flywheel
+second generation Bosch common rail injection system with pilot injection phase and 1,600 bar (23,000 psi) pressure
+6-hole injectors
+Bosch EDC16 powertrain control module
+drive by wire accelerator pedal
+Garrett GT15 (VNT15) turbocharger
+large front mount intercooler (larger than 2.0 MZR-CD)
+Euro Stage III emission rating (Euro Stage IV with DPF system, catalytic additive in separate 1.8 L tank, refreshed every 60,000 km (37,000 mi)
+
+
+== Inline six ==
+YA - 3.8 L (3,783 cc), 110 PS (81 kW; 108 hp) - Mazda Boxer (EYA)
+ZB - 4.1 L (4,052 cc) - Mazda Boxer (EZA), Mazda Titan (2nd generation), Asia/Kia Combi
+ZC - 5.5 L (5,494 cc) -
+
+
+== See also ==
+Mazda F engine
+Mazda MZR engine
+Mazda engines
+
+
+== References ==

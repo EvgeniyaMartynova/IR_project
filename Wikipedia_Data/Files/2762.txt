@@ -1,0 +1,321 @@
+Title: Outline of Wikipedia
+Aspects: {'E sharp'}
+
+The following outline is provided as an overview of and topical guide to Wikipedia:
+Wikipedia – a free, web-based, collaborative and multilingual encyclopedia project supported by the non-profit Wikimedia Foundation. It has more than 48 million articles (over 5.96 million in English) written collaboratively by volunteers around the world. Almost all of its articles can  with access to the site, and it has about 100,000 regularly active contributors.
+
+
+== What type of thing is Wikipedia? ==
+
+Reference work – compendium of information, usually of a specific type, compiled in a book for ease of reference. That is, the information is intended to be quickly found when needed. Reference works are usually referred to for particular pieces of information, rather than read beginning to end. The writing style used in these works is informative; the authors avoid use of the first person, and emphasize facts.
+Encyclopedia – type of reference work or compendium holding a comprehensive summary of information from either all branches of knowledge or a particular branch of knowledge. Encyclopedias are divided into articles or entries, which are usually accessed alphabetically by article name. Encyclopedia entries are longer and more detailed than those in most dictionaries.Internet encyclopedia project (online encyclopedia) – large database of useful information, accessible via the World Wide Web.
+Database – organized collection of data. The data is typically organized to model aspects of reality in a way that supports processes requiring information. For example, modelling the availability of rooms in hotels in a way that supports finding a hotel with vacancies.
+Online database – database accessible from a network, including from the Internet (such as on a web page).
+Website – collection of related web pages containing images, videos or other digital assets. A website is hosted on at least one web server, accessible via a network such as the Internet or a private local area network through an Internet address known as a Uniform Resource Locator. All publicly accessible websites collectively constitute the World Wide Web.
+Wiki – website that allows the creation and editing of any number of interlinked web pages via a web browser using a simplified markup language or a WYSIWYG text editor. Wikis are typically powered by wiki software and are often developed and used collaboratively by multiple users. Examples include community websites, corporate intranets, knowledge management systems, and note services. The software can also be used for personal notetaking.
+Community – group of interacting people with social cohesion, who may share common values.
+Community of action – community in which participants endeavor collaboratively to bring about change.
+Community of interest – community of people who share a common interest or passion. These people exchange ideas and thoughts about the given passion, but may know (or care) little about each other outside of this area. The common interest on Wikipedia is knowledge.
+Community of purpose – community that serves a functional need, smoothing the path of the member for a limited period surrounding a given activity. For example, researching a topic on Wikipedia.org, buying a car on autobytel.com, or antique collectors on icollector.com or individual.
+Virtual community – social network of individuals who interact through specific media, potentially crossing geographical and political boundaries in order to pursue mutual interests or goals.
+Online community – virtual community that exists online and whose members enable its existence through taking part in membership ritual. An online community can take the form of an information system where anyone can post content, such as a Bulletin board system or one where only a restricted number of people can initiate posts, such as Weblogs.
+Wiki community – users, especially the editors, of a particular wiki.
+Collective memory – shared pool of information held in the memories of two or more members of a group.
+
+
+== Implementation of Wikipedia ==
+Structure of Wikipedia
+List of Wikipedias – Wikipedia is implemented in many languages. As of April 2018, there were 304 Wikipedias, of which 294 are active.
+Logo of Wikipedia – unfinished globe constructed from jigsaw pieces—some pieces are still missing at the top—inscribed with glyphs from many different writing systems.
+Articles – written works published in a print or electronic medium. Each Wikipedia is divided into many articles, with each article focusing on a particular topic.
+Types of articles on Wikipedia
+Prose articles –
+Lists –
+Item lists –
+Article indexes (on the English Wikipedia) –
+Outlines (on the English Wikipedia) –
+Content management on Wikipedia – processes for the collection, managing, and publishing of information on Wikipedia
+Deletionism and inclusionism in Wikipedia – opposing philosophies of editors of Wikipedia concerning the appropriate scope of the encyclopedia, and the appropriate point for a topic to be included as an encyclopedia article or be "deleted".
+Notability in English Wikipedia – metric used to determine topics meriting a dedicated encyclopedia article. It attempts to assess whether a topic has "gained sufficiently significant attention by the world at large and over a period of time" as evidenced by significant coverage in reliable secondary sources that are independent of the topic.
+Reliability of Wikipedia – Wikipedia is open to anonymous and collaborative editing, so assessments of its reliability usually include examinations of how quickly false or misleading information is removed. An early study conducted by IBM researchers in 2003—two years following Wikipedia's establishment—found that "vandalism is usually repaired extremely quickly—so quickly that most users will never see its effects" and concluded that Wikipedia had "surprisingly effective self-healing capabilities".
+Vandalism on Wikipedia – the act of editing the project in a malicious manner that is intentionally disruptive. Vandalism includes the addition, removal, or other modification of the text or other material that is either humorous, nonsensical, a hoax, spam or promotion of a subject, or that is of an offensive, humiliating, or otherwise degrading in nature. There are various measures taken by Wikipedia to prevent or reduce the amount of vandalism.
+Wiki magic – described by Jimmy Wales as a phenomenon whereby an author may write the beginnings of an article at the end of the day, only to wake up in the morning and find the stub converted into a much more substantial article.
+Computer technology that makes Wikipedia work: 
+Hardware
+Computers – general purpose devices that can be programmed to carry out sets of arithmetic or logical operations automatically. A computer that is used to host server software is called a "server". It takes many servers to make Wikipedia available to the world. These servers are run by the WikiMedia Foundation.
+Software – Wikipedia is powered by the following software on WikiMedia Foundation's computers (servers). It takes all of these to make Wikipedia pages available on the World Wide Web:
+Operating systems used on WikiMedia Foundation's servers:
+Ubuntu Server – used on all Wikipedia servers except those used for image file storage
+Solaris – used on Wikipedia's image file storage servers
+MediaWiki – main web application that makes Wikipedia work. It's a free web-based wiki software application developed by the Wikimedia Foundation (WMF), written in PHP, that is used to run all of WMF's projects, including Wikipedia. Numerous other wikis around the world also use it.
+Content storage – Wikipedia's content (it's articles and other pages) are stored in MariaDB databases. WikiMedia Foundation's wikis are grouped into clusters, and each cluster is served by several MariaDB servers, in a single-master configuration.
+Distributed object storage – distributed objects are software modules that are designed to work together, but reside either in multiple computers connected via a network. One object sends a message to another object in a remote machine to perform some task.
+Ceph –
+Swift –
+Proxy servers – act as an intermediary for requests from clients seeking resources from other servers. A client connects to the proxy server, requesting some service, such as a file, connection, web page, or other resource available from a different server and the proxy server evaluates the request as a way to simplify and control its complexity. Proxies were invented to add structure and encapsulation to distributed systems. Today, most proxies are web proxies, facilitating access to content on the World Wide Web. The proxy servers used for Wikipedia are:
+For serving up HTML pages – Squid and Varnish caching proxy servers in front of Apache HTTP Server. Apache processes requests via HTTP, the basic network protocol used to distribute information on the World Wide Web.
+For serving up image files – Squid and Varnish caching proxy servers in front of Sun Java System Web Server
+DNS proxies – WikiMedia Foundation's DNS proxy servers run PowerDNS. It's a DNS server program that runs under Unix (including Ubuntu). DNS stands for "domain name system".
+Load balancing –
+Linux Virtual Server (LVS) – Wikipedia uses LVS on commodity servers to load-balance incoming requests. LVS is also used as an internal load balancer to distribute MediaWiki and Lucene back-end requests.
+PyBal – Wikimedia Foundation's own system for back-end monitoring and failover.
+Caching
+Memcached – Wikipedia uses Memcached for caching of database query and computation results.
+For full-text search – Wikipedia uses Lucene, with extensive customization contributed by Robert Stojnic.
+Wikimedia configuration files
+Setting up Wikipedia on a home computer
+Downloading Wikipedia's database (all article text)
+Installing MediaWiki (the software that runs Wikipedia)
+
+
+=== Wikipedia community ===
+Community of Wikipedia – loosely-knit network of volunteers, sometimes known as "Wikipedians", who make contributions to the online encyclopedia, Wikipedia. A hierarchy exists whereby certain editors are elected to be given greater editorial control by other community members.
+Volunteering – altruistic activity, intended to promote good or improve human quality of life, but people also volunteer for their own skill development, to meet others, to make contacts for possible employment, to have fun, and a variety of other reasons that could be considered self-serving. Volunteerism is the act of selflessly giving your life to something you believe free of pay. Wikipedia is written entirely by volunteers.
+Virtual volunteering – working on a task on-line, off-site from the organization being assisted, without the requirement or expectation of being paid, using a computer or other Internet-connected device. Wikipedia is developed on-line by contributors using their web browsers.
+Micro-volunteering – tasks done by a volunteer, or a team of volunteers, without payment, either online or offline in small increments of time.
+Motivations of Wikipedia contributors – article includes various studies about the motivations of Wikipedia contributors.
+Arbitration Committee (ArbCom) – panel of editors elected by the Wikipedia community that imposes binding rulings with regard to disputes between editors of the online encyclopedia. It acts as the court of last resort for disputes among editors.
+Wikipedia Signpost – on-line community-written and community-edited newspaper, covering stories, events and reports related to Wikipedia and the Wikimedia Foundation sister projects.
+
+
+== Viewing Wikipedia off-line ==
+Kiwix – free and open-source offline web browser created by Emmanuel Engelhart and Renaud Gaudin in 2007. It was first launched to allow offline access to Wikipedia, but has since expanded to include other projects from the Wikimedia foundation as well as public domain texts from the Project Gutenberg.
+XOWA – open-source application written primarily in Java by anonymous developers, intended for users who wish to run their own copy of Wikipedia, or any other compatible Wiki offline without an internet connection. XOWA is compatible with Microsoft Windows, OSX, Linux and Android.
+
+
+== Diffusion of Wikipedia ==
+Diffusion – process by which a new idea or new product is accepted by the market. The rate of diffusion is the speed that the new idea spreads from one consumer to the next. In economics it is more often named "technological change".
+Diffusion of innovations – process by which an innovation is communicated through certain channels over time among the members of a social system.
+List of Wikipedias – Wikipedia has spread around the world, being made available to people in their native tongues. As of April 2018, there were 299 Wikipedias.
+
+
+=== Websites that use Wikipedia ===
+Books LLC – publishes print-on-demand paperback and downloadable compilations of English texts and documents from open knowledge sources such as Wikipedia.
+DBpedia –
+Koru search engine –
+Wikipediavision –
+
+
+==== Websites that mirror Wikipedia ====
+Answers.com –
+Bing –
+Facebook –
+NationMaster –
+Reference.com –
+TheFreeDictionary.com –
+Wapedia –
+
+
+==== Wikipedia derived encyclopedias ====
+Books LLC –
+Humane Informatics –
+VDM Publishing –
+Veropedia –
+WikiPilipinas –
+WikiPock –
+WikiReader –
+
+
+==== Parodies of Wikipedia ====
+Bigipedia – a comedy series broadcast by BBC Radio 4 in July 2009, which was set on a website which was a parody of Wikipedia. Some of the sketches were directly inspired by Wikipedia and its articles.
+Encyclopedia Dramatica –
+La Frikipedia –
+Stupidedia –
+Uncyclopedia – satirical website that parodies Wikipedia. Founded in 2005 as an originally English-language wiki, the project currently spans over 75 languages. The English version has over 30,000 pages of content, second only to the Brazilian/Portuguese.
+
+
+=== Wikipedia-related media ===
+Wikipedia Signpost – on-line community-written and community-edited newspaper, covering stories, events and reports related to Wikipedia and the Wikimedia Foundation sister projects.
+
+
+==== Books about Wikipedia ====
+
+Common Knowledge?: An Ethnography of Wikipedia 2014 Dariusz Jemielniak
+The Cult of the Amateur –
+Good Faith Collaboration –
+How Wikipedia Works –
+La révolution Wikipédia –
+Wikipedia: A New Community of Practice? 2009 by British historian Dan O'Sullivan
+The Wikipedia Revolution: How a Bunch of Nobodies Created the World's Greatest Encyclopedia –
+Wikipedia – The Missing Manual –
+The World and Wikipedia: How We are Editing Reality –
+
+
+==== Films about Wikipedia ====
+List of films about Wikipedia
+
+
+=== Third-party software related to Wikipedia ===
+DBpedia (from "DB" for "database") – database built from the structured content of Wikipedia, including infoboxes, etc. It is made available for free on the World Wide Web. DBpedia allows users to semantically query relationships and properties associated with Wikipedia resources, including links to other related datasets.
+Kiwix – free program used to view Wikipedia offline (no Internet connection). This is done by reading the content of the project stored in a file of the ZIM format, which contains the compressed contents of Wikipedia. Kiwix is designed for computers without Internet access, and in particular, computers in schools in the Third World, where Internet service is scant.
+WikiTaxonomy – hierarchy of classes and instances (an ontology) automatically generated from Wikipedia's category system
+YAGO (Yet Another Great Ontology) – knowledge base developed at the Max Planck Institute for Computer Science in Saarbrücken. It is automatically extracted from Wikipedia and other sources. It includes knowledge about more than 10 million entities and contains more than 120 million facts about these entities.
+
+
+==== Mobile apps ====
+
+QRpedia – mobile Web-based system which uses QR codes to deliver Wikipedia articles to users, in their preferred language. The QRpedia server uses Wikipedia's API to determine whether there is a version of the specified Wikipedia article in the language used by the device, and if so, returns it in a mobile-friendly format. If there is no version of the article available in the preferred language, then the QRpedia server performs a search for the article title on the relevant language's Wikipedia, and returns the results.
+WikiNodes – app for the Apple iPad for browsing Wikipedia using a radial tree  approach to visualize how articles and subsections of articles are interrelated. It is a visual array of related items (articles or sections of an article), which spread on the screen, as a spiderweb of icons.
+
+
+==== Reliability analysis programs ====
+Wiki-Watch – free page analysis tool that automatically assesses the reliability of Wikipedia articles in English and German. It produces a five-level evaluation score corresponding to its assessment of reliability.
+Wikibu – assesses the reliability of German Wikipedia articles. It was originally designed for use in schools to improve information literacy.
+WikiTrust – assesses the credibility of content and author reputation of wiki articles using an automated algorithm. WikiTrust is a plug-in for servers using the MediaWiki platform, such as Wikipedia.
+
+
+== General Wikipedia concepts ==
+Wikipedia iOS apps –
+Henryk Batuta hoax – hoax perpetrated on the Polish Wikipedia in the form of an article about Henryk Batuta (born Izaak Apfelbaum), a fictional socialist revolutionary and Polish Communist. The fake biography said Batuta was born in Odessa in 1898 and participated in the Russian Civil War. The article was created on November 8, 2004, and exposed as a hoax 15 months later when on February 1, 2006 it was listed for deletion.
+Bomis – former dot-com company founded in 1996 by Jimmy Wales and Tim Shell. Its primary business was the sale of advertising on the Bomis.com search portal, and to provide support for the free encyclopedia projects Nupedia and Wikipedia.
+Conflict of interest editing on Wikipedia –
+Crnogorska Enciklopedija –
+Deletionpedia –
+Democratization of knowledge –
+Enciclopedia Libre Universal en Español –
+Essjay controversy –
+Gene Wiki –
+Péter Gervai –
+Good Faith Collaboration –
+Internet Watch Foundation and Wikipedia –
+Interpedia – an early proposal for a collaborative Internet encyclopedia
+Rick Jelliffe –
+Kidnapping of David Rohde –
+Alan Mcilwraith –
+National Portrait Gallery and Wikimedia Foundation copyright dispute –
+Network effect –
+Nupedia –
+Wikipedia:Nupedia and Wikipedia –
+Edward Owens (hoax) –
+Simon Pulsifer –
+QRpedia – multilingual, mobile interface to Wikipedia
+La révolution Wikipédia –
+WikiScanner –
+Speakapedia –
+The Truth According to Wikipedia –
+Truth in Numbers? –
+Universal Edit Button –
+US Congressional staff edits to Wikipedia –
+User-generated content –
+Wolfgang Werlé and Manfred Lauber –
+Wiki –
+Wikidumper.org –
+Wikipedia biography controversy –
+Wikipedia CD Selection –
+Wikipedia Review –
+Wikipedia in culture
+
+
+== Politics of Wikipedia ==
+Censorship of Wikipedia –
+Church of Scientology editing on Wikipedia –
+Corporate Representatives for Ethical Wikipedia Engagement –
+Wikipedia for World Heritage – effort underway to get Wikipedia listed as a UNESCO World Heritage Site.
+
+
+== History of Wikipedia ==
+History of Wikipedia – Wikipedia was formally launched on 15 January 2001 by Jimmy Wales and Larry Sanger, using the concept and technology of a wiki pioneered by Ward Cunningham. Initially, Wikipedia was created to complement Nupedia, an online encyclopedia project edited solely by experts, by providing additional draft articles and ideas for it. Wikipedia quickly overtook Nupedia, becoming a global project in multiple languages and inspiring a wide range of additional reference projects.
+
+Nupedia – the predecessor of Wikipedia. Nupedia was an English-language Web-based encyclopedia that lasted from March 2000 until September 2003. Its articles were written by experts and licensed as free content. It was founded by Jimmy Wales and underwritten by Bomis, with Larry Sanger as editor-in-chief.
+Wayback Machine – digital time capsule created by the Internet Archive non-profit organization, based in San Francisco, California. The service enables users to see archived versions of web pages (including Wikipedia) across time, which the Archive calls a "three dimensional index". Internet Archive bought the domain waybackmachine.org for their own site. It is currently in its beta test.
+Wikipedia on the Wayback Machine
+Founders of Wikipedia
+Larry Sanger – chief organizer (2001–2002) of Wikipedia. He moved on and founded Citizendium.
+Jimmy Wales – historically cited as a co-founder of Wikipedia, though he has disputed the "co-" designation, declaring himself the sole founder. Wales serves on the Board of Trustees of the Wikimedia Foundation, the non-profit charitable organization he helped establish to operate Wikipedia, holding its board-appointed "community founder seat".
+Academic studies about Wikipedia – In recent years there have been numerous academic studies about Wikipedia in peer-reviewed publications. This research can be grouped into two categories. The first analyzed the production and reliability of the encyclopedia content, while the second investigated social aspects, such as usage and administration. Such studies are greatly facilitated by the fact that Wikipedia's database can be downloaded without needing to ask the assistance of the site owner.
+Flagged revisions – software extension to the MediaWiki wiki software that allows moderation of edits to Wiki pages. It was developed by the Wikimedia Foundation for use on Wikipedia and similar wikis hosted on its servers. On June 14, 2010, English Wikipedia began a 2-month trial of a similar feature known as pending changes. In May 2011, this feature was removed indefinitely from all articles, after a discussion among English Wikipedia editors.
+
+
+=== Wikipedia-inspired projects ===
+Citizendium – is a wiki for providing free knowledge where authors use their real, verified names.
+Conservapedia – is an English-language wiki encyclopedia project written from an American conservative point of view.
+Infogalactic – is intended to have less alleged politically progressive, left-wing, or "politically correct" bias than Wikipedia, and to allow articles or statements that would not be allowed on Wikipedia because of problems with Wikipedia's policies on reliable sources, or due to alleged biases held by Wikipedia editors.
+Knol – was a Google project that aimed to include user-written articles on a range of topics.
+Scholarpedia – is an English-language online wiki-based encyclopedia with features commonly associated with open-access online academic journals, which aims to have quality content.
+Uncyclopedia – is a satirical website that parodies Wikipedia. Its logo, a hollow "puzzle potato", parodies Wikipedia's globe puzzle logo, and it styles itself "the content-free encyclopedia", which is a parody of Wikipedia's slogan, "the free encyclopedia". The project spans over 75 languages. The English version has approximately 30,000 pages of content, second only to the Portuguese.
+
+
+== Wikipedia in culture ==
+Wikipedia in culture –
+
+Wikiracing – game using the online encyclopedia Wikipedia which focuses on traversing links from one page to another. The average number of links separating any two Wikipedia pages is 3.67.
+
+
+== People in relation to Wikipedia ==
+Larry Sanger – chief organizer (2001–2002) of Wikipedia. He moved on and founded Citizendium.
+Jimmy Wales – historically cited as a co-founder of Wikipedia, though he has disputed the "co-" designation, declaring himself the sole founder. Wales serves on the Board of Trustees of the Wikimedia Foundation, the non-profit charitable organization he helped establish to operate Wikipedia, holding its board-appointed "community founder" seat.
+Andrew Lih – veteran Wikipedia contributor, and in 2009 published the book The Wikipedia Revolution: How a Bunch of Nobodies Created the World's Greatest Encyclopedia. Lih has been interviewed in a variety of publications, including Salon.com and The New York Times Freakonomics blog, as an expert on Wikipedia.
+
+
+=== Critics of Wikipedia ===
+Murat Bardakçı – on Turkish television, he declared that Wikipedia should be banned.
+Nicholas G. Carr – in his 2005 blog essay titled "The Amorality of Web 2.0," he criticized the quality of volunteer Web 2.0 information projects such as Wikipedia and the blogosphere and argued that they may have a net negative effect on society by displacing more expensive professional alternatives.
+Jorge Cauz – president of Encyclopædia Britannica Inc.. In July 2006, in an interview in The New Yorker, he stated that Wikipedia would "decline into a hulking, mediocre mass of uneven, unreliable, and, many times, unreadable articles" and that "Wikipedia is to Britannica as American Idol is to the Juilliard School."
+Conservapedia English-language wiki project started in 2006 by homeschool teacher and attorney Andy Schlafly, son of conservative activist Phyllis Schlafly, to counter what he called the liberal bias of Wikipedia.
+Gay Nigger Association of America – anti-blogging Internet trolling organization. On Wikipedia, members of the group created a page about themselves, while adhering to every rule of Wikipedia in order to use the system against itself.
+Aaron Klein –
+Jaron Lanier –
+Robert McHenry –
+Patrick Nielsen Hayden –
+Andrew Orlowski –
+Robert L. Park –
+Jason Scott Sadofsky –
+Larry Sanger –
+Andrew Schlafly –
+John Seigenthaler –
+Lawrence Solomon –
+Sam Vaknin –
+Wikipedia Review –
+Tom Wolfe –
+
+
+== Wikipedia Foundations and Organizations ==
+Wikimedia Foundation – the non profit based in San Francisco, California, USA which was established to own and manage the trademarks and the servers for Wikipedia and its sister projects.
+
+
+== Wikipedia-related projects ==
+
+
+=== Wikipedia's sister projects ===
+
+Wikimedia projects
+
+ Commons – online repository of free-use images, sound and other media files, hosted by the Wikimedia Foundation.
+ MediaWiki website – home of MediaWiki (the software that runs Wikipedia), and where it gets developed.
+ Meta-Wiki  – central site to coordinate all Wikimedia projects.
+ Wikibooks – Wiki hosted by the Wikimedia Foundation for the creation of free content textbooks and annotated texts that anyone can edit.
+ Wikidata – free and open knowledge base that can be read and edited by both humans and machines.
+ Wikinews – free-content news source wiki and a project of the Wikimedia Foundation that works through collaborative journalism.
+ Wikiquote – freely available collection of quotations from prominent people, books, films and proverbs, with appropriate attributions.
+ Wikisource – online digital library of free content textual sources on a wiki, operated by the Wikimedia Foundation.
+ Wikispecies – wiki-based online project supported by the Wikimedia Foundation. Its aim is to create a comprehensive free content catalogue of all species and is directed at scientists, rather than at the general public.
+ Wikiversity – Wikimedia Foundation project which supports learning communities, their learning materials, and resulting activities.
+ Wikivoyage – free web-based travel guide for travel destinations and travel topics written by volunteer authors.
+ Wiktionary – multilingual, web-based project to create a free content dictionary, available in 158 languages, run by the Wikimedia Foundation.
+
+
+== Wikipedias by language ==
+
+
+== See also ==
+Wikipedia:Contents – network of outlines of Wikipedia's content
+Outline of knowledge – outline about knowledge, and of the body of all human knowledge
+Wikipedia Signpost – on-line community-written and community-edited newspaper, covering stories, events and reports related to Wikipedia and the Wikimedia Foundation sister projects.
+Wikipedia:TourBusStop
+Wikipedia:Help
+List of wikis
+List of online encyclopedias
+Wikipedia:Semapedia –
+Wikipedia:Wikipedia CD Selection –
+
+
+== References ==
+
+
+== External links ==
+
+Wikipedia – multilingual portal (contains links to all language editions of the project)
+Wikipedia mobile phone portal
+Wikipedia at Curlie
+"Outline of Wikipedia collected news and commentary". The Guardian.
+Wikipedia topic page at The New York Times

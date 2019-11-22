@@ -1,0 +1,793 @@
+Title: D'Alembert operator
+Aspects: {"D'Alembert (disambiguation)"}
+
+In special relativity, electromagnetism and wave theory, the d'Alembert operator (denoted by a box: 
+  
+    
+      
+        ◻
+      
+    
+    {\displaystyle \Box }
+  ), also called the d'Alembertian, wave operator, or box operator is the Laplace operator of Minkowski space. The operator is named after French mathematician and physicist Jean le Rond d'Alembert.
+In Minkowski space, in standard coordinates (t, x, y, z), it has the form (using the box symbol notation)
+
+  
+    
+      
+        
+          
+            
+              
+                ◻
+              
+              
+                
+                =
+                
+                  ∂
+                  
+                    μ
+                  
+                
+                
+                  ∂
+                  
+                    μ
+                  
+                
+                =
+                
+                  g
+                  
+                    μ
+                    ν
+                  
+                
+                
+                  ∂
+                  
+                    ν
+                  
+                
+                
+                  ∂
+                  
+                    μ
+                  
+                
+                =
+                
+                  
+                    1
+                    
+                      c
+                      
+                        2
+                      
+                    
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        2
+                      
+                    
+                    
+                      ∂
+                      
+                        t
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+                −
+                
+                  
+                    
+                      ∂
+                      
+                        2
+                      
+                    
+                    
+                      ∂
+                      
+                        x
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+                −
+                
+                  
+                    
+                      ∂
+                      
+                        2
+                      
+                    
+                    
+                      ∂
+                      
+                        y
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+                −
+                
+                  
+                    
+                      ∂
+                      
+                        2
+                      
+                    
+                    
+                      ∂
+                      
+                        z
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    1
+                    
+                      c
+                      
+                        2
+                      
+                    
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        2
+                      
+                    
+                    
+                      ∂
+                      
+                        t
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+                −
+                
+                  ∇
+                  
+                    2
+                  
+                
+                =
+                
+                  
+                    1
+                    
+                      c
+                      
+                        2
+                      
+                    
+                  
+                
+                
+                  
+                    
+                      ∂
+                      
+                        2
+                      
+                    
+                    
+                      ∂
+                      
+                        t
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+                −
+                Δ
+                 
+                 
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\Box &=\partial ^{\mu }\partial _{\mu }=g^{\mu \nu }\partial _{\nu }\partial _{\mu }={\frac {1}{c^{2}}}{\frac {\partial ^{2}}{\partial t^{2}}}-{\frac {\partial ^{2}}{\partial x^{2}}}-{\frac {\partial ^{2}}{\partial y^{2}}}-{\frac {\partial ^{2}}{\partial z^{2}}}\\&={\frac {1}{c^{2}}}{\partial ^{2} \over \partial t^{2}}-\nabla ^{2}={\frac {1}{c^{2}}}{\partial ^{2} \over \partial t^{2}}-\Delta ~~.\end{aligned}}}
+  Here  
+  
+    
+      
+        
+          ∇
+          
+            2
+          
+        
+        :=
+        Δ
+      
+    
+    {\displaystyle \nabla ^{2}:=\Delta }
+   is the 3-dimensional Laplacian and gμν  is the inverse Minkowski metric with 
+
+  
+    
+      
+        
+          g
+          
+            00
+          
+        
+        =
+        1
+      
+    
+    {\displaystyle g_{00}=1}
+  , 
+  
+    
+      
+        
+          g
+          
+            11
+          
+        
+        =
+        
+          g
+          
+            22
+          
+        
+        =
+        
+          g
+          
+            33
+          
+        
+        =
+        −
+        1
+      
+    
+    {\displaystyle g_{11}=g_{22}=g_{33}=-1}
+  , 
+  
+    
+      
+        
+          g
+          
+            μ
+            ν
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle g_{\mu \nu }=0}
+   for 
+  
+    
+      
+        μ
+        ≠
+        ν
+      
+    
+    {\displaystyle \mu \neq \nu }
+  .Note that the μ and ν summation indices range from 0 to 3: see Einstein notation. We have assumed units such that the speed of light c = 1.
+(Some authors  alternatively use the negative metric signature of (− + + +), with 
+  
+    
+      
+        
+          g
+          
+            00
+          
+        
+        =
+        −
+        1
+        ,
+        
+        
+          g
+          
+            11
+          
+        
+        =
+        
+          g
+          
+            22
+          
+        
+        =
+        
+          g
+          
+            33
+          
+        
+        =
+        1
+      
+    
+    {\displaystyle g_{00}=-1,\;g_{11}=g_{22}=g_{33}=1}
+  .)
+Lorentz transformations leave the Minkowski metric invariant, so the d'Alembertian yields a Lorentz scalar. The above coordinate expressions remain valid for the standard coordinates in every inertial frame.
+
+
+== The box symbol ( ==
+  
+    
+      
+        ◻
+      
+    
+    {\displaystyle \Box }
+  ) and alternate notations
+There are a variety of notations for the d'Alembertian. The most common is the box symbol 
+  
+    
+      
+        ◻
+      
+    
+    {\displaystyle \Box }
+   (Unicode: U+2610 ☐ BALLOT BOX): the four sides of the box representing the four dimensions of space-time and the box-squared symbol 
+  
+    
+      
+        
+          ◻
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \Box ^{2}}
+   which emphasizes the scalar property through the squared term (much like the Laplacian). This symbol is sometimes called the quabla (cf. nabla symbol). In keeping with the triangular notation for the Laplacian, sometimes  
+  
+    
+      
+        
+          Δ
+          
+            M
+          
+        
+      
+    
+    {\displaystyle \Delta _{M}}
+   is used.
+Another way to write the d'Alembertian in flat standard coordinates is  
+  
+    
+      
+        
+          ∂
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \partial ^{2}}
+  . This notation is used extensively in quantum field theory, where partial derivatives are usually indexed, so the lack of an index with the squared partial derivative signals the presence of the d'Alembertian.
+Sometimes the box symbol 
+  
+    
+      
+        ◻
+      
+    
+    {\displaystyle \Box }
+   is used to represent the four-dimensional Levi-Civita covariant derivative. The symbol 
+  
+    
+      
+        ∇
+      
+    
+    {\displaystyle \nabla }
+   is then used to represent the space derivatives, but this is coordinate chart dependent.
+
+
+== Applications ==
+The wave equation for small vibrations is of the form (using box symbol notation)
+
+  
+    
+      
+        
+          ◻
+          
+            c
+          
+        
+        u
+        
+          (
+          
+            x
+            ,
+            t
+          
+          )
+        
+        ≡
+        
+          u
+          
+            t
+            t
+          
+        
+        −
+        
+          c
+          
+            2
+          
+        
+        
+          u
+          
+            x
+            x
+          
+        
+        =
+        0
+         
+        ,
+      
+    
+    {\displaystyle \Box _{c}u\left(x,t\right)\equiv u_{tt}-c^{2}u_{xx}=0~,}
+  where  u(x, t) is the displacement.
+The wave equation for the electromagnetic field in vacuum is
+
+  
+    
+      
+        ◻
+        
+          A
+          
+            μ
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle \Box A^{\mu }=0}
+  where Aμ  is the electromagnetic four-potential.
+The Klein–Gordon equation has the form
+
+  
+    
+      
+        
+          (
+          
+            ◻
+            +
+            
+              m
+              
+                2
+              
+            
+          
+          )
+        
+        ψ
+        =
+        0
+         
+        .
+      
+    
+    {\displaystyle \left(\Box +m^{2}\right)\psi =0~.}
+  
+
+
+== Green's function ==
+The Green's function, 
+  
+    
+      
+        G
+        
+          (
+          
+            
+              
+                
+                  x
+                  ~
+                
+              
+            
+            −
+            
+              
+                
+                  
+                    x
+                    ~
+                  
+                
+              
+              ′
+            
+          
+          )
+        
+      
+    
+    {\displaystyle G\left({\tilde {x}}-{\tilde {x}}'\right)}
+  , for the d'Alembertian is defined by the equation (using 'box' symbol notation)
+
+  
+    
+      
+        ◻
+        G
+        
+          (
+          
+            
+              
+                
+                  x
+                  ~
+                
+              
+            
+            −
+            
+              
+                
+                  
+                    x
+                    ~
+                  
+                
+              
+              ′
+            
+          
+          )
+        
+        =
+        δ
+        
+          (
+          
+            
+              
+                
+                  x
+                  ~
+                
+              
+            
+            −
+            
+              
+                
+                  
+                    x
+                    ~
+                  
+                
+              
+              ′
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \Box G\left({\tilde {x}}-{\tilde {x}}'\right)=\delta \left({\tilde {x}}-{\tilde {x}}'\right)}
+  where 
+  
+    
+      
+        δ
+        
+          (
+          
+            
+              
+                
+                  x
+                  ~
+                
+              
+            
+            −
+            
+              
+                
+                  
+                    x
+                    ~
+                  
+                
+              
+              ′
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \delta \left({\tilde {x}}-{\tilde {x}}'\right)}
+   is the multidimensional Dirac delta function and 
+  
+    
+      
+        
+          
+            
+              x
+              ~
+            
+          
+        
+      
+    
+    {\displaystyle {\tilde {x}}}
+   and  
+  
+    
+      
+        
+          
+            
+              
+                x
+                ~
+              
+            
+          
+          ′
+        
+      
+    
+    {\displaystyle {\tilde {x}}'}
+   are two points in Minkowski space.
+A special solution is given by the retarded Green's function which corresponds to signal propagation only forward in time
+
+  
+    
+      
+        G
+        
+          (
+          
+            
+              
+                
+                  r
+                  →
+                
+              
+            
+            ,
+            t
+          
+          )
+        
+        =
+        
+          
+            1
+            
+              4
+              π
+              r
+            
+          
+        
+        Θ
+        (
+        t
+        )
+        δ
+        
+          (
+          
+            t
+            −
+            
+              
+                r
+                c
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle G\left({\vec {r}},t\right)={\frac {1}{4\pi r}}\Theta (t)\delta \left(t-{\frac {r}{c}}\right)}
+  where 
+  
+    
+      
+        Θ
+      
+    
+    {\displaystyle \Theta }
+   is the Heaviside step function.
+
+
+== See also ==
+4-gradient
+d'Alembert's formula
+Klein–Gordon equation
+Relativistic heat conduction
+Ricci calculus
+
+
+== References ==
+
+
+== External links ==
+Hazewinkel, Michiel, ed. (2001) [1994], "D'Alembert operator", Encyclopedia of Mathematics, Springer Science+Business Media B.V. / Kluwer Academic Publishers, ISBN 978-1-55608-010-4
+Poincaré, Henri (1906). Translation:On the Dynamics of the Electron (July) – via Wikisource., originally printed in Rendiconti del Circolo Matematico di Palermo.
+Weisstein, Eric W. "d'Alembertian". MathWorld.

@@ -1,0 +1,17 @@
+Title: XBL
+Aspects: {'XBL (disambiguation)'}
+
+XBL (XML Binding Language) is an XML-based markup language for altering the behavior of XUL widgets. It has only ever been implemented in the Mozilla codebase.
+Mozilla deprecated XBL in 2017 and completed the process of removing it from the Firefox web browser codebase in 2019. However, the UXP fork of the codebase intends to continue supporting XBL indefinitely.
+
+
+== Overview ==
+XUL defines the user interface layout of an application. CSS rules can be used to change the appearance of various XUL elements. But XBL is needed to alter the behavior of a XUL widget, such as a scroll bar.
+An XBL file contains bindings, each of which describes the behavior of a XUL widget. The root element of an XBL file is the <bindings> element, which contains one or more <binding> elements. Each <binding> element declares one binding, which can be attached to any XUL element. It may also possess an id attribute. A binding is assigned to an element by setting the CSS property -moz-binding to the URL of the binding's file. For example:
+
+
+== History ==
+XBL was devised at Netscape in the late 1990s as an extension of XUL.The current version of the specification is XBL 2.0. Mozilla attempted to get it standardized by the W3C in 2007, but no other web browser vendors were interested in implementing it. Thus the XBL specification was abandoned in 2012.The Shadow DOM specification acknowledges XBL as a strong influence.
+
+
+== References ==

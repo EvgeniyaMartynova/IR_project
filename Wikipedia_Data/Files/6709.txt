@@ -1,0 +1,93 @@
+Title: Pratt & Whitney J48
+Aspects: {'J48'}
+
+The Pratt & Whitney J48  (company designation JT7 Turbo-Wasp) is a turbojet engine developed by Pratt & Whitney as a license-built version of the Rolls-Royce Tay. The Tay/J48 was an enlarged development of the Rolls-Royce Nene (Pratt & Whitney J42).
+
+
+== Design and development ==
+In 1947, at the behest of the United States Navy, Pratt & Whitney entered into an agreement to produce the Rolls-Royce Nene centrifugal-flow turbojet engine under license as the J42 (company designation JT6), for use in the Grumman F9F Panther fighter aircraft. Concerned that the Nene would not have the potential to cope with future weight growth in improved versions of the Panther, Luke Hobbs, vice president of engineering for P&W's parent company, the United Aircraft Corporation, requested that Rolls-Royce design a more powerful engine based on the Nene, which Pratt & Whitney would also produce.
+By 1948, Rolls-Royce had designed the Tay turbojet, also a centrifugal-flow design. However, as Rolls-Royce was then developing an improved design with an axial compressor, which would become the Avon, the development and production of the Tay turbojet was left to Pratt & Whitney. However, Rolls-Royce retained the rights to the Tay outside of the United States.
+The Tay/J48 was a thirty percent enlargement of the preceding Nene/J42, and was produced both with and without afterburning.
+
+
+== Operational history ==
+Several aircraft types used the J48 engine during the 1950s, including the Grumman F9F-5 Panther. and Grumman F9F-6/F9F-8 Cougar, The U.S. Air Force's Lockheed F-94C Starfire and North American YF-93 used afterburning versions of the J48 engine.
+
+
+== Variants ==
+Data from The Engines of Pratt & Whitney: A Technical History.
+J48-P-1
+6,000 lbf (27 kN) dry, 8,000 lbf (36 kN) thrust with afterburning
+J48-P-2
+6,250 lbf (27.8 kN), 7,000 lbf (31 kN) thrust with water injection
+J48-P-3
+6,000 lbf (27 kN), 8,000 lbf (36 kN) thrust with afterburning
+J48-P-5
+6,350 lbf (28.2 kN), 8,750 lbf (38.9 kN) thrust with afterburning
+J48-P-6
+6,250 lbf (27.8 kN), 7,000 lbf (31 kN) thrust with water injection
+J48-P-6a
+6,250 lbf (27.8 kN), 7,000 lbf (31 kN) thrust with water injection
+J48-P-7
+6,350 lbf (28.2 kN), 8,750 lbf (38.9 kN) thrust with afterburning
+J48-P-8
+7,250 lbf (32.2 kN) thrust
+J48-P-8A
+7,250 lbf (32.2 kN) thrust
+
+
+== Applications ==
+Grumman F9F-5 Panther
+Grumman F9F-6/-8 Cougar
+Lockheed F-94C Starfire
+North American YF-93
+
+
+== Specifications (J48-P-8A) ==
+
+Data from Aircraft engines of the World 1957
+
+
+==== General characteristics ====
+Type: turbojet with water injection (J48-P-5 with afterburning)
+Length: 109.75 in (2,788 mm) without fixed nozzle ; (J48-P-5 226 in (5,700 mm))
+Diameter: 50.5 in (1,280 mm)
+Frontal area: 13.9 sq ft (1.29 m2)
+Dry weight: 2,080 lb (940 kg) dry ; (J48-P-5 2,800 lb (1,300 kg))
+
+
+==== Components ====
+Compressor: single-stage double-sided centrifugal compressor
+Combustors: nine interconnected can combustion chambers
+Turbine: single stage axial
+Fuel type: aviation kerosene / JP-4
+Oil system: pressure spray with scavenge at 40 psi (280 kPa)
+
+
+==== Performance ====
+Maximum thrust: dry 7,250 lbf (32.2 kN) thrust for take-off; wet 8,500 lbf (38 kN) ; (J48-P-5 8,750 lbf (38.9 kN))
+Overall pressure ratio: 4.5:1
+Air mass flow: 130 lb/s (59 kg/s) at 11,000 rpm
+Specific fuel consumption: 1.14 lb/(lbf⋅h) (32 g/(kN⋅s))
+Thrust-to-weight ratio: 3.57
+
+
+== See also ==
+
+Related development
+
+Rolls-Royce RB.44 Tay
+Rolls-Royce Nene/Pratt & Whitney J42
+
+Related lists
+
+List of aircraft engines
+
+
+== References ==
+Notes
+Bibliography
+
+
+== External links ==
+Pratt & Whitney History page on the J48

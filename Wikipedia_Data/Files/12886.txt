@@ -1,0 +1,1061 @@
+Title: Mandelstam variables
+Aspects: {'T channel'}
+
+In theoretical physics, the Mandelstam variables are numerical quantities that encode the energy, momentum, and angles of particles in a scattering process in a Lorentz-invariant fashion. They are used for scattering processes of two particles to two particles. The Mandelstam variables were first introduced by physicist Stanley Mandelstam in 1958.
+If the Minkowski Metric is chosen to be 
+  
+    
+      
+        
+          d
+          i
+          a
+          g
+        
+        (
+        1
+        ,
+        −
+        1
+        ,
+        −
+        1
+        ,
+        −
+        1
+        )
+      
+    
+    {\displaystyle \mathrm {diag} (1,-1,-1,-1)}
+  , the Mandelstam variables 
+  
+    
+      
+        s
+        ,
+        t
+        ,
+        u
+      
+    
+    {\displaystyle s,t,u}
+   are then defined by
+
+  
+    
+      
+        s
+        =
+        (
+        
+          p
+          
+            1
+          
+        
+        +
+        
+          p
+          
+            2
+          
+        
+        
+          )
+          
+            2
+          
+        
+        =
+        (
+        
+          p
+          
+            3
+          
+        
+        +
+        
+          p
+          
+            4
+          
+        
+        
+          )
+          
+            2
+          
+        
+        
+      
+    
+    {\displaystyle s=(p_{1}+p_{2})^{2}=(p_{3}+p_{4})^{2}\,}
+  
+
+  
+    
+      
+        t
+        =
+        (
+        
+          p
+          
+            1
+          
+        
+        −
+        
+          p
+          
+            3
+          
+        
+        
+          )
+          
+            2
+          
+        
+        =
+        (
+        
+          p
+          
+            4
+          
+        
+        −
+        
+          p
+          
+            2
+          
+        
+        
+          )
+          
+            2
+          
+        
+        
+      
+    
+    {\displaystyle t=(p_{1}-p_{3})^{2}=(p_{4}-p_{2})^{2}\,}
+  
+
+  
+    
+      
+        u
+        =
+        (
+        
+          p
+          
+            1
+          
+        
+        −
+        
+          p
+          
+            4
+          
+        
+        
+          )
+          
+            2
+          
+        
+        =
+        (
+        
+          p
+          
+            3
+          
+        
+        −
+        
+          p
+          
+            2
+          
+        
+        
+          )
+          
+            2
+          
+        
+        
+      
+    
+    {\displaystyle u=(p_{1}-p_{4})^{2}=(p_{3}-p_{2})^{2}\,}
+  Where p1 and p2 are the four-momenta of the incoming particles and p3 and p4 are the four-momenta of the outgoing particles, and we are using relativistic units (c=1).
+s is also known as the square of the center-of-mass energy (invariant mass) and t is also known as the square of the four-momentum transfer.
+
+
+== Feynman diagrams ==
+The letters 
+  
+    
+      
+        s
+        ,
+        t
+        ,
+        u
+      
+    
+    {\displaystyle s,t,u}
+   are also used in the terms s-channel (space-channel), t-channel (time-channel), u-channel. These channels represent different Feynman diagrams or different possible scattering events where the interaction involves the exchange of an intermediate particle whose squared four-momentum equals 
+  
+    
+      
+        s
+        ,
+        t
+        ,
+        u
+      
+    
+    {\displaystyle s,t,u}
+  , respectively.
+
+For example, the s-channel corresponds to the particles 1,2 joining into an intermediate particle that eventually splits into 3,4: the s-channel is the only way that resonances and new unstable particles may be discovered provided their lifetimes are long enough that they are directly detectable. The t-channel represents the process in which the particle 1 emits the intermediate particle and becomes the final particle 3, while the particle 2 absorbs the intermediate particle and becomes 4. The u-channel is the t-channel with the role of the particles 3,4 interchanged.
+
+
+== Details ==
+
+
+=== Relativistic limit ===
+In the relativistic limit, the momentum (speed) is large, so using the relativistic energy-momentum equation, the energy becomes essentially the momentum norm (e.g. 
+  
+    
+      
+        
+          E
+          
+            2
+          
+        
+        =
+        
+          p
+        
+        ⋅
+        
+          p
+        
+        +
+        
+          
+            
+              m
+              
+                0
+              
+            
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle E^{2}=\mathbf {p} \cdot \mathbf {p} +{m_{0}}^{2}}
+   becomes 
+  
+    
+      
+        
+          E
+          
+            2
+          
+        
+        ≈
+        
+          p
+        
+        ⋅
+        
+          p
+        
+      
+    
+    {\displaystyle E^{2}\approx \mathbf {p} \cdot \mathbf {p} }
+   ).  The rest mass can also be neglected.
+So for example,
+
+  
+    
+      
+        s
+        =
+        (
+        
+          p
+          
+            1
+          
+        
+        +
+        
+          p
+          
+            2
+          
+        
+        
+          )
+          
+            2
+          
+        
+        =
+        
+          p
+          
+            1
+          
+          
+            2
+          
+        
+        +
+        
+          p
+          
+            2
+          
+          
+            2
+          
+        
+        +
+        2
+        
+          p
+          
+            1
+          
+        
+        ⋅
+        
+          p
+          
+            2
+          
+        
+        ≈
+        2
+        
+          p
+          
+            1
+          
+        
+        ⋅
+        
+          p
+          
+            2
+          
+        
+        
+      
+    
+    {\displaystyle s=(p_{1}+p_{2})^{2}=p_{1}^{2}+p_{2}^{2}+2p_{1}\cdot p_{2}\approx 2p_{1}\cdot p_{2}\,}
+  because 
+  
+    
+      
+        
+          p
+          
+            1
+          
+          
+            2
+          
+        
+        =
+        
+          m
+          
+            1
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle p_{1}^{2}=m_{1}^{2}}
+   and 
+  
+    
+      
+        
+          p
+          
+            2
+          
+          
+            2
+          
+        
+        =
+        
+          m
+          
+            2
+          
+          
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle p_{2}^{2}=m_{2}^{2}.}
+  
+Thus,
+
+
+=== Sum ===
+Note that
+
+  
+    
+      
+        s
+        +
+        t
+        +
+        u
+        =
+        
+          m
+          
+            1
+          
+          
+            2
+          
+        
+        +
+        
+          m
+          
+            2
+          
+          
+            2
+          
+        
+        +
+        
+          m
+          
+            3
+          
+          
+            2
+          
+        
+        +
+        
+          m
+          
+            4
+          
+          
+            2
+          
+        
+        
+      
+    
+    {\displaystyle s+t+u=m_{1}^{2}+m_{2}^{2}+m_{3}^{2}+m_{4}^{2}\,}
+  where 
+  
+    
+      
+        
+          m
+          
+            i
+          
+        
+      
+    
+    {\displaystyle m_{i}}
+   is the mass of particle 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  .
+
+
+==== Proof ====
+To prove this, we need to use two facts:
+
+The square of a particle's four momentum is the square of its mass,
+  
+    
+      
+        
+          p
+          
+            i
+          
+          
+            2
+          
+        
+        =
+        
+          m
+          
+            i
+          
+          
+            2
+          
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        (
+        1
+        )
+        
+      
+    
+    {\displaystyle p_{i}^{2}=m_{i}^{2}\quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad (1)\,}
+  And conservation of four-momentum,
+  
+    
+      
+        
+          p
+          
+            1
+          
+        
+        +
+        
+          p
+          
+            2
+          
+        
+        =
+        
+          p
+          
+            3
+          
+        
+        +
+        
+          p
+          
+            4
+          
+        
+        
+      
+    
+    {\displaystyle p_{1}+p_{2}=p_{3}+p_{4}\,}
+  
+
+  
+    
+      
+        
+          p
+          
+            1
+          
+        
+        =
+        −
+        
+          p
+          
+            2
+          
+        
+        +
+        
+          p
+          
+            3
+          
+        
+        +
+        
+          p
+          
+            4
+          
+        
+        
+        
+        
+        
+        
+        
+        
+        (
+        2
+        )
+        
+      
+    
+    {\displaystyle p_{1}=-p_{2}+p_{3}+p_{4}\quad \quad \quad \quad \quad \quad \quad (2)\,}
+  So, to begin,
+
+  
+    
+      
+        s
+        =
+        (
+        
+          p
+          
+            1
+          
+        
+        +
+        
+          p
+          
+            2
+          
+        
+        
+          )
+          
+            2
+          
+        
+        =
+        
+          p
+          
+            1
+          
+          
+            2
+          
+        
+        +
+        
+          p
+          
+            2
+          
+          
+            2
+          
+        
+        +
+        2
+        
+          p
+          
+            1
+          
+        
+        ⋅
+        
+          p
+          
+            2
+          
+        
+        
+      
+    
+    {\displaystyle s=(p_{1}+p_{2})^{2}=p_{1}^{2}+p_{2}^{2}+2p_{1}\cdot p_{2}\,}
+  
+
+  
+    
+      
+        t
+        =
+        (
+        
+          p
+          
+            1
+          
+        
+        −
+        
+          p
+          
+            3
+          
+        
+        
+          )
+          
+            2
+          
+        
+        =
+        
+          p
+          
+            1
+          
+          
+            2
+          
+        
+        +
+        
+          p
+          
+            3
+          
+          
+            2
+          
+        
+        −
+        2
+        
+          p
+          
+            1
+          
+        
+        ⋅
+        
+          p
+          
+            3
+          
+        
+        
+      
+    
+    {\displaystyle t=(p_{1}-p_{3})^{2}=p_{1}^{2}+p_{3}^{2}-2p_{1}\cdot p_{3}\,}
+  
+
+  
+    
+      
+        u
+        =
+        (
+        
+          p
+          
+            1
+          
+        
+        −
+        
+          p
+          
+            4
+          
+        
+        
+          )
+          
+            2
+          
+        
+        =
+        
+          p
+          
+            1
+          
+          
+            2
+          
+        
+        +
+        
+          p
+          
+            4
+          
+          
+            2
+          
+        
+        −
+        2
+        
+          p
+          
+            1
+          
+        
+        ⋅
+        
+          p
+          
+            4
+          
+        
+        
+      
+    
+    {\displaystyle u=(p_{1}-p_{4})^{2}=p_{1}^{2}+p_{4}^{2}-2p_{1}\cdot p_{4}\,}
+  Then adding the three while inserting squared masses leads to,
+
+  
+    
+      
+        s
+        +
+        t
+        +
+        u
+        =
+        
+          m
+          
+            1
+          
+          
+            2
+          
+        
+        +
+        
+          m
+          
+            2
+          
+          
+            2
+          
+        
+        +
+        
+          m
+          
+            3
+          
+          
+            2
+          
+        
+        +
+        
+          m
+          
+            4
+          
+          
+            2
+          
+        
+        +
+        2
+        
+          p
+          
+            1
+          
+          
+            2
+          
+        
+        +
+        2
+        
+          p
+          
+            1
+          
+        
+        ⋅
+        
+          p
+          
+            2
+          
+        
+        −
+        2
+        
+          p
+          
+            1
+          
+        
+        ⋅
+        
+          p
+          
+            3
+          
+        
+        −
+        2
+        
+          p
+          
+            1
+          
+        
+        ⋅
+        
+          p
+          
+            4
+          
+        
+        
+      
+    
+    {\displaystyle s+t+u=m_{1}^{2}+m_{2}^{2}+m_{3}^{2}+m_{4}^{2}+2p_{1}^{2}+2p_{1}\cdot p_{2}-2p_{1}\cdot p_{3}-2p_{1}\cdot p_{4}\,}
+  Then note that the last four terms add up to zero using conservation of four-momentum,
+
+  
+    
+      
+        2
+        
+          p
+          
+            1
+          
+          
+            2
+          
+        
+        +
+        2
+        
+          p
+          
+            1
+          
+        
+        ⋅
+        
+          p
+          
+            2
+          
+        
+        −
+        2
+        
+          p
+          
+            1
+          
+        
+        ⋅
+        
+          p
+          
+            3
+          
+        
+        −
+        2
+        
+          p
+          
+            1
+          
+        
+        ⋅
+        
+          p
+          
+            4
+          
+        
+        =
+        2
+        
+          p
+          
+            1
+          
+        
+        ⋅
+        (
+        
+          p
+          
+            1
+          
+        
+        +
+        
+          p
+          
+            2
+          
+        
+        −
+        
+          p
+          
+            3
+          
+        
+        −
+        
+          p
+          
+            4
+          
+        
+        )
+        =
+        0
+        
+      
+    
+    {\displaystyle 2p_{1}^{2}+2p_{1}\cdot p_{2}-2p_{1}\cdot p_{3}-2p_{1}\cdot p_{4}=2p_{1}\cdot (p_{1}+p_{2}-p_{3}-p_{4})=0\,}
+  So finally,
+
+
+== See also ==
+Feynman diagrams
+Bhabha scattering
+Møller scattering
+Compton scattering
+
+
+== References ==
+Mandelstam, S. (1958). "Determination of the Pion-Nucleon Scattering Amplitude from Dispersion Relations and Unitarity". Physical Review. 112 (4): 1344. Bibcode:1958PhRv..112.1344M. doi:10.1103/PhysRev.112.1344. Archived from the original on 2000-05-28.
+Halzen, Francis; Martin, Alan (1984). Quarks & Leptons: An Introductory Course in Modern Particle Physics. John Wiley & Sons. ISBN 0-471-88741-2.
+Perkins, Donald H. (2000). Introduction to High Energy Physics (4th ed.). Cambridge University Press. ISBN 0-521-62196-8.

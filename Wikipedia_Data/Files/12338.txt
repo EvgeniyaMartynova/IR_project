@@ -1,0 +1,34 @@
+Title: Coagulase
+Aspects: {'S. albus'}
+
+Coagulase is a protein enzyme produced by several microorganisms that enables the  conversion of fibrinogen to fibrin. In the laboratory, it is used to distinguish between different types of Staphylococcus isolates. Importantly, S. aureus is generally coagulase-positive, meaning that a positive coagulase test would indicate the presence of S. aureus. A negative coagulase test would instead show the presence of coagulase negative organisms such as S. epidermidis or S. saprophyticus. However it is now known that not all S. aureus are coagulase-positive.It is also produced by Yersinia pestis.Coagulase reacts with prothrombin in the blood. The resulting complex is called staphylothrombin, which enables the enzyme protease to convert fibrinogen, a plasma protein produced by the liver, to fibrin. This results in clotting of the blood. Coagulase is tightly bound to the surface of the bacterium S. aureus and can coat its surface with fibrin upon contact with blood. The fibrin clot may protect the bacterium from phagocytosis and isolate it from other defenses of the host. The fibrin coat can therefore make the bacteria more virulent. Bound coagulase is part of the larger family of MSCRAMM.
+
+
+== Coagulase test ==
+The coagulase test has traditionally been used to differentiate Staphylococcus aureus from coagulase-negative  staphylococci. S.aureus produces two forms of coagulase (i.e., bound coagulase and free coagulase). Bound coagulase, otherwise known as "clumping factor", can be detected by carrying out a slide coagulase test, and free coagulase can be detected using a tube coagulase test.
+
+
+=== Slide test ===
+A slide coagulase test is run with a negative control to rule out autoagglutination. Two drops of saline are put onto the slide labeled with sample number, Test (T) and control (C). The two saline drops are emulsified with the test organism using a wire loop, straight wire, or wooden stick. A drop of plasma (rabbit plasma anticoagulated with EDTA is recommended) is placed on the inoculated saline drop corresponding to test, and mixed well, then the slide is rocked gently for about 10 seconds.
+
+If 'positive', macroscopic clumping would be observed in the plasma within 10 seconds, with no clumping in the saline drop.
+If 'negative', no clumping will be observed.If the slide coagulase test is negative, a tube test should follow as a confirmation. Clumping in both drops is an indication of autoagglutination, so a tube test should be carried out. Tube test is not performed each institutions but most of the result depends on blood cultures from lab.
+
+
+=== Tube test ===
+
+The tube test uses rabbit plasma that has been inoculated with a staphylococcal colony (i.e., Gram-positive cocci which are catalase positive). The tube is then incubated at 37 °C for 1.5 hours. If negative, then incubation is continued up to 18 hours. 
+
+If 'positive' (e.g., the suspect colony is S. aureus), the plasma will coagulate, resulting in a clot (sometimes the clot is so pronounced, the liquid will completely solidify).
+If 'negative', the plasma remains a liquid. The negative result may be S. epidermidis but only a more detailed identification test can confirm this, using biochemical tests as in analytical profile index tests methods. A false negative can be perceived if the sample is not allowed to cool for about 30 minutes at room temperature or 10 minutes in the freezer, given that the serum can melt. If truly negative, the serum will remain liquid after cooling.
+List of coagulase-positive staphylococci: Staphylococcus aureus subsp. anaerobius, S. a. aureus, S. a.  delphini, S. hyicus, S. intermedius, S. lutrae, and Staphylococcus schleiferi subsp. coagulans.
+List of coagulase-negative staphylococci of clinical significance: S. saprophyticus, S.cohnii subsp. cohnii, S. cohnii subsp. urealyticum, S. captitus subsp. captitus, S. warneri, S.hominis, S.epidermidis, S. caprae, and S.lugdunensis
+
+
+== References ==
+
+
+== External links ==
+Tube coagulase test - rabbit plasma video
+Coagulase at the US National Library of Medicine Medical Subject Headings (MeSH)
+Coagulase test procedure

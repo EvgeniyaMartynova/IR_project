@@ -1,0 +1,39 @@
+Title: L band
+Aspects: {'L band (disambiguation)'}
+
+The L band is the Institute of Electrical and Electronics Engineers (IEEE) designation for the range of frequencies in the radio spectrum from 1 to 2 gigahertz (GHz).
+
+
+== Applications ==
+
+
+=== Mobile service ===
+In Europe, the Electronic Communications Committee (ECC) of the European Conference of Postal and Telecommunications Administrations (CEPT) has harmonized part of the L band (1452–1492 MHz), allowing individual countries to adopt this spectrum for terrestrial mobile/fixed communications networks supplemental downlink (MFCN SDL). By means of carrier aggregation, an LTE-Advanced or UMTS/HSDPA base station could use this spectrum to provide additional bandwidth for communications from the base station to the mobile device; i.e., in the downlink direction.
+
+
+=== Satellite navigation ===
+The Global Positioning System carriers are in the L band, centered at 1176.45 MHz (L5), 1227.60 MHz (L2), 1381.05 MHz (L3), and 1575.42 MHz (L1) frequencies. L band waves are used for GPS units because they are able to penetrate clouds, fog, rain, storms, and vegetation. Only dense environments such as heavy forest canopies or concrete buildings can cause GPS units to receive data inaccurately. The Galileo Navigation System, the GLONASS System, and the BeiDou system uses the L band similar to GPS, although the frequency ranges are named differently. Modern receivers, such as those found in smartphones, are able to take advantage of multiple systems (usually only around the oldest L1 band) at the same time.
+
+
+=== Telecommunications use ===
+Mobile phones operate at 800–900 and 1700–2100 MHz. Iridium Communications satellite phones use frequencies between 1616 and 1626.5 MHz to communicate with the satellites. Inmarsat and LightSquared terminals use frequencies between 1525 and 1646.5 MHz. Thuraya satellite phones use frequencies between 1525 and 1661 MHz.
+
+
+=== Aircraft surveillance ===
+The aircraft L-band ranges from 960–1215 MHz. Aircraft can use Automatic dependent surveillance-broadcast (ADS-B) equipment at 1090 MHz to communicate position information to the ground as well as between them for traffic information and avoidance. The 1090 MHz frequency (paired with 1030 MHz) is also used by Mode S transponders, which ADS-B augments when operated at this frequency. The TCAS system also utilizes the 1030/1090 MHz paired frequencies. ADS-B information can also be broadcast on the L band frequency of 978 MHz.  DME and TACAN systems are also in this frequency band.
+
+
+=== Amateur radio ===
+The Radio Regulations of the International Telecommunication Union allow amateur radio operations in the frequency range 1,240–1,300 MHz, and amateur satellite up-links are allowed in the range 1,260–1,270 MHz.  This is known as the 23-centimeter band by radio amateurs and as the L-band by AMSAT.
+
+
+=== Digital Audio Broadcasting ===
+In the United States and overseas territories, the L band is held by the military for telemetry, thereby forcing digital radio to in-band on-channel (IBOC) solutions. Digital Audio Broadcasting (DAB) in Europe primarily uses Band III, but may also be carried in the 1452–1492 MHz range in some countries.
+WorldSpace satellite radio used to broadcast in the 1467–1492 MHz L sub-band.
+
+
+=== Astronomy ===
+The band also contains the hyperfine transition of neutral hydrogen (the hydrogen line, 1420 MHz), which is of great astronomical interest as a means of imaging the normally invisible neutral atomic hydrogen in interstellar space. Consequently, parts of the L-band are protected radio astronomy allocations worldwide.
+
+
+== References ==

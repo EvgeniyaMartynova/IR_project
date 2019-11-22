@@ -1,0 +1,5553 @@
+Title: Student's t-distribution
+Aspects: {'T distribution'}
+
+In probability and statistics, Student's  t-distribution (or simply the t-distribution) is any member of a family of continuous probability distributions that arises when estimating the mean of a normally distributed population in situations where the sample size is small and the population standard deviation is unknown. It was developed by William Sealy Gosset under the pseudonym Student.
+The t-distribution plays a role in a number of widely used statistical analyses, including Student's t-test for assessing the statistical significance of the difference between two sample means, the construction of confidence intervals for the difference between two population means, and in linear regression analysis. The Student's t-distribution also arises in the Bayesian analysis of data from a normal family.
+If we take a sample of n observations from a normal distribution, then the t-distribution with 
+  
+    
+      
+        ν
+        =
+        n
+        −
+        1
+      
+    
+    {\displaystyle \nu =n-1}
+   degrees of freedom can be defined as the distribution of the location of the sample mean relative to the true mean, divided by the sample standard deviation, after multiplying by the standardizing term 
+  
+    
+      
+        
+          
+            n
+          
+        
+      
+    
+    {\displaystyle {\sqrt {n}}}
+  . In this way, the t-distribution can be used to construct a confidence interval for the true mean. Under the null hypothesis, the probability distribution of T is the same as that of the studentized mean.The t-distribution is symmetric and bell-shaped, like the normal distribution, but has heavier tails, meaning that it is more prone to producing values that fall far from its mean. If we cannot assume a normal model distribution, we can no longer verifiably conclude that our test statistic has a  t (n − 1) distribution under the null hypothesis. This makes it useful for understanding the statistical behavior of certain types of ratios of random quantities, in which variation in the denominator is amplified and may produce outlying values when the denominator of the ratio falls close to zero.  The Student's t-distribution is a special case of the generalised hyperbolic distribution.
+
+
+== History and etymology ==
+
+In statistics, the t-distribution was first derived as a posterior distribution in 1876 by Helmert and Lüroth. The t-distribution also appeared in a more general form as Pearson Type IV distribution in Karl Pearson's 1895 paper.In the English-language literature the distribution takes its name from William Sealy Gosset's 1908 paper in Biometrika under the pseudonym "Student". Gosset worked at the Guinness Brewery in Dublin, Ireland, and was interested in the problems of small samples – for example, the chemical properties of barley where sample sizes might be as few as 3. One version of the origin of the pseudonym is that Gosset's employer preferred staff to use pen names when publishing scientific papers instead of their real name, so he used the name "Student" to hide his identity. Another version is that Guinness did not want their competitors to know that they were using the t-test to determine the quality of raw material.Gosset's paper refers to the distribution as the "frequency distribution of standard deviations of samples drawn from a normal population". It became well known through the work of Ronald Fisher, who called the distribution "Student's distribution" and represented the test value with the letter t.
+
+
+== How Student's distribution arises from sampling ==
+Let 
+  
+    
+      
+        
+          X
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          X
+          
+            n
+          
+        
+      
+    
+    {\textstyle X_{1},\ldots ,X_{n}}
+   be independent and identically distributed as 
+  
+    
+      
+        N
+        (
+        μ
+        ,
+        
+          σ
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle N(\mu ,\sigma ^{2})}
+  , i.e. this is a sample of size 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+   from a normally distributed population with expected mean value 
+  
+    
+      
+        μ
+      
+    
+    {\displaystyle \mu }
+   and variance 
+  
+    
+      
+        
+          σ
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \sigma ^{2}}
+  .
+Let
+
+  
+    
+      
+        
+          
+            
+              X
+              ¯
+            
+          
+        
+        =
+        
+          
+            1
+            n
+          
+        
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          X
+          
+            i
+          
+        
+      
+    
+    {\displaystyle {\bar {X}}={\frac {1}{n}}\sum _{i=1}^{n}X_{i}}
+  be the sample mean and let
+
+  
+    
+      
+        
+          S
+          
+            2
+          
+        
+        =
+        
+          
+            1
+            
+              n
+              −
+              1
+            
+          
+        
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        (
+        
+          X
+          
+            i
+          
+        
+        −
+        
+          
+            
+              X
+              ¯
+            
+          
+        
+        
+          )
+          
+            2
+          
+        
+      
+    
+    {\displaystyle S^{2}={\frac {1}{n-1}}\sum _{i=1}^{n}(X_{i}-{\bar {X}})^{2}}
+  be the (Bessel-corrected) sample variance.  Then the random variable
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    X
+                    ¯
+                  
+                
+              
+              −
+              μ
+            
+            
+              σ
+              
+                /
+              
+              
+                
+                  n
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {{\bar {X}}-\mu }{\sigma /{\sqrt {n}}}}}
+  has a standard normal distribution (i.e. normal with expected value 0 and variance 1), and the random variable
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    X
+                    ¯
+                  
+                
+              
+              −
+              μ
+            
+            
+              S
+              
+                /
+              
+              
+                
+                  n
+                
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle {\frac {{\bar {X}}-\mu }{S/{\sqrt {n}}}},}
+  where 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+   has been substituted for 
+  
+    
+      
+        σ
+      
+    
+    {\displaystyle \sigma }
+  , has a Student's t-distribution with 
+  
+    
+      
+        n
+        −
+        1
+      
+    
+    {\displaystyle n-1}
+   degrees of freedom. The numerator and the denominator in the preceding expression are independent random variables despite being based on the same sample 
+  
+    
+      
+        
+          X
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          X
+          
+            n
+          
+        
+      
+    
+    {\textstyle X_{1},\ldots ,X_{n}}
+  .
+
+
+== Definition ==
+
+
+=== Probability density function ===
+Student's t-distribution has the probability density function given by
+
+  
+    
+      
+        f
+        (
+        t
+        )
+        =
+        
+          
+            
+              Γ
+              (
+              
+                
+                  
+                    ν
+                    +
+                    1
+                  
+                  2
+                
+              
+              )
+            
+            
+              
+                
+                  ν
+                  π
+                
+              
+              
+              Γ
+              (
+              
+                
+                  ν
+                  2
+                
+              
+              )
+            
+          
+        
+        
+          
+            (
+            
+              1
+              +
+              
+                
+                  
+                    t
+                    
+                      2
+                    
+                  
+                  ν
+                
+              
+            
+            )
+          
+          
+            
+            −
+            
+              
+                
+                  ν
+                  +
+                  1
+                
+                2
+              
+            
+          
+        
+        ,
+        
+      
+    
+    {\displaystyle f(t)={\frac {\Gamma ({\frac {\nu +1}{2}})}{{\sqrt {\nu \pi }}\,\Gamma ({\frac {\nu }{2}})}}\left(1+{\frac {t^{2}}{\nu }}\right)^{\!-{\frac {\nu +1}{2}}},\!}
+  where 
+  
+    
+      
+        ν
+      
+    
+    {\displaystyle \nu }
+   is the number of degrees of freedom and 
+  
+    
+      
+        Γ
+      
+    
+    {\displaystyle \Gamma }
+   is the gamma function. This may also be written as
+
+  
+    
+      
+        f
+        (
+        t
+        )
+        =
+        
+          
+            1
+            
+              
+                
+                  ν
+                
+              
+              
+              
+                B
+              
+              (
+              
+                
+                  1
+                  2
+                
+              
+              ,
+              
+                
+                  ν
+                  2
+                
+              
+              )
+            
+          
+        
+        
+          
+            (
+            
+              1
+              +
+              
+                
+                  
+                    t
+                    
+                      2
+                    
+                  
+                  ν
+                
+              
+            
+            )
+          
+          
+            
+            −
+            
+              
+                
+                  ν
+                  +
+                  1
+                
+                2
+              
+            
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle f(t)={\frac {1}{{\sqrt {\nu }}\,\mathrm {B} ({\frac {1}{2}},{\frac {\nu }{2}})}}\left(1+{\frac {t^{2}}{\nu }}\right)^{\!-{\frac {\nu +1}{2}}}\!,}
+  where B is the Beta function. In particular for integer valued degrees of freedom 
+  
+    
+      
+        ν
+      
+    
+    {\displaystyle \nu }
+   we have:
+For 
+  
+    
+      
+        ν
+        >
+        1
+      
+    
+    {\displaystyle \nu >1}
+   even,
+
+  
+    
+      
+        
+          
+            
+              Γ
+              (
+              
+                
+                  
+                    ν
+                    +
+                    1
+                  
+                  2
+                
+              
+              )
+            
+            
+              
+                
+                  ν
+                  π
+                
+              
+              
+              Γ
+              (
+              
+                
+                  ν
+                  2
+                
+              
+              )
+            
+          
+        
+        =
+        
+          
+            
+              (
+              ν
+              −
+              1
+              )
+              (
+              ν
+              −
+              3
+              )
+              ⋯
+              5
+              ⋅
+              3
+            
+            
+              2
+              
+                
+                  ν
+                
+              
+              (
+              ν
+              −
+              2
+              )
+              (
+              ν
+              −
+              4
+              )
+              ⋯
+              4
+              ⋅
+              2
+              
+            
+          
+        
+        ⋅
+      
+    
+    {\displaystyle {\frac {\Gamma ({\frac {\nu +1}{2}})}{{\sqrt {\nu \pi }}\,\Gamma ({\frac {\nu }{2}})}}={\frac {(\nu -1)(\nu -3)\cdots 5\cdot 3}{2{\sqrt {\nu }}(\nu -2)(\nu -4)\cdots 4\cdot 2\,}}\cdot }
+  For 
+  
+    
+      
+        ν
+        >
+        1
+      
+    
+    {\displaystyle \nu >1}
+   odd,
+
+  
+    
+      
+        
+          
+            
+              Γ
+              (
+              
+                
+                  
+                    ν
+                    +
+                    1
+                  
+                  2
+                
+              
+              )
+            
+            
+              
+                
+                  ν
+                  π
+                
+              
+              
+              Γ
+              (
+              
+                
+                  ν
+                  2
+                
+              
+              )
+            
+          
+        
+        =
+        
+          
+            
+              (
+              ν
+              −
+              1
+              )
+              (
+              ν
+              −
+              3
+              )
+              ⋯
+              4
+              ⋅
+              2
+            
+            
+              π
+              
+                
+                  ν
+                
+              
+              (
+              ν
+              −
+              2
+              )
+              (
+              ν
+              −
+              4
+              )
+              ⋯
+              5
+              ⋅
+              3
+              
+            
+          
+        
+        ⋅
+        
+      
+    
+    {\displaystyle {\frac {\Gamma ({\frac {\nu +1}{2}})}{{\sqrt {\nu \pi }}\,\Gamma ({\frac {\nu }{2}})}}={\frac {(\nu -1)(\nu -3)\cdots 4\cdot 2}{\pi {\sqrt {\nu }}(\nu -2)(\nu -4)\cdots 5\cdot 3\,}}\cdot \!}
+  The probability density function is symmetric, and its overall shape resembles the bell shape of a normally distributed variable with mean 0 and variance 1, except that it is a bit lower and wider. As the number of degrees of freedom grows, the t-distribution approaches the normal distribution with mean 0 and variance 1. For this reason 
+  
+    
+      
+        
+          ν
+        
+      
+    
+    {\displaystyle {\nu }}
+   is also known as the normality parameter.The following images show the density of the t-distribution for increasing values of 
+  
+    
+      
+        ν
+      
+    
+    {\displaystyle \nu }
+  .  The normal distribution is shown as a blue line for comparison.  Note that the t-distribution (red line) becomes closer to the normal distribution as 
+  
+    
+      
+        ν
+      
+    
+    {\displaystyle \nu }
+   increases.
+
+
+=== Cumulative distribution function ===
+The cumulative distribution function can be written in terms of I, the regularized
+incomplete beta function. For t > 0,
+
+  
+    
+      
+        F
+        (
+        t
+        )
+        =
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            t
+          
+        
+        f
+        (
+        u
+        )
+        
+        d
+        u
+        =
+        1
+        −
+        
+          
+            
+              1
+              2
+            
+          
+        
+        
+          I
+          
+            x
+            (
+            t
+            )
+          
+        
+        
+          (
+          
+            
+              
+                
+                  ν
+                  2
+                
+              
+            
+            ,
+            
+              
+                
+                  1
+                  2
+                
+              
+            
+          
+          )
+        
+        ,
+      
+    
+    {\displaystyle F(t)=\int _{-\infty }^{t}f(u)\,du=1-{\tfrac {1}{2}}I_{x(t)}\left({\tfrac {\nu }{2}},{\tfrac {1}{2}}\right),}
+  where
+
+  
+    
+      
+        x
+        (
+        t
+        )
+        =
+        
+          
+            ν
+            
+              
+                t
+                
+                  2
+                
+              
+              +
+              ν
+            
+          
+        
+        .
+      
+    
+    {\displaystyle x(t)={\frac {\nu }{t^{2}+\nu }}.}
+  Other values would be obtained by symmetry. An alternative formula, valid for 
+  
+    
+      
+        
+          t
+          
+            2
+          
+        
+        <
+        ν
+      
+    
+    {\displaystyle t^{2}<\nu }
+  , is
+
+  
+    
+      
+        
+          ∫
+          
+            −
+            ∞
+          
+          
+            t
+          
+        
+        f
+        (
+        u
+        )
+        
+        d
+        u
+        =
+        
+          
+            
+              1
+              2
+            
+          
+        
+        +
+        t
+        
+          
+            
+              Γ
+              
+                (
+                
+                  
+                    
+                      
+                        1
+                        2
+                      
+                    
+                  
+                  (
+                  ν
+                  +
+                  1
+                  )
+                
+                )
+              
+            
+            
+              
+                
+                  π
+                  ν
+                
+              
+              
+              Γ
+              
+                (
+                
+                  
+                    
+                      ν
+                      2
+                    
+                  
+                
+                )
+              
+            
+          
+        
+        
+        
+          
+
+          
+          
+            2
+          
+        
+        
+          F
+          
+            1
+          
+        
+        
+          (
+          
+            
+              
+                
+                  1
+                  2
+                
+              
+            
+            ,
+            
+              
+                
+                  1
+                  2
+                
+              
+            
+            (
+            ν
+            +
+            1
+            )
+            ;
+            
+              
+                
+                  3
+                  2
+                
+              
+            
+            ;
+            −
+            
+              
+                
+                  
+                    t
+                    
+                      2
+                    
+                  
+                  ν
+                
+              
+            
+          
+          )
+        
+        ,
+      
+    
+    {\displaystyle \int _{-\infty }^{t}f(u)\,du={\tfrac {1}{2}}+t{\frac {\Gamma \left({\tfrac {1}{2}}(\nu +1)\right)}{{\sqrt {\pi \nu }}\,\Gamma \left({\tfrac {\nu }{2}}\right)}}\,{}_{2}F_{1}\left({\tfrac {1}{2}},{\tfrac {1}{2}}(\nu +1);{\tfrac {3}{2}};-{\tfrac {t^{2}}{\nu }}\right),}
+  where 2F1 is a particular case of the hypergeometric function.
+For information on its inverse cumulative distribution function, see quantile function § Student's t-distribution.
+
+
+=== Special cases ===
+Certain values of 
+  
+    
+      
+        ν
+      
+    
+    {\displaystyle \nu }
+   give an especially simple form.
+
+  
+    
+      
+        ν
+        =
+        1
+      
+    
+    {\displaystyle \nu =1}
+  Distribution function:
+  
+    
+      
+        F
+        (
+        t
+        )
+        =
+        
+          
+            
+              1
+              2
+            
+          
+        
+        +
+        
+          
+            
+              1
+              π
+            
+          
+        
+        arctan
+        ⁡
+        (
+        t
+        )
+        .
+      
+    
+    {\displaystyle F(t)={\tfrac {1}{2}}+{\tfrac {1}{\pi }}\arctan(t).}
+  Density function:
+  
+    
+      
+        f
+        (
+        t
+        )
+        =
+        
+          
+            1
+            
+              π
+              (
+              1
+              +
+              
+                t
+                
+                  2
+                
+              
+              )
+            
+          
+        
+        .
+      
+    
+    {\displaystyle f(t)={\frac {1}{\pi (1+t^{2})}}.}
+  See Cauchy distribution
+  
+    
+      
+        ν
+        =
+        2
+      
+    
+    {\displaystyle \nu =2}
+  Distribution function:
+  
+    
+      
+        F
+        (
+        t
+        )
+        =
+        
+          
+            
+              1
+              2
+            
+          
+        
+        +
+        
+          
+            t
+            
+              2
+              
+                
+                  2
+                
+              
+              
+                
+                  1
+                  +
+                  
+                    
+                      
+                        t
+                        
+                          2
+                        
+                      
+                      2
+                    
+                  
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle F(t)={\tfrac {1}{2}}+{\frac {t}{2{\sqrt {2}}{\sqrt {1+{\frac {t^{2}}{2}}}}}}.}
+  Density function:
+  
+    
+      
+        f
+        (
+        t
+        )
+        =
+        
+          
+            1
+            
+              2
+              
+                
+                  2
+                
+              
+              
+                
+                  (
+                  
+                    1
+                    +
+                    
+                      
+                        
+                          t
+                          
+                            2
+                          
+                        
+                        2
+                      
+                    
+                  
+                  )
+                
+                
+                  
+                    3
+                    2
+                  
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle f(t)={\frac {1}{2{\sqrt {2}}\left(1+{\frac {t^{2}}{2}}\right)^{\frac {3}{2}}}}.}
+  
+  
+    
+      
+        ν
+        =
+        3
+      
+    
+    {\displaystyle \nu =3}
+  Distribution function:
+  
+    
+      
+        F
+        (
+        t
+        )
+        =
+        
+          
+            
+              1
+              2
+            
+          
+        
+        +
+        
+          
+            
+              1
+              π
+            
+          
+        
+        
+          [
+          
+            
+              1
+              
+                3
+              
+            
+          
+          
+            
+              t
+              
+                1
+                +
+                
+                  
+                    
+                      t
+                      
+                        2
+                      
+                    
+                    3
+                  
+                
+              
+            
+          
+          +
+          arctan
+          ⁡
+          (
+          
+            
+              t
+              
+                3
+              
+            
+          
+          )
+          ]
+        
+        .
+      
+    
+    {\displaystyle F(t)={\tfrac {1}{2}}+{\tfrac {1}{\pi }}{[{\frac {1}{\sqrt {3}}}{\frac {t}{1+{\frac {t^{2}}{3}}}}+\arctan({\frac {t}{\sqrt {3}}})]}.}
+  Density function:
+  
+    
+      
+        f
+        (
+        t
+        )
+        =
+        
+          
+            2
+            
+              π
+              
+                
+                  3
+                
+              
+              
+                
+                  (
+                  
+                    1
+                    +
+                    
+                      
+                        
+                          t
+                          
+                            2
+                          
+                        
+                        3
+                      
+                    
+                  
+                  )
+                
+                
+                  2
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle f(t)={\frac {2}{\pi {\sqrt {3}}\left(1+{\frac {t^{2}}{3}}\right)^{2}}}.}
+  
+  
+    
+      
+        ν
+        =
+        4
+      
+    
+    {\displaystyle \nu =4}
+  Distribution function:
+  
+    
+      
+        F
+        (
+        t
+        )
+        =
+        
+          
+            
+              1
+              2
+            
+          
+        
+        +
+        
+          
+            3
+            8
+          
+        
+        
+          
+            t
+            
+              1
+              +
+              
+                
+                  
+                    t
+                    
+                      2
+                    
+                  
+                  4
+                
+              
+            
+          
+        
+        
+          [
+          1
+          −
+          
+            
+              1
+              12
+            
+          
+          
+            
+              
+                t
+                
+                  2
+                
+              
+              
+                1
+                +
+                
+                  
+                    
+                      t
+                      
+                        2
+                      
+                    
+                    4
+                  
+                
+              
+            
+          
+          ]
+        
+        .
+      
+    
+    {\displaystyle F(t)={\tfrac {1}{2}}+{\frac {3}{8}}{\frac {t}{\sqrt {1+{\frac {t^{2}}{4}}}}}{[1-{\frac {1}{12}}{\frac {t^{2}}{1+{\frac {t^{2}}{4}}}}]}.}
+  Density function:
+  
+    
+      
+        f
+        (
+        t
+        )
+        =
+        
+          
+            3
+            
+              8
+              
+                
+                  (
+                  
+                    1
+                    +
+                    
+                      
+                        
+                          t
+                          
+                            2
+                          
+                        
+                        4
+                      
+                    
+                  
+                  )
+                
+                
+                  
+                    5
+                    2
+                  
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle f(t)={\frac {3}{8\left(1+{\frac {t^{2}}{4}}\right)^{\frac {5}{2}}}}.}
+  
+  
+    
+      
+        ν
+        =
+        5
+      
+    
+    {\displaystyle \nu =5}
+  Distribution function:
+  
+    
+      
+        F
+        (
+        t
+        )
+        =
+        
+          
+            
+              1
+              2
+            
+          
+        
+        +
+        
+          
+            1
+            π
+          
+        
+        
+          [
+          
+            
+              t
+              
+                
+                  
+                    5
+                  
+                
+                
+                  (
+                  
+                    1
+                    +
+                    
+                      
+                        
+                          t
+                          
+                            2
+                          
+                        
+                        5
+                      
+                    
+                  
+                  )
+                
+              
+            
+          
+          (
+          1
+          +
+          
+            
+              2
+              
+                3
+                
+                  (
+                  
+                    1
+                    +
+                    
+                      
+                        
+                          t
+                          
+                            2
+                          
+                        
+                        5
+                      
+                    
+                  
+                  )
+                
+              
+            
+          
+          )
+          +
+          arctan
+          ⁡
+          (
+          
+            
+              t
+              
+                5
+              
+            
+          
+          )
+          ]
+        
+        .
+      
+    
+    {\displaystyle F(t)={\tfrac {1}{2}}+{\frac {1}{\pi }}{[{\frac {t}{{\sqrt {5}}\left(1+{\frac {t^{2}}{5}}\right)}}(1+{\frac {2}{3\left(1+{\frac {t^{2}}{5}}\right)}})+\arctan({\frac {t}{\sqrt {5}}})]}.}
+  Density function:
+  
+    
+      
+        f
+        (
+        t
+        )
+        =
+        
+          
+            8
+            
+              3
+              π
+              
+                
+                  5
+                
+              
+              
+                
+                  (
+                  
+                    1
+                    +
+                    
+                      
+                        
+                          t
+                          
+                            2
+                          
+                        
+                        5
+                      
+                    
+                  
+                  )
+                
+                
+                  3
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle f(t)={\frac {8}{3\pi {\sqrt {5}}\left(1+{\frac {t^{2}}{5}}\right)^{3}}}.}
+  
+  
+    
+      
+        ν
+        =
+        ∞
+      
+    
+    {\displaystyle \nu =\infty }
+  Distribution function:
+  
+    
+      
+        F
+        (
+        t
+        )
+        =
+        
+          
+            
+              1
+              2
+            
+          
+        
+        
+          [
+          1
+          +
+          erf
+          ⁡
+          (
+          
+            
+              t
+              
+                2
+              
+            
+          
+          )
+          ]
+        
+        .
+      
+    
+    {\displaystyle F(t)={\tfrac {1}{2}}{[1+\operatorname {erf} ({\frac {t}{\sqrt {2}}})]}.}
+  See Error functionDensity function:
+  
+    
+      
+        f
+        (
+        t
+        )
+        =
+        
+          
+            1
+            
+              2
+              π
+            
+          
+        
+        
+          e
+          
+            −
+            
+              
+                
+                  t
+                  
+                    2
+                  
+                
+                2
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle f(t)={\frac {1}{\sqrt {2\pi }}}e^{-{\frac {t^{2}}{2}}}.}
+  See Normal distribution
+
+
+== How the t-distribution arises ==
+
+
+=== Sampling distribution ===
+Let 
+  
+    
+      
+        
+          x
+          
+            1
+          
+        
+        ,
+        ⋯
+        ,
+        
+          x
+          
+            n
+          
+        
+      
+    
+    {\displaystyle x_{1},\cdots ,x_{n}}
+   be the numbers observed in a sample from a continuously distributed population with expected value 
+  
+    
+      
+        μ
+      
+    
+    {\displaystyle \mu }
+  . The sample mean and sample variance are given by:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    
+                      x
+                      ¯
+                    
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      
+                        x
+                        
+                          1
+                        
+                      
+                      +
+                      ⋯
+                      +
+                      
+                        x
+                        
+                          n
+                        
+                      
+                    
+                    n
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  s
+                  
+                    2
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    1
+                    
+                      n
+                      −
+                      1
+                    
+                  
+                
+                
+                  ∑
+                  
+                    i
+                    =
+                    1
+                  
+                  
+                    n
+                  
+                
+                (
+                
+                  x
+                  
+                    i
+                  
+                
+                −
+                
+                  
+                    
+                      x
+                      ¯
+                    
+                  
+                
+                
+                  )
+                  
+                    2
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\bar {x}}&={\frac {x_{1}+\cdots +x_{n}}{n}},\\s^{2}&={\frac {1}{n-1}}\sum _{i=1}^{n}(x_{i}-{\bar {x}})^{2}.\end{aligned}}}
+  The resulting t-value is
+
+  
+    
+      
+        t
+        =
+        
+          
+            
+              
+                
+                  
+                    x
+                    ¯
+                  
+                
+              
+              −
+              μ
+            
+            
+              s
+              
+                /
+              
+              
+                
+                  n
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle t={\frac {{\bar {x}}-\mu }{s/{\sqrt {n}}}}.}
+  The t-distribution with 
+  
+    
+      
+        n
+        −
+        1
+      
+    
+    {\displaystyle n-1}
+   degrees of freedom is the sampling distribution of the t-value when the samples consist of independent identically distributed observations from a normally distributed population. Thus for inference purposes t is a useful "pivotal quantity" in the case when the mean and variance 
+  
+    
+      
+        (
+        μ
+        ,
+        
+          σ
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle (\mu ,\sigma ^{2})}
+   are unknown population parameters, in the sense that the t-value has then a probability distribution that depends on neither 
+  
+    
+      
+        μ
+      
+    
+    {\displaystyle \mu }
+   nor 
+  
+    
+      
+        
+          σ
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \sigma ^{2}}
+  .
+
+
+=== Bayesian inference ===
+
+In Bayesian statistics, a (scaled, shifted) t-distribution arises as the marginal distribution of the unknown mean of a normal distribution, when the dependence on an unknown variance has been marginalised out:
+
+  
+    
+      
+        
+          
+            
+              
+                p
+                (
+                μ
+                ∣
+                D
+                ,
+                I
+                )
+                =
+              
+              
+                
+                ∫
+                p
+                (
+                μ
+                ,
+                
+                  σ
+                  
+                    2
+                  
+                
+                ∣
+                D
+                ,
+                I
+                )
+                
+                d
+                
+                  σ
+                  
+                    2
+                  
+                
+              
+            
+            
+              
+                =
+              
+              
+                
+                ∫
+                p
+                (
+                μ
+                ∣
+                D
+                ,
+                
+                  σ
+                  
+                    2
+                  
+                
+                ,
+                I
+                )
+                
+                p
+                (
+                
+                  σ
+                  
+                    2
+                  
+                
+                ∣
+                D
+                ,
+                I
+                )
+                
+                d
+                
+                  σ
+                  
+                    2
+                  
+                
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}p(\mu \mid D,I)=&\int p(\mu ,\sigma ^{2}\mid D,I)\,d\sigma ^{2}\\=&\int p(\mu \mid D,\sigma ^{2},I)\,p(\sigma ^{2}\mid D,I)\,d\sigma ^{2},\end{aligned}}}
+  where 
+  
+    
+      
+        D
+      
+    
+    {\displaystyle D}
+   stands for the data 
+  
+    
+      
+        {
+        
+          x
+          
+            i
+          
+        
+        }
+      
+    
+    {\displaystyle \{x_{i}\}}
+  , and 
+  
+    
+      
+        I
+      
+    
+    {\displaystyle I}
+   represents any other information that may have been used to create the model. The distribution is thus the compounding of the conditional distribution of 
+  
+    
+      
+        μ
+      
+    
+    {\displaystyle \mu }
+   given the data and 
+  
+    
+      
+        
+          σ
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \sigma ^{2}}
+   with the marginal distribution of 
+  
+    
+      
+        
+          σ
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \sigma ^{2}}
+   given the data.
+With 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+   data points, if uninformative, or flat, location and scale priors 
+  
+    
+      
+        p
+        (
+        μ
+        ∣
+        
+          σ
+          
+            2
+          
+        
+        ,
+        I
+        )
+        =
+        
+          const
+        
+      
+    
+    {\displaystyle p(\mu \mid \sigma ^{2},I)={\text{const}}}
+   and 
+  
+    
+      
+        p
+        (
+        
+          σ
+          
+            2
+          
+        
+        ∣
+        I
+        )
+        ∝
+        1
+        
+          /
+        
+        
+          σ
+          
+            2
+          
+        
+      
+    
+    {\displaystyle p(\sigma ^{2}\mid I)\propto 1/\sigma ^{2}}
+   can be taken for μ and σ2, then Bayes' theorem gives
+
+  
+    
+      
+        
+          
+            
+              
+                p
+                (
+                μ
+                ∣
+                D
+                ,
+                
+                  σ
+                  
+                    2
+                  
+                
+                ,
+                I
+                )
+              
+              
+                
+                ∼
+                N
+                (
+                
+                  
+                    
+                      x
+                      ¯
+                    
+                  
+                
+                ,
+                
+                  σ
+                  
+                    2
+                  
+                
+                
+                  /
+                
+                n
+                )
+                ,
+              
+            
+            
+              
+                p
+                (
+                
+                  σ
+                  
+                    2
+                  
+                
+                ∣
+                D
+                ,
+                I
+                )
+              
+              
+                
+                ∼
+                
+                  S
+                  c
+                  a
+                  l
+                  e
+                  -
+                  i
+                  n
+                  v
+                  -
+                
+                ⁡
+                
+                  χ
+                  
+                    2
+                  
+                
+                (
+                ν
+                ,
+                
+                  s
+                  
+                    2
+                  
+                
+                )
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}p(\mu \mid D,\sigma ^{2},I)&\sim N({\bar {x}},\sigma ^{2}/n),\\p(\sigma ^{2}\mid D,I)&\sim \operatorname {Scale-inv-} \chi ^{2}(\nu ,s^{2}),\end{aligned}}}
+  a normal distribution and a scaled inverse chi-squared distribution respectively, where 
+  
+    
+      
+        ν
+        =
+        n
+        −
+        1
+      
+    
+    {\displaystyle \nu =n-1}
+   and
+
+  
+    
+      
+        
+          s
+          
+            2
+          
+        
+        =
+        ∑
+        
+          
+            
+              (
+              
+                x
+                
+                  i
+                
+              
+              −
+              
+                
+                  
+                    x
+                    ¯
+                  
+                
+              
+              
+                )
+                
+                  2
+                
+              
+            
+            
+              n
+              −
+              1
+            
+          
+        
+        .
+      
+    
+    {\displaystyle s^{2}=\sum {\frac {(x_{i}-{\bar {x}})^{2}}{n-1}}.}
+  The marginalisation integral thus becomes
+
+  
+    
+      
+        
+          
+            
+              
+                p
+                (
+                μ
+                ∣
+                D
+                ,
+                I
+                )
+              
+              
+                
+                ∝
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                
+                  
+                    1
+                    
+                      
+                        σ
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+                exp
+                ⁡
+                
+                  (
+                  
+                    −
+                    
+                      
+                        1
+                        
+                          2
+                          
+                            σ
+                            
+                              2
+                            
+                          
+                        
+                      
+                    
+                    n
+                    (
+                    μ
+                    −
+                    
+                      
+                        
+                          x
+                          ¯
+                        
+                      
+                    
+                    
+                      )
+                      
+                        2
+                      
+                    
+                  
+                  )
+                
+                ⋅
+                
+                  σ
+                  
+                    −
+                    ν
+                    −
+                    2
+                  
+                
+                exp
+                ⁡
+                (
+                −
+                ν
+                
+                  s
+                  
+                    2
+                  
+                
+                
+                  /
+                
+                2
+                
+                  σ
+                  
+                    2
+                  
+                
+                )
+                
+                d
+                
+                  σ
+                  
+                    2
+                  
+                
+              
+            
+            
+              
+              
+                
+                ∝
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                
+                  σ
+                  
+                    −
+                    ν
+                    −
+                    3
+                  
+                
+                exp
+                ⁡
+                
+                  (
+                  
+                    −
+                    
+                      
+                        1
+                        
+                          2
+                          
+                            σ
+                            
+                              2
+                            
+                          
+                        
+                      
+                    
+                    
+                      (
+                      
+                        n
+                        (
+                        μ
+                        −
+                        
+                          
+                            
+                              x
+                              ¯
+                            
+                          
+                        
+                        
+                          )
+                          
+                            2
+                          
+                        
+                        +
+                        ν
+                        
+                          s
+                          
+                            2
+                          
+                        
+                      
+                      )
+                    
+                  
+                  )
+                
+                
+                d
+                
+                  σ
+                  
+                    2
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}p(\mu \mid D,I)&\propto \int _{0}^{\infty }{\frac {1}{\sqrt {\sigma ^{2}}}}\exp \left(-{\frac {1}{2\sigma ^{2}}}n(\mu -{\bar {x}})^{2}\right)\cdot \sigma ^{-\nu -2}\exp(-\nu s^{2}/2\sigma ^{2})\,d\sigma ^{2}\\&\propto \int _{0}^{\infty }\sigma ^{-\nu -3}\exp \left(-{\frac {1}{2\sigma ^{2}}}\left(n(\mu -{\bar {x}})^{2}+\nu s^{2}\right)\right)\,d\sigma ^{2}.\end{aligned}}}
+  This can be evaluated by substituting 
+  
+    
+      
+        z
+        =
+        A
+        
+          /
+        
+        2
+        
+          σ
+          
+            2
+          
+        
+      
+    
+    {\displaystyle z=A/2\sigma ^{2}}
+  , where 
+  
+    
+      
+        A
+        =
+        n
+        (
+        μ
+        −
+        
+          
+            
+              x
+              ¯
+            
+          
+        
+        
+          )
+          
+            2
+          
+        
+        +
+        ν
+        
+          s
+          
+            2
+          
+        
+      
+    
+    {\displaystyle A=n(\mu -{\bar {x}})^{2}+\nu s^{2}}
+  , giving
+
+  
+    
+      
+        d
+        z
+        =
+        −
+        
+          
+            A
+            
+              2
+              
+                σ
+                
+                  4
+                
+              
+            
+          
+        
+        
+        d
+        
+          σ
+          
+            2
+          
+        
+        ,
+      
+    
+    {\displaystyle dz=-{\frac {A}{2\sigma ^{4}}}\,d\sigma ^{2},}
+  so
+
+  
+    
+      
+        p
+        (
+        μ
+        ∣
+        D
+        ,
+        I
+        )
+        ∝
+        
+          A
+          
+            −
+            
+              
+                
+                  ν
+                  +
+                  1
+                
+                2
+              
+            
+          
+        
+        
+          ∫
+          
+            0
+          
+          
+            ∞
+          
+        
+        
+          z
+          
+            (
+            ν
+            −
+            1
+            )
+            
+              /
+            
+            2
+          
+        
+        exp
+        ⁡
+        (
+        −
+        z
+        )
+        
+        d
+        z
+        .
+      
+    
+    {\displaystyle p(\mu \mid D,I)\propto A^{-{\frac {\nu +1}{2}}}\int _{0}^{\infty }z^{(\nu -1)/2}\exp(-z)\,dz.}
+  But the z integral is now a standard Gamma integral, which evaluates to a constant, leaving
+
+  
+    
+      
+        
+          
+            
+              
+                p
+                (
+                μ
+                ∣
+                D
+                ,
+                I
+                )
+              
+              
+                
+                ∝
+                
+                  A
+                  
+                    −
+                    
+                      
+                        
+                          ν
+                          +
+                          1
+                        
+                        2
+                      
+                    
+                  
+                
+              
+            
+            
+              
+              
+                
+                ∝
+                
+                  
+                    (
+                    
+                      1
+                      +
+                      
+                        
+                          
+                            n
+                            (
+                            μ
+                            −
+                            
+                              
+                                
+                                  x
+                                  ¯
+                                
+                              
+                            
+                            
+                              )
+                              
+                                2
+                              
+                            
+                          
+                          
+                            ν
+                            
+                              s
+                              
+                                2
+                              
+                            
+                          
+                        
+                      
+                    
+                    )
+                  
+                  
+                    −
+                    
+                      
+                        
+                          ν
+                          +
+                          1
+                        
+                        2
+                      
+                    
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}p(\mu \mid D,I)&\propto A^{-{\frac {\nu +1}{2}}}\\&\propto \left(1+{\frac {n(\mu -{\bar {x}})^{2}}{\nu s^{2}}}\right)^{-{\frac {\nu +1}{2}}}.\end{aligned}}}
+  This is a form of the t-distribution with an explicit scaling and shifting that will be explored in more detail in a further section below.  It can be related to the standardised t-distribution by the substitution
+
+  
+    
+      
+        t
+        =
+        
+          
+            
+              μ
+              −
+              
+                
+                  
+                    x
+                    ¯
+                  
+                
+              
+            
+            
+              s
+              
+                /
+              
+              
+                
+                  n
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle t={\frac {\mu -{\bar {x}}}{s/{\sqrt {n}}}}.}
+  The derivation above has been presented for the case of uninformative priors for 
+  
+    
+      
+        μ
+      
+    
+    {\displaystyle \mu }
+   and 
+  
+    
+      
+        
+          σ
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \sigma ^{2}}
+  ; but it will be apparent that any priors that lead to a normal distribution being compounded with a scaled inverse chi-squared distribution will lead to a t-distribution with scaling and shifting for 
+  
+    
+      
+        P
+        (
+        μ
+        ∣
+        D
+        ,
+        I
+        )
+      
+    
+    {\displaystyle P(\mu \mid D,I)}
+  , although the scaling parameter corresponding to 
+  
+    
+      
+        
+          
+            
+              s
+              
+                2
+              
+            
+            n
+          
+        
+      
+    
+    {\displaystyle {\frac {s^{2}}{n}}}
+   above will then be influenced both by the prior information and the data, rather than just by the data as above.
+
+
+== Characterization ==
+
+
+=== As the distribution of a test statistic ===
+Student's t-distribution with 
+  
+    
+      
+        ν
+      
+    
+    {\displaystyle \nu }
+   degrees of freedom can be defined as the distribution of the random variable T with
+
+  
+    
+      
+        T
+        =
+        
+          
+            Z
+            
+              V
+              
+                /
+              
+              ν
+            
+          
+        
+        =
+        Z
+        
+          
+            
+              ν
+              V
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle T={\frac {Z}{\sqrt {V/\nu }}}=Z{\sqrt {\frac {\nu }{V}}},}
+  where
+
+Z is a standard normal with expected value 0 and variance 1;
+V has a chi-squared distribution with 
+  
+    
+      
+        ν
+      
+    
+    {\displaystyle \nu }
+   degrees of freedom;
+Z and V are independent.A different distribution is defined as that of the random variable defined, for a given constant μ, by
+
+  
+    
+      
+        (
+        Z
+        +
+        μ
+        )
+        
+          
+            
+              ν
+              V
+            
+          
+        
+        .
+      
+    
+    {\displaystyle (Z+\mu ){\sqrt {\frac {\nu }{V}}}.}
+  This random variable has a noncentral t-distribution with noncentrality parameter μ. This distribution is important in studies of the power of Student's t-test.
+
+
+==== Derivation ====
+Suppose X1, ..., Xn are independent realizations of the normally-distributed, random variable X, which has an expected value μ and variance σ2. Let
+
+  
+    
+      
+        
+          
+            
+              X
+              ¯
+            
+          
+          
+            n
+          
+        
+        =
+        
+          
+            1
+            n
+          
+        
+        (
+        
+          X
+          
+            1
+          
+        
+        +
+        ⋯
+        +
+        
+          X
+          
+            n
+          
+        
+        )
+      
+    
+    {\displaystyle {\overline {X}}_{n}={\frac {1}{n}}(X_{1}+\cdots +X_{n})}
+  be the sample mean, and
+
+  
+    
+      
+        
+          S
+          
+            n
+          
+          
+            2
+          
+        
+        =
+        
+          
+            1
+            
+              n
+              −
+              1
+            
+          
+        
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          
+            (
+            
+              
+                X
+                
+                  i
+                
+              
+              −
+              
+                
+                  
+                    X
+                    ¯
+                  
+                
+                
+                  n
+                
+              
+            
+            )
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle S_{n}^{2}={\frac {1}{n-1}}\sum _{i=1}^{n}\left(X_{i}-{\overline {X}}_{n}\right)^{2}}
+  be an unbiased estimate of the variance from the sample.  It can be shown that the random variable
+
+  
+    
+      
+        V
+        =
+        (
+        n
+        −
+        1
+        )
+        
+          
+            
+              S
+              
+                n
+              
+              
+                2
+              
+            
+            
+              σ
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle V=(n-1){\frac {S_{n}^{2}}{\sigma ^{2}}}}
+  has a chi-squared distribution with 
+  
+    
+      
+        ν
+        =
+        n
+        −
+        1
+      
+    
+    {\displaystyle \nu =n-1}
+   degrees of freedom (by Cochran's theorem).  It is readily shown that the quantity
+
+  
+    
+      
+        Z
+        =
+        
+          (
+          
+            
+              
+                
+                  X
+                  ¯
+                
+              
+              
+                n
+              
+            
+            −
+            μ
+          
+          )
+        
+        
+          
+            
+              n
+            
+            σ
+          
+        
+      
+    
+    {\displaystyle Z=\left({\overline {X}}_{n}-\mu \right){\frac {\sqrt {n}}{\sigma }}}
+  is normally distributed with mean 0 and variance 1, since the sample mean 
+  
+    
+      
+        
+          
+            
+              X
+              ¯
+            
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle {\overline {X}}_{n}}
+   is normally distributed with mean μ and variance σ2/n.  Moreover, it is possible to show that these two random variables (the normally distributed one Z and the chi-squared-distributed one V) are independent. Consequently the pivotal quantity
+
+  
+    
+      
+        T
+        ≡
+        
+          
+            Z
+            
+              V
+              
+                /
+              
+              ν
+            
+          
+        
+        =
+        
+          (
+          
+            
+              
+                
+                  X
+                  ¯
+                
+              
+              
+                n
+              
+            
+            −
+            μ
+          
+          )
+        
+        
+          
+            
+              n
+            
+            
+              S
+              
+                n
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle T\equiv {\frac {Z}{\sqrt {V/\nu }}}=\left({\overline {X}}_{n}-\mu \right){\frac {\sqrt {n}}{S_{n}}},}
+  which differs from Z in that the exact standard deviation σ is replaced by the random variable Sn, has a Student's t-distribution as defined above. Notice that the unknown population variance σ2 does not appear in T, since it was in both the numerator and the denominator, so it canceled. Gosset intuitively obtained the probability density function stated above, with 
+  
+    
+      
+        ν
+      
+    
+    {\displaystyle \nu }
+   equal to n − 1, and Fisher proved it in 1925.The distribution of the test statistic T depends on 
+  
+    
+      
+        ν
+      
+    
+    {\displaystyle \nu }
+  , but not μ or σ; the lack of dependence on μ and σ is what makes the t-distribution important in both theory and practice.
+
+
+=== As a maximum entropy distribution ===
+Student's t-distribution is the maximum entropy probability distribution for a random variate X for which 
+  
+    
+      
+        E
+        ⁡
+        (
+        ln
+        ⁡
+        (
+        ν
+        +
+        
+          X
+          
+            2
+          
+        
+        )
+        )
+      
+    
+    {\displaystyle \operatorname {E} (\ln(\nu +X^{2}))}
+   is fixed.
+
+
+== Properties ==
+
+
+=== Moments ===
+For 
+  
+    
+      
+        ν
+        >
+        1
+      
+    
+    {\displaystyle \nu >1}
+  , the raw moments of the t-distribution are
+
+  
+    
+      
+        E
+        ⁡
+        (
+        
+          T
+          
+            k
+          
+        
+        )
+        =
+        
+          
+            {
+            
+              
+                
+                  0
+                
+                
+                  k
+                  
+                     odd
+                  
+                  ,
+                  
+                  0
+                  <
+                  k
+                  <
+                  ν
+                
+              
+              
+                
+                  
+                    
+                      1
+                      
+                        
+                          
+                            π
+                          
+                        
+                        Γ
+                        
+                          (
+                          
+                            
+                              ν
+                              2
+                            
+                          
+                          )
+                        
+                      
+                    
+                  
+                  
+                    [
+                    
+                      Γ
+                      
+                        (
+                        
+                          
+                            
+                              k
+                              +
+                              1
+                            
+                            2
+                          
+                        
+                        )
+                      
+                      Γ
+                      
+                        (
+                        
+                          
+                            
+                              ν
+                              −
+                              k
+                            
+                            2
+                          
+                        
+                        )
+                      
+                      
+                        ν
+                        
+                          
+                            k
+                            2
+                          
+                        
+                      
+                    
+                    ]
+                  
+                
+                
+                  k
+                  
+                     even
+                  
+                  ,
+                  
+                  0
+                  <
+                  k
+                  <
+                  ν
+                  .
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle \operatorname {E} (T^{k})={\begin{cases}0&k{\text{ odd}},\quad 0<k<\nu \\{\frac {1}{{\sqrt {\pi }}\Gamma \left({\frac {\nu }{2}}\right)}}\left[\Gamma \left({\frac {k+1}{2}}\right)\Gamma \left({\frac {\nu -k}{2}}\right)\nu ^{\frac {k}{2}}\right]&k{\text{ even}},\quad 0<k<\nu .\\\end{cases}}}
+  Moments of order 
+  
+    
+      
+        ν
+      
+    
+    {\displaystyle \nu }
+   or higher do not exist.The term for 
+  
+    
+      
+        0
+        <
+        k
+        <
+        ν
+      
+    
+    {\displaystyle 0<k<\nu }
+  , k even, may be simplified using the properties of the gamma function to
+
+  
+    
+      
+        E
+        ⁡
+        (
+        
+          T
+          
+            k
+          
+        
+        )
+        =
+        
+          ν
+          
+            
+              k
+              2
+            
+          
+        
+        
+        
+          ∏
+          
+            i
+            =
+            1
+          
+          
+            k
+            
+              /
+            
+            2
+          
+        
+        
+          
+            
+              2
+              i
+              −
+              1
+            
+            
+              ν
+              −
+              2
+              i
+            
+          
+        
+        
+        k
+        
+           even
+        
+        ,
+        
+        0
+        <
+        k
+        <
+        ν
+        .
+      
+    
+    {\displaystyle \operatorname {E} (T^{k})=\nu ^{\frac {k}{2}}\,\prod _{i=1}^{k/2}{\frac {2i-1}{\nu -2i}}\qquad k{\text{ even}},\quad 0<k<\nu .}
+  For a t-distribution with 
+  
+    
+      
+        ν
+      
+    
+    {\displaystyle \nu }
+   degrees of freedom, the expected value is 0 if 
+  
+    
+      
+        ν
+        >
+        1
+      
+    
+    {\displaystyle \nu >1}
+  , and its variance is 
+  
+    
+      
+        
+          
+            ν
+            
+              ν
+              −
+              2
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {\nu }{\nu -2}}}
+   if 
+  
+    
+      
+        ν
+        >
+        2
+      
+    
+    {\displaystyle \nu >2}
+  . The skewness is 0 if 
+  
+    
+      
+        ν
+        >
+        3
+      
+    
+    {\displaystyle \nu >3}
+   and the excess kurtosis is 
+  
+    
+      
+        
+          
+            6
+            
+              ν
+              −
+              4
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {6}{\nu -4}}}
+   if 
+  
+    
+      
+        ν
+        >
+        4
+      
+    
+    {\displaystyle \nu >4}
+  .
+
+
+=== Monte Carlo sampling ===
+There are various approaches to constructing random samples from the Student's t-distribution. The matter depends on whether the samples are required on a stand-alone basis, or are to be constructed by application of a quantile function to uniform samples; e.g., in the multi-dimensional applications basis of copula-dependency. In the case of stand-alone sampling, an extension of the Box–Muller method and its polar form is easily deployed. It has the merit that it applies equally well to all real positive degrees of freedom, ν, while many other candidate methods fail if ν is close to zero.
+
+
+=== Integral of Student's probability density function and p-value ===
+The function A(t | ν) is the integral of Student's probability density function, f(t) between −t and t, for t ≥ 0.  It thus gives the probability that a value of t less than that calculated from observed data would occur by chance.  Therefore, the function A(t | ν) can be used when testing whether the difference between the means of two sets of data is statistically significant, by calculating the corresponding value of t and the probability of its occurrence if the two sets of data were drawn from the same population.  This is used in a variety of situations, particularly in t-tests.  For the statistic t, with ν degrees of freedom, A(t | ν) is the probability that t would be less than the observed value if the two means were the same (provided that the smaller mean is subtracted from the larger, so that t ≥ 0).  It can be easily calculated from the cumulative distribution function Fν(t) of the t-distribution:
+
+  
+    
+      
+        A
+        (
+        t
+        ∣
+        ν
+        )
+        =
+        
+          F
+          
+            ν
+          
+        
+        (
+        t
+        )
+        −
+        
+          F
+          
+            ν
+          
+        
+        (
+        −
+        t
+        )
+        =
+        1
+        −
+        
+          I
+          
+            
+              ν
+              
+                ν
+                +
+                
+                  t
+                  
+                    2
+                  
+                
+              
+            
+          
+        
+        
+          (
+          
+            
+              
+                ν
+                2
+              
+            
+            ,
+            
+              
+                1
+                2
+              
+            
+          
+          )
+        
+        ,
+      
+    
+    {\displaystyle A(t\mid \nu )=F_{\nu }(t)-F_{\nu }(-t)=1-I_{\frac {\nu }{\nu +t^{2}}}\left({\frac {\nu }{2}},{\frac {1}{2}}\right),}
+  where Ix is the regularized incomplete beta function (a, b).
+For statistical hypothesis testing this function is used to construct the p-value.
+
+
+== Generalized Student's t-distribution ==
+
+
+=== In terms of scaling parameter ===
+  
+    
+      
+        
+          
+            
+              σ
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\sigma }}}
+   or 
+  
+    
+      
+        
+          
+            
+              
+                σ
+                ^
+              
+            
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle {\hat {\sigma }}^{2}}
+  
+Student's t distribution can be generalized to a three parameter location-scale family, introducing a location parameter 
+  
+    
+      
+        
+          
+            
+              μ
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\mu }}}
+   and a scale parameter 
+  
+    
+      
+        
+          
+            
+              σ
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\sigma }}}
+  , through the relation
+
+  
+    
+      
+        X
+        =
+        
+          
+            
+              μ
+              ^
+            
+          
+        
+        +
+        
+          
+            
+              σ
+              ^
+            
+          
+        
+        T
+      
+    
+    {\displaystyle X={\hat {\mu }}+{\hat {\sigma }}T}
+  or
+
+  
+    
+      
+        T
+        =
+        
+          
+            
+              X
+              −
+              
+                
+                  
+                    μ
+                    ^
+                  
+                
+              
+            
+            
+              
+                σ
+                ^
+              
+            
+          
+        
+      
+    
+    {\displaystyle T={\frac {X-{\hat {\mu }}}{\hat {\sigma }}}}
+  This means that 
+  
+    
+      
+        
+          
+            
+              x
+              −
+              
+                
+                  
+                    μ
+                    ^
+                  
+                
+              
+            
+            
+              
+                σ
+                ^
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {x-{\hat {\mu }}}{\hat {\sigma }}}}
+   has a classic Student's t distribution with 
+  
+    
+      
+        ν
+      
+    
+    {\displaystyle \nu }
+   degrees of freedom.
+The resulting non-standardized Student's t-distribution has a density defined by:
+
+  
+    
+      
+        p
+        (
+        x
+        ∣
+        ν
+        ,
+        
+          
+            
+              μ
+              ^
+            
+          
+        
+        ,
+        
+          
+            
+              σ
+              ^
+            
+          
+        
+        )
+        =
+        
+          
+            
+              Γ
+              (
+              
+                
+                  
+                    ν
+                    +
+                    1
+                  
+                  2
+                
+              
+              )
+            
+            
+              Γ
+              (
+              
+                
+                  ν
+                  2
+                
+              
+              )
+              
+                
+                  π
+                  ν
+                
+              
+              
+                
+                  
+                    σ
+                    ^
+                  
+                
+              
+              
+            
+          
+        
+        
+          
+            (
+            
+              1
+              +
+              
+                
+                  1
+                  ν
+                
+              
+              
+                
+                  (
+                  
+                    
+                      
+                        x
+                        −
+                        
+                          
+                            
+                              μ
+                              ^
+                            
+                          
+                        
+                      
+                      
+                        
+                          σ
+                          ^
+                        
+                      
+                    
+                  
+                  )
+                
+                
+                  2
+                
+              
+            
+            )
+          
+          
+            −
+            
+              
+                
+                  ν
+                  +
+                  1
+                
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle p(x\mid \nu ,{\hat {\mu }},{\hat {\sigma }})={\frac {\Gamma ({\frac {\nu +1}{2}})}{\Gamma ({\frac {\nu }{2}}){\sqrt {\pi \nu }}{\hat {\sigma }}\,}}\left(1+{\frac {1}{\nu }}\left({\frac {x-{\hat {\mu }}}{\hat {\sigma }}}\right)^{2}\right)^{-{\frac {\nu +1}{2}}}}
+  Here, 
+  
+    
+      
+        
+          
+            
+              σ
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\sigma }}}
+   does not correspond to a standard deviation: it is not the standard deviation of the scaled t distribution, which may not even exist; nor is it the standard deviation of the underlying normal distribution, which is unknown. 
+  
+    
+      
+        
+          
+            
+              σ
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\sigma }}}
+   simply sets the overall scaling of the distribution. In the Bayesian derivation of the marginal distribution of an unknown normal mean 
+  
+    
+      
+        
+          
+            
+              μ
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\mu }}}
+   above, 
+  
+    
+      
+        
+          
+            
+              σ
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\sigma }}}
+   as used here corresponds to the quantity 
+  
+    
+      
+        
+          s
+          
+            /
+          
+          
+            
+              n
+            
+          
+        
+      
+    
+    {\displaystyle {s/{\sqrt {n}}}}
+  , where
+
+  
+    
+      
+        
+          s
+          
+            2
+          
+        
+        =
+        ∑
+        
+          
+            
+              (
+              
+                x
+                
+                  i
+                
+              
+              −
+              
+                
+                  
+                    x
+                    ¯
+                  
+                
+              
+              
+                )
+                
+                  2
+                
+              
+            
+            
+              n
+              −
+              1
+            
+          
+        
+        
+      
+    
+    {\displaystyle s^{2}=\sum {\frac {(x_{i}-{\bar {x}})^{2}}{n-1}}\,}
+  .Equivalently, the distribution can be written in terms of 
+  
+    
+      
+        
+          
+            
+              
+                σ
+                ^
+              
+            
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle {\hat {\sigma }}^{2}}
+  , the square of this scale parameter:
+
+  
+    
+      
+        p
+        (
+        x
+        ∣
+        ν
+        ,
+        
+          
+            
+              μ
+              ^
+            
+          
+        
+        ,
+        
+          
+            
+              
+                σ
+                ^
+              
+            
+          
+          
+            2
+          
+        
+        )
+        =
+        
+          
+            
+              Γ
+              (
+              
+                
+                  
+                    ν
+                    +
+                    1
+                  
+                  2
+                
+              
+              )
+            
+            
+              Γ
+              (
+              
+                
+                  ν
+                  2
+                
+              
+              )
+              
+                
+                  π
+                  ν
+                  
+                    
+                      
+                        
+                          σ
+                          ^
+                        
+                      
+                    
+                    
+                      2
+                    
+                  
+                
+              
+            
+          
+        
+        
+          
+            (
+            
+              1
+              +
+              
+                
+                  1
+                  ν
+                
+              
+              
+                
+                  
+                    (
+                    x
+                    −
+                    
+                      
+                        
+                          μ
+                          ^
+                        
+                      
+                    
+                    
+                      )
+                      
+                        2
+                      
+                    
+                  
+                  
+                    
+                      
+                        
+                          σ
+                          ^
+                        
+                      
+                    
+                    
+                      2
+                    
+                  
+                
+              
+            
+            )
+          
+          
+            −
+            
+              
+                
+                  ν
+                  +
+                  1
+                
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle p(x\mid \nu ,{\hat {\mu }},{\hat {\sigma }}^{2})={\frac {\Gamma ({\frac {\nu +1}{2}})}{\Gamma ({\frac {\nu }{2}}){\sqrt {\pi \nu {\hat {\sigma }}^{2}}}}}\left(1+{\frac {1}{\nu }}{\frac {(x-{\hat {\mu }})^{2}}{{\hat {\sigma }}^{2}}}\right)^{-{\frac {\nu +1}{2}}}}
+  Other properties of this version of the distribution are:
+
+  
+    
+      
+        
+          
+            
+              
+                E
+                ⁡
+                (
+                X
+                )
+              
+              
+                
+                =
+                
+                  
+                    
+                      μ
+                      ^
+                    
+                  
+                
+              
+              
+                
+                   for 
+                
+                ν
+                >
+                1
+              
+            
+            
+              
+                var
+                ⁡
+                (
+                X
+                )
+              
+              
+                
+                =
+                
+                  
+                    
+                      
+                        σ
+                        ^
+                      
+                    
+                  
+                  
+                    2
+                  
+                
+                
+                  
+                    ν
+                    
+                      ν
+                      −
+                      2
+                    
+                  
+                
+              
+              
+                
+                   for 
+                
+                ν
+                >
+                2
+              
+            
+            
+              
+                mode
+                ⁡
+                (
+                X
+                )
+              
+              
+                
+                =
+                
+                  
+                    
+                      μ
+                      ^
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\operatorname {E} (X)&={\hat {\mu }}&{\text{  for }}\nu >1\\\operatorname {var} (X)&={\hat {\sigma }}^{2}{\frac {\nu }{\nu -2}}&{\text{  for }}\nu >2\\\operatorname {mode} (X)&={\hat {\mu }}\end{aligned}}}
+  This distribution results from compounding a Gaussian distribution (normal distribution) with mean 
+  
+    
+      
+        μ
+      
+    
+    {\displaystyle \mu }
+   and unknown variance, with an inverse gamma distribution placed over the variance with parameters 
+  
+    
+      
+        a
+        =
+        ν
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle a=\nu /2}
+   and 
+  
+    
+      
+        b
+        =
+        ν
+        
+          
+            
+              
+                σ
+                ^
+              
+            
+          
+          
+            2
+          
+        
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle b=\nu {\hat {\sigma }}^{2}/2}
+  . In other words, the random variable X is assumed to have a Gaussian distribution with an unknown variance distributed as inverse gamma, and then the variance is marginalized out (integrated out). The reason for the usefulness of this characterization is that the inverse gamma distribution is the conjugate prior distribution of the variance of a Gaussian distribution. As a result, the non-standardized Student's t-distribution arises naturally in many Bayesian inference problems. See below.
+Equivalently, this distribution results from compounding a Gaussian distribution with a scaled-inverse-chi-squared distribution with parameters 
+  
+    
+      
+        ν
+      
+    
+    {\displaystyle \nu }
+   and 
+  
+    
+      
+        
+          
+            
+              
+                σ
+                ^
+              
+            
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle {\hat {\sigma }}^{2}}
+  . The scaled-inverse-chi-squared distribution is exactly the same distribution as the inverse gamma distribution, but with a different parameterization, i.e. 
+  
+    
+      
+        ν
+        =
+        2
+        a
+        ,
+        
+        
+          
+            
+              
+                σ
+                ^
+              
+            
+          
+          
+            2
+          
+        
+        =
+        
+          
+            b
+            a
+          
+        
+      
+    
+    {\displaystyle \nu =2a,\;{\hat {\sigma }}^{2}={\frac {b}{a}}}
+  .
+
+
+=== In terms of inverse scaling parameter λ ===
+An alternative parameterization in terms of an inverse scaling parameter 
+  
+    
+      
+        λ
+      
+    
+    {\displaystyle \lambda }
+   (analogous to the way precision is the reciprocal of variance), defined by the relation 
+  
+    
+      
+        λ
+        =
+        
+          
+            1
+            
+              
+                
+                  
+                    σ
+                    ^
+                  
+                
+              
+              
+                2
+              
+            
+          
+        
+        
+      
+    
+    {\displaystyle \lambda ={\frac {1}{{\hat {\sigma }}^{2}}}\,}
+  . The density is then given by:
+
+  
+    
+      
+        p
+        (
+        x
+        ∣
+        ν
+        ,
+        
+          
+            
+              μ
+              ^
+            
+          
+        
+        ,
+        λ
+        )
+        =
+        
+          
+            
+              Γ
+              (
+              
+                
+                  
+                    ν
+                    +
+                    1
+                  
+                  2
+                
+              
+              )
+            
+            
+              Γ
+              (
+              
+                
+                  ν
+                  2
+                
+              
+              )
+            
+          
+        
+        
+          
+            (
+            
+              
+                λ
+                
+                  π
+                  ν
+                
+              
+            
+            )
+          
+          
+            
+              1
+              2
+            
+          
+        
+        
+          
+            (
+            
+              1
+              +
+              
+                
+                  
+                    λ
+                    (
+                    x
+                    −
+                    
+                      
+                        
+                          μ
+                          ^
+                        
+                      
+                    
+                    
+                      )
+                      
+                        2
+                      
+                    
+                  
+                  ν
+                
+              
+            
+            )
+          
+          
+            −
+            
+              
+                
+                  ν
+                  +
+                  1
+                
+                2
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle p(x\mid \nu ,{\hat {\mu }},\lambda )={\frac {\Gamma ({\frac {\nu +1}{2}})}{\Gamma ({\frac {\nu }{2}})}}\left({\frac {\lambda }{\pi \nu }}\right)^{\frac {1}{2}}\left(1+{\frac {\lambda (x-{\hat {\mu }})^{2}}{\nu }}\right)^{-{\frac {\nu +1}{2}}}.}
+  Other properties of this version of the distribution are:
+
+  
+    
+      
+        
+          
+            
+              
+                E
+                ⁡
+                (
+                X
+                )
+              
+              
+                
+                =
+                
+                  
+                    
+                      μ
+                      ^
+                    
+                  
+                
+              
+              
+              
+                
+                   for 
+                
+                ν
+                >
+                1
+              
+            
+            
+              
+                var
+                ⁡
+                (
+                X
+                )
+              
+              
+                
+                =
+                
+                  
+                    1
+                    λ
+                  
+                
+                
+                  
+                    ν
+                    
+                      ν
+                      −
+                      2
+                    
+                  
+                
+              
+              
+              
+                
+                   for 
+                
+                ν
+                >
+                2
+              
+            
+            
+              
+                mode
+                ⁡
+                (
+                X
+                )
+              
+              
+                
+                =
+                
+                  
+                    
+                      μ
+                      ^
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\operatorname {E} (X)&={\hat {\mu }}&&{\text{  for }}\nu >1\\[5pt]\operatorname {var} (X)&={\frac {1}{\lambda }}{\frac {\nu }{\nu -2}}&&{\text{  for }}\nu >2\\[5pt]\operatorname {mode} (X)&={\hat {\mu }}\end{aligned}}}
+  This distribution results from compounding a Gaussian distribution with mean 
+  
+    
+      
+        
+          
+            
+              μ
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\mu }}}
+   and unknown precision (the reciprocal of the variance), with a gamma distribution placed over the precision with parameters 
+  
+    
+      
+        a
+        =
+        ν
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle a=\nu /2}
+   and 
+  
+    
+      
+        b
+        =
+        ν
+        
+          /
+        
+        (
+        2
+        λ
+        )
+      
+    
+    {\displaystyle b=\nu /(2\lambda )}
+  . In other words, the random variable X is assumed to have a normal distribution with an unknown precision distributed as gamma, and then this is marginalized over the gamma distribution.
+
+
+== Related distributions ==
+If 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+   has a Student's t-distribution with degree of freedom 
+  
+    
+      
+        ν
+      
+    
+    {\displaystyle \nu }
+   then X2 has an F-distribution: 
+  
+    
+      
+        
+          X
+          
+            2
+          
+        
+        ∼
+        
+          F
+        
+        
+          (
+          
+            
+              ν
+              
+                1
+              
+            
+            =
+            1
+            ,
+            
+              ν
+              
+                2
+              
+            
+            =
+            ν
+          
+          )
+        
+      
+    
+    {\displaystyle X^{2}\sim \mathrm {F} \left(\nu _{1}=1,\nu _{2}=\nu \right)}
+  
+The noncentral t-distribution generalizes the t-distribution to include a location parameter.  Unlike the nonstandardized t-distributions, the noncentral distributions are not symmetric (the median is not the same as the mode).
+The discrete Student's t-distribution is defined by its probability mass function at r being proportional to:
+  
+    
+      
+        
+          ∏
+          
+            j
+            =
+            1
+          
+          
+            k
+          
+        
+        
+          
+            1
+            
+              (
+              r
+              +
+              j
+              +
+              a
+              
+                )
+                
+                  2
+                
+              
+              +
+              
+                b
+                
+                  2
+                
+              
+            
+          
+        
+        
+        
+        r
+        =
+        …
+        ,
+        −
+        1
+        ,
+        0
+        ,
+        1
+        ,
+        …
+        .
+      
+    
+    {\displaystyle \prod _{j=1}^{k}{\frac {1}{(r+j+a)^{2}+b^{2}}}\quad \quad r=\ldots ,-1,0,1,\ldots .}
+  
+Here a, b, and k are parameters. This distribution arises from the construction of a system of discrete distributions similar to that of the Pearson distributions for continuous distributions.One can generate Student-t samples by taking the ratio of variables from the normal distribution and the square-root of χ2-distribution. If we use instead of the normal distribution, e.g., the Irwin–Hall distribution, we obtain over-all a symmetric 4-parameter distribution, which includes the normal, the uniform, the triangular, the Student-t and the Cauchy distribution. This is also more flexible than some other symmetric generalizations of the normal distribution.
+
+
+== Uses ==
+
+
+=== In frequentist statistical inference ===
+Student's t-distribution arises in a variety of statistical estimation problems where the goal is to estimate an unknown parameter, such as a mean value, in a setting where the data are observed with additive errors.  If (as in nearly all practical statistical work) the population standard deviation of these errors is unknown and has to be estimated from the data, the t-distribution is often used to account for the extra uncertainty that results from this estimation.  In most such problems, if the standard deviation of the errors were known, a normal distribution would be used instead of the t-distribution.
+Confidence intervals and hypothesis tests are two statistical procedures in which the quantiles of the sampling distribution of a particular statistic (e.g. the standard score) are required.  In any situation where this statistic is a linear function of the data, divided by the usual estimate of the standard deviation, the resulting quantity can be rescaled and centered to follow Student's t-distribution.  Statistical analyses involving means, weighted means, and regression coefficients all lead to statistics having this form.
+Quite often, textbook problems will treat the population standard deviation as if it were known and thereby avoid the need to use the Student's t-distribution. These problems are generally of two kinds: (1) those in which the sample size is so large that one may treat a data-based estimate of the variance as if it were certain, and (2) those that illustrate mathematical reasoning, in which the problem of estimating the standard deviation is temporarily ignored because that is not the point that the author or instructor is then explaining.
+
+
+==== Hypothesis testing ====
+A number of statistics can be shown to have t-distributions for samples of moderate size under null hypotheses that are of interest, so that the t-distribution forms the basis for significance tests. For example, the distribution of Spearman's rank correlation coefficient ρ, in the null case (zero correlation) is well approximated by the t distribution for sample sizes above about 20.
+
+
+==== Confidence intervals ====
+Suppose the number A is so chosen that
+
+  
+    
+      
+        Pr
+        (
+        −
+        A
+        <
+        T
+        <
+        A
+        )
+        =
+        0.9
+        ,
+      
+    
+    {\displaystyle \Pr(-A<T<A)=0.9,}
+  when T has a t-distribution with n − 1 degrees of freedom.  By symmetry, this is the same as saying that A satisfies
+
+  
+    
+      
+        Pr
+        (
+        T
+        <
+        A
+        )
+        =
+        0.95
+        ,
+      
+    
+    {\displaystyle \Pr(T<A)=0.95,}
+  so A is the "95th percentile" of this probability distribution, or 
+  
+    
+      
+        A
+        =
+        
+          t
+          
+            (
+            0.05
+            ,
+            n
+            −
+            1
+            )
+          
+        
+      
+    
+    {\displaystyle A=t_{(0.05,n-1)}}
+  .  Then
+
+  
+    
+      
+        Pr
+        
+          (
+          
+            −
+            A
+            <
+            
+              
+                
+                  
+                    
+                      
+                        X
+                        ¯
+                      
+                    
+                    
+                      n
+                    
+                  
+                  −
+                  μ
+                
+                
+                  
+                    S
+                    
+                      n
+                    
+                  
+                  
+                    n
+                  
+                
+              
+            
+            <
+            A
+          
+          )
+        
+        =
+        0.9
+        ,
+      
+    
+    {\displaystyle \Pr \left(-A<{\frac {{\overline {X}}_{n}-\mu }{\frac {S_{n}}{\sqrt {n}}}}<A\right)=0.9,}
+  and this is equivalent to
+
+  
+    
+      
+        Pr
+        
+          (
+          
+            
+              
+                
+                  X
+                  ¯
+                
+              
+              
+                n
+              
+            
+            −
+            A
+            
+              
+                
+                  S
+                  
+                    n
+                  
+                
+                
+                  n
+                
+              
+            
+            <
+            μ
+            <
+            
+              
+                
+                  X
+                  ¯
+                
+              
+              
+                n
+              
+            
+            +
+            A
+            
+              
+                
+                  S
+                  
+                    n
+                  
+                
+                
+                  n
+                
+              
+            
+          
+          )
+        
+        =
+        0.9.
+      
+    
+    {\displaystyle \Pr \left({\overline {X}}_{n}-A{\frac {S_{n}}{\sqrt {n}}}<\mu <{\overline {X}}_{n}+A{\frac {S_{n}}{\sqrt {n}}}\right)=0.9.}
+  Therefore, the interval whose endpoints are
+
+  
+    
+      
+        
+          
+            
+              X
+              ¯
+            
+          
+          
+            n
+          
+        
+        ±
+        A
+        
+          
+            
+              S
+              
+                n
+              
+            
+            
+              n
+            
+          
+        
+      
+    
+    {\displaystyle {\overline {X}}_{n}\pm A{\frac {S_{n}}{\sqrt {n}}}}
+  is a 90% confidence interval for μ.  Therefore, if we find the mean of a set of observations that we can reasonably expect to have a normal distribution, we can use the t-distribution to examine whether the confidence limits on that mean include some theoretically predicted value – such as the value predicted on a null hypothesis.
+It is this result that is used in the Student's t-tests: since the difference between the means of samples from two normal distributions is itself distributed normally, the t-distribution can be used to examine whether that difference can reasonably be supposed to be zero.
+If the data are normally distributed, the one-sided (1 − α)-upper confidence limit (UCL) of the mean, can be calculated using the following equation:
+
+  
+    
+      
+        
+          
+            U
+            C
+            L
+          
+          
+            1
+            −
+            α
+          
+        
+        =
+        
+          
+            
+              X
+              ¯
+            
+          
+          
+            n
+          
+        
+        +
+        
+          t
+          
+            α
+            ,
+            n
+            −
+            1
+          
+        
+        
+          
+            
+              S
+              
+                n
+              
+            
+            
+              n
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \mathrm {UCL} _{1-\alpha }={\overline {X}}_{n}+t_{\alpha ,n-1}{\frac {S_{n}}{\sqrt {n}}}.}
+  The resulting UCL will be the greatest average value that will occur for a given confidence interval and population size. In other words, 
+  
+    
+      
+        
+          
+            
+              X
+              ¯
+            
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle {\overline {X}}_{n}}
+   being the mean of the set of observations, the probability that the mean of the distribution is inferior to UCL1−α is equal to the confidence level 1 − α.
+
+
+==== Prediction intervals ====
+The t-distribution can be used to construct a prediction interval for an unobserved sample from a normal distribution with unknown mean and variance.
+
+
+=== In Bayesian statistics ===
+The Student's t-distribution, especially in its three-parameter (location-scale) version, arises frequently in Bayesian statistics as a result of its connection with the normal distribution.  Whenever the variance of a normally distributed random variable is unknown and a conjugate prior placed over it that follows an inverse gamma distribution, the resulting marginal distribution of the variable will follow a Student's t-distribution.  Equivalent constructions with the same results involve a conjugate scaled-inverse-chi-squared distribution over the variance, or a conjugate gamma distribution over the precision.  If an improper prior proportional to σ−2 is placed over the variance, the t-distribution also arises. This is the case regardless of whether the mean of the normally distributed variable is known, is unknown distributed according to a conjugate normally distributed prior, or is unknown distributed according to an improper constant prior.
+Related situations that also produce a t-distribution are:
+
+The marginal posterior distribution of the unknown mean of a normally distributed variable, with unknown prior mean and variance following the above model.
+The prior predictive distribution and posterior predictive distribution of a new normally distributed data point when a series of independent identically distributed normally distributed data points have been observed, with prior mean and variance as in the above model.
+
+
+=== Robust parametric modeling ===
+The t-distribution is often used as an alternative to the normal distribution as a model for data, which often has heavier tails than the normal distribution allows for; see e.g. Lange et al. The classical approach was to identify outliers and exclude or downweight them in some way. However, it is not always easy to identify outliers (especially in high dimensions), and the t-distribution is a natural choice of model for such data and provides a parametric approach to robust statistics.
+A Bayesian account can be found in Gelman et al. The degrees of freedom parameter controls the kurtosis of the distribution and is correlated with the scale parameter. The likelihood can have multiple local maxima and, as such, it is often necessary to fix the degrees of freedom at a fairly low value and estimate the other parameters taking this as given. Some authors report that values between 3 and 9 are often good choices. Venables and Ripley suggest that a value of 5 is often a good choice.
+
+
+== Table of selected values ==
+The following table lists values for t-distributions with ν degrees of freedom for a range of one-sided or two-sided critical regions. The first column is ν, the percentages along the top are confidence levels, and the numbers in the body of the table are the 
+  
+    
+      
+        
+          t
+          
+            α
+            ,
+            n
+            −
+            1
+          
+        
+      
+    
+    {\displaystyle t_{\alpha ,n-1}}
+   factors described in the section on confidence intervals.
+Note that the last row with infinite ν gives critical points for a normal distribution since a t-distribution with infinitely many degrees of freedom is a normal distribution. (See Related distributions above).
+
+Calculating the confidence interval
+Let's say we have a sample with size 11, sample mean 10, and sample variance 2. For 90% confidence with 10 degrees of freedom, the one-sided t-value from the table is 1.372. Then with confidence interval calculated from
+
+  
+    
+      
+        
+          
+            
+              X
+              ¯
+            
+          
+          
+            n
+          
+        
+        ±
+        
+          t
+          
+            α
+            ,
+            ν
+          
+        
+        
+          
+            
+              S
+              
+                n
+              
+            
+            
+              n
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle {\overline {X}}_{n}\pm t_{\alpha ,\nu }{\frac {S_{n}}{\sqrt {n}}},}
+  we determine that with 90% confidence we have a true mean lying below
+
+  
+    
+      
+        10
+        +
+        1.372
+        
+          
+            
+              2
+            
+            
+              11
+            
+          
+        
+        =
+        10.585.
+      
+    
+    {\displaystyle 10+1.372{\frac {\sqrt {2}}{\sqrt {11}}}=10.585.}
+  In other words, 90% of the times that an upper threshold is calculated by this method from particular samples, this upper threshold exceeds the true mean.
+And with 90% confidence we have a true mean lying above
+
+  
+    
+      
+        10
+        −
+        1.372
+        
+          
+            
+              2
+            
+            
+              11
+            
+          
+        
+        =
+        9.414.
+      
+    
+    {\displaystyle 10-1.372{\frac {\sqrt {2}}{\sqrt {11}}}=9.414.}
+  In other words, 90% of the times that a lower threshold is calculated by this method from particular samples, this lower threshold lies below the true mean.
+So that at 80% confidence (calculated from 100% − 2 × (1 − 90%) = 80%), we have a true mean lying within the interval
+
+  
+    
+      
+        
+          (
+          
+            10
+            −
+            1.372
+            
+              
+                
+                  2
+                
+                
+                  11
+                
+              
+            
+            ,
+            10
+            +
+            1.372
+            
+              
+                
+                  2
+                
+                
+                  11
+                
+              
+            
+          
+          )
+        
+        =
+        (
+        9.414
+        ,
+        10.585
+        )
+        .
+      
+    
+    {\displaystyle \left(10-1.372{\frac {\sqrt {2}}{\sqrt {11}}},10+1.372{\frac {\sqrt {2}}{\sqrt {11}}}\right)=(9.414,10.585).}
+  Saying that 80% of the times that upper and lower thresholds are calculated by this method from a given sample, the true mean is both below the upper threshold and above the lower threshold is not the same as saying that there is an 80% probability that the true mean lies between a particular pair of upper and lower thresholds that have been calculated by this method; see confidence interval and prosecutor's fallacy.
+Nowadays, statistical software, such as the R programming language, and functions available in many spreadsheet programs compute values of the t-distribution and its inverse without tables.
+
+
+== See also ==
+
+
+== Notes ==
+
+
+== References ==
+Senn, S.; Richardson, W. (1994). "The first t-test". Statistics in Medicine. 13 (8): 785–803. doi:10.1002/sim.4780130802. PMID 8047737.
+Hogg RV, Craig AT (1978). Introduction to Mathematical Statistics (4th ed.). New York: Macmillan. ASIN B010WFO0SA.
+Venables, W. N.; Ripley, B. D. (2002). Modern Applied Statistics with S (Fourth ed.). Springer.
+Gelman, Andrew; John B. Carlin; Hal S. Stern; Donald B. Rubin (2003). Bayesian Data Analysis (Second Edition). CRC/Chapman & Hall. ISBN 1-58488-388-X.
+
+
+== External links ==
+Hazewinkel, Michiel, ed. (2001) [1994], "Student distribution", Encyclopedia of Mathematics, Springer Science+Business Media B.V. / Kluwer Academic Publishers, ISBN 978-1-55608-010-4
+Earliest Known Uses of Some of the Words of Mathematics (S) (Remarks on the history of the term "Student's distribution")
+Rouaud, M. (2013), Probability, Statistics and Estimation (PDF) (short ed.) First Students on page 112.

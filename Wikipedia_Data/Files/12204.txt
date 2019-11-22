@@ -1,0 +1,219 @@
+Title: Focke-Wulf Fw 190
+Aspects: {'R63'}
+
+The Focke-Wulf Fw 190 Würger (English: Shrike) is a German single-seat, single-engine fighter aircraft designed by Kurt Tank in the late 1930s and widely used during World War II. Along with its well-known counterpart, the Messerschmitt Bf 109, the Fw 190 became the backbone of the Luftwaffe's Jagdwaffe (Fighter Force). The twin-row BMW 801 radial engine that powered most operational versions enabled the Fw 190 to lift larger loads than the Bf 109, allowing its use as a day fighter, fighter-bomber, ground-attack aircraft and, to a lesser degree, night fighter.
+The Fw 190A started flying operationally over France in August 1941, and quickly proved superior in all but turn radius to the Royal Air Force's main front-line fighter, the Spitfire Mk. V, particularly at low and medium altitudes. The 190 maintained superiority over Allied fighters until the introduction of the improved Spitfire Mk. IX. In November/December 1942, the Fw 190 made its air combat debut on the Eastern Front, finding much success in fighter wings and specialised ground attack units called Schlachtgeschwader (Battle Wings or Strike Wings) from October 1943 onwards.
+The Fw 190A series' performance decreased at high altitudes (usually 6,000 m (20,000 ft) and above), which reduced its effectiveness as a high-altitude interceptor. From the Fw 190's inception, there had been ongoing efforts to address this with a turbosupercharged BMW 801 in the B model, the much longer-nosed C model with efforts to also turbocharge its chosen Daimler-Benz DB 603 inverted V12 powerplant, and the similarly long-nosed D model with the Junkers Jumo 213. Problems with the turbocharger installations on the -B and -C subtypes meant only the D model entered service in September 1944. While these "long nose" versions gave the Germans parity with Allied opponents, they arrived too late to affect the outcome of the war.
+The Fw 190 was well-liked by its pilots. Some of the Luftwaffe's most successful fighter aces claimed many of their kills while flying it, including Otto Kittel, Walter Nowotny and Erich Rudorffer. The Fw 190 provided greater firepower than the  Bf 109 and, at low to medium altitude, superior manoeuvrability, in the opinion of German pilots who flew both fighters. It was regarded as one of the best fighter planes of World War II.
+
+
+== Early development ==
+
+
+=== Genesis ===
+Between 1934 and 1935 the German Ministry of Aviation (RLM) ran a contest to produce a modern fighter for the rearming Luftwaffe. Kurt Tank entered the parasol-winged Fw 159 into the contest, against the Arado Ar 80, Heinkel He 112 and Messerschmitt Bf 109. The Fw 159 was hopelessly outclassed, and was soon eliminated from the competition along with the Ar 80. The He 112 and Bf 109 were generally similar in design but the 109's lightweight construction gave it a performance edge the 112 was never able to match. On 12 March 1936 the 109 was declared the winner.
+Even before the 109 had entered squadron service, in autumn 1937 the RLM sent out a new tender asking various designers for a new fighter to fight alongside the Bf 109, as Walter Günther had done with his firm's follow-on to the unsuccessful He 100 and He 112. Although the Bf 109 was an extremely competitive fighter, the Ministry was worried that future foreign designs might outclass it, and wanted to have new aircraft under development to meet these possible challenges. Kurt Tank responded with a number of designs, most based around a liquid-cooled inline engine.
+However, it was not until a design was presented using the air-cooled, 14-cylinder BMW 139 radial engine that the Ministry of Aviation's interest was aroused. As this design used a radial engine, it would not compete with the inline-powered Bf 109 for engines, when there were already too few Daimler-Benz DB 601s to go around. This was not the case for competing designs like the Heinkel He 100 or twin-engined Focke-Wulf Fw 187, where production would compete with the 109 and Messerschmitt Bf 110 for engine supplies. After the war, Tank denied a rumour that he had to "fight a battle" with the Ministry to convince them of the radial engine's merits.
+
+
+=== Design concepts ===
+At the time, the use of radial engines in land-based fighters was relatively rare in Europe, as it was believed that their large frontal area would cause too much drag on something as small as a fighter. Tank was not convinced of this, having witnessed the successful use of radial engines by the U.S. Navy, and felt a properly streamlined installation would eliminate this problem.The hottest points on any air-cooled engine are the cylinder heads, located around the circumference of a radial engine. In order to provide sufficient air to cool the engine, airflow had to be maximized at this outer edge. This was normally accomplished by leaving the majority of the front face of the engine open to the air, causing considerable drag. During the late 1920s, NACA led development of a dramatic improvement by placing an airfoil-shaped ring around the outside of the cylinder heads (the NACA cowling). The shaping accelerated the air as it entered the front of the cowl, increasing the total airflow, and allowing the opening in front of the engine to be made smaller.Tank introduced a further refinement to this basic concept. He suggested placing most of the airflow components on the propeller, in the form of an oversized propeller spinner whose outside diameter was the same as the engine. The cowl around the engine proper was greatly simplified, essentially a basic cylinder. Air entered through a small hole at the centre of the spinner, and was directed through ductwork in the spinner so it was blowing rearward along the cylinder heads. To provide enough airflow, an internal cone was placed in the centre of the hole, over the propeller hub, which was intended to compress the airflow and allow a smaller opening to be used. In theory, the tight-fitting cowling also provided some thrust due to the compression and heating of air as it flowed through the cowling.As to the rest of the design philosophy, Tank wanted something more than an aircraft built only for speed. Tank outlined the reasoning:
+
+The Messerschmitt 109  [sic] and the British Spitfire, the two fastest fighters in world at the time we began work on the Fw 190, could both be summed up as a very large engine on the front of the smallest possible airframe; in each case armament had been added almost as an afterthought. These designs, both of which admittedly proved successful, could be likened to racehorses: given the right amount of pampering and easy course, they could outrun anything. But the moment the going became tough they were liable to falter. During World War I, I served in the cavalry and in the infantry. I had seen the harsh conditions under which military equipment had to work in wartime. I felt sure that a quite different breed of fighter would also have a place in any future conflict: one that could operate from ill-prepared front-line airfields; one that could be flown and maintained by men who had received only short training; and one that could absorb a reasonable amount of battle damage and still get back. This was the background thinking behind the Focke-Wulf 190; it was not to be a racehorse but a Dienstpferd, a cavalry horse.
+
+In contrast to the complex, failure-prone fuselage mounted main gear legs of the earlier Fw 159, one of the main features of the Fw 190 was its wide-tracked, inwards-retracting landing gear. They were designed to withstand a sink rate of 4.5 meters per second (15 feet per second, 900 feet per minute), double the strength factor usually required. Hydraulic wheel brakes were used. The wide-track undercarriage produced better ground handling characteristics, and the Fw 190 suffered fewer ground accidents than the Bf 109. (The Bf 109's narrow-track, outwards-retracting landing gear hinged on its wing root structure to help lower weight, but this led to inherent weakness and many failures and ground loops.) The Fw 190's retractable tail gear used a cable, anchored to the "elbow" at the midpoint of the starboard maingear's transverse retraction arms, which ran aftwards within the fuselage to the vertical fin to operate the tailwheel retraction function. The tailwheel's retraction mechanical design possessed a set of pulleys to guide the aforementioned cable to the top of the tailwheel's oleo strut, pulling it upwards along a diagonal track within the fin, into the lower fuselage — this mechanism was accessible through a prominently visible triangular-shaped hinged panel, on the left side in the fin's side sheetmetal covering. On some versions of the Fw 190 an extended tailwheel oleo strut could be fitted for larger-sized loads (such as bombs or even a torpedo) beneath the fuselage.Most aircraft of the era used cables and pulleys to operate their controls. The cables tended to stretch, resulting in the sensations of "give" and "play" that made the controls less crisp and responsive, and required constant maintenance to correct. For the new design, the team replaced the cables with rigid pushrods and bearings to eliminate this problem. Another innovation was making the controls as light as possible. The maximum resistance of the ailerons was limited to 3.5 kg (8 lb), as the average man's wrist could not exert a greater force. The empennage (tail assembly) featured relatively small and well-balanced horizontal and vertical surfaces.The design team also attempted to minimize changes in the aircraft's trim at varying speeds, thus reducing the pilot's workload. They were so successful in this regard that they found in-flight-adjustable aileron and rudder trim tabs were not necessary. Small, fixed tabs were fitted to control surfaces and adjusted for proper balance during initial test flights. Only the elevator trim needed to be adjusted in flight (a feature common to all aircraft). This was accomplished by tilting the entire horizontal tailplane with an electric motor, with an angle of incidence ranging from −3° to +5°.Another aspect of the new design was the extensive use of electrically powered equipment instead of the hydraulic systems used by most aircraft manufacturers of the time. On the first two prototypes, the main landing gear was hydraulic. Starting with the third prototype, the undercarriage was operated by push buttons controlling electric motors in the wings, and was kept in position by electric up and down-locks. The armament was also loaded and fired electrically. Tank believed that service use would prove that electrically powered systems were more reliable and more rugged than hydraulics, electric lines being much less prone to damage from enemy fire.Like the Bf 109, the Fw 190 featured a fairly small wing planform with relatively high wing loading. This presents a trade-off in performance. An aircraft with a smaller wing suffers less drag under most flight conditions and therefore flies faster and may have better range. However, it also means the aircraft has a higher stalling speed making it less maneuverable, and also reduces performance in the thinner air at higher altitudes. The wings spanned 9.5 m (31 ft 2 in) and had an area of 15 m2 (161 ft2). The wing was designed using the NACA 23015.3 airfoil at the root and the NACA 23009 airfoil at the tip.Earlier aircraft designs generally featured canopies consisting of small plates of perspex (called Plexiglas in the United States) in a metal "greenhouse" framework, with the top of the canopy even with the rear fuselage - this was true of the IJNAS Mitsubishi A6M Zero, whose otherwise "all-around view" canopy was still heavily framed. This design considerably limited visibility, especially to the rear. The introduction of vacuum forming led to the creation of the "bubble canopy" which was largely self-supporting, and could be mounted over the cockpit, offering greatly improved all-round visibility. Tank's design for the Fw 190 used a canopy with a frame that ran around the perimeter, with only a short, centerline seam along the top, running rearward from the radio antenna fitting where the three-panel windscreen and forward edge of the canopy met, just in front of the pilot.
+The eventual choice of the BMW 801 14-cylinder radial over the more troublesome BMW 139 also brought with it a BMW-designed cowling "system" which integrated the radiator used to cool the motor oil. An annular, ring-shaped oil cooler core was built into the BMW-provided forward cowl, just behind the fan. The outer portion of the oil cooler's core was in contact with the main cowling's sheet metal. Comprising the BMW-designed forward cowl, in front of the oil cooler was a ring of metal with a C-shaped cross-section, with the outer lip lying just outside the rim of the cowl, and the inner side on the inside of the oil cooler core. Together, the metal ring and cowling formed an S-shaped duct with the oil cooler's core contained between them. Airflow past the gap between the cowl and outer lip of the metal ring produced a vacuum effect that pulled air from the front of the engine forward across the oil cooler core to provide cooling for the 801's motor oil. The rate of cooling airflow over the core could be controlled by moving the metal ring in order to open or close the gap. The reasons for this complex system were threefold. One was to reduce any extra aerodynamic drag of the oil radiator, in this case largely eliminating it by placing it within the same cowling as the engine. The second was to warm the air before it flowed to the radiator to aid warming the oil during starting. Finally, by placing the radiator behind the fan, cooling was provided even while the aircraft was parked. The disadvantage to this design was that the radiator was in an extremely vulnerable location, and the metal ring was increasingly armoured as the war progressed.
+
+
+== Variants ==
+
+
+=== First prototypes (BMW 139) ===
+
+Fw 190 V1
+(civil registration D-OPZE), powered by a 1,550 PS  (1,529 hp, 1,140 kW) BMW 139 14-cylinder two-row radial engine. D-OPZE first flew on 1 June 1939.Fw 190 V2
+Designated with the Stammkennzeichen alphabetic ID code of FL+OZ (later RM+CB) the V2 first flew on 31 October 1939 and was equipped from the outset with the new spinner and cooling fan. It was armed with one Rheinmetall-Borsig 7.92 mm (.312 in) MG 17 machine gun and one 13 mm (.51 in) synchronized MG 131 machine gun in each wing root.Fw 190 V3
+Abandoned
+Fw 190 V4
+Abandoned
+
+
+=== Later prototypes (BMW 801) ===
+
+Fw 190 V5
+Fitted with the larger, more powerful 14-cylinder two-row BMW 801 radial engine. This engine introduced a pioneering example of an engine management system called the Kommandogerät (command-device) designed by BMW, who also designed the 801's forward cowling with its integral oil cooling system: the Kommandogerät functioned in effect as an electro-mechanical computer which set mixture, propeller pitch (for the constant-speed propeller), boost, and magneto timing.Fw 190 V5k
+(kleine Fläche — small surface) The smaller span initial variant re-designated after the longer span wing was fitted. The V5 first flew in the early spring of 1940. The weight increase with all of the modifications was substantial, about 635 kg (1,400 lb), leading to higher wing loading and a deterioration in handling. Plans were made to create a new wing with more area to address these issues.Fw 190 V5g
+(große Fläche — large surface) In August 1940 a collision with a ground vehicle damaged the V5 and it was sent back to the factory for major repairs. This was an opportune time to rebuild it with a new wing which was less tapered in plan than the original design, extending the leading and trailing edges outward to increase the area. The new wing had an area of 18.30 m2 (197 ft2), and now spanned 10.506 m (34 ft 5 in). After conversion, the aircraft was called the V5g for große Fläche (large surface). Although it was 10 km/h (6 mph) slower than when fitted with the small wing, V5g was much more manoeuvrable and had a faster climb rate. This new wing platform was to be used for all major production versions of the Fw 190.
+
+
+=== Fw 190 A ===
+
+Fw 190 A-0
+The pre-production Fw 190 A-0 series was ordered in November 1940, a total of 28 being completed. Because they were built before the new wing design was fully tested and approved, the first nine A-0s retained the original small wings. All were armed with six 7.92 mm (.312 in) MG 17 machine guns — four synchronised weapons, two in the forward fuselage and one in each wing root, supplemented by a free-firing MG 17 in each wing, outboard of the propeller disc.
+Fw 190 A-1
+The Fw 190 A-1 was in production from June 1941. It was powered by the BMW 801 C-1 engine, rated at 1,560 PS (1,539 hp, 1,147 kW) for take-off. Armament included two fuselage-mounted 7.92 mm (.312 in) MG 17s and two wing root-mounted 7.92 mm (.312 in) MG 17s (with all four MG 17s synchronized to fire through the propeller arc) and two outboard wing-mounted 20 mm MG FF/Ms.
+Fw 190 A-2
+The introduction of the BMW 801 C-2 resulted in the Fw 190 A-2 model, first introduced in October 1941. The A-2 wing weaponry was updated, with the two wing root-mounted 7.92 mm (.312 in) MG 17s being replaced by 20 mm MG 151/20E cannon.
+Fw 190 A-3
+The Fw 190 A-3 was equipped with the BMW 801 D-2 engine, which increased power to 1,700 PS (1,677 hp, 1,250 kW) at takeoff. The A-3 retained the same weaponry as the A-2.Fw 190 A-3/Umrüst-Bausatz 1 (/U1) — (W.Nr 130 270) was the first 190 to have the engine mount extended by 15 cm (6 in), which would be standardized on the later production A-5 model.Fw 190 A-3/U2 — The A-3/U2 (W.Nr 130386) had  RZ 65 73 mm (2.87 in) rocket launcher racks under the wings with three rockets per wing. There were also a small number of U7 aircraft tested as high-altitude fighters armed with only two 20 mm MG 151 cannon, but with reduced overall weight.Fw 190 A-3/U3 — The A-3/U3 was the first of the Jabo (Jagdbomber), using an ETC-501 centre-line bomb rack able to carry up to 500 kg (1,100 lb) of bombs or, with horizontal stabilising bars, one 300 L (80 US gal) standard Luftwaffe drop tank. The U3 retained the fuselage-mounted 7.92 mm (.312 in) MG 17s and the wing-mounted 20 mm MG 151 cannon, with the outer MG FF being removed.Fw 190 A-3/U4 — The A-3/U4 was a reconnaissance version with two RB 12.5 cameras in the rear fuselage and a EK 16 gun camera or a Robot II miniature camera in the leading edge of the port wing root. Armament was similar to the U3, however, and the ETC 501 was usually fitted with the standardized Luftwaffe 300 litre-capacity (80 US gal) drop tank.Fw 190 A-3a
+(a=ausländisch — foreign) In autumn 1942, 72 new aircraft were delivered to Turkey in an effort to keep that country friendly to the Axis powers. These were designated Fw 190 A-3a, designation for export models and delivered between October 1942 and March 1943.
+Fw 190 A-4
+Introduced in July 1942, the  A-4 was equipped with the same engine and basic armament as the A-3.Fw 190 A-4/Rüstsatz 6 (/R6) — Some A-4s were fitted with a pair of under-wing Werfer-Granate 21 (BR 21) rocket mortars, and were designated Fw 190 A-4/R6.Fw 190 A-4/U1 — The A-4/U1 was outfitted with an ETC 501 rack under the fuselage. All armament except the MG 151 cannon was removed.Fw 190 A-4/U3 — The A-4/U3 was very similar to the U1, and later served as the prototype for the Fw 190 F-1 assault fighter.Fw 190 A-4/U4 — The A-4/U4 was a reconnaissance fighter, with two Rb 12.4 cameras in the rear fuselage and an EK 16 or Robot II gun camera. The U4 was equipped with fuselage-mounted 7.92 mm (.312 in) MG 17s and 20 mm MG 151 cannon.Fw 190 A-4/U7 — The A-4/U7 was a high-altitude fighter, easily identified by the compressor air intakes on either side of the cowling. Adolf Galland flew a U7 in the spring of 1943.Fw 190 A-4/U8 — The A-4/U8 was the Jabo-Rei (Jagdbomber Reichweite, long-range fighter-bomber), adding twin standard Luftwaffe 300 L (80 US gal) drop tanks, one under each wing, on VTr-Ju 87 racks with duralumin fairings produced by Weserflug, and a centreline bomb rack. The outer wing-mounted 20 mm MG FF/M cannon and the cowling-mounted 7.92 mm (.312 in) MG 17 were removed to save weight. The A-4/U8 was the precursor of the Fw 190 G-1.Fw 190 A-4/R1 — The A-4/R1, was fitted with a FuG 16ZY radio set with a Morane "whip" aerial fitted under the port wing. These aircraft, called Leitjäger or Fighter Formation Leaders, could be tracked and directed from the ground via special R/T equipment called Y-Verfahren (Y-Control). More frequent use of this equipment was made from the A-5 onwards.
+Fw 190 A-5
+The  A-5 was developed after it was determined that the Fw 190 could easily carry more ordnance. The D-2 engine was moved forward another 15 cm (6 in) as had been tried out earlier on the service test A-3/U1 aircraft, moving the centre of gravity forward to allow more weight to be carried aft.Fw 190 A-5/U2 — The A-5/U2 was designed as a night Jabo-Rei and featured anti-reflective fittings and exhaust flame dampers. A centre-line ETC 501 rack typically held a 250 kg (550 lb) bomb, and wing-mounted racks mounted 300 L drop tanks. A EK16 gun camera, as well as landing lights, were fitted to the wing leading edge. The U2 was armed with only two 20 mm MG 151 cannon.Fw 190 A-5/U3 — The A-5/U3 was a Jabo fighter fitted with ETC 501s for drop tanks and bombs; it too featured only two MG 151s for armament.Fw 190 A-5/U4 — The A-5/U4 was a "recon" fighter with two RB 12.5 cameras and all armament of the basic A-5 with the exception of the MG FF cannon.Fw 190 A-5/U8 — The A-5/U8 was another Jabo-Rei outfitted with SC-250 centreline-mounted bombs, under-wing 300-litre drop tanks and only two MG 151s; it later became the Fw 190 G-2.Fw 190 A-5/U9 — Test installation of the A-7 modifications.Fw 190 A-5/U12 — A special U12 was created for bomber attack, outfitted with the standard 7.92 mm (.312 in) MG 17 and 20 mm MG 151 but replacing the outer wing 20 mm MG-FF cannon with two underwing gun pods containing two 20 mm MG 151/20 each, for a total of two machine guns and six cannon.Fw 190 A-5/R11 — The A-5/R11 was a night fighter conversion fitted with FuG 217 Neptun (Neptune) radar equipment with arrays of three dipole antenna elements vertically mounted fore and aft of the cockpit and above and below the wings. Flame-dampening boxes were fitted over the exhaust exits. 1,752 A-5s were built from November 1942 to June 1943.Fw 190 A-6
+The A-6 was developed to address shortcomings found in previous "A" models when attacking U.S. heavy bombers. A structurally redesigned and lighter wing was introduced and the normal armament was increased to two MG 17 fuselage machine guns and four 20 mm MG 151/20E wing root and outer wing cannon with larger ammunition boxes.Fw 190 A-7
+The A-7 entered production in November 1943, equipped with the BMW 801 D-2 engine, again producing 1,700 PS (1,677 hp, 1,250 kW) and two fuselage-mounted 13 mm (.51 in) MG 131s, replacing the MG 17s.
+Fw 190 A-8
+The A-8 entered production in February 1944, powered either by the standard BMW 801 D-2 or the 801Q (also known as 801TU). The 801Q/TU, with the "T" signifying a Triebwerksanlage unitized powerplant installation, was a standard 801D with improved, thicker armour on the BMW-designed front annular cowling, which still incorporated the BMW-designed oil cooler, upgraded from 6 mm (.24 in) on earlier models to 10 mm (.39 in). Changes introduced in the Fw 190 A-8 also included the C3-injection Erhöhte Notleistung emergency boost system to the fighter variant of the Fw 190 A (a similar system with less power had been fitted to some earlier Jabo variants of the 190 A), raising power to 1,980 PS (1,953 hp, 1,456 kW) for a short time.
+Fw 190 A-8/R2 — The A-8/R2 replaced the outer wing 20 mm cannon with a 30 mm (1.18 in) MK 108 cannon.Fw 190 A-8/R4 — The A-8/R4 featured GM1 nitrous boost to the standard BMW 801 D/Q engine. GM1 (nitrous oxide) injection increased power for short amounts of time, up to 10 minutes at a time. A 20 minute supply was usually carried.Fw 190 A-8/R8 — The A-8/R8 was similar to the A-8/R2, but fitted with heavy armour including 30 mm (1.18 in) canopy and windscreen armour and 5 mm (.2 in) cockpit armour.Fw 190 A-9
+First built in September 1944, the Fw 190 A-9 was fitted with the new BMW 801S rated at 2,000 PS (1,973 hp, 1,471 kW); the more powerful 2,400 PS (2,367 hp, 1,765 kW) 801F-1 was still under development, and not yet available.Fw 190 A-10
+Late in the war, the A-10 was fitted with larger wings for better maneuverability at higher altitudes, which could have allowed additional 30 mm (1.18 in) calibre, long-barreled MK 103 cannon to be fitted.A total of 13,291 Fw 190 A-model aircraft were produced.
+
+
+=== High-altitude developments ===
+
+Tank started looking at ways to address the altitude performance problem early in the program. In 1941, he proposed a number of versions featuring new powerplants, and he suggested using turbochargers in place of superchargers. Three such installations were outlined
+
+Fw 190 V12
+(an A-0) would be outfitted with many of the elements which eventually led to the B series.Fw 190 V13
+(W.Nr. 0036) first C-series prototype
+Fw 190 V15
+(W.Nr. 0036) second C-series prototype
+Fw 190 V16
+(W.Nr. 0036) third C-series prototype
+Fw 190 V18
+(W.Nr. 0036) fourth C-series prototypeFw 190 B-0
+With a turbocharged BMW 801Fw 190 B-1
+This aircraft was similar to the B-0, but had slightly different armament. In its initial layout, the B-1 was to be fitted with four 7.92 mm (.312 in) MG 17s and two 20 mm MG-FFs. One was fitted with two MG 17s, two 20 mm MG 151s and two 20 mm MG-FFs. After the completion of W.Nr. 811, no further Fw 190 B models were ordered.
+Fw 190 C
+With a turbocharged Daimler-Benz DB 603, the tail of the aircraft had to be lengthened in order to maintain the desired centre of gravity. Four additional prototypes based on the V18/U1 followed: V29, V30, V32 and V33.Fw 190 D
+The Fw 190 D (nicknamed Dora; or Long-Nose Dora ("Langnasen-Dora") was intended as the high-altitude performance version of the A-series.Fw 190 D-0
+The first D-0 prototype was completed in October 1942 with a supercharged Junkers Jumo 213 including a pressurized cockpit and other features making them more suitable for high-altitude work.
+Fw 190 D-1
+Initial productionFw 190 D-2
+Initial productionFw 190 D-9
+The D-9 series was rarely used against heavy-bomber raids, as the circumstances of the war in late 1944 meant that fighter-versus-fighter combat and ground attack missions took priority. This model was the basis for the follow-on Focke-Wulf Ta 152 aircraft.Fw 190 D-11
+Fitted with the up-rated Jumo 213F series engine similar to the Jumo 213E used in the Ta-152 H series but minus the intercooler. Two 30 mm (1.18 in) MK 108 cannons were installed in the outer wings to complement the 20 mm MG 151s in the inboard positions.
+Fw 190 D-12
+Similar to the D-11, but featured the 30 mm (1.18 in) MK 108 cannon in a Motorkanone installation firing through the propeller hub.Fw 190 D-13
+The D-13 would be fitted with a 20 mm MG 151/20 motor cannon.
+
+
+=== Ground attack versions (BMW 801) ===
+Fw 190 F
+The Fw 190F configuration was originally tested in a Fw 190 A-0/U4, starting in May 1942, fitted with centre-line and wing-mounted bomb racks.Fw 190 F-1
+Renamed A-4/U3s of which 18 were builtFw 190 F-2
+Renamed A-5/U3s, of which 270 were built according to Focke-Wulf production logs and Ministry of Aviation acceptance reports.Fw 190 F-3
+Developed under the designation Fw 190 A-5/U17, which was outfitted with a centreline mounted ETC 501 bomb rack. The Fw 190 F-3/R1 it had two additional ETC 50 bomb racks under each wing. The F-3 could carry a 66-Imp gal (300 liter) drop tank. A total of 432 Fw 190 F-3s were built.Fw 190 F-4 to F-7
+designations used for projects.
+
+Fw 190 F-8
+Based on the A-8 Fighter, having a slightly modified injector on the compressor which allowed for increased performance at lower altitudes for several minutes. Armament of the Fw 190 F-8 was two 20 mm MG 151/20 cannon in the wing roots and two 13 mm (.51 in) MG 131 machine guns above the engine. It was outfited with an ETC 501 Bomb rack as centerline mount and four ETC 50 bomb racks as underwing mounts.Fw 190 F-8/U1 — long range JaBo, fitted with underwing V.Mtt-Schloß shackles to hold two of the Luftwaffe's standardized 300 L (80 US gal) drop tanks. ETC 503 bomb racks were also fitted, allowing the Fw 190 F-8/U1 to carry one SC 250 bomb under each wing and one SC 250 bomb on the centreline.Fw 190 F-8/U2 — prototype torpedo bomber, fitted with an ETC 503 bomb rack under each wing and a centre-line mounted ETC 504. The U2 was also equipped with the TSA 2 A weapons sighting system that improved the U2's ability to attack seaborne targets with a 700 kg (1,500 lb) BT 700.Fw 190 F-8/U3 — heavy torpedo bomber was outfitted with an ETC 502, which allowed it to carry one BT-1400 heavy torpedo (1,400 kg (3,100 lb)). Owing to the size of the torpedo, the U3's tail gear needed to be lengthened. The U3 also was fitted with the 2,000 PS BMW 801S engine, and the tail from the Ta 152.Fw 190 F-8/U4 — created as a night bomber, was equipped with flame dampers on the exhaust and various electrical systems such as the FuG 101 radio altimeter, the PKS 12 automatic pilot, and the TSA 2 A sighting system. The U4 was fitted with only two MG 151/20 cannon as fixed armament.Fw 190 F-8/R3 — project with two underwing mounted 30mm MK 103 cannon.Fw 190 F-9
+based on the Fw 190 A-9, equipped with a new bulged canopy as fitted to late-build F-8s and A-8s, and four ETC 50 or ETC 70 bomb racks under the wings. According to Ministry of Aviation acceptance reports, 147 F-9s were built in January 1945, and perhaps several hundred more from February to May 1945. (Data for these months is missing and probably lost.)
+Fw 190 G
+The Fw 190 G was built as a long-range attack aircraft (Jagdbomber mit vergrösserter Reichweite — abbreviated JaBo Rei). Following the success of the Fw 190 F as a Schlachtflugzeug (close support, or "strike aircraft"), both the Luftwaffe and Focke-Wulf began investigating ways of extending the range of the Fw 190 F. Approximately 1,300 Fw 190 Gs of all variants were new built.Fw 190 G-1
+The G-1 was renamed from A-4/U8 JaBo Rei's. Initial testing found that if all but two wing root mounted 20 mm MG 151 cannons (with reduced ammunition load) were removed, the Fw 190 G-1 (as it was now called) could carry a 250 kg (550 lb) or 500 kg (1,100 lb) bomb on the centreline and up to a 250 kg (550 lb) bomb under each wing.Fw 190 G-2
+The G-2 was renamed from Fw 190 A-5/U8 aircraft, similar to the G-1; the underwing drop tank racks were replaced with the much simpler V.Mtt-Schloß fittings, to allow for a number of underwing configurations.Fw 190 G-3
+The G-3 was based on A-6 with all but the two wing root mounted MG 151 cannons removed. The new V.Fw. Trg bombracks, however, allowed the G-3 to simultaneously carry fuel tanks and bomb loadsFw 190 G-3/R1 — The G-3/R1 replaced the V.Fw. Trg racks with a pair of Waffen-Behälter WB 151/20 conformal cannon pods; each mounting a pair of Mauser MG 151/20 autocannon, giving the G-3/R1 - with its existing pair of wing-root mounted, synchronized MG 151/20 autocannon, a total of six such ordnance pieces.Fw 190 G-3/R5 — The G-3/R5 was similar to the R1, but the V.Fw. Trg racks were removed, and two ETC 50 racks per wing were added.Fw 190 G-8
+The G-8 was based on the Fw 190 A-8, using the same "bubble" canopy as the F-8 and fitted with underwing ETC 503 racks that could carry either bombs or drop tanks.Fw 190 G-8/R4 — The G-8/R4 kit was a planned refit for the GM 1 engine boost system, but never made it into production.Fw 190 G-8/R5 — The G-8/R5 kit replaced the ETC 503 racks with two ETC 50 or 71 racks.
+
+
+=== Trainer versions ===
+
+Fw 190 A-5/U1
+Several old Fw 190 A-5s were converted by replacing the MW 50 tank with a second cockpit. The canopy was modified, replaced with a new three-section unit that opened to the side. The rear portion of the fuselage was closed off with sheet metal.Fw 190 A-8/U1
+A similar conversion to the A-5/U1.Fw 190 S-5
+A-5/U1 trainers re-designated.Fw 190 S-8
+A-8/U1 trainers re-designated. An estimated 58 Fw 190 S-5 and S-8 models were converted or built.
+
+
+== Combat history ==
+
+The Fw 190 participated on every major combat front where the Luftwaffe operated after 1941, and did so with success in a variety of roles.
+
+
+== Production ==
+A 0.40 km2 (100 acre) Focke-Wulf plant east of Marienburg was bombed by the Eighth Air Force on 9 October 1944. In addition, one of the most important sub-contractors for the radial-engined Fw 190s was AGO Flugzeugwerke, which from 1941 through to the end of the war produced enough Fw 190s to earn it major attention from the USAAF, with the AGO plant in Oschersleben being attacked at least five times during the war from 1943 onwards.
+
+
+== Surviving aircraft and modern replicas ==
+
+Some 28 original Fw 190s are in museums or in the hands of private collectors around the world.
+In 1997 a German company, Flug Werk GmbH, began manufacturing new Fw 190 models as reproductions. By 2012 almost 20 had been produced, most flyable, a few as static display models, with airworthy examples usually powered by Chinese-manufactured Shvetsov ASh-82 twin-row, 14-cylinder radial powerplants, which have a displacement of 41.2 litres, close to the BMW 801's 41.8 litres, with the same engine cylinder arrangement and number of cylinders.
+
+The nearly intact wreck of an Fw 190 A-5/U3 (Werknummer 151 227) that had crashed in a marsh in a forest near Saint Petersburg, Russia in 1943 was located in 1989. After restoration in the US, the Fw 190 flew again (with the original BMW 801 powerplant) on 1 December 2010. Following the successful test flight, the aircraft was then trucked up to the Flying Heritage & Combat Armor Museum, where it was reassembled in April 2011 and returned to airworthy condition.At least five surviving Fw 190A radial-engined aircraft are known to have been assigned to the Luftwaffe's JG 5 wing in Herdla, Norway.  More German fighter aircraft on display in museums in the 21st century have originated from this unit than from any other Axis Powers' military aviation unit of World War II.
+The Turkish Air Force retired all of its Fw 190A-3 fleet at the end of 1947 mostly because of lack of spare parts. It is rumored that American-Turkish bilateral agreements required retiring and scrapping of all German origin aircraft although this requirement did not exist for any other country. According to Hürriyet Daily News all of retired Fw 190s were saved from scrapping by wrapping them with protective cloths and burying them in the soil near the Aviation Supply and Maintenance Center at Kayseri city. Several attempts are supposed to have been made to find and move these aircraft to museums, none of them have been successful, which indicates the story is probably a hoax.
+
+
+== Operators ==
+
+ CzechoslovakiaCzechoslovakian Air Force (Postwar) FranceFrench Air Force — The French Air Force ordered 64 aircraft post-war from the SNCAC aircraft company. The Fw 190 A-5/A-6 model that was chosen carried the designation NC 900. The aircraft were used operationally for a short period and withdrawn due to problems with the BMW 801 engine.
+French Navy (Postwar) Nazi GermanyLuftwaffe HungaryRoyal Hungarian Air Force received a total of 72 Fw 190F-8s starting in November 1944. They were operated by the 102. vadászbombázó század, later 102. csatarepülő osztály (102nd Fighter-Bomber Squadron, later Wing) engaging in close-support missions on the Eastern Front in 1944–45. JapanJapanese Army Air Force received one Fw 190A-5 for evaluation purposes. Spanish StateSpanish Air Force — The Spanish Air Force operated Fw 190A-2,3,4 among Fw 190 A-8 and Gs with volunteers of Escuadrilla Azul (15ª Spanische Staffel, JG 51 "Mölders" VIII. Fliegerkorps, belonged in LuftFlotte 4) on the Eastern Front (from Orel during September 1942 to Bobruisk, during July 1943) and Defense of the Reich over Germany. RomaniaRoyal Romanian Air Force — Following the 23 August 1944 coup by King Michael, which resulted in Romania leaving the Axis powers, Romania captured 22 Luftwaffe Fw 190 As and Fs. They were not used operationally. Nine serviceable Fw 190s were later confiscated by the Soviet Union. TurkeyTurkish Air Force — Not entirely unlike Finland's Ilmavoimat air arm of the World War II years, the Turkish Air Force was the only air force, apart from the Finns, who operated both Allied and Axis aircraft throughout World War II. Beginning in mid-1942, received 72 examples of the Fw 190 A-3a (export model of A-3, a stood for ausländisch—foreign) from Germany to modernize their air force. These aircraft were basically Fw 190 A-3s, with BMW 801 D-2 engines and FuG VIIa radios and an armament fit of four MG 17s, with the option of installing two MG-FF/M cannon in the outer wing positions. The export order was completed between October 1942 and March 1943. The Fw 190 remained in service until the end of 1947 after that all of them had to be retired because of lack of spare parts. United KingdomRoyal Air Force — No. 1426 (Enemy Aircraft) Flight RAF evaluated at least one captured FW 190A-4. United StatesUnited States Army Air Forces and United States Navy – A small number of captured Fw 190As fell into American hands in Europe and North Africa, with one captured A-5 model, WkNr. 150 051, being flown for a time at the Patuxent Naval Air Test Center by the U.S. Navy during the war years. YugoslaviaSFR Yugoslav Air Force — Postwar, one aircraft.
+
+
+== Specifications (Fw 190 A-8) ==
+
+Data from Fw 190 A8, General characteristics
+Crew: 1
+Length: 8.95 m (29 ft 4 in)
+Wingspan: 10.506 m (34 ft 6 in)
+Height: 3.15 m (10 ft 4 in)
+Wing area: 18.3 m2 (197 sq ft)
+Airfoil: root: NACA 23015.3; tip: NACA 23009
+Empty weight: 3,200 kg (7,055 lb)
+Gross weight: 4,417 kg (9,738 lb)
+Max takeoff weight: 4,900 kg (10,803 lb)
+Powerplant: 1 × BMW 801D-2 14-cylinder air-cooled radial piston engine 1,700 PS (1,677 hp; 1,250 kW)
+Propellers: 3-bladed constant-speed propellerPerformance
+
+Maximum speed: 651 km/h (405 mph, 352 kn) at 5,919 m (19,420 ft)
+Range: 800 km (500 mi, 430 nmi)
+Service ceiling: 10,350 m (33,960 ft)
+Rate of climb: 15 m/s (3,000 ft/min)
+Wing loading: 241 kg/m2 (49 lb/sq ft)
+Power/mass: 0.29–0.33 kW/kg (0.18–0.20 hp/lb)Armament
+
+
+== See also ==
+
+Related development
+
+Focke-Wulf Ta 152Aircraft of comparable role, configuration and era
+
+Bloch MB.155
+Curtiss XP-42
+Grumman F6F Hellcat
+Heinkel He 100
+Kawanishi N1K
+Kawasaki Ki-60
+Lavochkin La-5
+Mikoyan-Gurevich MiG-1
+Nakajima Ki-44
+Polikarpov I-185
+Hawker Typhoon
+Mitsubishi J2M
+Yakovlev Yak-3U
+Related lists
+
+List of aircraft of World War II
+
+
+== References ==
+
+
+=== Notes ===
+
+
+=== Citations ===
+
+
+=== Bibliography ===
+
+
+== External links ==
+US evaluation of captured Fw 190 A-4 (PDF file)
+The Flying Heritage Collection's Fw 190A fires up its BMW 801 engine
+The Flying Heritage Collection's Fw 190D fires up its Jumo 213 engine
+Modeller's Guide to Focke-Wulf Fw 190 Variants, Radial Engine Versions Part I
+Modeller's Guide to Focke-Wulf Fw 190 Variants, Radial Engine Versions Part II
+YouTube video chronicling the history of the Flying Heritage Collection's WkNr 151 227 airworthy Fw 190

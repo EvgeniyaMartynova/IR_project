@@ -1,0 +1,345 @@
+Title: Honda L engine
+Aspects: {'L series'}
+
+The L-series is a compact inline-four engine created by Honda, introduced in 2001 with the Honda Fit. It has 1.2 L (1,198 cc), 1.3 L (1,318 cc) and 1.5 litres (1,497 cc) displacement variants, which utilize the names L12A, L13A and L15A. Depending on the region, these engines are sold throughout the world in the 5-door Honda Brio Fit/Jazz hatchback Honda Civic and the 4-door Fit Aria/City sedan (also known as Fit Saloon). They are also sold in the Japanese-only Airwave wagon and Mobilio MPV.
+Two different valvetrains are present on this engine series. The L12A, L13A and L15A use (Japanese: i-DSI), or “intelligent Dual & Sequential Ignition”. i-DSI utilizes two spark plugs per cylinder which fire at different intervals during the combustion process to achieve a more complete burn of the gasoline. This process allows the engine to have more power while keeping fuel consumption low, thanks to the better gasoline utilization. Emissions are also reduced. The i-DSI engines have two to five valves per cylinder and a modest redline of only 6,000 rpm, but reach maximum torque at mid-range rpm, allowing for better performance without having to rev the engine at high speeds. The i-DSI is also known for not using Turbochargers in the performance category, as  it uses a  high compression, long stroke with a lightweight and compact engine.
+The other valvetrain in use is the VTEC on one of the two varieties of the L15A. This engine is aimed more at performance than efficiency with a slightly higher redline with 4 valves per cylinder, which reaches peak torque at higher rpm. However, it still offers a good combination of both performance and fuel efficiency. Both the i-DSI and VTEC have relatively high compression ratios at 10.8:1 and 10.4:1, respectively.
+Before April 2006, the L-series were exclusively available with a 5-speed manual transmission and continuously variable transmission (CVT). With the introduction of the Fit in Canada and the United States, an L-series engine was mated to a traditional automatic transmission with a torque converter for the first time. The L12A i-DSI is available exclusively in the European domestic market Jazz and is sold with only a 5-speed manual transmission.
+As of 2010, the L15A7 (i-VTEC) is a class legal engine choice for SCCA sanctioned Formula F competition, joining the 1.6L Ford Kent engine.In 2016 Honda introduced the L15B (DOHC-VTC-TURBO-VTEC) engine as part of their continuing global earth dreams strategy for lower emissions and higher fuel economy for a range of their cars, available with 6-speed manual and CVT transmissions with Earth Dreams technology.
+
+
+== L12 ==
+
+
+=== L12A i-DSI ===
+
+Available exclusively in the European domestic market Jazz and available with only a 5-speed manual transmission.
+Displacement: 1.2 L; 76.0 cu in (1,246 cc)
+Bore x Stroke: 73 mm × 74.4 mm (2.87 in × 2.93 in)
+Compression Ratio: 10.8:1
+Power: 78 PS (57 kW; 77 hp) @ 5,700 rpm
+Torque: 110 N⋅m (81 lb⋅ft) @ 2,800 rpm
+Variations: L12A1
+SOHC 16 valve
+8 spark plugs, 2 per cylinder
+
+
+=== L12B i-VTEC ===
+SOHC 16 valve VTEC
+Displacement: 1.2 L; 73.1 cu in (1,198 cc)
+Bore x Stroke: 73 mm × 71.58 mm (2.87 in × 2.82 in)
+Compression Ratio: 10.2:1
+Power: 90 PS (66 kW; 89 hp) / 6,200 rpm
+Torque: 114 N⋅m (84 lb⋅ft) / 4,900 rpm
+CO2 emission: 125 g (4.4 oz)/km
+RPMLock: 6,500 rpm
+SpeedLock: 145 km/h (90 mph)
+ECU:-Bosch-Keihin
+
+Honda Jazz  (Germany / India) Honda Brio (Thailand / India / Indonesia)
+
+
+== L13 ==
+
+
+=== L13A i-DSI ===
+
+Sold as a 1.3 in the Japanese Fit and only available with the advanced ZF-DCT CVT transmission with 7 Speeds developed in Germany. European Civic 1.4 i-DSI has a standard 6-speed manual with an available 6-speed automated manual I-SHIFT transmission.
+For 7th gen Civic, City, Fit & Jazz Models
+Displacement: 1.3 L; 81.7 cu in (1,339 cc)
+Bore x Stroke: 73 mm × 80 mm (2.87 in × 3.15 in)
+Compression Ratio: 10.8:1
+Horsepower: 83 PS (61 kW; 82 hp) @ 5700 rpm 
+Torque: 119 N⋅m (88 lb⋅ft) @ 2800 rpm
+Variations: L13A1 (Fit/Jazz), L13A7 (European market Civic), L13A8 (European market City)
+For 8th gen Civic
+Displacement: 1.3 L; 81.7 cu in (1,339 cc)
+Bore x Stroke: 73 mm × 80 mm (2.87 in × 3.15 in)
+Horsepower: 95 PS (70 kW; 94 hp)
+Torque: 123 N⋅m (91 lb⋅ft)
+CO2 emission: 109 g (3.8 oz)/km (for the Honda Civic Hybrid)
+
+
+=== L13A i-VTEC ===
+Available in the second generation Honda Fit (Japan series GE6 / GE7), Honda Airwave in Japan, Honda Brio (Thailand & Indonesia) and the European Honda Civic.
+SOHC 16 valve i-VTEC
+Displacement: 1.3 L; 81.7 cu in (1,339 cc)
+Bore x Stroke: 73 mm × 80 mm (2.87 in × 3.15 in)
+Compression Ratio: 10.5:1
+Horsepower: 99 PS (73 kW; 98 hp) / 6,000 rpm
+Torque: 127 N⋅m (94 lb⋅ft) / 4,800 rpm
+source https://web.archive.org/web/20101210012605/http://www.honda.co.jp/Fit/webcatalog/spec/
+
+
+=== L13B i-VTEC ===
+DOHC 16 valve i-VTEC
+Displacement: 1.3 L; 80.4 cu in (1,318 cc)
+Bore x Stroke: 73 mm × 78.7 mm (2.87 in × 3.10 in)
+Compression: 13.5:1
+Power: 99 PS (73 kW; 98 hp) / 6,000 rpm
+Torque: 119 N⋅m (88 lb⋅ft) / 5,000 rpm (GK3 Fit)
+Top Speed: 180 km/h (110 mph)
+Honda Fit (Japan series GE3 / 4)
+Honda Brio
+
+
+=== L13Z1 i-VTEC ===
+
+Available in the Honda City (Pakistan).
+SOHC 16 valve i-VTEC
+Displacement: 1.3 L; 81.7 cu in (1,339 cc)
+Bore x Stroke: 73 mm × 80 mm (2.87 in × 3.15 in)
+Compression Ratio: 10.5:1
+Power: 99 PS (73 kW; 98 hp) / 6,000 rpm
+Torque: 128 N⋅m (94 lb⋅ft) / 4,300 rpm
+Speed Limiter: 130 km/h (81 mph)
+
+
+== L15 ==
+
+
+=== L15A2 i-DSI ===
+It debuted in Honda City/Fit Aria four door Sport-sedan in November 2002.
+Offered in the Fit Aria and Partner in Japan.
+Displacement: 1.5 L; 91.4 cu in (1,497 cc)
+Bore x Stroke: 73 mm × 89.4 mm (2.87 in × 3.52 in)
+Compression Ratio: 10.8:1
+Power: 90 PS (66 kW; 89 hp) @ 5,500 rpm
+Torque: 131 N⋅m (97 lb⋅ft) @ 2,700 rpm
+Source http://www.honda.co.jp/auto-archive/fit-aria/2005/grade-data/
+
+
+=== L15A1 VTEC ===
+
+It debuted in JDM Fit and Mobilio Spike in September 2002.
+Available in the Fit, Fit Aria, Airwave, Mobilio, and Mobilio Spike in Japan. Sold throughout the world with 5-speed manual or CVT options in the Fit/Jazz and City. Canadian and US Fit models will have a 5-speed automatic instead of the CVT.
+Displacement: 1.5 L; 91.4 cu in (1,497 cc)
+Bore x Stroke: 73 mm × 89.4 mm (2.87 in × 3.52 in)
+Compression Ratio: 10.4:1
+Power: 110 PS (81 kW; 108 hp) @ 5,800 rpm
+Torque: 143 N⋅m (105 lb⋅ft) @ 4,000 rpm
+
+
+=== L15A7 (i-VTEC) ===
+since 2009 in 2nd Gen Honda Jazz
+
+SOHC 16 valve i-VTEC
+Displacement: 1.5 L; 91.4 cu in (1,497 cc)
+Bore x Stroke: 73 mm × 89.4 mm (2.87 in × 3.52 in)
+Compression Ratio: 10.4:1
+Power: 120 PS (88 kW; 118 hp) / 6,600 rpm
+Torque: 145 N⋅m (107 lb⋅ft) / 4,300 rpm (GE8 Fit)
+Carbon dioxide: 148 g (5.2 oz)/km
+Honda Fit (Japan series GE8 / 9)
+Honda Jazz (Brazil,Thailand GE8 / 9)
+Honda Freed (Japan series GB3 / 4)
+Honda City (India, Brazil, Pakistan, Thailand, Malaysia, ASEAN)
+Optional engine in any Sports Car Club of America Formula Ford 1600 chassis.  As of this time, the engine is only legal for Formula F racing in the United States in a series that uses the Ford Kent engine.  It is not legal in other markets using Formula F chassis where the Ford Kent engine is standard.
+source https://web.archive.org/web/20101210012605/http://www.honda.co.jp/Fit/webcatalog/spec/ or http://www.honda.com.pk/city/specifications/Aspire.html
+
+
+=== L15B1 ===
+Found in 2015-2019 3rd generation Honda Fit in North American Market
+
+DOHC 16 valve i-VTEC @5500 RPM
+Displacement: 1.5 L; 91.4 cu in (1,498 cc)
+Bore x Stroke: 73 mm × 89.5 mm (2.87 in × 3.52 in)
+Power: 132 PS (97 kW; 130 hp) / 6,600 rpm
+Torque: 155 N⋅m (114 lb⋅ft) / 4,600 rpm
+Honda Vezel (2013–)
+Honda Fit/Jazz (including Hybrid models) (2013–)
+Honda Freed Hybrid (2016–)
+Honda City (2014–)
+Honda Jade(2015-) Japanese Domestic Market
+
+
+=== L15BF VTC Turbo ===
+Found in:
+2016/2017 Honda Jade RS / Facelift 210 Turbo (Chinese market, Japanese Domestic Market & Singapore)
+Displacement: 1.5 L; 91.4 cu in (1,497 cc) PGM-FI (Direct Injection)
+Bore x Stroke: 73 mm × 89.4 mm (2.87 in × 3.52 in)
+Compression: 10.6:1
+Boost pressure: Unknown
+Power: 150 PS (110 kW; 148 hp) @ 5500 rpm
+Torque: 203 N⋅m (150 lb⋅ft) @ 1600-5000 Rpm
+Redline: 6500 rpm
+
+
+=== L15B7 VTC Turbo ===
+
+Found in:
+2016— Honda Civic turbo (US, Canada, China)
+2017— Honda Civic Si (US, Canada & México)
+2017— Honda CR-V, non-LX (US, China)
+2018— Honda Accord (US & Canada)
+Engine Type: DOHC in-line 4-cylinder with VTC, single scroll MHI-TD03 turbo and internal wastegate, and VTEC (Although Advertised as a TD04 by Honda, the turbo is actually a newer TD025)
+Fuel injection: Direct
+Boost Pressure:
+16.5 psi (1.14 bar) - standard Civic
+16.5 psi (1.14 bar) - Honda Civic Si
+16.5 psi (1.14 bar) - Honda CR-V
+16.5 psi (1.14 bar) - Honda Accord
+Displacement: 1.5 L; 91.4 cu in (1,497 cc)
+Bore and Stroke: 73 mm × 89.4 mm (2.87 in × 3.52 in)
+Compression: 10.6:1 (10.3:1 - Honda Civic Si, Honda Accord and Honda CR-V)
+Power:
+174 hp (130 kW; 176 PS) @ 6000 rpm - standard Civic
+180 hp (134 kW; 182 PS) @ 5500 rpm (6MT) or 180 hp (134 kW; 182 PS) @ 6000 rpm (CVT) - Civic Hatchback Sport/Touring
+205 hp (153 kW; 208 PS) @ 5700 rpm - Honda Civic Si
+190 hp (142 kW; 193 PS) @ 5600 rpm - Honda CR-V
+192 hp (143 kW; 195 PS) @ 5500 rpm - Honda AccordTorque:
+162 lb⋅ft (220 N⋅m) @ 1700-5500 rpm - standard Civic
+177 lb⋅ft (240 N⋅m) @ 1900-5000 rpm (6MT) or 162lb-ft @ 1700-5500 rpm (CVT) - Civic Hatchback Sport/Touring
+192 lb⋅ft (260 N⋅m) @ 2100-5000 rpm - Honda Civic Si
+179 lb⋅ft (243 N⋅m)  @ 2000-5000 rpm - Honda CR-V
+192 lb⋅ft (260 N⋅m) @ 1600-5000 rpm - Honda AccordRedline: 6500 rpm
+
+
+=== L15B9 VTC Turbo ===
+Similar to the L15B7, but the intake is different.
+
+Found in:
+Acura CDX (China)Power:
+179 hp (133 kW; 181 PS) @ 5500 rpmTorque:
+177 lb⋅ft (240 N⋅m) @ 1900-5000 rpmRedline: 6500 rpm
+
+
+=== L15C VTC Turbo ===
+Similar to the L15B7, but with unknown changes.Found in:
+Japan FK7
+
+Power:182 hp (134 kW; 181 PS) @ 5500 - 6000 rpm
+Torque:
+177 lb⋅ft (240 N⋅m) @ 1900-5000 rpm
+Redline: 6500 rpm
+
+
+=== L15Z1 i-VTEC ===
+It debuted in Honda Mobilio Second Gen (DD4) 2013, Honda City and Honda BR-V
+
+SOHC 16 valve i-VTEC
+Displacement: 1.5 L; 91.4 cu in (1,497 cc)
+Bore x Stroke: 73 mm × 89.4 mm (2.87 in × 3.52 in)
+Compression Ratio: 10.3:1
+Power: 120 PS (88 kW; 118 hp) / 6,600 rpm
+Torque: 145 N⋅m (107 lb⋅ft) / 4,600 rpm
+source http://www.honda-indonesia.com/model/mobilio#spesifikasi
+Honda Mobilio (Indonesia, India, Thailand, South Africa, Singapore, and Philippines DD4)
+Honda City (India, Taiwan, Thailand, Indonesia, Malaysia and Philippines GM6)
+Honda BR-V (India, Thailand, Pakistan and Indonesia, DG1)
+
+
+=== L15Z5/2 i-VTEC ===
+It debuted in Honda Jazz (GK5) 2014
+
+SOHC 16 valve i-VTEC
+Displacement: 1.5 L; 91.4 cu in (1,497 cc)
+Bore x Stroke: 73 mm × 89.4 mm (2.87 in × 3.52 in)
+Compression Ratio: 10.3:1
+Power: 120 PS (88 kW; 118 hp) / 6,600 rpm
+Torque: 145 N⋅m (107 lb⋅ft) / 4,800 rpm
+source http://www.honda-indonesia.com/model/jazz#spesifikasi
+Honda Jazz (Thailand, Malaysia and Indonesia, GK5)
+
+
+=== L15Z6 i-VTEC ===
+It debuted in Honda HR-V 2nd Gen (RU1) 2014
+
+SOHC 16 valve i-VTEC
+Displacement: 1.5 L; 91.4 cu in (1,497 cc)
+Bore x Stroke: 73 mm × 89.4 mm (2.87 in × 3.52 in)
+Compression Ratio: 10.3:1
+Power: 120 PS (88 kW; 118 hp) / 6,600 rpm
+Torque: 145 N⋅m (107 lb⋅ft) / 4,600 rpm
+Carbon Dioxide: 155 g (5.5 oz)/km
+source http://www.honda-indonesia.com/model/hr-v#spesifikasi
+Honda HR-V (Indonesia, RU1)
+
+
+== Others ==
+
+
+=== LDA-MF3 (i-DSI + i-VTEC) ===
+SOHC 8 valve cylinder i-DSI + pause i-VTEC
+Displacement: 1.3 L; 81.7 cu in (1,339 cc)
+Bore x Stroke: 73 mm × 80 mm (2.87 in × 3.15 in)
+Power: 88 PS (65 kW; 87 hp) / 5,800 rpm
+Torque: 121 N⋅m (89 lb⋅ft) / 4,500 rpm
+Honda Civic Hybrid 2003-2005 (ES1)
+Honda Insight 2009-2014 (ZE2)
+
+
+=== LDA-MF5 (3stage i-VTEC + IMA) ===
+SOHC 8 valve i-DSI +3 stage i-VTEC
+Displacement: 1.3 L; 81.7 cu in (1,339 cc)
+Bore x Stroke: 73 mm × 80 mm (2.87 in × 3.15 in)
+Horsepower: 95 PS (70 kW; 94 hp) / 6,000 rpm
+Torque: 123 N⋅m (91 lb⋅ft) / 4,600 rpm
+Honda Civic Hybrid (ES9, FD3)
+
+
+=== LDA-MF6 (i-VTEC + IMA) ===
+SOHC 8 valve i-VTEC
+Displacement: 1.3 L; 81.7 cu in (1,339 cc)
+Bore x Stroke: 73 mm × 80 mm (2.87 in × 3.15 in)
+Power: 88 PS (65 kW; 87 hp) / 5,800 rpm
+Torque: 121 N⋅m (89 lb⋅ft) / 4,500 rpm
+2010-2013 JDM Honda Fit Hybrid
+
+
+=== LEA-MF6 (i-VTEC + IMA) ===
+SOHC 16 valve
+Displacement: 1.5 L; 91.4 cu in (1,497 cc)
+Bore x Stroke: 73 mm × 89.4 mm (2.87 in × 3.52 in)
+Power: 114 PS (84 kW; 112 hp) / 6,000 rpm
+Torque: 145 N⋅m (107 lb⋅ft) / 4,800 rpm
+Honda CR-Z (ZF1/ZF2)
+JDM Honda Fit Hybrid RS,1.5L up to 2013 (Code Name DAA-GP4)
+Honda Civic Hybrid (USA & Thailand) (FB)
+
+
+=== LEB (i-VTEC + Honda H1 Electric Motor) ===
+DOHC 16 valve
+Displacement: 1.5 L; 91.4 cu in (1,497 cc)
+Bore x Stroke: 73 mm × 89.4 mm (2.87 in × 3.52 in)
+Power: 132 PS (97 kW; 130 hp) / 6,600 rpm
+Torque: 15.9 kg⋅m (156 N⋅m; 115 lbf⋅ft) / 4,600 rpm
+Honda Vezel (Hybrid Version)
+
+
+=== LEB-MF (i-VTEC + IMA) ===
+SOHC 16 valve
+Displacement: 1.5 L; 91.4 cu in (1,497 cc)
+Bore x Stroke: 73 mm × 89.4 mm (2.87 in × 3.52 in)
+Power: 215 PS (158 kW; 212 hp) / 5,800 rpm
+Torque: 315 N⋅m (232 lb⋅ft) / 2,000 rpm
+Honda Clarity (PHEV)
+
+
+=== LEB-MMD (i-VTEC + Sport Hybrid “i-MMD” (Intelligent Multi Mode Drive)) ===
+DOHC 16 valve Atkinson cycle
+Displacement: 1.5 L; 91.4 cu in (1,497 cc)
+Bore x Stroke: 73.0 mm × 89.5 mm (2.87 in × 3.52 in)
+Power: 151 PS (111 kW; 149 hp) / 4,000 – 8,000 rpm
+Torque: 267 N⋅m (197 lb⋅ft) / 0 – 3,000 rpm
+Honda Insight 2019- (ZE4)
+Honda Fit/Jazz Hybrid (4th Gen)
+
+
+=== LFA1 (i-VTEC + Sport Hybrid “i-MMD” (Intelligent Multi Mode Drive)) ===
+DOHC 16 valve
+Displacement: 2.0 L; 121.6 cu in (1,993 cc)
+Bore x Stroke: 81 mm × 96.7 mm (3.19 in × 3.81 in)
+Power: 215 PS (158 kW; 212 hp) / 6,200 rpm
+Torque: 165 N⋅m (122 lb⋅ft) / 4,500 rpm
+Honda CR-V Hybrid (RW1–RW6)
+Honda Accord Hybrid (Code Name [CV1/CV2/CV3])
+
+
+== References ==
+
+
+== External links ==
+Elaborate article about the Honda L-series engines
+The 2nd generation Honda L series engine in 2009 Fit
+2017 Honda Civic Si Press Release (L15B7)

@@ -1,0 +1,51 @@
+Title: Ariane flight VA241
+Aspects: {'VA241'}
+
+Ariane flight VA241 was an Ariane 5 space launch that occurred from the Guiana Space Centre on 25 January 2018 at 22:20 UTC.
+
+
+== Payload ==
+The launcher was carrying the SES-14 and Al Yah 3 geostationary satellites, with a total payload mass of approximately 9,123 kilograms (20,113 lb). The satellites were accommodated together on the SYLDA adapter inside the long version of the upper stage fairing.
+
+
+=== SES-14 ===
+SES-14, built by Airbus Defence and Space in Toulouse, France for SES of Luxembourg, was in the upper position. It had a mass at liftoff of 4,423 kilograms (9,751 lb), hosting the NASA-funded GOLD payload.SES-14 was the second satellite based on Airbus's Eurostar E3000 EOR satellite bus to be launched by Arianespace.
+
+
+=== Al Yah 3 ===
+Al Yah 3, built by Orbital ATK in the United States for Yahsat of the United Arab Emirates, was in the lower position. It had a mass at liftoff of 3,795 kilograms (8,367 lb).Al Yah 3 was the first satellite based on Orbital ATK's GEOStar-3 satellite bus to be launched by Arianespace.
+
+
+== Mission description ==
+
+
+=== Launch date ===
+The 97th Ariane 5 launch (1st of 2018) was planned to take place within a launch window of 45 minutes starting on 25 January 2018 at 22:20 UTC (19:20 local time). The launcher engines effectively were ignited at the very beginning of that window, from Ariane Launch Complex No. 3 (ELA 3) in Kourou, French Guiana.
+
+
+=== Orbit ===
+The mission was planned to last 35 minutes and 7 seconds, placing both satellites into a super-synchronous transfer orbit, with an apogee of about 45,000 kilometres (28,000 mi) and a perigee of about 250 kilometres (160 mi), at an inclination of about 3 degrees.
+
+
+=== Countdown and flight sequence ===
+The planned sequence was as follows:
+
+
+== Anomaly ==
+
+The telemetry of the launcher was lost from about 9 minutes to 9 minutes and 30 seconds (the uncertainty being due to the fact that the data as displayed in real-time may have been extrapolated for a finite amount of time) into the flight, close to the moment when the main stage (EPC) separation and upper stage (ESC-A) ignition should have occurred.Then about 1 hour after liftoff, Arianespace's CEO and chairman Stéphane Israël made a quick speech saying that the launcher suffered an anomaly. His statement in front of the VIP audience in the Jupiter control room was:
+
+"Ladies and gentlemen, so I come to give you some information because we have had an anomaly on this launch. Indeed, we lost contact with the launcher a few seconds after the ignition of the upper stage. At that time, we can consider that the upper composite and the satellite[s] have been satellised [sic: bad translation of French satellisés, meaning put in orbit]. But as I said, we lost contact. So up to now, our customers do not have contact with the satellite[s]. We need now some time to know if they have been separated [sic], and where they are exactly, to better analyse the consequences of this anomaly. I want to present my deepest excuses to our customers, who have entrusted us one more time. We know that there is no launch with no risk. We know that launch is always difficult, and tonight Ariane 5 has had an anomaly, so let's take time now to better understand the situation of the satellite[s]. Arianespace, in full transparency, will come back to you to provide you with some more information as soon as we have them. I apologise on behalf of Arianespace."Later in the night, Arianespace issued a first press release mentioning that the Natal tracking station did not acquire telemetry of the launcher, which lasted until the end of the mission, and that the separation of both payloads was confirmed, together with their successful injection into Earth orbit and the link acquisition by both customers.
+On the same day, Arianespace issued a second press release stating that SES and YahSat confirmed the acquisition and good health of the two satellites despite a deviation of their trajectory. It was also stated that the telemetry was lost by the tracking stations 9 minutes and 26 seconds after reference time T, due to a deviation of the trajectory.
+On 26 January 2018, SES informed on their website that while its satellite is in good health it would require to "set up a new orbit raising plan", and that it would thus "reach the geostationary orbit only four weeks later than originally planned", indicating that the satellites were not delivered to the intended super-synchronous transfer orbit (with an apogee of 45,000 km and inclination of 3°) by the launch vehicle. This was confirmed later that day when the orbital elements of the satellites were released, revealing that the deployment orbit's apogee had a minor deviation of about 2,000 km while the inclination suffered a significant deviation of almost 18° from intended.The flight path anomaly became obvious when initial analysis showed that the launch azimuth had gone wrong since the very beginning of the flight, during the first stage firing, with unexpected slow roll maneuvre just after liftoff. In standard Ariane 5 launch, the roll maneuvre should only begin around 17 seconds after reference time T or 10 seconds after liftoff.The anomaly might have been due to a human error during the programming of the Guidance, Navigation and Control (GNC) combined with a failed verification procedure according to early developments as the launch team reported not to have double-checked the guidance computer parameters to reduce workload duplication, even though double-checking them played the vital role in the rocket's reliability. But Arianespace and ArianeGroup issued a statement insisting that all the control processes remain unchanged, while they restructured the organization now directly from ArianeGroup, affecting the launch team now with many of ArianeGroup engineers.Frédérique Vidal, Minister of Higher Education, Research and Innovation, said that the rocket did not overfly Kourou, but for the first time flew very close to the city of Kourou. In standard launch of any rocket it should have been immediately destroyed by either Range Safety Officer or its onboard Autonomous Flight Termination System once the rocket flew off course. But at the point when the Range Safety Officer for this mission wanted to destroy the rocket, it was too late as it already overflew close to the city of Kourou, so destroying the rocket would have been potentially more dangerous with the debris raining down over Kourou than continuing flight.
+
+
+== Aftermath ==
+An independent investigation board was established in collaboration with the European Space Agency and National Aeronautics and Space Administration, under the chairmanship of ESA's inspector general to investigate what caused the trajectory deviation during flight. The conclusions of the investigation commission led by ESA's inspector general, Toni Tolker-Nielsen, were released on 22 February 2018, indicating that engineers left the inertial navigation units' azimuth value at 90° (the standard for GTO launch on Ariane 5), however unusually 70° was intended for these payloads riding into unusual SSTO, explaining the cause of the 17° trajectory deviation. Standard verification procedure missed the azimuth data. The reason of launching both satellites to SSTO was Al Yah 3 satellite manufacturer (Orbital ATK) abruptly requested Arianespace to change the target orbit profile to SSTO in order to release the Al Yah 3 satellite at a right angle relative to the direction of motion of the rocket.Both satellites have now conducted orbital make-up procedure by changing their maneuvering plan, which would extend commissioning time.SES-14 needed about 4 weeks longer than planned commissioning time, meaning that entry into service now expected in August instead of July. Nevertheless, SES-14 is still expected to be able to meet the designed life time, since it was originally to be launched on the Falcon 9 rocket which would have required more propellant reserves as Falcon 9 usually deploys geostationary satellites into a high inclination orbit that requires more propellant to approach into final geostationary orbit. SES informed NASA that they expect no effect on the quality of observations and data of the agency’s GOLD instrument after the launch anomaly.Al Yah 3 was also confirmed healthy after more than 12 hours without further statement, and like SES-14, Al Yah 3's maneuvering plan was also revised to still fulfill the original mission. As of 30 May 2018, Al Yah 3 had arrived to the intended geostationary orbit, after series of recovery maneuvers had been performed and completed its in-orbit testing. Al Yah 3 is expected to enter into service around July 2018, at the start of new Eutelsat's fiscal year. Due to excess propellant usage during recovery, Al Yah 3's operational life was reduced to approximately 9 years. Yahsat was expected to receive up to 50% of its insured value (~$108 million) in damages.This mission anomaly ended the 82 consecutive launch success streak from 2003.
+
+
+== References ==
+
+
+== External links ==
+Ariane Flight VA241 (Arianespace website)

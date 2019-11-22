@@ -1,0 +1,16 @@
+Title: Steve Russell (computer scientist)
+Aspects: {'S. R. Russell'}
+
+Stephen "Steve" Russell (born 1937) is an American computer scientist most famous for creating Spacewar!, one of the earliest video games.
+
+
+== Biography ==
+Russell attended Dartmouth College in Hanover, New Hampshire from 1954 to 1958.
+Russell wrote the first two implementations of the programming language Lisp for the IBM 704 mainframe computer. It was Russell who realized that the concept of universal functions could be applied to the language. By implementing the Lisp universal evaluator in a lower-level language, it became possible to create the Lisp interpreter; prior development work on the language had focused on compiling the language. He invented the continuation to solve a double recursion problem for one of the users of his Lisp implementation.In 1962, Russell created and designed Spacewar!, with the fellow members of the Tech Model Railroad Club at the Massachusetts Institute of Technology (MIT), working on a Digital Equipment Corporation (DEC) PDP-1 minicomputer. Spacewar! is widely considered to be the first digital video game and served as a foundation for the entire video game industry.He later served as an executive of Computer Center Corporation (nicknamed C-Cubed), a small time-sharing company in Washington (state). In the fall of 1968, he mentored Bill Gates and Paul Allen on the use of the DEC PDP-10 mainframe, while they were part of the programming group of Lakeside School (Seattle).
+
+
+== See also ==
+Early history of video games
+
+
+== References ==

@@ -1,0 +1,337 @@
+Title: Q value (nuclear science)
+Aspects: {'Q value'}
+
+In nuclear physics and chemistry, the Q value for a reaction is the amount of energy absorbed or released during the nuclear reaction. The value relates to the enthalpy of a chemical reaction or the energy of radioactive decay products. It can be determined from the masses of reactants and products. Q values affect reaction rates. In general, the larger the positive Q value for the reaction, the faster the reaction proceeds, and the more likely the reaction is to "favor" the products.
+
+  
+    
+      
+        Q
+        =
+        (
+        
+          m
+          
+            r
+          
+        
+        −
+        
+          m
+          
+            p
+          
+        
+        )
+        ⋅
+        931
+        
+        
+          MeV
+        
+      
+    
+    {\displaystyle Q=(m_{r}-m_{p})\cdot 931\;{\text{MeV}}}
+  where the masses are in atomic mass units. Also both 
+  
+    
+      
+        
+          m
+          
+            r
+          
+        
+      
+    
+    {\displaystyle m_{r}}
+   and 
+  
+    
+      
+        
+          m
+          
+            p
+          
+        
+      
+    
+    {\displaystyle m_{p}}
+   are the sums of the reactant and product masses respectively.
+
+
+== Definition ==
+The conservation of energy, between the initial and final energy of a nuclear process (
+  
+    
+      
+        
+          E
+          
+            i
+          
+        
+        =
+        
+          E
+          
+            f
+          
+        
+      
+    
+    {\displaystyle E_{\text{i}}=E_{\text{f}}}
+  ), enables the general definition of Q based on the mass–energy equivalence. For any radioactive particle decay, the kinetic energy difference will be given by:
+
+  
+    
+      
+        Q
+        =
+        
+          K
+          
+            f
+          
+        
+        −
+        
+          K
+          
+            i
+          
+        
+        =
+        (
+        
+          m
+          
+            i
+          
+        
+        −
+        
+          m
+          
+            f
+          
+        
+        )
+        
+          c
+          
+            2
+          
+        
+      
+    
+    {\displaystyle Q=K_{\text{f}}-K_{\text{i}}=(m_{\text{i}}-m_{\text{f}})c^{2}}
+  where K denotes the kinetic energy of the mass m.
+A reaction with a positive Q value is exothermic, i.e. has a net release of energy, since the kinetic energy of the final state is greater than the kinetic energy of the initial state.
+A reaction with a negative Q value is endothermic, i.e. requires a net energy input, since the kinetic energy of the final state is less than the kinetic energy of the initial state. Observe that a chemical reaction is exothermic when it has a negative enthalpy of reaction, in contrast a positive Q value in a nuclear reaction.
+The Q value can also be expressed in terms of the binding energies of the nuclear species as:
+
+  
+    
+      
+        Q
+        =
+        
+          B
+          
+            f
+          
+        
+        −
+        
+          B
+          
+            i
+          
+        
+      
+    
+    {\displaystyle Q=B_{f}-B_{i}}
+  
+Proof: Note that the count of nucleons is conserved in a nuclear reaction. Hence, total reactant protons = total product protons and total reactant neutrons = total product neutrons. Hence, the sum of binding energy and rest mass energy of nuclei of both reactant and products are same. In other words, 
+  
+    
+      
+        
+          B
+          
+            i
+          
+        
+        +
+        
+          m
+          
+            i
+          
+        
+        
+          c
+          
+            2
+          
+        
+        =
+        
+          B
+          
+            f
+          
+        
+        +
+        
+          m
+          
+            f
+          
+        
+        
+          c
+          
+            2
+          
+        
+      
+    
+    {\displaystyle B_{i}+m_{i}c^{2}=B_{f}+m_{f}c^{2}}
+  . Using the first relation (
+  
+    
+      
+        Q
+        =
+        (
+        
+          m
+          
+            i
+          
+        
+        −
+        
+          m
+          
+            f
+          
+        
+        )
+        
+          c
+          
+            2
+          
+        
+      
+    
+    {\displaystyle Q=(m_{\text{i}}-m_{\text{f}})c^{2}}
+  ), this proof is complete.
+
+
+== Applications ==
+Chemical Q values are measurement in calorimetry.  Exothermic chemical reactions tend to be more spontaneous and can emit light or heat, resulting in runaway feedback(i.e. explosions).
+Q values are also featured in particle physics. For example, Sargent's rule states that weak reaction rates are proportional to Q5. The Q value is the kinetic energy released in the decay at rest. For neutron decay, some mass disappears as neutrons convert to a proton, electron and antineutrino:
+
+  
+    
+      
+        Q
+        =
+        (
+        
+          m
+          
+            n
+          
+        
+        −
+        
+          m
+          
+            p
+          
+        
+        −
+        
+          m
+          
+            
+              
+                ν
+                ¯
+              
+            
+          
+        
+        −
+        
+          m
+          
+            e
+          
+        
+        )
+        
+          c
+          
+            2
+          
+        
+        =
+        
+          K
+          
+            p
+          
+        
+        +
+        
+          K
+          
+            e
+          
+        
+        +
+        
+          K
+          
+            
+              ν
+              ¯
+            
+          
+        
+        =
+        0.782
+         
+        
+          MeV
+        
+         
+        ,
+      
+    
+    {\displaystyle Q=(m_{\text{n}}-m_{\text{p}}-m_{\mathrm {\overline {\nu }} }-m_{\text{e}})c^{2}=K_{\text{p}}+K_{\text{e}}+K_{\overline {\nu }}=0.782~{\text{MeV}}~,}
+  where mn is the mass of the neutron, mp is the mass of the proton, mν is the mass of the electron antineutrino, and me is the mass of the electron; and the K are the corresponding kinetic energies. The neutron has no initial kinetic energy since it is at rest. In beta decay, a typical Q is around 1 MeV.
+The decay energy is divided among the products in a continuous distribution for more than 2 products.  Measuring this spectrum allows one to find the mass of a product. Experiments are studying emission spectrums to search for neutrinoless decay and neutrino mass; this is the principle of the ongoing KATRIN experiment.
+
+
+== See also ==
+Binding energy
+Calorimeter (particle physics)
+Decay energy
+Fusion energy gain factor
+Pandemonium effect
+
+
+== Notes and references ==
+
+
+== External links ==
+Nuclear Structure and Decay Data – IAEA with query on decays' Q-values
+will demonstrate simply the mass-energy equivalence

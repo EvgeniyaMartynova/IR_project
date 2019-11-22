@@ -1,0 +1,25 @@
+Title: Monomial group
+Aspects: {'M-group'}
+
+In mathematics, in the area of algebra studying the character theory of finite groups, an M-group or monomial group is a finite group whose complex irreducible characters are all monomial, that is, induced from characters of degree 1 (Isaacs 1994).
+In this section only finite groups are considered.  A monomial group is solvable by (Taketa 1930), presented in textbook in (Isaacs 1995, Cor. 5.13) and (Bray et al. 1982, Cor 2.3.4). Every supersolvable group (Bray et al. 1982, Cor 2.3.5) and every solvable A-group (Bray et al. 1982, Thm 2.3.10) is a monomial group.  Factor groups of monomial groups are monomial, but subgroups need not be, since every finite solvable group can be embedded in a monomial group, as shown by (Dade & ????) and in textbook form in (Bray et al. 1982, Ch 2.4).
+The Symmetric group 
+  
+    
+      
+        
+          S
+          
+            4
+          
+        
+      
+    
+    {\displaystyle S_{4}}
+   is an example of a monomial group which is neither supersolvable nor a A-group.
+
+
+== References ==
+Bray, Henry G.; Deskins, W. E.; Johnson, David; Humphreys, John F.; Puttaswamaiah, B. M.; Venzke, Paul; Walls, Gary L. (1982), Between nilpotent and solvable, Washington, N. J.: Polygonal Publ. House, ISBN 978-0-936428-06-2, MR 0655785
+Isaacs, I. Martin (1994), Character Theory of Finite Groups, New York: Dover Publications, ISBN 978-0-486-68014-9
+Taketa, K. (1930), "Über die Gruppen, deren Darstellungen sich sämtlich auf monomiale Gestalt transformieren lassen.", Proceedings Acad. Tokyo (in German), 6 (2): 31–33, doi:10.3792/pia/1195581421

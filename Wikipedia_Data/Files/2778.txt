@@ -1,0 +1,75 @@
+Title: Electronic court filing
+Aspects: {'E-file'}
+
+Electronic court filing (ECF), or e-filing, is the automated transmission of legal documents from an attorney, party or self-represented litigant to a court, from a court to an attorney, and from an attorney or other user to another attorney or other user of legal documents.
+
+
+== Technical standards ==
+The LegalXML Electronic Court Filing Technical Committee, a subcommittee of OASIS, with members representing both public and private sector organizations, has developed technical specifications that provide for standardization of the following for electronic filing of court documents:
+
+Message Structures
+MetadataThese XML-based standards support the implementation of electronic court filing but they do not define court policies. In 2003, the National Center for State Courts (NCSC) published Standards for Electronic Filing Processes (Technical and Business Approaches).
+In the summer of 2009, the NCSC commenced a survey of the usage of e-filing in state courts across the country, including U.S. Territories. The survey responses were published in the 2009 NCSC Court E-filing Survey.
+
+
+=== Release history ===
+LegalXML:
+ECF 1.0: March 22, 2000
+ECF 1.1: July 7, 2002
+ECF 3.0: November 11, 2005
+ECF 3.01: April 25, 2006
+ECF 3.1: December 4, 2007
+ECF 4.0: October 8, 2008
+
+
+=== LegalXML ===
+Collaboration on nonproprietary standards for the legal community
+Merged with OASIS in March 2002.
+
+
+=== ECF 1.0 ===
+
+
+=== ECF 1.1 ===
+This version was approved by the NCSC Joint Technology Committee as a recommended standard in 2002.
+
+
+=== ECF 2.0 ===
+This version number was skipped in order to create a linkage between GJXDM 3.0.
+
+
+=== ECF 3.0 ===
+Leverage new and emerging standards
+Volcabularies
+GJXDM
+UBL
+Web services
+W3C
+OASIS
+WS-I
+Use of XML schemas rather than DTD
+Supports Standards for Electronic Filing Processes (Technical and Business Approaches) approved in 2003.
+
+
+=== ECF 4.0 ===
+Conforms with NIEM
+
+
+=== Implementation assistance ===
+In an effort to promote implementation of the ECF 4.0 specification, the OASIS LegalXML ECF committee developed a "quick start guide", the 7 Steps to Electronic Filing with Electronic Court Filing 4.0. The guide provides information on the following topics:
+
+Standardize integration methods in an e-filing implementation with XML
+Integrate with any potential e-filing service provider or share e-filing data between systems or partners
+Set up a single method of processing data related to e-filing
+Find out how to implement legal service in an e-filing applicationThe LegalXML Electronic Court Filing Technical Committee serves as the primary source of documentation and support.
+
+
+== See also ==
+OASIS
+GJXDM, the Global Justice XML Data Model
+National Information Exchange Model (NIEM)
+Electronic Filing System (Singapore)
+National Center for State Courts
+
+
+== References ==

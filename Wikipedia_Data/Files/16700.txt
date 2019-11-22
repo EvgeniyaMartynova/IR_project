@@ -1,0 +1,128 @@
+Title: IBM Z
+Aspects: {'Z series'}
+
+IBM Z is a family name used by IBM for all of its z/Architecture mainframe computers from the Z900 on.
+In July 2017, with another generation of products, the official family was changed to IBM Z from IBM z Systems; the IBM Z family now includes the newest model the IBM z15, as well as the z14 and the z13 (released under the IBM z Systems/IBM System z names), the IBM zEnterprise models (in common use the zEC12 and z196), the IBM System z10 models (in common use the z10 EC), the IBM System z9 models (in common use the z9EC) and IBM eServer zSeries models (in common use refers only to the z900 and z990 generations of mainframe).
+
+
+== Architecture ==
+The zSeries, zEnterprise, System z and IBM Z families were named for their availability – z stands for zero downtime. The systems are built with spare components capable of hot failovers to ensure continuous operations.The IBM Z family maintains full backward compatibility. In effect, current systems are the direct, lineal descendants of System/360, announced in 1964, and the System/370 from the 1970s. Many applications written for these systems can still run unmodified on the newest IBM Z system over five decades later.
+
+
+=== Virtualization ===
+Virtualization is required by default on IBM Z systems. First layer virtualization is provided by the Processor Resource and System Manager (PR/SM) to deploy one or more Logical Partitions (LPARs).  Each LPAR supports a variety of operating systems.  A hypervisor called z/VM can also be run as the second layer virtualization in LPARs to create as many virtual machines (VMs) as there are resources assigned to the LPARs to support them. The first layer of IBM Z virtualization (PR/SM) allows a z machine to run a limited number of LPARs (up to 80 on the IBM z13).  These can be considered virtual "bare metal" servers because PR/SM allows CPUs to be dedicated to individual LPARs.  z/VM LPARs allocated within PR/SM LPARs can run a very large number of virtual machines as long as there are adequate CPU, memory, and I/O resources configured with the system for the desired performance, capacity, and throughput.IBM Z's PR/SM and hardware attributes allow compute resources to be dynamically changed to meet workload demands.  CPU and memory resources can be non-disruptively added to the system and dynamically assigned, recognized, and used by LPARs.  I/O resources such as IP and SAN ports can also be added dynamically.  They are virtualized and shared across all LPARs.  The hardware component that provides this capability is called the Channel Subsystem.  Each LPAR can be configured to either "see" or "not see" the virtualized I/O ports to establish desired "shareness" or isolation.  This virtualization capability allows significant reduction in I/O resources because of its ability to share them and drive up utilization.PR/SM on IBM Z has earned Common Criteria Evaluation Assurance Level (EAL) 5+ security certification, and z/VM has earned Common Criteria EAL4+ certification.The KVM hypervisor from Linux has also been ported.
+
+
+== List of models (reverse chronological order) ==
+Since the move away from the System/390 name, a number of IBM Z models have been released.  These can be grouped into families with similar architectural characteristics.
+
+
+=== IBM z15 ===
+IBM z15 (8561) mainframe introduced on September 12, 2019
+IBM z15 Technical Introduction
+IBM z15 Technical Guide
+
+
+=== IBM z14 ===
+IBM z14 ZR1 (3907 series) single-frame mainframe introduced on April 10, 2018
+IBM z14 (3906 series) mainframe introduced on July 17, 2017
+Official IBM z14 mainframe product page
+IBM Redbooks z14 technical guide
+
+
+=== IBM System z13 ===
+z Systems z13s (2965 series), introduced on February 17, 2016
+z Systems z13 (2964 series), introduced on January 13, 2015
+
+
+=== IBM zEnterprise System ===
+The IBM zEnterprise System (zEnterprise), announced in July 2010, with the z196 model, is designed to offer both mainframe and distributed server technologies in an integrated system.  The zEnterprise System consists of three components.   First is a System z server.  Second is the IBM zEnterprise BladeCenter Extension (zBX). Last is the management layer, IBM zEnterprise Unified Resource Manager (zManager), which provides a single management view of zEnterprise resources. The zEnterprise is designed to extend mainframe capabilities – management efficiency, dynamic resource allocation, serviceability – to other systems and workloads running on AIX on POWER7, and Microsoft Windows or Linux on x86.The zEnterprise BladeCenter Extension (zBX) is an infrastructure component that hosts both general purpose blade servers and appliance-like workload optimizers which can all be managed as if they were a single mainframe. The zBX supports a private high speed internal network that connects it to the central processing complex, which reduces the need for networking hardware and provides inherently high security.
+The IBM zEnterprise Unified Resource Manager integrates the System z and zBX resources as a single virtualized system and provides unified and integrated management across the zEnterprise System. It can identify system bottlenecks or failures among disparate systems and if a failure occurs it can dynamically reallocate system resources to prevent or reduce application problems. The Unified Resource Manager provides energy monitoring and management, resource management, increased security, virtual networking, and information management from a single user interface.
+Highlights of the original zEnterprise z196 include:
+
+BladeCenter Extension (zBX) and Unified Resource Manager
+Up to 80 central processors (CPs)
+60% higher capacity than the z10 (up to 52,000 MIPS)
+Twice the memory capacity
+5.2 GHz quad-core chipsThe newest zEnterprise, the EC12, was announced in August 2012, and included:
+
+Up to 101 central processors (CPs)
+50% higher capacity than the z196 (up to 78,000 MIPS)
+Transactional Execution
+5.5 GHz hex-core chips
+Flash Express – integrated SSDs which improve paging and certain other I/O performanceOn April 8, 2014, in honor of the 50th anniversary of the System/360 mainframe, IBM announced the release of its first converged infrastructure solution based on mainframe technology. Dubbed the IBM Enterprise Cloud System, this new offering combines IBM mainframe hardware, software, and storage into a single system and is designed to compete with competitive offerings from VCE, HP, and Oracle. According to IBM, it is the most scalable Linux server available with support for up to 6,000 virtual machines in a single-footprint.
+In June 2014, IBM announced it had shipped its first Enterprise Cloud System to Vissensa, a UK-based managed service provider.
+Specific models from this family include:
+
+zEnterprise BC12 (2828 machine type), introduced on July 23, 2013
+zEnterprise EC12 (2827 series), introduced on August 28, 2012
+zEnterprise 114 (2818 series), introduced on July 6, 2011
+zEnterprise 196 (2817 series), introduced on July 22, 2010
+
+
+=== IBM System z10 ===
+
+The IBM System z10 servers supported more memory than previous generation systems and can have up to 64 central processors (CPs) per frame. The full speed z10 processor's uniprocessor performance was up to 62% faster than that of the z9 server, according to IBM's z10 announcement, and included these other features:
+
+50% more performance and 70% more usable capacity. The new 4.4 GHz processor was designed to address CPU intensive workloads and support large scale server consolidation on the mainframe.
+Just-in-time capacity and management – monitoring of multiple systems based on Capacity Provisioning and Workload Manager (WLM) definitions. When the defined conditions are met, z/OS can suggest capacity changes for manual activation from a z/OS console, or the system can add or remove temporary capacity automatically and without operator intervention.Specific models from this family include:
+
+z10 Business Class (2098 series), introduced on October 21, 2008
+z10 Enterprise Class (2097 series), introduced on February 26, 2008
+
+
+=== IBM System z9 ===
+
+In July 2005, IBM announced a new family of servers – the System z9 family – with the IBM System z9 Enterprise Class (z9 EC) and the IBM System z9 Business Class (z9 BC) servers. The System z9 servers offered:
+
+More flexibility on the enterprise class servers in customizing and sizing the capacity of the general purpose processors (CPs) that reside in the server. The z9 EC servers offered four different sub-capacity settings when run with eight or fewer general purpose processors.
+zIIP engines. The zIIP is designed so that a program can work with z/OS to have all or a portion of its Service Request Block (SRB) dispatched work directed to the zIIP to help free up capacity on the general purpose processor which may make it available for use by other workloads running on the server.
+MIDAW.  The Modified Indirect Data Address Word (MIDAW) facility offers an alternative facility for a channel program to be constructed.  It is designed to improve performance for native FICON applications that use extended format datasets (including DB2 and VSAM) by helping to improve channel utilization, reduce channel overhead, and improve I/O response times.
+CP Assist for Cryptographic Functions (CPACF) is shipped on every CP and IFL processor in support of clear key encryption.  CPACF was enhanced for System z9 processors to include support of the Advanced Encryption Standard (AES) for 128-bit keys, Secure Hash Algorithm-256 (SHA-256), CPACF offers DES, Triple DES and SHA-1.Specific models from this family include:
+
+z9 Business Class (2096 series), successor to the z890 and smallest z990 models (2006)
+z9 Enterprise Class (2094 series), introduced in 2005, initially as z9-109, beginning the new System z9 line
+
+
+=== IBM zSeries family ===
+
+The zSeries family, which includes the z900, z800, z990 and z890, introduced IBM's newly designed 64-bit z/Architecture to the mainframe world. The new servers provide more than four times the performance of previous models. In its 64-bit mode the new CPU is freed from the 31-bit addressing constraints of its predecessors. Major features of the eServer zSeries family:
+
+Based on z/Architecture (64-bit real and virtual addresses), as opposed to earlier ESA/390 (31-bit) used in S/390 systems yet emphasizing the backwards compatibility the ESA/390 applications are fully compatible with z/Architecture
+First zSeries Superscalar server (z990) – A superscalar processor allows concurrent execution of instructions by adding additional resources onto the microprocessor to achieve more parallelism by creating multiple pipelines, each working on its own set of instructions.
+Offers up to 32 central processors (CPs) per frame
+Frames can be coupled in up to a 32-frame Sysplex, with each frame physically separated up to 100 kilometers
+Supports the z/OS, Linux on IBM Z, z/VM, z/VSE, and z/TPF operating systems
+Support of multiple I/O channel subsystem – or multiple Logical Channel Subsystem (LCSS).  The z990 allows for support of up to four LCSS – offering support for up to 4 times the previous 256 channel limit
+Support for zAAP processors. These specialty processors allow IBM JVM processing cycles to be executed on the configured zAAPs with no anticipated modifications to the Java application(s). This means that deployment and integration of new Java technology-based workloads can happen on the very same platform as heritage applications and core business databases in a highly cost-effective mannerSpecific models from this family included:
+
+z890 (2086 series), successor to the z800 and smaller z900 models (2004)
+z990 (2084 series), successor to larger z900 models (2003)
+z800 (2066 series), entry-level, less powerful variant of the z900 (2002)
+z900 (2064 series), for larger customers (2000)
+
+
+== Processor book ==
+A processor book is a modular card in IBM mainframes that contains processors, memory, and I/O connections. A multi-chip module is welded onto each processor book for the z196 model.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+Burt, Jeffrey (10 April 2018). "IBM Slims Down Pair of Mainframes for the Cloud". Security. eWeek. Retrieved 2018-04-15. The z14 Model ZR1 and LinuxONE Rockhopper II put the capabilities of IBM’s Z14 mainframe systems announced last year into an industry-standard 19-inch, single-frame design....
+
+
+== External links ==
+IBM Z systems home page
+IBM Z mainframe hardware page
+IBM z15 product page
+Mainframe Ushers in New Era of Data Protection IBM z14 announcement Press Release
+IBM Mainframe Life Cycle History
+IBM Destination z
+Mainframe Software Support Forum
+IBM Systems Mainframe Magazine
+IBM Archives: A Brief History of the IBM ES/9000, System/390 AND zSeries

@@ -1,0 +1,55 @@
+Title: Ruhrstahl X-4
+Aspects: {'X4'}
+
+The Ruhrstahl Ru 344 X-4 or Ruhrstahl-Kramer RK 344 was a wire guided air-to-air missile designed by Germany during World War II. The X-4 did not see operational service and thus was not proven in combat but inspired considerable post-war work around the world and was the basis for the development of several ground-launched anti-tank missiles, including the Malkara.
+
+Work on the X-4 began in June 1936, by Dr Max Kramer at Ruhrstahl. The idea was to build a missile with enough range to allow it to be fired from outside the range of the bombers' guns (what is now called a stand-off weapon), while being guided with enough accuracy to guarantee a "kill". The X-4 met these specifications and more; its BMW 109-448 rocket motor accelerated the missile to over 1,150 km/h (715 mph) - and kept the X-4 there during its "cruise", between 1.5 and 4 km (0.9-2.5 mi), while the defensive guns had a maximum effective range of about 1000 m (1,094 yd).
+The rocket burned a hypergolic mixture of S-Stoff (nitric acid with 5% iron(III) chloride) and R-Stoff (an organic amine-mixture of 50% dimethylaminobenzene and 50% triethylamine called Tonka 250) as propellant, delivering 140 kg (310 lb) thrust initially, declining to 30 kg (66 lb) over the 17-second burn. As there was no room for a fuel pump, the fuels were forced into the motor by pistons inside long tubes, the tubes being coiled (similar to a coil spring) to fit inside the airframe. S-Stoff was so corrosive, it dissolved all base metals and was extremely difficult and dangerous to handle. The Germans planned to replace the motor with a solid fuel design as soon as possible.
+The missile was spin-stabilized at about 60 rpm, or one rotation a second, so any asymmetrical thrust from the engine or inaccuracies in the control surfaces would be evened out. Signals to operate control surfaces on the tail were sent via two wires (a method chosen to avoid jamming), which unwound from bobbins housed within long, bullet-shaped fairings, themselves mounted either on the roots of an opposing pair of the larger mid-body fins (there were four, swept 45°), or on one pair of those same fins' opposing tips; these contained a total of about 5.5 km (3.4 mi; 3.0 nmi) of wire. The wires were controlled by a joystick in the cockpit. A gyroscope kept track of "up" so control inputs from the pilot's joystick in the launch aircraft could be translated into yaw and pitch as the missile spun. Flares attached to two of the midsection wings were used to keep the missile visible through the smoke of its motor.
+The warhead consisted of a 20 kg (44 lb) fragmentation device that had a lethal radius of about 8 m (26 ft). It was thought that the guidance system would allow the pilot to get the missile into this range in terms of pitch and yaw, but at the ranges the missile could operate at it would be almost impossible to judge range to anywhere near this accuracy. For this reason the missile mounted a proximity fuze known as Kranich, an acoustical system tuned to the 200 Hz sound of the B-17's engines in cruise, activated by the Doppler shift as the missile approached. The trigger range was 7 m (23 ft).The first flight test occurred on August 11, 1939 using  a Focke-Wulf Fw 190 for the launch platform. Subsequent tests used the Junkers Ju 88 and Messerschmitt Me 262, although they were not launched from the latter. The X-4 had originally been intended for use by single-seat fighters (including the Me 262 and possibly the Dornier Do 335), but the problems in guiding both the missile and the aircraft at the same time proved unworkable. Instead, the X-4 was re-directed to multi-seat aircraft like the Ju 88, while the unguided R4M rocket was to be used in single-seaters.
+The X-4 was designed to be easily assembled by unskilled labour and airframe production began in 1939 incorporating low-cost (non-strategic) materials, such as wood for fins. Production was hampered by Allied bombing of the BMW rocket engine factory at Stargard, though as many as 1,000 X-4s may have been completed, the missile was never officially delivered to the Luftwaffe. The fighter-interceptor designed to use this missile as its primary weapon was the Focke-Wulf Ta 183 Huckebein, which never got out of the project stage.
+After the war, French engineers tried to develop a domestic version of the X-7, the Nord SS.10. 200 units were manufactured between 1947 and 1950. However, the program was disbanded due to the dangerous pre-flight refuelling involved (the hypergolic nitric acid and Tonka combination was highly explosive).
+
+
+== Specification ==
+
+
+=== X-4 air-to-air missile ===
+Primary function: short-range air-to-air missile
+Propulsion: BMW 109-448 liquid rocket motor giving 30–140 kg (66–309 lb) thrust for 17 seconds
+Length: 201 cm (79 in)
+Diameter: 22 cm (8.7 in) (maximum)
+Wingspan: 72.6 cm (28.6 in)
+Launch weight: 60 kg (130 lb)
+Speed: 325 m/s (1,070 ft/s)
+Warhead: 20 kg (44 lb) fragmentation
+Range: 1.5–3.5 km (0.93–2.17 mi; 0.81–1.89 nmi)
+Fuzes: Kranich acoustic proximity fuze
+Guidance system: FuG 510/238 "Düsseldorf/Detmold" MCLOS visual guidance with wire control
+Unit cost:
+Date deployed: never
+
+
+=== X-7 anti-tank missile ===
+Primary function: anti-tank guided missile
+Powerplant: solid rocket motor
+Length: 950 mm (3 ft 1 in)
+Diameter: 150 mm (5.9 in)
+Wingspan:  600 mm (24 in)
+Launch weight: 9 kg (20 lb)
+Speed: 245 m/s (550 mph; 476 kn; 880 km/h)
+Warhead: 2.5 kg (5.5 lb) hollow charge
+Penetration: over 200 mm (7.9 in) at 30°
+Range:  1,000 m (1,100 yd)
+Fuzes: impact (?)
+Guidance system: MCLOS visual guidance with wire control
+Unit cost:
+Date deployed: never (?)
+
+
+== See also ==
+List of missiles
+List of World War II guided missiles of Germany
+
+
+== Notes ==

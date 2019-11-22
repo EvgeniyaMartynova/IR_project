@@ -1,0 +1,422 @@
+Title: GeForce 9 series
+Aspects: {'G98'}
+
+The GeForce 9000 series is the ninth generation of NVIDIA's GeForce series of graphics processing units, the first of which was released on February 21, 2008.  Products are based on a slightly repolished Tesla microarchitecture, adding PCIe 2.0 support, improved color and z-compression, and built on a 65 nm process, later using 55 nm process to reduce power consumption and die size (GeForce 8 G8x GPUs only supported PCIe 1.1 and were built on 90 nm process or 80 nm process).
+
+
+== GeForce 9300 Series ==
+
+
+=== Geforce 9100 G ===
+65 nm G98 GPU
+PCI-E x16
+64-bit bus
+4 raster operations pipelines (ROP), 8 unified shaders
+540 MHz core clock
+256 MB DDR2, 400 MHz memory clock
+1300 MHz shader clock
+5.1 G texels/s fill rate
+7.6 GB/s memory bandwidth
+Supports DirectX 10, SM 4.0
+OpenGL 2.1 compliance
+Supports 1st generation PureVideo HD technology with partial VC1 decoding
+
+
+=== Geforce 9300 GS ===
+On May 1, 2008, the GeForce 9300 GS was officially launched.
+80 nm G86 GPU
+PCI-E x16
+64-bit bus
+8 ROP, 16 unified shaders
+450 MHz core clock
+512 MB DDR2, 400 MHz memory clock
+900 MHz shader clock
+3.6 Gtexels/s fill rate
+6.4 GB/s memory bandwidth
+Supports DirectX 10, SM 4.0
+OpenGL 2.1 compliance
+
+
+== GeForce 9400 Series ==
+
+
+=== GeForce 9400 GT ===
+On August 27, 2008, the GeForce 9400 GT was officially launched.
+
+65 nm G96 GPU
+16 stream processors
+550 MHz core, with a 1350 MHz unified shader clock
+4.4 Gtexels/s fillrate
+256/512/1024 MB 800 MHz DDR2 or 256 MB 1600 MHz GDDR3, both with a 128-bit memory bus
+12.8 GB/s memory bandwidth for boards configured with DDR2 800 MHz memory
+Supports DirectX 10, Shader Model 4.0, OpenGL 3.3, and PCI-Express 2.0
+Supports 2nd generation PureVideo HD technology with partial VC1 decoding and HybridPower technology.
+Minimum of 300 watt power supply
+
+
+== GeForce 9500 Series ==
+
+
+=== GeForce 9500 GT ===
+
+On July 29, 2008, the GeForce 9500 GT was officially launched.
+
+65 nm G96 GPU
+32 stream processors (32 CUDA cores)
+4 multi processors (each multi processor has 8 cores)
+550 MHz core, with a 1400 MHz unified shader clock
+8.8 Gtexels/s fillrate
+256/512/1024 MB 1,600 MHz GDDR3 memory or 256 MB/512 MB 1,000 MHz GDDR2 memory, both with a 128-bit memory bus
+25.6 GB/s memory bandwidth for boards configured with GDDR3 800 MHz memory
+Supports DirectX 10, Shader Model 4.0, OpenGL 3.3, and PCI-Express 2.0
+Supports 2nd generation PureVideo HD technology with partial VC1 decoding
+NVIDIA SLI-ready technology
+HDMI support
+
+
+=== GeForce 9500 GS ===
+The 9500 GS is an OEM card that is based on the 9500 GT but geared towards the mainstream audience.
+
+65 nm G96 GPU
+32 stream processors
+8 ROP units
+550 MHz core, with a 1375 MHz defined unified shader clock
+8.8 Gtexels/s fillrate
+128/512 MB 1000 MHz DDR2 memory with a 128-bit memory bus
+16.0 GB/s memory bandwidth
+Supports DirectX 10, Shader Model 4.0, OpenGL 3.3, and PCI-Express 2.0Ges with ambassador clancomputerscience 5-on-5 stream gameplay[[]]Supports 2nd generation PureVideo HD technology with partial VC1 decoding
+NVIDIA SLI-ready technology
+HDMI support
+
+
+== GeForce 9600 series ==
+
+
+=== GeForce 9600 GT ===
+
+On February 21, 2008, the GeForce 9600 GT was officially launched. It was an upgrade of 8600 GTS.
+
+65 nm G94 GPU
+64 stream processors
+16 raster operation (ROP) units, 32 texture address (TA) / texture filter (TF) units
+20.8 Gtexels/s fill rate
+650 MHz core clock, with a 1625 MHz unified shader clock
+1008 MHz memory (2016 MHz datarate), 256-bit interface for 64.5GB/s of bandwidth. (57.6 GB/s for 1800 MHz configuration)
+512–2048 MB of GDDR3 or DDR2 memory
+505M transistor count
+DirectX 10.0, Shader Model 4.0, OpenGL 2.1, and PCI-Express 2.0
+Supports second-generation PureVideo HD technology with partial VC1 decoding
+Is HDCP compatible, but its implementation depends on the manufacturer
+Supports CUDA and the Quantum Effects physics processing engine
+Almost double the performance of the previous Nvidia mid-range card, the GeForce 8600GTS
+
+
+=== GeForce 9600 GS ===
+
+The GeForce 9600GS is a Hewlett Packard OEM card. It is based on a G94a core clocked at 500 MHz. It features 768 MB of DDR2 memory on a 192-bit bus o
+
+
+=== GeForce 9600 GSO ===
+The GeForce 9600 GSO was essentially a renamed 8800 GS. This tactic has been seen before in products such as the GeForce 7900 GTO to clear unsold stock when it is made obsolete by the next generation. Just like the 8800 GS, the 9600 GSO features 96 stream processors, a 550 MHz core clock with shaders clocked at 1,375 MHz, and either 384 or 768 MB of memory clocked at 800 MHz on a 192-bit memory bus. Some manufacturers have mistakenly listed some of their 768 MB models that have 96 stream processors as being based on the G94 chip, rather than the G92.
+
+
+=== GeForce 9600 GSO 512 ===
+After clearing the old 8800 GS stock, Nvidia revised the specification with a new core, and 512 MB of memory clocked at 900 MHz on a 256-bit bus. For these cards, the number of stream processors is halved to 48, with the core frequency increased to 650 MHz and the shader frequency increased to 1625 MHz. Some of these cards have 1024 megabytes of memory while still being a 512 model. The revised version is considered inferior in performance to the old version.
+
+
+=== GeForce 9600 GTX ===
+XFX released a 9600 GTX based on the G92 chip featuring 96 stream processors, a 580 MHz core clock, 1450 MHz shaders and 512 MB of GDDR3 running at 1400 MHz on a 256-bit bus. Other than clock speeds, it is functionally the desktop equivalent version of the 9800M GT.
+
+
+== GeForce 9800 Series ==
+The GeForce 9800 series contains the GX2 (dual GPU), GTX, GTX+ and GT variants.
+
+
+=== GeForce 9800 GX2 ===
+
+On March 18, 2008, the GeForce 9800 GX2 was officially launched.
+The GeForce 9800 GX2 has the following specifications:
+Dual PCBs, dual GPU design
+197 W power consumption.
+Two 65nm process GPUs, with 256 total stream processors (128 per PCB).
+Supports Quad SLI
+Power of Two underclocked GeForce 8800 GTS 512 (G92) video cards in SLI Mode
+1 GiB (512 MiB per PCB) GDDR3 memory
+Supports DirectX 10, Shader Model 4, OpenGL 3.3, and PCI-Express 2.0
+Supports 2nd generation PureVideo HD technology with partial VC1 decoding
+Outputs include two DVI ports, an HDMI output, and S/PDIF in connector on board for routing audio through the HDMI cable
+An 8-pin and a 6-pin power connector
+Clocks (Core/Shader/Memory): 600 MHz/1500 MHz/2000 MHz
+256-bit memory interface
+128 GB/s memory bandwidth
+Release date: March 18, 2008
+Launch price of $666.99
+
+
+=== GeForce 9800 GTX ===
+On April 1, 2008, the GeForce 9800 GTX was officially launched.
+Taken from an eVGA specification sheet:
+128 CUDA cores
+Clocks (Core/Shader/Memory): 675 MHz/1688 MHz/1100 MHz
+256-bit memory interface
+512 MB of GDDR3 memory
+70.4 GB/s memory bandwidth
+Texture Fill Rate of 43.2 (billion/s)
+DirectX 10, Shader Model 4.0, OpenGL 3.3, and PCI-Express 2.0
+Supports 2nd generation PureVideo HD technology with partial VC1 decoding
+Outputs include two DVI ports, an HDMI output (using Nvidia DVI to HDMI adapter (included)), and S/PDIF in connector on board for routing audio through the HDMI cable
+Release date: 2008-04-01
+Launch Price of $349In July 2008 Nvidia released a refresh of the 9800 GTX: the 9800 GTX+ (55 nm manufacturing process).  It has faster core (738 MHz) and shader (1836 MHz) clocks. Since March 2009 this design is manufactured as GeForce GTS 250.
+
+
+=== GeForce 9800 GT ===
+The 9800GT is identical to an 8800GT, although some were manufactured using a 55 nm technology instead of the 65 nm technology debuted on the 8800GT. The newer (55 nm) version supports HybridPower while the 65 nm version does not.
+ASUSTeK have released a 9800GT with Tri-SLI support.Taken from the Nvidia product detail page.
+112 CUDA cores
+512–1024 MB of GDDR3 memory
+256-bit memory interface width
+600 MHz graphics clock
+1500 MHz processor clock
+900 MHz memory clock
+33.6 Gtexel/s texture fill rate
+57.6 GB/s memory bandwidth
+Supports DirectX 10, Shader Model 4.0, OpenGL 3.3, and PCI-Express 2.0
+Supports 2nd generation PureVideo HD technology with partial VC1 decoding
+
+
+== Technical Summary of Desktop G9x GPUs ==
+1 Unified shaders : Texture mapping units : Render output units
+
+
+=== Features ===
+Compute Capability: 1.1 has support for Atomic functions, which are used to write thread-safe programs.
+
+
+== GeForce 9M Series ==
+All graphical processing units in the GeForce 9M series feature:
+
+Increased performance for similar power draw compared to GeForce 8M series for midrange and mid-high range notebooks
+DirectX 10.0 and OpenGL 3.3 compatibility
+16X antialiasing and PCI-Express 2.0 connectivity
+Full HD DVD / Blu-ray hardware decoding
+
+
+=== 9100M G ===
+1 TMU per pipeline
+4 ROPs
+8 stream processors
+16 (v4.0) shader unified
+26 GigaFLOPS
+450 MHz core clock
+1100 MHz shader clock
+Integrated RAMDAC clock at 400 MHz
+Memory clock depends on system memory
+Up to 256 MB shared memory, 512 MB with Turbo Cache in Windows XP
+64 bit memory interface (single-channel mode) / 128 bit memory interface (dual-channel mode)
+Memory bandwidth depend on System Memory
+1.8 Gtexels/s texture fill rate
+(Specification based on Acer Aspire 4530 using EVEREST Ultimate Edition Version 4.60.1500PX and TechPowerUp GPU-Z v0.4.6)
+
+
+=== 9200M GS ===
+8 stream processors
+529 MHz core clock
+1300 MHz shader clock
+400 MHz memory clock
+Up to 256 MB memory
+64-bit memory interface
+6.4 GB/s memory bandwidth
+27.1 Gpixel/s pixel fill rate
+4.2 Gtexel/s texture fill rate
+
+
+=== 9300M G ===
+16 stream processors
+400 MHz core clock
+800 MHz shader clock
+600 MHz memory clock
+Up to 512 MB memory
+64-bit memory interface
+1.8 GB/s memory bandwidth
+3.2 Gtexels/s texture fill rate
+
+
+=== 9300M GS ===
+8 stream processors
+580 MHz core clock
+1450 MHz shader clock
+800 MHz memory clock
+Up to 512 MB memory
+64-bit memory interface
+6.9 GB/s memory bandwidth
+4.6 Gtexels/s texture fill rate
+
+
+=== 9400M G ===
+16 stream processors
+Memory clock depends on system memory
+64 bit memory interface (single-channel mode) / 128 bit memory interface (dual-channel mode)
+Memory bandwidth depends on System Memory
+3.6 Gtexels/s texture fill rate
+
+
+=== 9500M G ===
+16 Processors
+500
+? Gtexels/s texture fill rate
+
+
+=== 9500M GS ===
+32 stream processors
+475 MHz core clock
+950 MHz shader clock
+700 MHz memory clock
+Up to 512 MB memory
+128-bit memory interface
+22.4 GB/s memory bandwidth
+7.6 Gtexels/s texture fill rate
+
+
+=== 9600M GS ===
+064A/8 core (G96)
+32 stream processors
+430 MHz core clock
+1075 MHz shader clock
+800/1600 MHz memory clock (effective)
+Up to 1024 MB memory
+128-bit memory interface
+12.8 GB/s (with DDR2 type) or 25.6 GB/s (with GDDR3 type) memory bandwidth
+6.8 Gtexels/s texture fill rate
+103 GigaFLOPS
+
+
+=== 9600M GT ===
+32 stream processors
+500 MHz core clock
+1250 MHz shader clock
+1000 MHz memory clock
+Up to 1024 MB memory
+128-bit memory interface
+25.6 GB/s memory bandwidth
+8.0 Gtexels/s texture fill rate
+
+
+=== 9650M GT ===
+G96 core (65/55 nm)
+32 stream processors
+550 MHz core clock
+1325 MHz shader clock
+800 MHz memory clock
+Up to 1024 MB memory
+128 bit memory interface
+25.6 GB/s memory bandwidth
+8.8 Gtexels/s texture fill rate
+
+
+=== 9700M GT [1] ===
+G96 core
+32 stream processors
+625 MHz core clock
+1550 MHz shader clock
+800 MHz memory clock
+128 bit memory interface
+25.6 GB/s memory bandwidth
+10.0 Gtexels/s texture fill rate
+148.8 GigaFLOPS
+
+
+=== 9700M GTS [2] ===
+G94 core
+48 stream processors
+530 MHz core clock
+1325 MHz shader clock
+800 MHz memory clock
+256 bit memory interface
+51.2 GB/s memory bandwidth
+12.7 Gtexels/s texture fill rate
+190.8 GigaFLOPS
+
+
+=== 9800M GS [3] ===
+G94 core
+64 stream processors
+530 MHz core clock
+1325 MHz shader clock
+800 MHz memory clock
+256 bit memory interface
+51.2 GB/s memory bandwidth
+17.0 Gtexels/s texture fill rate
+254 GigaFLOPS
+
+
+=== 9800M GTS [4] ===
+G94 core
+64 stream processors
+600 MHz core clock
+1500 MHz shader clock
+800 MHz memory clock
+256 bit memory interface
+51.2 GB/s memory bandwidth
+19.2 Gtexels/s texture fill rate
+288 GigaFLOPS
+
+
+=== 9800M GT [5] ===
+G94 core
+96 stream processors
+500 MHz core clock
+1250 MHz shader clock
+800 MHz memory clock
+256 bit memory interface
+51.2 GB/s memory bandwidth
+24.0 Gtexels/s texture fill rate
+360 GigaFLOPS
+
+
+=== 9800M GTX [6] ===
+G92 core
+112 stream processors
+500 MHz core clock
+1250 MHz shader clock
+800 MHz memory clock
+256 bit memory interface
+51.2 GB/s memory bandwidth
+28.0 Gtexels/s texture fill rate
+420 GigaFLOPS
+
+
+=== Technical summary ===
+
+
+== Discontinued support ==
+NVIDIA has ceased driver support for GeForce 9 series on April 1, 2016.
+Windows XP 32-bit & Media Center Edition: version 340.52 (WHQL) released on July 29, 2014; Download
+Windows XP 64-bit: version 340.52 (WHQL) released on July 29, 2014; Download
+Windows Vista, 7, 8, 8.1 32-bit: version 342.01 (WHQL) released on December 14, 2016; Download
+Windows Vista, 7, 8, 8.1 64-bit: version 342.01 (WHQL) released on December 14, 2016; Download
+Windows 10, 32-bit: version 342.01 (WHQL) released on December 14, 2016; Download
+Windows 10, 64-bit: version 342.01 (WHQL) released on December 14, 2016; Download
+
+
+== See also ==
+Comparison of Nvidia graphics processing units
+GeForce 8 series
+GeForce 100 series
+GeForce 200 series
+GeForce 300 series
+Nvidia Quadro –  NVIDIA's workstation graphics solution
+Nvidia Tesla –  NVIDIA's first dedicated general purpose GPU (graphical processor unit)
+
+
+== References ==
+
+
+== External links ==
+GeForce 9800 GX2
+GeForce 9800 GTX+
+GeForce 9800 GTX
+GeForce 9800 GT
+GeForce 9600 GT
+GeForce 9500 GT
+GeForce 9400 GT
+Nvidia Nsight

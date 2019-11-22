@@ -1,0 +1,8885 @@
+Title: Four-vector
+Aspects: {'K-vector'}
+
+In special relativity, a four-vector (also known as a 4-vector) is an object with four components, which transform in a specific way under Lorentz transformation. Specifically, a four-vector is an element of a four-dimensional vector space considered as a representation space of the standard representation of the Lorentz group, the (½,½) representation. It differs from a Euclidean vector in how its magnitude is determined. The transformations that preserve this magnitude are the Lorentz transformations, which include spatial rotations and boosts (a change by a constant velocity to another inertial reference frame).Four-vectors describe, for instance, position xμ in spacetime modeled as Minkowski space, a particle's four-momentum pμ, the amplitude of the electromagnetic four-potential Aμ(x) at a point x in spacetime, and the elements of the subspace spanned by the gamma matrices inside the Dirac algebra.
+The Lorentz group may be represented by 4×4 matrices Λ. The action of a Lorentz transformation on a general contravariant four-vector X (like the examples above), regarded as a column vector with Cartesian coordinates with respect to an inertial frame in the entries, is given by
+
+  
+    
+      
+        
+          X
+          
+            ′
+          
+        
+        =
+        Λ
+        X
+        ,
+      
+    
+    {\displaystyle X^{\prime }=\Lambda X,}
+  (matrix multiplication) where the components of the primed object refer to the new frame. Related to the examples above that are given as contravariant vectors, there are also the corresponding covariant vectors xμ, pμ and Aμ(x). These transform according to the rule
+
+  
+    
+      
+        
+          X
+          
+            ′
+          
+        
+        =
+        
+          
+            (
+            
+              Λ
+              
+                −
+                1
+              
+            
+            )
+          
+          
+            
+              T
+            
+          
+        
+        X
+        ,
+      
+    
+    {\displaystyle X^{\prime }={(\Lambda ^{-1})}^{\mathrm {T} }X,}
+  where T denotes the matrix transpose. This rule is different from the above rule. It corresponds to the dual representation of the standard representation. However, for the Lorentz group the dual of any representation is equivalent to the original representation. Thus the objects with covariant indices are four-vectors as well.
+For an example of a well-behaved four-component object in special relativity that is not a four-vector, see bispinor. It is similarly defined, the difference being that the transformation rule under Lorentz transformations is given by a representation other than the standard representation. In this case, the rule reads X′ = Π(Λ)X, where Π(Λ) is a 4×4 matrix other than Λ. Similar remarks apply to objects with fewer or more components that are well-behaved under Lorentz transformations. These include scalars, spinors, tensors and spinor-tensors.
+The article considers four-vectors in the context of special relativity. Although the concept of four-vectors also extends to general relativity, some of the results stated in this article require modification in general relativity. 
+
+
+== Notation ==
+The notations in this article are: lowercase bold for three-dimensional vectors, hats for three-dimensional unit vectors, capital bold for four dimensional vectors (except for the four-gradient), and tensor index notation.
+
+
+== Four-vector algebra ==
+
+
+=== Four-vectors in a real-valued basis ===
+A four-vector A is a vector with a "timelike" component and three "spacelike" components, and can be written in various equivalent notations:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  A
+                
+              
+              
+                
+                =
+                (
+                
+                  A
+                  
+                    0
+                  
+                
+                ,
+                
+                
+                  A
+                  
+                    1
+                  
+                
+                ,
+                
+                
+                  A
+                  
+                    2
+                  
+                
+                ,
+                
+                
+                  A
+                  
+                    3
+                  
+                
+                )
+              
+            
+            
+              
+              
+                
+                =
+                
+                  A
+                  
+                    0
+                  
+                
+                
+                  
+                    E
+                  
+                  
+                    0
+                  
+                
+                +
+                
+                  A
+                  
+                    1
+                  
+                
+                
+                  
+                    E
+                  
+                  
+                    1
+                  
+                
+                +
+                
+                  A
+                  
+                    2
+                  
+                
+                
+                  
+                    E
+                  
+                  
+                    2
+                  
+                
+                +
+                
+                  A
+                  
+                    3
+                  
+                
+                
+                  
+                    E
+                  
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  A
+                  
+                    0
+                  
+                
+                
+                  
+                    E
+                  
+                  
+                    0
+                  
+                
+                +
+                
+                  A
+                  
+                    i
+                  
+                
+                
+                  
+                    E
+                  
+                  
+                    i
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  A
+                  
+                    α
+                  
+                
+                
+                  
+                    E
+                  
+                  
+                    α
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  A
+                  
+                    μ
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\mathbf {A} &=(A^{0},\,A^{1},\,A^{2},\,A^{3})\\&=A^{0}\mathbf {E} _{0}+A^{1}\mathbf {E} _{1}+A^{2}\mathbf {E} _{2}+A^{3}\mathbf {E} _{3}\\&=A^{0}\mathbf {E} _{0}+A^{i}\mathbf {E} _{i}\\&=A^{\alpha }\mathbf {E} _{\alpha }\\&=A^{\mu }\end{aligned}}}
+  where in the last form the magnitude component and basis vector have been combined to a single element.
+The upper indices indicate contravariant components. Here the standard convention is that Latin indices take values for spatial components, so that i = 1, 2, 3, and Greek indices take values for space and time components, so α = 0, 1, 2, 3, used with the summation convention. The split between the time component and the spatial components is a useful one to make when determining contractions of one four vector with other tensor quantities, such as for calculating Lorentz invariants in inner products (examples are given below), or raising and lowering indices.
+In special relativity, the spacelike basis E1, E2, E3 and components A1, A2, A3 are often Cartesian basis and components:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  A
+                
+              
+              
+                
+                =
+                (
+                
+                  A
+                  
+                    t
+                  
+                
+                ,
+                
+                
+                  A
+                  
+                    x
+                  
+                
+                ,
+                
+                
+                  A
+                  
+                    y
+                  
+                
+                ,
+                
+                
+                  A
+                  
+                    z
+                  
+                
+                )
+              
+            
+            
+              
+              
+                
+                =
+                
+                  A
+                  
+                    t
+                  
+                
+                
+                  
+                    E
+                  
+                  
+                    t
+                  
+                
+                +
+                
+                  A
+                  
+                    x
+                  
+                
+                
+                  
+                    E
+                  
+                  
+                    x
+                  
+                
+                +
+                
+                  A
+                  
+                    y
+                  
+                
+                
+                  
+                    E
+                  
+                  
+                    y
+                  
+                
+                +
+                
+                  A
+                  
+                    z
+                  
+                
+                
+                  
+                    E
+                  
+                  
+                    z
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\mathbf {A} &=(A_{t},\,A_{x},\,A_{y},\,A_{z})\\&=A_{t}\mathbf {E} _{t}+A_{x}\mathbf {E} _{x}+A_{y}\mathbf {E} _{y}+A_{z}\mathbf {E} _{z}\\\end{aligned}}}
+  although, of course, any other basis and components may be used, such as spherical polar coordinates
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  A
+                
+              
+              
+                
+                =
+                (
+                
+                  A
+                  
+                    t
+                  
+                
+                ,
+                
+                
+                  A
+                  
+                    r
+                  
+                
+                ,
+                
+                
+                  A
+                  
+                    θ
+                  
+                
+                ,
+                
+                
+                  A
+                  
+                    ϕ
+                  
+                
+                )
+              
+            
+            
+              
+              
+                
+                =
+                
+                  A
+                  
+                    t
+                  
+                
+                
+                  
+                    E
+                  
+                  
+                    t
+                  
+                
+                +
+                
+                  A
+                  
+                    r
+                  
+                
+                
+                  
+                    E
+                  
+                  
+                    r
+                  
+                
+                +
+                
+                  A
+                  
+                    θ
+                  
+                
+                
+                  
+                    E
+                  
+                  
+                    θ
+                  
+                
+                +
+                
+                  A
+                  
+                    ϕ
+                  
+                
+                
+                  
+                    E
+                  
+                  
+                    ϕ
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\mathbf {A} &=(A_{t},\,A_{r},\,A_{\theta },\,A_{\phi })\\&=A_{t}\mathbf {E} _{t}+A_{r}\mathbf {E} _{r}+A_{\theta }\mathbf {E} _{\theta }+A_{\phi }\mathbf {E} _{\phi }\\\end{aligned}}}
+  or cylindrical polar coordinates,
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  A
+                
+              
+              
+                
+                =
+                (
+                
+                  A
+                  
+                    t
+                  
+                
+                ,
+                
+                
+                  A
+                  
+                    r
+                  
+                
+                ,
+                
+                
+                  A
+                  
+                    θ
+                  
+                
+                ,
+                
+                
+                  A
+                  
+                    z
+                  
+                
+                )
+              
+            
+            
+              
+              
+                
+                =
+                
+                  A
+                  
+                    t
+                  
+                
+                
+                  
+                    E
+                  
+                  
+                    t
+                  
+                
+                +
+                
+                  A
+                  
+                    r
+                  
+                
+                
+                  
+                    E
+                  
+                  
+                    r
+                  
+                
+                +
+                
+                  A
+                  
+                    θ
+                  
+                
+                
+                  
+                    E
+                  
+                  
+                    θ
+                  
+                
+                +
+                
+                  A
+                  
+                    z
+                  
+                
+                
+                  
+                    E
+                  
+                  
+                    z
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\mathbf {A} &=(A_{t},\,A_{r},\,A_{\theta },\,A_{z})\\&=A_{t}\mathbf {E} _{t}+A_{r}\mathbf {E} _{r}+A_{\theta }\mathbf {E} _{\theta }+A_{z}\mathbf {E} _{z}\\\end{aligned}}}
+  or any other orthogonal coordinates, or even general curvilinear coordinates. Note the coordinate labels are always subscripted as labels and are not indices taking numerical values. In general relativity, local curvilinear coordinates in a local basis must be used. Geometrically, a four-vector can still be interpreted as an arrow, but in spacetime - not just space. In relativity, the arrows are drawn as part of  Minkowski diagram (also called spacetime diagram). In this article, four-vectors will be referred to simply as vectors.
+It is also customary to represent the bases by column vectors:
+
+  
+    
+      
+        
+          
+            E
+          
+          
+            0
+          
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  1
+                
+              
+              
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+              
+            
+            )
+          
+        
+        
+        ,
+        
+        
+          
+            E
+          
+          
+            1
+          
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  0
+                
+              
+              
+                
+                  1
+                
+              
+              
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+              
+            
+            )
+          
+        
+        
+        ,
+        
+        
+          
+            E
+          
+          
+            2
+          
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+              
+              
+                
+                  1
+                
+              
+              
+                
+                  0
+                
+              
+            
+            )
+          
+        
+        
+        ,
+        
+        
+          
+            E
+          
+          
+            3
+          
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+              
+              
+                
+                  1
+                
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle \mathbf {E} _{0}={\begin{pmatrix}1\\0\\0\\0\end{pmatrix}}\,,\quad \mathbf {E} _{1}={\begin{pmatrix}0\\1\\0\\0\end{pmatrix}}\,,\quad \mathbf {E} _{2}={\begin{pmatrix}0\\0\\1\\0\end{pmatrix}}\,,\quad \mathbf {E} _{3}={\begin{pmatrix}0\\0\\0\\1\end{pmatrix}}}
+  so that:
+
+  
+    
+      
+        
+          A
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  
+                    A
+                    
+                      0
+                    
+                  
+                
+              
+              
+                
+                  
+                    A
+                    
+                      1
+                    
+                  
+                
+              
+              
+                
+                  
+                    A
+                    
+                      2
+                    
+                  
+                
+              
+              
+                
+                  
+                    A
+                    
+                      3
+                    
+                  
+                
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle \mathbf {A} ={\begin{pmatrix}A^{0}\\A^{1}\\A^{2}\\A^{3}\end{pmatrix}}}
+  The relation between the covariant and contravariant coordinates is through the Minkowski metric tensor (referred to as the metric), η which raises and lowers indices as follows:
+
+  
+    
+      
+        
+          A
+          
+            μ
+          
+        
+        =
+        
+          η
+          
+            μ
+            ν
+          
+        
+        
+          A
+          
+            ν
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle A_{\mu }=\eta _{\mu \nu }A^{\nu }\,,}
+  and in various equivalent notations the covariant components are:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  A
+                
+              
+              
+                
+                =
+                (
+                
+                  A
+                  
+                    0
+                  
+                
+                ,
+                
+                
+                  A
+                  
+                    1
+                  
+                
+                ,
+                
+                
+                  A
+                  
+                    2
+                  
+                
+                ,
+                
+                
+                  A
+                  
+                    3
+                  
+                
+                )
+              
+            
+            
+              
+              
+                
+                =
+                
+                  A
+                  
+                    0
+                  
+                
+                
+                  
+                    E
+                  
+                  
+                    0
+                  
+                
+                +
+                
+                  A
+                  
+                    1
+                  
+                
+                
+                  
+                    E
+                  
+                  
+                    1
+                  
+                
+                +
+                
+                  A
+                  
+                    2
+                  
+                
+                
+                  
+                    E
+                  
+                  
+                    2
+                  
+                
+                +
+                
+                  A
+                  
+                    3
+                  
+                
+                
+                  
+                    E
+                  
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  A
+                  
+                    0
+                  
+                
+                
+                  
+                    E
+                  
+                  
+                    0
+                  
+                
+                +
+                
+                  A
+                  
+                    i
+                  
+                
+                
+                  
+                    E
+                  
+                  
+                    i
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  A
+                  
+                    α
+                  
+                
+                
+                  
+                    E
+                  
+                  
+                    α
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\mathbf {A} &=(A_{0},\,A_{1},\,A_{2},\,A_{3})\\&=A_{0}\mathbf {E} ^{0}+A_{1}\mathbf {E} ^{1}+A_{2}\mathbf {E} ^{2}+A_{3}\mathbf {E} ^{3}\\&=A_{0}\mathbf {E} ^{0}+A_{i}\mathbf {E} ^{i}\\&=A_{\alpha }\mathbf {E} ^{\alpha }\\\end{aligned}}}
+  where the lowered index indicates it to be covariant. Often the metric is diagonal, as is the case for orthogonal coordinates (see line element), but not in general curvilinear coordinates.
+The bases can be represented by row vectors:
+
+  
+    
+      
+        
+          
+            E
+          
+          
+            0
+          
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  1
+                
+                
+                  0
+                
+                
+                  0
+                
+                
+                  0
+                
+              
+            
+            )
+          
+        
+        
+        ,
+        
+        
+          
+            E
+          
+          
+            1
+          
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  0
+                
+                
+                  1
+                
+                
+                  0
+                
+                
+                  0
+                
+              
+            
+            )
+          
+        
+        
+        ,
+        
+        
+          
+            E
+          
+          
+            2
+          
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  0
+                
+                
+                  0
+                
+                
+                  1
+                
+                
+                  0
+                
+              
+            
+            )
+          
+        
+        
+        ,
+        
+        
+          
+            E
+          
+          
+            3
+          
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  0
+                
+                
+                  0
+                
+                
+                  0
+                
+                
+                  1
+                
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle \mathbf {E} ^{0}={\begin{pmatrix}1&0&0&0\end{pmatrix}}\,,\quad \mathbf {E} ^{1}={\begin{pmatrix}0&1&0&0\end{pmatrix}}\,,\quad \mathbf {E} ^{2}={\begin{pmatrix}0&0&1&0\end{pmatrix}}\,,\quad \mathbf {E} ^{3}={\begin{pmatrix}0&0&0&1\end{pmatrix}}}
+  so that:
+
+  
+    
+      
+        
+          A
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  
+                    A
+                    
+                      0
+                    
+                  
+                
+                
+                  
+                    A
+                    
+                      1
+                    
+                  
+                
+                
+                  
+                    A
+                    
+                      2
+                    
+                  
+                
+                
+                  
+                    A
+                    
+                      3
+                    
+                  
+                
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle \mathbf {A} ={\begin{pmatrix}A_{0}&A_{1}&A_{2}&A_{3}\end{pmatrix}}}
+  The motivation for the above conventions are that the inner product is a scalar, see below for details.
+
+
+=== Lorentz transformation ===
+
+Given two inertial or rotated frames of reference, a four-vector is defined as a quantity which transforms according to the Lorentz transformation matrix Λ:
+
+  
+    
+      
+        
+          
+            A
+          
+          ′
+        
+        =
+        
+          Λ
+        
+        
+          A
+        
+      
+    
+    {\displaystyle \mathbf {A} '={\boldsymbol {\Lambda }}\mathbf {A} }
+  In index notation, the contravariant and covariant components transform according to, respectively:
+
+  
+    
+      
+        
+          
+            
+              A
+              ′
+            
+          
+          
+            μ
+          
+        
+        =
+        
+          Λ
+          
+            μ
+          
+        
+        
+          
+
+          
+          
+            ν
+          
+        
+        
+          A
+          
+            ν
+          
+        
+        
+        ,
+        
+        
+          
+            
+              A
+              ′
+            
+          
+          
+            μ
+          
+        
+        =
+        
+          Λ
+          
+            μ
+          
+        
+        
+          
+
+          
+          
+            ν
+          
+        
+        
+          A
+          
+            ν
+          
+        
+      
+    
+    {\displaystyle {A'}^{\mu }=\Lambda ^{\mu }{}_{\nu }A^{\nu }\,,\quad {A'}_{\mu }=\Lambda _{\mu }{}^{\nu }A_{\nu }}
+  in which the matrix Λ has components Λμν in row μ and column ν, and the inverse matrix Λ−1 has components Λμν in row μ and column ν.
+For background on the nature of this transformation definition, see tensor. All four-vectors transform in the same way, and this can be generalized to four-dimensional relativistic tensors; see special relativity.
+
+
+==== Pure rotations about an arbitrary axis ====
+For two frames rotated by a fixed angle θ about an axis defined by the unit vector:
+
+  
+    
+      
+        
+          
+            
+              
+                n
+              
+              ^
+            
+          
+        
+        =
+        (
+        
+          
+            
+              
+                n
+                ^
+              
+            
+          
+          
+            1
+          
+        
+        ,
+        
+          
+            
+              
+                n
+                ^
+              
+            
+          
+          
+            2
+          
+        
+        ,
+        
+          
+            
+              
+                n
+                ^
+              
+            
+          
+          
+            3
+          
+        
+        )
+        
+        ,
+      
+    
+    {\displaystyle {\hat {\mathbf {n} }}=({\hat {n}}_{1},{\hat {n}}_{2},{\hat {n}}_{3})\,,}
+  without any boosts, the matrix Λ has components given by:
+
+  
+    
+      
+        
+          Λ
+          
+            00
+          
+        
+        =
+        1
+      
+    
+    {\displaystyle \Lambda _{00}=1}
+  
+
+  
+    
+      
+        
+          Λ
+          
+            0
+            i
+          
+        
+        =
+        
+          Λ
+          
+            i
+            0
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle \Lambda _{0i}=\Lambda _{i0}=0}
+  
+
+  
+    
+      
+        
+          Λ
+          
+            i
+            j
+          
+        
+        =
+        (
+        
+          δ
+          
+            i
+            j
+          
+        
+        −
+        
+          
+            
+              
+                n
+                ^
+              
+            
+          
+          
+            i
+          
+        
+        
+          
+            
+              
+                n
+                ^
+              
+            
+          
+          
+            j
+          
+        
+        )
+        cos
+        ⁡
+        θ
+        −
+        
+          ε
+          
+            i
+            j
+            k
+          
+        
+        
+          
+            
+              
+                n
+                ^
+              
+            
+          
+          
+            k
+          
+        
+        sin
+        ⁡
+        θ
+        +
+        
+          
+            
+              
+                n
+                ^
+              
+            
+          
+          
+            i
+          
+        
+        
+          
+            
+              
+                n
+                ^
+              
+            
+          
+          
+            j
+          
+        
+      
+    
+    {\displaystyle \Lambda _{ij}=(\delta _{ij}-{\hat {n}}_{i}{\hat {n}}_{j})\cos \theta -\varepsilon _{ijk}{\hat {n}}_{k}\sin \theta +{\hat {n}}_{i}{\hat {n}}_{j}}
+  where δij is the Kronecker delta, and εijk is the three-dimensional Levi-Civita symbol. The spacelike components of four-vectors are rotated, while the timelike components remain unchanged.
+For the case of rotations about the z-axis only, the spacelike part of the Lorentz matrix reduces to the rotation matrix about the z-axis:
+
+  
+    
+      
+        
+          
+            (
+            
+              
+                
+                  
+                    
+                      
+                        A
+                        ′
+                      
+                    
+                    
+                      0
+                    
+                  
+                
+              
+              
+                
+                  
+                    
+                      
+                        A
+                        ′
+                      
+                    
+                    
+                      1
+                    
+                  
+                
+              
+              
+                
+                  
+                    
+                      
+                        A
+                        ′
+                      
+                    
+                    
+                      2
+                    
+                  
+                
+              
+              
+                
+                  
+                    
+                      
+                        A
+                        ′
+                      
+                    
+                    
+                      3
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  1
+                
+                
+                  0
+                
+                
+                  0
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  cos
+                  ⁡
+                  θ
+                
+                
+                  −
+                  sin
+                  ⁡
+                  θ
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  sin
+                  ⁡
+                  θ
+                
+                
+                  cos
+                  ⁡
+                  θ
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  0
+                
+                
+                  0
+                
+                
+                  1
+                
+              
+            
+            )
+          
+        
+        
+          
+            (
+            
+              
+                
+                  
+                    A
+                    
+                      0
+                    
+                  
+                
+              
+              
+                
+                  
+                    A
+                    
+                      1
+                    
+                  
+                
+              
+              
+                
+                  
+                    A
+                    
+                      2
+                    
+                  
+                
+              
+              
+                
+                  
+                    A
+                    
+                      3
+                    
+                  
+                
+              
+            
+            )
+          
+        
+         
+        .
+      
+    
+    {\displaystyle {\begin{pmatrix}{A'}^{0}\\{A'}^{1}\\{A'}^{2}\\{A'}^{3}\end{pmatrix}}={\begin{pmatrix}1&0&0&0\\0&\cos \theta &-\sin \theta &0\\0&\sin \theta &\cos \theta &0\\0&0&0&1\\\end{pmatrix}}{\begin{pmatrix}A^{0}\\A^{1}\\A^{2}\\A^{3}\end{pmatrix}}\ .}
+  
+
+
+==== Pure boosts in an arbitrary direction ====
+
+For two frames moving at constant relative three-velocity v (not four-velocity, see below), it is convenient to denote and define the relative velocity in units of c by:
+
+  
+    
+      
+        
+          β
+        
+        =
+        (
+        
+          β
+          
+            1
+          
+        
+        ,
+        
+        
+          β
+          
+            2
+          
+        
+        ,
+        
+        
+          β
+          
+            3
+          
+        
+        )
+        =
+        
+          
+            1
+            c
+          
+        
+        (
+        
+          v
+          
+            1
+          
+        
+        ,
+        
+        
+          v
+          
+            2
+          
+        
+        ,
+        
+        
+          v
+          
+            3
+          
+        
+        )
+        =
+        
+          
+            1
+            c
+          
+        
+        
+          v
+        
+        
+        .
+      
+    
+    {\displaystyle {\boldsymbol {\beta }}=(\beta _{1},\,\beta _{2},\,\beta _{3})={\frac {1}{c}}(v_{1},\,v_{2},\,v_{3})={\frac {1}{c}}\mathbf {v} \,.}
+  Then without rotations, the matrix Λ has components given by:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  Λ
+                  
+                    00
+                  
+                
+              
+              
+                
+                =
+                γ
+                ,
+              
+            
+            
+              
+                
+                  Λ
+                  
+                    0
+                    i
+                  
+                
+              
+              
+                
+                =
+                
+                  Λ
+                  
+                    i
+                    0
+                  
+                
+                =
+                −
+                γ
+                
+                  β
+                  
+                    i
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  Λ
+                  
+                    i
+                    j
+                  
+                
+              
+              
+                
+                =
+                
+                  Λ
+                  
+                    j
+                    i
+                  
+                
+                =
+                (
+                γ
+                −
+                1
+                )
+                
+                  
+                    
+                      
+                        
+                          β
+                          
+                            i
+                          
+                        
+                        
+                          β
+                          
+                            j
+                          
+                        
+                      
+                      
+                        β
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+                +
+                
+                  δ
+                  
+                    i
+                    j
+                  
+                
+                =
+                (
+                γ
+                −
+                1
+                )
+                
+                  
+                    
+                      
+                        
+                          v
+                          
+                            i
+                          
+                        
+                        
+                          v
+                          
+                            j
+                          
+                        
+                      
+                      
+                        v
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+                +
+                
+                  δ
+                  
+                    i
+                    j
+                  
+                
+                ,
+              
+            
+          
+        
+        
+        
+      
+    
+    {\displaystyle {\begin{aligned}\Lambda _{00}&=\gamma ,\\\Lambda _{0i}&=\Lambda _{i0}=-\gamma \beta _{i},\\\Lambda _{ij}&=\Lambda _{ji}=(\gamma -1){\dfrac {\beta _{i}\beta _{j}}{\beta ^{2}}}+\delta _{ij}=(\gamma -1){\dfrac {v_{i}v_{j}}{v^{2}}}+\delta _{ij},\\\end{aligned}}\,\!}
+  where the Lorentz factor is defined by:
+
+  
+    
+      
+        γ
+        =
+        
+          
+            1
+            
+              1
+              −
+              
+                β
+              
+              ⋅
+              
+                β
+              
+            
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle \gamma ={\frac {1}{\sqrt {1-{\boldsymbol {\beta }}\cdot {\boldsymbol {\beta }}}}}\,,}
+  and δij is the Kronecker delta. Contrary to the case for pure rotations, the spacelike and timelike components are mixed together under boosts.
+For the case of a boost in the x-direction only, the matrix reduces to;
+
+  
+    
+      
+        
+          
+            (
+            
+              
+                
+                  
+                    A
+                    
+                      ′
+                      
+                        0
+                      
+                    
+                  
+                
+              
+              
+                
+                  
+                    A
+                    
+                      ′
+                      
+                        1
+                      
+                    
+                  
+                
+              
+              
+                
+                  
+                    A
+                    
+                      ′
+                      
+                        2
+                      
+                    
+                  
+                
+              
+              
+                
+                  
+                    A
+                    
+                      ′
+                      
+                        3
+                      
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  cosh
+                  ⁡
+                  ϕ
+                
+                
+                  −
+                  sinh
+                  ⁡
+                  ϕ
+                
+                
+                  0
+                
+                
+                  0
+                
+              
+              
+                
+                  −
+                  sinh
+                  ⁡
+                  ϕ
+                
+                
+                  cosh
+                  ⁡
+                  ϕ
+                
+                
+                  0
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  0
+                
+                
+                  1
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  0
+                
+                
+                  0
+                
+                
+                  1
+                
+              
+            
+            )
+          
+        
+        
+          
+            (
+            
+              
+                
+                  
+                    A
+                    
+                      0
+                    
+                  
+                
+              
+              
+                
+                  
+                    A
+                    
+                      1
+                    
+                  
+                
+              
+              
+                
+                  
+                    A
+                    
+                      2
+                    
+                  
+                
+              
+              
+                
+                  
+                    A
+                    
+                      3
+                    
+                  
+                
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle {\begin{pmatrix}A'^{0}\\A'^{1}\\A'^{2}\\A'^{3}\end{pmatrix}}={\begin{pmatrix}\cosh \phi &-\sinh \phi &0&0\\-\sinh \phi &\cosh \phi &0&0\\0&0&1&0\\0&0&0&1\\\end{pmatrix}}{\begin{pmatrix}A^{0}\\A^{1}\\A^{2}\\A^{3}\end{pmatrix}}}
+  Where the rapidity ϕ expression has been used, written in terms of the hyperbolic functions:
+
+  
+    
+      
+        γ
+        =
+        cosh
+        ⁡
+        ϕ
+      
+    
+    {\displaystyle \gamma =\cosh \phi }
+  This Lorentz matrix illustrates the boost to be a hyperbolic rotation in four dimensional spacetime, analogous to the circular rotation above in three-dimensional space.
+
+
+=== Properties ===
+
+
+==== Linearity ====
+Four-vectors have the same linearity properties as Euclidean vectors in three dimensions. They can be added in the usual entrywise way:
+
+  
+    
+      
+        
+          A
+        
+        +
+        
+          B
+        
+        =
+        (
+        
+          A
+          
+            0
+          
+        
+        ,
+        
+          A
+          
+            1
+          
+        
+        ,
+        
+          A
+          
+            2
+          
+        
+        ,
+        
+          A
+          
+            3
+          
+        
+        )
+        +
+        (
+        
+          B
+          
+            0
+          
+        
+        ,
+        
+          B
+          
+            1
+          
+        
+        ,
+        
+          B
+          
+            2
+          
+        
+        ,
+        
+          B
+          
+            3
+          
+        
+        )
+        =
+        (
+        
+          A
+          
+            0
+          
+        
+        +
+        
+          B
+          
+            0
+          
+        
+        ,
+        
+          A
+          
+            1
+          
+        
+        +
+        
+          B
+          
+            1
+          
+        
+        ,
+        
+          A
+          
+            2
+          
+        
+        +
+        
+          B
+          
+            2
+          
+        
+        ,
+        
+          A
+          
+            3
+          
+        
+        +
+        
+          B
+          
+            3
+          
+        
+        )
+      
+    
+    {\displaystyle \mathbf {A} +\mathbf {B} =(A^{0},A^{1},A^{2},A^{3})+(B^{0},B^{1},B^{2},B^{3})=(A^{0}+B^{0},A^{1}+B^{1},A^{2}+B^{2},A^{3}+B^{3})}
+  and similarly scalar multiplication by a scalar λ is defined entrywise by:
+
+  
+    
+      
+        λ
+        
+          A
+        
+        =
+        λ
+        (
+        
+          A
+          
+            0
+          
+        
+        ,
+        
+          A
+          
+            1
+          
+        
+        ,
+        
+          A
+          
+            2
+          
+        
+        ,
+        
+          A
+          
+            3
+          
+        
+        )
+        =
+        (
+        λ
+        
+          A
+          
+            0
+          
+        
+        ,
+        λ
+        
+          A
+          
+            1
+          
+        
+        ,
+        λ
+        
+          A
+          
+            2
+          
+        
+        ,
+        λ
+        
+          A
+          
+            3
+          
+        
+        )
+      
+    
+    {\displaystyle \lambda \mathbf {A} =\lambda (A^{0},A^{1},A^{2},A^{3})=(\lambda A^{0},\lambda A^{1},\lambda A^{2},\lambda A^{3})}
+  Then subtraction is the inverse operation of addition, defined entrywise by:
+
+  
+    
+      
+        
+          A
+        
+        +
+        (
+        −
+        1
+        )
+        
+          B
+        
+        =
+        (
+        
+          A
+          
+            0
+          
+        
+        ,
+        
+          A
+          
+            1
+          
+        
+        ,
+        
+          A
+          
+            2
+          
+        
+        ,
+        
+          A
+          
+            3
+          
+        
+        )
+        +
+        (
+        −
+        1
+        )
+        (
+        
+          B
+          
+            0
+          
+        
+        ,
+        
+          B
+          
+            1
+          
+        
+        ,
+        
+          B
+          
+            2
+          
+        
+        ,
+        
+          B
+          
+            3
+          
+        
+        )
+        =
+        (
+        
+          A
+          
+            0
+          
+        
+        −
+        
+          B
+          
+            0
+          
+        
+        ,
+        
+          A
+          
+            1
+          
+        
+        −
+        
+          B
+          
+            1
+          
+        
+        ,
+        
+          A
+          
+            2
+          
+        
+        −
+        
+          B
+          
+            2
+          
+        
+        ,
+        
+          A
+          
+            3
+          
+        
+        −
+        
+          B
+          
+            3
+          
+        
+        )
+      
+    
+    {\displaystyle \mathbf {A} +(-1)\mathbf {B} =(A^{0},A^{1},A^{2},A^{3})+(-1)(B^{0},B^{1},B^{2},B^{3})=(A^{0}-B^{0},A^{1}-B^{1},A^{2}-B^{2},A^{3}-B^{3})}
+  
+
+
+==== Minkowski tensor ====
+
+Applying the Minkowski tensor ημν to two four-vectors A and B, writing the result in dot product notation, we have, using Einstein notation:
+
+  
+    
+      
+        
+          A
+        
+        ⋅
+        
+          B
+        
+        =
+        
+          A
+          
+            μ
+          
+        
+        
+          η
+          
+            μ
+            ν
+          
+        
+        
+          B
+          
+            ν
+          
+        
+      
+    
+    {\displaystyle \mathbf {A} \cdot \mathbf {B} =A^{\mu }\eta _{\mu \nu }B^{\nu }}
+  It is convenient to rewrite the definition in matrix form:
+
+  
+    
+      
+        
+          A
+          ⋅
+          B
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  
+                    A
+                    
+                      0
+                    
+                  
+                
+                
+                  
+                    A
+                    
+                      1
+                    
+                  
+                
+                
+                  
+                    A
+                    
+                      2
+                    
+                  
+                
+                
+                  
+                    A
+                    
+                      3
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        
+          
+            (
+            
+              
+                
+                  
+                    η
+                    
+                      00
+                    
+                  
+                
+                
+                  
+                    η
+                    
+                      01
+                    
+                  
+                
+                
+                  
+                    η
+                    
+                      02
+                    
+                  
+                
+                
+                  
+                    η
+                    
+                      03
+                    
+                  
+                
+              
+              
+                
+                  
+                    η
+                    
+                      10
+                    
+                  
+                
+                
+                  
+                    η
+                    
+                      11
+                    
+                  
+                
+                
+                  
+                    η
+                    
+                      12
+                    
+                  
+                
+                
+                  
+                    η
+                    
+                      13
+                    
+                  
+                
+              
+              
+                
+                  
+                    η
+                    
+                      20
+                    
+                  
+                
+                
+                  
+                    η
+                    
+                      21
+                    
+                  
+                
+                
+                  
+                    η
+                    
+                      22
+                    
+                  
+                
+                
+                  
+                    η
+                    
+                      23
+                    
+                  
+                
+              
+              
+                
+                  
+                    η
+                    
+                      30
+                    
+                  
+                
+                
+                  
+                    η
+                    
+                      31
+                    
+                  
+                
+                
+                  
+                    η
+                    
+                      32
+                    
+                  
+                
+                
+                  
+                    η
+                    
+                      33
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        
+          
+            (
+            
+              
+                
+                  
+                    B
+                    
+                      0
+                    
+                  
+                
+              
+              
+                
+                  
+                    B
+                    
+                      1
+                    
+                  
+                
+              
+              
+                
+                  
+                    B
+                    
+                      2
+                    
+                  
+                
+              
+              
+                
+                  
+                    B
+                    
+                      3
+                    
+                  
+                
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle \mathbf {A\cdot B} ={\begin{pmatrix}A^{0}&A^{1}&A^{2}&A^{3}\end{pmatrix}}{\begin{pmatrix}\eta _{00}&\eta _{01}&\eta _{02}&\eta _{03}\\\eta _{10}&\eta _{11}&\eta _{12}&\eta _{13}\\\eta _{20}&\eta _{21}&\eta _{22}&\eta _{23}\\\eta _{30}&\eta _{31}&\eta _{32}&\eta _{33}\end{pmatrix}}{\begin{pmatrix}B^{0}\\B^{1}\\B^{2}\\B^{3}\end{pmatrix}}}
+  in which case ημν above is the entry in row μ and column ν of the Minkowski metric as a square matrix. The Minkowski metric is not a Euclidean metric, because it is indefinite (see metric signature). A number of other expressions can be used because the metric tensor can raise and lower the components of A or B. For contra/co-variant components of A and co/contra-variant components of B, we have:
+
+  
+    
+      
+        
+          A
+        
+        ⋅
+        
+          B
+        
+        =
+        
+          A
+          
+            μ
+          
+        
+        
+          η
+          
+            μ
+            ν
+          
+        
+        
+          B
+          
+            ν
+          
+        
+        =
+        
+          A
+          
+            ν
+          
+        
+        
+          B
+          
+            ν
+          
+        
+        =
+        
+          A
+          
+            μ
+          
+        
+        
+          B
+          
+            μ
+          
+        
+      
+    
+    {\displaystyle \mathbf {A} \cdot \mathbf {B} =A^{\mu }\eta _{\mu \nu }B^{\nu }=A_{\nu }B^{\nu }=A^{\mu }B_{\mu }}
+  so in the matrix notation:
+
+  
+    
+      
+        
+          A
+          ⋅
+          B
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  
+                    A
+                    
+                      0
+                    
+                  
+                
+                
+                  
+                    A
+                    
+                      1
+                    
+                  
+                
+                
+                  
+                    A
+                    
+                      2
+                    
+                  
+                
+                
+                  
+                    A
+                    
+                      3
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        
+          
+            (
+            
+              
+                
+                  
+                    B
+                    
+                      0
+                    
+                  
+                
+              
+              
+                
+                  
+                    B
+                    
+                      1
+                    
+                  
+                
+              
+              
+                
+                  
+                    B
+                    
+                      2
+                    
+                  
+                
+              
+              
+                
+                  
+                    B
+                    
+                      3
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  
+                    B
+                    
+                      0
+                    
+                  
+                
+                
+                  
+                    B
+                    
+                      1
+                    
+                  
+                
+                
+                  
+                    B
+                    
+                      2
+                    
+                  
+                
+                
+                  
+                    B
+                    
+                      3
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        
+          
+            (
+            
+              
+                
+                  
+                    A
+                    
+                      0
+                    
+                  
+                
+              
+              
+                
+                  
+                    A
+                    
+                      1
+                    
+                  
+                
+              
+              
+                
+                  
+                    A
+                    
+                      2
+                    
+                  
+                
+              
+              
+                
+                  
+                    A
+                    
+                      3
+                    
+                  
+                
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle \mathbf {A\cdot B} ={\begin{pmatrix}A_{0}&A_{1}&A_{2}&A_{3}\end{pmatrix}}{\begin{pmatrix}B^{0}\\B^{1}\\B^{2}\\B^{3}\end{pmatrix}}={\begin{pmatrix}B_{0}&B_{1}&B_{2}&B_{3}\end{pmatrix}}{\begin{pmatrix}A^{0}\\A^{1}\\A^{2}\\A^{3}\end{pmatrix}}}
+  while for A and B each in covariant components:
+
+  
+    
+      
+        
+          A
+        
+        ⋅
+        
+          B
+        
+        =
+        
+          A
+          
+            μ
+          
+        
+        
+          η
+          
+            μ
+            ν
+          
+        
+        
+          B
+          
+            ν
+          
+        
+      
+    
+    {\displaystyle \mathbf {A} \cdot \mathbf {B} =A_{\mu }\eta ^{\mu \nu }B_{\nu }}
+  with a similar matrix expression to the above.
+Applying the Minkowski tensor to a four-vector A with itself we get:
+
+  
+    
+      
+        
+          A
+          ⋅
+          A
+        
+        =
+        
+          A
+          
+            μ
+          
+        
+        
+          η
+          
+            μ
+            ν
+          
+        
+        
+          A
+          
+            ν
+          
+        
+      
+    
+    {\displaystyle \mathbf {A\cdot A} =A^{\mu }\eta _{\mu \nu }A^{\nu }}
+  which, depending on the case, may be considered the square, or its negative, of the length of the vector.
+Following are two common choices for the metric tensor in the standard basis (essentially Cartesian coordinates). If orthogonal coordinates are used, there would be scale factors along the diagonal part of the spacelike part of the metric, while for general curvilinear coordinates the entire spacelike part of the metric would have components dependent on the curvilinear basis used.
+
+
+===== Standard basis, (+−−−) signature =====
+In the (+−−−) metric signature, evaluating the summation over indices gives:
+
+  
+    
+      
+        
+          A
+        
+        ⋅
+        
+          B
+        
+        =
+        
+          A
+          
+            0
+          
+        
+        
+          B
+          
+            0
+          
+        
+        −
+        
+          A
+          
+            1
+          
+        
+        
+          B
+          
+            1
+          
+        
+        −
+        
+          A
+          
+            2
+          
+        
+        
+          B
+          
+            2
+          
+        
+        −
+        
+          A
+          
+            3
+          
+        
+        
+          B
+          
+            3
+          
+        
+      
+    
+    {\displaystyle \mathbf {A} \cdot \mathbf {B} =A^{0}B^{0}-A^{1}B^{1}-A^{2}B^{2}-A^{3}B^{3}}
+  while in matrix form:
+
+  
+    
+      
+        
+          A
+          ⋅
+          B
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  
+                    A
+                    
+                      0
+                    
+                  
+                
+                
+                  
+                    A
+                    
+                      1
+                    
+                  
+                
+                
+                  
+                    A
+                    
+                      2
+                    
+                  
+                
+                
+                  
+                    A
+                    
+                      3
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        
+          
+            (
+            
+              
+                
+                  1
+                
+                
+                  0
+                
+                
+                  0
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  −
+                  1
+                
+                
+                  0
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  0
+                
+                
+                  −
+                  1
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  0
+                
+                
+                  0
+                
+                
+                  −
+                  1
+                
+              
+            
+            )
+          
+        
+        
+          
+            (
+            
+              
+                
+                  
+                    B
+                    
+                      0
+                    
+                  
+                
+              
+              
+                
+                  
+                    B
+                    
+                      1
+                    
+                  
+                
+              
+              
+                
+                  
+                    B
+                    
+                      2
+                    
+                  
+                
+              
+              
+                
+                  
+                    B
+                    
+                      3
+                    
+                  
+                
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle \mathbf {A\cdot B} ={\begin{pmatrix}A^{0}&A^{1}&A^{2}&A^{3}\end{pmatrix}}{\begin{pmatrix}1&0&0&0\\0&-1&0&0\\0&0&-1&0\\0&0&0&-1\end{pmatrix}}{\begin{pmatrix}B^{0}\\B^{1}\\B^{2}\\B^{3}\end{pmatrix}}}
+  It is a recurring theme in special relativity to take the expression
+
+  
+    
+      
+        
+          A
+        
+        ⋅
+        
+          B
+        
+        =
+        
+          A
+          
+            0
+          
+        
+        
+          B
+          
+            0
+          
+        
+        −
+        
+          A
+          
+            1
+          
+        
+        
+          B
+          
+            1
+          
+        
+        −
+        
+          A
+          
+            2
+          
+        
+        
+          B
+          
+            2
+          
+        
+        −
+        
+          A
+          
+            3
+          
+        
+        
+          B
+          
+            3
+          
+        
+        =
+        C
+      
+    
+    {\displaystyle \mathbf {A} \cdot \mathbf {B} =A^{0}B^{0}-A^{1}B^{1}-A^{2}B^{2}-A^{3}B^{3}=C}
+  in one reference frame, where C is the value of the inner product in this frame, and:
+
+  
+    
+      
+        
+          
+            A
+          
+          ′
+        
+        ⋅
+        
+          
+            B
+          
+          ′
+        
+        =
+        
+          
+            
+              A
+              ′
+            
+          
+          
+            0
+          
+        
+        
+          
+            
+              B
+              ′
+            
+          
+          
+            0
+          
+        
+        −
+        
+          
+            
+              A
+              ′
+            
+          
+          
+            1
+          
+        
+        
+          
+            
+              B
+              ′
+            
+          
+          
+            1
+          
+        
+        −
+        
+          
+            
+              A
+              ′
+            
+          
+          
+            2
+          
+        
+        
+          
+            
+              B
+              ′
+            
+          
+          
+            2
+          
+        
+        −
+        
+          
+            
+              A
+              ′
+            
+          
+          
+            3
+          
+        
+        
+          
+            
+              B
+              ′
+            
+          
+          
+            3
+          
+        
+        =
+        
+          C
+          ′
+        
+      
+    
+    {\displaystyle \mathbf {A} '\cdot \mathbf {B} '={A'}^{0}{B'}^{0}-{A'}^{1}{B'}^{1}-{A'}^{2}{B'}^{2}-{A'}^{3}{B'}^{3}=C'}
+  in another frame, in which C′ is the value of the inner product in this frame. Then since the inner product is an invariant, these must be equal:
+
+  
+    
+      
+        
+          A
+        
+        ⋅
+        
+          B
+        
+        =
+        
+          
+            A
+          
+          ′
+        
+        ⋅
+        
+          
+            B
+          
+          ′
+        
+      
+    
+    {\displaystyle \mathbf {A} \cdot \mathbf {B} =\mathbf {A} '\cdot \mathbf {B} '}
+  that is:
+
+  
+    
+      
+        C
+        =
+        
+          A
+          
+            0
+          
+        
+        
+          B
+          
+            0
+          
+        
+        −
+        
+          A
+          
+            1
+          
+        
+        
+          B
+          
+            1
+          
+        
+        −
+        
+          A
+          
+            2
+          
+        
+        
+          B
+          
+            2
+          
+        
+        −
+        
+          A
+          
+            3
+          
+        
+        
+          B
+          
+            3
+          
+        
+        =
+        
+          
+            
+              A
+              ′
+            
+          
+          
+            0
+          
+        
+        
+          
+            
+              B
+              ′
+            
+          
+          
+            0
+          
+        
+        −
+        
+          
+            
+              A
+              ′
+            
+          
+          
+            1
+          
+        
+        
+          
+            
+              B
+              ′
+            
+          
+          
+            1
+          
+        
+        −
+        
+          
+            
+              A
+              ′
+            
+          
+          
+            2
+          
+        
+        
+          
+            
+              B
+              ′
+            
+          
+          
+            2
+          
+        
+        −
+        
+          
+            
+              A
+              ′
+            
+          
+          
+            3
+          
+        
+        
+          
+            
+              B
+              ′
+            
+          
+          
+            3
+          
+        
+      
+    
+    {\displaystyle C=A^{0}B^{0}-A^{1}B^{1}-A^{2}B^{2}-A^{3}B^{3}={A'}^{0}{B'}^{0}-{A'}^{1}{B'}^{1}-{A'}^{2}{B'}^{2}-{A'}^{3}{B'}^{3}}
+  Considering that physical quantities in relativity are four-vectors, this equation has the appearance of a "conservation law", but there is no "conservation" involved. The primary significance of the Minkowski inner product is that for any two four-vectors, its value is invariant for all observers; a change of coordinates does not result in a change in value of the inner product. The components of the four-vectors change from one frame to another; A and A′ are connected by a Lorentz transformation, and similarly for B and B′, although the inner products are the same in all frames. Nevertheless, this type of expression is exploited in relativistic calculations on a par with conservation laws, since the magnitudes of components can be determined without explicitly performing any Lorentz transformations. A particular example is with energy and momentum in the energy-momentum relation derived from the four-momentum vector (see also below).
+In this signature we have:
+
+  
+    
+      
+        
+          A
+          ⋅
+          A
+        
+        =
+        (
+        
+          A
+          
+            0
+          
+        
+        
+          )
+          
+            2
+          
+        
+        −
+        (
+        
+          A
+          
+            1
+          
+        
+        
+          )
+          
+            2
+          
+        
+        −
+        (
+        
+          A
+          
+            2
+          
+        
+        
+          )
+          
+            2
+          
+        
+        −
+        (
+        
+          A
+          
+            3
+          
+        
+        
+          )
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \mathbf {A\cdot A} =(A^{0})^{2}-(A^{1})^{2}-(A^{2})^{2}-(A^{3})^{2}}
+  With the signature (+−−−), four-vectors may be classified as either spacelike if 
+  
+    
+      
+        
+          A
+          ⋅
+          A
+        
+        <
+        0
+      
+    
+    {\displaystyle \mathbf {A\cdot A} <0}
+  , timelike if 
+  
+    
+      
+        
+          A
+          ⋅
+          A
+        
+        >
+        0
+      
+    
+    {\displaystyle \mathbf {A\cdot A} >0}
+  , and null vectors if 
+  
+    
+      
+        
+          A
+          ⋅
+          A
+        
+        =
+        0
+      
+    
+    {\displaystyle \mathbf {A\cdot A} =0}
+  .
+
+
+===== Standard basis, (−+++) signature =====
+Some authors define η with the opposite sign, in which case we have the (−+++) metric signature. Evaluating the summation with this signature:
+
+  
+    
+      
+        
+          A
+          ⋅
+          B
+        
+        =
+        −
+        
+          A
+          
+            0
+          
+        
+        
+          B
+          
+            0
+          
+        
+        +
+        
+          A
+          
+            1
+          
+        
+        
+          B
+          
+            1
+          
+        
+        +
+        
+          A
+          
+            2
+          
+        
+        
+          B
+          
+            2
+          
+        
+        +
+        
+          A
+          
+            3
+          
+        
+        
+          B
+          
+            3
+          
+        
+      
+    
+    {\displaystyle \mathbf {A\cdot B} =-A^{0}B^{0}+A^{1}B^{1}+A^{2}B^{2}+A^{3}B^{3}}
+  while the matrix form is:
+
+  
+    
+      
+        
+          A
+          ⋅
+          B
+        
+        =
+        
+          (
+          
+            
+              
+                
+                  
+                    A
+                    
+                      0
+                    
+                  
+                
+                
+                  
+                    A
+                    
+                      1
+                    
+                  
+                
+                
+                  
+                    A
+                    
+                      2
+                    
+                  
+                
+                
+                  
+                    A
+                    
+                      3
+                    
+                  
+                
+              
+            
+          
+          )
+        
+        
+          (
+          
+            
+              
+                
+                  −
+                  1
+                
+                
+                  0
+                
+                
+                  0
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  1
+                
+                
+                  0
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  0
+                
+                
+                  1
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  0
+                
+                
+                  0
+                
+                
+                  1
+                
+              
+            
+          
+          )
+        
+        
+          (
+          
+            
+              
+                
+                  
+                    B
+                    
+                      0
+                    
+                  
+                
+              
+              
+                
+                  
+                    B
+                    
+                      1
+                    
+                  
+                
+              
+              
+                
+                  
+                    B
+                    
+                      2
+                    
+                  
+                
+              
+              
+                
+                  
+                    B
+                    
+                      3
+                    
+                  
+                
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \mathbf {A\cdot B} =\left({\begin{matrix}A^{0}&A^{1}&A^{2}&A^{3}\end{matrix}}\right)\left({\begin{matrix}-1&0&0&0\\0&1&0&0\\0&0&1&0\\0&0&0&1\end{matrix}}\right)\left({\begin{matrix}B^{0}\\B^{1}\\B^{2}\\B^{3}\end{matrix}}\right)}
+  Note that in this case, in one frame:
+
+  
+    
+      
+        
+          A
+        
+        ⋅
+        
+          B
+        
+        =
+        −
+        
+          A
+          
+            0
+          
+        
+        
+          B
+          
+            0
+          
+        
+        +
+        
+          A
+          
+            1
+          
+        
+        
+          B
+          
+            1
+          
+        
+        +
+        
+          A
+          
+            2
+          
+        
+        
+          B
+          
+            2
+          
+        
+        +
+        
+          A
+          
+            3
+          
+        
+        
+          B
+          
+            3
+          
+        
+        =
+        −
+        C
+      
+    
+    {\displaystyle \mathbf {A} \cdot \mathbf {B} =-A^{0}B^{0}+A^{1}B^{1}+A^{2}B^{2}+A^{3}B^{3}=-C}
+  while in another:
+
+  
+    
+      
+        
+          
+            A
+          
+          ′
+        
+        ⋅
+        
+          
+            B
+          
+          ′
+        
+        =
+        −
+        
+          
+            
+              A
+              ′
+            
+          
+          
+            0
+          
+        
+        
+          
+            
+              B
+              ′
+            
+          
+          
+            0
+          
+        
+        +
+        
+          
+            
+              A
+              ′
+            
+          
+          
+            1
+          
+        
+        
+          
+            
+              B
+              ′
+            
+          
+          
+            1
+          
+        
+        +
+        
+          
+            
+              A
+              ′
+            
+          
+          
+            2
+          
+        
+        
+          
+            
+              B
+              ′
+            
+          
+          
+            2
+          
+        
+        +
+        
+          
+            
+              A
+              ′
+            
+          
+          
+            3
+          
+        
+        
+          
+            
+              B
+              ′
+            
+          
+          
+            3
+          
+        
+        =
+        −
+        
+          C
+          ′
+        
+      
+    
+    {\displaystyle \mathbf {A} '\cdot \mathbf {B} '=-{A'}^{0}{B'}^{0}+{A'}^{1}{B'}^{1}+{A'}^{2}{B'}^{2}+{A'}^{3}{B'}^{3}=-C'}
+  so that:
+
+  
+    
+      
+        −
+        C
+        =
+        −
+        
+          A
+          
+            0
+          
+        
+        
+          B
+          
+            0
+          
+        
+        +
+        
+          A
+          
+            1
+          
+        
+        
+          B
+          
+            1
+          
+        
+        +
+        
+          A
+          
+            2
+          
+        
+        
+          B
+          
+            2
+          
+        
+        +
+        
+          A
+          
+            3
+          
+        
+        
+          B
+          
+            3
+          
+        
+        =
+        −
+        
+          
+            
+              A
+              ′
+            
+          
+          
+            0
+          
+        
+        
+          
+            
+              B
+              ′
+            
+          
+          
+            0
+          
+        
+        +
+        
+          
+            
+              A
+              ′
+            
+          
+          
+            1
+          
+        
+        
+          
+            
+              B
+              ′
+            
+          
+          
+            1
+          
+        
+        +
+        
+          
+            
+              A
+              ′
+            
+          
+          
+            2
+          
+        
+        
+          
+            
+              B
+              ′
+            
+          
+          
+            2
+          
+        
+        +
+        
+          
+            
+              A
+              ′
+            
+          
+          
+            3
+          
+        
+        
+          
+            
+              B
+              ′
+            
+          
+          
+            3
+          
+        
+      
+    
+    {\displaystyle -C=-A^{0}B^{0}+A^{1}B^{1}+A^{2}B^{2}+A^{3}B^{3}=-{A'}^{0}{B'}^{0}+{A'}^{1}{B'}^{1}+{A'}^{2}{B'}^{2}+{A'}^{3}{B'}^{3}}
+  which is equivalent to the above expression for C in terms of A and B. Either convention will work. With the Minkowski metric defined in the two ways above, the only difference between covariant and contravariant four-vector components are signs, therefore the signs depend on which sign convention is used.
+We have:
+
+  
+    
+      
+        
+          A
+          ⋅
+          A
+        
+        =
+        −
+        (
+        
+          A
+          
+            0
+          
+        
+        
+          )
+          
+            2
+          
+        
+        +
+        (
+        
+          A
+          
+            1
+          
+        
+        
+          )
+          
+            2
+          
+        
+        +
+        (
+        
+          A
+          
+            2
+          
+        
+        
+          )
+          
+            2
+          
+        
+        +
+        (
+        
+          A
+          
+            3
+          
+        
+        
+          )
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \mathbf {A\cdot A} =-(A^{0})^{2}+(A^{1})^{2}+(A^{2})^{2}+(A^{3})^{2}}
+  With the signature (−+++), four-vectors may be classified as either spacelike if 
+  
+    
+      
+        
+          A
+          ⋅
+          A
+        
+        >
+        0
+      
+    
+    {\displaystyle \mathbf {A\cdot A} >0}
+  , timelike if 
+  
+    
+      
+        
+          A
+          ⋅
+          A
+        
+        <
+        0
+      
+    
+    {\displaystyle \mathbf {A\cdot A} <0}
+  , and null if 
+  
+    
+      
+        
+          A
+          ⋅
+          A
+        
+        =
+        0
+      
+    
+    {\displaystyle \mathbf {A\cdot A} =0}
+  .
+
+
+===== Dual vectors =====
+Applying the Minkowski tensor is often expressed as the effect of the dual vector of one vector on the other:
+
+  
+    
+      
+        
+          A
+          ⋅
+          B
+        
+        =
+        
+          A
+          
+            ∗
+          
+        
+        (
+        
+          B
+        
+        )
+        =
+        A
+        
+          
+            
+            
+              ν
+            
+          
+        
+        
+          B
+          
+            ν
+          
+        
+        .
+      
+    
+    {\displaystyle \mathbf {A\cdot B} =A^{*}(\mathbf {B} )=A{_{\nu }}B^{\nu }.}
+  Here the Aνs are the components of the dual vector A* of A in the dual basis and called the covariant coordinates of A, while the original Aν components are called the contravariant coordinates.
+
+
+== Four-vector calculus ==
+
+
+=== Derivatives and differentials ===
+In special relativity (but not general relativity), the derivative of a four-vector with respect to a scalar λ (invariant) is itself a four-vector. It is also useful to take the differential of the four-vector, dA and divide it by the differential of the scalar, dλ:
+
+  
+    
+      
+        
+          
+            
+              d
+              
+                A
+              
+            
+            differential
+          
+        
+        =
+        
+          
+            
+              
+                d
+                
+                  A
+                
+              
+              
+                d
+                λ
+              
+            
+            derivative
+          
+        
+        
+          
+            
+              d
+              λ
+            
+            differential
+          
+        
+      
+    
+    {\displaystyle {\underset {\text{differential}}{d\mathbf {A} }}={\underset {\text{derivative}}{\frac {d\mathbf {A} }{d\lambda }}}{\underset {\text{differential}}{d\lambda }}}
+  where the contravariant components are:
+
+  
+    
+      
+        d
+        
+          A
+        
+        =
+        (
+        d
+        
+          A
+          
+            0
+          
+        
+        ,
+        d
+        
+          A
+          
+            1
+          
+        
+        ,
+        d
+        
+          A
+          
+            2
+          
+        
+        ,
+        d
+        
+          A
+          
+            3
+          
+        
+        )
+      
+    
+    {\displaystyle d\mathbf {A} =(dA^{0},dA^{1},dA^{2},dA^{3})}
+  while the covariant components are:
+
+  
+    
+      
+        d
+        
+          A
+        
+        =
+        (
+        d
+        
+          A
+          
+            0
+          
+        
+        ,
+        d
+        
+          A
+          
+            1
+          
+        
+        ,
+        d
+        
+          A
+          
+            2
+          
+        
+        ,
+        d
+        
+          A
+          
+            3
+          
+        
+        )
+      
+    
+    {\displaystyle d\mathbf {A} =(dA_{0},dA_{1},dA_{2},dA_{3})}
+  In relativistic mechanics, one often takes the differential of a four-vector and divides by the differential in proper time (see below).
+
+
+== Fundamental four-vectors ==
+
+
+=== Four-position ===
+A point in Minkowski space is a time and spatial position, called an "event", or sometimes the position four-vector or four-position or 4-position, described in some reference frame by a set of four coordinates:
+
+  
+    
+      
+        
+          R
+        
+        =
+        
+          (
+          
+            c
+            t
+            ,
+            
+              r
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \mathbf {R} =\left(ct,\mathbf {r} \right)}
+  where r is the three-dimensional space position vector. If r is a function of coordinate time t in the same frame, i.e. r = r(t), this corresponds to a sequence of events as t varies. The definition R0 = ct ensures that all the coordinates have the same units (of distance). These coordinates are the components of the position four-vector for the event.
+The displacement four-vector is defined to be an "arrow" linking two events:
+
+  
+    
+      
+        Δ
+        
+          R
+        
+        =
+        
+          (
+          
+            c
+            Δ
+            t
+            ,
+            Δ
+            
+              r
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \Delta \mathbf {R} =\left(c\Delta t,\Delta \mathbf {r} \right)}
+  For the differential four-position on a world line we have, using a norm notation:
+
+  
+    
+      
+        ‖
+        d
+        
+          R
+        
+        
+          ‖
+          
+            2
+          
+        
+        =
+        
+          d
+          R
+          ⋅
+          d
+          R
+        
+        =
+        d
+        
+          R
+          
+            μ
+          
+        
+        d
+        
+          R
+          
+            μ
+          
+        
+        =
+        
+          c
+          
+            2
+          
+        
+        d
+        
+          τ
+          
+            2
+          
+        
+        =
+        d
+        
+          s
+          
+            2
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle \|d\mathbf {R} \|^{2}=\mathbf {dR\cdot dR} =dR^{\mu }dR_{\mu }=c^{2}d\tau ^{2}=ds^{2}\,,}
+  defining the differential line element ds and differential proper time increment dτ, but this "norm" is also:
+
+  
+    
+      
+        ‖
+        d
+        
+          R
+        
+        
+          ‖
+          
+            2
+          
+        
+        =
+        (
+        c
+        d
+        t
+        
+          )
+          
+            2
+          
+        
+        −
+        d
+        
+          r
+        
+        ⋅
+        d
+        
+          r
+        
+        
+        ,
+      
+    
+    {\displaystyle \|d\mathbf {R} \|^{2}=(cdt)^{2}-d\mathbf {r} \cdot d\mathbf {r} \,,}
+  so that:
+
+  
+    
+      
+        (
+        c
+        d
+        τ
+        
+          )
+          
+            2
+          
+        
+        =
+        (
+        c
+        d
+        t
+        
+          )
+          
+            2
+          
+        
+        −
+        d
+        
+          r
+        
+        ⋅
+        d
+        
+          r
+        
+        
+        .
+      
+    
+    {\displaystyle (cd\tau )^{2}=(cdt)^{2}-d\mathbf {r} \cdot d\mathbf {r} \,.}
+  When considering physical phenomena, differential equations arise naturally; however, when considering space and time derivatives of functions, it is unclear which reference frame these derivatives are taken with respect to. It is agreed that time derivatives are taken with respect to the proper time 
+  
+    
+      
+        τ
+      
+    
+    {\displaystyle \tau }
+  . As proper time is an invariant, this guarantees that the proper-time-derivative of any four-vector is itself a four-vector. It is then important to find a relation between this proper-time-derivative and another time derivative (using the coordinate time t of an inertial reference frame). This relation is provided by taking the above differential invariant spacetime interval, then dividing by (cdt)2 to obtain:
+
+  
+    
+      
+        
+          
+            (
+            
+              
+                
+                  c
+                  d
+                  τ
+                
+                
+                  c
+                  d
+                  t
+                
+              
+            
+            )
+          
+          
+            2
+          
+        
+        =
+        1
+        −
+        
+          (
+          
+            
+              
+                
+                  d
+                  
+                    r
+                  
+                
+                
+                  c
+                  d
+                  t
+                
+              
+            
+            ⋅
+            
+              
+                
+                  d
+                  
+                    r
+                  
+                
+                
+                  c
+                  d
+                  t
+                
+              
+            
+          
+          )
+        
+        =
+        1
+        −
+        
+          
+            
+              
+                u
+              
+              ⋅
+              
+                u
+              
+            
+            
+              c
+              
+                2
+              
+            
+          
+        
+        =
+        
+          
+            1
+            
+              γ
+              (
+              
+                u
+              
+              
+                )
+                
+                  2
+                
+              
+            
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle \left({\frac {cd\tau }{cdt}}\right)^{2}=1-\left({\frac {d\mathbf {r} }{cdt}}\cdot {\frac {d\mathbf {r} }{cdt}}\right)=1-{\frac {\mathbf {u} \cdot \mathbf {u} }{c^{2}}}={\frac {1}{\gamma (\mathbf {u} )^{2}}}\,,}
+  where u = dr/dt is the coordinate 3-velocity of an object measured in the same frame as the coordinates x, y, z, and coordinate time t, and
+
+  
+    
+      
+        γ
+        (
+        
+          u
+        
+        )
+        =
+        
+          
+            1
+            
+              1
+              −
+              
+                
+                  
+                    
+                      u
+                    
+                    ⋅
+                    
+                      u
+                    
+                  
+                  
+                    c
+                    
+                      2
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle \gamma (\mathbf {u} )={\frac {1}{\sqrt {1-{\frac {\mathbf {u} \cdot \mathbf {u} }{c^{2}}}}}}}
+  is the Lorentz factor. This provides a useful relation between the differentials in coordinate time and proper time:
+
+  
+    
+      
+        d
+        t
+        =
+        γ
+        (
+        
+          u
+        
+        )
+        d
+        τ
+        
+        .
+      
+    
+    {\displaystyle dt=\gamma (\mathbf {u} )d\tau \,.}
+  This relation can also be found from the time transformation in the Lorentz transformations.
+Important four-vectors in relativity theory can be defined by applying this differential 
+  
+    
+      
+        
+          
+            d
+            
+              d
+              τ
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {d}{d\tau }}}
+  .
+
+
+=== Four-gradient ===
+Considering that partial derivatives are linear operators, one can form a four-gradient from the partial time derivative ∂/∂t and the spatial gradient ∇. Using the standard basis, in index and abbreviated notations, the contravariant components are:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  ∂
+                
+              
+              
+                
+                =
+                
+                  (
+                  
+                    
+                      
+                        ∂
+                        
+                          ∂
+                          
+                            x
+                            
+                              0
+                            
+                          
+                        
+                      
+                    
+                    ,
+                    
+                    −
+                    
+                      
+                        ∂
+                        
+                          ∂
+                          
+                            x
+                            
+                              1
+                            
+                          
+                        
+                      
+                    
+                    ,
+                    
+                    −
+                    
+                      
+                        ∂
+                        
+                          ∂
+                          
+                            x
+                            
+                              2
+                            
+                          
+                        
+                      
+                    
+                    ,
+                    
+                    −
+                    
+                      
+                        ∂
+                        
+                          ∂
+                          
+                            x
+                            
+                              3
+                            
+                          
+                        
+                      
+                    
+                  
+                  )
+                
+              
+            
+            
+              
+              
+                
+                =
+                (
+                
+                  ∂
+                  
+                    0
+                  
+                
+                ,
+                
+                −
+                
+                  ∂
+                  
+                    1
+                  
+                
+                ,
+                
+                −
+                
+                  ∂
+                  
+                    2
+                  
+                
+                ,
+                
+                −
+                
+                  ∂
+                  
+                    3
+                  
+                
+                )
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    E
+                  
+                  
+                    0
+                  
+                
+                
+                  ∂
+                  
+                    0
+                  
+                
+                −
+                
+                  
+                    E
+                  
+                  
+                    1
+                  
+                
+                
+                  ∂
+                  
+                    1
+                  
+                
+                −
+                
+                  
+                    E
+                  
+                  
+                    2
+                  
+                
+                
+                  ∂
+                  
+                    2
+                  
+                
+                −
+                
+                  
+                    E
+                  
+                  
+                    3
+                  
+                
+                
+                  ∂
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    E
+                  
+                  
+                    0
+                  
+                
+                
+                  ∂
+                  
+                    0
+                  
+                
+                −
+                
+                  
+                    E
+                  
+                  
+                    i
+                  
+                
+                
+                  ∂
+                  
+                    i
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    E
+                  
+                  
+                    α
+                  
+                
+                
+                  ∂
+                  
+                    α
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  (
+                  
+                    
+                      
+                        1
+                        c
+                      
+                    
+                    
+                      
+                        ∂
+                        
+                          ∂
+                          t
+                        
+                      
+                    
+                    ,
+                    
+                    −
+                    ∇
+                  
+                  )
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  (
+                  
+                    
+                      
+                        
+                          ∂
+                          
+                            t
+                          
+                        
+                        c
+                      
+                    
+                    ,
+                    −
+                    ∇
+                  
+                  )
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    E
+                  
+                  
+                    0
+                  
+                
+                
+                  
+                    1
+                    c
+                  
+                
+                
+                  
+                    ∂
+                    
+                      ∂
+                      t
+                    
+                  
+                
+                −
+                ∇
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\boldsymbol {\partial }}&=\left({\frac {\partial }{\partial x_{0}}},\,-{\frac {\partial }{\partial x_{1}}},\,-{\frac {\partial }{\partial x_{2}}},\,-{\frac {\partial }{\partial x_{3}}}\right)\\&=(\partial ^{0},\,-\partial ^{1},\,-\partial ^{2},\,-\partial ^{3})\\&=\mathbf {E} _{0}\partial ^{0}-\mathbf {E} _{1}\partial ^{1}-\mathbf {E} _{2}\partial ^{2}-\mathbf {E} _{3}\partial ^{3}\\&=\mathbf {E} _{0}\partial ^{0}-\mathbf {E} _{i}\partial ^{i}\\&=\mathbf {E} _{\alpha }\partial ^{\alpha }\\&=\left({\frac {1}{c}}{\frac {\partial }{\partial t}},\,-\nabla \right)\\&=\left({\frac {\partial _{t}}{c}},-\nabla \right)\\&=\mathbf {E} _{0}{\frac {1}{c}}{\frac {\partial }{\partial t}}-\nabla \\\end{aligned}}}
+  Note the basis vectors are placed in front of the components, to prevent confusion between taking the derivative of the basis vector, or simply indicating the partial derivative is a component of this four-vector. The covariant components are:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  ∂
+                
+              
+              
+                
+                =
+                
+                  (
+                  
+                    
+                      
+                        ∂
+                        
+                          ∂
+                          
+                            x
+                            
+                              0
+                            
+                          
+                        
+                      
+                    
+                    ,
+                    
+                    
+                      
+                        ∂
+                        
+                          ∂
+                          
+                            x
+                            
+                              1
+                            
+                          
+                        
+                      
+                    
+                    ,
+                    
+                    
+                      
+                        ∂
+                        
+                          ∂
+                          
+                            x
+                            
+                              2
+                            
+                          
+                        
+                      
+                    
+                    ,
+                    
+                    
+                      
+                        ∂
+                        
+                          ∂
+                          
+                            x
+                            
+                              3
+                            
+                          
+                        
+                      
+                    
+                  
+                  )
+                
+              
+            
+            
+              
+              
+                
+                =
+                (
+                
+                  ∂
+                  
+                    0
+                  
+                
+                ,
+                
+                
+                  ∂
+                  
+                    1
+                  
+                
+                ,
+                
+                
+                  ∂
+                  
+                    2
+                  
+                
+                ,
+                
+                
+                  ∂
+                  
+                    3
+                  
+                
+                )
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    E
+                  
+                  
+                    0
+                  
+                
+                
+                  ∂
+                  
+                    0
+                  
+                
+                +
+                
+                  
+                    E
+                  
+                  
+                    1
+                  
+                
+                
+                  ∂
+                  
+                    1
+                  
+                
+                +
+                
+                  
+                    E
+                  
+                  
+                    2
+                  
+                
+                
+                  ∂
+                  
+                    2
+                  
+                
+                +
+                
+                  
+                    E
+                  
+                  
+                    3
+                  
+                
+                
+                  ∂
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    E
+                  
+                  
+                    0
+                  
+                
+                
+                  ∂
+                  
+                    0
+                  
+                
+                +
+                
+                  
+                    E
+                  
+                  
+                    i
+                  
+                
+                
+                  ∂
+                  
+                    i
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    E
+                  
+                  
+                    α
+                  
+                
+                
+                  ∂
+                  
+                    α
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  (
+                  
+                    
+                      
+                        1
+                        c
+                      
+                    
+                    
+                      
+                        ∂
+                        
+                          ∂
+                          t
+                        
+                      
+                    
+                    ,
+                    
+                    ∇
+                  
+                  )
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  (
+                  
+                    
+                      
+                        
+                          ∂
+                          
+                            t
+                          
+                        
+                        c
+                      
+                    
+                    ,
+                    ∇
+                  
+                  )
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    E
+                  
+                  
+                    0
+                  
+                
+                
+                  
+                    1
+                    c
+                  
+                
+                
+                  
+                    ∂
+                    
+                      ∂
+                      t
+                    
+                  
+                
+                +
+                ∇
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\boldsymbol {\partial }}&=\left({\frac {\partial }{\partial x^{0}}},\,{\frac {\partial }{\partial x^{1}}},\,{\frac {\partial }{\partial x^{2}}},\,{\frac {\partial }{\partial x^{3}}}\right)\\&=(\partial _{0},\,\partial _{1},\,\partial _{2},\,\partial _{3})\\&=\mathbf {E} ^{0}\partial _{0}+\mathbf {E} ^{1}\partial _{1}+\mathbf {E} ^{2}\partial _{2}+\mathbf {E} ^{3}\partial _{3}\\&=\mathbf {E} ^{0}\partial _{0}+\mathbf {E} ^{i}\partial _{i}\\&=\mathbf {E} ^{\alpha }\partial _{\alpha }\\&=\left({\frac {1}{c}}{\frac {\partial }{\partial t}},\,\nabla \right)\\&=\left({\frac {\partial _{t}}{c}},\nabla \right)\\&=\mathbf {E} ^{0}{\frac {1}{c}}{\frac {\partial }{\partial t}}+\nabla \\\end{aligned}}}
+  Since this is an operator, it doesn't have a "length", but evaluating the inner product of the operator with itself gives another operator:
+
+  
+    
+      
+        
+          ∂
+          
+            μ
+          
+        
+        
+          ∂
+          
+            μ
+          
+        
+        =
+        
+          
+            1
+            
+              c
+              
+                2
+              
+            
+          
+        
+        
+          
+            
+              ∂
+              
+                2
+              
+            
+            
+              ∂
+              
+                t
+                
+                  2
+                
+              
+            
+          
+        
+        −
+        
+          ∇
+          
+            2
+          
+        
+        =
+        
+          
+            
+              
+                
+                  ∂
+                  
+                    t
+                  
+                
+              
+              
+                2
+              
+            
+            
+              c
+              
+                2
+              
+            
+          
+        
+        −
+        
+          ∇
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \partial ^{\mu }\partial _{\mu }={\frac {1}{c^{2}}}{\frac {\partial ^{2}}{\partial t^{2}}}-\nabla ^{2}={\frac {{\partial _{t}}^{2}}{c^{2}}}-\nabla ^{2}}
+  called the D'Alembert operator.
+
+
+== Kinematics ==
+
+
+=== Four-velocity ===
+
+The four-velocity of a particle is defined by:
+
+  
+    
+      
+        
+          U
+        
+        =
+        
+          
+            
+              d
+              
+                X
+              
+            
+            
+              d
+              τ
+            
+          
+        
+        =
+        
+          
+            
+              d
+              
+                X
+              
+            
+            
+              d
+              t
+            
+          
+        
+        
+          
+            
+              d
+              t
+            
+            
+              d
+              τ
+            
+          
+        
+        =
+        γ
+        (
+        
+          u
+        
+        )
+        
+          (
+          
+            c
+            ,
+            
+              u
+            
+          
+          )
+        
+        ,
+      
+    
+    {\displaystyle \mathbf {U} ={\frac {d\mathbf {X} }{d\tau }}={\frac {d\mathbf {X} }{dt}}{\frac {dt}{d\tau }}=\gamma (\mathbf {u} )\left(c,\mathbf {u} \right),}
+  Geometrically, U is a normalized vector tangent to the world line of the particle. Using the differential of the four-position, the magnitude of the four-velocity can be obtained:
+
+  
+    
+      
+        ‖
+        
+          U
+        
+        
+          ‖
+          
+            2
+          
+        
+        =
+        
+          U
+          
+            μ
+          
+        
+        
+          U
+          
+            μ
+          
+        
+        =
+        
+          
+            
+              d
+              
+                X
+                
+                  μ
+                
+              
+            
+            
+              d
+              τ
+            
+          
+        
+        
+          
+            
+              d
+              
+                X
+                
+                  μ
+                
+              
+            
+            
+              d
+              τ
+            
+          
+        
+        =
+        
+          
+            
+              d
+              
+                X
+                
+                  μ
+                
+              
+              d
+              
+                X
+                
+                  μ
+                
+              
+            
+            
+              d
+              
+                τ
+                
+                  2
+                
+              
+            
+          
+        
+        =
+        
+          c
+          
+            2
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle \|\mathbf {U} \|^{2}=U^{\mu }U_{\mu }={\frac {dX^{\mu }}{d\tau }}{\frac {dX_{\mu }}{d\tau }}={\frac {dX^{\mu }dX_{\mu }}{d\tau ^{2}}}=c^{2}\,,}
+  in short, the magnitude of the four-velocity for any object is always a fixed constant:
+
+  
+    
+      
+        ‖
+        
+          U
+        
+        
+          ‖
+          
+            2
+          
+        
+        =
+        
+          c
+          
+            2
+          
+        
+        
+      
+    
+    {\displaystyle \|\mathbf {U} \|^{2}=c^{2}\,}
+  The norm is also:
+
+  
+    
+      
+        ‖
+        
+          U
+        
+        
+          ‖
+          
+            2
+          
+        
+        =
+        
+          
+            γ
+            (
+            
+              u
+            
+            )
+          
+          
+            2
+          
+        
+        
+          (
+          
+            
+              c
+              
+                2
+              
+            
+            −
+            
+              u
+            
+            ⋅
+            
+              u
+            
+          
+          )
+        
+        
+        ,
+      
+    
+    {\displaystyle \|\mathbf {U} \|^{2}={\gamma (\mathbf {u} )}^{2}\left(c^{2}-\mathbf {u} \cdot \mathbf {u} \right)\,,}
+  so that:
+
+  
+    
+      
+        
+          c
+          
+            2
+          
+        
+        =
+        
+          
+            γ
+            (
+            
+              u
+            
+            )
+          
+          
+            2
+          
+        
+        
+          (
+          
+            
+              c
+              
+                2
+              
+            
+            −
+            
+              u
+            
+            ⋅
+            
+              u
+            
+          
+          )
+        
+        
+        ,
+      
+    
+    {\displaystyle c^{2}={\gamma (\mathbf {u} )}^{2}\left(c^{2}-\mathbf {u} \cdot \mathbf {u} \right)\,,}
+  which reduces to the definition of the Lorentz factor.
+Units of four-velocity are m/s in SI and 1 in the geometrized unit system.  Four-velocity is a contravariant vector.
+
+
+=== Four-acceleration ===
+The four-acceleration is given by:
+
+  
+    
+      
+        
+          A
+        
+        =
+        
+          
+            
+              d
+              
+                U
+              
+            
+            
+              d
+              τ
+            
+          
+        
+        =
+        γ
+        (
+        
+          u
+        
+        )
+        
+          (
+          
+            
+              
+                
+                  d
+                  
+                    γ
+                  
+                  (
+                  
+                    u
+                  
+                  )
+                
+                
+                  d
+                  t
+                
+              
+            
+            c
+            ,
+            
+              
+                
+                  d
+                  
+                    γ
+                  
+                  (
+                  
+                    u
+                  
+                  )
+                
+                
+                  d
+                  t
+                
+              
+            
+            
+              u
+            
+            +
+            γ
+            (
+            
+              u
+            
+            )
+            
+              a
+            
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle \mathbf {A} ={\frac {d\mathbf {U} }{d\tau }}=\gamma (\mathbf {u} )\left({\frac {d{\gamma }(\mathbf {u} )}{dt}}c,{\frac {d{\gamma }(\mathbf {u} )}{dt}}\mathbf {u} +\gamma (\mathbf {u} )\mathbf {a} \right).}
+  where a = du/dt is the coordinate 3-acceleration. Since the magnitude of U is a constant, the four acceleration is orthogonal to the four velocity, i.e. the Minkowski inner product of the four-acceleration and the four-velocity is zero:
+
+  
+    
+      
+        
+          A
+        
+        ⋅
+        
+          U
+        
+        =
+        
+          A
+          
+            μ
+          
+        
+        
+          U
+          
+            μ
+          
+        
+        =
+        
+          
+            
+              d
+              
+                U
+                
+                  μ
+                
+              
+            
+            
+              d
+              τ
+            
+          
+        
+        
+          U
+          
+            μ
+          
+        
+        =
+        
+          
+            1
+            2
+          
+        
+        
+        
+          
+            d
+            
+              d
+              τ
+            
+          
+        
+        (
+        
+          U
+          
+            μ
+          
+        
+        
+          U
+          
+            μ
+          
+        
+        )
+        =
+        0
+        
+      
+    
+    {\displaystyle \mathbf {A} \cdot \mathbf {U} =A^{\mu }U_{\mu }={\frac {dU^{\mu }}{d\tau }}U_{\mu }={\frac {1}{2}}\,{\frac {d}{d\tau }}(U^{\mu }U_{\mu })=0\,}
+  which is true for all world lines. The geometric meaning of four-acceleration is the curvature vector of the world line in Minkowski space.
+
+
+== Dynamics ==
+
+
+=== Four-momentum ===
+For a massive particle of rest mass (or invariant mass) m0, the four-momentum is given by:
+
+  
+    
+      
+        
+          P
+        
+        =
+        
+          m
+          
+            0
+          
+        
+        
+          U
+        
+        =
+        
+          m
+          
+            0
+          
+        
+        γ
+        (
+        
+          u
+        
+        )
+        (
+        c
+        ,
+        
+          u
+        
+        )
+        =
+        (
+        E
+        
+          /
+        
+        c
+        ,
+        
+          p
+        
+        )
+      
+    
+    {\displaystyle \mathbf {P} =m_{0}\mathbf {U} =m_{0}\gamma (\mathbf {u} )(c,\mathbf {u} )=(E/c,\mathbf {p} )}
+  where the total energy of the moving particle is:
+
+  
+    
+      
+        E
+        =
+        γ
+        (
+        
+          u
+        
+        )
+        
+          m
+          
+            0
+          
+        
+        
+          c
+          
+            2
+          
+        
+      
+    
+    {\displaystyle E=\gamma (\mathbf {u} )m_{0}c^{2}}
+  and the total relativistic momentum is:
+
+  
+    
+      
+        
+          p
+        
+        =
+        γ
+        (
+        
+          u
+        
+        )
+        
+          m
+          
+            0
+          
+        
+        
+          u
+        
+      
+    
+    {\displaystyle \mathbf {p} =\gamma (\mathbf {u} )m_{0}\mathbf {u} }
+  Taking the inner product of the four-momentum with itself:
+
+  
+    
+      
+        ‖
+        
+          P
+        
+        
+          ‖
+          
+            2
+          
+        
+        =
+        
+          P
+          
+            μ
+          
+        
+        
+          P
+          
+            μ
+          
+        
+        =
+        
+          m
+          
+            0
+          
+          
+            2
+          
+        
+        
+          U
+          
+            μ
+          
+        
+        
+          U
+          
+            μ
+          
+        
+        =
+        
+          m
+          
+            0
+          
+          
+            2
+          
+        
+        
+          c
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \|\mathbf {P} \|^{2}=P^{\mu }P_{\mu }=m_{0}^{2}U^{\mu }U_{\mu }=m_{0}^{2}c^{2}}
+  and also:
+
+  
+    
+      
+        ‖
+        
+          P
+        
+        
+          ‖
+          
+            2
+          
+        
+        =
+        
+          
+            
+              E
+              
+                2
+              
+            
+            
+              c
+              
+                2
+              
+            
+          
+        
+        −
+        
+          p
+        
+        ⋅
+        
+          p
+        
+      
+    
+    {\displaystyle \|\mathbf {P} \|^{2}={\frac {E^{2}}{c^{2}}}-\mathbf {p} \cdot \mathbf {p} }
+  which leads to the energy–momentum relation:
+
+  
+    
+      
+        
+          E
+          
+            2
+          
+        
+        =
+        
+          c
+          
+            2
+          
+        
+        
+          p
+        
+        ⋅
+        
+          p
+        
+        +
+        (
+        
+          m
+          
+            0
+          
+        
+        
+          c
+          
+            2
+          
+        
+        
+          )
+          
+            2
+          
+        
+        
+        .
+      
+    
+    {\displaystyle E^{2}=c^{2}\mathbf {p} \cdot \mathbf {p} +(m_{0}c^{2})^{2}\,.}
+  This last relation is useful relativistic mechanics, essential in relativistic quantum mechanics and relativistic quantum field theory, all with applications to particle physics.
+
+
+=== Four-force ===
+The four-force acting on a particle is defined analogously to the 3-force as the time derivative of 3-momentum in Newton's second law:
+
+  
+    
+      
+        
+          F
+        
+        =
+        
+          
+            
+              d
+              
+                P
+              
+            
+            
+              d
+              τ
+            
+          
+        
+        =
+        γ
+        (
+        
+          u
+        
+        )
+        
+          (
+          
+            
+              
+                1
+                c
+              
+            
+            
+              
+                
+                  d
+                  E
+                
+                
+                  d
+                  t
+                
+              
+            
+            ,
+            
+              
+                
+                  d
+                  
+                    p
+                  
+                
+                
+                  d
+                  t
+                
+              
+            
+          
+          )
+        
+        =
+        γ
+        (
+        
+          u
+        
+        )
+        (
+        P
+        
+          /
+        
+        c
+        ,
+        
+          f
+        
+        )
+      
+    
+    {\displaystyle \mathbf {F} ={\frac {d\mathbf {P} }{d\tau }}=\gamma (\mathbf {u} )\left({\frac {1}{c}}{\frac {dE}{dt}},{\frac {d\mathbf {p} }{dt}}\right)=\gamma (\mathbf {u} )(P/c,\mathbf {f} )}
+  where P is the power transferred to move the particle, and f is the 3-force acting on the particle. For a particle of constant invariant mass m0, this is equivalent to
+
+  
+    
+      
+        
+          F
+        
+        =
+        
+          m
+          
+            0
+          
+        
+        
+          A
+        
+        =
+        
+          m
+          
+            0
+          
+        
+        γ
+        (
+        
+          u
+        
+        )
+        
+          (
+          
+            
+              
+                
+                  d
+                  
+                    γ
+                  
+                  (
+                  
+                    u
+                  
+                  )
+                
+                
+                  d
+                  t
+                
+              
+            
+            c
+            ,
+            
+              (
+              
+                
+                  
+                    
+                      d
+                      
+                        γ
+                      
+                      (
+                      
+                        u
+                      
+                      )
+                    
+                    
+                      d
+                      t
+                    
+                  
+                
+                
+                  u
+                
+                +
+                γ
+                (
+                
+                  u
+                
+                )
+                
+                  a
+                
+              
+              )
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \mathbf {F} =m_{0}\mathbf {A} =m_{0}\gamma (\mathbf {u} )\left({\frac {d{\gamma }(\mathbf {u} )}{dt}}c,\left({\frac {d{\gamma }(\mathbf {u} )}{dt}}\mathbf {u} +\gamma (\mathbf {u} )\mathbf {a} \right)\right)}
+  An invariant derived from the four-force is:
+
+  
+    
+      
+        
+          F
+        
+        ⋅
+        
+          U
+        
+        =
+        
+          F
+          
+            μ
+          
+        
+        
+          U
+          
+            μ
+          
+        
+        =
+        
+          m
+          
+            0
+          
+        
+        
+          A
+          
+            μ
+          
+        
+        
+          U
+          
+            μ
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle \mathbf {F} \cdot \mathbf {U} =F^{\mu }U_{\mu }=m_{0}A^{\mu }U_{\mu }=0}
+  from the above result.
+
+
+== Thermodynamics ==
+
+
+=== Four-heat flux ===
+The four-heat flux vector field, is essentially similar to the 3d heat flux vector field q, in the local frame of the fluid:
+
+  
+    
+      
+        
+          Q
+        
+        =
+        −
+        k
+        
+          ∂
+        
+        T
+        =
+        −
+        k
+        
+          (
+          
+            
+              
+                1
+                c
+              
+            
+            
+              
+                
+                  ∂
+                  T
+                
+                
+                  ∂
+                  t
+                
+              
+            
+            ,
+            ∇
+            T
+          
+          )
+        
+      
+    
+    {\displaystyle \mathbf {Q} =-k{\boldsymbol {\partial }}T=-k\left({\frac {1}{c}}{\frac {\partial T}{\partial t}},\nabla T\right)}
+  where T is absolute temperature and k is thermal conductivity.
+
+
+=== Four-baryon number flux ===
+The flux of baryons is:
+
+  
+    
+      
+        
+          S
+        
+        =
+        n
+        
+          U
+        
+      
+    
+    {\displaystyle \mathbf {S} =n\mathbf {U} }
+  where n is the number density of baryons in the local rest frame of the baryon fluid (positive values for baryons, negative for antibaryons), and U the four-velocity field (of the fluid) as above.
+
+
+=== Four-entropy ===
+The four-entropy vector is defined by:
+
+  
+    
+      
+        
+          s
+        
+        =
+        s
+        
+          S
+        
+        +
+        
+          
+            
+              Q
+            
+            T
+          
+        
+      
+    
+    {\displaystyle \mathbf {s} =s\mathbf {S} +{\frac {\mathbf {Q} }{T}}}
+  where s is the entropy per baryon, and T the absolute temperature, in the local rest frame of the fluid.
+
+
+== Electromagnetism ==
+Examples of four-vectors in electromagnetism include the following.
+
+
+=== Four-current ===
+The electromagnetic four-current (or more correctly a four-current density) is defined by
+
+  
+    
+      
+        
+          J
+        
+        =
+        
+          (
+          
+            ρ
+            c
+            ,
+            
+              j
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \mathbf {J} =\left(\rho c,\mathbf {j} \right)}
+  formed from the current density j and charge density ρ.
+
+
+=== Four-potential ===
+The electromagnetic four-potential (or more correctly a four-EM vector potential) defined by
+
+  
+    
+      
+        
+          A
+        
+        =
+        
+          (
+          
+            
+              
+                ϕ
+                c
+              
+            
+            ,
+            
+              a
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \mathbf {A} =\left({\frac {\phi }{c}},\mathbf {a} \right)}
+  formed from the vector potential a and the scalar potential ϕ.
+The four-potential is not uniquely determined, because it depends on a choice of gauge.
+In the wave equation for the electromagnetic field:
+
+  
+    
+      
+        (
+        
+          ∂
+        
+        ⋅
+        
+          ∂
+        
+        )
+        
+          A
+        
+        =
+        0
+      
+    
+    {\displaystyle (\mathbf {\partial } \cdot \mathbf {\partial } )\mathbf {A} =0}
+   {in vacuum}
+
+  
+    
+      
+        (
+        
+          ∂
+        
+        ⋅
+        
+          ∂
+        
+        )
+        
+          A
+        
+        =
+        
+          μ
+          
+            0
+          
+        
+        
+          J
+        
+      
+    
+    {\displaystyle (\mathbf {\partial } \cdot \mathbf {\partial } )\mathbf {A} =\mu _{0}\mathbf {J} }
+   {with a four-current source and using the Lorenz gauge condition 
+  
+    
+      
+        (
+        
+          ∂
+        
+        ⋅
+        
+          A
+        
+        )
+        =
+        0
+      
+    
+    {\displaystyle (\mathbf {\partial } \cdot \mathbf {A} )=0}
+  }
+
+
+== Waves ==
+
+
+=== Four-frequency ===
+A photonic plane wave can be described by the four-frequency defined as
+
+  
+    
+      
+        
+          N
+        
+        =
+        ν
+        
+          (
+          
+            1
+            ,
+            
+              
+                
+                  
+                    n
+                  
+                  ^
+                
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \mathbf {N} =\nu \left(1,{\hat {\mathbf {n} }}\right)}
+  where ν is the frequency of the wave and 
+  
+    
+      
+        
+          
+            
+              
+                n
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\mathbf {n} }}}
+   is a unit vector in the travel direction of the wave. Now:
+
+  
+    
+      
+        ‖
+        
+          N
+        
+        ‖
+        =
+        
+          N
+          
+            μ
+          
+        
+        
+          N
+          
+            μ
+          
+        
+        =
+        
+          ν
+          
+            2
+          
+        
+        
+          (
+          
+            1
+            −
+            
+              
+                
+                  
+                    n
+                  
+                  ^
+                
+              
+            
+            ⋅
+            
+              
+                
+                  
+                    n
+                  
+                  ^
+                
+              
+            
+          
+          )
+        
+        =
+        0
+      
+    
+    {\displaystyle \|\mathbf {N} \|=N^{\mu }N_{\mu }=\nu ^{2}\left(1-{\hat {\mathbf {n} }}\cdot {\hat {\mathbf {n} }}\right)=0}
+  so the four-frequency of a photon is always a null vector.
+
+
+=== Four-wavevector ===
+
+The quantities reciprocal to time t and space r are the angular frequency ω and wave vector k, respectively. They form the components of the four-wavevector or wave four-vector:
+
+  
+    
+      
+        
+          K
+        
+        =
+        
+          (
+          
+            
+              
+                ω
+                c
+              
+            
+            ,
+            
+              
+                
+                  
+                    k
+                  
+                  →
+                
+              
+            
+          
+          )
+        
+        =
+        
+          (
+          
+            
+              
+                ω
+                c
+              
+            
+            ,
+            
+              
+                ω
+                
+                  v
+                  
+                    p
+                  
+                
+              
+            
+            
+              
+                
+                  n
+                  ^
+                
+              
+            
+          
+          )
+        
+        
+        .
+      
+    
+    {\displaystyle \mathbf {K} =\left({\frac {\omega }{c}},{\vec {\mathbf {k} }}\right)=\left({\frac {\omega }{c}},{\frac {\omega }{v_{p}}}\mathbf {\hat {n}} \right)\,.}
+  A wave packet of nearly monochromatic light can be described by:
+
+  
+    
+      
+        
+          K
+        
+        =
+        
+          
+            
+              2
+              π
+            
+            c
+          
+        
+        
+          N
+        
+        =
+        
+          
+            
+              2
+              π
+            
+            c
+          
+        
+        ν
+        (
+        1
+        ,
+        
+          
+            
+              
+                n
+              
+              ^
+            
+          
+        
+        )
+        =
+        
+          
+            ω
+            c
+          
+        
+        
+          (
+          
+            1
+            ,
+            
+              
+                
+                  
+                    n
+                  
+                  ^
+                
+              
+            
+          
+          )
+        
+        
+        .
+      
+    
+    {\displaystyle \mathbf {K} ={\frac {2\pi }{c}}\mathbf {N} ={\frac {2\pi }{c}}\nu (1,{\hat {\mathbf {n} }})={\frac {\omega }{c}}\left(1,{\hat {\mathbf {n} }}\right)\,.}
+  The de Broglie relations then showed that four-wavevector applied to matter waves as well as to light waves. :
+
+  
+    
+      
+        
+          P
+        
+        =
+        ℏ
+        
+          K
+        
+        =
+        
+          (
+          
+            
+              
+                E
+                c
+              
+            
+            ,
+            
+              
+                
+                  p
+                  →
+                
+              
+            
+          
+          )
+        
+        =
+        ℏ
+        
+          (
+          
+            
+              
+                ω
+                c
+              
+            
+            ,
+            
+              
+                
+                  k
+                  →
+                
+              
+            
+          
+          )
+        
+        
+        .
+      
+    
+    {\displaystyle \mathbf {P} =\hbar \mathbf {K} =\left({\frac {E}{c}},{\vec {p}}\right)=\hbar \left({\frac {\omega }{c}},{\vec {k}}\right)\,.}
+  yielding 
+  
+    
+      
+        E
+        =
+        ℏ
+        ω
+      
+    
+    {\displaystyle E=\hbar \omega }
+   and 
+  
+    
+      
+        
+          
+            
+              p
+              →
+            
+          
+        
+        =
+        ℏ
+        
+          
+            
+              k
+              →
+            
+          
+        
+      
+    
+    {\displaystyle {\vec {p}}=\hbar {\vec {k}}}
+  , where ħ is the Planck constant divided by 2π.
+The square of the norm is:
+
+  
+    
+      
+        ‖
+        
+          K
+        
+        
+          ‖
+          
+            2
+          
+        
+        =
+        
+          K
+          
+            μ
+          
+        
+        
+          K
+          
+            μ
+          
+        
+        =
+        
+          
+            (
+            
+              
+                ω
+                c
+              
+            
+            )
+          
+          
+            2
+          
+        
+        −
+        
+          k
+        
+        ⋅
+        
+          k
+        
+        
+        ,
+      
+    
+    {\displaystyle \|\mathbf {K} \|^{2}=K^{\mu }K_{\mu }=\left({\frac {\omega }{c}}\right)^{2}-\mathbf {k} \cdot \mathbf {k} \,,}
+  and by the de Broglie relation:
+
+  
+    
+      
+        ‖
+        
+          K
+        
+        
+          ‖
+          
+            2
+          
+        
+        =
+        
+          
+            1
+            
+              ℏ
+              
+                2
+              
+            
+          
+        
+        ‖
+        
+          P
+        
+        
+          ‖
+          
+            2
+          
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  
+                    m
+                    
+                      0
+                    
+                  
+                  c
+                
+                ℏ
+              
+            
+            )
+          
+          
+            2
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle \|\mathbf {K} \|^{2}={\frac {1}{\hbar ^{2}}}\|\mathbf {P} \|^{2}=\left({\frac {m_{0}c}{\hbar }}\right)^{2}\,,}
+  we have the matter wave analogue of the energy–momentum relation:
+
+  
+    
+      
+        
+          
+            (
+            
+              
+                ω
+                c
+              
+            
+            )
+          
+          
+            2
+          
+        
+        −
+        
+          k
+        
+        ⋅
+        
+          k
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  
+                    m
+                    
+                      0
+                    
+                  
+                  c
+                
+                ℏ
+              
+            
+            )
+          
+          
+            2
+          
+        
+        
+        .
+      
+    
+    {\displaystyle \left({\frac {\omega }{c}}\right)^{2}-\mathbf {k} \cdot \mathbf {k} =\left({\frac {m_{0}c}{\hbar }}\right)^{2}\,.}
+  Note that for massless particles, in which case m0 = 0, we have:
+
+  
+    
+      
+        
+          
+            (
+            
+              
+                ω
+                c
+              
+            
+            )
+          
+          
+            2
+          
+        
+        =
+        
+          k
+        
+        ⋅
+        
+          k
+        
+        
+        ,
+      
+    
+    {\displaystyle \left({\frac {\omega }{c}}\right)^{2}=\mathbf {k} \cdot \mathbf {k} \,,}
+  or ||k|| = ω/c. Note this is consistent with the above case; for photons with a 3-wavevector of modulus ω/c, in the direction of wave propagation defined by the unit vector 
+  
+    
+      
+        
+          
+            
+              
+                n
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\mathbf {n} }}}
+  .
+
+
+== Quantum theory ==
+
+
+=== Four-probability current ===
+In quantum mechanics, the four-probability current or probability four-current is analogous to the electromagnetic four-current:
+
+  
+    
+      
+        
+          J
+        
+        =
+        (
+        ρ
+        c
+        ,
+        
+          j
+        
+        )
+      
+    
+    {\displaystyle \mathbf {J} =(\rho c,\mathbf {j} )}
+  where ρ is the probability density function corresponding to the time component, and j is the probability current vector. In non-relativistic quantum mechanics, this current is always well defined because the expressions for density and current are positive definite and can admit a probability interpretation. In relativistic quantum mechanics and quantum field theory, it is not always possible to find a current, particularly when interactions are involved.
+Replacing the energy by the energy operator and the momentum by the momentum operator in the four-momentum, one obtains the four-momentum operator, used in relativistic wave equations.
+
+
+=== Four-spin ===
+The four-spin of a particle is defined in the rest frame of a particle to be
+
+  
+    
+      
+        
+          S
+        
+        =
+        (
+        0
+        ,
+        
+          s
+        
+        )
+      
+    
+    {\displaystyle \mathbf {S} =(0,\mathbf {s} )}
+  where s is the spin pseudovector. In quantum mechanics, not all three components of this vector are simultaneously measurable, only one component is. The timelike component is zero in the particle's rest frame, but not in any other frame. This component can be found from an appropriate Lorentz transformation.
+The norm squared is the (negative of the) magnitude squared of the spin, and according to quantum mechanics we have
+
+  
+    
+      
+        ‖
+        
+          S
+        
+        
+          ‖
+          
+            2
+          
+        
+        =
+        −
+        
+          |
+        
+        
+          s
+        
+        
+          
+            |
+          
+          
+            2
+          
+        
+        =
+        −
+        
+          ℏ
+          
+            2
+          
+        
+        s
+        (
+        s
+        +
+        1
+        )
+      
+    
+    {\displaystyle \|\mathbf {S} \|^{2}=-|\mathbf {s} |^{2}=-\hbar ^{2}s(s+1)}
+  This value is observable and quantized, with s the spin quantum number (not the magnitude of the spin vector).
+
+
+== Other formulations ==
+
+
+=== Four-vectors in the algebra of physical space ===
+A four-vector A can also be defined in using the Pauli matrices as a basis, again in various equivalent notations:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  A
+                
+              
+              
+                
+                =
+                (
+                
+                  A
+                  
+                    0
+                  
+                
+                ,
+                
+                
+                  A
+                  
+                    1
+                  
+                
+                ,
+                
+                
+                  A
+                  
+                    2
+                  
+                
+                ,
+                
+                
+                  A
+                  
+                    3
+                  
+                
+                )
+              
+            
+            
+              
+              
+                
+                =
+                
+                  A
+                  
+                    0
+                  
+                
+                
+                  
+                    σ
+                  
+                  
+                    0
+                  
+                
+                +
+                
+                  A
+                  
+                    1
+                  
+                
+                
+                  
+                    σ
+                  
+                  
+                    1
+                  
+                
+                +
+                
+                  A
+                  
+                    2
+                  
+                
+                
+                  
+                    σ
+                  
+                  
+                    2
+                  
+                
+                +
+                
+                  A
+                  
+                    3
+                  
+                
+                
+                  
+                    σ
+                  
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  A
+                  
+                    0
+                  
+                
+                
+                  
+                    σ
+                  
+                  
+                    0
+                  
+                
+                +
+                
+                  A
+                  
+                    i
+                  
+                
+                
+                  
+                    σ
+                  
+                  
+                    i
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  A
+                  
+                    α
+                  
+                
+                
+                  
+                    σ
+                  
+                  
+                    α
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\mathbf {A} &=(A^{0},\,A^{1},\,A^{2},\,A^{3})\\&=A^{0}{\boldsymbol {\sigma }}_{0}+A^{1}{\boldsymbol {\sigma }}_{1}+A^{2}{\boldsymbol {\sigma }}_{2}+A^{3}{\boldsymbol {\sigma }}_{3}\\&=A^{0}{\boldsymbol {\sigma }}_{0}+A^{i}{\boldsymbol {\sigma }}_{i}\\&=A^{\alpha }{\boldsymbol {\sigma }}_{\alpha }\\\end{aligned}}}
+  or explicitly:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  A
+                
+              
+              
+                
+                =
+                
+                  A
+                  
+                    0
+                  
+                
+                
+                  
+                    (
+                    
+                      
+                        
+                          1
+                        
+                        
+                          0
+                        
+                      
+                      
+                        
+                          0
+                        
+                        
+                          1
+                        
+                      
+                    
+                    )
+                  
+                
+                +
+                
+                  A
+                  
+                    1
+                  
+                
+                
+                  
+                    (
+                    
+                      
+                        
+                          0
+                        
+                        
+                          1
+                        
+                      
+                      
+                        
+                          1
+                        
+                        
+                          0
+                        
+                      
+                    
+                    )
+                  
+                
+                +
+                
+                  A
+                  
+                    2
+                  
+                
+                
+                  
+                    (
+                    
+                      
+                        
+                          0
+                        
+                        
+                          −
+                          i
+                        
+                      
+                      
+                        
+                          i
+                        
+                        
+                          0
+                        
+                      
+                    
+                    )
+                  
+                
+                +
+                
+                  A
+                  
+                    3
+                  
+                
+                
+                  
+                    (
+                    
+                      
+                        
+                          1
+                        
+                        
+                          0
+                        
+                      
+                      
+                        
+                          0
+                        
+                        
+                          −
+                          1
+                        
+                      
+                    
+                    )
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    (
+                    
+                      
+                        
+                          
+                            A
+                            
+                              0
+                            
+                          
+                          +
+                          
+                            A
+                            
+                              3
+                            
+                          
+                        
+                        
+                          
+                            A
+                            
+                              1
+                            
+                          
+                          −
+                          i
+                          
+                            A
+                            
+                              2
+                            
+                          
+                        
+                      
+                      
+                        
+                          
+                            A
+                            
+                              1
+                            
+                          
+                          +
+                          i
+                          
+                            A
+                            
+                              2
+                            
+                          
+                        
+                        
+                          
+                            A
+                            
+                              0
+                            
+                          
+                          −
+                          
+                            A
+                            
+                              3
+                            
+                          
+                        
+                      
+                    
+                    )
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\mathbf {A} &=A^{0}{\begin{pmatrix}1&0\\0&1\end{pmatrix}}+A^{1}{\begin{pmatrix}0&1\\1&0\end{pmatrix}}+A^{2}{\begin{pmatrix}0&-i\\i&0\end{pmatrix}}+A^{3}{\begin{pmatrix}1&0\\0&-1\end{pmatrix}}\\&={\begin{pmatrix}A^{0}+A^{3}&A^{1}-iA^{2}\\A^{1}+iA^{2}&A^{0}-A^{3}\end{pmatrix}}\end{aligned}}}
+  and in this formulation, the four-vector is represented as a Hermitian matrix (the matrix transpose and complex conjugate of the matrix leaves it unchanged), rather than a real-valued column or row vector. The determinant of the matrix is the modulus of the four-vector, so the determinant is an invariant:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  |
+                
+                
+                  A
+                
+                
+                  |
+                
+              
+              
+                
+                =
+                
+                  
+                    |
+                    
+                      
+                        
+                          
+                            A
+                            
+                              0
+                            
+                          
+                          +
+                          
+                            A
+                            
+                              3
+                            
+                          
+                        
+                        
+                          
+                            A
+                            
+                              1
+                            
+                          
+                          −
+                          i
+                          
+                            A
+                            
+                              2
+                            
+                          
+                        
+                      
+                      
+                        
+                          
+                            A
+                            
+                              1
+                            
+                          
+                          +
+                          i
+                          
+                            A
+                            
+                              2
+                            
+                          
+                        
+                        
+                          
+                            A
+                            
+                              0
+                            
+                          
+                          −
+                          
+                            A
+                            
+                              3
+                            
+                          
+                        
+                      
+                    
+                    |
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                (
+                
+                  A
+                  
+                    0
+                  
+                
+                +
+                
+                  A
+                  
+                    3
+                  
+                
+                )
+                (
+                
+                  A
+                  
+                    0
+                  
+                
+                −
+                
+                  A
+                  
+                    3
+                  
+                
+                )
+                −
+                (
+                
+                  A
+                  
+                    1
+                  
+                
+                −
+                i
+                
+                  A
+                  
+                    2
+                  
+                
+                )
+                (
+                
+                  A
+                  
+                    1
+                  
+                
+                +
+                i
+                
+                  A
+                  
+                    2
+                  
+                
+                )
+              
+            
+            
+              
+              
+                
+                =
+                (
+                
+                  A
+                  
+                    0
+                  
+                
+                
+                  )
+                  
+                    2
+                  
+                
+                −
+                (
+                
+                  A
+                  
+                    1
+                  
+                
+                
+                  )
+                  
+                    2
+                  
+                
+                −
+                (
+                
+                  A
+                  
+                    2
+                  
+                
+                
+                  )
+                  
+                    2
+                  
+                
+                −
+                (
+                
+                  A
+                  
+                    3
+                  
+                
+                
+                  )
+                  
+                    2
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}|\mathbf {A} |&={\begin{vmatrix}A^{0}+A^{3}&A^{1}-iA^{2}\\A^{1}+iA^{2}&A^{0}-A^{3}\end{vmatrix}}\\&=(A^{0}+A^{3})(A^{0}-A^{3})-(A^{1}-iA^{2})(A^{1}+iA^{2})\\&=(A^{0})^{2}-(A^{1})^{2}-(A^{2})^{2}-(A^{3})^{2}\end{aligned}}}
+  This idea of using the Pauli matrices as basis vectors is employed in the algebra of physical space, an example of a Clifford algebra.
+
+
+=== Four-vectors in spacetime algebra ===
+In spacetime algebra, another example of Clifford algebra, the gamma matrices can also form a basis. (They are also called the Dirac matrices, owing to their appearance in the Dirac equation). There is more than one way to express the gamma matrices, detailed in that main article.
+The Feynman slash notation is a shorthand for a four-vector A contracted with the gamma matrices:
+
+  
+    
+      
+        
+          A
+        
+        
+        
+        
+        
+        
+          /
+        
+        =
+        
+          A
+          
+            α
+          
+        
+        
+          γ
+          
+            α
+          
+        
+        =
+        
+          A
+          
+            0
+          
+        
+        
+          γ
+          
+            0
+          
+        
+        +
+        
+          A
+          
+            1
+          
+        
+        
+          γ
+          
+            1
+          
+        
+        +
+        
+          A
+          
+            2
+          
+        
+        
+          γ
+          
+            2
+          
+        
+        +
+        
+          A
+          
+            3
+          
+        
+        
+          γ
+          
+            3
+          
+        
+      
+    
+    {\displaystyle \mathbf {A} \!\!\!\!/=A_{\alpha }\gamma ^{\alpha }=A_{0}\gamma ^{0}+A_{1}\gamma ^{1}+A_{2}\gamma ^{2}+A_{3}\gamma ^{3}}
+  The four-momentum contracted with the gamma matrices is an important case in relativistic quantum mechanics and relativistic quantum field theory. In the Dirac equation and other relativistic wave equations, terms of the form:
+
+  
+    
+      
+        
+          P
+        
+        
+        
+        
+        
+        
+          /
+        
+        =
+        
+          P
+          
+            α
+          
+        
+        
+          γ
+          
+            α
+          
+        
+        =
+        
+          P
+          
+            0
+          
+        
+        
+          γ
+          
+            0
+          
+        
+        +
+        
+          P
+          
+            1
+          
+        
+        
+          γ
+          
+            1
+          
+        
+        +
+        
+          P
+          
+            2
+          
+        
+        
+          γ
+          
+            2
+          
+        
+        +
+        
+          P
+          
+            3
+          
+        
+        
+          γ
+          
+            3
+          
+        
+        =
+        
+          
+            
+              E
+              c
+            
+          
+        
+        
+          γ
+          
+            0
+          
+        
+        −
+        
+          p
+          
+            x
+          
+        
+        
+          γ
+          
+            1
+          
+        
+        −
+        
+          p
+          
+            y
+          
+        
+        
+          γ
+          
+            2
+          
+        
+        −
+        
+          p
+          
+            z
+          
+        
+        
+          γ
+          
+            3
+          
+        
+      
+    
+    {\displaystyle \mathbf {P} \!\!\!\!/=P_{\alpha }\gamma ^{\alpha }=P_{0}\gamma ^{0}+P_{1}\gamma ^{1}+P_{2}\gamma ^{2}+P_{3}\gamma ^{3}={\dfrac {E}{c}}\gamma ^{0}-p_{x}\gamma ^{1}-p_{y}\gamma ^{2}-p_{z}\gamma ^{3}}
+  appear, in which the energy E and momentum components (px, py, pz) are replaced by their respective operators.
+
+
+== See also ==
+Relativistic mechanics
+paravector
+wave vector
+Dust (relativity) for the number-flux four-vector
+Basic introduction to the mathematics of curved spacetime
+Minkowski space
+
+
+== References ==
+
+Rindler, W. Introduction to Special Relativity (2nd edn.) (1991) Clarendon Press Oxford ISBN 0-19-853952-5

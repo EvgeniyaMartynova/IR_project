@@ -1,0 +1,58 @@
+Title: PCSX2
+Aspects: {'Xebra'}
+
+PCSX2 is a free and open-source PlayStation 2 emulator for Windows, Linux, and macOS that supports a wide range of PlayStation 2 video games with a high level of compatibility and functionality. Although PCSX2 can closely mirror the original gameplay experience on the PlayStation 2, PCSX2 supports a number of improvements over gameplay on a traditional PlayStation 2, such as the ability to use custom resolutions up to 4096×4096, anti-aliasing, and texture filtering.
+
+
+== Background ==
+PCSX2, like its predecessor project PCSX (a PlayStation emulator), is based on a PSEmu Pro spec plug-in architecture, separating several functions from the core emulator. These are the graphics, audio, input controls, CD/DVD drive, and USB and FireWire (i.LINK) ports. Different plug-ins may produce different results in both compatibility and performance. Additionally, PCSX2 requires a copy of the PS2 BIOS, which is not available for download from the developers due to copyright-related legal issues. Since September 2016, PCSX2 is partially compatible with PlayStation games.The main bottleneck in PS2 emulation is emulating the multi-processor PS2 on the PC x86 architecture. Although each processor can be emulated well independently, accurately synchronizing them is difficult.
+
+
+== Development ==
+Development of PCSX2 was started in 2001 by programmers who go by the names Linuzappz and Shadow, who were programmers for the PlayStation emulator PCSX-Reloaded. Other programmers later joined the team, and they were eventually able to get some PS2 games to the loading screen. The team then started working on the difficult task of emulating the PlayStation 2's BIOS; they got it to run, although it was slow and graphically distorted. Version 0.9.1 was released in July 2006.
+From 2007 to 2011, developers worked on Netplay and speed improvements. PCSX2 0.9.8 was released in May 2011 and featured an overhauled GUI written with wxWidgets that improved compatibility for Linux and newer Windows operating systems, the addition of a new VU recompiler that brought better compatibility, a memory card editor, an overhaul of the SPU2-X audio plug-in, and numerous other improvements.
+
+
+== Compatibility ==
+The current development version is reported to be compatible with approximately 96% of 2,629 tested games as of August 2018. Compatibility means only that the game will not crash, lock up, or enter a loop; there can still be bugs, missing post-processing effects, textures, and shadows in many compatible games. This is especially the case in hardware mode; a slower software mode is available for bugs without workarounds.The following areas of PS2 emulation in PCSX2 still require further research and development:
+
+
+== Features ==
+PCSX2 supports save states and dynamic recompilation (JIT). There is also support for gameplay recording in Full HD using the GSdx plugin. Options such as the ability to increase/decrease game speeds, use unlimited memory cards, and utilize any gamepad controllers supported by the native operating system are also available. Cheat codes are supported via the use of PNACH patching files.
+
+
+== Plug-ins ==
+PCSX2 makes use of plug-ins as a means of modularizing development efforts among the separate components (subsystems) of the emulated PlayStation 2 hardware. For instance, video plug-ins are utilized by PCSX2 to render images to the screen and emulate the graphics hardware of the PlayStation 2, whereas sound plug-ins emulate the sound hardware of the PlayStation 2. Not only does this allow different developers to focus their efforts on one aspect of the PlayStation 2 hardware, this also allows users that have a system configuration that does not yield good results with one plug-in to attempt to try another to see if they have better results.
+Multiple plug-ins are currently under ongoing development with a focus on performance and compatibility enhancements. A list of several such plug-ins follows:
+
+
+=== Graphical Improvements (GSdx Plugin) ===
+The GSdx plug-in offers a variety of image quality improvements over the original PlayStation 2 hardware, such as:
+
+Option to increase internal resolution (only in hardware mode)
+Anti-aliasing: FXAA, MSAA (only in the hardware mode and also only with the D3D backend) and Edge-AA (emulated only in software mode)
+Post-Processing Pixel Shaders
+Mipmapping (toggle with Insert key; required for correct functioning of some games, like the Jak and Daxter series)
+Bilinear filtering
+Anisotropic filtering
+Texture filtering
+Widescreen hacks
+
+
+== Hardware requirements ==
+Hardware requirements are largely game-dependent. Due to the demanding nature of emulation, PCSX2 is much more likely to perform well with modern mid-range to high-end hardware, with lower-end systems likely to experience less than full performance. The performance bottleneck in most cases is the CPU rather than the GPU. This is especially the case in software mode, in which only the CPU is used for emulation. In hardware mode, the GPU emulates the graphics, but can still be a bottleneck if the internal resolution is set too high. Some games may also run slower due to unoptimized graphics code or weak video cards. As computer hardware has continued to advance with time, the likelihood of performance issues with PCSX2 has experienced a corresponding decrease.
+
+
+== Reception ==
+PCSX2 has been very well-received. Matthew Humphries of Geek.com described it as "an impressive piece of work". Alex Garnett of PC World criticized the difficulty of setting up PCSX2 but called it a "masterpiece." Although David Hayward of Micro Mart also criticized the complexity, he also called it "technically amazing." Sriram Gurunathan of In.com described PCSX2 as "arguably the most popular emulator around" and named it as one of the site's top five emulators. Brandon Widder of Digital Trends included PCSX2 in his Best Emulators article. PCSX2 can be easily installed on any Windows versions by using its documentation. John Corpuz of Tom's Guide mentioned PCSX2 in his Best PlayStation Emulators for PCs article, saying, "When it comes to stable, playable Playstation 2 emulation, PCSX2 is pretty much the best game in town at the moment."
+
+
+== See also ==
+List of video game emulators
+
+
+== References ==
+
+
+== External links ==
+Official website

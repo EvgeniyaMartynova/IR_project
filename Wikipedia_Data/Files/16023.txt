@@ -1,0 +1,23 @@
+Title: XDR (audio)
+Aspects: {'XDR'}
+
+XDR (eXtended Dynamic Range, also known as SDR (Super Dynamic Range)) is a quality-control and duplication process for the mass-production of pre-recorded audio cassettes.  It is a process designed to provide higher quality audio on pre-recorded cassettes by checking the sound quality at all stages of the tape duplication process. In this way, the dynamic range of audio recorded on an XDR-duplicated cassette can be up to 13 decibels greater.
+
+
+== History ==
+XDR was originally developed by Capitol Records-EMI of Canada in 1982 as "SDR" (Super Dynamic Range).  Capitol in the USA then adopted the system for its cassette releases that same year, renaming it "XDR".
+
+
+== Process ==
+The XDR/SDR process involves  many steps, the most prominent being:
+
+Duplication of the cassettes from a 1"-wide master loop tape mounted in a loop bin duplicator (as opposed to standard cassette duplication using a 1/2" master loop tape), resulting in clearer high frequencies, greater bass response, and less noise.On some cassettes, the use of digital tapes to prepare the wide-track duplication masters.Recording a short test toneburst at the beginning and end of the program material on the cassettes, to detect for any loss of audio frequencies in the audio spectrum. These tones are recorded then read during the duplication process to detect if there is any loss of any audio information.As well as with EMI & Capitol Records, PolyGram and other labels also offered cassette releases duplicated with the XDR process.
+
+
+== Test Tones ==
+Several test toneburst were used during the XDR process.
+
+11 sinewave tones, about 0.127 seconds in length each (with 0.023 seconds of silence in-between tones), of the following estimated frequencies: 32 Hz,  64 Hz,  128 Hz,  256 Hz,  512 Hz,  1000 Hz,  2000 Hz,  4000 Hz,  8820 Hz,  11,025 Hz,  18,000 HzChords of F# sinewave tones ranging from roughly 46.25 Hz (F#1) to 17739.69 Hz (C#10).
+
+
+== References ==

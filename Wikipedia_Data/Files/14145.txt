@@ -1,0 +1,50 @@
+Title: USB Attached SCSI
+Aspects: {'UASP'}
+
+USB Attached SCSI (UAS) or USB Attached SCSI Protocol (UASP) is a computer protocol used to move data to and from USB storage devices such as hard drives (HDDs), solid-state drives (SSDs), and thumb drives.  UAS depends on the USB protocol, and uses the standard SCSI command set.  Use of UAS generally provides faster transfers compared to the older USB Mass Storage Bulk-Only Transport (BOT) drivers.
+UAS was introduced as part of the USB 3.0 standard, but can also be used with devices complying to the slower USB 2.0 standard, assuming use of compatible hardware, firmware and drivers.
+
+
+== Overview ==
+UAS is defined across two standards, the T10 "USB Attached SCSI" (T10/2095-D) referred to as the "UAS" specification, and the USB "Universal Serial Bus Mass Storage Class - USB Attached SCSI Protocol (UASP)" specification.
+The T10 technical committee of the International Committee for Information Technology Standards (INCITS) develops and maintains the UAS specification; the SCSI Trade Association (SCSITA) promotes the UAS technology.
+The USB mass-storage device class (MSC) Working Group develops and maintains the UASP specification; the USB Implementers Forum, Inc. (USB-IF) promotes the UASP technology.
+UAS drivers generally provide faster transfers when compared to the older USB Mass Storage Bulk-Only Transport (BOT) protocol drivers. Although UAS was added in the USB 3.0 standard, it can also be used at USB 2.0 speeds, assuming compatible hardware.When used with an SSD, UAS is considerably faster than BOT for random reads and writes, but still well below the speed of a native SATA 3 interface (6 Gbit/s).
+
+
+== Hardware support ==
+A brief hardware roundup in July 2010 by SemiAccurate found that Gigabyte Technology had introduced working UAS drivers for their boards using NEC/Renesas chips, and that—on the hardware level at least—"the LucidPort USB 300 and USB302, Symwave SW6315, Texas Instruments TUSB9260 and the VLI VL700 controllers all support UASP, while as far as we could find, the ASMedia ASM1051 and ASM1051E as well as the Fujitsu MB86C30A doesn’t."A comparative performance review by VR-Zone in August 2011, concluded that only the NEC/Renesas chips had UAS working drivers. The same Renesas UAS driver (for Windows) also works with AMD's A70M and A75 Fusion Controller Hubs, the USB part of which was co-developed by AMD and Renesas. In October 2011, ASMedia chips had gained driver support as well (they had support on the hardware side before). Fujitsu lists some higher-end chips like the MB86C311A that do support UAS.As for support by Intel Platform Controller Hub (PCH), an article in MyCE notes: "The native Intel USB3 UASP solution is only supported under Windows 8. To further complicate matters, not all Z77 motherboards support USB3 UASP. A license is required to implement UASP, and not all motherboard manufacturers are prepared to pass on the extra cost of this license to the end user."
+
+
+== Operating system support ==
+Microsoft added native support for UAS to Windows 8. Drives supporting UAS load Uaspstor.sys instead of the older Usbstor.sys. Windows 8 supports UAS by default over USB 2.0 as well. UAS drivers and products are certified by Microsoft using the Windows Hardware Certification Kit.Apple added native support for UAS to OS X 10.8 Mountain Lion; drives using UAS show up in (Apple menu -> About This Mac) -> System Information -> Software -> Extensions as IOUSBAttachedSCSI (or IOUSBMassStorageUASDriver, depending on the version of OS X) "Loaded: Yes". Drives listed with "Loaded: No" are defaulting the older, slower Bulk Only Transport (BOT) mode. This may occur if the drive's USB controller, the Mac's USB port, or any attached USB hub doesn't support UASP mode.
+Linux kernel has been supporting UAS since 8 June 2014 when the version 3.15 was released.
+However, some distributions of Linux such as Ubuntu (from v11.xx onwards) have suffered from issues with the implementation of the UAS protocol. In some non-UAS supported USB HDD drives, the drive is not mountable by the operating system. A reported workaround is to blacklist the UAS module in modprobe.
+
+
+== Goals ==
+Designed to directly address the failings of the USB mass-storage device class bulk-only transports (BOT)
+Enables command queuing and out-of-order completions for USB mass-storage devices
+Eliminates software overhead for SCSI command phases
+Enables TRIM (UNMAP in SCSI terminology) operation for SSDs 
+Up to 64K commands may be queued
+SCSI SAM-4 compliant
+USB 3.0 SuperSpeed and USB 2.0 High-Speed versions defined
+USB 3.0 SuperSpeed – host controller (xHCI) hardware support, no software overhead for out-of-order commands
+USB 2.0 High-speed – Significantly enables command queuing in USB 2.0 drives
+Streams were added to the USB 3.0 SuperSpeed protocol for supporting UAS out-of-order completions
+USB 3 host controller (xHCI) provides hardware support for streams
+
+
+== See also ==
+SCSI / ATA Translation
+
+
+== References ==
+
+
+== External links ==
+USB Attached SCSI Protocol (UASP) v1.0 and Adopters Agreement, 2009-06-24
+USB Mass Storage Class Specification for UASP Bootability v1.0 and Adopters Agreement, 2013-03-04
+USB Attached SCSI (UAS) (data on t10.org)
+USB Attached SCSI Protocol (UASP) (PDF)

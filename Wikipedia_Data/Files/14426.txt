@@ -1,0 +1,12 @@
+Title: NEC V25
+Aspects: {'V25'}
+
+The NEC V25 (μPD70320) was the microcontroller version of the NEC V20 processor. Features included:
+
+NEC V20 core: 8-bit external data path, 20-bit address bus
+Timers
+Internal interrupt controller
+Dual-channel UART and baud rate generator for serial communicationsIt was officially phased out by NEC in early 2003
+
+
+== References ==

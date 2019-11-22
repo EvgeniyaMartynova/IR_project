@@ -1,0 +1,1053 @@
+Title: Hurwitz matrix
+Aspects: {'H-matrix'}
+
+In mathematics, a Hurwitz matrix, or Routh–Hurwitz matrix, in engineering stability matrix, is a structured real square matrix constructed with coefficients of a real polynomial.
+
+
+== Hurwitz matrix and the Hurwitz stability criterion ==
+Namely, given a real polynomial
+
+  
+    
+      
+        p
+        (
+        z
+        )
+        =
+        
+          a
+          
+            0
+          
+        
+        
+          z
+          
+            n
+          
+        
+        +
+        
+          a
+          
+            1
+          
+        
+        
+          z
+          
+            n
+            −
+            1
+          
+        
+        +
+        ⋯
+        +
+        
+          a
+          
+            n
+            −
+            1
+          
+        
+        z
+        +
+        
+          a
+          
+            n
+          
+        
+      
+    
+    {\displaystyle p(z)=a_{0}z^{n}+a_{1}z^{n-1}+\cdots +a_{n-1}z+a_{n}}
+  the 
+  
+    
+      
+        n
+        ×
+        n
+      
+    
+    {\displaystyle n\times n}
+   square matrix
+
+  
+    
+      
+        H
+        =
+        
+          
+            (
+            
+              
+                
+                  
+                    a
+                    
+                      1
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      3
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      5
+                    
+                  
+                
+                
+                  …
+                
+                
+                  …
+                
+                
+                  …
+                
+                
+                  0
+                
+                
+                  0
+                
+                
+                  0
+                
+              
+              
+                
+                  
+                    a
+                    
+                      0
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      2
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      4
+                    
+                  
+                
+                
+                
+                
+                
+                  ⋮
+                
+                
+                  ⋮
+                
+                
+                  ⋮
+                
+              
+              
+                
+                  0
+                
+                
+                  
+                    a
+                    
+                      1
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      3
+                    
+                  
+                
+                
+                
+                
+                
+                  ⋮
+                
+                
+                  ⋮
+                
+                
+                  ⋮
+                
+              
+              
+                
+                  ⋮
+                
+                
+                  
+                    a
+                    
+                      0
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      2
+                    
+                  
+                
+                
+                  ⋱
+                
+                
+                
+                
+                  0
+                
+                
+                  ⋮
+                
+                
+                  ⋮
+                
+              
+              
+                
+                  ⋮
+                
+                
+                  0
+                
+                
+                  
+                    a
+                    
+                      1
+                    
+                  
+                
+                
+                
+                  ⋱
+                
+                
+                
+                  
+                    a
+                    
+                      n
+                    
+                  
+                
+                
+                  ⋮
+                
+                
+                  ⋮
+                
+              
+              
+                
+                  ⋮
+                
+                
+                  ⋮
+                
+                
+                  
+                    a
+                    
+                      0
+                    
+                  
+                
+                
+                
+                
+                  ⋱
+                
+                
+                  
+                    a
+                    
+                      n
+                      −
+                      1
+                    
+                  
+                
+                
+                  0
+                
+                
+                  ⋮
+                
+              
+              
+                
+                  ⋮
+                
+                
+                  ⋮
+                
+                
+                  0
+                
+                
+                
+                
+                
+                  
+                    a
+                    
+                      n
+                      −
+                      2
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      n
+                    
+                  
+                
+                
+                  ⋮
+                
+              
+              
+                
+                  ⋮
+                
+                
+                  ⋮
+                
+                
+                  ⋮
+                
+                
+                
+                
+                
+                  
+                    a
+                    
+                      n
+                      −
+                      3
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      n
+                      −
+                      1
+                    
+                  
+                
+                
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  0
+                
+                
+                  0
+                
+                
+                  …
+                
+                
+                  …
+                
+                
+                  …
+                
+                
+                  
+                    a
+                    
+                      n
+                      −
+                      4
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      n
+                      −
+                      2
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      n
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        .
+      
+    
+    {\displaystyle H={\begin{pmatrix}a_{1}&a_{3}&a_{5}&\dots &\dots &\dots &0&0&0\\a_{0}&a_{2}&a_{4}&&&&\vdots &\vdots &\vdots \\0&a_{1}&a_{3}&&&&\vdots &\vdots &\vdots \\\vdots &a_{0}&a_{2}&\ddots &&&0&\vdots &\vdots \\\vdots &0&a_{1}&&\ddots &&a_{n}&\vdots &\vdots \\\vdots &\vdots &a_{0}&&&\ddots &a_{n-1}&0&\vdots \\\vdots &\vdots &0&&&&a_{n-2}&a_{n}&\vdots \\\vdots &\vdots &\vdots &&&&a_{n-3}&a_{n-1}&0\\0&0&0&\dots &\dots &\dots &a_{n-4}&a_{n-2}&a_{n}\end{pmatrix}}.}
+  is called Hurwitz matrix corresponding to the polynomial 
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+  . It was established by Adolf Hurwitz in 1895 that a real polynomial with 
+  
+    
+      
+        
+          a
+          
+            0
+          
+        
+        >
+        0
+      
+    
+    {\displaystyle a_{0}>0}
+   is stable
+(that is, all its roots have strictly negative real part) if and only if all the leading principal minors of the matrix 
+  
+    
+      
+        H
+        (
+        p
+        )
+      
+    
+    {\displaystyle H(p)}
+   are positive:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  Δ
+                  
+                    1
+                  
+                
+                (
+                p
+                )
+              
+              
+                
+                =
+                
+                  
+                    |
+                    
+                      
+                        
+                          
+                            a
+                            
+                              1
+                            
+                          
+                        
+                      
+                    
+                    |
+                  
+                
+              
+              
+              
+                
+                =
+                
+                  a
+                  
+                    1
+                  
+                
+                >
+                0
+              
+            
+            
+              
+                
+                  Δ
+                  
+                    2
+                  
+                
+                (
+                p
+                )
+              
+              
+                
+                =
+                
+                  
+                    |
+                    
+                      
+                        
+                          
+                            a
+                            
+                              1
+                            
+                          
+                        
+                        
+                          
+                            a
+                            
+                              3
+                            
+                          
+                        
+                      
+                      
+                        
+                          
+                            a
+                            
+                              0
+                            
+                          
+                        
+                        
+                          
+                            a
+                            
+                              2
+                            
+                          
+                        
+                      
+                    
+                    |
+                  
+                
+              
+              
+              
+                
+                =
+                
+                  a
+                  
+                    2
+                  
+                
+                
+                  a
+                  
+                    1
+                  
+                
+                −
+                
+                  a
+                  
+                    0
+                  
+                
+                
+                  a
+                  
+                    3
+                  
+                
+                >
+                0
+              
+            
+            
+              
+                
+                  Δ
+                  
+                    3
+                  
+                
+                (
+                p
+                )
+              
+              
+                
+                =
+                
+                  
+                    |
+                    
+                      
+                        
+                          
+                            a
+                            
+                              1
+                            
+                          
+                        
+                        
+                          
+                            a
+                            
+                              3
+                            
+                          
+                        
+                        
+                          
+                            a
+                            
+                              5
+                            
+                          
+                        
+                      
+                      
+                        
+                          
+                            a
+                            
+                              0
+                            
+                          
+                        
+                        
+                          
+                            a
+                            
+                              2
+                            
+                          
+                        
+                        
+                          
+                            a
+                            
+                              4
+                            
+                          
+                        
+                      
+                      
+                        
+                          0
+                        
+                        
+                          
+                            a
+                            
+                              1
+                            
+                          
+                        
+                        
+                          
+                            a
+                            
+                              3
+                            
+                          
+                        
+                      
+                    
+                    |
+                  
+                
+              
+              
+              
+                
+                =
+                
+                  a
+                  
+                    3
+                  
+                
+                
+                  Δ
+                  
+                    2
+                  
+                
+                −
+                
+                  a
+                  
+                    1
+                  
+                
+                (
+                
+                  a
+                  
+                    1
+                  
+                
+                
+                  a
+                  
+                    4
+                  
+                
+                −
+                
+                  a
+                  
+                    0
+                  
+                
+                
+                  a
+                  
+                    5
+                  
+                
+                )
+                >
+                0
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\Delta _{1}(p)&={\begin{vmatrix}a_{1}\end{vmatrix}}&&=a_{1}>0\\[2mm]\Delta _{2}(p)&={\begin{vmatrix}a_{1}&a_{3}\\a_{0}&a_{2}\\\end{vmatrix}}&&=a_{2}a_{1}-a_{0}a_{3}>0\\[2mm]\Delta _{3}(p)&={\begin{vmatrix}a_{1}&a_{3}&a_{5}\\a_{0}&a_{2}&a_{4}\\0&a_{1}&a_{3}\\\end{vmatrix}}&&=a_{3}\Delta _{2}-a_{1}(a_{1}a_{4}-a_{0}a_{5})>0\end{aligned}}}
+  and so on. The minors 
+  
+    
+      
+        
+          Δ
+          
+            k
+          
+        
+        (
+        p
+        )
+      
+    
+    {\displaystyle \Delta _{k}(p)}
+   are called the Hurwitz determinants. Similarly, if 
+  
+    
+      
+        
+          a
+          
+            0
+          
+        
+        <
+        0
+      
+    
+    {\displaystyle a_{0}<0}
+   then the polynomial is stable if and only if the principal minors have alternating signs starting with a negative one.
+
+
+== Hurwitz stable matrices ==
+In engineering and stability theory, a square matrix 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+   is called a stable matrix (or sometimes a Hurwitz matrix) if every eigenvalue of 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+   has strictly negative real part, that is,
+
+  
+    
+      
+        
+          
+            R
+            e
+          
+        
+        ⁡
+        [
+        
+          λ
+          
+            i
+          
+        
+        ]
+        <
+        0
+        
+      
+    
+    {\displaystyle \mathop {\mathrm {Re} } [\lambda _{i}]<0\,}
+  for each eigenvalue 
+  
+    
+      
+        
+          λ
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \lambda _{i}}
+  . 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+   is also called a stability matrix, because then the differential equation
+
+  
+    
+      
+        
+          
+            
+              x
+              ˙
+            
+          
+        
+        =
+        A
+        x
+      
+    
+    {\displaystyle {\dot {x}}=Ax}
+  is asymptotically stable, that is, 
+  
+    
+      
+        x
+        (
+        t
+        )
+        →
+        0
+      
+    
+    {\displaystyle x(t)\to 0}
+   as 
+  
+    
+      
+        t
+        →
+        ∞
+        .
+      
+    
+    {\displaystyle t\to \infty .}
+  
+If 
+  
+    
+      
+        G
+        (
+        s
+        )
+      
+    
+    {\displaystyle G(s)}
+   is a (matrix-valued) transfer function, then 
+  
+    
+      
+        G
+      
+    
+    {\displaystyle G}
+   is called Hurwitz if the poles of all elements of 
+  
+    
+      
+        G
+      
+    
+    {\displaystyle G}
+   have negative real part. Note that it is not necessary that 
+  
+    
+      
+        G
+        (
+        s
+        )
+        ,
+      
+    
+    {\displaystyle G(s),}
+   for a specific argument 
+  
+    
+      
+        s
+        ,
+      
+    
+    {\displaystyle s,}
+   be a Hurwitz matrix — it need not even be square. The connection is that if 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+   is a Hurwitz matrix, then the dynamical system
+
+  
+    
+      
+        
+          
+            
+              x
+              ˙
+            
+          
+        
+        (
+        t
+        )
+        =
+        A
+        x
+        (
+        t
+        )
+        +
+        B
+        u
+        (
+        t
+        )
+      
+    
+    {\displaystyle {\dot {x}}(t)=Ax(t)+Bu(t)}
+  
+
+  
+    
+      
+        y
+        (
+        t
+        )
+        =
+        C
+        x
+        (
+        t
+        )
+        +
+        D
+        u
+        (
+        t
+        )
+        
+      
+    
+    {\displaystyle y(t)=Cx(t)+Du(t)\,}
+  has a Hurwitz transfer function.
+Any hyperbolic fixed point (or equilibrium point) of a continuous dynamical system is locally asymptotically stable if and only if the Jacobian of the dynamical system is Hurwitz stable at the fixed point.
+The Hurwitz stability matrix is a crucial part of control theory. A system is stable if its control matrix is a Hurwitz matrix. The negative real components of the eigenvalues of the matrix represent negative feedback. Similarly, a system is inherently unstable if any of the eigenvalues have positive real components, representing positive feedback.
+
+
+== See also ==
+M-matrix
+P-matrix
+Perron–Frobenius theorem
+Z-matrix
+
+
+== References ==
+Asner, Bernard A., Jr. (1970). "On the Total Nonnegativity of the Hurwitz Matrix". SIAM Journal on Applied Mathematics. 18 (2): 407–414. doi:10.1137/0118035. JSTOR 2099475.
+Dimitrov, Dimitar K.; Peña, Juan Manuel (2005). "Almost strict total positivity and a class of Hurwitz polynomials". Journal of Approximation Theory. 132 (2): 212–223. doi:10.1016/j.jat.2004.10.010.
+Gantmacher, F. R. (1959). Applications of the Theory of Matrices. New York: Interscience.
+Hurwitz, A. (1895). "Ueber die Bedingungen, unter welchen eine Gleichung nur Wurzeln mit negativen reellen Teilen besitzt". Mathematische Annalen. 46 (2): 273–284. doi:10.1007/BF01446812.
+Khalil, Hassan K. (2002). Nonlinear Systems. Prentice Hall.
+Lehnigk, Siegfried H. (1970). "On the Hurwitz matrix". Zeitschrift für Angewandte Mathematik und Physik. 21 (3): 498–500. Bibcode:1970ZaMP...21..498L. doi:10.1007/BF01627957.This article incorporates material from Hurwitz matrix on PlanetMath, which is licensed under the Creative Commons Attribution/Share-Alike License.
+
+
+== External links ==
+"Hurwitz matrix". PlanetMath.

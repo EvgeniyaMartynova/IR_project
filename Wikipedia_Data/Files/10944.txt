@@ -1,0 +1,84 @@
+Title: Q Score
+Aspects: {'Q value'}
+
+The Q Score (popularly known as Q-Rating) is a measurement of the familiarity and appeal of a brand, celebrity, company, or entertainment product (e.g., television show) used in the United States. The higher the Q Score, the more highly regarded the item or person is, among those who are aware of the subject. Q Scores and other variants are primarily used by the advertising, marketing, media, and public relations industries.
+
+
+== Usage ==
+The Q Score is a metric that determines a "quotient" ("Q") factor through mail and online panelists who make up representative samples of the population. The score identifies the familiarity of an athlete, brand, celebrity, entertainment offering (e.g., television show), or licensed property, and measures the appeal of each among people familiar with the entity being measured. Other popular synonyms include Q rating, Q factor, and simply Q.The Q Score was developed in 1963 by Jack Landis and is owned by Marketing Evaluations, Inc, the company he founded in 1964. Q Scores are calculated for the population as a whole as well as by demographic groups such as age, education level, gender, income, or marital status.
+Q Score respondents are given choices for each person or item being surveyed:    A. One of my favorites.   B. Very Good   C. Good   D. Fair   E. Poor   F. Never heard of
+The positive Q Score is calculated by counting how many respondents answered A divided by the number of respondents answering A-E, and calculating the percentage. (that is, multiplying the fraction by 100). Put another way, 
+  
+    
+      
+        
+          Q
+          
+            +
+          
+        
+        =
+        
+          
+            favorites
+            known
+          
+        
+        ×
+        100
+      
+    
+    {\displaystyle Q_{+}={\frac {\text{favorites}}{\text{known}}}\times 100}
+  
+Similarly, the negative Q Score is calculated by calculating the percentage of respondents who answered D or E relative to respondents who answered A to E.
+  
+    
+      
+        
+          Q
+          
+            −
+          
+        
+        =
+        
+          
+            disliked
+            known
+          
+        
+        ×
+        100
+      
+    
+    {\displaystyle Q_{-}={\frac {\text{disliked}}{\text{known}}}\times 100}
+  
+Other companies have created alternative measures and metrics related to the likability, popularity, and appeal of athletes, brands, celebrities, entertainment offerings, or licensed properties. Marketing Evaluations claims the Q Score is more valuable to marketers than other popularity measurements, such as the Nielsen ratings, because Q Scores indicate not only how many people are aware of or watch a show but also how those people feel about the entity being measured. A well-liked television show, for example, may be worth more as a commercial vehicle to an advertiser than a higher-rated show that people don’t like as much. Emotional bonding with a show means stronger viewer involvement and audience attention, which are very desirable to sponsors. Viewers who regard the show as a "favorite" have higher awareness of the show's commercial content.
+
+
+== Forms ==
+Marketing Evaluations regularly calculates Q Scores in eight categories:
+Brand Attachment Q rates brand and company names
+Cable Q rates cable television programs
+Cartoon Q rates cartoon characters, video games, toys and similar products
+Dead Q rates the current popularity of deceased celebrities
+Kids Product Q rates children's responses to brand and company names
+Performer Q rates living celebrities
+Sports Q rates sports figures
+TVQ rates broadcast television programsCable Q and TVQ scores are calculated for all regularly scheduled broadcast and cable shows.
+Other Q Scores are calculated to order for clients who want to research public perception of a brand or celebrity. For example, in 2000, IBM hired Marketing Evaluations to calculate the Q Score for Deep Blue, the supercomputer that defeated chess Grandmaster Garry Kasparov. Deep Blue’s Q Score was 9, meaning the computer was as familiar and appealing at the time as Carmen Electra, Howard Stern, and Bruce Wayne. In contrast, Albert Einstein’s Q Score at the time was 56, while Larry Ellison and Scott McNealy each received a Q Score of 6.
+
+
+== Similar metrics ==
+Cloze.com
+Commun.it
+Engagio
+Klout
+PeerIndex
+
+
+== References ==
+
+
+== External links ==
+Official website

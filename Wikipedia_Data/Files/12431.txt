@@ -1,0 +1,33 @@
+Title: Spiroplasma
+Aspects: {'S. citri'}
+
+Spiroplasma is a genus of Mollicutes, a group of small bacteria without cell walls. Spiroplasma shares the simple metabolism, parasitic lifestyle, fried-egg colony morphology and small genome of other Mollicutes, but has a distinctive helical morphology, unlike Mycoplasma. It has a spiral shape and moves in a corkscrew motion. Many Spiroplasma are found either in the gut or haemolymph of insects where they can act to manipulate host reproduction, or defend the host as endosymbionts. Spiroplasma are also disease-causing agents in the phloem of plants. Spiroplasmas are fastidious organisms, which require a rich culture medium. Typically they grow well at 30 °C, but not at 37 °C.  A few species, notably Spiroplasma mirum, grow well at 37 °C (human body temperature), and cause cataracts and neurological damage in suckling mice.  The best studied species of spiroplasmas are Spiroplasma poulsonii, a reproductive manipulator and defensive insect symbiont, Spiroplasma citri, the causative agent of citrus stubborn disease, and Spiroplasma kunkelii, the causative agent of corn stunt disease.
+
+
+== Human pathogenicity ==
+There is some disputed evidence for the role of spiroplasmas in the etiology of transmissible spongiform encephalopathies (TSEs), due primarily to the work of  Frank Bastian, summarized below.  Other researchers have failed to replicate this work, while the prion model for TSEs has gained very wide acceptance. A 2006 study appears to refute the role of spiroplasmas in the best small animal scrapie model (hamsters).  Bastian et al. (2007) have responded to this challenge with the isolation of a spiroplasma species from scrapie-infected tissue, grown it in cell-free culture, and demonstrated its infectivity in ruminants.
+
+
+== Insect symbioses ==
+Many Spiroplasma strains are vertically-transmitted endosymbionts of Drosophila species, with a variety of host-altering mechanisms similar to Wolbachia. These strains are from the Spiroplasma poulsonii clade, and can have important effects on host fitness. The S. poulsonii strain of Drosophila neotestacea protects its host against parasitic nematodes. This interaction is an example of defensive symbiosis, where the fitness of the symbiont is intricately tied to the fitness of the host. The D. neotestacea S. poulsonii also defends its fly host from infestation by parasitic wasps. The mechanism through which S. poulsonii attacks nematodes and parasitic wasps relies on the presence of toxins called ribosome-inactivating proteins (RIPs), similar to Sarcin or Ricin. These toxins depurinate a conserved adenine site in eukaryotic 28s ribosomal RNA called the Sarcin-Ricin loop by cleaving the N-glycosidic bond between the rRNA backbone and the adenine. Spiroplasma associations highlight a growing movement to consider heritable symbionts as important drivers in patterns of evolution.The S. poulsonii  strain of Drosophila melanogaster can also attack parasitoid wasps, but is not regarded as a primarily defensive symbiont. This is because this D. melanogaster Spiroplasma (called MSRO) kills D. melanogaster eggs fertilized by Y-bearing sperm. This mode of reproductive manipulation benefits the symbiont as the female fly has a greater reproductive output than males. The genetic basis of this male-killing was discovered in 2018, solving a decades-old mystery of how the bacteria targeted male-specific cells. In an interview with the Global Health Institute, Dr. Toshiyuki Harumoto said this discovery is the first example of a bacterial effector protein that affects host cellular machinery in a sex-specific manner, and the first endosymbiont factor identified to explain the cause of male-killing. Thus it should have a big impact on the fields of symbiosis, sex determination, and evolution.Beyond Drosophila, Spiroplasma of the apis, chrysopicola, citri, mirum, and poulsonii clades are found in many insects and arthropods, including bees, ants, beetles, and butterflies. Male-killing is also found in the Spiroplasma of the ladybug Harmonia axyridis and the plain tiger butterfly. In the plain tiger butterfly, the consequences have led to speciation.
+
+
+== Plant diseases ==
+Spiroplasma citri is the causative agent of Citrus stubborn disease, a plant disease affecting species in the genus Citrus. It infects the phloem of the affected plant, causing fruit deformities. Spiroplasma kunkelii is also referred to as Corn Stunt Spiroplasma as it is the causative agent of Corn stunt disease, a disease of corn and other grasses that stunts plant growth. Spiroplasma kunkelii represents a major economic risk, as corn production in the United States is an industry worth over $50 billion. Both Spiroplasma citri and Spiroplasma kunkelii are transmitted by leafhoppers.
+
+
+== See also ==
+Mycoplasma, a similar organism causing disease in animals including humans and linked to autoimmune diseases like rheumatoid arthritis.
+Phytoplasma, another similar organism causing disease in plants.
+Prion
+Virino
+
+
+== References ==
+
+
+== External links ==
+Spiroplasma may cause Creutzfeldt–Jakob disease. An interview with a leading expert in infectious diseases: Frank O. Bastsian, MD.
+Spiroplasma & Transmissible Spongiform Encephalopathies, Ed Gehrman
+Spiroplasma Genome Projects from Genomes OnLine Database
+Adaptation via Symbiosis: Recent Spread of a Drosophila Defensive Symbiont

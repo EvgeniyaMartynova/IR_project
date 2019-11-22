@@ -1,0 +1,358 @@
+Title: Intel Core
+Aspects: {'R45'}
+
+Intel Core is a line of mid- to high-end consumer, workstation, and enthusiast central processing units (CPU) marketed by Intel Corporation. These processors displaced the existing mid- to high-end Pentium processors of the time, moving the Pentium to the entry level, and bumping the Celeron series of processors to the low end. Identical or more capable versions of Core processors are also sold as Xeon processors for the server and workstation markets.
+As of June 2017, the lineup of Core processors includes the Intel Core i9, Intel Core i7, Intel Core i5, and Intel Core i3, along with the X-series Intel Core CPUs.In early 2018, news reports indicated that security flaws, referred to as "Meltdown" and "Spectre", were found "in virtually all Intel processors [made in the past two decades] that will require fixes within Windows, macOS and Linux". The flaw also affected cloud servers. At the time, Intel was not commenting on this issue. According to a New York Times report, "There is no easy fix for Spectre ... as for Meltdown, the software patch needed to fix the issue could slow down computers by as much as 30 percent".In mid 2018, the majority of Intel Core processors were found to possess a defect (the Foreshadow vulnerability), which undermines the Software Guard Extensions (SGX) feature of the processor.To understand the system behind the different generations you have to understand Intel's production model called tick–tock.
+
+
+== Outline ==
+Although Intel Core is a brand that promises no internal consistency or continuity, the processors within this family have been, for the most part, broadly similar.
+The first products receiving this designation were the Core Solo and Core Duo Yonah processors for mobile from the Pentium M design tree, fabricated at 65 nm and brought to market in January 2006. These are substantially different in design than the rest of the Intel Core product group, having derived from the Pentium Pro lineage that predated Pentium 4.
+The first Intel Core desktop processor—and typical family member—came from the Conroe iteration, a 65 nm dual-core design fabricated brought to market in July 2006, based on the all-new Intel Core microarchitecture with substantial enhancements in micro-architectural efficiency and performance, outperforming Pentium 4 across the board (or near to it), while operating at drastically lower clock rates. Maintaining high instructions per cycle (IPC) on a deeply pipelined and resourced out-of-order execution engine has remained a constant fixture of the Intel Core product group ever since.
+The new substantial bump in microarchitecture came with the introduction of the 45 nm Bloomfield desktop processor in November 2008 on the Nehalem architecture, whose main advantage came from redesigned I/O and memory systems featuring the new Intel QuickPath Interconnect and an integrated memory controller supporting up to three channels of DDR3 memory.
+Subsequent performance improvements have tended toward making additions rather than profound changes, such as adding the Advanced Vector Extensions instruction set extensions to Sandy Bridge, first released on 32 nm in January 2011. Time has also brought improved support for virtualization and a trend toward higher levels of system integration and management functionality (making it faster the CPU) through the ongoing evolution of facilities such as Intel Active Management Technology.
+Since 2019, the Core brand has been based on four product lines, consisting of the entry level i3, the mainstream i5, the high-end i7, and the "enthusiast" i9.
+
+
+== Overview ==
+Clock speed 
+slowest 1.2 GHz to the fastest 4.2 GHz (Intel Core i7-7700K) (or 4.5 GHz via Intel Turbo Boost Technology)
+
+
+== Enhanced Pentium M ==
+
+The original Core brand refers to Intel's 32-bit mobile dual-core x86 CPUs, which derived from the Pentium M branded processors. The processor family used an enhanced version of the Intel P6 microarchitecture. It emerged in parallel with the NetBurst microarchitecture (Intel P68) of the Pentium 4 brand, and was a precursor of the 64-bit Core microarchitecture of Core 2 branded CPUs. The Core brand comprised two branches: the Duo (dual-core) and Solo (Duo with one disabled core, which replaced the Pentium M brand of single-core mobile processor).
+Intel launched the Core brand on January 6, 2006 with the release of the 32-bit Yonah CPU – Intel's first dual-core mobile (low-power) processor. Its dual-core layout closely resembled two interconnected Pentium M branded CPUs packaged as a single die (piece) silicon chip (IC). Hence, the 32-bit microarchitecture of Core branded CPUs – contrary to its name – had more in common with Pentium M branded CPUs than with the subsequent 64-bit Core microarchitecture of Core 2 branded CPUs. Despite a major rebranding effort by Intel starting January 2006, some companies continued to market computers with the Yonah core marked as Pentium M.
+The Core series is also the first Intel processor used as the main CPU in an Apple Macintosh computer. The Core Duo was the CPU for the first generation MacBook Pro, while the Core Solo appeared in Apple's Mac Mini line. Core Duo signified the beginning of Apple's shift to Intel processors across their entire line.
+In 2007, Intel began branding the Yonah core CPUs intended for mainstream mobile computers as Pentium Dual-Core, not to be confused with the desktop 64-bit Core microarchitecture CPUs also branded as Pentium Dual-Core.
+September 2007 and January 4, 2008, marked the discontinuation of a number of Core branded CPUs including several Core Solo, Core Duo, Celeron and one Core 2 Quad chip.
+
+
+=== Core Solo ===
+Intel Core Solo (product code 80538) uses the same two-core die as the Core Duo, but features only one active core. Depending on demand, Intel may also simply disable one of the cores to sell the chip at the Core Solo price—this requires less effort than launching and maintaining a separate line of CPUs that physically only have one core. Intel had used the same strategy previously with the 486 CPU in which early 486SX CPUs were in fact manufactured as 486DX CPUs but with the FPU disabled.
+
+
+=== Core Duo ===
+Intel Core Duo (product code 80539) consists of two cores on one die, a 2 MB L2 cache shared by both cores, and an arbiter bus that controls both L2 cache and FSB (front-side bus) access.
+
+
+== 64-bit Core microarchitecture ==
+
+The successor to Core is the mobile version of the Intel Core 2 line of processors using cores based upon the Intel Core microarchitecture, released on July 27, 2006. The release of the mobile version of Intel Core 2 marks the reunification of Intel's desktop and mobile product lines as Core 2 processors were released for desktops and notebooks, unlike the first Intel Core CPUs that were targeted only for notebooks (although some small form factor and all-in-one desktops, like the iMac and the Mac Mini, also used Core processors).
+Unlike the Intel Core, Intel Core 2 is a 64-bit processor, supporting Intel 64. Another difference between the original Core Duo and the new Core 2 Duo is an increase in the amount of Level 2 cache. The new Core 2 Duo has tripled the amount of on-board cache to 6 MB. Core 2 also introduced a quad-core performance variant to the single- and dual-core chips, branded Core 2 Quad, as well as an enthusiast variant, Core 2 Extreme. All three chips are manufactured at a 65 nm lithography, and in 2008, a 45 nm lithography and support Front Side Bus speeds ranging from 533 MHz to 1600 MHz. In addition, the 45 nm die shrink of the Core microarchitecture adds SSE4.1 support to all Core 2 microprocessors manufactured at a 45 nm lithography, therefore increasing the calculation rate of the processors.
+
+
+=== Core 2 Solo ===
+The Core 2 Solo, introduced in September 2007, is the successor to the Core Solo and is available only as an ultra-low-power mobile processor with 5.5 Watt thermal design power. The original U2xxx series "Merom-L" used a special version of the Merom chip with CPUID number 10661 (model 22, stepping A1) that only had a single core and was also used in some Celeron processors.
+The later SU3xxx are part of Intel's CULV range of processors in a smaller µFC-BGA 956 package but contain the same Penryn chip as the dual-core variants, with one of the cores disabled during manufacturing.
+
+
+=== Core 2 Duo ===
+The majority of the desktop and mobile Core 2 processor variants are Core 2 Duo with two processor cores on a single Merom, Conroe, Allendale, Penryn, or Wolfdale chip. These come in a wide range of performance and power consumption, starting with the relatively slow ultra-low-power Uxxxx (10 W) and low-power Lxxxx (17 W) versions, to the more performance oriented Pxxxx (25 W) and Txxxx (35 W) mobile versions and the Exxxx (65 W) desktop models. The mobile Core 2 Duo processors with an 'S' prefix in the name are produced in a smaller µFC-BGA 956 package, which allows building more compact laptops.
+Within each line, a higher number usually refers to a better performance, which depends largely on core and front-side bus clock frequency and amount of second level cache, which are model-specific. Core 2 Duo processors typically use the full L2 cache of 2, 3, 4, or 6 MB available in the specific stepping of the chip, while versions with the amount of cache reduced during manufacturing are sold for the low-end consumer market as Celeron or Pentium Dual-Core processors. Like those processors, some low-end Core 2 Duo models disable features such as Intel Virtualization Technology.
+
+
+=== Core 2 Quad ===
+Core 2 Quad processors are multi-chip modules consisting of two dies similar to those used in Core 2 Duo, forming a quad-core processor. This allows twice the performance of a dual-core processors at the same clock frequency in ideal conditions.
+Initially, all Core 2 Quad models were versions of Core 2 Duo desktop processors, Kentsfield derived from Conroe and Yorkfield from Wolfdale, but later Penryn-QC was added as a high-end version of the mobile dual-core Penryn.
+The Xeon 32xx and 33xx processors are mostly identical versions of the desktop Core 2 Quad processors and can be used interchangeably.
+
+
+=== Core 2 Extreme ===
+Core 2 Extreme processors are enthusiast versions of Core 2 Duo and Core 2 Quad processors, usually with a higher clock frequency and an unlocked clock multiplier, which makes them especially attractive for overclocking. This is similar to earlier Pentium processors labeled as Extreme Edition. Core 2 Extreme processors were released at a much higher price than their regular version, often $999 or more.
+
+
+== Nehalem microarchitecture (1st generation) ==
+
+With the release of the Nehalem microarchitecture in November 2008, Intel introduced a new naming scheme for its Core processors. There are three variants, Core i3, Core i5 and Core i7, but the names no longer correspond to specific technical features like the number of cores. Instead, the brand is now divided from low-level (i3), through mid-range (i5) to high-end performance (i7), which correspond to three, four and five stars in Intel's Intel Processor Rating following on from the entry-level Celeron (one star) and Pentium (two stars) processors. Common features of all Nehalem based processors include an integrated DDR3 memory controller as well as QuickPath Interconnect or PCI Express and Direct Media Interface on the processor replacing the aging quad-pumped Front Side Bus used in all earlier Core processors. All these processors have 256 KB L2 cache per core, plus up to 12 MB shared L3 cache. Because of the new I/O interconnect, chipsets and mainboards from previous generations can no longer be used with Nehalem-based processors.
+
+
+=== Core i3 ===
+Intel intended the Core i3 as the new low end of the performance processor line from Intel, following the retirement of the Core 2 brand.The first Core i3 processors were launched on January 7, 2010.The first Nehalem based Core i3 was Clarkdale-based, with an integrated GPU and two cores. The same processor is also available as Core i5 and Pentium, with slightly different configurations.
+The Core i3-3xxM processors are based on Arrandale, the mobile version of the Clarkdale desktop processor. They are similar to the Core i5-4xx series but running at lower clock speeds and without Turbo Boost. According to an Intel FAQ they do not support Error Correction Code (ECC) memory. According to motherboard manufacturer Supermicro, if a Core i3 processor is used with a server chipset platform such as Intel 3400/3420/3450, the CPU supports ECC with UDIMM. When asked, Intel confirmed that, although the Intel 5 series chipset supports non-ECC memory only with the Core i5 or i3 processors, using those processors on a motherboard with 3400 series chipsets it supports the ECC function of ECC memory. A limited number of motherboards by other companies also support ECC with Intel Core ix processors; the Asus P8B WS is an example, but it does not support ECC memory under Windows non-server operating systems.
+
+
+=== Core i5 ===
+The first Core i5 using the Nehalem microarchitecture was introduced on September 8, 2009, as a mainstream variant of the earlier Core i7, the Lynnfield core. Lynnfield Core i5 processors have an 8 MB L3 cache, a DMI bus running at 2.5 GT/s and support for dual-channel DDR3-800/1066/1333 memory and have Hyper-threading disabled. The same processors with different sets of features (Hyper-threading and other clock frequencies) enabled are sold as Core i7-8xx and Xeon 3400-series processors, which should not be confused with high-end Core i7-9xx and Xeon 3500-series processors based on Bloomfield. A new feature called Turbo Boost Technology was introduced which maximizes speed for demanding applications, dynamically accelerating performance to match the workload.
+The Core i5-5xx mobile processors are named Arrandale and based on the 32 nm Westmere shrink of the Nehalem microarchitecture. Arrandale processors have integrated graphics capability but only two processor cores. They were released in January 2010, together with Core i7-6xx and Core i3-3xx processors based on the same chip. The L3 cache in Core i5-5xx processors is reduced to 3 MB, while the Core i5-6xx uses the full cache and the Core i3-3xx does not support for Turbo Boost.Clarkdale, the desktop version of Arrandale, is sold as Core i5-6xx, along with related Core i3 and Pentium brands. It has Hyper-Threading enabled and the full 4 MB L3 cache.According to Intel "Core i5 desktop processors and desktop boards typically do not support ECC memory", but information on limited ECC support in the Core i3 section also applies to Core i5 and i7.
+
+
+=== Core i7 ===
+Intel Core i7 as an Intel brand name applies to several families of desktop and laptop 64-bit x86-64 processors using the Nehalem, Westmere, Sandy Bridge, Ivy Bridge, Haswell, Broadwell, Skylake, and Kaby Lake microarchitectures. The Core i7 brand targets the business and high-end consumer markets for both desktop and laptop computers, and is distinguished from the Core i3 (entry-level consumer), Core i5 (mainstream consumer), and Xeon (server and workstation) brands.
+Intel introduced the Core i7 name with the Nehalem-based Bloomfield Quad-core processor in late 2008. In 2009 new Core i7 models based on the Lynnfield (Nehalem-based) desktop quad-core processor and the Clarksfield (Nehalem-based) quad-core mobile were added, and models based on the Arrandale dual-core mobile processor (also Nehalem-based) were added in January 2010. The first six-core processor in the Core lineup is the Nehalem-based Gulftown, which was launched on March 16, 2010. Both the regular Core i7 and the Extreme Edition are advertised as five stars in the Intel Processor Rating.
+In each of the first three microarchitecture generations of the brand, Core i7 has family members using two distinct system-level architectures, and therefore two distinct sockets (for example, LGA 1156 and LGA 1366 with Nehalem). In each generation, the highest-performing Core i7 processors use the same socket and QPI-based architecture as the medium-end Xeon processors of that generation, while lower-performing Core i7 processors use the same socket and PCIe/DMI/FDI architecture as the Core i5.
+"Core i7" is a successor to the Intel Core 2 brand. Intel representatives stated that they intended the moniker Core i7 to help consumers decide which processor to purchase as Intel releases newer Nehalem-based products in the future.
+
+
+== Sandy Bridge microarchitecture (2nd generation) ==
+
+In early 2011, Intel introduced a new microarchitecture named Sandy Bridge. This is the second generation of the Core processor microarchitecture. It kept all the existing brands from Nehalem, including Core i3/i5/i7, and introduced new model numbers. The initial set of Sandy Bridge processors includes dual- and quad-core variants, all of which use a single 32 nm die for both the CPU and integrated GPU cores, unlike the earlier microarchitectures. All Core i3/i5/i7 processors with the Sandy Bridge microarchitecture have a four-digit model number. With the mobile version, the thermal design power can no longer be determined from a one- or two-letter suffix but is encoded into the CPU number. Starting with Sandy Bridge, Intel no longer distinguishes the code names of the processor based on number of cores, socket or intended usage; they all use the same code name as the microarchitecture itself.
+Ivy Bridge is the codename for Intel's 22 nm die shrink of the Sandy Bridge microarchitecture based on tri-gate ("3D") transistors, introduced in April 2012.
+
+
+=== Core i3 ===
+Released on January 20, 2011, the Core i3-2xxx line of desktop and mobile processors is a direct replacement of the 2010 "Clarkdale" Core i3-5xx and "Arrandale" Core i3-3xxM models, based on the new microarchitecture. While they require new sockets and chipsets, the user-visible features of the Core i3 are largely unchanged, including the lack of support for Turbo Boost and AES-NI. Unlike the Sandy Bridge-based Celeron and Pentium processors, the Core i3 line does support the new Advanced Vector Extensions. This particular processor is the entry-level processor of this new series of Intel processors.
+
+
+=== Core i5 ===
+In January 2011, Intel released new quad-core Core i5 processors based on the "Sandy Bridge" microarchitecture at CES 2011. New dual-core mobile processors and desktop processors arrived in February 2011.
+The Core i5-2xxx line of desktop processors are mostly quad-core chips, with the exception of the dual-core Core i5-2390T, and include integrated graphics, combining the key features of the earlier Core i5-6xx and Core i5-7xx lines. The suffix after the four-digit model number designates unlocked multiplier (K), low-power (S) and ultra-low-power (T).
+The desktop CPUs now all have four non-SMT cores (like the i5-750), with the exception of the i5-2390T. The DMI bus is running at 5 GT/s.
+The mobile Core i5-2xxxM processors are all dual-core and hyper-threaded chips like the previous Core i5-5xxM series, and share most of the features with that product line.
+
+
+=== Core i7 ===
+The Core i7 brand was the high-end for Intel's desktop and mobile processors, until the announcement of the i9 in 2017. Its Sandy Bridge models feature the largest amount of L3 cache and the highest clock frequency. Most of these models are very similar to their smaller Core i5 siblings. The quad-core mobile Core i7-2xxxQM/XM processors follow the previous "Clarksfield" Core i7-xxxQM/XM processors, but now also include integrated graphics.
+
+
+== Ivy Bridge microarchitecture (3rd generation) ==
+
+Ivy Bridge is the codename for a "third generation" line of processors based on the 22 nm manufacturing process developed by Intel. Mobile versions of the CPU were released on April 2012 following with desktop versions on September 2012.
+
+
+=== Core i3 ===
+The Ivy Bridge-based Core-i3-3xxx line is a minor upgrade to 22 nm process technology and better graphics.
+
+
+=== Core i5 ===
+
+
+=== Core i7 ===
+
+
+== Haswell microarchitecture (4th generation) ==
+
+Haswell is the fourth generation Core processor microarchitecture, and was released in 2013.
+
+
+=== Core i3 ===
+
+
+=== Core i5 ===
+
+
+=== Core i7 ===
+
+
+== Broadwell microarchitecture (5th generation) ==
+
+Broadwell is the fifth generation Core processor microarchitecture, and was released by Intel on September 6, 2014, and began shipping in late 2014. It is the first to use a 14 nm chip. Additionally, mobile processors were launched in January 2015 and Desktop Core i5 and i7 processors were released in June 2015.
+
+
+=== Core i3 ===
+
+
+=== Core i5 ===
+
+
+=== Core i7 ===
+
+
+=== Core M ===
+
+
+== Skylake microarchitecture (6th generation) ==
+
+Skylake is the sixth generation Core processor microarchitecture, and was launched in August 2015. Being the successor to the Broadwell line, it is a redesign using the same 14 nm manufacturing process technology; however the redesign has better CPU and GPU performance and reduced power consumption. Intel also disabled overclocking non -K processors.
+
+
+=== Core i3 ===
+
+
+=== Core i5 ===
+
+
+=== Core i7 ===
+ 
+
+
+== Kaby Lake microarchitecture (7th generation) ==
+
+Kaby Lake is the seventh generation Core processor microarchitecture, and was launched in October 2016 (mobile chips) and January 2017 (desktop chips). With the latest generation of microarchitecture, Intel decided to produce Kaby Lake processors without using their "tick–tock" manufacturing and design model. Similar to Skylake, Kaby Lake processors are produced using a 14 nanometer manufacturing process technology.
+
+
+=== Features ===
+Built on an improved 14 nm process (14FF+), Kaby Lake features faster CPU clock speeds and Turbo frequencies. Beyond these process and clock speed changes, little of the CPU architecture has changed from Skylake, resulting in identical IPC.
+Kaby Lake features a new graphics architecture to improve performance in 3D graphics and 4K video playback. It adds native HDCP 2.2 support, along with fixed function decode of H.264, HEVC Main and Main10/10-bit, and VP9 10-bit and 8-bit video. Hardware encode is supported for H.264, HEVC Main10/10-bit, and VP9 8-bit video. VP9 10-bit encode is not supported in hardware. OpenCL 2.1 is now supported.
+Kaby Lake is the first Core architecture to support hyper-threading for the Pentium-branded desktop CPU SKU. Kaby Lake also features the first overclocking-enabled i3-branded CPU.
+
+
+=== List of Kaby Lake processors ===
+Features common to desktop Kaby Lake CPUs:
+
+LGA 1151 socket
+DMI 3.0 and PCIe 3.0 interfaces
+Dual channel memory support in the following configurations: DDR3L-1600 1.35 V (32 GiB maximum) or DDR4-2400 1.2 V (64 GiB maximum)
+A total of 16 PCIe lanes
+The Core-branded processors support the AVX2 instruction set. The Celeron and Pentium-branded ones support only SSE4.1/4.2
+350 MHz base graphics clock rate
+No L4 cache (eDRAM).
+A release date of January 3, 2017
+
+
+=== Desktop processors ===
+
+
+=== Mobile processors ===
+
+
+==== High power ====
+
+
+==== Low/Medium power ====
+
+
+=== Server processors ===
+
+
+=== Kaby Lake Refresh ===
+
+
+== Coffee Lake microarchitecture (8th generation) ==
+Coffee Lake is the eighth generation Intel Core micro-architecture and was launched in October 2017. For the first time in the ten-year history of Intel Core processors, the Coffee Lake generation features an increase in core counts across the desktop lineup of processors, a significant driver of improved performance versus previous generations despite similar per-clock performance.
+* Intel Hyper-threading capabilities allow an enabled processor to execute two threads per physical core
+
+
+=== Coffee Lake features ===
+Coffee Lake features largely the same CPU core and performance per MHz as Skylake/Kaby Lake. Features specific to Coffee Lake include:
+
+Following similar refinements to the 14 nm process in Skylake and Kaby Lake, Coffee Lake is the third 14 nm process refinement ("14nm++") and features increased transistor gate pitch for a lower current density and higher leakage transistors which allows higher peak power and higher frequency at the expense of die area and idle power.
+Coffee Lake will be used in conjunction with the 300-series chipset and is incompatible with the older 100- and 200-series chipsets.
+Increased L3 cache in accordance to the number of cores
+Increased turbo clock speeds across i5 and i7 CPUs models (increased by up to 200 MHz)
+Increased iGPU clock speeds by 50 MHz
+DDR4 memory support updated for 2666 MHz (for i5 and i7 parts) and 2400 MHz (for i3 parts); DDR3 memory is no longer supported
+
+
+=== List of Coffee Lake processors ===
+
+
+=== Desktop processors ===
+* Processors Core i3-8100 and Core i3-8350K with stepping B0 actually belong to "Kaby Lake-S" family
+
+
+=== Workstation processors ===
+
+
+=== Mobile processors ===
+
+
+== List of 9th generation Coffee Lake processors ==
+
+
+=== Desktop processors ===
+The 9th generation Coffee Lake CPUs were released in the fourth quarter of 2018. They include hardware mitigations against certain Meltdown/Spectre vulnerabilities.For the first time in Intel consumer CPU history, these CPUs support up to 128GB RAM.Even though the F suffix CPUs lack an integrated GPU, Intel set the same price for these CPUs as their featureful counterparts.
+* various reviews show that the Core i9 9900K CPU may consume over 140W under load.
+
+
+== Cannon Lake microarchitecture (9th generation) ==
+Cannon Lake (formerly Skymont) is Intel's codename for the 10-nanometer die shrink of the Kaby Lake microarchitecture. As a die shrink, Cannon Lake is a new process in Intel's "process–architecture–optimization" execution plan as the next step in semiconductor fabrication. Cannon Lake are the first mainstream CPUs to include the AVX-512 instruction set. In comparison to the previous generation AVX2 (AVX-256), the new generation AVX-512 most notably provides double the width of data registers and double the number of registers. These enhancements would allow for twice the number of floating point operations per register due to the increased width in addition to doubling the overall number of registers, resulting in theoretical performance improvements of up to four times the performance of AVX2.At CES 2018, Intel announced that they had started shipping mobile Cannon Lake CPUs at the end of 2017 and that they would ramp up production in 2018. No further details were disclosed.
+
+
+=== Architecture changes compared to Coffee Lake ===
+AVX-512 instruction set extension
+Intel's first 10 nm process technology
+
+
+=== List of Cannon Lake CPUs ===
+
+
+=== Mobile processors ===
+
+
+== Whiskey Lake microarchitecture (9th generation) ==
+
+Whiskey Lake is Intel's codename for the third 14 nm Skylake process-refinement, following Kaby Lake Refresh and Coffee Lake. Intel announced low power mobile Whiskey Lake CPUs availability on August 28, 2018. It has not yet been advertised whether this CPU architecture contains hardware mitigations for Meltdown/Spectre class vulnerabilities—various sources contain conflicting information. Unofficially it was announced that Whiskey Lake has hardware mitigations against Meltdown and L1TF while Spectre V2 requires software mitigations as well as microcode/firmware update.
+
+
+=== Architecture changes compared to Kaby Lake Refresh ===
+14++ nm process, same as Coffee Lake
+Increased turbo clocks (300–600 MHz)
+14 nm PCH
+Native USB 3.1 gen 2 support (10 Gbit/s)
+Integrated 802.11ac 160 MHz Wi-Fi and Bluetooth 5.0
+Intel Optane Memory support
+
+
+=== List of Whiskey Lake CPUs ===
+
+
+=== Mobile processors ===
+
+
+== Ice Lake microarchitecture (10th generation) ==
+Ice Lake is codename for Intel's 10th generation microarchitecture, representing an enhancement of the 'Architecture' of the preceding generation Kaby Lake/Cannon Lake processors (as specified in Intel's process–architecture–optimization execution plan). With Cannon Lake having successfully moved from a 14 nm to 10 nm manufacturing process on one CPU, some believe Intel will release Ice Lake on 10 nm.  Contradicting this, leaks have suggested a new 14 nm ++++ process for Ice Lake.Ice Lake will be the first Intel CPU to feature in-silicon mitigations for the hardware vulnerabilities discovered in 2017, Meltdown and Spectre. These side-channel attacks exploit branch prediction's use of speculative execution. These exploits may cause the CPU to reveal cached private information which the exploiting process is not intended to be able to access as a form of timing attack.
+
+
+=== Ice Lake features ===
+
+
+=== CPU ===
+On average 18% increase in IPC in comparison to 2015 Skylake running at the same frequency and memory configuration
+L1 instruction/data cache: 32KB/48 KiB; L2 cache: 512 KiB
+Dynamic Tuning 2.0 which allows the CPU to stay at turbo frequencies for longer
+Six new AVX-512 instruction subsets: VPOPCNTDQ, VBMI2, BITALG, VPCLMULQDQ, GFNI, and VAES
+AI tasks acceleration, Intel Deep Learning Boost
+
+
+=== GPU ===
+Gen 11 GPU with up to 64 execution units; 4K@120Hz, 5K, 8K display output
+Variable Rate Shading
+DisplayPort 1.4a with Display Stream Compression; HDMI 2.0b
+Up to 1.15 TFLOPS of computational performance
+Two HEVC 10-bit encode pipelines, either two 4K60 4:4:4 streams simultaneously or one 8K30 4:2:2
+
+
+=== Package ===
+10 nm+ transistors
+New memory controller with DDR4 3200 and LPDDR4X 3733 support
+Integrated support for Wi-Fi 6 (802.11ax)
+Thunderbolt 3 support
+
+
+=== List of Ice Lake Processors ===
+
+
+=== Mobile processors ===
+
+
+== Comet Lake microarchitecture (10th generation) ==
+ Comet Lake is Intel's codename for the fourth 14 nm Skylake process-refinement, following Whiskey Lake. Intel announced low power mobile Comet Lake CPUs availability on August 21, 2019.
+
+
+== Architecture changes compared to Whiskey Lake ==
+Up to six CPU cores; L3 cache up to 12MiB
+Higher turbo frequencies by up to 300MHz
+LPDDR4x 2933 memory support
+Wi-Fi 6 AX201 support
+
+
+== List of Comet Lake CPUs ==
+
+
+=== Mobile processors ===
+The configurable TDP of these CPUs is 15 W by default. Pentium and Celeron CPUs lack AVX2 support.
+
+
+== See also ==
+Intel
+Intel Core (microarchitecture)
+List of Intel graphics processing units
+List of Intel microprocessors
+List of Intel Core i3 microprocessors
+List of Intel Core i5 microprocessors
+List of Intel Core i7 microprocessors
+List of Intel Core i9 microprocessors
+List of Intel chipsets
+
+
+== References ==
+
+
+== External links ==
+Intel Core technical specifications at the Wayback Machine (archived August 9, 2007)
+CPU Database. TechPowerUp.
+Intel Core Duo (Yonah) Performance Preview – Part II vs AMD 64 X2 and Intel Pentium M. Anandtech.
+Intel Core i7-3960X CPU Performance Comparison.
+Intel Centrino Duo Mobile Technology papers. Intel.
+Intel Product Information, providing a list of various processor generations

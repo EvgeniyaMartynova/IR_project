@@ -1,0 +1,861 @@
+Title: Positive real numbers
+Aspects: {'R+'}
+
+In mathematics, the set of positive real numbers, 
+  
+    
+      
+        
+          
+            R
+          
+          
+            >
+            0
+          
+        
+        =
+        
+          {
+          
+            x
+            ∈
+            
+              R
+            
+            ∣
+            x
+            >
+            0
+          
+          }
+        
+      
+    
+    {\displaystyle \mathbb {R} _{>0}=\left\{x\in \mathbb {R} \mid x>0\right\}}
+  , is the subset of those real numbers that are greater than zero. The non-negative real numbers, 
+  
+    
+      
+        
+          
+            R
+          
+          
+            ≥
+            0
+          
+        
+        =
+        
+          {
+          
+            x
+            ∈
+            
+              R
+            
+            ∣
+            x
+            ≥
+            0
+          
+          }
+        
+      
+    
+    {\displaystyle \mathbb {R} _{\geq 0}=\left\{x\in \mathbb {R} \mid x\geq 0\right\}}
+  , also include zero. The symbols 
+  
+    
+      
+        
+          
+            R
+          
+          
+            +
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} _{+}}
+   and 
+  
+    
+      
+        
+          
+            R
+          
+          
+            +
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{+}}
+   are ambiguously used for either of these, so it safer to always specify which. Alternatively, the notation 
+  
+    
+      
+        
+          
+            R
+          
+          
+            +
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} _{+}}
+   or 
+  
+    
+      
+        
+          
+            R
+          
+          
+            +
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{+}}
+   for 
+  
+    
+      
+        
+          {
+          
+            x
+            ∈
+            
+              R
+            
+            ∣
+            x
+            ≥
+            0
+          
+          }
+        
+      
+    
+    {\displaystyle \left\{x\in \mathbb {R} \mid x\geq 0\right\}}
+   and 
+  
+    
+      
+        
+          
+            R
+          
+          
+            +
+          
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} _{+}^{*}}
+   or 
+  
+    
+      
+        
+          
+            R
+          
+          
+            ∗
+          
+          
+            +
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} _{*}^{+}}
+   for 
+  
+    
+      
+        
+          {
+          
+            x
+            ∈
+            
+              R
+            
+            ∣
+            x
+            >
+            0
+          
+          }
+        
+      
+    
+    {\displaystyle \left\{x\in \mathbb {R} \mid x>0\right\}}
+   has also been widely employed, is aligned with the practice in algebra of denoting the exclusion of the zero element with a star, and should be understandable to most practicing mathematicians.
+In a complex plane, 
+  
+    
+      
+        
+          
+            R
+          
+          
+            >
+            0
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} _{>0}}
+   is identified with the positive real axis and is usually drawn as a horizontal ray. This ray is used as reference in the polar form of a complex number. The real positive axis corresponds to complex numbers 
+  
+    
+      
+        z
+        =
+        
+          |
+        
+        z
+        
+          |
+        
+        
+          
+            e
+          
+          
+            
+              i
+            
+            φ
+          
+        
+      
+    
+    {\displaystyle z=|z|\mathrm {e} ^{\mathrm {i} \varphi }}
+   with argument 
+  
+    
+      
+        φ
+        =
+        0
+      
+    
+    {\displaystyle \varphi =0}
+  .
+
+
+== Properties ==
+The set 
+  
+    
+      
+        
+          
+            R
+          
+          
+            >
+            0
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} _{>0}}
+   is closed under addition, multiplication, and division. It inherits a topology from the real line and, thus, has the structure of a multiplicative topological group or of an additive topological semigroup.
+For a given positive real number x, the sequence {xn} of its integral powers has three different fates: When x ∈ (0, 1) the limit is zero and when x ∈ (1, ∞) the limit is infinity, while the sequence is constant for x = 1. The case x > 1 thus leads to an unbounded sequence.
+
+  
+    
+      
+        
+          
+            R
+          
+          
+            >
+            0
+          
+        
+        =
+        (
+        0
+        ,
+        1
+        )
+        ∪
+        {
+        1
+        }
+        ∪
+        (
+        1
+        ,
+        ∞
+        )
+      
+    
+    {\displaystyle \mathbb {R} _{>0}=(0,1)\cup \{1\}\cup (1,\infty )}
+   and the multiplicative inverse function exchanges the intervals. The functions floor, 
+  
+    
+      
+        floor
+        :
+        [
+        1
+        ,
+        ∞
+        )
+        →
+        
+          N
+        
+        ,
+        
+        x
+        ↦
+        ⌊
+        x
+        ⌋
+      
+    
+    {\displaystyle \operatorname {floor} :[1,\infty )\to \mathbb {N} ,\,x\mapsto \lfloor x\rfloor }
+  , and excess, 
+  
+    
+      
+        excess
+        :
+        [
+        1
+        ,
+        ∞
+        )
+        →
+        (
+        0
+        ,
+        1
+        )
+        ,
+        
+        x
+        ↦
+        x
+        −
+        ⌊
+        x
+        ⌋
+      
+    
+    {\displaystyle \operatorname {excess} :[1,\infty )\to (0,1),\,x\mapsto x-\lfloor x\rfloor }
+  , have been used to describe an element 
+  
+    
+      
+        x
+        ∈
+        
+          
+            R
+          
+          
+            >
+            0
+          
+        
+      
+    
+    {\displaystyle x\in \mathbb {R} _{>0}}
+   as a continued fraction 
+  
+    
+      
+        [
+        
+          n
+          
+            0
+          
+        
+        ;
+        
+          n
+          
+            1
+          
+        
+        ,
+        
+          n
+          
+            2
+          
+        
+        ,
+        …
+        ]
+      
+    
+    {\displaystyle [n_{0};n_{1},n_{2},\ldots ]}
+   which is a sequence of integers obtained from the floor function after the excess has been reciprocated. For 
+  
+    
+      
+        x
+        ∈
+        
+          Q
+        
+      
+    
+    {\displaystyle x\in \mathbb {Q} }
+   the sequence terminates with an exact fractional expression of 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  , and for quadratic irrational 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+   the sequence becomes a periodic continued fraction.
+In the study of classical groups, for every 
+  
+    
+      
+        n
+        ∈
+        
+          N
+        
+      
+    
+    {\displaystyle n\in \mathbb {N} }
+  , the determinant gives a map from 
+  
+    
+      
+        n
+        ×
+        n
+      
+    
+    {\displaystyle n\times n}
+   matrices over the reals to the real numbers 
+  
+    
+      
+        
+          M
+        
+        (
+        n
+        ,
+        
+          R
+        
+        )
+        →
+        
+          R
+        
+        .
+      
+    
+    {\displaystyle \mathrm {M} (n,\mathbf {R} )\to \mathbf {R} .}
+   Restricting to invertible matrices gives a map from the general linear group to non-zero real numbers: 
+  
+    
+      
+        
+          G
+          L
+        
+        (
+        n
+        ,
+        
+          R
+        
+        )
+        →
+        
+          
+            R
+          
+          
+            ×
+          
+        
+      
+    
+    {\displaystyle \mathrm {GL} (n,\mathbf {R} )\to \mathbf {R} ^{\times }}
+  . Restricting to matrices with a positive determinant gives the map 
+  
+    
+      
+        
+          
+            G
+            L
+          
+          
+            +
+          
+        
+        (
+        n
+        ,
+        
+          R
+        
+        )
+        →
+        
+          
+            R
+          
+          
+            >
+            0
+          
+        
+      
+    
+    {\displaystyle \mathrm {GL} ^{+}(n,\mathbf {R} )\to \mathbf {R} _{>0}}
+  ; interpreting the image as a quotient group by the normal subgroup relation SL(n,ℝ) ◁ GL+(n,ℝ) expresses the positive reals as a Lie group.
+
+
+== Logarithmic measure ==
+If 
+  
+    
+      
+        [
+        a
+        ,
+        b
+        ]
+        ⊆
+        
+          
+            R
+          
+          
+            >
+            0
+          
+        
+      
+    
+    {\displaystyle [a,b]\subseteq \mathbb {R} _{>0}}
+   is an interval, then 
+  
+    
+      
+        μ
+        (
+        [
+        a
+        ,
+        b
+        ]
+        )
+        =
+        log
+        ⁡
+        (
+        b
+        
+          /
+        
+        a
+        )
+        =
+        log
+        ⁡
+        b
+        −
+        log
+        ⁡
+        a
+      
+    
+    {\displaystyle \mu ([a,b])=\log(b/a)=\log b-\log a}
+   determines a measure on certain subsets of 
+  
+    
+      
+        
+          
+            R
+          
+          
+            >
+            0
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} _{>0}}
+  , corresponding to the pullback of the usual Lebesgue measure on the real numbers under the logarithm: it is the length on the logarithmic scale. In fact, it is an invariant measure with respect to multiplication 
+  
+    
+      
+        [
+        a
+        ,
+        b
+        ]
+        →
+        [
+        a
+        z
+        ,
+        b
+        z
+        ]
+      
+    
+    {\displaystyle [a,b]\to [az,bz]}
+   by a 
+  
+    
+      
+        z
+        ∈
+        
+          
+            R
+          
+          
+            >
+            0
+          
+        
+      
+    
+    {\displaystyle z\in \mathbb {R} _{>0}}
+  , just as the Lebesgue measure is invariant under addition. In the context of topological groups, this measure is an example of a Haar measure.
+The utility of this measure is shown in its use for describing stellar magnitudes and noise levels in decibels, among other applications of the logarithmic scale. For purposes of international standards ISO 80000-3 the dimensionless quantities are referred to as levels.
+
+
+== Applications ==
+The non-negative reals serve as the range for metrics, norms, and measures in mathematics.
+Including 0, the set 
+  
+    
+      
+        
+          
+            R
+          
+          
+            ≥
+            0
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} _{\geq 0}}
+   has a semiring structure (0 is the additive identity), known as the probability semiring; taking logarithms (with a choice of base giving a logarithmic unit) gives an isomorphism with the log semiring (with 0 corresponding to −∞), and its units (the finite numbers, excluding −∞) correspond to the positive real numbers.
+
+
+=== Square ===
+Let 
+  
+    
+      
+        Q
+         
+        =
+         
+        
+          
+            R
+          
+          
+            ≥
+            0
+          
+        
+        ×
+        
+          
+            R
+          
+          
+            ≥
+            0
+          
+        
+        ,
+      
+    
+    {\displaystyle Q\ =\ \mathbb {R} _{\geq 0}\times \mathbb {R} _{\geq 0},}
+   the first quadrant of the Cartesian plane. The quadrant itself is divided into four parts by the line 
+  
+    
+      
+        L
+         
+        =
+         
+        {
+        (
+        x
+        ,
+        y
+        )
+        :
+        x
+        =
+        y
+        }
+      
+    
+    {\displaystyle L\ =\ \{(x,y):x=y\}}
+   and the standard hyperbola 
+  
+    
+      
+        H
+         
+        =
+         
+        {
+        (
+        x
+        ,
+        y
+        )
+        :
+        x
+        y
+        =
+        1
+        }
+        .
+      
+    
+    {\displaystyle H\ =\ \{(x,y):xy=1\}.}
+  
+The L ∪ H forms a trident while L ∩ H = (1,1) is the central point. It is the identity element of two one-parameter groups that intersect there:
+
+  
+    
+      
+        {
+        {
+        (
+        
+          e
+          
+            a
+          
+        
+        ,
+         
+        
+          e
+          
+            a
+          
+        
+        )
+        :
+        a
+        ∈
+        R
+        }
+        ,
+        ×
+        }
+      
+    
+    {\displaystyle \{\{(e^{a},\ e^{a}):a\in R\},\times \}}
+   on L and 
+  
+    
+      
+        {
+        {
+        (
+        
+          e
+          
+            a
+          
+        
+        ,
+         
+        
+          e
+          
+            −
+            a
+          
+        
+        )
+        :
+        a
+        ∈
+        R
+        }
+        ,
+        ×
+        }
+      
+    
+    {\displaystyle \{\{(e^{a},\ e^{-a}):a\in R\},\times \}}
+   on H.Since 
+  
+    
+      
+        
+          
+            R
+          
+          
+            ≥
+            0
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} _{\geq 0}}
+   is a group, Q is a direct product of groups. The one-parameter subgroups L and H in Q profile the activity in the product, and L × H is a resolution of the types of group action.
+The realms of business and science abound in ratios, and any change in ratios draws attention. The study refers to hyperbolic coordinates in Q. Motion against the L axis indicates a change in the geometric mean √(xy), while a change along H indicates a new hyperbolic angle.
+
+
+== See also ==
+
+
+== References ==
+Kist, Joseph; Leetsma, Sanford (1970). "Additive semigroups of positive real numbers". Mathematische Annalen. 188 (3): 214–218. doi:10.1007/BF01350237.

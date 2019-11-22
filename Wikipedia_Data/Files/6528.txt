@@ -1,0 +1,67 @@
+Title: ATC code J04
+Aspects: {'J4'}
+
+ATC code J04 Antimycobacterials is a therapeutic subgroup of the Anatomical Therapeutic Chemical Classification System, a system of alphanumeric codes developed by the WHO for the classification of drugs and other medical products. Subgroup J04 is part of the anatomical group J Antiinfectives for systemic use.
+Codes for veterinary use (ATCvet codes) can be created by placing the letter Q in front of the human ATC code: for example, QJ04. National issues of the ATC classification may include additional codes not present in this list, which follows the WHO version.
+
+
+== J04A Drugs for treatment of tuberculosis ==
+
+
+=== J04AA Aminosalicylic acid and derivatives ===
+J04AA01 Aminosalicylic acid
+J04AA02 Sodium aminosalicylate
+J04AA03 Calcium aminosalicylate
+
+
+=== J04AB Antibiotics ===
+J04AB01 Cycloserine
+J04AB02 Rifampicin
+J04AB03 Rifamycin
+J04AB04 Rifabutin
+J04AB05 Rifapentin
+J04AB30 Capreomycin
+
+
+=== J04AC Hydrazides ===
+J04AC01 Isoniazid
+J04AC51 Isoniazid, combinations
+
+
+=== J04AD Thiocarbamide derivatives ===
+J04AD01 Protionamide
+J04AD02 Tiocarlide
+J04AD03 Ethionamide
+
+
+=== J04AK Other drugs for treatment of tuberculosis ===
+J04AK01 Pyrazinamide
+J04AK02 Ethambutol
+J04AK03 Terizidone
+J04AK04 Morinamide
+J04AK05 Bedaquiline
+J04AK06 Delamanid
+J04AK07 Amithiozone
+
+
+=== J04AM Combinations of drugs for treatment of tuberculosis ===
+J04AM01 Streptomycin and isoniazid
+J04AM02 Rifampicin and isoniazid
+J04AM03 Ethambutol and isoniazid
+J04AM04 Thioacetazone and isoniazid
+J04AM05 Rifampicin, pyrazinamide and isoniazid
+J04AM06 Rifampicin, pyrazinamide, ethambutol and isoniazid
+J04AM07 Rifampicin, ethambutol and isoniazid
+J04AM08 Isoniazid, sulfamethoxazole, trimethoprim and pyridoxine
+
+
+== J04B Drugs for treatment of lepra ==
+
+
+=== J04BA Drugs for treatment of lepra ===
+J04BA01 Clofazimine
+J04BA02 Dapsone
+J04BA03 Aldesulfone sodium
+
+
+== References ==

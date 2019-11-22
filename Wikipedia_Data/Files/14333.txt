@@ -1,0 +1,40 @@
+Title: UL 94
+Aspects: {'V0'}
+
+UL 94, the Standard for Safety of Flammability of Plastic Materials for Parts in Devices and Appliances testing, is a plastics flammability standard released by Underwriters Laboratories of the United States. The standard determines the material’s tendency to either extinguish or spread the flame once the specimen has been ignited. UL-94 is now harmonized with IEC 60707, 60695-11-10 and 60695-11-20 and ISO 9772 and 9773.The VW-1 (vertical wire burn) rating is sometimes erroneously associated with UL 94, but it (and some other flammability tests) is described by UL 1581 (Reference Standard for Electrical Wires, Cables, and Flexible Cords). 
+
+
+== Classifications ==
+From lowest (Least flame-retardant) to highest (Most flame-retardant):
+
+HB: slow burning on a horizontal specimen; burning rate < 76 mm/min for thickness < 3 mm or burning stops before 100 mm
+V-2: burning stops within 30 seconds on a vertical specimen; drips of flaming particles are allowed.
+V-1: burning stops within 30 seconds on a vertical specimen; drips of particles allowed as long as they are not inflamed.
+V-0: burning stops within 10 seconds on a vertical specimen; drips of particles allowed as long as they are not inflamed.
+5VB: burning stops within 60 seconds on a vertical specimen; no drips allowed; plaque specimens may develop a hole.
+5VA: burning stops within 60 seconds on a vertical specimen; no drips allowed; plaque specimens may not develop a hole.
+
+
+== Tests ==
+Tests are generally conducted on a 5" x 1/2" (12.7 cm x 1.27 cm) specimen of the minimum approved thickness. For 5VA and 5VB ratings, tests are performed on both bar and plaque specimens, and the flame ignition source is approximately five times as severe as that used for testing the other materials.
+
+
+== Foam and films ==
+There are other classifications that apply to low density foam materials (HF-1, HF-2, HBF) and thin films (VTM-0, VTM-1, VTM-2).
+
+HF-2: burning stops within 3 seconds; afterglow less than 30s; burning drips allowed.
+HF-1: burning stops within 2 seconds; afterglow less than 30s; no burning drips allowed.
+
+
+== External links ==
+UL International Thermoplastics Testing Center Website - Test methods : Combustion (fire) with animations.
+The Plastics Web - UL94 information.
+
+
+== See also ==
+Flammability
+Flammability diagram
+Fire test
+
+
+== References ==

@@ -1,0 +1,2847 @@
+Title: Q-Pochhammer symbol
+Aspects: {'Q series'}
+
+In mathematics, in the area of combinatorics, a q-Pochhammer symbol, also called a q-shifted factorial, is a q-analog of the Pochhammer symbol. It is defined as
+
+  
+    
+      
+        (
+        a
+        ;
+        q
+        
+          )
+          
+            n
+          
+        
+        =
+        
+          ∏
+          
+            k
+            =
+            0
+          
+          
+            n
+            −
+            1
+          
+        
+        (
+        1
+        −
+        a
+        
+          q
+          
+            k
+          
+        
+        )
+        =
+        (
+        1
+        −
+        a
+        )
+        (
+        1
+        −
+        a
+        q
+        )
+        (
+        1
+        −
+        a
+        
+          q
+          
+            2
+          
+        
+        )
+        ⋯
+        (
+        1
+        −
+        a
+        
+          q
+          
+            n
+            −
+            1
+          
+        
+        )
+      
+    
+    {\displaystyle (a;q)_{n}=\prod _{k=0}^{n-1}(1-aq^{k})=(1-a)(1-aq)(1-aq^{2})\cdots (1-aq^{n-1})}
+  with
+
+  
+    
+      
+        (
+        a
+        ;
+        q
+        
+          )
+          
+            0
+          
+        
+        =
+        1
+      
+    
+    {\displaystyle (a;q)_{0}=1}
+  by definition. The q-Pochhammer symbol is a major building block in the construction of q-analogs; for instance, in the theory of basic hypergeometric series, it plays the role that the ordinary Pochhammer symbol plays in the theory of generalized hypergeometric series.
+Unlike the ordinary Pochhammer symbol, the q-Pochhammer symbol can be extended to an infinite product:
+
+  
+    
+      
+        (
+        a
+        ;
+        q
+        
+          )
+          
+            ∞
+          
+        
+        =
+        
+          ∏
+          
+            k
+            =
+            0
+          
+          
+            ∞
+          
+        
+        (
+        1
+        −
+        a
+        
+          q
+          
+            k
+          
+        
+        )
+        .
+      
+    
+    {\displaystyle (a;q)_{\infty }=\prod _{k=0}^{\infty }(1-aq^{k}).}
+  This is an analytic function of q in the interior of the unit disk, and can also be considered as a formal power series in q.  The special case
+
+  
+    
+      
+        ϕ
+        (
+        q
+        )
+        =
+        (
+        q
+        ;
+        q
+        
+          )
+          
+            ∞
+          
+        
+        =
+        
+          ∏
+          
+            k
+            =
+            1
+          
+          
+            ∞
+          
+        
+        (
+        1
+        −
+        
+          q
+          
+            k
+          
+        
+        )
+      
+    
+    {\displaystyle \phi (q)=(q;q)_{\infty }=\prod _{k=1}^{\infty }(1-q^{k})}
+  is known as Euler's function, and is important in combinatorics, number theory, and the theory of modular forms.
+
+
+== Identities ==
+The finite product can be expressed in terms of the infinite product:
+
+  
+    
+      
+        (
+        a
+        ;
+        q
+        
+          )
+          
+            n
+          
+        
+        =
+        
+          
+            
+              (
+              a
+              ;
+              q
+              
+                )
+                
+                  ∞
+                
+              
+            
+            
+              (
+              a
+              
+                q
+                
+                  n
+                
+              
+              ;
+              q
+              
+                )
+                
+                  ∞
+                
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle (a;q)_{n}={\frac {(a;q)_{\infty }}{(aq^{n};q)_{\infty }}},}
+  which extends the definition to negative integers n.  Thus, for nonnegative n, one has
+
+  
+    
+      
+        (
+        a
+        ;
+        q
+        
+          )
+          
+            −
+            n
+          
+        
+        =
+        
+          
+            1
+            
+              (
+              a
+              
+                q
+                
+                  −
+                  n
+                
+              
+              ;
+              q
+              
+                )
+                
+                  n
+                
+              
+            
+          
+        
+        =
+        
+          ∏
+          
+            k
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          
+            1
+            
+              (
+              1
+              −
+              a
+              
+                /
+              
+              
+                q
+                
+                  k
+                
+              
+              )
+            
+          
+        
+      
+    
+    {\displaystyle (a;q)_{-n}={\frac {1}{(aq^{-n};q)_{n}}}=\prod _{k=1}^{n}{\frac {1}{(1-a/q^{k})}}}
+  and
+
+  
+    
+      
+        (
+        a
+        ;
+        q
+        
+          )
+          
+            −
+            n
+          
+        
+        =
+        
+          
+            
+              (
+              −
+              q
+              
+                /
+              
+              a
+              
+                )
+                
+                  n
+                
+              
+              
+                q
+                
+                  n
+                  (
+                  n
+                  −
+                  1
+                  )
+                  
+                    /
+                  
+                  2
+                
+              
+            
+            
+              (
+              q
+              
+                /
+              
+              a
+              ;
+              q
+              
+                )
+                
+                  n
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle (a;q)_{-n}={\frac {(-q/a)^{n}q^{n(n-1)/2}}{(q/a;q)_{n}}}.}
+  Alternatively,
+
+  
+    
+      
+        
+          ∏
+          
+            k
+            =
+            n
+          
+          
+            ∞
+          
+        
+        (
+        1
+        −
+        a
+        
+          q
+          
+            k
+          
+        
+        )
+        =
+        (
+        a
+        
+          q
+          
+            n
+          
+        
+        ;
+        q
+        
+          )
+          
+            ∞
+          
+        
+        =
+        
+          
+            
+              (
+              a
+              ;
+              q
+              
+                )
+                
+                  ∞
+                
+              
+            
+            
+              (
+              a
+              ;
+              q
+              
+                )
+                
+                  n
+                
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle \prod _{k=n}^{\infty }(1-aq^{k})=(aq^{n};q)_{\infty }={\frac {(a;q)_{\infty }}{(a;q)_{n}}},}
+  which is useful for some of the generating functions of partition functions.
+The q-Pochhammer symbol is the subject of a number of q-series identities, particularly the infinite series expansions
+
+  
+    
+      
+        (
+        x
+        ;
+        q
+        
+          )
+          
+            ∞
+          
+        
+        =
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          
+            
+              (
+              −
+              1
+              
+                )
+                
+                  n
+                
+              
+              
+                q
+                
+                  n
+                  (
+                  n
+                  −
+                  1
+                  )
+                  
+                    /
+                  
+                  2
+                
+              
+            
+            
+              (
+              q
+              ;
+              q
+              
+                )
+                
+                  n
+                
+              
+            
+          
+        
+        
+          x
+          
+            n
+          
+        
+      
+    
+    {\displaystyle (x;q)_{\infty }=\sum _{n=0}^{\infty }{\frac {(-1)^{n}q^{n(n-1)/2}}{(q;q)_{n}}}x^{n}}
+  and
+
+  
+    
+      
+        
+          
+            1
+            
+              (
+              x
+              ;
+              q
+              
+                )
+                
+                  ∞
+                
+              
+            
+          
+        
+        =
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          
+            
+              x
+              
+                n
+              
+            
+            
+              (
+              q
+              ;
+              q
+              
+                )
+                
+                  n
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {1}{(x;q)_{\infty }}}=\sum _{n=0}^{\infty }{\frac {x^{n}}{(q;q)_{n}}}}
+  ,which are both special cases of the q-binomial theorem:
+
+  
+    
+      
+        
+          
+            
+              (
+              a
+              x
+              ;
+              q
+              
+                )
+                
+                  ∞
+                
+              
+            
+            
+              (
+              x
+              ;
+              q
+              
+                )
+                
+                  ∞
+                
+              
+            
+          
+        
+        =
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          
+            
+              (
+              a
+              ;
+              q
+              
+                )
+                
+                  n
+                
+              
+            
+            
+              (
+              q
+              ;
+              q
+              
+                )
+                
+                  n
+                
+              
+            
+          
+        
+        
+          x
+          
+            n
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {(ax;q)_{\infty }}{(x;q)_{\infty }}}=\sum _{n=0}^{\infty }{\frac {(a;q)_{n}}{(q;q)_{n}}}x^{n}.}
+  Fridrikh Karpelevich found the following identity (see Olshanetsky and Rogov (1995) for the proof):
+
+  
+    
+      
+        
+          
+            
+              (
+              q
+              ;
+              q
+              
+                )
+                
+                  ∞
+                
+              
+            
+            
+              (
+              z
+              ;
+              q
+              
+                )
+                
+                  ∞
+                
+              
+            
+          
+        
+        =
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          
+            
+              (
+              −
+              1
+              
+                )
+                
+                  n
+                
+              
+              
+                q
+                
+                  n
+                  (
+                  n
+                  +
+                  1
+                  )
+                  
+                    /
+                  
+                  2
+                
+              
+            
+            
+              (
+              q
+              ;
+              q
+              
+                )
+                
+                  n
+                
+              
+              (
+              1
+              −
+              z
+              
+                q
+                
+                  n
+                
+              
+              )
+            
+          
+        
+        ,
+         
+        
+          |
+        
+        z
+        
+          |
+        
+        <
+        1.
+      
+    
+    {\displaystyle {\frac {(q;q)_{\infty }}{(z;q)_{\infty }}}=\sum _{n=0}^{\infty }{\frac {(-1)^{n}q^{n(n+1)/2}}{(q;q)_{n}(1-zq^{n})}},\ |z|<1.}
+  
+
+
+== Combinatorial interpretation ==
+The q-Pochhammer symbol is closely related to the enumerative combinatorics of partitions. The coefficient of 
+  
+    
+      
+        
+          q
+          
+            m
+          
+        
+        
+          a
+          
+            n
+          
+        
+      
+    
+    {\displaystyle q^{m}a^{n}}
+   in
+
+  
+    
+      
+        (
+        a
+        ;
+        q
+        
+          )
+          
+            ∞
+          
+          
+            −
+            1
+          
+        
+        =
+        
+          ∏
+          
+            k
+            =
+            0
+          
+          
+            ∞
+          
+        
+        (
+        1
+        −
+        a
+        
+          q
+          
+            k
+          
+        
+        
+          )
+          
+            −
+            1
+          
+        
+      
+    
+    {\displaystyle (a;q)_{\infty }^{-1}=\prod _{k=0}^{\infty }(1-aq^{k})^{-1}}
+  is the number of partitions of m into at most n parts.
+Since, by conjugation of partitions, this is the same as the number of partitions of m into parts of size at most n, by identification of generating series we obtain the identity:
+
+  
+    
+      
+        (
+        a
+        ;
+        q
+        
+          )
+          
+            ∞
+          
+          
+            −
+            1
+          
+        
+        =
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          (
+          
+            
+              ∏
+              
+                j
+                =
+                1
+              
+              
+                k
+              
+            
+            
+              
+                1
+                
+                  1
+                  −
+                  
+                    q
+                    
+                      j
+                    
+                  
+                
+              
+            
+          
+          )
+        
+        
+          a
+          
+            k
+          
+        
+        =
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          
+            
+              a
+              
+                k
+              
+            
+            
+              (
+              q
+              ;
+              q
+              
+                )
+                
+                  k
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle (a;q)_{\infty }^{-1}=\sum _{k=0}^{\infty }\left(\prod _{j=1}^{k}{\frac {1}{1-q^{j}}}\right)a^{k}=\sum _{k=0}^{\infty }{\frac {a^{k}}{(q;q)_{k}}}}
+  as in the above section.
+We also have that the coefficient of 
+  
+    
+      
+        
+          q
+          
+            m
+          
+        
+        
+          a
+          
+            n
+          
+        
+      
+    
+    {\displaystyle q^{m}a^{n}}
+   in
+
+  
+    
+      
+        (
+        −
+        a
+        ;
+        q
+        
+          )
+          
+            ∞
+          
+        
+        =
+        
+          ∏
+          
+            k
+            =
+            0
+          
+          
+            ∞
+          
+        
+        (
+        1
+        +
+        a
+        
+          q
+          
+            k
+          
+        
+        )
+      
+    
+    {\displaystyle (-a;q)_{\infty }=\prod _{k=0}^{\infty }(1+aq^{k})}
+  is the number of partitions of m into n or n-1 distinct parts.
+By removing a triangular partition with n − 1 parts from such a partition, we are left with an arbitrary partition with at most n parts. This gives a weight-preserving bijection between the set of partitions into n or n − 1 distinct parts and the set of pairs consisting of a triangular partition having n − 1 parts and a partition with at most n parts. By identifying generating series, this leads to the identity:
+
+  
+    
+      
+        (
+        −
+        a
+        ;
+        q
+        
+          )
+          
+            ∞
+          
+        
+        =
+        
+          ∏
+          
+            k
+            =
+            0
+          
+          
+            ∞
+          
+        
+        (
+        1
+        +
+        a
+        
+          q
+          
+            k
+          
+        
+        )
+        =
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          (
+          
+            
+              q
+              
+                
+                  
+                    (
+                  
+                  
+                    k
+                    2
+                  
+                  
+                    )
+                  
+                
+              
+            
+            
+              ∏
+              
+                j
+                =
+                1
+              
+              
+                k
+              
+            
+            
+              
+                1
+                
+                  1
+                  −
+                  
+                    q
+                    
+                      j
+                    
+                  
+                
+              
+            
+          
+          )
+        
+        
+          a
+          
+            k
+          
+        
+        =
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          
+            
+              q
+              
+                
+                  
+                    (
+                  
+                  
+                    k
+                    2
+                  
+                  
+                    )
+                  
+                
+              
+            
+            
+              (
+              q
+              ;
+              q
+              
+                )
+                
+                  k
+                
+              
+            
+          
+        
+        
+          a
+          
+            k
+          
+        
+      
+    
+    {\displaystyle (-a;q)_{\infty }=\prod _{k=0}^{\infty }(1+aq^{k})=\sum _{k=0}^{\infty }\left(q^{k \choose 2}\prod _{j=1}^{k}{\frac {1}{1-q^{j}}}\right)a^{k}=\sum _{k=0}^{\infty }{\frac {q^{k \choose 2}}{(q;q)_{k}}}a^{k}}
+  also described in the above section. 
+The reciprocal of the function 
+  
+    
+      
+        (
+        q
+        
+          )
+          
+            ∞
+          
+        
+        :=
+        (
+        q
+        ;
+        q
+        
+          )
+          
+            ∞
+          
+        
+      
+    
+    {\displaystyle (q)_{\infty }:=(q;q)_{\infty }}
+   similarly arises as the generating function for the partition function, 
+  
+    
+      
+        p
+        (
+        n
+        )
+      
+    
+    {\displaystyle p(n)}
+  , which is also expanded by the second two q-series expansions given below:
+
+  
+    
+      
+        
+          
+            1
+            
+              (
+              q
+              ;
+              q
+              
+                )
+                
+                  ∞
+                
+              
+            
+          
+        
+        =
+        
+          ∑
+          
+            n
+            ≥
+            0
+          
+        
+        p
+        (
+        n
+        )
+        
+          q
+          
+            n
+          
+        
+        =
+        
+          ∑
+          
+            n
+            ≥
+            0
+          
+        
+        
+          
+            
+              q
+              
+                n
+              
+            
+            
+              (
+              q
+              ;
+              q
+              
+                )
+                
+                  n
+                
+              
+            
+          
+        
+        =
+        
+          ∑
+          
+            n
+            ≥
+            0
+          
+        
+        
+          
+            
+              q
+              
+                
+                  n
+                  
+                    2
+                  
+                
+              
+            
+            
+              (
+              q
+              ;
+              q
+              
+                )
+                
+                  n
+                
+                
+                  2
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {1}{(q;q)_{\infty }}}=\sum _{n\geq 0}p(n)q^{n}=\sum _{n\geq 0}{\frac {q^{n}}{(q;q)_{n}}}=\sum _{n\geq 0}{\frac {q^{n^{2}}}{(q;q)_{n}^{2}}}.}
+  The q-binomial theorem itself can also be handled by a slightly more involved combinatorial argument of a similar flavor (see also the expansions given in the next subsection) .
+
+
+== Multiple arguments convention ==
+Since identities involving q-Pochhammer symbols so frequently involve products of many symbols, the standard convention is to write a product as a single symbol of multiple arguments:
+
+  
+    
+      
+        (
+        
+          a
+          
+            1
+          
+        
+        ,
+        
+          a
+          
+            2
+          
+        
+        ,
+        …
+        ,
+        
+          a
+          
+            m
+          
+        
+        ;
+        q
+        
+          )
+          
+            n
+          
+        
+        =
+        (
+        
+          a
+          
+            1
+          
+        
+        ;
+        q
+        
+          )
+          
+            n
+          
+        
+        (
+        
+          a
+          
+            2
+          
+        
+        ;
+        q
+        
+          )
+          
+            n
+          
+        
+        …
+        (
+        
+          a
+          
+            m
+          
+        
+        ;
+        q
+        
+          )
+          
+            n
+          
+        
+        .
+      
+    
+    {\displaystyle (a_{1},a_{2},\ldots ,a_{m};q)_{n}=(a_{1};q)_{n}(a_{2};q)_{n}\ldots (a_{m};q)_{n}.}
+  
+
+
+== q-series ==
+A q-series is a series in which the coefficients are functions of q, typically expressions of 
+  
+    
+      
+        (
+        a
+        ;
+        q
+        
+          )
+          
+            n
+          
+        
+      
+    
+    {\displaystyle (a;q)_{n}}
+  . Early results are due to Euler, Gauss, and Cauchy. The systematic study begins with Eduard Heine (1843).
+
+
+== Relationship to other q-functions ==
+The q-analog of n, also known as the q-bracket or q-number of n, is defined to be
+
+  
+    
+      
+        [
+        n
+        
+          ]
+          
+            q
+          
+        
+        =
+        
+          
+            
+              1
+              −
+              
+                q
+                
+                  n
+                
+              
+            
+            
+              1
+              −
+              q
+            
+          
+        
+        .
+      
+    
+    {\displaystyle [n]_{q}={\frac {1-q^{n}}{1-q}}.}
+  From this one can define the q-analog of the factorial, the q-factorial, as
+
+These numbers are analogues in the sense that  
+
+  
+    
+      
+        
+          lim
+          
+            q
+            →
+            1
+          
+        
+        
+          
+            
+              1
+              −
+              
+                q
+                
+                  n
+                
+              
+            
+            
+              1
+              −
+              q
+            
+          
+        
+        =
+        n
+        ,
+      
+    
+    {\displaystyle \lim _{q\rightarrow 1}{\frac {1-q^{n}}{1-q}}=n,}
+  and so also 
+
+  
+    
+      
+        
+          lim
+          
+            q
+            →
+            1
+          
+        
+        [
+        n
+        ]
+        
+          !
+          
+            q
+          
+        
+        =
+        n
+        !
+        .
+      
+    
+    {\displaystyle \lim _{q\rightarrow 1}[n]!_{q}=n!.}
+  The limit value n! counts permutations of an n-element set S.  Equivalently, it counts the number of sequences of nested sets 
+  
+    
+      
+        
+          E
+          
+            1
+          
+        
+        ⊂
+        
+          E
+          
+            2
+          
+        
+        ⊂
+        ⋯
+        ⊂
+        
+          E
+          
+            n
+          
+        
+        =
+        S
+      
+    
+    {\displaystyle E_{1}\subset E_{2}\subset \cdots \subset E_{n}=S}
+   such that 
+  
+    
+      
+        
+          E
+          
+            i
+          
+        
+      
+    
+    {\displaystyle E_{i}}
+   contains exactly i elements.  By comparison, when q is a prime power and V is an n-dimensional vector space over the field with q elements, the q-analogue 
+  
+    
+      
+        [
+        n
+        ]
+        
+          !
+          
+            q
+          
+        
+      
+    
+    {\displaystyle [n]!_{q}}
+   is the number of complete flags in V, that is, it is the number of sequences 
+  
+    
+      
+        
+          V
+          
+            1
+          
+        
+        ⊂
+        
+          V
+          
+            2
+          
+        
+        ⊂
+        ⋯
+        ⊂
+        
+          V
+          
+            n
+          
+        
+        =
+        V
+      
+    
+    {\displaystyle V_{1}\subset V_{2}\subset \cdots \subset V_{n}=V}
+   of subspaces such that 
+  
+    
+      
+        
+          V
+          
+            i
+          
+        
+      
+    
+    {\displaystyle V_{i}}
+   has dimension i.  The preceding considerations suggest that one can regard a sequence of nested sets as a flag over a conjectural field with one element.
+A product of negative integer q-brackets can be expressed in terms of the q-factorial as
+
+  
+    
+      
+        
+          ∏
+          
+            k
+            =
+            1
+          
+          
+            n
+          
+        
+        [
+        −
+        k
+        
+          ]
+          
+            q
+          
+        
+        =
+        
+          
+            
+              (
+              −
+              1
+              
+                )
+                
+                  n
+                
+              
+              
+              [
+              n
+              ]
+              
+                !
+                
+                  q
+                
+              
+            
+            
+              q
+              
+                n
+                (
+                n
+                +
+                1
+                )
+                
+                  /
+                
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle \prod _{k=1}^{n}[-k]_{q}={\frac {(-1)^{n}\,[n]!_{q}}{q^{n(n+1)/2}}}}
+  From the q-factorials, one can move on to define the q-binomial coefficients, also known as the Gaussian binomial coefficients, as
+
+  
+    
+      
+        
+          
+            
+              [
+              
+                
+                  
+                    n
+                  
+                
+                
+                  
+                    k
+                  
+                
+              
+              ]
+            
+          
+          
+            q
+          
+        
+        =
+        
+          
+            
+              [
+              n
+              ]
+              
+                !
+                
+                  q
+                
+              
+            
+            
+              [
+              n
+              −
+              k
+              ]
+              
+                !
+                
+                  q
+                
+              
+              [
+              k
+              ]
+              
+                !
+                
+                  q
+                
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle {\begin{bmatrix}n\\k\end{bmatrix}}_{q}={\frac {[n]!_{q}}{[n-k]!_{q}[k]!_{q}}},}
+  where it is easy to see that the triangle of these coefficients is symmetric in the sense that 
+  
+    
+      
+        
+          
+            
+              [
+              
+                
+                  
+                    n
+                  
+                
+                
+                  
+                    m
+                  
+                
+              
+              ]
+            
+          
+          
+            q
+          
+        
+        =
+        
+          
+            
+              [
+              
+                
+                  
+                    n
+                  
+                
+                
+                  
+                    n
+                    −
+                    m
+                  
+                
+              
+              ]
+            
+          
+          
+            q
+          
+        
+      
+    
+    {\displaystyle {\begin{bmatrix}n\\m\end{bmatrix}}_{q}={\begin{bmatrix}n\\n-m\end{bmatrix}}_{q}}
+   for all 
+  
+    
+      
+        0
+        ≤
+        m
+        ≤
+        n
+      
+    
+    {\displaystyle 0\leq m\leq n}
+  .
+One can check that
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    
+                      [
+                      
+                        
+                          
+                            n
+                            +
+                            1
+                          
+                        
+                        
+                          
+                            k
+                          
+                        
+                      
+                      ]
+                    
+                  
+                  
+                    q
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      [
+                      
+                        
+                          
+                            n
+                          
+                        
+                        
+                          
+                            k
+                          
+                        
+                      
+                      ]
+                    
+                  
+                  
+                    q
+                  
+                
+                +
+                
+                  q
+                  
+                    n
+                    −
+                    k
+                    +
+                    1
+                  
+                
+                
+                  
+                    
+                      [
+                      
+                        
+                          
+                            n
+                          
+                        
+                        
+                          
+                            k
+                            −
+                            1
+                          
+                        
+                      
+                      ]
+                    
+                  
+                  
+                    q
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    
+                      [
+                      
+                        
+                          
+                            n
+                          
+                        
+                        
+                          
+                            k
+                            −
+                            1
+                          
+                        
+                      
+                      ]
+                    
+                  
+                  
+                    q
+                  
+                
+                +
+                
+                  q
+                  
+                    k
+                  
+                
+                
+                  
+                    
+                      [
+                      
+                        
+                          
+                            n
+                          
+                        
+                        
+                          
+                            k
+                          
+                        
+                      
+                      ]
+                    
+                  
+                  
+                    q
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\begin{bmatrix}n+1\\k\end{bmatrix}}_{q}&={\begin{bmatrix}n\\k\end{bmatrix}}_{q}+q^{n-k+1}{\begin{bmatrix}n\\k-1\end{bmatrix}}_{q}\\&={\begin{bmatrix}n\\k-1\end{bmatrix}}_{q}+q^{k}{\begin{bmatrix}n\\k\end{bmatrix}}_{q}.\end{aligned}}}
+  One can also see from the previous recurrence relations that the next variants of the 
+  
+    
+      
+        q
+      
+    
+    {\displaystyle q}
+  -binomial theorem are expanded in terms of these coefficients as follows:
+
+  
+    
+      
+        
+          
+            
+              
+                (
+                z
+                ;
+                q
+                
+                  )
+                  
+                    n
+                  
+                
+              
+              
+                
+                =
+                
+                  ∑
+                  
+                    j
+                    =
+                    0
+                  
+                  
+                    n
+                  
+                
+                
+                  
+                    
+                      [
+                      
+                        
+                          
+                            n
+                          
+                        
+                        
+                          
+                            j
+                          
+                        
+                      
+                      ]
+                    
+                  
+                  
+                    q
+                  
+                
+                (
+                −
+                z
+                
+                  )
+                  
+                    j
+                  
+                
+                
+                  q
+                  
+                    
+                      
+                        (
+                      
+                      
+                        j
+                        2
+                      
+                      
+                        )
+                      
+                    
+                  
+                
+                =
+                (
+                1
+                −
+                z
+                )
+                (
+                1
+                −
+                q
+                z
+                )
+                ⋯
+                (
+                1
+                −
+                z
+                
+                  q
+                  
+                    n
+                    −
+                    1
+                  
+                
+                )
+              
+            
+            
+              
+                (
+                −
+                q
+                ;
+                q
+                
+                  )
+                  
+                    n
+                  
+                
+              
+              
+                
+                =
+                
+                  ∑
+                  
+                    j
+                    =
+                    0
+                  
+                  
+                    n
+                  
+                
+                
+                  
+                    
+                      [
+                      
+                        
+                          
+                            n
+                          
+                        
+                        
+                          
+                            j
+                          
+                        
+                      
+                      ]
+                    
+                  
+                  
+                    
+                      q
+                      
+                        2
+                      
+                    
+                  
+                
+                
+                  q
+                  
+                    j
+                  
+                
+              
+            
+            
+              
+                (
+                q
+                ;
+                
+                  q
+                  
+                    2
+                  
+                
+                
+                  )
+                  
+                    n
+                  
+                
+              
+              
+                
+                =
+                
+                  ∑
+                  
+                    j
+                    =
+                    0
+                  
+                  
+                    2
+                    n
+                  
+                
+                
+                  
+                    
+                      [
+                      
+                        
+                          
+                            2
+                            n
+                          
+                        
+                        
+                          
+                            j
+                          
+                        
+                      
+                      ]
+                    
+                  
+                  
+                    q
+                  
+                
+                (
+                −
+                1
+                
+                  )
+                  
+                    j
+                  
+                
+              
+            
+            
+              
+                
+                  
+                    1
+                    
+                      (
+                      z
+                      ;
+                      q
+                      
+                        )
+                        
+                          m
+                          +
+                          1
+                        
+                      
+                    
+                  
+                
+              
+              
+                
+                =
+                
+                  ∑
+                  
+                    n
+                    ≥
+                    0
+                  
+                
+                
+                  
+                    
+                      [
+                      
+                        
+                          
+                            n
+                            +
+                            m
+                          
+                        
+                        
+                          
+                            n
+                          
+                        
+                      
+                      ]
+                    
+                  
+                  
+                    q
+                  
+                
+                
+                  z
+                  
+                    n
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}(z;q)_{n}&=\sum _{j=0}^{n}{\begin{bmatrix}n\\j\end{bmatrix}}_{q}(-z)^{j}q^{\binom {j}{2}}=(1-z)(1-qz)\cdots (1-zq^{n-1})\\(-q;q)_{n}&=\sum _{j=0}^{n}{\begin{bmatrix}n\\j\end{bmatrix}}_{q^{2}}q^{j}\\(q;q^{2})_{n}&=\sum _{j=0}^{2n}{\begin{bmatrix}2n\\j\end{bmatrix}}_{q}(-1)^{j}\\{\frac {1}{(z;q)_{m+1}}}&=\sum _{n\geq 0}{\begin{bmatrix}n+m\\n\end{bmatrix}}_{q}z^{n}.\end{aligned}}}
+  One may further define the q-multinomial coefficients
+
+  
+    
+      
+        
+          
+            
+              [
+              
+                
+                  
+                    n
+                  
+                
+                
+                  
+                    
+                      k
+                      
+                        1
+                      
+                    
+                    ,
+                    …
+                    ,
+                    
+                      k
+                      
+                        m
+                      
+                    
+                  
+                
+              
+              ]
+            
+          
+          
+            q
+          
+        
+        =
+        
+          
+            
+              [
+              n
+              ]
+              
+                !
+                
+                  q
+                
+              
+            
+            
+              [
+              
+                k
+                
+                  1
+                
+              
+              ]
+              
+                !
+                
+                  q
+                
+              
+              ⋯
+              [
+              
+                k
+                
+                  m
+                
+              
+              ]
+              
+                !
+                
+                  q
+                
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle {\begin{bmatrix}n\\k_{1},\ldots ,k_{m}\end{bmatrix}}_{q}={\frac {[n]!_{q}}{[k_{1}]!_{q}\cdots [k_{m}]!_{q}}},}
+  where the arguments 
+  
+    
+      
+        
+          k
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          k
+          
+            m
+          
+        
+      
+    
+    {\displaystyle k_{1},\ldots ,k_{m}}
+   are nonnegative integers that satisfy 
+  
+    
+      
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            m
+          
+        
+        
+          k
+          
+            i
+          
+        
+        =
+        n
+      
+    
+    {\displaystyle \sum _{i=1}^{m}k_{i}=n}
+  . The coefficient above counts the number of flags
+
+  
+    
+      
+        
+          V
+          
+            1
+          
+        
+        ⊂
+        ⋯
+        ⊂
+        
+          V
+          
+            m
+          
+        
+      
+    
+    {\displaystyle V_{1}\subset \dots \subset V_{m}}
+   
+of subspaces in an n-dimensional vector space over the field with q elements such that 
+  
+    
+      
+        dim
+        ⁡
+        
+          V
+          
+            i
+          
+        
+        =
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            i
+          
+        
+        
+          k
+          
+            j
+          
+        
+      
+    
+    {\displaystyle \dim V_{i}=\sum _{j=1}^{i}k_{j}}
+  .
+The limit 
+  
+    
+      
+        q
+        →
+        1
+      
+    
+    {\displaystyle q\to 1}
+   gives the usual multinomial coefficient 
+  
+    
+      
+        
+          
+            
+              (
+            
+            
+              n
+              
+                
+                  k
+                  
+                    1
+                  
+                
+                ,
+                …
+                ,
+                
+                  k
+                  
+                    m
+                  
+                
+              
+            
+            
+              )
+            
+          
+        
+      
+    
+    {\displaystyle {n \choose k_{1},\dots ,k_{m}}}
+  , which counts words in n different symbols 
+  
+    
+      
+        {
+        
+          s
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          s
+          
+            m
+          
+        
+        }
+      
+    
+    {\displaystyle \{s_{1},\dots ,s_{m}\}}
+   such that each 
+  
+    
+      
+        
+          s
+          
+            i
+          
+        
+      
+    
+    {\displaystyle s_{i}}
+   appears 
+  
+    
+      
+        
+          k
+          
+            i
+          
+        
+      
+    
+    {\displaystyle k_{i}}
+   times. 
+One also obtains a q-analog of the Gamma function, called the q-gamma function, and defined as
+
+  
+    
+      
+        
+          Γ
+          
+            q
+          
+        
+        (
+        x
+        )
+        =
+        
+          
+            
+              (
+              1
+              −
+              q
+              
+                )
+                
+                  1
+                  −
+                  x
+                
+              
+              (
+              q
+              ;
+              q
+              
+                )
+                
+                  ∞
+                
+              
+            
+            
+              (
+              
+                q
+                
+                  x
+                
+              
+              ;
+              q
+              
+                )
+                
+                  ∞
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle \Gamma _{q}(x)={\frac {(1-q)^{1-x}(q;q)_{\infty }}{(q^{x};q)_{\infty }}}}
+  This converges to the usual Gamma function as q approaches 1 from inside the unit disc. Note that
+
+  
+    
+      
+        
+          Γ
+          
+            q
+          
+        
+        (
+        x
+        +
+        1
+        )
+        =
+        [
+        x
+        
+          ]
+          
+            q
+          
+        
+        
+          Γ
+          
+            q
+          
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle \Gamma _{q}(x+1)=[x]_{q}\Gamma _{q}(x)}
+  for any x and
+
+  
+    
+      
+        
+          Γ
+          
+            q
+          
+        
+        (
+        n
+        +
+        1
+        )
+        =
+        [
+        n
+        ]
+        
+          !
+          
+            q
+          
+        
+        .
+      
+    
+    {\displaystyle \Gamma _{q}(n+1)=[n]!_{q}.}
+  for non-negative integer values of n. Alternatively, this may be taken as an extension of the q-factorial function to the real number system.
+
+
+== See also ==
+Basic hypergeometric series
+Elliptic gamma function
+Jacobi theta function
+Lambert series
+Pentagonal number theorem
+q-derivative
+q-theta function
+q-Vandermonde identity
+Rogers-Ramanujan identities
+Rogers-Ramanujan continued fraction
+
+
+== References ==
+
+George Gasper and Mizan Rahman, Basic Hypergeometric Series, 2nd Edition, (2004), Encyclopedia of Mathematics and Its Applications, 96, Cambridge University Press, Cambridge. ISBN 0-521-83357-4.
+Roelof Koekoek and Rene F. Swarttouw, The Askey scheme of orthogonal polynomials and its q-analogues, section 0.2.
+Exton, H. (1983), q-Hypergeometric Functions and Applications, New York: Halstead Press, Chichester: Ellis Horwood, 1983, ISBN 0853124914,  ISBN 0470274530, ISBN 978-0470274538
+M.A. Olshanetsky and V.B.K. Rogov (1995), The Modified q-Bessel Functions and the q-Bessel-Macdonald Functions, arXiv:q-alg/9509013.
+
+
+== External links ==
+Weisstein, Eric W. "q-Analog". MathWorld.
+Weisstein, Eric W. "q-Bracket". MathWorld.
+Weisstein, Eric W. "q-Factorial". MathWorld.
+Weisstein, Eric W. "q-Series". MathWorld.
+Weisstein, Eric W. "q-Binomial Coefficient". MathWorld.

@@ -1,0 +1,46 @@
+Title: HP Roman
+Aspects: {'R8'}
+
+In computing HP Roman is a family of character sets consisting of HP Roman Extension, HP Roman-8, HP Roman-9 and several variants. Originally introduced by Hewlett-Packard around 1978, revisions and adaptations were published several times up to 1999. The 1985 revisions were later standardized as IBM codepages 1050 and 1051. Supporting many European languages, the character sets were used by various HP workstations, terminals, calculators as well as many printers, also from third-parties.
+
+
+== Overview ==
+HP Roman is a family of single byte character encodings supporting several Latin script based languages of Europe. It was originally introduced by Hewlett-Packard around 1978 as 7- and 8-bit HP Roman Extension for some of their computer terminals and printers. Early versions of the 8-bit variant were also used by some HP workstations in 1978/1979. Several revisions led to more characters being added before the 8-bit variant of the character set became officially known as HP Roman-8 in 1983. Soon later, this became the default character set of the HP-UX operating system and the page description language PCL for inkjet and laser printers in 1984. The character set was again expanded in 1985. A modified adaptation of the 1984 definition of Roman-8 was used in the HP Portable series of computers, whereas a derivation of the updated 1985 definition of Roman-8 was used in several early RPL calculators and corresponding thermal printers since 1986. The latest off-spring of the family is HP Roman-9, which was introduced in 1999 to include the euro sign. PCL Ventura International is based on HP Roman-8.
+
+
+== Character set ==
+
+
+=== Roman Extension ===
+The character set was originally introduced by Hewlett-Packard as extended ASCII 7-bit codepage named HP Roman Extension (also known as RE, code page 1050, CP1050 or ibm-1050), which existed at least since 1978. On some systems it was also accessible as 8-bit codepage. Before the name "Roman-8" was established for the 8-bit variant in 1983, this was sometimes called "8-bit mode", "8-bit Roman Extension" or "HP Roman-8 Extension". Over the years both variants were revised to include more characters. The final 1985 revision of the character set was also standardized as codepage 1050 by IBM in 1989.The table shows the 1982 version (a current variant is shown in the Roman-8 chapter).
+
+
+=== Roman-8 ===
+HP Roman-8 (also known as HP Roman 8, HP Roman, hp-roman8, roman8, R8, code page 1051, CP1051, ibm-1051, WE8ROMAN8 (as well as N8ROMAN8, DK8ROMAN8, S8ROMAN8 and SF8ROMAN8) is an 8-bit single byte character encoding that is mainly used on HP-UX and many Hewlett-Packard and PCL compatible printers. The name Roman-8 appeared in 1983, but a precursor of the character set was already used by the HP 250 and HP 300 workstations since 1978/1979 as 8-bit Roman Extension.The original 1983/1984 version of Roman-8 still had some code points undefined. In a 1985 revision code points 177 (Ý), 178 (ý), 242 (·), 243 (µ), 244 (¶) and 245 (¾) were added and the appearance of code point 228 was changed from a stroked d (đ) to an eth (ð). This final revision of the character set was also standardized as codepage 1051 by IBM in 1989.In contrast to the newer HP Roman-9, HP Roman-8 does not officially provide a code point for the euro sign. However, one source recommends to map it to code point 186 (as in Roman-9), whereas another recommends code point 128 (0x80), which lines up with where the character can end up in the modified HP Roman-8 character set as well.
+The following table shows the latest 1985 definition of the HP Roman-8 character set (with some remarks regarding former definitions and alternative interpretations). Each character is shown with a potential Unicode equivalent and its decimal code, however, sources differ in the recommended translations for some of the codes even among definitions from Hewlett-Packard and IBM.
+
+
+=== Modified Roman-8 ===
+In 1984, Hewlett-Packard introduced the HP 110 / HP Portable personal computer followed by the HP 110 Plus / HP Portable Plus in 1985. In "HP mode" they supported a derivation of the 1984 revision of 8-bit HP Roman-8 (still lacking the six additional characters at code points 177 to 178 and 242 to 245, and with code point 228 still resembling a stroked d (đ)), but with 32 additional graphical symbols at code points 128 to 159, including a rich set of box-drawing characters.
+In 1986, Hewlett-Packard introduced the HP-18C calculator and HP 82240A thermo printer, which internally used an extended variant of the 1985 revision of the 8-bit HP Roman-8 character set (now with the six additional characters defined and with code point 228 already changed to an eth (ð)), but with the code points 127 (0x7F) and 160 (0xA0) as well as the control codes in the range 128 to 159 (0x80 to 0x9F) being replaced by additional displayable characters,
+some of which were derived from the HP-41C/CV/CX's FOCAL character set and others incorporated into the revised FOCAL character set used by the HP-42S calculator, although at different code points. On the HP-28 series, characters above 147 (0x93) could not be displayed on the calculator, only be printed.There is no official code point definition for the euro sign in this modified character set. The HP 49/50 series of calculators use a different character set based on ECMA-94 / ISO 8859-1 which includes the euro symbol. When printing to the HP 82240A printer via a user-defined translation vector defined in the PRTPAR variable, the euro sign could be translated to f.e. code point 128 (0x80). Mapping the euro sign to code point 186 (0xBA) as in HP Roman-9 would be another choice.
+
+
+=== Roman-9 ===
+HP Roman-9 (also known as HP Roman 9, hp-roman9, roman9 or R9) is a slight modification of the 8-bit HP Roman-8 character set where the general currency sign (¤) at code point 186 (0xBA) was replaced by the euro sign (€). It was introduced in early 1999. As of 2017, HP Roman-9 still has no known code page number assigned to it.
+
+
+== See also ==
+RPL character set
+Hewlett-Packard calculator character sets
+Western Latin character sets (computing)
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+"Graphical View of Code Page 1051". ICU's Converter Explorer. Retrieved 2016-08-09.

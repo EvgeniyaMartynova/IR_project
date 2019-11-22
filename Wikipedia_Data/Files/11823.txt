@@ -1,0 +1,311 @@
+Title: Reinforcement
+Aspects: {'R+'}
+
+In behavioral psychology, reinforcement is a consequence applied that will strengthen an organism's future behavior whenever that behavior is preceded by a specific antecedent stimulus. This strengthening effect may be measured as a higher frequency of behavior (e.g.,  pulling a lever more frequently), longer duration (e.g., pulling a lever for longer periods of time), greater magnitude (e.g., pulling a lever with greater force), or shorter latency (e.g., pulling a lever more quickly following the antecedent stimulus). There are two types of reinforcement, known as positive reinforcement and negative reinforcement; positive is where by a reward is offered on expression of the wanted behaviour and negative is taking away an undesirable element in the persons environment whenever the desired behaviour is achieved.
+Rewarding stimuli, which are associated with "wanting" and "liking" (desire and pleasure, respectively) and appetitive behavior, function as positive reinforcers; the converse statement is also true: positive reinforcers provide a desirable stimulus. Reinforcement does not require an individual to consciously perceive an effect elicited by the stimulus.  Thus, reinforcement occurs only if there is an observable strengthening in behavior. However, there is also negative reinforcement, which is characterized by taking away an undesirable stimulus. Changing someone's job might serve as a negative reinforcer to someone whom suffers from back problems, i.e. Changing from a labourers job to an office position for instance.
+In most cases, the term "reinforcement" refers to an enhancement of behavior, but this term is also sometimes used to denote an enhancement of memory; for example, "post-training reinforcement" refers to the provision of a stimulus (such as food) after a learning session in an attempt to increase the retained breadth, detail, and duration of the individual memories or overall memory just formed.  The memory-enhancing stimulus can also be one whose effects are directly rather than only indirectly emotional, as with the phenomenon of "flashbulb memory," in which an emotionally highly intense stimulus can incentivize memory of a set of a situation's circumstances well beyond the subset of those circumstances that caused the emotionally significant stimulus, as when people of appropriate age are able to remember where they were and what they were doing when they learned of the assassination of John F. Kennedy or of the September 11, 2001, terrorist attacks.
+Reinforcement is an important part of operant or instrumental conditioning.
+
+
+== Terminology ==
+Main section: Reinforcement#Operant conditioningIn the behavioral sciences, the terms "positive" and "negative" refer when used in their strict technical sense to the nature of the action performed by the conditioner rather than to the responding operant's evaluation of that action and its consequence(s).  "Positive" actions are those that add a factor, be it pleasant or unpleasant, to the environment, whereas "negative" actions are those that remove or withhold from the environment a factor of either type.  In turn, the strict sense of "reinforcement" refers only to reward-based conditioning; the introduction of unpleasant factors and the removal or withholding of pleasant factors are instead referred to as "punishment," which when used in its strict sense thus stands in contradistinction to "reinforcement."  Thus, "positive reinforcement" refers to the addition of a pleasant factor, "positive punishment" refers to the addition of an unpleasant factor, "negative reinforcement" refers to the removal or withholding of an unpleasant factor, and "negative punishment" refers to the removal or withholding of a pleasant factor.
+This usage is at odds with some non-technical usages of the four term combinations, especially in the case of the term "negative reinforcement," which is often used to denote what technical parlance would describe as "positive punishment" in that the non-technical usage interprets "reinforcement" as subsuming both reward and punishment and "negative" as referring to the responding operant's evaluation of the factor being introduced.  By contrast, technical parlance would use the term "negative reinforcement" to describe encouragement of a given behavior by creating a scenario in which an unpleasant factor is or will be present but engaging in the behavior results in either escaping from that factor or preventing its occurrence, as in Martin Seligman's experiments involving dogs' learning processes regarding the avoidance of electric shock.
+
+
+== Introduction ==
+B.F. Skinner was a well-known and influential researcher who articulated many of the theoretical constructs of reinforcement and behaviorism. Skinner defined reinforcers according to the change in response strength (response rate) rather than to more subjective criteria, such as what is pleasurable or valuable to someone. Accordingly, activities, foods or items considered pleasant or enjoyable may not necessarily be reinforcing (because they produce no increase in the response preceding them). Stimuli, settings, and activities only fit the definition of reinforcers if the behavior that immediately precedes the potential reinforcer increases in similar situations in the future; for example, a child who receives a cookie when he or she asks for one. If the frequency of "cookie-requesting behavior" increases, the cookie can be seen as reinforcing "cookie-requesting behavior". If however, "cookie-requesting behavior" does not increase the cookie cannot be considered reinforcing.
+The sole criterion that determines if a stimulus is reinforcing is the change in probability of a behavior after administration of that potential reinforcer. Other theories may focus on additional factors such as whether the person expected a behavior to produce a given outcome, but in the behavioral theory, reinforcement is defined by an increased probability of a response.
+The study of reinforcement has produced an enormous body of reproducible experimental results. Reinforcement is the central concept and procedure in special education, applied behavior analysis, and the experimental analysis of behavior and is a core concept in some medical and psychopharmacology models, particularly addiction, dependence, and compulsion.
+
+
+== Brief history ==
+Laboratory research on reinforcement is usually dated from the work of  Edward Thorndike, known for his experiments with cats escaping from puzzle boxes. A number of others continued this research, notably B.F. Skinner, who published his seminal work on the topic in The Behavior of Organisms, in 1938, and elaborated this research in many subsequent publications. Notably Skinner argued that positive reinforcement is superior to punishment in shaping behavior. Though punishment may seem just the opposite of reinforcement, Skinner claimed that they differ immensely, saying that positive reinforcement results in lasting behavioral modification (long-term) whereas punishment changes behavior only temporarily (short-term) and has many detrimental side-effects.
+A great many researchers subsequently expanded our understanding of reinforcement and challenged some of Skinner's conclusions. For example, Azrin and Holz defined punishment as a “consequence of behavior that reduces the future probability of that behavior,”  and some studies have shown that positive reinforcement and punishment are equally effective in modifying behavior. Research on the effects of positive reinforcement, negative reinforcement and punishment continue today as those concepts are fundamental to learning theory and apply to many practical applications of that theory.
+
+
+== Operant conditioning ==
+
+The term operant conditioning was introduced by B. F. Skinner to indicate that in his experimental paradigm the organism is free to operate on the environment. In this paradigm the experimenter cannot trigger the desirable response; the experimenter waits for the response to occur (to be emitted by the organism) and then a potential reinforcer is delivered. In the classical conditioning paradigm the experimenter triggers (elicits) the desirable response by presenting a reflex eliciting stimulus, the Unconditional Stimulus (UCS), which he pairs (precedes) with a neutral stimulus, the Conditional Stimulus (CS).
+Reinforcement is a basic term in operant conditioning. For the punishment aspect of operant conditioning – see punishment (psychology).
+
+
+=== Positive reinforcement ===
+Positive reinforcement occurs when a desirable event or stimulus is presented as a consequence of a behavior and the chance that this behavior will manifest in similar environments increases.
+Example: Whenever a rat presses a button, it gets a treat. If the rat starts pressing the button more often, the treat serves to positively reinforce this behavior.
+Example: A father gives candy to his daughter when she tidies up her toys. If the frequency of picking up the toys increases, the candy is a positive reinforcer (to reinforce the behavior of cleaning up).
+Example: A company enacts a rewards program in which employees earn prizes dependent on the number of items sold. The prizes the employees receive are the positive reinforcement if they increase sales.
+Example: A teacher praises his student when he receives a good grade. The praise the student receives is the positive reinforcement in case the student's grades improve.The High Probability Instruction (HPI) treatment is a behaviorist psychological treatment based on the idea of positive reinforcement.
+
+
+=== Negative reinforcement ===
+Negative reinforcement occurs when the rate of a behavior increases because an aversive event or stimulus is removed or prevented from happening.
+Example: A child cleans their room, and this behavior is followed by the parent stopping "nagging" or asking the child repeatedly to do so. Here, the nagging serves to negatively reinforce the behavior of cleaning because the child wants to remove that aversive stimulus of nagging.
+Example: Person A forgets to say thank you to person B. Everytime person A forgets, person B sprays person A with a spray bottle. Eventually, Person A will no longer forget to thank person B. The negative reinforcer is spray of the bottle.
+Example: A company has a policy that if an employee completes their assigned work by Friday, they can have Saturday off. Working Saturday is the negative reinforcer, the employee's productivity will be increased as they avoid experiencing the negative reinforcer.
+
+
+=== Extinction ===
+Extinction can be intentional or unintentional and happens when you ignore an undesired behavior.
+
+Example (Intended): A young boy ignores bullies making fun of him. The bullies do not get a reaction from the child and lose interest in bullying him.
+Example (Unintended): A worker has not received any recognition for his above and beyond hard work. He then stops working as hard.
+Example (Intended): A cat kept meowing for food in the night. The owners would not feed the cat so the cat stopped meowing through the night.
+
+
+=== Reinforcement versus punishment ===
+Reinforcers serve to increase behaviors whereas punishers serve to decrease behaviors; thus, positive reinforcers are stimuli that the subject will work to attain, and negative reinforcers are stimuli that the subject will work to be rid of or to end. The table below illustrates the adding and subtracting of stimuli (pleasant or aversive) in relation to reinforcement vs. punishment.
+
+
+=== Further ideas and concepts ===
+Distinguishing between positive and negative can be difficult and may not always be necessary; focusing on what is being removed or added and how it is being removed or added will determine the nature of the reinforcement.
+Negative reinforcement is not punishment. The two, as explained above, differ in the increase (negative reinforcement) or decrease (punishment) of the future probability of a response. In negative reinforcement, the stimulus removed following a response is an aversive stimulus; if this stimulus were presented contingent on a response, it may also function as a positive punisher.
+The form of a stimulus is separate from its function in terms of whether it will reinforce or punish behavior. An event that may punish behavior for some may serve to reinforce behavior for others. Example: A child is repeatedly given detention for acting up in school, but the frequency of the bad behavior increases. Thus, the detention may be a reinforcer (could be positive or negative); perhaps the child now gets one-on-one attention from a teacher or perhaps they now avoid going home where they are often abused.
+Some reinforcement can be simultaneously positive and negative, such as a drug addict taking drugs for the added euphoria (a positive feeling) and eliminating withdrawal symptoms (which would be a negative feeling). Or, in a warm room, a current of external air serves as positive reinforcement because it is pleasantly cool and as negative reinforcement because it removes uncomfortable hot air.
+Reinforcement in the business world is essential in driving productivity. Employees are constantly motivated by the ability to receive a positive stimulus, such as a promotion or a bonus. Employees are also driven by negative reinforcement. This can be seen when employees are offered Saturdays off if they complete the weekly workload by Friday.
+Though negative reinforcement has a positive effect in the short term for a workplace (i.e. encourages a financially beneficial action), over-reliance on a negative reinforcement hinders the ability of workers to act in a creative, engaged way creating growth in the long term.
+Both positive and negative reinforcement increase behavior. Most people, especially children, will learn to follow instruction by a mix of positive and negative reinforcement.
+Limited resources can cause a person to not be able to provide constant reinforcement
+
+
+=== Primary reinforcers ===
+A primary reinforcer, sometimes called an unconditioned reinforcer, is a stimulus that does not require pairing with a different stimulus in order to function as a reinforcer and most likely has obtained this function through the evolution and its role in species' survival. Examples of primary reinforcers include food, water, and sex. Some primary reinforcers, such as certain drugs, may mimic the effects of other primary reinforcers. While these primary reinforcers are fairly stable through life and across individuals, the reinforcing value of different primary reinforcers varies due to multiple factors (e.g., genetics, experience). Thus, one person may prefer one type of food while another avoids it. Or one person may eat lots of food while another eats very little. So even though food is a primary reinforcer for both individuals, the value of food as a reinforcer differs between them.
+
+
+=== Secondary reinforcers ===
+A secondary reinforcer, sometimes called a conditioned reinforcer, is a stimulus or situation that has acquired its function as a reinforcer after pairing with a stimulus that functions as a reinforcer. This stimulus may be a primary reinforcer or another conditioned reinforcer (such as money). An example of a secondary reinforcer would be the sound from a clicker, as used in clicker training.  The sound of the clicker has been associated with praise or treats, and subsequently, the sound of the clicker may function as a reinforcer.  Another common example is the sound of people clapping – there is nothing inherently positive about hearing that sound, but we have learned that it is associated with praise and rewards.
+When trying to distinguish primary and secondary reinforcers in human examples, use the "caveman test."  If the stimulus is something that a caveman would naturally find desirable (e.g., candy) then it is a primary reinforcer.  If, on the other hand, the caveman would not react to it (e.g., a dollar bill), it is a secondary reinforcer.  As with primary reinforcers, an organism can experience satiation and deprivation with secondary reinforcers.
+
+
+=== Other reinforcement terms ===
+A generalized reinforcer is a conditioned reinforcer that has obtained the reinforcing function by pairing with many other reinforcers and functions as a reinforcer under a wide-variety of motivating operations. (One example of this is money because it is paired with many other reinforcers).
+In reinforcer sampling, a potentially reinforcing but unfamiliar stimulus is presented to an organism without regard to any prior behavior.
+Socially-mediated reinforcement (direct reinforcement) involves the delivery of reinforcement that requires the behavior of another organism.
+The Premack principle is a special case of reinforcement elaborated by David Premack, which states that a highly preferred activity can be used effectively as a reinforcer for a less-preferred activity.
+Reinforcement hierarchy is a list of actions, rank-ordering the most desirable to least desirable consequences that may serve as a reinforcer. A reinforcement hierarchy can be used to determine the relative frequency and desirability of different activities, and is often employed when applying the Premack principle.
+Contingent outcomes are more likely to reinforce behavior than non-contingent responses. Contingent outcomes are those directly linked to a causal behavior, such a light turning on being contingent on flipping a switch. Note that contingent outcomes are not necessary to demonstrate reinforcement, but perceived contingency may increase learning.
+Contiguous stimuli are stimuli closely associated by time and space with specific behaviors. They reduce the amount of time needed to learn a behavior while increasing its resistance to extinction. Giving a dog a piece of food immediately after sitting is more contiguous with (and therefore more likely to reinforce) the behavior than a several minute delay in food delivery following the behavior.
+Noncontingent reinforcement refers to response-independent delivery of stimuli identified as reinforcers for some behaviors of that organism. However, this typically entails time-based delivery of stimuli identified as maintaining aberrant behavior, which decreases the rate of the target behavior. As no measured behavior is identified as being strengthened, there is controversy surrounding the use of the term noncontingent "reinforcement".
+
+
+== Natural and artificial ==
+In his 1967 paper, Arbitrary and Natural Reinforcement, Charles Ferster proposed classifying reinforcement into events that increase frequency of an operant as a natural consequence of the behavior itself, and events that are presumed to affect frequency by their requirement of human mediation, such as in a token economy where subjects are "rewarded" for certain behavior with an arbitrary token of a negotiable value. In 1970, Baer and Wolf created a name for the use of natural reinforcers called "behavior traps". A behavior trap requires only a simple response to enter the trap, yet once entered, the trap cannot be resisted in creating general behavior change. It is the use of a behavioral trap that increases a person's repertoire, by exposing them to the naturally occurring reinforcement of that behavior.  Behavior traps have four characteristics:
+
+They are "baited" with virtually irresistible reinforcers that "lure" the student to the trap
+Only a low-effort response already in the repertoire is necessary to enter the trap
+Interrelated contingencies of reinforcement inside the trap motivate the person to acquire, extend, and maintain targeted academic/social skills
+They can remain effective for long periods of time because the person shows few, if any, satiation effectsAs can be seen from the above, artificial reinforcement is in fact created to build or develop skills, and to generalize, it is important that either a behavior trap is introduced to "capture" the skill and utilize naturally occurring reinforcement to maintain or increase it. This behavior trap may simply be a social situation that will generally result from a specific behavior once it has met a certain criterion (e.g., if you use edible reinforcers to train a person to say hello and smile at people when they meet them, after that skill has been built up, the natural reinforcer of other people smiling, and having more friendly interactions will naturally reinforce the skill and the edibles can be faded).
+
+
+== Intermittent reinforcement schedules ==
+Much behavior is not reinforced every time it is emitted, and the pattern of intermittent reinforcement strongly affects how fast an operant response is learned, what its rate is at any given time, and how long it continues when reinforcement ceases.  The simplest rules controlling reinforcement are continuous reinforcement, where every response is reinforced, and extinction, where no response is reinforced. Between these extremes, more complex "schedules of reinforcement" specify the rules that determine how and when a response will be followed by a reinforcer.
+Specific schedules of reinforcement reliably induce specific patterns of response, irrespective of the species being investigated (including humans in some conditions). However, the quantitative properties of behavior under a given schedule depend on the parameters of the schedule, and sometimes on other, non-schedule factors. The orderliness and predictability of behavior under schedules of reinforcement was evidence for B.F. Skinner's claim that by using operant conditioning he could obtain "control over behavior", in a way that rendered the theoretical disputes of contemporary comparative psychology obsolete. The reliability of schedule control supported the idea that a radical behaviorist experimental analysis of behavior could be the foundation for a psychology that did not refer to mental or cognitive processes. The reliability of schedules also led to the development of applied behavior analysis as a means of controlling or altering behavior.
+Many of the simpler possibilities, and some of the more complex ones, were investigated at great length by Skinner using pigeons, but new schedules continue to be defined and investigated.
+
+
+=== Simple schedules ===
+
+Ratio schedule – the reinforcement depends only on the number of responses the organism has performed.
+Continuous reinforcement (CRF) – a schedule of reinforcement in which every occurrence of the instrumental response (desired response) is followed by the reinforcer.Lab example: each time a rat presses a bar it gets a pellet of food.
+Real-world example: each time a dog defecates outside its owner gives it a treat; each time a person puts $1 in a candy machine and presses the buttons they receive a candy bar.Simple schedules have a single rule to determine when a single type of reinforcer is delivered for a specific response.
+
+Fixed ratio (FR) – schedules deliver reinforcement after every nth response. An FR 1 schedule is synonymous with a CRF schedule.
+Example: FR 2 = every second desired response the subject makes is reinforced.
+Lab example: FR 5 = rat's bar-pressing behavior is reinforced with food after every 5 bar-presses in a Skinner box.
+Real-world example: FR 10 = Used car dealer gets a $1000 bonus for each 10 cars sold on the lot.
+Variable ratio schedule (VR) – reinforced on average every nth response, but not always on the nth response.Lab example: VR 4 = first pellet delivered on 2 bar presses, second pellet delivered on 6 bar presses, third pellet 4 bar presses (2 + 6 + 4 = 12; 12/3= 4 bar presses to receive pellet).
+Real-world example: slot machines (because, though the probability of hitting the jackpot is constant, the number of lever presses needed to hit the jackpot is variable).
+Fixed interval (FI) – reinforced after n amount of time.
+Example: FI 1-s = reinforcement provided for the first response after 1 second.
+Lab example: FI 15-s = rat's bar-pressing behavior is reinforced for the first bar press after 15 seconds passes since the last reinforcement.
+Real-world example: FI 30-min = a 30-minute washing machine cycle.
+Variable interval (VI) – reinforced on an average of n amount of time, but not always exactly n amount of time.Example: VI 4-min = first pellet delivered after 2 minutes, second delivered after 6 minutes, third is delivered after 4 minutes (2 + 6 + 4 = 12; 12/ 3 = 4). Reinforcement is delivered on the average after 4 minutes.
+Lab example: VI 10-s = a rat's bar-pressing behavior is reinforced for the first bar press after an average of 10 seconds passes since the last reinforcement.
+Real-world example: VI 30-min = Going fishing—you might catch a fish after 10 minutes, then have to wait an hour, then have to wait 20 minutes.
+Fixed time (FT) – Provides a reinforcing stimulus at a fixed time since the last reinforcement delivery, regardless of whether the subject has responded or not. In other words, it is a non-contingent schedule.
+Lab example: FT 5-s = rat gets food every 5 seconds regardless of the behavior.
+Real-world example: FT 30-d = a person gets an annuity check every month regardless of behavior between checks
+Variable time (VT) – Provides reinforcement at an average variable time since last reinforcement, regardless of whether the subject has responded or not.Simple schedules are utilized in many differential reinforcement procedures:
+
+Differential reinforcement of alternative behavior (DRA) - A conditioning procedure in which an undesired response is decreased by placing it on extinction or, less commonly, providing contingent punishment, while simultaneously providing reinforcement contingent on a desirable response. An example would be a teacher attending to a student only when they raise their hand, while ignoring the student when he or she calls out.
+Differential reinforcement of other behavior (DRO) – Also known as omission training procedures, an instrumental conditioning procedure in which a positive reinforcer is periodically delivered only if the participant does something other than the target response. An example would be reinforcing any hand action other than nose picking.
+Differential reinforcement of incompatible behavior (DRI) – Used to reduce a frequent behavior without punishing it by reinforcing an incompatible response. An example would be reinforcing clapping to reduce nose picking
+Differential reinforcement of low response rate (DRL) – Used to encourage low rates of responding. It is like an interval schedule, except that premature responses reset the time required between behavior.
+Lab example: DRL 10-s = a rat is reinforced for the first response after 10 seconds, but if the rat responds earlier than 10 seconds there is no reinforcement and the rat has to wait 10 seconds from that premature response without another response before bar pressing will lead to reinforcement.
+Real-world example: "If you ask me for a potato chip no more than once every 10 minutes, I will give it to you. If you ask more often, I will give you none."
+Differential reinforcement of high rate (DRH) – Used to increase high rates of responding. It is like an interval schedule, except that a minimum number of responses are required in the interval in order to receive reinforcement.
+Lab example: DRH 10-s/FR 15 = a rat must press a bar 15 times within a 10-second increment to get reinforced.
+Real-world example: "If Lance Armstrong is going to win the Tour de France he has to pedal x number of times during the y-hour race."
+
+
+==== Effects of different types of simple schedules ====
+Fixed ratio: activity slows after reinforcer is delivered, then response rates increase until the next reinforcer delivery (post-reinforcement pause).
+Variable ratio: rapid, steady rate of responding; most resistant to extinction.
+Fixed interval: responding increases towards the end of the interval; poor resistance to extinction.
+Variable interval: steady activity results, good resistance to extinction.
+Ratio schedules produce higher rates of responding than interval schedules, when the rates of reinforcement are otherwise similar.
+Variable schedules produce higher rates and greater resistance to extinction than most fixed schedules. This is also known as the Partial Reinforcement Extinction Effect (PREE).
+The variable ratio schedule produces both the highest rate of responding and the greatest resistance to extinction (for example, the behavior of gamblers at slot machines).
+Fixed schedules produce "post-reinforcement pauses" (PRP), where responses will briefly cease immediately following reinforcement, though the pause is a function of the upcoming response requirement rather than the prior reinforcement.The PRP of a fixed interval schedule is frequently followed by a "scallop-shaped" accelerating rate of response, while fixed ratio schedules produce a more "angular" response.
+fixed interval scallop: the pattern of responding that develops with fixed interval reinforcement schedule, performance on a fixed interval reflects subject's accuracy in telling time.
+Organisms whose schedules of reinforcement are "thinned" (that is, requiring more responses or a greater wait before reinforcement) may experience "ratio strain" if thinned too quickly. This produces behavior similar to that seen during extinction.
+Ratio strain: the disruption of responding that occurs when a fixed ratio response requirement is increased too rapidly.
+Ratio run: high and steady rate of responding that completes each ratio requirement. Usually higher ratio requirement causes longer post-reinforcement pauses to occur.
+Partial reinforcement schedules are more resistant to extinction than continuous reinforcement schedules.
+Ratio schedules are more resistant than interval schedules and variable schedules more resistant than fixed ones.
+Momentary changes in reinforcement value lead to dynamic changes in behavior.
+
+
+=== Compound schedules ===
+Compound schedules combine two or more different simple schedules in some way using the same reinforcer for the same behavior. There are many possibilities; among those most often used are:
+
+Alternative schedules – A type of compound schedule where two or more simple schedules are in effect and whichever schedule is completed first results in reinforcement.
+Conjunctive schedules – A complex schedule of reinforcement where two or more simple schedules are in effect independently of each other, and requirements on all of the simple schedules must be met for reinforcement.
+Multiple schedules – Two or more schedules alternate over time, with a stimulus indicating which is in force. Reinforcement is delivered if the response requirement is met while a schedule is in effect.
+Example: FR4 when given a whistle and FI6 when given a bell ring.
+Mixed schedules – Either of two, or more, schedules may occur with no stimulus indicating which is in force. Reinforcement is delivered if the response requirement is met while a schedule is in effect.
+Example: FI6 and then VR3 without any stimulus warning of the change in schedule.
+Concurrent schedules – A complex reinforcement procedure in which the participant can choose any one of two or more simple reinforcement schedules that are available simultaneously. Organisms are free to change back and forth between the response alternatives at any time.
+Real-world example: changing channels on a television.
+Concurrent-chain schedule of reinforcement – A complex reinforcement procedure in which the participant is permitted to choose during the first link which of several simple reinforcement schedules will be in effect in the second link. Once a choice has been made, the rejected alternatives become unavailable until the start of the next trial.
+Interlocking schedules – A single schedule with two components where progress in one component affects progress in the other component. In an interlocking FR 60 FI 120-s schedule, for example, each response subtracts time from the interval component such that each response is "equal" to removing two seconds from the FI schedule.
+Chained schedules – Reinforcement occurs after two or more successive schedules have been completed, with a stimulus indicating when one schedule has been completed and the next has started
+Example: On an FR 10 schedule in the presence a red light, a pigeon pecks a green disc 10 times; then, a yellow light indicates an FR 3 schedule is active; after the pigeon pecks a yellow disc 3 times, a green light to indicates a VI 6-s schedule is in effect; if this were the final schedule in the chain, the pigeon would be reinforced for pecking a green disc on a VI 6-s schedule; however, all schedule requirements in the chain must be met before a reinforcer is provided.
+Tandem schedules – Reinforcement occurs when two or more successive schedule requirements have been completed, with no stimulus indicating when a schedule has been completed and the next has started.
+Example: VR 10, after it is completed the schedule is changed without warning to FR 10, after that it is changed without warning to FR 16, etc. At the end of the series of schedules, a reinforcer is finally given.
+Higher-order schedules – completion of one schedule is reinforced according to a second schedule; e.g. in FR2 (FI10 secs), two successive fixed interval schedules require completion before a response is reinforced.
+
+
+=== Superimposed schedules ===
+The psychology term superimposed schedules of reinforcement refers to a structure of rewards where two or more simple schedules of reinforcement operate simultaneously. Reinforcers can be positive, negative, or both. An example is a person who comes home after a long day at work. The behavior of opening the front door is rewarded by a big kiss on the lips by the person's spouse and a rip in the pants from the family dog jumping enthusiastically. Another example of superimposed schedules of reinforcement is a pigeon in an experimental cage pecking at a button. The pecks deliver a hopper of grain every 20th peck, and access to water after every 200 pecks.
+Superimposed schedules of reinforcement are a type of compound schedule that evolved from the initial work on simple schedules of reinforcement by B.F. Skinner and his colleagues (Skinner and Ferster, 1957). They demonstrated that reinforcers could be delivered on schedules, and further that organisms behaved differently under different schedules. Rather than a reinforcer, such as food or water, being delivered every time as a consequence of some behavior, a reinforcer could be delivered after more than one instance of the behavior. For example, a pigeon may be required to peck a button switch ten times before food appears. This is a "ratio schedule". Also, a reinforcer could be delivered after an interval of time passed following a target behavior. An example is a rat that is given a food pellet immediately following the first response that occurs after two minutes has elapsed since the last lever press. This is called an "interval schedule".
+In addition, ratio schedules can deliver reinforcement following fixed or variable number of behaviors by the individual organism. Likewise, interval schedules can deliver reinforcement following fixed or variable intervals of time following a single response by the organism. Individual behaviors tend to generate response rates that differ based upon how the reinforcement schedule is created. Much subsequent research in many labs examined the effects on behaviors of scheduling reinforcers.
+If an organism is offered the opportunity to choose between or among two or more simple schedules of reinforcement at the same time, the reinforcement structure is called a "concurrent schedule of reinforcement". Brechner (1974, 1977) introduced the concept of superimposed schedules of reinforcement in an attempt to create a laboratory analogy of social traps, such as when humans overharvest their fisheries or tear down their rainforests. Brechner created a situation where simple reinforcement schedules were superimposed upon each other. In other words, a single response or group of responses by an organism led to multiple consequences. Concurrent schedules of reinforcement can be thought of as "or" schedules, and superimposed schedules of reinforcement can be thought of as "and" schedules. Brechner and Linder (1981) and Brechner (1987) expanded the concept to describe how superimposed schedules and the social trap analogy could be used to analyze the way energy flows through systems.
+Superimposed schedules of reinforcement have many real-world applications in addition to generating social traps. Many different human individual and social situations can be created by superimposing simple reinforcement schedules. For example, a human being could have simultaneous tobacco and alcohol addictions. Even more complex situations can be created or simulated by superimposing two or more concurrent schedules. For example, a high school senior could have a choice between going to Stanford University or UCLA, and at the same time have the choice of going into the Army or the Air Force, and simultaneously the choice of taking a job with an internet company or a job with a software company. That is a reinforcement structure of three superimposed concurrent schedules of reinforcement.
+Superimposed schedules of reinforcement can create the three classic conflict situations (approach–approach conflict, approach–avoidance conflict, and avoidance–avoidance conflict) described by Kurt Lewin (1935) and can operationalize other Lewinian situations analyzed by his force field analysis. Other examples of the use of superimposed schedules of reinforcement as an analytical tool are its application to the contingencies of rent control (Brechner, 2003) and problem of toxic waste dumping in the Los Angeles County storm drain system (Brechner, 2010).
+
+
+=== Concurrent schedules ===
+In operant conditioning, concurrent schedules of reinforcement are schedules of reinforcement that are simultaneously available to an animal subject or human participant, so that the subject or participant can respond on either schedule. For example, in a two-alternative forced choice task, a pigeon in a Skinner box is faced with two pecking keys; pecking responses can be made on either, and food reinforcement might follow a peck on either. The schedules of reinforcement arranged for pecks on the two keys can be different. They may be independent, or they may be linked so that behavior on one key affects the likelihood of reinforcement on the other.
+It is not necessary for responses on the two schedules to be physically distinct. In an alternate way of arranging concurrent schedules, introduced by Findley in 1958, both schedules are arranged on a single key or other response device, and the subject can respond on a second key to change between the schedules. In such a "Findley concurrent" procedure, a stimulus (e.g., the color of the main key) signals which schedule is in effect.
+Concurrent schedules often induce rapid alternation between the keys. To prevent this, a "changeover delay" is commonly introduced: each schedule is inactivated for a brief period after the subject switches to it.
+When both the concurrent schedules are variable intervals, a quantitative relationship known as the matching law is found between relative response rates in the two schedules and the relative reinforcement rates they deliver; this was first observed by R.J. Herrnstein in 1961. Matching law is a rule for instrumental behavior which states that the relative rate of responding on a particular response alternative equals the relative rate of reinforcement for that response (rate of behavior = rate of reinforcement). Animals and humans have a tendency to prefer choice in schedules.
+
+
+== Shaping ==
+
+Shaping is reinforcement of successive approximations to a desired instrumental response. In training a rat to press a lever, for example, simply turning toward the lever is reinforced at first. Then, only turning and stepping toward it is reinforced. The outcomes of one set of behaviours starts the shaping process for the next set of behaviours, and the outcomes of that set prepares the shaping process for the next set, and so on. As training progresses, the response reinforced becomes progressively more like the desired behavior; each subsequent behaviour becomes a closer approximation of the final behaviour.
+
+
+== Chaining ==
+
+Chaining involves linking discrete behaviors together in a series, such that each result of each behavior is both the reinforcement (or consequence) for the previous behavior, and the stimuli (or antecedent) for the next behavior. There are many ways to teach chaining, such as forward chaining (starting from the first behavior in the chain), backwards chaining (starting from the last behavior) and total task chaining (in which the entire behavior is taught from beginning to end, rather than as a series of steps). An example is opening a locked door. First the key is inserted, then turned, then the door opened.
+Forward chaining would teach the subject first to insert the key. Once that task is mastered, they are told to insert the key, and taught to turn it. Once that task is mastered, they are told to perform the first two, then taught to open the door. Backwards chaining would involve the teacher first inserting and turning the key, and the subject then being taught to open the door. Once that is learned, the teacher inserts the key, and the subject is taught to turn it, then opens the door as the next step. Finally, the subject is taught to insert the key, and they turn and open the door. Once the first step is mastered, the entire task has been taught. Total task chaining would involve teaching the entire task as a single series, prompting through all steps. Prompts are faded (reduced) at each step as they are mastered.
+
+
+== Persuasive communication and the reinforcement theory ==
+Persuasive communication
+Persuasion influences any person the way they think, act and feel. Persuasive skill tells about how people understand the concern, position and needs of the people. Persuasion can be classified into informal persuasion and formal persuasion.
+Informal persuasion
+This tells about the way in which a person interacts with colleagues and customers. The informal persuasion can be used in team, memos as well as e-mails.
+Formal persuasion
+This type of persuasion is used in writing customer letter, proposal and also for formal presentation to any customer or colleagues.
+Process of persuasion
+Persuasion relates how you influence people with your skills, experience, knowledge, leadership, qualities and team capabilities. Persuasion is an interactive process while getting the work done by others. Here are examples for which you can use persuasion skills in real time. Interview: you can prove your best talents, skills and expertise. Clients: to guide your clients for the achievement of the goals or targets. Memos: to express your ideas and views to coworkers for the improvement in the operations. Resistance identification and positive attitude are the vital roles of persuasion.Persuasion is a form of human interaction. It takes place when one individual expects some particular response from one or more other individuals and deliberately sets out to secure the response through the use of communication. The communicator must realize that different groups have different values.In instrumental learning situations, which involve operant behavior, the persuasive communicator will present his message and then wait for the receiver to make a correct response. As soon as the receiver makes the response, the communicator will attempt to fix the response by some appropriate reward or reinforcement.In conditional learning situations, where there is respondent behavior, the communicator presents his message so as to elicit the response he wants from the receiver, and the stimulus that originally served to elicit the response then becomes the reinforcing or rewarding element in conditioning.
+
+
+== Mathematical models ==
+A lot of work has been done in building a mathematical model of reinforcement. This model is known as MPR, short for mathematical principles of reinforcement. Peter Killeen has made key discoveries in the field with his research on pigeons.
+
+
+== Criticisms ==
+The standard definition of behavioral reinforcement has been criticized as circular, since it appears to argue that response strength is increased by reinforcement, and defines reinforcement as something that increases response strength (i.e., response strength is increased by things that increase response strength). However, the correct usage of reinforcement is that something is a reinforcer because of its effect on behavior, and not the other way around. It becomes circular if one says that a particular stimulus strengthens behavior because it is a reinforcer, and does not explain why a stimulus is producing that effect on the behavior. Other definitions have been proposed, such as F.D. Sheffield's "consummatory behavior contingent on a response", but these are not broadly used in psychology.Increasingly understanding of the role reinforcers play is moving away from a "strengthening" effect to a "signalling" effect. That is, the view that reinforcers increase responding because they signal the behaviours that a likely to result in reinforcement.  While in most practical applications, the effect of any given reinforcer will be the same regardless of whether the reinforcer is signalling or strengthening, this approach helps to explain a number of behavioural phenomenon including patterns of responding on intermittent reinforcement schedules (fixed interval scallops) and the differential outcomes effect.
+
+
+=== History of the terms ===
+In the 1920s Russian physiologist Ivan Pavlov may have been the first to use the word reinforcement with respect to behavior, but (according to Dinsmoor) he used its approximate Russian cognate sparingly, and even then it referred to strengthening an already-learned but weakening response. He did not use it, as it is today, for selecting and strengthening new behaviors. Pavlov's introduction of the word extinction (in Russian) approximates today's psychological use.
+In popular use, positive reinforcement is often used as a synonym for reward, with people (not behavior) thus being "reinforced", but this is contrary to the term's consistent technical usage, as it is a dimension of behavior, and not the person, which is strengthened. Negative reinforcement is often used by laypeople and even social scientists outside psychology as a synonym for punishment. This is contrary to modern technical use, but it was B.F. Skinner who first used it this way in his 1938 book. By 1953, however, he followed others in thus employing the word punishment, and he re-cast negative reinforcement for the removal of aversive stimuli.
+There are some within the field of behavior analysis who have suggested that the terms "positive" and "negative" constitute an unnecessary distinction in discussing reinforcement as it is often unclear whether stimuli are being removed or presented. For example, Iwata poses the question: "...is a change in temperature more accurately characterized by the presentation of cold (heat) or the removal of heat (cold)?" Thus, reinforcement could be conceptualized as a pre-change condition replaced by a post-change condition that reinforces the behavior that followed the change in stimulus conditions.
+
+
+== Applications ==
+Reinforcement and punishment are ubiquitous in human social interactions, and a great many applications of operant principles have been suggested and implemented. Following are a few examples.
+
+
+=== Addiction and dependence ===
+Positive and negative reinforcement play central roles in the development and maintenance of addiction and drug dependence. An addictive drug is intrinsically rewarding; that is, it functions as a primary positive reinforcer of drug use. The brain's reward system assigns it incentive salience (i.e., it is "wanted" or "desired"), so as an addiction develops, deprivation of the drug leads to craving.  In addition, stimuli associated with drug use – e.g., the sight of a syringe, and the location of use – become associated with the intense reinforcement induced by the drug. These previously neutral stimuli acquire several properties: their appearance can induce craving, and they can become conditioned positive reinforcers of continued use. Thus, if an addicted individual encounters one of these drug cues, a craving for the associated drug may reappear. For example, anti-drug agencies previously used posters with images of drug paraphernalia as an attempt to show the dangers of drug use. However, such posters are no longer used because of the effects of incentive salience in causing relapse upon sight of the stimuli illustrated in the posters.
+In drug dependent individuals, negative reinforcement occurs when a drug is self-administered in order to alleviate or "escape" the symptoms of physical dependence (e.g., tremors and sweating) and/or psychological dependence (e.g., anhedonia, restlessness, irritability, and anxiety) that arise during the state of drug withdrawal.
+
+
+=== Animal training ===
+
+Animal trainers and pet owners were applying the principles and practices of operant conditioning long before these ideas were named and studied, and animal training still provides one of the clearest and most convincing examples of operant control. Of the concepts and procedures described in this article, a few of the most salient are: availability of immediate reinforcement (e.g. the ever-present bag of dog yummies); contingency, assuring that reinforcement follows the desired behavior and not something else; the use of secondary reinforcement, as in sounding a clicker immediately after a desired response; shaping,  as in gradually getting a dog to jump higher and higher;  intermittent reinforcement,  reducing the frequency of those yummies to induce persistent behavior without satiation; chaining, where a complex behavior is gradually put together.
+
+
+=== Child behaviour – parent management training ===
+
+Providing positive reinforcement for appropriate child behaviors is a major focus of parent management training. Typically, parents learn to reward appropriate behavior through social rewards (such as praise, smiles, and hugs) as well as concrete rewards (such as stickers or points towards a larger reward as part of an incentive system created collaboratively with the child). In addition, parents learn to select simple behaviors as an initial focus and reward each of the small steps that their child achieves towards reaching a larger goal (this concept is called "successive approximations"). They may also use indirect rewards such through progress charts. Providing positive reinforcement in the classroom can be beneficial to student success. When applying positive reinforcement to students, it's crucial to make it individualized to that student's needs. This way, the student understands why they are receiving the praise, they can accept it, and eventually learn to continue the action that was earned by positive reinforcement. For example, using rewards or extra recess time might apply to some students more, whereas others might accept the enforcement by receiving stickers or check marks indicating praise.
+
+
+=== Economics ===
+
+Both psychologists and economists have become interested in applying operant concepts and findings to the behavior of humans in the marketplace. An example
+is the analysis of consumer demand, as indexed by the amount of a commodity that is purchased. In economics, the degree to which price influences consumption is called "the price elasticity of demand." Certain commodities are more elastic than others; for example, a change in price of certain foods may have a large effect on the amount bought, while gasoline and other essentials may be less affected by price changes. In terms of operant analysis, such effects may be interpreted in terms of motivations of consumers and the relative value of the commodities as reinforcers.
+
+
+=== Gambling – variable ratio scheduling ===
+
+As stated earlier in this article, a variable ratio schedule yields reinforcement after the emission of an unpredictable number of responses.  This schedule typically generates rapid, persistent responding. Slot machines pay off on a variable ratio schedule, and they produce just this sort of persistent lever-pulling behavior in gamblers.  Because the machines are programmed to pay out less money than they take in, the persistent slot-machine user invariably loses in the long run.  Slots machines, and thus variable ratio reinforcement, have often been blamed as a factor underlying gambling addiction.
+
+
+=== Nudge theory ===
+
+Nudge theory (or nudge) is a concept in behavioural science, political theory and economics which argues that positive reinforcement and indirect suggestions to try to achieve non-forced compliance can influence the motives, incentives and decision making of groups and individuals, at least as effectively – if not more effectively – than direct instruction, legislation, or enforcement.
+
+
+=== Praise ===
+
+The concept of praise as a means of behavioral reinforcement in humans is rooted in B.F. Skinner's model of operant conditioning. Through this lens, praise has been viewed as a means of positive reinforcement, wherein an observed behavior is made more likely to occur by contingently praising said behavior.  Hundreds of studies have demonstrated the effectiveness of praise in promoting positive behaviors, notably in the study of teacher and parent use of praise on child in promoting improved behavior and academic performance, but also in the study of work performance. Praise has also been demonstrated to reinforce positive behaviors in non-praised adjacent individuals (such as a classmate of the praise recipient) through vicarious reinforcement. Praise may be more or less effective in changing behavior depending on its form, content and delivery. In order for praise to effect positive behavior change, it must be contingent on the positive behavior (i.e., only administered after the targeted behavior is enacted), must specify the particulars of the behavior that is to be reinforced, and must be delivered sincerely and credibly.Acknowledging the effect of praise as a positive reinforcement strategy, numerous behavioral and cognitive behavioral interventions have incorporated the use of praise in their protocols. The strategic use of praise is recognized as an evidence-based practice in both classroom management and parenting training interventions, though praise is often subsumed in intervention research into a larger category of positive reinforcement, which includes strategies such as strategic attention and behavioral rewards.
+
+
+=== Psychological manipulation ===
+
+Braiker identified the following ways that manipulators control their victims:
+Positive reinforcement: includes praise, superficial charm, superficial sympathy (crocodile tears), excessive apologizing, money, approval, gifts, attention, facial expressions such as a forced laugh or smile, and public recognition.
+Negative reinforcement: may involve removing one from a negative situation
+Intermittent or partial reinforcement: Partial or intermittent negative reinforcement can create an effective climate of fear and doubt. Partial or intermittent positive reinforcement can encourage the victim to persist – for example in most forms of gambling, the gambler is likely to win now and again but still lose money overall.
+Punishment: includes nagging, yelling, the silent treatment, intimidation, threats, swearing, emotional blackmail, the guilt trip, sulking, crying, and playing the victim.
+Traumatic one-trial learning: using verbal abuse, explosive anger, or other intimidating behavior to establish dominance or superiority; even one incident of such behavior can condition or train victims to avoid upsetting, confronting or contradicting the manipulator.
+
+
+=== Traumatic bonding ===
+
+Traumatic bonding occurs as the result of ongoing cycles of abuse in which the intermittent reinforcement of reward and punishment creates powerful emotional bonds that are resistant to change.The other source indicated that 
+
+'The necessary conditions for traumatic bonding are that one person must dominate the other and that the level of abuse chronically spikes and then subsides. The relationship is characterized by periods of permissive, compassionate, and even affectionate behavior from the dominant person, punctuated by intermittent episodes of intense abuse. To maintain the upper hand, the victimizer manipulates the behavior of the victim and limits the victim's options so as to perpetuate the power imbalance. Any threat to the balance of dominance and submission may be met with an escalating cycle of punishment ranging from seething intimidation to intensely violent outbursts. The victimizer also isolates the victim from other sources of support, which reduces the likelihood of detection and intervention, impairs the victim's ability to receive countervailing self-referent feedback, and strengthens the sense of unilateral dependency...The traumatic effects of these abusive relationships may include the impairment of the victim's capacity for accurate self-appraisal, leading to a sense of personal inadequacy and a subordinate sense of dependence upon the dominating person. Victims also may encounter a variety of unpleasant social and legal consequences of their emotional and behavioral affiliation with someone who perpetrated aggressive acts, even if they themselves were the recipients of the aggression. '.
+
+
+=== Video games ===
+
+Most video games are designed around some type of compulsion loop, adding a type of positive reinforcement through a variable rate schedule to keep the player playing the game, though this can also lead to video game addiction.
+
+As part of a trend in the monetization of video games in the 2010s, some games offered "loot boxes" as rewards or purchasable by real-world funds that offered a random selection of in-game items, distributed by rarity. The practice has been tied to the same methods that slot machines and other gambling devices dole out rewards, as it follows a variable rate schedule. While the general perception that loot boxes are a form of gambling, the practice is only classified as such in a few countries as gambling and otherwise legal. However, methods to use those items as virtual currency for online gambling or trading for real-world money has created a skin gambling market that is under legal evaluation.
+
+
+=== Workplace culture of fear ===
+
+Ashforth discussed potentially destructive sides of leadership and identified what he referred to as petty tyrants: leaders who exercise a tyrannical style of management, resulting in a climate of fear in the workplace. Partial or intermittent negative reinforcement can create an effective climate of fear and doubt. When employees get the sense that bullies are tolerated, a climate of fear may be the result.Individual differences in sensitivity to reward, punishment, and motivation have been studied under the premises of reinforcement sensitivity theory and have also been applied to workplace performance.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+
+
+== External links ==
+An On-Line Positive Reinforcement Tutorial
+Scholarpedia Reinforcement
+scienceofbehavior.com

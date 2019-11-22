@@ -1,0 +1,60 @@
+Title: North American X-10
+Aspects: {'X10'}
+
+The North American X-10 (model RTV-A-5) was an unmanned technology demonstrator, developed by North American Aviation. It was a subscale reusable design that included many of the design features of the SM-64 Navaho missile. The X-10 was similar to the development of Bell's X-9 Shrike project, which was based on features of the GAM-63 RASCAL.
+
+
+== Development ==
+To facilitate development of the long-range Navaho surface-to-surface cruise missile, North American Aviation (NAA) developed the RTV-A-5 (Research Test Vehicle, Air Force), or X-10 in 1951. This vehicle was to prove out critical flight technology for the design of the cruise vehicle of the Navaho missile design. These included proving the basic aerodynamics out to Mach 2, flight testing the inertial guidance unit and flight control avionics to the same speed, and finally validate the recovery system for the next phase in the Navaho program. Preliminary design of the X-10 was completed in February 1951 and the first vehicle was delivered to Edwards Air Force Base in May 1953. The first flight occurred on 14 October 1953.The X-10 was powered by two Westinghouse J40 turbojet engines with afterburners, and equipped with landing gear for conventional take off and landing. The combination of a delta wing with an all-moving canard gave it extremely good aerodynamics in the trans-sonic and supersonic environments. It also made the vehicle unstable requiring active computer flight control in the form of an autopilot. Thus, the X-10 is similar to modern military fighters which are flown by the onboard computer and not directly by the pilot. In this same regard, though the X-10 was receiving directional commands from a radio-command guidance system, these commands were sent through the on-board computer which in turn implemented the commands. Later X-10s included an N-6 inertial navigation system which completely controlled the vehicle through the cruise portion of the flight.
+
+
+== Operational history ==
+At the time it came into service, the X-10 was one of the fastest turbojet-powered aircraft flown. From 1953 to 1955 a total of five X-10s flew 15 flights at Edwards AFB. There it reached a maximum flight speed of Mach 1.84, flew a distance of 400 mi (644 km), and reached an altitude of 41,000 feet (12,000 m). These were performance levels superior to nearly all manned turbojet aircraft (the exception being the YF-104 Starfighter). In 1955 the program moved to Cape Canaveral, Florida, to complete the test program. Here a new set of six X-10 vehicles would complete the testing of the N-6 inertial navigation system out to supersonic speeds, reach 49,000 feet (15,000 m) altitude, a total flight distance of 627 mi (1,009 km) and a peak speed of Mach 2.05.
+
+
+=== Disposition ===
+Of all the X-10s built, only one survived the test program: serial 51-9307, the first X-10 to fly. Of the other four aircraft that flew at Edwards AFB, one blew up on takeoff, one was lost in flight, and the remaining two were destroyed in landing accidents. As for the vehicles flown at Cape Canaveral, three were expended in planned dive-in flights against Grand Bahama Island, and two were lost in landing accidents.
+In 1958, the remaining three Cape Canaveral X-10s were selected for use as high speed targets for the BOMARC surface-to-air missile. The plan was to recover and reuse the X-10, not to have them shot down by the BOMARC. Unfortunately, none of these vehicles would complete their target flight: two were lost on landing and the third suffered a mechanical problem forcing it to be flown into the Atlantic.
+
+
+== Survivors ==
+The sole surviving X-10 s/n GM 19307 is located at the National Museum of the United States Air Force in Dayton, Ohio. This was the first X-10 to fly. The aircraft was delivered to the Air Force Museum in 1957, upon completion of the program. It is displayed in the Museum's Research & Development Hangar.
+
+
+== Specifications (X-10) ==
+General characteristics
+
+Crew: None
+Length: 77 ft (23 m)
+Wingspan: 28 ft 2 in (8.59 m)
+Height: 14 ft 5 in (4.39 m)
+Wing area: 425 sq ft (39.5 m2)
+Airfoil: NACA 66-006 (mod)
+Empty weight: 25,800 lb (11,703 kg)
+Gross weight: 35,000 lb (15,876 kg)
+Max takeoff weight: 42,300 lb (19,187 kg)
+Powerplant: 2 × Westinghouse XJ40-WE-1 turbojets, 10,900 lbf (48 kN) thrust eachPerformance
+
+Maximum speed: 1,300 mph (2,100 km/h, 1,100 kn)
+Service ceiling: 45,000 ft (14,000 m)
+Rate of climb: 5,224 ft/min (26.54 m/s)
+
+
+== See also ==
+
+Related development
+
+SM-64 Navaho
+
+
+== References ==
+
+
+=== Notes ===
+
+
+=== Bibliography ===
+
+
+== External links ==
+North American RTV-A-5/X-10 at Designation-Systems.Net

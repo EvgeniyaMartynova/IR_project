@@ -1,0 +1,878 @@
+Title: Parameterized complexity
+Aspects: {'W1'}
+
+In computer science, parameterized complexity is a branch of computational complexity theory that focuses on classifying computational problems according to their inherent difficulty with respect to multiple parameters of the input or output. The complexity of a problem is then measured as a function of those parameters. This allows the classification of NP-hard problems on a finer scale than in the classical setting, where the complexity of a problem is only measured by the number of bits in the input. The first systematic work on parameterized complexity was done by Downey & Fellows (1999).
+Under the assumption that P ≠ NP, there exist many natural problems that require superpolynomial running time when complexity is measured in terms of the input size only, but that are computable in a time that is polynomial in the input size and exponential or worse in a parameter k. Hence, if k is fixed at a small value and the growth of the function over k is relatively small then such problems can still be considered "tractable" despite their traditional classification as "intractable".
+The existence of efficient, exact, and deterministic solving algorithms for NP-complete, or otherwise NP-hard, problems is considered unlikely, if input parameters are not fixed; all known solving algorithms for these problems require time that is exponential (or at least superpolynomial) in the total size of the input. However, some problems can be solved by algorithms that are exponential only in the size of a fixed parameter while polynomial in the size of the input. Such an algorithm is called a fixed-parameter tractable (fpt-)algorithm, because the problem can be solved efficiently for small values of the fixed parameter.
+Problems in which some parameter k is fixed are called parameterized problems. A parameterized problem that allows for such an fpt-algorithm is said to be a fixed-parameter tractable problem and belongs to the class FPT, and the early name of the theory of parameterized complexity was fixed-parameter tractability.
+Many problems have the following form: given an object x and a nonnegative integer k, does x have some property that depends on k?  For instance, for the vertex cover problem, the parameter can be the number of vertices in the cover. In many applications, for example when modelling error correction, one can assume the parameter to be "small" compared to the total input size. Then it is challenging to find an algorithm which is exponential only in k, and not in the input size.
+In this way, parameterized complexity can be seen as two-dimensional complexity theory. This concept is formalized as follows:
+
+A parameterized problem is a language 
+  
+    
+      
+        L
+        ⊆
+        
+          Σ
+          
+            ∗
+          
+        
+        ×
+        
+          N
+        
+      
+    
+    {\displaystyle L\subseteq \Sigma ^{*}\times \mathbb {N} }
+  , where 
+  
+    
+      
+        Σ
+      
+    
+    {\displaystyle \Sigma }
+   is a finite alphabet. The second component is called the parameter of the problem.A parameterized problem L is fixed-parameter tractable if the question “
+  
+    
+      
+        (
+        x
+        ,
+        k
+        )
+        ∈
+        L
+      
+    
+    {\displaystyle (x,k)\in L}
+  ?” can be decided in running time 
+  
+    
+      
+        f
+        (
+        k
+        )
+        ⋅
+        
+          |
+        
+        x
+        
+          
+            |
+          
+          
+            O
+            (
+            1
+            )
+          
+        
+      
+    
+    {\displaystyle f(k)\cdot |x|^{O(1)}}
+  , where f is an arbitrary function depending only on k. The corresponding complexity class is called FPT.For example, there is an algorithm which solves the vertex cover problem in 
+  
+    
+      
+        O
+        (
+        k
+        n
+        +
+        
+          1.274
+          
+            k
+          
+        
+        )
+      
+    
+    {\displaystyle O(kn+1.274^{k})}
+   time,  where n is the number of vertices and k is the size of the vertex cover. This means that vertex cover is fixed-parameter tractable with the size of the solution as the parameter.
+
+
+== Complexity classes ==
+
+
+=== FPT ===
+FPT contains the fixed parameter tractable problems, which are those that can be solved in time 
+  
+    
+      
+        f
+        (
+        k
+        )
+        ⋅
+        
+          
+            
+              |
+            
+            x
+            
+              |
+            
+          
+          
+            O
+            (
+            1
+            )
+          
+        
+      
+    
+    {\displaystyle f(k)\cdot {|x|}^{O(1)}}
+   for some computable function f. Typically, this function is thought of as single exponential, such as 
+  
+    
+      
+        
+          2
+          
+            O
+            (
+            k
+            )
+          
+        
+      
+    
+    {\displaystyle 2^{O(k)}}
+   but the definition admits functions that grow even faster. This is essential for a large part of the early history of this class. The crucial part of the definition is to exclude functions of the form 
+  
+    
+      
+        f
+        (
+        n
+        ,
+        k
+        )
+      
+    
+    {\displaystyle f(n,k)}
+  , such as 
+  
+    
+      
+        
+          n
+          
+            k
+          
+        
+      
+    
+    {\displaystyle n^{k}}
+  .  The class FPL (fixed parameter linear) is the class of problems solvable in time 
+  
+    
+      
+        f
+        (
+        k
+        )
+        ⋅
+        
+          |
+        
+        x
+        
+          |
+        
+      
+    
+    {\displaystyle f(k)\cdot |x|}
+   for some computable function f Grohe (1999). FPL is thus a subclass of FPT.
+An example is the satisfiability problem, parameterised by the number of variables. A given formula of size m with k variables can be checked by brute force in time 
+  
+    
+      
+        O
+        (
+        
+          2
+          
+            k
+          
+        
+        m
+        )
+      
+    
+    {\displaystyle O(2^{k}m)}
+  . A vertex cover of size k in a graph of order n can be found in time 
+  
+    
+      
+        O
+        (
+        
+          2
+          
+            k
+          
+        
+        n
+        )
+      
+    
+    {\displaystyle O(2^{k}n)}
+  , so this problem is also in FPT.
+An example of a problem that is thought not to be in FPT is graph coloring parameterised by the number of colors. It is known that 3-coloring is NP-hard, and an algorithm for graph k-colouring in time 
+  
+    
+      
+        f
+        (
+        k
+        )
+        
+          n
+          
+            O
+            (
+            1
+            )
+          
+        
+      
+    
+    {\displaystyle f(k)n^{O(1)}}
+   for 
+  
+    
+      
+        k
+        =
+        3
+      
+    
+    {\displaystyle k=3}
+   would run in polynomial time in the size of the input. Thus, if graph coloring parameterised by the number of colors were in FPT, then P = NP.
+There are a number of alternative definitions of FPT. For example, the running time requirement can be replaced by 
+  
+    
+      
+        f
+        (
+        k
+        )
+        +
+        
+          |
+        
+        x
+        
+          
+            |
+          
+          
+            O
+            (
+            1
+            )
+          
+        
+      
+    
+    {\displaystyle f(k)+|x|^{O(1)}}
+  . Also, a parameterised problem is in FPT if it has a so-called kernel. Kernelization is a preprocessing technique that reduces the original instance to its "hard kernel", a possibly much smaller instance that is equivalent to the original instance but has a size that is bounded by a function in the parameter.
+FPT is closed under a parameterised reduction called fpt-reduction, which simultaneously preserves the instance size and the parameter.
+Obviously, FPT contains all polynomial-time computable problems. Moreover, it contains all optimisation problems in NP that allow a fully polynomial-time approximation scheme.
+
+
+=== W hierarchy ===
+The W hierarchy is a collection of computational complexity classes. A parameterized problem is in the class W[i], if every instance 
+  
+    
+      
+        (
+        x
+        ,
+        k
+        )
+      
+    
+    {\displaystyle (x,k)}
+   can be transformed (in fpt-time) to a combinatorial circuit that has weft at most i, such that 
+  
+    
+      
+        (
+        x
+        ,
+        k
+        )
+        ∈
+        L
+      
+    
+    {\displaystyle (x,k)\in L}
+   if and only if there is a satisfying assignment to the inputs, which assigns 1 to at most k inputs. The weft is the largest number of logical units with unbounded fan-in on any path from an input to the output. The total number of logical units on the paths (known as depth) must be limited by a constant that holds for all instances of the problem.
+Note that 
+  
+    
+      
+        
+          
+            F
+            P
+            T
+          
+        
+        =
+        W
+        [
+        0
+        ]
+      
+    
+    {\displaystyle {\mathsf {FPT}}=W[0]}
+   and 
+  
+    
+      
+        W
+        [
+        i
+        ]
+        ⊆
+        W
+        [
+        j
+        ]
+      
+    
+    {\displaystyle W[i]\subseteq W[j]}
+   for all 
+  
+    
+      
+        i
+        ≤
+        j
+      
+    
+    {\displaystyle i\leq j}
+  .  The classes in the W hierarchy are also closed under fpt-reduction.
+Many natural computational problems occupy the lower levels, W[1] and W[2].
+
+
+==== W[1] ====
+Examples of W[1]-complete problems include
+
+deciding if a given graph contains a clique of size k
+deciding if a given graph contains an independent set of size k
+deciding if a given nondeterministic single-tape Turing machine accepts within k steps ("short Turing machine acceptance" problem).  This also applies to nondeterministic Turing machines with f(k) tapes and even f(k) of f(k)-dimensional tapes, but even with this extension, the restriction to f(k) tape alphabet size is fixed-parameter tractable. Crucially, the branching of the Turing machine at each step is allowed to depend on n, the size of the input. In this way, the Turing machine may explore nO(k) computation paths.
+
+
+==== W[2] ====
+Examples of W[2]-complete problems include
+
+deciding if a given graph contains a dominating set of size k
+deciding if a given nondeterministic multi-tape Turing machine accepts within k steps ("short multi-tape Turing machine acceptance" problem). Crucially, the branching is allowed to depend on n (like the W[1] variant), as is the number of tapes. An alternate W[2]-complete formulation allows only single-tape Turing machines, but the alphabet size may depend on n.
+
+
+==== W[t] ====
+
+  
+    
+      
+        W
+        [
+        t
+        ]
+      
+    
+    {\displaystyle W[t]}
+   can be defined using the family of Weighted Weft-t-Depth-d SAT problems for 
+  
+    
+      
+        d
+        ≥
+        t
+      
+    
+    {\displaystyle d\geq t}
+  :
+
+  
+    
+      
+        W
+        [
+        t
+        ,
+        d
+        ]
+      
+    
+    {\displaystyle W[t,d]}
+   is the class of parameterized problems that fpt-reduce to this problem, and 
+  
+    
+      
+        W
+        [
+        t
+        ]
+        =
+        
+          ⋃
+          
+            d
+            ≥
+            t
+          
+        
+        W
+        [
+        t
+        ,
+        d
+        ]
+      
+    
+    {\displaystyle W[t]=\bigcup _{d\geq t}W[t,d]}
+  .
+Here, Weighted Weft-t-Depth-d SAT is the following problem:
+
+Input: A Boolean formula of depth at most d and weft at most t, and a number k. The depth is the maximal number of gates on any path from the root to a leaf, and the weft is the maximal number of gates of fan-in at least three on any path from the root to a leaf.
+Question: Does the formula have a satisfying assignment of Hamming weight at most k?It can be shown that the problem Weighted t-Normalize SAT is complete for 
+  
+    
+      
+        W
+        [
+        t
+        ]
+      
+    
+    {\displaystyle W[t]}
+   under fpt-reductions.
+Here, Weighted t-Normalize SAT is the following problem:
+
+Input: A Boolean formula of depth at most t with an AND-gate on top, and a number k.
+Question: Does the formula have a satisfying assignment of Hamming weight at most k?
+
+
+==== W[P] ====
+W[P] is the class of problems that can be decided by a nondeterministic 
+  
+    
+      
+        h
+        (
+        k
+        )
+        ⋅
+        
+          
+            
+              |
+            
+            x
+            
+              |
+            
+          
+          
+            O
+            (
+            1
+            )
+          
+        
+      
+    
+    {\displaystyle h(k)\cdot {|x|}^{O(1)}}
+  -time Turing machine that makes at most 
+  
+    
+      
+        O
+        (
+        f
+        (
+        k
+        )
+        ⋅
+        log
+        ⁡
+        n
+        )
+      
+    
+    {\displaystyle O(f(k)\cdot \log n)}
+   nondeterministic  choices in the computation on 
+  
+    
+      
+        (
+        x
+        ,
+        k
+        )
+      
+    
+    {\displaystyle (x,k)}
+   (a k-restricted Turing machine). Flum & Grohe (2006)
+It is known that FPT is contained in W[P], and the inclusion is believed to be strict. However, resolving this issue would imply a solution to the P versus NP problem.
+Other connections to unparameterised computational complexity are that FPT equals W[P] if and only if circuit satisfiability can be decided in time 
+  
+    
+      
+        exp
+        ⁡
+        (
+        o
+        (
+        n
+        )
+        )
+        
+          m
+          
+            O
+            (
+            1
+            )
+          
+        
+      
+    
+    {\displaystyle \exp(o(n))m^{O(1)}}
+  , or if and only if there is a computable, nondecreasing, unbounded function f such that all languages recognised by a nondeterministic polynomial-time Turing machine using f(n)log n nondeterministic choices are in P.
+W[P] can be loosely thought of as the class of problems where we have a set 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+   of 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+   items, and we want to find a subset 
+  
+    
+      
+        T
+        ⊂
+        S
+      
+    
+    {\displaystyle T\subset S}
+   of size 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+   such that a certain property holds. We can encode a choice as a list of 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+   integers, stored in binary. Since the highest any of these numbers can be is 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  , 
+  
+    
+      
+        ⌈
+        
+          log
+          
+            2
+          
+        
+        ⁡
+        n
+        ⌉
+      
+    
+    {\displaystyle \lceil \log _{2}n\rceil }
+   bits are needed for each number. Therefore 
+  
+    
+      
+        k
+        ⋅
+        ⌈
+        
+          log
+          
+            2
+          
+        
+        ⁡
+        n
+        ⌉
+      
+    
+    {\displaystyle k\cdot \lceil \log _{2}n\rceil }
+   total bits are needed to encode a choice. Therefore we can select a subset 
+  
+    
+      
+        T
+        ⊂
+        S
+      
+    
+    {\displaystyle T\subset S}
+   with 
+  
+    
+      
+        O
+        (
+        k
+        ⋅
+        log
+        ⁡
+        n
+        )
+      
+    
+    {\displaystyle O(k\cdot \log n)}
+   nondeterministic choices.
+
+
+=== XP ===
+XP is the class of parameterized problems that can be solved in time 
+  
+    
+      
+        
+          n
+          
+            f
+            (
+            k
+            )
+          
+        
+      
+    
+    {\displaystyle n^{f(k)}}
+   for some computable function f. These problems are called slicewise polynomial, in the sense that each "slice" of fixed k has a polynomial algorithm, although possibly with a different exponent for each k. Compare this with FPT, which merely allows a different constant prefactor for each value of k. XP contains FPT, and it is known that this containment is strict by diagonalization.
+
+
+=== para-NP ===
+para-NP is the class of parameterized problems that can be solved by a nondeterministic algorithm in time 
+  
+    
+      
+        f
+        (
+        k
+        )
+        ⋅
+        
+          |
+        
+        x
+        
+          
+            |
+          
+          
+            O
+            (
+            1
+            )
+          
+        
+      
+    
+    {\displaystyle f(k)\cdot |x|^{O(1)}}
+   for some computable function 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+  . It is known that 
+  
+    
+      
+        
+          FPT
+        
+        =
+        
+          para-NP
+        
+      
+    
+    {\displaystyle {\text{FPT}}={\text{para-NP}}}
+   if and only if 
+  
+    
+      
+        
+          P
+        
+        =
+        
+          NP
+        
+      
+    
+    {\displaystyle {\text{P}}={\text{NP}}}
+  . A problem is para-NP-hard if it is 
+  
+    
+      
+        
+          NP
+        
+      
+    
+    {\displaystyle {\text{NP}}}
+  -hard already for a constant value of the parameter. That is, there is a "slice" of fixed 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+   that is 
+  
+    
+      
+        
+          NP
+        
+      
+    
+    {\displaystyle {\text{NP}}}
+  -hard. A parameterized problem that is 
+  
+    
+      
+        
+          para-NP
+        
+      
+    
+    {\displaystyle {\text{para-NP}}}
+  -hard cannot belong to the class 
+  
+    
+      
+        
+          XP
+        
+      
+    
+    {\displaystyle {\text{XP}}}
+  , unless 
+  
+    
+      
+        
+          P
+        
+        =
+        
+          NP
+        
+      
+    
+    {\displaystyle {\text{P}}={\text{NP}}}
+  . A classic example of a 
+  
+    
+      
+        
+          para-NP
+        
+      
+    
+    {\displaystyle {\text{para-NP}}}
+  -hard parameterized problem is graph coloring, parameterized by the number 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+   of colors, which is already 
+  
+    
+      
+        
+          NP
+        
+      
+    
+    {\displaystyle {\text{NP}}}
+  -hard for 
+  
+    
+      
+        k
+        =
+        3
+      
+    
+    {\displaystyle k=3}
+   (see Graph coloring#Computational_complexity).
+
+
+=== A hierarchy ===
+The A hierarchy is a collection of computational complexity classes similar to the W hierarchy. However, while the W hierarchy is a hierarchy contained in NP, the A hierarchy more closely mimics the polynomial-time hierarchy from classical complexity. It is known that A[1] = W[1] holds.
+
+
+== Notes ==
+
+
+== References ==
+Chen, Jianer; Kanj, Iyad A.; Xia, Ge (2006). Improved Parameterized Upper Bounds for Vertex Cover. Mfcs 2006. Lecture Notes in Computer Science. 4162. pp. 238–249. CiteSeerX 10.1.1.432.831. doi:10.1007/11821069_21. ISBN 978-3-540-37791-7.
+Cygan, Marek; Fomin, Fedor V.; Kowalik, Lukasz; Lokshtanov, Daniel; Marx, Daniel; Pilipczuk, Marcin; Pilipczuk, Michal; Saurabh, Saket (2015). Parameterized Algorithms. Springer. p. 555. ISBN 978-3-319-21274-6.
+Downey, Rod G.; Fellows, Michael R. (1999). Parameterized Complexity. Springer. ISBN 978-0-387-94883-6.
+Flum, Jörg; Grohe, Martin (2006). Parameterized Complexity Theory. Springer. ISBN 978-3-540-29952-3.
+Fomin, Fedor V.; Lokshtanov, Daniel; Saurabh, Saket; Zehavi, Meirav (2019). Kernelization: Theory of Parameterized Preprocessing. Cambridge University Press. p. 528. doi:10.1017/9781107415157. ISBN 1107057760.
+Niedermeier, Rolf (2006). Invitation to Fixed-Parameter Algorithms. Oxford University Press. ISBN 978-0-19-856607-6. Archived from the original on 2008-09-24.
+Grohe, Martin (1999). "Descriptive and Parameterized Complexity". Computer Science Logic. Lecture Notes in Computer Science. 1683. Springer Berlin Heidelberg. pp. 14–31. CiteSeerX 10.1.1.25.9250. doi:10.1007/3-540-48168-0_3. ISBN 978-3-540-66536-6.
+The Computer Journal. Volume 51, Numbers 1 and 3 (2008). The Computer Journal. Special Double Issue on Parameterized Complexity with 15 survey articles,  book review, and a Foreword by Guest Editors R. Downey, M. Fellows and M. Langston.
+
+
+== External links ==
+Wiki on parameterized complexity
+Compendium of Parameterized Problems

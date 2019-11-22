@@ -1,0 +1,109 @@
+Title: ThinkPad W series
+Aspects: {'W series'}
+
+The ThinkPad W-series laptops from Lenovo are described by the manufacturer as being "mobile workstations", and suit that description by being physically on the larger side of the laptop spectrum, with screens ranging from 15" to 17" in size. Most W-series laptops offer high-end quad-core Intel processors with an integrated GPU as well as an Nvidia Quadro discrete GPU, utilizing Nvidia Optimus to switch between the two GPUs as required. Notable exceptions are the W500, which has ATI FireGL integrated workstation-class graphics, and the W550s, which is an Ultrabook-specification laptop with only a dual-core processor. The W-series laptops offer ISV certifications from various vendors such as Adobe Systems and Autodesk for CAD and 3D modeling software.
+The W-series laptops were introduced by Lenovo as workstation-class laptops with their own letter designation, a descendant of prior ThinkPad T series models suffixed with 'p'. The W-series laptops were launched in 2008, at the same time as the Intel Centrino 2, marking an overhaul of Lenovo's product lineup. The first two W-series laptops introduced were the W500 and the W700.
+
+
+== Models ==
+A list of laptops in the W series is given below. The list is arranged in chronological order.
+
+
+=== W500 ===
+Released in 2008, W500 laptop was similar in design to the Txxp models it replaced. The all-black appearance was retained, as well as the TrackPoint in the middle of the keyboard. The W500 was appreciated for being equivalent in craftsmanship and stability to previous ThinkPads. Large metal hinges were used to hold the display in place, preventing a worn out or unsteady display. Other features on the laptop were a DisplayPort video output, three USB ports, a docking station connector, a maximum display resolution of 1920 × 1200, Intel Core 2 Duo processors and an ATI FireGL v5700 GPU.
+
+
+=== W700 ===
+Released in October 2008, the W700 laptop was lauded for its performance and for a host of features that were industry-first at the time. It was the first laptop with an integrated color calibrator. In addition, a biometric fingerprint scanner was available on the palmrest. With a quad-core Intel Core 2 Extreme processor and NVIDIA Quadro FX 3700M workstation GPU available, the laptop was among the most powerful at the time. One point not in the laptop's favor was the low battery life—approximately 2 hours and 30 minutes.
+The laptop featured up to a 2.53 GHz Intel Core 2 Extreme QX9300 CPU, up to 8 GB of DDR3 RAM (two slots), either an (MXM-mounted) NVIDIA Quadro FX 2700M or FX 3700M  with up to 1 GB video RAM, and a 17-inch (43 cm) TN LCD display with a resolution of 1440 × 900 or 1920 × 1200.
+
+
+==== W700ds ====
+The ThinkPad W700ds was nearly identical to the W700, with the addition of a 10.6-inch (27 cm) secondary sliding screen with a resolution of 1280 × 760. The W700ds laptop also offered additional storage space, with up to two 260 GB hard disk drives.
+
+
+=== W510 ===
+The W510, the logical successor of the ThinkPad W500 in a nearly identical 15" laptop frame, was released in January 2010.
+The laptop's specifications are as follows:
+Processor: 2.0 GHz Intel Core i7-920XM Extreme
+Memory: up to 16 GB @ 1,333 MT/s DDR3 (4 DIMM sockets)
+Graphics:
+Intel 5 Integrated Graphics
+NVIDIA Quadro FX 880M
+Dimensions: 372.5 mm × 245.1 mm × 35.8 mm (14.67 in × 9.65 in × 1.41 in)
+Mass/Weight: Starting at 2.67 kg (5.89 lb) with a 6-cell batteryThe W510 laptop was summed up by Laptop Review as, "The W510 provides performance, reliability and mobility. It is Ultra responsive for graphics-intensive tasks so you can accomplish more on the go."
+
+
+=== W701 ===
+The W701, the logical successor of the W700 17" laptop, was released with the W701ds and received positive reviews. Techradar.com has this to say about the W701: "the ThinkPad W700 – [the W701’s] predecessor – was once the most powerful laptop we had seen, but the W701 has successfully stolen that crown."Released in April 2010, the W701 and W701ds, offered the following specifications:
+Processor: 2.0 GHz Intel Core i7-920XM Extreme
+Memory: Up to 16 GB @ 1,333 MT/s DDR3 (4 DIMM sockets)
+Graphics:
+NVIDIA Quadro FX3800M
+NVIDIA Quadro FX2800M
+Dimensions: 410 mm × 310 mm × 40.6 mm (16.14 in × 12.20 in × 1.60 in)
+Mass/Weight: Starting at 4.0 kg (8.9 lb)
+
+
+==== W701ds ====
+The Lenovo ThinkPad W701ds is the logical successor to the W700ds, and shares the same exterior physical design.
+Gizmodo said, about the W701ds laptop, "Lenovo ThinkPad W701ds pairs beastly specs with an integrated secondary screen." The laptop also received favorable reviews from PCWorld, which called the laptop a "portable goliath that could replace desktop workstations, letting pros stay productive from anywhere". Gadgets Fan said about the W701ds, "Despite its massive size, Lenovo ThinkPad W701ds laptop is worth the purchase" and suggested that it was "almost comparable to a desktop workstation".
+
+
+=== W520 ===
+The W520, the logical successor to the W510, was released in March 2011 and offered the following specifications in the best configuration:
+Processor: 2.5 GHz Intel Core i7-2920XM
+Memory: up to 32 GB DDR3 (4 SO-DIMM sockets)
+Graphics:
+Intel HD Graphics 3000
+NVIDIA Quadro 1000M (2 GB VRAM, 96 CUDA cores)
+NVIDIA Nvidia Quadro 2000M (2 GB VRAM, 192 CUDA cores)
+Display: 15.6 in (40 cm) 1920 × 1080 (16∶9) LED-backlit TN LCD (95% Adobe RGB coverage)
+Dimensions: 372.8 mm × 245.1 mm × 31.8 mm–35.6 mm (14.68 in × 9.65 in × 1.25 in–1.40 in)
+Mass/Weight: 2.70 kg (5.95 lb) (with an optical drive)According to LAPTOP Magazine, "the ThinkPad W520 offers blistering performance that should satisfy the most demanding users and businesses." On PCMark Vantage, the ThinkPad W520 scored 9909 points, 30% higher than the average score of desktop replacements. It also scored higher than the Dell Latitude E6420, which received a score of 7796.
+Processing and graphics
+The 2011 W520 model includes up to Intel Core i7 Quad Core Extreme Edition socketed processors with Intel Hyper-Threading technology. They are also equipped with Lenovo Enhanced Experience 2.0 for Windows 7.Graphics options on the W520 model included NVIDIA Fermi architecture-based graphics with Optimus technology. This allows for support for up to two additional monitors. Despite the fact that the W-series laptops are Ubuntu certified, Optimus is not well supported in Linux, requiring workarounds for proper functionality. The 2011 W-series laptops offer 1080p FHD (1920 × 1080) displays with 95% coverage of the Adobe RGB color space gamut. X-Rite Pantone color calibration is also included.Storage space on the W520 model is up to 640 GB. The 2011 W-series laptops also include superspeed USB 3.0 ports.ISV certifications
+The W520 includes ISV certifications for DSS CATIA, SolidWorks, Autodesk Inventor, AutoCAD, Adobe, and Maya.
+
+
+=== W530 ===
+Released in June, 2012, the W530 has a very similar exterior appearance to the prior W models. Being the last W model prior to the W540 redesign, it is the last W to feature the lid lock, keyboard light and wireless and HDD LED indicators, and the first W model to feature the controversial yet well-reviewed island-style keyboard, which features 6 rows rather than 7 rows of keys and a more modern key shape. The W530 comes equipped with Ivy Bridge processors.
+Notable changes/new features:
+
+3rd generation Intel Core (Ivy Bridge) processors
+Mini DisplayPort v1.2
+New-style keyboard with backlight
+
+
+=== W540 ===
+Announced in 2013 and released in the US and Europe early 2014, the W540 featured a brand new, slimmer design based on the new generations of T4xx series released the year before. 
+Slimmer than the prior W530, the new design received mixed reactions from traditional ThinkPad users. Critique was mainly aimed towards lower build quality and missing user interface indicators, together with a new style of trackpad where the traditional ThinkPad trackpoint functionality had been radically changed, and the controversial Chiclet style keyboard introduced in 2012 on other products, which many enthusiasts claimed abandoned the core tactile principles established by IBM over previous decades.
+The new W series however featured newer hardware such as the option for a 3K IPS display.
+
+Other new features included:
+
+Full size keyboard w/numeric keypad (though offset from center of screen, causing criticism from those who rarely use the keypad)
+New trackpad/trackpoint integration (though TrackPoint "thumb" buttons were removed causing criticism due to lost tactile feedback)
+Changed UltraBay design (the easy eject locking buttons were replaced by a hidden locking screw rendering "hot swap" functionality moot and earlier UltraBay modules incompatible)
+New rectangular connector for charger (rendering earlier accessories and docking stations obsolete)
+Thinner profile
+Lighter weight
+
+
+=== W541 ===
+The Lenovo W541 is a ThinkPad W540 featuring the new-style keyboard but with a re-introduction of the classic ThinkPad trackpad design. The prior ThinkPad trackpad design featured in the W540 and other 4th-gen ThinkPads was abandoned.
+
+
+=== W550s ===
+Rather than being a successor of any previous W-series model, the Lenovo W550s is a thinner Ultrabook variant of the W series; Likewise a latest P5xs series ThinkPads, the W550s was based in a T-series chassis. While a capable Ultrabook, when compared to the W541 and its predecessors, it offers less capability with only dual-core hyper-threaded Intel Broadwell Processors vs. the true quad-core processors of other models and has only two RAM slots.
+
+
+== Discontinuation and successor ==
+The ThinkPad W series was discontinued and replaced by ThinkPad ThinkPad P series, beginning with the P50 and P70 in 2016. The P70 re-introduced the 17-inch screen to the ThinkPad workstation line.
+
+
+== References ==
+
+
+== External links ==
+ThinkPad W Series from Lenovo

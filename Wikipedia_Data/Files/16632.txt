@@ -1,0 +1,63 @@
+Title: Pardus (operating system)
+Aspects: {'Yali'}
+
+Pardus is a Linux distribution developed with support from the Turkish government. Pardus' main focus is office-related work including the use in Turkish government agencies. Despite that, Pardus ships in several languages. Its ease of use and availability free of charge has spawned numerous communities throughout the world.
+
+
+== Development ==
+Pardus was started by Turkish National Research Institute of Electronics and Cryptology (UEKAE), a division of the Scientific and Technological Research Council of Turkey (TÜBİTAK).
+The first live CD version of Pardus was a fork of Gentoo Linux. The current version is a fork of Debian.
+
+
+== Release history ==
+
+
+== PiSi package management ==
+PiSi (; Packages Installed Successfully as Intended; also a Turkish word meaning "kitty", intended as a pun on the distribution's name, which is derived from pardus, the species name of the leopard.) is a package management system that was developed for Pardus. It was used in the initial versions of the distribution, but abandoned in favor of APT since the project moved to Debian base. Pardus 2011.2, released on September 19, 2011, was the last Pardus release that used PiSi.
+PiSi stores and handles dependencies for various packages, libraries, and COMAR tasks. Some features of PiSi include:
+Uses the LZMA compression algorithm
+Written in Python
+Package sources are written in XML and Python
+Database access implemented with Berkeley DB
+Integrates low-level and high-level package operations (dependency resolution)
+Framework approach to build applications and tools uponA community fork of the old Pardus with PiSi package management exists, called PiSi Linux. PiSi Linux's latest stable version is 1.2, and latest development version is 2.0 Beta 2.eopkg - the package manager of the Solus project, a rolling-release Linux distribution, is based on / derived from PiSi.
+
+
+== YALI ==
+YALI (Yet Another Linux Installer) is the first Pardus software a user encounters. Basically, it recognizes the hardware and installs Pardus software from installation media (i.e. CD) to a user-selected hard disk partition. YALI can handle resizing of NTFS partitions found on the disk. YALI means "waterside mansion" in Turkish.
+
+
+== KAPTAN ==
+KAPTAN is a desktop greeter, which starts at the first start. It allows a user to change the desktop theme, mouse, keyboard and language settings, date and time, KDE menus, wallpaper, Package Manager settings, smolt, number of desktops. The word Kaptan means 'captain' in Turkish.
+
+
+== Reception ==
+Ladislav Bodnar, the creator of DistroWatch, wrote in his round-up of Linux/*nix in 2006 that Pardus is one of the distros he was most impressed by that year "... thanks to unique package management ideas, innovative start-up sequence and general desktop polish ..."Dmitri Popov, an author of Linux User & Developer, titled his review of Pardus 2011 Beta as the most exciting distro of the year.
+
+
+== Social events and participation ==
+Pardus participated in Google Summer of Code 2008 and 2009.
+Pardus attended CeBIT Eurasia in 2006, 2008, 2009, 2010, and 2011.
+
+
+== Derivatives ==
+Pardus Community Edition based on Debian released on April 12, 2013.Pisi Linux and Pardus-Anka projects forked from PİSİ based Pardus. A group of volunteers aim to continue PİSİ and other features of Pardus independently.Pisi Linux released two new versions. These versions are direct continuation of Pardus 2011.2 64bit edition, includes updated versions of Pisi, Kaptan etc.
+
+
+== Usage ==
+Turkish Armed Forces (partially)
+Ministry of Foreign Affairs (Turkey) (partially)
+Ministry of National Defence (Turkey)
+Turkish Police (partially)
+Social Security Institution (migrating)
+
+
+== References ==
+
+
+== External links ==
+Official website
+Pardus Linux at DistroWatch
+PardusWiki – Multilingual resources
+PiSi Linux's website
+Pardus in OpenSourceFeed Gallery

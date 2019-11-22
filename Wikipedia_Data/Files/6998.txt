@@ -1,0 +1,138 @@
+Title: Compactly generated space
+Aspects: {'K-space'}
+
+In topology, a compactly generated space (or k-space) is a topological space whose topology is coherent with the family of all compact subspaces. Specifically, a topological space X is compactly generated if it satisfies the following condition:
+
+A subspace A is closed in X if and only if A ∩ K is closed in K for all compact subspaces K ⊆ X.Equivalently, one can replace closed with open in this definition. If X is coherent with any cover of compact subspaces in the above sense then it is, in fact, coherent with all compact subspaces.
+A compactly generated Hausdorff space is a compactly generated space that is also Hausdorff. Like many compactness conditions, compactly generated spaces are often assumed to be Hausdorff or weakly Hausdorff.
+
+
+== Motivation ==
+Compactly generated spaces were originally called k-spaces, after the German word kompakt. They were studied by Hurewicz, and can be found in General Topology by Kelley, Topology by Dugundji, Rational Homotopy Theory by Félix, Halperin, and Thomas.
+The motivation for their deeper study came in the 1960s from well known deficiencies of the usual topological category. This fails to be a cartesian closed category, the usual cartesian product of identification maps is not always an identification map, and the usual product of CW-complexes need not be a CW-complex. By contrast, the category of simplicial sets had many convenient properties, including being cartesian closed. The history of the study of repairing this situation is given in the article on the nLab on convenient categories of spaces.
+The first suggestion (1962) to remedy this situation was  to restrict oneself to the full subcategory of compactly generated Hausdorff spaces, which is in fact cartesian closed. These ideas extend on the de Vries duality theorem. A definition of the exponential object is given below. Another suggestion (1964) was to consider the usual Hausdorff spaces but use functions continuous on compact subsets.
+These ideas can be generalised to the non-Hausdorff case. This is useful since identification spaces of Hausdorff spaces need not be Hausdorff.In modern-day algebraic topology, this property is mostly commonly coupled with the weak Hausdorff property, so that one works in the category of weak Hausdorff compactly generated (WHCG) spaces.
+
+
+== Examples and counterexamples ==
+Most topological spaces commonly studied in mathematics are compactly generated.
+
+Every Hausdorff compact space is compactly generated.
+Every Hausdorff locally compact space is compactly generated.
+Every Hausdorff first-countable space is compactly generated.
+Topological manifolds are locally compact Hausdorff and therefore compactly generated Hausdorff.
+Metric spaces are first-countable and therefore compactly generated Hausdorff.
+Every CW complex is compactly generated Hausdorff.Examples of topological spaces that fail to be compactly generated include the following.
+
+The space 
+  
+    
+      
+        (
+        
+          R
+        
+        ∖
+        {
+        1
+        
+          /
+        
+        n
+         
+        
+          |
+        
+         
+        n
+        =
+        1
+        ,
+        2
+        ,
+        3
+        ,
+        …
+        }
+        )
+        ×
+        (
+        
+          R
+        
+        
+          /
+        
+        
+          Z
+        
+        )
+      
+    
+    {\displaystyle (\mathbb {R} \backslash \{1/n\ |\ n=1,2,3,\dots \})\times (\mathbb {R} /\mathbb {Z} )}
+   with the product topology.
+If 
+  
+    
+      
+        
+          
+            F
+          
+        
+      
+    
+    {\displaystyle {\mathcal {F}}}
+   is a non-principal ultrafilter on an infinite set 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  , the induced topology has the property that every compact set is finite. The compactly generated topology on 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+   is thus discrete, so 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+   is not compactly generated.
+
+
+== Properties ==
+We denote CGTop the full subcategory of Top with objects the compactly generated spaces, and CGHaus the full subcategory of CGTop with objects the Hausdorff spaces.
+Given any topological space X we can define a (possibly) finer topology on X that is compactly generated. Let {Kα} denote the family of compact subsets of X. We define the new topology on X by declaring a subset A to be closed if and only if A ∩ Kα is closed in Kα for each α. Denote this new space by Xc. One can show that the compact subsets of Xc and X coincide, and the induced topologies on compact sets are the same. It follows that Xc is compactly generated. If X was compactly generated to start with then Xc = X otherwise the topology on Xc is strictly finer than X (i.e. there are more open sets).
+This construction is functorial.  The functor from Top to CGTop that takes X to Xc is right adjoint to the inclusion functor CGTop → Top.
+The continuity of a map defined on a compactly generated space X can be determined solely by looking at the compact subsets of X. Specifically, a function f : X → Y is continuous if and only if it is continuous when restricted to each compact subset K ⊆ X.
+If X and Y are two compactly generated spaces the product X × Y may not be compactly generated (it will be if at least one of the factors is locally compact). Therefore when working in categories of compactly generated spaces it is necessary to define the product as (X × Y)c.
+The exponential object in CGHaus is given by (YX)c where YX is the space of continuous maps from X to Y with the compact-open topology.
+These ideas can be generalised to the non-Hausdorff case. This is useful since identification spaces of Hausdorff spaces need not be Hausdorff.
+
+
+== See also ==
+Compact-open topology
+CW complex
+Finitely generated space
+Countably generated space
+Weak Hausdorff space
+
+
+== References ==
+
+Mac Lane, Saunders (1998). Categories for the Working Mathematician. Graduate Texts in Mathematics 5 (2nd ed.). Springer-Verlag. ISBN 0-387-98403-8.
+Willard, Stephen (1970). General Topology. Reading, Massachusetts: Addison-Wesley. ISBN 0-486-43479-6.
+J. P. May, A Concise Course in Algebraic Topology, (1999) Chicago Lectures in Mathematics ISBN 0-226-51183-9 (See Chapter 5.)
+Strickland, Neil P. (2009). "The category of CGWH spaces" (PDF).
+Compactly generated topological space in nLab
+Convenient category of topological spaces in nLab

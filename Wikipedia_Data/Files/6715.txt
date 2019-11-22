@@ -1,0 +1,80 @@
+Title: General Electric J73
+Aspects: {'J73 (disambiguation)'}
+
+The General Electric J73 turbojet was developed by General Electric from the earlier J47 engine. Its original USAF designation was J47-21, but with innovative features including variable inlet guide vanes, double-shell (inner and outer) combustor case, and 50% greater airflow was redesignated J73. Its only use was in the North American F-86H.
+
+
+== Design and development ==
+An engine, uprated from the J47, was required for the F-86H. The mass flow was increased by relocating accessories from the centre of the compressor inlet to the underside of the engine. This allowed a reduction in blade hub diameter, which together with an increase in tip diameter, gave a bigger area for air to enter the compressor. The area through the combustion chambers also had to be increased.This was done by replacing the multiple individual chambers with a single annular casing with individual flame tubes or cans known as cannular.The pressure ratio was increased and variable inlet guide vanes fitted to prevent low-RPM problems (rotating stall/blade flutter) with the higher design pressure ratio. A 2-stage turbine was required.A low boost (10% at take-off) afterburner was fitted. It was known as a tailpipe augmentation (TPA) system.
+
+
+== Variants ==
+
+J73-GE-1
+
+J73-GE-3
+9,200 lbf (40.92 kN) for the North American F-86H Sabre.
+J73-GE-5
+Variant intended for a proposed Advanced F-89.
+
+
+== Applications ==
+
+North American F-86H Sabre
+Republic YF-84J Thunderstreak, two prototypes
+
+
+== Specifications (J73-GE-3) ==
+Data from Flight 9 April 1954 : Aero Engines 1954, Aircraft engines of the World 1953
+
+
+==== General characteristics ====
+Type: non-afterburning turbojet (J73-GE-5 with afterburning)
+Length: 200 in (5,080 mm)
+Diameter: 39.5 in (1,003 mm)
+Dry weight: 3,600 lb (1,630 kg)
+
+
+==== Components ====
+Compressor: 12 stage, axial flow, variable inlet guide vanes
+Combustors: 10 cannular combustion chambers
+Turbine: 2 stage axial turbine
+Fuel type: MIL-F-5624A / JP-4
+Oil system: dry sump, pressure spray with gear pumps
+
+
+==== Performance ====
+Maximum thrust: 9,000 lbf (40 kN) ; (J73-GE-5 - 9,500 lbf (42 kN) dry, 12,500 lbf (56 kN) with afterburner)
+Overall pressure ratio: 7.5:1
+Air mass flow: 155 lb/s (70 kg/s)
+Specific fuel consumption: 0.9 lb/(lbf⋅h) or 25 g/(kN⋅s)
+Thrust-to-weight ratio: 2.5 (J73-GE-5 - 2.64 dry, 3.47 with afterburner)
+
+
+== See also ==
+United States military aircraft engine designationsRelated development
+
+General Electric J47
+General Electric J79
+General Electric YJ93
+Comparable engines
+
+Armstrong Siddeley Sapphire
+Rolls-Royce Avon
+Snecma Atar
+Tumansky R-13
+Tumansky R-25Related lists
+
+List of aircraft engines
+
+
+== References ==
+
+
+== Further reading ==
+Gunston, Bill (2006). World Encyclopedia of Aero Engines, 5th Edition. Phoenix Mill, Gloucestershire, England, UK: Sutton Publishing Limited. ISBN 0-7509-4479-X.
+Kay, Anthony L. (2007). Turbojet History and Development 1930֪–1960  Volume 2:USSR, USA, Japan, France, Canada, Sweden, Switzerland, Italy and Hungary (1st ed.). Ramsbury: The Crowood Press. ISBN 978-1861269393.
+
+
+== External links ==
+General Electric J73 Turbojet – National Museum of the United States Air Force

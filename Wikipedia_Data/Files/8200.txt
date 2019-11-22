@@ -1,0 +1,29 @@
+Title: MYOM2
+Aspects: {'M protein'}
+
+M-protein, also known as Myomesin-2 is a protein that in humans is encoded by the MYOM2 gene. M-protein is expressed in adult cardiac muscle and fast skeletal muscle, and functions to stabilize the three-dimensional arrangement of proteins comprising M-band structures.
+
+
+== Structure ==
+Human M-protein is 165.0 kDa and 1465 amino acids in length. MYOM2 is localized to the human chromosome 8p23.3. M-protein belong to the superfamily of cytoskeletal proteins having immunoglobulin/fibronectin repeats; M-protein contains two immunoglobulin C2-type repeats in the N-terminal region, five fibronectin type III repeats in the central region, and an additional four immunoglobulin C2-type repeats in the C-terminal region. M-protein is expressed only in striated muscle, including fast skeletal muscle and cardiac muscle.
+
+
+== Function ==
+M-protein exhibits a different pattern of expression in cardiac and skeletal muscle, as well as fast- versus slow-skeletal muscle during development, suggesting different regulatory mechanisms for expression quantity and temporal appearance. In cardiac muscle, expression of M-protein continues to increase from neonatal to adult; however, in skeletal muscle, M-protein mRNA expression is biophasic. M-protein is initially present in both slow- and fast-skeletal muscle embryonic fibers, then M-protein is suppressed in slow fibers. The embryonic splice variant of myomesin, termed EH-myomesin, is expressed in a complementary pattern with M-protein during development in higher vertebrates. It was also shown that the mRNA expression of M-protein is exquisitely sensitive to thyroid hormone (T3); M-protein expression, but not MYOM1 or its variant,EH-myomesin, was rapidly reduced by T3 in vivo and in vitro. The M-protein promoter is responsive to T3, and was suggested to contain thyroid hormone response elements near the transcriptional start point.The giant protein titin, together with its associated proteins, interconnects the major structure of sarcomeres, the M bands and Z discs. The C-terminal end of the titin string extends into the M line, where it binds tightly to M-band constituents MYOM1 and M-protein, of apparent molecular masses of 190 kD and 165 kD, respectively. M-protein functions to stabilize the M-line cross-linking titin and myosin; the central portion of M-protein is around the M1-line, and the N-terminal and C-terminal regions are arranged along thick filaments.An animal model of thyroid hormone (T3)-induced cardiac hypertrophy showed that T3 rapidly reduced levels of M-protein; and siRNA reduction of M-protein in neonatal cardiomyocytes showed that the absence of M-protein causes significant contractile dysfunction (77% reduction in contraction velocity), thus illuminating the importance of M-protein for normal sarcomere function.M-protein can be post-translationally modified in vivo. M-protein fragments generated via cleavage by matrix metalloproteinase 2 in left ventricular myocardium have been identified as a factor in the development of pulmonary hypertension and ascites in broiler chickens. Another study demonstrated that M-protein is S-thiolated during post-ischemic reperfusion. It was also determined that domains Mp2 to Mp3 in M-protein binds myosin, and this specific interaction can be regulated by phosphorylation.
+
+
+== Clinical Significance ==
+
+
+== Interactions ==
+M-protein interacts with:
+
+Titin
+CKM
+MYH7
+
+
+== References ==
+
+
+== Further reading ==

@@ -1,0 +1,1309 @@
+Title: Harmonic series (mathematics)
+Aspects: {'P series'}
+
+In mathematics, the harmonic series is the divergent infinite series:
+
+  
+    
+      
+        
+          ∑
+          
+            n
+            =
+            1
+          
+          
+            ∞
+          
+        
+        
+          
+            1
+            n
+          
+        
+        =
+        1
+        +
+        
+          
+            1
+            2
+          
+        
+        +
+        
+          
+            1
+            3
+          
+        
+        +
+        
+          
+            1
+            4
+          
+        
+        +
+        
+          
+            1
+            5
+          
+        
+        +
+        ⋯
+      
+    
+    {\displaystyle \sum _{n=1}^{\infty }{\frac {1}{n}}=1+{\frac {1}{2}}+{\frac {1}{3}}+{\frac {1}{4}}+{\frac {1}{5}}+\cdots }
+  Its name derives from the concept of overtones, or harmonics in music: the wavelengths of the overtones of a vibrating string are 1/2, 1/3, 1/4, etc., of the string's fundamental wavelength.  Every term of the series after the first is the harmonic mean of the neighboring terms; the phrase harmonic mean likewise derives from music.
+
+
+== History ==
+The fact that the harmonic series diverges was first proven in the 14th century by Nicole Oresme, but this achievement fell into obscurity. Proofs were given in the 17th century by Pietro Mengoli, Johann Bernoulli, and Jacob Bernoulli.Historically, harmonic sequences have had a certain popularity with architects. This was so particularly in the Baroque period, when architects used them to establish the proportions of floor plans, of elevations, and to establish harmonic relationships between both interior and exterior architectural details of churches and palaces.
+
+
+== Divergence ==
+There are several well-known proofs of the divergence of the harmonic series. A few of them are given below.
+
+
+=== Comparison test ===
+One way to prove divergence is to compare the harmonic series with another divergent series, where each denominator is replaced with the next-largest power of two:
+
+  
+    
+      
+        
+          
+            
+              
+              
+                
+
+                
+                1
+                +
+                
+                  
+                    1
+                    2
+                  
+                
+                +
+                
+                  
+                    1
+                    3
+                  
+                
+                +
+                
+                  
+                    1
+                    4
+                  
+                
+                +
+                
+                  
+                    1
+                    5
+                  
+                
+                +
+                
+                  
+                    1
+                    6
+                  
+                
+                +
+                
+                  
+                    1
+                    7
+                  
+                
+                +
+                
+                  
+                    1
+                    8
+                  
+                
+                +
+                
+                  
+                    1
+                    9
+                  
+                
+                +
+                ⋯
+              
+            
+            
+              
+                ≥
+                
+
+                
+              
+              
+                1
+                +
+                
+                  
+                    1
+                    2
+                  
+                
+                +
+                
+                  
+                    1
+                    
+                      
+                        
+                          4
+                        
+                      
+                    
+                  
+                
+                +
+                
+                  
+                    1
+                    4
+                  
+                
+                +
+                
+                  
+                    1
+                    
+                      
+                        
+                          8
+                        
+                      
+                    
+                  
+                
+                +
+                
+                  
+                    1
+                    
+                      
+                        
+                          8
+                        
+                      
+                    
+                  
+                
+                +
+                
+                  
+                    1
+                    
+                      
+                        
+                          8
+                        
+                      
+                    
+                  
+                
+                +
+                
+                  
+                    1
+                    8
+                  
+                
+                +
+                
+                  
+                    1
+                    
+                      
+                        
+                          16
+                        
+                      
+                    
+                  
+                
+                +
+                ⋯
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}&{}1+{\frac {1}{2}}+{\frac {1}{3}}+{\frac {1}{4}}+{\frac {1}{5}}+{\frac {1}{6}}+{\frac {1}{7}}+{\frac {1}{8}}+{\frac {1}{9}}+\cdots \\[12pt]\geq {}&1+{\frac {1}{2}}+{\frac {1}{\color {red}{\mathbf {4} }}}+{\frac {1}{4}}+{\frac {1}{\color {red}{\mathbf {8} }}}+{\frac {1}{\color {red}{\mathbf {8} }}}+{\frac {1}{\color {red}{\mathbf {8} }}}+{\frac {1}{8}}+{\frac {1}{\color {red}{\mathbf {16} }}}+\cdots \end{aligned}}}
+  Each term of the harmonic series is greater than or equal to the corresponding term of the second series, and therefore the sum of the harmonic series must be greater than or equal to the sum of the second series.  However, the sum of the second series is infinite:
+
+  
+    
+      
+        
+          
+            
+              
+              
+                
+
+                
+                1
+                +
+                
+                  (
+                  
+                    
+                      1
+                      2
+                    
+                  
+                  )
+                
+                +
+                
+                  (
+                  
+                    
+                      
+                        1
+                        4
+                      
+                    
+                    
+                    +
+                    
+                    
+                      
+                        1
+                        4
+                      
+                    
+                  
+                  )
+                
+                +
+                
+                  (
+                  
+                    
+                      
+                        1
+                        8
+                      
+                    
+                    
+                    +
+                    
+                    
+                      
+                        1
+                        8
+                      
+                    
+                    
+                    +
+                    
+                    
+                      
+                        1
+                        8
+                      
+                    
+                    
+                    +
+                    
+                    
+                      
+                        1
+                        8
+                      
+                    
+                  
+                  )
+                
+                +
+                
+                  (
+                  
+                    
+                      
+                        1
+                        16
+                      
+                    
+                    
+                    +
+                    
+                    ⋯
+                    
+                    +
+                    
+                    
+                      
+                        1
+                        16
+                      
+                    
+                  
+                  )
+                
+                +
+                ⋯
+              
+            
+            
+              
+                =
+                
+
+                
+              
+              
+                1
+                +
+                
+                  
+                    1
+                    2
+                  
+                
+                +
+                
+                  
+                    1
+                    2
+                  
+                
+                +
+                
+                  
+                    1
+                    2
+                  
+                
+                +
+                
+                  
+                    1
+                    2
+                  
+                
+                +
+                ⋯
+                =
+                ∞
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}&{}1+\left({\frac {1}{2}}\right)+\left({\frac {1}{4}}\!+\!{\frac {1}{4}}\right)+\left({\frac {1}{8}}\!+\!{\frac {1}{8}}\!+\!{\frac {1}{8}}\!+\!{\frac {1}{8}}\right)+\left({\frac {1}{16}}\!+\!\cdots \!+\!{\frac {1}{16}}\right)+\cdots \\[12pt]={}&1+{\frac {1}{2}}+{\frac {1}{2}}+{\frac {1}{2}}+{\frac {1}{2}}+\cdots =\infty \end{aligned}}}
+  It follows (by the comparison test) that the sum of the harmonic series must be infinite as well.  More precisely, the comparison above proves that
+
+  
+    
+      
+        
+          ∑
+          
+            n
+            =
+            1
+          
+          
+            
+              2
+              
+                k
+              
+            
+          
+        
+        
+          
+            1
+            n
+          
+        
+        ≥
+        1
+        +
+        
+          
+            k
+            2
+          
+        
+      
+    
+    {\displaystyle \sum _{n=1}^{2^{k}}{\frac {1}{n}}\geq 1+{\frac {k}{2}}}
+  for every positive integer k.
+This proof, proposed by Nicole Oresme in around 1350, is considered by many in the mathematical community to be a high point of medieval mathematics. It is still a standard proof taught in mathematics classes today. Cauchy's condensation test is a generalization of this argument.
+
+
+=== Integral test ===
+
+It is possible to prove that the harmonic series diverges by comparing its sum with an improper integral.  Specifically, consider the arrangement of rectangles shown in the figure to the right. Each rectangle is 1 unit wide and 1/n units high, so the total area of the infinite number of rectangles is the sum of the harmonic series:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  area of
+                
+              
+            
+            
+              
+                
+                  rectangles
+                
+              
+            
+          
+        
+        =
+        1
+        +
+        
+          
+            1
+            2
+          
+        
+        +
+        
+          
+            1
+            3
+          
+        
+        +
+        
+          
+            1
+            4
+          
+        
+        +
+        
+          
+            1
+            5
+          
+        
+        +
+        ⋯
+      
+    
+    {\displaystyle {\begin{array}{c}{\text{area of}}\\{\text{rectangles}}\end{array}}=1+{\frac {1}{2}}+{\frac {1}{3}}+{\frac {1}{4}}+{\frac {1}{5}}+\cdots }
+  Additionally, the total area under the curve y = 1/x from 1 to infinity is given by a divergent improper integral:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  area under
+                
+              
+            
+            
+              
+                
+                  curve
+                
+              
+            
+          
+        
+        =
+        
+          ∫
+          
+            1
+          
+          
+            ∞
+          
+        
+        
+          
+            1
+            x
+          
+        
+        
+        d
+        x
+        =
+        ∞
+        .
+      
+    
+    {\displaystyle {\begin{array}{c}{\text{area under}}\\{\text{curve}}\end{array}}=\int _{1}^{\infty }{\frac {1}{x}}\,dx=\infty .}
+  Since this area is entirely contained within the rectangles, the total area of the rectangles must be infinite as well. More precisely, this proves that
+
+  
+    
+      
+        
+          ∑
+          
+            n
+            =
+            1
+          
+          
+            k
+          
+        
+        
+          
+            1
+            n
+          
+        
+        >
+        
+          ∫
+          
+            1
+          
+          
+            k
+            +
+            1
+          
+        
+        
+          
+            1
+            x
+          
+        
+        
+        d
+        x
+        =
+        ln
+        ⁡
+        (
+        k
+        +
+        1
+        )
+        .
+      
+    
+    {\displaystyle \sum _{n=1}^{k}{\frac {1}{n}}>\int _{1}^{k+1}{\frac {1}{x}}\,dx=\ln(k+1).}
+  The generalization of this argument is known as the integral test.
+
+
+== Rate of divergence ==
+The harmonic series diverges very slowly.  For example, the sum of the first 1043 terms is less than 100.  This is because the partial sums of the series have logarithmic growth. In particular,
+
+  
+    
+      
+        
+          ∑
+          
+            n
+            =
+            1
+          
+          
+            k
+          
+        
+        
+          
+            1
+            n
+          
+        
+        =
+        ln
+        ⁡
+        k
+        +
+        γ
+        +
+        
+          ε
+          
+            k
+          
+        
+        ≤
+        (
+        ln
+        ⁡
+        k
+        )
+        +
+        1
+      
+    
+    {\displaystyle \sum _{n=1}^{k}{\frac {1}{n}}=\ln k+\gamma +\varepsilon _{k}\leq (\ln k)+1}
+  where γ is the Euler–Mascheroni constant and εk ~ 1/2k which approaches 0 as k goes to infinity. Leonhard Euler proved both this and also the more striking fact that the sum which includes only the reciprocals of primes also diverges, i.e.
+
+  
+    
+      
+        
+          ∑
+          
+            p
+            
+               prime 
+            
+          
+        
+        
+          
+            1
+            p
+          
+        
+        =
+        
+          
+            1
+            2
+          
+        
+        +
+        
+          
+            1
+            3
+          
+        
+        +
+        
+          
+            1
+            5
+          
+        
+        +
+        
+          
+            1
+            7
+          
+        
+        +
+        
+          
+            1
+            11
+          
+        
+        +
+        
+          
+            1
+            13
+          
+        
+        +
+        
+          
+            1
+            17
+          
+        
+        +
+        ⋯
+        =
+        ∞
+        .
+      
+    
+    {\displaystyle \sum _{p{\text{ prime }}}{\frac {1}{p}}={\frac {1}{2}}+{\frac {1}{3}}+{\frac {1}{5}}+{\frac {1}{7}}+{\frac {1}{11}}+{\frac {1}{13}}+{\frac {1}{17}}+\cdots =\infty .}
+  
+
+
+== Partial sums ==
+
+The finite partial sums of the diverging harmonic series,
+
+  
+    
+      
+        
+          H
+          
+            n
+          
+        
+        =
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          
+            1
+            k
+          
+        
+        ,
+      
+    
+    {\displaystyle H_{n}=\sum _{k=1}^{n}{\frac {1}{k}},}
+  are called harmonic numbers.
+The difference between Hn and ln n converges to the Euler–Mascheroni constant. The difference between any two harmonic numbers is never an integer. No harmonic numbers are integers, except for H1 = 1.
+
+
+== Related series ==
+
+
+=== Alternating harmonic series ===
+
+The series
+
+  
+    
+      
+        
+          ∑
+          
+            n
+            =
+            1
+          
+          
+            ∞
+          
+        
+        
+          
+            
+              (
+              −
+              1
+              
+                )
+                
+                  n
+                  +
+                  1
+                
+              
+            
+            n
+          
+        
+        =
+        1
+        −
+        
+          
+            1
+            2
+          
+        
+        +
+        
+          
+            1
+            3
+          
+        
+        −
+        
+          
+            1
+            4
+          
+        
+        +
+        
+          
+            1
+            5
+          
+        
+        −
+        ⋯
+      
+    
+    {\displaystyle \sum _{n=1}^{\infty }{\frac {(-1)^{n+1}}{n}}=1-{\frac {1}{2}}+{\frac {1}{3}}-{\frac {1}{4}}+{\frac {1}{5}}-\cdots }
+  is known as the alternating harmonic series.  This series converges by the alternating series test.  In particular, the sum is equal to the natural logarithm of 2:
+
+  
+    
+      
+        1
+        −
+        
+          
+            1
+            2
+          
+        
+        +
+        
+          
+            1
+            3
+          
+        
+        −
+        
+          
+            1
+            4
+          
+        
+        +
+        
+          
+            1
+            5
+          
+        
+        −
+        ⋯
+        =
+        ln
+        ⁡
+        2.
+      
+    
+    {\displaystyle 1-{\frac {1}{2}}+{\frac {1}{3}}-{\frac {1}{4}}+{\frac {1}{5}}-\cdots =\ln 2.}
+  The alternating harmonic series, while conditionally convergent, is not absolutely convergent: if the terms in the series are systematically rearranged, in general the sum becomes different and, dependent on the rearrangement, possibly even infinite.
+The alternating harmonic series formula is a special case of the Mercator series, the Taylor series for the natural logarithm.
+A related series can be derived from the Taylor series for the arctangent:
+
+  
+    
+      
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          
+            
+              (
+              −
+              1
+              
+                )
+                
+                  n
+                
+              
+            
+            
+              2
+              n
+              +
+              1
+            
+          
+        
+        =
+        1
+        −
+        
+          
+            1
+            3
+          
+        
+        +
+        
+          
+            1
+            5
+          
+        
+        −
+        
+          
+            1
+            7
+          
+        
+        +
+        ⋯
+        =
+        
+          
+            π
+            4
+          
+        
+        .
+      
+    
+    {\displaystyle \sum _{n=0}^{\infty }{\frac {(-1)^{n}}{2n+1}}=1-{\frac {1}{3}}+{\frac {1}{5}}-{\frac {1}{7}}+\cdots ={\frac {\pi }{4}}.}
+  This is known as the Leibniz series.
+
+
+=== General harmonic series ===
+The general harmonic series is of the form
+
+  
+    
+      
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          
+            1
+            
+              a
+              n
+              +
+              b
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle \sum _{n=0}^{\infty }{\frac {1}{an+b}},}
+  where a ≠ 0 and b are real numbers, and b/a is not zero or a negative integer.
+By the limit comparison test with the harmonic series, all general harmonic series also diverge.
+
+
+=== p-series ===
+A generalization of the harmonic series is the p-series (or hyperharmonic series), defined as
+
+  
+    
+      
+        
+          ∑
+          
+            n
+            =
+            1
+          
+          
+            ∞
+          
+        
+        
+          
+            1
+            
+              n
+              
+                p
+              
+            
+          
+        
+      
+    
+    {\displaystyle \sum _{n=1}^{\infty }{\frac {1}{n^{p}}}}
+  for any real number p. When p = 1, the p-series is the harmonic series, which diverges. Either the integral test or the Cauchy condensation test shows that the p-series converges for all p > 1 (in which case it is called the over-harmonic series) and diverges for all p ≤ 1. If p > 1 then the sum of the p-series is ζ(p), i.e., the Riemann zeta function evaluated at p.
+The problem of finding the sum for p = 2 is called the Basel problem; Leonhard Euler showed it is π2/6. The value of the sum for p = 3 is called Apéry's constant, since Roger Apéry proved that it is an irrational number.
+
+
+=== ln-series ===
+Related to the p-series is the ln-series, defined as
+
+  
+    
+      
+        
+          ∑
+          
+            n
+            =
+            2
+          
+          
+            ∞
+          
+        
+        
+          
+            1
+            
+              n
+              (
+              ln
+              ⁡
+              n
+              
+                )
+                
+                  p
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle \sum _{n=2}^{\infty }{\frac {1}{n(\ln n)^{p}}}}
+  for any positive real number p. This can be shown by the integral test to diverge for p ≤ 1 but converge for all p > 1.
+
+
+=== φ-series ===
+For any convex, real-valued function φ such that
+
+  
+    
+      
+        
+          lim sup
+          
+            u
+            →
+            
+              0
+              
+                +
+              
+            
+          
+        
+        
+          
+            
+              φ
+              
+                (
+                
+                  
+                    u
+                    2
+                  
+                
+                )
+              
+            
+            
+              φ
+              (
+              u
+              )
+            
+          
+        
+        <
+        
+          
+            1
+            2
+          
+        
+        ,
+      
+    
+    {\displaystyle \limsup _{u\to 0^{+}}{\frac {\varphi \left({\frac {u}{2}}\right)}{\varphi (u)}}<{\frac {1}{2}},}
+  the series
+
+  
+    
+      
+        
+          ∑
+          
+            n
+            =
+            1
+          
+          
+            ∞
+          
+        
+        φ
+        
+          (
+          
+            
+              1
+              n
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \sum _{n=1}^{\infty }\varphi \left({\frac {1}{n}}\right)}
+  is convergent.
+
+
+=== Random harmonic series ===
+The random harmonic series
+
+  
+    
+      
+        
+          ∑
+          
+            n
+            =
+            1
+          
+          
+            ∞
+          
+        
+        
+          
+            
+              s
+              
+                n
+              
+            
+            n
+          
+        
+        ,
+      
+    
+    {\displaystyle \sum _{n=1}^{\infty }{\frac {s_{n}}{n}},}
+  where the sn are independent, identically distributed random variables taking the values +1 and −1 with equal probability 1/2, is a well-known example in probability theory for a series of random variables that converges with probability 1. The fact of this convergence is an easy consequence of either the Kolmogorov three-series theorem or of the closely related Kolmogorov maximal inequality. Byron Schmuland of the University of Alberta further examined the properties of the random harmonic series, and showed that the convergent series is a random variable with some interesting properties.  In particular, the probability density function of this random variable evaluated at +2 or at −2 takes on the value 0.124999999999999999999999999999999999999999764..., differing from 1/8 by less than 10−42. Schmuland's paper explains why this probability is so close to, but not exactly, 1/8.  The exact value of this probability is given by the infinite cosine product integral C2 divided by π.
+
+
+=== Depleted harmonic series ===
+
+The depleted harmonic series where all of the terms in which the digit 9 appears anywhere in the denominator are removed can be shown to converge and its value is less than 80.  In fact, when all the terms containing any particular string of digits (in any base) are removed the series converges.
+
+
+== Applications ==
+The harmonic series can be counterintuitive to students first encountering it, because it is a divergent series even though the limit of the nth term as n goes to infinity is zero.  The divergence of the harmonic series is also the source of some apparent paradoxes. One example of these is the "worm on the rubber band". Suppose that a worm crawls along an infinitely-elastic one-meter rubber band at the same time as the rubber band is uniformly stretched.  If the worm travels 1 centimeter per minute and the band stretches 1 meter per minute, will the worm ever reach the end of the rubber band? The answer, counterintuitively, is "yes", for after n minutes, the ratio of the distance travelled by the worm to the total length of the rubber band is
+
+  
+    
+      
+        
+          
+            1
+            100
+          
+        
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          
+            1
+            k
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {1}{100}}\sum _{k=1}^{n}{\frac {1}{k}}.}
+  (In fact the actual ratio is a little less than this sum as the band expands continuously.)
+Because the series gets arbitrarily large as n becomes larger, eventually this ratio must exceed 1, which implies that the worm reaches the end of the rubber band. However, the value of n at which this occurs must be extremely large: approximately e100, a number exceeding 1043 minutes (1037 years). Although the harmonic series does diverge, it does so very slowly.
+Another problem involving the harmonic series is the Jeep problem, which (in one form) asks how much total fuel is required for a jeep with a limited fuel-carrying capacity to cross a desert, possibly leaving fuel drops along the route.  The distance that can be traversed with a given amount of fuel is related to the partial sums of the harmonic series, which grow logarithmically.  And so the fuel required increases exponentially with the desired distance.
+
+Another example is the block-stacking problem: given a collection of identical dominoes, it is clearly possible to stack them at the edge of a table so that they hang over the edge of the table without falling. The counterintuitive result is that one can stack them in such a way as to make the overhang arbitrarily large, provided there are enough dominoes.A simpler example, on the other hand, is the swimmer that keeps adding more speed when touching the walls of the pool. The swimmer starts crossing a 10-meter pool at a speed of 2 m/s, and with every cross, another 2 m/s is added to the speed. In theory, the swimmer's speed is unlimited, but the number of pool crosses needed to get to that speed becomes very large; for instance, to get to the speed of light (ignoring special relativity), the swimmer needs to cross the pool 150 million times. Contrary to this large number, the time required to reach a given speed depends on the sum of the series at any given number of pool crosses (iterations):
+
+  
+    
+      
+        
+          
+            10
+            2
+          
+        
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          
+            1
+            k
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {10}{2}}\sum _{k=1}^{n}{\frac {1}{k}}.}
+  Calculating the sum (iteratively) shows that to get to the speed of light the time required is only 97 seconds. By continuing beyond this point (exceeding the speed of light, again ignoring special relativity), the time taken to cross the pool will in fact approach zero as the number of iterations becomes very large, and although the time required to cross the pool appears to tend to zero (at an infinite number of iterations), the sum of iterations (time taken for total pool crosses) will still diverge at a very slow rate.
+
+
+== See also ==
+Harmonic progression
+List of sums of reciprocals
+
+
+== References ==
+
+
+== External links ==
+Hazewinkel, Michiel, ed. (2001) [1994], "Harmonic series", Encyclopedia of Mathematics, Springer Science+Business Media B.V. / Kluwer Academic Publishers, ISBN 978-1-55608-010-4
+"The Harmonic Series Diverges Again and Again" (PDF). The AMATYC Review. 27: 31–43. 2006.
+Weisstein, Eric W. "Harmonic Series". MathWorld.
+Weisstein, Eric W. "Book Stacking Problem". MathWorld.
+Hudelson, Matt (1 October 2010). "Proof Without Words: The Alternating Harmonic Series Sums to ln 2" (PDF). Mathematics Magazine. 83 (4): 294. doi:10.4169/002557010X521831.

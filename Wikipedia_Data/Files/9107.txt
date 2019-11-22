@@ -1,0 +1,282 @@
+Title: ATC code N05
+Aspects: {'N05'}
+
+ATC code N05 Psycholeptics is a therapeutic subgroup of the Anatomical Therapeutic Chemical Classification System, a system of alphanumeric codes developed by the WHO for the classification of drugs and other medical products. Subgroup N05 is part of the anatomical group N Nervous system.
+Codes for veterinary use (ATCvet codes) can be created by placing the letter Q in front of the human ATC code: for example, QN05. ATCvet codes without corresponding human ATC codes are cited with the leading Q in the following list.National issues of the ATC classification may include additional codes not present in this list, which follows the WHO version.
+
+
+== N05A Antipsychotics ==
+
+
+=== N05AA Phenothiazines with aliphatic side-chain ===
+N05AA01 Chlorpromazine
+N05AA02 Levomepromazine
+N05AA03 Promazine
+N05AA04 Acepromazine
+N05AA05 Triflupromazine
+N05AA06 Cyamemazine
+N05AA07 Chlorproethazine
+
+
+=== N05AB Phenothiazines with piperazine structure ===
+N05AB01 Dixyrazine
+N05AB02 Fluphenazine
+N05AB03 Perphenazine
+N05AB04 Prochlorperazine
+N05AB05 Thiopropazate
+N05AB06 Trifluoperazine
+N05AB07 Acetophenazine
+N05AB08 Thioproperazine
+N05AB09 Butaperazine
+N05AB10 Perazine
+
+
+=== N05AC Phenothiazines with piperidine structure ===
+N05AC01 Periciazine
+N05AC02 Thioridazine
+N05AC03 Mesoridazine
+N05AC04 Pipotiazine
+
+
+=== N05AD Butyrophenone derivatives ===
+N05AD01 Haloperidol
+N05AD02 Trifluperidol
+N05AD03 Melperone
+N05AD04 Moperone
+N05AD05 Pipamperone
+N05AD06 Bromperidol
+N05AD07 Benperidol
+N05AD08 Droperidol
+N05AD09 Fluanisone
+QN05AD90 Azaperone
+
+
+=== N05AE Indole derivatives ===
+N05AE01 Oxypertine
+N05AE02 Molindone
+N05AE03 Sertindole
+N05AE04 Ziprasidone
+N05AE05 Lurasidone
+
+
+=== N05AF Thioxanthene derivative ===
+N05AF01 Flupentixol
+N05AF02 Clopenthixol
+N05AF03 Chlorprothixene
+N05AF04 Thiothixene
+N05AF05 Zuclopenthixol
+
+
+=== N05AG Diphenylbutylpiperidine derivatives ===
+N05AG01 Fluspirilene
+N05AG02 Pimozide
+N05AG03 Penfluridol
+
+
+=== N05AH Diazepines, oxazepines, thiazepines and oxepines ===
+N05AH01 Loxapine
+N05AH02 Clozapine
+N05AH03 Olanzapine
+N05AH04 Quetiapine
+N05AH05 Asenapine
+N05AH06 Clotiapine
+
+
+=== QN05AK Neuroleptics, in tardive dyskinesia ===
+
+
+=== N05AL Benzamides ===
+N05AL01 Sulpiride
+N05AL02 Sultopride
+N05AL03 Tiapride
+N05AL04 Remoxipride
+N05AL05 Amisulpride
+N05AL06 Veralipride
+N05AL07 Levosulpiride
+
+
+=== N05AN Lithium ===
+N05AN01 Lithium
+
+
+=== N05AX Other antipsychotics ===
+N05AX07 Prothipendyl
+N05AX08 Risperidone
+N05AX10 Mosapramine
+N05AX11 Zotepine
+N05AX12 Aripiprazole
+N05AX13 Paliperidone
+N05AX14 Iloperidone
+N05AX15 Cariprazine
+N05AX16 Brexpiprazole
+N05AX17 Pimavanserin
+QN05AX90 Amperozide
+
+
+== N05B Anxiolytics ==
+
+
+=== N05BA Benzodiazepine derivatives ===
+N05BA01 Diazepam
+N05BA02 Chlordiazepoxide
+N05BA03 Medazepam
+N05BA04 Oxazepam
+N05BA05 Potassium clorazepate
+N05BA06 Lorazepam
+N05BA07 Adinazolam
+N05BA08 Bromazepam
+N05BA09 Clobazam
+N05BA10 Ketazolam
+N05BA11 Prazepam
+N05BA12 Alprazolam
+N05BA13 Halazepam
+N05BA14 Pinazepam
+N05BA15 Camazepam
+N05BA16 Nordazepam
+N05BA17 Fludiazepam
+N05BA18 Ethyl loflazepate
+N05BA19 Etizolam
+N05BA21 Clotiazepam
+N05BA22 Cloxazolam
+N05BA23 Tofisopam
+N05BA24 Bentazepam
+N05BA56 Lorazepam, combinations
+
+
+=== N05BB Diphenylmethane derivatives ===
+N05BB01 Hydroxyzine
+N05BB02 Captodiame
+N05BB51 Hydroxyzine, combinations
+
+
+=== N05BC Carbamates ===
+N05BC01 Meprobamate
+N05BC03 Emylcamate
+N05BC04 Mebutamate
+N05BC51 Meprobamate, combinations
+
+
+=== N05BD Dibenzo-bicyclo-octadiene derivatives ===
+N05BD01 Benzoctamine
+
+
+=== N05BE Azaspirodecanedione derivatives ===
+N05BE01 Buspirone
+
+
+=== N05BX Other anxiolytics ===
+N05BX01 Mephenoxalone
+N05BX02 Gedocarnil
+N05BX03 Etifoxine
+N05BX04 Fabomotizole
+N05BX05 Lavandulae aetheroleum
+
+
+== N05C Hypnotics and sedatives ==
+
+
+=== N05CA Barbiturates, plain ===
+N05CA01 Pentobarbital
+N05CA02 Amobarbital
+N05CA03 Butobarbital
+N05CA04 Barbital
+N05CA05 Aprobarbital
+N05CA06 Secobarbital
+N05CA07 Talbutal
+N05CA08 Vinylbital
+N05CA09 Vinbarbital
+N05CA10 Cyclobarbital
+N05CA11 Heptabarbital
+N05CA12 Reposal
+N05CA15 Methohexital
+N05CA16 Hexobarbital
+N05CA19 Thiopental
+N05CA20 Ethallobarbital
+N05CA21 Allobarbital
+N05CA22 Proxibarbal
+
+
+=== N05CB Barbiturates, combinations ===
+N05CB01 Combinations of barbiturates
+N05CB02 Barbiturates in combination with other drugs
+
+
+=== N05CC Aldehydes and derivatives ===
+N05CC01 Chloral hydrate
+N05CC02 Chloralodol
+N05CC03 Acetylglycinamide chloral hydrate
+N05CC04 Dichloralphenazone
+N05CC05 Paraldehyde
+
+
+=== N05CD Benzodiazepine derivatives ===
+N05CD01 Flurazepam
+N05CD02 Nitrazepam
+N05CD03 Flunitrazepam
+N05CD04 Estazolam
+N05CD05 Triazolam
+N05CD06 Lormetazepam
+N05CD07 Temazepam
+N05CD08 Midazolam
+N05CD09 Brotizolam
+N05CD10 Quazepam
+N05CD11 Loprazolam
+N05CD12 Doxefazepam
+N05CD13 Cinolazepam
+QN05CD90 Climazolam
+
+
+=== N05CE Piperidinedione derivatives ===
+N05CE01 Glutethimide
+N05CE02 Methyprylon
+N05CE03 Pyrithyldione
+
+
+=== N05CF Benzodiazepine related drugs ===
+N05CF01 Zopiclone
+N05CF02 Zolpidem
+N05CF03 Zaleplon
+N05CF04 Eszopiclone
+
+
+=== N05CH Melatonin receptor agonists ===
+N05CH01 Melatonin
+N05CH02 Ramelteon
+N05CH03 Tasimelteon
+
+
+=== N05CM Other hypnotics and sedatives ===
+N05CM01 Methaqualone
+N05CM02 Clomethiazole
+N05CM03 Bromisoval
+N05CM04 Carbromal
+N05CM05 Scopolamine
+N05CM06 Propiomazine
+N05CM07 Triclofos
+N05CM08 Ethchlorvynol
+N05CM09 Valerianae radix
+N05CM10 Hexapropymate
+N05CM11 Bromides
+N05CM12 Apronal
+N05CM13 Valnoctamide
+N05CM15 Methylpentynol
+N05CM16 Niaprazine
+N05CM18 Dexmedetomidine
+N05CM19 Suvorexant
+QN05CM90 Detomidine
+QN05CM91 Medetomidine
+QN05CM92 Xylazine
+QN05CM93 Romifidine
+QN05CM94 Metomidate
+
+
+=== N05CX Hypnotics and sedatives in combination, excluding barbiturates ===
+N05CX01 Meprobamate, combinations
+N05CX02 Methaqualone, combinations
+N05CX03 Methylpentynol, combinations
+N05CX04 Clomethiazole, combinations
+N05CX05 Emepronium, combinations
+N05CX06 Dipiperonylaminoethanol, combinations
+
+
+== References ==

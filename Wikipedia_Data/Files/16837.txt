@@ -1,0 +1,54 @@
+Title: XGI Technology
+Aspects: {'Z7'}
+
+XGI Technology Inc. (Chinese: 圖誠科技; pinyin: Tú Chéng Kējì) is based upon the old graphics division of SiS spun off as a separate company, and the graphics assets of Trident Microsystems.
+
+
+== History ==
+Founded in June 2003 and headquartered in Taipei, Taiwan, in December 2003, XGI announced the Volari Duo, a graphics card with two GPUs. This was seen as part of a potentially successful attempt to become competitive with ATI Technologies and Nvidia Corporation, which were the two largest GPU manufacturers in the world at the time.
+A few months after the announced release, XGI graphics cards were found by enthusiasts and hardware reviewers to be less than competitive with ATi and Nvidia cards. Some of the many performance and visualization problems were blamed on underdeveloped drivers. Even so, XGI cards received good reviews in the low price/low performance video card market: XGI Volari V3 cards were judged by some reviewers to be competitive and even superior to equally priced video cards that were on the market, such as a Nvidia GeForce MX 4000 card. Many reviewers though were pessimistic of the possibility that XGI would be competitive in the 3D graphic card market.
+On 6 March 2006, ATI Technologies announced the acquisition of Shanghai-based MacroSynergy, a fabless chip designer and XGI Technology alliance company, as well as related personnel working out of XGI Technology's Santa Clara, California location.
+On 2006-10-17, RealVision Inc. announced forming technology alliance with XGI Technology Inc. On 2006-10-23, RealVision Inc. announced VREngine/XMD-Advanced series video cards, which used the previously canceled Volari 8300 (named Volari XG47), for use in medical imaging. Mass production was set to begin on 2007Q1.
+On 2010-05-27, SiS (Silicon Integrated Systems) took control of XGI Technology and inherits its iTV technology with an unveiling soon after. So far there is no product page/support page for any XGI products on www.sis.com.
+On 2010-10-01, Its official SiS state full buy out of XGI; XGI Technology was then declared on its end of line (EOL).
+
+
+== Chipset table ==
+
+
+== Cards ==
+
+Its line of graphics cards included:
+
+
+=== Developed by SiS team ===
+Volari Duo
+Volari V8, V8 Ultra
+Volari V5, V5 Ultra
+Volari V3 XT
+Volari V3 XE, V5 XE
+Volari Z7
+Volari Z9, Z9s — used by some server-class motherboards (ex. Supermicro X7SBA, X7SBT, and X7SBL series)
+Volari Z11Cancelled products
+
+Volari V5 XT
+Volari 8600, 8600 Mobile, 8600XT
+
+
+=== Developed by Trident team ===
+Volari V3
+Volari XP5, XP5m32, XP5m64
+Volari 8300 - Although product page is no longer available, and production of video cards using it are cancelled, the chips were made into production models of RealVision XMD Advanced series video cards.
+Volari 8300 Mobile/Volari XP10 - Originally titled Volari 8300 Mobile, it was renamed to Volari XP10 when it was finally available. XP10 added LVDS transmitter.
+
+
+== References ==
+Olson, Sander (2003). Start-up graphics company could rival ATI and nVidia. Retrieved Dec. 13, 2003 from http://www.geek.com/news/geeknews/2003Dec/bch20031212023040.htm
+Volari Duo. Retrieved Dec. 13, 2003 from https://web.archive.org/web/20031211020923/http://www.xgitech.com/products/products_2.asp?P=1
+Performance review of Volari V8
+Performance review of Volari V8 Duo
+
+
+== External links ==
+XGI Technology Inc.
+Club3D Volari Duo V8 Ultra Review

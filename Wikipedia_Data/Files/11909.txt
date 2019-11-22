@@ -1,0 +1,56 @@
+Title: Roland R-8
+Aspects: {'R8'}
+
+The R-8 Human Rhythm Composer is an electronic drum machine introduced in 1989 by Roland Corporation, using PCM voices. The R-8 features velocity- and pressure-sensitive trigger pads, and the ability to create loops of beats. The device has eight individual outputs, 12-voice polyphony, and four-part multitimbral MIDI.
+The R-8 had one RAM memory card slot for saving user-created patterns and songs, and one slot for PCM ROM cards to augment the internal sound banks.
+The R-8M is a rackmount version of the R-8, lacking the trigger pads and the sequencer capability,  but with three front-facing ROM card slots. These sound libraries may be accessed simultaneously. This device was available from 1989 through 1994. The rack version has less individual outputs: 6 instead of 8.In 1992, Roland released a second version of the R-8 drum machine, the R-8 MKII. This version offers greatly expanded memory. The ROM went from 67 to 199 samples. It brought onboard basically the content from the PCM cards SN-R8-01, SN-R8-02, SN-R8-09, SN-R8-10 and most of the 808 samples from SN-R8-04. It did lose 22 of the MK1 samples. Another 16 samples from the MK1 returned in a slightly modified version with another name. A minor omission on the MKII is the absence of the Space Invaders boot screen. This device was discontinued in 1996.
+Roland also came with a trimmed down version of the R8 in the form of the Roland R-5 which had less sounds and features than the R-8
+
+
+== PCM sound cards ==
+Known Roland ROM cards, each containing 26 samples:
+Roland SN-R8-01 - Contemporary Percussion
+Roland SN-R8-02 - Jazz Brush
+Roland SN-R8-03 - Sound Effects
+Roland SN-R8-04 - Electronic (Contains 11 TR-808 samples)
+Roland SN-R8-05 - Jazz
+Roland SN-R8-06 - Ethnic Percussion
+Roland SN-R8-07 - Mallet
+Roland SN-R8-08 - Dry
+Roland SN-R8-09 - Power Drums U.S.A.
+Roland SN-R8-10 - Dance (Contains 6 TR-909 and 10 CR-78 samples)
+Roland SN-R8-11 - Metallic Percussion
+
+
+== Notable Users ==
+New Order
+808 State
+Prince
+Massive Attack
+Jean-Michel Jarre
+Autechre
+Aphex Twin
+Colin Towns
+Human League
+Jermaine Jackson
+PIG
+Jimmy Edgar
+NTRSN
+N-Trance
+Orbital
+Tangerine Dream
+Underworld
+The Shamen
+Anthony Manning
+
+
+== References ==
+
+
+== Further reading ==
+"Retro: Roland R-8". Future Music. No. 56. Future Publishing. May 1997. p. 55. ISSN 0967-0378. OCLC 1032779031.
+"Roland R8". Music Technology. February 1989. pp. 78–84. ISSN 0957-6606. OCLC 483899345.
+"Roland R8M". Music Technology. April 1990. pp. 62–68. ISSN 0957-6606. OCLC 483899345.
+"Roland R8 Rhythm Composer". Sound On Sound. February 1989. pp. 26–30. ISSN 0951-6816. OCLC 31700536.
+"Roland R8". Home & Studio Recording. March 1989. pp. 14–16. ISSN 0896-7172. OCLC 17285024.
+"Roland R-8 Human Rhythm Composer MkII". Music Technology. July 1993. p. 39. ISSN 0957-6606. OCLC 24835173.

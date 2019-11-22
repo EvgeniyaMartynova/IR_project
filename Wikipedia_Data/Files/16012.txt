@@ -1,0 +1,13 @@
+Title: IBM Extended Density Format
+Aspects: {'XDF'}
+
+The IBM eXtended Density Format (XDF) is a way of superformatting standard high-density 3½-inch and 5¼-inch floppy disks to larger-than-standard capacities. It is supported natively by IBM's PC DOS versions 7 and 2000 and by OS/2 Warp 3 onward, using the XDF and XDFCOPY commands (directly in OS/2).
+When formatted as XDF disks, 3½-inch floppies can hold 1860 kB, and 5¼-inch floppies can hold 1540 kB, using different number of sectors as well as different sector size per track (not all sectors in the same track are of the same size).
+However, the first cylinder uses standard formatting, providing a small FAT12 section that can be accessed without XDF support and on which can be put a ReadMe file or the XDF drivers. Floppy distributions of OS/2 3.0, PC DOS 7 and onward used XDF formatting for most of the media set. Floppy disks formatted using XDF can only be read in floppy disk drives that are attached directly to the system by way of a FDC. Thus, USB attached floppy drives cannot read XDF formatted media.
+
+
+== See also ==
+2M, a program that allows the formatting of high capacity floppy disks
+fdformat, a program that allows the formatting of high capacity floppy disks
+DMF, a high-density diskette format used by Microsoft
+FD32MB, technically unrelated special HD floppy format supported by LS-240 SuperDisc drives also providing a traditionally formatted mini file system containing only a README file

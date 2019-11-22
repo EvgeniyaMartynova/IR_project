@@ -1,0 +1,25 @@
+Title: Sony Ericsson Xperia X8
+Aspects: {'X8'}
+
+The Sony Ericsson Xperia X8 is a mid-range 3G Android smartphone developed by Sony Ericsson in the Xperia series in released in Q4 2010. It is sold in many countries worldwide, including the United States on AT&T Mobility and low-end pay-monthly contracts in the UK. It originally shipped running Android 1.6 but was upgraded in early 2011 to Android 2.1.
+
+
+== Hardware ==
+The phone has a 3.0-inch (76 mm) capacitive touch screen LCD. It has a resolution of 320 by 480 pixels half-size video graphics array (HVGA) with 24-bit depth. On the back is a 3.2-megapixel camera with fixed focus. Photos can be geotagged. The camera can be accessed via the touchscreen menu, or via the dedicated camera button on the side of the phone. The Xperia X8 uses a 600 MHz Qualcomm MSM7227 processor, has a 3-axis accelerometer and built-in Global Positioning System (GPS), a digital compass, an ambient light sensor and a lug for attaching a strap.
+Multi-touch support was also added to several aftermarket firmware versions (ROMS) as a sideloaded modules (Now newer kernel included the code to enable it) which enabled users to use basic multitouch gestures such as pinch to zoom (On Synaptics digitizer) and real dual-touch (On Cypress digitizer) thanks to XDA Recognized Developer doixanh, AnDyx & andrej456, something that Sony Ericsson was adamant was impossible on the X8.
+
+
+== Software ==
+Sony Ericsson has made its own custom overlay on the Android system using an optimized version of the UX (user experience) interface, which consists of design elements, themes and custom applications. The four corners of the screen have replaceable shortcuts for commonly used applications. The main application is Sony Ericsson Timescape, a social networking application that combines messages from Facebook, Twitter, SMS and email into a flowing column on the home screen. Photos may be attached to contacts or sent to a Facebook account. The phone contains expected smartphone applications, and Wisepilot Navigation Software, Google Maps, YouTube, Sony's PlayNow Arena and TrackID (to identify a song by recording a small part of it).
+Sony Ericsson was widely criticized by X8 users for failing to provide Android firmware upgrades to 2.2 Froyo or 2.3 Gingerbread. They later stated that the phone's hardware was unable to run anything beyond 2.1 Eclair. They were later proved wrong by the Android modding community, who released their own versions of Android 2.2 and 2.3 in subsequent months, which ran stably on the X8. CyanogenMod released a 2.3 update for the X8 which required rooting. Since then, independent developers have made a fully working Ice Cream Sandwich (4.0) port, Jelly Bean (4.1 & 4.2) port as well as the latest Android KitKat (4.4) using a custom kernel.
+
+
+== See also ==
+List of Android devices
+
+
+== References ==
+
+
+== External links ==
+Official website

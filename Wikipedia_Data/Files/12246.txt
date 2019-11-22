@@ -1,0 +1,180 @@
+Title: English auxiliaries and contractions
+Aspects: {"'s"}
+
+In English grammar, certain verb forms are classified as auxiliary verbs. Although definitions vary, as generally conceived an auxiliary lacks inherent semantic meaning but instead modifies the meaning of another verb it accompanies. In English, verb forms are often classed as auxiliary on the basis of certain grammatical properties, particularly as regards their syntax. They also participate in subject–auxiliary inversion and negation by the simple addition of not after them.
+Certain auxiliaries have contracted forms, such as -'d for had or would and -'ll for will or shall. There are also many contractions formed from the negation of auxiliary verbs, all of which end in -n't (a reduced form of not). These contractions can participate in inversion as a unit (as in Why haven't you done it?, where the uncontracted form would be Why have you not done it?), and thus in a certain sense can be regarded as auxiliary verb forms in their own right.
+For details about modal auxiliaries, see English modal verbs.
+
+
+== Auxiliary verbs ==
+
+
+=== Auxiliaries as helping verbs ===
+An auxiliary is most generally understood as a verb that "helps" another verb by adding (only) grammatical information to it. On this basis, English auxiliaries include:
+
+forms of the verb do (do, does, did) when used with another verb to form questions, negation, emphasis, etc. (see do-support);
+forms of the verb have (have, has, had) when used to express perfect aspect;
+forms of the verb be (am, are, is, was, were) when used to express progressive aspect or passive voice;
+the modal verbs, used in a variety of meanings, principally relating to modality.The following are examples of sentences containing the above types of auxiliary verbs:
+
+Do you want tea? – do is an auxiliary accompanying the verb want, used here to form a question.
+He had given his all. – had is an auxiliary accompanying the past participle given, expressing perfect aspect.
+We are singing. – are is an auxiliary accompanying the present participle singing, expressing progressive aspect.
+It was destroyed. – was is an auxiliary accompanying the past participle destroyed, expressing passive voice.
+He can do it now. – can is a modal auxiliary accompanying the verb do.However, the above understanding of auxiliaries is not the only one in the literature, particularly in the case of forms of the verb be, which may be called auxiliary even when not accompanying another verb. Other approaches to defining auxiliary verbs are described below.
+
+
+=== Auxiliaries as verbs with special grammatical behavior ===
+A group of English verbs with certain special grammatical (syntactic) properties distinguishes them from other verbs. This group consists mainly of verbs that are auxiliaries in the above sense – verbs that add purely grammatical meaning to other verbs – and thus some authors use the term "auxiliary verb" to denote precisely the verbs in this group. However, not all enumerations of English auxiliary verbs correspond exactly to the group of verbs having these grammatical properties. This group of verbs may also be referred to by other names, such as "special verbs".The principal distinguishing properties of verbs in this special group are as follows:
+
+They can participate in what is called subject–auxiliary inversion, i.e. they can swap places with the subject of the clause, to form questions and for certain other purposes. For example, inversion of subject and verb is possible in the sentence They can sing (becoming Can they sing?); but it is not possible in They like to sing – it is not correct to say *Like they to sing? (instead do-support is required: Do they like to sing?).
+They undergo negation by the addition of not after them. For example, one can say They cannot sing, but not *They like not to sing (again do-support is required: They don't like...).
+Other distinctive features of verbs in this group include their ability to introduce verb phrase ellipsis (I can sing can be shortened to I can in appropriate contexts, whereas I like to sing cannot be shortened to I like), and the positioning of certain adverbs directly after them (compare I can often sing with I often like to sing).The group of verb forms with the above properties are:
+
+the finite indicative forms of the verb be: am, is, are, was, were;
+the finite indicative forms of the verb have: have, has, had, principally when used to make perfect verb forms;
+the finite indicative forms of the verb do: do, does, did, when used to provide do-support;
+the principal modal verbs can, could, may, might, must, shall, should, will, would;
+certain other verbs, sometimes but not always classed as modals: ought; dare and need in certain uses; had in had better; and sometimes used in used to (see the relevant sections of English modal verbs for details).Some linguists consider membership in this syntactic class the defining property for English auxiliary verbs. The chief difference between this syntactic definition of "auxiliary verb" and the functional definition given in the section above is that the syntactic definition includes forms of the verb be even when used simply as a copular verb (in sentences like I am hungry and It was a cat) where it does not accompany any other verb. For this and other differences in the sets of words identified as auxiliaries by various authors, see the following section.
+Non-indicative and non-finite forms of the same verbs (when performing the same functions) are usually described as auxiliaries too, even though all or most of the distinctive syntactical properties do not apply to them specifically: be (as infinitive, imperative and subjunctive), being and been; when used in the expression of perfect aspect, have (as infinitive), having and had (as past participle).
+Sometimes, non-auxiliary uses of have follow auxiliary syntax, as in Have you any ideas? and I haven't a clue. Other lexical verbs do not do this in modern English, although they did so formerly, and such uses as I know not... can be found in archaic English.
+
+
+=== Differences in listings of auxiliary verbs ===
+Lists or sets of auxiliary verbs in English, as given by various authors, generally consist of most or all of the verbs mentioned in the above sections, though with minor discrepancies.The main differences between the various proposed sets of auxiliary verbs are noted below.
+
+For the reasons mentioned above, forms of the verb be may or may not be regarded as auxiliaries when used as a copula not accompanying any other verb.
+The verb ought is sometimes excluded from the class of auxiliaries (specifically the modal auxiliaries) on the grounds that, unlike the principal modals, it requires the to-infinitive rather than the bare infinitive.
+The verbs dare and need are not always considered auxiliaries (or modals); their auxiliary-like syntactic behavior (and their modal-like invariance) applies only to some instances of these verbs – see dare and need.
+The verbs had and used in the expressions had better and used to are not always included among the auxiliaries or modals; in the case of used to, questions and negations are in any case more frequently formed using do-support than with auxiliary syntax.
+Other verbs with modal-like or auxiliary-like functions may sometimes be classed as auxiliaries even though they do not have auxiliary-like syntactic behavior; this may apply to have in the expression have to, meaning "must".The contractions of negated forms of auxiliary verbs (isn't, shouldn't, etc.) behave in a certain sense as if they were auxiliaries in their own right, in that they can participate as a whole in subject–auxiliary inversion.
+
+
+=== Meaning contribution ===
+Forms of the verbs have and be, used as auxiliaries with a main verb's past participle and present participle respectively, express perfect aspect and progressive aspect. When forms of be are used with the past participle, they express passive voice. It is possible to combine any two or all three of these uses:
+
+The room has been being cleaned for the past three hours.Here the auxiliaries has, been and being (each followed by the appropriate participle type) combine to express perfect and progressive aspect and passive voice.
+The auxiliary do (does, did) does not typically contribute any meaning (semantic or grammatical), except when used to add emphasis to an accompanying verb. This is called the emphatic mood in English: An example would be "I do go to work on time every day" (with intonational stress placed on do), compared to "I go to work on time every day." As an auxiliary, do mainly helps form questions, negations, etc., as described in the article on do-support.
+Other auxiliaries – the modal verbs – contribute meaning chiefly in the form of modality, although some of them (particularly will and sometimes shall) express future time reference. Their uses are detailed at English modal verbs, and tables summarizing their principal meaning contributions can be found in the articles Modal verb and Auxiliary verb.
+For more details on the uses of auxiliaries to express aspect, mood and time reference, see English clause syntax.
+
+
+== Contractions ==
+
+Contractions are a common feature of English, used frequently in ordinary speech. In written English, contractions are used in some formal writing and mostly in informal writing. They usually involve the elision of a vowel – an apostrophe being inserted in its place in written English – possibly accompanied by other changes. Many of these contractions involve auxiliary verbs and their negations, although not all of these have common contractions, and there are also certain other contractions not involving these verbs.
+Contractions were first used in speech during the early 17th century and in writing during the mid 17th century when not lost its stress and tone and formed the contraction -n't. Around the same time, contracted auxiliaries were first used. When it was first used, it was limited in writing to only fiction and drama. In the 19th and 20th centuries, the use of contractions in writing spread outside of fiction such as personal letters, journalism, and descriptive texts.Certain contractions tend to be restricted to less formal speech and very informal writing, such as John'd or Mary'd for "John/Mary would" (compare the personal pronoun forms I'd and you'd, which are much more likely to be encountered in relatively informal writing). This applies in particular to constructions involving consecutive contractions, such as wouldn't've for "would not have".
+Contractions in English are generally not mandatory as in some other languages. It is almost always acceptable to use the uncontracted form, although in speech this may seem overly formal. This is often done for emphasis: I am ready! The uncontracted form of an auxiliary or copula must be used in elliptical sentences where its complement is omitted: Who's ready? I am! (not *I'm!).
+Some contractions lead to homophony, which sometimes causes errors in writing. Confusion is particularly common between it's (for "it is/has") and the pronoun possessive its, and sometimes similarly between you're and your. For the confusion of have or -'ve with of (as in "would of" for would have), see Weak and strong forms in English.
+Contractions of the type described here should not be confused with abbreviations, such as Ltd. for "Limited (company)". Contraction-like abbreviations, such as int'l for international, are considered abbreviations as their contracted forms cannot be pronounced in speech. Abbreviations also include acronyms and initialisms.
+
+
+=== Contracted auxiliaries ===
+The following contractions of auxiliary verbs (including forms of be, whether as a strict auxiliary or as a copula) are used:
+
+-'m for am, in I'm (for I am)
+-'s for is, as in it's (for it is), the man's (for the man is, although the same form is used for the possessive), and she's (for she is)
+-'re for are, mostly in we're, you're and they're
+-'ve for auxiliary have, mostly in I've, you've, we've and they've
+-'s for auxiliary has (the examples given above for is could also be intended as it has, the man has and she has)
+-'d for auxiliary had or would, mostly in I'd, you'd, she'd, he'd, it'd, we'd, they'd and who'd (including in the expression had better)
+-'ll for will (sometimes interpreted as shall)
+in very informal English, -'s for does and -'d for did, as in What's he do there? Who'd you see there?The contraction -'s (for is, has or does) is pronounced in the same way as the regular plural ending -(e)s and possessive ending -'s, namely as /ɪz/ or /ə/ when following a sibilant sound, as /s/ when following any other voiceless consonant, and as /z/ otherwise.
+
+
+=== Negative contractions ===
+Contractions of negated auxiliary verbs in Standard English are formed by reducing the negative grammatical particle not to -n't, a clitic or suffix that is fused to the root verb form (which is modified in a few cases). The -n't may form a separate syllable, as in isn't and wouldn't (which are two-syllable words), or may become part of the preceding syllable, as in the monosyllables don't, aren't and weren't.
+The standard contractions for negation of auxiliaries are as follows:
+
+From forms of be: isn't, aren't, wasn't, weren't
+From forms of have: haven't, hasn't, hadn't
+From forms of do: don't, doesn't, didn't
+From modal verbs: can't (the full form is the single word cannot), couldn't, mayn't (rare), mightn't, mustn't, shan't (for shall not), shouldn't, won't (for will not), wouldn't, daren't, needn't, oughtn't, usedn't (rare).The above contractions can appear when the verb follows auxiliary-type syntax as defined in the section § Auxiliaries as verbs with special grammatical behavior. This includes all uses of be, and for some speakers have when used to denote possession (as in I haven't a clue). For details of the usage of the modal contractions, see the relevant sections of English modal verbs. For the possibility of inverting a negative contraction with the clause subject, see § Contractions and inversion below.
+The following four of the standard negative contractions involve changes to the form of the auxiliary.
+
+In can't (for cannot), the vowel may change – can has /æ/ in the strong form and /ə/ in the more common weak form, whereas can't has /ɑː/ in RP and /æ/ in standard American pronunciation. It was formerly written "ca'n't".
+In don't there is again a vowel change, from the /uː/ of do to the /oʊ/ (/əʊ/) of don't.
+In shan't (for shall not), the /l/ sound is dropped, and the vowel changes (in RP, from the /æ/ or weaker /ə/ of shall to the /ɑː/ of shan't). This contraction is not common in American English. It evolved from "shalln't", and was formerly written "sha'n't".
+In won't (for will not), again the /l/ sound is dropped, and the vowel is /oʊ/ (/əʊ/) rather than the /ɪ/ of will.There is no standard contraction for am not except in inversion. This is known as the "amn't gap". Some non-standard contractions for this and certain other negations are described in the following sections.
+
+
+==== Contractions representing am not ====
+Although there is no contraction for am not in standard English, there are certain colloquial or dialectal forms that may fill this role. These may be used in declarative sentences, whose standard form contains I am not, and in questions, with standard form am I not? In the declarative case the standard contraction I'm not is available, but this does not apply in questions, where speakers may feel the need for a negative contraction to form the analog of isn't it, aren't they, etc. (see § Contractions and inversion below).
+The following are sometimes used in place of am not in the cases described above:
+
+The contraction ain't may stand for am not, among its other uses. For details see the next section, and the separate article on ain't.
+The word amnae for "am not" exists in Scots, and has been borrowed into Scottish English by many speakers.
+The contraction amn't (formed in the regular manner of the other negative contractions, as described above) is a standard contraction of am not in some dialects, mainly Hiberno-English (Irish English) and Scottish English. In Hiberno-English the question form (amn't I?) is used more frequently than the declarative I amn't. (The standard I'm not is available as an alternative to I amn't in both Scottish English and Hiberno-English.) An example appears in Oliver St. John Gogarty's impious poem The Ballad of Japing Jesus: "If anyone thinks that I amn't divine, / He gets no free drinks when I'm making the wine". These lines are quoted in James Joyce's Ulysses, which also contains other examples: "Amn't I with you? Amn't I your girl?" (spoken by Cissy Caffrey to Leopold Bloom in Chapter 15).
+The contraction aren't, which in standard English represents are not, is a very common means of filling the "amn't gap" in questions: Aren't I lucky to have you around? Some twentieth-century writers described this usage as "illiterate" or awkward; today, however, it is reported to be "almost universal" among speakers of Standard English. Aren't as a contraction for am not developed from one pronunciation of "an't" (which itself developed in part from "amn't"; see the etymology of "ain't" in the following section). In non-rhotic dialects, "aren't" and this pronunciation of "an't" are homophones, and the spelling "aren't I" began to replace "an't I" in the early part of the 20th century, although examples of "aren't I" for "am I not" appear in the first half of the 19th century, as in "St. Martin's Day", from Holland-tide by Gerald Griffin, published in The Ant in 1827: "aren't I listening; and isn't it only the breeze that's blowing the sheets and halliards about?"There is therefore no completely satisfactory first-person alternative to aren't you? and isn't it? in standard English. The grammatical am I not? sounds stilted or affected, while aren't I? is grammatically dubious, and ain't I? is considered substandard. Nonetheless, aren't I? is the solution adopted in practice by most speakers.
+
+
+==== Other colloquial contractions ====
+Ain't (described in more detail in the article ain't) is a colloquialism and contraction for "am not", "is not", "was not" "are not", "were not" "has not", and "have not". In some dialects "ain't" is also used as a contraction of "do not", "does not", "did not", "cannot/can not", "could not", "will not", "would not" and "should not". The usage of "ain't" is a perennial subject of controversy in English."Ain't" has several antecedents in English, corresponding to the various forms of "to be not" and "to have not".
+"An't" (sometimes "a'n't") arose from "am not" (via "amn't") and "are not" almost simultaneously. "An't" first appears in print in the work of English Restoration playwrights. In 1695 "an't" was used as a contraction of "am not", and as early as 1696 "an't" was used to mean "are not". "An't" for "is not" may have developed independently from its use for "am not" and "are not". "Isn't" was sometimes written as "in't" or "en't", which could have changed into "an't". "An't" for "is not" may also have filled a gap as an extension of the already-used conjugations for "to be not".
+"An't" with a long "a" sound began to be written as "ain't", which first appears in writing in 1749. By the time "ain't" appeared, "an't" was already being used for "am not", "are not", and "is not". "An't" and "ain't" coexisted as written forms well into the nineteenth century.
+"Han't" or "ha'n't", an early contraction for "has not" and "have not", developed from the elision of the "s" of "has not" and the "v" of "have not". "Han't" also appeared in the work of English Restoration playwrights. Much like "an't", "han't" was sometimes pronounced with a long "a", yielding "hain't". With H-dropping, the "h" of "han't" or "hain't" gradually disappeared in most dialects, and became "ain't". "Ain't" as a contraction for "has not"/"have not" appeared in print as early as 1819. As with "an't", "hain't" and "ain't" were found together late into the nineteenth century.
+Some other colloquial and dialect contractions are described below:
+
+"Bain't" or "bain't", apparently a contraction of "be not", is found in a number of works employing eye dialect, including J. Sheridan Le Fanu's Uncle Silas. It is also found in a ballad written in Newfoundland dialect.
+"Don't" is a standard English contraction of "do not". However, for some speakers "don't" also functions colloquially as a contraction of "does not": Emma? She don't live here anymore. This is considered incorrect in standard English.
+"Hain't", in addition to being an antecedent of "ain’t", is a contraction of "has not" and "have not" in some dialects of English, such as Appalachian English. It is reminiscent of "hae" ("have") in Lowland Scots. In dialects that retain the distinction between "hain't" and "ain't", "hain't" is used for contractions of "to have not" and "ain't" for contractions of "to be not". In other dialects, "hain't" is used either in place of, or interchangeably with "ain't". "Hain't" is seen for example in Chapter 33 of Mark Twain's The Adventures of Huckleberry Finn: I hain't come back—I hain't been GONE. ("Hain't" is to be distinguished from "haint", a slang term for ghost (i.e., a "haunt"), famously used in the novel To Kill a Mockingbird.)
+
+
+=== Contractions not involving auxiliaries ===
+The following contractions used in English do not involve either auxiliaries (as defined in this article) or their negations:
+
+let's for let us when used to make first-person plural imperatives
+in some nonstandard dialects, -'s for as used for the relative pronoun that
+o'- in o'clock (originally a contraction of the words of (the))
+'t- for it, archaic except in stock uses such as 'Twas the night before Christmas
+-'d for -ed (the simple past tense marker), archaic except in abbreviated or shortened verbs.
+'em for them (in fact from the old form hem – see English personal pronouns)
+'im, 'er, 'is, etc. for him, her, his, etc. – see Weak and strong forms in English
+y'all, for you all, used as a plural second-person pronoun, mainly in the Southern United States
+g'day, for good day, used as a greeting, mainly in Australia
+-a for of, have – some forms of syncope may also be considered contractions, such as wanna for want to, gonna for going to, and others common in colloquial speech. The suffix -a can be a contraction for the auxiliary have, such as woulda for would have.
+
+
+== Contractions and inversion ==
+In cases of subject–auxiliary inversion, particularly in the formation of questions, the negative contractions can remain together as a unit and invert with the subject, thus acting as if they were auxiliary verbs in their own right. For example:
+
+He is going. → Is he going? (regular affirmative question formation)
+He isn't going. → Isn't he going? (negative question formation; isn't inverts with he)The alternative is not to use the contraction, in which case only the verb inverts with the subject, while the not remains in place after it:
+
+He is not going. → Is he not going?Note that the form with isn't he is no longer a simple contraction of the fuller form (which must be is he not, and not *is not he). Some more examples:
+
+Why haven't you washed? / Why have you not washed?
+Can't you sing? / Can you not sing? (the full form cannot is redivided in case of inversion)
+Where wouldn't they look for us? / Where would they not look for us?The contracted forms of the questions are more usual in informal English. They are commonly found in tag questions. For the possibility of using aren't I (or other dialectal alternatives) in place of the uncontracted am I not, see Contractions representing am not above.
+The same phenomenon sometimes occurs in the case of negative inversion:
+
+Not only doesn't he smoke, ... / Not only does he not smoke, ...
+
+
+== Notes ==
+
+
+== References ==
+Allerton, D. 2006. Verbs and their Satellites. In Handbook of English Linguistics. Aarts 7 MacMahon (eds.). Blackwell.
+Adger, D. 2003. Core syntax. Oxford, UK: Oxford University Press.
+Bresnan, J. 2001. Lexical-Functional Syntax. Malden, MA: Blackwell Publishers.
+Culicover, P. 2009. Natural language syntax. Oxford, UK: Oxford University Press.
+Crystal, D. 1997. A dictionary of linguistics and phonetics, 4th edition. Oxford, UK: Blackwell Publishers.
+Engel, U. 1994. Syntax der deutschen Sprache, 3rd edition. Berlin: Erich Schmidt Verlag.
+Eroms, H.-W. 2000. Syntax der deutschen Sprache. Berlin: de Gruyter.
+Finch, G. 2000. Linguistic terms and concepts. New York: St. Martin's Press.
+Fowler's Modern English Usage. 1996. Revised third edition. Oxford, UK: Oxford University Press.
+Jurafsky, M. and J. Martin. 2000. Speech and language processing. Dorling Kindersley (India): Pearson Education, Inc.
+Kroeger, P. 2004. Analyzing syntax: A lexical-functional approach. Cambridge, UK: Cambridge University Press.
+Lewis, M. The English Verb 'An Exploration of Structure and Meaning'. Language Teaching Publications. ISBN 0-906717-40-X
+Osborne, T. and T. Groß 2012. Constructions are catenae: Construction Grammar meets Dependency Grammar. Cognitive Linguistics 23, 1, 165-216.
+Palmer, F. R., A Linguistic Study of the English Verb, Longmans, 1965.
+Radford. A. 1997. Syntactic theory and the structure of English: A minimalist approach. Cambridge, UK: Cambridge University Press.
+Radford, A. 2004. English syntax: An introduction. Cambridge, UK: Cambridge University Press.
+Rowlett, P. 2007. The syntax of French. Cambridge, UK: Cambridge University Press.
+Sag, I. and T. Wasow. 1999. Syntactic theory: A formal introduction. Stanford, CA: CSLI Publications.
+Tesnière, L. 1959. Éleménts de syntaxe structurale. Paris: Klincksieck.
+Warnant, L. 1982. Structure syntaxique du français. Librairie Droz.
+Warner, Anthony R., English Auxiliaries, Cambridge Univ. Press, 1993.
+
+
+== External links ==

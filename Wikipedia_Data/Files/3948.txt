@@ -1,0 +1,76 @@
+Title: McDonnell XF-88 Voodoo
+Aspects: {'F88'}
+
+The McDonnell XF-88 Voodoo was a long-range, twin-engine jet fighter aircraft with swept wings designed for the United States Air Force. Although it never entered production, its design was adapted for the subsequent supersonic F-101 Voodoo.
+
+
+== Design and development ==
+The XF-88 originated from a 1946 United States Army Air Forces requirement for a long-range "penetration fighter" to escort bombers to their targets. It was to be essentially a jet-powered replacement for the wartime North American P-51 Mustang that had escorted Boeing B-17 Flying Fortress bombers over Germany. It was to have a combat radius of 900 mi (1,450 km) and high performance. McDonnell began work on the aircraft, dubbed Model 36, on 1 April 1946. On 20 June the company was given a contract for two prototypes designated XP-88. Dave Lewis was Chief of Aerodynamics on this project.
+
+The initial design was intended to have straight wings and a V-shaped tail, but wind tunnel tests indicated aerodynamic problems that led to a conventional tailplane being substituted and the wings being swept. The USAAF confirmed the order for the two prototypes on 14 February 1947, while a change in designation schemes led to the unflown prototypes being re-designated XF-88 on 1 July 1948, with the type gaining the nickname "Voodoo".The Voodoo had a low/mid-mounted wing, swept to 35°. The two engines, specified as Westinghouse J34 turbojets were in the lower fuselage, fed by air intakes in the wing roots and jetpipes beneath the rear fuselage. This made room in the long fuselage for the fuel tanks required for the required long range. The Voodoo's short nose had no radar, being intended to house an armament of six 20 mm (.79 in) M39 cannon, while the fighter's single pilot sat in a pressurized cockpit and was provided with an ejection seat.
+
+
+== Operational history ==
+The first XF-88 made its maiden flight from Muroc Field on 20 October 1948, piloted by McDonnell Chief Test Pilot Robert Edholm. It was unarmed and powered by non-afterburning J34-13 engines that gave 3,000 lbf (13.37 kN) thrust. While testing demonstrated adequate handling and the required endurance, the XF-88 proved to be underpowered. This resulted in inadequate performance, with its maximum speed of 641 mph being less than the F-86A then in production. In order to improve performance, it was decided to fit the second prototype's engines with McDonnell-designed afterburners. Thus modified, the engines became J34-22s, giving 3,600 lbf (16.05 kN) thrust. The second prototype, XF-88A, made its maiden flight on 26 April 1949, with the first prototype later modified to the same standard.The afterburners improved the Voodoo's performance, with the XF-88A reaching 700 mph (1,126 km/h) but at the expense of decreased range owing to increased fuel consumption. Despite this, the XF-88 was chosen against the Lockheed XF-90 and North American YF-93 for the USAF's Penetration Fighter requirement, with planned production versions to use more powerful Westinghouse J46 engines. (A 1948 order for 118 F-93s had been cancelled in 1949.) Changes in Air Force priorities, together with a shortage of money, led the penetration fighter to be cancelled in August 1950.The first prototype was modified to XF-88B standard as a propeller-research vehicle. The model propeller was driven by a nose-mounted Allison T38 turboprop which was used to assist in the climb as well as to reach the test conditions. The aircraft was used to test three propellers through 1956, to speeds slightly exceeding Mach 1.0, the first propeller-equipped aircraft to do so. The propeller was tested in level flight to about M 0.9 with the help of the turbojet afterburners, and to just over M 1.0 in a dive.McDonnell also proposed a naval version of the XF-88, a two-seat operational trainer, and a reconnaissance variant but none were built.  Both prototypes were scrapped by 1958.Experience of the Korean War led the USAF to reconsider its plans for penetration fighters and led to a new specification for a long-range fighter, General Operational Requirement (GOR) 101 being issued in February 1951. A considerably enlarged version of the design was chosen to meet this requirement later that year, the revised design becoming the F-101 Voodoo, the first production version of which flew on 29 September 1954.
+
+
+== Operators ==
+ United StatesUnited States Air Force
+
+
+== Variants ==
+XF-88
+First prototype, powered by 3,000 lbf (13.38 kN) Westinghouse J34-13 engines. Unarmed.
+XF-88A
+Second prototype, fitted with J-34-22 engines with primitive afterburners. Later fitted with armament.  First prototype also modified to this standard.
+XF-88B
+Modification of first prototype with 2,500 shp (1,865 kW) Allison XT38 turboprop engine in nose, and retaining its jet engines. First flown 14 April 1953.
+
+
+== Specifications (XF-88A) ==
+
+Data from McDonnell Douglas aircraft since 1920 : Volume II, Fighters of the United States Air ForceGeneral characteristics
+Crew: 1
+Length: 54 ft 1.5 in (16.497 m)
+Wingspan: 39 ft 8 in (12.09 m)
+Height: 17 ft 3 in (5.26 m)
+Wing area: 350 sq ft (33 m2)
+Airfoil: NACA 65-009
+Empty weight: 12,140 lb (5,507 kg)
+Gross weight: 18,500 lb (8,391 kg)
+Max takeoff weight: 23,100 lb (10,478 kg)
+Fuel capacity: XF-88 734 US gal (611 imp gal; 2,780 l) internal fuel
+XF-88A 834 US gal (694 imp gal; 3,160 l) internal fuel
+XF-88B 543 US gal (452 imp gal; 2,060 l) internal fuelPowerplant: 2 × Westinghouse J34-WE-15 afterburning turbojet engines, 3,600 lbf (16 kN) thrust each dry, 4,825 lbf (21.46 kN) with afterburner
+Powerplant: 1 × Allison XT38-A-5 turboprop engine, 2,750 shp (2,050 kW)   equivalent - (2,550 shp (1,900 kW) + 415 lbf (1.85 kN)) - XF-88B
+Propellers: 2, 3 and 4-bladed constant-speed supersonic propellers, 4 ft (1.2 m) diameter to 10 ft (3.0 m) diameter, operating at 1,700 rpm, 3,600 rpm or 6,000 rpm XF-88BPerformance
+
+Maximum speed: 706 mph (1,136 km/h, 613 kn) at 20,000 ft (6,100 m)641 mph (557 kn; 1,032 km/h) at sea levelCruise speed: 527 mph (848 km/h, 458 kn)
+Range: 1,737 mi (2,795 km, 1,509 nmi)
+Service ceiling: 39,400 ft (12,000 m)
+Rate of climb: 8,000 ft/min (41 m/s)
+Time to altitude: 35,000 ft (11,000 m) in 4 minutes 30 seconds
+Wing loading: 52.9 lb/sq ft (258 kg/m2)
+Thrust/weight: 0.323Armament
+Guns: 6 × 20 mm (0.787 in) M39 cannon
+
+
+== See also ==
+
+Related development
+
+McDonnell F-101 Voodoo
+McDonnell CF-101 VoodooAircraft of comparable role, configuration and era
+
+Lockheed XF-90
+North American YF-93
+Republic XF-84H
+
+
+== References ==
+
+
+=== Notes ===
+
+
+=== Bibliography ===

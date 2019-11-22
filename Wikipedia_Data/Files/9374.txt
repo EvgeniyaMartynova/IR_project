@@ -1,0 +1,73 @@
+Title: Nokia N96
+Aspects: {'N96'}
+
+Nokia N96 is a high-end smartphone, announced by Nokia on February 11, 2008 at the Mobile World Congress in Barcelona, part of the Nseries line. The N96 runs on the updated Symbian OS v9.3 (S60 3rd Edition, FP2). It is compatible with the N-Gage 2.0 gaming platform and also has a DVB-H television tuner.
+Compared to the popular Nokia N95 8GB, the N96 has a doubled flash storage capacity (16 gigabytes), dual LED flash in the camera, and has a slimmer design. However critics had negative views on the N96's battery life and user-unfriendlyness and its downgraded CPU clock speed raised questions. It was one of 2008's most anticipated mobile phones, but its launch was delayed and was only widely available from October 2008. It is thus considered to have been a commercial failure. Critics felt that the Nokia N85 provided more new additions compared to the N96 for much cheaper.
+
+
+== Release ==
+Shipments for the N96 started in September 2008. Europe, Middle East and Asia-Pacific are the first locations to provide the handset for consumers. The American and Chinese versions were expected shortly thereafter. In the U.S., the device was sold for US$900, which was criticised for being too expensive. The general UK release date for the N96 was 1 October, although London had a separate date of 24 September when the device went on sale exclusively at Nokia's flagship stores on Regent Street and at Terminal 5 (Heathrow Airport).
+
+
+== Major differences between N95 8GB and N96 ==
+Additions:
+
+Dual-LED camera flash (single LED in the N95 8 GB)
+New audio DSP
+Longer music playback time (14 hrs) and video playback time (6 hrs)
+Windows Media WMV9 video codec added
+Hardware acceleration for video codecs for H.264 and WMV
+Mobile TV DVB-H 1.0 receiver built in – only with paid subscription
+Flip-out stand for more comfortable viewing of content when device is placed on a flat surface (surrounds the lens assembly)
+S60 3rd Edition is upgraded from Feature Pack 1 to Feature Pack 2
+linu v88.0.12.0
+The Java ME engine is upgraded from MIDP 2.0 to MIDP 2.1
+User data is preserved when upgrading firmware (this feature is also present on the N95-2 as v21 installs UDP base files)
+Open C/C++ support
+New QuickOffice application opens all types of Microsoft Office files
+New version of Nokia Video Centre (show & edit videos)
+New release of Nokia Experience software
+Micro 2.0 Hi-Speed USB (write 3 Mbit/s, read 4.1 Mbit/s – N95 8 GB use full-speed USB)
+MicroSD memory card slot (as in original N95, while N95 8 GB has no card slot)
+RSS 2.1 Reader
+FM radio upgraded with RDS
+N96 is a dual-band HSDPA (900 and 2100 MHz, while N95 was a single band 2100 MHz)
+No need to open the slide for optimal GPS reception
+Nokia N96 has VGA front camera (N95 8G has CIF)
+Video Flash lightguns
+Upgraded Bluetooth stereo audio
+FOTA (Firmware Over the Air)
+OMA E-mail Notification v1.0
+OMA Device Management v1.2
+OpenGL ES 1.1 plugin
+Dual Transfer Mode (MSC 11)
+Support SPP Bluetooth profilesNegative:
+
+TV mode – not available
+Free sat nav – not available – Nokia advises that it is in the pipeline and they fully expect it to be made available, but will not say when it is available yet
+Nokia Music Headset HS-45, AD-54
+CPU: N96 has dual ARM9 264 MHz with no floating point instructions (N95 has dual ARM11 332 MHz with vector floating point)
+N96 has 8x image digital zoom and 4x video digital zoom (while N95 has 20x digital zoom and 8x video digital zoom), although the benefits of this are debatable.
+Same battery as original N95 (950 mAh), but the N96 reportedly has a much better battery life using the same battery due to software improvements under Feature Pack 2 (Nokia N95 8GB has 1200 mAh battery)
+No hardware 3D graphics accelerator
+No infrared port
+N95 has lens cover and much more qualitative shutter (N95 8GB/N96 don't have this feature)
+No manually selected MMS messaging mode. If you write a long text message it will automatically select the MMS mode which could stop the recipient from receiving the message if they do not have MMS set up on their handset. (A Nokia USA employee stated that there is an update in the works to fix this very soon) It's assumed that this automatic selection of MMS mode is due to Nokia's Smart Connectivity)
+VoIP 2.1 support for WLAN and Cellular. However, the built-in VoIP client from N95 which allowed the end-user to make internet calls directly without installing any additional software has been removed from N96. Nevertheless, the VoIP API still exists which can be used by software developers in their applications.
+The pencil button that is used to mark/unmark items and highlight text is not included. But this action can still be done however, by pressing and holding down the # key'.
+
+
+== See also ==
+Nokia N85
+Sony Ericsson W995
+Sony Ericsson C905
+Samsung i8510 Innov8
+
+
+== References ==
+
+
+== External links ==
+Original Press Release, Americas Press Release
+N96 specifications from Nokia Europe
+N96 Drivers and Support from Nokia Europe

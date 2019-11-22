@@ -1,0 +1,39 @@
+Title: Elec-Trak
+Aspects: {'E20', 'E15'}
+
+The GE Elec-Trak was the first commercially produced all-electric garden tractor, made mostly between 1969 and 1975 at GE's Outdoor Power Equipment Operation under Bruce R. Laumeister.  Despite their limited production and availability, many Elec-Traks are still in use today and have a cult following among tractor and electric vehicle enthusiasts.  They are an archetypal or seminal design that has influenced all later electric tractors.
+Several models were produced, including: the E8M and ER8-36 (8 hp equivalent); the E10M (10 hp); the E12 and E12M (12 hp); the E12S and E15 (14 hp); the E16 (an upgraded variant of the E15), and the E20 (16 hp). GE's claimed horsepower figures were notional and inconsistent in documentation and sales literature; the table below includes "real" horsepower.  The E8M and ER8-36 were styled more as ride-on mowers than tractors. The "M" suffix used on some models indicates the ability to accommodate a mid-mounted (belly) mower,  and an "H" was used on some models to indicate a heavy duty, extra range battery pack.Starting in 1972 GE also made an industrial version of the Elec-Trak, the I-5, compliant with all relevant sections of ANSI B56.1-1969 and OSHA FMEC Class E. Mostly identical to the E-20, it was orange instead of yellow, had a 12vdc warning horn, fenders over the front wheels, and attachment points for additional accessories, including a roll cage and forklifts of varying heights that could be mounted either forward or rear facing.Elec-trak branded attachments included electric trimmers, edgers, chainsaws, radios, arc welders, fork lifts, front-end loaders, rotary brooms, roller aerators, lawn rollers, dump carts, maintenance carts, large vacuums, agricultural sprayers, moldboard plows, row crop cultivators, tillers, disk harrows, sickle bar mowers, belly mowers, front-mounted rotary mowers, front or rear-mounted ganged reel mowers, lawn sweepers, electric rakes, snowblowers, snowplows, golf bag holders, double seats, 120vac rotary inverters, canopy tops, and more.  Electric crop sprayers were advertised and sold, but GE discontinued the product and refunded all orders in 1874 due to low demand.A 36VDC "accessory outlet" for NEMA L2-20 twist-lock connectors, mounted under the hood overhang on the left side, is used to power handheld tools.  High current draw front and mid-mounted attachments connect to a 36VDC "power take off" using a NEMA 10-50 outlet, mounted forward of the accessory outlet.  The NEMA 10-50 is a heavy, thick bladed design rated for 50A at 250VAC (readily available in the 1970s in the USA for use with 240VAC clothes dryers) that GE empirically found to be capable of the far higher currents drawn by the snowblower at 36VDC. An Anderson connector, standard on the I-5 and optionally available for other models, was mounted under the right rear fender for rear-mounted heavy current draw attachments such as the vacuums, sickle bar, and rear electric lift.
+After the shutdown of production at GE, Elec-Traks were produced under the Wheel Horse and Avco New Idea labels.
+Some time after the final shutdown of the Wheel Horse line in 1983, all remaining parts and dies were sold to Bill Gunn, a dealer in Edgerton, Wisconsin.  Eventually Gunn retired and all remaining stock was sold to Jim Coate of the Electric Tractor Store.
+
+
+== Elec-Trak Component Motors ==
+
+
+== Notes ==
+
+
+== References ==
+GE Elec-Trak owner's discussion forum
+The Elec-Trak owner's club
+Internet Elec-Trak discussion list
+George Beckett's history of the Elec-Trak
+Steve Shore's history of the Elec-Trak
+Garden Tractor Talk's GE forum
+E15 restoration at BuildItSolar
+Mark Frerking on Elec-Traks (Dec 9, 2007)
+Electric Tractors and Mowers at EValbum
+Elec-Traks at Econogics
+Mike Bryce, "The Elec-Trak Rides Again" Home Power #70, April/May 1999
+Jim Coate, "EVs Can Bring RE to the Field" The Natural Farmer September 2005
+Oscar H. Will III, Garden Tractors. Voyageur Press (2009) ISBN 978-0760331965
+Michael A. Martino, Straight from the horse's mouth: The Wheel Horse story. Stemgas Pub. Co (2000) ISBN 978-0970666802
+E. F. Lindsley, "Fantastic Elec-Trak runs on batteries, powers your electric tools too" Popular Science July 1970
+James M. Liston, "GE introduces the Electric Tractor" Popular Mechanics April 1970
+
+
+== Vendors ==
+The Electric Tractor Store, offering parts and restoration advice
+Scanned copy of the Clean Power Supply catalog
+Used and NOS parts and tractors at Watts-Up-Elec-Traks
+Elec-Traks tractors, parts and manuals at Kansas Wind Power

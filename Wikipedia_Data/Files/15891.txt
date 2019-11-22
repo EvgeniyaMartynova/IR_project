@@ -1,0 +1,18 @@
+Title: XAP Home Automation protocol
+Aspects: {'XAP'}
+
+xAP is an open protocol used for home automation and supports integration of telemetry and control devices primarily within the home. Common communications networks include RS232, RS485, Ethernet and wireless. xAP protocol always uses broadcast for sending the messages. All the receivers listens to the message and introspects the message header to verify whether the message is of its interest. xAP protocol has the following key advantages.
+
+It makes use of existing infrastructure wherever possible (for example it can co-exist with various physical layers like RS232 or wireless LAN)
+It can even intercommunicate between multiple networks like RS232 or wireless by just deploying a physical bridge.
+xAP does not require any central controller. All nodes can act as sender or receiver.
+xAP system provides distributed and fault tolerant architecture which allows continuous operation of systems even in the event of component failures.
+
+
+== See also ==
+xPL Protocol - A substantially similar home automation protocol
+
+
+== External links ==
+xAP Protocol Definition
+xAP Forum

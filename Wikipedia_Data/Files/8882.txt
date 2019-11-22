@@ -1,0 +1,19 @@
+Title: N (video game)
+Aspects: {'N series'}
+
+N (stylized as n) is a freeware video game developed by Metanet Software. It was inspired in part by Lode Runner, Soldat, and other side-scrolling games. It was the first of the N series, followed by N+ and N++. N won the audience choice award in the downloadables category of the 2005 Independent Games Festival.
+
+
+== Gameplay ==
+In N, the player controls a ninja who navigates tile-based levels while simultaneously avoiding hazards, collecting gold, and eventually opening an exit door which completes the level. Gameplay involves four keys—a move-left key (default left arrow), a move-right key (default right arrow), jumping (default shift key, though z key is a common alternative), and suicide (default k key). Combinations of moving and jumping on various types of terrain allow the ninja to perform a variety of movements, such as jumping from wall to wall, climbing up vertical inclines, and sliding down steep surfaces.Version 1.4 of N contains 100 episodes (numbered 00 to 99), while version 2.0 contains 120 episodes (due to two bonus columns being unlockable after the completion of the main game episodes. Each episode in all iterations of the game features five levels (numbered 0 to 4). N also supports user-made levels. This is done through a built-in level editor called NEd, or the "N Editor". Levels can be added into a game by modifying a text file accompanying the game that contains user level data.N 1.4 has a total of 500 maps, 450 of which are made by Metanet Software; 2.0 contains 600 levels, 500 of which are made by Metanet Software. The remaining 50 levels in 1.4 are aforementioned user levels that were hand-picked by Metanet in 2005, while the remaining 100 levels in 2.0 were user-made levels selected by a panel of fans in late 2012 and were finalized by Metanet Software in 2013. (The team behind the shortlist selection were listed in the game's credits under their respective aliases.) The goal of each level is to trigger the switch and exit through the door it opens within the time limit. Some levels have more than one exit and associated switch, giving the player more freedom to decide their route and method of completing the map. Each episode is given a cumulative time limit. At the beginning of level 0, the player is given 90 seconds to complete the next five levels. The episode's time limit can be increased by collecting gold, which adds two seconds per piece. The time left at the end of each level carries over to the next level. The only exception is the final level, in which the time left becomes that episode's score.
+
+
+== Development ==
+Five years after N 1.4 release, on June 1, 2010, Metanet Software announced on the Forums and on the Metablog that they were going to definitely start with N 1.5. They created some threads in the forums that discussed every new aspect of the new version of N, asking for the players feedback, and asking the players their opinions. In December 2011, a demo of the N v2.0 beta was released in the form of a "contesque". Players who ranked highly in each section were awarded with prize packs, including T-shirts, N+ download codes, stickers, buttons and more. On January 1, 2013, version 2.0 was released as a full beta, complete with a new physics engine written in ActionScript 3.0. The official release added a plethora of new episodes and bonus content and minor bug fixes; it is also the final free release for PC. Approximately two and a half years later, in late July 2015, N++ was released on PlayStation 4 to critical acclaim; it has since been released on Windows, OS X, Xbox One, and Nintendo Switch.
+
+
+== References ==
+
+
+== External links ==
+ Media related to N (video game) at Wikimedia Commons

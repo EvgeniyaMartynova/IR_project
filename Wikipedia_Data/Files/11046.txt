@@ -1,0 +1,27 @@
+Title: Q9 input method
+Aspects: {'Q9'}
+
+The Q9 input method (Chinese: 九方輸入法), invented by Qcode Information Technology Ltd. of Hong Kong, is an input method that uses only the number keys on a numeric keypad to input Chinese characters into a digital device. It is considered an easy method to use even though it is a "structural" input method. (Most "structural" methods are considered difficult.)  It is used on some mobile phones in Hong Kong. It provides an alternative to Cangjie input method as well, as this utilizes the numeric keypad on personal computers.
+However, besides its use for cell phones, the use of this input method on personal computers is limited, due to its proprietary nature and that personal computers do not have Q9 input method pre-installed. Since the speed of the input method relies upon using numeric keypad on PCs, this method is impractical for use on most laptops.
+Q9 input method is available as a FEP on Symbian S60 3rd Edition mobile devices.
+
+
+== Basic usage ==
+The 9 positions of the number pad are shown with 9 Chinese characters and 9 stroke shapes; the first 5 of these stroke shapes are the same as in the Wubihua method, and the others are more elaborate shapes generated according to context (see below).  At any time you may choose either a character or a stroke shape from any one of the 9 squares (with mobile phones press 0 to switch between character and stroke shape; with pointing devices you can
+point to either one or the other).  If the character you want is not available, choose a stroke shape that closest to the character's first stroke (i.e. at the character's top left); the stroke shape in position 5 is a general concept of "other strokes".  If the character
+is still not available, choose either the character's second stroke shape, or elaborate on the first stroke shape (some stroke shapes cause additional elaborations of themselves to appear in positions 6 to 9).  If the character is still not available after this second shape has been entered, the third
+stroke shape to enter is that corresponding to the character's last stroke (usually at bottom right).  Finally if the character is not listed, then you can press 0 to see another page of similar characters (or you may have entered the wrong stroke shapes).  Usually, only
+full-form (Traditional) Chinese characters are available on the Q9 method, although some versions allow Simplified characters to be found as well.  Additional controls are usually available to reset the input method's state, and to switch to English letters, digits or punctuation.
+
+
+== Issues with Q9 on MAC OS ==
+The system encounters problems with Mac OS X Q9 input. In the glitch, the selection bar for the input method would grey when being selected. However, older browser versions continue to support Q9 input.
+
+
+== See also ==
+Chinese input methods for computers
+Predictive text - input technologies for Western texts on mobile phones
+
+
+== External links ==
+Q9 Technology Holdings (parent company of Qcode Information Technology Ltd.)

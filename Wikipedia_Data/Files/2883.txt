@@ -1,0 +1,218 @@
+Title: Edmund Clifton Stoner
+Aspects: {'E. C. Stoner (disambiguation)'}
+
+Edmund Clifton Stoner FRS (2 October 1899 – 27 December 1968) was a British theoretical physicist. He is principally known for his work on the origin and nature of itinerant ferromagnetism (the type of ferromagnetic behaviour associated with pure transition metals like cobalt, nickel, and iron), including the collective electron theory of ferromagnetism and the Stoner criterion for ferromagnetism.
+
+
+== Biography ==
+Stoner was born in Esher, Surrey, the son of cricketer Arthur Hallett Stoner. He won a scholarship to Bolton School (1911–1918) and then attended University of Cambridge in 1918, graduating in 1921. After graduation, he worked at the Cavendish Laboratory on the absorption of X-rays by matter and electron energy levels; his 1924 paper on this subject prefigured the Pauli exclusion principle. Stoner was appointed a Lecturer in the Department of Physics at the University of Leeds in 1932, becoming Professor of Theoretical Physics in 1939. Starting in 1938, he developed the collective electron theory of ferromagnetism. From 1951 to 1963, he held the Cavendish Chair of Physics. He retired in 1963.
+He did some early work in astrophysics and independently computed the (Chandrasekhar) limit for the mass of a white dwarf one year before Subrahmanyan Chandrasekhar in 1931. Stoner calculation was based on earlier work from Wilhelm Anderson on the Fermi gas and on earlier observations of Ralph H. Fowler on white dwarfs. Stoner also derived a pressure–density equation of state for the stars in 1932. These equations were also previously published by the Soviet physicist Yakov Frenkel in 1928. However Frenkel's work was ignored by the astronomical community.Stoner had been diagnosed with diabetes in 1919. He controlled it with diet until 1927, when insulin treatment became available.
+
+
+== Stoner model of ferromagnetism ==
+ Electron bands can spontaneously split into up and down spins.  This happens if the relative gain in exchange interaction (the interaction of electrons via the Pauli exclusion principle) is larger than the loss in kinetic energy.
+
+  
+    
+      
+        
+          ϵ
+          
+            ↑
+          
+        
+        (
+        k
+        )
+        =
+        
+          ϵ
+          
+            0
+          
+        
+        (
+        k
+        )
+        −
+        I
+        
+          
+            
+              
+                n
+                
+                  ↑
+                
+              
+              −
+              
+                n
+                
+                  ↓
+                
+              
+            
+            n
+          
+        
+      
+    
+    {\displaystyle \epsilon _{\uparrow }(k)=\epsilon _{0}(k)-I{\frac {n_{\uparrow }-n_{\downarrow }}{n}}}
+  
+  
+    
+      
+        
+          ϵ
+          
+            ↓
+          
+        
+        (
+        k
+        )
+        =
+        
+          ϵ
+          
+            0
+          
+        
+        (
+        k
+        )
+        +
+        I
+        
+          
+            
+              
+                n
+                
+                  ↑
+                
+              
+              −
+              
+                n
+                
+                  ↓
+                
+              
+            
+            n
+          
+        
+      
+    
+    {\displaystyle \epsilon _{\downarrow }(k)=\epsilon _{0}(k)+I{\frac {n_{\uparrow }-n_{\downarrow }}{n}}}
+  where 
+  
+    
+      
+        
+          ϵ
+          
+            0
+          
+        
+        (
+        k
+        )
+      
+    
+    {\displaystyle \epsilon _{0}(k)}
+   is the energy of the metal before exchange effects are included, 
+  
+    
+      
+        
+          ϵ
+          
+            ↑
+          
+        
+      
+    
+    {\displaystyle \epsilon _{\uparrow }}
+   and 
+  
+    
+      
+        
+          ϵ
+          
+            ↓
+          
+        
+      
+    
+    {\displaystyle \epsilon _{\downarrow }}
+   are the energies of the spin up and down electron bands respectively. The Stoner parameter which is a measure of the strength of the exchange correlation is denoted 
+  
+    
+      
+        I
+      
+    
+    {\displaystyle I}
+  , the number of electrons is 
+  
+    
+      
+        n
+        =
+        
+          n
+          
+            ↑
+          
+        
+        +
+        
+          n
+          
+            ↓
+          
+        
+      
+    
+    {\displaystyle n=n_{\uparrow }+n_{\downarrow }}
+  . Finally, 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+   is the wavenumber as the electrons bands are in wavenumber-space. If more electrons favour one of the states, this will create ferromagnetism. The electrons obey Fermi–Dirac statistics so when the above formulas are summed over all 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+  -space, the Stoner criterion for ferromagnetism can be established.
+
+
+== Awards and honors ==
+He was elected a Fellow of the Royal Society in May 1937.
+The E.C. Stoner building at the University of Leeds is named after him.,
+
+
+== Selected publications ==
+Stoner, Edmund C. (1924). "LXXIII. The distribution of electrons among atomic levels". The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science. 48 (286): 719–736. doi:10.1080/14786442408634535. ISSN 1941-5982.
+Stoner, Edmund C. (1929). "V.The limiting density in white dwarf stars". The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science. 7 (41): 63–70. doi:10.1080/14786440108564713. ISSN 1941-5982.
+Stoner, Edmund C. (1930). "LXXXVII.The equilibrium of dense stars". The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science. 9 (60): 944–963. doi:10.1080/14786443008565066. ISSN 1941-5982.
+Stoner, Edmund C. (1951). "Collective electron ferromagnetism in metals and alloys". Journal de Physique et le Radium. 12 (3): 372–388. doi:10.1051/jphysrad:01951001203037200.
+
+
+=== Books ===
+Stoner, Edmund Clifton (1956). Magnetism and Atomic Structure. Methuen & Company Limited.
+Stoner, Edmund Clifton (1934). Magnetism and Matter. Methuen.
+
+
+== References ==

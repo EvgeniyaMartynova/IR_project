@@ -1,0 +1,102 @@
+Title: Terahertz radiation
+Aspects: {'T-wave'}
+
+Terahertz radiation – also known as submillimeter radiation, terahertz waves, tremendously high frequency (THF), T-rays, T-waves, T-light, T-lux or THz – consists of electromagnetic waves within the ITU-designated band of frequencies from 0.1 to 30 terahertz (THz).  One terahertz is 1012 Hz or 1000 GHz. Wavelengths of radiation in the terahertz band correspondingly range from 3 mm to 0.01 mm (or 10 μm). Because terahertz radiation begins at a wavelength of around one millimeter and proceeds into shorter wavelengths, it is sometimes known as the submillimeter band, and its radiation as submillimeter waves, especially in astronomy.
+Terahertz radiation can penetrate thin layers of materials but is blocked by thicker objects.  THz beams transmitted through materials can be used for material characterization, layer inspection, and as an alternative to X-rays for producing high resolution images of the interior of solid objects.Terahertz radiation occupies a middle ground between microwaves and infrared light waves known as the “terahertz gap”, where technology for its generation and manipulation is in its infancy. It represents the region in the electromagnetic spectrum where the frequency of electromagnetic radiation becomes too high to be measured digitally via electronic counters, so must be measured by proxy using the properties of wavelength and energy. Similarly, the generation and modulation of coherent electromagnetic signals in this frequency range ceases to be possible by the conventional electronic devices used to generate radio waves and microwaves, requiring the development of new devices and techniques.
+
+
+== Introduction ==
+
+Terahertz radiation falls in between infrared radiation and microwave radiation in the electromagnetic spectrum, and it shares some properties with each of these. Terahertz radiation travels in a line of sight and is non-ionizing. Like microwaves, terahertz radiation can penetrate a wide variety of non-conducting materials; clothing, paper, cardboard, wood, masonry, plastic and ceramics. The penetration depth is typically less than that of microwave radiation. Like infrared, terahertz radiation has limited penetration through fog and clouds and cannot penetrate liquid water or metal. Terahertz radiation can penetrate some distance through body tissue like x-rays, but unlike them is non-ionizing, so it is of interest as a replacement for medical X-rays. Due to its longer wavelength, images made using terahertz waves have lower resolution than X-rays and need to be enhanced (see figure at right).The earth's atmosphere is a strong absorber of terahertz radiation, so the range of terahertz radiation in air is limited to tens of meters, making it unsuitable for long-distance communications. However, at distances of ~10 meters the band may still allow many useful applications in imaging and construction of high bandwidth wireless networking systems, especially indoor systems. In addition, producing and detecting coherent terahertz radiation remains technically challenging, though inexpensive commercial sources now exist in the 0.3–1.0 THz range (the lower part of the spectrum), including gyrotrons, backward wave oscillators, and resonant-tunneling diodes.
+
+
+=== Terahertz versus submillimeter waves ===
+The terahertz band, covering the wavelength range between 0.1–1 mm, is identical to the submillimeter wavelength band. However, typically, the term "terahertz" is used more often in marketing in relation to generation and detection with pulsed lasers, as in terahertz time domain spectroscopy, while the term "submillimeter" is used for generation and detection with microwave technology, such as harmonic multiplication.
+
+
+== Sources ==
+
+
+=== Natural ===
+Terahertz radiation is emitted as part of the black-body radiation from anything with a temperature greater than about 2 Kelvin. While this thermal emission is very weak, observations at these frequencies are important for characterizing cold 10–20 K cosmic dust in interstellar clouds in the Milky Way galaxy, and in distant starburst galaxies.
+Telescopes operating in this band include the James Clerk Maxwell Telescope, the Caltech Submillimeter Observatory and the Submillimeter Array at the Mauna Kea Observatory in Hawaii, the BLAST balloon borne telescope, the Herschel Space Observatory, the Heinrich Hertz Submillimeter Telescope at the Mount Graham International Observatory in Arizona, and at the recently built Atacama Large Millimeter Array. The opacity of the Earth's atmosphere to submillimeter radiation restricts these observatories to very high altitude sites, or to space.
+
+
+=== Artificial ===
+As of 2012, viable sources of terahertz radiation are the gyrotron, the backward wave oscillator ("BWO"), the organic gas far infrared laser ("FIR laser"), Schottky diode multipliers, varactor (varicap) multipliers, quantum cascade laser, the free electron laser (FEL), synchrotron light sources, photomixing sources, single-cycle or pulsed sources used in terahertz time domain spectroscopy such as photoconductive, surface field, photo-Dember and optical rectification emitters, and electronic oscillators based on resonant tunneling diodes have been shown to operate up to 700 GHz.There have also been solid-state sources of millimeter and submillimeter waves for many years. AB Millimeter in Paris, for instance, produces a system that covers the entire range from 8 GHz to 1000 GHz with solid state sources and detectors. Nowadays, most time-domain work is done via ultrafast lasers.
+In mid-2007, scientists at the U.S. Department of Energy's Argonne National Laboratory, along with collaborators in Turkey and Japan, announced the creation of a compact device that could lead to portable, battery-operated terahertz radiation sources. The device uses high-temperature superconducting crystals, grown at the University of Tsukuba in Japan. These crystals comprise stacks of Josephson junctions, which exhibit a property known as the Josephson effect—when external voltage is applied, alternating current flows across the junctions at a frequency proportional to the voltage. This alternating current induces an electromagnetic field. A small voltage (around two millivolts per junction) can induce frequencies in the terahertz range.
+In 2008 engineers at Harvard University achieved room temperature emission of several hundred nanowatts of coherent terahertz radiation using a semiconductor source. THz radiation was generated by nonlinear mixing of two modes in a mid-infrared quantum cascade laser. Previous sources had required cryogenic cooling, which greatly limited their use in everyday applications.In 2009 it was discovered that the act of unpeeling adhesive tape generates non-polarized terahertz radiation, with a narrow peak at 2 THz and a broader peak at 18 THz. The mechanism of its creation is tribocharging of the adhesive tape and subsequent discharge; this was hypothesized to involve bremsstrahlung with absorption or energy density focusing during dielectric breakdown of a gas. In 2013 researchers at Georgia Institute of Technology's Broadband Wireless Networking Laboratory and the Polytechnic University of Catalonia developed a method to create a graphene antenna: an antenna that would be shaped into graphene strips from 10 to 100 nanometers wide and one micrometer long. Such an antenna could be used to emit radio waves in the terahertz frequency range.
+
+
+== Research ==
+
+
+=== Medical imaging ===
+Unlike X-rays, terahertz radiation is not ionizing radiation and its low photon energies in general do not damage living tissues and DNA. Some frequencies of terahertz radiation can penetrate several millimeters of tissue with low water content (e.g., fatty tissue) and reflect back. Terahertz radiation can also detect differences in water content and density of a tissue. Such methods could allow effective detection of epithelial cancer with an imaging system that is safe, non-invasive, and painless.
+The first images generated using terahertz radiation date from the 1960s; however, in 1995 images generated using terahertz time-domain spectroscopy generated a great deal of interest.
+Some frequencies of terahertz radiation can be used for 3D imaging of teeth and may be more accurate than conventional X-ray imaging in dentistry.
+
+
+=== Security ===
+Terahertz radiation can penetrate fabrics and plastics, so it can be used in surveillance, such as security screening, to uncover concealed weapons on a person, remotely. This is of particular interest because many materials of interest have unique spectral "fingerprints" in the terahertz range. This offers the possibility to combine spectral identification with imaging. In 2002 the European Space Agency (ESA) Star Tiger team, based at the Rutherford Appleton Laboratory (Oxfordshire, UK), produced the first passive terahertz image of a hand. By 2004, ThruVision Ltd, a spin-out from the Council for the Central Laboratory of the Research Councils (CCLRC) Rutherford Appleton Laboratory, had demonstrated the world's first compact THz camera for security screening applications. The prototype system successfully imaged guns and explosives concealed under clothing.  Passive detection of terahertz signatures avoid the bodily privacy concerns of other detection by being targeted to a very specific range of materials and objects.In January 2013, the NYPD announced plans to experiment with the new technology to detect concealed weapons, prompting Miami blogger and privacy activist Jonathan Corbett to file a lawsuit against the department in Manhattan federal court that same month, challenging such use: "For thousands of years, humans have used clothing to protect their modesty and have quite reasonably held the expectation of privacy for anything inside of their clothing, since no human is able to see through them." He sought a court order to prohibit using the technology without reasonable suspicion or probable cause. By early 2017, the department said it had no intention of ever using the sensors given to them by the federal government.
+
+
+=== Scientific use and imaging ===
+In addition to its current use in submillimetre astronomy, terahertz radiation spectroscopy could provide new sources of information for chemistry and biochemistry.
+Recently developed methods of THz time-domain spectroscopy (THz TDS) and THz tomography have been shown to be able to image samples that are opaque in the visible and near-infrared regions of the spectrum. The utility of THz-TDS is limited when the sample is very thin, or has a low absorbance, since it is very difficult to distinguish changes in the THz pulse caused by the sample from those caused by long-term fluctuations in the driving laser source or experiment. However, THz-TDS produces radiation that is both coherent and spectrally broad, so such images can contain far more information than a conventional image formed with a single-frequency source.
+Submillimeter waves are used in physics to study materials in high magnetic fields, since at high fields (over about 11 tesla), the electron spin Larmor frequencies are in the submillimeter band. Many high-magnetic field laboratories perform these high-frequency EPR experiments, such as the National High Magnetic Field Laboratory (NHMFL) in Florida.
+Terahertz radiation could let art historians see murals hidden beneath coats of plaster or paint in centuries-old buildings, without harming the artwork.
+
+
+=== THz driven dielectric wakefield acceleration ===
+New types of particle accelerators that could achieve multi Giga-electron volts per metre (GeV/m) accelerating gradients are of utmost importance to reduce the size and cost of future generations of high energy colliders as well as provide a widespread availability of compact accelerator technology to smaller laboratories around the world. Gradients in the order of 100 MeV/m have been achieved by conventional techniques and are limited by RF-induced plasma breakdown. Beam driven dielectric wakefield accelerators (DWAs)  typically operate in the Terahertz frequency range, which pushes the plasma breakdown threshold for surface electric fields into the multi-GV/m range. DWA technique allows to accommodate a significant amount of charge per bunch, and gives an access to conventional fabrication techniques for the accelerating structures. To date 0.3 GeV/m accelerating and 1.3 GeV/m decelerating gradients  have been achieved using a dielectric lined waveguide with sub-millimetre transverse aperture.
+An accelerating gradient larger than 1 GeV/m, can potentially be produced by the Cherenkov Smith-Purcell radiative mechanism  in a dielectric capillary with a variable inner radius. When an electron bunch propagates through the capillary, its self-field interacts with the dielectric material and produces wakefields that propagate inside the material at the Cherenkov angle. The wakefields are slowed down below the speed of light, as the relative dielectric permittivity of the material is larger than 1. The radiation is then reflected from the capillary's metallic boundary and diffracted back into the vacuum region, producing high accelerating fields on the capillary axis with a distinct frequency signature. In presence of a periodic boundary the Smith-Purcell radiation imposes frequency dispersion.
+A preliminary study with corrugated capillaries has shown some modification to the spectral content and amplitude of the generated wakefields, but the possibility of using Smith-Purcell effect in DWA is still under consideration.
+
+
+=== Communication ===
+In May 2012, a team of researchers from the Tokyo Institute of Technology published in Electronics Letters that it had set a new record for wireless data transmission by using T-rays and proposed they be used as bandwidth for data transmission in the future. The team's proof of concept device used a resonant tunneling diode (RTD) negative resistance oscillator to produce waves in the terahertz band. With this RTD, the researchers sent a signal at 542 GHz, resulting in a data transfer rate of 3 Gigabits per second. It doubled the record for data transmission rate set the previous November. The study suggested that Wi-Fi using the system would be limited to approximately 10 metres (33 ft), but could allow data transmission at up to 100 Gbit/s.  In 2011, Japanese electronic parts maker Rohm and a research team at Osaka University produced a chip capable of transmitting 1.5 Gbit/s using terahertz radiation.Potential uses exist in high-altitude telecommunications, above altitudes where water vapor causes signal absorption: aircraft to satellite, or satellite to satellite.
+
+
+==== Amateur radio ====
+
+A number of administrations permit amateur radio experimentation within the 275–3000 GHz range on a national basis, under license conditions that are usually based on RR5.565 of the ITU Radio Regulations.  Amateur radio operators utilizing submillimeter frequencies often attempt to set two-way communication distance records, and they have achieved distances up to 1.42 kilometres (0.88 mi) on submillimeter waves.
+
+
+=== Manufacturing ===
+Many possible uses of terahertz sensing and imaging are proposed in manufacturing, quality control, and process monitoring. These in general exploit the traits of plastics and cardboard being transparent to terahertz radiation, making it possible to inspect packaged goods. The first imaging system based on optoelectronic terahertz time-domain spectroscopy were developed in 1995 by researchers from AT&T Bell Laboratories and was used for producing a transmission image of a packaged electronic chip. This system used pulsed laser beams with duration in range of picoseconds. Since then commonly used commercial/ research terahertz imaging systems have used pulsed lasers to generate terahertz images. The image can be developed based on either the attenuation or phase delay of the transmitted terahertz pulse.Since the beam is scattered more at the edges and also different materials have different absorption coefficients, the images based on attenuation indicates edges and different materials inside of an objects. This approach is similar to X-ray transmission imaging, where images are developed based on attenuation of the transmitted beam.In the second approach, terahertz images are developed based on the time delay of the received pulse. In this approach, thicker parts of the objects are well recognized as the thicker parts cause more time delay of the pulse. Energy of the laser spots are distributed by  a Gaussian function. The geometry and behavior of Gaussian beam in the Fraunhofer region imply that the electromagnetic beams diverge more as the frequencies of the beams decrease and thus the resolution decreases. This implies that terahertz imaging systems have higher resolution than scanning acoustic microscope (SAM) but lower resolution than X-ray imaging systems. Although terahertz can be used for inspection of packaged objects, it suffers from low resolution for fine inspections. X-ray image and terahertz images of an electronic chip are brought in the figure on the right. Obviously the resolution of X-ray is higher than terahertz image, but X-ray is ionizing and can be impose harmful effects on certain objects such as semiconductors and live tissues.
+To overcome low resolution of the terahertz systems near-field terahertz imaging systems are under development. In nearfield imaging the detector needs to be  located very close to the surface of the plane and thus imaging of the thick packaged objects may not be feasible. In another attempt to increase the resolution, laser beams with frequencies higher than terahertz are used to excite the p-n junctions in semiconductor objects, the excited junctions generate terahertz radiation as a result as long as their contacts are unbroken and in this way damaged devices can be detected.  In this approach, since the absorption increases exponentially with the frequency, again inspection of the thick packaged semiconductors may not be doable. Consequently, a tradeoff between the achievable resolution and the thickness of the penetration of the beam in the packaging material should be considered.
+
+
+== Safety ==
+The terahertz region is between the radio frequency region and the optical region generally associated with lasers. Both the IEEE RF safety standard and the ANSI Laser safety standard have limits into the terahertz region, but both safety limits are based on extrapolation. It is expected that effects on tissues are thermal in nature and, therefore, predictable by conventional thermal models. Research is underway to collect data to populate this region of the spectrum and validate safety limits.A study published in 2010 and conducted by Boian S. Alexandrov and colleagues at the Center for Nonlinear Studies at Los Alamos National Laboratory in New Mexico created mathematical models predicting how terahertz radiation would interact with double-stranded DNA, showing that, even though involved forces seem to be tiny, nonlinear resonances (although much less likely to form than less-powerful common resonances) could allow terahertz waves to "unzip double-stranded DNA, creating bubbles in the double strand that could significantly interfere with processes such as gene expression and DNA replication". Experimental verification of this simulation was not done. A recent analysis of this work concludes that the DNA bubbles do not occur under reasonable physical assumptions or if the effects of temperature are taken into account. The T-ray intensity drops to less than 1% in the first 500 μm of skin.
+
+
+== See also ==
+Far-infrared laser
+Full body scanner
+Heterojunction bipolar transistor
+High-electron-mobility transistor (HEMT)
+Infrared
+Microwave
+Picarin
+Radio spectrum
+Terahertz time-domain spectroscopy
+Extremely high frequency
+Super high frequency
+Ultra high frequency
+Very high frequency
+High frequency
+Medium frequency
+Low frequency
+Very low frequency
+Ultra low frequency
+Super low frequency
+Extremely low frequency
+
+
+== References ==
+
+
+== External links ==
+Terahertz radiation: applications and sources by Eric Mueller

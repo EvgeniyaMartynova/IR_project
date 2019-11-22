@@ -1,0 +1,39 @@
+Title: Integer points in convex polyhedra
+Aspects: {'Z-polyhedron'}
+
+The study of integer points in convex polyhedra is motivated by questions such as "how many nonnegative integer-valued solutions does a system of linear equations with nonnegative coefficients have" or "how many solutions does an integer linear program have". Counting integer points in polyhedra or other questions about them arise in representation theory, commutative algebra, algebraic geometry,  statistics, and computer science.The set of integer points, or, more generally, the set of points of an affine lattice,  in a polyhedron is called Z-polyhedron, from the mathematical notation 
+  
+    
+      
+        
+          Z
+        
+      
+    
+    {\displaystyle \mathbb {Z} }
+   or Z for the set of integer numbers.
+
+
+== Properties ==
+For a lattice Λ, Minkowski's theorem relates the number d(Λ) and the volume of a symmetric convex set S to the number of lattice points contained in S.
+The number of lattice points contained in a polytope all of whose vertices are elements of the lattice is described by the polytope's Ehrhart polynomial. Formulas for some of the coefficients of this polynomial involve d(Λ) as well.
+
+
+== Applications ==
+
+
+=== Loop optimization ===
+In certain approaches to loop optimization, the set of the executions of the loop body is viewed as the set of integer points in a polyhedron defined by loop constraints.
+
+
+== See also ==
+Convex lattice polytope
+Pick's theorem
+
+
+== References and notes ==
+
+
+== Further reading ==
+"Integer Points In Polyhedra: Geometry, Number Theory, Algebra, Optimization: Proceedings of an AMS-IMS-SIAM Joint Summer Research Conference on Integer Points in Polyhedra, 2003 (Contemporary Mathematics series, v. 374), 2005, ISBN 0-8218-3459-2
+Alexander Barvinok, Integer Points in Polyhedra, 2008, ISBN 3-03719-052-3

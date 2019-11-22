@@ -1,0 +1,17 @@
+Title: IBM z15 (microprocessor)
+Aspects: {'Z15'}
+
+The z15 is a microprocessor made by IBM for their IBM Z mainframe computers, announced on September 12, 2019.
+
+
+== Description ==
+The Processor Unit chip (PU chip) has 12 cores. The z15 cores support two-way simultaneous multithreading.The cores implement the CISC z/Architecture with a superscalar, out-of-order pipeline. New in z15 is an on-chip Nest Accelerator Unit, shared by all cores, to accelerate compression.The cache (e.g. level 3) is doubled from the previous generation z14, while the "L4 Cache increased from 672MB to 960MB, or +43%" with the new add-on chip System Controller (SC) SCM. Both it and all levels of cache in the main processor from level 1 use eDRAM, instead of the traditionally used SRAM. "A five-CPC drawer system has 4800 MB (5 x 960 MB) of shared L4 cache."
+
+
+== See also ==
+z/Architecture
+IBM System z
+Mainframe computer
+
+
+== References ==

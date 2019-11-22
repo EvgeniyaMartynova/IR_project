@@ -1,0 +1,96 @@
+Title: IBM System z10
+Aspects: {'Z10'}
+
+IBM System z10 is a line of IBM mainframes.  The z10 Enterprise Class (EC) was announced on February 26, 2008.  On October 21, 2008, IBM announced the z10 Business Class (BC), a scaled-down version of the z10 EC.  The System z10 represents the first model family powered by the z10 quad core processing engine. Its successors are the zEnterprise System models introduced in 2010 and 2012.
+
+
+== Features ==
+
+
+=== Processors ===
+The number of "characterizable" (or configurable) processing units (PUs) is indicated in the hardware model designation (e.g., the E26 has 26 characterizable PUs).  Depending on the capacity model, a PU can be characterized as a Central Processor (CP), Integrated Facility for Linux (IFL) processor, z Application Assist Processor (zAAP), z10 Integrated Information Processor (zIIP), or Internal Coupling Facility (ICF) processor. (The specialty processors are all identical and IBM locks out certain functions based on what the processor is characterized as.) It is also possible to configure additional System Assist Processors, but most customers find the mandatory minimum SAP allocation sufficient.
+There are more physical PUs in a machine than characterizable PUs. For example, the E12 has 17 PUs, of which only 12 are characterizable. The remainder is a mixture of spares and mandatory minimum SAPs. The SAPs provide I/O assistance, system accounting, and other critical system functions.
+
+
+=== Operating systems ===
+The System z10 supports the following IBM operating systems: z/OS, z/VSE, z/VM, and z/TPF (and its immediate predecessor, TPF/ESA). Other operating systems available include Linux on System z, OpenSolaris for System z, UTS, and MUSIC/SP (at least in principle).  A product in development by Mantissa Corporation, z/VOS, was announced in 2008 to run other operating systems developed for x86 architectures (such as Windows and x86 versions of Linux), later renamed to z86VM and the Linux support is in beta, and "has no plans to support 64 bit", but as of 2019, it has a bug for Windows so not even a beta version for it is available.
+
+
+=== New features ===
+In addition to much higher performance, System z10 introduced a number of new mainframe features. Some of the more notable enhancements include:
+
+
+==== Cryptography ====
+The System z10 adds hardware-based 192-bit and 256-bit Advanced Encryption Standard (AES) in addition to the 128-bit AES support already available on the z9.
+
+
+==== Decimal floating point ====
+The System z9 was the first commercial server to add IEEE 754 decimal floating point instructions, although these instructions were implemented in microcode with some hardware assists. The System z10 implements the main IEEE 754 decimal floating point operations in a built-in, integral component of each processor core and instruction set architecture.  As examples, Enterprise PL/I, XL C, and the z/OS Java BigDecimal class can exploit hardware decimal floating point.
+
+
+==== New instructions ====
+The System z10 processor adds numerous new instructions, primarily concentrated on improving the efficiency and performance of compiled code. The z/OS Java SDK exploits these additional instructions when running on a z10.  On July 7, 2009, IBM disclosed z/VM Version 6.1, a new version which requires the additional instructions only available in the System z10 and future models.
+
+
+==== z/VM LPAR support ====
+On the System z10, and with the appropriate version of z/VM, a single logical partition (LPAR) can now span all processor types. Previously, IFLs (Linux processors) had to reside in their own separate LPAR(s). This capability improves operational efficiency and simplifies configuration. The z10 also supports much faster z/VM startup from DVD-RAM. Consequently, IBM started providing a no-charge, downloadable z/VM Evaluation Edition.
+
+
+==== Capacity on Demand enhancements ====
+System z10 has a simplified, more automated architecture for activation and deactivation of Capacity on Demand processing. In particular, the machine no longer requires immediate, direct contact with IBM for activation of CoD features. IBM also introduced a new Capacity for Planned Events (CPE) offering, which allows mainframe owners to activate CPU capacity temporarily to facilitate moving machines between data centers, upgrades, and other routine management tasks at a much lower cost.
+
+
+==== InfiniBand coupling ====
+System z10 provides InfiniBand coupling options for Parallel Sysplex. Some of these options are available for retrofit to the System z9.
+
+
+==== HiperDispatch ====
+
+As the number of cores in the System z machines has grown, IBM engineers have continued to find ways to reduce symmetric multiprocessing (SMP) effects. Adding more cores has diminishing returns in performance due to cache, memory, and I/O contention. The latest effort to reduce these penalties is HiperDispatch, a set of intelligent, cooperative dispatching strategies between the System z10 hardware and z/OS, particularly the z/OS Workload Manager and dispatcher. HiperDispatch steers more processing tasks toward the cores that are "closest" to the cached data the tasks will likely require, minimizing contention for memory and I/O. HiperDispatch helps maintain near-linear SMP scalability and is more relevant to the larger models, but it is enabled by default on all System z10 machines.
+
+
+== Models ==
+
+
+=== Enterprise Class ===
+Released on February 26, 2008, the System z10 Enterprise Class is available in five hardware models: E12, E26, E40, E56, and E64. Each is of the machine type 2097. The Enterprise Class PU cores (four per chip) operate at speeds of 4.4 GHz.  The processors are stored in one to four compartments referred to as "books".  Each book comprises a multi-chip module (MCM) of processing units (PUs) and memory cards (including multi-level cache memory). The number of PUs in each book is based upon the model number:
+NOTES:
+
+A minimum of one CP, IFL, or ICF must ordered with every model.
+For each CP ordered, one zAAP and one zIIP may also be ordered.
+Optional SAPs are required only in some situations when using TPF/ESA or z/TPF.
+Memory figures refer to user-accessible memory. The z10 EC reserves 16GB for HSA (Hardware System Area).
+Sub-capacity (fractional) CP configurations are also available.
+
+
+=== Business Class ===
+
+Released on October 21, 2008, the z10 Business Class has only a single model: E10. Machine type is 2098. It has the same processor chip design and instruction set as the z10 EC but with higher manufacturing yields (3.5 GHz clock speed, one core per chip disabled) and lower cost processor packaging due to reduced cooling and reduced multi-chip shared cache needs. The z10 BC also introduced new, more efficient I/O packaging options. It is possible to configure a z10 BC without spare cores if desired, although such maximally configured z10s still fail gracefully in the unlikely event there's a core failure: the system will move any work from the failed core to surviving cores automatically, without operating system or software involvement, keeping all applications running, albeit at slightly reduced capacity if there are no spares remaining.
+The following configuration is available:
+NOTES:
+
+For each CP ordered, one zAAP and one zIIP may also be ordered.
+Memory figures refer to user-accessible memory. The z10 BC reserves 8GB for HSA (Hardware System Area).
+Sub-capacity (fractional) CP configurations are also available.
+
+
+=== Pricing ===
+While the baseline model of the z10 EC has a reported price starting at $1,000,000 for a new system, the z10 BC has a reported price starting "under $100,000".  Actual prices depend on a number of factors including the configuration of the machine (amount of central memory, number of specialty engines, I/O options, etc.), maintenance contracts, government and educational discounts, and finance and leasing terms.
+IBM can also upgrade machines up to two generations old using new parts, retaining the machine's serial number and numerous frame components.
+
+
+== See also ==
+z/Architecture
+IBM System z
+IBM System z9
+IBM zEnterprise System
+
+
+== References ==
+
+
+== External links ==
+ibm.com IBM Z mainframes homepage
+IBM Z current mainframe hardware
+"IBM System z10 Enterprise Class: Data Sheet" (PDF). IBM. 2012-09-25. Retrieved 2013-04-03.
+"IBM System z10 Enterprise Class Technical Guide" (PDF). IBM. 2009-11-11. Retrieved 2013-04-03.

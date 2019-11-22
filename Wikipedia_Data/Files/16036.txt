@@ -1,0 +1,88 @@
+Title: Scientific Data Systems
+Aspects: {'XDS'}
+
+Scientific Data Systems (SDS), was an American computer company founded in September 1961 by Max Palevsky and Robert Beck, veterans of Packard Bell and Bendix, along with eleven other computer scientists. SDS was an early adopter of integrated circuits in computer design and the first to employ silicon transistors. The company concentrated on larger scientific workload focused machines and sold many machines to NASA during the Space Race.  Most machines were both fast and relatively low priced. The company was sold to Xerox in 1969, but dwindling sales due to the oil crisis of 1973–74 caused Xerox to close the division in 1975 at a loss of hundreds of millions of dollars. During the Xerox years the company was officially Xerox Data Systems (XDS), whose machines were the Xerox 500 series.
+
+
+== History ==
+Throughout the majority of the 1960s the US computer market was dominated by "Snow White", IBM, and the "Seven Dwarves", NCR, Burroughs, Control Data Corporation, General Electric, Honeywell, RCA and UNIVAC. SDS entered this well developed market and soon carved out their own niche, a surprising development. Much of this success was due to the use of silicon-based transistors in their earliest designs, the 24-bit SDS 910 and SDS 920 which included a hardware (integer) multiplier. These are arguably the first commercial systems based on silicon, which offered much better performance for no real additional cost.
+Additionally the SDS machines shipped with a selection of software, notably a FORTRAN compiler, developed by Digitek, that made use of the systems' Programmed OPeratorS (POPS), and could compile, in 4K 24-bit words, programs in a single pass without the need for magnetic tape secondary storage. For scientific users writing small programs, this was a real boon and dramatically improved development turnaround time.
+The 910 and 920 were joined by the SDS 9300, announced in June 1963. Among other changes, the 9300 included a floating point processor for higher performance. The performance increase was dramatic; the 910/920 needed 16 microseconds to add two 24-bit integers, the 9300 only 1.75, almost 10 times as fast. The 9300 also increased maximum memory from 16 kWords to 32 kWords. Although its instruction format resembled that of the earlier machines, it was not compatible with them.
+In December 1963 SDS announced the SDS 930, a major re-build of the 9xx line using integrated circuits (ICs) in the central processor. It was comparable to the 9300 in basic operations, but was generally slower overall due to the lack of the 9300's memory interlace capability and hardware floating point unit (although a hardware floating point "correlation and filtering unit" was available as an expensive option). The 930 cost less than half that of the original 9300, at about $105,000 (equivalent to $859,000 in 2018). Cut-down versions of the 920 also followed, including the 12-bit SDS 92, and the IC-based 925.
+Project Genie developed a segmentation and relocation system for time sharing use on the 930 at the University of California, Berkeley, which was commercialized in the SDS 940. It had additional hardware for relocation and swapping of memory sections, and interruptible instructions. The 940 would go on to be a major part of Tymshare's circuit-switched network system growth in the 1960s (pre-ARPAnet and before packet-switching). A 945 was announced in July 1968 as a modified 940 with less I/O and the same compute power, but it is unclear whether this shipped.
+
+In December 1966 SDS shipped the entirely new Sigma series, starting with the 16-bit Sigma 2 and the 32-bit Sigma 7, both using common hardware internally. The success of the IBM System/360 and the rise of the 7-bit ASCII character standard was pushing all vendors to the 8-bit standard from their earlier 6-bit ones. SDS was one of the first companies to offer a machine intended as an alternative to the IBM System/360; although not compatible with the 360, it used similar data formats, the EBCDIC character code, and in other ways, such as its use of multiple registers rather than an accumulator, it was designed to have specifications that were comparable to those of the 360.
+Various versions of the Sigma 7 followed, including the cut-down Sigma 5 and re-designed Sigma 6. The Xerox Sigma 9 was a major re-design with instruction lookahead and other advanced features, while the Sigma 8 and Sigma 9 mod 3 were low-end machines offered as a migration path for the Sigma 5. Meanwhile, the French national champion CII, as a licensee of SDS, sold about 60 Sigma 7 machines in Europe, and developed an upgrade with virtual memory and biprocessor capability, the Iris 80. CII also manufactured and sold some 160 Sigma 2 systems.
+The Sigma range was very successful in the niche real-time processing field, due to the sophisticated hardware interrupt structure and independent I/O processor. The first node of ARPANET was established by Leonard Kleinrock at UCLA with an SDS Sigma 7 system.
+Even with these successes, when Xerox bought the company in 1969 they sold only about 1% of the computers in the US, something Xerox never seemed to improve. When they were purchased, about 1,000 SDS machines of all types were in the market, and by the time the division closed in 1975 this had increased to only about 2,100. By this point, the newer Xerox 550 and 560 models, extensively re-designed Sigmas, were about to come to market and were extensively back ordered. Most rights were sold to Honeywell in July 1975 who produced Sigmas for a short period, and provided support into the 1980s.
+Several manufacturers attempted to enter the Sigma 9 replacement market. The first successful design was the Telefile T-85, but it is not clear how many were sold. Other efforts, including the Modutest Model 9, Ilene Model 9000 and Real-time RCE-9 were designed, but it is not clear if they were ever produced past the prototype stage.
+
+
+== A new start ==
+In 1979 Jack Mitchell, William L. Scheding, and Henry Harold, former SDS engineers, along with some other ex-SDS people restarted the company with funding from Max Palevsky, Sanford Kaplan, Dan McGurk, and others. They introduced a microprocessor-based computer called the SDS-420 built on a 6502A-based processor design with up to 56KB of memory and a proprietary OS, SDS-DOS, along with the BASIC programming language from Microsoft. The SDS-420 featured a dual single-sided-double-density (400KB per side) floppy disk drive, Model 70, manufactured by PerSci (Peripheral Sciences), of Santa Monica and Marina del Rey, California.  The SDS-422 Model offered some of the first dual double-sided-double-density floppy drives. Other hardware options were a 6551-A USART and a proprietary network SDS-NET using a Z8530 SDLC/HDLC chip and software patterned after the early Xerox 3.0 Mbit/s Ethernet and transceivers produced by Tat Lam of the Bay Area.
+The 400 Series had little to do with scientific computing and more with word processing and business services. The company sold about 1000 machines worldwide, including Tahiti, London, Italy, New York City and Los Angeles.
+SDS announced at COMDEX, in the early 1980s, its SDS NET, a fully operational local area network (LAN)-based file server (Model 430) (written by Sam Keys, of Westchester, California). The SDS-430-Server offered file- and print-sharing services over SDS-NET or modems and was based upon a 10 MB hard disk manufactured by Micropolis of Chatsworth, California.  SDS Offered other models, including the SDS-410, a diskless work station that booted and ran off the SDS-NET or optionally could boot off-of and run over a 1200 bit/s modem link.
+Products offered were: Word (word processing, written by John McCully, formerly of Jacquard Systems, Manhattan Beach, California), and fully functional accounting software: balance-forward and open-item accounting with General Ledger, Accounts Receivable, Accounts Payable, and Payroll (written by Tom Davies and Sandra Mass, both formerly with Jacquard Systems).
+Other offerings included: Legal Time and Billing, Medical Time and Billing, and TTY an early terminal emulation program using the 6551 USART.  Through partnerships with their value-added resellers (VARs) other software product offerings included a solid-waste management system with automated truck routing and a country-club accounting package.  One UK-based VAR was Jacq-Rite, a vertical market software house run by Ken Groome and Vivienne Gurney and based in Dorking, Surrey.   Jacq-Rite had developed a range of specialist insurance software for the Jacquard machine but transferred to the SDS 400 following the advice of John McCully.  Jacq-Rite installed several SDS 400 series networks in Lloyd's Managing and Members Agencies during 1982 and 1983.  One of Jacq-Rite's programming staff that worked on the software porting was Justin Hill.  Jacq-Rite's hardware sales were managed by David Ensor.
+
+
+== SDS in the United Kingdom ==
+In 1983 Ensor and Hill left Jacq-Rite and formed a company calling itself 'Scientific Data Systems UK Limited' or 'SDS UK' (but actually unrelated to SDS) in Crawley, West Sussex in the UK.  This coincided with SDS's announcement of their 4000 series computer; they hoped to build a business around this machine (including supplying it to Jacq-Rite) and negotiated an exclusive arrangement with SDS.
+The SDS 4000 was a complete re-design, both cosmetically and with all-new internal hardware, but the architecture was basically the same as the 400 series - and ran the same software.  The machine had a 1/2 height 5 1/4 inch hard disk drive bay and used Seagate 10 and 20MB hard drives or SyQuest removable drive units.  The 4000 motherboard had a SCSI interface (still known as SASI at the time) and an Adaptec 4000 SASI controller board was shoe-horned into the case to connect the drives.  The diskette drive was also half-height 5 1/4 inch (the 400 series had used 8 inch diskettes).  Like the 410, there was a diskless version too.  Local Area Networking capabilities were carried over from the 400 series.
+The 4000's major aesthetic departure from its predecessor was the use of a separate  12-inch tilt-and-swivel Visual Display Unit (VDU) and CPU case.  The keyboard was detachable for the first time and the system had a beige colour scheme (dictated by the colour of the third party VDUs) in place of the black and white appearance of the 400.
+However, financial problems at SDS were already substantial, and the UK business only ever received a small number of hastily completed machines.  In an attempt to bypass these problems Hill produced a clone of the 4000 series computer by reverse-engineering an original model with the aid of a set of paper schematics obtained on a visit to SDS.  This was neither approved nor supported by SDS, but Mitchell alone [and not Scheding] made a confidential visit to the UK to help debug the new computer.  This was fortunate because, being unable to confer with SDS, Hill had unwittingly used schematics referring to a forthcoming revision of the machine, for which no firmware had yet been completed.  Mitchell alone [and not Scheding] finished the new firmware at SDS UK's offices.  This meant that Hill's 'unofficial 4000' was actually a later revision than any US machines completed.  Hill also improved the board layout, rear-panel connectivity and power supply.
+The new machine worked, and a number of examples were made using a prototyping firm in Poole, Dorset.  Several were even sold, including a 5-station network with external storage (see below) to the UK Institute of Legal Executives ('ILEX') in Bedford which remained in use for several years.  This was supplied with bespoke software (also produced by Hill, with the assistance of Paula Flint) to store examination results and print certificates.  However, any hope of selling into the lucrative Lloyd's insurance market in conjunction with Jacq-Rite was short-lived as Jacq-Rite had abandoned SDS and moved to the IBM PC platform, taking their customers with them, as soon as SDS UK was formed.  (This decision was also influenced by John McCully, who was now developing his word-processing software for MS-DOS.)
+The 'unofficial' 4000 series machine was at least a finished computer, and the small number produced worked reliably.  Taking advantage of the SCSI implementation, Hill added an external connector to his version of the machine and developed a matching hard drive enclosure. This enclosure accommodated higher capacity, full-height ​5 1⁄4-inch drives.
+However, the UK company's lack of capital to invest in the machine's manufacture meant that the cosmetic appearance of the computer left a lot to be desired.  Furthermore, the machines were extremely costly – IBM's new Personal Computer/AT was shipping at about half the price SDS UK Limited needed to sell their computer for.  Relationships between SDS and its UK namesake had broken down completely by this time, and SDS UK did not have the resources to develop new versions of the hardware or operating system.
+SDS went out of business in the US 1984.  The UK company of the same name ceased trading in the same year.
+
+
+== Known users ==
+Although initially intended as a Scientific Computer System, the 900 series and the Sigma series were used extensively in commercial time-sharing systems. The biggest such user was Comshare Inc. of Ann Arbor, Michigan, who extensively developed the hardware during the 1980s and the Sigma 9 was operated commercially until c. 1993. Developments and improvements by Comshare included the I-Channel, which allowed the utilization of Bus/Tag (IBM compatible) devices and the ISI Communications interface. These innovations allowed Comshare to capitalize on the Sigma CPU's and their software development (Commander II) by gaining access to current technology storage systems.  Recognition Equipment Inc. of Dallas, Texas used 910s in the 1960s to control its optical character recognition machines.
+Other known users in the USA include:
+
+Known users outside the U.S. include:
+
+
+== SDS software ==
+The primary operating system for the 900 series was called Monarch. For the Sigma 32-bit range RBM, a real-time and batch monitor, and BTM, a batch and timesharing monitor were available. In 1971 a more sophisticated timesharing system UTS was released, which was developed into CP-V. The RBM operating system was replaced by CP-R, a real-time and timesharing system. In March 1982 Honeywell gave the remaining software for the 900 series to a group in Kansas City that offered to continue making copies for people still using the systems. Honeywell had  stopped supporting the systems many years before this. In September 2006, this collection was donated to the Computer History Museum along with all of the program's original documentation, and copies of most of the SDS user's manuals. This is one of the largest collections of software to have survived from the 1960s intact. Unfortunately, the timesharing software for the 940 series was not present in the Honeywell LADS Library and does not appear to have survived. Copies of the original system developed at UC Berkeley exist as file system backups. Most of the customers for 940 systems (in particular Tymshare) made extensive modifications to the 940 system software, and no copies of that version of the software are known to have survived.
+A simulator for the Sigma series is known to exist, and Sigma series software is being collected by the Computer History Museum. Early versions were not copyrighted (CP-V C00 and earlier), while later versions developed by Honeywell were (CP-V E00 and F00).  Some copies of CP-V D00 were released without licensing agreements and subsequently public domain status was claimed by users.
+
+
+== Computer models ==
+
+
+=== SDS 92 ===
+The SDS 92 is generally accepted as the first commercial computer using monolithic integrated circuits.  ICs were used on about 50 circuit cards.The SDS 92 is a small, high-speed, very low-cost, general purpose computer 12-bit system introduced in 1965. it was not compatible with other SDS lines such as the 900 series or the Sigma series.  Features included:
+12- and 24-bit instructions
+12-bit word plus parity bit
+2048-word basic memory (1.75 μsec memory cycle) expandable to 4096, 8192, 16,384 or 32,768 words, all directly addressablePeripheral equipment available from SDS standard peripheral line included:
+10 cps Keyboard/printer (teletype) with or without paper tape reader and punch
+300 cps paper tape reader
+60 cps paper tape punch
+MAGPAK Magnetic Tape System
+
+
+=== CE16 and CF16 ===
+The CE16 and CF16 announced in May 1969 were small 16-bit computers designed primarily for process control applications.
+
+
+== See also ==
+Berkeley Timesharing System
+SDS 9xx computers
+
+
+== References ==
+
+
+== Further reading ==
+"Enter Max Palevsky", Time Magazine, Friday, February 24, 1967
+
+
+== External links ==
+Oral history interview with Paul A. Strassmann, Charles Babbage Institute, University of Minnesota, Minneapolis
+Scientific Data Systems The Sigma Family:  Introducing Sigma from Scientific Data Systems. 1967
+SDS Sigma 7 technical information
+SDS 900 series documentation at bitsavers.org
+Sigma series documentation at bitsavers.org
+Tymshare documentation at bitsavers.org

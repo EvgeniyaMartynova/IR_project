@@ -1,0 +1,50 @@
+Title: Bendix G-20
+Aspects: {'G20 (disambiguation)'}
+
+The Bendix G-20 computer was introduced in 1961 by the Bendix Corporation, Computer Division, Los Angeles, California. The G-20 followed the highly successful G-15 vacuum tube computer.  Bendix sold its computer division to Control Data Corporation in 1963, effectively terminating the G-20.
+
+
+== G-20 ==
+The G-20 weighed about 2,000 pounds (910 kg).The G-20 system was a general purpose mainframe computer, constructed of transistorized modules and core memory. Word size was 32 bits, plus parity. Up to 32k words of memory could be used. Single and Double precision floating point were allowed, as well a custom scaled format, called Pick-a-Point. A special form of the pick-a-point allowed an integer.
+Memory locations 1 through 63 were used as index registers. One hundred and ten instructions were in the instruction set. The CPU included integral block I/O and interrupt facilities. Multiply time was 51-63 microseconds, and divide time was 72-84 microseconds. Basic memory cycle time was 6 microseconds.
+
+
+=== 20-GATE ===
+A special programming language, called 20-GATE, was developed for the G-20.
+
+
+== G-21 system ==
+A special configuration of the G-20, a dual processor G-21, was used to support campus computing at Carnegie Institute of Technology in the 1960s. Usually the two processors ran independently, one CPU handling card-based input, and the other handling jobs submitted through one of 16 AT&T Dataphones connected to telephone lines, usually via Teletype Model 35 KSR, Model 35 ASR and Teletype Model 33 ASR teleprinters.  The G-21 had 32k words of memory for each processor, but could be reconfigured for 64k mode for large programs, usually as a single processor.  A true dual processor operating system was developed late in the life of the G-21, but never reached production status.
+Another feature of the G-21 system was its high speed Philco "Scopes" system - when punch cards or Teletype Model 33 ASRs were the common form of I/O, this CRT system allowed for a CRT display of information - and the "SpaceWar" game. Here, each operator saw the other player's ships on his screen. Buttons were used for thrust, spin, and firing missiles. The G-21 would play chess with you, via the Teletype.
+The directory system was called AND - Alpha Numeric Directory. Teleprocessing users could store programs on disks, tapes, or the RCA RACE mass storage unit interfaced through an RCA 301 computer.  Users could retrieve and edit programs through AND.  The 1-inch magnetic tapes were block addressable, allowing AND to manage a directory file system interchangeably on any available magnetic storage (tape, disk, or RACE cards).
+The machine was programmed in a dialect of ALGOL-60 called ALGOL-20. Deviations from Algol-60 included the lack of support for recursion, extensions to imbed G-20 machine language within ALGOL - WHAT, and a CIT developed printer formatting language. Another language was GATE - the General Algebraic Translator Extended. It also used IPL-V (Newell's Information Processing Language-5) and Linear IPL-V as well as COMIT, and the assembler THAT. MONITOR was the supervisory program, and the special set of routines was called THEM THINGS.
+An exposition of the G-21 design appears in a Carnegie Mellon webcast by the designer, Jesse Quatse, at CMU CS50. [1]
+
+
+== Equipment list, circa 1965/66 ==
+CC-11 Real time clock and auxiliary console
+CP-11 Central Processor (2)
+MM-10 Memory Module (1)
+MM-11 Memory Module (7)
+MM-12 Memory Module, modified to work with display system
+DM-11 Disk unit
+TC-10 Tape Control Unit (2)
+MT-10 Magnetic Tape Unit, used 1" tape (8)
+PT-10 Paper Tape Unit
+SE-10 Teletype buffer
+LP-12 high speed line printer (2)
+LP-10 low speed line printer
+3 display consoles, and 1 display controller.
+An IBM 1402 card reader/punch was used for batch job submission.
+
+
+== References ==
+Anecdotes, Jesse T. Quatse, IEEE Annals of the History of Computing, vol. 28,  no. 3, pp. 76–80, Jul-Sept, 2006
+A Visual Display System Suitable for Time Shared Use, Jesse Quatse, revised, 1966
+Design of the G-21 Multi-Processor System, Jesse Quatse, 1965
+Interactive Programming at Carnegie Tech, A H Bond, 1968 [2]
+THAT - A Language Manual, CIT Computer Center Programming Staff, 1965 [3]
+WHAT, James Moore, CIT Computer Center, 1965 [4]
+The Bendix G-20 Central Processor Machine Language, 1961, [5]
+The Bendix G-20 Peripheral Equipment Machine Language, 1961, [6]
+The Bendix G-20 General Reference Manual, 1962, [7]

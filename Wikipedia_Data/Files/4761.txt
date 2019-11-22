@@ -1,0 +1,227 @@
+Title: H-index
+Aspects: {'H number', 'H index'}
+
+The h-index is an author-level metric that attempts to measure both the productivity and citation impact of the publications of a scientist or scholar. The index is based on the set of the scientist's most cited papers and the number of citations that they have received in other  publications. The index can also be applied to the productivity and impact of a scholarly journal as well as a group of scientists, such as a department or university or country. The index was suggested in 2005 by Jorge E. Hirsch, a physicist at UC San Diego, as a tool for determining theoretical physicists' relative quality and is sometimes called the Hirsch index or Hirsch number.
+
+
+== Definition and purpose ==
+
+The h-index is defined as the maximum value of h such that the given author/journal has published h papers that have each been cited at least h times. The index is designed to improve upon simpler measures such as the total number of citations or publications. The index works properly only for comparing scientists working in the same field; citation conventions differ widely among different fields.
+
+
+== Calculation ==
+Formally, if f is the function that corresponds to the number of
+citations for each publication, we compute the h-index as follows.
+First we order the values of f from the largest to the lowest value.
+Then, we look for the last position in which f is greater than or equal to the
+position (we call h this position).
+For example, if we have a researcher with 5 publications A, B, C, D, and E
+with 10, 8, 5, 4, and 3 citations, respectively, the h-index is equal
+to 4 because the 4th publication has 4 citations and the 5th has only 3.
+In contrast, if the same publications have 25, 8, 5, 3, and 3 citations, then the
+index is 3 because the fourth paper has only 3 citations.
+
+f(A)=10, f(B)=8, f(C)=5, f(D)=4, f(E)=3　→ h-index=4
+f(A)=25, f(B)=8, f(C)=5, f(D)=3, f(E)=3　→ h-index=3If we have the function f ordered in decreasing order from the largest
+value to the lowest one, we can compute the h-index as follows:
+
+h-index (f) = 
+  
+    
+      
+        
+          max
+          
+            i
+          
+        
+        min
+        (
+        f
+        (
+        i
+        )
+        ,
+        i
+        )
+      
+    
+    {\displaystyle \max _{i}\min(f(i),i)}
+  The Hirsch index is analogous to the
+Eddington number, an earlier metric used for evaluating cyclists.
+The h-index serves as an alternative to more traditional journal impact factor metrics in the evaluation of the impact of the work of a particular researcher. Because only the most highly cited articles contribute to the h-index, its determination is a simpler process. Hirsch has demonstrated that h has high predictive value for whether a scientist has won honors like National Academy membership or the Nobel Prize. The h-index grows as citations accumulate and thus it depends on the "academic age" of a researcher.
+
+
+== Input data ==
+The h-index can be manually determined by using citation databases or using automatic tools. Subscription-based databases such as Scopus and the Web of Science provide automated calculators. From July 2011 Google have provided an automatically-calculated h-index and i10-index within their own Google Scholar profile. In addition, specific databases, such as the INSPIRE-HEP database can automatically calculate the h-index for researchers working in high energy physics.
+Each database is likely to produce a different h for the same scholar, because of different coverage. A detailed study showed that the Web of Science has strong coverage of journal publications, but poor coverage of high impact conferences. Scopus has better coverage of conferences, but poor coverage of publications prior to 1996; Google Scholar has the best coverage of conferences and most journals (though not all), but like Scopus has limited coverage of pre-1990 publications. The exclusion of conference proceedings papers is a particular problem for scholars in computer science, where conference proceedings are considered an important part of the literature. Google Scholar has been criticized for producing "phantom citations," including gray literature in its citation counts, and failing to follow the rules of Boolean logic when combining search terms. For example, the Meho and Yang study found that Google Scholar identified 53% more citations than Web of Science and Scopus combined, but noted that because most of the additional citations reported by Google Scholar were from low-impact journals or conference proceedings, they did not significantly alter the relative ranking of the individuals. It has been suggested that in order to deal with the sometimes wide variation in h for a single academic measured across the possible citation databases, one should assume false negatives in the databases are more problematic than false positives and take the maximum h measured for an academic.
+
+
+== Comparing results across fields and career levels ==
+Little systematic investigation has been done on how the h-index behaves over different institutions, nations, times and academic fields. Hirsch suggested that, for physicists, a value for h of about 12 might be typical for advancement to tenure (associate professor) at major [US] research universities. A value of about 18 could mean a full professorship, 15–20 could mean a fellowship in the American Physical Society, and 45 or higher could mean membership in the United States National Academy of Sciences. Hirsch estimated that after 20 years a "successful scientist" would have an h-index of 20, an "outstanding scientist" would have an h-index of 40, and a "truly unique" individual would have an h-index of 60.For the most highly cited scientists in the period 1983–2002, Hirsch identified the top 10 in the life sciences (in order of decreasing h): Solomon H. Snyder, h = 191; David Baltimore, h = 160; Robert C. Gallo, h = 154; Pierre Chambon, h = 153; Bert Vogelstein, h = 151; Salvador Moncada, h = 143; Charles A. Dinarello, h = 138; Tadamitsu Kishimoto, h = 134; Ronald M. Evans, h = 127; Axel Ullrich, h = 120; and Ralph L. Brinster, h = 120. Among 36 new inductees in the National Academy of Sciences in biological and biomedical sciences in 2005, the median h-index was 57. However, Hirsch noted that values of h will vary between different fields.Among the 22 scientific disciplines listed in the Thomson Reuters Essential Science Indicators Citation Thresholds [thus excluding non-science academics], physics has the second most citations after space science. During the period January 1, 2000 – February 28, 2010, a physicist had to receive 2073 citations to be among the most cited 1% of physicists in the world. The threshold for space science is the highest (2236 citations), and physics is followed by clinical medicine (1390) and molecular biology & genetics (1229). Most disciplines, such as environment/ecology (390), have fewer scientists, fewer papers, and fewer citations. Therefore, these disciplines have lower citation thresholds in the Essential Science Indicators, with the lowest citation thresholds observed in social sciences (154), computer science (149), and multidisciplinary sciences (147).Numbers are very different in social science disciplines: The Impact of the Social Sciences team at London School of Economics found that social scientists in the United Kingdom had lower average h-indices. The h-indices for ("full") professors, based on Google Scholar data ranged from 2.8 (in law), through 3.4 (in political science), 3.7 (in sociology), 6.5 (in geography) and 7.6 (in economics). On average across the disciplines, a professor in the social sciences had an h-index about twice that of a lecturer or a senior lecturer, though the difference was the smallest in geography.
+
+
+== Advantages ==
+Hirsch intended the h-index to address the main disadvantages of other bibliometric indicators, such as total number of papers or total number of citations. Total number of papers does not account for the quality of scientific publications, while total number of citations can be disproportionately affected by participation in a single publication of major influence (for instance, methodological papers proposing successful new techniques, methods or approximations, which can generate a large number of citations), or having many publications with few citations each. The h-index is intended to measure simultaneously the quality and quantity of scientific output.
+
+
+== Criticism ==
+There are a number of situations in which h may provide misleading information about a scientist's output:  Most of these however are not exclusive to the h-index.
+
+The h-index does not account for the typical number of citations in different fields. It has been stated that citation behavior in general is affected by field-dependent factors, which may invalidate comparisons not only across disciplines but even within different fields of research of one discipline.
+The h-index discards the information contained in author placement in the authors' list, which in some scientific fields is significant.
+The h-index has been found in one study to have slightly less predictive accuracy and precision than the simpler measure of mean citations per paper. However, this finding was contradicted by another study by Hirsch.
+The h-index is a natural number that reduces its discriminatory power. Ruane and Tol therefore propose a rational h-index that interpolates between h and h + 1.
+The h-index can be manipulated through self-citations, and if based on Google Scholar output, then even computer-generated documents can be used for that purpose, e.g. using SCIgen.
+The h-index does not provide a significantly more accurate measure of impact than the total number of citations for a given scholar. In particular, by modeling the distribution of citations among papers as a random integer partition and the h-index as the Durfee square of the partition,  Yong arrived at the formula 
+  
+    
+      
+        h
+        ≈
+        0.54
+        
+          
+            N
+          
+        
+      
+    
+    {\displaystyle h\approx 0.54{\sqrt {N}}}
+  , where N is the total number of citations, which, for mathematics members of the National Academy of Sciences, turns out to provide an accurate (with errors typically within 10–20 percent) approximation of h-index in most cases.
+
+
+== Alternatives and modifications ==
+
+Various proposals to modify the h-index in order to emphasize different features have been made. As the variants have proliferated, comparative studies have become possible showing that most proposals are highly correlated with the original h-index and therefore largely redundant, although alternative indexes may be important to decide between comparable CVs, as often the case in evaluation processes.
+
+An individual h-index normalized by the number of authors has been proposed: 
+  
+    
+      
+        
+          h
+          
+            I
+          
+        
+        =
+        
+          h
+          
+            2
+          
+        
+        
+          /
+        
+        
+          N
+          
+            a
+          
+          
+            (
+            T
+            )
+          
+        
+      
+    
+    {\displaystyle h_{I}=h^{2}/N_{a}^{(T)}}
+  , with 
+  
+    
+      
+        
+          N
+          
+            a
+          
+          
+            (
+            T
+            )
+          
+        
+      
+    
+    {\displaystyle N_{a}^{(T)}}
+   being the number of authors considered in the 
+  
+    
+      
+        h
+      
+    
+    {\displaystyle h}
+   papers.  It was found that the distribution of the h-index, although it depends on the field, can be normalized by a simple rescaling factor. For example, assuming as standard the hs for biology, the distribution of h for mathematics collapse with it if this h is multiplied by three, that is, a mathematician with h = 3 is equivalent to a biologist with h = 9. This method has not been readily adopted, perhaps because of its complexity. It might be simpler to divide citation counts by the number of authors before ordering the papers and obtaining the h-index, as originally suggested by Hirsch.
+The m-index is defined as h/n, where n is the number of years since the first published paper of the scientist; also called m-quotient.
+There are a number of models proposed to incorporate the relative contribution of each author to a paper, for instance by accounting for the rank in the sequence of authors.
+A generalization of the h-index and some other indices that gives additional information about the shape of the author's citation function (heavy-tailed, flat/peaked, etc.) has been proposed.
+Three additional metrics have been proposed: h2 lower, h2 center, and h2 upper, to give a more accurate representation of the distribution shape. The three h2 metrics measure the relative area within a scientist's citation distribution in the low impact area, h2 lower, the area captured by the h-index, h2 center, and the area from publications with the highest visibility, h2 upper. Scientists with high h2 upper percentages are perfectionists, whereas scientists with high h2 lower percentages are mass producers. As these metrics are percentages, they are intended to give a qualitative description to supplement the quantitative h-index.
+The g-index can be seen as the h-index for an averaged citations count.
+It has been argued that "For an individual researcher, a measure such as Erdős number captures the structural properties of network whereas the h-index captures the citation impact of the publications. One can be easily convinced that ranking in coauthorship networks should take into account both measures to generate a realistic and acceptable ranking." Several author ranking systems such as eigenfactor (based on eigenvector centrality) have been proposed already, for instance the Phys Author Rank Algorithm.
+The c-index accounts not only for the citations but for the quality of the citations in terms of the collaboration distance between citing and cited authors. A scientist has c-index n if n of [his/her] N citations are from authors which are at collaboration distance at least n, and the other (N − n) citations are from authors which are at collaboration distance at most n.
+An s-index, accounting for the non-entropic distribution of citations, has been proposed and it has been shown to be in a very good correlation with h.
+The e-index, the square root of surplus citations for the h-set beyond h2, complements the h-index for ignored citations, and therefore is especially useful for highly cited scientists and for comparing those with the same h-index (iso-h-index group).
+Because the h-index was never meant to measure future publication success, recently, a group of researchers has investigated the features that are most predictive of future h-index. It is possible to try the predictions using an online tool. However, later work has shown that since h-index is a cumulative measure, it contains intrinsic auto-correlation that led to significant overestimation of its predictability. Thus, the true predictability of future h-index is much lower compared to what has been claimed before.
+The i10-index indicates the number of academic publications an author has written that have been cited by at least ten sources. It was introduced in July 2011 by Google as part of their work on Google Scholar.
+The h-index has been shown to have a strong discipline bias. However, a simple normalization 
+  
+    
+      
+        h
+        
+          /
+        
+        ⟨
+        h
+        
+          ⟩
+          
+            d
+          
+        
+      
+    
+    {\displaystyle h/\langle h\rangle _{d}}
+   by the average h of scholars in a discipline d is an effective way to mitigate this bias, obtaining a universal impact metric that allows comparison of scholars across different disciplines. Of course this method does not deal with academic age bias.
+The h-index can be timed to analyze its evolution during one's career, employing different time windows.
+The o-index corresponds to the geometric mean of the h-index and the most cited paper of a researcher.
+The RA-index accommodates improving the sensitivity of the h-index on the number of highly cited papers and has many cited paper and uncited paper under the h-core. This improvement can enhance the measurement sensitivity of the h-index. 
+
+
+== Applications ==
+Indices similar to the h-index have been applied outside of author level metrics.
+The h-index has been applied to Internet Media, such as YouTube channels. It is defined as the number of videos with ≥ h × 105 views.  When compared with a video creator's total view count, the h-index and g-index better capture both productivity and impact in a single metric.A successive Hirsch-type-index for institutions has also been devised. A scientific institution has a successive Hirsch-type-index of i when at least i researchers from that institution have an h-index of at least i.
+
+
+== See also ==
+Bibliometrics
+Comparison of research networking tools and research profiling systems
+
+
+== References ==
+
+
+== Further reading ==
+Alonso, S.; Cabrerizo, F. J.; Herrera-Viedma, E.; Herrera, F. (2009). "h-index: A Review Focused in its Variants, Computation and Standardization for Different Scientific Fields" (PDF). Journal of Informetrics. 3 (4): 273–89. doi:10.1016/j.joi.2009.04.001.
+Ball, Philip (2005). "Index aims for fair ranking of scientists". Nature. 436 (7053): 900. Bibcode:2005Natur.436..900B. doi:10.1038/436900a. PMID 16107806.
+Iglesias, Juan E.; Pecharromán, Carlos. "Scaling the h-index for different scientific ISI fields" (PDF). 
+Kelly, C. D.; Jennions, M. D. (2006). "The h index and career assessment by numbers". Trends Ecol. Evol. 21 (4): 167–70. doi:10.1016/j.tree.2006.01.005. PMID 16701079.
+Lehmann, S.; Jackson, A. D.; Lautrup, B. E. (2006). "Measures for measures". Nature. 444 (7122): 1003–04. Bibcode:2006Natur.444.1003L. doi:10.1038/4441003a. PMID 17183295.
+Panaretos, J.; Malesios, C. (2009). "Assessing Scientific Research Performance and Impact with Single Indices". Scientometrics. 81 (3): 635–70. arXiv:0812.4542. doi:10.1007/s11192-008-2174-9.
+Petersen, A. M.; Stanley, H. Eugene; Succi, Sauro (2011). "Statistical Regularities in the Rank-Citation Profile of Scientists". Scientific Reports. 181 (181): 1–7. arXiv:1103.2719. Bibcode:2011NatSR...1E.181P. doi:10.1038/srep00181. PMC 3240955. PMID 22355696.
+Sidiropoulos, Antonis; Katsaros, Dimitrios; Manolopoulos, Yannis (2007). "Generalized Hirsch h-index for disclosing latent facts in citation networks". Scientometrics. 72 (2): 253–80. CiteSeerX 10.1.1.76.3617. doi:10.1007/s11192-007-1722-z.
+Soler, José M. (2007). "A rational indicator of scientific creativity". Journal of Informetrics. 1 (2): 123–30. arXiv:physics/0608006. doi:10.1016/j.joi.2006.10.004.
+Symonds, M. R.;  et al. (2006).  Tregenza, Tom (ed.). "Gender differences in publication output: towards an unbiased metric of research performance". PLoS ONE. 1 (1): e127. Bibcode:2006PLoSO...1..127S. doi:10.1371/journal.pone.0000127. PMC 1762413. PMID 17205131.
+Taber, Douglass F. (2005). "Quantifying Publication Impact". Science. 309 (5744): 2166a. doi:10.1126/science.309.5744.2166a. PMID 16195445.
+Woeginger, Gerhard j. (2008). "An axiomatic characterization of the Hirsch-index". Mathematical Social Sciences. 56 (2): 224–32. doi:10.1016/j.mathsocsci.2008.03.001.
+
+
+== External links ==
+Google Scholar Metrics
+H-index for economists
+H-index for computer science researchers
+H-index for astronomers

@@ -1,0 +1,41 @@
+Title: Ariane flight VA242
+Aspects: {'VA242'}
+
+Ariane flight VA242 was an Ariane 5 space launch that occurred from the Guiana Space Centre on 5 April 2018 at 21:34 UTC.
+The launch was also notable as it was the first Arianespace launch following the mishap of the VA241 launch in January 2018 that caused the two satellites delivered to the wrong inclination.
+
+
+== Payload ==
+The launcher was carrying the DSN-1/Superbird-8 and HYLAS-4 geostationary satellites. The satellites were accommodated together on the SYLDA adapter inside the long version of the upper stage fairing, with a total payload mass of approximately 10,260 kilograms (22,620 lb).
+
+
+=== DSN-1/Superbird-8 ===
+Superbird-8, built by Mitsubishi Electric (with manufacturing management by NEC) for the DSN Corporation Japanese joint venture, was in the upper position. It had a mass at liftoff of about 5,348 kilograms (11,790 lb), hosting the DSN-1 payload for the Japanese Ministry of Defense. The satellite is a semi-classified payload due to military purpose.Superbird-8 is a Ku- and Ka-bands communications satellite based on the DS2000 satellite bus, with a design lifetime of 15 years or more at geostationary orbital position 162° East.
+The satellite was supposed to launch in mid-2016, but due to overpressurization within the container during shipping to the launch site that caused significant damage, the satellite was returned to the manufacturer for repairs and additional testing, delaying the launch for almost two years.
+
+
+=== HYLAS-4 ===
+HYLAS-4, built by Orbital ATK for Avanti, was in the lower position. It had a mass at liftoff of approximately 4,050 kilograms (8,930 lb).HYLAS-4 is a Ka-band communications satellite, that will occupy the 33.5° West orbital position, covering Africa and Europe. It has a design lifetime of 15 years and it is the second based on Orbital ATK's GEOStar-3 satellite bus to be launched by Arianespace.
+
+
+== Mission description ==
+
+
+=== Launch campaign ===
+The launch campaign activities started on 30 January 2018.
+DSN-1/Superbird-8 and HYLAS-4 arrived in French Guiana respectively on 6 February 2018 and 15 February 2018. They were fuelled between 22 March 2018 and 2 March 2018 and were integrated between 2 March 2018 and 28 March 2018.
+
+
+=== Launch date ===
+The second Ariane 5 launch of 2018, just after the partial failure of VA241, was planned to take place within a launch window of 50 minutes starting on 5 April 2018 at 21:34 UTC (18:34 local time). The launcher engines effectively were ignited at the very beginning of that window, from Ariane Launch Complex No. 3 (ELA 3) in Kourou, French Guiana.
+
+
+=== Orbit ===
+The mission was planned to last 33 minutes and 56 seconds, placing both satellites into a geostationary transfer orbit, with an apogee of about 35,786 kilometres (22,236 mi) and a perigee of about 250 kilometres (160 mi), at an inclination of about 3 degrees.
+
+
+=== Countdown and flight sequence ===
+The planned sequence was as follows:
+
+
+== References ==

@@ -1,0 +1,90 @@
+Title: K-13 (missile)
+Aspects: {'K13'}
+
+The Vympel K-13 (NATO reporting name: AA-2 "Atoll") is a short-range, infrared homing air-to-air missile developed by the Soviet Union. It is similar in appearance and function to the American AIM-9 Sidewinder from which it was reverse-engineered. Although it since has been replaced by more modern missiles in frontline service, it saw widespread service in many nations.
+
+
+== Background - the Sidewinder missile ==
+During the Second Taiwan Strait Crisis in 1958, Taiwan's F-86 Sabres faced the much higher performance, mainland Chinese PLAAF MiG-17s. The MiG-17s had speed, maneuverability, and altitude advantages over the Sabres, allowing them to engage only when they desired, normally at advantageous times. In response, the US Navy rushed to modify 100 Taiwanese Sabres to carry the newly introduced AIM-9 Sidewinder missile. These were introduced into combat on 24 September 1958, when a group of MiG-17s cruised past a flight of Sabres, only to find themselves under attack by missile fire. This was the first instance of guided missiles being used in air-to-air combat.On 28 September 1958, a similar engagement resulted in one of the missiles becoming lodged in a MiG-17 without exploding, allowing it to be removed after landing. The Soviets later became aware that the Chinese had at least one Sidewinder, and after some wrangling, were able to persuade the Chinese to send them one of the captured missiles. Gennadiy Sokolovskiy, later chief engineer at the Vympel team, said that "the Sidewinder missile was to us a university offering a course in missile construction technology which has upgraded our engineering education and updated our approach to production of future missiles."A subsequent claim was made by Ron Westrum in his book "Sidewinder" that the Soviets obtained the plans for the Sidewinder from Swedish Colonel and convicted spy Stig Wennerström, and rushed their version into service by 1961 copying it so closely that even the part numbers were duplicated. Although Wennerström did leak information of the Sidewinder after negotiating its purchase for Sweden, none of the known Soviet sources mention this, while all explicitly mention the Chinese example.
+
+
+== Development and early use ==
+
+The Sidewinder was quickly reverse engineered as the K-13 (also called R-3 or Object 300) and entered limited service only two years later in 1960. This was followed by the improved K-13A (R-3S, Object 310), which entered service in 1962. The R-3S was the first version to enter widespread production, in spite of a very long seeker settling time on the order of 22 seconds, as opposed to 11 seconds for the original version.The R-3S was seen by the West in 1961 and given the NATO reporting name AA-2A 'Atoll'. Minimum engagement range for the R-3S is about one kilometre. All K-13 variants are physically similar to Sidewinder, sharing the 5 inch (127 mm) diameter. Subsequent examination of AA-2 missiles captured by NATO forces showed that parts from an AIM-9 could be interfaced with parts from an AA-2 and either combination would still work.While the R-3S was being introduced in 1961, work started on a semi-active radar homing (SARH) version for high-altitude use, the K-13R (R-3R or Object 320) with 8 km range, similar to the little-used US Navy AIM-9C Sidewinder (carried by the F-8 Crusader). This took longer to develop, and did not enter service until 1966. This version was designated AA-2B by NATO.
+Three training versions were also developed. The R-3U ("uchebnaya", training) was an empty missile body with a homing set, allowing pilots to get used to the aiming of the system. The R-3P ("prakticheskaya", practice) was a complete missile without an explosive warhead. The RM-3V ("raketa-mishen", target-missile) served as an aerial target.
+
+
+== Later versions ==
+The Vympel team started working on a more ambitious upgrade in the late 1960s, emerging as the K-13M (R-13M, Object 380) for the IRH and K-13R (R-3R) for the SARH variant, were developed in the late 1960s. These were dubbed Advanced Atoll (AA-2C and AA-2D, respectively) in the west. The R-13M was roughly equivalent to the improved USN AIM-9G Sidewinder, with a new proximity fuse, more propellant for longer range, better maneuverability, and a more sensitive  nitrogen-cooled seeker head. None were all-aspect missiles. The same electronics upgrades were also applied to the Kaliningrad K-5 (AA-1) to arm fighters that did not carry the K-13.
+The K-13 in different versions was widely exported to the Warsaw Pact and other air forces, and remains in service with a few smaller nations. A license-built version called A-91 was built in Romania, and the People's Republic of China copied the K-13 as the PL-2. Updated Chinese versions were the PL-3 and PL-5. Soviet Union provided China K-13 missile technology as a part of MiG-21 fighter jet deal in 1962. In 1967, China successfully completed locally produced K-13 (PL-2) missile tests, and start to deploy this missile to combat units. It was first used to intercept USAF UAVs flown from Vietnam and other south east Asian countries to mainland China.
+
+
+== Operators ==
+
+
+=== Current operators ===
+ Algeria
+ Angola
+ Bangladesh 
+ People's Republic of China
+ Cuba
+ Eritrea
+ Libya
+ North Korea
+ Syria
+ Vietnam
+ Yemen
+
+
+=== Former operators ===
+ Afghanistan
+ Bulgaria
+ Czechoslovakia
+ East Germany – Passed on to Germany, retired shortly after.
+ Egypt – Replaced by AIM-9 after the Yom Kippur War.
+ Finland
+ Germany – Retired after the German reunification.
+ Hungary
+ India
+ Indonesia
+ Iraq – Destroyed in the 2003 invasion of Iraq.
+ Pakistan
+ Peru – On Su-17/22
+ Poland
+ Romania
+ Soviet Union
+ Serbia
+ Somalia
+
+
+=== Evaluation-only operators ===
+ Israel
+
+
+== Operational history ==
+The K-13 missile was used by North Vietnamese MiG-21 pilots. Due to the NVAF's very limited number of MiG-21s, their common tactic was to approach an American formation at maximum reasonable speed, fire their missiles in volleys, and extend (exit area) at maximum speed to avoid engagement.
+Some of these missiles were seized by Israel during the Six-Day War in the Sinai Peninsula. They were used during the War of Attrition, by Squadron 101 (Mirage C3) and probably also by 117 and 119 squadrons, all Mirage squadrons of the Israeli Air Force. In the late 1960s and early 1970s, the Israelis shot down dozens of MiGs – but there has been no success in using this missile, as Israeli pilots preferred to use cannons or indigenous missiles such as Shafrir 1 and Shafrir 2.
+K-3 or K-13 missiles were also used during the Indo-Pakistani War of 1971 by the Indian Air Force, Yom Kippur War by the Arab Air Forces in 1973, during the Iran–Iraq War by the Iraqi Air Force between 1980 and 1988.
+On 19 August 1981, during the 1981 Gulf of Sidra incident, a Libyan Air Force Su-22 fired a K-13 missile head on, closing on US Navy F-14As, the missile was evaded.
+
+
+== Specifications (R-13M / R-3R) ==
+Length: (R-13M) 2,830 mm (9 ft 3.4 in); (R-3R) 3,420 mm (11 ft 5 in)
+Wingspan: 530 mm (21 in)
+Diameter: 127 mm (5 in)
+Launch weight: (R-13M) 75 kg (166 lb); (R-3R) 93 kg (205 lb)
+Speed: Mach 2.5
+Range: 0.9 to 7 km max, 2 km effective
+Guidance: (R-13M) infrared homing; (R-3R) SARH
+Warhead: SB03 11.3 kg (24.9 lb) blast-fragmentation (R-3R)
+Explosive content: 5.3 kg of TGAF-5 (40% TNT, 40% RDX, 20% Aluminium powder) (R-3R)
+Fuze: type 428 proximity fuze and I-107 Contact fuze (R-3R)
+
+
+== References ==
+Citations
+Bibliography
+
+
+== External links ==
+Chinese PL-2 air-to-air missile

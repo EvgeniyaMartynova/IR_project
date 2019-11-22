@@ -1,0 +1,45 @@
+Title: E-6 process
+Aspects: {'E6'}
+
+The E-6 process (often abbreviated to E-6) is a chromogenic photographic process for developing Ektachrome, Fujichrome and other color reversal (also called slide or transparency) photographic film.
+Unlike some color reversal processes (such as Kodachrome K-14) that produce positive transparencies, E-6 processing can be performed by individual users with the same equipment that is used for processing black and white negative film or C-41 color negative film. The process is highly sensitive to temperature variations: A heated water bath is mandatory to stabilize the temperature at 100.0 °F (37.8 °C) for the first developer and first wash to maintain process tolerances.
+
+
+== History ==
+The E-6 process superseded Kodak's  E-3 and E-4 processes. The E-3 process required fogging with light to accomplish image reversal and produced transparencies that faded quickly.  The E-4 process used polluting chemicals, such as a highly toxic reversal agent Tertiary Butyl-Amine Borane(TBAB).
+
+
+== Process variations ==
+There are two versions of the E-6 process. Commercial laboratories use a six-bath chemical process. The 'hobby' type chemistry kits, such as those produced by Tetenal, use three chemical baths that combine the color developer and fogging bath solutions, and the pre-bleach, bleach and fixer bath solutions. The three-bath process has a discrete color developer step in between.
+
+
+== Six-bath process version ==
+The steps for developing color transparency films using process E6 are:
+
+First developer bath: 6:00 @ 100.0 °F (37.8 °C). This uses a potassium hydroquinone monosulfate - phenidone black & white film developer, with the preferred form of phenidone being 4-hydroxymethyl-4-methyl-1-phenyl-3-pyrazolidinone (13047-13-7). The first developer forms a negative silver image in each layer of the film. The first developer is time and temperature sensitive because it controls contrast.
+First wash: Water stop bath, 2:00 @ 100.0 °F (37.8 °C). This step once used an acetic acid stop bath, but was replaced with a water-only bath for process economy, with concomitant slight reduction of first developer strength.
+Reversal bath: 2:00 @ 96-103 °F (35.6-39.4 °C). This bath prepares the film for the color developer step. A chemical reversal agent is absorbed into the emulsion, which is instantly effective. The reversal step can also be carried out using 800 footcandle-seconds (8.6 klx·s) of light - this variation is used by process engineers to troubleshoot reversal bath chemistry problems such as contamination and issues of low tank turnover as process volumes decline.
+Color developer bath: 6:00 @ 96-103 °F (35.6-39.4 °C). This step is carried out to completion. The developer contains CD-3 developing agent, and acts upon the chemically exposed silver halide that was not developed in the first developer to form a positive silver image. The metallic negative silver image formed in the first developer has no part in the reaction of this step. As the color development progresses, a metallic positive silver image is formed and the color developing agent is oxidized. Oxidized color developer molecules react with the color couplers and color dyes are formed in each of the three layers of the film. Each layer of the film contains different color couplers, which react with the same oxidized developer molecules but form different color dyes. Variation in color developer pH causes color shifts on the green-magenta axis with Kodak E100G & E100GX and Fujichrome films and on the yellow-blue axis with older Ektachrome films.
+Pre-bleach bath: 2:00 @ 90-103 °F (32.2-39.4 °C). This bath was previously called "conditioner", but was renamed pre-bleach in the mid-1990s to reflect the removal of formaldehyde from the process used in the final rinse. In this solution, formaldehyde acts as a dye preservative and EDTA is used to "kick off" the bleach. The pre-bleach bath relies on carry-over of the color developer to function properly, therefore there is no wash step between the color developer and pre-bleach baths.
+Bleach bath: 6:00 @ 92-103 °F (33.3-39.4 °C). This is a process-to-completion step, and relies on carry-over of pre-bleach to initiate the bleach. The bleach converts metallic silver into silver bromide, which is converted to soluble silver compounds by the fixer. During bleaching, iron (III) EDTA is converted to iron (II) EDTA (Fe3+ EDTA + Ag + Br−→ Fe2+ EDTA + AgBr) before fixing. Kodak also has a process variant which uses a higher concentration of bleach and a 4:00 bath time; but with process volumes declining, this variant has become uneconomical.
+Wash step (optional): Rinses off the bleach and extends the life of the fixer bath. This wash step is recommended for rotary tube, sink line and other low volume processing.
+Fixer bath: 4:00 @ 92-103 °F (33.3-39.4 °C). This is a process-to-completion step.
+Second fixer stage (optional): Using fresh fixer. The archival properties of film and paper are greatly improved using a second fixing stage in a reverse cascade. Many C-41RA (rapid access) minilab processors also use 2 stage reverse cascade fixing for faster throughput.
+Final wash: 4:00 @ 92-103 °F (33.3-39.4 °C).
+Final rinse: 1:00 @ 80-103 °F (26.7-39.4 °C). Up until the mid-1990s, the final rinse was called a stabilizer bath, since it contained formaldehyde. Currently, the final rinse uses a surfactant, and miconazole, an anti-fungal agent.
+Drying: Drying in a dust-free environment.
+
+
+== See also ==
+Replenishment (photography)
+
+
+== References ==
+
+
+== External links ==
+Kodak Process E-6 Publication Z-119
+Kodak Q-LAB Process Control Handbook - more details than processing manual Z-119
+Kodak Professional First Developer Replenisher, Process E-6 (PDF)
+FujiFilm USA Product Bulletin Library technical data sheets
+E-6 Ektachrome DIY processing super-8 & 16mm.

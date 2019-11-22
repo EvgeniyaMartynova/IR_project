@@ -1,0 +1,175 @@
+Title: Honda R engine
+Aspects: {'R18'}
+
+The Honda R engine is an inline-four engine launched in 2006 for the Honda Civic (non-Si). It is fuel injected, has an aluminum-alloy cylinder block and cylinder head, is a SOHC 16-valve design (four valves per cylinder) and utilizes Honda's i-VTEC system. The R series engine has a compression ratio of 10.5:1, features a "drive by wire" throttle system which is computer controlled to reduce pumping losses and create a smooth torque curve.
+The engine uses many advanced technologies to improve fuel economy and reduce friction. Piston rings are given an ion plating and weight is reduced with plastic and aluminum parts and variable length intake manifolds that maintain ram air at a wide RPM range. The engine also features piston cooling jets, previously available only on high performance engines, and in the ninth-generation 1.8L Civic (2012-2015) the pistons are treated with molybdenum disulfide applied in a polka-dot pattern. The automatic transmission model is rated at California Air Resources Board (CARB) ULEV-2 (Ultra Low Emissions Vehicle) with fuel economy 25 mpg‑US (9.4 L/100 km; 30 mpg‑imp) city, and 36 mpg‑US (6.5 L/100 km; 43 mpg‑imp) highway. It also uses the same computer (engine control unit) controlled distributorless coil-on-plug ignition as the Honda K-series engines.
+
+
+== R16 ==
+
+
+=== R16A ===
+Found in:
+2006 Honda Civic (Singapore, Egypt, Turkey Market – FA1/FD series)
+Displacement: 1.6 L; 97.3 cu in (1,595 cc)
+SOHC iVTEC (Chain driven cam)
+Compression: 10.5:1
+Bore & stroke: 81 mm × 77.4 mm (3.19 in × 3.05 in)
+Power: 125 PS (92 kW; 123 bhp) at 6,500 rpm
+Torque: 15.4 kg⋅m (151 N⋅m; 111 lb⋅ft) at 4,300 rpm
+Transmission: 5-speed
+Redline: 6800 rpm
+
+
+=== R16B ===
+Found in:
+2016 Honda Civic (Singapore, Egypt, Turkey, Cyprus, South Africa, Ukraine and Brunei – FC series)
+Displacement: 1.6 L; 97.5 cu in (1,597 cc)
+SOHC iVTEC (Chain driven cam)
+Compression: 10.7:1
+Bore & stroke: 81 mm × 77.5 mm (3.19 in × 3.05 in)
+Power: 125 PS (92 kW; 123 bhp) at 6,500 rpm
+Torque: 15.6 kg⋅m (153 N⋅m; 113 lb⋅ft) at 4,300 rpm
+Transmission: CVT-7
+Redline: 6700 rpm
+
+
+== R18 ==
+
+
+=== R18A1 ===
+Found in:
+2006–2012 Honda Civic (South Afrca/Thailand/Malaysia/Indonesia/Taiwan/Japan/Pakistani-market FD1, American/Canadian-market FA1 & FG1)
+2007–2009 Honda FR-V (European-market BE1)
+2008-2015 Honda City
+2007-2014 Honda Stream
+Displacement: 1.8 L; 109.8 cu in (1,799 cc)
+SOHC iVTEC (Chain driven cam)
+Compression: 10.5:1
+Bore & stroke: 81 mm × 87.3 mm (3.19 in × 3.44 in)
+Power: 141 PS (104 kW; 139 bhp) at 6300 rpm (Japanese Spec)
+Torque: 17.7 kg⋅m (174 N⋅m; 128 lb⋅ft) at 4,300 rpm
+Fuel Cut Off: 6900 rpm
+Redline: 6800 rpm
+
+
+=== R18A2 ===
+Found in:
+2006–2011 Honda Civic (European-market FN1 & FK2)
+Displacement: 1.8 L; 109.8 cu in (1,799 cc)
+Compression: 10.5:1
+Bore & stroke: 81 mm × 87.3 mm (3.19 in × 3.44 in)
+Power: 140 PS (103 kW; 138 bhp) at 6,300 rpm
+Torque: 17.7 kg⋅m (174 N⋅m; 128 lb⋅ft) at 4,300 rpm
+cruising/economy happens during VTEC under cruising load only.
+Redline: 6800 rpm
+Fuel Cutoff : 7150 rpm
+
+
+=== R18Z1 ===
+
+Found in:
+2012–2016 Honda Civic (Southeast Asian FB2, American/Canadian-market FB2 & FG3)
+2016– Honda Civic (FC1)
+Displacement: 1.8 L; 109.8 cu in (1,799 cc)
+SOHC iVTEC (Chain driven cam)
+Compression: 10.6:1
+Bore & stroke: 81 mm × 87.3 mm (3.19 in × 3.44 in)
+Power: 141 PS (104 kW; 139 bhp) at 6,500 rpm
+Torque: 17.7 kg⋅m (174 N⋅m; 128 lb⋅ft) at 4,300 rpm
+
+
+=== R18Z4 ===
+Found in:
+2012-2016 – Honda Civic (European-market FK2)
+Displacement: 1.8 L; 109.8 cu in (1,799 cc)
+Compression: 10.5:1
+Bore & stroke: 81 mm × 87.3 mm (3.19 in × 3.44 in)
+Power: 141 PS (104 kW; 139 bhp) at 6,500 rpm
+Torque: 17.7 kg⋅m (174 N⋅m; 128 lb⋅ft) at 4,300 rpm
+Redline: 6800 rpm
+Ruptor : 7150 rpm
+cruising/economy happens during VTEC under cruising load only.
+Balancer Shaft on this R18.
+
+
+=== R18Z6 ===
+Found in:
+2013-2017 – Honda Jade
+Displacement: 1.8 L; 109.8 cu in (1,799 cc)
+SOHC iVTEC (Chain driven cam)
+Compression: 10.6:1
+Bore & stroke: 81 mm × 87.3 mm (3.19 in × 3.44 in)
+Power: 141 PS (104 kW; 139 bhp) at 6,500 rpm
+Torque: 17.7 kg⋅m (174 N⋅m; 128 lb⋅ft) at 4,300 rpm
+
+
+=== R18Z9 ===
+Found in:
+2016 – Honda HR-V
+Displacement: 1.8 L; 109.8 cu in (1,799 cc)
+Compression: 10.6:1
+Bore & stroke: 81 mm × 87.3 mm (3.19 in × 3.44 in)
+Power: 141 PS (104 kW; 139 bhp) at 6,500 rpm
+Torque: 17.7 kg⋅m (174 N⋅m; 128 lb⋅ft) at 4,300 rpm
+
+
+== R20 ==
+
+
+=== R20A1 ===
+
+Found in:
+2007 – Honda CR-V (RE1, RE2)
+2008 – Honda Stream (RSZ)
+2013-2015 Acura ILX (DE1)
+Displacement: 2.0 L; 121.9 cu in (1,997 cc)
+Compression: 10.5:1
+Bore & stroke: 81 mm × 96.9 mm (3.19 in × 3.81 in)
+Power: 150 PS (110 kW; 148 bhp) at 6,200 rpm
+Torque: 19.4 kg⋅m (190 N⋅m; 140 lb⋅ft) at 4,197 rpm
+
+
+=== R20A2 ===
+Found in:
+2007–  Honda CR-V (RE5)
+Displacement: 2.0 L; 121.9 cu in (1,997 cc)
+Compression: 10.5:1
+Bore & stroke: 81 mm × 96.9 mm (3.19 in × 3.81 in)
+Power: 150 PS (110 kW; 148 bhp) at 6,200 rpm
+Torque: 19.4 kg⋅m (190 N⋅m; 140 lb⋅ft) at 4,200 rpm
+
+
+=== R20A3 ===
+Found in:
+2008 – Honda Accord (CP1 and EU market CU1/CN1) (156hp)
+2016 Proton Perdana
+Displacement: 2.0 L; 121.9 cu in (1,997 cc)
+Compression: 10.5:1
+Bore & stroke: 81 mm × 96.9 mm (3.19 in × 3.81 in)
+Power: 150 PS (110 kW; 148 bhp) at 6,300 rpm
+Torque: 19.2 kg⋅m (188 N⋅m; 139 lb⋅ft) at 4,300 rpm
+Top speed: 200 km/h (120 mph)
+
+
+=== R20Z1 ===
+Found in:
+2012–2016 Honda Civic (FB2)
+2013– Honda Accord (CR1)
+Displacement: 2.0 L; 121.9 cu in (1,997 cc)
+Compression: 10.6:1
+Bore & stroke: 81 mm × 96.9 mm (3.19 in × 3.81 in)
+Power: 155 PS (114 kW; 153 bhp) at 6,500 rpm
+Torque: 19.4 kg⋅m (190 N⋅m; 140 lb⋅ft) at 4,300 rpm
+
+
+== See also ==
+Honda Engines
+
+
+== References ==
+
+
+== External links ==
+Honda Worldwide, Honda Develops New 1.8l i-VTEC Engine
+Honda Worldwide, New 1.8l i-VTEC Engine (Video)

@@ -1,0 +1,32 @@
+Title: Polyhedral graph
+Aspects: {'C-Net'}
+
+In geometric graph theory, a branch of mathematics, a polyhedral graph is the undirected graph formed from the vertices and edges of a convex polyhedron. Alternatively, in purely graph-theoretic terms, the polyhedral graphs are the 3-vertex-connected planar graphs.
+
+
+== Characterization ==
+The Schlegel diagram of a convex polyhedron represents its vertices and edges as points and line segments in the Euclidean plane, forming a subdivision of an outer convex polygon into smaller convex polygons. It has no crossings, so every polyhedral graph is also a planar graph. Additionally, by Balinski's theorem, it is a 3-vertex-connected graph.
+According to Steinitz's theorem, these two graph-theoretic properties are enough to completely characterize the polyhedral graphs: they are exactly the 3-vertex-connected planar graphs. That is, whenever a graph is both planar and 3-vertex-connected, there exists a polyhedron whose vertices and edges form an isomorphic graph. Given such a graph, a representation of it as a subdivision of a convex polygon into smaller convex polygons may be found using the Tutte embedding.
+
+
+== Hamiltonicity and shortness ==
+Tait conjectured that every cubic polyhedral graph (that is, a polyhedral graph in which each vertex is incident to exactly three edges) has a Hamiltonian cycle, but this conjecture was disproved by a counterexample of W. T. Tutte, the polyhedral but non-Hamiltonian Tutte graph. If one relaxes the requirement that the graph be cubic, there are much smaller non-Hamiltonian polyhedral graphs. The graph with the fewest vertices and edges is the 11-vertex and 18-edge Herschel graph, and there also exists an 11-vertex non-Hamiltonian polyhedral graph in which all faces are triangles, the Goldner–Harary graph.More strongly, there exists a constant α < 1 (the shortness exponent) and an infinite family of polyhedral graphs such that the length of the longest simple path of an n-vertex graph in the family is O(nα).
+
+
+== Combinatorial enumeration ==
+Duijvestijn provides a count of the polyhedral graphs with up to 26 edges; The number of these graphs with 6, 7, 8, ... edges is
+
+1, 0, 1, 2, 2, 4, 12, 22, 58, 158, 448, 1342, 4199, 13384, 43708, 144810, ... (sequence A002840 in the OEIS).One may also enumerate the polyhedral graphs by their numbers of vertices: for graphs with 4, 5, 6, ... vertices, the number of polyhedral graphs is
+
+1, 2, 7, 34, 257, 2606, 32300, 440564, 6384634, 96262938, 1496225352, ... (sequence A000944 in the OEIS).
+
+
+== Special cases ==
+A polyhedral graph is the graph of a simple polyhedron if it is cubic (every vertex has three edges), and it is the graph of a simplicial polyhedron if it is a maximal planar graph. The Halin graphs, graphs formed from a planar embedded tree by adding an outer cycle connecting all of the leaves of the tree, form another important subclass of the polyhedral graphs.
+
+
+== References ==
+
+
+== External links ==
+Weisstein, Eric W. "Polyhedral Graph". MathWorld.

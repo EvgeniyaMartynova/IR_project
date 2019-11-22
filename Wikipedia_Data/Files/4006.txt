@@ -1,0 +1,84 @@
+Title: General Electric YF120
+Aspects: {'F120'}
+
+The General Electric YF120, internally designated as GE37, was a variable cycle turbofan engine designed by General Electric Aircraft Engines in the late 1980s/early 1990s for the United States Air Force's Advanced Tactical Fighter (ATF) project. Prototype engines were installed in the two competing technology demonstrator aircraft, the Lockheed YF-22 and Northrop YF-23. Pratt & Whitney's competing F119 was selected over the YF120 to power the ATF, which became the F-22 Raptor.
+
+
+== History ==
+
+
+=== Development ===
+General Electric (GE) began developing the F120 for the Joint Advanced Fighter Engine (JAFE) program in the early 1980s aimed at supplying the powerplant for the Air Force's Advanced Tactical Fighter (ATF). The core technology used in the F120 design was developed during two industry-government programs, the Advanced Technology Engine Gas Generator (ATEGG) and Joint Technology Demonstration Engine (JTDE) programs. These and other programs were subsequently combined into the Integrated High Performance Turbine Engine Technology (IHPTET) program. The basis of the XF120 and the follow-on YF120 was the GE37. Unlike competitor Pratt & Whitney, GE elected against developing a conventional low bypass turbofan and instead chose to design a variable cycle engine. This decision was made as a result of the challenging ATF requirement of supercruise. This meant the engine had to produce a large amount of dry thrust (without afterburner) and therefore have high off-design efficiency ("design" being standard cruise conditions). The original RFP called for maximum thrust in the 30,000 lbf (133 kN) class.Due to the ATF's increasing weight, thrust requirement was increased by 20% to the 35,000 lbf (156 kN) class in order to meet performance requirements. GE's design changed to incorporate a 12% larger fan to increase airflow as well as cooling air, particularly for the nozzles. For flight demonstration, YF120s were fitted with the larger fan, unlike the YF119 which used its original small fan. As a result, both demonstrator aircraft had higher performance with the YF120s than with the YF119s. The YF120-powered the YF-22 and YF-23 to supercruise speeds of Mach 1.58 and Mach 1.6+ respectively. While the YF120 engine never went into production, it was installed in the YF-22 for the high angle of attack demonstrations.
+The Engineering & Manufacturing Development (EMD) configuration of the F120 was tested in December 1990. Component improvements enabled it to achieve YF120 thrust levels at lower temperatures. The USAF ultimately chose the Pratt & Whitney's F119 proposal for full-scale development and production. The more ambitious F120 design was judged to be riskier, and General Electric also accrued fewer testing hours than Pratt & Whitney.
+
+
+=== Further developments ===
+The YF120 was also proposed as the basis for a more exotic engine, the Turbine-Based Combined Cycle (TBCC) engine that was to be used in demonstrator aircraft like the X-43B and future hypersonic aircraft. Specifically, the YF120 was to be the basis for the Revolutionary Turbine Accelerator (RTA-1). The variable cycle technology used in the YF120 would be extended to not only turn the engine into a turbojet but also into a ramjet. In that mode all airflow would bypass the core and be diverted into the afterburner-like "hyperburner" where it would be combusted like a ramjet. This proposed engine was to accelerate from 0 to Mach 4.1 (at 56,000 ft) in eight minutes.
+
+
+== Design ==
+
+
+=== Variable cycle ===
+The YF120's variable cycle system worked by varying the bypass ratio of the engine for different flight regimes, allowing the engine to act like either a low bypass turbofan or nearly a turbojet. As a low bypass turbofan (like competitor F119), the engine performed similarly to comparable engines. When needed, however, the engine could direct more airflow through the hot core of the engine (like a turbojet), increasing the specific thrust of the engine. This made the engine more efficient at high altitude, high thrust levels than a traditional low bypass turbofan. Fan-to-core pressure matching was performed by a variable area bypass injector (VABI).An expected disadvantage of this variable cycle system would be increased complexity and weight. GE claims to have combated this by using simple pressure driven valves rather than complex mechanically actuated valves to divert airflow. GE stated that this system resulted in the variable cycle system adding only 10 lb to the engine. Additionally, a production F120 engine was expected to have 40% fewer parts than the F110 engine.
+
+
+=== Thrust vectoring ===
+The YF120 engine for the YF-22 featured a two-dimensional thrust vectoring nozzle. The nozzle allowed for vectoring in the pitch direction. This capability gave the aircraft it was installed in a serious advantage in pitch agility by greatly increasing the amount of nose pitching moment available to the aircraft. The pitching moment is traditionally generated by the horizontal stabilizer (and/or canard, if applicable), but with a thrust vectoring nozzle that moment can be augmented by the thrust of the engine. During high AoA demonstrations of the YF-22, the YF120 powered aircraft flew at trimmed AoA of 60 degrees at 82 knots. At this attitude the aircraft was able to demonstrate controllability. Later analysis revealed that the aircraft could have maintained controlled, trimmed flight up to 70 degrees angle of attack.
+
+
+== Applications ==
+Lockheed YF-22
+Northrop YF-23
+
+
+== Specifications (YF120) ==
+Data from Aronstein, Pace
+
+
+==== General characteristics ====
+Type: Twin-Spool, axial-flow, variable-cycle, augmented Turbofan
+Length: 166.8 in (4,237 mm)
+Diameter: 42 in (1,067 mm)
+Dry weight: 4,100 lb (1,860 kg)
+
+
+==== Components ====
+Compressor: Two stage fan, five stage high pressure compressor (estimated)
+Bypass ratio: 0.32:1
+Combustors: Annular Combustor
+Turbine: Single stage HPT, Counter-Rotating Single Stage LPT 
+Nozzle: Two Dimensional Vectoring Convergent/Divergent
+Fuel type: JP-4 or JP-8
+
+
+==== Performance ====
+Maximum thrust: >23,500 lbf (105 kN) (dry)
+35,000 lbf (156 kN) - class (augmented)
+Thrust-to-weight ratio: >8.54:1 (augmented)
+
+
+== See also ==
+
+Related development
+
+General Electric/Rolls-Royce F136
+Comparable engines
+
+Pratt & Whitney F119
+Saturn AL-41Related lists
+
+List of aircraft engines
+
+
+== References ==
+
+GE unveils ramjet design for shuttle  Technology News Flight International 23/09/03 .
+Aronstein, David C.; Hirschberg, Michael J. (1998). Advanced Tactical Fighter to F-22 Raptor: Origins of the 21st Century Air Dominance Fighter. Arlington, Virginia: American Institute of Aeronautics & Astronomy. ISBN 978-1-56347-282-4.
+Pace, Steve (2016). The Big Book of X-Bombers & X-Fighters: USAF Jet-Powered Experimental Aircraft and Their Propulsive Systems. Voyageur Press. ISBN 9780760351420.
+
+
+== External links ==
+GE/Allison/Rolls-Royce Team Developing YF120 Fighter Engine for JSF Aircraft Candidates. Press release GE Aviation (Sept 2, 1996).
+National Museum of the U.S. Air Force page on the YF120
+Northrop YF-23 Enthusiast's site

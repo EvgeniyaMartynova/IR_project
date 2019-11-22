@@ -1,0 +1,102 @@
+Title: Nokia N85
+Aspects: {'N85'}
+
+The Nokia N85 is a high-end smartphone produced by Nokia, announced on 27 August 2008 as part of the Nseries line. The N85 runs on Symbian OS v9.3 with S60 3rd Edition platform with Feature Pack 2. It was released in October, retailing for 450 euros before taxes.The major feature N85 introduced was an AMOLED display, giving brighter and sharper colours. The N85 has a dual-slider like the Nokia N95 to access either media playback buttons or a numeric keypad, and is about 25% slimmer in size. The upper sliding keys illuminate between four multimedia keys in music or video playback, and two gaming keys during the playing of N-Gage 2.0 games. It also has a Navi wheel like the Nokia N81 which it replaced and bases its design from, as well as a GPS receiver, 5-megapixel camera with dual LED flash, and an FM transmitter.The N85 was well received as a decent upgrade to the N95, as well as better than the actual flagship, Nokia N96, which costed 100 euros more with few additions and was somewhat critically negative. Compared to the N96, the N85 is thinner and lighter, has a camera lens cover, has a larger battery capacity, USB charging (via the microUSB port), and a AMOLED screen; although without large internal memory or a DVB-H receiver.
+
+
+== Specifications ==
+
+
+=== Dimensions ===
+Form: Two-way slider
+Volume: 76 cc
+Weight: 128 g
+Dimensions: 103 × 50 × 16.0 mmTwo-way slider with spring assistance mechanism
+
+
+=== Memory ===
+microSD memory card slot, hot swappable, max. 8 GB (After firmware update)
+128 MB internal dynamic memory
+78 MB internal NAND flash memory
+
+
+=== Data network ===
+HSDPA, maximum speed 3.6 Mbit/s (DL)
+WCDMA 900/1900/2100, maximum speed PS 384/384 kbit/s (UL/DL)
+EDGE class B, multislot class 32, maximum speed 296/177.6 kbit/s (DL/UL)
+GPRS class A, multislot class 32, maximum speed 107/64.2 kbit/s (DL/UL)
+HSCSD, maximum speed 43.2 kbit/s
+CSD
+WLAN 802.11b, 802.11g
+WLAN Security: WPA2-Enterprise, WPA2-Personal, WPA-Enterprise, WPA-Personal, WEP
+WLAN Quality of Service: WMM, U-APSD
+WLAN wizard
+TCP/IP support
+Capability to serve as data modem
+
+
+=== Display and user interface ===
+Size: 2.6"
+Resolution: 320 × 240 pixels (QVGA)
+Up to 16.7 million colours
+Active Matrix OLED technology
+
+
+=== Power management ===
+BL-5K 1200 mAh Li-Ion battery
+Talk time (maximum):
+GSM 6.9 h
+WCDMA 4.5 h
+VoIP 6 h
+Standby time (maximum):
+GSM 363 h
+WCDMA 363 h
+WLAN 172 h
+Browsing time with packet data (maximum): 5 h 42 min
+Video playback time (maximum): 7 h
+Video recording time (maximum): 2 h 54 min
+Video call time (maximum): 2 h 42 min
+Gaming time (maximum): 7 h
+
+
+=== Operating frequency ===
+Quad-band EGSM 850/900/1800/1900
+WCDMA 2100/1900/850 (in the Americas) and 2100/1900/900 (everywhere else)
+Automatic switching between WCDMA/GSM bands
+Flight mode
+
+
+=== Connectivity ===
+Bluetooth version 2.0 with Enhanced Data Rate.
+Bluetooth profiles:
+Dial Up Networking Profile (Gateway)
+Object Push Profile (Server and Client)
+File Transfer Profile (Server)
+Hands Free Profile (Audio Gateway)
+Headset Profile (Audio Gateway)
+Basic Imaging Profile (Image Push Responder and Initiator)
+Remote SIM Access Profile (Server)
+Device Identification Profile
+Phone Book Access Profile (Server)
+Stereo Audio Streaming:
+Generic Audio/Video Distribution Profile
+Audio/Video Remote Control Profile (A/V Remote Control Target)
+Advanced Audio Distribution Profile (Audio Source)
+Add-on solutions enable integration into enterprise private branch exchange (PBX) infrastructure
+DLNA (Digital Living Network Alliance) certification
+UPnP support
+MTP (Mobile Transfer Protocol) support
+TV out (PAL) with Nokia Video Connectivity Cable (CA-75U, in box inclusion may vary based on sales package configuration)
+Nokia XpressPrint
+Support for local and remote SyncML synchronization
+
+
+== Digital TV ==
+With optional DVB-H Nokia Mobile TV Receiver SU-33W it is possible to watch television on the screen of the phone.
+
+
+== References ==
+
+
+== External links ==
+ Media related to Nokia N85 at Wikimedia Commons

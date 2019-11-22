@@ -1,0 +1,913 @@
+Title: Hankel matrix
+Aspects: {'H-matrix'}
+
+In linear algebra, a Hankel matrix (or catalecticant matrix), named after Hermann Hankel, is a square matrix in which each ascending skew-diagonal from left to right is constant, e.g.:
+
+  
+    
+      
+        
+          
+            [
+            
+              
+                
+                  a
+                
+                
+                  b
+                
+                
+                  c
+                
+                
+                  d
+                
+                
+                  e
+                
+              
+              
+                
+                  b
+                
+                
+                  c
+                
+                
+                  d
+                
+                
+                  e
+                
+                
+                  f
+                
+              
+              
+                
+                  c
+                
+                
+                  d
+                
+                
+                  e
+                
+                
+                  f
+                
+                
+                  g
+                
+              
+              
+                
+                  d
+                
+                
+                  e
+                
+                
+                  f
+                
+                
+                  g
+                
+                
+                  h
+                
+              
+              
+                
+                  e
+                
+                
+                  f
+                
+                
+                  g
+                
+                
+                  h
+                
+                
+                  i
+                
+              
+            
+            ]
+          
+        
+        .
+      
+    
+    {\displaystyle {\begin{bmatrix}a&b&c&d&e\\b&c&d&e&f\\c&d&e&f&g\\d&e&f&g&h\\e&f&g&h&i\\\end{bmatrix}}.}
+  More generally, a Hankel matrix is any 
+  
+    
+      
+        n
+        ×
+        n
+      
+    
+    {\displaystyle n\times n}
+   matrix 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+   of the form
+
+  
+    
+      
+        A
+        =
+        
+          
+            [
+            
+              
+                
+                  
+                    a
+                    
+                      0
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      1
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      2
+                    
+                  
+                
+                
+                  …
+                
+                
+                  …
+                
+                
+                  
+                    a
+                    
+                      n
+                      −
+                      1
+                    
+                  
+                
+              
+              
+                
+                  
+                    a
+                    
+                      1
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      2
+                    
+                  
+                
+                
+                
+                
+                
+                  ⋮
+                
+              
+              
+                
+                  
+                    a
+                    
+                      2
+                    
+                  
+                
+                
+                
+                
+                
+                
+                  ⋮
+                
+              
+              
+                
+                  ⋮
+                
+                
+                
+                
+                
+                
+                  
+                    a
+                    
+                      2
+                      n
+                      −
+                      4
+                    
+                  
+                
+              
+              
+                
+                  ⋮
+                
+                
+                
+                
+                
+                  
+                    a
+                    
+                      2
+                      n
+                      −
+                      4
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      2
+                      n
+                      −
+                      3
+                    
+                  
+                
+              
+              
+                
+                  
+                    a
+                    
+                      n
+                      −
+                      1
+                    
+                  
+                
+                
+                  …
+                
+                
+                  …
+                
+                
+                  
+                    a
+                    
+                      2
+                      n
+                      −
+                      4
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      2
+                      n
+                      −
+                      3
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      2
+                      n
+                      −
+                      2
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+        .
+      
+    
+    {\displaystyle A={\begin{bmatrix}a_{0}&a_{1}&a_{2}&\ldots &\ldots &a_{n-1}\\a_{1}&a_{2}&&&&\vdots \\a_{2}&&&&&\vdots \\\vdots &&&&&a_{2n-4}\\\vdots &&&&a_{2n-4}&a_{2n-3}\\a_{n-1}&\ldots &\ldots &a_{2n-4}&a_{2n-3}&a_{2n-2}\end{bmatrix}}.}
+  
+In terms of the components, if the 
+  
+    
+      
+        i
+        ,
+        j
+      
+    
+    {\displaystyle i,j}
+   element of 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+   is denoted with 
+  
+    
+      
+        
+          A
+          
+            i
+            j
+          
+        
+      
+    
+    {\displaystyle A_{ij}}
+  , and assuming 
+  
+    
+      
+        i
+        ≤
+        j
+      
+    
+    {\displaystyle i\leq j}
+  , then we havefor all 
+  
+    
+      
+        k
+        =
+        0
+        ,
+        .
+        .
+        .
+        ,
+        j
+        −
+        i
+      
+    
+    {\displaystyle k=0,...,j-i}
+  .
+The Hankel matrix is a symmetric matrix.
+The Hankel matrix is closely related to the Toeplitz matrix (a Hankel matrix is an upside-down Toeplitz matrix). For a special case of this matrix see Hilbert matrix.
+A Hankel operator on a Hilbert space is one whose matrix with respect to an orthonormal basis is a (possibly infinite) Hankel matrix 
+
+  
+    
+      
+        (
+        
+          A
+          
+            i
+            ,
+            j
+          
+        
+        
+          )
+          
+            i
+            ,
+            j
+            ≥
+            1
+          
+        
+      
+    
+    {\displaystyle (A_{i,j})_{i,j\geq 1}}
+  , where 
+  
+    
+      
+        
+          A
+          
+            i
+            ,
+            j
+          
+        
+      
+    
+    {\displaystyle A_{i,j}}
+   depends only on 
+  
+    
+      
+        i
+        +
+        j
+      
+    
+    {\displaystyle i+j}
+  .
+The determinant of a Hankel matrix is called a catalecticant.
+
+
+== Hankel transform ==
+The Hankel transform is the name sometimes given to the transformation of a sequence, where the transformed sequence corresponds to the determinant of the Hankel matrix.  That is, the sequence 
+  
+    
+      
+        {
+        
+          h
+          
+            n
+          
+        
+        
+          }
+          
+            n
+            ≥
+            0
+          
+        
+      
+    
+    {\displaystyle \{h_{n}\}_{n\geq 0}}
+   is the Hankel transform of the sequence 
+  
+    
+      
+        {
+        
+          b
+          
+            n
+          
+        
+        
+          }
+          
+            n
+            ≥
+            0
+          
+        
+      
+    
+    {\displaystyle \{b_{n}\}_{n\geq 0}}
+   when
+
+  
+    
+      
+        
+          h
+          
+            n
+          
+        
+        =
+        det
+        (
+        
+          b
+          
+            i
+            +
+            j
+            −
+            2
+          
+        
+        
+          )
+          
+            1
+            ≤
+            i
+            ,
+            j
+            ≤
+            n
+            +
+            1
+          
+        
+        .
+      
+    
+    {\displaystyle h_{n}=\det(b_{i+j-2})_{1\leq i,j\leq n+1}.}
+  Here, 
+  
+    
+      
+        
+          a
+          
+            i
+            ,
+            j
+          
+        
+        =
+        
+          b
+          
+            i
+            +
+            j
+            −
+            2
+          
+        
+      
+    
+    {\displaystyle a_{i,j}=b_{i+j-2}}
+   is the Hankel matrix of the sequence 
+  
+    
+      
+        {
+        
+          b
+          
+            n
+          
+        
+        }
+      
+    
+    {\displaystyle \{b_{n}\}}
+  .  The Hankel transform is invariant under the binomial transform of a sequence.  That is, if one writes
+
+  
+    
+      
+        
+          c
+          
+            n
+          
+        
+        =
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            n
+          
+        
+        
+          
+            
+              (
+            
+            
+              n
+              k
+            
+            
+              )
+            
+          
+        
+        
+          b
+          
+            k
+          
+        
+      
+    
+    {\displaystyle c_{n}=\sum _{k=0}^{n}{n \choose k}b_{k}}
+  as the binomial transform of the sequence 
+  
+    
+      
+        {
+        
+          b
+          
+            n
+          
+        
+        }
+      
+    
+    {\displaystyle \{b_{n}\}}
+  , then one has
+
+  
+    
+      
+        det
+        (
+        
+          b
+          
+            i
+            +
+            j
+            −
+            2
+          
+        
+        
+          )
+          
+            1
+            ≤
+            i
+            ,
+            j
+            ≤
+            n
+            +
+            1
+          
+        
+        =
+        det
+        (
+        
+          c
+          
+            i
+            +
+            j
+            −
+            2
+          
+        
+        
+          )
+          
+            1
+            ≤
+            i
+            ,
+            j
+            ≤
+            n
+            +
+            1
+          
+        
+        .
+      
+    
+    {\displaystyle \det(b_{i+j-2})_{1\leq i,j\leq n+1}=\det(c_{i+j-2})_{1\leq i,j\leq n+1}.}
+  
+
+
+== Applications of Hankel matrices ==
+Hankel matrices are formed when, given a sequence of output data, a realization of an underlying state-space or hidden Markov model is desired.  The singular value decomposition of the Hankel matrix provides a means of computing the A, B, and C matrices which define the state-space realization. The Hankel matrix formed from the signal has been found useful for decomposition of non-stationary signals and time-frequency representation.
+
+
+== Orthogonal polynomials on the real line ==
+
+
+=== Positive Hankel matrices and the Hamburger moment problems ===
+
+
+=== Orthogonal polynomials on the real line ===
+
+
+=== Tridiagonal model of positive Hankel operators ===
+
+
+=== Relation between Hankel and Toeplitz matrices ===
+Let 
+  
+    
+      
+        
+          J
+          
+            n
+          
+        
+      
+    
+    {\displaystyle J_{n}}
+   be the reflection matrix of order 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  .
+For example the reflection matrix of order 
+  
+    
+      
+        5
+      
+    
+    {\displaystyle 5}
+   is as follows: 
+
+  
+    
+      
+        
+          J
+          
+            5
+          
+        
+        =
+        
+          
+            [
+            
+              
+                
+                
+                
+                
+                
+                  1
+                
+              
+              
+                
+                
+                
+                
+                  1
+                
+                
+              
+              
+                
+                
+                
+                  1
+                
+                
+                
+              
+              
+                
+                
+                  1
+                
+                
+                
+                
+              
+              
+                
+                  1
+                
+                
+                
+                
+                
+              
+            
+            ]
+          
+        
+        .
+      
+    
+    {\displaystyle J_{5}={\begin{bmatrix}&&&&1\\&&&1&\\&&1&&\\&1&&&\\1&&&&\\\end{bmatrix}}.}
+  
+If 
+  
+    
+      
+        H
+        (
+        m
+        ,
+        n
+        )
+      
+    
+    {\displaystyle H(m,n)}
+   is a 
+  
+    
+      
+        m
+        ×
+        n
+      
+    
+    {\displaystyle m\times n}
+   Hankel matrix, then 
+
+  
+    
+      
+        H
+        (
+        m
+        ,
+        n
+        )
+        =
+        T
+        (
+        m
+        ,
+        n
+        )
+        
+        
+          J
+          
+            n
+          
+        
+      
+    
+    {\displaystyle H(m,n)=T(m,n)\,J_{n}}
+  , where 
+  
+    
+      
+        T
+        (
+        m
+        ,
+        n
+        )
+      
+    
+    {\displaystyle T(m,n)}
+   is a 
+  
+    
+      
+        m
+        ×
+        n
+      
+    
+    {\displaystyle m\times n}
+   Toeplitz matrix.
+
+
+=== Relations between structured matrices ===
+
+
+== See also ==
+Cauchy matrix
+Vandermonde matrix
+Displacement rank
+
+
+== Notes ==
+
+
+== References ==
+Brent R.P. (1999), "Stability of fast algorithms for structured linear systems", Fast Reliable Algorithms for Matrices with Structure (editors—T. Kailath, A.H. Sayed), ch.4 (SIAM).
+Victor Y. Pan (2001). Structured matrices and polynomials: unified superfast algorithms. Birkhäuser. ISBN 0817642404.
+J.R. Partington (1988). An introduction to Hankel operators. LMS Student Texts. 13. Cambridge University Press. ISBN 0-521-36791-3.
+P. Jain and R.B. Pachori, An iterative approach for decomposition of multi-component non-stationary signals based on eigenvalue decomposition of the Hankel matrix, Journal of the Franklin Institute, vol. 352, issue 10, pp. 4017--4044, October 2015.
+P. Jain and R.B. Pachori, Event-based method for instantaneous fundamental frequency estimation from voiced speech based on eigenvalue decomposition of Hankel matrix, IEEE/ACM Transactions on Audio, Speech and Language Processing, vol. 22. issue 10, pp. 1467-1482, October 2014.
+R.R. Sharma and R.B. Pachori, Time-frequency representation using IEVDHM-HT with application to classification of epileptic EEG signals, IET Science, Measurement & Technology, vol. 12, issue 01, pp. 72-82, January 2018.

@@ -1,0 +1,16 @@
+Title: Electrologica X8
+Aspects: {'X8'}
+
+The Electrologica X8 (or EL X8) was a digital computer designed as a successor to the Electrologica X1 and manufactured in the Netherlands by Electrologica NV between 1964 and 1968.
+Like its predecessor, the X1, the X8 system included core memory, 27-bit word length, and drum memory as secondary storage (not as primary storage).  The memory address was increased from 15 to 18 bits, for a theoretical maximum memory size of 256k words.  The X8 included an independent peripheral processor called CHARON (Centraal Hulporgaan Autonome Regeling Overdracht Nevenapparatuur, or Central Coprocessor Autonomous Regulation Transfer Peripherals) which handled I/O.  Other features included up to 48 input/output channels designed for low speed devices such as paper tape, plotters and printers. Unlike the X1, the arithmetic unit of the X8 included floating point arithmetic, with a 41-bit mantissa and 12-bit exponent (which adds up to 53 bits rather than 54; the reason is that there are two copies of the mantissa sign bit).
+The system is most notable as the target processor for Edsger Dijkstra's implementation of the THE multiprogramming system.  This includes the invention of semaphores, enabled by a specific instruction in the X8 instruction set.  Semaphores were used not only as a synchronization mechanism within the THE operating system, but also in the request and response data structures for I/O requests processed by the CHARON coprocessor.
+
+
+== References ==
+E.W.Dijkstra, Documentatie over de communicatie apparatuur aan de EL X8, EWD140, undated.  [1]
+E.W.Dijkstra, Globale beschrijving van de drijvende arithmetiek van de EL X8, EWD145, 6 December 1965. [2]
+E.W. Dijkstra, "The structure of the 'THE' multiprogramming system", Communications of the ACM 11(5):341–346, 1968. Dijkstra's manuscript EWD196 Full text (subscription)
+
+
+== External links ==
+The Electrologica X1 and X8 computers

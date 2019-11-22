@@ -1,0 +1,24 @@
+Title: XML denial-of-service attack
+Aspects: {'XDOS'}
+
+An XML denial-of-service attack (XDoS attack) is a content-borne denial-of-service attack whose purpose is to shut down a web service or system running that service.  A common XDoS attack occurs when an XML message is sent with a multitude of digital signatures and a naive parser would look at each signature and use all the CPU cycles, eating up all resources.  These are less common than inadvertent XDoS attacks which occur when a programming error by a trusted customer causes a handshake to go into an infinite loop.
+
+
+== See also ==
+Denial-of-service attack
+Application layer DDoS attack
+Billion laughs
+Command and control (malware)
+DDoS mitigation
+Fork bomb
+High Orbit Ion Cannon (HOIC)
+Hit-and-run DDoS
+Industrial espionage
+Infinite loop
+Intrusion detection system
+Low Orbit Ion Cannon (LOIC)
+Network intrusion detection system
+ReDoS
+SlowDroid
+Slowloris (computer security)
+Zombie (computer science)

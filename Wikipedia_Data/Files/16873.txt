@@ -1,0 +1,25 @@
+Title: IBM z13 (microprocessor)
+Aspects: {'Z13'}
+
+The z13 is a microprocessor made by IBM for their z13 mainframe computers, announced on January 14, 2015. Manufactured at GlobalFoundries' East Fishkill, New York fabrication plant (formerly IBM's own plant). IBM stated that it is the world's fastest microprocessor and is about 10% faster than its predecessor the zEC12 in general single-threaded computing, but significantly more when doing specialized tasks.The IBM z13 is the last z Systems server to support running an operating system in ESA/390 architecture mode. However, all 24-bit and 31-bit problem-state application programs originally written to run on the ESA/390 architecture are unaffected by this change.
+
+
+== Description ==
+The Processor Unit chip (PU chip) has an area of 678 mm2 and contains 3.99 billion transistors. It is fabricated using IBM's 22 nm CMOS silicon on insulator fabrication process, using 17 metal layers and supporting speeds of 5.0 GHz, which is less than its predecessor, the zEC12. The PU chip can have six, seven or eight cores (or "processor units" in IBM's parlance) enabled depending on configuration. The PU chip is packaged in a single-chip module, a departure from IBM's previous mainframe processors, which were mounted on large multi-chip modules. A computer drawer consists of six PU chips and two Storage Controller (SC) chips.The cores implement the CISC z/Architecture with a superscalar, out-of-order pipeline. It has facilities related to transactional memory, and new features such as two-way simultaneous multithreading (SMT), 139 new SIMD instructions, data compression, improved cryptography and logical partitioning. The cores have numerous other enhancements such as a new superscalar pipeline, on-chip cache design and error correction.The instruction pipeline has an instruction queue that can fetch 6 instructions per cycle; and issue up to 10 instructions per cycle. Each core has a private 96 KB L1 instruction cache, a private 128 KB L1 data cache, a private 2 MB L2 cache instruction cache, and a private 2 MB L2 data cache. In addition, there is a 64 MB shared L3 cache implemented in eDRAM.The z13 chip has on board multi-channel DDR3 RAM memory controller supporting a RAID-like configuration to recover from memory faults. The z13 also includes two GX bus as well as two new Gen 3 PCIe controllers for accessing host channel adapters and peripherals.
+
+
+== Vector Facility ==
+The z13 processor supports a new vector facility architecture.  It adds 32 vector registers, each 128 bits wide; the existing 16  floating-point registers are overlaid on the new vector registers.  The new architecture adds over 150 new instructions to operate on data in vector registers, including integer, floating-point, and string data types.  The z13 implementation includes two independent SIMD units to operate on vector data.
+
+
+== Storage Controller ==
+A compute drawer consists of two sets of three PU chips and one Storage Controller chip (SC chip). Even though each PU chip has 64 MB L3 cache shared by the 8 cores and other on-die facilities the SC chip adds 480 MB off-die L4 cache shared by three PU chips. The two SC chips add a total of 960 MB L4 cache per drawer. The SC chips also handle the communications between the sets of three PU chips and to other drawers. The SC chip is manufactured on the same 22 nm process as the z13 PU chips, has 15 metal layers, measures 28.4 × 23.9 mm (678 mm2), consists of 7.1 billion transistors and runs at half the clock frequency of the CP chip.
+
+
+== See also ==
+z/Architecture
+IBM System z
+Mainframe computer
+
+
+== References ==

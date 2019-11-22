@@ -1,0 +1,38 @@
+Title: Uranium–thorium dating
+Aspects: {'U series'}
+
+Uranium–thorium dating, also called thorium-230 dating, uranium-series disequilibrium dating or uranium-series dating, is a radiometric dating technique established in the 1960s which has been used since the 1970s to determine the age of calcium carbonate materials such as speleothem or coral. Unlike other commonly used radiometric dating techniques such as rubidium–strontium or uranium–lead dating, the uranium-thorium technique does not measure accumulation of a stable end-member decay product. Instead, it calculates an age from the degree to which secular equilibrium has been restored between the radioactive isotope thorium-230 and its radioactive parent uranium-234 within a sample.
+
+
+== Background ==
+
+Thorium is not soluble in natural water under conditions found at or near the surface of the earth, so materials grown in or from this water do not usually contain thorium. In contrast, uranium is soluble to some extent in all natural water, so any material that precipitates or is grown from such water also contains trace uranium, typically at levels of between a few parts per billion and few parts per million by weight. As time passes after such material has formed, uranium-234 in the sample with a half-life of 245,000 years decays to thorium-230. Thorium-230 is itself radioactive with a half-life of 75,000 years, so instead of accumulating indefinitely (as for instance is the case for the uranium–lead system), thorium-230 instead approaches secular equilibrium with its radioactive parent uranium-234. At secular equilibrium, the number of thorium-230 decays per year within a sample is equal to the number of thorium-230 produced, which also equals the number of uranium-234 decays per year in the same sample.
+
+
+== History ==
+In 1908, John Joly, a professor of geology from the University of Dublin, found higher radium contents in deep sediments than in those of the continental shelf, and suspected that detrital sediments scavenged radium out of seawater. Piggot and Urry found in 1942, that radium excess corresponded with an excess of thorium. It took another 20 years until the technique was applied to terrestrial carbonates (speleothems and travertines). In the late 1980s the method was refined by mass spectrometry. After Viktor Viktorovich Cherdyntsev's landmark book about uranium-234 had been translated into English, U-Th dating came to widespread research attention in Western geology.(subscription required)
+
+
+== Methods ==
+U-series dating is a family of methods which can be applied to different materials over different time ranges. 
+Each method is named after the isotopes measured to obtain the date, mostly a daughter and its parent. Eight methods are
+listed in the table below.
+
+
+== Dating limits ==
+Uranium–thorium dating has an upper age limit of somewhat over 500,000 years, defined by the half-life of thorium-230, the precision with which one can measure the thorium-230/uranium-234 ratio in a sample, and the accuracy to which one knows the half-lives of thorium-230 and uranium-234. Using this technique to calculate an age, the ratio of uranium-234 to its parent isotope uranium-238 must also be measured.
+
+
+== Precision ==
+U-Th dating yields the most accurate results if applied to precipitated calcium carbonate, that is in stalagmites, travertines, and lacustrine limestones. Bone and shell are less reliable. Mass spectrometry can achieve a precision of ±1%. Conventional alpha counting's  precision is ±5%. Mass spectrometry also uses smaller samples.
+
+
+== See also ==
+Radiocarbon dating
+
+
+== References ==
+
+
+== External links ==
+Shakhashiri, Bassam Z. "Uranium". Chemical of the Week on scifun.org. University of Wisconsin-Madison Chemistry Department. Archived from the original on 14 February 2015. Retrieved 24 October 2015.

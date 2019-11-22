@@ -1,0 +1,138 @@
+Title: Rho
+Aspects: {'P (disambiguation)'}
+
+Rho (; uppercase Ρ, lowercase ρ or ϱ; Greek: ῥῶ) is the 17th letter of the Greek alphabet. In the system of Greek numerals it has a value of 100. It is derived from Phoenician letter res . Its uppercase form uses the same glyph, Ρ, as the distinct Latin letter P; the two letters have different Unicode encodings.
+
+
+== Uses ==
+
+
+=== Greek ===
+Rho is classed as a liquid consonant (together with lambda and sometimes the nasals mu and nu), which has important implications for morphology. In both Ancient and Modern Greek, it represents a trilled or tapped r.
+In polytonic orthography, a rho at the beginning of a word is written with a rough breathing, equivalent to h (ῥ rh), and a double rho within a word is written with a smooth breathing over the first rho and a rough breathing over the second (ῤῥ rrh). That apparently reflected an aspirated or voiceless pronunciation in Ancient Greek, which led to the various Greek-derived English words starting with rh or contain rrh.
+The name of the letter is written in Greek as ῥῶ (polytonic) or ρω/ρο (monotonic).
+
+
+=== Other alphabets ===
+Letters that arose from rho include Roman R and Cyrillic Er (Р).
+
+
+=== Mathematics and science ===
+The characters ρ and ϱ are also conventionally used outside the Greek alphabetical context in science and mathematics.
+
+In the physical sciences to represent:
+Densities: mass density, air density or charge density (ρ)
+Resistivity (ρ)
+Rho meson (ρ+, ρ−, ρ0)
+General quantum states
+Hammett Equation, ρ is used to represent the reaction constant, this is independent of the position and nature of the substituents of the benzene ring.
+In mathematics to represent:
+A length coordinate in polar, cylindrical, spherical,  and toroidal coordinate systems, and toroidal and poloidal coordinates of the Earth's magnetic field.
+The correlation coefficient of a population parameter
+The spectral radius of a matrix 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+   denoted as 
+  
+    
+      
+        ρ
+        (
+        A
+        )
+      
+    
+    {\displaystyle \rho (A)}
+  
+The plastic number
+The prime constant
+The sensitivity to interest rates of a pricing function
+The expected return of a given policy (
+  
+    
+      
+        π
+      
+    
+    {\displaystyle \pi }
+  ) in reinforcement learning, denoted 
+  
+    
+      
+        
+          ρ
+          
+            π
+          
+        
+      
+    
+    {\displaystyle \rho ^{\pi }}
+  
+In economics to represent the discount rate of future pence cash flows
+In molecular biology to represent the Rho protein responsible for termination of RNA synthesis. In such occasions, it is often represented as ϱ ("rho symbol" U+03F1), to avoid confusion with the Latin letter p
+In molecular biology to represent the Rho family of GTPases, important for cytoskeletal dynamic regulation.
+In ecology to represent the population damping ratio where ρ = λ1 / |λ2|.
+In computer programming
+For LaTeX, the symbols are \rho (
+  
+    
+      
+        ρ
+      
+    
+    {\displaystyle \rho }
+  ), and \varrho (
+  
+    
+      
+        ϱ
+      
+    
+    {\displaystyle \varrho }
+  ) (note: \Rho is not defined by default)
+The lower-case rho "⍴" means reshape in the APL programming language, and by extension also queries shape
+The lower-case rho "ρ" is used for the unary rename operation in relational algebra
+In statistics to represent Spearman's rank correlation coefficient, commonly known as Spearman's rho
+In options theory to represent the rate of change of a portfolio with respect to interest rates
+
+
+=== Chi Rho ===
+The letter rho overlaid with chi forms the Chi Rho symbol, used to represent Jesus Christ.
+
+
+=== Rhodes Scholars ===
+Former Rhodes Scholars are entitled to use the Greek letter rho as a designation of their status.  When used, the symbol should precede the name.
+
+
+== Character encodings ==
+
+
+=== Greek rho ===
+
+
+=== Greek rho symbols ===
+
+
+=== Coptic ro ===
+
+
+=== Functional symbol ===
+
+
+=== Mathematical rho ===
+These characters are used only as mathematical symbols. Stylized Greek text should be encoded using the normal Greek letters, with markup and formatting to indicate text style.
+
+
+== See also ==
+Р, р - Er (Cyrillic)
+R, r - Latin
+P, p - Latin
+
+
+== References ==

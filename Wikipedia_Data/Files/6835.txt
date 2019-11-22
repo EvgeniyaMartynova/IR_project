@@ -1,0 +1,15 @@
+Title: Jabber.org
+Aspects: {'Jabber'}
+
+Jabber.org is the original instant messaging (IM) service based on XMPP, an open standard for IM.
+
+
+== History ==
+Jabber.org was started in 1999 and has offered free XMPP accounts to users continuously since. It originally served as the development test bed for the jabberd server project. After becoming more stable it also became more popular with end users. As of  2012, it was a public production service, and one of the biggest nodes on the open XMPP network, with an average of 17,000 users logged in at a time.Jabber.org originally ran on what is now known as Jabberd14, in 2006 the service was migrated to ejabberd on which it ran until 2010. In 2010 the service was migrated to Isode Limited's M-Link XMPP Server.Since June 25, 2013 the jabber.org website has shown this error message for people who connect: "We have temporarily disabled account registration at the jabber.org IM service while we migrate the account database to a new machine. We will enable the web registration form again as soon as possible! In the meantime, you can create an account at any other public XMPP service."
+
+
+== Notes ==
+
+
+== External links ==
+Official website

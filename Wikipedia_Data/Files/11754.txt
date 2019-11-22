@@ -1,0 +1,48 @@
+Title: Rhodopseudomonas palustris
+Aspects: {'R. palustris'}
+
+Rhodopseudomonas palustris is a rod-shaped gram-negative purple non-sulfur bacterium, notable for its ability to switch between four different modes of metabolism.R. palustris is found extensively in nature and has been isolated from swine waste lagoons, earthworm droppings, marine coastal sediments and pond water. Although purple non-sulfur bacteria are normally photoheterotrophic, R. palustris can flexibly switch among any of the four modes of metabolism that support life: photoautotrophic, photoheterotrophic, chemoautotrophic and chemoheterotrophic.
+
+
+== Etymology ==
+R. palustris is usually found as a wad of slimy masses and cultures appear from pale brown to peach-colored. Etymologically, rhodum is a Greek noun meaning rose, pseudes is the Greek adjective for false and monas refers to a unit in Greek. Therefore, Rhodopseudomonas, which implies a unit of false rose, describes the appearance of the bacteria. Palustris is Latin for marshy, and indicates the common habitat of the bacterium.
+
+
+== Modes of metabolism ==
+R. palustris can grow with or without oxygen, or it can use light, inorganic or organic compounds for energy. It can also acquire carbon from either carbon dioxide fixation or green plant-derived compounds. Finally, R. palustris is also capable of fixing nitrogen for growth. This metabolic versatility has raised interest in the research community, and it makes this bacterium suitable for potential use in biotechnological applications.
+Efforts are currently being made to understand how this organism adjusts its metabolism in response to environmental changes. The complete genome of the strain Rhodopseudomonas palustris CGA009 was sequenced in 2004 (see list of sequenced bacterial genomes) to get more information about how the bacterium senses environmental changes and regulates its metabolic pathways. It was found that R. palustris can deftly acquire and process various components from its environment, as necessitated by fluctuations in the levels of carbon, nitrogen, oxygen and light.
+R. palustris has genes that encode for proteins that make up light-harvesting complexes and photosynthetic reaction centres. LH complexes and photosynthetic reaction centers are typically found in photosynthetic organisms like green plants. Moreover, R. palustris can modulate photosynthesis according to the amount of light available, like other purple bacteria. For instance, in low-light circumstances, it responds by increasing the level of these LH complexes that allow light absorption. However, the wavelengths of the light absorbed by R. palustris differ from those absorbed by other phototrophs.
+R. palustris also has genes that encode for the protein ruBisCO, an enzyme that is necessary for carbon dioxide fixation in plants and other photosynthetic organisms. The genome of CGA009 also reveals the existence of proteins involved in nitrogen fixation (see diazotroph).
+In addition, this bacterium can combine oxygen-sensitive and oxygen-requiring enzyme reaction processes for metabolism and thus, it can thrive under varying and even very little levels of oxygen.
+
+
+== Commercial applications ==
+
+
+=== Biodegradation ===
+The genome of R. palustris consists of a variety of genes that are responsible for biodegradation. R. palustris can metabolize lignin and acids found in degrading plant and animal waste by metabolizing carbon dioxide. In addition, it can degrade aromatic compounds found in industrial waste. This bacterium is an efficient biodegradation catalyst in both aerobic and anaerobic environments.
+
+
+=== Hydrogen production ===
+Purple phototrophic bacteria generate interest due to their biotechnological applications.  These bacteria can be used for bioplastic synthesis and hydrogen production. R. palustris has the unique characteristic of encoding for a vanadium-containing nitrogenase. It produces, as a byproduct of nitrogen fixation, three times more hydrogen than do molybdenum-containing nitrogenases of other bacteria. The potential to manipulate R. palustris to be used as a reliable hydrogen production source or for biodegradation still lacks detailed knowledge of its metabolic pathways and regulation mechanisms.
+
+
+=== Electricity generation ===
+
+
+==== Rhodopseudomonas palustris DX-1 ====
+A strain of R. palustris (DX-1) is one of the few microorganisms and the first Alphaproteobacteria found to generate electricity at high power densities in low-internal resistance microbial fuel cells. DX-1 produces electric current in MFCs in the absence of a catalyst, without light or hydrogen production. This strain is exoelectrogenic, meaning that it can transfer electrons outside the cell. Other microorganisms isolated from MFCs cannot produce power densities higher than mixed cultures of microbes can under the same fuel cell conditions. However, R. palustris DX-1 can produce significantly higher power densities.
+The Rhodopseudomonas species is widely found in wastewaters, and DX-1 generates electricity using compounds that Rhodopseudomonas is known to degrade. Therefore, this technology can be harnessed to produce bioelectricity from biomass as well as for wastewater treatment. However, the energy generated through this process is currently not sufficient for large-scale wastewater treatment.
+
+
+==== Rhodopseudomonas palustris TIE-1 ====
+A 2014 research explained the cellular processes that allow the strain R. palustris TIE-1 to obtain energy through extracellular electron transfer. TIE-1 curiously takes in electrons from materials rich in iron, sulfur and other minerals found in the sediment beneath the surface. In an extraordinary strategy, as the microbes pull electrons away from iron, iron oxide crystallizes in the soil, eventually becomes conductive, and facilitates TIE-1 in oxidizing other minerals.
+TIE-1 then converts these electrons into energy using carbon dioxide as an electron receptor. A gene that produces ruBisCo helps this strain of R. palustris to achieve energy generation through electrons. TIE-1 uses ruBisCo to convert carbon dioxide into nutrition for itself. This metabolism has phototrophic aspects, since the gene and the ability to uptake electrons are stimulated by sunlight. Therefore, R. palustris TIE-1 charges itself using minerals located deep in the soil, while utilizing light by remaining on the surface itself. The ability of TIE-1 to eat electricity can be used to manufacture batteries, but its efficiency as a fuel source remains questionable. However, it has possible applications in the pharmaceutical industry.
+
+
+== References ==
+
+
+== External links ==
+MicrobeWiki | Rhodopseudomonas
+ScienceDaily | "Researchers describe microbe that 'eats' electricity"

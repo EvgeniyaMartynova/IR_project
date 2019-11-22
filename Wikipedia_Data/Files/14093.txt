@@ -1,0 +1,166 @@
+Title: Artificial general intelligence
+Aspects: {'UAI'}
+
+Artificial general intelligence (AGI) is the intelligence of a machine that can understand or learn any intellectual task that a human being can. It is a primary goal of some artificial intelligence research and a common topic in science fiction and futures studies. AGI can also be referred to as strong AI, full AI,  or general intelligent action. (Academic sources reserve the term "strong AI" for machines that can experience consciousness.)
+Some authorities emphasize a distinction between strong AI and applied AI (also called narrow AI or weak AI): the use of software to study or accomplish specific problem solving or reasoning tasks. Weak AI, in contrast to strong AI, does not attempt to perform the full range of human cognitive abilities.
+As of 2017, over forty organizations were doing research on AGI.
+
+
+== Requirements ==
+
+Various criteria for intelligence have been proposed (most famously the Turing test) but to date, there is no definition that satisfies everyone. However, there is wide agreement among artificial intelligence researchers that intelligence is required to do the following:
+reason, use strategy, solve puzzles, and make judgments under uncertainty;
+represent knowledge, including commonsense knowledge;
+plan;
+learn;
+communicate in natural language;
+and integrate all these skills towards common goals.Other important capabilities include the ability to sense (e.g. see) and the ability to act (e.g. move and manipulate objects) in the world where intelligent behaviour is to be observed. This would include an ability to detect and respond to hazard. Many interdisciplinary approaches to intelligence (e.g. cognitive science, computational intelligence and decision making) tend to emphasise the need to consider additional traits such as imagination (taken as the ability to form mental images and concepts that were not programmed in) and autonomy.
+Computer based systems that exhibit many of these capabilities do exist (e.g. see computational creativity, automated reasoning, decision support system, robot, evolutionary computation, intelligent agent), but not yet at human levels.
+
+
+=== Tests for confirming human-level AGI ===
+The Turing Test (Turing)
+A machine and a human both converse sight unseen with a second human, who must evaluate which of the two is the machine, which passes the test if it can fool the evaluator a significant fraction of the time. Note: Turing does not prescribe what should qualify as intelligence, only that knowing that it is a machine should disqualify it.
+The Coffee Test (Wozniak)
+A machine is required to enter an average American home and figure out how to make coffee: find the coffee machine, find the coffee, add water, find a mug, and brew the coffee by pushing the proper buttons.
+The Robot College Student Test (Goertzel)
+A machine enrolls in a university, taking and passing the same classes that humans would, and obtaining a degree.
+The Employment Test (Nilsson)
+A machine works an economically important job, performing at least as well as humans in the same job.
+The flat pack furniture test (Tony Severyns)
+A machine is required to unpack and assemble an item of flat-packed furniture. It has to read the instructions and assemble the item as described, correctly installing all fixtures.
+The Mirror Test (Tanvir Zawad)
+A machine should distinguish a real object and its reflected image from a mirror.
+
+
+=== IQ-tests AGI ===
+Chinese researchers Feng Liu, Yong Shi and Ying Liu conducted intelligence tests in the summer of 2017 with publicly available and freely accessible weak AI such as Google AI or Apple's Siri and others. At the maximum, these AI reached a value of about 47, which corresponds approximately to a six-year-old child in first grade. An adult comes to about 100 on average. In 2014, similar tests were carried out in which the AI reached a maximum value of 27.
+
+
+=== Problems requiring AGI to solve ===
+
+The most difficult problems for computers are informally known as "AI-complete" or "AI-hard", implying that solving them is equivalent to the general aptitude of human intelligence, or strong AI, beyond the capabilities of a purpose-specific algorithm.AI-complete problems are hypothesised to include general computer vision, natural language understanding, and dealing with unexpected circumstances while solving any real world problem.AI-complete problems cannot be solved with current computer technology alone, and also require human computation.  This property could be useful, for example, to test for the presence of humans, as CAPTCHAs aim to do; and for computer security to repel brute-force attacks.
+
+
+== AGI research ==
+
+
+=== Classical AI ===
+
+Modern AI research began in the mid 1950s. The first generation of AI researchers was convinced that artificial general intelligence was possible and that it would exist in just a few decades. As AI pioneer Herbert A. Simon wrote in 1965: "machines will be capable, within twenty years, of doing any work a man can do." Their predictions were the inspiration for Stanley Kubrick and Arthur C. Clarke's character HAL 9000, who embodied what AI researchers believed they could create by the year 2001. AI pioneer Marvin Minsky was a consultant on the project of making HAL 9000 as realistic as possible according to the consensus predictions of the time; Crevier quotes him as having said on the subject in 1967, "Within a generation ... the problem of creating 'artificial intelligence' will substantially be solved," although Minsky states that he was misquoted.However, in the early 1970s, it became obvious that researchers had grossly underestimated the difficulty of the project. Funding agencies became skeptical of AGI and put researchers under increasing pressure to produce useful "applied AI". As the 1980s began, Japan's Fifth Generation Computer Project revived interest in AGI, setting out a ten-year timeline that included AGI goals like "carry on a casual conversation". In response to this and the success of expert systems, both industry and government pumped money back into the field. However, confidence in AI spectacularly collapsed in the late 1980s, and the goals of the Fifth Generation Computer Project were never fulfilled. For the second time in 20 years, AI researchers who had predicted the imminent achievement of AGI had been shown to be fundamentally mistaken. By the 1990s, AI researchers had gained a reputation for making vain promises. They became reluctant to make predictions at all and to avoid any mention of "human level" artificial intelligence for fear of being labeled "wild-eyed dreamer[s]."
+
+
+=== Narrow AI research ===
+
+In the 1990s and early 21st century, mainstream AI has achieved far greater commercial success and academic respectability by focusing on specific sub-problems where they can produce verifiable results and commercial applications, such as artificial neural networks, computer vision or data mining. These "applied AI" systems are now used extensively throughout the technology industry, and research in this vein is very heavily funded in both academia and industry. Currently, the development on this field is considered an emerging trend, and a mature stage is expected to happen in more than 10 years.
+Most mainstream AI researchers hope that strong AI can be developed by combining the programs that solve various sub-problems using an integrated agent architecture, cognitive architecture or subsumption architecture. Hans Moravec wrote in 1988: "I am confident that this bottom-up route to artificial intelligence will one day meet the traditional top-down route more than half way, ready to provide the real world competence and the commonsense knowledge that has been so frustratingly elusive in reasoning programs. Fully intelligent machines will result when the metaphorical golden spike is driven uniting the two efforts."
+However, even this fundamental philosophy has been disputed; for example, Stevan Harnad of Princeton concluded his 1990 paper on the Symbol Grounding Hypothesis by stating: "The expectation has often been voiced that "top-down" (symbolic) approaches to modeling cognition will somehow meet "bottom-up" (sensory) approaches somewhere in between. If the grounding considerations in this paper are valid, then this expectation is hopelessly modular and there is really only one viable route from sense to symbols: from the ground up. A free-floating symbolic level like the software level of a computer will never be reached by this route (or vice versa) – nor is it clear why we should even try to reach such a level, since it looks as if getting there would just amount to uprooting our symbols from their intrinsic meanings (thereby merely reducing ourselves to the functional equivalent of a programmable computer)."
+
+
+=== Modern artificial general intelligence research ===
+Artificial general intelligence (AGI) describes research that aims to create machines capable of general intelligent action. The term was used as early as 1997, by Mark Gubrud in a discussion of the implications of fully automated military production and operations. The term was re-introduced and popularized by Shane Legg and Ben Goertzel around 2002. The research objective is much older, for example Doug Lenat's Cyc project (that began in 1984), and Allen Newell's Soar project are regarded as within the scope of AGI. AGI research activity in 2006 was described by Pei Wang and Ben Goertzel as "producing publications and preliminary results". The first summer school in AGI was organized in Xiamen, China in 2009 by the Xiamen university's Artificial Brain Laboratory and OpenCog. The first university course was given in 2010 and 2011 at Plovdiv University, Bulgaria by Todor Arnaudov. MIT presented a course in AGI in 2018, organized by Lex Fridman and featuring a number of guest lecturers. However, as yet, most AI researchers have devoted little attention to AGI, with some claiming that intelligence is too complex to be completely replicated in the near term. However, a small number of computer scientists are active in AGI research, and many of this group are contributing to a series of AGI conferences. The research is extremely diverse and often pioneering in nature. In the introduction to his book, Goertzel says that estimates of the time needed before a truly flexible AGI is built vary from 10 years to over a century, but the consensus in the AGI research community seems to be that the timeline discussed by Ray Kurzweil in The Singularity is Near (i.e. between 2015 and 2045) is plausible.However, most mainstream AI researchers doubt that progress will be this rapid. Organizations explicitly pursuing AGI include the Swiss AI lab IDSIA, Nnaisense, Vicarious, Maluuba, the OpenCog Foundation, Adaptive AI, LIDA, and Numenta and the associated Redwood Neuroscience Institute. In addition, organizations such as the Machine Intelligence Research Institute and OpenAI have been founded to influence the development path of AGI. Finally, projects such as the Human Brain Project have the goal of building a functioning simulation of the human brain. A 2017 survey of AGI categorized forty-five known "active R&D projects" that explicitly or implicitly (through published research) research AGI, with the largest three being DeepMind, the Human Brain Project, and OpenAI (based on article).
+In 2019, video game programmer and aerospace engineer John Carmack announced plans to research AGI.
+Namely DeepMind with their success in Human Player Simulation for e.g. AlphaGo made use of new concepts:
+
+Reinforcement learning to improve already trained networks with new data or
+Unsupervised learning, e.g. by Generative adversarial network to get improved networks by competition.
+
+
+== Processing power needed to simulate a brain ==
+
+
+=== Whole brain emulation ===
+
+A popular approach discussed to achieving general intelligent action is whole brain emulation. A low-level brain model is built by scanning and mapping a biological brain in detail and copying its state into a computer system or another computational device. The computer runs a simulation model so faithful to the original that it will behave in essentially the same way as the original brain, or for all practical purposes, indistinguishably. Whole brain emulation is discussed in computational neuroscience and neuroinformatics, in the context of brain simulation for medical research purposes. It is discussed in artificial intelligence research as an approach to strong AI. Neuroimaging technologies that could deliver the necessary detailed understanding are improving rapidly, and futurist Ray Kurzweil in the book The Singularity Is Near predicts that a map of sufficient quality will become available on a similar timescale to the required computing power.
+
+
+=== Early estimates ===
+ For low-level brain simulation, an extremely powerful computer would be required. The human brain has a huge number of synapses. Each of the 1011 (one hundred billion) neurons has on average 7,000 synaptic connections to other neurons. It has been estimated that the brain of a three-year-old child has about 1015 synapses (1 quadrillion). This number declines with age, stabilizing by adulthood. Estimates vary for an adult, ranging from 1014 to 5×1014 synapses (100 to 500 trillion). An estimate of the brain's processing power, based on a simple switch model for neuron activity, is around 1014 (100 trillion) synaptic updates per second (SUPS). In 1997 Kurzweil looked at various estimates for the hardware required to equal the human brain and adopted a figure of 1016 computations per second (cps). (For comparison, if a "computation" was equivalent to one "floating point operation" –  a measure used to rate current supercomputers – then 1016 "computations" would be equivalent to 10 petaFLOPS, achieved in 2011). He used this figure to predict the necessary hardware would be available sometime between 2015 and 2025, if the exponential growth in computer power at the time of writing continued.
+
+
+=== Modelling the neurons in more detail ===
+The artificial neuron model assumed by Kurzweil and used in many current artificial neural network implementations is simple compared with biological neurons. A brain simulation would likely have to capture the detailed cellular behaviour of biological neurons, presently understood only in the broadest of outlines. The overhead introduced by full modeling of the biological, chemical, and physical details of neural behaviour (especially on a molecular scale) would require computational powers several orders of magnitude larger than Kurzweil's estimate.  In addition the estimates do not account for glial cells, which are at least as numerous as neurons, and which may outnumber neurons by as much as 10:1, and are now known to play a role in cognitive processes.
+
+
+=== Current research ===
+There are some research projects that are investigating brain simulation using more sophisticated neural models, implemented on conventional computing architectures. The Artificial Intelligence System project implemented non-real time simulations of a "brain" (with 1011 neurons) in 2005. It took 50 days on a cluster of 27 processors to simulate 1 second of a model. The Blue Brain project used one of the fastest supercomputer architectures in the world, IBM's Blue Gene platform, to create a real time simulation of a single rat neocortical column consisting of approximately 10,000 neurons and 108 synapses in 2006. A longer term goal is to build a detailed, functional simulation of the physiological processes in the human brain: "It is not impossible to build a human brain and we can do it in 10 years," Henry Markram, director of the Blue Brain Project said in 2009 at the TED conference in Oxford. There have also been controversial claims to have simulated a cat brain. Neuro-silicon interfaces have been proposed as an alternative implementation strategy that may scale better.Hans Moravec addressed the above arguments ("brains are more complicated", "neurons have to be modeled in more detail") in his 1997 paper "When will computer hardware match the human brain?".  He measured the ability of existing software to simulate the functionality of neural tissue, specifically the retina.  His results do not depend on the number of glial cells, nor on what kinds of processing neurons perform where.
+The actual complexity of modeling biological neurons has been explored in OpenWorm project that was aimed on complete simulation of a worm that has only 302 neurons in its neural network (among about 1000 cells in total). The animal's neural network has been well documented before the start of the project. However, although the task seemed simple at the beginning, the models based on a generic neural network didn't work. Currently, the efforts are focused on precise emulation of biological neurons (partly on the molecular level), but the result can't be called a total success yet. Even if the number of issues to be solved in a human-brain-scale model is not proportional to the number of neurons, the amount of work along this path is obvious.
+
+
+=== Criticisms of simulation-based approaches ===
+A fundamental criticism of the simulated brain approach derives from embodied cognition where human embodiment is taken as an essential aspect of human intelligence. Many researchers believe that embodiment is necessary to ground meaning. If this view is correct, any fully functional brain model will need to encompass more than just the neurons (i.e., a robotic body). Goertzel proposes virtual embodiment (like Second Life), but it is not yet known whether this would be sufficient.
+Desktop computers using microprocessors capable of more than 109 cps (Kurzweil's non-standard unit "computations per second", see above) have been available since 2005. According to the brain power estimates used by Kurzweil (and Moravec), this computer should be capable of supporting a simulation of a bee brain, but despite some interest no such simulation exists. There are at least three reasons for this:
+
+The neuron model seems to be oversimplified (see next section).
+There is insufficient understanding of higher cognitive processes to establish accurately what the brain's neural activity, observed using techniques such as functional magnetic resonance imaging, correlates with.
+Even if our understanding of cognition advances sufficiently, early simulation programs are likely to be very inefficient and will, therefore, need considerably more hardware.
+The brain of an organism, while critical, may not be an appropriate boundary for a cognitive model.  To simulate a bee brain, it may be necessary to simulate the body, and the environment. The Extended Mind thesis formalizes the philosophical concept, and research into cephalopods has demonstrated clear examples of a decentralized system.In addition, the scale of the human brain is not currently well-constrained. One estimate puts the human brain at about 100 billion neurons and 100 trillion synapses. Another estimate is 86 billion neurons of which 16.3 billion are in the cerebral cortex and 69 billion in the cerebellum. Glial cell synapses are currently unquantified but are known to be extremely numerous.
+
+
+== Artificial consciousness research ==
+
+Although the role of consciousness in strong AI/AGI is debatable, many AGI researchers regard research that investigates possibilities for implementing consciousness as vital. In an early effort Igor Aleksander argued that the principles for creating a conscious machine already existed but that it would take forty years to train such a machine to understand language.
+
+
+== Relationship to "strong AI" ==
+
+In 1980, philosopher John Searle coined the term "strong AI" as part of his Chinese room argument. He wanted to distinguish between two different hypotheses about artificial intelligence:
+An artificial intelligence system can think and have a mind.  (The word "mind" has a specific meaning for philosophers, as used in "the mind body problem" or "the philosophy of mind".)
+An artificial intelligence system can (only) act like it thinks and has a mind.The first one is called "the strong AI hypothesis" and the second is "the weak AI hypothesis" because the first one makes the stronger statement: it assumes something special has happened to the machine that goes beyond all its abilities that we can test. Searle referred to the "strong AI hypothesis" as "strong AI". This usage is also common in academic AI research and textbooks.The weak AI hypothesis is equivalent to the hypothesis that artificial general intelligence is possible. According to Russell and Norvig, "Most AI researchers take the weak AI hypothesis for granted, and don't care about the strong AI hypothesis."In contrast to Searle, Kurzweil uses the term "strong AI" to describe any artificial intelligence system that acts like it has a mind, regardless of whether a philosopher would be able to determine if it actually has a mind or not.
+
+
+== Possible explanations for the slow progress of AI research ==
+
+Since the launch of AI research in 1956, the growth of this field has slowed down over time and has stalled the aims of creating machines skilled with intelligent action at the human level. A possible explanation for this delay is that computers lack a sufficient scope of memory or processing power. In addition, the level of complexity that connects to the process of AI research may also limit the progress of AI research.While most AI researchers believe strong AI can be achieved in the future, there are some individuals like Hubert Dreyfus and Roger Penrose who deny the possibility of achieving strong AI. John McCarthy was one of various computer scientists who believe human-level AI will be accomplished, but a date cannot accurately be predicted.Conceptual limitations are another possible reason for the slowness in AI research. AI researchers may need to modify the conceptual framework of their discipline in order to provide a stronger base and contribution to the quest of achieving strong AI. As William Clocksin wrote in 2003: "the framework starts from Weizenbaum’s observation that intelligence manifests itself only relative to specific social and cultural contexts".Furthermore, AI researchers have been able to create computers that can perform jobs that are complicated for people to do, but conversely they have struggled to develop a computer that is capable of carrying out tasks that are simple for humans to do (Moravec's paradox). A problem described by David Gelernter is that some people assume thinking and reasoning are equivalent. However, the idea of whether thoughts and the creator of those thoughts are isolated individually has intrigued AI researchers.The problems that have been encountered in AI research over the past decades have further impeded the progress of AI. The failed predictions that have been promised by AI researchers and the lack of a complete understanding of human behaviors have helped diminish the primary idea of human-level AI. Although the progress of AI research has brought both improvement and disappointment, most investigators have established optimism about potentially achieving the goal of AI in the 21st century.Other possible reasons have been proposed for the lengthy research in the progress of strong AI. The intricacy of scientific problems and the need to fully understand the human brain through psychology and neurophysiology have limited many researchers from emulating the function of the human brain into a computer hardware. Many researchers tend to underestimate any doubt that is involved with future predictions of AI, but without taking those issues seriously can people then overlook solutions to problematic questions.Clocksin says that a conceptual limitation that may impede the progress of AI research is that people may be using the wrong techniques for computer programs and implementation of equipment. When AI researchers first began to aim for the goal of artificial intelligence, a main interest was human reasoning. Researchers hoped to establish computational models of human knowledge through reasoning and to find out how to design a computer with a specific cognitive task.The practice of abstraction, which people tend to redefine when working with a particular context in research, provides researchers with a concentration on just a few concepts. The most productive use of abstraction in AI research comes from planning and problem solving. Although the aim is to increase the speed of a computation, the role of abstraction has posed questions about the involvement of abstraction operators.A possible reason for the slowness in AI relates to the acknowledgement by many AI researchers that heuristics is a section that contains a significant breach between computer performance and human performance. The specific functions that are programmed to a computer may be able to account for many of the requirements that allow it to match human intelligence. These explanations are not necessarily guaranteed to be the fundamental causes for the delay in achieving strong AI, but they are widely agreed by numerous researchers.
+There have been many AI researchers that debate over the idea whether machines should be created with emotions. There are no emotions in typical models of AI and some researchers say programming emotions into machines allows them to have a mind of their own. Emotion sums up the experiences of humans because it allows them to remember those experiences.  David Gelernter writes, "No computer will be creative unless it can simulate all the nuances of human emotion." This concern about emotion has posed problems for AI researchers and it connects to the concept of strong AI as its research progresses into the future.
+
+
+== Consciousness ==
+There are other aspects of the human mind besides intelligence that are relevant to the concept of strong AI which play a major role in science fiction and the ethics of artificial intelligence:
+
+consciousness: To have subjective experience and thought.
+self-awareness: To be aware of oneself as a separate individual, especially to be aware of one's own thoughts.
+sentience: The ability to "feel" perceptions or emotions subjectively.
+sapience: The capacity for wisdom.These traits have a moral dimension, because a machine with this form of strong AI may have legal rights, analogous to the rights of non-human animals. Also, Bill Joy, among others, argues a machine with these traits may be a threat to human life or dignity. It remains to be shown whether any of these traits are necessary for strong AI. The role of consciousness is not clear, and currently there is no agreed test for its presence. If a machine is built with a device that simulates the neural correlates of consciousness, would it automatically have self-awareness? It is also possible that some of these properties, such as sentience, naturally emerge from a fully intelligent machine, or that it becomes natural to ascribe these properties to machines once they begin to act in a way that is clearly intelligent. For example, intelligent action may be sufficient for sentience, rather than the other way around.
+In science fiction, AGI is associated with traits such as consciousness, sentience, sapience, and self-awareness observed in living beings. However, according to philosopher John Searle, it is an open question whether general intelligence is sufficient for consciousness. "Strong AI" (as defined above by Ray Kurzweil) should not be confused with Searle's "strong AI hypothesis." The strong AI hypothesis is the claim that a computer which behaves as intelligently as a person must also necessarily have a mind and consciousness. AGI refers only to the amount of intelligence that the machine displays, with or without a mind.
+
+
+== Controversies and dangers ==
+
+
+=== Feasibility ===
+Opinions vary both on whether and when artificial general intelligence will arrive. At one extreme, AI pioneer Herbert A. Simon wrote in 1965: "machines will be capable, within twenty years, of doing any work a man can do". However, this prediction failed to come true. Microsoft co-founder Paul Allen believed that such intelligence is unlikely in the 21st century because it would require "unforeseeable and fundamentally unpredictable breakthroughs" and a "scientifically deep understanding of cognition". Writing in The Guardian, roboticist Alan Winfield claimed the gulf between modern computing and human-level artificial intelligence is as wide as the gulf between current space flight and practical faster-than-light spaceflight. AI experts' views on the feasibility of AGI wax and wane, and may have seen a resurgence in the 2010s. Four polls conducted in 2012 and 2013 suggested that the median guess among experts for when they'd be 50% confident AGI would arrive was 2040 to 2050, depending on the poll, with the mean being 2081. It is also interesting to note 16.5% of the experts answered with "never" when asked the same question but with a 90% confidence instead.
+Further current AGI progress considerations can be found below Tests for confirming human-level AGI and IQ-tests AGI.
+
+
+=== Potential threat to human existence ===
+
+The creation of artificial general intelligence may have repercussions so great and so complex that it may not be possible to forecast what will come afterwards. Thus the event in the hypothetical future of achieving strong AI is called the technological singularity, because theoretically one cannot see past it. But this has not stopped philosophers and researchers from guessing what the smart computers or robots of the future may do, including forming a utopia by being our friends or overwhelming us in an AI takeover. The latter potentiality is particularly disturbing as it poses an existential risk for mankind.
+
+
+==== Self-replicating machines ====
+
+Smart computers or robots would be able to design and produce improved versions of themselves. A growing population of intelligent robots could conceivably out-compete inferior humans in job markets, in business, in science, in politics (pursuing robot rights), and technologically, sociologically (by acting as one), and militarily. Even nowadays, many jobs have already been taken by pseudo-intelligent machines powered by a Weak AI. For example, robots for homes, health care, hotels, and restaurants have automated many parts of our lives: virtual bots turn customer service into self-service, big data AI applications are used to replace portfolio managers, and social robots such as Pepper are used to replace human greeters for customer service purpose.
+
+
+==== Emergent superintelligence ====
+If research into strong AI produced sufficiently intelligent software, it would be able to reprogram and improve itself – a feature called "recursive self-improvement". It would then be even better at improving itself, and would probably continue doing so in a rapidly increasing cycle, leading to an intelligence explosion and the emergence of superintelligence. Such an intelligence would not have the limitations of human intellect, and might be able to invent or discover almost anything.
+Hyper-intelligent software might not necessarily decide to support the continued existence of mankind, and might be extremely difficult to stop. This topic has also recently begun to be discussed in academic publications as a real source of risks to civilization, humans, and planet Earth.
+One proposal to deal with this is to make sure that the first generally intelligent AI is a friendly AI that would then endeavor to ensure that subsequently developed AIs were also nice to us. But friendly AI is harder to create than plain AGI, and therefore it is likely, in a race between the two, that non-friendly AI would be developed first. Also, there is no guarantee that friendly AI would remain friendly, or that its progeny would also all be good.
+
+
+== See also ==
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+The AGI portal maintained by Pei Wang
+The Genesis Group at MIT's CSAIL — Modern research on the computations that underlay human intelligence
+OpenCog – open source project to develop a human-level AI
+Simulating logical human thought
+What Do We Know about AI Timelines? — Literature review

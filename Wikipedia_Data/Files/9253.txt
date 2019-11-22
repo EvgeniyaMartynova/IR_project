@@ -1,0 +1,147 @@
+Title: IBM Personal System/2
+Aspects: {'N51'}
+
+The Personal System/2 or PS/2 was IBM's third generation of personal computers. Released in 1987, it officially replaced the IBM PC, XT, AT, and PC Convertible in IBM's lineup. Many of the PS/2's innovations, such as the 16550 UART (serial port), 1440 KB 3.5-inch floppy disk format, Model M keyboard layout, 72-pin SIMMs, the PS/2 keyboard and mouse ports, and the VGA video standard, went on to become standards in the broader PC market.The PS/2 line was created by IBM partly in an attempt to recapture control of the PC market by introducing the advanced yet proprietary Micro Channel architecture (MCA) on higher-end models. These models were in the strange position of being incompatible with the IBM-compatible hardware standards previously established by IBM and adopted in the PC industry. However IBM's initial PS/2 computers were popular with target market corporate buyers, and by September 30, 1988; IBM reported that it had sold 3 million PS/2 machines. This was only 18 months after the new range had been introduced.
+Most major PC manufacturers balked at IBM's licensing terms for MCA-compatible hardware, particularly the per-machine royalties. In 1992, Macworld stated that "IBM lost control of its own market and became a minor player with its own technology."The OS/2 operating system was announced at the same time as the PS/2 line and was intended to be the primary operating system for models with Intel 80286 or later processors. However, at the time of the first shipments, only IBM PC DOS 3.3 was available. OS/2 1.0 (text-mode only) and Microsoft's Windows 2.0 became available several months later. IBM also released AIX PS/2, a UNIX operating system for PS/2 models with Intel 386 or later processors.
+
+
+== Predecessors ==
+1981 IBM PC
+1983 IBM PC XT
+1984 IBM Portable Personal Computer
+1984 IBM PCjr
+1984 IBM PC AT
+1986 IBM PC Convertible
+1986 IBM PC XT 286
+
+
+== Technology ==
+IBM's PS/2 was designed to remain software compatible with their PC/AT/XT line of computers upon which the large PC clone market was built, but the hardware was quite different. PS/2 had two BIOSes: one named ABIOS (Advanced BIOS) which provided a new protected mode interface and was used by OS/2, and CBIOS (Compatible BIOS) which was included to be software compatible with the PC/AT/XT. CBIOS was so compatible that it even included Cassette BASIC. While IBM did not publish the BIOS source code, it did promise to publish BIOS entry points.
+
+
+=== Micro Channel Architecture ===
+
+With certain models to the IBM PS/2 line, Micro Channel Architecture (MCA) was also introduced. MCA was conceptually similar to the channel architecture of the IBM System/360 mainframes. MCA was technically superior to ISA and allowed for higher speed communications within the system. The majority of MCA's features would be seen in later buses with the exception of: streaming-data procedure, channel-check reporting, error logging and internal bus-level video pass-through for devices like the IBM 8514. Transfer speeds were on par with the much later PCI standard. MCA allowed one-to-one, card to card, and multi-card to processor simultaneous transaction management which is a feature of the PCI-X bus format.
+Bus mastering capability, bus arbitration, and a primitive form of plug-and-play BIOS management of hardware were all benefits of MCA. (One book from the year 2000 writes: "MCA used an early (and user-hostile) version of what we know now as 'Plug-N′-Play', requiring a special setup disk for each machine and each card." MCA never gained wide acceptance outside of the PS/2 line due to IBM's anti-clone practices and incompatibilities with ISA. IBM offered to sell an MCA license to anyone who could afford the royalty. However, royalties were required for every MCA-compatible machine sold and a payment for every IBM-compatible machine the particular maker had made in the past. There was nothing unique in IBM insisting on payment of royalties on the use of its patents applied to Micro Channel-based machines. Up until that time, some companies had failed to pay IBM for the use of its patents on the earlier generation of Personal Computer.
+
+
+=== Keyboard/mouse ===
+
+
+==== Layout ====
+The PS/2 IBM Model M keyboard used the same 101-key layout of the previous IBM PC/AT Extended keyboard, itself derived from the original IBM PC keyboard.  European variants had 102 keys with the addition of an extra key to the right of the left Shift key. The Model M, using a buckling spring mechanism, is still being manufactured by Unicomp.
+
+
+==== Interface ====
+
+PS/2 systems introduced a new specification for the keyboard and mouse interfaces, which are still in use today (though increasingly supplanted by USB devices) and are thus called "PS/2" interfaces. The PS/2 keyboard interface, inspired by Apple's ADB interface, was electronically identical to the long-established AT interface, but the cable connector was changed from the 5-pin DIN connector to the smaller 6-pin mini-DIN interface. The same connector and a similar synchronous serial interface was used for the PS/2 mouse port.
+The initial desktop Model 50 and Model 70 also featured a new cableless internal design, based on use of interposer circuit boards to link the internal drives to the planar (motherboard). Additionally these machines could be largely disassembled and reassembled for service without tools.
+Additionally, the PS/2 introduced a new software data area known as the Extended BIOS Data Area (EBDA). Its primary use was to add a new buffer area for the dedicated mouse port. This also required making a change to the "traditional" BIOS Data Area (BDA) which was then required to point to the base address of the EBDA.
+Another new PS/2 innovation was the introduction of bidirectional parallel ports which in addition to their traditional use for connecting a printer could now function as a high speed data transfer interface. This allowed the use of new hardware such as parallel port scanners, CD-ROM drives, and also enhanced the capabilities of printers by allowing them to communicate with the host PC and send back signals instead of simply being a passive output device.
+
+
+=== Graphics ===
+Most of the initial range of PS/2 models were equipped with a new frame buffer known as the Video Graphics Array, or VGA for short. This effectively replaced the previous EGA standard. VGA increased graphics memory to 256 KB and provided for resolutions of 640×480 with 16 colors, and 320×200 with 256 colors. VGA also provided a palette of 262,144 colors (as opposed to the EGA palette of 64 colors). The IBM 8514 and later XGA computer display standards were also introduced on the PS/2 line.
+Key monitors and their maximum resolutions:
+
+8504: 12″, 640×480, 60 Hz non-interlaced, 1991, monochrome
+8507: 19″, 1024×768, 43.5 Hz interlaced, 1988 monochrome
+8511: 14″, 640×480, 60 Hz non-interlaced, 1987
+8512: 14″, 640×480, 60 Hz non-interlaced, 1987
+8513: 12″, 640×480, 60 Hz non-interlaced, 1987
+8514: 16″, 1024×768, 43.5 Hz interlaced, 1987
+8515: 14″, 1024×768, 43.5 Hz interlaced, 1991
+8516: 14″, 1024×768, 43.5 Hz interlaced, 1991
+8518: 14″, 640×480, 75 Hz non-interlaced, 1992
+9515: 14″, 1024×768, 43.5 Hz interlaced, 1992
+9517: 16″, 1280×1024, 53 Hz interlaced, 1991
+9518: 14″, 640×480, non-interlaced, 1992All "XGA" 1024×768 monitors are multimode, as XGA works as an add-on card to a built-in VGA and transparently passes-thru the VGA signal when not operating in a high resolution mode. All of the listed 85xx displays can therefore sync 640×480 at 60 Hz (or 720×400 at 70 Hz) in addition to any higher mode they may also be capable of. This however is not true of the 95xx models (and some unlisted 85xx's), which are specialist workstation displays designed for use with the XGA-2 or Image Adapter/A cards, and whose fixed frequencies all exceed that of basic VGA – the lowest of their commonly available modes instead being 640×480 at 75 Hz, if not something much higher still. It is also worth noting that these were still merely dual- or "multiple-frequency" monitors, not variable-frequency (also known as multisync); in particular, despite running happily at 640×480/720×400 and 1024×768, an (e.g.) 8514 cannot sync the otherwise common intermediate 800×600 "SVGA" resolution, even at the relatively low 50 to 56 Hz refresh rates initially used.
+Although the design of these adapters did not become an industry standard as VGA did, their 1024×768 pixel resolution was subsequently widely adopted as a standard by other manufacturers, and "XGA" became a synonym for this screen resolution. The lone exception were the bottom-rung 8086-based Model 25 and 30, which had a cut-down version of VGA referred to as MCGA; the 286 models came with VGA. This supported CGA graphics modes, VGA 320x200x256 and 640x480x2 mode, but not EGA or color 640x480.
+
+
+==== VGA video connector ====
+All of the new PS/2 graphics systems (whether MCGA, VGA, 8514, or later XGA) used a 15-pin D-sub connector for video out. This used analog RGB signals, rather than four or six digital color signals as on previous CGA and EGA monitors. The digital signals limited the color gamut to a fixed 16 or 64 color palette with no room for expansion.  In contrast, any color depth (bits per primary) can be encoded into the analog RGB signals so the color gamut can be increased arbitrarily by using wider (more bits per sample) DACs and a more sensitive monitor. The connector was also compatible with analog grayscale displays. Unlike earlier systems (like MDA and Hercules) this was transparent to software, so all programs supporting the new standards could run unmodified whichever type of display was attached. (On the other hand, whether the display was color or monochrome was undetectable to software, so selection between application displays optimized for color or monochrome, in applications that supported both, required user intervention.) These grayscale displays were relatively inexpensive during the first few years the PS/2 was available, and they were very commonly purchased with lower-end models.
+The VGA connector became the de facto standard for connecting monitors and projectors on both PC and non-PC hardware over the course of the early 1990s, replacing a variety of earlier connectors.
+
+
+=== Storage ===
+
+Apple had first popularized the 3.5" floppy on the Macintosh line and IBM brought them to the PC in 1986 with the PC Convertible. In addition, they could be had as an optional feature on the XT and AT. The PS/2 line used entirely 3.5" drives which assisted in their quick adoption by the industry, although the lack of 5.25" drive bays in the computers created problems later on in the 1990s as they could not accommodate internal CD-ROM drives. In addition, the lack of built-in 5.25" floppy drives meant that PS/2 users could not immediately run the large body of existing IBM compatible software. However IBM made available optional external 5.25" drives, with internal adapters for the early PS/2 models, to enable data transfer.
+
+In the initial lineup, IBM used 720 KB double density (DD) capacity drives on the 8086-based models and 1440 KB high density (HD) on the 80286-based and higher models. By the end of the PS/2 line they had moved to a somewhat standardized capacity of 2880 KB.
+The PS/2 floppy drives lacked a capacity detector. 1440 KB floppies had a hole so that drives could identify them from 720 KB floppies, preventing users from formatting the smaller capacity disks to the higher capacity (doing so would work, but with a higher tendency of data loss). Clone manufacturers implemented the hole detection, but IBM did not. As a result of this a 720 KB floppy could be formatted to 1440 KB in a PS/2, but the resulting floppy would only be readable by a PS/2 machine.PS/2s primarily used Mitsubishi floppy drives and did not use a separate Molex power connector; the data cable also contained the power supply lines. As the hardware aged the drives often malfunctioned due to bad quality capacitors.The PS/2 used several different types of internal hard drives. Early models used MFM or ESDI drives. Some desktop models used combo power/data cables similar to the floppy drives. Later models used DBA ESDI or Parallel SCSI. Typically, desktop PS/2 models only permitted use of one hard drive inside the computer case. Additional storage could be attached externally by using the optional SCSI interface.
+
+
+=== Memory ===
+Later PS/2 models introduced the 72-pin SIMM which became the de facto standard for RAM modules by the mid-1990s in mid-to-late 486 and nearly all Pentium desktop systems. 72-pin SIMMs were 32/36 bits wide and replaced the old 30-pin SIMM (8/9-bit) standard. The older SIMMs were much less convenient because they had to be installed in sets of two or four to match the width of the CPU's 16-bit (Intel 80286 and 80386SX) or 32-bit (80386 and 80486) data bus, and would have been extremely inconvenient to use in Pentium systems (which featured a 64-bit memory bus). 72-pin SIMMs were also made with greater capacities (starting at 1mb and ultimately reaching 128mb, vs 256kb to 16mb and more commonly no more than 4mb for 30-pin) and in a more finely graduated range (powers of 2, instead of powers of 4).
+Many PS/2 models also used proprietary IBM SIMMs and could not be fitted with commonly available types. However industry standard SIMMs could be modified to work in PS/2 machines if the presence and type detection bridges or associated contacts were correctly rewired.
+
+
+=== Models ===
+At launch, the PS/2 family comprised the Model 30, 50, 60 and 80; the Model 25 was launched a few months later.
+The PS/2 Models 25 and 30 (IBM 8525 and 8530 respectively) were the lowest-end models in the lineup and meant to replace the IBM PC and XT. 
+The original Model 25 and 30s came with an 8086 CPU running at 8 MHz, and 512 KB or 640KB of RAM, and 720 KB floppy disks. These had 8-bit ISA expansion slots (two on the Model 25, three on the Model 30), and MCGA graphics; the model 25 was distinguished by a built-in monitor, which could be either color or monochrome.  The Model 25 was normally bundled with a cut-down Model M keyboard with no numeric keypad, while the Model 30 was normally bundled with a full-size keyboard. Both the Model 25 and 30 could have an optional 20 MB ST-506 hard disk (which in the Model 25 took the place of the second floppy drive if so equipped and used a proprietary 3.5" form factor). 
+IBM later introduced 286-based variants of the Model 25 and Model 30 which had VGA graphics, 16-bit ISA slots, and supported up to 4 MB of RAM. These were generally equipped with 1.44mb floppy drives.
+
+ There was a very rare later model called the PS/2 Model 25-SX which sported either a 16 MHz or 20 MHz 386 CPU, up to 12 MB of memory, IDE hard drive, VGA Monitor and 16 bit ISA slots making it the highest available model 25 available denoted by model number 8525-L41.
+
+Later ISA PS/2 models comprised the Model 30-286 (a Model 30 with an Intel 286 CPU), Model 35 (IBM 8535) and Model 40 (IBM 8540) with Intel 386SX or IBM 386SLC processors.
+The higher-numbered models (above 50) were equipped with the Micro Channel bus and mostly ESDI or SCSI hard drives (models 60-041 and 80-041 had MFM hard drives). PS/2 Models 50 (IBM 8550) and 60 (IBM 8560) used the Intel 286 processor, the PS/2 Models 70 (IBM 8570) and 80 used the 386DX, while the mid-range PS/2 Model 55SX (IBM 8555-081) and used the 16/32-bit 386SX processor. The Model 50 was revised to the Model 50Z still with 10MHz 80286 processor, but with memory run at zero wait state, and a switch to ESDI hard drives. Later Model 70 and 80 variants (B-xx) also used 25 MHz Intel 486 processors, in a complex called the Power Platform.
+
+The PS/2 Models 90 (IBM 8590/9590) and 95 (IBM 8595/9595/9595A) used Processor Complex daughterboards holding the CPU, memory controller, MCA interface, and other system components.  The available Processor Complex options ranged from the 20 MHz Intel 486 to the 90 MHz Pentium and were fully interchangeable. The IBM PC Server 500, which has a motherboard identical to the 9595A, also uses Processor Complexes.
+Other later Micro Channel PS/2 models included the Model 65SX with a 16 MHz 386SX; various Model 53 (IBM 9553), 56 (IBM 8556) and 57 (IBM 8557) variants with 386SX, 386SLC or 486SLC2 processors; the Models 76 and 77 (IBM 9576/9577) with 486SX or 486DX2 processors respectively; and the 486-based Model 85 (IBM 9585).
+The IBM PS/2E (IBM 9533) was the first Energy Star compliant personal computer. It had a 50 MHz IBM 486SLC processor, an ISA bus, four PC card slots, and an IDE hard drive interface.  The environmentally friendly PC borrowed many components from the ThinkPad line and was composed of recycled plastics, designed to be easily recycled at the end of its life, and used very little power.
+IBM also produced several portable and laptop PS/2s, including the Model L40 (ISA-bus 386SX), N33 (IBM's first notebook-format computer from year 1991, Model 8533, 386SX), N51 (386SX/SLC), P70 (386DX) and P75 (486DX2).
+The IBM PS/2 Server 195 and 295 (IBM 8600) were 486-based dual-bus MCA network servers supporting asymmetric multiprocessing, designed by Parallan Computer Inc.
+The IBM PC Server 720 (IBM 8642) was the largest MCA-based server made by IBM, although it was not, strictly speaking, a PS/2 model. It could be fitted with up to six Intel Pentium processors interconnected by the Corollary C-bus and up to eighteen SCSI hard disks. This model was equipped with seven combination MCA/PCI slots.
+The IBM ThinkPad 700C, aside from being labeled "700C PS/2" on the case, featured MCA and a 486SLC CPU.
+
+
+=== 6152 Academic System ===
+
+The 6152 Academic System was a workstation computer developed by IBM's Academic Information Systems (ACIS) division for the university market introduced in February 1988. The 6152 was based on the PS/2 Model 60, adding a RISC Adapter Card on the Micro Channel bus. This card was a co-processor that enabled the 6152 to run ROMP software compiled for IBM's Academic Operating System (AOS), a version of BSD UNIX for the ROMP that was only available to select colleges and universities.The RISC Adapter Card contained the ROMP-C microprocessor (an enhanced version of the ROMP that first appeared in the IBM RT PC workstations), a memory management unit (the ROMP had virtual memory), a floating-point coprocessor, and up to 8 MB of memory for use by the ROMP. The 6152 was the first computer to use the ROMP-C, which would later be introduced in new RT PC models.
+
+
+== Marketing ==
+During the 1980s, IBM's advertising of the original PC and its other product lines had frequently used the likeness of Charlie Chaplin.  For the PS/2, however, IBM augmented this character with a notorious jingle that seemed more suitable for a low-end consumer product than a business-class computing platform:
+
+Another campaign featured actors from the television show M*A*S*H playing the staff of a contemporary (i.e. late-1980s) business in roles reminiscent of their characters' roles from the series.  Harry Morgan, Larry Linville, William Christopher, Wayne Rogers, Gary Burghoff, Jamie Farr, and Loretta Swit were in from the beginning, whereas Alan Alda joined the campaign later.The profound lack of success of these advertising campaigns led, in part, to IBM's termination of its relationships with its global advertising agencies; these accounts were reported by Wired magazine to have been worth over $500 million a year, and the largest such account review in the history of business.Overall, the PS/2 line was largely unsuccessful with the consumer market, even though the PC based Models 30 and 25 were an attempt to address it.  With what was widely seen as a technically competent but cynical attempt to gain undisputed control of the market, IBM unleashed an industry backlash, which went on to standardize VESA, EISA and PCI. In large part, IBM failed to establish a link in the consumer's mind between the PS/2 MicroChannel architecture and the immature OS/2 1.x operating system; the more capable OS/2 version 2.0 did not release until 1992.The firm suffered massive financial losses for the remainder of the 1980s, forfeiting its previously unquestioned position as the industry leader, and eventually lost its status as the largest manufacturer of personal computers, first to Compaq and then to Dell. From a high of 10,000 employees in Boca Raton before the PS/2 came out, only seven years later, IBM had $600 million in unsold inventory and was laying off staff by the thousands. 
+After the failure of the PS/2 line to establish a new standard, IBM was forced to revert to building ISA PCs—following the industry it had once led—with the low-end PS/1 line and later with the more compatible Aptiva and PS/ValuePoint lines.
+Still, the PS/2 platform experienced some success in the corporate sector where the reliability, ease of maintenance and strong corporate support from IBM offset the rather daunting cost of the machines. Also, many people still lived with the motto "Nobody ever got fired for buying an IBM". In the mid-range desktop market, the models 55SX and later 56SX were the leading sellers for almost their entire lifetimes. Later PS/2 models saw a production life span that took them into the late 1990s, within a few years of IBM selling off the division.
+
+
+== Successor ==
+IBM PS/ValuePoint
+IBM Ambra
+IBM Aptiva
+
+
+== Concurrent ==
+IBM PS/1
+
+
+== References ==
+
+
+=== Further reading ===
+Burton, Greg. IBM PC and PS/2 pocket reference. NDD (the old dealer channel), 1991.
+Byers, T.J. IBM PS/2: A Reference Guide. Intertext Publications, 1989. ISBN 0-07-009525-6.
+Dalton, Richard and Mueller, Scott. IBM PS/2 Handbook . Que Publications, 1989. ISBN 0-88022-334-0.
+Held, Gilbert. IBM PS/2: User's Reference Manual. John Wiley & Sons Inc., 1989. ISBN 0-471-62150-1.
+Hoskins, Jim. IBM PS/2. John Wiley & Sons Inc., fifth revised edition, 1992. ISBN 0-471-55195-3.
+Leghart, Paul M. The IBM PS/2 in-depth report. Pachogue, NY: Computer Technology Research Corporation, 1988.
+Newcom, Kerry. A Closer Look at IBM PS/2 Microchannel Architecture. New York: McGraw-Hill, 1988.
+Norton, Peter. Inside the IBM PC and PS/2. Brady Publishing, fourth edition 1991. ISBN 0-13-465634-2.
+Outside the IBM PC and PS/2: Access to New Technology. Brady Publishing, 1992. ISBN 0-13-643586-6.
+Shanley, Tom. IBM PS/2 from the Inside Out. Addison-Wesley, 1991. ISBN 0-201-57056-4.
+
+
+== External links ==
+IBM Type 8530
+IBM PS/2 Personal Systems Reference Guide 1992 - 1995
+Computercraft - The PS/2 Resource Center
+Model 9595 Resource, covers all PS/2 models and adapters
+PS/2 keyboard pinout
+PS/2 Mouse/Keyboard Interfacing
+Computer Chronicles episode on the PS/2
+IBM PS/2 L40 SX (8543)

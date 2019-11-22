@@ -1,0 +1,43 @@
+Title: Motilin
+Aspects: {'M cells'}
+
+Motilin is a 22-amino acid polypeptide hormone in the motilin family that, in humans, is encoded by the MLN gene.Motilin is secreted by endocrine Mo cells (or M cells, these are not the same as the Microfold cells (M cells) that are in Peyer's patches) that are numerous in crypts of the small intestine, especially in the duodenum and jejunum. It is released into the general circulation in humans at about 100-min intervals during the inter-digestive state and is the most important factor in controlling the inter-digestive migrating contractions; and it also stimulates endogenous release of the endocrine pancreas. Based on amino acid sequence, motilin is unrelated to other hormones. Because of its ability to stimulate gastric activity, it was named "motilin". Apart from in humans, the motilin receptor has been identified in the gastrointestinal tracts of pigs, rats, cows, and cats, and in the central nervous system of rabbits.
+
+
+== Discovery ==
+Motilin was discovered by J.C. Brown when he introduced alkaline solution into duodena of dogs, which caused strong gastric contractions. Brown et al. predicted that alkali could either release stimulus to activate motor activity or prevent the secretion of inhibitory hormone. They isolated a polypeptide as a by-product from purification of secretin on carboxymethyl cellulose. They named this polypeptide "Motilin".
+
+
+== Structure ==
+Motilin has 22 amino acids and molecular weight of 2698 Daltons. In extract from human gut and plasma, there are two basic forms of motilin. The first molecular form is the polypeptide of 22 amino acids. The second form, on the other hand, is larger and contains the same 22 amino acids as the first form but includes an additional carboxyl-terminus end.The sequences of amino acids of motilin is: Phe-Val-Pro-Ile-Phe-Thr-Tyr-Gly-Glu-Leu-Gln-Arg-Met-Gln-Glu-Lys-Glu-Arg-Asn-Lys-Gly-Gln.The structure and dynamics of the gastrointestinal peptide hormone motilin have been studied in the presence of isotropic q = 0.5 phospholipid bicelles. The NMR solution structure of the peptide in acidic bicelle solution was determined from 203 NOE-derived distance constraints and six backbone torsion angle constraints. Dynamic properties for the 13Cα→1H vector in Leu-10 were determined for motilin specifically labeled with 13C at this position by analysis of multiple-field relaxation data. The structure reveals an ordered alpha-helical conformation between Glu-9 and Lys-20. The N-terminus is also well structured with a turn resembling that of a classical beta-turn. The 13C dynamics clearly show that motilin tumbles slowly in solution, with a correlation time characteristic of a large object.
+
+
+== Stimulus ==
+Control of motilin secretion is largely unknown, although some studies suggest that an alkaline pH in the duodenum stimulates its release. However, at low pH it inhibits gastric motor activity, whereas at high pH it has a stimulatory effect. Some studies in dogs have shown that motilin is released during fasting or interdigestive period, and intake of food during this period can prevent the secretion of motilin. Intravenous injection of glucose, which increases the release of insulin, is also found to inhibit cyclic elevation of plasma motilin. Other studies on dogs have also suggested that motilin acted as endogenous ligand in positive feedback mechanism to stimulate the release of more motilin.
+
+
+== Function ==
+The main function of motilin is to increase the migrating myoelectric complex component of gastrointestinal motility and stimulate the production of pepsin. Motilin is also called "housekeeper of the gut" because it improves peristalsis in the small intestine and clears out the gut to prepare for the next meal. A high level of motilin secreted between meals into the blood stimulates the contraction of the fundus and antrum and accelerates gastric emptying. It then contracts the gallbladder and increases the squeeze pressure of the lower esophageal sphincter. Other functions of motilin include increasing the release of pancreatic polypeptide and somatostatin.
+
+
+== Motilin agonists ==
+Erythromycin and related antibiotics act as non-peptide motilin agonists, and are sometimes used for their ability to stimulate gastrointestinal motility. In the case of erythromycin, it is its hemiketal intermediate, formed after an oral dose in the low-pH environment of the stomach lumen, which directly acts on the motilin receptor. Administration of a low dose of erythromycin will induce peristalsis, which provides additional support for the conclusion that motilin secretion triggers this pattern of gastrointestinal motility, rather than results from it. However, some of erythromycin’s properties, including antibiotic activity, are not appropriate for a drug designed for chronic use over a patient's lifetime.
+New motilin agonists are erythromycin-based; however, it may be that this class of drugs becomes redundant.  Growth hormone secretagogue receptors share 52% of their DNA with motilin receptors, and agonists of these receptors, termed ghrelins, can bring about similar effects to motilin agonists.
+Camicinal is a Motilin agonist under development.
+
+
+== Related peptides ==
+This domain is also found in ghrelin, a growth hormone secretagogue synthesised by endocrine cells in the stomach. Ghrelin stimulates growth hormone secretagogue receptors in the pituitary. These receptors are distinct from the growth hormone-releasing hormone receptors, and, thus, provide a means of controlling pituitary growth hormone release by the gastrointestinal system.
+Erythromycin has an advantage over metoclopramide in gastric emptying due to lack of central nervous system side-effects. It is not approved by FDA to use for gastric emptying. For short duration for patients with diabetes and for those that must clear the stomach for any procedure, it may be used based on the physician's discretion with full understanding that it is not approved by FDA for this use.
+
+
+== Human proteins ==
+GHRL;      Motilin;
+
+
+== References ==
+
+
+== External links ==
+Motilin at the US National Library of Medicine Medical Subject Headings (MeSH)
+Nosek, Thomas M. Essentials of Human Physiology. Section 6/6ch2/s6ch2_26

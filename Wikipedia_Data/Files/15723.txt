@@ -1,0 +1,83 @@
+Title: NASA X-43
+Aspects: {'X43'}
+
+The X-43 was an experimental uncrewed hypersonic aircraft with multiple planned scale variations meant to test various aspects of hypersonic flight. It was part of the X-plane series and specifically of NASA's Hyper-X program. It set several airspeed records for jet aircraft. The X-43 is the fastest aircraft on record at approximately Mach 9.6.A winged booster rocket with the X-43 placed on top, called a "stack", was drop launched from a Boeing B-52 Stratofortress. After the booster rocket (a modified first stage of the Pegasus rocket) brought the stack to the target speed and altitude, it was discarded, and the X-43 flew free using its own engine, a scramjet.
+The first plane in the series, the X-43A, was a single-use vehicle, of which three were built. The first X-43A was destroyed after malfunctioning in flight in 2001.  Each of the other two flew successfully in 2004, setting speed records, with the scramjets operating for approximately 10 seconds followed by 10-minute glides and intentional crashes into the ocean.  Plans for more planes in the X-43 series have been suspended or cancelled.
+
+
+== Purpose ==
+The X-43 was a part of NASA's Hyper-X program, involving the American space agency and contractors such as Boeing, Micro Craft Inc, Orbital Sciences Corporation and General Applied Science Laboratory (GASL).  Micro Craft Inc. built the X-43A and GASL built its engine.
+One of the primary goals of NASA's Aeronautics Enterprise was the development and demonstration of technologies for air-breathing hypersonic flight. Following the cancellation of the National Aerospace Plane (NASP) program in November 1994, the United States lacked a cohesive hypersonic technology development program. As one of the "better, faster, cheaper" programs developed by NASA in the late 1990s, Hyper-X used National Aerospace Plane technology, which moved it quickly toward the demonstration of hypersonic air breathing propulsion.
+The Hyper-X Phase I was a NASA Aeronautics and Space Technology Enterprise program conducted jointly by the Langley Research Center, Hampton, Virginia, and the Dryden Flight Research Center, Edwards, California. Langley was the lead center and responsible for hypersonic technology development. Dryden was responsible for flight research.
+Phase I was a seven-year, approximately $230 million, program to flight-validate scramjet propulsion, hypersonic aerodynamics and design methods.
+Subsequent phases were not continued as the X-43 series of aircraft was replaced by the X-51.
+
+
+== Design ==
+
+The X-43A aircraft was a small unpiloted test vehicle measuring just over 12 ft (3.7 m) in length.  The vehicle was a lifting body design, where the body of the aircraft provides a significant amount of lift for flight, rather than relying on wings. The aircraft weighed roughly 3,000 lb (1,400 kg).  The X-43A was designed to be fully controllable in high-speed flight, even when gliding without propulsion.  However, the aircraft was not designed to land and be recovered.  Test vehicles crashed into the Pacific Ocean when the test was over.
+Traveling at Mach speeds produces a lot of heat due to the compression shock waves involved in supersonic aerodynamic drag.  At high Mach speeds, heat can become so intense that metal portions of the airframe could melt. The X-43A compensated for this by cycling water behind the engine cowl and sidewall leading edges, cooling those surfaces. In tests, the water circulation was activated at about Mach 3.
+
+
+=== Engine ===
+
+The craft was created to develop and test a supersonic-combustion ramjet, or "scramjet" engine, an engine variation where external combustion takes place within air that is flowing at supersonic speeds. The X-43A's developers designed the aircraft's airframe to be part of the propulsion system: the forebody is a part of the intake airflow, while the aft section functions as an exhaust nozzle.The engine of the X-43A was primarily fueled with hydrogen fuel. In the successful test, about two pounds (one kilogram) of the fuel was used.  Unlike rockets, scramjet-powered vehicles do not carry oxygen on board for fueling the engine. Removing the need to carry oxygen significantly reduces the vehicle's size and weight. In the future, such lighter vehicles could take heavier payloads into space or carry payloads of the same weight much more efficiently.
+Scramjets only operate at speeds in the range of Mach 4.5 or higher, so rockets or other jet engines are required to initially boost scramjet-powered aircraft to this base velocity.  In the case of the X-43A, the aircraft was accelerated to high speed with a Pegasus rocket launched from a converted Boeing B-52 Stratofortress bomber. The combined X-43A and Pegasus vehicle was referred to as the "stack" by the program's team members.The engines in the X-43A test vehicles were specifically designed for a certain speed range, only able to compress and ignite the fuel-air mixture when the incoming airflow is moving as expected. The first two X-43A aircraft were intended for flight at approximately Mach 7, while the third was designed to operate at speeds greater than Mach 9.8 at altitudes of 98,000 ft (30,000 m) or more.
+
+
+== Testing ==
+
+NASA's first X-43A test on June 2, 2001 failed because the Pegasus booster lost control about 13 seconds after it was released from the B-52 carrier. The rocket experienced a control oscillation as it went transonic, eventually leading to the failure of the rocket's starboard elevon. This caused the rocket to deviate significantly from the planned course, and it was destroyed as a safety precaution. An investigation into the incident stated that imprecise information about the capabilities of the rocket as well as its flight environment contributed to the accident. Several inaccuracies in data modeling for this test led to an inadequate control system for the particular Pegasus rocket used, though no single factor could ultimately be blamed for the failure.In the second test in March 2004, the Pegasus fired successfully and released the test vehicle at an altitude of about 95,000 feet (29,000 m). After separation, the engine's air intake was opened, the engine ignited, and the aircraft then accelerated away from the rocket reaching Mach 6.83.  Fuel was flowing to the engine for 11 seconds, a time in which the aircraft traveled more than 15 mi (24 km).  Following Pegasus booster separation, the vehicle experienced a small drop in speed but the scramjet engine afterward accelerated the vehicle in climbing flight. After burnout, controllers were still able to maneuver the vehicle and manipulate the flight controls for several minutes; the aircraft, slowed by air resistance, fell into the ocean. With this flight the X-43A became the fastest free flying air-breathing aircraft in the world.
+NASA flew a third version of the X-43A on November 16, 2004. The modified Pegasus rocket was launched from a B-52 mother ship at an altitude of 43,000 ft (13,000 m). The X-43A set a new speed record of Mach 9.6 at about 110,000 feet (33,500 m) altitude, and further tested the ability of the vehicle to withstand the heat loads involved.
+
+
+== Future of the scramjet: Variants and replacement ==
+After the X-43 tests in 2004, NASA Dryden engineers said that they expected all of their efforts to culminate in the production of a two-stage-to-orbit crewed vehicle in about 20 years. The scientists expressed much doubt that there would be a single-stage-to-orbit crewed vehicle like the National Aerospace Plane (NASP) in the foreseeable future.
+Other X-43 vehicles were planned, but as of June 2013 they have been suspended or cancelled. They were expected to have the same basic body design as the X-43A, though the aircraft were expected to be moderately to significantly larger in size.
+
+
+=== X-43B ===
+The X-43B, was expected to be a full-size vehicle, incorporating a turbine-based combined cycle (TBCC) engine or a rocket-based combined cycle (RBCC) ISTAR engine. Jet turbines or rockets would initially propel the vehicle to supersonic speed. A ramjet might take over starting at Mach 2.5, with the engine converting to a scramjet configuration at approximately Mach 5.
+
+
+=== X-43C ===
+The X-43C would have been somewhat larger than the X-43A and was expected to test the viability of hydrocarbon fuel, possibly with the HyTech engine. While most scramjet designs have used hydrogen for fuel, HyTech runs with conventional kerosene-type hydrocarbon fuels, which are more practical for support of operational vehicles. The building of a full-scale engine was planned which would use its own fuel for cooling. The engine cooling system would have acted as a chemical reactor by breaking long-chain hydrocarbons into short-chain hydrocarbons for a rapid burn.
+The X-43C was indefinitely suspended in March 2004. The linked story reports the project's indefinite suspension and the appearance of Rear Admiral Craig E. Steidle before a House Space and Aeronautics subcommittee hearing on March 18, 2004.  In mid-2005, the X-43C appeared to be funded through the end of the year.
+
+
+=== X-43D ===
+The X-43D would have been almost identical to the X-43A, but expanded the speed envelope to Mach 15. As of September 2007, only a feasibility study had been conducted by Donald B. Johnson of Boeing and Jeffrey S. Robinson of NASA's Langley Research Center. According to the introduction of the study, "The purpose of the X-43D is to gather high Mach flight environment and engine operability information which is difficult, if not impossible, to gather on the ground."
+
+
+=== Replacements ===
+In January 2006 the USAF announced the Force Application and Launch from Continental United States or FALCON scramjet reusable missile.
+In March 2006, it was announced that the Air Force Research Laboratory (AFRL) supersonic combustion ramjet "WaveRider" flight test vehicle had been designated as X-51A. The USAF Boeing X-51 was first flown on May 26, 2010, dropped from a B-52. It replaced the X-43 series, and with it the series ended.
+
+
+== See also ==
+DARPA Falcon Project
+HyShot
+Rockwell X-30
+Project Rheinberry
+Space Launch Initiative
+Aircraft of comparable role, configuration and era
+
+Boeing X-51
+Hypersonic Technology Demonstrator Vehicle
+
+
+== References ==
+
+
+=== Notes ===
+
+
+=== Bibliography ===
+
+
+== External links ==
+X-43 Launch NASA Animation
+NASA page for the X-43 project
+International components of the X-43a
+Launch from B-52, infrared
+http://videoclip.pk/watch_video.php?v=H1M8DKHXN2HO
