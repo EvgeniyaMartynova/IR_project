@@ -19,6 +19,8 @@ Wikipedia Texts
 ## Topics Aspects
 This folder contains the infromation about the aspects of each topic and maps aspects to files. There is a text file which corresponds to each topic and have the following structure: 
 ```
+Docid   aspect
+  |     |
 UUID1   aspect 1
 UUID2   aspect 2
 ```
