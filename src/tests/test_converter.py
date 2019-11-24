@@ -1,6 +1,6 @@
 from unittest import TestCase
 import trec_converter as tc
-import os, shutil
+import os
 
 class TestConverter(TestCase):
     def setUp(self):
