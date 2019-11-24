@@ -1,9 +1,0 @@
-Title: V24 engine
-Aspects: {'V24'}
-
-A V24 engine is a V engine with 24 cylinders, suitable only for very large trucks or locomotives.
-
-Unlike smaller V16 and V20 engines, very few V24s were originally designed with 24 cylinders. The majority of these engines are formed by coupling multiple smaller engines together. For example, a very large V24, the AS.6 engine was built by Fiat in the early 1930s as a powerplant for the competition aeroplane Macchi M.C.72. This engine was in reality formed by mounting two Fiat AS.5 V12s, one behind the other, obtaining a total displacement of over 50 litres (3,051 cu in) and a power output of about 3,100 horsepower (2,310 kW). The two units remained separated (they could be started separately) but the output shaft was shared. Between the units sat the gearbox that was used to reduce the propeller speed, and the final output shaft ran between the cylinder banks of the front engine to reach the nose of the aeroplane.
-
-
-== References ==

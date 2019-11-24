@@ -4,6 +4,7 @@ import os
 
 class TestConverter(TestCase):
     def setUp(self):
+        print(os.getcwd())
         for the_file in os.listdir("tests/trec"):
             file_path = os.path.join("tests/trec", the_file)
             try:
@@ -18,10 +19,9 @@ class TestConverter(TestCase):
         self.assertEqual(trec_path, "output/data/trec/1.trectext")
 
     def test_build__docno(self):
-        directory = "input/data/texts/7"
         file_name = "5.txt"
-        docno = tc.build__docno(directory, file_name)
-        self.assertEqual(docno, "7_5")
+        docno = tc.build__docno(file_name)
+        self.assertEqual(docno, "5")
 
     def test_convert_text_to_trec_doc(self):
         text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " \
@@ -44,7 +44,7 @@ class TestConverter(TestCase):
         self.assertEqual(trec_doc, trec_doc_expected)
 
     def test_conversion(self):
-        tc.convert("tests/opd", "tests/trec")
+        tc.convert("tests/docs", "tests/trec")
 
         trec_files = os.listdir("tests/trec")
         self.assertEqual(len(trec_files), 3)

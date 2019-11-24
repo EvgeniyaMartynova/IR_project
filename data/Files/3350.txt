@@ -1,8 +1,0 @@
-Title: Tandberg E20
-Aspects: {'E20'}
-
-The E20 is an entry-level personal videoconferencing system produced by the Norwegian company Tandberg.
-The E20 was introduced in 2008, and started shipping in Q1 2009. The system is intended as a replacement for traditional office telephones. It features a 10.6-inch (270 mm) LCD widescreen, a five-megapixel camera, CD quality audio and DVD-quality video.As a standards based SIP system, the Tandberg E20 supports MPEG-4 AAC-LD for audio and H.264, H.263+, and H.263 for video.The E20 is compatible with Tandberg's new large-scale provisioning solution, introduced in November 2009.Tandberg were acquired by Cisco in 2009, and subsequently took over the Tandberg Video Conferencing line, integrating this within the Cisco Telepresence product line. The E20 was migrated to this portfolio, however was made end-of-life in 2012, superseded by desktop solutions such as the DX70 and DX80 product lines. 
-
-
-== References ==

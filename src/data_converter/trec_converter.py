@@ -19,8 +19,15 @@ def build__trec_file_path(output_path, directory):
     return output_path + "/" + os.path.basename(directory) + trec_file_extension
 
 
-def build__docno(directory, file_name):
-    return os.path.basename(directory) + "_" + os.path.splitext(file_name)[0]
+def build__docno(file_name):
+    return os.path.splitext(file_name)[0]
+
+
+def create_trec_directory(path):
+    try:
+        os.mkdir(path)
+    except OSError:
+        print("Creation of the directory %s failed" % path)
 
 
 def read_file(directory, file_name):
@@ -40,17 +47,17 @@ def convert_text_to_trec_doc(text, document_number):
     return trec_doc
 
 
-def convert(opd_path, trec_path):
-    folders_num = len(os.listdir(opd_path))
+def convert(documents_path, trec_path):
+    folders_num = len(os.listdir(documents_path))
     converted_folders = 0
-    for directory, directories, files in os.walk(opd_path):
+    for directory, directories, files in os.walk(documents_path):
         has_files = len(files) > 0
         if has_files:
             trec_file = open(build__trec_file_path(trec_path, directory), "w+")
             print("Converting {}".format(directory))
         for file_name in [x for x in files if x.endswith('.txt')]:
             file_text = read_file(directory, file_name)
-            docno = build__docno(directory, file_name)
+            docno = build__docno(file_name)
             trec_file.write(convert_text_to_trec_doc(file_text, docno))
 
         if has_files:
@@ -62,9 +69,10 @@ def convert(opd_path, trec_path):
 
 # TODO: pass the paths to a script
 def main():
-    opd_data_path = "../../data/odp/texts"
-    output_path = "../../data/trec"
-    convert(opd_data_path, output_path)
+    documents_data_path = "../../../data/Wikipedia Texts"
+    output_path = "../../../data/trec"
+    create_trec_directory(output_path)
+    convert(documents_data_path, output_path)
 
 if __name__ == '__main__':
     main()

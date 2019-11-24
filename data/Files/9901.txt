@@ -1,9 +1,0 @@
-Title: Open Agent Architecture
-Aspects: {'OAA'}
-
-Open Agent Architecture or OAA for short is a framework for integrating a community of heterogeneous software agents in a distributed environment. It is also a research project of the SRI International Artificial Intelligence Center.
-Roughly, the architecture is that a central "blackboard" server holds a list of tasks, while a group of agent machines executes these tasks based on their specific capabilities.
-
-
-== External links ==
-Official Site at SRI International's Artificial Intelligence Center

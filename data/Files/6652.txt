@@ -1,7 +1,0 @@
-Title: Microcin
-Aspects: {'J25'}
-
-Microcins are very small bacteriocins, composed of relatively few amino acids.  For this reason, they are distinct from their larger protein cousins.  The classic example is microcin V, of Escherichia coli. Subtilosin A is another bacteriocin from Bacillus subtilis. The peptide has a cyclized backbone and forms three cross-links between the sulphurs of Cys13, Cys7 and Cys4 and the alpha-positions of Phe22,Thr28 and Phe31.Microcins produced by commensal E. coli strains target and eliminate enteric pathogens such as Salmonella enterica by mimicking the siderophores the pathogens use for iron scavenging. Microcins also help commensal strains of E. coli outcompete pathogenic strains.BACTIBASE database is an open-access database for bacteriocins including microcins.
-
-
-== References ==
