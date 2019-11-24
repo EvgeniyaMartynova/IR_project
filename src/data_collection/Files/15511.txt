@@ -1,0 +1,418 @@
+Title: Electromagnetic electron wave
+Aspects: {'X-mode (disambiguation)'}
+
+In plasma physics, an electromagnetic electron wave is a wave in a plasma which has a magnetic field component and in which primarily the electrons oscillate.
+In an unmagnetized plasma, an electromagnetic electron wave is simply a light wave modified by the plasma. In a magnetized plasma, there are two modes perpendicular to the field, the O and X modes, and two modes parallel to the field, the R and L waves.
+
+
+== Cut-off frequency and critical density ==
+In an unmagnetized plasma for the high frequency or low electron density limit, i.e. for 
+  
+    
+      
+        ω
+        ≫
+        
+          ω
+          
+            p
+            e
+          
+        
+        =
+        (
+        
+          n
+          
+            e
+          
+        
+        
+          e
+          
+            2
+          
+        
+        
+          /
+        
+        
+          m
+          
+            e
+          
+        
+        
+          ϵ
+          
+            0
+          
+        
+        
+          )
+          
+            1
+            
+              /
+            
+            2
+          
+        
+      
+    
+    {\displaystyle \omega \gg \omega _{pe}=(n_{e}e^{2}/m_{e}\epsilon _{0})^{1/2}}
+  
+or
+
+  
+    
+      
+        
+          n
+          
+            e
+          
+        
+        ≪
+        
+          m
+          
+            e
+          
+        
+        
+          ω
+          
+            2
+          
+        
+        
+          ϵ
+          
+            0
+          
+        
+        
+        
+          /
+        
+        
+        
+          e
+          
+            2
+          
+        
+      
+    
+    {\displaystyle n_{e}\ll m_{e}\omega ^{2}\epsilon _{0}\,/\,e^{2}}
+   where ωpe is the plasma frequency, the wave speed is the speed of light in vacuum. As the electron density increases, the phase velocity increases and the group velocity decreases until the cut-off frequency where the light frequency is equal to ωpe. This density is known as the critical density for the angular frequency ω of that wave and is given by 
+
+  
+    
+      
+        
+          n
+          
+            c
+          
+        
+        =
+        
+          
+            
+              
+                ε
+                
+                  o
+                
+              
+              
+              
+                m
+                
+                  e
+                
+              
+            
+            
+              e
+              
+                2
+              
+            
+          
+        
+        
+        
+          ω
+          
+            2
+          
+        
+      
+    
+    {\displaystyle n_{c}={\frac {\varepsilon _{o}\,m_{e}}{e^{2}}}\,\omega ^{2}}
+   (SI units)If the critical density is exceeded, the plasma is called over-dense.
+In a magnetized plasma, except for the O wave, the cut-off relationships are more complex.
+
+
+== O wave ==
+The O wave is the "ordinary" wave in the sense that its dispersion relation is the same as that in an unmagnetized plasma. It is plane polarized with
+E1 || B0. It has a cut-off at the plasma frequency.
+
+
+== X wave ==
+The X wave is the "extraordinary" wave because it has a more complicated dispersion relation. It is partly transverse (with E1⊥B0)
+and partly longitudinal. As the density is increased, the phase velocity rises from c until the cut-off at 
+  
+    
+      
+        
+          ω
+          
+            R
+          
+        
+      
+    
+    {\displaystyle \omega _{R}}
+   is reached. As the density is further increased, the wave is evanescent until the resonance at the upper hybrid frequency 
+  
+    
+      
+        
+          ω
+          
+            h
+          
+          
+            2
+          
+        
+        =
+        
+          ω
+          
+            p
+          
+          
+            2
+          
+        
+        +
+        
+          ω
+          
+            c
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \omega _{h}^{2}=\omega _{p}^{2}+\omega _{c}^{2}}
+  . Then it can propagate again until the second cut-off at 
+  
+    
+      
+        
+          ω
+          
+            L
+          
+        
+      
+    
+    {\displaystyle \omega _{L}}
+  . The cut-off frequencies are given by 
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  ω
+                  
+                    R
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    1
+                    2
+                  
+                
+                
+                  [
+                  
+                    
+                      ω
+                      
+                        c
+                      
+                    
+                    +
+                    
+                      
+                        (
+                        
+                          
+                            ω
+                            
+                              c
+                            
+                            
+                              2
+                            
+                          
+                          +
+                          4
+                          
+                            ω
+                            
+                              p
+                            
+                            
+                              2
+                            
+                          
+                        
+                        )
+                      
+                      
+                        
+                          1
+                          2
+                        
+                      
+                    
+                  
+                  ]
+                
+              
+            
+            
+              
+                
+                  ω
+                  
+                    L
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    1
+                    2
+                  
+                
+                
+                  [
+                  
+                    −
+                    
+                      ω
+                      
+                        c
+                      
+                    
+                    +
+                    
+                      
+                        (
+                        
+                          
+                            ω
+                            
+                              c
+                            
+                            
+                              2
+                            
+                          
+                          +
+                          4
+                          
+                            ω
+                            
+                              p
+                            
+                            
+                              2
+                            
+                          
+                        
+                        )
+                      
+                      
+                        
+                          1
+                          2
+                        
+                      
+                    
+                  
+                  ]
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\omega _{R}&={\frac {1}{2}}\left[\omega _{c}+\left(\omega _{c}^{2}+4\omega _{p}^{2}\right)^{\frac {1}{2}}\right]\\\omega _{L}&={\frac {1}{2}}\left[-\omega _{c}+\left(\omega _{c}^{2}+4\omega _{p}^{2}\right)^{\frac {1}{2}}\right]\end{aligned}}}
+  where 
+  
+    
+      
+        
+          ω
+          
+            c
+          
+        
+      
+    
+    {\displaystyle \omega _{c}}
+   is the electron cyclotron resonance frequency, and 
+  
+    
+      
+        
+          ω
+          
+            p
+          
+        
+      
+    
+    {\displaystyle \omega _{p}}
+   is the electron plasma frequency.
+
+
+== R wave and L wave ==
+The R wave and the L wave are right-hand and left-hand circularly polarized, respectively. The R wave has a cut-off at ωR (hence the designation of this frequency) and a resonance at ωc. The L wave has a cut-off at ωL and no resonance. R waves at frequencies below ωc/2 are also known as whistler modes. 
+
+
+== Dispersion relations ==
+The dispersion relation can be written as an expression for the frequency (squared), but it is also common to write it as an expression for the index of refraction ck/ω (squared).
+
+
+== See also ==
+Appleton-Hartree equation
+List of plasma (physics) articles
+
+
+== References ==

@@ -1,0 +1,13 @@
+Title: Z23 (computer)
+Aspects: {'Z23'}
+
+The Zuse Z23 was a transistorized computer first delivered in 1961, designed by the Zuse KG company. A total of 98 units were sold to commercial and academic customers up until 1967.  It had a 40 bit word length and used an 8192 word drum memory as main storage, with 256 words of rapid-access ferrite memory. It operated on fixed and floating point binary numbers.  Fixed-point addition took 0.3 milliseconds, a fixed point multiplication took 10.3 milliseconds. It was similar in internal design to the earlier vacuum tube Z22.  Related variants were the Z25 and Z26 models.The Z23 used about 2700 transistors and 7700 diodes.  The memory was magnetic-core memory. The Z23 had an Algol 60 compiler. It had a basic clock speed of 150 kHz and consumed about 4000 watts of electric power.  An improved version Z23V was released in 1965, with expanded memory and higher processing speed.
+The Z23 weighed about 1,000 kilograms (1.0 t; 1.1 short tons).
+
+
+== References ==
+
+
+== External links ==
+Z23 Crosses Atlantic
+Computer History Museum Zuse Z23

@@ -1,0 +1,67 @@
+Title: Sisu K-44
+Aspects: {'K44'}
+
+Sisu K-44 is a three-axle 4×4+2 driven lorry made by the Finnish heavy vehicle manufacturer Suomen Autoteollisuus (SAT) from 1959 to 1965. The most usual applications were for log transportation and earth moving vehicles. The  K-44 was noted for its excellent gradient capabilities. The legally permissible maximum vehicle payload was between 7 800 and 11 750 kg: with a trailer this increased to 20 000 kg. The K-44s were powered by Leyland diesel engines with power outputs of between 85.8 and 156.7 kW.
+The K-44 was replaced in 1965 by the K-145.
+
+
+== Development ==
+Single axle semi-trailers were commonly used for log transportation in Finland in the 1960s. The maximum axle load of the existing 4×4 Sisu K-40 was often exceeded in logging work. The solution was a truck incorporating the addition of a non-driven third axle at the back, paired in a tandem axle with the rear driven axle. The new model, the Sisu K-44, was introduced in 1959, with a choice of engine sizes for both the middle-weight ("Kontio") and the heavy ("Jyry") classes. The K-44's driven front axle and transfer case were borrowed from the existing K-40, while the bogie, of which only the first axle was driven, came from the K-34. This drivetrain layout, called 4×4+2, is seldom seen outside Finland. However, Vanajan Autotehdas, SAT's main domestic competitor, had already introduced a similarly configured vehicle a year earlier.
+
+
+== Characteristics ==
+
+The Sisu K-44 was expressly designed for good rough-terrain capability. The vehicle's ability to grip on many types of terrain and retain traction on steep slopes is further enhanced by a mechanism whereby the non-driven rear axle could be raised, thus maximising the proportion of vehicle weight available to push down on the driven axle at the front of the tandem axle. On a surface with friction coefficient of μ=0.65 its maximum gradeability is 86%. A corresponding 6×4-model has a 55% and a 6×2-model just a 29% gradeability.The K-44 was 27% more expensive than the corresponding Sisu K-34 6×2 with a non-driven front axle and same capacity.The Leyland O.375 engine, used in early Kontio-Sisu K-44SU models, was a further development of the O.350, that had gained a good reputation since becoming available in Sisus early in the 1950s. The O.375 unit's performance enhanced the reputation of Leyland as an engine producer. Unfortunately users' experience with the slightly larger O.400, introduced in 1962, was less positive. The unit's thin cylinder liners cracked and became detached. Although this defect was soon fixed, problems with the O.400 damaged the reputations of both Leyland and Sisu.The powerful and reliable Leyland O.680 used in the stronger Jyry K-44 models had helped to make Sisu a market leader in Finnish heavy-duty road transportation. Problems began in 1963 when the Jyry's received the new O.680 "Power Plus" engine. Sisu was the first vehicle powered by the Power Plus unit, and suffered badly from the teething problems experienced by this engine.
+
+
+== Usage ==
+Although the K-44 was originally designed for hauling a logging semi-trailer, the trucks were soon being used to tow conventional twin axle trailers, which permitted a significantly greater overall load capacity.At least some Jyry versions with demountable platforms were delivered to the Finnish Defence Forces in 1965.
+
+
+== Technical Data ==
+
+
+=== Engine ===
+The K-44 was offered with one of five different engine types, the power units being supplied by Leyland Motors. The middle-weight "Kontio-class" K-44SU is powered by the 85.8 kW (117 PS; 115 hp) Leyland O.375 engine. This was replaced in 1962, after which the Kontio K-44 was delivered with a more powerful 100.7 kW (137 PS; 135 hp) Leyland 0.400 unit which on paper promised 18% more power and 15% more torque in return for an increase in engine displacement of just over 6%.In the heavy-duty "Jyry-class" the K-44ST is fitted with Leyland's 109.7 kW (149 PS; 147 hp) O.600 unit while the K-44SP came with the 123.1 kW (167 PS; 165 hp) Leyland O.680. Later, for the more powerful "Jyry-class" K-44, the manufacturer also offered the option of the 156.7 kW (213 PS; 210 hp) Leyland O.680 "Power Plus" unit.All the engines are six-cylinder inline direct injection diesels incorporating dry cylinder liners: the light alloy pistons are fitted with three pressure rings and two oil rings. The crankshaft is supported by seven main bearings. The injection pump and the 24-volt electrical system were supplied by CAV. A gear driven compressor is fitted as standard.
+
+
+=== Transmission ===
+
+
+==== Clutch and gearboxes ====
+The dry single-plate clutch has a diameter of 412 mm and features torsional rubber damping. Early Kontio models were fitted with a five-speed main gearbox while the heavy-duty Jyry's came with a six speed gearbox on which the sixth gear was an overdrive. There is no synchromesh, but the gear-cog tooth ends were bevelled in order to ease shifting. An additional power output shaft, used to power additional functions such as a dumping mechanism, was available as an option.The gearbox of the middle-weight Kontio model was changed when the 85.8 kW (117 PS; 115 hp) Leyland O.375 engine was replaced by the 100.7 kW (137 PS; 135 hp) O.400 power unit in 1962. Despite being more powerful, the new engine reached maximum output only at a much higher engine speed, with maximum torque now achieved at 1600 rpm rather than 1100 rpm. The very different torque curve of the new engine required a new set of gear ratios, and the Kontio now received a six-speed gearbox in which the lower gears applied higher ratios than in the previously used five-speed box. The ratio of the top (now sixth) gear was approximately the same in both the old five speed and the new six speed transmissions.The other key component in the transmission is a transfer case incorporating the torque-splitter, located between the main gear box and the tandem axle. This apportiones the torque from the gearbox between the front axle and the driven rear axle. The torque-splitter incorporates a two-step reduction gear and a longitudinal differential. The splitter was available in two versions, featuring slightly different low speed ratios. The "AVV" model provides the vehicle with slow ratio of 2.48:1 whereas the "AVD" provides a ratio of 2.47:1. Using the slow ratio also engages the front axle drive. The "AVD" uses a planetary gear that splits the torque in the ratio 23:77 between the front axle and the driven rear axle.
+
+
+==== Tandem axle ====
+
+The foremost axle on the tandem axle is powered. When fully loaded, the K-44 carries approximately 62% of the weight lying on the tandem axle. The rear, non-driven axle, is linked to the driven axle through a simple sub-assembly consisting of 3.5 in (88.9 mm) wide and 1,500 mm (59.1 in) long leaf springs and rocker arms. When the torque delivered to the rear axle is increased, the mechanism automatically shifts vehicle weight away from the non-driven axle to the driven axle, improving traction when most needed. Additionally, more of the weight can be moved to the driven axle manually using an electro hydraulic system. In order to reduce fuel consumption and tyre wear the non-driven rear axle can also be raised completely off the road/surface, if a third load-bearing axle is not needed because the vehicle is running empty: running on just two axles also reduces the K-44's turning circle.The wheel size is 7.5–20" and each wheel is held in place with ten nuts. Both axles on the bogie are fitted with double wheels as standard other than on the K-44ST, which made do with single wheels on the non-driven rearmost axle.The normal wheelbase of the tandem is 1,150 mm (45.3 in): alternative bogie wheelbases of 1,200 mm (47.2 in) and 1,270 mm (50.0 in) also appear on the manufacturer's data sheets.On the early K-44s the tandem's driven axles are identical on the middle-weight "Kontio" and the heavy-weight "Jyry" versions. The axle, designated "Type ATK" was designed by SAT and was based on the manufacturer's "Type ATD" axle originally introduced for earlier models n the early 1950s. The "Type ATK" proved durable in the Kontios, but was unable to cope with the greater power and load of the Jyry trucks, and in the early 1960s SAT developed a more robust driven axle, known as the axle "Type BTK", for the heavier variants.The axle housing is a welded construction made from formed steel. The transaxle used hypoid gears.
+
+
+==== Front axle ====
+The K-44 features a driven double reduction front axle incorporating an interlockable differential. The steering knuckles are attached via bevel roller bearings, while the front drive shaft uses homokinetic joints. The wheel hubs incorporates planetary gears, which permits a higher ground clearance through the inclusion of a small differential unit. The front suspension uses 3.5 in (88.9 mm) wide by 1,500 mm (59.1 in) long leaf springs and telescopic shock absorbers. The wheel size is 8.0–20", and each wheel is held in place with ten nuts.
+
+
+=== Brakes ===
+Earlier models use hydraulically operated and pneumatically assisted drum brakes. Later K-44's are equipped with S-cam brakes of SAT's own design. SAT advertised that the brakes are especially robust and stable due to their cast-steel shoes and thick anchor pins. The handbrake is operated mechanically against a brake drum mounted directly on the transmission.A manually operated pneumatic trailer brake system and exhaust brake were optional accessories.
+
+
+=== Cabin and other equipment ===
+
+The standard cabin contains seating for driver and two passengers. An extended cabin with a bed was available as an option. The cabin includes upholstery and insulation. The heating system incorporates air nozzles to provide, in particular, windscreen demisting. Dashboard instruments include a speedometer and odometer along with an ammeter and gauges showing water temperature, oil pressure, fuel levels and, separately for each of the two braking circuits, air pressure. The braking system also has a separate alarm light triggered by low air pressure in the circuits or a too long stroke of the air brake actuators.The air brakes are driven by an engine powered compressor which also feeds the servo for the hydraulic brake circuit. The compressor system also includes a filter, a 40-litre vessel with a drainage valve, its own anti-freeze system as well as a valve and a hose to be used for inflating the tyres.A tachometer and tachograph were optional. A hydraulic power steering system was available as an option for the worm type steering gear.The 12-volt electrical system was fed by two 135-Ah batteries. Power can be switched off using a manually operated circuit breaker controlled from the cabin.The 120 litres (26.4 imp gal; 31.7 US gal) fuel tank is located beneath the cabin on the left side of the vehicle. A 200 litres (44.0 imp gal; 52.8 US gal) tank was available as an option.Also available as an option was a front winch with 8–10 tonnes capacity, powered from the reduction gear using through a multi-joint shaft and worm gear. The direction of the winch can be reversed using the reduction gear.
+
+
+=== Dimensions and weights ===
+The fully laden maximum weights in the table below follow the contemporary Finnish legislation, and are not necessarily the same as the manufacturer's own structural values.
+The total permitted laden weights were raised by slightly more than 3% in 1967, after production of K-44 had already ended. For certain designated uses, for example on road construction sites, a special permit could be obtained authorizing an even higher maximum total weight of 21,500 kg (47,399.4 lb) for a fully loaded heavy-duty Jyry K-44.
+The total weight of Sisu K-44SP with a four wheel Sisu "FA-22"" or "FA-32" trailer was given in 1962 as 30,000 kg (66,138.7 lb), and the maximum payload was up to 20,000 kg (44,092.5 lb).
+
+
+== Sources ==
+Mäkipirtti, Markku. Sisu. Ajoneuvot Suomessa (in Finnish). 4 (2. ed.). Tampere: Apali Oy. ISBN 978-952-5877-05-2.
+
+
+=== References ===
+
+
+== External links ==
+ Media related to Sisu K-44 at Wikimedia Commons

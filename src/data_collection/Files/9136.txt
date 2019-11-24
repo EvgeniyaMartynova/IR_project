@@ -1,0 +1,46 @@
+Title: Intel i860
+Aspects: {'N11'}
+
+The Intel i860 (also known as 80860) was a RISC microprocessor design introduced by Intel in 1989. It was one of Intel's first attempts at an entirely new, high-end instruction set architecture since the failed Intel iAPX 432 from the 1980s. It was released with considerable fanfare, slightly obscuring the earlier Intel i960, which was successful in some niches of embedded systems, and which many considered to be a better design. The i860 never achieved commercial success and the project was terminated in the mid-1990s.
+
+
+== Implementations ==
+
+The first implementation of the i860 architecture was the i860 XR microprocessor (code named N10), which ran at 25, 33, or 40 MHz.  The second-generation i860 XP microprocessor (code named N11) added 4 Mbyte pages, larger on-chip caches, second level cache support, faster buses, and hardware support for bus snooping, for cache consistency in multiprocessor systems. A process shrink for the XP (from 1 micrometre to 0.8 CHMOS V) bumped it to 40 and 50 MHz. Both microprocessors supported the same instruction set for application programs.
+
+
+== Technical features ==
+The i860 combined a number of features that were unique at the time, most notably its very long instruction word (VLIW) architecture and powerful support for high-speed floating point operations. The design mounted a 32-bit ALU "Core" along with a 64-bit FPU that was itself built in three parts: an adder, a multiplier, and a graphics processor. The system had separate pipelines for the ALU, floating point adder and multiplier, and could hand off up to three operations per clock. (I.e., two instructions - one integer instruction and one floating point multiply-and-accumulate instruction per clock.)
+All of the buses were at least 64 bits wide. The internal memory bus to the cache, for instance, was 128 bits wide. Both units had thirty-two 32-bit registers, but the FPU used its set as sixteen 64-bit registers. Instructions for the ALU were fetched two at a time to use the full external bus. Intel referred to the design as the "i860 64-Bit Microprocessor".Intel i860 instructions acted on data sizes from 8-bit through 128-bit.The graphics unit was unique for the era. It was essentially a 64-bit integer unit using the FPU registers as eight 128-bit registers. It supported a number of commands for SIMD-like instructions in addition to basic 64-bit integer math. Experience with the i860 influenced the  MMX functionality later added to Intel's Pentium processors.
+One unusual feature of the i860 was that the pipelines into the functional units were program-accessible (VLIW), requiring the compilers to order instructions carefully in the object code to keep the pipelines filled. In traditional architectures these duties were handled at runtime by a scheduler on the CPU itself, but the complexity of these systems limited their application in early RISC designs. The i860 was an attempt to avoid this entirely by moving this duty off-chip into the compiler. This allowed the i860 to devote more room to functional units, improving performance. As a result of its architecture, the i860 could run certain graphics and floating point algorithms with exceptionally high speed, but its performance in general-purpose applications suffered and it was difficult to program efficiently (see below).
+
+
+== Performance (problems) ==
+On paper, performance was impressive for a single-chip solution; however, real-world performance was anything but. One problem, perhaps unrecognized at the time, was that runtime code paths are difficult to predict, meaning that it becomes exceedingly difficult to order instructions properly at compile time. For instance, an instruction to add two numbers will take considerably longer if the data are not in the cache, yet there is no way for the programmer to know if they are or not. If an incorrect guess is made, the entire pipeline will stall, waiting for the data. The entire i860 design was based on the compiler efficiently handling this task, which proved almost impossible in practice. While theoretically capable of peaking at about 60-80 MFLOPS for both single precision and double precision for the XP versions, hand-coded assemblers managed to get only about up to 40 MFLOPS, and most compilers had difficulty getting even 10 MFLOPs. The later Itanium architecture, also a VLIW design, suffered again from the problem of compilers incapable of delivering sufficiently optimized code.
+Another serious problem was the lack of any solution to handle context switching quickly. The i860 had several pipelines (for the ALU and FPU parts) and an interrupt could spill them and require them all to be re-loaded. This took 62 cycles in the best case, and almost 2000 cycles in the worst. The latter is 1/20000th of a second at 40 MHz (50 microseconds), an eternity for a CPU. This largely eliminated the i860 as a general purpose CPU.
+
+
+== Demise ==
+As the compilers improved, the general performance of the i860 did likewise, but by then most other RISC designs had already passed the i860 in performance.
+In the late 1990s, Intel replaced their entire RISC line with ARM-based designs, known as the XScale. Confusingly, the 860 number has since been re-used for a motherboard control chipset for Intel Xeon (high-end Pentium) systems and a model of the Core i7.
+Andy Grove suggested that the i860's failure in the marketplace was due to Intel being stretched too thin:
+
+We now had two very powerful chips that we were introducing at just about the same time: the 486, largely based on CISC technology and compatible with all the PC software, and the i860, based on RISC technology, which was very fast but compatible with nothing. We didn't know what to do. So we introduced both, figuring we'd let the marketplace decide. ... our equivocation caused our customers to wonder what Intel really stood for, the 486 or i860?
+
+
+== Applications ==
+
+At first, the i860 was only used in a small number of supercomputers such as the Intel iPSC/860. Intel later marketed the i860 as a workstation microprocessor for a time, where it competed with microprocessors based on the MIPS and SPARC architectures, among others. The Oki Electric OKI Station 7300/30 and Stardent Vistra 800 Unix workstations were based on a 40 MHz i860 XR running UNIX System V/i860.  The Hauppauge 4860 and Olivetti CP486 featured an Intel 80486 and i860 on the same motherboard.  Microsoft initially developed what was to become Windows NT on internally designed i860XR-based workstations (codenamed Dazzle), only porting NT to the MIPS (Microsoft Jazz), Intel 80386 and other processors later. Some claim the NT designation was a reference to the "N-Ten" codename of the i860XR.The i860 did see some use in the workstation world as a graphics accelerator. It was used, for instance, in the NeXTdimension, where it ran a cut-down version of the Mach kernel running a complete PostScript stack. However, the PostScript part of the project was never finished so it ended up just moving color pixels around. In this role, the i860 design worked considerably better, as the core program could be loaded into the cache and made entirely "predictable", allowing the compilers to get the ordering right. Truevision produced an i860-based accelerator board intended for use with their Targa and Vista framebuffer cards. Pixar produced a custom version of RenderMan to run on the card that ran approximately four times faster than the 386 host. Another example was SGI's RealityEngine, which used a number of i860XP processors in its geometry engine. This sort of use slowly disappeared as well, as more general-purpose CPUs started to match the i860's performance, and as Intel turned its focus to Pentium processors for general-purpose computing.
+Mercury Computer Systems used the i860 in their multicomputer. From 2 to 360 compute nodes would reside in a circuit switched fat tree network, with each node having local memory that could be mapped by any other node. Each node in this heterogeneous system could be an i860, a PowerPC, or a group of three SHARC DSPs. Good performance was obtained from the i860 by supplying customers with a library of signal processing functions written in assembly language. The hardware packed up to 360 compute nodes in 9U of rack space, making it suitable for mobile applications such as airborne radar processing.
+During the early 1990s, Stratus Technologies built i860-based servers, the XA/R series, running their proprietary VOS operating system.Also in the 1990s, Alliant Computer Systems built their i860-based FX/800 and FX/2800 servers, replacing the FX/80 and FX/8 series that had
+been based on the Motorola 68000 ISA. Both the Alliant and Mercury compute systems were in heavy use at NASA/JPL for the SIR-C missions.
+The U.S. military used the i860 for numerous aerospace and digital signal processing applications as a coprocessor, where it saw use up until the late 1990s.
+
+
+== References ==
+
+
+== External links ==
+Lots of i860 expansion cards
+i860 images and description.
+Rhodehamel, Michael W. "The Bus Interface and Paging Units of the i860(tm) Microprocessor". In Proc. IEEE International Conference on Computer Design, p. 380–384, 1989.

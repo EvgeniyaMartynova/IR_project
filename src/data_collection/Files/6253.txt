@@ -1,0 +1,40 @@
+Title: Juniper J series
+Aspects: {'J series'}
+
+Juniper J series is a line of enterprise routers designed and manufactured by Juniper Networks. They are modular routers for enterprises running desktops, servers, VoIP, CRM / ERP / SCM applications. The J Series routers are typically deployed at remote offices or branch locations. These Services routers include the J2320 and J2350 for smaller offices, the J4350 for medium-size branches, and the J6350 for large branches or regional offices.
+
+
+== Platform development history ==
+Juniper began working on J series in the middle of the telecom downturn (2002), while looking for ways to extend its product portfolio. The main idea behind the new product line was to create the cost-optimized routing system that could utilize increasingly powerful general-purpose CPUs and operate under fully-fledged, multi-threaded OS. This was a major departure from "traditional" branch router design, which dictated the use of low-end RISC CPUs working under simplified operating system with marginal multitasking and memory protection capabilities. The first iteration of J-series design was based on high-end Intel CPUs and featured Intel IXP-based interface cards running over PCI bus. Later models added PCI Express connectivity as well as specialized Cavium security processors. From the software perspective, the J series runs JUNOS with a real-time extensions for the forwarding plane function. This unique architecture allows J-series routers to avoid the "resource starvation" problem commonly seen on legacy software forwarding platforms.
+
+
+== Models and platforms ==
+The J series of routers includes the models such as J2320, J2350, J4350 and J6350. The initial models were J2300, J4300 and J6300 routers.
+
+
+=== J2320 ===
+The J2320 routers are entry level service routers which gives up to 600 Mbit/s throughput performance, has four built-in Gigabit Ethernet ports. It has three PIM slots for additional LAN/WAN connectivity, Avaya VoIP Gateway, and WAN acceleration. They are used for one or two broadband, T1, or E1 interfaces with integrated services.
+
+
+=== J2350 ===
+The J2350 router which has four built-in Gigabit Ethernet ports, gives up to 700 Mbit/s performance. It gives five PIM slots. They are usually used for multiple broadband, T1, or E1 interfaces with multiple integrated services.
+
+
+=== J4350 ===
+The J4350 enterprise router gives up to 1 Gbit/s in performance. They are usually used for DS3, E3, and Metro Ethernet interfaces with integrated services. It has six PIM slots. Two of these slots are enhanced-performance slots that provide additional performance to multiple Gigabit Ethernet configurations.
+
+
+=== J6350 ===
+The J6350 gives up to 2 Gbit/s in performance. It has six PIM slots for additional LAN/WAN connectivity, Avaya VoIP Gateway, and WAN acceleration. These routers have optional redundant power supplies for high system availability.
+
+
+== Features ==
+The J-series routers run on Juniper's network operating system, JUNOS. These routers have 4 on-board GigE ports and expandable WAN and LAN interfaces via pluggable modules. They have a wide range of interfaces supporting Serial, T1/E1, FE, DS3/E3, ISDN, ADSL2/2+, G.SHDSL and Gigabit Ethernet and a wide array of Layer 2 access protocols including Frame Relay, Ethernet and Point-to-Point Protocol (PPP)/HDLC. Other features includes Network Address Translation (NAT),  and J-Flow accounting and advanced services such as IPv6, MPLS, Stateful firewall, Quality of Service, multicast, VPN, security services and IPSec. Juniper partnered with Avaya to deliver packet voice functionality.J-series routers directly benefit from modular and fault-protected software design of the JUNOS operating system. Unlike traditional enterprise routers, each software module in the JUNOS operating system runs independently and therefore cannot impact other processes. The unique, generalized JUNOS architecture provides complete separation of the routing and packet forwarding engines in platforms with both hardware and software forwarding planes. 
+Even under DDoS attack, J-series routers retain complete control over system operation, allowing console-connected operator to add new filters and policies in order to mitigate the threat. Parts of J-series technology were later reused in SRX series products.
+
+
+== References ==
+
+
+== External links ==
+http://www.juniper.net/us/en/products-services/routing/j-series/

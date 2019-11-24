@@ -1,0 +1,87 @@
+Title: General Electric F110
+Aspects: {'F110'}
+
+The General Electric F110 is an afterburning turbofan jet engine produced by GE Aviation. The F110 engine uses the same engine core design as the General Electric F101. The F118 is a non-afterburning variant. The engine is also license-built in Eskisehir, Turkey by TUSAŞ Engine Industries (TEI).
+
+
+== Design and development ==
+
+
+=== F-14 ===
+The F-14A entered service with the United States Navy in 1973 powered by Pratt & Whitney TF30s. By the end of the decade, following numerous problems with the original engine (and similar problems with the Pratt & Whitney F100 on the F-15 and F-16), the DoD began procuring the upgraded TF30-P-414As. While these engines solved the serviceability problems, the fuel consumption and thrust was comparable to the initial model–considerably less than what the F-14 had been designed for.
+In 1979, a derivative of the GE F101 turbofan called the F101-X was selected to power the F-14 and was later designated the F110-GE-400. The primary difference between the F110-GE-400 and the F110-GE-100 is length - the F110-GE-400 has a 50-inch (1.3 m) tailpipe extension to suit the F-14 airframe, which is fitted downstream of the augmentor (afterburner section).  The F110-GE-400 engine produced 23,400 lbf (104 kN) of thrust with afterburner at sea level, which rose to 30,200 lbf (134 kN) at Mach 0.9. This provided a significant increase over the TF30's maximum thrust of 20,900 lbf (93 kN). These upgraded jets were known as F-14Bs, as were production aircraft powered by the F110. The same engine also powers the final variant of the aircraft, the F-14D.
+
+
+=== F-16 ===
+The F-16 Fighting Falcon entered service powered by the Pratt & Whitney F100 afterburning turbofan. Seeking a way to drive unit costs down, the USAF implemented the Alternative Fighter Engine (AFE) program in 1984, under which the engine contract would be awarded through competition. The F110 currently powers 86% of the USAF F-16C/Ds (June 2005).
+The F110-GE-100 provides around 4,000 lbf (17.8 kN) more thrust than the F100-PW-200 and requires more air, which led to the increase in the area of the engine intake. The F-16C/D Block 30/32s were the first to be built with  a common engine bay, able to accept both engines, with block 30s having the bigger intake (known as "Big Mouth") and block 32s retaining the standard intake.
+Initial orders were for the F110-GE-100 rated at 28,000 lbf (125 kN). Later versions of the F110 include the F110-GE-129 delivering 29,400 lbf (131 kN) thrust and the F110-GE-132 delivering 32,000 lbf (142 kN)
+The United Arab Emirates’ Block 60 is powered by the General Electric F110-GE-132 turbofan, which is rated at a maximum thrust of 32,500 lbf (144.6 kN), the most powerful variant of General Electric F110 engine.
+
+
+=== F-15 ===
+
+F110-GE-129 engines, with 29,400 lbf (131 kN) of thrust, power 40 F-15 fighters of South Korea. This is the first time production F-15s will be powered by a GE engine, since all previous F-15 models were powered by Pratt and Whitney. The GE engines will be manufactured through a joint licensing agreement with Samsung Techwin Company. It has also been chosen by the Republic of Singapore Air Force (RSAF) to power its F-15SG, and Saudi Arabia to power its F-15SA.
+
+
+== Applications ==
+General Dynamics F-16 Fighting Falcon
+General Dynamics F-16XL
+Grumman F-14A+ (F-14B) / F-14B Upgrade and F-14D Super Tomcat
+McDonnell Douglas F-15K/F-15S/ F-15SA/F-15SG Korea/Saudi/Singapore Advanced Eagle
+Mitsubishi F-2
+
+
+== Specifications (F110) ==
+
+Data from GE Aviation F110-GE-129/F110-GE-132
+
+
+==== General characteristics ====
+Type: Afterburning turbofan
+Length: 182.3–232.3 in (463–590 cm)
+Diameter: 46.5 in (118 cm)
+Dry weight: 3,920–4,400 lb (1,780–2,000 kg)
+
+
+==== Components ====
+Compressor: 2 spool, 3 fan and 9 HP compressor stages
+Combustors: Annular
+Turbine: 2 LP and 1 HP stages
+
+
+==== Performance ====
+Maximum thrust: 
+Dry thrust: 16,610 lbf (73.9 kN)
+F110-GE-129: 29,500 lbf (131 kN)
+F110-GE-132: 32,000 lbf (140 kN)
+Overall pressure ratio: 29.9:1 - 30.4:1
+Turbine inlet temperature: 2,750 °F (1,510 °C)
+Thrust-to-weight ratio: 
+F110-GE-129: 7.29
+F110-GE-132: 7.90
+
+
+== See also ==
+
+Related development
+
+General Electric F101
+General Electric F118
+Comparable engines
+
+Pratt & Whitney F100
+Saturn AL-31
+Shenyang WS-10Related lists
+
+List of aircraft engines
+
+
+== References ==
+
+
+== External links ==
+GE Aviation - The F110 Engine Family
+Aircraft Engine Historical Society - F110-GE-100 Gallery
+Global Security - F110
+vnfawing Forums - General Electric F110

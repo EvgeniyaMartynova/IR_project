@@ -1,0 +1,64 @@
+Title: D electron count
+Aspects: {'D0'}
+
+The d electron count is a chemistry formalism used to describe the electron configuration of the valence electrons of a transition metal center in a coordination complex.  The d electron count is an effective way to understand the geometry and reactivity of transition metal complexes. The formalism has been incorporated into the two major models used to describe coordination complexes; crystal field theory and ligand field theory, which is a more advanced version based on molecular orbital theory.
+
+
+== Standard electron configuration perspective ==
+The electron configuration for transition metals predicted by the simple Aufbau principle and Madelung's rule has serious conflicts with experimental observations for transition metal centers under most ambient conditions. Under most conditions all of the valence electrons of a transition metal center are located in d orbitals while the standard model of electron configuration would predict some of them to be in the pertinent s orbital.
+The valence of a transition metal center can be described by standard quantum numbers. The Aufbau principle and Madelung's rule would predict for period n that the ns orbitals fill prior to the (n − 1)d orbitals. For example, the 4s fills before the 3d in period 4. In general chemistry textbooks, a few exceptions are acknowledged with only one electron in the ns orbital in favor of completing a half or whole d shell. The usual explanation is that "half-filled or completely filled subshells are particularly stable arrangements of electrons". An example is chromium whose electron configuration is [Ar]4s13d5 with a half-filled d subshell, although Madelung's rule would predict [Ar]4s23d4. Similarly copper is [Ar]4s13d10 with a full d subshell, and not [Ar]4s23d9.Matters are further complicated when metal centers are oxidized. Since the (n − 1)d shell is predicted to have higher energy than the ns shell, it might be expected that electrons would be removed from the (n − 1)d shell first. Experimentally it has been observed that not only are the ns electrons removed first, even for unionized complexes all of the valence electrons are located in the (n − 1)d orbitals.
+There are various hand waving arguments for this phenomenon including that "the ns electrons are farther away from the nuclei and thus ionized first" while ignoring results based on neutral complexes. This poor explanation avoids the basic problems with the standard electron configuration model. The standard electron configuration model assumes a hydrogen-like atom removed from all other atoms. This assumption is only truly relevant for esoteric situations. It is far more common for metal centers to have bonds to other atoms through metallic bonds or covalent bonds. These bonds drastically change the energies of the orbitals for which electron configurations are predicted. Thus for coordination complexes the standard electron configuration formalism is meaningless and the d electron count formalism is a suitable substitute.
+
+
+== Ligand field perspective ==
+
+Crystal field theory describes a number of physical phenomena well but does not describe bonding nor offer an explanation for why ns electrons are ionized before (n − 1)d electrons. The more recent ligand field theory offers an easy to understand explanation that models phenomena relatively well.
+According to the model present by ligand field theory, the ns orbital is involved in bonding to the ligands and forms a strongly bonding orbital which has predominantly ligand character and the correspondingly strong anti-bonding orbital which is unfilled and usually well above the lowest unoccupied molecular orbital (LUMO). Since the orbitals resulting from the ns orbital are either buried in bonding or elevated well above the valence, the ns orbitals are not relevant to describing the valence. Depending on the geometry of the final complex, either all three of the np orbitals or portions of them are involved in bonding, similar to the ns orbitals. The np orbitals if any that remain non-bonding still exceed the valence of the complex. That leaves the (n − 1)d orbitals to be involved in some portion of the bonding and in the process also describes the metal complex's valence electrons. The final description of the valence is highly dependent on the complex's geometry, in turn highly dependent on the d electron count and character of the associated ligands.
+For example, in the MO diagram provided for the [Ti(H2O)6]3+ the ns orbital – which is placed above (n − 1)d in the representation of atomic orbitals (AOs) – is used in a linear combination with the ligand orbitals, forming a very stable bonding orbital with significant ligand character as well as an unoccupied high energy antibonding orbital which is not shown. In this situation the complex geometry is octahedral, which means two of the d orbitals have the proper geometry to be involved in bonding. The other three d orbitals in the basic model do not have significant interactions with the ligands and remain as three degenerate non-bonding orbitals. The two orbitals that are involved in bonding form a linear combination with two ligand orbitals with the proper symmetry. This results in two filled bonding orbitals and two orbitals which are usually the lowest unoccupied molecular orbitals (LUMO) or the highest partially filled molecular orbitals – a variation on the highest occupied molecular orbitals (HOMO).
+
+
+== Tanabe–Sugano diagram ==
+Each of the ten possible d electron counts has an associated Tanabe–Sugano diagram describing gradations of possible ligand field environments a metal center could experience in an octahedral geometry. The Tanabe–Sugano diagram with a small amount of information accurately predicts absorptions in the UV and visible electromagnetic spectrum resulting from d to d orbital electron transitions. It is these d–d transitions, ligand to metal charge transfers (LMCT), or metal to ligand charge transfers (MLCT) that generally give metals complexes their vibrant colors.
+
+
+== Limitation ==
+It is important to remember that the d electron count is a formalism and describes some complexes better than others. Often it is difficult or impossible to assign electrons and charge to the metal center or a ligand. For a high-oxidation-state metal center with a +4 charge or greater it is understood that the true charge separation is much smaller. But referring to the formal oxidation state and d electron count can still be useful when trying to understand the chemistry.
+
+
+== Possible d electron counts ==
+There are many examples of every possible d electron configuration. What follows is a short description of common geometries and characteristics of each possible d electron count and representative examples.
+
+d0
+Commonly tetrahedral; however it is possible for d0 complexes to accommodate many electron pairs (bonds/coordination number) since their d orbitals are empty and well away from the 18-electron ceiling. Often colorless due to the lack of d to d transitions.
+Examples: titanium tetrachloride, titanocene dichloride, Schwartz's reagent.d1
+Examples: molybdenum(V) chloride, vanadyl acetylacetonate, vanadocene dichloride, vanadium tetrachloride.d2
+Examples: titanocene dicarbonyl.d3
+Examples: Reinecke's salt.d4
+Octahedral high-spin: 4 unpaired electrons, paramagnetic, substitutionally labile.
+Octahedral low-spin: 2 unpaired electrons, paramagnetic, substitutionally inert.d5
+
+Octahedral high-spin: 5 unpaired electrons, paramagnetic, substitutionally labile.
+Octahedral low-spin: 1 unpaired electron, paramagnetic, substitutionally inert.
+Examples: potassium ferrioxalate, vanadium carbonyl.d6
+Commonly octahedral complexes in both high spin and low spin.
+Octahedral high-spin: 4 unpaired electrons, paramagnetic, substitutionally labile.
+Octahedral low-spin: no unpaired electrons, diamagnetic, substitutionally inert.
+Examples: hexamminecobalt(III) chloride, sodium cobaltinitrite, molybdenum hexacarbonyl, ferrocene, ferroin, chromium carbonyl.d7
+Octahedral high spin: 3 unpaired electrons, paramagnetic, substitutionally labile.
+Octahedral low spin: 1 unpaired electron, paramagnetic, substitutionally labile.
+Examples: cobaltocene.d8
+Complexes which are d8 high-spin are usually  octahedral (or tetrahedral) while low-spin d8 complexes are generally 16-electron square planar complexes. For first row transition metal complexes such as Ni2+ and Cu+ also form five-coordinate 18-electron species which vary from square pyramidal to trigonal bipyramidal.
+Octahedral high spin: 2 unpaired electrons, paramagnetic, substitutionally labile.
+Square planar low spin: no unpaired electrons, diamagnetic, substitutionally inert.
+Examples: cisplatin, nickelocene, dichlorobis(ethylenediamine)nickel(II), iron pentacarbonyl, Zeise's salt, Vaska's complex, Wilkinson's catalyst.d9
+Stable complexes with this electron count are more common for first row (period four) transition metals center than they are for complexes based around second or third row transition metals centers. These include both four-coordinate 17-electron species and five-coordinate 19-electron species.
+Examples: Schweizer's reagent.d10
+Often tetrahedral complexes limited to form 4 additional bonds (8 additional electrons) by the 18-electron ceiling. Often colorless due to the lack of d to d transitions.
+Examples: tetrakis(triphenylphosphine)palladium(0), nickel carbonyl.
+
+
+== References ==
+
+
+== External links ==
+Pavarini, E.; Koch, E.; Anders, F.; Jarrell, M., eds. (2012). "Multiplets in Transition Metal Ions". Correlated Electrons: From Models to Materials (PDF). Jülich. ISBN 978-3-89336-796-2.

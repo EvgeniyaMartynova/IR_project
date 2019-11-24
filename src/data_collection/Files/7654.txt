@@ -1,0 +1,40 @@
+Title: L-type calcium channel
+Aspects: {'L-type'}
+
+The L-type calcium channel (also known as the dihydropyridine channel, or DHP channel) is part of the high-voltage activated family of voltage-dependent calcium channel.
+"L" stands for long-lasting referring to the length of activation. This channel has four subunits (Cav1.1, Cav1.2, Cav1.3, Cav1.4).
+L-type calcium channels are responsible for the excitation-contraction coupling of skeletal, smooth, cardiac muscle, and for aldosterone secretion in endocrine cells of the adrenal cortex.In cardiac myocytes, the L-type calcium channel passes inward Ca2+ current and triggers calcium release from the sarcoplasmic reticulum by activating ryanodine receptor 2 (RyR2) (calcium-induced-calcium-release). Phosphorylation of these channels increases their permeability to calcium and increases the contractility of their respective cardiac myocytes.
+L-type calcium channel blocker drugs are used as cardiac antiarrhythmics or antihypertensives, depending on whether the drugs have higher affinity for the heart (the phenylalkylamines, like verapamil), or for the blood vessels (the dihydropyridines, like nifedipine).In skeletal muscle, there is a very high concentration of L-type calcium channels, situated in
+the T-tubules. Muscle depolarization results in large gating
+currents, but anomalously low calcium flux, which is now
+explained by the very slow activation of the ionic currents. For
+this reason, little or no Ca2+ passes across the T-tubule
+membrane during a single action potential.
+
+
+== Structure ==
+Like most voltage-gated ion channels, the α-subunit is composed of 4 subunits. Each subunit is formed by 6 alpha-helical, transmembrane domains that cross the membrane (numbered S1-S6). The S1-S4 subunits make up the voltage sensor, while S5-S6 subunits make up the selectivity filter.
+
+
+== Genes ==
+CACNA1C,  CACNA1D, CACNA1S, CACNA1F
+
+
+== See also ==
+CACNA1C
+CACNA1D
+CACNA1S
+CACNA1F
+
+
+== References ==
+
+
+== Further reading ==
+
+This article incorporates text from the United States National Library of Medicine, which is in the public domain.
+
+
+== External links ==
+"Voltage-Gated Calcium Channels". IUPHAR Database of Receptors and Ion Channels. International Union of Basic and Clinical Pharmacology.
+L-Type+Calcium+Channel at the US National Library of Medicine Medical Subject Headings (MeSH)

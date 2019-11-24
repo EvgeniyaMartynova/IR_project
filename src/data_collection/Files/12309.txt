@@ -1,0 +1,12 @@
+Title: S-mount (CCTV lens)
+Aspects: {'S-mount'}
+
+The S-mount is a standard lens mount used in various surveillance CCTV cameras and webcams. It uses a male metric M12 thread with 0.5 mm pitch on the lens and a corresponding female thread on the lens mount; thus an S-mount lens is sometimes called an "M12 lens". Because the lens mounts are usually attached directly to the PCB of the sensor, the standard is often called "board lens". The supported sensor formats range from the smallest 1/6-inch type to the largest 2/3-inch having an 11mm diagonal sensor. The lens mount is usually made of plastic and the lenses lack an iris control. S-mount lenses do not have a flange and therefore there is no fixed lens to sensor distance and they must be adjusted to focus.
+
+
+== See also ==
+ISO metric screw thread
+Lens board
+
+
+== References ==

@@ -1,0 +1,34 @@
+Title: Waarp
+Aspects: {'R66'}
+
+Waarp is a project that provides among other an open source massive file transfer monitor in Java, also known as managed file transfer. Its purpose is to enable bridging between several protocols and to enable dynamic pre or post action on transfer or other commands in an efficient and secured way. Currently FTP(S) and efficient and secure R66 protocols are implemented.
+
+
+== History ==
+This project was developed initially for the French Ministry of Finance and is in production since end of 2007. Developed independently from the ministry IT structure, this software contains 3 main components (originally named GoldenGate, GoldenGate FTP and OpenR66) and was intend to support more than 100 000 transfers a day in an electronic archival platform. It is also in production in the French Gendarmerie Nationale since 2012.
+Initially developed by Frédéric Brégier since 2006, the Waarp eponymous company proposes commercial support since 2012, while the software stays free and fully Open Source.
+Since 2014, Waarp is officially recommended by the French State in its "Inter-ministerial Free Software Core" (SILL in French as "Socle Interministériel de Logiciels Libres").The Waarp project development is hosted on Github, as well as all its documentation.
+
+
+== Functionalities ==
+Waarp Gateway FTP and Waarp R66 share several functionalities through the modular development approach of Waarp (Common, Digest, Snmp, ...): they include secure exchange (through SSL and traceability), SNMP V2 and V3 support and administration tools (in HTTPS format), and the business need's adaptation through actions (before and after transfer) in rules.
+Waarp R66 has more specific capacities to handle secure and production contexts.
+From file transfer aspect, Waarp R66 ensures delivery guarantee and resuming interrupted transfers. Those transfers, synchronous or asynchronous, in push or pull, are based on transfer rules ensuring right and partner authentication control. Transfer trigger could be done through daemons (directory spooling), command line calls or through one of the various available API (Java, Thrift, REST HTTP(s)).
+From production aspect, Waarp R66 proposed local administration interface (HTTPS) or central ones (GUI). It optimizes the usage of the network (using multiplexing, bandwidth throttling, proxy support, Keep-alive and timeout, ...) or the usage of other resources (cpu and memory). It allows a high availability installation and the support of horizontal scalability with a high parallel transfer capability (in theory up to 2^64).
+From security aspect, Waarp R66 allows to secure exchange through low to high authentication mechanism of partners, a black list, tentative of intrusion detection, DMZ configuration support and restricted access definition for partners.
+From business needs adaptation aspect, Waarp R66 supports several task types (tasks are executed before or after a transfer or an error) as file management (copy, delete, tar/zip, charset transcoding, ...), transfer management (re-transfer or reschedule) and external task execution (script or Java).
+Waarp R66 supports several database through JDBC (PostgreSQL, Oracle Database, MySQL/MariaDB, H2 Database). This database, not mandatory, brings historic of transfers and resuming capability for interrupted transfers. One database could be shared among several clients and servers.
+
+
+== R66 Protocol ==
+
+The R66 protocol was created to allow advanced functionalities for a managed file transfer monitor in a secured production context.
+
+It is transactional: if one step fails, all the transfer is failed
+It is based on two identified partners, one file and one transfer rule governing the exchange
+It might be encrypted (SSL)
+It includes several authentication mechanisms (id/password, optional RSA certificate, optional IP control)
+It includes transport integrity control (per packet or at once)
+
+
+== References ==

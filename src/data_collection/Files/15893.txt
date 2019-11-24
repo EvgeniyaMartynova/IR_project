@@ -1,0 +1,37 @@
+Title: Experience API
+Aspects: {'XAPI'}
+
+The Experience API (xAPI) is an e-learning software specification that allows learning content and learning systems to speak to each other in a manner that records and tracks all types of learning experiences. Learning experiences are recorded in a Learning Record Store (LRS). LRSs can exist within traditional learning management systems (LMSs) or on their own.
+
+
+== Summary ==
+The Experience API (Tin Can API) is meant to succeed SCORM, the Sharable Content Object Reference Model, which has been the de facto e-learning standard for packaging e-learning content. There are several drawbacks to SCORM.  The new Experience API allows trainers to deploy several new capabilities that were not supported with SCORM, such as:
+
+Taking e-learning outside of the web browser
+E-learning in native mobile applications
+More control over learning content
+Solid security using OAuth
+Platform transition; e.g. start e-learning on a mobile device, finish it on a computer
+The ability to track games and simulations
+The ability to track real-world performance
+Team-based e-learning
+Tracking learning plans and goalsThe Experience API (Tin Can API) is an open source API. It is a Representational state transfer web service that uses JavaScript Object Notation (JSON) for its data format. The web service allows software clients to read and write experiential data in the form of “statement” objects. In their simplest form, statements are in the form of “I did this”, or more generally “actor verb object”.  More complex statement forms can be used. There is also a built in query API to help filter recorded statements, and a state API that allows for a sort of “scratch space” for consuming applications.
+
+
+== History ==
+In 2011 Advanced Distributed Learning (ADL), the United States Department of Defense-sponsored stewards of SCORM, recognized the need for a newer and more capable software specification than the original SCORM specification, which was then more than ten years old. To address the need, ADL issued a Broad Agency Announcement (BAA) asking for assistance in improving SCORM, and the BAA was awarded to Rustici Software, a Nashville-based software company experienced with SCORM.Rustici Software conducted numerous interviews with the e-learning community to determine where to make improvements and then developed the research version of the Experience API specification. This process was called Project Tin Can. The moniker "Tin Can API" was derived from Project Tin Can, and is still used interchangeably with the name "Experience API".The Experience API was developed by a community working group and released as version 1.0 in April 2013. There are currently over 160 adopters (19 January 2016).
+
+
+== Current Status ==
+The current version of the specification is  1.0.3. Released early October 2016. There are no plans for any minor updates to the specification. Previous versions include: 1.0.2., 1.0.1., 
+1.0.0.
+version 0.8 (official output of the BAA)  and version 0.9 (research version specification)
+0.95 (second research version specification).
+
+
+== References ==
+
+
+== External links ==
+ADL's official website
+Rustici Software's website

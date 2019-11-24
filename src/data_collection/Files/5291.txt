@@ -1,0 +1,31 @@
+Title: Heathkit H11
+Aspects: {'H11'}
+
+The Heathkit H11 Computer was an early kit-format personal computer introduced in 1978. It was essentially a Digital Equipment PDP-11 in a small-form-factor case, designed by Heathkit. The H11 was one of the first 16-bit personal computers, at a list price of US$1,295, but was too expensive for most Heathkit customers and was discontinued in 1982.
+
+
+== Specifications ==
+The H11 featured:
+Processor — LSI-11 (KD11-HA half-size or "double-height" card)
+Speed            — 2.5 MHz
+ROM              — 8Kwords (16 Kbytes) (max)
+RAM              — 32Kwords (64 Kbytes) (max)
+Slots            — 7 Q-bus slots
+Storage          — H27 8-inch floppy drive  (2 256k 8-inch single sided drives) or paper tape
+I/O              — serial (RS-232) or parallel ports
+Operating system — HT-11 (a simplified version of RT-11)
+Instruction set  — PDP-11/40 instruction set
+Languages        — BASIC, Focal and othersInitial memory limitations restricted the selection of software the system could handle, but the system could be expanded to 32KW x 16-bit RAM. Many PDP-11 operating systems and programs ran without trouble. The system would also work with most DEC PDP-11 equipment, including many Q-bus compatible peripherals.
+
+
+== See also ==
+Elektronika BK
+Heathkit H8
+
+
+== References ==
+
+
+== External links ==
+Heathkit H-11 Computer, Heathkit Computer Advertisements, Decode Systems
+Computer Museum illustration of fully expanded H11 with the Heath/Zenith label.

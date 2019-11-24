@@ -1,0 +1,34 @@
+Title: Volta (microarchitecture)
+Aspects: {'V100'}
+
+Volta is the codename for a GPU microarchitecture developed by Nvidia, succeeding Pascal. It was first announced on a roadmap in March 2013. However the first product was not announced until May 2017. The architecture is named after 18th - 19th century Italian chemist and physicist Alessandro Volta. It was NVIDIA's first chip to feature Tensor cores, specially designed cores that have superior deep learning performance over regular CUDA cores. The architecture is produced with TSMC's 12 nm FinFET process.
+The first graphics card to use it was the datacentre Tesla V100, e.g. as part of the Nvidia DGX-1 system. It has also been used in the Quadro GV100 and Titan V. There were no mainstream GeForce graphics cards based on Volta. Volta was succeeded by the Turing architecture.
+
+
+== Details ==
+Architectural improvements of the Volta architecture include the following:
+
+CUDA Compute Capability 7.0
+TSMC's 12 nm FinFET process, allowing 21.1 billion transistors.
+High Bandwidth Memory 2 (HBM2), from SK Hynix.
+NVLink 2.0: a high-bandwidth bus between the CPU and GPU, and between multiple GPUs. Allows much higher transfer speeds than those achievable by using PCI Express; estimated to provide 25 Gbit/s per lane. (Disabled for Titan V)
+Tensor cores: A tensor core is a unit that multiplies two 4×4 FP16 matrices, and then adds a third FP16 or FP32 matrix to the result by using fused multiply–add operations, and obtains an FP32 result that could be optionally demoted to an FP16 result. Tensor cores are intended to speed up the training of neural networks.
+PureVideo Feature Set I hardware video decoding
+
+
+== Products ==
+Volta has been announced as the GPU microarchitecture within the Xavier generation of Tegra SoC focusing on self-driving cars.At Nvidia's annual GPU Technology Conference keynote on 10th May 2017, Nvidia officially announced the Volta microarchitecture along with the Tesla V100. The Volta GV100 GPU is built on a 12 nm process size using HBM2 memory with 900 GB/s of bandwidth.Nvidia officially announced the NVIDIA TITAN V on December 7, 2017.Nvidia officially announced the Quadro GV100 on March 27, 2018.
+
+
+== Application ==
+Volta is also reported to be included in the Summit and Sierra supercomputers, used for GPGPU compute. The Volta GPUs will connect to the POWER9 CPUs via NVLink 2.0, which is expected to support cache coherency and therefore improve GPGPU performance.
+
+
+== See also ==
+List of Nvidia graphics processing units
+
+
+== References ==
+
+
+== External links ==

@@ -1,0 +1,27 @@
+Title: Dovecot (software)
+Aspects: {'D-Box (disambiguation)'}
+
+Dovecot is an open source IMAP and POP3 server for Unix-like operating systems, written primarily with security in mind. Timo Sirainen originated Dovecot and first released it in July 2002. Dovecot developers primarily aim to produce a lightweight, fast and easy-to-set-up open source email server.
+The primary purpose of Dovecot is to act as mail storage server. Mail is delivered to the server using some MDA and stored for later access with MUA. Dovecot can also act as mail proxy server, forwarding connection to another mail server, or act as a lightweight MUA in order to retrieve and manipulate mail on remote server for e.g. mail migration.
+According to Openemailsurvey Dovecot has an installed base of more than 3 million email servers and a global market share of 68% of all IMAP servers.
+
+
+== Features ==
+Dovecot can work with standard mbox, Maildir, and its own native high-performance dbox formats. It is fully compatible with UW IMAP and Courier IMAP servers’ implementation of them, as well as mail clients accessing the mailboxes directly.
+Dovecot also includes a Mail delivery agent (called Local delivery agent in Dovecot’s documentation) and an LMTP server, with optional Sieve filtering support.
+Dovecot supports a variety of authentication schemas for IMAP, POP and message submission agent (v2.3) access including CRAM-MD5 and the more secure DIGEST-MD5.
+With version 2.2 some new features have been added to Dovecot, e.g. additional IMAP command extensions, dsync has been rewritten or optimized, and shared mailboxes now support per-user flags.Version 2.3 adds a message submission agent, Lua scripting for authentication, and some other improvements.Apple Inc. includes Dovecot for email services since Mac OS X Server 10.6 Snow Leopard.
+In 2017, Mozilla, via the Mozilla Open Source Support program, conducted a security audit on the Dovecot software, the first public audit of the Dovecot code.
+
+
+== See also ==
+
+Comparison of mail servers
+
+
+== References ==
+
+
+== External links ==
+Official website 
+Official wiki with how-tos and documentation

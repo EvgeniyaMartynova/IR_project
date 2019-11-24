@@ -1,0 +1,51 @@
+Title: X.Org Foundation
+Aspects: {'Xedit'}
+
+The X.Org Foundation is a non-profit corporation chartered to research, develop, support, organize, administrate, standardize, promote, and defend a free and open accelerated graphics stack. This includes, but is not limited to, the following projects: DRM, Mesa 3D, Wayland and the X Window System (in the implementation of the X.Org Server).
+
+
+== Organization ==
+The X.Org Foundation was founded on 22 January 2004.The modern X.Org Foundation came into being when the body that oversaw X standards and published the official reference implementation joined forces with former XFree86 developers. The creation of the Foundation marked a radical change in the governance of X (see the history of the X Window System). Whereas the stewards of X since 1988 (including the previous X.Org, part of The Open Group) had been vendor organizations, the Foundation is led by software developers and using community development on the bazaar model, which relies on outside involvement. Membership is also open to individuals, with corporate membership being in the form of sponsorship.
+In 2005 the X.Org Foundation applied for 501(c)(3) non-profit status. In 2012, with the help of the  Software Freedom Law Center (SFLC), the Foundation gained the status. In 2013, the Foundation lost the status because they didn't fill a tax form (it had no income to declare and didn’t get any info from SFLC) and in the same year it got the status again, after clearing up the issue. In 2014, the X.Org Foundation announced that they were joining Software in the Public Interest (SPI) who would manage the bureaucracy.According to an October 2018 article published by Phoronix, freedesktop.org will be officially joining the X.Org Foundation.
+
+
+== Fields of activity ==
+The X.Org Foundation does not provide technical guidance, roadmaps or deadlines, releases or supervision of any kind.
+The X.Org Foundation does provide communication tools (in relation with freedesktop.org), an annual physical meeting and money to help developing the free graphics stack.
+
+a physical annual meeting (X.Org Developer's Conference)
+Travel sponsorship:
+The X.Org Foundation is an approved organization of the Google Summer of Code (GSoC). This allows students to participate to X.Org-related projects over the summer and get paid to flip bits, not burgers. For example, the GSoC projects of 2013 were:
+David Hermann (Dave Airlie): Render Nodes (cf. Direct Rendering Manager) and security fixes
+Samuel Pitoiset (Martin Peres): Reverse engineering performance counters on NVIDIA cards and exposing Fermi MP counters in Mesa;
+Dylan Noblesmith (Ian Romanick): Implementing GL EXT direct state access.
+Endless Vacation of Code (EVoC): EVoC is a GSoC-like project, funded by the X.Org Foundation. It allows students to participate to X.Org-related projects during their vacation, at any time of the year.
+Communication: Google+ and Twitter Google+/YouTube: Store and/or link to talk videos, slides, blog articles or G+ posts related to projects under our umbrella (Martin Peres); Twitter: Mostly security issues, random updates (Alan Coopersmith).
+There is an X.Org developer guide written by Alan Coopersmith, Matt Dew and the X.Org team; edited by Bart Massey at http://www.x.org/wiki/guide/The X.Org Foundation organizes the annual X.Org Developer's Conference (XDC)  and sponsors students to work on X.Org as part of their X.Org Endless Vacation of Code (EVoC) initiative.The X.Org Server and xlib are the reference implementation of the X protocol, and is commonly used on Linux and UNIX; it is the fundamental technology underlying both the modern GNOME and KDE desktops and older CDE desktop environment; applications written for any of these environments can be run simultaneously.
+Along with reference implementation of X protocol X.org Foundation hosts development of several utilities and example applications, including xcalc on-screen calculator, xclock simple digital and analog clock, xedit text editor, xload periodically updated histogram of the average system load, xterm terminal emulator, and xeyes which shows a pair of eyes that follow the cursor.
+As of April 2013, the Board of Directors consisted of Alan Coopersmith, Alex Deucher, Martin Peres, Matt Dew, Matthias Hopf, Peter Hutterer (Secretary), Stuart Kreitman (Treasurer), and Keith Packard.
+
+
+== X.Org Developer's Conference ==
+The physical meeting is the X.Org Developer’s Conference (XDC/XDS), which is organized once a year, around September/October and alternates between North America and Europe and lasts for 3 days. The board of directors can cover the travel and accommodation expenses to the developers who couldn’t attend an X.Org-related conference (XDC or FOSDEM?) otherwise.
+
+
+=== Conference history ===
+
+
+== X.Org Endless Vacation of Code (EVoC) ==
+X.Org Endless Vacation of Code (EVoC) is a Google Summer of Code (GSoC)-like project initiated in 2008 funded by the X.Org Foundation. It allows students to participate to X.Org-related projects during their vacation, at any time of the year.
+An example of an accepted EVoC project from 2014 is to work on nouveau, the free and open-source graphics device driver for GeForce-branded GPUs. NVA3/5/8 are the engineering names of the Tesla-based GT215, GT216 and GT218.
+
+
+== See also ==
+
+Free and open-source graphics device driver
+List of free-software events
+
+
+== References ==
+
+
+== External links ==
+X.Org Foundation website

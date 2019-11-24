@@ -1,0 +1,128 @@
+Title: Scania 4-series (bus)
+Aspects: {'F94'}
+
+The Scania low floor city bus and coach range was introduced by Scania in 1997 as a successor to the 3-series bus range.
+The 4-series bus range was first presented in September 1996, when the integral low-floor city bus OmniCity was revealed. Production of the chassis range started in second half of 1997, and by the end of 1998 all worldwide production facilities had changed from 3-series to 4-series. Unlike the 3-series, which was a range of 45 different chassis models, the 4-series is one basic chassis with different modular configurations depending on usage and customer needs. At launch there were a total of seven major configurations, presumably the F HB, K EB, K IB, L IB, L UB, N UA and N UB. These were later followed by the F HA, K UB, L IA, L UA and N UD. The first letter describing the position of the engine, and the last two letters describing areas of use. In marketing of the 4-series, Scania have generally only used the engine position (F/K/L/N), the engine displacement (9/11/12) and the series number (4), which is why we know them as F94, F114, K94, K114, K124, L94 and N94.
+The 4-series was superseded in 2006 by the new Euro IV compliant bus and coach range consisting of the K-series, N-series and F-series. Some 4-series products have been available for a couple of years after this.
+
+
+== Type designation breakdown ==
+Engine locationF: chassis with longitudinal engine ahead of the front axle
+K: chassis with longitudinal engine behind rearmost axle, centrally mounted
+L: chassis with longitudinal engine behind rearmost axle, inclined 60° to the left
+N: chassis with transverse engine behind rearmost axle, inclined 60° to the rearEngine series9: DSC9/DC9
+11: DC11
+12: DSC12/DC12Development code4: 4-seriesType of transportE: coach, long distance, high comfort (K chassis only)
+H: intercity, short to long distance, uneven surface (F chassis only)
+I: intercity, short to long distance, normal comfort
+U: urban, short distance, normal comfortChassis adaptionA: articulated bus
+B: normal bus
+D: double-decker busWheel configuration4X2: two-axle bus
+6X2: tri-axle bus
+6X2/2: tri-axle articulated bus
+6X2*4: tri-axle bus with steered tag axle behind drive axle
+6X2/4: tri-axle bus with steered tag axle in front of drive axle (one known example, see K94UB)
+8X2: quad-axle bus (K IB chassis in Latin America only)Chassis heightE: low front and rear (N chassis only)
+H: high front and rear (F chassis only)
+L: low front, normal rear
+N: normal front and rearSuspensionA: leaf-spring suspension front and air suspension rear (F HA chassis only)
+B: air suspension front and rear, rigid front axle
+I: air suspension front and rear, independent front suspension (K EB chassis only)
+Z: leaf-spring suspension front and rear (F chassis only)Power codeApproximation of the power rating in hp to the nearest ten.
+
+
+== Engines ==
+Engines available at launch were the 9.0-litre (8974 cc) DSC9 and the 11.7-litre (11705 cc) DSC12, both being Euro II compliant inline 6-cylinder, turbocharged and intercooled engines. The DSC9 with outputs at 220 hp (1005 Nm), 260 hp (1180 Nm) and 310 hp (1355 Nm), and the DSC12 with outputs at 360 hp (1665 Nm) and 420 hp (1950 Nm).In November 1999, Scania presented a new range of Euro III compliant truck engines, which soon became available on the buses too. The DSC9 and the DSC12 were renamed DC9 and DC12, and new power outputs were 230 hp (1100 Nm), 260 hp (1250 Nm) and 300 hp (1400 Nm) for the DC9 and 420 hp (2000 Nm) for the DC12. To fill the gap between them, they were joined by the new 10.6-litre (10641 cc) DC11 engine with power outputs at 340 hp (1600 Nm) and 380 hp (1800 Nm).
+The 9.0-litre engine was also available with alternative fuels. The OSC9 G01 CNG engine had ratings of 260 hp (970 Nm), which was later tuned up to 990 Nm. It was later replaced by the OC9 with power outputs of 260 hp (1100 Nm) and 300 hp (1250 Nm). In selected markets even the ethanol fueled DSI9 E01 was available, with a power output of 230 hp (1035 Nm).
+
+
+== Scania F94/F114 ==
+
+The F94 and F114 were the front-engined chassis, replacing the F93 and F113 of the 3-series. They were mainly produced in São Bernardo do Campo, Brazil and Tucumán, Argentina for the Latin American and African market.
+
+
+=== Scania F94HA ===
+The F94HA (F94HA6x2NA) was an articulated chassis with remotely mounted Voith gearbox, leaf-spring suspension on the front axle and air suspension on both drive (2nd axle) and trailer axle (3rd axle). It is known as a 'puller' artic, where no hydraulic articulation control is needed.
+
+
+=== Scania F94HB/F114HB ===
+The F94HB was a two-axle chassis with leaf-spring suspension. It was available with both normal chassis height (F94HB4x2NZ) and a higher version (F94HB4x2HZ). In Africa it was also available as the Scania F114 with a bigger engine.
+
+
+== Scania K94/K114/K124 ==
+
+The K94, K114 and K124 were fitted with a longitudinally rear-mounted engine, replacing the K93 and K113 of the 3-series. Initially only available as K94 and K124, the K114 became available in 2000. It could be built as a premium coach (K EB), a coach or intercity bus (K IB), or as a much rarer city bus version (K UB).
+
+
+=== Scania K94EB/K114EB/K124EB ===
+The K94EB, K114EB and K124EB were the only 4-series chassis with independent front suspension, being the primary choice for premium coaches. They were available as two-axle (4x2), tri-axle (6x2) and tri-axle with steered tag axle (6x2*4). A normal tri-axle coach would have the full designation of K124EB6x2NI, but because of the independent front suspension it was also available as K124EB6x2LI with low front, which made it possible to have a gangway between the front wheel arches and a low driving position, making it suitable for use in double-decker coaches.
+
+
+=== Scania K94IB/K114IB/K124IB ===
+
+The K94IB, K114IB and K124IB were the standard coach and intercity bus chassis with a rigid front axle. Like the K EB type, they were available as two-axle (4x2), tri-axle (6x2) and tri-axle with steered tag axle (6x2*4), and on the Latin American market also as quad-axle (8x2). The K94IB was quite rare, as it was in may ways in direct competition with the L94IB as an intercity bus.
+
+
+=== Scania K94UB ===
+
+The K94UB was a citybus chassis which allowed low floor at the front half of the bus and a step up to the rear part, known in the bus industry as low-entry.
+One example of a tri-axle K94UB (K94UB6x2/4LB) was produced in 2000. In Hong Kong, the K94UB has been fitted with a Volgren CR224LD 12m double-deck bodywork and was in operation with Citybus in Hong Kong. It is equipped with a 260 hp Euro III engine and a hydraulically (ZF - RAS) steered tag axle in front of the drive axle. It was retired on 3 July 2019.
+Westbus (Sydney), Australia received a batch of Volgren CR228L bodied K94UB with Brazilian-made chassis.
+
+
+== Scania L94 ==
+
+The L94-series was a longitudinal inclined rear-engined simple coach, intercity and city bus series, and was a direct replacement for the L113. It has been used widely in Scandinavia, the United Kingdom, Brazil and Australia. In Ireland and Northern Ireland it was also quite popular with companies such as Bus Éireann, Ulsterbus and Metro. When Scania presented the successor to the 4-series, the inclined engine was dropped, so the L94 was superseded by the K-series.
+
+
+=== Scania L94IA ===
+The L94IA (L94IA6x2/2NB) was an articulated normal-floor intercity bus chassis and was only available in Latin America.
+
+
+=== Scania L94IB ===
+The L94IB was the general intercity bus and simple coach chassis. It was most common as a two-axle (L94IB4x2NB), but was also available as a tri-axle (L94IB6x2NB, L94IB6x2*4NB). The L94IB was the basis for the first generation of the OmniLine integral intercity bus available in some left-hand drive markets.
+
+
+=== Scania L94UA ===
+
+The L94UA (L94UA6x2/2LB) was an articulated low entry city bus chassis, which had low floor in the front part of the bus and then a step up to the rear part. It was available from around 2001 as an alternative to the full low-floor N94UA, and was also the basis for the first generation of the articulated version of the OmniLink integral citybus.
+
+
+=== Scania L94UB ===
+The L94UB was the versatile citybus chassis when a full low floor was not required, as it like the L94UA was a low-entry configuration. Available both as two-axle (L94UB4x2LB) and tri-axle (L94UB6x2LB, L94UB6x2*4LB). It was also the basis for the first generation of OmniLink, which was launched in 1998.
+
+
+== Scania N94 ==
+
+The N94 had a transverse-mounted engine and a full low floor, and was a direct replacement of the N113.
+
+
+=== Scania N94UA ===
+The N94UA (N94UA6x2/2EB) articulated chassis had a low floor throughout the length of the bus, compared to the L94UA which had a step up. It was the basis for the articulated version of the OmniCity, being available on left-hand drive markets from 1997.
+
+
+=== Scania N94UB ===
+The N94UB (N94UB4x2EB) rigid two-axle chassis was first introduced as the basis for the integral OmniCity citbus in 1996, but was also available for bodywork by other manufacturers from 1997. Having a full low floor, it did not sell as well as the L94UB in the Nordic countries, where the low-entry alternative was more popular.
+
+
+=== Scania N94UD ===
+The N94UD (N94UD4x2EB) double-decker chassis became available in 2002 and was mainly built for the United Kingdom and initially it was only available with East Lancs bodywork and sold as the OmniDekka, the first bus was built for Metrobus and delivered in early 2003. In 2005, Scania unveiled the double-deck OmniCity DD based on the N94UD. Plans for Wrightbus bodywork on the N94UD chassis were dropped after Wrightbus experienced difficulty adapting the bodywork for the chassis.
+
+
+== Gallery ==
+
+		
+		
+
+
+== See also ==
+
+Scania 4-series (trucks)
+List of buses
+
+
+== References ==
+
+
+== External links ==
+ Media related to Scania 4-series (bus) at Wikimedia Commons

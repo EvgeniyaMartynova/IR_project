@@ -1,0 +1,92 @@
+Title: Documentum
+Aspects: {'XDB', 'XCP'}
+
+Documentum is an enterprise content management platform, now owned by OpenText, as well as the name of the software company that originally developed the technology.  EMC acquired Documentum for $1.7 billion in December, 2003. The Documentum platform was part of EMC's Enterprise Content Division (ECD) business unit, one of EMC's four operating divisions.
+On January 23, 2017, OpenText, a Canadian technology firm based in Waterloo, Ontario, Canada that specializes in enterprise content management, acquired Documentum from Dell EMC for $1.62 billion USD.
+
+
+== History ==
+
+
+=== Getting started ===
+Howard Shao and John Newton founded Documentum in June 1990. They had worked together at Ingres, one of the leading relational database vendors at the time, and sought to solve unstructured information management problems using relational database technologies. (Unstructured information refers to information that does not have a formal data structure – documents, images, audio, video, etc.) With initial backing from Xerox, they developed a customized system for Boeing to organize, store, maintain, and selectively publish the thousands of pages of information for the Boeing 777 training manuals. They developed another customized system for Syntex, a pharmaceutical vendor, to automate the process of assembling New Drug Application (NDA) documents when seeking approval from the U.S. Food and Drug Administration (FDA).
+Documentum introduced its Electronic Document Management System (EDMS) in 1993, a client-server product for electronic document management. This product managed access to unstructured information stored within a shared repository,  running on a central server. End users connected to the repository through PC, Macintosh, and Unix Motif  desktop client applications.
+Documentum EDMS provided check-in/check-out access controls as well as workflow capabilities for sequencing document review and approval processes, and included a full-text search engine for retrieving documents from the repository. EDMS was adopted by several large enterprises, such as pharmaceutical, oil and gas, financial services, and manufacturing companies.
+
+
+=== Company growth ===
+In 1993, Jeffrey Miller, a Silicon Valley marketing executive, joined Documentum as president and CEO with a mandate to transform the company from a technology-driven start-up into an established software firm. Under Miller's leadership, the company raised its first round of venture funding from Brentwood, Merrill Picker Anderson, Sequoia Capital, Norwest Corporation, and Xerox Venture.
+Documentum was floated on NASDAQ February 5, 1996, listing with the DCTM symbol.
+
+
+=== Web versions ===
+In 1998, Documentum launched its Web Application Environment, a set of Internet extensions for EDMS, offering Web access to the documents stored within an EDMS repository.
+In 2000, Documentum released Documentum 4i, its first Web-native platform. The company redesigned the repository to ensure that it could manage a very large number of discrete objects—ranging from self-contained documents to granular information snippets. Beyond just managing documents for print or electronic distribution, Documentum 4i could integrate with external Web applications and be used to distribute content to portals, Web application servers, and Web sites.A number of third party applications are based on Documentum.
+
+
+=== Content management platform ===
+In 2002, Documentum launched Documentum 5 as a unified enterprise content management (ECM) platform for storing a virtually unlimited range of content types within a shared repository. The platform provided integrated business process management (BPM) capabilities as well as tools for managing content across a distributed organization.
+
+
+=== Key acquisitions ===
+Through a series of acquisitions over the last several years, the company added further capabilities.
+
+Bulldog, announced in December 2001, added extensive digital asset management capabilities to the repository for the management of digitized multimedia content.
+Boxcar, announced in January 2002, added technologies for syndicating content to remote repositories.
+eRoom, announced in October 2002, provided a collaborative workspace for distributed business teams, including those from disparate organizations, to share content over the Internet.
+TrueArc, also announced in October 2002, added records management capabilities and augmented Documentum's offerings for compliance solutions.
+askOnce, announced in March 2004, provided enterprise content integration and federated search technologies for accessing and retrieving information stored in disparate repositories.
+Acartus, announced in October 2005, provided capabilities for archiving business reports, billing statements, insurance policies, and other kinds of fixed content.
+Captiva Software, also announced in October 2005, added image capture and scanning technologies to convert paper-based documents into digital formats.
+Authentica, announced in March 2006, added digital rights management technologies, to secure digital assets outside the boundaries of the shared repository.
+ProActivity, announced in June 2006, added business process analysis and business activity monitoring features to enhance the business process management capabilities of Documentum.
+X-Hive, announced in July 2007, added XML database capabilities for managing and repurposing XML-tagged content components within an enterprise environment.
+Document Sciences, announced December 2007, added Enterprise Output Management capabilities.
+C6, announced in November 2011, EMC signed exclusive licensing agreement with C6 to deliver D2 web client.
+
+
+== Products ==
+
+
+=== Documentum Server (Formerly known as Documentum Content Server) ===
+Core Platform that manages content in a repository consisting of three parts: a content server, a relational database, and a place to store files.Items in the repository are stored as an object. The file associated with an object is usually
+stored in a file system; the object's associated metadata (a file name, storage location,
+creation date, etc.) is stored as a record in a relational database.
+
+
+=== Documentum Clients ===
+Configurable clients such as Documentum D2 and Documentum xCP provide tools that aim to eliminate the need for custom code.
+
+
+==== Documentum xCP ====
+Development platform for automating business processes. The platform consists of a web-based client, and a platform for user interface development and server-side components, such as fully automatic or semi-automatic Business Processes.
+
+
+==== Webtop ====
+Browser-based interface that provides access to the repository and content management services.
+
+
+==== Documentum D2 ====
+A configurable, content-centric client that provides access of ECM applications.
+
+
+==== My Documentum ====
+Content management services and information access within the infrastructure.
+
+
+== Releases ==
+The culmination of these acquisitions was Documentum 5.3, released in April 2005, followed by Documentum 6, launched in July 2007. Documentum 6.5 was released in July 2008 and 6.7 was released in April 2011. Documentum 7.0 came out in November 2012, with 7.1 following a year after and 7.2 in January 2015 and followed by  Documentum 7.3, released in November 2016 .
+The current version is Documentum 16.4, released in February 2018.
+
+
+== API ==
+Documentum functionality is made available through application programming interfaces (API) including web services, WebDAV, FTP, Java, Documentum Foundation Classes, Documentum Query Language (DQL), Web Development Kit API (WDK), SMB/CIFS and CMIS.
+Most of the customization in the basic product is done using the DFC (Documentum Foundation Classes), a comprehensive but rather dated (as of 2015) collection of Java APIs. Customization can be done via configuration, particularly through the extension products D2 and xCP. These additions aim to provide faster ways of building applications based on document types and metadata, and business processes, respectively.
+
+
+== Functions ==
+Documentum provides management capabilities for all types of content. The core of Documentum is a repository in which the content is stored securely under compliance rules and a unified environment, although content may reside on multiple servers and physical storage devices within a networked environment.
+Documentum provides services such as document management, collaboration, search, content classification, input management, Business Process Management (BPM), customer communication management, and Web content management.
+
+
+== References ==

@@ -1,0 +1,8 @@
+Title: X.28
+Aspects: {'X28'}
+
+X.28 is an ITU-T standard specifying the interface between asynchronous character-mode data terminal equipment (DTE), such as computer terminals, and a Packet Assembler/Disassembler (PAD) that connects the DTE to a packet switched network such as an X.25 network.
+
+
+== External links ==
+X.28 standard at ITU site

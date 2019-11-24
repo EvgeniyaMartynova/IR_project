@@ -1,0 +1,93 @@
+Title: 5.45×39mm
+Aspects: {'X39'}
+
+The 5.45×39mm cartridge is a rimless bottlenecked intermediate cartridge. It was introduced into service in 1974 by the Soviet Union for use with the new AK-74. The 5.45×39mm gradually supplemented, then largely replaced the 7.62×39mm cartridge in Soviet and Warsaw Pact service as their primary military service rifle cartridge.
+
+
+== History ==
+
+The 5.45×39mm cartridge was developed in the early 1970s by a group of Soviet designers and engineers under the direction of M. Sabelnikov. Further group members were: L. I. Bulavsky, B. B. Semin, M. E. Fedorov, P. F. Sazonov, V. Volkov, V. A. Nikolaev, E. E. Zimin and P. S. Korolev. The 5.45×39mm couples a sensible case volume (1.75 ml) to bore area (23.99 mm2/0.2399 cm2) ratio with ample space for loading relatively long slender projectiles that can provide good aerodynamic efficiency and external ballistic performance for the projectile diameter.The 5.45×39mm is an example of an international tendency towards relatively small-sized, lightweight, high-velocity military service cartridges. Cartridges like the 5.45×39mm, 5.56×45mm NATO and Chinese 5.8×42mm allow a soldier to carry more ammunition for the same weight compared to their larger and heavier predecessor cartridges, have favourable maximum point-blank range or "battle zero" characteristics and produce relatively low bolt thrust and free recoil impulse, favouring lightweight arms design and automatic fire accuracy.The Soviet original military issue 7N6 cartridge variant introduced in 1974 are loaded with full metal jacket bullets that have a somewhat complex construction. The 3.43 g (52.9 gr) 25.55 mm (1.01 in) long boat-tail projectile's jacket is clad in gilding metal. The unhardened 1.43 g (22.1 gr) steel (steel 10) rod penetrator core is covered by a thin lead inlay which does not fill the entire point end, leaving a hollow cavity inside the nose. The bullet is cut to length during the manufacturing process to give the correct weight. The 7N6 uses a boat-tail design to reduce drag and there is a small lead plug crimped in place in the base of the bullet. The lead plug, in combination with the air space at the point of the bullet, has the effect of moving the bullet's center of gravity to the rear; the hollow air space also makes the bullet's point prone to deformation when the bullet strikes anything solid, inducing yaw. The brown-lacquered steel case is Berdan primed. Its 39.37 mm (1.55 in) length makes it slightly longer than the 7.62×39mm case which measures exactly 38.60 mm (1.52 in). The primer has a copper cup and is sealed with a heavy red lacquer. The propellant charge is a ball powder with similar burning characteristics to the WC844 powder used in 5.56×45mm NATO ammunition. The 7N6 cartridge weight is 10.75 g (165.9 gr).
+Tests indicate the free recoil energy delivered by the 5.45×39mm AK-74 assault rifle is 3.39 J (2.50 ft⋅lb), compared to 6.44 J (4.75 ft⋅lb) delivered by the 5.56×45mm NATO in the M16 assault rifle and 7.19 J (5.30 ft⋅lb) delivered by the 7.62×39mm in the AKM assault rifle.Military 5.45×39mm ammunition was produced in the former Soviet Union, GDR and Yugoslavia, and is produced in Bulgaria, Poland and Romania. In the former Soviet Union this ammunition is produced in Russia, Kyrgyzstan, Uzbekistan and Ukraine.
+
+
+== Cartridge dimensions ==
+The 5.45×39mm has 1.75 ml (27 grains H2O) cartridge case capacity.
+
+5.45×39mm maximum C.I.P. cartridge dimensions.Americans would define the shoulder angle at ​α⁄2 ≈ 20.3°. The common rifling twist rate for this cartridge is 255 mm (1 in 10 inches), 4 grooves, Ø lands = 5.40 mm, Ø grooves = 5.60 mm, land width = 2.60 mm and the primer type is either berdan or small rifle.
+According to the official C.I.P. (Commission Internationale Permanente pour l'Epreuve des Armes à Feu Portatives) rulings the 5.45×39mm can handle up to 380.00 MPa (55,114 psi) Pmax piezo pressure. In C.I.P. regulated countries every rifle cartridge combo has to be proofed at 125% of this maximum C.I.P. pressure to certify for sale to consumers. This means that 5.45×39mm chambered arms in C.I.P. regulated countries are currently (2014) proof tested at 475.00 MPa (68,893 psi) PE piezo pressure.
+
+
+== Wounding effects ==
+
+Early ballistics tests demonstrated a pronounced tumbling effect with high speed cameras. Some Western authorities believed this bullet was designed to tumble in flesh to increase wounding potential. At the time, it was believed that yawing and cavitation of projectiles were primarily responsible for tissue damage. Martin Fackler conducted a study with an AK-74 assault rifle using live pigs and ballistic gelatin; "The result of our preset test indicate that the AK-74 bullet acts in the manner expected of a full-metal-cased military ammunition—it does not expand or fragment when striking soft tissues". Most organs and tissue were too flexible to be severely damaged by the temporary cavity effect caused by yaw and cavitation of a projectile. With the 5.45 mm bullet, tumbling produced a temporary cavity twice, at depths of 100 mm (3.9 in) and 350 mm (13.8 in). This is similar to (but more rapid than) modern 7.62×39mm ammunition and to (non-fragmenting) 5.56 mm ammunition.
+Military 5.45×39mm rounds offer better penetration over (fragmenting) military 5.56×45mm NATO rounds. However, non-fragmenting or full metal jacket 5.56x45mm NATO rounds offer better penetration of armor than 7N6M 5.45x39mm bullets.
+
+
+=== Terminal ballistics against body armor ===
+According to the Russian Defense Ministry's third Central Research Institute the Russian military should consider switching back to improved 7.62×39mm ammunition due to 5.45×39mm penetration insufficiency against body armor at longer ranges.
+
+
+== 5.45×39mm cartridge variants ==
+
+
+=== Enhanced penetration cartridges ===
+As body armor saw increasing use in militaries, the original 7N6 standard service cartridge bullet construction was changed several times to improve penetration. This resulted in the 7N6M, 7N10, 7N22, 7N24 and 7N39 variants.
+The 7N6M (M—Russian: Модернизированный; Modernizirovanniy or "modernized") cartridge was introduced in 1987. In contrast to the original 7N6 unhardened steel rod penetrator the 7N6M rod penetrator is made of steel 65 and hardened to 60 HRC. The 7N6M 3.43 g (52.9 gr) boat-tail bullet can penetrate a 6 mm thick St3 steel plate at 300 m and 6Zh85T body armour at 80 m. 7N6(M) bullets have a red identification ring above the cartridge neck. The US Army's Ballistic Research Laboratory measured a ballistic coefficient (G7 BC) of 0.168 and form factor (G7 i) of 0.929 for the 7N6(M) projectile, which indicates good aerodynamic efficiency and external ballistic performance for the bullet diameter. The rounds are loaded to produce a maximal pressure of 290.00 MPa (42,061 psi).The Bureau of Alcohol, Tobacco, Firearms and Explosives classified the 7N6 cartridge as "armor piercing handgun ammunition" on 7 April 2014, and, as such, it is illegal to import from Russia to the United States.The 7N10 "improved penetration" cartridge was introduced in 1992. The 7N10 boat-tail bullet weighs 3.60 g (55.6 gr) and the weight of the lengthened sleeker steel (high-carbon steel U12A) penetrator made of steel 70 was increased to 1.80 g (27.8 gr) and the lead plug in front of it was discarded. The hollow cavity at the front of these projectiles was reduced significantly compared to previous 7N6(M) projectiles. 
+In 1994 the 7N10 design was improved by filling the remaining hollow cavity in the projectiles front with lead and reducing the weight of the penetrator to 1.72 g (26.5 gr) resulting in a bullet weighing 3.62 g (55.9 gr). Upon impacting a hard target, soft lead is pressed sideways by the steel penetrator, tearing the jacket. It has a ballistic coefficient (G1 BC) of approximately 0.351 and (G7 BC) of approximately 0.176.
+The 7N10 cartridge replaced the previous variants as standard Russian service round and can penetrate a 16 mm thick St3 steel plate at 100 m and 6Zh85T body armour at 200 m. 7N10 bullets have a violet/purple identification ring above the cartridge neck. The 7N10 and 7N6(M) cartridges have practically identical external ballistic characteristics, meaning they can share identical sighting lines and optics on firearms. The rounds are loaded to produce a maximal pressure of 300.00 MPa (43,511 psi).The 7N22 armour-piercing bullet, introduced in 1998, has a 1.75 g (27.0 gr) sharp-pointed steel penetrator made of steel U12A and retains the soft lead plug in the nose for jacket discarding. 7N22 boat-tail bullets weigh 3.69 g (56.9 gr) and can be identified by their red identification ring above the cartridge neck and a black tip. It has a ballistic coefficient (G7 BC) of approximately 0.180. The rounds are loaded to produce a maximal pressure of 290.00 MPa (42,061 psi).The 7N24 "super-armor-piercing" cartridge, introduced in 1999, has a stub cone nosed penetrator made of tungsten carbide (hard alloy VK8). The 7N24 round is loaded with a 4.15 g (64.0 gr) projectile containing a 1.8 g (27.8 gr) penetrator which is fired with a muzzle velocity of 840 m/s (2,756 ft/s) yielding 1,464 J (1,080 ft⋅lbf) muzzle energy. The rounds are loaded to produce a maximal pressure of 300.00 MPa (43,511 psi). 7N24 bullets have a black identification ring above the cartridge neck.
+The 7N39 armor-piercing cartridge, introduced in 2013, has a penetrator made of a tungsten carbide (92%) and cobalt (8%) alloy. The round is loaded with a 4.1 g (63.3 gr) bullet containing a 1.9 g (29.3 gr) penetrator which is fired at a muzzle velocity of 850 m/s (2,789 ft/s) yielding 1,481 J (1,092 ft⋅lbf) muzzle energy. The rounds are loaded to produce a maximal pressure of 300.00 MPa (43,511 psi). 7N39 cartridges have a black identification ring above the cartridge neck.
+
+
+=== Tracer cartridges ===
+Besides that the tracer cartridges 7T3 and 7T3M were developed. The 7T3 production bullet length was 26.54 mm (1.04 in) long and weighed 3.36 g (51.9 gr). After 1976 a new lighter 3.2 g (49.4 gr) and shorter 25.32 mm (1.00 in) long bullet was selected as a replacement for the original bullet. These bullets can be identified by their green marked tips. The tracer projectile has a shorter ogival profile and for 7T3 ammunition burns out to 800 m (870 yd) and for 7T3M ammunition ignites at 50 m (55 yd) burning out to 850 m (930 yd). The rounds are loaded to produce a maximal pressure of 290.00 MPa (42,061 psi).
+
+
+=== Training and instruction cartridges ===
+
+For training purposes the blank cartridges 7H3, 7H3M and 7Kh3 were developed. These rounds have a hollow white plastic imitation projectile. When these training rounds are used, the barrel of the gun is fitted at the muzzle with a Blank Fire Adapter to produce a gas pressure build-up for cycling the gun, as well as a breakup aid for their plastic projectiles.For instruction purposes the 7H4 training or dummy cartridge (which has longitudinal grooves) was developed.
+
+
+=== Special purpose cartridges ===
+For special purposes the 7U1 subsonic cartridge with a black and green painted meplat and CAP cartridge for underwater were developed.
+The 7U1 subsonic cartridge weight is 11 g (170 gr) and is loaded with a 5.2 g (80 gr) projectile which is fired with a muzzle velocity of 303 m/s (994 ft/s) yielding 239 J (176 ft⋅lbf) muzzle energy. Accuracy of fire at 100 m (109 yd) (R50) is 35 mm (1.4 in)
+
+
+=== Basic specifications ===
+R50 at 300 m (328 yd) means the closest 50 percent of the shot group will all be within a circle of the mentioned diameter at 300 m (328 yd).
+The twist rate used in the AK-74M assault rifle that has been adopted as the new service rifle of the Russian Federation in 1991 is 200 mm (7.87 in).
+
+
+== Civil use ==
+The 5.45×39mm was developed by the Soviet Union for military use and it was not intended to create civilian weapons in this chambering. When 5.45×39mm ammunition finally became available for sale to civilians, several arms manufacturers started to offer 5.45×39mm chambered (semi-automatic) AK-74 rifles for civilian use. Sometimes these weapons combine parts originating from Russia or other Eastern European countries and parts produced elsewhere.
+Only a few civilian 5.45×39mm weapons were developed and commercially offered. Non-AK-74 rifles and commercial offerings include the East German Ssg 82 bolt action rifle and the Russian CRS-98 "Vepr-5, 45" semi-automatic carbine and Saiga semi-automatic rifle. In May 2008 the Smith & Wesson M&P15R was introduced. This was a standard AR-15 rifle chambered for the 5.45×39mm cartridge and was Smith & Wesson's first AR-variant rifle in a chambering other than 5.56×45mm NATO and is no longer in current (2012) production. The civilian version of the Tavor TAR-21 rifle produced for the US market includes an optional 5.45×39mm conversion kit.
+
+
+=== Commercial 5.45×39mm ammunition ===
+The US ammunition manufacturer Hornady produces commercial polymer-coated steel case 5.45×39mm ammunition loaded with 3.89 g (60.0 gr) polymer tipped V-MAX bullets with a stated ballistic coefficient (G1 BC) of 0.285.WOLF Performance Ammunition offers several Berdan primed commercial 5.45×39mm loads.
+The Russian ammunition manufacturer Barnaul Cartridge Plant also offers several Berdan primed commercial sporting and hunting 5.45×39mm cartridges. Barnaul states that their 5.45×39mm cartridges produce a maximal pressure of 294,2 MPa (41,054 psi) and have a bullet dispersion R100 of 25 mm (1.0 in) at a range of 100 m (109 yd), meaning every shot of a shot group will be within a circle of the mentioned diameter at 100 m (109 yd). The American firearms corporation Century International Arms offers Ukrainian made 5.45×39mm cartridges with steel casings and bi-metal (copper/steel) jacketed bullets under the Red Army Standard Ammunition brand. The Russian manufacturer Tula Arms Plant states that its Tula Ammunition cartridges comply with the 5.45×39mm C.I.P. rulings producing a maximal pressure of 302.7 MPa (43,900 psi) and keeps their qualities under various climatic and weather conditions independent of the season and at a temperature range from −50 to 50 °C (−58 to 122 °F). Tula's 3.89 g (60.0 gr) full metal jacket bullet has a stated ballistic coefficient (G1 BC) of 0.329 and its 3.89 g (60.0 gr) hollow-point bullet has a stated ballistic coefficient (G1 BC) of 0.301.
+
+
+== Gallery ==
+
+		
+		
+
+
+== See also ==
+7.62×39mm
+9×39mm
+5.45×18mm
+Table of handgun and rifle cartridges
+
+
+== References ==
+
+
+== External links ==
+Fackler ballistics study
+Terminal Ballistics Study - Bosnia - Military Medicine/December 2001
+Photos of various different types of 5.45×39mm ammunition
+5.45x39mm cartridges
+5.45x39 submachine gun cartridges
+Assault Rifles and Their Ammunition: History and Prospects by Anthony G. Williams, Online Article, October 21, 2006
+5.45×39: Small But Perfect, A History of Development (Part 1)

@@ -1,0 +1,114 @@
+Title: ATC code V03
+Aspects: {'V3'}
+
+ATC code V03 All other therapeutic products is a therapeutic subgroup of the Anatomical Therapeutic Chemical Classification System, a system of alphanumeric codes developed by the WHO for the classification of drugs and other medical products. Subgroup V03 is part of the anatomical group V Various.
+Codes for veterinary use (ATCvet codes) can be created by placing the letter Q in front of the human ATC code: for example, QV03. ATCvet codes without corresponding human ATC codes are cited with the leading Q in the following list.National issues of the ATC classification may include additional codes not present in this list, which follows the WHO version.
+
+
+== V03A All other therapeutic products ==
+
+
+=== V03AB Antidotes ===
+V03AB01 Ipecacuanha
+V03AB02 Nalorphine
+V03AB03 Edetates
+V03AB04 Pralidoxime
+V03AB05 Prednisolone and promethazine
+V03AB06 Thiosulfate
+V03AB08 Sodium nitrite
+V03AB09 Dimercaprol
+V03AB13 Obidoxime
+V03AB14 Protamine
+V03AB15 Naloxone
+V03AB16 Ethanol
+V03AB17 Methylthioninium chloride
+V03AB18 Potassium permanganate
+V03AB19 Physostigmine
+V03AB20 Copper sulfate
+V03AB21 Potassium iodide
+V03AB22 Amyl nitrite
+V03AB23 Acetylcysteine
+V03AB24 Digitalis antitoxin
+V03AB25 Flumazenil
+V03AB26 Methionine
+V03AB27 4-dimethylaminophenol
+V03AB29 Cholinesterase
+V03AB31 Prussian blue
+V03AB32 Glutathione
+V03AB33 Hydroxocobalamin
+V03AB34 Fomepizole
+V03AB35 Sugammadex
+V03AB36 Phentolamine
+V03AB37 Idarucizumab
+V03AB38 Andexanet alfa
+QV03AB90 Atipamezole
+QV03AB91 Sarmazenil
+QV03AB92 Diprenorfin
+QV03AB93 Yohimbine
+QV03AB94 Tolazoline
+
+
+=== V03AC Iron chelating agents ===
+V03AC01 Deferoxamine
+V03AC02 Deferiprone
+V03AC03 Deferasirox
+
+
+=== V03AE Drugs for treatment of hyperkalemia and hyperphosphatemia ===
+V03AE01 Polystyrene sulfonate
+V03AE02 Sevelamer
+V03AE03 Lanthanum carbonate
+V03AE04 Calcium acetate and magnesium carbonate
+V03AE05 Sucroferric oxyhydroxide
+V03AE06 Colestilan
+V03AE07 Calcium acetate
+V03AE08 Ferric citrate
+V03AE09 Patiromer calcium
+V03AE10 Sodium zirconium cyclosilicate
+
+
+=== V03AF Detoxifying agents for antineoplastic treatment ===
+V03AF01 Mesna
+V03AF02 Dexrazoxane
+V03AF03 Calcium folinate
+V03AF04 Calcium levofolinate
+V03AF05 Amifostine
+V03AF06 Sodium folinate
+V03AF07 Rasburicase
+V03AF08 Palifermin
+V03AF09 Glucarpidase
+V03AF10 Sodium levofolinate
+
+
+=== V03AG Drugs for treatment of hypercalcemia ===
+V03AG01 Sodium cellulose phosphate
+
+
+=== V03AH Drugs for treatment of hypoglycaemia ===
+V03AH01 Diazoxide
+
+
+=== V03AK Tissue adhesives ===
+
+
+=== V03AM Drugs for embolisation ===
+
+
+=== V03AN Medical gases ===
+V03AN01 Oxygen
+V03AN02 Carbon dioxide
+V03AN03 Helium
+V03AN04 Nitrogen
+V03AN05 Medical air
+
+
+=== V03AX Other therapeutic products ===
+V03AX02 Nalfurafine
+V03AX03 Cobicistat
+
+
+=== V03AZ Nerve depressants ===
+V03AZ01 Ethanol
+
+
+== References ==

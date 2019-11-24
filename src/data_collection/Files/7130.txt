@@ -1,0 +1,35 @@
+Title: AMD K8
+Aspects: {'K8'}
+
+The AMD K8 Hammer, also code-named SledgeHammer, is a computer processor microarchitecture designed by AMD as the successor to the AMD K7 Athlon microarchitecture. The K8 was the first implementation of the AMD64 64-bit extension to the x86 instruction set architecture.
+
+
+== Processors ==
+Processors based on the K8 core include:
+
+Athlon 64 - first 64-bit consumer desktop
+Athlon 64 X2 - first dual-core ('X2') desktop
+Athlon X2 - later model dual-core desktop with '64' omitted
+Athlon 64 FX - enthusiast desktop (multipliers unlocked)
+Sempron - low-end, low-cost desktop
+Opteron -  server market
+Turion 64 - mobile computing market
+Turion 64 X2 - dual-core mobile processorThe K8 core is very similar to the K7. The most radical change is the integration of the AMD64 instructions and an on-chip memory controller. The memory controller drastically reduces memory latency and is largely responsible for most of the performance gains from K7 to K8.
+
+
+== Nomenclature ==
+It is perceived by the PC community that after the use of the codename K8 for the Athlon 64 processor family, AMD no longer uses K-nomenclatures (which originally stood for Kryptonite) since no K-nomenclature naming convention beyond K8 has appeared in official AMD documents and press releases after the beginning of 2005. AMD now refers to the codename K8 processors as the Family 0Fh processors. 10h and 0Fh refer to the main result of the CPUID x86 processor instruction. In hexadecimal numbering, 0F(h) (where the h represents hexadecimal numbering) equals the decimal number 15, and 10(h) equals the decimal number 16. (The "K10h" form that sometimes pops up is an improper hybrid of the "K" code and Family identifier number.)
+
+
+== See also ==
+List of AMD Athlon 64 microprocessors - desktop
+List of AMD Athlon X2 microprocessors - desktop
+List of AMD Sempron microprocessors - low end
+List of AMD Opteron microprocessors - server
+List of AMD Turion microprocessors - mobile
+AMD K9
+AMD 10h
+Jim Keller (engineer)
+
+
+== References ==

@@ -1,0 +1,331 @@
+Title: List of Intel Atom microprocessors
+Aspects: {'N550'}
+
+The Intel Atom is Intel's line of low-power, low-cost and low-performance x86 and x86-64 microprocessors. Atom, with codenames of Silverthorne and Diamondville, was first announced on March 2, 2008.
+For Nettop and Netbook Atom Microprocessors after Diamondville, the memory and graphics controller are moved from the northbridge to the CPU. This explains the drastically increased transistor count for post-Diamondville Atom microprocessors.
+
+
+== Nettop processors (small desktop) ==
+
+
+=== Bonnell microarchitecture ===
+
+
+==== "Diamondville" (45 nm) ====
+All models support: MMX, SSE, SSE2, SSE3, SSSE3, Intel 64, XD bit (an NX bit implementation), hyper-threading
+These models do not support Intel VT-x or SSE4.
+Transistors: 47 million
+Die size: 25.96 mm² (3.27 × 7.94)
+Package size: 22 mm × 22 mm
+Steppings: C0
+
+
+==== "Pineview" (45 nm) ====
+All models support: MMX, SSE, SSE2, SSE3, SSSE3, Intel 64, XD bit (an NX bit implementation), hyper-threading
+These models do not support Intel VT-x or SSE4.
+GMA 3150 GPU and memory controller are integrated into the processor.
+Transistors: 123 million (single-core), 176 million (dual-core)
+Die size: 66 mm² (9.56 × 6.89) (single-core), 87 mm² (9.56 × 9.06) (dual core)
+Package size: 22 mm × 22 mm
+
+
+==== "Cedarview" (32 nm) ====
+All models support: MMX, SSE, SSE2, SSE3, SSSE3, Intel 64, XD bit (an NX bit implementation), hyper-threading (D2550, D2560, D2700, D2701 only)
+These models do not support SSE4.
+PowerVR-based Intel GMA 3600/GMA 3650 GPU and memory controller are integrated into the processor.
+Transistors: ?
+Die size: ?
+Package size: 22 mm × 22 mm
+
+
+== Netbook processors (sub-notebook) ==
+
+
+=== Bonnell microarchitecture ===
+
+
+==== "Diamondville" (45 nm) ====
+All models support: MMX, SSE, SSE2, SSE3, SSSE3, Enhanced Intel SpeedStep Technology (EIST), XD bit (an NX bit implementation), hyper-threading
+These models do not support Intel 64, Intel VT-x, or SSE4.
+Transistors: 47 million
+Die size: 26 mm²
+Package size: 22 mm × 22 mm
+Steppings: C0
+
+
+==== "Pineview" (45 nm) ====
+
+All models support: MMX, SSE, SSE2, SSE3, SSSE3, Intel 64, Enhanced Intel SpeedStep Technology (EIST), XD bit (an NX bit implementation), hyper-threading
+These models do not support Intel VT-x or SSE4 and are limited to 2GB of memory.
+Graphics GMA 3150 and memory controller are integrated into the processor, but graphics sometimes disabled in favor of discrete video chip.
+Transistors: 123 million (single-core), 176 million (dual-core)
+Die size: 66 mm² (9.56 × 6.89) (single-core), 87 mm² (9.56 × 9.06) (dual core)
+Package size: 22 mm × 22 mm
+
+
+==== "Cedarview" (32 nm) ====
+All models support: MMX, SSE, SSE2, SSE3, SSSE3, Intel 64, Enhanced Intel SpeedStep Technology (EIST), XD bit (an NX bit implementation), hyper-threading
+These models do not support Intel VT-x or SSE4.
+Intel GMA 3600/GMA 3650 GPU and memory controller are integrated into the processor.
+Transistors: ? million
+Die size: ?
+Package size: 22 × 22 mm
+
+
+== MID processors/SoCs (UMPC/Smartphone/IoT) ==
+
+
+=== Bonnell microarchitecture ===
+
+
+==== "Silverthorne" (45 nm) ====
+All models support: MMX, SSE, SSE2, SSE3, SSSE3, Enhanced Intel SpeedStep Technology (EIST), XD bit (an NX bit implementation)
+Models Z520, Z520PT, Z530, Z530P, Z540, Z550 and Z560 support  Hyper-Threading and Intel VT-x
+Models Z500, Z510P, Z510PT, and Z515 support Hyper-Threading only
+Model Z515 supports Intel Burst Performance Technology
+GMA 500 GPU and memory controller are integrated onto the processor die
+Transistors: 47 million
+Die size: 26 mm²
+Package size: 13 mm × 14 mm / 22 mm × 22 mm (processors ending with the P or PT sSpec number)
+Steppings: C0
+
+
+==== "Lincroft" (45 nm) ====
+All models support: MMX, SSE, SSE2, SSE3, SSSE3, Enhanced Intel SpeedStep Technology (EIST), XD bit (an NX bit implementation), Hyper-Threading. All except Z605 support Intel Burst Performance Technology (BPT).
+GMA 600 GPU and memory controller are integrated onto the processor die
+Transistors: 140 million
+Die size: 7.34 mm × 8.89 mm = 65.2526 mm²
+Package size: 13.8 mm × 13.8 × 1.0 mm
+Steppings: C0
+
+
+==== "Penwell" (32 nm) ====
+All models support: MMX, SSE, SSE2, SSE3, SSSE3, Enhanced Intel SpeedStep Technology (EIST), XD bit (an NX bit implementation), Intel Burst Performance Technology (BPT), Hyper-threading.
+GPU and memory controller are integrated onto the processor die
+Package size: 12 mm × 12 × 1.0 mm
+Steppings: D1
+Currently used in the Motorola RAZR i smartphone.
+
+
+=== Silvermont microarchitecture ===
+
+
+==== "Merrifield" (22 nm) ====
+All models support: MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, Enhanced Intel SpeedStep Technology (EIST), Intel 64, XD bit (an NX bit implementation), Intel VT-x, AES-NI, Intel Burst Performance Technology (BPT).
+Z3480 also supports Intel Wireless Display.
+GPU (PowerVR G6400) and memory controller are integrated onto the processor die
+Package size: 12 mm × 12 × 1.0 mm
+
+
+==== "Moorefield" (22 nm) ====
+All models support: MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, Enhanced Intel SpeedStep Technology (EIST), Intel 64, XD bit (an NX bit implementation), Intel VT-x, AES-NI, Intel Burst Performance Technology (BPT), Intel Wireless Display.
+GPU (PowerVR G6430) and memory controller are integrated onto the processor die
+Package size: 14 mm × 14 × 1.0 mm
+
+
+==== "SoFIA" (28 nm) ====
+
+SoFIA (smart or feature phone with Intel architecture)
+All models support: MMX, SSE, SSE2, SSE3, SSSE3, SSE4, Enhanced Intel SpeedStep Technology (EIST), Intel 64, XD bit (an NX bit implementation), Intel Burst Performance Technology (BPT), Intel VT-x, AES-NI (based on Silvermont's specs)
+GPU (ARM Mali) and memory controller are integrated onto the processor die
+Package size: 34 × 40 mm
+SoFIA 3G SoC with Silvermont CPU
+Integrated HSPA+ A-GOLD 620: 2G/3G RF, CNV, PMU, Audio (Atom x3-C3130)
+SoFIA 3G–R SoC with Silvermont CPU
+Integrated HSPA+ A-GOLD 620: 2G/3G RF, CNV, PMU, Audio (Atom x3-C3230RK)
+SoFIA LTE (W) with Airmont CPU
+Integrated LTE Cat. 4 (XG726-based), SMARTi™ 4.5, LnP/ CG2000, PMIC (Atom x3-C3440 & C3445)
+
+
+== Tablet processors/SoCs ==
+
+
+=== Bonnell microarchitecture ===
+
+
+==== "Lincroft" (45 nm) ====
+All models support: MMX, SSE, SSE2, SSE3, SSSE3, Enhanced Intel SpeedStep Technology (EIST), XD bit (an NX bit implementation), Hyper-Threading. All except Z605 support Intel Burst Performance Technology (BPT).
+GMA 600 GPU and memory controller are integrated onto the processor die
+Transistors: 140 million
+Die size: 7.34 mm × 8.89 mm = 65.2526 mm²
+Package size: 13.8 mm × 13.8 × 1.0 mm
+Steppings: C0
+
+
+==== "Cloverview" (32 nm) ====
+All models support: MMX, SSE, SSE2, SSE3, SSSE3, Enhanced Intel SpeedStep Technology (EIST), XD bit (an NX bit implementation), Hyper-Threading, Intel Burst Performance Technology (BPT).
+GPU and memory controller are integrated onto the processor die
+Package size: 13.8 mm × 13.8 × 1.0 mm
+Steppings:B1, C0No official TDP available. For power data see  page 129-130.
+
+
+=== Silvermont microarchitecture ===
+
+
+==== "Bay Trail-T" (22 nm) ====
+All models support: MMX, SSE, SSE2, SSE3, SSSE3, SSE4, Enhanced Intel SpeedStep Technology (EIST), Intel 64, XD bit (an NX bit implementation), Intel Burst Performance Technology (BPT), Intel VT-x, AES-NI.
+GPU and memory controller are integrated onto the processor die
+GPU is based on Ivy Bridge Intel HD Graphics, with 4 execution units, and supports DirectX 11, OpenGL 4.0, OpenGL ES 3.1 and OpenCL 1.1 (on Windows).
+Package size: 17 mm × 17 × 1.0 mm
+
+
+=== Airmont microarchitecture ===
+
+
+==== "Cherry Trail-T" (14 nm) ====
+All models support: MMX, SSE, SSE2, SSE3, SSSE3, SSE4, Enhanced Intel SpeedStep Technology (EIST), Intel 64, XD bit (an NX bit implementation), Intel VT-x2 (VT-x with EPT, FlexMigration, FlexPriority and VPID), AES-NI.
+GPU and memory controller are integrated onto the processor die
+GPU is based on 8th generation (Broadwell) Intel HD Graphics, with 12 (x5 models) or 16 (x7 models) execution units, and supports DirectX 11.2, OpenGL 4.3, OpenGL ES 3.1 and OpenCL 1.2 (on Windows).
+Package size: 17 mm × 17 × 1.0 mm
+
+
+== Embedded processors/SoCs ==
+
+
+=== Bonnell microarchitecture ===
+
+
+==== "Tunnel Creek" (45 nm) ====
+CPU core supports IA-32 architecture, MMX, SSE, SSE2, SSE3, SSSE3, Enhanced Intel SpeedStep Technology (EIST), hyper-threading, Intel VT-x. It has 32K L1 Instruction Cache, 24K L1 Data Cache, 512K L2 Cache.
+Peripherals include GMA 600 GPU (two video outputs), memory controller (2GB max), HD Audio controller, SPI controller, 4 channels of PCI Express ×1, and various legacy devices.
+Package size: 22 mm × 22 mm
+Steppings: B0
+Temperature range: for (E620, E640, E660, E680): 0°C to +70°C, for (E620T, E640T, E660T, E680T): -40°C to +85°C.
+
+
+==== "Stellarton" (45 nm) ====
+"Tunnel Creek" CPU with an Altera Field Programmable Gate Array (FPGA)
+CPU core supports IA-32 architecture, MMX, SSE, SSE2, SSE3, SSSE3, Enhanced Intel SpeedStep Technology (EIST), hyper-threading, Intel VT-x. It has 32K L1 Instruction Cache, 24K L1 Data Cache, 512K L2 Cache.
+Peripherals include graphics controller (two video outputs), memory controller (2GB max), HD Audio controller, SPI controller, 4 channels of PCI Express ×1, and various legacy devices.
+Package size: 37.5 mm × 37.5 mm
+Steppings: B0
+TDP without FPGA. Total package TDP depends on functions included in FPGA. Max. TDP 7 W.
+Temperature range: for (E625C, E645C, E665C): 0°C to +70°C, for (E625CT, E645CT, E665CT): -40°C to +85°C.
+
+
+=== Silvermont microarchitecture ===
+
+
+==== "Bay Trail-I" (22 nm) ====
+All models support: MMX, SSE, SSE2, SSE3, SSSE3, Enhanced Intel SpeedStep Technology (EIST), Intel 64, XD bit (an NX bit implementation), Intel VT-x, AES-NI, ECC memory.
+GPU and memory controller are integrated onto the processor die
+GPU is based on Ivy Bridge Intel HD Graphics, with 4 execution units, and supports 2 displays, DirectX 11, OpenGL 4.0, OpenGL ES 3.1 and OpenCL 1.1 (on Windows).
+Peripherals include USB 2.0, HD Audio controller, SATA with 2 ports, UART, and 4 lanes of PCI Express 2.0, in x4, x2, and x1 configurations.
+Package size: 25 mm × 27 mm
+
+
+=== Airmont microarchitecture ===
+
+
+==== "Braswell" (14 nm) ====
+All models support: MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, Enhanced Intel SpeedStep Technology (EIST), Intel 64, XD bit (an NX bit implementation), Intel VT-x, AES-NI.
+GPU and memory controller are integrated onto the processor die
+GPU is based on Broadwell Intel HD Graphics, with 12 execution units, and supports DirectX 11.2, OpenGL 4.3, OpenGL ES 3.0 and OpenCL 1.2 (on Windows).
+Package size: 25 mm × 27 mm
+
+
+=== Goldmont microarchitecture ===
+
+
+==== "Apollo Lake" (14 nm) ====
+All models support: MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, Enhanced Intel SpeedStep Technology (EIST), Intel 64, XD bit (an NX bit implementation), Intel VT-x, Intel VT-d, AES-NI, ECC memory (DDR3).
+GPU and memory controller are integrated onto the processor die
+GPU is based on Skylake Intel HD Graphics, with 12 (x5) or 18 (x7) execution units, and supports HDMI 1.4 (4K @ 30 Hz), DP 1.2 (4K @ 60 Hz), and eDP 1.3 (4K @ 60 Hz).
+Package size: 24 mm × 31 mm
+
+
+== Server SoCs ==
+All Atom server processors include ECC support.
+
+
+=== Bonnell microarchitecture ===
+
+
+==== "Centerton" (32 nm) ====
+All models support: MMX, SSE, SSE2, SSE3, SSSE3, Hyper-threading, Intel 64, Intel VT-x, ECC memory.
+
+
+==== "Briarwood" (32 nm) ====
+All models support: MMX, SSE, SSE2, SSE3, SSSE3, Hyper-threading, Intel 64, Intel VT-x, ECC memory.
+
+
+=== Silvermont microarchitecture ===
+
+
+==== "Avoton" (22 nm) ====
+All models support: MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, Enhanced Intel SpeedStep Technology (EIST), Intel Turbo Boost, Intel 64 (according to Datasheet), XD bit (an NX bit implementation), Intel VT-x, AES-NI, ECC memory.
+Dual-core SoC peripherals include 4 × USB 2.0, 2 × SATA, 2 × Integrated GbE LAN, 2 × UART, and 4 lanes of PCI Express 2.0, in x4, x2, and x1 configurations.
+Quad-core SoC peripherals include 4 × USB 2.0, 2 (C2530) or 6 (C2550) × SATA, 2 × Integrated GbE LAN, 2 × UART, and 8 lanes of PCI Express 2.0, in x8, x4, x2, and x1 configurations.
+C2730 SoC peripherals include 4 × USB 2.0, 2 × SATA, 2 × Integrated GbE LAN, 2 × UART, and 8 lanes of PCI Express 2.0, in x8, x4, x2, and x1 configurations.
+C2750 SoC peripherals include 4 × USB 2.0, 6 × SATA, 4 × Integrated GbE LAN, 2 × UART, and 16 lanes of PCI Express 2.0, in x16, x8, x4, x2, and x1 configurations.
+Package size: 34 mm × 28 mm
+
+
+==== "Rangeley" (22 nm) ====
+All models support: MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, Enhanced Intel SpeedStep Technology (EIST), Intel Turbo Boost, Intel 64, XD bit (an NX bit implementation), Intel VT-x, AES-NI, ECC memory.
+All models except C2x38 support Intel QuickAssist Technology (cryptography accelerator)
+SoC peripherals include 4 × USB 2.0, 4-6 × SATA (1 for C2308, 2 for C2316, C2508, C2516), 4 × Integrated GbE LAN (2 for C2316), 2 × UART, and 8-16 lanes of PCI Express 2.0 (4 lanes for C2308), in x16, x8, x4, x2, and x1 configurations.
+Package size: 34 mm × 28 mm
+
+
+=== Goldmont microarchitecture ===
+
+
+==== "Denverton" (14 nm) ====
+All models support: MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, Enhanced Intel SpeedStep Technology (EIST), Intel Turbo Boost (dual-core, C3xx0, C3xx5 only), Intel 64, XD bit (an NX bit implementation), Intel VT-x, Intel VT-d, AES-NI, ECC memory.
+C3336 also supports Intel SGX.
+SoC peripherals include 8–16 × USB 3.0, 6–16 × SATA (C3xx8 only), 4 × Integrated 1GbE, 2.5GbE, and 10GbE (C3538 and up) LAN, and up to 20 lanes of PCI Express 3.0, in x8, x4, and x2 configurations.
+Package size: 34 mm × 28 mm
+
+
+== CE SoCs ==
+
+
+=== Single-core CE SoCs ===
+
+
+==== "Sodaville" (45 nm) ====
+
+Package size: 27 mm × 27 mm
+GPU (based on the PowerVR SGX535 from Imagination Technologies)
+
+
+==== "Groveland" (45 nm) ====
+CE4200
+Package size: ?? mm × ?? mm
+2 × 32-bit memory channels, up to DDR2-800
+GPU (based on the PowerVR SGX535 from Imagination Technologies)
+
+
+=== Dual-Core CE SoCs ===
+
+
+==== "Berryville" (32 nm) ====
+
+Package size: ?? mm × ?? mm
+GPU for 3D (based on the PowerVR SGX545 from Imagination Technologies)
+GPU for 2D (GC300 from Vivante)
+
+
+== See also ==
+Atom (system on chip)
+Comparison of Intel processors
+List of Intel Celeron microprocessors
+Intel GMA
+Stealey (microprocessor) (A100/A110)
+Geode (processor)
+VIA Nano
+Intel Quark
+Intel Edison
+
+
+== References ==
+
+
+== External links ==
+Intel Atom Processor - Overview
+SSPEC/QDF Reference (Intel)
+Intel Corporation - Processor Price List
+Intel Atom and VIA Nano performance compared
+Intel CPU Transition Roadmap 2008-2013
+Intel Desktop CPU Roadmap 2004-2011

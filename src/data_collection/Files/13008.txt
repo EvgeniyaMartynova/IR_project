@@ -1,0 +1,29 @@
+Title: Theodore Wilbur Anderson
+Aspects: {'T. Anderson'}
+
+Theodore Wilbur Anderson (June 5, 1918 – September 17, 2016) was an American mathematician and statistician who has specialized in the analysis of multivariate data.
+He was born in Minneapolis, Minnesota. He was on the faculty of Columbia University from 1946 until moving to Stanford University in 1967, becoming Emeritus Professor in 1988. He served as Editor of Annals of Mathematical Statistics from 1950 to 1952. He was elected President of the Institute of Mathematical Statistics in 1962.
+Anderson's 1958 textbook, An Introduction to Multivariate Analysis, educated a generation of theorists and applied  statisticians; it was "the classic" in the area until the book by Mardia, Kent and Bibby [1]. Anderson's book emphasizes hypothesis testing via likelihood ratio tests and the properties of power functions: Admissibility, unbiasedness and monotonicity.Anderson is also known for Anderson–Darling test of whether there is evidence that a given sample of data did not arise from a given probability distribution.
+He also framed the Anderson–Bahadur algorithm along with Raghu Raj Bahadur which is used in statistics and engineering for solving binary classification problems when the underlying data have multivariate normal distributions with different covariance matrices.
+
+
+== Awards and honors ==
+He was awarded a Guggenheim Fellowship in 1946.In 1949 he was elected as a Fellow of the American Statistical Association.He was elected a Fellow of the American Academy of Arts and Sciences in 1974.He was a member of the Norwegian Academy of Science and Letters.Anderson died in September 2016 at the age of 98 in Stanford, California after experiencing heart problems.
+
+
+== Selected bibliography ==
+
+
+=== Books ===
+Anderson, T.W. (2004). An introduction to multivariate statistical analysis (3rd ed.). New York: John Wiley and Sons. ISBN 9789812530967.
+
+
+=== Chapters in books ===
+Anderson, T.W. (1960), "Some Stochastic process models for intelligence test scores",  in Arrow, Kenneth J.; Karlin, Samuel; Suppes, Patrick (eds.), Mathematical models in the social sciences, 1959: Proceedings of the first Stanford symposium, Stanford mathematical studies in the social sciences, IV, Stanford, California: Stanford University Press, pp. 205–220, ISBN 9780804700214.
+
+
+== References ==
+
+
+== External links ==
+Theodore Wilbur Anderson at the Mathematics Genealogy Project

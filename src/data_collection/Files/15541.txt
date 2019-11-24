@@ -1,0 +1,30 @@
+Title: X-type asteroid
+Aspects: {'X-type'}
+
+The X-group of asteroids collects together several types with similar spectra, but probably quite different compositions.
+
+
+== Tholen classification ==
+In the Tholen classification the X-group consists of the following types:
+E-type – with high albedo (> 0.30), composed of enstatite, forsterite and feldspar. They are found in the inner main-belt.
+M-type – the largest grouping, intermediate albedo, "metallic", composed of iron and nickel, thought to be the progenitors of nickel–iron meteorites. They are found around 3.0 AU and in the Hungaria region (innermost main-belt).
+P-type – low albedos (< 0.10) with featureless red spectra; presumably composed of carbonaceous chondrites, and found in the outer main-belt and in the Jupiter trojan region.Since in this scheme the albedo is crucial in discriminating between the above types, some objects for which albedo information was not available were assigned an X-type. An example of this is 50 Virginia.
+
+
+== SMASS classification ==
+The SMASS classification
+does not use albedo, but several spectral types are distinguished on the basis of spectral features which were too subtle to be visible in the broad-band ECAS survey used for the Tholen scheme. The X-group contains the types:
+
+core X-type containing the asteroids with the most "typical" spectra
+Xe-type of asteroids whose spectra contain a moderately broad absorption band around 0.49 μm. It has been suggested that this indicates the presence of troilite (FeS). There is some correlation between this group and the Tholen E-type.
+Xc- and Xk-type asteroids, which contain a broad convex spectral feature in the range 0.55 μm to 0.8 μm (i.e. increased flux in this range). These spectra tend to be intermediate between the core X-type and the C and K-type.Apart from the Xe-type, there is no significant correlation between the split into these SMASS types and the Tholen E, M, and P-types. All the types in the X-group contain a mixture of asteroids classified as either type E, M, or P.
+
+
+== See also ==
+Asteroid spectral types
+L-type asteroid
+S-type asteroid
+K-type asteroid
+
+
+== References ==

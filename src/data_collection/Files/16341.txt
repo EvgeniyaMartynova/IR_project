@@ -1,0 +1,20 @@
+Title: Er:YAG laser
+Aspects: {'YAG laser'}
+
+An Er:YAG laser (erbium-doped yttrium aluminium garnet laser, erbium YAG laser) is a solid-state laser whose active laser medium is erbium-doped yttrium aluminium garnet (Er:Y3Al5O12). Er:YAG lasers typically emit light with a wavelength of 2940 nm, which is infrared light.
+
+
+== Applications ==
+Unlike Nd:YAG lasers, the output of an Er:YAG laser is strongly absorbed by water. This fact limits the use of this laser in surgery, and in many other laser applications where water is present. Because of this limitation, Er:YAG lasers are far less common than their relatives such as Nd:YAG and Er:glass lasers.
+Erbium-YAG lasers have been used for laser resurfacing of human skin. Example uses include treating acne scarring, deep rhytides, and melasma. In addition to being absorbed by water, the output of Er:YAG lasers is also absorbed by hydroxyapatite, which makes it a good laser for cutting bone as well as soft tissue. Bone surgery applications have been found in oral surgery, dentistry, implant dentistry, and otolaryngology. Er:YAG lasers are safer for the removal of warts than carbon dioxide lasers, because human papillomavirus (HPV) DNA is not found in the laser plume. Er:YAG lasers can be used in laser aided cataract surgery but owing to its water absorbable nature Nd:YAG is preferred more.Erbium YAG dental lasers are effective for removing tooth decay atraumatically, often without the need for local anesthetic to numb the tooth. Eliminating the vibration of the dental drill removes the risk of causing microfractures in the tooth. When used initially at low power settings, the laser energy has a sedative effect on the nerve, resulting in the ability to subsequently increase the power without creating the sensation of pain in the tooth. Additional benefits are disinfection of the surface of the dentin and enamel prior to bonding the filling, and etching the surface to increase surface area for improved bonding adhesion.
+
+
+== References ==
+
+
+== Further reading ==
+Apitz, I.; Vogel, A. (2005). "Material ejection in nanosecond Er:YAG laser ablation of water, liver, and skin". Applied Physics A. 81 (2): 329–338. Bibcode:2005ApPhA..81..329A. doi:10.1007/s00339-005-3213-5. ISSN 0947-8396.
+
+
+== External links ==
+DOE about Er-YAG lasers 1994

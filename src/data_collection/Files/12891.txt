@@ -1,0 +1,2089 @@
+Title: Hotelling's T-squared distribution
+Aspects: {'T distribution'}
+
+In statistics Hotelling's T-squared distribution (T2) is a multivariate distribution proportional to the F-distribution and arises importantly as the distribution of a set of statistics which are natural generalizations of the statistics underlying Student's t-distribution. 
+Hotelling's t-squared statistic (t2) is a generalization of Student's t-statistic that is used in multivariate hypothesis testing.
+
+
+== Distribution ==
+
+
+=== Motivation ===
+The distribution arises in multivariate statistics in undertaking tests of the differences between the (multivariate) means of different populations, where tests for univariate problems would make use of a t-test.
+The distribution is named for Harold Hotelling, who developed it as a generalization of Student's t-distribution.
+
+
+=== Definition ===
+If the vector pd1 is Gaussian multivariate-distributed with zero mean and unit covariance matrix N(p01,pIp) and pMp is a p x p matrix with unit scale matrix and m degrees of freedom with a Wishart distribution W(pIp,m), then the Quadratic form m(1dT p M−1pd1) has a Hotelling T2(p,m) distribution with dimensionality parameter p and m degrees of freedom.If a random variable X has Hotelling's T-squared distribution, 
+  
+    
+      
+        X
+        ∼
+        
+          T
+          
+            p
+            ,
+            m
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle X\sim T_{p,m}^{2}}
+  , then:
+
+  
+    
+      
+        
+          
+            
+              m
+              −
+              p
+              +
+              1
+            
+            
+              p
+              m
+            
+          
+        
+        X
+        ∼
+        
+          F
+          
+            p
+            ,
+            m
+            −
+            p
+            +
+            1
+          
+        
+      
+    
+    {\displaystyle {\frac {m-p+1}{pm}}X\sim F_{p,m-p+1}}
+  where 
+  
+    
+      
+        
+          F
+          
+            p
+            ,
+            m
+            −
+            p
+            +
+            1
+          
+        
+      
+    
+    {\displaystyle F_{p,m-p+1}}
+   is the F-distribution with parameters p and m−p+1.
+
+
+== Statistic ==
+The definition of this multivariate sample statistic follows after it is motivated using a simpler problem.
+
+
+=== Motivation ===
+
+Let 
+  
+    
+      
+        
+          
+            
+              N
+            
+          
+          
+            p
+          
+        
+        (
+        
+          μ
+        
+        ,
+        
+          
+            Σ
+          
+        
+        )
+      
+    
+    {\displaystyle {\mathcal {N}}_{p}({\boldsymbol {\mu }},{\mathbf {\Sigma } })}
+   denote a p-variate normal distribution with location 
+  
+    
+      
+        
+          μ
+        
+      
+    
+    {\displaystyle {\boldsymbol {\mu }}}
+   and known covariance 
+  
+    
+      
+        
+          
+            Σ
+          
+        
+      
+    
+    {\displaystyle {\mathbf {\Sigma } }}
+  . Let
+
+  
+    
+      
+        
+          
+            
+              x
+            
+          
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          
+            
+              x
+            
+          
+          
+            n
+          
+        
+        ∼
+        
+          
+            
+              N
+            
+          
+          
+            p
+          
+        
+        (
+        
+          μ
+        
+        ,
+        
+          
+            Σ
+          
+        
+        )
+      
+    
+    {\displaystyle {\mathbf {x} }_{1},\dots ,{\mathbf {x} }_{n}\sim {\mathcal {N}}_{p}({\boldsymbol {\mu }},{\mathbf {\Sigma } })}
+  be n independent identically distributed (iid) random variables, which may be represented as 
+  
+    
+      
+        p
+        ×
+        1
+      
+    
+    {\displaystyle p\times 1}
+   column vectors of real numbers. Define
+
+  
+    
+      
+        
+          
+            
+              x
+            
+            ¯
+          
+        
+        =
+        
+          
+            
+              
+                
+                  x
+                
+                
+                  1
+                
+              
+              +
+              ⋯
+              +
+              
+                
+                  x
+                
+                
+                  n
+                
+              
+            
+            n
+          
+        
+      
+    
+    {\displaystyle {\overline {\mathbf {x} }}={\frac {\mathbf {x} _{1}+\cdots +\mathbf {x} _{n}}{n}}}
+  to be the sample mean with covariance 
+  
+    
+      
+        
+          
+            
+              Σ
+            
+          
+          
+            
+              
+                
+                  x
+                
+                ¯
+              
+            
+          
+        
+        =
+        
+          
+            Σ
+          
+        
+        
+          /
+        
+        n
+      
+    
+    {\displaystyle {\mathbf {\Sigma } }_{\bar {\mathbf {x} }}={\mathbf {\Sigma } }/n}
+  . It can be shown that
+
+  
+    
+      
+        (
+        
+          
+            
+              
+                x
+              
+              ¯
+            
+          
+        
+        −
+        
+          μ
+        
+        
+          )
+          ′
+        
+        
+          
+            
+              Σ
+            
+          
+          
+            
+              
+                
+                  x
+                
+                ¯
+              
+            
+          
+          
+            −
+            1
+          
+        
+        (
+        
+          
+            
+              
+                x
+              
+              ¯
+            
+          
+        
+        −
+        
+          
+            μ
+          
+        
+        )
+        ∼
+        
+          χ
+          
+            p
+          
+          
+            2
+          
+        
+        ,
+      
+    
+    {\displaystyle ({\bar {\mathbf {x} }}-{\boldsymbol {\mu }})'{\mathbf {\Sigma } }_{\bar {\mathbf {x} }}^{-1}({\bar {\mathbf {x} }}-{\boldsymbol {\mathbf {\mu } }})\sim \chi _{p}^{2},}
+  where 
+  
+    
+      
+        
+          χ
+          
+            p
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \chi _{p}^{2}}
+   is the chi-squared distribution with p degrees of freedom. 
+
+
+=== Definition ===
+
+The covariance matrix 
+  
+    
+      
+        
+          
+            Σ
+          
+        
+      
+    
+    {\displaystyle {\mathbf {\Sigma } }}
+   used above is often unknown.
+Here we use instead the sample covariance:
+
+  
+    
+      
+        
+          
+            
+              
+                Σ
+              
+              ^
+            
+          
+        
+        =
+        
+          
+            1
+            
+              n
+              −
+              1
+            
+          
+        
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        (
+        
+          
+            x
+          
+          
+            i
+          
+        
+        −
+        
+          
+            
+              x
+            
+            ¯
+          
+        
+        )
+        (
+        
+          
+            x
+          
+          
+            i
+          
+        
+        −
+        
+          
+            
+              x
+            
+            ¯
+          
+        
+        
+          )
+          ′
+        
+      
+    
+    {\displaystyle {\hat {\mathbf {\Sigma } }}={\frac {1}{n-1}}\sum _{i=1}^{n}(\mathbf {x} _{i}-{\overline {\mathbf {x} }})(\mathbf {x} _{i}-{\overline {\mathbf {x} }})'}
+  where we denote transpose by an apostrophe.  It can be shown that 
+  
+    
+      
+        
+          
+            
+              
+                Σ
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\mathbf {\Sigma } }}}
+   is a positive (semi) definite matrix and 
+  
+    
+      
+        (
+        n
+        −
+        1
+        )
+        
+          
+            
+              
+                Σ
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle (n-1){\hat {\mathbf {\Sigma } }}}
+   follows a p-variate Wishart distribution with n−1 degrees of freedom. 
+The sample covariance matrix of the mean reads 
+  
+    
+      
+        
+          
+            
+              
+                
+                  Σ
+                
+                ^
+              
+            
+          
+          
+            
+              
+                x
+              
+              ¯
+            
+          
+        
+        =
+        
+          
+            
+              
+                Σ
+              
+              ^
+            
+          
+        
+        
+          /
+        
+        n
+      
+    
+    {\displaystyle {\hat {\mathbf {\Sigma } }}_{\overline {\mathbf {x} }}={\hat {\mathbf {\Sigma } }}/n}
+  .  
+The Hotelling's t-squared statistic is then defined as:
+
+  
+    
+      
+        
+          t
+          
+            2
+          
+        
+        =
+        (
+        
+          
+            
+              x
+            
+            ¯
+          
+        
+        −
+        
+          μ
+        
+        
+          )
+          ′
+        
+        
+          
+            
+              
+                
+                  Σ
+                
+                ^
+              
+            
+          
+          
+            
+              
+                x
+              
+              ¯
+            
+          
+          
+            −
+            1
+          
+        
+        (
+        
+          
+            
+              x
+            
+            ¯
+          
+        
+        −
+        
+          
+            μ
+          
+        
+        )
+      
+    
+    {\displaystyle t^{2}=({\overline {\mathbf {x} }}-{\boldsymbol {\mu }})'{\hat {\mathbf {\Sigma } }}_{\overline {\mathbf {x} }}^{-1}({\overline {\mathbf {x} }}-{\boldsymbol {\mathbf {\mu } }})}
+  Also, from the distribution,
+
+  
+    
+      
+        
+          t
+          
+            2
+          
+        
+        ∼
+        
+          T
+          
+            p
+            ,
+            n
+            −
+            1
+          
+          
+            2
+          
+        
+        =
+        
+          
+            
+              p
+              (
+              n
+              −
+              1
+              )
+            
+            
+              n
+              −
+              p
+            
+          
+        
+        
+          F
+          
+            p
+            ,
+            n
+            −
+            p
+          
+        
+        ,
+      
+    
+    {\displaystyle t^{2}\sim T_{p,n-1}^{2}={\frac {p(n-1)}{n-p}}F_{p,n-p},}
+  where 
+  
+    
+      
+        
+          F
+          
+            p
+            ,
+            n
+            −
+            p
+          
+        
+      
+    
+    {\displaystyle F_{p,n-p}}
+   is the F-distribution with parameters p and n − p. 
+In order to calculate a p-value (unrelated to p variable here), note that the distribution of 
+  
+    
+      
+        
+          t
+          
+            2
+          
+        
+      
+    
+    {\displaystyle t^{2}}
+   equivalently implies that 
+
+  
+    
+      
+        
+          
+            
+              n
+              −
+              p
+            
+            
+              p
+              (
+              n
+              −
+              1
+              )
+            
+          
+        
+        
+          t
+          
+            2
+          
+        
+        ∼
+        
+          F
+          
+            p
+            ,
+            n
+            −
+            p
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {n-p}{p(n-1)}}t^{2}\sim F_{p,n-p}.}
+  Then, use the quantity on the left hand side to evaluate the p-value corresponding to the sample, which comes from the F-distribution.
+
+
+== Two-sample statistic ==
+If 
+  
+    
+      
+        
+          
+            
+              x
+            
+          
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          
+            
+              x
+            
+          
+          
+            
+              n
+              
+                x
+              
+            
+          
+        
+        ∼
+        
+          N
+          
+            p
+          
+        
+        (
+        
+          μ
+        
+        ,
+        
+          
+            V
+          
+        
+        )
+      
+    
+    {\displaystyle {\mathbf {x} }_{1},\dots ,{\mathbf {x} }_{n_{x}}\sim N_{p}({\boldsymbol {\mu }},{\mathbf {V} })}
+   and 
+  
+    
+      
+        
+          
+            
+              y
+            
+          
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          
+            
+              y
+            
+          
+          
+            
+              n
+              
+                y
+              
+            
+          
+        
+        ∼
+        
+          N
+          
+            p
+          
+        
+        (
+        
+          μ
+        
+        ,
+        
+          
+            V
+          
+        
+        )
+      
+    
+    {\displaystyle {\mathbf {y} }_{1},\dots ,{\mathbf {y} }_{n_{y}}\sim N_{p}({\boldsymbol {\mu }},{\mathbf {V} })}
+  , with the samples independently drawn from two independent multivariate normal distributions with the same mean and covariance, and we define
+
+  
+    
+      
+        
+          
+            
+              x
+            
+            ¯
+          
+        
+        =
+        
+          
+            1
+            
+              n
+              
+                x
+              
+            
+          
+        
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            
+              n
+              
+                x
+              
+            
+          
+        
+        
+          
+            x
+          
+          
+            i
+          
+        
+        
+        
+          
+            
+              y
+            
+            ¯
+          
+        
+        =
+        
+          
+            1
+            
+              n
+              
+                y
+              
+            
+          
+        
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            
+              n
+              
+                y
+              
+            
+          
+        
+        
+          
+            y
+          
+          
+            i
+          
+        
+      
+    
+    {\displaystyle {\overline {\mathbf {x} }}={\frac {1}{n_{x}}}\sum _{i=1}^{n_{x}}\mathbf {x} _{i}\qquad {\overline {\mathbf {y} }}={\frac {1}{n_{y}}}\sum _{i=1}^{n_{y}}\mathbf {y} _{i}}
+  as the sample means, and
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  Σ
+                
+                ^
+              
+            
+          
+          
+            
+              x
+            
+          
+        
+        =
+        
+          
+            1
+            
+              
+                n
+                
+                  x
+                
+              
+              −
+              1
+            
+          
+        
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            
+              n
+              
+                x
+              
+            
+          
+        
+        (
+        
+          
+            x
+          
+          
+            i
+          
+        
+        −
+        
+          
+            
+              x
+            
+            ¯
+          
+        
+        )
+        (
+        
+          
+            x
+          
+          
+            i
+          
+        
+        −
+        
+          
+            
+              x
+            
+            ¯
+          
+        
+        
+          )
+          ′
+        
+      
+    
+    {\displaystyle {\hat {\mathbf {\Sigma } }}_{\mathbf {x} }={\frac {1}{n_{x}-1}}\sum _{i=1}^{n_{x}}(\mathbf {x} _{i}-{\overline {\mathbf {x} }})(\mathbf {x} _{i}-{\overline {\mathbf {x} }})'}
+  
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  Σ
+                
+                ^
+              
+            
+          
+          
+            
+              y
+            
+          
+        
+        =
+        
+          
+            1
+            
+              
+                n
+                
+                  y
+                
+              
+              −
+              1
+            
+          
+        
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            
+              n
+              
+                y
+              
+            
+          
+        
+        (
+        
+          
+            y
+          
+          
+            i
+          
+        
+        −
+        
+          
+            
+              y
+            
+            ¯
+          
+        
+        )
+        (
+        
+          
+            y
+          
+          
+            i
+          
+        
+        −
+        
+          
+            
+              y
+            
+            ¯
+          
+        
+        
+          )
+          ′
+        
+      
+    
+    {\displaystyle {\hat {\mathbf {\Sigma } }}_{\mathbf {y} }={\frac {1}{n_{y}-1}}\sum _{i=1}^{n_{y}}(\mathbf {y} _{i}-{\overline {\mathbf {y} }})(\mathbf {y} _{i}-{\overline {\mathbf {y} }})'}
+  as the respective sample covariance matrices.  Then
+
+  
+    
+      
+        
+          
+            
+              
+                Σ
+              
+              ^
+            
+          
+        
+        =
+        
+          
+            
+              (
+              
+                n
+                
+                  x
+                
+              
+              −
+              1
+              )
+              
+                
+                  
+                    
+                      
+                        Σ
+                      
+                      ^
+                    
+                  
+                
+                
+                  
+                    x
+                  
+                
+              
+              +
+              (
+              
+                n
+                
+                  y
+                
+              
+              −
+              1
+              )
+              
+                
+                  
+                    
+                      
+                        Σ
+                      
+                      ^
+                    
+                  
+                
+                
+                  
+                    y
+                  
+                
+              
+            
+            
+              
+                n
+                
+                  x
+                
+              
+              +
+              
+                n
+                
+                  y
+                
+              
+              −
+              2
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\mathbf {\Sigma } }}={\frac {(n_{x}-1){\hat {\mathbf {\Sigma } }}_{\mathbf {x} }+(n_{y}-1){\hat {\mathbf {\Sigma } }}_{\mathbf {y} }}{n_{x}+n_{y}-2}}}
+  is the unbiased pooled covariance matrix estimate (an extension of pooled variance).
+Finally, the Hotelling's two-sample t-squared statistic is
+
+  
+    
+      
+        
+          t
+          
+            2
+          
+        
+        =
+        
+          
+            
+              
+                n
+                
+                  x
+                
+              
+              
+                n
+                
+                  y
+                
+              
+            
+            
+              
+                n
+                
+                  x
+                
+              
+              +
+              
+                n
+                
+                  y
+                
+              
+            
+          
+        
+        (
+        
+          
+            
+              x
+            
+            ¯
+          
+        
+        −
+        
+          
+            
+              y
+            
+            ¯
+          
+        
+        
+          )
+          ′
+        
+        
+          
+            
+              
+                
+                  Σ
+                
+                ^
+              
+            
+          
+          
+            −
+            1
+          
+        
+        (
+        
+          
+            
+              x
+            
+            ¯
+          
+        
+        −
+        
+          
+            
+              y
+            
+            ¯
+          
+        
+        )
+        ∼
+        
+          T
+          
+            2
+          
+        
+        (
+        p
+        ,
+        
+          n
+          
+            x
+          
+        
+        +
+        
+          n
+          
+            y
+          
+        
+        −
+        2
+        )
+      
+    
+    {\displaystyle t^{2}={\frac {n_{x}n_{y}}{n_{x}+n_{y}}}({\overline {\mathbf {x} }}-{\overline {\mathbf {y} }})'{\hat {\mathbf {\Sigma } }}^{-1}({\overline {\mathbf {x} }}-{\overline {\mathbf {y} }})\sim T^{2}(p,n_{x}+n_{y}-2)}
+  
+
+
+=== Related concepts ===
+It can be related to the F-distribution by
+
+  
+    
+      
+        
+          
+            
+              
+                n
+                
+                  x
+                
+              
+              +
+              
+                n
+                
+                  y
+                
+              
+              −
+              p
+              −
+              1
+            
+            
+              (
+              
+                n
+                
+                  x
+                
+              
+              +
+              
+                n
+                
+                  y
+                
+              
+              −
+              2
+              )
+              p
+            
+          
+        
+        
+          t
+          
+            2
+          
+        
+        ∼
+        F
+        (
+        p
+        ,
+        
+          n
+          
+            x
+          
+        
+        +
+        
+          n
+          
+            y
+          
+        
+        −
+        1
+        −
+        p
+        )
+        .
+      
+    
+    {\displaystyle {\frac {n_{x}+n_{y}-p-1}{(n_{x}+n_{y}-2)p}}t^{2}\sim F(p,n_{x}+n_{y}-1-p).}
+  The non-null distribution of this statistic is the noncentral F-distribution (the ratio of a non-central Chi-squared random variable and an independent central Chi-squared random variable) 
+
+  
+    
+      
+        
+          
+            
+              
+                n
+                
+                  x
+                
+              
+              +
+              
+                n
+                
+                  y
+                
+              
+              −
+              p
+              −
+              1
+            
+            
+              (
+              
+                n
+                
+                  x
+                
+              
+              +
+              
+                n
+                
+                  y
+                
+              
+              −
+              2
+              )
+              p
+            
+          
+        
+        
+          t
+          
+            2
+          
+        
+        ∼
+        F
+        (
+        p
+        ,
+        
+          n
+          
+            x
+          
+        
+        +
+        
+          n
+          
+            y
+          
+        
+        −
+        1
+        −
+        p
+        ;
+        δ
+        )
+        ,
+      
+    
+    {\displaystyle {\frac {n_{x}+n_{y}-p-1}{(n_{x}+n_{y}-2)p}}t^{2}\sim F(p,n_{x}+n_{y}-1-p;\delta ),}
+  with 
+
+  
+    
+      
+        δ
+        =
+        
+          
+            
+              
+                n
+                
+                  x
+                
+              
+              
+                n
+                
+                  y
+                
+              
+            
+            
+              
+                n
+                
+                  x
+                
+              
+              +
+              
+                n
+                
+                  y
+                
+              
+            
+          
+        
+        
+          
+            ν
+          
+          ′
+        
+        
+          
+            V
+          
+          
+            −
+            1
+          
+        
+        
+          ν
+        
+        ,
+      
+    
+    {\displaystyle \delta ={\frac {n_{x}n_{y}}{n_{x}+n_{y}}}{\boldsymbol {\nu }}'\mathbf {V} ^{-1}{\boldsymbol {\nu }},}
+  where 
+  
+    
+      
+        
+          ν
+        
+        =
+        
+          
+            
+              x
+              ¯
+            
+          
+          −
+          
+            
+              y
+              ¯
+            
+          
+        
+      
+    
+    {\displaystyle {\boldsymbol {\nu }}=\mathbf {{\overline {x}}-{\overline {y}}} }
+   is the difference vector between the population means.
+In the two-variable case, the formula simplifies nicely allowing appreciation of how the correlation, 
+  
+    
+      
+        ρ
+      
+    
+    {\displaystyle \rho }
+  , 
+between the variables affects 
+  
+    
+      
+        
+          t
+          
+            2
+          
+        
+      
+    
+    {\displaystyle t^{2}}
+  . If we define
+
+  
+    
+      
+        
+          d
+          
+            1
+          
+        
+        =
+        
+          
+            
+              x
+              ¯
+            
+          
+          
+            1
+          
+        
+        −
+        
+          
+            
+              y
+              ¯
+            
+          
+          
+            1
+          
+        
+        ,
+        
+        
+          d
+          
+            2
+          
+        
+        =
+        
+          
+            
+              x
+              ¯
+            
+          
+          
+            2
+          
+        
+        −
+        
+          
+            
+              y
+              ¯
+            
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle d_{1}={\overline {x}}_{1}-{\overline {y}}_{1},\qquad d_{2}={\overline {x}}_{2}-{\overline {y}}_{2}}
+  and 
+
+  
+    
+      
+        
+          s
+          
+            1
+          
+        
+        =
+        
+          
+            
+              W
+              
+                11
+              
+            
+          
+        
+        
+        
+          s
+          
+            2
+          
+        
+        =
+        
+          
+            
+              W
+              
+                22
+              
+            
+          
+        
+        
+        ρ
+        =
+        
+          W
+          
+            12
+          
+        
+        
+          /
+        
+        (
+        
+          s
+          
+            1
+          
+        
+        
+          s
+          
+            2
+          
+        
+        )
+        =
+        
+          W
+          
+            21
+          
+        
+        
+          /
+        
+        (
+        
+          s
+          
+            1
+          
+        
+        
+          s
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle s_{1}={\sqrt {W_{11}}}\qquad s_{2}={\sqrt {W_{22}}}\qquad \rho =W_{12}/(s_{1}s_{2})=W_{21}/(s_{1}s_{2})}
+  then
+
+  
+    
+      
+        
+          t
+          
+            2
+          
+        
+        =
+        
+          
+            
+              
+                n
+                
+                  x
+                
+              
+              
+                n
+                
+                  y
+                
+              
+            
+            
+              (
+              
+                n
+                
+                  x
+                
+              
+              +
+              
+                n
+                
+                  y
+                
+              
+              )
+              (
+              1
+              −
+              
+                r
+                
+                  2
+                
+              
+              )
+            
+          
+        
+        
+          [
+          
+            
+              
+                (
+                
+                  
+                    
+                      d
+                      
+                        1
+                      
+                    
+                    
+                      s
+                      
+                        1
+                      
+                    
+                  
+                
+                )
+              
+              
+                2
+              
+            
+            +
+            
+              
+                (
+                
+                  
+                    
+                      d
+                      
+                        2
+                      
+                    
+                    
+                      s
+                      
+                        2
+                      
+                    
+                  
+                
+                )
+              
+              
+                2
+              
+            
+            −
+            2
+            ρ
+            
+              (
+              
+                
+                  
+                    d
+                    
+                      1
+                    
+                  
+                  
+                    s
+                    
+                      1
+                    
+                  
+                
+              
+              )
+            
+            
+              (
+              
+                
+                  
+                    d
+                    
+                      2
+                    
+                  
+                  
+                    s
+                    
+                      2
+                    
+                  
+                
+              
+              )
+            
+          
+          ]
+        
+      
+    
+    {\displaystyle t^{2}={\frac {n_{x}n_{y}}{(n_{x}+n_{y})(1-r^{2})}}\left[\left({\frac {d_{1}}{s_{1}}}\right)^{2}+\left({\frac {d_{2}}{s_{2}}}\right)^{2}-2\rho \left({\frac {d_{1}}{s_{1}}}\right)\left({\frac {d_{2}}{s_{2}}}\right)\right]}
+  Thus, if the differences in the two rows of the vector 
+  
+    
+      
+        (
+        
+          
+            
+              x
+            
+            ¯
+          
+        
+        −
+        
+          
+            
+              y
+            
+            ¯
+          
+        
+        )
+      
+    
+    {\displaystyle ({\overline {\mathbf {x} }}-{\overline {\mathbf {y} }})}
+   are of the same sign, in general, 
+  
+    
+      
+        
+          t
+          
+            2
+          
+        
+      
+    
+    {\displaystyle t^{2}}
+   becomes smaller as 
+  
+    
+      
+        ρ
+      
+    
+    {\displaystyle \rho }
+   becomes more positive. If the differences are of opposite sign 
+  
+    
+      
+        
+          t
+          
+            2
+          
+        
+      
+    
+    {\displaystyle t^{2}}
+   becomes larger as 
+  
+    
+      
+        ρ
+      
+    
+    {\displaystyle \rho }
+   becomes more positive.
+A univariate special case can be found in Welch's t-test.
+More robust and powerful tests than Hotelling's two-sample test have been proposed in the literature, see for example the interpoint distance based tests which can be applied also when the number of variables is comparable with, or even larger than, the number of subjects.
+
+
+== See also ==
+Student's t-test in univariate statistics
+Student's t-distribution in univariate probability theory
+Multivariate Student distribution
+F-distribution (commonly tabulated or available in software libraries, and hence used for testing the T-squared statistic using the relationship given above)
+Wilks's lambda distribution (in multivariate statistics, Wilks's Λ is to Hotelling's T2 as Snedecor's F is to Student's t in univariate statistics)
+
+
+== References ==
+
+
+== External links ==
+Prokhorov, A.V. (2001) [1994], "Hotelling T2-distribution",  in Hazewinkel, Michiel (ed.), Encyclopedia of Mathematics, Springer Science+Business Media B.V. / Kluwer Academic Publishers, ISBN 978-1-55608-010-4

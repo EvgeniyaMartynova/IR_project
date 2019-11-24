@@ -1,0 +1,106 @@
+Title: Web shell
+Aspects: {'R57'}
+
+A web shell is a web security threat that is a web-based implementation of the shell concept. A web shell is able to be uploaded to a web server to allow remote access to the web server, such as the web server's file system. A web shell is unique in that it enables users to access a web server by way of a web browser that acts like a command-line interface. A user can access a remote computer via the World Wide Web using a web browser on any type of system, whether it's a desktop computer or a mobile phone with a web browser, and perform tasks on the remote system. No command-line environment is required on either the host or the client. A web shell is often considered a remote access trojan.A web shell could be programmed in any language that the target server supports. Web shells are most commonly written in PHP, Active Server Pages, or ASP.NET, but  Python, Perl, Ruby and Unix shell scripts are also used, although not as common because it is not very common for web servers to support these languages.Using network monitoring tools such as Wireshark, an attacker can find vulnerabilities which are exploited resulting in a web shell installation. These vulnerabilities may be present in content management system applications (abbreviated CMS) or the web server's software.An attacker can use a web shell to issue commands, perform privilege escalation on the web server, and the ability to upload, delete, download and run scripts and files on the web server.
+
+
+== General usage ==
+Web shells are used in attacks mostly because they are multi-purpose and are difficult to detect.Web shells are commonly used for:
+
+Data theft
+Infecting website visitors (watering hole attacks)
+Website defacement by modifying files with a malicious intent
+Launch distributed denial of service (DDoS) attacks
+To relay commands inside the network which is inaccessible over the Internet
+To use as command and control base, for example as a bot in a botnet system or in way to compromise the security of additional external networks.
+
+
+== Delivery of web shells ==
+
+Web shells are installed through vulnerabilities in web application or weak server security configuration including the following:
+SQL injection;
+Vulnerabilities in applications and services (e.g. web server software such as NGINX or content management system applications such as WordPress);
+File processing and uploading vulnerabilities, which can be mitigated by e.g. limiting the file types that can be uploaded;
+Remote file inclusion (RFI) and local file inclusion (LFI) vulnerabilities;
+Remote code execution;
+Exposed administration interfaces;
+Cross-site scriptingAn attacker may also modify (spoof) the Content-Type header to be sent by the attacker in a file upload to bypass improper file validation (validation using MIME type sent by the client) and upload the attacker's shell.
+
+
+== Examples of web shells ==
+
+b374k – A web shell written in PHP with abilities such as monitoring processes & command execution. The latest version of the b374k shell is 3.2.3.
+C99 – A web shell capable of showing the web server's security standards and has a self-destruction option. The original version of C99Shell does not work in PHP 7 due to removed functions.
+China Chopper – A web shell which is only 4 kilobytes in size, which was first discovered in 2012. This web shell is commonly used by malicious Chinese actors, including advanced persistent threat (APT) groups, to remotely access web servers. This web shell has two parts, the client interface (an executable file) and the receiver host file on the compromised web server. Has many commands and control features such as a password brute-force attack option.
+R57 – The R57 web shell has tools to scan the infected web server for other web shell installations, with the option to remove or overwrite them.
+WSO (web shell by orb) – Has the ability to be password protected with a login form, some variants can disguise as a fake HTTP error page.Web shells can be as short as just one line of code. The following example PHP script is 15 bytes in size:
+
+ 
+If an attacker inserts this line of code into a malicious file with a PHP filename extension (such as .php) on a web server that is running PHP, the attacker can issue commands, for example reading the /etc/passwd file, through a web browser using the following Uniform Resource Locator if the web shell was located at uploads/webshell.php (regardless if the page is encrypted with TLS or SSL):
+
+http://example.com/uploads/webshell.php?x=cat%20%2Fetc%2Fpasswd
+
+The above request will take the value of the x URL parameter, decode the URL and send the following Bash command:
+
+ 
+If the permissions of the /etc/passwd file allow viewing the file, the web server will send the contents of /etc/passwd to the web browser and the browser will then display the contents of the /etc/passwd file or any other file the attacker wishes to view.
+This attack could have been prevented if the file permissions did not allow viewing the file or if the shell functions of PHP were disabled so that arbitrary shell commands cannot be executed from PHP.
+Other malicious actions are able to be executed by attackers with that web shell, such as replacing the contents of a file on the web server. For example, consider the following Bash command:
+
+The above command could be used to replace the contents of the index.php file with the text "Hijacked page contents", which is one way a web page could be defaced, or create the index.php file with the contents if the file does not exist. Attackers can also use the Bash command rm to delete files on the web server and mv to move files.
+
+
+== Prevention and mitigation ==
+A web shell is usually installed by taking advantage of vulnerabilities present in the web server's software. That is why removal of these vulnerabilities are important to avoid the potential risk of a compromised web server.
+The following are security measures for preventing the installation of a web shell:
+Regularly update the applications and the host server's operating system to ensure immunity from known bugs
+Deploy a demilitarized zone (DMZ) between the web facing servers and the internal networks
+Secure configuration of the web server
+Ports and services which are not used should be closed or blocked
+Using user input  data validation to limit local and remote file inclusion vulnerabilities
+Use a reverse proxy service to restrict the administrative URL's to known legitimate ones 
+Frequent vulnerability scan to detect areas of risk and conduct regular scans using web security software (this does not prevent zero day attacks)
+Deploy a firewall
+Disable directory browsing
+Not using default passwords
+
+
+== Detection ==
+Web shells can be easily modified, so it's not easy to detect web shells and antivirus software are often not able to detect these web shells.The following are common indicators that a web shell is present on a web server:
+Abnormal high web server usage (due to heavy downloading and uploading by the attacker);
+Files with an abnormal timestamp (e.g. newer than the last modification date);
+Unknown files in server;
+Files having dubious references, for example, cmd.exe or eval;
+Unknown connections in the logs of web serverFor example, a file generating suspicious traffic (e.g. a PNG file requesting with POST parameters);
+Dubious logins  from  DMZ servers  to internal sub-nets and vice versa.Web shells may also contain a login form, which can be hidden in fake error pages.Using web shells, adversaries can modify the .htaccess file (on servers running the Apache HTTP Server software) on web servers to redirect search engine requests to the web page with malware or spam. Often web shells detect the user-agent and the content presented to the search engine spider is different from that presented to the user's browser. To find a web shell a user-agent change of the crawler bot is usually required. Once the web shell is identified, it can be deleted easily.Analyzing the web server's log could specify the exact location of the web shell. Legitimate users/visitor usually have different user-agents and referers (referrers), on the other hand, a web shell is usually only visited by the attacker, therefore have very few variants of user-agent strings.
+
+
+== Usage by malicious adversaries ==
+On February 19, 2019, a sophisticated state actor used web shells to hack into the Australian Parliament House computer network and attacked some political parties such as Liberal, Labor and the Nationals.  In the 2016 Democratic National Committee email leak incident, the P.A.S. web shell (author Profexer, a pseudonym) was used by Guccifer 2.0.China Chopper was used in attacks against eight Australian web hosting providers, they were compromised due to usage of a vulnerable operating system, which was Windows Server 2008. Hackers connected the web servers to a Monero mining pool (a way by which cryptocurrency miners pool their resources), by which they mined about 3868 AUD worth of Monero.Web shells were used to attack Verticalscope, a Canadian web forums manager that manages hundreds of popular web forums with more than 45 million user accounts. Web forums affected included Toyota Nation Forum, Jeep Forum and watchuseek.Sea pirates hacked a shipping company's vulnerable content management system using a web shell to sort targets based on cost of the cargo.
+
+Security researchers at Flashpoint discovered that over 3,000 backdoor-ed websites' details were sold on MagBO (a Russian website for selling access to servers) with price ranging from $0.50 to $1,000 per site. Price was based on the traffic, hosting parameters and access on the backdoor-ed server.
+According to MagBO's search filters, a customer could buy access to:
+PHP shell access
+Hosting control access
+Domain control access
+File Transfer Protocol (FTP) access
+Secure Shell (SSH) access
+Admin panel access
+Database or Structured Query Language (SQL) accessThere are also some trojan WordPress plugins, such as WooComerce and Aksimet (not to be confused with WooCommerce and Akismet) which uploads a web shell to the web server with the WordPress installation. The web shells use the following command:
+
+to self-activate and then take commands from an attacker.A JBoss (now known as WildFly) vulnerability was used by hackers to expose the HTTP Invoker service by which web shell was installed on the web servers of over 200 sites , including servers belonging to governments and universities .From December 31, 2012 to January 1, 2013, an Indonesian website defacer known as "Hmei7" defaced 5,000 websites with WordPress installations in two days. Hmei7 used web shells with a file uploading feature and changed  web server files, such as index.php. Hmei7 has defaced more than 154,000 sites which are notified on Zone-H.
+
+
+== See also ==
+Backdoor (computing)
+Cyberwarfare
+Internet security
+Network security
+China Chopper
+
+
+== References ==
+
+
+== External links ==
+What Is Web Shell PHP Exploit - Examples & Fixes

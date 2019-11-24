@@ -1,0 +1,25 @@
+Title: Device-to-device
+Aspects: {'D2D'}
+
+Device-to-Device (D2D) communication in cellular networks is defined as direct communication between two mobile users without traversing the Base Station (BS) or core network. D2D communication is generally non-transparent to the cellular network and it can occur on the cellular frequencies (i.e., inband) or unlicensed spectrum (i.e., outband).
+In a traditional cellular network, all communications must go through the BS even if communicating parties are in range for proximity-based D2D communication. Communication through BS suits conventional low data rate mobile services such as voice call and text messaging in which users are seldom close enough for direct communication. However, mobile users in today's cellular networks use high data rate services (e.g., video sharing, gaming, proximity-aware social networking) in which they could potentially be in range for direct communications (i.e., D2D). Hence, D2D communications in such scenarios can greatly increase the spectral efficiency of the network. The advantages of D2D communications go beyond spectral efficiency; they can potentially improve throughput, energy efficiency, delay, and fairness.
+
+
+== Data delivery in non-cooperative D2D communication ==
+Existing data delivery protocols in D2D communications mainly assume that mobile nodes willingly participate in data delivery, share their resources with each other, and follow the rules of underlying networking protocols.  Nevertheless, rational nodes in real-world scenarios have strategic interactions and may act selfishly for various reasons (such as resource limitations, the lack of interest in data, or social preferences).For example, if a node has limited battery resources or the cost of the network bandwidth delivered by mobile network operators is high, it would not willingly relay data for others until appropriate incentives are provided.  Meanwhile, malicious nodes may attack the network in different ways to disturb the normal operation of the data transmission process.  An adversary, for example, may drop received messages but produce forged routing metrics or false information with the aim of attracting more messages or decreasing its detection probability.  This issue becomes more challenging when colluding attackers boost their metrics to deceive the attack detection systems.  Dealing with non-cooperative mobile nodes is very challenging because of the distributed network model and intermittent access of nodes to central authorities.
+
+
+== D2D applications ==
+D2D Communications is used for
+
+Local Services: In local service, user data is directly transmitted directly between the terminals and doesn’t involves network side, e.g. social media apps, which are based on proximity service.
+Emergency communications: In case of natural disasters like hurricanes, earthquakes etc., traditional communication network may not work due to the damage caused. Ad-hoc network can be established via D2D which could be used for such communication in such situations.
+IoT Enhancement: By combining D2D with Internet of things (IoT) , a truly interconnected wireless network will be created. Example of D2D-based IoT enhancement is vehicle-to-vehicle (V2V) communication in the Internet of Vehicles (IoV). When running at high speeds, a vehicle can warn nearby vehicles in D2D mode before it changes lanes or slows down.
+
+
+== See also ==
+Machine to machine
+Peer-to-peer
+
+
+== References ==

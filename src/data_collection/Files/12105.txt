@@ -1,0 +1,51 @@
+Title: Renard series
+Aspects: {'R40'}
+
+Renard series are a system of preferred numbers dividing an interval from 1 to 10 into 5, 10, 20, or 40 steps. This set of preferred numbers was proposed in 1877 by French army engineer Colonel Charles Renard. His system was adopted by the ISO in 1949 to form the ISO Recommendation R3, first published in 1953 or 1954, which evolved into the international standard ISO 3.
+Renard's system of preferred numbers divides the interval from 1 to 10 into 5, 10, 20, or 40 steps. The factor between two consecutive numbers in a Renard series is approximately constant (before rounding), namely the 5th, 10th, 20th, or 40th root of 10 (approximately 1.58, 1.26, 1.12, and 1.06, respectively), which leads to a geometric sequence. This way, the maximum relative error is minimized if an arbitrary number is replaced by the nearest Renard number multiplied by the appropriate power of 10. One application of the Renard series of numbers is to current rating of electric fuses.
+
+
+== Base series ==
+The most basic R5 series consists of these five rounded numbers, which are powers of the fifth root of 10, rounded to two digits. Note that the Renard numbers are not always rounded to the closest three-digit number to the theoretical geometric sequence:
+
+R5: 1.00 1.60 2.50 4.00 6.30
+
+
+== Examples ==
+If some design constraints were assumed so that the two screws in the gadget should be placed between 32 mm and 55 mm apart, the resulting length would be 40 mm, because 4 is in the R5 series of preferred numbers.
+If a set of nails with lengths between roughly 15 and 300 mm should be produced, then the application of the R5 series would lead to a product repertoire of 16 mm, 25 mm, 40 mm, 63 mm, 100 mm, 160 mm, and 250 mm long nails.
+If traditional English wine cask sizes had been metricated, rundlet (68 liters), barrel (119 liters), tierce (159 liters), hogshead (239 liters), puncheon (318 liters), butt (477 liters) and tun (954 liters) could have become 63 (or 60 by R″5), 100, 160 (or 150), 250, 400, 630 (or 600) and 1000 liters, respectively.
+
+
+== Alternative series ==
+If a finer resolution is needed, another five numbers are added to the series, one after each of the original R5 numbers, and one ends up with the R10 series. These are rounded to a multiple of 0.05. Where an even finer grading is needed, the R20, R40, and R80 series can be applied. The R20 series is usually rounded to a multiple of 0.05, and the R40 and R80 values interpolate between the R20 values, rather than being powers of the 80th root of 10 rounded correctly. In the table below, the additional R80 values are written to the right of the R40 values in the column named "R80 add'l". The R40 numbers 3.00 and 6.00 are higher than they "should" be by interpolation, in order to give rounder numbers.
+In some applications more rounded values are desirable, either because the numbers from the normal series would imply an unrealistically high accuracy, or because an integer value is needed (e.g., the number of teeth in a gear). For these needs, more rounded versions of the Renard series have been defined in ISO 3. In the table below, rounded values that differ from their less rounded counterparts are shown in bold.
+
+As the Renard numbers repeat after every 10-fold change of the scale, they are particularly well-suited for use with SI units. It makes no difference whether the Renard numbers are used with metres or millimetres. But one would need to use an appropriate number base to avoid ending up with two incompatible sets of nicely spaced dimensions, if for instance they were applied with both inches and feet. In the case of inches and feet a root of 12 would be desirable, that is, n√12 where n is the desired number of divisions within the major step size of twelve. Similarly a base of two, eight, or sixteen would fit nicely with the binary units commonly found in computer science.
+Each of the Renard sequences can be reduced to a subset by taking every nth value in a series, which is designated by adding the number n after a slash. For example, "R10″/3 (1…1000)" designates a series consisting of every third value in the R″10 series from 1 to 1000, that is, 1, 2, 4, 8, 15, 30, 60, 120, 250, 500, 1000.
+
+
+== See also ==
+Preferred numbers
+Preferred metric sizes
+1-2-5 series
+E series (preferred numbers)
+Logarithm
+Decibel
+Neper
+Phon
+Nominal Pipe Size (NPS)
+Geometric progression
+
+
+== References ==
+
+
+== Further reading ==
+Hirshfeld, Clarence Floyd; Berry, C. H. (1922-12-04). "Size Standardization by Preferred Numbers". Mechanical Engineering. New York, USA: The American Society of Mechanical Engineers. 44 (12): 791–. [1]
+Hazeltine, Louis Alan (January 1927) [December 1926]. "Preferred Numbers". Proceedings of the Institute of Radio Engineers. 14 (4): 785–787. doi:10.1109/JRPROC.1926.221089. ISSN 0731-5996.
+Van Dyck, Arthur F. (February 1936). "Preferred Numbers". Proceedings of the Institute of Radio Engineers. 24 (2): 159–179. doi:10.1109/JRPROC.1936.228053. ISSN 0731-5996.
+Van Dyck, Arthur F. (March 1951) [February 1951]. "Preferred Numbers". Proceedings of the IRE. IEEE. 39 (2): 115. doi:10.1109/JRPROC.1951.230759. ISSN 0096-8390.
+ISO 497:1973-05 - Guide to the choice of series of preferred numbers and of series containing more rounded values of preferred numbers. International Standards Organization (ISO). May 1973. Archived from the original on 2017-11-02. Retrieved 2017-11-02. (Replaced: ISO Recommendation R497-1966 - Preferred Numbers - Guide to the Choice of Series of Preferred Numbers and of Series Containing More Rounded Values of Preferred Numbers. 1966.)
+Tuffentsammer, Karl; Schumacher, P. (1953). "Normzahlen – die einstellige Logarithmentafel des Ingenieurs" [Preferred numbers - the engineer's single-digit logarithm table]. Werkstattechnik und Maschinenbau (in German). 43 (4): 156.
+Tuffentsammer, Karl (1956). "Das Dezilog, eine Brücke zwischen Logarithmen, Dezibel, Neper und Normzahlen" [The decilog, a bridge between logarithms, decibel, neper and preferred numbers]. VDI-Zeitschrift (in German). 98: 267–274.

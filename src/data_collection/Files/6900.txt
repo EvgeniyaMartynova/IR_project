@@ -1,0 +1,59 @@
+Title: Koniocellular cell
+Aspects: {'K cell'}
+
+A koniocellular cell (konio: Greek, dust or poison, also known as K cell) is a neuron with a small cell body that is located in the koniocellular layer of the lateral geniculate nucleus (LGN) in primates, including humans.
+Koniocellular layers are located ventral to each parvocellular and magnocellular layer of the LGN. Even if the quantity of neurons is approximately equal to the number of magnocellular cells the koniocellular layers are much thinner due to their size. In comparison to the parvocellular and magnocellular system, fewer studies have been conducted to investigate the koniocellular system. Koniocellular cells are a heterogeneous population differing in many aspects, such as response properties and connectivity.
+
+
+== Structure ==
+K cells are neurochemically and anatomically distinct from M and P cells. There are three proteins by which K cells can be clearly distinguished: 
+
+Calbindin (28kDa calcium binding protein, CALB)
+The alpha subunit of type II calmodulin-dependent protein kinase (αCaM II kinase)
+The gamma subunit of protein kinase C (PKC-γ).K cells differ in their size from M and P cells, they are much smaller. Unlike M and P cells, K cells are structurally similar to other thalamocortical neurons. This suggests that K cells act like other thalamocortical cells.
+
+
+== Function ==
+Since K cells are a heterogeneous group of cells, it is likely that they contain subclasses which fulfill different functions. Some cells respond to colour, some to achromatic gratings and still others are unresponsive to any types of gratings. Experimental results suggest that K cells could contribute to aspects of spatial and temporal vision, but it is unclear exactly how. Some hypotheses are: 
+
+K cells contribute to brightness contrast information and colour contrast in species with colour vision
+K cells contribute to eye movement-related signals by directly projecting to the dorsomedial visual area (DM, V6) which is a motion-related area
+K cells are part of a neuromodulatory pathway by projection to the most superficial layer of V1, layer I 
+
+
+== Layers ==
+
+Ventral to the magnocellular and parvocellular layers lie the koniocellular layers which differ in thickness. In macaques there are two magnocellular and four parvocellular layers and accordingly six konicellular layers. K1, the layer ventral to M1, is the largest. K2, K3 and K4 are thinner but nonetheless substantial bands of neurons. The two most dorsal layers K5 and K6 are mostly monolayers. Similar in physiology and connectivity to W cells in cat LGN, K cells form three pairs of layers in macaques.
+
+The middle pair (K3 and K4) relays input from short-wavelength cones to the  cytochrome-oxidase blobs of primary visual cortex (V1).
+The dorsal-most pair (K5 and K6) relays low-acuity visual information to layer I of V1.
+The ventral-most pair (K1 and K2) appears closely tied to the function of the superior colliculus.K cells are not restricted to the koniocellular layers. They are also found in small groups, in pairs or as single cells within M and P layers. Larger subpopulations form bridges spanning the distance between two adjacent K layers.
+
+
+== Input ==
+Each koniocellular layer is innervated by the same retina part as the M or P layer dorsal to the respective K layer. Thus, the LGN contains six koniocellular layers. K1, K4 and K6 receive contralateral retinal inputs, and K3 and K5 receive ipsilateral retinal input. K2 receives input from both retinae but the input from the two eyes is relayed in separate tiers. The more dorsal tier is innervated by the ipsilateral retina and the more ventral is innervated by the contralateral retina. K cells receive input from a heterogeneous group of wide-field cells, including small bistratified cells, sparse cells and possibly also large bistratified cells and broad thorny cells. Those bistratified cells are ganglion cells that send short-wavelength signals to the LGN. Retinogeniculate axons terminating in the middle K layers display center-only blue-ON/yellow-OFF receptive fields. Sparse cells are presumed to transmit blue-OFF signals. Both, small bistratified cells and sparse cells project to K cells. Therefore, K cells are believed to relay short-wavelength visual information.Corticogeniculate axons appear to be quantitatively dominant within the LGN. The same holds for K cells but unlike M and P cells they also receive input from the extrastriate cortex. Axons arising from the superficial grey layer of the superior colliculus terminate in every K layer with the most ventral layers receiving the strongest input. Thus, it is assumed that the K layers are functionally related to the superior colliculus, e.g. reflexive control of eye movements. As a conclusion, retinal inputs compete with a quantitatively dominant corticothalamic innervation and a rich innervation from brainstem nuclei.
+
+
+== Output ==
+K cells terminate in the superficial blobs and layer I of V1. The dorsal-most K layers (K5 and K6) have many axons terminating in layer I of V1, whereas K1 – K4 rather send their axons to the blobs. However, this division is not clear-cut. For example, it has been found that axons from neurons in the ventral-most pair (K1 and K2) innervate layer I of V1, too. The innervation of blobs follows the pattern known from the retinogeniculate terminations: 
+
+Neurons in layers K1, K4 and K6 terminate in blobs at the centers of the contralateral-eye columns
+Neurons in layers K3 and K5 terminate in blobs at the centers of the ipsilateral-eye columns
+Neurons in layer K2 terminate in both (with separate tiers of cells innervating the contralateral and ipsilateral eye blobs)In macaques, about 30 K cells send their axons to one blob. Anatomically distinct subpopulations of K cells innervate different types of blobs, such as blue/yellow blobs or red/green blobs. Neurons in these blobs display blue/yellow antagonism or red/green antagonism.Moreover, K cells innervate extrastriate areas. These K cells are rather large, sending their axons to V2 and inferotemporal cortex (IT). Immunostaining revealed only a few, sparse and broadly distributed large K cells, apart from the K cells innervating the foveal representation of V2 which are more densely packed and found along the caudal and medial margin of the LGN. Throughout each K layer there are neurons that innervate the extrastriate cortex and that are likely to sustain some visual behaviors in the absence of V1. The fact that K cells directly project to hMT supports this hypothesis (see below "theory of blindsight").
+
+
+== Development and plasticity ==
+It is assumed that K cells generate and migrate contemporaneously with neighboring M and P cells (Hendry, p. 134). Neurons in the most ventral part of the LGN develop before neurons in more dorsal layers. Neurons of layer K1 develop close to the time of final mitosis for neurons in layer M1 and neurons of K6 develop slightly before neurons of layer P6. While M and P layers in LGN and their axonal terminations in V1 degenerate after a loss of patterned visual input, K cells are not affected.
+
+
+== A theory for blindsight ==
+Blindsight is the phenomenon where patients with injury in the primary visual cortex (V1) show persistence in motion detection without visual awareness. The brain area responsive to motion in the human brain is called V5 or hMT. Many approaches have been examined to reveal the underlying mechanisms of blindsight. In the past it has been shown that superior colliculus ablation has an effect on V1-independent vision, which in turn advocates the role of the superior colliculus for blindsight. In case of V1 lesions, additional LGN inactivation leads to a strong reduction of neural activity in the extrastriate areas, such as MT. 
+Research has shown that there exists a direct pathway from the LGN to MT consisting mostly of koniocellular cells. In fact, 63% of the neurons directly projecting to MT are koniocellular cells. The input MT receives directly from the LGN makes up about 10% of the V1 neuron population projecting to MT. These results suggest that the koniocellular layers play a key role in V1 independent vision. Since the koniocellular layers receive input from the superior colliculus, the previously obtained results can be complemented by the role of the koniocellular layers.
+This direct connection from the LGN, more precisely the koniocellular layers, to MT could account for the phenomenon of blindsight as well as for rapid detection of moving objects in healthy subjects 
+
+
+== See also ==
+List of human cell types derived from the germ layers
+
+
+== References ==

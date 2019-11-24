@@ -1,0 +1,57 @@
+Title: NEC V20
+Aspects: {'V20'}
+
+The NEC V20 (μPD70108) was a processor made by NEC that was a reverse-engineered, pin-compatible version of the Intel 8088 with an instruction set compatible with the Intel 80186. The V20 was introduced in 1982, and the V30 debuted in 1983.The chip featured much more than the 29,000 transistors of the simpler 8088 CPU, ran at 5 to 10 MHz and was around 30% faster (application dependent) than the 8088 at the same clock speed, primarily due to faster effective address calculation, along with faster loop counters, shift registers and multiplier.
+
+
+== Uses ==
+NEC V20 was used in "turbo" versions of some PC clones such as Commodore PC compatible systems, Copam, and Tandy 1000 series, as well as in the Casio PV-S450 PDA and Hewlett-Packard's HP 95LX, the GRiD Model: 1810 laptop computer, and the Bandai WonderSwan, a handheld gaming system released in Japan in 1999. Sony also produced this microprocessor under license from NEC as the V20H (Sony CXQ70108).
+Because it was pin-compatible with the 8088 and relatively inexpensive, the V20 was also a popular end-user upgrade for systems with a socketed processor, including the original IBM PC and XT.
+
+
+== Features ==
+An unusual feature of the NEC V20 was that it added an Intel 8080 emulation mode, in which it could execute programs written for the Intel 8080 processors. The instructions BRKEM executed in 8086 mode (NEC used a different notation for the instructions than Intel, where BRK in NEC notation is INT in Intel notation) and RETEM and CALLN executed in 8080 mode was used to switch or return to or from the emulation mode. There were some programs which allowed 8080-based CP/M-80 programs to run on MS-DOS machines, notably V2080 CPMulator (later ZRUN) by Michael Day and 22nice from SYDEX.
+Another unusual feature was the existence of several families of unique instructions. The ADD4S, SUB4S, and CMP4S instructions were able to add, subtract, and compare huge packed binary-coded decimal numbers stored in memory. Instructions ROL4 and ROR4 rotate four-bit nibbles. Another family consisted of the TEST1, SET1, CLR1, and NOT1 instructions, which test, set, clear, and invert single bits of their operands, but are far less efficient than the later i80386 equivalents BT, BTS, BTR, and BTC; neither are their encodings compatible. There were two instructions to extract and insert bit fields of arbitrary lengths (EXT, INS). And finally, there were two additional repeat prefixes, REPC and REPNC, which amended the original REPE and REPNE instructions and allowed a string of bytes or words to be scanned (with instructions SCAS and CMPS) while a less or not less condition remained true.
+
+
+== Variants and successors ==
+
+The NEC V30 (μPD70116) was a version of the NEC V20 that was pin compatible with the 16-bit data bus Intel 8086 processor. It also supports the 8080 emulation mode. The V30 was used in the GTD-5 EAX Class 5 central office as a drop-in performance upgrade for the processor complex in the late 1980s. It was also used in the Psion Series 3, in the NEC PC-9801 (originally released in 1982), the Olivetti PCS86, the Olivetti PC1, the Applied Engineering "PC Transporter" emulator for the Apple II series of computers, and in various arcade machines (particularly ones made by Irem) in the late 1980s.
+The NEC V20HL (μPD70108H) and NEC V30HL (μPD70116H) were high-speed (up to 16 MHz) and low-power versions.
+The NEC V25 (µPD70320) is the microcontroller version of the NEC V20 processor.
+NEC V25HS (μPD79011) V25 version with built-in RX116 RTOS
+NEC V25+ (μPD70325) High-speed version of V25
+The NEC V33 is a super version of the V30 that separates address bus and data bus, and executes all instructions with wired logic instead of micro-codes, making it twice as fast as a V30 for the same clock frequency. V33 has the performance equivalent to Intel 80286. NEC V33 offers a method to expanding the memory address space to 16M bytes. It has two additional instructions BRKXA and RETXA to support extended addressing mode. The 8080 emulation mode was not supported.
+The NEC V33A (μPD70136A) differs from the NEC V33 in that it has interrupt vector numbers compatible with intel 80X86 processors.
+The NEC V35 (μPD70330) is the microcontroller version of the NEC V30 processor. Has 16-bit external data bus.
+NEC V35HS (μPD79021) V35 version with built-in RX116 RTOS
+NEC V35+ (μPD70335) High-speed version of V35
+NEC V40 (μPD70208) embedded version of V20, integrated Intel-compatible 8251 USART, 8253 programmable interval timer, and 8255 parallel port interface. Used in the Olivetti PC1 and Digisystems Jetta XD.
+NEC V40HL (μPD70208H) high-speed low-voltage version of V40
+NEC V50 (μPD70216) embedded version of V30 with 16-bit data bus. It is the main CPU of the Korg M1.
+NEC V50HL (μPD70216H) high-speed low-voltage version of V50
+The NEC V41 (μPD70270) NEC V51 (μPD70280) integrated V30HL core and PC-XT peripherals: 8255 parallel port interface, 8254 programmable interval timer, 8259 PIC, 8237 DMA controller and 8042 keyboard controller. Also integrates full DRAM controller. Was used in Olivetti Quaderno XT-20.
+The NEC V53 (μPD70236) integrates a V33 core with 4-channel DMA (μPD71087/i8237), UART (μPD71051/i8251), three timer/counters (μPD71054/i8254) and interrupt controller (μPD71059/i8259).
+The NEC V53A (μPD70236A) integrates some peripherals with a V33A core.
+NEC V55PI (μPD70433)
+The Vadem VG230 was a single-chip PC platform. The VG230 contained a 16 MHz NEC V30HL processor and IBM PC/XT-compatible core logic, LCD controller (CGA/AT&T640x400) with touch-plane support, keyboard matrix scanner, dual PCMCIA 2.1 card controller, EMS 4.0 hardware support for up to 64 MB, and built-in timer, PIC, DMA, UART and RTC controllers. It was used in the HP OmniGo 100, 120 and IBM Simon.
+The enhanced Vadem VG330 contained a 32 MHz NEC V30MX processor and IBM PC/AT-compatible core logic with dual PICs, LCD controller (640x480), keyboard matrix scanner, PC Card ExCA 2.1 controller and SIR port.
+Starting with the NEC V60, NEC departed from the x86 design.Die photos
+		
+		
+		
+
+
+== See also ==
+NEC RX116, dedicated ITRON-1-based 16-bit RTOS
+
+
+== References ==
+
+
+== External links ==
+Casio FZ-1 information
+Information from cpu-collection.de
+the V20 at CPU-World
+NEC v. Intel: Will Hardware Be Drawn into the Black Hole of Copyright
+http://jolt.law.harvard.edu/articles/pdf/v03/03HarvJLTech209.pdf

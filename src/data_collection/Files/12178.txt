@@ -1,0 +1,105 @@
+Title: New York City Subway rolling stock
+Aspects: {'R55'}
+
+The New York City Subway is a large rapid transit system and has a large fleet of rolling stock.
+
+
+== Total fleet ==
+As of November 2016, the New York City Subway has 6418 cars on the roster.  The system maintains two separate fleets of passenger cars: one for the A Division routes, the other for the B Division routes. All A Division equipment is approximately 8 feet 9 inches (2.67 m) wide and 51 feet (15.54 m) long while B Division cars are about 10 feet (3.05 m) wide and either 60 feet 6 inches (18.44 m) or 75 feet 6 inches (23.01 m) long. The A Division and B Division trains operate only in their own division; operating in the other division is not allowed. The A Division sections have narrower tunnel segments, tighter curves, and tighter platform clearances than the B Division sections, so B Division trains cannot fit in the A Division tunnels and stations, while A Division trains would have an unacceptably large gap between the platform and train if they were allowed in the B Division lines. Also the safety train stop (trip cock) mechanism is not compatible between divisions, being located on opposite sides of the track and train in each division. Service and maintenance trains are composed of A Division-sized cars, so they can operate with either division's clearances and they have safety train stops installed on both sides of the trucks. All rolling stock, in both the A and B Divisions, run on the same 4 foot 8.5 inches (1,435 mm) standard gauge and use the same third-rail geometry and voltage.
+The 75-foot (22.86 m)-long cars, like the R44s, R46s, R68s, and R68As are not permitted on BMT Eastern Division – the J, L, M and Z trains – because of sharper curves on those tracks.
+A typical revenue train consists of 8 to 10 cars, although shuttles can be as short as two. The G runs 4-car trains, and the 7 runs 11-car trains.
+When the Brooklyn Rapid Transit Company entered into agreements to operate some of the new subway lines, they decided to design a new type of car, 10 feet (3.05 m) wide and 67 feet (20.42 m) long. The subject of several patents, the car's larger profile was similar to that of steam railroad coaches, permitting greater passenger capacity, more comfortable seating, and other advantages. The BRT unveiled its design, designated BMT Standard, to the public in 1913 and received such wide acceptance that all future subway lines, whether built for the BRT, the IRT, or eventually, the IND, were built to handle the wider cars.
+When the R44s and R46s were rebuilt, the rollsigns on the side of the cars were replaced with electronic LCD signs while the front service sign remained as a rollsign. In sharp contrast, the rebuilt R32s and R38s retained rollsigns on the sides, but a flip-dot display was placed in the front. The MTA has been incorporating newer subway cars into its stock in the past decade. Since 1999, the R142s, R142As, R143s, R160s, and R188s have been added into service. All cars built since 1992, (including the now out-of-service R110As and R110Bs) are equipped with digital signs on the front, sides, and interior (except for the R110B, which had rollsigns on the front).
+Old cars, some from the original companies (IRT, BMT and IND), are preserved at the New York Transit Museum, while others have been sold to private individuals and/or other railway/trolley museums.
+Between 1984 and 1989 some of the IRT trains were painted red, giving them the name Redbirds. By September 2010, many older BMT/IND cars (most R32s, all R38s, all R40s, all R40As, almost all R42s, and almost all R44s) were also retired and replaced with the R160s.
+
+
+=== General Overhaul Program ===
+The General Overhaul Program (GOH) was a mid-life overhaul program for neglected subway cars which involved thorough rebuilding of the fleet. Since the completion of the GOH program, the new Scheduled Maintenance System (SMS) program has replaced the GOH program by ensuring that trains do not reach a state in which they would need such an overhaul. The car types which were part of the MTA NYCT GOH program are the IRT Redbirds (R26, R28, R29, R33, R33 WF, R36, R36 WF), as well as IND/BMT cars (R30 GE, R32, R38, R40, R40A, R42, R44 and R46). These cars were rebuilt between 1985 and 1992. Some cars in various classes from R10 to R46 were also given lighter overhauls during this period.
+
+
+=== "R"-prefixed orders ===
+
+Cars purchased by the City of New York since the inception of the IND and for the other divisions beginning in 1948 are identified by the letter "R" followed by a number; e.g.: R32. This number is the contract number under which the cars were purchased. Cars with nearby contract numbers (e.g.: R1 through R9, or R21 through R36/WF, or R143 through R160B) may be virtually identical, simply being purchased under different contracts.
+The New York City Board of Transportation settled on a system of documentation that is still in place under MTA New York City Transit. This included a prefix letter or letters that indicated the Department that the specific documentation, followed by a series of numbers of a length defined by the specific department concerned. For example, the Surface Department used the letter "S", while the Rapid Transit Department used the letter "R".  A new R- number is assigned for any vehicle purchase involving a bidding process. Since the 1970s, the system has suffered from "R- inflation" going through only 46 R- numbers in its first 40 years, but over 114 in its subsequent 30. Possible reasons include an increased number of specialized maintenance vehicles that were previously made in house or a lower floor for requiring a formal bidding process in order to reduce waste and abuse.
+
+
+=== Disposal at sea ===
+
+In 2001, the New York City Transit Authority started disposing of retired subway cars by dumping them at sea to create artificial reefs, with the intention of promoting marine life. This option was chosen because it was less expensive than removing asbestos from the cars; the asbestos was determined to not be a hazard in the ocean. Further, the artificial reefs would provide environmental and economic benefits, such as providing shelter for marine animals and creating new fishing opportunities. The first reef constructed was Redbird Reef in Delaware. Eventually, multiple states received retired subway cars for reefs. The program was discontinued in 2010, after more than 2,500 cars were reefed, because newer cars contained more plastic, which was too expensive to economically remove before reefing.
+
+
+== Current fleet ==
+
+
+== Maintenance vehicles ==
+Various kinds of cars are used for maintenance work, including flatcars and vacuum trains. 
+
+
+=== Track geometry car ===
+
+There are four track geometry cars on the New York City Subway that measure the system's track geometry to ensure that safe train operation is maintained. The cars are numbered TGC1–TGC4. TGC1 was ordered under contract R59 in 1984 for $1.4 million. The other three were ordered under contract R63 and cost $2.5 million each. The cars use sensors, measuring systems, and data management systems to get a profile of the tracks. The train crew consists of two track equipment maintainers, one maintenance supervisor, and two to three engineers. The trains typically operate during off-peak weekday daytime hours so as to not interfere more frequent rush hour service. A single car weighs 45 tons. The cars measure:
+
+Alignment – “Alignment is the projection of the track geometry of each rail or the track center line onto the horizontal plane,” (FRA Definition). Also known as the “straightness” of the tracks.
+Crosslevel – The variation in cant of the track over the length of a predetermined “chord” length (generally 62 feet or 18.90 meters). On straight or tangent track, ideally there should be no variation, while on curves, a cant is generally desired.
+Curvature — The amount by which the rail deviates from being straight or tangent. The geometry car checks the actual curvature (in Degree of curvature) of a curve versus its design curvature.
+Rail gauge — The distance between the rails. Over time, rail may become too wide or too narrow. In North America and most of the world, standard gauge is 4 ft 8½ in (1,435 mm).
+Rail profile — Looks for rail wear and deviations from standard profile.
+Warp – The maximum change in crosslevel over a predetermined chord length (generally sixty-two feet).
+Corrugation of running rail surface
+Tunnel and station platform clearances
+Third rail height and gauge
+Vertical gap between third rail and protective board The track geometry car typically checks each stretch of track about 6 times a year; the car is manually operated, and there are no plans to automate inspection of the track geometry, which is done manually with the help of high-tech equipment aboard the car.
+
+
+== Future fleet ==
+Originally, 168 additional cars were proposed to be built and provided for service on the E, G, L, and N services between 2015 and 2019; the contract number for these growth cars was unknown, but they were not delivered prior to 2019. However, it is expected that these "new" cars could be cars displaced from other services after the R179s are delivered, as some of the R32s (which were originally planned to be replaced completely by the R179s) will not be replaced until the R211 order is delivered.
+
+
+== Retired fleet ==
+
+
+=== IRT Pre-Unification listing ===
+
+
+=== BMT Pre-Unification listing ===
+
+
+=== R-type listing ===
+
+
+== Miscellaneous ==
+
+Air conditioning is standard on all cars R42 and later. R38s 4140-49 and R40s 4350–4549 were also delivered with A/C, and all cars not equipped with A/C from classes R26-R40 (With the exception of the R27, R30, and R33WF) were later retrofitted with A/C. All active cars are equipped with air conditioning and cars with malfunctioning air conditioning are not supposed to be put into service.
+During World War II, a group of old New York elevated line cars dating from the late 19th century was sent west to the San Francisco Bay Area by the United States Maritime Commission for use by the Shipyard Railway, a temporary wartime electric line transporting workers to the Kaiser Shipyards. After the war, most were sold to be used as units in a local motel, but their whereabouts afterwards is unknown. Two of them however were acquired and have been restored by the Western Railway Museum in Rio Vista, California.
+There are many examples of rolling stock built under contract which are not intended for revenue service, such as the R95 money train, R65 pump train, R127/R134 garbage train and R156 work locomotive.
+The table below shows what year the TA had expected to retire several car models in 1981.
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Further reading ==
+Cudahy, Brian J. Under the Sidewalks of New York: The Story of the Greatest Subway System in the World, 2nd Revised Edition. Fordham University Press, New York, 1995. ISBN 0-8232-1618-7
+Davis, Ed Sr. (1985). They Moved the Millions: A Brief History of Passenger Cars of America's Most Heavily Travelled Passenger Railway, the New York City Transit System. Livingston Enterprise.
+Dougherty, Peter J. Tracks of the New York City Subway, version 4.2. 2007
+Kramer, Frederick A. Building the Independent Subway. Quadrant Press, Inc.; New York, 1990. ISBN 0-915276-50-X
+Sansone, Gene. Evolution of New York City subways: An illustrated history of New York City's transit cars, 1867–1997. New York Transit Museum Press, New York, 1997. ISBN 978-0-9637492-8-4.
+New York City Subway Cars James Clifford Greller Xplorer Press
+Interborough Fleet Joe Cunningham Xplorer Press
+
+
+== External links ==
+nycsubway.org New York City Subway Cars
+Pre-Unification Cars (BMT)
+Pre-Unification Cars (IRT)
+R-Type Cars 1932 to 1987
+R-Type Cars 1999 to Present (NTT)
+'R' Type Roster (includes non-train contracts)
+Forgotten NY Subway Link
+Korman, Joe (December 4, 2017). "IRT Car Assignments". JoeKorNer.
+Korman, Joe (January 12, 2018). "BMT-IND Car Assignments". JoeKorNer.
+Korman, Joe (November 6, 2016). "New York City Subway Car Fleet June 2010 through November 2016". JoeKorNer.

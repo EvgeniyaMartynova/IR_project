@@ -1,0 +1,27 @@
+Title: Dangling bond
+Aspects: {'D0'}
+
+In chemistry, a dangling bond is an unsatisfied valence on an immobilized atom. An atom with a dangling bond is also referred to as an immobilized free radical or an immobilized radical, a reference to its structural and chemical similarity to a free radical.
+
+
+== Definition and properties ==
+In order to gain enough electrons to fill their valence shells (see also octet rule), many atoms will form covalent bonds with other atoms. In the simplest case, that of a single bond, two atoms each contribute one unpaired electron, and the resulting pair of electrons is shared between them. Atoms which possess too few bonding partners to satisfy their valences and which possess unpaired electrons are termed "free radicals"; so, often, are molecules containing such atoms. When a free radical exists in an immobilized environment (for example, a solid), it is referred to as an "immobilized free radical" or a "dangling bond".
+Both free and immobilized radicals display very different chemical characteristics from atoms and molecules containing only complete bonds. Generally, they are extremely reactive. Immobilized free radicals, like their mobile counterparts, are highly unstable, but they gain some kinetic stability because of limited mobility and steric hindrance. While free radicals are usually short lived, immobilized free radicals often exhibit a longer lifetime because of this reduction in reactivity.
+
+
+== Dangling bonds in semiconductors ==
+Some allotropes of silicon, such as amorphous silicon, display a high concentration of dangling bonds. Besides being of fundamental interest, these dangling bonds are important in modern semiconductor device operation. Hydrogen introduced to the silicon during the synthesis process is well known to replace dangling bonds, as are other elements such as oxygen.
+
+
+== Computational chemistry ==
+In computational chemistry, a dangling bond generally represents an error in structure creation, in which an atom is inadvertently drawn with too few bonding partners, or a bond is mistakenly drawn with an atom at only one end.
+
+
+== References ==
+
+H. Togo, "Advanced Free Radical Reactions for Organic Synthesis", 2004, pp1-35, Elsevier, UK, ISBN 0080443745.
+H. Yasuda, "Luminous Chemical Vapor Deposition and Interface Engineering", 2004, pp83-113, CRC Press, ISBN 9780824757885.
+J.M. Buriak, "Organometallic Chemistry on Silicon and Germanium Surfaces", Chemical Reviews, 2002, v102, pp1272-1308.
+Carlos, W. E.; Taylor, P. C. (1982). "H1 NMR in a-Si". Physical Review B. 26 (7): 3605–3616. doi:10.1103/PhysRevB.26.3605. ISSN 0163-1829.
+Yates, J T (1991). "Surface chemistry of silicon-the behaviour of dangling bonds". Journal of Physics: Condensed Matter. 3 (S): S143–S156. doi:10.1088/0953-8984/3/S/024. ISSN 0953-8984.
+Lemke, B. P.; Haneman, D. (1978). "Dangling bonds on silicon". Physical Review B. 17 (4): 1893–1907. doi:10.1103/PhysRevB.17.1893. ISSN 0163-1829.

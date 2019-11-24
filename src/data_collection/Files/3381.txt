@@ -1,0 +1,207 @@
+Title: E series of preferred numbers
+Aspects: {'E24'}
+
+The E series is a system of preferred numbers (also called preferred values) derived for use in electronic components. It consists of the E3, E6, E12, E24, E48, E96 and E192 series, where the number after the 'E' designates the quantity of value "steps" in each series.  Although it is theoretically possible to produce components of any value, in practice the need for inventory simplification has led the industry to settle on the E series for resistors, capacitors, inductors, and zener diodes.  Other types of electrical components are either specified by the Renard series (for example fuses) or are defined in relevant product standards (for example IEC 60228 for wires). 
+
+
+== History ==
+In the early 20th century, capacitor (previously called condenser) and resistor value increments were different than today.American and British military production during World War II  was a major influence for establishing common standards across many industries, especially in electronics, where it was essential to product large quantities of standardized electronic parts very quickly.  Later, the post–World War II baby boom and the invention of the transistor kicked off demand for consumer electronics goods during the 1950s.  As transistor radio production migrated towards Japan during the 1950s, it was critical for the electronic industry to have international standards.  
+Over time, components evolved towards common values, then based on some of these existing conventions, the International Electrotechnical Commission (IEC) began work on an international standard in 1948. The first version of this IEC Publication 63 (IEC 63) was released in 1952. Later, IEC 63 was revised, amended, and renamed into the current version known as IEC 60063:2015.IEC 60063 release history:
+
+IEC 63:1952 (aka IEC 60063:1952), first edition, published 1952-01-01.
+IEC 63:1963 (aka IEC 60063:1963), second edition, published 1963-01-01.
+IEC 63:1967/AMD1:1967 (aka IEC 60063:1967/AMD1:1967), first amendment of second edition, published 1967.
+IEC 63:1977/AMD2:1977 (aka IEC 60063:1977/AMD2:1977), second amendment of second edition, published 1977.
+IEC 60063:2015, third edition, published 2015-03-27.
+
+
+== Overview ==
+The E series of preferred numbers were chosen such that when a component is manufactured it will end up in a range of roughly equally spaced values on a logarithmic scale. Each E series subdivides each decade magnitude into steps of 3, 6, 12, 24, 48, 96, 192 values. Subdivisions of E3 to E192 ensure the maximum error will be divided in the order of 40%, 20%, 10%, 5%, 2%, 1%, 0.5%. Also, the E192 series is used for 0.25% and 0.1% tolerance resistors too.
+Historically, the E series is split into two major groupings:
+
+E3, E6, E12, E24 --- E3, E6, E12 are subsets of E24. Values in this group are rounded to 1 decimal place.
+E48, E96, E192 --- E48 and E96 are subsets of E192. Values in this group are rounded to 2 decimal places.Since the electronic component industry established component values before standards discussions in the late-1940s, they decided that it wasn't practical to change the former established values.  These older values were used to create the E6, E12, E24 series standard that was accepted in Paris in 1950 then published as IEC 63 in 1952.  Eight of the E24 values do not match the following formula.
+The formula for each value is determined by nth root:
+
+  
+    
+      
+        
+          V
+          
+            n
+          
+        
+        =
+        R
+        o
+        u
+        n
+        d
+        (
+        
+          
+            
+              10
+              
+                n
+              
+            
+            
+              m
+            
+          
+        
+        )
+      
+    
+    {\displaystyle V_{n}=Round({\sqrt[{m}]{10^{n}}})}
+  where 
+  
+    
+      
+        
+          V
+          
+            n
+          
+        
+      
+    
+    {\displaystyle V_{n}}
+   is the rounded value, 
+  
+    
+      
+        m
+      
+    
+    {\displaystyle m}
+   is an integer of the E series group size, and 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+   is an integer of {0, 1, 2, ..., m-1}.For E3 to E24, the values are rounded to 1 decimal place. For unknown historical reasons, eight older industry values (shown in bold) are different than the calculated values.
+
+The eight official E24 values shown in bold do not exist in the E48, E92, E192 series.For E48 to E192, the values are rounded to 2 decimal places.
+
+To calculate the E48 series: 
+  
+    
+      
+        m
+      
+    
+    {\displaystyle m}
+   is 48, then 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+   is incremented from 0 to 47 through the formula.
+To calculate the E96 series: 
+  
+    
+      
+        m
+      
+    
+    {\displaystyle m}
+   is 96, then 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+   is incremented from 0 to 95 through the formula.
+To calculate the E192 series: 
+  
+    
+      
+        m
+      
+    
+    {\displaystyle m}
+   is 192, then 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+   is incremented from 0 to 191 through the formula.
+
+
+=== Example ===
+The E3 series is defined as the values 1.0, 2.2, and 4.7. If a manufacturer sold resistors with E3 series values in a range of 1 ohm to 10 megohms, the available resistance values would be:
+
+1 Ω, 2.2 Ω, 4.7 Ω,
+10 Ω, 22 Ω, 47 Ω,
+100 Ω, 220 Ω, 470 Ω,
+1 kΩ, 2.2 kΩ, 4.7 kΩ,
+10 kΩ, 22 kΩ, 47 kΩ,
+100 kΩ, 220 kΩ, 470 kΩ,
+1 MΩ, 2.2 MΩ, 4.7 MΩ,
+10 MΩ.
+
+
+=== Obsolete ===
+The E3 series is rarely used, except for some components with high variations like electrolytic capacitors, where the given tolerance is often unbalanced between negative and positive such as −30/+50% or −20/+80%, or for components with uncritical values such as pull-up resistors.  The calculated tolerance for this series gives (3√10 − 1) ÷ (3√10 + 1) = 36.60%. While the standard only specifies a tolerance greater than 20%, other sources indicate 40% or 50%.  Currently, most electrolytic capacitors are manufactured with values in the E6 or E12 series, thus E3 series is mostly obsolete.
+
+
+=== E24 vs. E48, E96, E192 ===
+Since some values in the E24 series do not exist in the E48, E96 and E192 series, resistor manufacturers have added the missing E24 values to some of their 1%, 0.5%, 0.25%, 0.1% tolerance families. This allows easier purchasing migration between different tolerance parts. This type of combination is noted on resistor datasheets and webpages as "E96 + E24" and "E192 + E24".Comparison of E24 vs. E48 values:
+
+matching – 1.00, 1.10, 7.50
+missing – 1.20, 1.30, 1.50, 1.60, 1.80, 2.00, 2.20, 2.40, 2.70, 3.00, 3.30, 3.60, 3.90, 4.30, 4.70, 5.10, 5.60, 6.20, 6.80, 8.20, 9.10Comparison of E24 vs. E96 values:
+
+matching – 1.00, 1.10, 1.30, 1.50, 2.00, 7.50
+missing – 1.20, 1.60, 1.80, 2.20, 2.40, 2.70, 3.00, 3.30, 3.60, 3.90, 4.30, 4.70, 5.10, 5.60, 6.20, 6.80, 8.20, 9.10.Comparison of E24 vs. E192 values:
+
+matching – 1.00, 1.10, 1.20, 1.30, 1.50, 1.60, 1.80, 2.00, 2.40, 4.70, 7.50
+missing – 2.20, 2.70, 3.00, 3.30, 3.60, 3.90, 4.30, 5.10, 5.60, 6.20, 6.80, 8.20, 9.10
+
+
+== Lists ==
+
+List of values for each E series:
+
+E3 values (>20% tolerance)
+1.0, 2.2, 4.7E6 values (20% tolerance)
+1.0, 1.5, 2.2, 3.3, 4.7, 6.8E12 values (10% tolerance)
+1.0, 1.2, 1.5, 1.8, 2.2, 2.7, 3.3, 3.9, 4.7, 5.6, 6.8, 8.2E24 values (5% tolerance)
+1.0, 1.1, 1.2, 1.3, 1.5, 1.6, 1.8, 2.0, 2.2, 2.4, 2.7, 3.0, 3.3, 3.6, 3.9, 4.3, 4.7, 5.1, 5.6, 6.2, 6.8, 7.5, 8.2, 9.1E48 values (2% tolerance) – (see notes in previous section)
+1.00, 1.05, 1.10, 1.15, 1.21, 1.27, 1.33, 1.40, 1.47, 1.54, 1.62, 1.69, 1.78, 1.87, 1.96, 2.05, 2.15, 2.26, 2.37, 2.49, 2.61, 2.74, 2.87, 3.01, 3.16, 3.32, 3.48, 3.65, 3.83, 4.02, 4.22, 4.42, 4.64, 4.87, 5.11, 5.36, 5.62, 5.90, 6.19, 6.49, 6.81, 7.15, 7.50, 7.87, 8.25, 8.66, 9.09, 9.53E96 values (1% tolerance) – (see notes in previous section)
+1.00, 1.02, 1.05, 1.07, 1.10, 1.13, 1.15, 1.18, 1.21, 1.24, 1.27, 1.30, 1.33, 1.37, 1.40, 1.43, 1.47, 1.50, 1.54, 1.58, 1.62, 1.65, 1.69, 1.74, 1.78, 1.82, 1.87, 1.91, 1.96, 2.00, 2.05, 2.10, 2.15, 2.21, 2.26, 2.32, 2.37, 2.43, 2.49, 2.55, 2.61, 2.67, 2.74, 2.80, 2.87, 2.94, 3.01, 3.09, 3.16, 3.24, 3.32, 3.40, 3.48, 3.57, 3.65, 3.74, 3.83, 3.92, 4.02, 4.12, 4.22, 4.32, 4.42, 4.53, 4.64, 4.75, 4.87, 4.99, 5.11, 5.23, 5.36, 5.49, 5.62, 5.76, 5.90, 6.04, 6.19, 6.34, 6.49, 6.65, 6.81, 6.98, 7.15, 7.32, 7.50, 7.68, 7.87, 8.06, 8.25, 8.45, 8.66, 8.87, 9.09, 9.31, 9.53, 9.76E192 values (0.5% and lower tolerance) – (see notes in previous section)
+1.00, 1.01, 1.02, 1.04, 1.05, 1.06, 1.07, 1.09, 1.10, 1.11, 1.13, 1.14, 1.15, 1.17, 1.18, 1.20, 1.21, 1.23, 1.24, 1.26, 1.27, 1.29, 1.30, 1.32, 1.33, 1.35, 1.37, 1.38, 1.40, 1.42, 1.43, 1.45, 1.47, 1.49, 1.50, 1.52, 1.54, 1.56, 1.58, 1.60, 1.62, 1.64, 1.65, 1.67, 1.69, 1.72, 1.74, 1.76, 1.78, 1.80, 1.82, 1.84, 1.87, 1.89, 1.91, 1.93, 1.96, 1.98, 2.00, 2.03, 2.05, 2.08, 2.10, 2.13, 2.15, 2.18, 2.21, 2.23, 2.26, 2.29, 2.32, 2.34, 2.37, 2.40, 2.43, 2.46, 2.49, 2.52, 2.55, 2.58, 2.61, 2.64, 2.67, 2.71, 2.74, 2.77, 2.80, 2.84, 2.87, 2.91, 2.94, 2.98, 3.01, 3.05, 3.09, 3.12, 3.16, 3.20, 3.24, 3.28, 3.32, 3.36, 3.40, 3.44, 3.48, 3.52, 3.57, 3.61, 3.65, 3.70, 3.74, 3.79, 3.83, 3.88, 3.92, 3.97, 4.02, 4.07, 4.12, 4.17, 4.22, 4.27, 4.32, 4.37, 4.42, 4.48, 4.53, 4.59, 4.64, 4.70, 4.75, 4.81, 4.87, 4.93, 4.99, 5.05, 5.11, 5.17, 5.23, 5.30, 5.36, 5.42, 5.49, 5.56, 5.62, 5.69, 5.76, 5.83, 5.90, 5.97, 6.04, 6.12, 6.19, 6.26, 6.34, 6.42, 6.49, 6.57, 6.65, 6.73, 6.81, 6.90, 6.98, 7.06, 7.15, 7.23, 7.32, 7.41, 7.50, 7.59, 7.68, 7.77, 7.87, 7.96, 8.06, 8.16, 8.25, 8.35, 8.45, 8.56, 8.66, 8.76, 8.87, 8.98, 9.09, 9.20, 9.31, 9.42, 9.53, 9.65, 9.76, 9.88
+
+
+== Table ==
+
+
+== See also ==
+Electronic color code – color-code used to indicate the values of axial electronic components, such as resistors, capacitors, inductors, diodes (also see IEC 60062).
+Preferred numbers
+Renard series - used for current rating of electric fuses
+1-2-5 series
+Geometric progression
+
+
+== References ==
+
+
+== External links ==
+Calculate standard resistor values in Excel – EDN magazinePrintable E series tables
+E6 to E96 Table – Servenger
+E3 to E192 Table – Vishay
+E6 to E192 Table – Analog Services

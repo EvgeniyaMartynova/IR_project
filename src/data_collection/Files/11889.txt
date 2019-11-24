@@ -1,0 +1,39 @@
+Title: ATC code R07
+Aspects: {'R07'}
+
+ATC code R07 Other respiratory system products is a therapeutic subgroup of the Anatomical Therapeutic Chemical Classification System, a system of alphanumeric codes developed by the WHO for the classification of drugs and other medical products. Subgroup R07 is part of the anatomical group R Respiratory system.
+Codes for veterinary use (ATCvet codes) can be created by placing the letter Q in front of the human ATC code: for example, QR07. ATCvet codes without corresponding human ATC codes are cited with the leading Q in the following list.National issues of the ATC classification may include additional codes not present in this list, which follows the WHO version.
+
+
+== R07A Other respiratory system products ==
+
+
+=== R07AA Lung surfactants ===
+R07AA01 Colfosceril palmitate
+R07AA02 Natural phospholipids
+R07AA30 Combinations
+
+
+=== R07AB Respiratory stimulants ===
+R07AB01 Doxapram
+R07AB02 Nikethamide
+R07AB03 Pentetrazol
+R07AB04 Etamivan
+R07AB05 Bemegride
+R07AB06 Prethcamide
+R07AB07 Almitrine
+R07AB08 Dimefline
+R07AB09 Mepixanox
+R07AB52 Nikethamide, combinations
+R07AB53 Pentetrazol, combinations
+QR07AB99 Respiratory stimulants, combinations
+
+
+=== R07AX Other respiratory system products ===
+R07AX01 Nitric oxide
+R07AX02 Ivacaftor
+R07AX30 Ivacaftor and lumacaftor
+R07AX31 Ivacaftor and tezacaftor
+
+
+== References ==

@@ -1,0 +1,134 @@
+Title: Allison J33
+Aspects: {'J33'}
+
+The General Electric/Allison J33 was a development of the General Electric J31, enlarged to produce significantly greater thrust, starting at 4,000 lbf (18 kN) and ending at 4,600 lbf (20 kN) with an additional low-altitude boost to 5,400 lbf (24 kN) with water-alcohol injection.
+
+
+== Development ==
+The J33 was originally developed by General Electric as a follow-on to their work with the designs of Frank Whittle during World War II. Their first engine was known as the General Electric I-A, but after major changes to adapt it to US production and to increase thrust, it started limited production as the I-16 in 1942, the 16 referring to its 1,600 lbf (7.1 kN) thrust. Full production started as the J31 when the United States Army Air Forces introduced common naming for all their engine projects.
+Along with the I-16, GE also started work on an enlarged version, known as the I-40. As the name implied, the engine was designed to provide 4,000 lbf (18 kN). Apart from size, the main difference between I-16 and the I-40 was the combustion system: the I-16 had ten reverse-flow cans, whereas the I-40 had 14 straight-through combustors. The development cycle was remarkably rapid. Design work started in mid-1943 and the first prototype underwent static testing on 13 January 1944.
+Lockheed was in the midst of the XP-80 project at the time, originally intending to power their design with a US-produced version of the Halford H-1 of about 3,000 lbf (13 kN). Production of the H-1 by Allis-Chalmers ran into delays, and since the I-40 would dramatically improve performance, plans were made to fit the prototypes with the I-40 instead.
+The I-40 became important to the USAAF's plans when the I-16 powered P-59 was skipped over in favor of the I-40 powered P-80 as the US's first production jet fighter. In 1945 the license to actually produce the engine was not given to General Electric, but Allison instead. Allison, working largely from government-owned wartime factories, could produce the engine in quantity more quickly and cheaply.
+By the time the production lines were shut down Allison had built over 6,600 J33's, and General Electric another 300 (mostly the early runs).
+In 1958, surplus J33s were used in jet donkeys pushing dead loads at 200 knots to test aircraft carrier arresting gear cables and tailhooks at Lakehurst.A model of the J33 intended for civil use, designated the Allison 400-C4, in 1948 became the first US gas turbine certificated for commercial transport use.
+
+
+== Variants ==
+
+Data from: Aircraft engines of the World 1953, Aircraft engines of the World 1957
+J33-A-6
+4,600 lbf (20 kN), United States Navy (USN)
+J33-A-8
+4,600 lbf (20 kN), (USN)
+J33-A-10
+4,600 lbf (20 kN), (USN) Used as mixed propulsion engine system with P&W R-4360 on Martin P4M
+J33-A-14
+A short life engine powering the Chance-Vought Regulus, 4,600 lbf (20.46 kN) thrust.
+J33-A-16
+Similar to the -16A, 5,850 lbf (26.02 kN)
+J33-A-16A
+Powering the Grumman F9F-7, 5,400 lbf (24.02 kN) thrust.
+J33-A-17
+
+J33-A-17A
+
+J33-A-18A
+A short life engine powering the Chance-Vought Regulus.
+J33-A-20
+
+J33-A-21
+4,500 lbf (20.02 kN) thrust.
+J33-A-22
+Powering the Lockheed T2V-1 with bleed air for boundary-layer control.
+J33-A-23
+similar to -35, 4,600 lbf (20.46 kN) thrust.
+J33-A-24
+6,100 lbf (27.13 kN) thrust, powers the Lockheed T2V.
+J33-A-24A
+6,100 lbf (27.13 kN) thrust, powers the Lockheed T2V.
+J33-A-25
+similar to -35
+J33-A-27
+United States Air Force (USAF), similar to the -16A,
+J33-A-29
+8,200 lbf (36.48 kN) re-heat thrust.
+J33-A-31
+similar to -35
+J33-A-33
+6,000 lbf (26.69 kN) re-heat thrust.
+J33-A-35
+4,600 lbf (20.46 kN) thrust / 5,400 lbf (24.02 kN) with water-alcohol injection, powers the Lockheed T2V and Lockheed T-33.
+J33-A-37
+A short life engine powering the Martin Matador, 4,600 lbf (20.46 kN) thrust.
+400-C4
+Company designation.
+400-C13
+Company designation of the -35
+400-D9
+Company designation of the -33
+
+
+== Applications ==
+Convair XF-92
+Lockheed P-80 Shooting Star
+Lockheed T-33 Shooting Star
+Lockheed F-94A / F-94B Starfire
+North American AJ Savage
+Martin P4M Mercator
+MGM-1 Matador
+MGM-13 Mace
+SSM-N-8 Regulus
+
+
+== Specifications (Allison J33-A-35) ==
+Data from Jane's all the World's Aircraft 1955–56, Aircraft engines of the World 1957
+
+
+==== General characteristics ====
+Type: centrifugal compressor turbojet with water injection
+Length: 107 in (271.8 cm)
+Diameter: 50.5 in (128.3 cm)
+Dry weight: 1,820 lb (825.5 kg)
+
+
+==== Components ====
+Compressor: single-stage double-sided centrifugal compressor
+Combustors: 14 can type stainless steel combustion chambers
+Turbine: single-stage axial
+Fuel type: JP-4, Kerosene (AN-F-32) or 100/130 gasoline
+Oil system: wet sump, pressure spray at 42 psi (289.6 kPa)
+
+
+==== Performance ====
+Maximum thrust: 4,600 lbf (20,461.82 N) static dry at 11,750 rpm at sea level for take-offTake-off thrust, static wet: 5,400 lbf (24.02 kN) at 11,750 rpm at sea level
+Normal thrust, static: 3,900 lbf (17.35 kN) at 11,000 rpm at sea levelOverall pressure ratio: 4.4:1
+Air mass flow: 90 lb/s (2,449.40 kg/min) at 11,750 rpm
+Turbine inlet temperature: TIT: 1,116.15 K (1,549.40 °F; 843.00 °C) ; JPT: 958.15 K (1,265.00 °F; 685.00 °C)
+Specific fuel consumption: 1.12 lb/(lbf⋅h) (32 g/(kN⋅s))
+Thrust-to-weight ratio: 2.53
+
+
+== See also ==
+
+Related development
+
+General Electric J31
+Comparable engines
+
+de Havilland Ghost
+Rolls-Royce DerwentRelated lists
+
+List of aircraft engines
+
+
+== References ==
+
+
+== Further reading ==
+Gunston, Bill (1989). World Encyclopaedia of Aero Engines (2nd ed.). Cambridge, England: Patrick Stephens Limited. ISBN 978-1-85260-163-8.
+Kay, Anthony L. (2007). Turbojet History and Development 1930-1960, Volume 2: USSR, USA, Japan, France, Canada, Sweden, Switzerland, Italy and Hungary (1st ed.). Ramsbury: The Crowood Press. ISBN 978-1861269393.
+Wilkinson, Paul H. (1946). Aircraft Engines of the world 1946. London: Sir Isaac Pitman & Sons. pp. 272–273.
+
+
+== External links ==
+J33 on LeteckeMotory.cz (cs)

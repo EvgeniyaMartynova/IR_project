@@ -1,0 +1,148 @@
+Title: FN Minimi
+Aspects: {'F89'}
+
+The FN Minimi (short for French: Mini Mitrailleuse; "mini machine gun") is a Belgian 5.56mm Squad Automatic Weapon, or SAW developed by Fabrique Nationale (FN) in Herstal by Ernest Vervier. First introduced in the late 1970s, it is now in service in more than 75 countries. The weapon is currently manufactured at the FN facility in Herstal and their U.S. subsidiary FN Manufacturing LLC.
+The Minimi is a SAW that fires from an open bolt. It is an air-cooled weapon that is capable of fully automatic fire only. It can be belt fed or fired from a magazine. The Minimi is configured in several variants: the Standard model as a platoon or squad support weapon, the Para version for paratroopers and the Vehicle model as secondary armament for fighting vehicles.
+
+
+== Design details ==
+
+
+=== Operating mechanism ===
+
+The Minimi uses a gas-actuated long-stroke piston system. The barrel is locked with a rotary bolt, equipped with two massive locking lugs, forced into battery by a helical camming guide in the bolt carrier. Upon firing, the piston is forced to the rear by expanding propellant gases bled through a port in the barrel near the muzzle end. The piston rod acts against the bolt carrier, which begins its rearward motion guided on two rails welded to the receiver walls, while the bolt itself remains locked. This sequence provides a slight delay that ensures chamber pressure has dropped to a safe level by the time a cam in the bolt carrier rotates and unlocks the bolt, increasing extraction reliability as the empty cartridge casing has had the time to cool down and contract, exerting less friction against the chamber walls.
+The Minimi fires from an open bolt, which reduces the danger of a round cooking off after extended periods of continuous fire, since a cartridge is only momentarily introduced into the chamber prior to ignition, and the movement of the bolt and bolt carrier forces air through the chamber and barrel after each shot, ventilating the barrel and removing heat. Gas escaping the gas cylinder is directed upward, avoiding kicking up dust and debris that would reveal the shooter's position.
+
+
+=== Features ===
+
+The Minimi has a manually adjustable gas valve with two positions, normal and adverse. The adverse setting increases the cyclic rate of fire from 700–850 rounds per minute to 950–1,150 rounds per minute and is used only in extreme environmental conditions or when heavy fouling is present in the weapon's gas tube. The spring extractor is located inside the bolt, while the tilting lever ejector is contained inside the receiver housing. Spent casings are removed through a port located at the bottom of the right side of the receiver, protected from debris with a spring-loaded dust cover. The Minimi is striker-fired and the bolt carrier functions as the striker mechanism.
+The Minimi has a push-button type manual safety installed in the trigger housing, above the pistol grip. In the "weapon safe" position, it disables the sear mechanism; pushing the button to the right side exposes a red-colored rim on the left side of the firearm and indicates the weapon is ready to fire. The black polymer pistol grip from the FAL and FNC rifles was initially used, but the Minimi is currently fitted with a modified grip with lateral grooves, installed at a smaller angle to the receiver.
+The Minimi features a welded receiver made from stamped steel. Both the standard and Para variants are equipped with a fixed, folding bipod mounted to the gas tube and stowed under the handguard. The bipod can be adjusted in height and each leg has three height settings. The bipod also offers a 15° range of rotation to either side. With the bipod fully extended, the bore axis is elevated to a height of 465 mm (18.3 in). The Minimi can also be fired from the Belgian FN360° tripod or the American M122 mount using an M60 pintle. The vehicle-mounted Minimi is fitted with an electrically powered trigger that enables it to be fired remotely from within an armored fighting vehicle.
+The standard light machine gun version has a 465 mm (18.3 in) barrel and a skeletonized aluminum stock with a folding wire shoulder strap. The shortened Para model has a 349 mm (13.7 in) barrel and a collapsible metal stock, while the vehicle-mounted model has a 465 mm (18.3 in) barrel but does not have a stock or iron sights. All models can alternatively be fitted with a fixed synthetic stock, the same used on the M249, which contains a hydraulic buffer that contributes to stabilizing the rate of fire and reducing recoil forces.
+
+
+=== Feeding ===
+
+The weapon is fed from the left-hand side by disintegrating-link M27 ammunition belts (a miniaturized version of the 7.62mm M13 belt), from either an unsupported loose belt, enclosed in a polymer ammunition box with a 200-round capacity attached to the base of the receiver, or from detachable STANAG magazines, used in other NATO 5.56 mm assault rifles such as the M16 and FNC. Magazine feeding is used only as an auxiliary measure, when belted ammunition has been exhausted. The ammunition belt is introduced into the feed tray, magazines are seated inside the magazine port at a 45° angle, located beneath the feed tray port. When a belt is placed in the feed tray it covers the magazine port. Likewise, a magazine inserted into the magazine well will prevent the simultaneous insertion of a belt. The magazine port, when not in use, is closed with an L-shaped hinged flap equipped with a tooth, which engages a corresponding opening in the magazine and serves as a magazine release. This feature was developed by FN's Maurice V. Bourlet and allows the Minimi to be instantly changed from belt feed to magazine feed without any modification.The pawl-type feeding mechanism is modeled on the system used in the MAG general-purpose machine gun, which was originally used in the World War II-era MG 42. The belt is moved in two stages during both the forward and rearward movement of the reciprocating bolt carrier, which provides for a smooth and continuous feeding cycle. The feeding mechanism top cover features a device that indicates the presence of a cartridge in the feed path.
+
+
+=== Barrel ===
+The barrels used in the Minimi have an increased heat capacity for sustained fire, feature a chrome-lined rifled bore (six right-hand grooves) and are manufactured in two versions: with a 178 mm (1:7 in) twist rate used to stabilize the heavier Belgian 5.56×45mm SS109 projectile, or a 305 mm (1:12 in) twist for use with American M193 ammunition. The barrels have a quick-change capability; a lever is provided on the left side of the weapon that unlocks the barrel allowing the shooter to push it forward removing it from its trunnion. A carrying handle is also fixed to the barrel and assists in the barrel change process. A trained soldier can perform a barrel change and ready the weapon for aimed fire in 6–7 seconds. Early models of the Minimi had a flash suppressor with side ports as seen on the FAL, CAL and FNC rifles; new production guns have a shorter, cone-shaped slotted flash suppressor.
+
+
+=== Sights ===
+Both the standard and Para models come with a rear sight, adjustable for windage and elevation, that provides a peep aperture for ranges from 300 to 1000 m in 100 m increments. The sight line radius is 490 millimeters (19.3 in). The hooded front sight is installed in a post on the gas block and is also adjustable for elevation and windage. Early models of the Minimi had the rear sight mounted forward of the feed cover and the front post secured to the barrel, closer to the muzzle end. An adapter can also be used that allows the use of standard NATO night and day sights.
+
+
+=== Accessories ===
+Standard equipment supplied with the Minimi consists of three ammunition boxes, a cleaning kit stored inside the forearm, lubricant bottle, sling and blank-firing barrel.
+
+
+== Variants ==
+
+
+=== M249 ===
+
+The M249 version of the Minimi was adopted by the US military in 1982; since 1984, production for the US military has been carried out entirely in the US by a local subsidiary, FN Manufacturing LLC in South Carolina.
+As part of the US military's M249 Product Improvement Program (PIP), the M249 was updated with: a new synthetic stock and modified buffer assembly, a single-position gas regulator, a so-called birdcage type flash hider/compensator from the M16A2, a polymer barrel heat guard, and a folding carry handle. As a result, the weapon’s weight increased to 7.47 kg (16.5 lb). Many of the PIP upgrades were later incorporated by FN for the Minimi.
+A lightweight variant of the Para with a Picatinny top cover rail adapter is known as the Minimi Special Purpose Weapon (SPW). It had the magazine feed port removed to further reduce weight, and a railed MIL-STD-1913 handguard was used that enables the use of standard tactical accessories.
+Another variant of the SPW requested by the US Special Operations Forces is the Mk 46 Mod 0 that incorporates a lightweight fluted barrel but lacks the magazine feed system, vehicle mounting lugs and carry handle. A railed forearm ensures modularity and mission-adaptability permitting the use of flashlights, vertical grips, and infrared laser designators. An improved variant known as the Mk 46 Mod 1 with an improved forward rail and lightweight titanium bipod has been adopted by the United States Navy.
+
+
+=== Minimi 7.62 ===
+The Minimi prototype was originally designed in 7.62×51mm NATO, and later redesigned for the 5.56 mm cartridge. When the USSOCOM issued the requirements for the Mk 48 Mod 0, the original plans for the Minimi were retrieved and used to develop this new model. As a result of favorable reviews of the Mk 48 Mod 0 and increasing demand for a more powerful variant of the Minimi, FN Herstal introduced the Minimi 7.62, available in several different configurations. Apart from the different caliber, the Minimi 7.62 incorporates a non-adjustable, self-regulating gas system and a hydraulic recoil buffer in the buttstock assembly. The Minimi 7.62 also has a different sight setup calibrated for the larger cartridge. The rear sight is adjustable from 100 to 1,000 m by 100 m increments. The sight can also be corrected for windage. A variant of the Minimi 7.62 equipped with a railed Picatinny handguard is the Minimi 7.62 TR.
+
+
+=== Minimi Mk3 ===
+In November 2013, FN Herstal unveiled the improved Mk3 version of the Minimi light machine gun. The upgrades were based on operational experience and user feedback over the past 10–15 years. It can be converted to fire either 5.56×45mm or 7.62×51mm rounds. The stock is 5-position adjustable that is also adjustable for cheek rest height with a folding shoulder rest and hydraulic buffer. The feed tray has retaining pawls to hold ammunition from the belt in place while loading. The handguard has three forward picatinny rails. A new bipod is 3-position height adjustable and seamlessly integrates into the shape of the handguard when folded back regardless of accessories that may be attached. Others features include a more ergonomic cocking handle and an optional heat shield, enabled by an added on long pin, to protect from barrel heat. Users that already have Minimi machine guns can partially or completely upgrade their existing weapons with the Mk3 features.
+
+
+=== Production in other countries ===
+The Minimi is being licence-built in Canada, Australia, Italy, Indonesia, Japan, Sweden, Greece and Switzerland by Colt Canada, Lithgow Arms, Beretta, Pindad, Sumitomo Heavy Industries, Bofors Carl Gustaf, EAS and Astra Arms S.A. respectively.
+Copies of the Minimi have been produced for export by Norinco and made by Changfeng Machinery Co., Ltd in China without license, designated as CS/LM8 in 2011, and chambered in 5.56×45mm NATO. Another clone, known as the XY 5.56, is made by Yunnan Xiyi Industry Company Limited. This was supposed to be mistaken for the CS/LM8 when news of the weapon was made in 2008.Taiwan also produced the Minimi without license, as the T75. In addition, Egypt also produce Minimi under license.
+
+
+== Users ==
+
+The Minimi has been adopted by over 45 countries. Users include:
+
+ Afghanistan: Afghan National Army uses the M249 light machine gun supplied by the United States.
+ Australia: Designated F89 in Australian service. It is manufactured by Lithgow Arms. Both the Standard and Para versions are used, with the Standard version usually being equipped with a 1.5x sight, and the Para variant usually equipped with a holographic sight, a removable forward grip and a detachable bipod. The 7.62 mm model is known as the Maximi, is also in limited service.
+ Belgium: Standard infantry support weapon of the Belgian Army. Uses both the standard (called the Minimi M2) and Para (Minimi M3) models.
+ Brazil: Used by the Batalhão de Operações Policiais Especiais (BOPE) from Military Police of Rio de Janeiro, as well by the Brazilian Army, Marine Corps (399 by 17 military organization, with 13 adopting the Minimi 5,56 Standard and 4 adopting the Minimi 5,56 Para) and Brazilian Air Force. The Army Special Forces uses 38 Minimi 5,56 Special Purpose Weapon (SPW).
+ Burundi: Burundian rebels
+ Canada: The Canadian Forces C9 is a standard factory Minimi with a steel tubular stock. The C9A1 comes fitted with a Picatinny rail on the feed cover mounting a 3.4× ELCAN C79 telescopic sight and can mount a vertical grip on the underside of the stock for added stability in prone firing. The C9A2 mid-life upgrade introduced a shorter barrel, green furniture, a C8-style collapsible stock, folding vertical foregrip and a laser aiming module (LAM). Two C9s are carried by each infantry section.
+ Chile: Used by Chilean Marine Corps in 7.62 NATO  and the Chilean Army. 
+ People's Republic of China: Locally-made clones are used by Chinese Polices
+ Czech Republic: 7.62×51mm NATO Minimi adopted as the standard machine-gun for the Czech Army replacing the Uk vz. 59. 317 delivered as of January 2016. The 601st Special Forces Group uses the Mk 48 Mod 0.
+ Denmark: Used by the Jægerkorps.
+ Dominican Republic: Used by the Armed Forces of the Dominican Republic.
+ East Timor: Timor Leste Defence Force
+ Egypt: Produced locally under license.
+ France: The Para version is widely used by the French Army. Fielded alongside the FN MAG GPMG.
+ Greece: Manufactured under license by EAS, used by the Hellenic Army and special forces. First 10 examples delivered in 1999.
+ Hungary: M249 SAW is used by the Hungarian Special Force.
+ Indonesia Standard light machine gun of Indonesian Armed Forces. Made under license by Pindad as Pindad SM-2.
+ Iraq
+ Ireland: Para in use with the Army Ranger Wing (ARW) special forces.
+ Italy: The Minimi is made under license by Beretta, which has a partnership with FN, and is employed by the Italian Armed Forces, replacing the MG 42/59 (a variant of the WWII MG 42, which still sees widespread mounted use) in the squad automatic weapon role. The Minimi is being widely employed by Italian forces in all the most recent and current international theaters of operation.
+ Japan: Partially replaced the NTK-62 with the Japanese Ground Self-Defense Forces. It is manufactured under license by Sumitomo Heavy Industries.
+ Latvia: Standard light machine gun in Latvian inventory.
+ Libya
+ Luxembourg:The Luxemburgish Army uses it as a Squad automatic Weapon, The Para variant is used by the Unité Spéciale de la Police intervention unit of the Grand Ducal Police.
+ Malaysia: The Malaysian Army replaced the HK11A1 machine gun with the Minimi. Also used by police special force units.
+ Mali: People's Movement for the Liberation of Azawad
+ Mexico: Mexican Army and Mexican Navy marines utilize the Minimi in the squad automatic weapon and vehicle mounted role along with the Federal Police and various state police forces. Mexican Air Force uses it on helicopters.
+   Nepal: Purchased 5,500 units in 2002.
+ Netherlands: The Royal Netherlands Army has brought in the Para version of the Minimi to replace the FN MAG in some infantry roles. The Dutch Korps Commandotroepen use the Minimi 5.56 para version. The MAG is still being used as a general-purpose machine gun, support fire weapon and as a vehicle-mounted weapon.
+ New Zealand: The New Zealand Defence Force uses the Minimi under the designation C9 Minimi. This gun has been used as the Army's Light Support Weapon (LSW) since 1988. The 7.62 Minimi TR was selected in Feb 2012 to replace the C9 LSW Minimi and will be known as the 7.62 LSW Minimi in NZDF service.
+ Norway: In use with HJK/FSK, KJK, and MJK since the late 1980s, since 2011 in use with armed forces of Norway (1,900 machine guns were purchased in 2011).
+ Pakistan: FN Minimi Para used by the Pakistan Army.
+ Papua New Guinea: Designated F89.
+ Peru: Used by the Infantería de Marina del Perú (Peruvian Naval Infantry).
+ Philippines: In use by the Armed Forces of the Philippines (AFP). Purchased the FN Minimi in May 2002.
+ Poland: JW GROM, JW Komandosów (7.62 mm), JW Formoza.
+ Portugal: MINIMI 5.56 Mk3 and 7.62 Mk3 Tactical light machine guns ordered by the Portuguese Army.
+ Serbia: Used by the Special Brigade and Special Anti-Terrorist Unit.
+ Senegal: Used by Senegalese special forces units.
+ Singapore: Used by the Singapore Police Gurkha Contingent and Army special forces.
+ Slovenia: Minimi Para used by the Military of Slovenia.
+ Spain: The Spanish Navy acquired Minimi light machine guns in the 5.56×45mm Para and 7.62×51mm versions.
+ Sri Lanka
+ Syria: Desert Hawks Brigade Free Syrian Army
+ ISIS Sweden: Known as the Ksp 90 (Kulspruta 90). Para model designated Ksp 90B; both are made by Bofors Carl Gustaf.
+  Switzerland: Designated LMg 05 (Leichtes Maschinengewehr 05) or FM 05 (Fusil mitrailleur 05).
+ Republic of China: Used by the Republic of China Army; a version re-engineered for local production, designated T75, is in use by the Republic of China Marine Corps.
+ Thailand Used by the Royal Thai Navy Marine Corps and by the Royal Thai Army (M249 variant).
+ Tunisia
+ Turkey: Used by General Directorate of Security and Turkish Land Forces
+ United Arab Emirates
+ United Kingdom: Uses standard and Para variants, designated L108A1 and the L110A2 respectively. The Army equips each four-man fireteam with the Para variant. The LMG is usually fitted with the 4× SUSAT standard issue rifle sight. It is also used by the Royal Navy, Royal Marines Commandos and the RAF Regiment. Additionally, small numbers of 7.62 Minimis are in service. The British Army will phase out the L110A3 by early 2019 in favor of the earlier L7A2 general purpose machine gun, though Joint Force Command users will retain their stocks of the weapon.
+ United States: United States Armed Forces use it as the M249 light machine gun.
+ Vietnam: FN Minimi Mk 3 are used by the Vietnamese Marines.
+ Yemen: FN Minimi Reported by Amnesty to be used by a militia during the Hodeidah offensive in 2018
+
+
+== See also ==
+Knight's Armament Company LMG
+HK MG4
+IMI Negev
+Daewoo Precision Industries K3
+Ultimax 100
+
+
+== Notes ==
+
+
+== References ==
+McNab, Chris (23 February 2017). The FN Minimi Light Machine Gun: M249, L108A1, L110A2, and other variants. Weapon 53. Osprey Publishing. ISBN 9781472816214.
+Popenker, Maxim; Williams, Anthony G. (2008). Machine Gun. The Development of the Machine Gun from the Nineteenth Century to the Present Day. London: Crowood Press. ISBN 978-1-84797-030-5.
+
+
+== External links ==
+Official Website (5.56mm)
+Official Website (7.62mm)
+FNH Firearms Blog
+Video of operation on YouTube (in Japanese)
+FN Minimi

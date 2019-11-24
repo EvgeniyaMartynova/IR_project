@@ -1,0 +1,765 @@
+Title: Love wave
+Aspects: {'Q wave'}
+
+In elastodynamics, Love waves, named after Augustus Edward Hough Love, are horizontally polarized surface waves. The Love wave is a result of the interference of many shear waves (S-waves) guided by an elastic layer, which is welded to an elastic half space on one side while bordering a vacuum on the other side. In seismology, Love waves (also known as Q waves (Quer: German for lateral)) are surface seismic waves that cause horizontal shifting of the Earth during an earthquake. Augustus Edward Hough Love predicted the existence of Love waves mathematically in 1911.  They form a distinct class, different from other types of seismic waves, such as P-waves and S-waves (both body waves), or Rayleigh waves (another type of surface wave).  Love waves travel with a lower velocity than P- or S- waves, but faster than Rayleigh waves. These waves are observed only when there is a low velocity layer overlying a high velocity layer/ sub–layers.
+
+
+== Description ==
+The particle motion of a Love wave forms a horizontal line perpendicular to the direction of propagation (i.e. are transverse waves).  Moving deeper into the material, motion can decrease to a "node" and then alternately increase and decrease as one examines deeper layers of particles.  The amplitude, or maximum particle motion, often decreases rapidly with depth.
+Since Love waves travel on the Earth's surface, the strength (or amplitude) of the waves decrease exponentially with the depth of an earthquake.  However, given their confinement to the surface, their amplitude decays only as 
+  
+    
+      
+        
+          
+            1
+            
+              r
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {1}{\sqrt {r}}}}
+  , where 
+  
+    
+      
+        r
+      
+    
+    {\displaystyle r}
+   represents the distance the wave has travelled from the earthquake. Surface waves therefore decay more slowly with distance than do body waves, which travel in three dimensions.  Large earthquakes may generate Love waves that travel around the Earth several times before dissipating.
+Since they decay so slowly, Love waves are the most destructive outside the immediate area of the focus or epicentre of an earthquake.  They are what most people feel directly during an earthquake.
+In the past, it was often thought that animals like cats and dogs could predict an earthquake before it happened.  However, they are simply more sensitive to ground vibrations than humans and able to detect the subtler body waves that precede Love waves, like the P-waves and the S-waves.
+
+
+== Basic theory ==
+The conservation of linear momentum of a linear elastic material can be written as 
+
+  
+    
+      
+        
+          ∇
+        
+        ⋅
+        (
+        
+          
+            C
+          
+        
+        :
+        
+          ∇
+        
+        
+          u
+        
+        )
+        =
+        ρ
+         
+        
+          
+            
+              
+                u
+              
+              ¨
+            
+          
+        
+      
+    
+    {\displaystyle {\boldsymbol {\nabla }}\cdot ({\mathsf {C}}:{\boldsymbol {\nabla }}\mathbf {u} )=\rho ~{\ddot {\mathbf {u} }}}
+  where 
+  
+    
+      
+        
+          u
+        
+      
+    
+    {\displaystyle \mathbf {u} }
+   is the displacement vector and 
+  
+    
+      
+        
+          
+            C
+          
+        
+      
+    
+    {\displaystyle {\mathsf {C}}}
+   is the stiffness tensor.  Love waves are a special solution (
+  
+    
+      
+        
+          u
+        
+      
+    
+    {\displaystyle \mathbf {u} }
+  ) that satisfy this system of equations. We typically use a Cartesian coordinate system (
+  
+    
+      
+        x
+        ,
+        y
+        ,
+        z
+      
+    
+    {\displaystyle x,y,z}
+  ) to describe Love waves.
+Consider an isotropic linear elastic medium in which the elastic properties are functions of only the 
+  
+    
+      
+        z
+      
+    
+    {\displaystyle z}
+   coordinate, i.e., the Lamé parameters and the mass density can be expressed as 
+  
+    
+      
+        λ
+        (
+        z
+        )
+        ,
+        μ
+        (
+        z
+        )
+        ,
+        ρ
+        (
+        z
+        )
+      
+    
+    {\displaystyle \lambda (z),\mu (z),\rho (z)}
+  .  Displacements 
+  
+    
+      
+        (
+        u
+        ,
+        v
+        ,
+        w
+        )
+      
+    
+    {\displaystyle (u,v,w)}
+   produced by Love waves as a function of time (
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+  ) have the form 
+
+  
+    
+      
+        u
+        (
+        x
+        ,
+        y
+        ,
+        z
+        ,
+        t
+        )
+        =
+        0
+         
+        ,
+         
+         
+        v
+        (
+        x
+        ,
+        y
+        ,
+        z
+        ,
+        t
+        )
+        =
+        
+          
+            
+              v
+              ^
+            
+          
+        
+        (
+        x
+        ,
+        z
+        ,
+        t
+        )
+         
+        ,
+         
+         
+        w
+        (
+        x
+        ,
+        y
+        ,
+        z
+        ,
+        t
+        )
+        =
+        0
+        
+        .
+      
+    
+    {\displaystyle u(x,y,z,t)=0~,~~v(x,y,z,t)={\hat {v}}(x,z,t)~,~~w(x,y,z,t)=0\,.}
+  These are therefore antiplane shear waves perpendicular to the 
+  
+    
+      
+        (
+        x
+        ,
+        z
+        )
+      
+    
+    {\displaystyle (x,z)}
+   plane.  The function 
+  
+    
+      
+        
+          
+            
+              v
+              ^
+            
+          
+        
+        (
+        x
+        ,
+        z
+        ,
+        t
+        )
+      
+    
+    {\displaystyle {\hat {v}}(x,z,t)}
+   can be expressed as the superposition of harmonic waves with varying wave numbers (
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+  ) and frequencies (
+  
+    
+      
+        ω
+      
+    
+    {\displaystyle \omega }
+  ).  Consider a single harmonic wave, i.e.,
+
+  
+    
+      
+        
+          
+            
+              v
+              ^
+            
+          
+        
+        (
+        x
+        ,
+        z
+        ,
+        t
+        )
+        =
+        V
+        (
+        k
+        ,
+        z
+        ,
+        ω
+        )
+        
+        exp
+        ⁡
+        [
+        i
+        (
+        k
+        x
+        −
+        ω
+        t
+        )
+        ]
+      
+    
+    {\displaystyle {\hat {v}}(x,z,t)=V(k,z,\omega )\,\exp[i(kx-\omega t)]}
+  where 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+   is the imaginary unit, i.e. 
+  
+    
+      
+        
+          i
+          
+            2
+          
+        
+        =
+        −
+        1
+      
+    
+    {\displaystyle i^{2}=-1}
+  .  The stresses caused by these displacements are
+
+  
+    
+      
+        
+          σ
+          
+            x
+            x
+          
+        
+        =
+        0
+         
+        ,
+         
+         
+        
+          σ
+          
+            y
+            y
+          
+        
+        =
+        0
+         
+        ,
+         
+         
+        
+          σ
+          
+            z
+            z
+          
+        
+        =
+        0
+         
+        ,
+         
+         
+        
+          τ
+          
+            z
+            x
+          
+        
+        =
+        0
+         
+        ,
+         
+         
+        
+          τ
+          
+            y
+            z
+          
+        
+        =
+        μ
+        (
+        z
+        )
+        
+        
+          
+            
+              d
+              V
+            
+            
+              d
+              z
+            
+          
+        
+        
+        exp
+        ⁡
+        [
+        i
+        (
+        k
+        x
+        −
+        ω
+        t
+        )
+        ]
+         
+        ,
+         
+         
+        
+          τ
+          
+            x
+            y
+          
+        
+        =
+        i
+        k
+        μ
+        (
+        z
+        )
+        V
+        (
+        k
+        ,
+        z
+        ,
+        ω
+        )
+        
+        exp
+        ⁡
+        [
+        i
+        (
+        k
+        x
+        −
+        ω
+        t
+        )
+        ]
+        
+        .
+      
+    
+    {\displaystyle \sigma _{xx}=0~,~~\sigma _{yy}=0~,~~\sigma _{zz}=0~,~~\tau _{zx}=0~,~~\tau _{yz}=\mu (z)\,{\frac {dV}{dz}}\,\exp[i(kx-\omega t)]~,~~\tau _{xy}=ik\mu (z)V(k,z,\omega )\,\exp[i(kx-\omega t)]\,.}
+  If we substitute the assumed displacements into the equations for the conservation of momentum, we get a simplified equation
+
+  
+    
+      
+        
+          
+            d
+            
+              d
+              z
+            
+          
+        
+        
+          [
+          
+            μ
+            (
+            z
+            )
+            
+            
+              
+                
+                  d
+                  V
+                
+                
+                  d
+                  z
+                
+              
+            
+          
+          ]
+        
+        =
+        [
+        
+          k
+          
+            2
+          
+        
+        
+        μ
+        (
+        z
+        )
+        −
+        
+          ω
+          
+            2
+          
+        
+        
+        ρ
+        (
+        z
+        )
+        ]
+        
+        V
+        (
+        k
+        ,
+        z
+        ,
+        ω
+        )
+        
+        .
+      
+    
+    {\displaystyle {\frac {d}{dz}}\left[\mu (z)\,{\frac {dV}{dz}}\right]=[k^{2}\,\mu (z)-\omega ^{2}\,\rho (z)]\,V(k,z,\omega )\,.}
+  The boundary conditions for a Love wave are that the surface tractions at the free surface 
+  
+    
+      
+        (
+        z
+        =
+        0
+        )
+      
+    
+    {\displaystyle (z=0)}
+   must be zero. Another requirement is that the stress component 
+  
+    
+      
+        
+          τ
+          
+            y
+            z
+          
+        
+      
+    
+    {\displaystyle \tau _{yz}}
+   in a layer medium must be continuous at the interfaces of the layers.  To convert the second order differential equation in 
+  
+    
+      
+        V
+      
+    
+    {\displaystyle V}
+   into two first order equations, we express this stress component in the form
+
+  
+    
+      
+        
+          τ
+          
+            y
+            z
+          
+        
+        =
+        T
+        (
+        k
+        ,
+        z
+        ,
+        ω
+        )
+        
+        exp
+        ⁡
+        [
+        i
+        (
+        k
+        x
+        −
+        ω
+        t
+        )
+        ]
+      
+    
+    {\displaystyle \tau _{yz}=T(k,z,\omega )\,\exp[i(kx-\omega t)]}
+  to get the first order conservation of momentum equations
+
+  
+    
+      
+        
+          
+            d
+            
+              d
+              z
+            
+          
+        
+        
+          
+            [
+            
+              
+                
+                  V
+                
+              
+              
+                
+                  T
+                
+              
+            
+            ]
+          
+        
+        =
+        
+          
+            [
+            
+              
+                
+                  0
+                
+                
+                  1
+                  
+                    /
+                  
+                  μ
+                  (
+                  z
+                  )
+                
+              
+              
+                
+                  
+                    k
+                    
+                      2
+                    
+                  
+                  
+                  μ
+                  (
+                  z
+                  )
+                  −
+                  
+                    ω
+                    
+                      2
+                    
+                  
+                  
+                  ρ
+                  (
+                  z
+                  )
+                
+                
+                  0
+                
+              
+            
+            ]
+          
+        
+        
+          
+            [
+            
+              
+                
+                  V
+                
+              
+              
+                
+                  T
+                
+              
+            
+            ]
+          
+        
+        
+        .
+      
+    
+    {\displaystyle {\frac {d}{dz}}{\begin{bmatrix}V\\T\end{bmatrix}}={\begin{bmatrix}0&1/\mu (z)\\k^{2}\,\mu (z)-\omega ^{2}\,\rho (z)&0\end{bmatrix}}{\begin{bmatrix}V\\T\end{bmatrix}}\,.}
+  The above equations describe an eigenvalue problem whose solution eigenfunctions can be found by a number of numerical methods.  Another common, and powerful, approach is the propagator matrix method (also called the matricant approach)
+
+
+== See also ==
+Longitudinal wave
+Antiplane shear
+
+
+== References ==
+A. E. H. Love, "Some problems of geodynamics", first published in 1911 by the Cambridge University Press and published again in 1967 by Dover, New York, USA. (Chapter 11: Theory of the propagation of seismic waves)

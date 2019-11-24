@@ -1,0 +1,51 @@
+Title: Yalu (iOS)
+Aspects: {'Yalu (disambiguation)'}
+
+Yalu (formerly Yalu + Mach Portal) is a jailbreaking tool created by qwertyoruiop (Luca Todesco) And marcograssi.  It supports iOS 10.1, 10.1.1, and iOS 10.2 on all 64-bit devices pre-iPhone 7 and iOS 10.1 and 10.1.1 on iPhone 7.The jailbreak is semi-untethered, and requires to be rerun upon reboot.  However, the app certificate expires seven days after sideloaded using Cydia Impactor.
+
+
+== Development ==
+The jailbreak uses vulnerabilities released by Google's Project Zero.
+
+
+=== Yalu + Mach Portal ===
+mach_portal was intended for developers.  The final release for mach_portal is Beta 4.1, which the developer reported as broken.  Initially, Saurik's mobile substrate was not working.  Later versions of mach_portal attempted to fix this, but it remained very unstable.  Developers had to launch an app that had to be sideloaded using Cydia Impactor and wait for it to crash to activate it.
+
+
+==== Support ====
+mach_portal only supported iPhone 7, iPhone 6s, and iPad Pro.
+
+
+=== Yalu ===
+Yalu is the successor to mach_portal.  It uses the same vulnerabilities that were patched in iOS 10.2.1.  It was released for all 64-bit devices pre-iPhone 7.
+
+
+==== Beta 1 ====
+Beta 1 verifies that mobile substrate works.
+
+
+==== Beta 2 ====
+Beta 2 added support for iPhone 5s/SE and 6, which was not present in mach_portal.
+
+
+==== Beta 3 ====
+Beta 3 fixes a glitch that users with an Apple Watch would experience.
+
+
+==== Beta 4 ====
+Beta 4 patches the kernel, and forces Dropbear to use a more secure port instead of 0.0.0.0.
+
+
+==== Beta 5 ====
+Underneath Beta 5 of the Yalu download page, qwertyoruiop writes "Placebo Effect".
+
+
+==== Beta 6 ====
+Minor bug fixes are patched with this release.
+
+
+==== Beta 7 ====
+Beta 7 adds support "for all iOS 10 64-bit devices".  Jailbreakers have reported the final release as stable.
+
+
+== References ==

@@ -1,0 +1,12 @@
+Title: Uniform Appraisal Dataset
+Aspects: {'UAD'}
+
+Uniform Appraisal Dataset is a component of the Uniform Mortgage Data Program, an initiative undertaken by Fannie Mae and Freddie Mac (together known as the GSEs) under the direction of the Federal Housing Finance Agency in the United States in order to comprehensively standardize mortgage loan data so that loans may be processed more efficiently.
+UAD specifically focuses on real estate appraisals and consists of a set of standard rules for classifying appraisal data, and a standard set of abbreviations to use in most common types of appraisal reports.  It also specifies a new XML electronic format for delivering appraisals, based on the MISMO standard (with specific extensions added.)
+Previously, appraisals lacked a comprehensive standard and thus varied widely in the terminology and abbreviations used, thereby occasionally causing confusion and delays during appraisal analysis for mortgage processing.  UAD is an attempt to remedy that situation.
+The GSEs have mandated that all appraisals submitted to them starting on 9/1/2011 must be in UAD format.
+
+
+== External links ==
+Official UAD Website
+Official UMDP Website

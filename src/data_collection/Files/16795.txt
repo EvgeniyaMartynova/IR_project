@@ -1,0 +1,85 @@
+Title: GF(2)
+Aspects: {'Z2'}
+
+GF(2) (also F2, Z/2Z or Z2) is the Galois field of two elements. It is the smallest field.
+
+
+== Definition ==
+The two elements are nearly always called 0 and 1, being the additive and multiplicative identities, respectively.
+The field's addition operation is given by the table below, which corresponds to the logical XOR operation.
+
+The field's multiplication operation corresponds to the logical AND operation.
+
+One may also define GF(2) as the quotient ring of the ring of integers Z by the ideal 2Z of all even numbers: GF(2) = Z/2Z.
+
+
+== Properties ==
+
+Because GF(2) is a field, many of the familiar properties of number systems such as the rational numbers and real numbers are retained:
+
+addition has an identity element (0) and an inverse for every element;
+multiplication has an identity element (1) and an inverse for every element but 0;
+addition and multiplication are commutative and associative;
+multiplication is distributive over addition.Properties that are not familiar from the real numbers include:
+
+every element x of GF(2) satisfies x + x = 0 and therefore −x = x; this means that the characteristic of GF(2) is 2;
+every element x of GF(2) satisfies x2 = x (i.e. is idempotent with respect to multiplication); this is an instance of Fermat's little theorem. GF(2) is the only field with this property (Proof: if 
+  
+    
+      
+        
+          x
+          
+            2
+          
+        
+        =
+        x
+      
+    
+    {\displaystyle x^{2}=x}
+  , then either 
+  
+    
+      
+        x
+        =
+        0
+      
+    
+    {\displaystyle x=0}
+   or 
+  
+    
+      
+        x
+        ≠
+        0
+      
+    
+    {\displaystyle x\neq 0}
+  . In the latter case, x must have a multiplicative inverse, in which case dividing both sides by x gives 
+  
+    
+      
+        x
+        =
+        1
+      
+    
+    {\displaystyle x=1}
+  . All larger fields contain elements other than 0 and 1, and those elements cannot satisfy this property).
+
+
+== Applications ==
+Because of the algebraic properties above, many familiar and powerful tools of mathematics work in GF(2) just as well as other fields.  For example, matrix operations, including matrix inversion, can be applied to matrices with elements in GF(2) (see matrix ring).
+Any group V with the property v + v = 0 for every v in V (i.e. every element is an involution) is necessarily abelian and can be turned into a vector space over GF(2) in a natural fashion, by defining 0v = 0 and 1v = v. This vector space will have a basis, implying that the number of elements of V must be a power of 2 (or infinite). 
+In modern computers, data are represented with bit strings of a fixed length, called machine words. These are endowed with the structure of a vector space over GF(2). The addition of this vector space is the bitwise operation called XOR (exclusive or). The bitwise AND is another operation on this vector space, which makes it a Boolean algebra, a structure that underlies all computer science. These spaces can also be augmented with a multiplication operation that makes them into a field GF(2n), but the multiplication operation cannot be a bitwise operation. When n is itself a power of two, the multiplication operation can be nim-multiplication; alternatively, for any n, one can use multiplication of polynomials over GF(2) modulo a primitive polynomial.
+
+
+== See also ==
+Field with one element
+
+
+== References ==
+Lidl, Rudolf; Niederreiter, Harald (1997). Finite fields. Encyclopedia of Mathematics and Its Applications. 20 (2nd ed.). Cambridge University Press. ISBN 0-521-39231-4. Zbl 0866.11069.

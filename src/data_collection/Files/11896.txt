@@ -1,0 +1,133 @@
+Title: Machine taper
+Aspects: {'R8'}
+
+A machine taper is a system for securing cutting tools or toolholders in the spindle of a machine tool or power tool. A male member of conical form (that is, with a taper) fits into the female socket, which has a matching taper of equal angle.
+Almost all machine tool spindles, and many power tool spindles, have a taper as their primary method of attachment for tools. Even on many drill presses, handheld drills, and lathes, which have chucks (such as a drill chuck or collet chuck), the chuck is attached by a taper. On drills, drill presses, and milling machines, the male member is the tool shank or toolholder shank, and the female socket is integral with the spindle. On lathes, the male may belong to the tool or to the spindle; spindle noses may have male tapers, female tapers, or both.
+
+
+== Explanation ==
+Machine tool operators must be able to install or remove tool bits quickly and easily. A lathe, for example, has a rotating spindle in its headstock, to which one may want to mount a spur drive or work in a collet. Another example is a drill press, to which an operator may want to mount a bit directly, or using a drill chuck.
+Virtually all milling machines, from the oldest manual machines up to the most modern CNC machines, utilize tooling that is piloted on a tapered surface.
+The machine taper is a simple, low-cost, highly repeatable, and versatile tool mounting system. It provides indexability, as tools can be quickly changed but are precisely located both concentrically and axially by the taper. It also allows high power transmission across the interface, which is needed for milling.
+Machine tapers can be grouped into self-holding and self-releasing classes. With self-holding tapers, the male and female wedge together and bind to each other to the extent that the forces of drilling can be resisted without a drawbar, and the tool will stay in the spindle when idle. It is driven out with a wedge when a tool change is needed. Morse and Jacobs tapers are an example of the self-holding variety. With self-releasing tapers, the male will not stick in the female without a drawbar holding it there. However, with good drawbar force, it is very solidly immobile. NMTB/CAT, BT and HSK are examples of the self-releasing variety.
+For light loads (such as encountered by a lathe tailstock or a drill press), tools with self-holding tapers are simply slipped onto or into the spindle; the pressure of the spindle against the workpiece drives the tapered shank tightly into the tapered hole. The friction across the entire surface area of the interface provides a large amount of torque transmission, so that splines or keys are not required.
+For use with heavy loads (such as encountered by a milling machine spindle), there is usually a key to prevent rotation and/or a threaded section, which is engaged by a drawbar that engages either the threads or the head of a pull stud that is screwed into them. The drawbar is then tightened, drawing the shank firmly into the spindle. The draw-bar is important on milling machines as the transverse force component would otherwise cause the tool to wobble out of the taper.
+All machine tapers are sensitive to chips, nicks (dents), and dirt. They will not locate accurately, and the self-holding variety will not hold reliably, if such problems interfere with the seating of the male into the female with firm contact over the whole conical surface. Machinists are trained on keeping tapers clean and handling them in ways that prevent them from being nicked by other tools. CNC tool-changing cycles usually include a compressed-air blast while one toolholder is being swapped with the next. The air blast tends to blow away chips that might otherwise end up interfering between the toolholder and spindle.
+
+
+== Use ==
+Tools with a tapered shank are inserted into a matching tapered socket and pushed or twisted into place. They are then retained by friction.  In some cases, the friction fit needs to be made stronger, as with the use of a drawbar, essentially a long bolt that holds the tool into the socket with more force than is possible by other means.
+Caution needs to be exercised in the usual drilling machine or lathe situation, which provides no drawbar to pull the taper into engagement, if a tool is used requiring a high torque but providing little axial resistance. An example would be the use of a large diameter drill to slightly enlarge an existing hole. In this situation, there may be considerable rotary loading. In contrast, the cutting action will require very little thrust or feed force. Thrust helps to keep the taper seated and provides essential frictional coupling.
+The tang is not engineered to withstand twisting forces which are sufficient to cause the taper to slip, and will frequently break off in this situation. This will allow the tool to spin in the female taper, which is likely to damage it. Morse taper reamers are available to alleviate minor damage.
+Tapered shanks "stick" in a socket best when both the shank and the socket are clean. Shanks can be wiped clean, but sockets, being deep and inaccessible, are best cleaned with a specialized taper cleaning tool which is inserted, twisted, and removed.
+Tapered shank tools are removed from a socket using different approaches, depending on the design of the socket.  In drill presses and similar tools, the tool is removed by inserting a wedge shaped block of metal called a "drift" into a rectangular shaped cross hole through the socket and tapping it.  As the cross section of the drift gets larger when the drift is driven further in, the result is that the drift, bearing against the foremost edge of the tang, pushes the tool out.  In many lathe tailstocks, the tool is removed by fully withdrawing the quill into the tailstock, which brings the tool up against the end of the leadscrew or an internal stud, separating the taper and releasing the tool.   Where the tool is retained by a drawbar, as in some mill spindles, the drawbar is partially unthreaded with a wrench and then tapped with a hammer, which separates the taper, at which point the tool can be further unthreaded and removed. Some mill spindles have a captive drawbar which ejects the tool when actively unscrewed past the loose stage; these do not require tapping. For simple sockets with open access to the back end, a drift punch is inserted axially from behind and the tool tapped out.
+
+
+== Types ==
+There are many standard tapers, which differ based on the following:
+
+the diameter at the small end of the truncated cone ("the minor diameter")
+the diameter at the large end of the truncated cone ("the major diameter") and
+the axial distance between the two ends of the truncated cone.The standards are grouped into families that may include different sizes. The taper within a family may or may not be consistent. The Jarno and NMTB tapers are consistent, but the Jacobs and Morse families vary.
+There are adaptors available to allow the use of one type of taper tooling, e.g. Morse, on a machine with a different taper, e.g. R8 or vice versa, and simpler adaptors consisting of an externally and internally tapered sleeve to allow a small Morse tool to be used in a machine of larger bore.
+One of the first uses of tapers was to mount drill bits directly to machine tools, such as in the tailstock of a lathe, although later drill chucks were developed that held parallel shank drill bits.
+
+
+=== Brown & Sharpe ===
+Brown & Sharpe tapers, standardized by the company of the same name, are an alternative to the more-commonly seen Morse taper. Like the Morse, these have a series of sizes, from 1 to 18, with 7, 9 and 11 being the most common. Actual taper on these lies within a narrow range close to .500 inches per foot.
+
+
+=== Jacobs ===
+The Jacobs Taper (abbreviated JT) is commonly used to secure drill press chucks to an arbor.  The taper angles are not consistent varying from 1.41° per side for #0 (and the obscure #​2 1⁄2) to 2.33° per side for #2 (and #2 short).
+There are also several sizes between #2 and #3: #2 short, #6 and #33.
+
+
+=== Jarno ===
+Jarno tapers use a greatly simplified scheme. The rate of taper is 1:20 on diameter, in other words 0.600" on diameter per foot, .050" on diameter per inch.
+Tapers range from a Number 2 to a Number 20. The diameter of the big end in inches is always the taper size divided by 8, the small end is always the taper size divided by 10 and the length is the taper size divided by 2. For example, a Jarno #7 measures 0.875" (7/8) across the big end. The small end measures 0.700" (7/10) and the length is 3.5" (7/2).
+The system was invented by Oscar J. Beale of Brown & Sharpe.
+
+
+=== Morse ===
+
+The Morse taper was developed by Stephen A. Morse, based in New Bedford Massachusetts, in the mid-1860s. Since then, it has evolved to encompass smaller and larger sizes and has been adopted as a standard by numerous organizations, including the International Organization for Standardization (ISO) as ISO 296 and the German Institute for Standardization (DIN) as DIN 228-1. It is one of the most widely used types, and is particularly common on the shank of taper-shank twist drills and machine reamers, in the spindles of industrial drill presses, and in the tailstocks of lathes. The taper angle of the Morse taper varies somewhat with size but is typically 1.49 degrees (around 3 degrees included).
+Some modular orthopedic total hip implants use a Morse taper to mate components together. Similarly, some dental implants use a Morse taper to connect components.
+
+
+==== Sizes ====
+Morse tapers come in eight sizes identified by whole numbers between 0 and 7, and one half-size (4 1/2 - very rarely found, and not shown in the table).
+Often the designation is abbreviated as MT followed by a digit, for example a Morse taper number 4 would be MT4. The MT2 taper is the size most often found in drill presses up to ​1⁄2" capacity. Stub (short) versions, the same taper angle but a little over half the usual length, are occasionally encountered for the whole number sizes from 1 through 5. There are standards for these, which among other things are sometimes used in lathe head stocks to preserve a larger spindle through-hole.
+
+
+==== End types ====
+Morse tapers are of the self-holding variety, and can have three types of ends:
+
+tang (illustrated) to facilitate removal with a drift
+threaded to be held in place with a drawbar
+flat (no tang or threaded section)Self holding tapers rely on a heavy preponderance of axial load over torsional load to transmit high torques. Problems may arise using large drills in relation to the shank, if the pilot hole is too large. The threaded style is essential for any sideloading, particularly milling. The only exception is that such unfavourable situations can be simulated to remove a jammed shank. Permitting chatter will help release the grip. The acute (narrow) taper angle can result in such jamming with heavy axial loads, or over long periods.
+End-milling cutters with a Morse taper shank with a tang are occasionally seen: for security these must be used with a C-collar or similar, fitting into the neck between cutter and shank, and pulling back against the large end of the taper
+The taper itself is roughly 5/8" per foot, but exact ratios and dimensions for the various sizes of tang type tapers are given below.
+
+
+==== Dimensions ====
+
+
+=== B Tapers ===
+B-series tapers are a DIN standard (DIN 238) typically used for fitting chucks on their arbors, like the older Jacobs taper series. Each taper in the B-series is effectively the small or large end of a Morse taper:
+
+B10 = small end of MT1 (D = 10.095 mm)
+B12 = large end of MT1 (D = 12.065 mm)
+B16 = small end of MT2 (D = 15.733 mm)
+B18 = large end of MT2 (D = 17.780 mm)
+B22 = small end of MT3 (D = 21.793 mm)
+B24 = large end of MT3 (D = 23.825 mm)The number after the B is the diameter (D) of the large end of the taper to the nearest mm, and 'about' 1mm larger than the large end of the socket (~2mm in the case of B22 and B24) 
+
+
+=== NMTB taper family ===
+
+The National Machine Tool Builders Association (now called the Association for Manufacturing Technology) defined a steep taper that is commonly used on milling machines. The taper is variously referred to as NMTB, NMT or NT. The taper is 3.500 inches per foot and is also referred to as "7 in 24" or 7/24; the computed angle is 16.5943 degrees.  All NMTB tooling has this taper but the tooling comes in different sizes: NMTB-10, 15, 20, 25, 30, 35, 40, 45, 50 and 60.  These tapers were apparently also specified in ASA (now ANSI) B5.10-1943.
+NMTB is a "self releasing" or "fast" taper.  Unlike the more acute self holding tapers above, such tapers are not designed to transmit high torque; high torques are carried by driving keys engaging slots on the flange. The purpose is to allow a quick and easy change between different tools (either automatically or by hand) while ensuring the tool or toolholder will be tightly and rigidly connected to the spindle, and accurately coaxial with it. The larger end adjacent to the tool makes for more rigidity than is possible with Morse or R8 tapers fitted to comparable machines.
+Patent 1794361 (filed 25 March 1927) describes milling machine spindle and tool shapes using a steep taper.  The patent was assigned to Kearney & Trecker Corporation, Brown & Sharpe, and Cincinnati Milling Machine Company. The patent wanted a taper that would freely release the tool and found that a taper of 3.5 in 12 had that property.  The patent also used the keys and slots and a tail on the tool shank to prevent the tool shank from falling out of a horizontal mill's spindle while the operator connected the drawbar.ANSI B5.18-1972 specifies some essential dimensions for milling machine spindles and tool shanks using taper sizes 30, 40, 45, 50, 60. The specifications describe the position of the driving key and flange and the thread of the draw-in bolt that holds the shank in the spindle.
+The tooling is referred to as Quick Change; National Machine Tool Builders' Association, 1927; NMTB; American Standard Machine Taper, ANSI B5.18; DIN 2080 / IS 2340; ISO R 290-2583.  There are slight variations in threads and flanges (JIS B 6339: MAS 403); and the European standards (e.g., ISO taper) use metric draw threads.
+The NMTB tool shanks had the 7 in 24 taper, but they also had a constant diameter tail (pilot) at the end of the shank that was described in the 1927 patent. Subsequent design variations dropped the tail (making the shank shorter) and put a V-groove in the flange that aided automated tool changing. Modern designs started using power drawbars that gripped pull studs (also known as retention knobs) that were screwed into the tool shank rather than screw-in drawbars. The power drawbar would grip the pull stud rather than screwing into the tool shank.
+The more modern toolholder designs became known as the Caterpillar "V-Flange", CAT, V-Flange, ANSI B5.50, SK, ISO, International (INT), BT, ISO 7388-1, DIN 69871, NFE 62540. Once again, there are slight variations in the tooling. Although the basic taper dimensions are the same, there are differences are in the flanges, draw-in thread sizes, and pull studs; the international versions use metric sizes.
+
+
+=== HSK taper ===
+
+HSK toolholders were developed in the early 1990s. HSK stands for Hohlschaftkegel; German for "hollow shank tapers".
+Steep tapers tend to loosen at high speed, as their solid shanks are stiffer than the spindles they fit into, so under high centrifugal force, the spindle expands more than the toolholder which changes the overall length: That is, as the spindle 'expands' the toolholder tends to move deeper into the spindle in the z-axis which can cause the production of parts that are out-of-tolerance.  HSK's hollow shank is deliberately thin and flexible, so it expands more than the spindle and tightens when rotating at high speed. Furthermore, the HSK holder is dual contact: It engages with the spindle on both the taper and the top of the flange which prevents axial movement when thermal growth and/or centrifugal force of the spindle occurs.
+The flexibility is also used to provide accurate axial location.  An HSK toolholder has both a tapered shank, and a flange with a mating surface.  The shank is short (about half as long as other machine tapers), with a shallow taper (a ratio of 1:10), and slightly too large to allow the flange to seat fully in the socket.  The thin walls, short shank and shallow taper provide a large opening in the back of the tool.  An expanding collet fits in there, and mates with 30° chamfer inside the shank.  As the drawbar retracts, it expands the collet and pulls the shank back into the socket, compressing the shank until the flange seats against the front of the spindle.  This provides a stiff, repeatable connection because it utilizes the centrifugal force inside the spindle. As centrifugal forces increase the expanding collet within the HSK forces the walls of the toolholder shank to stay in contact with the spindle wall.
+The HSK design was developed as a nonproprietary standard. The working group that produced the HSK standard consisted of representatives from academia, the Association of German Tool Manufacturing and a group of international companies and end users. The results were the German DIN standards 69063 for the spindle and 69893 for the shank.
+The HSK working group did not adopt a specific product design, but rather a set of standards that defined HSK toolholders for different applications. The group defined a total of six HSK shank forms, in 9 sizes.
+Sizes are identified by the diameter of the shank’s flange in millimeters. These diameters are taken from the R10′ series of preferred numbers, from 25 to 160 mm.
+Today, the shank forms are designated by the letters A through F and T. The main differences between the forms are the positions of the drive slots, gripper-locating slots, coolant holes and the area of the flange.
+A is the basic form.  The B-form shank is a variant for high-torque applications, and has a flange one size larger relative to its shaft diameter.  (Thus, an A-40 shank will fit into a B-50 socket.)
+Forms C and D are simplified variants of A and B for manual use, eliminating features to accommodate automatic tool changers like a V-groove and associated orientation slots, and a recess for an RFID chip.
+Forms E and F flanges and tapers are similar to forms A and B, but designed for very high speed machining (20,000 rpm and up) of light materials by eliminating all asymmetric features to minimize imbalance and vibration.
+ASME B5.62 "Hollow Taper Tooling With Flange-Face Contact" and ISO 12164-3:2014 "Dimensions of shanks for stationary tools" include an additional form T, which is bidirectionally compatible with form A, but has a much tighter tolerance on the widths of the keys and keyways used for angular alignment.  This permits non-rotating lathe tooling to be held accurately.An HSK connection depends on a combination of axial clamping forces and taper-shank interference. All these forces are generated and controlled by the mating components’ design parameters. The shank and spindle both must have precisely mating tapers and faces that are square to the taper’s axis. There are several HSK clamping methods. All use some mechanism to amplify the clamping action of equally spaced collet segments. When the toolholder is clamped into the spindle, the drawbar force produces a firm metal-to-metal contact between the shank and the ID of the clamping unit. An additional application of drawbar force positively locks the two elements together into a joint with a high level of radial and axial rigidity. As the collet segments rotate, the clamping mechanism gains centrifugal force. The HSK design actually harnesses centrifugal force to increase joint strength. Centrifugal force also causes the thin walls of the shank to deflect radially at a faster rate than the walls of the spindle. This contributes to a secure connection by guaranteeing strong contact between the shank and the spindle. The automotive and aerospace industries are the largest users of HSK toolholders. Another industry that is seeing increasing use is the mold and die industry.
+
+
+=== R8 ===
+
+This taper was designed by Bridgeport Machines, Inc. for use in its milling machines. R8 tapers are not self-holding, so they require a drawbar extending up through the spindle to the top of the machine to prevent loosening when lateral forces are encountered. They are also keyed (see image) to prevent rotation during insertion and removal, although it is the taper that transmits torque in use. The drawbar thread is typically ​7⁄16″–20 tpi (UNF). The angle of the cone is 16°51′ (16.85°) with an OD of 1.25″ and a length of ​15⁄16″. (source, Bridgeport Manufacturer) The diameter of the parallel locating portion is not a "fractional inch" size like the other dimensions and is 0.949″ to 0.9495″.
+Tools with an R8 taper are inserted directly into the machine's spindle. R8 collets are typically used to hold tooling with round shanks, although any shape can be held if the collet has the corresponding shape cut in it. The collets have a precision bore with axial compression slots for holding cutting tools and are threaded for the drawbar. The R8 system is commonly used with collets ranging in size from ​1⁄8″ to ​3⁄4″ in diameter or tool holders with the same or slightly larger diameters. The collets or tool holders are placed directly into the spindle and the drawbar is tightened into the top of the collet or tool holder from above the spindle. Other tools such as drill chucks, fly cutters, indexable insert cutters, etc. may have an R8 taper shank built into or added to the tool.
+The R8 taper is commonly encountered on Bridgeport and similar turret mills from the USA, or on (very common) copies of these mills from elsewhere. The popularity is due in large part to the success of Bridgeport and other mills that were closely modeled after it and produced throughout much of the 20th century.
+
+
+== See also ==
+Chuck
+Collet
+
+
+== References ==
+
+Sources
+
+
+== External links ==
+Beautiful Iron Overview of Tapers
+Quickly Identify your Morse Taper
+http://www.tools-n-gizmos.com/specs/Tapers.html (description of several tool holders)
+http://www.timgoldstein.com/cad_cam/tapers.htm (description of several tool holders)
+http://www.dlindustrial.com/profiles/blogs/steep-tapers-fast-tapers-at3-and-what-it-means (blog about holding/releasing tapers and tolerance; claims taper not keys and slots do the driving; some errors)

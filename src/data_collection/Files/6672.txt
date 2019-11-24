@@ -1,0 +1,73 @@
+Title: General Electric J31
+Aspects: {'J31'}
+
+The General Electric J31 was the first jet engine to be mass-produced in the United States.
+
+
+== Design and development ==
+After a visit to England mid-1941, General Henry H. Arnold was so impressed by flight demonstrations of the Gloster E.28/39 jet aircraft he had witnessed that he arranged for the Power Jets W.1X turbojet engine to be shipped by air to the U.S, along with drawings for the more powerful W.2B/23 engine, so that the US could develop its own jet engine.
+General Electric's extensive experience in turbocharger production made them the natural choice for producing such an engine. The initial prototype, the General Electric I-A, was essentially based on the W.2B/23. It first ran on 18 April 1942 and developed a static thrust of 1250lbf.
+The I-A air intake consisted of two peripheral slots which led  to a double-sided, centrifugal compressor. A series of vanes guided the air into the impeller eyes. After radial compression, the air was diffused and turned 90 degrees rearwards, before entering a set of ten reverse-flow combustion chambers (i.e. cans). A relatively short shaft connected the compression system to the single stage axial turbine. After expansion through the turbine, the combustion products exhausted the engine through the simple conical propelling nozzle, via the jet-pipe. For the turbine section, GE used a proprietary metal developed for their turbochargers, Hastelloy B. Problems were uncovered with overheating bearings, and solved by fitting the turbine with larger cooling blades and changing the air diffuser, as well as switching to a ram air cooling air inlet.Using their turbocharger expertise, General Electric were able to, in a short space of time, develop a 1,400 lbf (6.2 kN)-thrust version, known as the I-14. Later they increased the thrust to 1,600 lbf (7.1 kN). This version was referred to internally as the I-16 However, the United States Army Air Forces later decided to standardise all their jet engine naming, at which point the I-16 became the J31.
+Production of the J31 started for the P-59 Airacomet in 1943, and by the time the lines shut down in 1945, a total of 241 had been built. GE also used the basic design to produce the much larger I-40 with 4,000 lbf, but this design was passed on to Allison as the J33, much to GE's chagrin. Another derivative of the J31, the General Electric I-20, given the military designation J39, was ordered but later cancelled.
+Meanwhile, the British version of the W.2B/23 turbojet entered production as the 1,600lbf thrust Rolls-Royce Welland 1 in October, 1943. The Gloster Meteor I fighter, which entered RAF service in July, 1944, was powered by the Welland I.
+
+
+== Applications ==
+Bell P-59 Airacomet
+Ryan FR Fireball
+Ryan XF2R Dark Shark
+
+
+== Surviving engines ==
+
+There is a J31 on display at the New England Air Museum, Bradley International Airport, Windsor Locks, CT 
+There is an I-16B on display at Embry-Riddle Aeronautical University in Prescott, AZ
+
+
+== Specifications (J31) ==
+Data from 
+
+
+==== General characteristics ====
+Type: centrifugal compressor turbojet
+Length: 72 in (183 cm)
+Diameter: 41.5 in (105 cm)
+Dry weight: 850 lb (386 kg)
+
+
+==== Components ====
+Compressor: single-stage double-sided centrifugal
+Combustors: 10 reverse-flow can
+Turbine: single-stage axial
+Fuel type: kerosene (AN-F32) or 100/130 gasoline
+Oil system: pressure spray, wet sump with scavenge cooling and filtration
+
+
+==== Performance ====
+Maximum thrust: 1,650 lbf (7.33 kN)
+Overall pressure ratio: 3.8:1
+Air mass flow: 33 lb (15.0 kg)/second at 16,000 rpm
+Turbine inlet temperature: 1,220 °F (660 °C)
+Specific fuel consumption: 1.2 lb/(lbf⋅h) (34 g/(kN⋅s))
+Thrust-to-weight ratio: 1.94:1
+
+
+== See also ==
+
+Related development
+
+General Electric I-A
+General Electric I-40/J33
+Power Jets W.2
+Rolls-Royce Welland
+Comparable engines
+
+de Havilland GoblinRelated lists
+
+List of aircraft engines
+
+
+== References ==
+
+Gunston, Bill (2006). World Encyclopedia of Aero Engines, 5th Edition. Phoenix Mill, Gloucestershire, England, UK: Sutton Publishing Limited. ISBN 0-7509-4479-X.
+Kay, Anthony L. (2007). Turbojet History and Development 1930-1960 Volume 2:USSR, USA, Japan, France, Canada, Sweden, Switzerland, Italy and Hungary (1st ed.). Ramsbury: The Crowood Press. ISBN 978-1861269393.

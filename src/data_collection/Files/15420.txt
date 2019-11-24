@@ -1,0 +1,39 @@
+Title: X Window authorization
+Aspects: {'X security'}
+
+In the X Window System, programs run as X clients, and as such they connect to the X display server, possibly via a computer network. Since the network may be accessible to other users, a method for forbidding access to programs run by users different from the one who is logged in is necessary.
+There are five standard access control mechanisms that control whether a client application can connect to an X display server. They can be grouped in three categories:
+
+access based on host
+access based on cookie
+access based on userAdditionally, like every other network connection, tunneling can be used.
+
+
+== Host-based access ==
+The host-based access method consists in specifying a set of hosts that are authorized to connect to the X display server. This system has inferior security, as it allows every user who has access to such a host to connect to the display. The xhost program and three X Window System core protocol requests are used to activate this mechanism and to display and change the list of authorized hosts.  Improper use of xhost can inadvertently give every host on the Internet full access to an X display server.
+
+
+== Cookie-based access ==
+The cookie-based authorization methods are based on choosing a magic cookie (an arbitrary piece of data) and passing it to the X display server when it is started; every client that can prove having knowledge of this cookie is then authorized connecting to the server.
+These cookies are created by a separate program and stored in the file .Xauthority in the user's home directory, by default. As a result, every program run by the client on the local computer can access this file and therefore the cookie that is necessary for being authorized by the server. If the user wants to run a program from another computer on the network, the cookie has to be copied to that other computer. How the cookie is copied is a system-dependent issue: for example, on Unix-like platforms, scp can be used to copy the cookie.
+The two systems using this method are MIT-MAGIC-COOKIE-1 and XDM-AUTHORIZATION-1. In the first method, the client simply sends the cookie when requested to authenticate. In the second method, a secret key is also stored in the .Xauthority file. The client creates a string by concatenating the current time, a transport-dependent identifier, and the cookie, encrypts the resulting string, and sends it to the server.
+The xauth application is a utility for accessing the .Xauthority file. The environment variable XAUTHORITY can be defined to override the name and location of that cookie file.
+The Inter-Client Exchange (ICE) Protocol implemented by the Inter-Client Exchange Library for direct communication between X11 clients uses the same MIT-MAGIC-COOKIE-1 authentication method, but has its own iceauth utility for accessing its own .ICEauthority file, the location of which can be overridden with the environment variable ICEAUTHORITY. ICE is used, for example, by DCOP and the X Session Management protocol (XSMP).
+
+
+== User-based access ==
+The user-based access methods work by authorizing specific users to connect to the server. When a client establishes a connection to a server, it has to prove being controlled by an authorized user.
+The two methods based on authenticating users using networked identity management systems are SUN-DES-1 and MIT-KERBEROS-5. The first system is based on a secure mechanism of the ONC remote procedure call system developed in SunOS. The second mechanism is based on both client and server trusting a Kerberos server.
+A third method is limited to local connections, using system calls to ask the kernel what user is on the other end of a local socket.  The xhost program can be used to add or remove localuser and localgroup entries with this method.
+
+
+== Tunneling ==
+The SSH utility (when invoked with option -X or option ForwardX11) tunnels X11 traffic from remotely invoked clients to the local server. It does so by setting at the remote site the DISPLAY environment variable to point to a local TCP socket opened there by sshd, which then tunnels the X11 communication back to ssh. Sshd then also calls xauth to add at the remote site an MIT-MAGIC-COOKIE-1 string into .Xauthority there, which then authorizes X11 clients there to access the ssh user's local X server.
+X11 connections between client and server over a network can also be protected using other secure-channel protocols, such as Kerberos/GSSAPI or TLS, although such options are now far more rarely used than SSH.
+
+
+== References ==
+
+
+== External links ==
+X security manual page (Xsecurity 7)

@@ -1,0 +1,145 @@
+Title: IATA airport code
+Aspects: {'XCH', 'XAI'}
+
+An IATA airport code, also known as an IATA location identifier, IATA station code or simply a location identifier, is a three-letter geocode designating many airports and metropolitan areas around the world, defined by the International Air Transport Association (IATA). The characters prominently displayed on baggage tags attached at airport check-in desks are an example of a way these codes are used.
+The assignment of these codes is governed by IATA Resolution 763, and it is administered by the IATA's headquarters in Montreal. The codes are published semi-annually in the IATA Airline Coding Directory.IATA also provides codes for railway stations and for airport handling entities. A list of airports sorted by IATA code is available. A list of railway station codes, shared in agreements between airlines and rail lines such as Amtrak, SNCF French Railways, and Deutsche Bahn, is available. Many railway administrations have their own list of codes for their stations, such as the list of Amtrak station codes.
+
+
+== List ==
+List of airports by IATA code: A - B - C - D - E - F - G - H - I - J - K - L - M - N - O - P - Q - R - S - T - U - V - W - X - Y - Z
+
+See also: List of airports by IATA and ICAO code
+
+
+== History and conventions ==
+Airport codes arose out of the convenience that it brought pilots for location identification in the 1930s. Initially, pilots in the United States used the two-letter code from the National Weather Service (NWS) for identifying cities. This system became unmanageable for cities and towns without an NWS identifier, and thus, a three-letter system of airport codes was implemented. This system allowed for 17,576 permutations, assuming all letters can be used in conjunction with each other.Predominantly, airport codes are named after the first three letters of the city in which it is located—ATL for Atlanta, SIN for Singapore, ASU for Asunción, MEX for Mexico City, DEN for Denver; IST for Istanbul; or a combination of the letters in its name, EWR for Newark, GDL for Guadalajara, JNB for Johannesburg, HKG for Hong Kong, SLC for Salt Lake City and WAW for Warsaw. Some airports in the United States retained their NWS codes and simply appended an X at the end, such as LAX for Los Angeles, PDX for Portland, and PHX for Phoenix.Sometimes the airport code reflects pronunciation, rather than spelling, such as NAN, which reflects the pronunciation of "Nadi" as [ˈnandi] in Fijian, where "d" is realized as the prenasalized stop [ⁿd].
+For many reasons, some airport codes do not fit the normal scheme described above. Some airports, for example, cross several municipalities or regions, and therefore, use codes derived from some of their letters, resulting in DFW for Dallas/Fort Worth, DTW for Detroit–Wayne County, LBA for Leeds–Bradford (Airport), MSP for Minneapolis–Saint Paul, and RDU for Raleigh–DUrham.
+Canada has codes such as YUL in Montréal and YEG in Edmonton. It originally used two letters for identification of a weather reporting station in the 1930s. Additionally, preceding the two-letter code was a Y (meaning "yes") where the reporting station was co-located with an airport, or a W (meaning "without") where the reporting station was not co-located with an airport, and also a U where the reporting station was co-located with a non-directional beacon. An X was chosen if the last two letters of the code had already been taken by another Canadian airport, and a Z was chosen if the locator could result in confusion with a U.S. three-letter identifier.
+
+
+== Usage ==
+
+
+=== Cities with multiple airports ===
+In large metropolitan areas, airport codes are often named after the airport itself instead of the city it serves, while another code is reserved which refers to the city itself. For instance:
+
+Beijing (BJS) – Capital (PEK), Nanyuan (NAY), and Beijing Daxing International Airport (PKX).
+Berlin (BER) – Tegel (TXL) and Schönefeld (SXF), and the under construction Berlin Brandenburg Airport (BER). The city also previously had another airport, Tempelhof (THF), which is now closed.
+Bucharest (BUH) – Otopeni (OTP) is named after the town of Otopeni where the airport is located, while the city also has a business airport inside the city limits named Băneasa (BBU).
+Buenos Aires (BUE) – Ezeiza (EZE) is named after the suburb in Ezeiza Partido where the airport is located, while Aeroparque Jorge Newbery (AEP) is in the city proper.
+Chicago (CHI) – O'Hare (ORD), named after Orchard Field, the airport's former name, and Midway (MDW)
+Jakarta (JKT) – Soekarno–Hatta (CGK) is named after Cengkareng, the district in which the airport is located, while the city also has another airport, Halim Perdanakusuma (HLP). JKT used to refer to the city's former airport, Kemayoran Airport, which closed down in the mid-1980s.
+London (LON) – Heathrow (LHR), Gatwick (LGW), London City (LCY), Stansted (STN), Luton (LTN) and Southend (SEN)
+Milan (MIL) – Malpensa (MXP), Linate (LIN) and Orio al Serio (BGY)
+Montreal (YMQ) – Trudeau (YUL), Mirabel (YMX), and Saint-Hubert (YHU)
+Moscow (MOW) – Sheremetyevo (SVO), Domodedovo (DME), Vnukovo (VKO)
+New York City (NYC) – John F. Kennedy (JFK, formerly Idlewild (IDL)), La Guardia (LGA), and Newark Liberty (EWR)
+Osaka (OSA) – Kansai (KIX) and Itami (ITM, formerly OSA)
+Paris (PAR) – Orly (ORY), Charles de Gaulle (CDG), Le Bourget (LBG) and Beauvais (BVA)
+Rio de Janeiro (RIO) – Galeão (GIG) and Santos Dumont (SDU)
+Rome (ROM) – Fiumicino (FCO) and Ciampino (CIA)
+São Paulo (SAO) – Congonhas (CGH), Guarulhos (GRU) and Campinas (VCP)
+Sapporo (SPK) – Chitose (CTS) and Okadama (OKD)
+Seoul (SEL) – Incheon (ICN) and Gimpo (GMP, formerly SEL)
+Stockholm (STO) – Arlanda (ARN), Bromma (BMA), Nyköping–Skavsta (NYO) and Västerås (VST)
+Tenerife (TCI) – Tenerife North (TFN) and Tenerife South (TFS)
+Tokyo (TYO) – Haneda (HND, formerly TYO) and Narita (NRT)
+Toronto (YTO) – Pearson (YYZ), Bishop (YTZ), Hamilton (YHM), and Waterloo (YKF)
+Washington, D.C. (WAS) – Dulles (IAD), Reagan (DCA), and Baltimore–Washington (BWI)Or using a code for the city in one of the major airports and then assigning another code to another airport:
+
+Bangkok (BKK) – Suvarnabhumi (BKK) and Don Mueang (DMK, formerly BKK)
+Dakar (DKR) – Senghor (DKR) and Diass (DSS)
+Dallas–Fort Worth (DFW) – Self-named (DFW), Love Field (DAL), Meacham (FTW), Alliance (AFW), Addison (ADS)
+Dubai (DXB) – International (DXB) and Al Maktoum (DWC)
+Houston (HOU) - William P. Hobby Airport (HOU) and George Bush Intercontinental Airport (IAH)
+Istanbul (IST) – Self-named (IST), Sabiha Gökçen (SAW) and Atatürk (ISL, formerly IST)
+Johannesburg (JNB) – O. R. Tambo (formerly Jan Smuts) (JNB) and Lanseria (HLA)
+Kuala Lumpur (KUL) – Sepang (KUL) and Subang (SZB, formerly KUL)
+Kyiv (IEV) – Kyiv International Airport (Zhuliany) (IEV) and Boryspil International Airport (KBP)
+Medellín (MDE) – José María Córdova (MDE) and Olaya Herrera (EOH)
+Melbourne (MEL) - Tullamarine (MEL), Essendon Airport (MEB) and Avalon Airport (AVV)
+Miami (MIA) – Self-named (MIA), Fort Lauderdale (FLL), West Palm Beach (PBI)
+Nagoya (NGO) – Centrair (NGO) and Komaki (NKM, formerly NGO)
+Seattle (SEA) – Seattle–Tacoma International Airport (SEA) and Paine Field (PAE)
+Shanghai (SHA) – Pudong (PVG) and Hongqiao (SHA)
+Sydney (SYD) – Kingsford Smith (SYD) and Nancy-Bird Walton (SWZ)
+Taipei (TPE) – Taoyuan (formerly Chiang Kai-shek) (TPE) and Songshan (TSA, formerly TPE)
+Tehran (THR) – Imam Khomeini (IKA) and Mehrabad (THR)When different cities with the same name each have an airport, they need to be assigned different codes. These are some examples:
+
+Birmingham–Shuttlesworth International Airport (BHM) is in Birmingham, Alabama, the United States and Birmingham Airport (BHX) is in Birmingham, England, United Kingdom.
+Dublin Airport (DUB) is in Dublin, Ireland and W. H. 'Bud' Barron Airport (DBN) is in Dublin, Georgia, United States.
+Norman Y. Mineta San Jose International Airport (SJC) is in San Jose, California, the United States and Juan Santamaría International Airport (SJO) is in San José, Costa Rica.
+Portland International Jetport (PWM) is in Portland, Maine, while Portland International Airport (PDX) is in Portland, Oregon.Sometimes, a new airport is built, replacing the old one, leaving the city's new "major" airport (or the only remaining airport) code to no longer correspond with the city's name. The original airport in Nashville, Tennessee was built in 1936 as part of the Works Progress Administration and called Berry Field with the designation, BNA. A new facility known as Nashville International Airport was built in 1987 but still uses BNA. This is in conjunction to rules aimed to avoid confusion that seem to apply in the United States, which state that "the first and second letters or second and third letters of an identifier may not be duplicated with less than 200 nautical miles separation." Thus, Washington D.C. area's three airports all have radically different codes: IAD for Washington–Dulles, DCA for Washington–Reagan (District of Columbia Airport), and BWI for Baltimore (Baltimore–Washington International, formerly BAL). Since HOU is used for William P. Hobby Airport, the new Houston–Intercontinental became IAH. The code BKK was originally assigned to Bangkok–Don Mueang and was later transferred to Suvarnabhumi Airport, while the former adopted DMK. The code ISK was originally assigned to Gandhinagar Airport (Nashik's old airport) and later on transferred to Ozar Airport (Nashik's current airport). Shanghai–Hongqiao retained the code SHA, while the newer Shanghai–Pudong adopted PVG. The opposite is true for Berlin: the airport Berlin–Tegel uses the code TXL, while its smaller counterpart Berlin–Schönefeld uses SXF; the yet-to-open Berlin Brandenburg Airport has the airport code BER, which is also part of its branding. The airports of Hamburg (HAM) and Hannover (HAJ) are less than 100 nautical miles (190 km) apart and therefore share the same first and middle letters, indicating that this rule might be followed only in Germany.
+
+
+=== Cities or airports changing names ===
+Many cities retain historical names in their airport codes, despite the fact that their official name or its official spelling or transliteration is now different:
+
+in Armenia: LWN for Gyumri (formerly Leninakan)
+in Bangladesh: DAC for Dhaka (formerly Dacca)
+in Canada: YFB for Iqaluit (formerly Frobisher Bay)
+in China: PEK for Beijing (formerly Peking), TSN for Tianjin (formerly Tientsin), CKG for Chongqing (formerly Chungking), TAO for Qingdao (formerly Tsingtao), and CAN for Guangzhou (formerly Canton). The older IATA codes follow Chinese postal romanization, introduced in 1906, officially abolished in 1964 and in use well into the 1980s, while gradually superseded by Pinyin
+in Greenland:  most airports, including SFJ for Kangerlussuaq (formerly Søndre Strømfjord) and GOH for Nuuk (formerly Godthåb)
+in India: BLR for Bengaluru (formerly Bangalore), BOM for Mumbai (formerly Bombay), CCU for Kolkata (formerly Calcutta), and MAA for Chennai (formerly Madras)
+in Indonesia: TKG for Bandar Lampung (formerly Tanjung Karang), UPG for Makassar (formerly Ujung Pandang). In addition, when the Enhanced Indonesian Spelling System was introduced in 1972, a few older IATA codes retained the previous spelling: BTJ for Banda Aceh (formerly Banda Atjeh), DJJ for Jayapura (formerly Djajapura), JOG for Yogyakarta (formerly Jogjakarta)
+in Kazakhstan: TSE for Astana (formerly Tselinograd, recently renamed to Nur-Sultan), SCO for Aktau (formerly Shevchenko), GUW for Atyrau (formerly Guryev), DMB for Taraz (formerly Dzhambyl), PLX for Semey (formerly Semipalatinsk)
+in Kyrgyzstan: FRU for Bishkek (formerly Frunze)
+in Moldova: KIV for Chișinău (formerly Kishinev)
+in Montenegro: TGD for Podgorica (formerly Titograd)
+in Myanmar: RGN for Yangon (formerly Rangoon)
+in Russia: LED for St. Petersburg (formerly Leningrad), GOJ for Nizhny Novgorod (formerly Gorky), SVX for Yekaterinburg (formerly Sverdlovsk), KUF for Samara (formerly Kuybyshev), OGZ for Vladikavkaz (formerly Ordzhonikidze) and others
+in Tajikistan: LBD for Khujand (formerly Leninabad)
+in Turkmenistan: KRW for Türkmenbaşy (formerly Krasnovodsk); CRZ for Türkmenabat (formerly Chardzhev)
+in Ukraine: IEV for Kyiv; VSG for Luhansk (formerly Voroshilovgrad); KGO for Kropyvnytskyi (formerly Kirovograd); LWO for Lviv (formerly Lwów while part of Poland until 1939, and still called Lvov in Russian); IFO for Ivano-Frankivsk (in Soviet times spelt in Russian as Ivano-Frankovsk);
+in Vietnam: SGN for Ho Chi Minh City (formerly Saigon)Some airport codes are based on previous names associated with a present airport, often with a military heritage. These include:
+
+Chicago's O'Hare, which is assigned ORD based on its old name of Orchard Field. It was expanded and renamed O'Hare in the mid-1950s.
+Orlando International Airport was founded as Orlando Army Air Field #2 but uses MCO for having been renamed McCoy Air Force Base in 1959 in honor of a wing commander who crashed at the field in 1958.  It was converted in the early 1960s to joint civilian/military use and renamed Orlando Jetport at McCoy, then renamed Orlando International Airport in the early 1980s.
+Spokane International Airport was so named in 1960 but goes by GEG because it was built on the former Geiger Field, renamed in 1941 for Major Harold Geiger when the US Army acquired it.Other airport codes are inconspicuous in origin, and each has its own peculiarities:
+
+Nashville uses BNA due to its former name as Berry Field, henceforth Berry Nashville Airport
+Louisville Muhammad Ali International Airport is SDF for Standiford Field, its original name.
+Knoxville uses TYS due to Charles McGhee Tyson, whose family donated the land for the first airport in Knoxville
+Kahului, the main gateway into Maui, uses OGG in homage to Hawaiian aviation pioneer Bertram J. HoggIn Asia, codes that do not correspond with their city's names include Niigata's KIJ, Nanchang's KHN, Pyongyang's FNJ, and Kobe's UKB.
+
+
+=== Multiple codes for a single airport ===
+Basel Mulhouse Freiburg Airport, which serves three countries, has three airport codes: BSL, MLH, EAP.
+
+
+=== Use in colloquial speech ===
+Some airports are identified even in the colloquial speech by their airport code. The most notable examples are LAX and JFK.
+
+
+=== National policies ===
+Since the U.S. Navy reserved "N" codes and the Federal Communications Commission has reserved the rights for "W" and "K", certain U.S. cities which begin with these letters had to adopt "irregular" airport codes when their airports opened: EWR for Newark, ORF for Norfolk, Virginia, EYW for Key West, Florida, OME for Nome and APC for Napa, California. This "rule" does not apply outside the United States: Karachi is KHI, Warsaw is WAW, and Nagoya is NGO. In addition, since "Q" was used for international communications, cities with "Q" beginning their name also had to find alternate codes, as in the case of Qiqihar (NDG), Quetta (UET) and Quito (UIO).
+IATA codes should not be confused with the FAA identifiers of US airports. Most FAA identifiers agree with the corresponding IATA codes, but some do not, such as Saipan whose FAA identifier is GSN and its IATA code is SPN, and some coincide with IATA codes of non-US airports.
+Most large airports in Canada have codes that begin with the letter "Y", although not all "Y" codes are Canadian (for example, YUM for Yuma, Arizona and YNT for Yantai, China) and not all Canadian airports start with the letter "Y" (for example ZBF for Bathurst, New Brunswick). Many Canadian airports have a code that starts with W, X or Z, but none of these are major airports. When the Canadian transcontinental railways were built, each station was assigned its own two-letter Morse code. VR stands for Vancouver, TZ Toronto, QB Quebec, WG Winnipeg, SJ Saint John, YC Calgary, OW Ottawa, EG Edmonton, etc. When the Canadian government established airports, it used the existing railway codes for them as well. If the airport had a weather station, authorities added a "Y" to the front of the code, meaning "Yes" to indicate it had a weather station or some other letter to indicate it did not. When international codes were created in cooperation with the United States, because "Y" was seldom used in the US, Canada simply used the weather station codes for its airports, changing the "Y" to a "Z" if it conflicted with an airport code already in use. The result is that most major Canadian airport codes start with "Y" followed by two letters in the city's name: YOW for Ottawa, YWG for Winnipeg, YYC for Calgary, and YVR for Vancouver, whereas other Canadian airports append the two-letter code of the radio beacons that were the closest to the actual airport, such as YQX in Gander and YXS in Prince George.
+Four of the ten provincial capital airports in Canada have ended up with codes beginning with YY, including YYZ for Toronto, Ontario, YYJ for Victoria, British Columbia, YYT for St. John's, Newfoundland, and YYG for Charlottetown, Prince Edward Island. Canada's largest airport is YYZ for Toronto–Pearson (YTZ was used for Toronto City Airport, so YYZ is the station code for a village called Malton, which is where Toronto Pearson International Airport is actually located). YUL is used for Montréal–Trudeau (UL was the ID code for beacon in the city of Kirkland, now the location of Montréal–Trudeau). While these codes make it difficult for the public to associate them with a particular Canadian city, some codes have become popular in usage despite their cryptic nature, particularly at the largest airports. Toronto's YYZ code has entered pop culture in the form of a popular rock song utilizing the "YYZ" Morse code signal. Some airports have started using their IATA codes as marketing brands. Calgary International Airport has begun using its airport code YYC as a marketing brand and name for the airport authority web site (yyc.com), while Vancouver International Airport advertises as YVR (yvr.com).
+Numerous New Zealand airports use codes which contain a letter Z, to distinguish them from similar airport names in other countries. Examples include HLZ for Hamilton, ZQN for Queenstown, and WSZ for Westport.
+
+
+=== Lack of codes ===
+There are several airports with scheduled service that have not been assigned ICAO codes that do have IATA codes. For example, several airports in Alaska have scheduled commercial service, such as Stebbins and Nanwalek, which use FAA codes instead. There are also airports with scheduled service for which there are ICAO codes but not IATA codes, such as Nkhotakota Airport/Tangole Airport in Malawi or Chōfu Airport in Tokyo, Japan. There are also several minor airports in Russia (e.g. Omsukchan Airport) which instead use internal Russian codes for booking. Flights to these airports cannot be booked through the international air booking systems or have luggage transferred to there, and thus, they are booked instead through the airline or a domestic booking system. Thus, neither system completely includes all airports with scheduled service.
+
+
+== See also ==
+Airline codes
+Airspace class
+Computer network naming scheme, another possible use of IATA airport codes
+Geocoding
+ICAO airport code
+International Air Transport Association code
+UN/LOCODE
+
+
+== References ==
+
+
+== External links ==
+IATA official web site
+IATA Airline and Airport Code Search
+United Nations Code for Trade and Transport Locations (UN/LOCODE) – includes IATA codes
+"Airport ABCs: An Explanation of Airport Identifier Codes". Air Line Pilot. Air Line Pilots Association. December 1994.
+Airport IATA/ICAO Designator / Code Database Search (from Aviation Codes Central Web Site – regular updates)
+OpenFlights, a freely licensed (ODbL) aviation data set

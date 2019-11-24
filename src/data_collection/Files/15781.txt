@@ -1,0 +1,86 @@
+Title: Masten Space Systems
+Aspects: {'Xaero'}
+
+Masten Space Systems is an aerospace manufacturer startup company in Mojave, California (formerly Santa Clara, California) that is developing a line of vertical takeoff, vertical landing (VTVL) rockets, initially for uncrewed research sub-orbital spaceflights and eventually intended to support robotic orbital spaceflight launches.
+
+
+== Overview ==
+Masten Space Systems is a Mojave, California based rocket company that is currently developing a line of reusable VTVL spacecraft, and related rocket propulsion hardware.
+Masten Space Systems competed in the NASA and Northrop Grumman Lunar Lander Challenge X Prize in 2009, winning the level one second prize of $150,000  and the level two first prize of $1,000,000. On November 2, 2009 it was announced that Masten Space Systems had won first place in the level two category, with Armadillo Aerospace coming in second.Masten Space Systems Inc. was selected for NASA's Lunar CATALYST initiative on April 30, 2014. A Commercial Lunar Payload Delivery Services contract was awarded by NASA on November 29, 2018 for lunar missions using the XL-1 lander.
+
+
+=== Xombie ===
+Masten's Xombie (model XA-0.1B) won the US$150,000 second prize in the Level One competition of the Lunar Lander Challenge on October 7, 2009 with an average landing accuracy of 16 centimetres (6.3 in).The primary goal of these two airframes was to demonstrate stable, controlled flight using a GN&C system developed in-house at Masten.  XA-0.1B originally featured four engines with 1,000 pounds-force (4 kN) thrust, but was converted in Spring 2009 to be powered by one engine of 750 pounds-force (3 kN) thrust. By October 2009, the regeneratively cooled isopropyl alcohol and liquid oxygen rocket engine was running at around 900 pounds-force (4 kN).XA-0.1B, nicknamed "Xombie", first flew free of tether September 19, 2009  and qualified for the Lunar Lander Challenge Level One second prize of $150,000 on October 7, 2009.In October 2016, NASA reported using Xombie to test the Landing Vision System (LVS), as part of the Autonomous Descent and Ascent Powered-flight Testbed (ADAPT) experimental technologies, for the Mars 2020 mission landing.As of 7 March 2017 Xombie has flown 224 times.
+
+
+=== Xoie ===
+Masten's Xoie (model XA-0.1E) won the US$1,000,000 Level Two prize of the Lunar Lander Challenge on October 30, 2009.  They beat Armadillo Aerospace by just a bit more than 24 inches (610 mm) of total landing accuracy, with an average accuracy of about 7.5 inches (190 mm) on the two landings in the round-trip competition flight.Xoie has an aluminum frame and features a version of Masten's 750 pounds-force (3 kN) thrust engine that produces around 1,000 pounds-force (4 kN) of thrust. "Xoie", as the craft is nicknamed, qualified for the Lunar Lander Challenge level two on October 30, 2009.
+
+
+=== Xaero ===
+The Xaero reusable launch vehicle is a vertical-takeoff, vertical-landing (VTVL) rocket which is being developed by Masten in 2010–2011.  It has been proposed to NASA as a potential suborbital reusable launch vehicle (sRLV) for carrying research payloads under NASA's Flight Opportunities Program (initially known as the Commercial Reusable Suborbital Research/CRuSR program), projecting 30 km (19 mi) altitude in initial flights of five to six minutes duration, while carrying a 10 kg (22 lb) research payload. It is propelled by the 1,150 pounds-force (5.1 kN) Cyclops-AL-3 rocket engine burning isopropyl alcohol and liquid oxygen.The first Xaero test vehicle flew 110 test flights before being destroyed in its 111th flight.  During the record-setting flight on Sep 11, 2012, an engine valve stuck open during descent, was sensed by the control system.  As designed, the flight termination system was triggered, destroying the vehicle before it could create a range safety problem. The final test flight was intended to test the vehicle at higher wind loads and altitudes, flying to an altitude of one kilometer while testing the flight controls at higher ascent and descent velocities before returning to a precise landing point.  The ascent and initial portion of the descent was nominal, prior to the stuck throttle valve which resulted in termination of the flight prior to the planned precision landing.
+
+
+=== Xaero-B ===
+A follow up to Xaero with the ability to reach 6 km (3.7 mi) altitude with engine on throughout. Xaero-B is between 15 and 16 feet tall where Xaero was 12 feet tall. Xaero-B is proceeding through hot-fire testing. It will be used for the bulk of research flights up to initial altitudes between 20 km to 30 km. The vehicle has now been retired due to damage on a test flight in April 2017. It flew 75 times.
+
+
+=== Xodiac ===
+The Xodiac is a VTVL rocket introduced in 2016. It features pressure-fed LOX/IPA propellant, and a regeneratively cooled engine. Flights can simulate landing on the Moon or Mars.Video of Xodiac performing in-flight air flow tests Tuft strings.
+
+
+=== Xeus ===
+Xeus (pronounced Zeus) is a vertical-landing, vertical-takeoff lunar lander demonstrator.  Xeus consists of a Centaur upper stage (from United Launch Alliance) with RL-10 main engine to which four Katana vertical thrusters have been added.  Production Xeus are estimated to be able to land on the Moon with up to 14 tonnes (revised to 10 tonnes) payload when using the expendable version or 5 tonnes payload when using the reusable version.The damaged Centaur on the demonstrator Xeus limits it to Earth flights.  The production versions would have to be manufacturing fault free and certified for space operations.  Human rating may also be needed.  United Launch Alliance, supplier of the Centaur, refer to Xeus as an abbreviation for eXperimental Enhanced Upper Stage.  Further details of the proposed design are given in the paper "Experimental Enhanced Upper Stage (XEUS): An affordable large lander system."Each of the Katanas used on a Xeus lander are likely to produce 3,500 pounds-force (16 kN) when performing a horizontal touchdown. In December 2012, Masten demonstrated their all-aluminum 2,800 pounds-force (12 kN) regeneratively-cooled engine, the KA6A.The talk in this video announced the Xeus also shows NASA's Space Exploration Vehicle rover with its two astronauts as a possible payload for the XEUS.On April 30, 2014 NASA announced that Masten Space Systems Inc. was one of the three companies selected for the Lunar CATALYST initiative.  NASA signed an unfunded Space Act Agreement (SAA) with Masten in September 2014. The SAA lasts until August 2017, has 22 milestone and calls for "End-to-end demonstration of hardware and software that enables a commercial lander on the Moon."In December 2015 United Launch Alliance (ULA) were planning to upgrade the XEUS's main body from a Centaur Upper Stage to the Advanced Cryogenic Evolved Stage (ACES) which they are currently developing, significantly increasing the payload. Masten Space intend to incorporate experience from developing the XL family of cargo landers into the XEUS family of landers.In August 2016 ULA's President and CEO said ULA intend to human rate both the Vulcan and ACES.XEUS was cancelled in July 2018.
+
+
+=== XL-1 ===
+The XL-1 is a small cargo lunar lander that Masten is developing as part of the Lunar CATALYST program (SAAM ID 18250). When powered by MXP-351 the XL-1 is designed to land 100 kilograms (220 lb) payloads onto the surface of the Moon.As of August 2017 Masten Space expects the XL-1 to have 4 main engines which are being prototyped on the XL-1T and a wet mass of about 2,400 kilograms (5,300 lb).On October 11, 2016 Masten Space Tweeted a video showing the test firing of its new bi-propellant combination, internally called MXP-351.  The test used an existing engine with an experimental injector, the first 'Machete', producing 225 pounds-force (1.00 kN) thrust. Development of their 3D printed regen lunar engine that will use MXP-351 to land on the Moon continues. As of March 2017 a 1,000 pounds-force (4.4 kN) thrust version of Machete for the terrestrial testbed of the lander, dubbed XL-1T, is being manufactured.In October 2017 NASA extended the Lunar CATALYST agreement for 2 years.On November 29, 2018 Masten was awarded a Commercial Lunar Payload Delivery Services contract by NASA. The landing will be no earlier than 2021.
+
+
+=== XL-1T ===
+The XT-1T is a (T)errestrial technology and process demonstrator for the XL-1 and XEUS. A terrestrial flying test bed is being used since lack of vehicle access to lunar landers after launch would make Masten's incremental design and test development methodology difficult and very expensive. Like the XL-1 the XL-1T is under development in partnership with NASA CATALYST (SAAM ID 18250).The XL-1T is expected to have a dry mass of 588.93kg and a wet mass of 1270.68kg which is less than the XL-1. The vehicle has 4 off Machete 4400N main engines able to throttle between 25% and 100% (4:1). The propellant is MPX-351. Yaw and pitch are controlled by differential throttling. There are 4 off 22N ACS thrusters to control roll.Many characteristics of the XL-1T have been deliberately made similar to the XL-1. These include multi-engine architecture, avionics, software, fuel, movement of inertia, slosh management and mission design tools.
+
+
+=== XS-1 ===
+Masten has been awarded a US$3 million contract from DARPA to develop the XS-1 experimental spaceplane. Project ended as DARPA awarded the Phase 2 to Boeing.
+
+
+== Other products and services ==
+In addition to its line of vehicles, Masten Space Systems is currently offering its internally developed igniters and engines commercially to interested and qualified parties. Masten also has stated its intent at multiple conferences to participate in technology maturation and proof of concept projects.
+
+
+=== Broadsword ===
+Broadsword is a 25,000 pounds-force (110 kN) methane/liquid oxygen rocket engine Masten Space Systems is developing for the US government. Advanced manufacturing techniques will permit the engine to be used to provide a lower-cost reusable launch service for the growing CubeSat and smallsat launch market.
+ The prototype engine took 1.5 months to construct and is made of aluminium. The engine consists of 3 parts that are bolted together. The engine uses an expander cycle and may produce 35,000 lbf (160 kN) with a bell extension in vacuum.Development of a technology demonstration unit was completed in September 2016. The hot-fire test campaign concluded with the demonstration of six successful engine starts. As of 2017, a second development unit containing enhancements was being developed for NASA under the Tipping Point program with the aim of being flight qualified.
+
+
+=== Cutlass ===
+Cutlass is a 25,000 pounds-force (110 kN) methane/liquid oxygen rocket engine Masten Space Systems was developing for the US government. Built using aluminium alloy via additive manufacturing techniques. Cutlass evolved into a low cost expendable upper stage engine using a gas generator cycle. A Phase 2 SBIR grant was not awarded so development has been put on hold.
+
+
+=== Katana ===
+Katana class engines produce up to 4,000 lbf (18 kN) of thrust and are regeneratively cooled.  They are designed for indefinite runtime and good throttle response. A video of the all aluminium Katana KA6A Regen 2,800 lbf engine's shake down test burning LOX/IPA (Isopropyl alcohol).
+
+
+=== Machete ===
+Machete is the name for a family of throttle rocket engine designs Masten Space Systems is developing to permit their XL-1 lunar lander to land on the Moon. The Machete rocket engines burn the nontoxic storable hypergolic propellant combination MXP-351. The first Machete had an experimental injector design that was used to test MXP-351 in 2016, producing a thrust of 225lbf. As of March 2017 Masten is modifying the design to make the engines additively-manufactured with regeneratively-cooled thrust chambers. Machete engines are being scaled up to produce 1,000 lb thrust for a terrestrial test bed version dubbed (XL-1T).
+
+
+=== MXP-351 ===
+MXP-351 is Masten Space's internal name for a self-igniting bipropellant combination invented to fuel its small lunar landers. Unlike the traditional NTO/MMH bipropellant, the two propellant chemicals in MXP-351 are safer to handle because they are nontoxic. The bipropellant can also be stored at room temperatures, unlike liquid oxygen and liquid hydrogen. The hypergolic combination has an ISP of 322 seconds. The storage life of MXP-351 before use is undergoing long term studies but is expected to be a few years. The reduced operation constraints may permit a reduction in recurring operating costs.For handling instructions see the section on Safety below.
+
+
+== Safety ==
+Masten Space use similar precautions when handling MXP-351 to those used for HTP (High-Test Peroxide). These include wearing splash protection clothing plus a simple chemical respirator. They claim that spills can be rectified by diluting with water and rinsing away.
+
+
+== See also ==
+
+
+== References ==
+
+
+== External links ==
+Masten Space Systems – Company homepage
+Masten YouTube – Company video at YouTube
+Masten/NASA Space Act Agreement - Amended September 2017 Covers XL-1, XL-1T and XEUS

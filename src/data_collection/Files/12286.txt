@@ -1,0 +1,39 @@
+Title: Sarcosine/dimethylglycine N-methyltransferase
+Aspects: {'S-adenosyl-L-methionine:N,N-dimethylglycine N-methyltransferase'}
+
+Sarcosine/dimethylglycine N-methyltransferase (EC 2.1.1.157, ApDMT, sarcosine-dimethylglycine methyltransferase, SDMT, sarcosine dimethylglycine N-methyltransferase, S-adenosyl-L-methionine:N,N-dimethylglycine N-methyltransferase) is an enzyme with systematic name S-adenosyl-L-methionine:sarcosine(or N,N-dimethylglycine) N-methyltransferase (N,N-dimethylglycine(or betaine)-forming). This enzyme catalyses the following chemical reaction
+
+2 S-adenosyl-L-methionine + sarcosine 
+  
+    
+      
+        ⇌
+      
+    
+    {\displaystyle \rightleftharpoons }
+   2 S-adenosyl-L-homocysteine + betaine (overall reaction)
+(1a) S-adenosyl-L-methionine + sarcosine 
+  
+    
+      
+        ⇌
+      
+    
+    {\displaystyle \rightleftharpoons }
+   S-adenosyl-L-homocysteine + N,N-dimethylglycine
+(1b) S-adenosyl-L-methionine + N,N-dimethylglycine 
+  
+    
+      
+        ⇌
+      
+    
+    {\displaystyle \rightleftharpoons }
+   S-adenosyl-L-homocysteine + betaineThis enzyme participates in biosynthesis of betaine from glycine in cyanobacterium Aphanocthece halophytica.
+
+
+== References ==
+
+
+== External links ==
+Sarcosine/dimethylglycine+N-methyltransferase at the US National Library of Medicine Medical Subject Headings (MeSH)

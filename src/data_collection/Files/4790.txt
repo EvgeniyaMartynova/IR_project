@@ -1,0 +1,56 @@
+Title: Antihydrogen
+Aspects: {'H-bar'}
+
+Antihydrogen (H) is the antimatter counterpart of hydrogen. Whereas the common hydrogen atom is composed of an electron and proton, the antihydrogen atom is made up of a positron and antiproton.   Scientists hope studying antihydrogen may shed light on the question of why there is more matter than antimatter in the observable universe, known as the baryon asymmetry problem. Antihydrogen is produced artificially in particle accelerators. In 1999, NASA gave a cost estimate of $62.5 trillion per gram of antihydrogen (equivalent to $94 trillion today), making it the most expensive material to produce. This is due to the extremely low yield per experiment, and high opportunity cost of using a particle accelerator.
+
+
+== Experimental history ==
+Accelerators first detected hot antihydrogen in the 1990s. ATHENA studied cold H in 2002.  It was first trapped by the Antihydrogen Laser Physics Apparatus (ALPHA) team at CERN in 2010, who then measured the structure and other important properties. ALPHA, AEGIS, and GBAR plan to further cool and study H atoms.
+
+
+=== 1S–2S transition measurement ===
+In 2016, the ALPHA experiment measured the atomic electron transition between the two lowest energy levels of antihydrogen, 1S–2S. The results, which are identical to that of hydrogen within the experimental resolution, support the idea of matter–antimatter symmetry and CPT symmetry.In the presence of a magnetic field the 1S–2S transition splits into two hyperfine transitions with slightly different frequencies. The team calculated the transition frequencies for normal hydrogen under the magnetic field in the confinement volume as:
+
+fdd =2 466 061 103 064 (2) kHz
+fcc =2 466 061 707 104 (2) kHzA single-photon transition between S states is prohibited by quantum selection rules, so to elevate ground state positrons to the 2S level, the confinement space was illuminated by a laser tuned to half the calculated transition frequencies, stimulating allowed two photon absorption.
+Antihydrogen atoms excited to the 2S state can then evolve in one of several ways:
+
+They can emit two photons and return directly to the ground state as they were
+They can absorb another photon, which ionizes the atom
+They can emit a single photon and return to the ground state via the 2P state—in this case the positron spin can flip or remain the same.Both the ionization and spin-flip outcomes cause the atom to escape confinement. The team calculated that, assuming antihydrogen behaves like normal hydrogen, roughly half the antihydrogen atoms would be lost during the resonant frequency exposure, as compared to the no-laser case. With the laser source tuned 200 kHz below half the transition frequencies, the calculated loss was essentially the same as for the no-laser case.
+The ALPHA team made batches of antihydrogen, held them for 600 seconds and then tapered down the confinement field over 1.5 seconds while counting how many antihydrogen atoms were annihilated. They did this under three different experimental conditions:
+
+Resonance: – exposing the confined antihydrogen atoms to a laser source tuned to exactly half the transition frequency for 300 seconds for each of the two transitions,
+Off-resonance: – exposing the confined antihydrogen atoms to a laser source tuned 200 kilohertz below the two resonance frequencies for 300 seconds each,
+No-laser: – confining the antihydrogen atoms without any laser illumination.The two controls, off-resonance and no-laser, were needed to insure that the laser illumination itself was not causing annihilations, perhaps by liberating normal atoms from the confinement vessel surface that could then combine with the antihydrogen.
+The team conducted 11 runs of the three cases and found no significant difference between the off-resonance and no laser runs, but a 58% drop in the number of events detected after the resonance runs. They were also able to count annihilation events during the runs and found a higher level during the resonance runs, again with no significant difference between the off-resonance and no laser runs. The results were in good agreement with predictions based on normal hydrogen and can be "interpreted as a test of CPT symmetry at a precision of 200 ppt."
+
+
+== Characteristics ==
+The CPT theorem of particle physics predicts antihydrogen atoms have many of the characteristics regular hydrogen has; i.e. the same mass, magnetic moment, and atomic state transition frequencies (see atomic spectroscopy). For example, excited antihydrogen atoms are expected to glow the same color as regular hydrogen. Antihydrogen atoms should be attracted to other matter or antimatter gravitationally with a force of the same magnitude that ordinary hydrogen atoms experience. This would not be true if antimatter has negative gravitational mass, which is considered highly unlikely, though not yet empirically disproven (see gravitational interaction of antimatter).When antihydrogen comes into contact with ordinary matter, its constituents quickly annihilate. The positron annihilates with an electron to produce gamma rays. The antiproton, on the other hand, is made up of antiquarks that combine with quarks in either neutrons or protons, resulting in high-energy pions, that quickly decay into muons, neutrinos, positrons, and electrons. If antihydrogen atoms were suspended in a perfect vacuum, they should survive indefinitely.
+As an antielement, it is expected to have exactly the same properties as hydrogen. For example, antihydrogen would be a gas under standard conditions and combine with antioxygen to form antiwater, H2O.
+
+
+== Production ==
+In 1995, the first antihydrogen was produced by a team led by Walter Oelert at CERN. using a method first proposed by Charles Munger Jr, Stanley J Brodsky and Ivan Schmidt Andrade.In the LEAR, antiprotons from an accelerator were shot at xenon clusters, producing electron-positron pairs. Antiprotons can capture positrons with probability about 10−19, so this method is not suited for substantial production, as calculated.  Fermilab measured a somewhat different cross section, in agreement with predictions of quantum electrodynamics. Both resulted in highly energetic, or hot, anti-atoms, unsuitable for detailed study.
+Subsequently, CERN built the Antiproton Decelerator (AD) to support efforts towards low-energy antihydrogen, for tests of fundamental symmetries.  The AD will supply several CERN groups.  CERN expects their facilities will be capable of producing 10 million antiprotons per minute.
+
+
+=== Low-energy antihydrogen ===
+Experiments by the ATRAP and ATHENA collaborations at CERN, brought together positrons and antiprotons in Penning traps, resulting in synthesis at a typical rate of 100 antihydrogen atoms per second. Antihydrogen was first produced by ATHENA in 2002, and then by ATRAP and by 2004, millions of antihydrogen atoms were made.  The atoms synthesized had a relatively high temperature (a few thousand kelvins), and would hit the walls of the experimental apparatus as a consequence and annihilate.  Most precision tests require long observation times.
+ALPHA, a successor of the ATHENA collaboration, was formed to stably trap antihydrogen. While electrically neutral, its spin magnetic moments interact with an inhomogeneous magnetic field; some atoms will be attracted to a magnetic minimum, created by a combination of mirror and multipole fields.In November 2010, the ALPHA collaboration announced that they had trapped 38 antihydrogen atoms for a sixth of a second, the first confinement of neutral antimatter. In June 2011, they trapped 309 antihydrogen atoms, up to 3 simultaneously, for up to 1,000 seconds. They then studied its hyperfine structure, gravity effects, and charge.  ALPHA will continue measurements along with experiments ATRAP, AEGIS and GBAR.
+
+
+=== Larger antimatter atoms ===
+Larger antimatter atoms such as antideuterium (D), antitritium (T), and antihelium (He) are much more difficult to produce. Antideuterium, antihelium-3 (3He) and antihelium-4 (4He) nuclei have been produced with such high velocities that synthesis of their corresponding atoms poses several technical hurdles.
+
+
+== See also ==
+Gravitational interaction of antimatter
+
+
+== References ==
+
+
+== External links ==
+Merrifield, Michael; Copeland, Ed. "H Antihydrogen". Sixty Symbols. Brady Haran for the University of Nottingham.

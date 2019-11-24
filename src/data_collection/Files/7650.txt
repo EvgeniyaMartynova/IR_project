@@ -1,0 +1,3536 @@
+Title: Lp space
+Aspects: {'L-space', 'L6'}
+
+In mathematics, the Lp spaces are function spaces defined using a natural generalization of the p-norm for finite-dimensional vector spaces. They are sometimes called Lebesgue spaces, named after Henri Lebesgue (Dunford & Schwartz 1958, III.3), although according to the Bourbaki group (Bourbaki 1987) they were first introduced by Frigyes Riesz (Riesz 1910). Lp spaces form an important class of Banach spaces in functional analysis, and of topological vector spaces. Because of their key role in the mathematical analysis of measure and probability spaces, Lebesgue spaces are used also in the theoretical discussion of problems in physics, statistics, finance, engineering, and other disciplines.
+
+
+== Applications ==
+
+
+=== Statistics ===
+In statistics, measures of central tendency and statistical dispersion, such as the mean, median, and standard deviation, are defined in terms of Lp metrics, and measures of central tendency can be characterized as solutions to variational problems.
+In penalized regression, 'L1 penalty' and 'L2 penalty' refer to penalizing either the L1 norm of a solution's vector of parameter values (i.e. the sum of its absolute values), or its L2 norm (its Euclidean length). Techniques which use an L1 penalty, like LASSO, encourage solutions where many parameters are zero. Techniques which use an L2 penalty, like ridge regression, encourage solutions where most parameter values are small. Elastic net regularization uses a penalty term that is a combination of the L1 norm and the L2 norm of the parameter vector.
+
+
+=== Hausdorff–Young inequality ===
+The Fourier transform for the real line (or, for periodic functions, see Fourier series), maps Lp(R) to Lq(R) (or Lp(T) to ℓq) respectively, where 1 ≤ p ≤ 2 and 1/p + 1/q = 1. This is a consequence of the Riesz–Thorin interpolation theorem, and is made precise with the Hausdorff–Young inequality.
+By contrast, if p > 2, the Fourier transform does not map into Lq.
+
+
+=== Hilbert spaces ===
+Hilbert spaces are central to many applications, from quantum mechanics to stochastic calculus. The spaces L2 and ℓ2 are both Hilbert spaces. In fact, by choosing a Hilbert basis (i.e., a maximal orthonormal subset of L2 or any Hilbert space), one sees that all Hilbert spaces are isometric to ℓ2(E), where E is a set with an appropriate cardinality.
+
+
+== The p-norm in finite dimensions ==
+
+The length of a vector x = (x1, x2, ..., xn) in the n-dimensional real vector space Rn is usually given by the Euclidean norm:
+
+  
+    
+      
+        
+          
+            ‖
+            x
+            ‖
+          
+          
+            2
+          
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  
+                    x
+                    
+                      1
+                    
+                  
+                
+                
+                  2
+                
+              
+              +
+              
+                
+                  
+                    x
+                    
+                      2
+                    
+                  
+                
+                
+                  2
+                
+              
+              +
+              ⋯
+              +
+              
+                
+                  
+                    x
+                    
+                      n
+                    
+                  
+                
+                
+                  2
+                
+              
+            
+            )
+          
+          
+            1
+            
+              /
+            
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle \left\|x\right\|_{2}=\left({x_{1}}^{2}+{x_{2}}^{2}+\dotsb +{x_{n}}^{2}\right)^{1/2}.}
+  The Euclidean distance between two points x and y is the length ||x − y||2 of the straight line between the two points. In many situations, the Euclidean distance is insufficient for capturing the actual distances in a given space. An analogy to this is suggested by taxi drivers in a grid street plan who should measure distance not in terms of the length of the straight line to their destination, but in terms of the rectilinear distance, which takes into account that streets are either orthogonal or parallel to each other. The class of p-norms generalizes these two examples and has an abundance of applications in many parts of mathematics, physics, and computer science.
+
+
+=== Definition ===
+For a real number p ≥ 1, the p-norm or Lp-norm of x is defined by
+
+  
+    
+      
+        
+          
+            ‖
+            x
+            ‖
+          
+          
+            p
+          
+        
+        =
+        
+          
+            (
+            
+              
+                |
+              
+              
+                x
+                
+                  1
+                
+              
+              
+                
+                  |
+                
+                
+                  p
+                
+              
+              +
+              
+                |
+              
+              
+                x
+                
+                  2
+                
+              
+              
+                
+                  |
+                
+                
+                  p
+                
+              
+              +
+              ⋯
+              +
+              
+                |
+              
+              
+                x
+                
+                  n
+                
+              
+              
+                
+                  |
+                
+                
+                  p
+                
+              
+            
+            )
+          
+          
+            1
+            
+              /
+            
+            p
+          
+        
+        .
+      
+    
+    {\displaystyle \left\|x\right\|_{p}=\left(|x_{1}|^{p}+|x_{2}|^{p}+\dotsb +|x_{n}|^{p}\right)^{1/p}.}
+  The absolute value bars are unnecessary when p is a rational number and, in reduced form, has an even numerator.
+The Euclidean norm from above falls into this class and is the 2-norm, and the 1-norm is the norm that corresponds to the rectilinear distance.
+The L∞-norm or maximum norm (or uniform norm) is the limit of the Lp-norms for 
+  
+    
+      
+        p
+        →
+        ∞
+      
+    
+    {\displaystyle p\rightarrow \infty }
+  . It turns out that this limit is equivalent to the following definition:
+
+  
+    
+      
+        
+          
+            ‖
+            x
+            ‖
+          
+          
+            ∞
+          
+        
+        =
+        max
+        
+          {
+          
+            
+              |
+            
+            
+              x
+              
+                1
+              
+            
+            
+              |
+            
+            ,
+            
+              |
+            
+            
+              x
+              
+                2
+              
+            
+            
+              |
+            
+            ,
+            …
+            ,
+            
+              |
+            
+            
+              x
+              
+                n
+              
+            
+            
+              |
+            
+          
+          }
+        
+      
+    
+    {\displaystyle \left\|x\right\|_{\infty }=\max \left\{|x_{1}|,|x_{2}|,\dotsc ,|x_{n}|\right\}}
+  See L-infinity.
+For all p ≥ 1, the p-norms and maximum norm as defined above indeed satisfy the properties of a "length function" (or norm), which are that:
+
+only the zero vector has zero length,
+the length of the vector is positive homogeneous with respect to multiplication by a scalar (positive homogeneity), and
+the length of the sum of two vectors is no larger than the sum of lengths of the vectors (triangle inequality).Abstractly speaking, this means that Rn together with the p-norm is a Banach space. This Banach space is the Lp-space over Rn.
+
+
+==== Relations between p-norms ====
+The grid distance or rectilinear distance (sometimes called the "Manhattan distance") between two points is never shorter than the length of the line segment between them (the Euclidean or "as the crow flies" distance). Formally, this means that the Euclidean norm of any vector is bounded by its 1-norm:
+
+  
+    
+      
+        
+          
+            ‖
+            x
+            ‖
+          
+          
+            2
+          
+        
+        ≤
+        
+          
+            ‖
+            x
+            ‖
+          
+          
+            1
+          
+        
+        .
+      
+    
+    {\displaystyle \left\|x\right\|_{2}\leq \left\|x\right\|_{1}.}
+  This fact generalizes to p-norms in that the p-norm ||x||p of any given vector x does not grow with p:
+
+||x||p+a ≤ ||x||p for any vector x and real numbers p ≥ 1 and a ≥ 0. (In fact this remains true for 0 < p < 1 and a ≥ 0.)For the opposite direction, the following relation between the 1-norm and the 2-norm is known:
+
+  
+    
+      
+        
+          
+            ‖
+            x
+            ‖
+          
+          
+            1
+          
+        
+        ≤
+        
+          
+            n
+          
+        
+        
+          
+            ‖
+            x
+            ‖
+          
+          
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle \left\|x\right\|_{1}\leq {\sqrt {n}}\left\|x\right\|_{2}.}
+  This inequality depends on the dimension n of the underlying vector space and follows directly from the Cauchy–Schwarz inequality.
+In general, for vectors in Cn where 0 < r < p:
+
+  
+    
+      
+        
+          
+            ‖
+            x
+            ‖
+          
+          
+            p
+          
+        
+        ≤
+        
+          
+            ‖
+            x
+            ‖
+          
+          
+            r
+          
+        
+        ≤
+        
+          n
+          
+            (
+            1
+            
+              /
+            
+            r
+            −
+            1
+            
+              /
+            
+            p
+            )
+          
+        
+        
+          
+            ‖
+            x
+            ‖
+          
+          
+            p
+          
+        
+        .
+      
+    
+    {\displaystyle \left\|x\right\|_{p}\leq \left\|x\right\|_{r}\leq n^{(1/r-1/p)}\left\|x\right\|_{p}.}
+  
+
+
+=== When 0 < p < 1 ===
+
+In Rn for n > 1, the formula
+
+  
+    
+      
+        ‖
+        x
+        
+          ‖
+          
+            p
+          
+        
+        =
+        
+          
+            (
+            
+              
+                |
+              
+              
+                x
+                
+                  1
+                
+              
+              
+                
+                  |
+                
+                
+                  p
+                
+              
+              +
+              
+                |
+              
+              
+                x
+                
+                  2
+                
+              
+              
+                
+                  |
+                
+                
+                  p
+                
+              
+              +
+              ⋯
+              +
+              
+                |
+              
+              
+                x
+                
+                  n
+                
+              
+              
+                
+                  |
+                
+                
+                  p
+                
+              
+            
+            )
+          
+          
+            1
+            
+              /
+            
+            p
+          
+        
+      
+    
+    {\displaystyle \|x\|_{p}=\left(|x_{1}|^{p}+|x_{2}|^{p}+\cdots +|x_{n}|^{p}\right)^{1/p}}
+  defines an absolutely homogeneous function for 0 < p < 1; however, the resulting function does not define a norm, because it is not subadditive. On the other hand, the formula
+
+  
+    
+      
+        
+          |
+        
+        
+          x
+          
+            1
+          
+        
+        
+          
+            |
+          
+          
+            p
+          
+        
+        +
+        
+          |
+        
+        
+          x
+          
+            2
+          
+        
+        
+          
+            |
+          
+          
+            p
+          
+        
+        +
+        ⋯
+        +
+        
+          |
+        
+        
+          x
+          
+            n
+          
+        
+        
+          
+            |
+          
+          
+            p
+          
+        
+      
+    
+    {\displaystyle |x_{1}|^{p}+|x_{2}|^{p}+\dotsb +|x_{n}|^{p}}
+  defines a subadditive function at the cost of losing absolute homogeneity. It does define an F-norm, though, which is homogeneous of degree p.
+Hence, the function
+
+  
+    
+      
+        
+          d
+          
+            p
+          
+        
+        (
+        x
+        ,
+        y
+        )
+        =
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          |
+        
+        
+          x
+          
+            i
+          
+        
+        −
+        
+          y
+          
+            i
+          
+        
+        
+          
+            |
+          
+          
+            p
+          
+        
+      
+    
+    {\displaystyle d_{p}(x,y)=\sum _{i=1}^{n}|x_{i}-y_{i}|^{p}}
+  defines a metric. The metric space (Rn, dp) is denoted by ℓnp.
+Although the p-unit ball Bnp around the origin in this metric is "concave", the topology defined on Rn by the metric dp is the usual vector space topology of Rn, hence ℓnp is a locally convex topological vector space. Beyond this qualitative statement, a quantitative way to measure the lack of convexity of ℓnp is to denote by Cp(n) the smallest constant C such that the multiple C Bnp of the p-unit ball contains the convex hull of Bnp, equal to Bn1. The fact that for fixed p < 1 we have
+
+  
+    
+      
+        
+          C
+          
+            p
+          
+        
+        (
+        n
+        )
+        =
+        
+          n
+          
+            1
+            
+              /
+            
+            p
+            −
+            1
+          
+        
+        →
+        ∞
+        ,
+        
+        
+          as 
+        
+        n
+        →
+        ∞
+      
+    
+    {\displaystyle C_{p}(n)=n^{1/p-1}\to \infty ,\qquad {\text{as }}n\to \infty }
+  shows that the infinite-dimensional sequence space ℓp defined below, is no longer locally convex.
+
+
+=== When p = 0 ===
+There is one ℓ0 norm and another function called the ℓ0 "norm" (with quotation marks).
+The mathematical definition of the ℓ0 norm was established by Banach's Theory of Linear Operations. The space of sequences has a complete metric topology provided by the F-norm
+
+  
+    
+      
+        (
+        
+          x
+          
+            n
+          
+        
+        )
+        ↦
+        
+          ∑
+          
+            n
+          
+        
+        
+          2
+          
+            −
+            n
+          
+        
+        
+          
+            
+              
+                |
+              
+              
+                x
+                
+                  n
+                
+              
+              
+                |
+              
+            
+            
+              1
+              +
+              
+                |
+              
+              
+                x
+                
+                  n
+                
+              
+              
+                |
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle (x_{n})\mapsto \sum _{n}2^{-n}{\frac {|x_{n}|}{1+|x_{n}|}},}
+  which is discussed by Stefan Rolewicz in Metric Linear Spaces. The ℓ0-normed space is studied in functional analysis, probability theory, and harmonic analysis.
+Another function was called the ℓ0 "norm" by David Donoho—whose quotation marks warn that this function is not a proper norm—is the number of non-zero entries of the vector x. For example, scaling the vector x by a positive constant does not change the "norm". Many authors abuse terminology by omitting the quotation marks. Defining 00 = 0, the zero "norm" of x is equal to
+
+  
+    
+      
+        
+          |
+        
+        
+          x
+          
+            1
+          
+        
+        
+          
+            |
+          
+          
+            0
+          
+        
+        +
+        
+          |
+        
+        
+          x
+          
+            2
+          
+        
+        
+          
+            |
+          
+          
+            0
+          
+        
+        +
+        ⋯
+        +
+        
+          |
+        
+        
+          x
+          
+            n
+          
+        
+        
+          
+            |
+          
+          
+            0
+          
+        
+        .
+      
+    
+    {\displaystyle |x_{1}|^{0}+|x_{2}|^{0}+\cdots +|x_{n}|^{0}.}
+  
+This is not a norm because it is not homogeneous. Despite these defects as a mathematical norm, the non-zero counting "norm" has uses in scientific computing, information theory, and statistics–notably in compressed sensing in signal processing and computational harmonic analysis.
+
+
+== The p-norm in countably infinite dimensions and ℓ p spaces ==
+
+The p-norm can be extended to vectors that have an infinite number of components, which yields the space ℓ p. This contains as special cases:
+
+ℓ 1, the space of sequences whose series is absolutely convergent,
+ℓ 2, the space of square-summable sequences, which is a Hilbert space, and
+ℓ ∞, the space of bounded sequences.The space of sequences has a natural vector space structure by applying addition and scalar multiplication coordinate by coordinate. Explicitly, the vector sum and the scalar action for infinite sequences of real (or complex) numbers are given by:
+
+  
+    
+      
+        
+          
+            
+              
+              
+                
+                (
+                
+                  x
+                  
+                    1
+                  
+                
+                ,
+                
+                  x
+                  
+                    2
+                  
+                
+                ,
+                …
+                ,
+                
+                  x
+                  
+                    n
+                  
+                
+                ,
+                
+                  x
+                  
+                    n
+                    +
+                    1
+                  
+                
+                ,
+                …
+                )
+                +
+                (
+                
+                  y
+                  
+                    1
+                  
+                
+                ,
+                
+                  y
+                  
+                    2
+                  
+                
+                ,
+                …
+                ,
+                
+                  y
+                  
+                    n
+                  
+                
+                ,
+                
+                  y
+                  
+                    n
+                    +
+                    1
+                  
+                
+                ,
+                …
+                )
+              
+            
+            
+              
+                =
+                
+
+                
+              
+              
+                
+                (
+                
+                  x
+                  
+                    1
+                  
+                
+                +
+                
+                  y
+                  
+                    1
+                  
+                
+                ,
+                
+                  x
+                  
+                    2
+                  
+                
+                +
+                
+                  y
+                  
+                    2
+                  
+                
+                ,
+                …
+                ,
+                
+                  x
+                  
+                    n
+                  
+                
+                +
+                
+                  y
+                  
+                    n
+                  
+                
+                ,
+                
+                  x
+                  
+                    n
+                    +
+                    1
+                  
+                
+                +
+                
+                  y
+                  
+                    n
+                    +
+                    1
+                  
+                
+                ,
+                …
+                )
+                ,
+              
+            
+            
+              
+              
+                λ
+                ⋅
+                
+                  (
+                  
+                    
+                      x
+                      
+                        1
+                      
+                    
+                    ,
+                    
+                      x
+                      
+                        2
+                      
+                    
+                    ,
+                    …
+                    ,
+                    
+                      x
+                      
+                        n
+                      
+                    
+                    ,
+                    
+                      x
+                      
+                        n
+                        +
+                        1
+                      
+                    
+                    ,
+                    …
+                  
+                  )
+                
+              
+            
+            
+              
+                =
+                
+
+                
+              
+              
+                
+                (
+                λ
+                
+                  x
+                  
+                    1
+                  
+                
+                ,
+                λ
+                
+                  x
+                  
+                    2
+                  
+                
+                ,
+                …
+                ,
+                λ
+                
+                  x
+                  
+                    n
+                  
+                
+                ,
+                λ
+                
+                  x
+                  
+                    n
+                    +
+                    1
+                  
+                
+                ,
+                …
+                )
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}&(x_{1},x_{2},\ldots ,x_{n},x_{n+1},\ldots )+(y_{1},y_{2},\ldots ,y_{n},y_{n+1},\ldots )\\={}&(x_{1}+y_{1},x_{2}+y_{2},\ldots ,x_{n}+y_{n},x_{n+1}+y_{n+1},\ldots ),\\[6pt]&\lambda \cdot \left(x_{1},x_{2},\ldots ,x_{n},x_{n+1},\ldots \right)\\={}&(\lambda x_{1},\lambda x_{2},\ldots ,\lambda x_{n},\lambda x_{n+1},\ldots ).\end{aligned}}}
+  Define the p-norm:
+
+  
+    
+      
+        
+          
+            ‖
+            x
+            ‖
+          
+          
+            p
+          
+        
+        =
+        
+          
+            (
+            
+              
+                |
+              
+              
+                x
+                
+                  1
+                
+              
+              
+                
+                  |
+                
+                
+                  p
+                
+              
+              +
+              
+                |
+              
+              
+                x
+                
+                  2
+                
+              
+              
+                
+                  |
+                
+                
+                  p
+                
+              
+              +
+              ⋯
+              +
+              
+                |
+              
+              
+                x
+                
+                  n
+                
+              
+              
+                
+                  |
+                
+                
+                  p
+                
+              
+              +
+              
+                |
+              
+              
+                x
+                
+                  n
+                  +
+                  1
+                
+              
+              
+                
+                  |
+                
+                
+                  p
+                
+              
+              +
+              ⋯
+            
+            )
+          
+          
+            1
+            
+              /
+            
+            p
+          
+        
+      
+    
+    {\displaystyle \left\|x\right\|_{p}=\left(|x_{1}|^{p}+|x_{2}|^{p}+\cdots +|x_{n}|^{p}+|x_{n+1}|^{p}+\cdots \right)^{1/p}}
+  Here, a complication arises, namely that the series on the right is not always convergent, so for example, the sequence made up of only ones, (1, 1, 1, ...), will have an infinite p-norm for 1 ≤ p < ∞. The space ℓ p is then defined as the set of all infinite sequences of real (or complex) numbers such that the p-norm is finite.
+One can check that as p increases, the set ℓ p grows larger. For example, the sequence
+
+  
+    
+      
+        
+          (
+          
+            1
+            ,
+            
+              
+                1
+                2
+              
+            
+            ,
+            …
+            ,
+            
+              
+                1
+                n
+              
+            
+            ,
+            
+              
+                1
+                
+                  n
+                  +
+                  1
+                
+              
+            
+            ,
+            …
+          
+          )
+        
+      
+    
+    {\displaystyle \left(1,{\frac {1}{2}},\ldots ,{\frac {1}{n}},{\frac {1}{n+1}},\ldots \right)}
+  is not in ℓ 1, but it is in ℓ p for p > 1, as the series
+
+  
+    
+      
+        
+          1
+          
+            p
+          
+        
+        +
+        
+          
+            1
+            
+              2
+              
+                p
+              
+            
+          
+        
+        +
+        ⋯
+        +
+        
+          
+            1
+            
+              n
+              
+                p
+              
+            
+          
+        
+        +
+        
+          
+            1
+            
+              (
+              n
+              +
+              1
+              
+                )
+                
+                  p
+                
+              
+            
+          
+        
+        +
+        ⋯
+        ,
+      
+    
+    {\displaystyle 1^{p}+{\frac {1}{2^{p}}}+\cdots +{\frac {1}{n^{p}}}+{\frac {1}{(n+1)^{p}}}+\cdots ,}
+  diverges for p = 1 (the harmonic series), but is convergent for p > 1.
+One also defines the ∞-norm using the supremum:
+
+  
+    
+      
+        
+          
+            ‖
+            x
+            ‖
+          
+          
+            ∞
+          
+        
+        =
+        sup
+        (
+        
+          |
+        
+        
+          x
+          
+            1
+          
+        
+        
+          |
+        
+        ,
+        
+          |
+        
+        
+          x
+          
+            2
+          
+        
+        
+          |
+        
+        ,
+        …
+        ,
+        
+          |
+        
+        
+          x
+          
+            n
+          
+        
+        
+          |
+        
+        ,
+        
+          |
+        
+        
+          x
+          
+            n
+            +
+            1
+          
+        
+        
+          |
+        
+        ,
+        …
+        )
+      
+    
+    {\displaystyle \left\|x\right\|_{\infty }=\sup(|x_{1}|,|x_{2}|,\dotsc ,|x_{n}|,|x_{n+1}|,\ldots )}
+  and the corresponding space ℓ ∞ of all bounded sequences. It turns out that
+
+  
+    
+      
+        
+          
+            ‖
+            x
+            ‖
+          
+          
+            ∞
+          
+        
+        =
+        
+          lim
+          
+            p
+            →
+            ∞
+          
+        
+        
+          
+            ‖
+            x
+            ‖
+          
+          
+            p
+          
+        
+      
+    
+    {\displaystyle \left\|x\right\|_{\infty }=\lim _{p\to \infty }\left\|x\right\|_{p}}
+  if the right-hand side is finite, or the left-hand side is infinite. Thus, we will consider ℓ p spaces for 1 ≤ p ≤ ∞.
+The p-norm thus defined on ℓ p is indeed a norm, and ℓ p together with this norm is a Banach space. The fully general Lp space is obtained—as seen below — by considering vectors, not only with finitely or countably-infinitely many components, but with "arbitrarily many components"; in other words, functions. An integral instead of a sum is used to define the p-norm.
+
+
+== Lp spaces ==
+An Lp space may be defined as a space of measurable functions for which the p-th power of the absolute value is Lebesgue integrable, where functions which agree almost everywhere are identified. More generally, let 1 ≤ p < ∞ and (S, Σ, μ) be a measure space. Consider the set of all measurable functions from S to C or R whose absolute value raised to the p-th power has a finite integral, or equivalently, that
+
+  
+    
+      
+        ‖
+        f
+        
+          ‖
+          
+            p
+          
+        
+        ≡
+        
+          
+            (
+            
+              
+                ∫
+                
+                  S
+                
+              
+              
+                |
+              
+              f
+              
+                
+                  |
+                
+                
+                  p
+                
+              
+              
+              
+                d
+              
+              μ
+            
+            )
+          
+          
+            1
+            
+              /
+            
+            p
+          
+        
+        <
+        ∞
+      
+    
+    {\displaystyle \|f\|_{p}\equiv \left(\int _{S}|f|^{p}\;\mathrm {d} \mu \right)^{1/p}<\infty }
+  The set of such functions forms a vector space, with the following natural operations:
+
+  
+    
+      
+        
+          
+            
+              
+                (
+                f
+                +
+                g
+                )
+                (
+                x
+                )
+              
+              
+                
+                =
+                f
+                (
+                x
+                )
+                +
+                g
+                (
+                x
+                )
+                ,
+              
+            
+            
+              
+                (
+                λ
+                f
+                )
+                (
+                x
+                )
+              
+              
+                
+                =
+                λ
+                f
+                (
+                x
+                )
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}(f+g)(x)&=f(x)+g(x),\\(\lambda f)(x)&=\lambda f(x)\end{aligned}}}
+  for every scalar λ.
+That the sum of two p-th power integrable functions is again p-th power integrable follows from the inequality
+
+  
+    
+      
+        ‖
+        f
+        +
+        g
+        
+          ‖
+          
+            p
+          
+          
+            p
+          
+        
+        ≤
+        
+          2
+          
+            p
+            −
+            1
+          
+        
+        
+          (
+          
+            ‖
+            f
+            
+              ‖
+              
+                p
+              
+              
+                p
+              
+            
+            +
+            ‖
+            g
+            
+              ‖
+              
+                p
+              
+              
+                p
+              
+            
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle \|f+g\|_{p}^{p}\leq 2^{p-1}\left(\|f\|_{p}^{p}+\|g\|_{p}^{p}\right).}
+  (This comes from the convexity of 
+  
+    
+      
+        t
+        ↦
+        
+          t
+          
+            p
+          
+        
+      
+    
+    {\displaystyle t\mapsto t^{p}}
+   for 
+  
+    
+      
+        p
+        ≥
+        1
+      
+    
+    {\displaystyle p\geq 1}
+  .)
+In fact, more is true. Minkowski's inequality says the triangle inequality holds for || · ||p. Thus the set of p-th power integrable functions, together with the function || · ||p, is a seminormed vector space, which is denoted by 
+  
+    
+      
+        
+          
+            
+              L
+            
+          
+          
+            p
+          
+        
+        (
+        S
+        ,
+        
+        μ
+        )
+      
+    
+    {\displaystyle {\mathcal {L}}^{p}(S,\,\mu )}
+  .
+
+This can be made into a normed vector space in a standard way; one simply takes the quotient space with respect to the kernel of || · ||p. Since for any measurable function  f , we have that || f ||p = 0 if and only if  f  = 0 almost everywhere, the kernel of || · ||p does not depend upon p,
+
+  
+    
+      
+        
+          
+            N
+          
+        
+        ≡
+        {
+        f
+        :
+        f
+        =
+        0
+         
+        μ
+        
+          -almost everywhere
+        
+        }
+        =
+        ker
+        ⁡
+        (
+        ‖
+        ⋅
+        
+          ‖
+          
+            p
+          
+        
+        )
+        
+        ∀
+         
+        1
+        ≤
+        p
+        <
+        ∞
+      
+    
+    {\displaystyle {\mathcal {N}}\equiv \{f:f=0\ \mu {\text{-almost everywhere}}\}=\ker(\|\cdot \|_{p})\qquad \forall \ 1\leq p<\infty }
+  In the quotient space, two functions  f  and g are identified if  f  = g almost everywhere. The resulting normed vector space is, by definition,
+
+  
+    
+      
+        
+          L
+          
+            p
+          
+        
+        (
+        S
+        ,
+        μ
+        )
+        ≡
+        
+          
+            
+              L
+            
+          
+          
+            p
+          
+        
+        (
+        S
+        ,
+        μ
+        )
+        
+          /
+        
+        
+          
+            N
+          
+        
+      
+    
+    {\displaystyle L^{p}(S,\mu )\equiv {\mathcal {L}}^{p}(S,\mu )/{\mathcal {N}}}
+  For p = ∞, the space L∞(S, μ) is defined as follows. We start with the set of all measurable functions from S to C or R which are bounded. Again two such functions are identified if they are equal almost everywhere. Denote this set by L∞(S, μ). For a function  f  in this set, the essential supremum of its absolute value serves as an appropriate norm:
+
+  
+    
+      
+        ‖
+        f
+        
+          ‖
+          
+            ∞
+          
+        
+        ≡
+        inf
+        {
+        C
+        ≥
+        0
+        :
+        
+          |
+        
+        f
+        (
+        x
+        )
+        
+          |
+        
+        ≤
+        C
+        
+           for almost every 
+        
+        x
+        }
+        .
+      
+    
+    {\displaystyle \|f\|_{\infty }\equiv \inf\{C\geq 0:|f(x)|\leq C{\text{ for almost every }}x\}.}
+  As before, if there exists q < ∞ such that  f  ∈ L∞(S, μ) ∩ Lq(S, μ), then
+
+  
+    
+      
+        ‖
+        f
+        
+          ‖
+          
+            ∞
+          
+        
+        =
+        
+          lim
+          
+            p
+            →
+            ∞
+          
+        
+        ‖
+        f
+        
+          ‖
+          
+            p
+          
+        
+        .
+      
+    
+    {\displaystyle \|f\|_{\infty }=\lim _{p\to \infty }\|f\|_{p}.}
+  For 1 ≤ p ≤ ∞, Lp(S, μ) is a Banach space. The fact that Lp is complete is often referred to as the Riesz-Fischer theorem. Completeness can be checked using the convergence theorems for Lebesgue integrals.
+When the underlying measure space S is understood, Lp(S, μ) is often abbreviated Lp(μ), or just Lp. The above definitions generalize to Bochner spaces.
+
+
+=== Special cases ===
+Similar to the ℓp spaces, L2 is the only Hilbert space among Lp spaces. In the complex case, the inner product on L2 is defined by
+
+  
+    
+      
+        ⟨
+        f
+        ,
+        g
+        ⟩
+        =
+        
+          ∫
+          
+            S
+          
+        
+        f
+        (
+        x
+        )
+        
+          
+            
+              g
+              (
+              x
+              )
+            
+            ¯
+          
+        
+        
+        
+          d
+        
+        μ
+        (
+        x
+        )
+      
+    
+    {\displaystyle \langle f,g\rangle =\int _{S}f(x){\overline {g(x)}}\,\mathrm {d} \mu (x)}
+  The additional inner product structure allows for a richer theory, with applications to, for instance, Fourier series and quantum mechanics. Functions in L2 are sometimes called quadratically integrable functions, square-integrable functions or square-summable functions, but sometimes these terms are reserved for functions that are square-integrable in some other sense, such as in the sense of a Riemann integral (Titchmarsh 1976).
+If we use complex-valued functions, the space L∞ is a commutative C*-algebra with pointwise multiplication and conjugation. For many measure spaces, including all sigma-finite ones, it is in fact a commutative von Neumann algebra. An element of L∞ defines a bounded operator on any Lp space by multiplication.
+For 1 ≤ p ≤ ∞ the ℓp spaces are a special case of Lp spaces, when S = N, and μ is the counting measure on N. More generally, if one considers any set S with the counting measure, the resulting Lp space is denoted ℓp(S). For example, the space ℓp(Z) is the space of all sequences indexed by the integers, and when defining the p-norm on such a space, one sums over all the integers. The space ℓp(n), where n is the set with n elements, is Rn with its p-norm as defined above. As any Hilbert space, every space L2 is linearly isometric to a suitable ℓ2(I), where the cardinality of the set I is the cardinality of an arbitrary Hilbertian basis for this particular L2.
+
+
+== Properties of Lp spaces ==
+
+
+=== Dual spaces ===
+The dual space (the Banach space of all continuous linear functionals) of Lp(μ) for 1 < p < ∞ has a natural isomorphism with Lq(μ), where q is such that  1/p + 1/q = 1 (i.e. 
+  
+    
+      
+        q
+        =
+        
+          
+            
+              p
+              
+                p
+                −
+                1
+              
+            
+          
+        
+      
+    
+    {\displaystyle q={\tfrac {p}{p-1}}}
+  ). This isomorphism associates g ∈ Lq(μ) with the functional κp(g) ∈ Lp(μ)∗ defined by
+
+  
+    
+      
+        f
+        ↦
+        
+          κ
+          
+            p
+          
+        
+        (
+        g
+        )
+        (
+        f
+        )
+        =
+        ∫
+        f
+        g
+        
+        
+          d
+        
+        μ
+         
+         
+      
+    
+    {\displaystyle f\mapsto \kappa _{p}(g)(f)=\int fg\,\mathrm {d} \mu \ \ }
+   for every 
+  
+    
+      
+        f
+        ∈
+        
+          L
+          
+            p
+          
+        
+        (
+        μ
+        )
+      
+    
+    {\displaystyle f\in L^{p}(\mu )}
+  The fact that κp(g) is well defined and continuous follows from Hölder's inequality. κp : Lq(μ) → Lp(μ)∗ is a linear mapping which is an isometry by the extremal case of Hölder's inequality. It is also possible to show (for example with the Radon–Nikodym theorem, see) that any G ∈ Lp(μ)∗ can be expressed this way: i.e., that κp is onto. Since κp is onto and isometric, it is an isomorphism of Banach spaces. With this (isometric) isomorphism in mind, it is usual to say simply that Lq  is the dual Banach space of Lp.
+For 1 < p < ∞, the space Lp(μ) is reflexive. Let κp be as above and let κq : Lp(μ) → Lq(μ)∗ be the corresponding linear isometry. Consider the map from Lp(μ) to Lp(μ)∗∗, obtained by composing κq with the transpose (or adjoint) of the inverse of κp:
+
+  
+    
+      
+        
+          j
+          
+            p
+          
+        
+        :
+        
+          L
+          
+            p
+          
+        
+        (
+        μ
+        )
+        
+          
+            ⟶
+            
+              κ
+              
+                q
+              
+            
+          
+        
+        
+          L
+          
+            q
+          
+        
+        (
+        μ
+        
+          )
+          
+            ∗
+          
+        
+        
+          
+            ⟶
+            
+              
+                (
+                
+                  κ
+                  
+                    p
+                  
+                  
+                    −
+                    1
+                  
+                
+                )
+              
+              
+                ∗
+              
+            
+          
+        
+        
+          L
+          
+            p
+          
+        
+        (
+        μ
+        
+          )
+          
+            ∗
+            ∗
+          
+        
+      
+    
+    {\displaystyle j_{p}:L^{p}(\mu ){\overset {\kappa _{q}}{\longrightarrow }}L^{q}(\mu )^{*}{\overset {\left(\kappa _{p}^{-1}\right)^{*}}{\longrightarrow }}L^{p}(\mu )^{**}}
+  This map coincides with the canonical embedding J of Lp(μ) into its bidual. Moreover, the map jp is onto, as composition of two onto isometries, and this proves reflexivity.
+If the measure μ on S is sigma-finite, then the dual of L1(μ) is isometrically isomorphic to L∞(μ) (more precisely, the map κ1 corresponding to p = 1 is an isometry from L∞(μ) onto L1(μ)∗).
+The dual of L∞ is subtler. Elements of L∞(μ)∗ can be identified with bounded signed finitely additive measures on S that are absolutely continuous with respect to μ. See ba space for more details. If we assume the axiom of choice, this space is much bigger than L1(μ) except in some trivial cases. However, Saharon Shelah proved that there are relatively consistent extensions of Zermelo–Fraenkel set theory (ZF + DC + "Every subset of the real numbers has the Baire property") in which the dual of ℓ∞ is ℓ1.
+
+
+=== Embeddings ===
+Colloquially, if 1 ≤ p < q ≤ ∞, then Lp(S, μ) contains functions that are more locally singular, while elements of Lq(S, μ) can be more spread out. Consider the Lebesgue measure on the half line (0, ∞). A continuous function in L1 might blow up near 0 but must decay sufficiently fast toward infinity. On the other hand, continuous functions in L∞ need not decay at all but no blow-up is allowed. The precise technical result is the following. Suppose that 0 < p < q ≤ ∞. Then:
+
+Lq(S, μ) ⊂ Lp(S, μ) iff S does not contain sets of finite but arbitrarily large measure, and
+Lp(S, μ) ⊂ Lq(S, μ) iff S does not contain sets of non-zero but arbitrarily small measure.Neither condition holds for the real line with the Lebesgue measure. In both cases the embedding is continuous, in that the identity operator is a bounded linear map from
+Lq to Lp in the first case,
+and Lp to Lq in the second.
+(This is a consequence of the closed graph theorem
+and properties of Lp spaces.) Indeed, if the domain S has finite measure,
+one can make the following explicit calculation using Hölder's inequality
+
+  
+    
+      
+         
+        ‖
+        
+          1
+        
+        
+          f
+          
+            p
+          
+        
+        
+          ‖
+          
+            1
+          
+        
+        ≤
+        ‖
+        
+          1
+        
+        
+          ‖
+          
+            q
+            
+              /
+            
+            (
+            q
+            −
+            p
+            )
+          
+        
+        ‖
+        
+          f
+          
+            p
+          
+        
+        
+          ‖
+          
+            q
+            
+              /
+            
+            p
+          
+        
+      
+    
+    {\displaystyle \ \|\mathbf {1} f^{p}\|_{1}\leq \|\mathbf {1} \|_{q/(q-p)}\|f^{p}\|_{q/p}}
+  leading to
+
+  
+    
+      
+         
+        ‖
+        f
+        
+          ‖
+          
+            p
+          
+        
+        ≤
+        μ
+        (
+        S
+        
+          )
+          
+            1
+            
+              /
+            
+            p
+            −
+            1
+            
+              /
+            
+            q
+          
+        
+        ‖
+        f
+        
+          ‖
+          
+            q
+          
+        
+      
+    
+    {\displaystyle \ \|f\|_{p}\leq \mu (S)^{1/p-1/q}\|f\|_{q}}
+  .The constant appearing in the above inequality is optimal, in the sense that the operator norm of the identity I : Lq(S, μ) → Lp(S, μ) is precisely
+
+  
+    
+      
+        ‖
+        I
+        
+          ‖
+          
+            q
+            ,
+            p
+          
+        
+        =
+        μ
+        (
+        S
+        
+          )
+          
+            1
+            
+              /
+            
+            p
+            −
+            1
+            
+              /
+            
+            q
+          
+        
+      
+    
+    {\displaystyle \|I\|_{q,p}=\mu (S)^{1/p-1/q}}
+  the case of equality being achieved exactly when  f  = 1 μ-a.e.
+
+
+=== Dense subspaces ===
+Throughout this section we assume that: 1 ≤ p < ∞.
+Let (S, Σ, μ) be a measure space. An integrable simple function  f  on S is one of the form
+
+  
+    
+      
+        f
+        =
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          a
+          
+            j
+          
+        
+        
+          
+            1
+          
+          
+            
+              A
+              
+                j
+              
+            
+          
+        
+      
+    
+    {\displaystyle f=\sum _{j=1}^{n}a_{j}\mathbf {1} _{A_{j}}}
+  where aj is scalar, Aj ∈ Σ has finite measure and 
+  
+    
+      
+        
+          
+            
+              1
+            
+          
+          
+            
+              A
+              
+                j
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\mathbf {1} }_{A_{j}}}
+   is the indicator function of the set 
+  
+    
+      
+        
+          A
+          
+            j
+          
+        
+      
+    
+    {\displaystyle A_{j}}
+  , for j = 1, ..., n. By construction of the integral, the vector space of integrable simple functions is dense in Lp(S, Σ, μ).
+More can be said when S is a normal topological space and Σ its Borel σ–algebra, i.e., the smallest σ–algebra of subsets of S containing the open sets.
+Suppose V ⊂ S is an open set with μ(V) < ∞. It can be proved that for every Borel set A ∈ Σ contained in V, and for every ε > 0, there exist a closed set F and an open set U such that
+
+  
+    
+      
+        F
+        ⊂
+        A
+        ⊂
+        U
+        ⊂
+        V
+        
+        
+          and
+        
+        
+        μ
+        (
+        U
+        )
+        −
+        μ
+        (
+        F
+        )
+        =
+        μ
+        (
+        U
+        ∖
+        F
+        )
+        <
+        ε
+      
+    
+    {\displaystyle F\subset A\subset U\subset V\quad {\text{and}}\quad \mu (U)-\mu (F)=\mu (U\setminus F)<\varepsilon }
+  It follows that there exists a continuous  Urysohn function 
+  
+    
+      
+        0
+        ≤
+        φ
+        ≤
+        1
+      
+    
+    {\displaystyle 0\leq \varphi \leq 1}
+   on 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+   that is 
+  
+    
+      
+        1
+      
+    
+    {\displaystyle 1}
+   on 
+  
+    
+      
+        F
+      
+    
+    {\displaystyle F}
+   and 
+  
+    
+      
+        0
+      
+    
+    {\displaystyle 0}
+   on 
+  
+    
+      
+        S
+        ∖
+        U
+      
+    
+    {\displaystyle S\setminus U}
+  , with
+
+  
+    
+      
+        
+          ∫
+          
+            S
+          
+        
+        
+          |
+        
+        
+          
+            1
+          
+          
+            A
+          
+        
+        −
+        φ
+        
+          |
+        
+        
+        
+          d
+        
+        μ
+        <
+        ε
+         
+        .
+      
+    
+    {\displaystyle \int _{S}|\mathbf {1} _{A}-\varphi |\,\mathrm {d} \mu <\varepsilon \ .}
+  If S can be covered by an increasing sequence (Vn) of open sets that have finite measure, then the space of p–integrable continuous functions is dense in Lp(S, Σ, μ). More precisely, one can use bounded continuous functions that vanish outside one of the open sets Vn.
+This applies in particular when S = Rd and when μ is the Lebesgue measure. The space of continuous and compactly supported functions is dense in Lp(Rd). Similarly, the space of integrable step functions is dense in Lp(Rd); this space is the linear span of indicator functions of bounded intervals when d = 1, of bounded rectangles when d = 2 and more generally of products of bounded intervals.
+Several properties of general functions in Lp(Rd) are first proved for continuous and compactly supported functions (sometimes for step functions), then extended by density to all functions. For example, it is proved this way that translations are continuous on Lp(Rd), in the following sense:
+
+  
+    
+      
+        ∀
+        f
+        ∈
+        
+          L
+          
+            p
+          
+        
+        (
+        
+          
+            R
+          
+          
+            d
+          
+        
+        )
+        :
+        
+        
+          
+            ‖
+            
+              
+                τ
+                
+                  t
+                
+              
+              f
+              −
+              f
+            
+            ‖
+          
+          
+            p
+          
+        
+        →
+        0
+        ,
+        
+        
+           as 
+        
+        
+          
+            R
+          
+          
+            d
+          
+        
+        ∋
+        t
+        →
+        0
+        ,
+      
+    
+    {\displaystyle \forall f\in L^{p}(\mathbf {R} ^{d}):\qquad \left\|\tau _{t}f-f\right\|_{p}\to 0,\quad {\text{ as }}\mathbf {R} ^{d}\ni t\to 0,}
+  where
+
+  
+    
+      
+        (
+        
+          τ
+          
+            t
+          
+        
+        f
+        )
+        (
+        x
+        )
+        =
+        f
+        (
+        x
+        −
+        t
+        )
+        .
+      
+    
+    {\displaystyle (\tau _{t}f)(x)=f(x-t).}
+  
+
+
+== Lp (0 < p < 1) ==
+Let (S, Σ, μ) be a measure space. If 0 < p < 1, then Lp(μ) can be defined as above: it is the vector space of those measurable functions  f  such that
+
+  
+    
+      
+        
+          N
+          
+            p
+          
+        
+        (
+        f
+        )
+        =
+        
+          ∫
+          
+            S
+          
+        
+        
+          |
+        
+        f
+        
+          
+            |
+          
+          
+            p
+          
+        
+        
+        d
+        μ
+        <
+        ∞
+        .
+      
+    
+    {\displaystyle N_{p}(f)=\int _{S}|f|^{p}\,d\mu <\infty .}
+  As before, we may introduce the p-norm || f ||p = Np( f )1/p, but || · || p does not satisfy the triangle inequality in this case, and defines only a quasi-norm.  The inequality (a + b) p ≤ a p + b p, valid for a, b ≥ 0 implies that (Rudin 1991, §1.47)
+
+  
+    
+      
+        
+          N
+          
+            p
+          
+        
+        (
+        f
+        +
+        g
+        )
+        ≤
+        
+          N
+          
+            p
+          
+        
+        (
+        f
+        )
+        +
+        
+          N
+          
+            p
+          
+        
+        (
+        g
+        )
+      
+    
+    {\displaystyle N_{p}(f+g)\leq N_{p}(f)+N_{p}(g)}
+  and so the function
+
+  
+    
+      
+        
+          d
+          
+            p
+          
+        
+        (
+        f
+        ,
+        g
+        )
+        =
+        
+          N
+          
+            p
+          
+        
+        (
+        f
+        −
+        g
+        )
+        =
+        ‖
+        f
+        −
+        g
+        
+          ‖
+          
+            p
+          
+          
+            p
+          
+        
+      
+    
+    {\displaystyle d_{p}(f,g)=N_{p}(f-g)=\|f-g\|_{p}^{p}}
+  is a metric on Lp(μ). The resulting metric space is complete; the verification is similar to the familiar case when p ≥ 1.
+In this setting Lp satisfies a reverse Minkowski inequality, that is for u, v in Lp
+
+  
+    
+      
+        ‖
+        
+          |
+        
+        u
+        
+          |
+        
+        +
+        
+          |
+        
+        v
+        
+          |
+        
+        
+          ‖
+          
+            p
+          
+        
+        ≥
+        ‖
+        u
+        
+          ‖
+          
+            p
+          
+        
+        +
+        ‖
+        v
+        
+          ‖
+          
+            p
+          
+        
+      
+    
+    {\displaystyle \||u|+|v|\|_{p}\geq \|u\|_{p}+\|v\|_{p}}
+  This result may be used to prove Clarkson's inequalities, which are in turn used to establish the uniform convexity of the spaces Lp for 1 < p < ∞ (Adams & Fournier 2003).
+The space Lp for 0 < p < 1 is an F-space: it admits a complete translation-invariant metric with respect to which the vector space operations are continuous. It is also locally bounded, much like the case p ≥ 1. It is the prototypical example of an F-space that, for most reasonable measure spaces, is not locally convex: in ℓ p or Lp([0, 1]), every open convex set containing the 0 function is unbounded for the p-quasi-norm; therefore, the 0 vector does not possess a fundamental system of convex neighborhoods. Specifically, this is true if the measure space S contains an infinite family of disjoint measurable sets of finite positive measure.
+The only nonempty convex open set in Lp([0, 1]) is the entire space (Rudin 1991, §1.47). As a particular consequence, there are no nonzero linear functionals on Lp([0, 1]): the dual space is the zero space. In the case of the counting measure on the natural numbers (producing the sequence space Lp(μ) = ℓ p), the bounded linear functionals on ℓ p are exactly those that are bounded on ℓ 1, namely those given by sequences in ℓ ∞. Although ℓ p does contain non-trivial convex open sets, it fails to have enough of them to give a base for the topology.
+The situation of having no linear functionals is highly undesirable for the purposes of doing analysis. In the case of the Lebesgue measure on Rn, rather than work with Lp for 0 < p < 1, it is common to work with the Hardy space H p whenever possible, as this has quite a few linear functionals: enough to distinguish points from one another. However, the Hahn–Banach theorem still fails in H p for p < 1 (Duren 1970, §7.5).
+
+
+=== L0, the space of measurable functions ===
+The vector space of (equivalence classes of) measurable functions on (S, Σ, μ) is denoted L0(S, Σ, μ) (Kalton, Peck & Roberts 1984). By definition, it contains all the Lp, and is equipped with the topology of convergence in measure. When μ is a probability measure (i.e., μ(S) = 1), this mode of convergence is named convergence in probability.
+The description is easier when μ is finite. If μ is a finite measure on (S, Σ), the 0 function admits for the convergence in measure the following fundamental system of neighborhoods
+
+  
+    
+      
+        
+          V
+          
+            ε
+          
+        
+        =
+        
+          
+            {
+          
+        
+        f
+        :
+        μ
+        
+          
+            (
+          
+        
+        {
+        x
+        :
+        
+          |
+        
+        f
+        (
+        x
+        )
+        
+          |
+        
+        >
+        ε
+        }
+        
+          
+            )
+          
+        
+        <
+        ε
+        
+          
+            }
+          
+        
+        ,
+        
+        ε
+        >
+        0
+      
+    
+    {\displaystyle V_{\varepsilon }={\Bigl \{}f:\mu {\bigl (}\{x:|f(x)|>\varepsilon \}{\bigr )}<\varepsilon {\Bigr \}},\qquad \varepsilon >0}
+  The topology can be defined by any metric d of the form
+
+  
+    
+      
+        d
+        (
+        f
+        ,
+        g
+        )
+        =
+        
+          ∫
+          
+            S
+          
+        
+        φ
+        
+          
+            (
+          
+        
+        
+          |
+        
+        f
+        (
+        x
+        )
+        −
+        g
+        (
+        x
+        )
+        
+          |
+        
+        
+          
+            )
+          
+        
+        
+        
+          d
+        
+        μ
+        (
+        x
+        )
+      
+    
+    {\displaystyle d(f,g)=\int _{S}\varphi {\bigl (}|f(x)-g(x)|{\bigr )}\,\mathrm {d} \mu (x)}
+  where φ is bounded continuous concave and non-decreasing on [0, ∞), with φ(0) = 0 and φ(t) > 0 when t > 0 (for example, φ(t) = min(t, 1)). Such a metric is called Lévy-metric for L0. Under this metric the space L0 is complete (it is again an F-space). The space L0 is in general not locally bounded, and not locally convex.
+For the infinite Lebesgue measure λ on Rn, the definition of the fundamental system of neighborhoods could be modified as follows
+
+  
+    
+      
+        
+          W
+          
+            ε
+          
+        
+        =
+        
+          {
+          
+            f
+            :
+            λ
+            
+              (
+              
+                {
+                
+                  x
+                  :
+                  
+                    |
+                  
+                  f
+                  (
+                  x
+                  )
+                  
+                    |
+                  
+                  >
+                  ε
+                  
+                     and 
+                  
+                  
+                    |
+                  
+                  x
+                  
+                    |
+                  
+                  <
+                  
+                    
+                      1
+                      ε
+                    
+                  
+                
+                }
+              
+              )
+            
+            <
+            ε
+          
+          }
+        
+      
+    
+    {\displaystyle W_{\varepsilon }=\left\{f:\lambda \left(\left\{x:|f(x)|>\varepsilon {\text{ and }}|x|<{\frac {1}{\varepsilon }}\right\}\right)<\varepsilon \right\}}
+  The resulting space L0(Rn, λ) coincides as topological vector space with L0(Rn, g(x) dλ(x)), for any positive λ–integrable density g.
+
+
+== Weak Lp ==
+Let (S, Σ, μ) be a measure space, and f a measurable function with real or complex values on S. The distribution function of f is defined for t > 0 by
+
+  
+    
+      
+        
+          λ
+          
+            f
+          
+        
+        (
+        t
+        )
+        =
+        μ
+        
+          {
+          
+            x
+            ∈
+            S
+            :
+            
+              |
+            
+            f
+            (
+            x
+            )
+            
+              |
+            
+            >
+            t
+          
+          }
+        
+      
+    
+    {\displaystyle \lambda _{f}(t)=\mu \left\{x\in S:|f(x)|>t\right\}}
+  If f is in Lp(S, μ) for some p with 1 ≤ p < ∞, then by Markov's inequality,
+
+  
+    
+      
+        
+          λ
+          
+            f
+          
+        
+        (
+        t
+        )
+        ≤
+        
+          
+            
+              ‖
+              f
+              
+                ‖
+                
+                  p
+                
+                
+                  p
+                
+              
+            
+            
+              t
+              
+                p
+              
+            
+          
+        
+      
+    
+    {\displaystyle \lambda _{f}(t)\leq {\frac {\|f\|_{p}^{p}}{t^{p}}}}
+  A function f is said to be in the space weak Lp(S, μ), or Lp,w(S, μ), if there is a constant C > 0 such that, for all t > 0,
+
+  
+    
+      
+        
+          λ
+          
+            f
+          
+        
+        (
+        t
+        )
+        ≤
+        
+          
+            
+              C
+              
+                p
+              
+            
+            
+              t
+              
+                p
+              
+            
+          
+        
+      
+    
+    {\displaystyle \lambda _{f}(t)\leq {\frac {C^{p}}{t^{p}}}}
+  The best constant C for this inequality is the Lp,w-norm of f, and is denoted by
+
+  
+    
+      
+        ‖
+        f
+        
+          ‖
+          
+            p
+            ,
+            w
+          
+        
+        =
+        
+          sup
+          
+            t
+            >
+            0
+          
+        
+         
+        t
+        
+          λ
+          
+            f
+          
+          
+            1
+            
+              /
+            
+            p
+          
+        
+        (
+        t
+        )
+      
+    
+    {\displaystyle \|f\|_{p,w}=\sup _{t>0}~t\lambda _{f}^{1/p}(t)}
+  The weak Lp coincide with the Lorentz spaces Lp,∞, so this notation is also used to denote them.
+The Lp,w-norm is not a true norm, since the triangle inequality fails to hold. Nevertheless, for f in Lp(S, μ),
+
+  
+    
+      
+        ‖
+        f
+        
+          ‖
+          
+            p
+            ,
+            w
+          
+        
+        ≤
+        ‖
+        f
+        
+          ‖
+          
+            p
+          
+        
+      
+    
+    {\displaystyle \|f\|_{p,w}\leq \|f\|_{p}}
+  and in particular Lp(S, μ) ⊂ Lp,w(S, μ). 
+In fact, one has
+
+  
+    
+      
+        ‖
+        f
+        
+          ‖
+          
+            
+              L
+              
+                p
+              
+            
+          
+          
+            p
+          
+        
+        =
+        ∫
+        
+          |
+        
+        f
+        (
+        x
+        )
+        
+          
+            |
+          
+          
+            p
+          
+        
+        d
+        μ
+        (
+        x
+        )
+        ≥
+        
+          ∫
+          
+            {
+            
+              |
+            
+            f
+            (
+            x
+            )
+            
+              |
+            
+            >
+            t
+            }
+          
+        
+        
+          t
+          
+            p
+          
+        
+        +
+        
+          ∫
+          
+            {
+            
+              |
+            
+            f
+            (
+            x
+            )
+            
+              |
+            
+            ≤
+            t
+            }
+          
+        
+        
+          |
+        
+        f
+        
+          
+            |
+          
+          
+            p
+          
+        
+        ≥
+        
+          t
+          
+            p
+          
+        
+        μ
+        (
+        {
+        
+          |
+        
+        f
+        
+          |
+        
+        >
+        t
+        }
+        )
+      
+    
+    {\displaystyle \|f\|_{L^{p}}^{p}=\int |f(x)|^{p}d\mu (x)\geq \int _{\{|f(x)|>t\}}t^{p}+\int _{\{|f(x)|\leq t\}}|f|^{p}\geq t^{p}\mu (\{|f|>t\})}
+  ,
+and raising to power 
+  
+    
+      
+        1
+        
+          /
+        
+        p
+      
+    
+    {\displaystyle 1/p}
+   and taking the supremum in 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+   one has
+
+  
+    
+      
+        ‖
+        f
+        
+          ‖
+          
+            
+              L
+              
+                p
+              
+            
+          
+        
+        ≥
+        
+          sup
+          
+            t
+            >
+            0
+          
+        
+        t
+        
+        μ
+        (
+        {
+        
+          |
+        
+        f
+        
+          |
+        
+        >
+        t
+        }
+        
+          )
+          
+            1
+            
+              /
+            
+            p
+          
+        
+        =
+        ‖
+        f
+        
+          ‖
+          
+            
+              L
+              
+                p
+                ,
+                w
+              
+            
+          
+        
+      
+    
+    {\displaystyle \|f\|_{L^{p}}\geq \sup _{t>0}t\;\mu (\{|f|>t\})^{1/p}=\|f\|_{L^{p,w}}}
+  .
+Under the convention that two functions are equal if they are equal μ almost everywhere, then the spaces Lp,w are complete (Grafakos 2004).
+For any 0 < r < p the expression
+
+  
+    
+      
+        
+          |
+        
+        
+          |
+        
+        
+          |
+        
+        f
+        
+          |
+        
+        
+          |
+        
+        
+          
+            |
+          
+          
+            
+              L
+              
+                p
+                ,
+                ∞
+              
+            
+          
+        
+        =
+        
+          sup
+          
+            0
+            <
+            μ
+            (
+            E
+            )
+            <
+            ∞
+          
+        
+        μ
+        (
+        E
+        
+          )
+          
+            −
+            1
+            
+              /
+            
+            r
+            +
+            1
+            
+              /
+            
+            p
+          
+        
+        
+          
+            (
+            
+              
+                ∫
+                
+                  E
+                
+              
+              
+                |
+              
+              f
+              
+                
+                  |
+                
+                
+                  r
+                
+              
+              
+              d
+              μ
+            
+            )
+          
+          
+            1
+            
+              /
+            
+            r
+          
+        
+      
+    
+    {\displaystyle |||f|||_{L^{p,\infty }}=\sup _{0<\mu (E)<\infty }\mu (E)^{-1/r+1/p}\left(\int _{E}|f|^{r}\,d\mu \right)^{1/r}}
+  is comparable to the Lp,w-norm. Further in the case p > 1, this expression defines a norm if r = 1. Hence for p > 1 the weak Lp spaces are Banach spaces (Grafakos 2004).
+A major result that uses the Lp,w-spaces is the Marcinkiewicz interpolation theorem, which has broad applications to harmonic analysis and the study of singular integrals.
+
+
+== Weighted Lp spaces ==
+As before, consider a measure space (S, Σ, μ). Let w : S → [0, ∞) be a measurable function. The w-weighted Lp space is defined as Lp(S, w dμ), where w dμ means the measure ν defined by
+
+  
+    
+      
+        ν
+        (
+        A
+        )
+        ≡
+        
+          ∫
+          
+            A
+          
+        
+        w
+        (
+        x
+        )
+        
+        
+          d
+        
+        μ
+        (
+        x
+        )
+        ,
+        
+        A
+        ∈
+        Σ
+        ,
+      
+    
+    {\displaystyle \nu (A)\equiv \int _{A}w(x)\,\mathrm {d} \mu (x),\qquad A\in \Sigma ,}
+  or, in terms of the Radon–Nikodym derivative, w = dν/dμ  the norm for Lp(S, w dμ) is explicitly
+
+  
+    
+      
+        ‖
+        u
+        
+          ‖
+          
+            
+              L
+              
+                p
+              
+            
+            (
+            S
+            ,
+            w
+            
+            
+              d
+            
+            μ
+            )
+          
+        
+        ≡
+        
+          
+            (
+            
+              
+                ∫
+                
+                  S
+                
+              
+              w
+              (
+              x
+              )
+              
+                |
+              
+              u
+              (
+              x
+              )
+              
+                
+                  |
+                
+                
+                  p
+                
+              
+              
+              
+                d
+              
+              μ
+              (
+              x
+              )
+            
+            )
+          
+          
+            1
+            
+              /
+            
+            p
+          
+        
+      
+    
+    {\displaystyle \|u\|_{L^{p}(S,w\,\mathrm {d} \mu )}\equiv \left(\int _{S}w(x)|u(x)|^{p}\,\mathrm {d} \mu (x)\right)^{1/p}}
+  As Lp-spaces, the weighted spaces have nothing special, since Lp(S, w dμ) is equal to Lp(S, dν). But they are the natural framework for several results in harmonic analysis (Grafakos 2004); they appear for example in the Muckenhoupt theorem: for 1 < p < ∞, the classical Hilbert transform is defined on Lp(T, λ) where T denotes the unit circle and λ the Lebesgue measure; the (nonlinear) Hardy–Littlewood maximal operator is bounded on Lp(Rn, λ). Muckenhoupt's theorem describes weights w such that the Hilbert transform remains bounded on Lp(T, w dλ) and the maximal operator on Lp(Rn, w dλ).
+
+
+== Lp spaces on manifolds ==
+One may also define spaces Lp(M) on a manifold, called the intrinsic Lp spaces of the manifold, using densities.
+
+
+== See also ==
+
+
+== Notes ==
+
+
+== References ==
+Adams, Robert A.; Fournier, John F. (2003), Sobolev Spaces (Second ed.), Academic Press, ISBN 978-0-12-044143-3.
+Bourbaki, Nicolas (1987), Topological vector spaces, Elements of mathematics, Berlin: Springer-Verlag, ISBN 978-3-540-13627-9.
+DiBenedetto, Emmanuele (2002), Real analysis, Birkhäuser, ISBN 3-7643-4231-5.
+Dunford, Nelson; Schwartz, Jacob T. (1958), Linear operators, volume I, Wiley-Interscience.
+Duren, P. (1970), Theory of Hp-Spaces, New York: Academic Press
+Grafakos, Loukas (2004), Classical and Modern Fourier Analysis, Pearson Education, Inc., pp. 253–257, ISBN 0-13-035399-X.
+Hewitt, Edwin; Stromberg, Karl (1965), Real and abstract analysis, Springer-Verlag.
+Kalton, Nigel J.; Peck, N. Tenney; Roberts, James W. (1984), An F-space sampler, London Mathematical Society Lecture Note Series, 89, Cambridge: Cambridge University Press, doi:10.1017/CBO9780511662447, ISBN 0-521-27585-7, MR 0808777
+Riesz, Frigyes (1910), "Untersuchungen über Systeme integrierbarer Funktionen" (PDF), Mathematische Annalen, 69 (4): 449–497, doi:10.1007/BF01457637, hdl:10338.dmlcz/128558
+Rudin, Walter (1991), Functional Analysis, McGraw-Hill Science/Engineering/Math, ISBN 978-0-07-054236-5
+Rudin, Walter (1987), Real and complex analysis (3rd ed.), New York: McGraw-Hill, ISBN 978-0-07-054234-1, MR 0924157
+Titchmarsh, EC (1976), The theory of functions, Oxford University Press, ISBN 978-0-19-853349-8
+
+
+== External links ==
+Hazewinkel, Michiel, ed. (2001) [1994], "Lebesgue space", Encyclopedia of Mathematics, Springer Science+Business Media B.V. / Kluwer Academic Publishers, ISBN 978-1-55608-010-4
+Proof that Lp spaces are complete

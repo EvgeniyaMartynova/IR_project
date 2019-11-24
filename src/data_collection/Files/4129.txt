@@ -1,0 +1,44 @@
+Title: Federal Arbitration Act
+Aspects: {'FAA (disambiguation)'}
+
+The United States Arbitration Act (Pub.L. 68–401, 43 Stat. 883, enacted February 12, 1925, codified at 9 U.S.C. ch. 1), more commonly referred to as the Federal Arbitration Act or FAA, is an act of Congress that provides for judicial facilitation of private dispute resolution through arbitration. It applies in both state courts and federal courts, as was held constitutional in Southland Corp. v. Keating. It applies where the transaction contemplated by the parties "involves" interstate commerce and is predicated on an exercise of the Commerce Clause powers granted to Congress in the U.S. Constitution.
+The FAA provides for contract based compulsory and binding arbitration, resulting in an arbitration award entered by an arbitrator or arbitration panel as opposed to a judgment entered by a court of law. In an arbitration, the parties give up the right to an appeal on substantive grounds to a court.
+Once an award is entered by an arbitrator or arbitration panel, it must be "confirmed" in a court of law; and once confirmed, the award is reduced to an enforceable judgment, which may be enforced by the winning party in court, like any other judgment. Under the FAA, an award must be confirmed within one year, and any objection to an award must be challenged by the losing party within three months. An arbitration agreement may be entered "prospectively" (ie., in advance of any actual dispute), or may be entered into by the disputing parties once a dispute has arisen.
+
+
+== Legal challenges ==
+The Supreme Court ruled in Hall Street Associates, L.L.C. v. Mattel, Inc. that the grounds for judicial review specified in the FAA may not be expanded, even if the parties to the arbitration agreement agree to allow expanded review of the decision.
+On June 20, 2013, the Court ruled in American Express Co. v. Italian Colors Restaurant that class action waivers contained in mandatory arbitration clauses were valid even if plaintiffs prove that it would not be economically practicable to maintain these actions individually.In its decision on Epic Systems Corp. v. Lewis on May 21, 2018, the Supreme Court ruled that the FAA is not overridden by the protection of concerted activity established by the National Labor Relations Act of 1935, effectively making individual arbitration agreements in contracts wholly enforceable.Within New Prime Inc. v. Oliveira, decided in January 2019, the Court decided unanimously that when contracts include mandatory arbitration clauses, employees still have the right to seek court oversight to determine if such employment falls within the exceptions outlined in §1 of the FAA related to employees involved in interstate commerce, and that these protections apply to both those classified as employees and as independent contractors.
+
+
+== Partial preemption of state law ==
+Section 2 of the FAA declares that arbitration provisions will be subject to invalidation only for the same grounds applicable to contractual provisions generally, such as unconscionability or duress. Consequently, most state law that disfavors the enforcement of arbitration agreements will be preempted by the FAA. State laws that govern the procedures of arbitration, but do not affect its enforcement, are outside the Act's preemptive scope.
+Not all state laws regarding arbitration are preempted, for example:
+
+NASD rule 12204 of 1992 (now FINRA Rule 2268), which allows investor class actions to proceed in federal court nullifies arbitration agreements when class certification is sought, is not preempted.
+California H&SC 1363.1 is partially preempted.However, a recent Financial Industry Regulatory Authority (FINRA) Office of Hearing Officers (OHO) decision in a disciplinary action against Charles Schwab & Co. questions the ability of a regulator to enforce arbitration agreement restrictions such as NASD Rule 12204 (FINRA Rule 2268). The dispute arose when Charles Schwab & Co. revised its pre-dispute arbitration agreement to preclude a customer from participating in a class action against the firm, effectively removing the ability for a customer to have a claim heard in court. FINRA rules require arbitration through a FINRA arbitration panel, except in the case of class actions, which are reserved for the court system.
+Specifically, the OHO Panel cited the Supreme Court decision in Shearson/American Express Inc. v. McMahon that securities law claims are no exception to the FAA's mandate that parties to an otherwise valid arbitration agreement submit the claim to arbitration. The OHO Panel also applied the Supreme Court decision in AT&T Mobility v. Concepcion where the Court established that class actions also are not an exception to the FAA, stating that a party to an arbitration agreement has no right to participate in a class action instead of an arbitration on an individual basis and that an exception to the FAA's mandate requires clear expression of Congressional intent. FINRA has appealed the OHO decision to the National Adjudicatory Council.A case-by-case analysis is required to determine whether a specific California law is preempted. In general where the FAA has no procedural provisions applicable in state court, there is no preemption.A number of Supreme Court cases have dealt with the preemption of state laws by the Federal Arbitration Act:
+
+Southland Corp. v. Keating, 465 U.S. 1 (1984) - Established the applicability of the FAA to contracts under state law.
+Perry v. Thomas, 482 U.S. 483 (1987)
+Shearson/American Express Inc. v. McMahon, 482 U.S. 220 (1987)
+Volt Info. Sciences, Inc.. v. Stanford Univ., 489 U.S. 468 (1989)
+Allied-Bruce Terminix Cos. v. Dobson, 513 U.S. 265 (1995)
+Mastrobuono v. Shearson Lehman Hutton, Inc., 514 U.S. 52 (1995)
+Doctor's Assocs., Inc. v. Casarotto, 517 U.S. 681 (1996)
+Buckeye Check Cashing Inc. v. Cardegna, 546 U.S. 440 (2006) - Arbitrators must first hear challenge to legality of contract.
+Preston v. Ferrer, 128 S.Ct. 978 (2008) - Act requires arbitration first even when state law provides for administrative dispute resolution
+AT&T Mobility v. Concepcion,  no. 09-893, 563 U.S. (2011) - Despite California state law and lower court rulings that contracts barring class actions are unconscionable, the Court ruled 5-4 that consumers are bound by that aspect of arbitration clauses.
+Nitro-Lift Technologies v. Howard, no. 11-1377 (Nov. 26, 2012) - the issue of whether an agreement is valid as a matter of applicable state law is one for the arbitrator, not for the state courts.
+
+
+== Proposed legislation ==
+Following on a number of recent Supreme Court decisions that found in favor of employers in arbitration disputes, Democrats in both houses of Congress introduced the Forced Arbitration Injustice Repeal Act (FAIR Act) in February 2019. The bill proposed by modification of the FAA to make any contract that requires forced arbitration invalid, outside of limited conditions, making judges the decision-making body in disputes where arbitration may be required, and prevent employment contracts from blocking the employee's engagement with labor unions due to arbitration. The bill was introduced follow events at several large tech firms, including Google that led to the companies eliminating forced arbitration from their employee contracts.
+
+
+== See also ==
+US labor law
+First Options of Chicago, Inc. v. Kaplan
+
+
+== References ==

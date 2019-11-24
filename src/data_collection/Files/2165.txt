@@ -1,0 +1,121 @@
+Title: Sensitivity index
+Aspects: {'D-value'}
+
+The sensitivity index or d′ (pronounced 'dee-prime') is a statistic used in signal detection theory. It provides the separation between the means of the signal and the noise distributions, compared against the standard deviation of the signal or noise distribution. For normally distributed signal and noise with mean and standard deviations μS and σS, and μN and σN, respectively, d′ is defined as:
+
+  
+    
+      
+        
+          d
+          ′
+        
+        =
+        
+          
+            
+              
+                μ
+                
+                  
+                    S
+                  
+                
+              
+              −
+              
+                μ
+                
+                  
+                    N
+                  
+                
+              
+            
+            
+              
+                
+                  1
+                  2
+                
+              
+              
+                (
+                
+                  
+                    σ
+                    
+                      
+                        S
+                      
+                    
+                    
+                      2
+                    
+                  
+                  +
+                  
+                    σ
+                    
+                      
+                        N
+                      
+                    
+                    
+                      2
+                    
+                  
+                
+                )
+              
+            
+          
+        
+      
+    
+    {\displaystyle d'={\frac {\mu _{\mathrm {S} }-\mu _{\mathrm {N} }}{\sqrt {{\frac {1}{2}}\left(\sigma _{\mathrm {S} }^{2}+\sigma _{\mathrm {N} }^{2}\right)}}}}
+  d′ assumes that the standard deviations for signal and noise are equal. d′ can be estimated from the observed hit rate and false-alarm rate, as follows:
+d′ = Z(hit rate) − Z(false alarm rate),where function Z(p), p ∈ [0,1], is the inverse of the cumulative distribution function of the Gaussian distribution.
+d′ can be related to the area under the receiver operating characteristic curve, or AUC, via
+
+  
+    
+      
+        
+          d
+          ′
+        
+        =
+        
+          
+            2
+          
+        
+        Z
+        (
+        
+          
+            AUC
+          
+        
+        )
+        .
+      
+    
+    {\displaystyle d'={\sqrt {2}}Z({\mbox{AUC}}).}
+  d′ is a dimensionless statistic. A higher d′ indicates that the signal can be more readily detected.
+
+
+== See also ==
+Receiver operating characteristic (ROC)
+Summary statistics
+Effect size
+
+
+== References ==
+
+Wickens, Thomas D. (2001). Elementary Signal Detection Theory. OUP USA. ch. 2, p. 20. ISBN 0-19-509250-3.
+
+
+== External links ==
+Interactive signal detection theory tutorial including calculation of d′.

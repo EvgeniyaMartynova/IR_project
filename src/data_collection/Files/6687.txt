@@ -1,0 +1,149 @@
+Title: Allison J35
+Aspects: {'J35'}
+
+The General Electric/Allison J35 was originally developed by General Electric (GE company designation TG-180) in parallel with the Whittle-based centrifugal-flow J33, and was the United States Air Force's first axial-flow (straight-through airflow) compressor engine. The J35 was fairly simple, consisting of an eleven-stage axial-flow compressor and a single-stage turbine. With the afterburner, which most models carried, it produced a thrust of 7,400 lbf (32.92 kN).
+
+Like the J33, the design of the J35 originated at General Electric, but major production was by the Allison Engine Company.
+
+
+== Design and development ==
+While developing the T31 axial turboprop in 1943 GE realized that they had the resources to design an axial turbojet at the same time as their centrifugal J33 engine. They recognized the axial would have more potential for the future and went ahead with the TG-180 engine. GE axial compressor designs were developed from the NACA 8-stage compressor.
+
+The engine had its starter and accessories (fuel control, fuel pump, oil pumps, hydraulic pump, RPM generator) mounted in the center of the compressor inlet. This accessory layout, as used on centrifugal engines, restricted the area available for compressor inlet air. It was carried over to the J47 but revised (relocated to an external gearbox) on the J73 when a 50% increase in airflow was required. It also had an inlet debris guard which was common on early jet engines.
+GE developed a variable afterburner for the engine, although electronic control linked with engine controls had to wait until the J47. Marrett describes one of the consequences if the link is human on an afterburning engine. If the afterburner lit but the nozzle didn't open (not noticed by the pilot) the RPM governor would overfuel the engine until the turbine failed.
+
+
+== Operational history ==
+The General Electric J35 first flew in the Republic XP-84 Thunderjet in 1946. Late in 1947, complete responsibility for the development and production of the engine was transferred to the Allison Division of the General Motors Corporation and some J35s were also built by GM's Chevrolet division. More than 14,000 J35s had been built by the time production ended in 1955.
+The J35 was used to power the Bell X-5 variable-sweep research aircraft and various prototypes such as the Douglas XB-43 Jetmaster, North American XB-45 Tornado, Convair XB-46, Boeing XB-47 Stratojet, Martin XB-48, and Northrop YB-49. It is probably best known, however, as the engine used in two of the leading fighters of the United States Air Force (USAF) in the 1950s: the Republic F-84 Thunderjet and the Northrop F-89 Scorpion.
+A largely redesigned development, the J35-A-23, was later produced as the Allison J71, developing 10,900 lbf (48.49 kN) thrust.
+
+
+== Variants ==
+Data from:Aircraft engines of the World 1953
+J35-GE-2
+3,820 lbf (16.99 kN) thrust, prototypes built by General Electric.
+J35-GE-7
+3,745 lbf (16.66 kN) thrust, built by General Electric, powered the 2 Republic XP-84 Thunderjet prototypes
+J35-GE-15
+4,000 lbf (17.79 kN) thrust, built by General Electric, powered the sole Republic XP-84A Thunderjet
+J35-A-3
+4,000 lbf (17.79 kN) thrust
+J35-C-3
+3,820 lbf (16.99 kN) thrust, production by Chevrolet.
+J35-C-3
+4,000 lbf (17.79 kN) thrust, production by Chevrolet.
+J35-A-4
+Similar to -29, 4,000 lbf (17.79 kN) thrust
+J35-A-5
+4,000 lbf (17.79 kN) thrust
+J35-A-9
+4,000 lbf (17.79 kN) thrust
+J35-A-11
+Similar to -29, 6,000 lbf (26.69 kN) thrust
+J35-A-13
+5,200 lbf (23.13 kN) thrust
+J35-A-13C
+
+J35-A-15
+Similar to -29, 4,000 lbf (17.79 kN) thrust, powered the 15 Republic YP-84 Thunderjets
+J35-A-15C
+4,000 lbf (17.79 kN) thrust
+J35-A-17
+Similar to -29, 4,900 lbf (21.80 kN) thrust
+J35-A-17A
+Similar to -29, 5,000 lbf (22.24 kN) thrust
+J35-A-17D
+5,000 lbf (22.24 kN) thrust
+J35-A-19
+Similar to -17, 5,000 lbf (22.24 kN) thrust
+J35-A-21
+Similar to -35, 5,600 lbf (24.91 kN) thrust, 7,400 lbf (32.92 kN) with afterburner
+J35-A-21A
+Similar to -35, 5,600 lbf (24.91 kN) thrust, 7,400 lbf (32.92 kN) with afterburner
+J35-A-23
+Similar to -29, 10,900 lbf (48.49 kN) thrust, original designation for the Allison J71
+J35-A-25
+Similar to -29, 5,000 lbf (22.24 kN) thrust
+J35-A-29
+5,560 lbf (24.73 kN) thrust
+J35-A-33
+Similar to -35, 5,600 lbf (24.91 kN) thrust, 7,400 lbf (32.92 kN)  with afterburner, without anti-icing
+J35-A-33A
+Similar to -35, 5,600 lbf (24.91 kN) thrust, 7,400 lbf (32.92 kN)  with afterburner, without anti-icing
+J35-A-35
+5,440 lbf (24.20 kN) thrust, 7,200 lbf (32.03 kN) with afterburner
+J35-A-41
+Similar to -35, 5,600 lbf (24.91 kN) thrust, 7,400 lbf (32.92 kN) with afterburner, with anti-icing
+
+
+== Applications ==
+Bell X-5
+Boeing XB-47 Stratojet
+Convair XB-46
+Douglas D-558-1 Skystreak
+Douglas XB-43 Jetmaster
+Fiat G.80 (proposal only)
+Hughes XH-17 (experimental helicopter)
+Martin XB-48
+North American FJ-1 Fury
+North American XB-45 Tornado
+North American XP-86 Sabre
+Northrop F-89 Scorpion
+Northrop YB-49
+Republic F-84 Thunderjet
+Vought F7U-3 Cutlass (interim test usage)
+
+
+== Specifications (J35-A-35) ==
+Data from , Aircraft engines of the World 1957
+
+
+==== General characteristics ====
+Type: Afterburning turbojet
+Length: 195.5 in (4,970 mm) including afterburner
+Diameter: 37 in (940 mm)
+Frontal area: 7.5 sq ft (0.70 m2)
+Dry weight: 2,315 lb (1,050 kg) without afterburner; 2,930 lb (1,330 kg) including afterburner
+
+
+==== Components ====
+Compressor: 11-stage axial compressor
+Combustors: eight tubular inter-connected combustion chambers
+Turbine: single-stage axial turbine
+Fuel type: aviation kerosene, JP-4, MIL-F-5624 or 100/130 octane gasoline
+Oil system: dry sump pressure system with spur gear pressure and scavenge pumps at 35 psi (241.32 kPa)
+
+
+==== Performance ====
+Maximum thrust: (dry): 5,600 lbf (24.91 kN) for take-off at 8,000 rpm
+Maximum thrust (wet): 7,500 lbf (33.36 kN) for take-off at 8,000 rpm
+Overall pressure ratio: 5:1
+Air mass flow: 95 lb/s (2,600 kg/min) at take-off power
+Specific fuel consumption: 1.1 lb/(lbf⋅h) (31 g/(kN⋅s)) dry; 2 lb/(lbf⋅h) (57 g/(kN⋅s)) wet
+Thrust-to-weight ratio: 2.63
+Maximum operating altitude: 50,000 ft (15,000 m)
+Cost: US$ 46,000 each
+
+
+== See also ==
+
+Related development
+
+General Electric T31
+Allison J71
+General Electric J47
+Comparable engines
+
+Rolls-Royce Avon
+Tumansky RD-9Related lists
+
+List of aircraft engines
+
+
+== References ==
+
+
+== Further reading ==
+Kay, Anthony L. (2007). Turbojet History and Development 1930–1960 Volume 2:USSR, USA, Japan, France, Canada, Sweden, Switzerland, Italy and Hungary (1st ed.). Ramsbury: The Crowood Press. ISBN 978-1861269393.
+"Foremost American Turbojet : Some Details of the Slim, Axial-flow J-35". Flight and AIRCRAFT ENGINEER. LIV (2067): 163. 5 August 1948. Retrieved 16 March 2019.

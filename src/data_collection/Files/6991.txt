@@ -1,0 +1,121 @@
+Title: Honda K engine
+Aspects: {'K-series engine', 'K20'}
+
+The Honda K-series engine is a line of four-cylinder four-stroke car engine introduced in 2001. The K-series engines are equipped with DOHC valvetrains and use roller rockers to reduce friction. The engines use a coil-on-plug, distributorless ignition system with a coil for each spark plug. This system forgoes the use of a conventional distributor-based ignition timing system in favor of a computer-controlled system that allows the ECU to control ignition timings based on various sensor inputs. The cylinders have cast iron sleeves similar to the B- and F-series engines, as opposed to the FRM cylinders found in the H- and newer F-series engines found only in the Honda S2000.
+Similar to B series, the K-series car engines have two short blocks with the same design; the only difference between them being the deck height. K20 uses the short block with a deck height of 212mm where K23 and K24 block has a deck height of 231.5mm.Two versions of the Honda i-VTEC system can be found on a K-series engine, and both versions can come with variable timing control (VTC) on the intake cam. The VTEC system on engines like the K20A3 only operate on the intake cam; at low rpm only one intake valve is fully opened, the other opening just slightly to create a swirl effect in the combustion chamber for improved fuel atomization. At high rpm, both intake valves open fully to improve engine breathing. In engines such as the K20A2 found in the Acura RSX Type-S, the VTEC system operates on both the intake and exhaust valves, allowing both to benefit from multiple cam profiles. A modified K20C engine is used in motorsport, as the Sports Car Club of America Formula 3 and 4 series that run in North America both use a K20C engine, with the Formula 4 engine not having a turbocharger.
+
+
+== K20 ==
+
+
+=== K20A ===
+Applications
+Additional notes
+K20A Spec R engine (FD2 Civic Type R)
+
+Chromoly flywheel, higher-tensile strength connecting rods, high-compression pistons, stiffer valve springs, higher-lift hollow camshafts with more duration, and 2007–2011 cylinder-head intake-port and exhaust-port surface polishing used in NSX-R. The JDM K20A type-R engine block would be removed from production assembly line by an experienced Honda engine technician to torque the connecting rod bolts to factory specification by hand using micrometer to measure connecting rod bolt stretching. Then the JDM K20A type-R engine block would be returned to the production assembly line to complete the engine building process.
+
+
+=== K20A (Eco Engine) ===
+Similar to K20A3 and K20A1
+
+Found in (Japan models only):
+2002-2005 Honda Integra-(Type S)
+2000-2005 Honda Stream S (RN3) (front drive)
+2000-2005 Honda Stream S (RN4) (all-wheel drive)
+2005-2010 Honda Edix (front drive and all-wheel drive)
+2005-2008 Honda Accord Sedan (front drive and all-wheel drive)
+2005-2008 Honda Accord Wagon  (front drive only)
+2006-2010 Honda Civic Sedan (GL)
+DOHC i-VTEC
+Power and Torque may vary by the Compression Ratio, Intake manifold, and Exhaust manifold
+Power: 155 hp@6500rpm; 158 hp@6500rpm
+Torque: 138 lb-ft@4000rpm; 140 lb-ft@4000rpm
+Redline 6800rpm
+Compression: 9.7:1; 9.8:1
+Bore X Stroke: 86mm x 86mm
+Displacement: 1998cc
+
+
+=== K20B ===
+Injection Pressure: 10 megapascals (99 atm)
+Center Fuel Injection with swirl guide
+Air-Fuel Ratio:
+Normal driving cycle: 65:1 (ultra-lean combustion)
+Acceleration/High load driving cycle: 14.7:1 (Stoichiometric)
+Deep Piston Cavity formed in top of Pistons
+Application: 2004–2006 Honda Stream Absolute
+
+
+=== K20C ===
+Applications
+Additional notesEarth Dreams Technology
+K20C1: First Honda Type R engine to be built in the US at the Honda Anna Engine Plant in Anna, Ohio.
+The 3rd generation Acura RDX (2019–present) uses the K20C4 motor found in the 10th generation Honda Accord, but with different tuning and other small modifications compared to that of the Accord. This modified version produces 272 hp and 280 lb-ft of torque.
+
+
+=== K20Z ===
+Applications
+
+Additional notes
+K20Z3 (as fitted to Ariel's Atom 3.5)
+
+It has an aluminum block with an aluminum head. The K20Z3 has traditional performance VTEC cams on the intake and the exhaust cams. Variable valve timing technology is included on the intake but not the exhaust cams. The added valve timing control corresponds to the added "i" in i-VTEC.
+
+
+== K23 ==
+
+
+=== K23A1 ===
+Additional notes
+This version of the K engine uses a Mitsubishi TD04HL-15T turbocharger with a dual path turbine housing, optimizing low end response while allowing better high end flow. Maximum boost pressure is 13.5psi. The engine includes iVTEC and VTC technologies and comes mated to a version of Honda's 5-speed automatic with SH-AWD (note: SH-AWD was standard from 2007-2009 and optional from 2010-2012).Applications
+
+
+== K24 ==
+
+
+=== K24A ===
+Applications
+
+Additional notes
+K24A2 and K24A3 (2006-2008 Acura TSX)
+Increased intake flow:
+Intake valve + 1 mm oversize (Intake valve head measures 36mm, but valve seat still measures 35mm)
+Intake cam High lift lobe with 0.9 mm more lift and 12 degrees more duration
+Throttle body increased from 60–64 mm
+Radius on some intake pipes increased from 70–80 mm
+Increased exhaust flow
+Exhaust Head pipe increased from 60–65 mm
+Higher flow catalytic converter
+Main (single) exhaust pipe increased from 54–57 mm
+Rear (twin) pipes increased in diameter from 42.5 to 45 mm
+Block improvements:
+Additional air passages in crankcase for reduced pumping losses
+Others
+Stronger connecting rods
+New crankshaft with more counterbalance weight
+Revised pistons with more valve-piston clearance
+Under-piston oil squirters
+
+
+=== K24W (Earth Dreams) ===
+Direct Injection, iVTEC (intake camshaft & valvetrain)
+[Please add accurate technical specifications] This section previously inaccurately suggested that the 2016-2017+ Acura ILX engine K24V7 and the K24W7 of the Acura TLX are the same engine, and although they may be very closely related, even sharing identical internal architecture and components, they actually are different engines with different Honda internal engine code designations. This may be strictly due to different transmissions, as the 2016-2017+ ILX uses its own specific 8-speed dual-clutch auto with a torque converter, as well as different exhaust, intake, and accessory packaging due to their differing chassis [the ILX sharing its basic architecture with the 2013 - 2016 generation Civic].
+
+Applications
+
+
+=== K24Y ===
+Applications
+
+
+=== K24Z ===
+Applications
+
+
+== References ==
+
+
+== External links ==
+Honda engine pages: i-VTEC DOHC, 2.0L DOHC i-VTEC
+K Series VTEC Breakdown: K Series VTEC Breakdown

@@ -1,0 +1,18 @@
+Title: F-ATPase
+Aspects: {'F-type'}
+
+F-ATPase, also known as F-Type ATPase, is an ATPase found in bacterial plasma membranes, in mitochondrial inner membranes (in oxidative phosphorylation, where it is known as Complex V), and in chloroplast thylakoid membranes. It uses a proton gradient to drive ATP synthesis by allowing the passive flux of protons across the membrane down their electrochemical gradient and using the energy released by the transport reaction to release newly formed ATP from the active site of F-ATPase. In some bacteria, sodium ions may be used instead of protons. Together with V-ATPases and P-ATPases, F-ATPases belong to superfamily of related ATP synthases.
+F-ATPase consists of two domains:
+
+the Fo domain, which is integral in the membrane and is composed of 3 different types of integral proteins classified as a, b and c.
+the F1, which is peripheral (on the side of the membrane that the protons are moving into). F1 is composed of 5 polypeptide units α3β3γδε that bind to the surface of the Fo domain. Edition.
+
+
+== Structure ==
+Fo-F1 particles are mainly formed of polypeptides. The F1-particle contains 5 types of polypeptides, with the composition-ratio-- 3α:3β:1δ:1γ:1ε. The Fo has the 1a:2b:12c composition. Together they form a rotary motor. As the protons bind to the subunits of the Fo domains, they cause parts of it to rotate. This rotation is propagated by a 'camshaft' to the F1 domain. ADP and Pi (inorganic phosphate) bind spontaneously to the three β subunits of the F1 domain, so that every time it goes through a 120° rotation ATP is released (rotational catalysis).
+The Fo domains sits within the membrane, spanning the phospholipid bilayer, while the F1 domain extends into the cytosol of the cell to facilitate the use of newly synthesized ATP.
+The Bovine Mitochondrial F1-ATPase Complexed with the inhibitor protein If1 is commonly cited in the relevant literature. Examples of its use may be found in many cellular fundamental metabolic activities such as acidosis and alkalosis and respiratory gas exchange.
+The o in the Fo stands for oligomycin, because oligomycin is able to inhibit its function.
+
+
+== References ==

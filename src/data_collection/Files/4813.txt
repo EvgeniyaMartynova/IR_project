@@ -1,0 +1,307 @@
+Title: Hollow matrix
+Aspects: {'H-matrix'}
+
+In mathematics, a hollow matrix may refer to one of several related classes of matrix.
+
+
+== Definitions ==
+
+
+=== Sparse ===
+A hollow matrix may be one with "few" non-zero entries: that is, a sparse matrix.
+
+
+=== Diagonal entries all zero ===
+A hollow matrix may be a square matrix whose diagonal elements are all equal to zero. The most obvious example is the real skew-symmetric matrix.  Other examples are the adjacency matrix of a finite simple graph; a distance matrix or Euclidean distance matrix.
+If A is an n×n hollow matrix, then the elements of A are given by
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  A
+                  
+                    n
+                    ×
+                    n
+                  
+                
+              
+              
+                
+                =
+                (
+                
+                  a
+                  
+                    i
+                    j
+                  
+                
+                )
+                ,
+              
+            
+            
+              
+                
+                  a
+                  
+                    i
+                    j
+                  
+                
+              
+              
+                
+                =
+                0
+                
+                
+                  if
+                
+                 
+                i
+                =
+                j
+                ,
+                 
+                1
+                ≤
+                i
+                ,
+                j
+                ≤
+                n
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}A_{n\times n}&=(a_{ij}),\\a_{ij}&=0\quad {\text{if}}\ i=j,\ 1\leq i,j\leq n.\end{aligned}}}
+  In other words, any square matrix that takes the form
+
+  
+    
+      
+        
+          
+            (
+            
+              
+                
+                  0
+                
+              
+              
+                
+                
+                  0
+                
+              
+              
+                
+                
+                
+                  ⋱
+                
+              
+              
+                
+                
+                
+                
+                  0
+                
+              
+              
+                
+                
+                
+                
+                
+                  0
+                
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle {\begin{pmatrix}0\\&0\\&&\ddots \\&&&0\\&&&&0\end{pmatrix}}}
+  is a hollow matrix.
+For example:
+
+  
+    
+      
+        
+          
+            (
+            
+              
+                
+                  0
+                
+                
+                  2
+                
+                
+                  6
+                
+                
+                  
+                    
+                      1
+                      3
+                    
+                  
+                
+                
+                  4
+                
+              
+              
+                
+                  2
+                
+                
+                  0
+                
+                
+                  4
+                
+                
+                  8
+                
+                
+                  0
+                
+              
+              
+                
+                  9
+                
+                
+                  4
+                
+                
+                  0
+                
+                
+                  2
+                
+                
+                  933
+                
+              
+              
+                
+                  1
+                
+                
+                  4
+                
+                
+                  4
+                
+                
+                  0
+                
+                
+                  6
+                
+              
+              
+                
+                  7
+                
+                
+                  9
+                
+                
+                  23
+                
+                
+                  8
+                
+                
+                  0
+                
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle {\begin{pmatrix}0&2&6&{\frac {1}{3}}&4\\2&0&4&8&0\\9&4&0&2&933\\1&4&4&0&6\\7&9&23&8&0\end{pmatrix}}}
+  is a hollow matrix.
+
+
+==== Properties ====
+The trace of A is zero.
+If A represents a linear operator 
+  
+    
+      
+        L
+        :
+        V
+        →
+        V
+      
+    
+    {\displaystyle L:V\to V}
+  with respect to a fixed basis, then it maps each basis vector e into the complement of the span of e, i.e. 
+  
+    
+      
+        L
+        (
+        e
+        )
+        ∩
+        ⟨
+        e
+        ⟩
+        =
+        ∅
+      
+    
+    {\displaystyle L(e)\cap \langle e\rangle =\emptyset }
+  where 
+  
+    
+      
+        ⟨
+        e
+        ⟩
+        =
+        {
+        λ
+        e
+        :
+        λ
+        ∈
+        F
+        }
+      
+    
+    {\displaystyle \langle e\rangle =\{\lambda e:\lambda \in F\}}
+  
+Gershgorin circle theorem shows that the moduli of the eigenvalues of A are less or equal to the sum of the moduli of the non-diagonal row entries.
+
+
+=== Block of zeroes ===
+A hollow matrix may be a square n×n matrix with an r×s block of zeroes where  r+s>n.
+
+
+== References ==

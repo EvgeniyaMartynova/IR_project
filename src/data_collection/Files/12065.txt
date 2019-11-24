@@ -1,0 +1,21 @@
+Title: Difluoromethane
+Aspects: {'R32'}
+
+Difluoromethane, also called HFC-32 or R-32, is an organic compound of the dihalogenoalkane variety. It has the formula of CH2F2.
+
+
+== Uses ==
+Difluoromethane is a molecule used as refrigerant that has zero ozone depletion potential (ODP) , a global warming potential (GWP) index 675 times that of carbon dioxide, based on a 100-year time frame , and it is classified as A2L - slightly flammable by ASHRAE.Difluoromethane has excellent heat transfer and pressure drop performance both in condensation and vaporisation. Therefore, in spite of its mild flammability, it seems to be a very promising low GWP substitute for traditional HFC refrigerants. 
+Difluoromethane in a zeotropic (50/50 mass%)  mixture with pentafluoroethane (R-125) is known as R-410A, a common replacement for various chlorofluorocarbons (aka Freon) in new refrigerant systems, especially for air-conditioning. The zeotropic mix of difluoromethane with pentafluoroethane (R-125) and tetrafluoroethane (R-134a) is known as R-407A through R-407E depending on the composition. Likewise the azeotropic (48.2/51.8 mass%) mixture with chlorotrifluoromethane (R13).
+Difluoromethane is currently used in residential and commercial air-conditioners in Japan, China, and India as substitute for R-410A. In order to reduce the residual risk associated with its mild flammability, this molecule should be applied in heat transfer equipment with low refrigerant charge such as brazed plate heat exchangers (BPHE), or shell and tube heat exchangers and tube and plate heat exchangers with tube of small diameter .
+Many applications confirmed that difluoromethane exhibits heat transfer coefficients higher than those of R-410A
+under the same operating conditions but also higher frictional pressure drops .
+
+
+== References ==
+
+
+== External links ==
+Flammability Measurements of Difluoromethane in Air at 100 °C
+Difluoromethane at Gas Encyclopaedia
+IR absorption spectra

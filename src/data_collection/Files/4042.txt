@@ -1,0 +1,53 @@
+Title: Gamepad
+Aspects: {'F310'}
+
+A gamepad, joypad, controller, or simply pad is a type of game controller held in two hands, where the fingers (especially thumbs) are used to provide input. They are typically the main input device for video game consoles.
+
+
+== Features ==
+
+Gamepads generally feature a set of buttons handled with the right thumb and a direction controller handled with the left. The direction controller has traditionally been a four-way digital cross (also named a joypad, or alternatively a d-pad, and never called arrow keys), but most modern controllers additionally (or as a substitute) feature one or more analog sticks.
+Some common additions to the standard pad include shoulder buttons (also called "bumpers") and triggers placed along the edges of the pad (shoulder buttons are usually digital, i.e. merely on/off; while triggers are usually analog); centrally placed start, select, and mode buttons, and an internal motor to provide force feedback.
+
+There are programmable joysticks that can emulate keyboard input. Generally they have been made to circumvent the lack of joystick support in some computer games, e.g. the Belkin Nostromo SpeedPad n52. There are several programs that emulate keyboard and mouse input with a gamepad such as the free and open-source cross-platform software antimicro, Enjoy2, or proprietary commercial solutions such as JoyToKey, Xpadder, and Pinnacle Game Profiler.
+
+
+== History ==
+
+
+=== Early designs ===
+The 1962 video game Spacewar! initially used toggle switches built into the computer readout display to control the game. These switches were awkward and uncomfortable to use, so Alan Kotok and Bob Saunders built and wired in a detached control device for the game. This device has been called the earliest gamepad.
+
+
+=== Entry into the mass market ===
+
+It would take many years for the gamepad to rise to prominence, as during the 1970s and the early 1980s joysticks and paddles were the dominant video game controllers, though several Atari joystick port-compatible pushbutton controllers were also available. The third generation of video games saw many major changes, and the eminence of gamepads in the video game market.
+Nintendo developed a gamepad device for directional inputs, a D-pad with a "cross" design for their Donkey Kong handheld game. This design would be incorporated into their "Game & Watch" series and console controllers such as the standard NES controller. Though developed because they were more compact than joysticks, and thus more appropriate for handheld games, D-pads were soon found by developers to be more comfortable to use than joysticks. The D-pad soon became a ubiquitous element on console gamepads, though to avoid infringing on Nintendo's patent, most controller manufacturers use a cross in a circle shape for the D-pad instead of a simple cross.
+
+
+=== Continued refinements ===
+
+The original Sega Genesis/Mega Drive control pad has three face buttons, but a six-button pad was later released. The SNES controller also featured six action buttons, with four face buttons arranged in a diamond formation, and two shoulder buttons positioned to be used with the index fingers, a design which has been imitated by most controllers since. The inclusion of six action buttons was influenced by the popularity of the Street Fighter arcade series, which utilized six buttons.
+
+For most of the 1980s and early 1990s, analog joysticks were the predominant form of gaming controller for PCs, while console gaming controllers were mostly digital. This changed in 1996, when all three major consoles introduced an optional analog control. The Sony Dual Analog Controller had twin convex analog thumbsticks, the Sega Saturn 3D Control Pad had a single analog thumbstick, and the Nintendo 64 controller combined digital and analog controllers in a single body, starting a trend to have both an analog stick and a d-pad.
+Despite these changes, gamepads essentially continued to follow the template set by the NES controller (a horizontally-oriented controller with two or more action buttons positioned for use with the right thumb, and a directional pad positioned for use with the left thumb).Gamepads failed to achieve any sort of dominance outside of the home console market, though several PC gamepads have enjoyed popularity, such as the Gravis PC GamePad.
+
+
+=== Three-dimensional control ===
+Though three-dimensional games rose to prominence in the mid-1990s, controllers continued to mostly operate on two-dimensional principles; in order to move with six degrees of freedom, players would have to hold down a button to toggle the axis on which the directional pad operates, rather than being able to control movement along all three axes at once. One of the first gaming consoles, the Fairchild Channel F, did have a controller which allowed six degrees of freedom, but the processing limitations of the console itself prevented there from being any software to take advantage of this ability. In 1994 Logitech introduced the CyberMan, the first practical six degrees of freedom controller, but due to its high price, poor build quality, and limited software support it sold poorly. Industry insiders blame the CyberMan's high profile and costly failure for the gaming industry's lack of interest in developing 3D control over the next several years.
+
+The Wii Remote is shaped like a television remote control and contains tilt sensors and three-dimensional pointing which allows the system to understand all directions of movement and rotation (back and forth around the pitch, roll, and yaw axes). The controller is also multifunctional and includes an expansion bay which can be used with different types of peripherals. An analog stick peripheral called "Nunchuk" also contains an accelerometer but unlike the Wii Remote, it lacks any pointer functionality.
+
+
+== Uses ==
+Gamepads are also available for personal computers. Examples of PC gamepads include the Asus Eee Stick, the Gravis PC, the Microsoft SideWinder and Saitek Cyborg range, and the Steam Controller. Third-party USB adapters and software can be employed to utilize console gamepads on PCs; the DualShock 3, DualShock 4, Wii Remote and Joy-Con can be used with third-party software on systems with Bluetooth functionality, with USB additionally usable on DualShock 3 and DualShock 4. Xbox 360 and Xbox One controllers are officially supported on Windows with Microsoft-supplied drivers; a dongle can be used to connect them wirelessly, or the controller can be connected directly to the computer over USB (wired versions of Xbox 360 controllers were marketed by Microsoft as PC gamepads, while the Xbox One controller can be connected to a PC via its Micro USB slot).
+
+
+== See also ==
+Computer keyboard
+Computer mouse
+Joystick
+Racing wheel
+
+
+== References ==

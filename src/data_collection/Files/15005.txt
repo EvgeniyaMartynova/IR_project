@@ -1,0 +1,44 @@
+Title: Sony Ericsson W800
+Aspects: {'W800'}
+
+The W800 Walkman, released in 2005 (1 August 2005 in the UK), was the first Sony Ericsson phone to use the Walkman brand. The phone features Bluetooth v1.2 (with full Bluetooth 2.0 compliance), Infrared and USB connectivity.
+
+
+== Description ==
+The W800 is very similar to the Sony Ericsson K750 but differs with regards to its media playback software and its cosmetic design changes. The major differences to the K750 are the included 512 MB Memory Stick PRO Duo, the introduction of the Flight mode function where all radio signals are switched off, and the stereo portable handsfree headset Sony Ericsson HPM-70, which features a 3.5 mm headphone jack, allowing the included headphones to be swapped for any other pair of headphones which has a 3.5 mm headphone jack.
+The Motorola ROKR E1 iTunes-enabled mobile phone, its successor the Motorola ROKR E2, the Nokia N91, the Nokia 3250, and the Samsung SGH-i300 and its successor the Samsung SGH-i310 are its main competitors. The Sony Ericsson W800 was replaced by the Sony Ericsson W700 in April 2006 replacing the size of the memory stick with a 256 MB and eliminating the camera's autofocus function thus reducing the cost of the handset. Also, it is available in a different case colour option called Titanium Gold, in addition to the W800's Smooth White (burnt orange and cream).The W810 proceeded after the W800. The Sony Ericsson W700 comes included with a 256 MB Memory Stick Pro Duo instead of 512 MB.
+The W800 officially supports external memory capacity of only 2 GB, while its successor the W810 supports 4 GB. The key feature of this cellphone is the 2-megapixel camera with autofocus, video recording function, and flash. The phone is also MP3 and AAC compatible and has up to 30 hours playback time in Music mode. The standby and talktime the battery can support is 400 hours and 9 hours respectively.
+
+
+== Criticisms ==
+Whilst being a highly capable phone, it does suffer from some of the flaws that the K750 does. The primary concern is that of the joystick. This has long been a contentious issue with some reviewers finding it hard to use and highly susceptible to damage over time, in as much as it will cease to function (however, the W810i resolves this issue). The other is that the construction quality, whilst physically solid, is prone to creaking and wear over time. The screen, again whilst of a good out of the box quality, is prone to fingerprints and scratching because it is mounted flush within the phone, meaning if left to rest face down damage can occur. The dust gets trapped inside the screen easily and reduces visibility of the display. However these factors have not stopped it becoming highly popular. Also the phone has been found to randomly restart and turn off, especially while coming out of the clock on sleep mode.
+Some users experience a high level of background hiss and quantization noise when using the Walkman feature at low volume levels, a problem that first appeared in a firmware update. No official fix is planned, though end users have provided solutions that can be applied by directly accessing the phone's filesystem.
+
+
+== Fake W800 ==
+A fake W800 has been released in China under the name of Music Mobile W800c.
+It is similar in design to the SE W800 but is slightly taller. The Walkman logo on the bottom of the phone is flipped horizontally, 'Sony Ericsson' at the top of the phone is replaced by 'music mobile', the 'Walkman' on the side is replaced by 'Musicvideo'.
+The fake phone has a 1.3 MP camera, FM radio and uses MicroSD cards.
+The phones software also copies some elements of the SE W800, the default wallpaper is the default Walkman image, the main menu uses Sony Ericsson icons (Walkman, PlayNow, Contacts etc.).
+
+
+== Variants ==
+
+W800c - for Mainland China
+W800i - for Africa, Americas, Asia, Australia and Europe.
+
+
+== References ==
+
+
+== External links ==
+
+Official W800 page
+Tips and Tricks The Unofficial W800i Tips / Tricks / Shortcuts / FAQ and Resources
+Theme Creator for W800 - Registration Needed.
+Mass Storage Synchronizer - iTunes add-on for Sony Ericsson Walkman Phones (Windows)
+iTuneMyWalkman - iTunes add-on for Sony Ericsson Walkman Phones (Mac OS X)
+Using the Sony Ericsson K750i/W800i with GNU/Linux
+A C# library for accessing the AT command interface of the phone
+Mobile-Review.com music mobile phones comparison
+Audit from National Vulnerability Database

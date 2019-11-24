@@ -1,0 +1,159 @@
+Title: Model rocket motor classification
+Aspects: {'E15'}
+
+Motors for rockets and high-powered rockets (together, consumer rockets) are classified by total impulse into a set of letter-designated ranges, from ⅛A up to O.
+The total impulse is the integral of the thrust over burn time.
+
+  
+    
+      
+        
+          P
+          
+            T
+          
+        
+        =
+        
+          ∫
+          
+            0
+          
+          
+            t
+          
+        
+        
+          F
+          
+            t
+            h
+            r
+            u
+            s
+            t
+          
+        
+        (
+        
+          t
+          
+            ′
+          
+        
+        )
+        d
+        
+          t
+          
+            ′
+          
+        
+        =
+        
+          F
+          
+            a
+            v
+            e
+          
+        
+        t
+        .
+      
+    
+    {\displaystyle P_{T}=\int \limits _{0}^{t}F_{thrust}(t^{\prime })dt^{\prime }=F_{ave}t.}
+  Where 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+   is the burn time in seconds, 
+  
+    
+      
+        
+          F
+          
+            t
+            h
+            r
+            u
+            s
+            t
+          
+        
+      
+    
+    {\displaystyle F_{thrust}}
+   is the instantaneous thrust in newtons, 
+  
+    
+      
+        
+          F
+          
+            a
+            v
+            e
+          
+        
+      
+    
+    {\displaystyle F_{ave}}
+   is average thrust in newtons, and 
+  
+    
+      
+        
+          P
+          
+            T
+          
+        
+      
+    
+    {\displaystyle P_{T}}
+   is the total impulse in newton seconds.
+Class A is from 1.26 newton-seconds (4.448 N per Lb.) to 2.5 N·s, and each class is then double the total impulse of the preceding class, with Class B being 2.51 to 5.00 N·s.  The letter (M) would represent the total impulse of between 5,120.01 and 10,240.00 N·s of impulse. Motors E and below are considered low power rocket motors. Motors between F and G are considered mid-power, while motors H and above being high-powered rocket motors. Motors which would be classified beyond  O are in the realm of amateur rocketry (in this context, the term amateur refers to the rocketeer's independence from an established commercial or government organization). Professional organizations use the nomenclature of average thrust and burning time.
+
+
+== Rocket Motor Codes ==
+The designation for a specific motor looks like C6-3. In this example, the letter (C) represents the total impulse range of the motor, the number (6) before the dash represents the average thrust in newtons (4.448 N per Lb.), and the number (3) after the dash represents the delay in seconds from propelling charge burnout to the firing of the ejection charge (a gas generator composition, usually black powder, designed to deploy the recovery system).  A C6-3 motor would have between 5.01 and 10 N·s of impulse, produce 6 N average thrust, and fire an ejection charge 3 seconds after burnout.
+An attempt was made by motor manufacturers in 1982 to further clarify the motor code by writing the total impulse in Newton-seconds before the code. This allowed the burn duration to be computed from the provided numbers. Additionally, the motor code was followed by a letter designation denoting the type of propellant. The propellant designations are manufacturer specific. This standard is still not fully adopted, with some manufacturers adopting parts or all of the additional nomenclature.
+
+
+== Motor impulse by class ==
+
+
+== Governmental regulation ==
+In many countries, the sale, possession, and use of model rocket motors is subject to governmental rules and regulations.  High-power rockets in the United States are only federally regulated in their flight guidelines by the FAA. These regulations are codified in FAA FAR Part 101. Rockets under 125g propellant and 1500g liftoff mass are exempt from most requirements. Beyond that a free "Waiver" is required from a FAA field office.
+However, some of the consumer motor manufacturers and two U.S. national rocketry organizations have established a self-regulating industry and codified it in National Fire Protection Association (NFPA) "model" code documents, which are adopted only in specific circumstances and jurisdictions, largely in conjunction with fire and building codes. This self-regulation of industry suggests a user to become certified for use before a manufacturer will sell him a motor. In North America, the two recognized organizations that provide high-power certifications are Tripoli Rocketry Association and the National Association of Rocketry. Both these organizations have three levels of certification which involves building progressively more complex and higher powered rockets and taking a test of safety rules and regulations. With the national member association bodies using published safety codes.  In Canada the Canadian Association of Rocketry has a four-step certification process, but all three organizations accept the other's certifications if a flyer shows up at a high-power launch and wishes to fly under their sanction. Level 1 certification from NAR or TRA qualifies one to purchase and use an H or I motor, Level 2 certification J, K, and L motors, and Level 3 certification M, N, and O motors. Canada adds another step in between, and has a Level 4 which is the same as US Level 3.
+In the late 1990s, the U.S. Bureau of Alcohol, Tobacco, Firearms and Explosives began requiring that individuals obtain a Low Explosives Users Permit (LEUP) to possess and use high-powered motors. On February 11, 2000, Tripoli Rocketry Association and the National Association of Rocketry filed suit in the United States District Court for the District of Columbia claiming that the BATF applied "onerous and prohibitive civil regulations" against sport rocketry hobbyists due to the Bureau's improper designation of ammonium perchlorate composite propellant (APCP) as an explosive. APCP is used in most high-power rocket motors. The commentary by BATFE staff in response to objections to adding new enforcement against hobby rocket motors is quite instructive.  In 2009, the court ruled in favor of the hobby organizations and ordered the BATF to remove APCP and other slow burning materials from its list of regulated explosives. That judgement established 1 meter per second burning rate ("ATFE’s own burn rate threshold for deflagration 
+is 1000 millimeters (or one meter) per second." 
+Tripoli Rocketry Ass’n, 437 F.3d at 81-82) as the threshold for a material on the BATFE list of explosive materials.
+
+
+== Vendors ==
+The largest vendor of model rocket motors in the world is Estes Industries. The largest vendors of high-power rocket motors in the world are Cesaroni Technology Inc. and RCS Rocket Motor Components, Inc.
+The very first model rocket motor certified was by Model Missiles Inc. (Orville Carslile). Circa 1958. The very first high-power rocket motor certified was by U.S. Rockets (Jerry Irvine). Circa 1985. The very first APCP propellant model rocket motor made was by Rocket Development Corporation (Irv Wait). Circa 1970.
+The largest vendor of professional solid rockets in the world is Orbital ATK.
+
+
+== See also ==
+High-power rocketry
+Model rocket
+Solid-propellant rocket
+
+
+== External links ==
+National Association of Rocketry (NAR) - Model Rocketry and High-Powered Rocketry Certifications
+Tripoli Rocketry Association (TRA) - High-power rocketry Certifications
+Canadian Association of Rocketry (CARWeb) - Model Rocketry and High-Powered Rocketry Certifications in Canada
+United Kingdom Rocketry Association - High-power rocketry Certifications
+
+
+== References ==

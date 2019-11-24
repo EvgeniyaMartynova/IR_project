@@ -1,0 +1,136 @@
+Title: Westinghouse J34
+Aspects: {'J34'}
+
+The Westinghouse J34, company designation Westinghouse 24C, was a turbojet engine developed by Westinghouse Aviation Gas Turbine Division in the late 1940s. Essentially an enlarged version of the earlier Westinghouse J30, the J34 produced 3,000 pounds of thrust, twice as much as the J30. Later models produced as much as 4,900 lb with the addition of an afterburner. It first flew in 1947. The J46 engine was developed as a larger, more powerful version of Westinghouse's J34 engine, about 50% larger.
+
+
+== Development ==
+Built in an era of rapidly advancing gas turbine engine technology, the J34 was largely obsolete before it saw service, and often served as an interim engine. For instance, the Douglas X-3 "Stiletto" was equipped with two J34 engines when the intended Westinghouse J46 engine proved to be unsuitable. The Stiletto was developed to investigate the design of an aircraft at sustained supersonic speeds. However, equipped with the J34 instead of its intended engines, it was seriously underpowered and could not exceed Mach 1 in level flight.Developed during the transition from piston-engined aircraft to jets, the J34 was sometimes fitted to aircraft as a supplement to other powerplants, as with the Lockheed P-2 Neptune and Douglas Skyrocket (fitted with radial piston engines and a rocket engine, respectively).
+The afterburner was developed by Solar Aircraft, the first U.S. company to produce a practical afterburner.
+
+
+== Variants ==
+J34-WE-2
+3,000 lbf (13 kN) thrust
+XJ34-WE-4
+3,000 lbf (13 kN) thrust; originally designated J45
+XJ34-WE-7
+3,000 lbf (13 kN) thrust
+J34-WE-11
+Similar to -42 with short afterburner
+J34-WE-13
+3,000 lbf (13 kN) thrust
+J34-WE-15
+Similar to -42 3,000 lbf (13 kN) thrust, with short afterburner
+J34-WE-15
+4,100 lbf (18 kN) thrust
+J34-WE-17
+Similar to -42 3,370 lbf (15.0 kN) thrust ( 4,850 lbf (21.6 kN) thrust with long afterburner)
+J34-WE-19
+3,250 lbf (14.5 kN) thrust
+J34-WE-22
+(24C-4B) 3,000 lbf (13 kN) thrust
+J34-WE-30
+(24C-4C) 3,150 lbf (14.0 kN) thrust ( 4,200 lbf (19 kN) thrust with afterburner)
+J34-WE-30A
+3,150 lbf (14.01 kN) thrust (4,200 lbf (18.68 kN) thrust with afterburner)
+J43-WE-32
+Similar to -42 3,370 lbf (15.0 kN) thrust ( 4,900 lbf (22 kN) thrust with long afterburner)
+J34-WE-34
+(24C-4D) 3,250 lbf (14.5 kN) thrust
+J34-WE-34A
+3,000 lbf (13 kN) thrust
+J34-WE-36
+(24C-4E) 3,400 lbf (15 kN) thrust
+J34-WE-36A
+3,400 lbf (15 kN)  thrust
+J34-WE-38
+3,800 lbf (17 kN) thrust
+J34-WE-40
+3,000 lbf (13 kN) thrust
+J34-WE-42
+3,400 lbf (15 kN)  thrust ( 4,200 lbf (19 kN) thrust with afterburner)
+J34-WE-46
+3,400 lbf (15 kN) thrust
+J34-WE-48
+Single stage turbine. Contract awarded 1959
+W-340
+Commercial version of the WE-36
+
+
+== Applications ==
+
+
+=== Aircraft ===
+Convair F2Y Sea Dart
+Curtiss-Wright XF-87 Blackhawk
+Douglas D-558-2 Skyrocket
+Douglas F3D Skyknight
+Douglas X-3 Stiletto
+Fairchild C-119 Flying Boxcar (civilian variant modification)
+Lockheed P-2E/G/H Neptune
+Lockheed XF-90
+McDonnell 119/220
+McDonnell F2H Banshee
+McDonnell XF-85 Goblin
+McDonnell XF-88 Voodoo
+Ryan XFR-4 Fireball
+Vought F6U Pirate
+Vought F7U Cutlass
+
+
+=== Others ===
+Shockwave jet truck
+Snowzilla snow remover
+Spirit of Australia jet boat
+
+
+== Specifications (J34-WE-36) ==
+Data from 
+
+
+==== General characteristics ====
+Type: Turbojet
+Length: 112 in (2.84 m)
+Diameter: 27 in (0.69 m)
+Dry weight: 1207 lb (547.5 kg)
+
+
+==== Components ====
+Compressor: Single-Spool, 11-stage Axial
+Combustors: Annular
+Turbine: 2-stage turbine
+
+
+==== Performance ====
+Maximum thrust: 3400 lbf (15.12 kN)
+Overall pressure ratio: 4.35:1
+Air mass flow: 50-55 lb/s
+Specific fuel consumption: 1.04 lb/(lbf⋅h) (29 g/(kN⋅s))
+Thrust-to-weight ratio: 2.82
+
+
+== See also ==
+
+Related development
+
+Westinghouse J30
+Comparable engines
+
+Heinkel HeS 011Related lists
+
+List of aircraft engines
+
+
+== References ==
+
+
+=== Notes ===
+
+
+=== Bibliography ===
+
+
+== External links ==
+http://www.arkairmuseum.org/engines/engine-westinghouse.php
+http://www.globalsecurity.org/military/systems/aircraft/systems/j34.htm

@@ -1,0 +1,65 @@
+Title: PTK2
+Aspects: {'Y15'}
+
+PTK2 protein tyrosine kinase 2 (PTK2), also known as focal adhesion kinase (FAK), is a protein that, in humans, is encoded by the PTK2 gene. PTK2 is a focal adhesion-associated protein kinase involved in cellular adhesion (how cells stick to each other and their surroundings) and spreading processes (how cells move around).  It has been shown that when FAK was blocked, breast cancer cells became less metastatic due to decreased mobility.
+
+
+== Function ==
+This gene encodes a cytosolic protein tyrosine kinase that is found concentrated in the focal adhesions that form among cells attaching to extracellular matrix constituents. The encoded protein is a member of the FAK subfamily of protein tyrosine kinases that included PYK2, but lacks significant sequence similarity to kinases from other subfamilies. It also includes a large FERM domain.With the exception of certain types of blood cells, most cells express FAK.  FAK tyrosine kinase activity can be activated, which plays a key important early step in cell migration.  FAK activity elicits intracellular signal transduction pathways that promote the turn-over of cell contacts with the extracellular matrix, promoting cell migration.  FAK is required during development, with loss of FAK resulting in lethality. It seems to be a paradox that FAK is not absolutely required for cell migration, and may play other roles in the cell, including the regulation of the tumor suppressor p53. At least four transcript variants encoding four different isoforms have been found for this gene, but the full-length natures of only two of them have been determined.FAK is a protein of 125 kD recruited as a participant in focal adhesion dynamics between cells, and has a role in motility and cell survival.  FAK is a highly conserved, non-receptor tyrosine kinase originally identified as a substrate for the oncogene protein tyrosine kinase v-src. This cytosolic kinase has been implicated in diverse cellular roles including cell locomotion, mitogen response and cell survival. FAK is typically located at structures known as focal adhesions, which are multi-protein structures that link the extracellular matrix (ECM) to the cytoplasmic cytoskeleton. Additional components of focal adhesions include actin, filamin, vinculin, talin, paxillin, tensin and RSU-1.
+
+
+== Regulation ==
+FAK is phosphorylated in response to integrin engagement, growth factor stimulation, and the action of mitogenic neuropeptides. Integrin receptors are heterodimeric transmembrane glycoproteins that cluster upon ECM engagement, leading to FAK phosphorylation and recruitment to focal adhesions. FAK activity can also be attenuated by expression of its endogenous inhibitor known as FAK-related nonkinase (FRNK). This is a truncated protein consisting of only the carboxyl-terminal noncatalytic domain of FAK.
+
+
+== Role in Apoptosis ==
+During early apoptotic signaling in human endothelial cells, FAK is cleaved by caspase 3 at Asp-772, generating two FAK fragments of approximately 90 and 130 kDa in length.  The smaller FAK fragment is termed "killer FAT" and becomes the domain associated with death signaling.  Throughout apoptosis, FAK is an important contributor to cell rounding, loss of focal contacts and apoptotic membrane formations such as blebbing, which involves contracting the cortical actin ring and is followed by chromatin condensation and nuclear fragmentation.  Overexpression of FAK leads to inhibition of apoptosis and an increase in the prevalence of metastatic tumors.
+
+
+== Structure ==
+Focal adhesion kinase has four defined regions, or tertiary structure domains. Two of these domains, the N-terminal FERM domain and the Kinase domain form an auto-inhibitory interaction. This interaction—thought to be the result of hydrophobic interactions between the two domains—prevents the activation of the Kinase domain, thereby preventing the signalling function of FAK. Release of this auto-inhibitory interaction has been shown to occur within focal adhesions—but not in the cytoplasm—and therefore is thought to require interaction with focal adhesion proteins, potentially as a result of mechanical forces transmitted through the focal adhesion.
+
+
+=== C-terminus ===
+A carboxy-terminal region of one hundred and fifty-nine amino acids, the focal adhesion targeting domain (FAT), has been shown to be responsible for targeting FAK to focal adhesions. This domain is composed of four alpha helices arranged in a bundle. The N-terminal helix contains a phosphorylatable tyrosine (Y925) implicated in signal transduction. Two hydrophobic patches between helices—one formed by the first and fourth helix, the other formed by the second and third helix—have been shown to bind short helical domains of Paxillin.
+
+
+=== N-terminus ===
+The function of the amino-terminal domain is less clear, but it has been shown to interact with the beta-1 integrin subunit in vitro and is thought to be involved in the transduction of signals from ECM-integrin clusters. However, a recent study has called into question the importance of this interaction and suggested that interaction with the cytoplasmic region of the beta-3 integrin subunit is important.The amino-terminal domains of FAK share a significant sequence similarity with the band 4.1 domain first identified in erythrocytes. This 4.1 band domain binds to the cytoplasmic region of transmembrane proteins including glycophorin C, actin and spectrin. This suggests that the amino-terminal region of FAK may have a role in anchoring the cytoskeleton, the exact nature of this role has not been clarified as yet.
+
+
+=== Catalytic/regulatory domain ===
+Between the amino and the carboxy regions lies the catalytic domain. Phosphorylation of the activation loop within this kinase domain is important for the kinase activity of FAK.
+
+
+== Clinical significance ==
+FAK mRNA levels are elevated in ~37% of serous ovarian tumors and ~26% of invasive breast cancers, and in several other malignancies.
+
+
+== As a drug target ==
+
+
+=== FAK inhibitors ===
+Because of the involvement of FAK in many cancers, drugs that inhibit FAK are being sought and evaluated, e.g. in 2012: PF-573,228 (PF-228), PF-562,271 (PF-271), NVP-226, Y15 (1,2,4,5-benzenetetraamine tetrahydrochloride), and PND-1186,By 2013 GSK2256098 and PF-573,228 had completed at least one phase 1 trial.Additional FAK inhibitors in clinical trials in 2014 were: VS-6062 (PF 562,271), VS-6063 (PF-04554878 defactinib) and VS-4718 (PND-1186) (all three are ATP-competitive kinase inhibitors). 
+VS-6063 was in a phase II trial in patients with KRAS mutant non-small cell lung cancer (Trial ID: NCT01951690) to see how the response depends on tumor-associated INK4a/Arf and p53 mutations.In 2015 a mesothelioma trial of VS-6063 was ended early due to 'poor performance'.
+
+
+== Interactions ==
+PTK2 has been shown to interact with:
+
+
+== See also ==
+Tyrosine kinase
+
+
+== References ==
+
+
+== Further reading ==
+
+
+== External links ==
+MBInfo: FAK
+FAK Info with links in the Cell Migration Gateway
+PTK2 protein, human at the US National Library of Medicine Medical Subject Headings (MeSH)
+"Breaking down cancer’s wall of resistance", by DR Nick Peel, Cancer Research UK, Science blog, August 2014

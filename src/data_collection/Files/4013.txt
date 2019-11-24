@@ -1,0 +1,117 @@
+Title: Rolls-Royce BR700
+Aspects: {'F130'}
+
+The Rolls-Royce BR700 family of turbofan engines powers regional jets and corporate jets. It was developed by BMW and Rolls-Royce plc through the joint venture BMW Rolls-Royce AeroEngines GmbH, established in 1990. The BR710 first ran in 1995. It is manufactured in Dahlewitz, Germany. Rolls-Royce took full control of the company in 2000, which is now known as Rolls-Royce Deutschland. The military designation of the series is F130.
+
+
+== Design and development ==
+
+
+=== BR710 ===
+
+The BR710 is a twin shaft turbofan, and entered service on the Gulfstream V in 1997 and the Bombardier Global Express in 1998. This version has also been selected to power the Gulfstream G550.
+The BR710 comprises a 48 in (120 cm) diameter single-stage fan, driven by a two-stage LP turbine, supercharging a ten-stage HP compressor (scaled from the V2500 unit) and driven by a two-stage, air-cooled, HP turbine.
+In May 2017, the 3,200 engines in service reached 10 million flying hours.Another rerated version, with a revised exhaust system, was selected for the now cancelled Royal Air Force Nimrod MRA4s.
+
+
+=== BR715 ===
+
+The BR715 is another twin-shaft turbofan; this engine was first run in April 1997 and entered service in mid-1999. This version powers the Boeing 717.
+A new LP spool, comprising a 58 in (150 cm) diameter single-stage fan, with two-stage LP compressor driven by a three-stage LP turbine, is incorporated into the BR715. The HP spool is similar to that of the BR710.
+The IP compressor booster stages supercharge the core, increasing core power and thereby net thrust. However, a larger fan is required, to keep the specific thrust low enough to satisfy jet noise considerations.
+
+
+=== BR725 ===
+
+The BR725 is a variant of the BR710 with a three-stage-axial flow low pressure turbine to power the Gulfstream G650.
+Its prototype underwent component bench and its first full engine run in spring 2008. 
+European certification was achieved in June 2009.
+The first Gulfstream G650, with BR725 engines, was delivered in December 2011.The engine has a maximum thrust of 75.2 kN (16,900 lbf).
+The 50 in (130 cm) fan with swept blades is 2 in (5.1 cm) larger than the BR710, the HP axial compressor benefits from three-dimensional aerodynamics for greater efficiency and have 10 stages including five blisks to reduce weight.
+The BR715 inspired combustor yields a longer life and lower emissions : 80% lower smoke and unburned hydrocarbons and 35% lower NOx than CAEP 6 limits.
+The two-stage HP turbine have blade active tip-clearance control for more efficiency and 3D aerodynamics reduce the cooling air flow while the LP turbine have three stages instead of two.
+Its cruise thrust specific fuel consumption at Mach 0.85 and FL450 is 0.657 lb/lbf/h (18.6 g/kN/s).
+With 24 titanium blades, the BR725 has a bypass ratio of 4.2:1 and is 4 dB quieter than the predecessor BR710.
+Rolls-Royce has announced that it intends to offer the BR725 for the United States Air Force’s (USAF) B-52 Stratofortress re-engining, although a request for proposals has yet to be issued by the USAF. 
+
+
+=== Future developments ===
+The Advance 2 development effort inserts new, advanced technology into existing 67 kN (15,000 lbf) class BR710 and the larger BR725 engines. An even larger engine will also be made, with a 52 in (130 cm) fan. The BR710 and BR715 main developments, the next generation of 44–89 kN (10,000–20,000 lbf) engines to be introduced in the 2020s, will have an Advance 3 core, improved engine health management, newer materials and cooling. They will also have a “blisk” fan made out of titanium, with an overall pressure ratio of 50:1. These improvements will yield a 10% thrust specific fuel consumption reduction, 50% NOx margin improvement, 99.995% reliability and a 20% better thrust-to-weight ratio.
+
+
+=== Pearl 15 ===
+
+The Pearl engine was developed in Dahlewitz from the BR700 with Advance2 technologies.EASA certification was applied for on 28 February 2015.
+It made its first ground run in 2015, type tests in 2016 and flight tests in 2017.
+Six test engines logged over 6,000 cycles on 2,000 test hours.
+The test program included lightning strike, water ingestion, ice, and -40°C cold-start testing.EASA certification was granted on 28 February 2018 and it was unveiled on 28 May 2018.
+It was undergoing flight tests in May 2018 for an end of 2019 planned entry into service aboard the Bombardier Global Express 5500 and 6500 developments.
+It should have logged 10,000 hours by then.Its layout is similar to the BR.725, with the same stage count and 24 titanium fan blades.
+Its fan has a 48.5 in (123 cm) diameter.
+The enhanced 3-stage LP turbine with advanced high temperature materials, advanced segments and seals allow for higher pressures and temperatures and the new low emissions cooled combustor includes a new tiled combustion chamber.
+Its core uses advanced nickel alloys and ceramic coatings, includes a new 10-stage HP compressor with 6 titanium blisks and a new 2-stage HP turbine with enhanced aerodynamics and blade cooling, enhanced segments and seals.Its overall pressure ratio attains 43:1 and its bypass ratio 4.8:1.
+The HP compressor ratio rises to 24:1.
+It delivers up to 9% more thrust with 15,125 lbf (67.28 kN) and a 7% TSFC improvement while being 2 decibels quieter.Health monitoring should improve on the BR710 99.97% dispatch reliability which is logging one unplanned engine removal per 100,000 hours while the BR715 is approaching zero unplanned removals.
+
+
+=== Pearl 700 ===
+The Pearl 700 will power the Gulfstream G700, a stretch of the previous G650.
+Evolved from its BR725 with a similar architecture plus a fourth low-pressure turbine stage and a 2 in (5.1 cm) larger, 51.8 in (132 cm) blisk fan, its bypass ratio is higher than 6.5:1 and its overall pressure ratio should exceed 50:1.
+It should provide 18,250 lbf (81.2 kN) of thrust, 3-5% better thrust specific fuel consumption, reduced emissions and lower noise.
+
+
+== Variants ==
+BR700-710A1-10
+Variant with a 65.6kN takeoff rating and a maximum diameter of 1820mm.
+BR700-710A2-20
+Variant with a 65.6 kN (14,700 lbf) takeoff rating and a maximum diameter of 1820mm.
+BR700-710B3-40
+Variant with a 69 kN (16,000 lbf) takeoff rating for the BAE Systems Nimrod MRA4.
+BR700-710C4-11
+Variant with a 68.4kN takeoff rating and a maximum diameter of 1785mm.
+BR700-715A1-30
+Variant with an 83.23kN (18,500 lbf) takeoff rating for Boeing 717-200 basic gross weight variants.
+BR700-715B1-30
+Variant with an 89.68kN (20,000 lbf) takeoff rating.
+BR700-715C1-30
+Variant with a 95.33kN (21,000) takeoff rating for Boeing 717-200 high gross weight variants.
+BR700-725A1-12
+Variant with a 71.6 kN (16,100 lbf) takeoff rating.The BR715 thrust ratings can be adjusted by changing a plug in the FADEC controller, meaning no engine change is required.  The A1-30 can become a C1-30 with a simple plug and software change.
+
+
+== Applications ==
+Bombardier Global Express
+Boeing 717
+Gulfstream V
+Gulfstream G550
+Gulfstream G650/G700
+BAE Systems Nimrod MRA4
+Rekkof/Fokker XF70/XF100
+Tupolev Tu-334
+
+
+== Specifications ==
+
+
+== See also ==
+
+Comparable engines
+
+General Electric CF34
+IAE V2500
+PowerJet SaM146
+Progress D-436
+Pratt & Whitney PW6000
+Pratt & Whitney PW800Related lists
+
+List of aircraft engines
+
+
+== References ==
+
+
+== External links ==
+BR700: Technical data
+BR710: Power for ultra-long range business jets and special mission aircraft
+BR715: Power for the Boeing 717-200
+Guy Norris (2 June 1999). "European powerhouse". Flight International.

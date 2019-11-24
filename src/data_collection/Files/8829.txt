@@ -1,0 +1,146 @@
+Title: 90 mm Gun M1/M2/M3
+Aspects: {'M1A1'}
+
+The 90–mm Gun M1/M2/M3 is an American heavy anti-aircraft and anti-tank gun, playing a role similar to the German 8.8cm Flak 18. It had a 3.5 in (90 mm) diameter bore, and a 15 ft (4.6 m) barrel, giving it a 50 caliber length. It was capable of firing a 3.5 in × 23.6 in (90 mm × 600 mm) shell 62,474 ft (19,042 m) horizontally, or a maximum altitude of 43,500 ft (13,300 m), the M1 can pierce 9 inches (228.6mm) of armor at 1,000 yards with APFSDS ammunition.
+The 90–mm gun was the US's primary heavy anti-aircraft gun from just prior to the opening of World War II into 1946, complemented by small numbers of the much larger 120 mm M1 gun. Both began to be phased out in the early 1950s as their role was taken over by surface-to-air missiles like the MIM-3 Nike Ajax.
+As a tank gun, it was the main weapon of the M36 tank destroyer and M26 Pershing tank, as well as a number of post-war tanks. It was also briefly deployed 1943-1946, as a coast defense weapon with the United States Army Coast Artillery Corps. Each gun cost roughly $50,000 to make in 1940 and utilized up to 30 separate contractors to manufacture.
+
+
+== History ==
+Prior to World War II, the primary US anti-aircraft guns were the 3-inch M1918 gun (76.2 mm L/40) and 3-inch anti-aircraft gun M3 (76.2 mm L/50) , a widely used caliber for this class of weapon. Similar weapons were in British, Soviet and other arsenals. There had been several upgrades to the weapon over its history, including the experimental T8 and T9 versions developed in the early 1930s, that were intended to enter service later in the decade.
+However the US Army became interested in a much more capable weapon instead, and on June 9, 1938, it issued a development contract calling for two new guns, one of 90 mm, which it felt was the largest possible size that was still capable of being manually loaded at high elevations, and another, using assisted loading, of 120 mm (4.7 in). The new design seemed so much better than developments of the older 3-inch that work on the 3-inch T9 was canceled in 1938, just as it became production-ready. By 1940, the second development of the 90 mm design, the T2, was standardized as the 90–mm M1, while its larger cousin became the 120–mm M1.
+A few hundred M1s were completed when several improvements were added to produce the 90–mm M1A1, which entered production in late 1940, and was accepted as the standard on May 22, 1941. The M1A1 included an improved mount and spring-rammer on the breech, with the result that firing rates went up to 20 rounds per minute. Several thousand were available when the US entered the war, and the M1A1 was their standard anti-aircraft gun for the rest of the conflict. Production rates continued to improve, topping out in the low thousands per month.
+Like the German 88 and the British QF 3.7 inch AA gun, the M1A1 found itself facing tanks in combat, but unlike the others it could not be depressed to fire against them. On September 11, 1942, the Army issued specifications for a new mount to allow it to be used in this role, which resulted in the 90–mm M2, introducing yet another new mount that could be depressed to 10 degrees below the horizontal and featured a new electrically-assisted rammer. It became the standard weapon from May 13, 1943.
+
+
+== Anti-aircraft operation ==
+
+In anti-aircraft use the guns were normally operated in groups of four, controlled by the M7 or M9 Director or Kerrison Predictors. Radar direction was common, starting with the SCR-268 in 1941, which was not accurate enough to directly lay the guns, but provided accurate ranging throughout the engagement. For night-time use, a searchlight was slaved to the radar with a beam width set so that the target would be somewhere in the beam when it was turned on, at which point the engagement continued as in the day. In 1944, the system was upgraded with the addition of the SCR-584 microwave radar, which was accurate to about 0.06 degrees (1 mil) and also provided automatic tracking. With the SCR-584, direction and range information was sent directly to the Bell Labs M3 Gun Data Computer, and M9 Director, which could direct and lay the guns automatically, all the crews had to do was load the guns.
+
+
+== Main anti-tank developments ==
+The M3 was also adapted as the main gun for various armored vehicles, starting with the experimental T7 which was accepted as the 90–mm M3. The test firing of the M3 took place on an M10 tank destroyer in early 1943. The M3 gun was used on the M36 tank destroyer, and the T26 (later, M26) Pershing tank.  The M3 fired an M82 APC shot with a muzzle velocity of 2,650 ft/s (810 m/s). However, both the muzzle velocity of the standard M3 gun and the quality of the steel used in the M82 APC (armor-piercing capped) shot, while comparable to the 8.8 cm KwK 36 L/56 mounted on the Tiger I, were inferior to the Tiger II's KwK 43 L/71 8.8 cm main gun firing its standard APCBC (armor-piercing capped ballistic cap) shot used by German forces, with the result that the former's penetration fell far short of the standard projectile fired by the German tank.  As a result, US ordnance provided some T26/M26 tank crews with the 90–mm HVAP (high-velocity, armor-piercing) tungsten penetrator sub-caliber projectile with a muzzle velocity of 3,350 ft/s (1,020 m/s), or the T33 AP with a re-heat-treated projectile with ballistic windshield and a muzzle velocity of 2,800 ft/s (850 m/s). The HVAP could compete with the KwK 43's penetration performance when firing standard APCBC, but tungsten ammunition was always in short supply, and the T33 which only just made it in service a month before the end of the war still fell far short of the KwK 43's performance.
+
+
+=== Performance ===
+An unsuccessful anti-tank variant was the T8 gun on the T5 carriage. The gun was an M1 with the recoil mechanism from the M2A1 105 mm howitzer. Eventually a version of the T8 with the T20E1 gun and T15 carriage was tested; this led to the 105 mm anti-tank gun T8.Because the standard fifteen-and-a-half foot long M3 90 mm main tank gun proved incapable of penetrating the heaviest frontal armor of the heaviest German tanks such as the Tiger II tanks and their seldom-seen Jagdtiger tank destroyer variant, a number of improved versions of the M3 were developed, including the T14 which included a standard muzzle brake and the T15 series.  The 90–mm T15E1 L/73, with its 21 ft (6.4 m) long barrel, was designed and developed as an AT gun that could match or surpass the performance of the 8.8 cm KwK43 L/71 cannon, the famous long 88 on the Tiger II.
+
+
+== High Velocity 90mm Gun T15 Performance ==
+The T15 90–mm L/73 Anti Tank gun utilized many types of armor piercing ammunition.
+
+T43 APBC: A solid shot, it was a modified T33 for use by the T15. It had a muzzle velocity of 3,200 ft/s (980 m/s) and therefore increased penetration capabilities. It could punch through 4 in (100 mm) of armor angled at 60°(from vertical) up to about 1,300 ft (400 m).
+T41 APCBC: Modified M82 projectile of the M3 cannon, fired at a much higher velocity of 3,200 ft/s, than the normal 2,670 ft/s. It could defeat up to 8.5 in (220 mm) of vertical armor at 30 ft (9.1 m).
+T44 HVAP: Modified M304(T30E16) for use out of the T15. Muzzle velocity of 3,750 ft/s (1,140 m/s). Maximum penetration of 15 in (380 mm) of vertical armor at 30 ft.
+T50 APCBC: An M82 projectile with increased nose hardness and overall better design. Same muzzle velocity 3,200 ft/s, but increased penetration, equal to the KwK43. 9.1–9.3 in (231–236 mm) against vertical armor at point-blank range.
+Two versions of the T15 were made. The T15E1 and the T15E2 which both used separate loading ammunition.
+By mid-March 1945, a T26E1 pilot was equipped with the 90mm T15E1 and was sent to Europe in a ''Trial by combat''. It was given to the 3rd Armor Division where it was enhanced with additional armor plates. It was able to fire its gun in anger on only one occasion on April 4, 1945, where it engaged and destroyed a German armored vehicle, probably a Tiger I or Panther, at a range of 4,500 ft (1,400 m) during the fighting along the Weser River.
+According to memoirs of John P. Irwin, it knocked out a King Tiger in Dessau as well as a Panzer IV and a Panther.
+Near the end of World War II, more experimental versions of the 90 mm gun were tested including the even higher velocity T18 and T19 main guns. The T19 was a T18 modified in an attempt to reduce barrel wear. Other versions included the T21, which was intended for wheeled vehicles, and the T22, which used the breech from the standard 105 mm M2 howitzer. The T21 and T22 were designed to use larger powder charges.  None of these versions entered service.
+In the post-World War II era, development of the T15 continued, now redesignated the T54, which included the ability to fire 90–mm HVAP APCR-T projectiles at a muzzle velocity of 3,750 ft/s (1,140 m/s). The T54 served as the main gun main armament of the M26E1 Pershing, M47 and M48 Patton tanks used in the Korea War, as well as the M56 Scorpion anti-tank vehicle.
+
+
+== Coast artillery ==
+
+During World War II the Coast Artillery Corps adopted the 90 mm M1 to supplement or replace aging 3-inch guns in harbor defense commands in CONUS and US territories. The guns were organized in Anti Motor Torpedo Boat (AMTB) batteries, typically with four 90–mm guns and two 37 mm or 40 mm AA guns each. Typically two of the 90–mm guns were on T3/M3 fixed mounts and two were on towed M1A1 mounts, with the 37–mm or 40–mm weapons on single towed mounts. The T3/M3 mount was designed for anti-surface or anti-aircraft fire. Some of the seacoast 90–mm guns were the M2 version. Emplacements for at least 90 batteries of two fixed guns each, plus mobile weapons, were constructed in CONUS, Panama, Alaska, Hawaii, Puerto Rico, and elsewhere in 1943.
+
+
+== Variants ==
+
+
+=== M1 ===
+Towed anti-aircraft gun. Approved for service in 1940.
+Fixed on T3/M3 mount for coastal artillery service.
+
+
+=== M1A1 ===
+Towed anti-aircraft gun. Production began in 1940. It featured the M8A1 spring rammer. Its rate of fire was 20 rounds per minute.
+
+
+=== M2 ===
+A complete redesign to make the gun dual role, functioning as an anti-tank gun as well as an anti-aircraft gun. The ammunition feed was upgraded and an automatic fuze setter/rammer, the M20, was added. This enabled the rate of fire to reach up to 24 rounds per minute. Elevation was improved with the gun able to depress to −10 degrees. To protect the crew, a large metal shield was added. The M2 was the standard weapon by May 13, 1943. From the march it could fire from its wheels in three minutes, and from a fully emplaced position in seven minutes. In 1944 the weapon was enhanced with the addition of proximity fused shells.
+
+
+=== M3 ===
+A tank/anti-tank version of the gun. It was used to equip the M36 tank destroyer and the M26 Pershing tank. It is also known as the 90 mm L/53.
+
+
+=== M3A1 ===
+M3 gun with muzzle brake, used on M46 Patton and early versions of the M48 Patton tanks and refurbished M36 tank destroyers during the Korean War.
+
+
+==== M3 Ammunition ====
+M71 HE - 23.29 lb (10.56 kg) (projectile)
+M77 AP - 23.40 lb (10.61 kg) (projectile)
+M82 APC - 24.11 lb (10.94 kg) (projectile)
+
+
+== Surviving examples ==
+One AAA at Fort Irwin NTC, California, post museum.
+One, possibly M1, Travis AFB, Fairfield, California, near the entrance to the skeet range.
+One AAA at CFB Borden, Ontario, Canada.
+One AAA at Sangudo, Alberta, Canada. [1]
+One AAA at Whycocomagh, Nova Scotia, Canada. [2]
+One AAA at CFB Shilo, Manitoba, Canada, RCA Museum.
+One AAA at Shilo, Manitoba, Canada (private collector).
+One AAA at Lemberg, Saskatchewan, Canada (private collector).
+One AAA at Colwood, British Columbia, Canada, Fort Rodd Hill. [3]
+One at Savannah, Georgia, National Guard Fairgrounds.
+One at Arundel, Quebec, Canada, Legion Hall.
+One AAA at Sault Ste. Marie, Ontario, Canada. [4]
+One AAA M2 at Fort Sill, Oklahoma, US Army Air Defense Artillery Museum. [5]
+One AAA M1A1 at Fort Sill, Oklahoma, US Army Air Defense Artillery Museum.
+One AAA M2A2 at Fort Sill, Oklahoma, US Army Air Defense Artillery Museum.
+One AAA M1A1 at Fort Sill, Oklahoma, 31st ADA Brigade.
+One AAA at Broadalbin, New York. [6]
+One AAA at Roswell, New Mexico. [7]
+One AAA at Greenville, South Carolina. [8]
+One AAA at Anderson, South Carolina, VFW post.
+One AAA at Deming, New Mexico, Deming Luna Mimbres Museum.
+One AAA at Sainte-Marie-du-Mont, Manche, France, Utah Beach D-Day Museum. This gun belonged to the 116th AAA Gun Battalion and was lost in the Channel 6 June 1944. The gun was recovered by locals after the war.
+One AAA M1A3 (built 1954) at Raton, New Mexico.
+One AAA M1A1 at Halifax, Nova Scotia, Royal Artillery Park.
+One AAA M1A1 at Fort Bliss, Texas, Fort Bliss Museum
+One AAA M1A1 at Linthicum, Maryland, National Electronics Museum.
+Two Anti/Tank T-8 at Fort Benning, Georgia, National Armor & Cavalry Museum.
+One M1A3 at Reidsville, Georgia, National Guard Armory.
+One M1A3 at Campinas, São Paulo, Brazil, located at an open museum which belongs to the 11ª Brigade of the Brazilian Army.
+One seacoast M1 (#6931 Chevrolet) on barbette, carriage Model T3, at Battery Parrott, Fort Monroe, Virginia.
+One seacoast M1 on barbette, carriage Model T3 (shield scrapped), Eareckson Air Station (formerly Shemya AFB), Shemya, Alaska, outside Bldg 600.  [9]
+One seacoast on barbette, carriage Model T3, at San Pedro, California, Fort MacArthur Military Museum, (the museum has several barrels and was restoring at least one weapon as of October 2014).
+Two AAA M1A1 at Moscow, Russia, Museum of the Great Patriotic War, supplied as Lend-Lease during WWII.
+One 90-mm M2A1 at Tucson, Arizona, Pima Air & Space Museum.
+One M1A3 at Historical Military Museum of Cartagena (Spain)
+One at the Kalmthoutse Heide, Belgium
+
+
+== See also ==
+List of U.S. Army weapons by supply catalog designation
+184th AAA Battalion (United States)
+Rangekeeper
+Fire-control system
+Seacoast defense in the United States
+
+
+=== Weapons of comparable role, performance and era ===
+8.8 cm Flak 18/36/37/41: contemporary German anti-aircraft gun
+8.8 cm KwK 36: contemporary German tank gun, mounted on Tiger I Tanks
+Cannone da 90/53: contemporary Italian anti-aircraft gun
+QF 3.7-inch AA gun: contemporary British anti-aircraft gun, firing a 28 pounds (13 kg) shell
+85 mm air defense gun M1939 (52-K): contemporary Soviet anti-aircraft gun
+
+
+== References ==
+
+TM 9-2300 standard artillery and fire control material. dated 1944
+TM 9-370
+TM 9-1370
+SNL D-28
+
+
+== External links ==
+United States War Department TM 9-374 Technical Manual 90-MM Gun M3 Mounted in Combat Vehicles. 11 September 1944
+M3 armor penetration table
+List of all US coastal forts and batteries at the Coastal Defense Study Group, Inc. website
+FortWiki, lists all CONUS and Canadian forts
+"90mm M1A1 & M2 ANTI-AIRCRAFT GUNS". Retrieved 12 July 2017.

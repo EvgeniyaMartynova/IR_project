@@ -1,0 +1,44 @@
+Title: Zenith Z-89
+Aspects: {'H19'}
+
+The Z-89 was a personal computer produced by Zenith Data Systems (ZDS) in the early 1980s.
+
+
+== Description ==
+It was based on the Zilog Z80 microprocessor running at 2.048 MHz, and supported the HDOS and CP/M operating systems. The 2295 USD Zenith Z-89 was integrated in a terminal-like enclosure with a non-detachable keyboard, 12-inch monochrome CRT with a 80x25 screen, 48 KB RAM, and a 5.25" disk drive.In 1979, prior to Zenith's purchase of Heath Company, Heathkit had originally designed and marketed this computer in kit form as the Heath H89, assembled as the WH89, and without the floppy but with a cassette interface card as the H88. (Note: Prior to the Zenith purchase, the Heathkit model numbers did not include the - 'dash').
+Heath/Zenith also made a serial terminal, the H19/Z-19, based on the same enclosure (with a blank cover over the diskette drive cut-out) and terminal controller. They even offered an upgrade kit to convert the terminal into a full H89/Z-89 computer.
+Another configuration, the Z-90, changed the floppy drive controller from the hard-sectored controller (max 100 kB) to a soft-sectored controller that supported double-sided, double density, 96 tpi drives with a capacity of 800 kB. It also came standard with 64 KB of RAM.
+There were several external drive systems available for the H89/Z-89. 
+
+The H77/Z-77 and H87/Z-87 supported up to two additional Single-Sided, Single Density, 48 tpi 5.25" drives.  When connected to the standard hard-sectored controller, it could store 100 kB each. By connecting it to a soft-sectored controller, they could store 200 kB.
+The H37/Z-37 supported up to two Double-Sided, Double Density, 96 tpi 5.25" drives and required the soft-sectored controller. These drives had a capacity of 800 kB each.
+The Z-47 supported two 8" floppy drives and required its own controller. These used the standard IBM 3740 floppy disks and had a capacity of 1.2 MB each.
+The Z-67 was a 10 MB Winchester Drive plus one 8" floppy drive and also required its own controller.
+In France, the Heath/Zenith Data System branch connected the 10 MB removable cartridge hard disk, manufactured by Bull in BelfortA maximum of two disk controller cards could be installed in a standard system.
+
+
+== Reception ==
+BYTE wrote that the H-89 "has a number of unique hardware features and the same excellent software support and documentation as the original H-8 system".
+
+
+== Summary ==
+
+
+== References ==
+
+Notes^  Inflation Conversion Factors for Dollars
+
+
+== External links ==
+
+
+=== Reference and description ===
+obsoletecomputermuseum.org/zenith/
+Classic Heathkit Computers and Heathkit H89 Emulators in Javascript (online) and C++
+old-computers.com
+Connecting a virtual diskette drive to the H89
+Actual scanned Heathkit/Zenith Catalogs with much more information
+
+
+=== Emulators ===
+Github project page for the Virtual H89 emulator

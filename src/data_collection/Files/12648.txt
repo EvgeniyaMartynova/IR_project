@@ -1,0 +1,109 @@
+Title: S. L. Wong (phonetic symbols)
+Aspects: {'S. L. Wong (disambiguation)'}
+
+For Cantonese romanisation scheme derived by S. L. Wong, see S. L. Wong (romanisation).Wong Shik Ling (also known as S. L. Wong) published a scheme of phonetic symbols for Cantonese based on the International Phonetic Alphabet (IPA) in the book A Chinese Syllabary Pronounced according to the Dialect of Canton.  The scheme has been widely used in Chinese dictionaries published in Hong Kong.  The scheme, known as S. L. Wong system (黃錫凌式), is a broad phonemic transcription system based on IPA and its analysis of Cantonese phonemes is grounded in the theories of Y. R. Chao.
+Other than the phonemic transcription system, Wong also derived a romanisation scheme published in the same book.  See S. L. Wong (romanisation).
+
+
+== History ==
+Before devising the system, Wong studied many phonetic transcription and romanisation systems, including Eitel's and other earlier schemes, for Cantonese. He found that many of them were not accurate enough for use.  He researched Cantonese and published his results in the book in 1938.
+
+
+== Use ==
+The system, with minor variations, has been adopted by some other Hong Kong Chinese dictionaries including 中文字典, Chinese Dictionary by 喬硯農 (Kiu Yin Nung), 中華新字典, Chung Hwa New Dictionary and 商務新字典, Commercial Press New Dictionary. Hong Kong Education and Manpower Bureau formulates Cantonese Pinyin romanisations based on the system.
+In Chinese phonological studies, other systems more phonetic in character are collectively referred to as the narrow transcription (i.e., phonetic transcription) even though they are not necessarily exact phonetic transcription systems. The various narrow transcriptions by different scholars are not identical due to the scholars’ differing analyses of the Cantonese phonemes (for example, the /ts/ phoneme might be analyzed as /tʃ/).
+For convenience purposes, in the rest of this article, when the broad system is mentioned, it refers to S. L. Wong’s system; when narrow is mentioned, it refers to a representative narrow system but does not imply that all narrow systems are as described.
+
+
+== Phonology ==
+Cantonese, like other varieties of Chinese, is monosyllabic.  Each syllable is divided into an initial (consonant), final (vowel and following consonant) and tone.
+
+
+=== Finals ===
+Chinese phonology traditionally stresses finals because they are related to rhymes in the composition of poems, proses and articles.  There are 53 finals in Cantonese.
+Except /aː/ and /ɐ/, long and short vowels in Cantonese have complementary distributions and therefore do not function contrastively. Thus, /i/ and /ɪ/ can be considered the same phoneme /i/; the same can be said of /u/ and /ʊ/ (representing the same phoneme /u/), and /œ/ and /ɵ/ (also written /œ̝/) (representing the same phoneme /œ/). The long vowel symbol "ː" can also be omitted since these allophonic long and short vowels have different points of articulation in modern Cantonese.
+
+
+==== Vowels ====
+The 10 basic vowel phonemes are: /a/, /ɐ/, /ei/, /ɛ/, /i/, /ou/, /ɔ/, /œ/, /u/ and /y/ as shown in the following table:
+
+For the long Close-mid front unrounded vowel /e/, ⟨ei⟩ is used instead of ⟨eː⟩ in IPA.
+For the long Close-mid back rounded vowel /o/, ⟨ou⟩ is used instead of ⟨oː⟩ in IPA.
+/ɐ/ must be followed by vowels /i/, /u/ or finals /m/, /n/, /ŋ/, /p/, /t/, /k/.
+The use of a more phonetic (i.e., narrow) transcription for vowels, for example distinguishing between /i/ and /ɪ/. When adopting a phonetic transcription for vowels, the symbol /ɵ/ is often replaced by the symbol /ø/.
+
+
+==== Falling diphthong finals ====
+All vowel phonemes except /ɐ/ form 9 finals themselves.
+Some vowel phonemes can followed by vowel phonemes /i/, /u/ or /y/ to form 8 falling diphthong finals:
+
+
+==== Nasal phoneme finals ====
+Some vowel phonemes can followed by nasal stops /m/, /n/ or /ŋ/ to form 17 nasal phoneme finals:
+
+
+==== Plosive phoneme finals ====
+Some vowel phonemes can followed by unaspirated plosive consonants /p/, /t/ or /k/ to form 20 stop phoneme finals:
+
+
+==== Syllabic nasal finals ====
+Syllabic /m/ and /ŋ/ are also two finals in Cantonese: /m̩/ and /ŋ̩/.
+
+
+==== Summary ====
+Here are the 53 finals in a table:
+
+^  Character example with initial. No character with exact pronunciation.
+^  Character example with initial [j]. In absent of initial, /i/ pronounced with [j] becomes [ji], /iu/ becomes [jiu], /im/ becomes [jim], /ip/ becomes [jip], and so forth.
+^   Character example with initial [w]. In the absence of an initial, /u/ pronounced with [w] becomes [wu], /ui/ becomes [wui], /un/ becomes [wun], /ut/ becomes [wut]}.
+^   Character example with initial [j]. In the absence of an initial, /y/ pronounced with [j] becomes [jy], /yn/ becomes [jyn], /yt/ becomes [jyt].
+
+
+=== Initials ===
+Initials are made up of consonants.  Most characters are preceding finals with initials while some characters are pronounced without initials.  There are 19 initials in total.
+Unlike English, Cantonese has no voiced-voiceless contrast.  Instead, aspirated-unaspirated contrast plays an important role in distinguishing meanings.  Since there are no voiced plosive and affricative consonants in Cantonese, the scheme makes use of these unused voiced symbols for unaspirated.
+In modern Cantonese, all non-nasal initial consonants are voiceless. However, there are many contrasting aspirated and unaspirated pairs of such initial consonants. The S. L. Wong system uses /b/ in the broad transcription to represent the phoneme written /p/ (also written /b̥/, "devoiced b") in narrow transcriptions, and uses /p/ in the broad system to represent the phoneme written /pʰ/ in the narrow system. The difference between /d/ and /t/, or /ɡ/ and /k/, etc. is similarly a difference in aspiration and not in voicing.
+One particular aspect of the S. L. Wong system is the differentiation of the fricative and affricative initials into (/s/ /ts/ /dz/) and (/s2/ /ts2/ /dz2/) respectively to reflect the difference in Putonghua between (/x/ /q/ /j/) and (/s/ /c/ /z/), even though it was acknowledged that (/s2/ /ts2/ /dz2/) are "duplicates" of (/s/ /ts/ /dz/) and are pronounced exactly the same in modern Cantonese.
+
+
+==== Single articulation ====
+
+
+==== Coarticulation ====
+
+
+==== Affricates ====
+
+
+==== Summary ====
+^  In Cantonese, [dz] in scheme is the allophone of [ts], [tʃ] and [tɕ] in IPA; [ts] is the allophone of [tsʰ], [tʃʰ] and [tɕʰ]; [s] is the allophone of [s], [ʃ] and [ɕ].  Wong noted the [ts2], [dz2], [s2] are allophones to [ts], [dz], [s] in Cantonese and made distinctions for comparative purpose only.  They are not used for transcription.
+^  For aspiration, [p] in the scheme is for [pʰ] in IPA and [b] for [p]; [t] for [tʰ] and [d] for [t]; [k] for [kʰ] and [g] for [k]; [kw] for [kʷʰ] and [gw] for [kʷ];[ts] for [tsʰ], [tʃʰ] and [tɕʰ] and [dz] for [ts], [tʃ] and [tɕ].
+^  For labialisation, [kw] is for [kʷʰ] and [gw] for [kʷ].
+
+
+=== Tones ===
+There are basically six tones in Cantonese.  Tones play an important role in distinguishing meanings.  Tones also form melodies in poem and prose composition.
+In classical Chinese, four basic tones are the level (平 ˌp‘iŋ),  the rising (上 ˏsœŋ), the going  (去 ˉhœy) and the entering (入 ˍjɐp).  The entering tone is a special case for when a syllable ends with [p], [t], or [k]; those syllables have a shorter quality than others.
+The tones are further divided into upper and lower level, i.e. the rising and going tones.  The entering tone is divided into upper entering, middle entering and lower entering. The upper entering is the same tone as upper level, middle entering the same as upper going, and lower entering the same as lower going.
+There are two ways to mark tones in the scheme, appending a number to the end of the syllable or using diacritical marks.  Each tone's corresponding contour based on Yuen Ren Chao scheme in later studies is given in the second line of its table entry.
+
+While the system uses 1 to 9 as tone numbers, some adaptations use a 1 to 6 system, i.e. replacing redundant 7, 8, 9 with 1, 3, 6 respectively.
+Some dictionaries use slightly different tone symbols. For example, in –jyt 'jɐm −dziŋ –duk –dzi –wɐi (粵音正讀字彙), a superscript + is used to represent the tone contour 55, and the symbol √ replaces the original tone symbol / “to improve legibility”.
+
+
+==== Examples ====
+Here the syllable fan illustrates the basic tones, and sik the checked (entering) tones.
+
+
+== See also ==
+S. L. Wong (romanisation)
+
+
+== References ==
+Wong, S. L. (1941). A CHINESE SYLLABARY PRONOUNCED ACCORDING TO THE DIALECT OF CANTON. Hong Kong: Chung Hwa Book Co.,(H.K.) Ltd.
+
+
+== External links ==
+The Chinese University of Hong Kong Research Centre for Humanities Computing: Chinese Character Database: With Word-formations Phonologically Disambiguated According to the Cantonese Dialect
+粵語拼盤: Learning the phonetic system of Cantonese
+Cukda Cantonese IME

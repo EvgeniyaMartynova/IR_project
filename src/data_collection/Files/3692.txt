@@ -1,0 +1,340 @@
+Title: Half-precision floating-point format
+Aspects: {'F16'}
+
+In computing, half precision is a binary floating-point computer number format that occupies 16 bits (two bytes in modern computers) in computer memory.
+In the IEEE 754-2008 standard, the 16-bit base-2 format is referred to as binary16. It is intended for storage of floating-point values in applications where higher precision is not essential for performing arithmetic computations.
+Although implementations of the IEEE Half-precision floating point are relatively new, several earlier 16-bit floating point formats have existed including that of Hitachi's HD61810 DSP of 1982, Scott's WIF and the 3dfx Voodoo Graphics processor.Nvidia and Microsoft defined the half datatype in the Cg language, released in early 2002, and implemented it in silicon in the GeForce FX, released in late 2002. ILM was searching for an image format that could handle a wide dynamic range, but without the hard drive and memory cost of floating-point representations that are commonly used for floating-point computation (single and double precision). The hardware-accelerated programmable shading group led by John Airey at SGI (Silicon Graphics) invented the s10e5 data type in 1997 as part of the 'bali' design effort. This is described in a SIGGRAPH 2000 paper (see section 4.3) and further documented in US patent 7518615.This format is used in several computer graphics environments including MATLAB, OpenEXR, JPEG XR, GIMP, OpenGL, Cg, Direct3D, and D3DX.  The advantage over 8-bit or 16-bit binary integers is that the increased dynamic range allows for more detail to be preserved in highlights and shadows for images.  The advantage over 32-bit single-precision binary formats is that it requires half the storage and bandwidth (at the expense of precision and range).The F16C extension allows x86 processors to convert half-precision floats to and from single-precision floats.
+Depending on the computer half-precision can be over an order of magnitude faster than double precision, e.g. 37 PFLOPS vs. for half 550 "AI-PFLOPS (Half Precision)".
+
+
+== IEEE 754 half-precision binary floating-point format: binary16 ==
+The IEEE 754 standard specifies a binary16 as having the following format:
+
+Sign bit: 1 bit
+Exponent width: 5 bits
+Significand precision: 11 bits (10 explicitly stored)The format is laid out as follows:
+
+The format is assumed to have an implicit lead bit with value 1 unless the exponent field is stored with all zeros. Thus only 10 bits of the significand appear in the memory format but the total precision is 11 bits. In IEEE 754 parlance, there are 10 bits of significand, but there are 11 bits of significand precision (log10(211) ≈ 3.311 decimal digits, or 4 digits ± slightly less than 5 units in the last place).
+
+
+=== Exponent encoding ===
+The half-precision binary floating-point exponent is encoded using an offset-binary representation, with the zero offset being 15; also known as exponent bias in the IEEE 754 standard.
+
+Emin = 000012 − 011112 = −14
+Emax = 111102 − 011112 = 15
+Exponent bias = 011112 = 15Thus, as defined by the offset binary representation, in order to get the true exponent the offset of 15 has to be subtracted from the stored exponent.
+The stored exponents 000002 and 111112 are interpreted specially.
+
+The minimum strictly positive (subnormal) value is
+2−24 ≈ 5.96 × 10−8.
+The minimum positive normal value is 2−14 ≈ 6.10 × 10−5.
+The maximum representable value is (2−2−10) × 215 = 65504.
+
+
+=== Half precision examples ===
+These examples are given in bit representation
+of the floating-point value. This includes the sign bit, (biased) exponent, and significand.
+
+0 00000 00000000012 = 000116 = 
+  
+    
+      
+        
+          2
+          
+            −
+            14
+          
+        
+        ×
+        (
+        0
+        +
+        
+          
+            1
+            1024
+          
+        
+        )
+      
+    
+    {\displaystyle 2^{-14}\times (0+{\frac {1}{1024}})}
+   ≈ 0.000000059605
+                              (smallest positive subnormal number)
+
+0 00000 11111111112 = 03ff16 = 
+  
+    
+      
+        
+          2
+          
+            −
+            14
+          
+        
+        ×
+        (
+        0
+        +
+        
+          
+            1023
+            1024
+          
+        
+        )
+      
+    
+    {\displaystyle 2^{-14}\times (0+{\frac {1023}{1024}})}
+   ≈ 0.000060976
+                              (largest subnormal number)
+
+0 00001 00000000002 = 040016 = 
+  
+    
+      
+        
+          2
+          
+            −
+            14
+          
+        
+        ×
+        (
+        1
+        +
+        
+          
+            0
+            1024
+          
+        
+        )
+      
+    
+    {\displaystyle 2^{-14}\times (1+{\frac {0}{1024}})}
+   ≈ 0.000061035
+                              (smallest positive normal number)
+
+0 11110 11111111112 = 7bff16 = 
+  
+    
+      
+        
+          2
+          
+            15
+          
+        
+        ×
+        (
+        1
+        +
+        
+          
+            1023
+            1024
+          
+        
+        )
+      
+    
+    {\displaystyle 2^{15}\times (1+{\frac {1023}{1024}})}
+   = 65504
+                              (largest normal number)
+
+0 01110 11111111112 = 3bff16 = 
+  
+    
+      
+        
+          2
+          
+            −
+            1
+          
+        
+        ×
+        (
+        1
+        +
+        
+          
+            1023
+            1024
+          
+        
+        )
+      
+    
+    {\displaystyle 2^{-1}\times (1+{\frac {1023}{1024}})}
+   ≈ 0.99951
+                              (largest number less than one)
+
+0 01111 00000000002 = 3c0016 = 
+  
+    
+      
+        
+          2
+          
+            0
+          
+        
+        ×
+        (
+        1
+        +
+        
+          
+            0
+            1024
+          
+        
+        )
+      
+    
+    {\displaystyle 2^{0}\times (1+{\frac {0}{1024}})}
+   = 1 
+                              (one)
+
+0 01111 00000000012 = 3c0116 = 
+  
+    
+      
+        
+          2
+          
+            0
+          
+        
+        ×
+        (
+        1
+        +
+        
+          
+            1
+            1024
+          
+        
+        )
+      
+    
+    {\displaystyle 2^{0}\times (1+{\frac {1}{1024}})}
+   ≈ 1.001
+                              (smallest number larger than one)
+
+0 01101 01010101012 = 355516 = 
+  
+    
+      
+        
+          2
+          
+            −
+            2
+          
+        
+        ×
+        (
+        1
+        +
+        
+          
+            341
+            1024
+          
+        
+        )
+      
+    
+    {\displaystyle 2^{-2}\times (1+{\frac {341}{1024}})}
+   = 0.333251953125
+                              (equal to 1/3)
+
+1 10000 00000000002 = c00016 = −2
+
+0 00000 00000000002 = 000016 = 0
+1 00000 00000000002 = 800016 = −0
+
+0 11111 00000000002 = 7c0016 = infinity
+1 11111 00000000002 = fc0016 = −infinity
+
+By default, 1/3 rounds down like for double precision, because of the odd number of bits in the significand. So the bits beyond the rounding point are 0101... which is less than 1/2 of a unit in the last place.
+
+
+=== Precision limitations on decimal values in [0, 1] ===
+Decimals between 2−24 (minimum positive subnormal) and 2−14 (maximum subnormal): fixed interval 2−24
+Decimals between 2−14 (minimum positive normal) and 2−13: fixed interval 2−24
+Decimals between 2−13 and 2−12: fixed interval 2−23
+Decimals between 2−12 and 2−11: fixed interval 2−22
+Decimals between 2−11 and 2−10: fixed interval 2−21
+Decimals between 2−10 and 2−9: fixed interval 2−20
+Decimals between 2−9 and 2−8: fixed interval 2−19
+Decimals between 2−8 and 2−7: fixed interval 2−18
+Decimals between 2−7 and 2−6: fixed interval 2−17
+Decimals between 2−6 and 2−5: fixed interval 2−16
+Decimals between 2−5 and 2−4: fixed interval 2−15
+Decimals between 2−4 and 2−3: fixed interval 2−14
+Decimals between 2−3 and 2−2: fixed interval 2−13
+Decimals between 2−2 and 2−1: fixed interval 2−12
+Decimals between 2−1 and 2−0: fixed interval 2−11
+
+
+=== Precision limitations on decimal values in [1, 2048] ===
+Decimals between 1 and 2: fixed interval 2−10 (1+2−10 is the next largest float after 1)
+Decimals between 2 and 4: fixed interval 2−9
+Decimals between 4 and 8: fixed interval 2−8
+Decimals between 8 and 16: fixed interval 2−7
+Decimals between 16 and 32: fixed interval 2−6
+Decimals between 32 and 64: fixed interval 2−5
+Decimals between 64 and 128: fixed interval 2−4
+Decimals between 128 and 256: fixed interval 2−3
+Decimals between 256 and 512: fixed interval 2−2
+Decimals between 512 and 1024: fixed interval 2−1
+Decimals between 1024 and 2048: fixed interval 20
+
+
+=== Precision limitations on integer values ===
+Integers between 0 and 2048 can be exactly represented (and also between −2048 and 0)
+Integers between 2048 and 4096 round to a multiple of 2 (even number)
+Integers between 4096 and 8192 round to a multiple of 4
+Integers between 8192 and 16384 round to a multiple of 8
+Integers between 16384 and 32768 round to a multiple of 16
+Integers between 32768 and 65519 round to a multiple of 32
+Integers above 65519 are rounded to "infinity" if using round-to-even, or above 65535 if using round-to-zero, or above 65504 if using round-to-infinity.
+
+
+== ARM alternative half-precision ==
+ARM processors support (via a floating point control register bit) an "alternative half-precision" format, which does away with the special case for an exponent value of 31 (111112).  It is almost identical to the IEEE format, but there is no encoding for infinity or NaNs; instead, an exponent of 31 encodes normalized numbers in the range 65536 to 131008.
+
+
+== See also ==
+bfloat16 floating-point format: Alternative 16-bit floating-point format with 8 bits of exponent and 7 bits of mantissa
+IEEE 754:  IEEE standard for floating-point arithmetic (IEEE 754)
+ISO/IEC 10967, Language Independent Arithmetic
+Primitive data type
+RGBE image format
+
+
+== References ==
+
+
+== Further reading ==
+Khronos Vulkan signed 16-bit floating point format
+
+
+== External links ==
+Minifloats (in Survey of Floating-Point Formats)
+OpenEXR site
+Half precision constants from D3DX
+OpenGL treatment of half precision
+Fast Half Float Conversions
+Analog Devices variant (four-bit exponent)
+C source code to convert between IEEE double, single, and half precision can be found here
+Java source code for half-precision floating-point conversion
+Half precision floating point for one of the extended GCC features

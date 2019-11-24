@@ -1,0 +1,33 @@
+Title: D battery
+Aspects: {'D cell'}
+
+A D battery (D cell or IEC R20) is a size of dry cell. A D cell is cylindrical with an electrical contact at each end; the positive end has a nub or bump. D cells are typically used in high current drain applications, such as in large flashlights, radio receivers and transmitters and other devices that require an extended running time. A D cell may be either rechargeable or non-rechargeable. Its terminal voltage and capacity depend upon its cell chemistry.
+The National Carbon Company introduced the first D cell in 1898. Before smaller cells became more common, D cells were widely known as flashlight batteries. The U.S. military designation for this battery has been BA-30 since sometime before World War II. During World War II it was designated the Type C battery by the Navy leading to confusion with the smaller C cell battery (BA-42).
+In 2007, D batteries accounted for 8% of alkaline primary battery sales (numerically) in the US. In 2008, Swiss purchases of D batteries amounted to 3.4% of primary and 1.4% of secondary sales.
+
+
+== Dimensions and capacity ==
+
+A battery's capacity depends upon its cell chemistry and current draw. Energizer brand rates its alkaline D cell at approximately 20,000mAh at 25mA draw, but estimates performance closer to about 10,000mAh at 500mA draw. This effect is generally less pronounced in cells with NiCd and NiMH chemistries; see Peukert's law. Many commonly available size D rechargeable cells are actually sub-C cells in a D-sized holder.
+D batteries have:
+Nominal diameter of 33.2 ± 1 millimeters (1.3 inches).
+Overall length of 61.5 millimeters (2.42 inches).
+
+
+== Other common names ==
+
+
+== See also ==
+List of battery sizes
+Battery nomenclature
+
+
+== References ==
+
+
+== External links ==
+Duracell D Size Battery Specification
+Energizer D Size Battery Specification for Alkaline Cell
+Brand Neutral Drawing Of NiCd D Battery Based On ANSI Specifications
+Brand Neutral Drawing Of NiMH D Battery Based On ANSI Specifications
+Brand Neutral Drawing Of Alkaline D Battery Based On ANSI Specifications

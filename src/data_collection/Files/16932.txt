@@ -1,0 +1,36 @@
+Title: Cambridge Z88
+Aspects: {'Z88'}
+
+The Cambridge Computer Z88 is an A4-size, lightweight, portable Z80-based computer with a built-in combined word processing/spreadsheet/database application called PipeDream (functionally equivalent to a 1987 BBC Micro ROM called Acornsoft View Professional), along with several other applications and utilities, such as a Z80-version of the BBC BASIC programming language.
+The Z88 evolved from Sir Clive Sinclair's Pandora portable computer project which had been under development at Sinclair Research during the mid-1980s. The machine was launched at the Which Computer? Show on 17 February 1987.
+
+
+== Technical description ==
+The Z88 is a portable computer weighing 0.9 kg (2 lb), based on a low-power CMOS version of the popular Zilog Z80 microprocessor. It comes with 32 KiB of internal pseudo-static RAM and 128 KiB of ROM containing the operating system (called OZ). The memory can be expanded up to 3.5 MiB of RAM, the contents of which are preserved across sessions. An integrated capacitor prevents the Z88 from losing its data for the limited time it takes to change the batteries.
+The machine uses a membrane keyboard, which is almost silent in use; an optional electronic "click" can be turned on to indicate keystrokes. The Z88 is powered by four AA batteries, giving up to 20 hours of use. It has three memory card slots, which accommodate proprietary RAM, EPROM or FLASH cards, the third slot being equipped with a built-in EPROM programmer. Card capacities range from 32 KiB to 1 MiB.
+The Z88 has a built-in eight-line, 64 × 640 pixel "super-twisted" LCD display which has greater contrast than conventional twisted nematic LCDs.
+
+
+== Memory map ==
+The 64 KiB addressable by the Z80 processor are divided in four banks of 16 KiB each. The maximum memory of 4 MiB for the system is also divided in 256 segments of 16 KiB each. The hardware can map any of the 16 KiB blocks to any of the four banks. The first 512 KiB are reserved for ROM; the next 512 KiB are reserved for internal RAM. The next 3 MiB are assigned to each one of the three memory slots.
+
+
+== Current status ==
+The Z88 had something of a cult following, and is still used by a few enthusiasts.  A variety of software is available including games and utilities. Since 1998, a 1 MiB Flash memory card is available which provides convenient non-volatile storage. Once written to the card, files are safe and not reliant on a power supply. Unlike traditional EPROM cards (erased with an external ultraviolet light), this one can be electrically erased in the computer's slot. The first generation of card only worked in slot 3 where a 12 V signal (Vpp) is available. The later generation is based on AMD chips and runs with 5 V for erasure. It is possible to read, write and erase flash cards in the three slots and the internal one.
+It is also possible for an experienced user to replace the built-in 32 KiB RAM chip with a bigger 128 or 512 KiB static RAM chip. However, the latter requires some extra board modifications, and 512 KiB is the biggest size that can be addressed by the Z88 for the internal RAM. A similar modification is possible for the internal ROM slot. A 512 KiB flash chip can replace the original ROM, allowing an upgrade of the operating system.
+
+
+== References ==
+
+
+== External links ==
+Rick Dickinson's "Pandora to Z88" gallery on Flickr
+Z88 Project Development
+Z88 Forever enthusiast site
+New home for the above algonet.se pages
+ZEsarUX – ZX Second-Emulator And Released for UniX (GPLv3)
+Rakewell – the 1MiB flash EPROM producer
+RWAP Software – Z88 sales and support
+PipeDream book
+Z88Transfer, a program to transfer files between a Z88 and a PC
+Z88 review, 1989

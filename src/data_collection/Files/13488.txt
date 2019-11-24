@@ -1,0 +1,65 @@
+Title: Fluorescent-lamp formats
+Aspects: {'T8'}
+
+Since their introduction as a commercial product in 1939, many different types of fluorescent lamp have been introduced. Systematic nomenclature identifies mass-market lamps as to overall shape, power rating, length, color, and other electrical and illuminating characteristics.
+
+
+== Tube designations ==
+Lamps are typically identified by a code such as FxxTy, where F is for fluorescent, the first number (xx) indicates either the power in watts or length in inches, the T indicates that the shape of the bulb is tubular, and the last number (y) is the diameter in eighths of an inch (sometimes in millimeters, rounded-up to the nearest millimeter). Typical diameters are T12 or T38 (​1 1⁄2 in or 38 mm) for residential lamps with magnetic ballasts, T8 or T26 (1 in or 25 mm) for commercial energy-saving lamps with electronic ballasts, and T5 or T16 (​5⁄8 in or 16 mm) for very small lamps, which may even operate from a battery-powered device.
+
+Per T2—T12, T17 the number indicates the tube diameter in ​1⁄8 inches, e.g. T2 = ​2⁄8 and T17 = ​17⁄8 inches. Whereas T16, T26—T38 indicates the tube diameter in approximate millimeters.
+
+
+=== Reflectors ===
+
+Some lamps have an internal opaque reflector. Coverage of the reflector ranges from 120° to 310° of the lamp's circumference. Often, a lamp is marked as a reflector lamp by adding the letter "R" in the model code, so a F##T## lamp with a reflector would be coded as "FR##T##". Very high output (VHO) lamps with reflectors may be coded as VHOR. No such designation exists for the amount of reflector coverage the lamp has.
+Reflector lamps are used when light is only desired to be emitted in a single direction, or when an application requires the maximum amount of light. For example, these lamps can be used in tanning beds or in backlighting electronic displays. An internal reflector is more efficient than standard external reflectors. Another example is color matched aperture lights (with about 30° of opening) used in the food industry for robotic quality control inspection of cooked goods.
+Aperture lamps have a clear break in the phosphor coating, typically of 30°, to concentrate light in one direction and provide higher brightness in the beam than can be achieved by uniform phosphor coatings. Aperture lamps include reflectors over the non-aperture area. Aperture lamps were commonly used in photocopiers in the 1960s and 1970s where a bank of fixed tubes was arranged to light up the image to be copied, but are rarely found nowadays. Aperture lamps can produce a concentrated beam of light suitable for edge-lit signs.
+LED tubes are also directional, having their LEDs all facing one side of the tube, which avoids wasting energy back into the light fixture, and on early models allowed for a heat sink on the back of the tube to prolong LED service life.  This is a large part of the reason that linear LEDs are nearly twice as energy-efficient as linear fluorescents, in addition to having greater actual lumens per watt.
+
+
+=== Slimline lamps ===
+Slimline lamps operate on an instant start ballast and are recognizable by their single-pin bases.
+
+
+=== High output/very high output lamps ===
+High-output lamps are brighter and are driven at a higher electric current, have different ends on the pins so they cannot be used in the wrong fixture, and are labeled F##T##HO, or F##T##VHO for very high output. Since about the early to mid-1950s to today, General Electric developed and improved the Power Groove lamp with the label F##PG17. These lamps are recognizable by their large diameter (21/8"), grooved tube shape and an R17d cap on each end.
+
+
+=== Other tube shapes ===
+U-shaped tubes are FB##T##, with the B meaning "bent". Most commonly, these have the same designations as linear tubes. Circular tubes are FC##T#, with the outer diameter of the circle (not circumference or watts) in centimeters (inches in North America) being the first number, and the second number referring to the tube size as with linear ones.
+
+
+=== Colors ===
+Color is usually indicated by WW for warm white, EW for enhanced (neutral) white, CW for cool white (the most common), and DW for the bluish daylight white. BL is used for ultraviolet lamps commonly used in bug zappers. BLB is used for blacklight-blue lamps employing a Wood's glass envelope to filter out most visible light, commonly used in nightclubs. Other non-standard designations apply for plant lights or grow lights.
+Philips and Osram use numeric color codes for the colors. On tri-phosphor and multi-phosphor tubes, the first digit indicates the color rendering index (CRI) of the lamp. If the first digit on a lamp says 8, then the CRI of that lamp will be approximately 85. The last two digits indicate the color temperature of the lamp in kelvins (K). For example, if the last two digits on a lamp say 41, that lamp's color temperature will be 4100 K, which is a common tri-phosphor cool white fluorescent lamp.
+
+
+== Common tube ratings ==
+This section lists the more common tube ratings for general lighting. Many more tube ratings exist, often country-specific. The Nominal Length may not exactly match any measured dimension of the tube. For some tube sizes, the nominal length (in feet) is the required spacing between centers of the lighting fixtures to create a continuous run, so the tubes are a little shorter than the nominal length.
+
+
+=== European energy-saving tubes ===
+In the 1970s, Thorn Lighting introduced an energy-saving 8 ft retrofit tube in Europe. Designed to run on the existing 125 W (240 V) series ballast but with a different gas fill and operating voltage, the tube operated at only 100 W. Increased efficiency meant that the tube produced only 9% lumen reduction for a 20% power reduction. This first energy-saving tube design remains a T12 tube even today. However, follow-on retrofit replacements for all the other original T12 tubes were T8, which helped with creating the required electrical characteristics and saving on the then new (and more expensive) polyphosphor/triphosphor coatings, and these were even more efficient. Note that because these tubes were all designed as retrofit tubes to be fitted in T12 fittings running on series ballasts on 220–240 V supplies, they could not be used in 120 V mains countries with inherently different control gear designs.
+
+Around 1980 (in the UK, at least), some new fluorescent fittings were designed to take only the newer, retrofit tubes (the lamp holders are designed not to take T12 tubes, except for 8 ft length). The earlier T12 halophosphate tubes still remained available as spares until 2012. They fit in older fittings and some modern fittings that employ twist lock lamp holders, even though the modern fittings were not electrically designed for them.
+
+
+=== US energy-saving tubes ===
+In the 1990s, various energy-saving tubes were introduced in North America, but unlike the T8 tubes introduced in Europe, the T8s are not retrofits and require new matching ballasts to drive them, while some T12s can use the older ballasts. Running a T8 tube with a ballast for T12 will reduce lamp life and can increase energy consumption.  Conversely, a T12 tube on a T8 ballast will usually draw too much power and so may burn out the ballast, unless it is within the range that the particular model of electronic ballast can compensate for.  The tube type should always match the markings on the light fixture.
+
+
+== T5 tubes ==
+In the 1990s, longer T5 tubes were designed in Europe (making it to North America in the 2000s), in addition to the shorter ones (mentioned above) already in use worldwide.  Like the European modular furniture, display cabinets, ceiling tile grids, etc. they were designed for, these are based on multiples of the 300 mm (11.8 in) "metric foot" instead of the 12 in (305 mm) imperial foot, but are all 37 mm (1.5 in) shorter to allow space for the lampholder connections within the 300mm modular units, and for much easier insertion into and removal from troffer lights within the grid.
+
+The T5 diameter is nearly 40% smaller than T8 lamps and almost 60% smaller than T12 lamps. T5 lamps have a G5 base (bi-pin with 5 mm spacing), even for high-output (HO and VHO) tubes.
+
+
+== See also ==
+Compact fluorescent lamp
+List of light sources
+Fluorescent lamp recycling
+T5 retrofit conversion
+
+
+== References ==

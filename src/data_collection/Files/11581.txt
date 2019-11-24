@@ -1,0 +1,437 @@
+Title: Lankford coefficient
+Aspects: {'R-value'}
+
+The Lankford coefficient (also called Lankford value, R-value, or plastic strain ratio) is a measure of the plastic anisotropy of a rolled sheet metal.  This scalar quantity is used extensively as an indicator of the formability of recrystallized low-carbon steel sheets.
+
+
+== Definition ==
+If 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+   and 
+  
+    
+      
+        y
+      
+    
+    {\displaystyle y}
+   are the coordinate directions in the plane of rolling and 
+  
+    
+      
+        z
+      
+    
+    {\displaystyle z}
+   is the thickness direction, then the R-value is given by
+
+  
+    
+      
+        R
+        =
+        
+          
+            
+              
+                
+              
+              
+                
+                  
+                    ϵ
+                    
+                      
+                        x
+                        y
+                      
+                    
+                    
+                      p
+                    
+                  
+                
+              
+            
+            
+              
+                
+              
+              
+                
+                  
+                    ϵ
+                    
+                      
+                        z
+                      
+                    
+                    
+                      p
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle R={\cfrac {\epsilon _{\mathrm {xy} }^{p}}{\epsilon _{\mathrm {z} }^{p}}}}
+  where 
+  
+    
+      
+        
+          ϵ
+          
+            
+              x
+              y
+            
+          
+          
+            p
+          
+        
+      
+    
+    {\displaystyle \epsilon _{\mathrm {xy} }^{p}}
+   is the plastic strain in-plane and 
+  
+    
+      
+        
+          ϵ
+          
+            
+              z
+            
+          
+          
+            p
+          
+        
+      
+    
+    {\displaystyle \epsilon _{\mathrm {z} }^{p}}
+   is the plastic strain through-the-thickness.
+More recent studies have shown that the R-value of a material can depend strongly on the strain even at small strains .  In practice, the 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+   value is usually measured at 20% elongation in a tensile test.
+For sheet metals, the 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+   values are usually determined for three different directions of loading in-plane (
+  
+    
+      
+        
+          0
+          
+            ∘
+          
+        
+        ,
+        
+          45
+          
+            ∘
+          
+        
+        ,
+        
+          90
+          
+            ∘
+          
+        
+      
+    
+    {\displaystyle 0^{\circ },45^{\circ },90^{\circ }}
+   to the rolling direction) and the normal R-value is taken to be the average 
+
+  
+    
+      
+        R
+        =
+        
+          
+            
+              
+                
+              
+              
+                
+                  1
+                
+              
+            
+            
+              
+                
+              
+              
+                
+                  4
+                
+              
+            
+          
+        
+        
+          (
+          
+            
+              R
+              
+                0
+              
+            
+            +
+            2
+             
+            
+              R
+              
+                45
+              
+            
+            +
+            
+              R
+              
+                90
+              
+            
+          
+          )
+        
+         
+        .
+      
+    
+    {\displaystyle R={\cfrac {1}{4}}\left(R_{0}+2~R_{45}+R_{90}\right)~.}
+  The planar anisotropy coefficient or planar R-value is a measure of the variation of 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+   with angle from the rolling direction.  This quantity is defined as
+
+  
+    
+      
+        
+          R
+          
+            p
+          
+        
+        =
+        
+          
+            
+              
+                
+              
+              
+                
+                  1
+                
+              
+            
+            
+              
+                
+              
+              
+                
+                  2
+                
+              
+            
+          
+        
+        
+          (
+          
+            
+              R
+              
+                0
+              
+            
+            −
+            2
+             
+            
+              R
+              
+                45
+              
+            
+            +
+            
+              R
+              
+                90
+              
+            
+          
+          )
+        
+         
+        .
+      
+    
+    {\displaystyle R_{p}={\cfrac {1}{2}}\left(R_{0}-2~R_{45}+R_{90}\right)~.}
+  
+
+
+== Anisotropy of steel sheets ==
+Generally, the Lankford value of cold rolled steel sheet acting for deep-drawability shows heavy orientation, and such deep-drawability is characterized by 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+  .  However, in the actual press-working, the deep-drawability of steel sheets cannot be determined only by the value of 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+   and the measure of planar anisotropy, 
+  
+    
+      
+        
+          R
+          
+            p
+          
+        
+      
+    
+    {\displaystyle R_{p}}
+   is more appropriate.
+In an ordinary cold rolled steel, 
+  
+    
+      
+        
+          R
+          
+            90
+          
+        
+      
+    
+    {\displaystyle R_{90}}
+   is the highest, and 
+  
+    
+      
+        
+          R
+          
+            45
+          
+        
+      
+    
+    {\displaystyle R_{45}}
+   is the lowest.  Experience shows that even if 
+  
+    
+      
+        
+          R
+          
+            45
+          
+        
+      
+    
+    {\displaystyle R_{45}}
+   is close to 1, 
+  
+    
+      
+        
+          R
+          
+            0
+          
+        
+      
+    
+    {\displaystyle R_{0}}
+   and 
+  
+    
+      
+        
+          R
+          
+            90
+          
+        
+      
+    
+    {\displaystyle R_{90}}
+   can be quite high leading to a high  average value of 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+  .  In such cases, any press-forming process design on the basis of 
+  
+    
+      
+        
+          R
+          
+            45
+          
+        
+      
+    
+    {\displaystyle R_{45}}
+   does not lead to an improvement in deep-drawability.
+
+
+== See also ==
+Yield surface
+
+
+== References ==

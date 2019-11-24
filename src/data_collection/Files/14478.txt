@@ -1,0 +1,59 @@
+Title: Sun Fire
+Aspects: {'V100'}
+
+Sun Fire is a series of server computers introduced in 2001 by Sun Microsystems (since 2010, part of Oracle Corporation). The Sun Fire branding coincided with the introduction of the UltraSPARC III processor, superseding the UltraSPARC II-based Sun Enterprise series. In 2003, Sun broadened the Sun Fire brand, introducing Sun Fire servers using the Intel Xeon processor. In 2004, these early Intel Xeon models were superseded by models powered by AMD Opteron processors. Also in 2004, Sun introduced Sun Fire servers powered by the UltraSPARC IV dual-core processor. In 2007, Sun again introduced Intel Xeon Sun Fire servers, while continuing to offer the AMD Opteron versions as well.
+SPARC-based Sun Fire systems were produced until 2010, while x86-64 based machines were marketed until mid-2012. In mid-2012, Oracle Corporation ceased to use the Sun Fire brand for new server models.
+
+
+== Operating systems ==
+UltraSPARC-based Sun Fire models are licensed to run the Solaris operating system versions 8, 9, and 10. Although not officially supported, some Linux versions are also available from third parties, as well as OpenBSD and NetBSD.
+Intel Xeon and AMD Opteron based Sun Fire servers support Solaris 9 and 10, OpenBSD, Red Hat Enterprise Linux versions 3 - 6, SUSE Linux Enterprise Server 10 and 11, Windows 2000, Windows Server 2003, 2008, and 2008 R2 .
+
+
+== Model nomenclature ==
+
+Later Sun Fire model numbers have prefixes indicating the type of system, thus:
+
+V: entry level and mid-range rackmount and cabinet servers (UltraSPARC, IA-32 or AMD64)
+E: high-end enterprise class cabinet servers with high-availability features (UltraSPARC)
+B: blade servers (UltraSPARC or IA-32)
+X: rackmount x86-64 based servers
+T: entry level and mid-range rackmount servers based on UltraSPARC T-series CoolThreads processorsWhen Sun offered Intel Xeon and AMD Opteron Sun Fire servers under the V-Series sub brand, Sun used an x suffix to denote Intel Xeon processor based systems and a z suffix for AMD Opteron processor based systems, but this convention was later dropped. The z suffix was also used previously to differentiate the V880z Visualization Server variant of the V880 server.
+Sun's first-generation blade server platform, the Sun Fire B1600 chassis and associated blade servers, was branded under the Sun Fire server brand. Later Sun blade systems were sold under the Sun Blade brand.
+In 2007, Sun, Fujitsu and Fujitsu Siemens introduced the common SPARC Enterprise brand for server products. The first SPARC Enterprise models were the Fujitsu-developed successors to the midrange and high-end Sun Fire E-series. In addition, the Sun Fire T1000 and T2000 servers were rebranded as the SPARC Enterprise T1000 and T2000 and sold under the Fujitsu brands, although Sun continued to offer these with their original names. Later T-series servers have also been badged SPARC Enterprise rather than Sun Fire.
+Since late 2010, Oracle Corporation no longer uses Sun Fire brand for their current T series SPARC servers, and since mid-2012 for new X series x86-64 machines based on Intel Xeon CPUs. x86-64 server models which had been developed by Sun Microsystems before its acquisition, and were still in production, have all been rebranded as Sun Server X-series.
+
+
+== Sun Fire model range ==
+Some servers were produced in two versions, the original version and a later RoHS version. Since a general maintenance and upgrade guideline is that RoHS components and spares may be installed into the original non-RoHS versions of that server, the end-of-life (EOL) date of a server is deemed the EOL date of the RoHS version of that server in this listing.
+
+
+=== UltraSPARC architecture ===
+
+
+=== x86/x64 architecture ===
+
+
+== Sun Server / Oracle Server ==
+As of 2012, the x86 server range continued under the "Sun Server" or "Oracle Server" names.
+
+
+== See also ==
+Fireplane
+
+
+== References ==
+
+Sun System Handbook, Version 2.1.8, April 2005
+
+
+== External links ==
+Sun Servers, Sun Microsystems
+OpenBSD's Sunfire support
+Oracle - Entry-Level Servers - Legacy Product Documentation
+Oracle - Midrange Servers - Legacy Product Documentation
+Oracle - x86 Servers - Legacy Product Documentation
+Oracle - High-End Servers - Legacy Product Documentation
+
+
+== Sun timeline ==

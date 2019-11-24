@@ -1,0 +1,37 @@
+Title: Dash (cryptocurrency)
+Aspects: {'X11 (disambiguation)'}
+
+Dash is an open source cryptocurrency and is a form of decentralized autonomous organization (DAO) run by a subset of users, called "masternodes". It is an altcoin that was forked from the Bitcoin protocol. The currency permits fast transactions that can be untraceable.
+
+
+== History ==
+The currency was launched in January 2014 as "Xcoin" by Evan Duffield, as a fork of the Bitcoin protocol. It is an altcoin and in its early days it was subject to pump and dump speculation. It was rebranded as Darkcoin, which received press for being used in dark net markets. In March 2015, it rebranded again with the name Dash as a portmanteau of 'digital cash'. As of August 2016, Dash is no longer used in any major dark net markets worth noting.In early 2017 Duffield, who lived in the Phoenix area, and some other people working on Dash took space in a business incubator at Arizona State University. The Dash DAO later funded a blockchain research lab at ASU.As of April 2018, Dash's market capitalization was around $4.3 billion and it was one of the top 12 cryptocurrencies.As of February 2019, Dash was the most popular cryptocurrency in Venezuela according to Der Spiegel.
+
+
+== Design and governance ==
+Dash was designed to allow transactions quickly and to have a swift governance structure in order to overcome shortfalls in Bitcoin.
+
+
+=== Governance ===
+Governance is handled through a form of decentralized autonomous organization in which decisions are made on a blockchain via masternodes. Masternodes perform standard node functions like hosting a copy of the blockchain, relaying messages, and validating transactions on the network, and in addition act as shareholders, voting on proposals for improving Dash's ecosystem. Along with masternodes, the system includes standard nodes and miners.Running a masternode requires ownership of 1000 Dash. Masternodes are also required to have a static IP address and meet minimum requirements for CPU, RAM, disk space and network bandwidth.A proof of service protocol ensures that masternodes have the most current blockchain protocol and are online.The system's decentralization has been criticized due to a mishap allowing too many coins being distributed at release, concentrating the wealth and giving a small group disproportionate power in decisions over the currency’s future.
+
+
+=== Consensus ===
+
+As of 2018 coins were mined using a proof of work algorithm with a hash function called "X11", with eleven rounds of hashing, and the average time to mine a coin was around two and a half minutes.
+
+
+=== Transactions ===
+Masternodes provide two additional kinds of transactions. "InstantSend" bypasses mining and instead requires a consensus of masternodes to validate a transaction, speeding transactions.  "PrivateSend" is intended to make transactions untraceable; it mixes participating users' unspent Dash before executing a transaction.In 2018 the e-commerce payment system company Alt Thirty Six (Alternative36, Inc.) began offering electronic payments in Dash for companies in the legal cannabis industry in the United States.
+
+
+== Dash-funded organizations ==
+The Dash DAO uses the 10% it receives from mining to invest as the DAO chooses.
+
+
+== References ==
+
+
+== External links ==
+
+Official website

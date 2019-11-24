@@ -1,0 +1,27 @@
+Title: BMW xDrive
+Aspects: {'Xdrive'}
+
+BMW Drive is the marketing name for the all-wheel drive system found on various BMW models since 2003. The system uses an electronically-actuated clutch-pack differential to vary the torque between the front and rear axles. Models with the DPC torque vectoring system also have a planetary gearset to overdrive an axle or rear wheel as required.
+Prior to the introduction of xDrive, all-wheel drive was available on several models since 1985, based on an all-wheel drive system that uses viscous couplings.
+
+
+== Predecessor ==
+The first BMWs available with all-wheel drive were the 1985-1992 E30 325iX and 1991-1996 E34 525iX models. These cars use centre and rear differentials with viscous couplings to vary the torque split between wheels. The centre differential has a default front:rear torque split of 37:63, due to the planetary gear. Up to 80% of the torque can be transferred to the tripping axle, using the increasing shear force of the silicone fluid in the viscous coupling (due to the slotted/grooved plates inside the unit) as wheel slip causes one axle to spin faster than the other. The same principle applies to the rear differential varying the torque split between the rear wheels. The front differential has no locking function. All-wheel drive was discontinued when the E30 3 Series and E34 5 Series were replaced by the E36 and E39 respectively.
+All-wheel drive was reintroduced in 2001 for the X5 SUV and E46 3 series 325xi, 330xi and 330xd sedans/wagons. The system is similar to the earlier version, except without the viscous couplings. Instead, the electronic stability control (DSC) system applies the brake to wheels that are slipping, helping transfer power to the wheels with traction.
+
+
+== Design ==
+Unlike its predecessor, the xDrive system uses an electronically-actuated clutch-pack differential that engages to send torque to the front axle. In the case of the 2018 X3 through X6 models, the default torque split is 40:60 and the system is able to send 100% of the torque to either axle. The wet clutch is applied through a high speed electric servo motor turning a cam-shaped actuator disc.  As the rear drive shaft is hard-coupled to the transmission output, full torque transfer to the front axle can only be achieved if the rear wheels have no traction and are both slipping. In most vehicles, the system uses open differentials at the front and rear, relying on the brakes (controlled by the electronic stability control system) to transfer torque away from the slipping wheel on each axle.
+A different system is used on BMWs which are based on a transverse engine front-wheel drive platform, such as the BMW X1 (F48), BMW 1 Series (F40) and BMW 2 Series Active Tourer. These models use a Haldex system which sends 100% of the torque to the front wheels by default, only sending torque to the rear wheels when the front wheels are slipping.
+
+
+=== Dynamic Performance Control ===
+An upgraded version of xDrive with torque vectoring, called 'Dynamic Performance Control' (DPC), was introduced on the 2008 BMW X6 and has since become available on other vehicles including the BMW X5 M. As per most torque vectoring systems, the primary function is to increase agility in cornering. The DPC system is also used by the electronic stability control (DSC) to correct for understeer/oversteer, with one reviewer commenting that it provided smoother results and avoided the temporary power loss associated with the traditional method of using individual wheel brakes in such situations.The DPC system can distribute torque between the front and rear axles, and between the two wheels on the rear axle. The system uses a clutch pack and planetary gearset within the differential to overdrive a wheel or axle as required.
+
+
+== Applications ==
+The first models xDrive models (as opposed to the earlier all-wheel drive system) were released in 2003. These consisted of the newly released BMW X3 (E83) and the facelifted BMW 3 Series (E46). In the following years, the availability of xDrive increased throughout the model range, and it is currently available on most models.
+The first BMW M models to use xDrive were the 2010 E70 X5M and E71 X6M models. The first non-SUV BMW M model to not be rear-wheel drive was the 2017 F90 M5, which was only available with xDrive.In Canada, 50 percent of BMWs sold in 2005 were fitted with xDrive. As of 2010, BMW Canada stopped offering rear-wheel drive versions of models that were available with xDrive, for example the only BMW 6 Series (F12) 650i version available without xDrive in 2012 was the convertible version.
+
+
+== References ==

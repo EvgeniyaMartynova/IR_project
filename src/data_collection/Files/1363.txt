@@ -1,0 +1,108 @@
+Title: C-command
+Aspects: {'C command'}
+
+c-command (constituent command) is a relationship between the nodes of grammatical parse trees. A working definition of c-command is that node X c-commands node Y if a sister of X dominates Y. C-command is closely associated with the generative phrase structure grammars of the Chomskyan tradition (Government and Binding, Minimalist Program), and is not applicable to the tree structures of other theories of syntax, such as dependency grammars. C-command relations have served as the basis for many explorations and explanations of phenomena within the field of syntax.  It has been taken to be the basic configurational relation underlying binding, and has played a central role in the analysis of diverse syntactic mechanisms, such as parasitic gaps and the scope of quantifiers.
+Informally, if a node has any sibling node(s), then it c-commands its siblings and all of their descendants; however, if a node doesn't have any siblings, then it c-commands everything that its parent c-commands (Reinhart's definition). 
+
+
+== Definitions and examples ==
+
+
+=== Standard Definition ===
+Common terms to represent the relationships between nodes are below (refer to the tree on the right):
+
+M is a parent or mother to A and B.A and B are children or daughters of M.A and B are sisters.M is a grandparent to C and D.The standard definition of c-command is based partly on the relationship of dominance: Node N1 dominates node N2 if N1 is above N2 in the tree and one can trace a path from N1 to N2 moving only downwards in the tree (never upwards); that is, if N1 is a parent, grandparent, etc. of N2. For a node (N1) to c-command another node (N2) the sister of N1 must establish dominance over N2.
+Based upon this definition of dominance, node N1 c-commands node N2 if and only if:
+
+Node N1 does not dominate N2,
+N2 does not dominate N1, and
+The first (i.e. lowest) branching node that dominates N1 also dominates N2.For example, according to the standard definition, in the tree at the right,
+
+M does not c-command any node because it dominates all other nodes.
+A c-commands B, C, D, E, F, and G.
+B c-commands A.
+C c-commands D, F, and G.
+D c-commands C and E.
+E does not c-command any node because it does not have a sister node or any daughter nodes.
+F c-commands G.
+G c-commands F.If node A c-commands node B, and B also c-commands A, it can be said that A symmetrically c-commands B. If A c-commands B but B does not c-command A, then A asymmetrically c-commands B. The notion of asymmetric c-command plays a major role in Richard Kayne's theory of Antisymmetry.
+
+
+=== Reinhart's Definition ===
+
+Reinhart’s definition, one of the earlier definitions on this concept, is based partly on the relation of immediate dominance: Node N1 immediately dominates node N2 if N1 is above N2 in the tree and there is no node in between N1 and N2; that is N1 dominates N2 and there is no node dominating N2 that does not dominate N1 because there is no other node between N1 and N2. 
+Based upon this definition of immediate dominance, node N1 c-commands node N2 if and only if the branching node X1, immediately dominating N1, either:
+
+Dominates N2 , or
+Is immediately dominated by node X2 which dominates N2  (where X1 and X2 are of the same category)According to Reinhart's definition, a node can c-command itself, sister nodes can c-command each other, and c-command relations involving X’ over X (as in X-bar Theory) can be represented. For example, according to Reinhart's definition, in the tree at the right,            
+
+Z does not c-command any node because there is no node immediately dominating it.
+Y c-commands Y, X2, W, X1, V, U, T.
+X2 c-commands Y, X2, W, X1, V, U, T.
+W c-commands W, X1, V, U, T.
+X1 c-commands W, X1, V, U, T.
+V does not c-command any node because W, immediately dominating V, is not a branching node.
+U c-commands W, V, U, T.
+T c-commands W, V, U, T.
+A number of variations of the c-command relationship have been proposed, a prominent one being m-command, which is used in defining the notion of government.
+
+
+== History ==
+The term c-command was introduced by Tanya Reinhart in her 1976 dissertation and is a shortened form of constituent command. Reinhart thanks Nick Clements for suggesting both the term and its abbreviation. However, the concept Reinhart was developing was not new to syntax. Similar configurational notions had been circulating for more than a decade. In 1964, Klima defined a configurational relationship between nodes he labeled "in construction with". In addition, Langacker proposed a similar notion of "command" in 1969.
+
+
+== Applications ==
+Because c-command can be used to establish constituency it plays a key role in a variety of applications in syntax and semantics, including binding, quantifier scope, and syntactic movement. 
+
+
+=== Binding Theory ===
+One application of the c-command relation is found in the study of binding, which investigates the possible syntactic relationships between personal pronouns and their antecedents.
+Binding Theory consists of three principles, and the role of c-command differs amongst them: 
+
+Principle A: An anaphor (e.g. reflexives such myself, yourself, herself, himself, ourselves, yourselves, ourselves, themselves and reciprocals such as each other, one another) must be bound in its domain (that is, it must be c-commanded and co-indexed with a DP within its domain)Principle B: A pronominal (e.g. personal pronouns such as I, me, my, you, your he, him, his, she, her, we, us, our, they, them, their) must be free in its domain (that is, it must not be c-commanded and co-indexed with a DP within its domain)Principle C: An R-expression (e.g., John, Lucy, the dog, etc..) must be free (that its, must not be c-commanded and co-referenced)In order to establish binding, the bound element must be c-commanded and be co-referenced with an antecedent element.  Without a c-commanding relationship, binding cannot be established.  
+
+These relationships between pronouns and antecedents appear to be subject to certain restrictions. For example, it is hypothesized that a pronoun cannot appear in a position where it c-commands its antecedent (Binding Theory Principle B). Consider the sentences: 
+Sentence 1: [He]j said that John]k was coming.Sentence 2: [His]k mother said that [John]k was coming.In the first sentence, "he" cannot refer to John. This was explained, at least in the original binding theory, by the fact that he c-commands John in the first sentence, whereas his does not c-command John in the second.	 
+In the second sentence, his and John may co-refer ("his mother" may mean John's mother).  Crucially, however, the pronominal [his] does not c-command the R-expression [John], as the sister of the D [his] is the NP (noun phrase) which dominates the terminal node [mother] and not the terminal node [John], making this a grammatical sentence because the pronoun is free in its domain.
+C-command in Principle A of binding theory:	
+
+Sentence 3: [Mary]k talks about [herself]k.The anaphor “herself” is subject to Principle A of binding theory and must be bound in its domain. This means that “herself” must be co-referenced (as indicated by subscript k) with an antecedent [Mary] and be c-commanded by the antecedent, meaning that the sister of the DP [Mary] must dominate the DP [herself].  
+Principle C of Binding Theory can be seen in the tree at the left.  The R-expression Mary is not c-commanded by any antecedent DP in the structure, making this a grammatical sentence.
+
+
+=== Quantificational binding ===
+Another application of the c-command relation, closely related to the study of binding, is found in quantificational binding, which investigates the possible syntactic relationships between pronouns and quantified expressions. Quantified expressions such as each person, everyone from Canada, no teachers pick out pick out sets.  When bound by a quantificational antecedent, a pronoun is interpreted as a variable. Instead of picking out a particular entity, the value of the pronoun is not fixed: it is assigned a different value for each member of the set introduced by the quantified expression.	
+
+	
+
+The  relation between a quantified expression and the pronoun that it binds is sensitive to structure, and more specifically to c-command. Reinhart proposes the hypothesis of the condition on pronominal binding, which states if a pronoun has a quantified expression as an antecedent the pronoun must be c-commanded by this antecedent. 
+The condition on pronominal binding can be seen through the examples below: 
+
+Sentence 4: The praise for [Jane]k usually pleases [her]k.Sentence 5: *The praise for [each student]k usually pleases [them]k.The second sentence is ungrammatical since the [DP each student] does not have a sister which dominates the pronoun [DP them]. Whereas, in the first sentence Jane is a referential expression and there is no quantified expression which imposes the pronominal binding condition; therefore, even though the [DP Jane] does not c-command the [DP her] the sentence is grammatical.
+
+
+=== C-command and NPI Licensing ===
+Polarity items are lexical items (such as any, somewhat, or all) whose occurrence in the sentence is constrained to co-appearance with a licensing constituent (such as negation). C-command relations can be influential to the surface level structures of a sentence, as can be seen in Negative Polarity Item (NPI) Licensing. For example, in English, any can act as an NPI, therefore requiring a licenser such as negation. In order for the sentence containing an NPI to be grammatical, the licensor must c-command the NPI. Consider these sentences:
+
+Sentence 6: Lucy will not read any book.Sentence 7: *Anyone will not read a book.In the first sentence above, the licensor not c-commands the NPI any, resulting in a grammatical sentence. In reference to the tree at the left, the sister node of the Negative Phrase (acting as the licensor) is VP, which dominates the Determiner Phrase containing the NPI any; therefore, the licensor is c-commanding the NPI. Meanwhile, in the second sentence, the licensor does not c-command the NPI, as the NPI occurs above the licensor in the tree at the right. Therefore, since the licensor does not c-command the NPI, the sentence is ungrammatical.
+
+
+== Criticism and alternatives ==
+The validity and importance of c-command for the theory of syntax is debated. In most cases, c-command correlates with precedence (linear order); that is, if node A c-commands node B, it is usually the case that node A also precedes node B. Furthermore, basic S(V)O (subject-verb-object) word order in English correlates positively with a hierarchy of syntactic functions, subjects precede (and c-command) objects. Moreoever, subjects typically precede objects in declarative sentences in English and related languages. Bruening (2014) argues that theories of syntax that build on c-command have misconstrued the importance of precedence and/or the hierarchy of grammatical functions (i.e. the grammatical function of subject versus object). He concludes that what c-command is intended to address is more accurately analyzed in terms of precedence and grammatical functions. Further, the c-command concept was developed primarily on the basis of syntactic phenomena of English, a language with relatively strict word order. When confronted with the much freer word order of many other languages, the insights provided by c-command are less compelling, since linear order becomes less important.
+As just suggested, the phenomena that c-command is intended to address may be more plausibly examined in terms of linear order and a hierarchy of syntactic functions. Concerning the latter, some theories of syntax take a hierarchy of syntactic functions to be primitive. This is true of Head-Driven Phrase Structure Grammar (HPSG), Lexical Functional Grammar (LFG), and dependency grammars (DGs). The hierarchy of syntactic functions that these frameworks posit is usually something like the following: SUBJECT > FIRST OBJECT > SECOND OBJECT > OBLIQUE OBJECT. Numerous mechanisms of syntax are then addressed in terms of this hierarchy.
+
+
+== See also ==
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+c-command and pronouns
+Node relations, University of Pennsylvania
+Some Basic Concepts in Government and Binding Theory
+Isac, Daniela; Charles Reiss (2013). I-language: An Introduction to Linguistics as Cognitive Science, 2nd edition. Oxford University Press. ISBN 978-0-19-953420-3.

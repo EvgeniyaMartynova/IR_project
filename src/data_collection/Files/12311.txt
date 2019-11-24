@@ -1,0 +1,80 @@
+Title: NatureServe conservation status
+Aspects: {'S-rank'}
+
+The NatureServe conservation status system, maintained and presented by NatureServe in cooperation with the Natural Heritage Network, was developed in the United States in the 1980s by The Nature Conservancy (TNC) as a means for ranking or categorizing the relative imperilment of species of plants, animals, or other organisms, as well as natural ecological communities, on the global, national and/or subnational levels. These designations are also referred to as NatureServe ranks, NatureServe statuses, or Natural Heritage ranks.  While the Nature Conservancy is no longer substantially involved in the maintenance of these ranks, the name TNC ranks is still sometimes encountered for them.
+NatureServe ranks indicate the imperilment of species or ecological communities as natural occurrences, ignoring individuals or populations in captivity or cultivation, and also ignoring non-native occurrences established through human intervention beyond the species' natural range (as, for example, with many invasive species).
+NatureServe ranks have been designated primarily for species and ecological communities in the United States and Canada, but the methodology is global, and has been used in some areas of Latin America and the Caribbean.  The NatureServe Explorer website presents a centralized set of global, national, and subnational NatureServe ranks developed by NatureServe or provided by cooperating U.S. Natural Heritage Programs and Canadian and other international Conservation Data Centers.
+
+
+== Introduction ==
+Most NatureServe ranks address the conservation status of a plant or animal species or a natural ecological community using a one-to-five numerical scale (from most vulnerable to most secure), applied either globally (world-wide or range-wide) or to the entity's status within a particular nation or a specified subnational unit within a nation.  Letter-based notations are used for various special cases to which the numerical scale does not apply, as explained below.  Ranks at various levels may be concatenated to combine geographical levels, and also to address infraspecific taxa (subspecies and plant varieties).
+
+
+=== Global, national, and subnational levels ===
+NatureServe conservation statuses may be applied at any or all of three geographical levels:
+
+G - Ranks designated at the global (or range-wide) level (G-rank),
+N - Ranks designated at a national level (N-rank) for a particular nation, and
+S - Ranks designated at a subnational level (S-rank) for a particular next-lower geographical unit within a nation, such as a state within the United States or a province or territory within Canada.
+
+
+=== Commonly encountered ranks ===
+The most commonly encountered NatureServe conservation statuses at the G-, N-, or S-level are:
+
+
+==== Numbers ====
+1 — Critically imperiled — (typically having 5 or fewer occurrences, or 1,000 or fewer individuals).
+2  — Imperiled — (typically having 6 to 20 occurrences, or 1,001 to 3,000 individuals).
+3 — Vulnerable — (rare; typically having 21 to 100 occurrences, or 3,001 to 10,000 individuals).
+4 — Apparently secure — (uncommon but not rare, but with some cause for long-term concern; typically having 101 or more occurrences, or 10,001 or more individuals).
+5 — Secure — (common, widespread, abundant, and lacking major threats or long-term concerns).
+
+
+==== Letters ====
+X - Presumed extinct or extirpated (not located despite extensive and intensive searches, with rediscovery not reasonably expected).  Note that extinction is here considered a global (range-wide) phenomenon, while extirpation applies to loss within a particular national or subnational area, with the entity still extant elsewhere.
+H - Possibly extinct or extirpated (of historical occurrence but not known recently extant, with some reasonable hope of rediscovery).
+R or ? - Recorded within a nation or subnation, but local status not available or not yet determined. When combined with a global rank of G1 to G3, local status is 'Indeterminate,' but the entity is nevertheless presumed vulnerable, if still extant.Thus, for example, a G3 species is "globally vulnerable", and an N2 species is "nationally imperiled" for the particular country the rank is assigned.  Species with G, N, or S rankings of 4 or 5 are generally not the basis for major conservation actions.
+
+
+== Ranks for additional cases ==
+Several less frequent special cases are addressed through other notation in the NatureServe ranking system, including:
+
+
+=== Subspecies and plant varieties ===
+T - When desired, infraspecific taxa (subspecies, plant varieties, and other designations below the level of the species) may be assigned global T-ranks.  A T-rank is appended to the G-rank for the including species.  N-ranks and S-ranks presented with T-ranks apply to the particular infraspecific taxon, not its including species.  Most taxa given such ranks have trinomial (three-word) rather than binomial (two-word) scientific names.
+
+
+=== Non-native (exotic) taxa ===
+E - Used at the national or subnational levels, E indicates taxa not native in the specified area, even historically, but currently or historically present there due to direct or indirect human intervention;  such taxa are often termed exotic, escaped, non-native, adventive, or waif.Note, however, that regionally native species or other taxa that have recently arrived in the area of interest by natural means (such as wind, floods, or birds), without direct or indirect human intervention, are ranked by the same methodology and notation as for other native taxa.
+
+
+=== Interspecific hybrids ===
+HYB - Modern interspecific hybrids, typically encountered as isolated individuals, are rarely themselves targets of conservation attention, are generally given a placeholder global rank of HYB, and not ranked at the national or subnational levels.However, reproducing or other self-maintaining, population-forming species known or suspected to be of hybrid origin are ranked using the same methodology and notation as for other species.  For example, many fertile polyploid species of ferns formed by interspecific hybridization followed by chromosome doubling. Some of these hybrid-derived species are quite rare (ranked G1), but others are so widespread, abundant, and secure as to deserve a G5 rank.
+
+
+=== Taxa extant only in captivity or cultivation ===
+C - When appended to X or H, the letter 'C' indicates species or other taxa extant in captivity or cultivation, although otherwise extirpated or extinct.
+
+
+=== Variant ranks ===
+#x# – Range of ranks due to uncertainty, where x would be a repetition of the initial letter for Global, National, or Subnational rankings, e.g. G2G3 would mean a global rank ranging from G2 to G3. Limited to two ranks of difference, beyond which the status would be U for Unrankable (i.e. N1N4 would instead be listed as NU).
+U – Unrankable, due to conflicting or absent information.
+NR – Not ranked, i.e. not yet assessed.
+NA – Not applicable, meaning not suitable for conservation activities, typically used for hybrids with no conservation value, or non-native ecosystems (e.g. agricultural fields).
+
+
+== Combinations of ranks ==
+Any NatureServe rank may be used alone, or G-, T-, N-, and S- ranks may be combined in that sequence, such as a G5N3S1 rank for a particular species (or ecological community) within a particular subnational unit of a particular nation.  An entity has only a single global rank (G-rank alone, or G-rank and T-rank combination), but may have different N-ranks or S-ranks for different nations or subnations within its geographical range.
+
+
+== See also ==
+Conservation status
+Listing priority number
+
+
+== External links ==
+http://www.natureserve.org/explorer
+http://www.unep-wcmc.org/species/plants/status_tnc.htm
+
+
+== References ==

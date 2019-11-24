@@ -1,0 +1,292 @@
+Title: Tree spanner
+Aspects: {'K-spanner'}
+
+A tree k-spanner (or simply k-spanner) of a graph 
+  
+    
+      
+        G
+      
+    
+    {\displaystyle G}
+   is a spanning subtree 
+  
+    
+      
+        T
+      
+    
+    {\displaystyle T}
+   of 
+  
+    
+      
+        G
+      
+    
+    {\displaystyle G}
+   in which the distance between every pair of vertices is at most 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+   times their distance in 
+  
+    
+      
+        G
+      
+    
+    {\displaystyle G}
+  .
+
+
+== Known Results ==
+There are several papers written on the subject of tree spanners. One of these was entitled Tree Spanners written by mathematicians Leizhen Cai and Derek Corneil, which explored theoretical and algorithmic problems associated with tree spanners. Some of the conclusions from that paper are listed below. 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+   is always the number of vertices of the graph, and 
+  
+    
+      
+        m
+      
+    
+    {\displaystyle m}
+   is its number of edges.
+
+A tree 1-spanner, if it exists, is a minimum spanning tree and can be found in 
+  
+    
+      
+        
+          
+            O
+          
+        
+        (
+        m
+        log
+        ⁡
+        β
+        (
+        m
+        ,
+        n
+        )
+        )
+      
+    
+    {\displaystyle {\mathcal {O}}(m\log \beta (m,n))}
+   time (in terms of complexity) for a weighted graph, where 
+  
+    
+      
+        β
+        (
+        m
+        ,
+        n
+        )
+        =
+        min
+        
+          {
+          
+            i
+            ∣
+            
+              log
+              
+                i
+              
+            
+            ⁡
+            n
+            ≤
+            m
+            
+              /
+            
+            n
+          
+          }
+        
+      
+    
+    {\displaystyle \beta (m,n)=\min \left\{i\mid \log ^{i}n\leq m/n\right\}}
+  .
+A tree 2-spanner can be constructed in linear time, and the tree 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+  -spanner problem is NP-complete for any fixed integer 
+  
+    
+      
+        t
+        >
+        3
+      
+    
+    {\displaystyle t>3}
+  .
+The complexity for finding a minimum tree spanner in a digraph is 
+  
+    
+      
+        
+          
+            O
+          
+        
+        (
+        (
+        m
+        +
+        n
+        )
+        ⋅
+        α
+        (
+        m
+        +
+        n
+        ,
+        n
+        )
+        )
+      
+    
+    {\displaystyle {\mathcal {O}}((m+n)\cdot \alpha (m+n,n))}
+  , where 
+  
+    
+      
+        α
+        (
+        m
+        +
+        n
+        ,
+        n
+        )
+      
+    
+    {\displaystyle \alpha (m+n,n)}
+   is a functional inverse of the Ackermann function
+The minimum 1-spanner of a weighted graph can be found in 
+  
+    
+      
+        
+          
+            O
+          
+        
+        (
+        m
+        n
+        +
+        
+          n
+          
+            2
+          
+        
+        log
+        ⁡
+        (
+        n
+        )
+        )
+      
+    
+    {\displaystyle {\mathcal {O}}(mn+n^{2}\log(n))}
+   time.
+For any fixed rational number 
+  
+    
+      
+        t
+        >
+        1
+      
+    
+    {\displaystyle t>1}
+  , it is NP-complete to determine whether a weighted graph contains a tree t-spanner, even if all edge weights are positive integers.
+A tree spanner (or a minimum tree spanner) of a digraph can be found in linear time.
+A digraph contains at most one tree spanner.
+The quasi-tree spanner of a weighted digraph can be found in 
+  
+    
+      
+        
+          
+            O
+          
+        
+        (
+        m
+        log
+        ⁡
+        β
+        (
+        m
+        ,
+        n
+        )
+        )
+      
+    
+    {\displaystyle {\mathcal {O}}(m\log \beta (m,n))}
+   time.
+The tree 1-spanner of a weighted graph 
+  
+    
+      
+        G
+      
+    
+    {\displaystyle G}
+   is a minimum spanning tree. Furthermore, every tree 1-spanner admissible weighted graph contains a unique minimum spanning tree.
+A tree 2-spanner (if it exists) of a graph can be found in 
+  
+    
+      
+        
+          
+            O
+          
+        
+        (
+        m
+        +
+        n
+        )
+      
+    
+    {\displaystyle {\mathcal {O}}(m+n)}
+   time.
+
+
+== See also ==
+Graph spanner
+Geometric spanner
+
+
+== References ==
+
+Handke, Dagmar; Kortsarz, Guy (2000), "Tree spanners for subgraphs and related tree covering problems", Graph-Theoretic Concepts in Computer Science: 26th International Workshop, WG 2000 Konstanz, Germany, June 15–17, 2000, Proceedings, Lecture Notes in Computer Science, 1928, pp. 206–217, doi:10.1007/3-540-40064-8_20, ISBN 978-3-540-41183-3.

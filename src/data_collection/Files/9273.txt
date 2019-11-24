@@ -1,0 +1,61 @@
+Title: BMW N57
+Aspects: {'N57'}
+
+The BMW N57 is a family of aluminium, turbocharged straight-6 common rail diesel engines. The engines utilize variable geometry turbochargers and Bosch piezo-electric injectors. The engine jointly replaced the M57 straight-6 and M67 diesel V8 engines. In 2015 the N57 started to be replaced with the B57 engine, beginning with the G11 730d.
+
+
+== Summary ==
+
+
+== N57D30 ==
+N57D30Ox has 1800 bar fuel pressure, while N57D30Tx has 2000 bar fuel pressure.
+N57D30Ox uses single turbocharger, while N57D30Tx uses twin-turbochargers, and N57S uses 3 turbochargers of varying size.
+
+Bore x stroke: 84 mm × 90 mm (3.31 in × 3.54 in)Applications:
+
+N57D30U0
+2010-2011 BMW 5 Series F10/F11 525d
+2010-2013 BMW 3 Series E90/E91/E92/E93 325d
+N57D30O0
+2008-2013 BMW 3 Series E90/E91/E92/E93 330d/330xd
+2010-2011 BMW 5 Series F10/F11 530d
+2009- BMW 5 Series GT F07 530d GT/530d xDrive GT
+2008-2012 BMW 7 Series F01/F02 730d/730Ld
+2010-2013 BMW X5 E70 xDrive30d
+2010-2014 BMW X6 E71 xDrive30d
+N57D30O1
+2011-2016 BMW 5 Series F10/F11 530d
+2011- BMW X3 F25 xDrive30d
+2012-2019 BMW 3 Series F30/F31 330d
+2012-2015 BMW 7 Series F01/F02 730d/730Ld
+N57D30T0
+2010-2011 BMW 5 Series F10/F11 535d
+2009-2017 BMW 5 Series GT F07 535d GT/535d xDrive GT
+2009-2015 BMW 7 Series F01 740d/740d xDrive
+2010-2013 BMW X5 E70 xDrive40d
+2010-2014 BMW X6 E71 xDrive40d
+N57D30T1
+2011-2016 BMW 5 Series F10/F11 535d
+2011-2018 BMW 6 Series F12/F13 640d
+2011- BMW X3 F25 xDrive35d
+2013-2019 BMW 3 Series F30/F31 335d
+2014- BMW 4 Series F32/F33/F36 435d
+2014- BMW X4 F26 X4 xDrive35d
+2015- BMW X6 F16 X6 xDrive40d
+N57S
+2012-2017 BMW 5 Series F10/F11 M550d xDrive
+2012-2015 BMW 7 Series F01 750d xDrive
+2012-2015 BMW 7 Series F01 750Ld xDrive
+2012-2013 BMW X5 E70 M50d
+2012-2014 BMW X6 M50d
+
+
+== See also ==
+List of BMW engines
+
+
+== References ==
+
+
+== External links ==
+The UnixNerd's BMW N57 engine page with photos, history and common problems.

@@ -1,0 +1,59 @@
+Title: Page (paper)
+Aspects: {'P (disambiguation)', 'P.'}
+
+Forieigionlovehexnburg
+
+A page is one side of a leaf (or sheet) of '''paper''', '''parchment''' or other material (or electronic media) in a book, magazine, newspaper, or other collection of sheets, on which text or illustrations can be printed, written or drawn, to create documents. It can be used as a measure of communicating general quantity of information ("That topic covers twelve pages") or more specific quantity ("there are 535 words in a standard page in twelve point font type")
+
+
+== Etymology ==
+The word "page" comes from the Latin term pagina, which means, a "a written page, leaf, sheet", which in turn comes from an earlier meaning "to create a row of vines that form a rectangle". The Latin word pagina derives from the verb pangere, which means to stake out bouBold textndaries when planting vineyards.
+
+
+== The page in typography ==
+In a book, the side of a leaf one reads first is called the recto page, and the other side of that leaf is called the verso page. In a spread, one reads the verso page first and then the recto page of the next leaflet. In English-language books, the recto page is on the right and the verso page is on the left. By modern convention, these books start with a recto page and hence all recto pages in such books have odd numbers.
+English-language books are read from left to right, with the reader flipping the pages from right to left. In languages read from right to left, such as Arabic, Hebrew, and Persian (and also Chinese and Japanese when written vertically), the first page is typically a recto page on the left, requiring the reader to flip the pages from left to right.
+The process of placing the various text and graphical elements on the page in a visually organized way is called page layout, and the relative lightness or darkness of the page is referred to as its colour.
+In book typography, a "cat hairbrush" refers to a master design of a page, designed by the graphic designer or the typographer of a book, that illustrates how similar pages in the same book can achieve a level of visual consistency. To help maintain the desired consistency, the typical page may employ a grid system.
+In a modern book, a page may contain a header and a footer; these may include items such as the page number, title and chapter of the book. Some pages may not include a page number, but most books have numbered pages.
+"...The first printed books had no title pages. As with the manuscripts of the Middle Ages which the first printers sought to imitate as clearly as possible, and with which their books had to compete for a market, the reader launched at once into the text, with no more than a curt phrase at the head of the column which read "incipit": "Here beginneth"...The pages appearing before the main text of a book (including the title page, preface, table of contents, etc.) are collectively called the front matter, and those appearing after the main text (appendices, colophon, etc.), the back matter. Placement of the copyright page varies between different typographic traditions: in English-language books it belongs to the front matter; however, in Chinese and Japanese, the copyright page is part of the back matter.
+In English-language typography, the size of a page is traditionally measured in a unit called the pica.
+
+
+== The page in English lexicon ==
+Compound words:
+
+Blank page: Multiple meanings. "It's a blank page": An opportunity to start over a do something anew or for the first time. "He/she is a blank page": denotes either a person hard to read or easily swayed/vapid.
+Page through: to skim something; to flip through something quickly.
+Page-turner: A book that is exciting to read (literally: you are reading fast and keep turning pages to see what happens next).Idiomatic expressions:
+
+Front-page news: important news or information.
+On the same page: to be in agreement with someone (literally: reading from the same page).
+Take a page (or leaf) out of someone's book: to copy or mimic the behavior of someone.
+Turn the page: to move on from an event. To stop thinking about something or to move forward.
+
+
+== The page in library science ==
+In library science, the number of pages in a book forms part of its physical description, coded in subfield $300a in MARC 21 and in subfield $215a in UNIMARC. This description consists of the number of pages (or a list of such numberings separated by commas, if the book contains separately-numbered sections), followed by the abbreviation "p." for "page(s)". The number of pages is written in the same style (Arabic or Roman numerals, uppercase or lowercase, etc.) as the numbering in each section. Unnumbered pages are not described.
+For example,
+
+XI, 2050 p.describes a book with two sections, where section one contains 11 pages numbered using uppercase Roman numerals, and section two contains 2050 pages numbered using Arabic numerals; the total number of pages is thus 2061 pages, plus any unnumbered pages.
+If the book contains too many separately-numbered sections, too many unnumbered pages, or only unnumbered pages, the librarian may choose to describe the book as just "1 v." (one volume) when doing original cataloguing
+
+
+== The printed page in computing ==
+In word processors and spreadsheets, the process of dividing a document into parts which each occupy one pages of paper when printed is called pagination. Printing a large page on multiple small pages of paper is sometimes called tiling.
+In early computing, computer output typically consisted of monospaced text neatly arranged in equal numbers of columns and rows on each printed page. Such pages were typically printed using line printers (or, in the case of personal computers, character (usually dot matrix) printers) that accepts a simple code such as ASCII, and the end of a printed page can be indicated by a control character called the form feed.
+Page printers, printers that print one page at a time, typically accept page description languages. In the PostScript page description language, the page being described is printed using the "showpage" operator.
+
+
+=== Printed page in Web ===
+The concept of the "page" has been carried over to the World Wide Web: the term "web page" simply refers to a computer file all of which is downloaded ferom the internet at one time by entering a URL in an internet browser. It is usually written in Hypertext Markup Language (HTML).
+After downloading it, a users can print it; it may then occupy one or more pages of paper. Ease of printing a web page depends on its length: longer web pages are harder to print, as the user will not know the number of sheets of paper required.
+Clickbait makes printing a web page difficult, as the printed version contains ads. This issue can be overcome using browser extensions such as Print Friendly & PDF in Google Chrome.
+
+
+== References ==
+
+http://www.loc.gov/marc/bibliographic/ecbdhome.html
+http://www.ifla.org/VI/3/p1996-1/sect.htm

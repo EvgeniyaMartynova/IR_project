@@ -1,0 +1,69 @@
+Title: UAE (emulator)
+Aspects: {'UAE (disambiguation)'}
+
+UAE is a computer emulator which emulates the hardware of Commodore International's Amiga range of computers. Released under the GNU General Public License, UAE is free software.
+
+
+== History ==
+UAE was released in 1995 and was originally called the Unusable Amiga Emulator, due to its inability to boot. In its early stages, it was known as Unix Amiga Emulator and later with other names as well. Since none of the popular expansions fit any more, the abbreviation no longer stands for anything, and the software is simply known as UAE — this occasionally gets backronymed as Universal Amiga Emulator, Ultimate Amiga Emulator or Ubiquitous Amiga Emulator.
+
+
+== Features ==
+UAE is almost a full-featured Amiga emulator. It emulates most of its functions:
+
+Original Chip Set (OCS), Enhanced Chip Set (ECS) and Advanced Graphics Architecture (AGA)
+I/O devices: (floppy disk drives, joystick, mouse and serial ports)
+Processor: Motorola 68000/010/020/040 CPU, optionally a 68881 FPU, and as of WinUAE 3.0.0 beta 15, an enhanced PowerPC JIT core using the QEMU CPU libraries.
+Memory: 2 MB Chip RAM and 8 MB Fast RAM, or 8 MB Chip RAM without Fast RAM. 64 MB Zorro III Fast RAM, independent of Chip RAM setting (68020+ only). 1 MB Slow RAM, for compatibility.
+Picasso 96 graphics with 8 MB of memory
+Serial port, and Simple parallel port is only sufficient for printing.
+Networking via bsdsocket.library emulationFor software, UAE may use disk images made from original Amiga floppy disks. These images have the file extension of "ADF" (Amiga Disk File). Actual Amiga disks cannot be used, because of limitations in the floppy controllers used in other computers.
+Images of Amiga formatted hard drives can also be made. UAE also supports mapping host operating system's directories to Amiga hard drives.
+UAE does not include the original Amiga operating system ROM and files, which are required for running an Amiga system. These are included under license in packages like Amiga Forever. Original Kickstart 3.1 ROM images are also included with AmigaOS4 for PowerPC since version 4.1 Update 4. UAE also supports alternative system ROMs, such as those derived from the AROS project, however these do not provide the same degree of software compatibility as the original ROMs.
+
+
+== Portability ==
+UAE has been ported to many host operating systems, including Linux, macOS, FreeBSD, DOS, Microsoft Windows, RISC OS, BeOS, Palm OS, Android, the Xbox console, the PSP, PSVita and GP2X handhelds, iOS, the Wii and Dreamcast consoles, and even to AmigaOS, MorphOS and AROS.
+
+
+== Emulation speed ==
+There have been many threads in the past on Usenet and other public forums where people argued about the possibility of writing an Amiga emulator. Some considered UAE to be attempting the impossible; to be demanding that a system read, process and output 100 MB/s of data when the fastest PC was a 66 MHz 486, while keeping various emulated chips (the Amiga chipset) all in sync and appearing as they were supposed to appear to software.
+UAE was almost entirely unusable in its first releases, but slowly and step by step, it fleshed out its support of the Amiga chipset and by the end of 1997 was able to emulate an Amiga 500 at a quality and speed that were sufficient for productivity use and for many games.
+Since then, UAE has been usable, thanks partly to the effort taken to develop it and partly to the big improvements in technology that brought computers many times faster than those UAE was initially running on. Many Amiga games and applications can run smoothly on a Pentium II-era system. The realization that a useful Amiga emulator could be written contributed to an increase in enthusiasm about emulation, which started or sped-up efforts to write emulators for other and often less popular computer and electronic game architectures.
+A major improvement was made in 2000 by Bernd Meyer with the use of Just-in-time compilation, which significantly improved the emulation speed, to the extent that average PCs could now emulate some Amiga software faster than any real Amiga could run it. UAE can use as much of the host's power in native mode as possible, or balance it with other requirements of the host OS, or to accurately reflect the original speed, depending on a user's choice. UAE also provides an RTG-compatible "video card" for the Amiga side of the emulation which is tailored for display on the host hardware, so as not to be limited to the emulation of the original Amiga video hardware.
+
+
+== Project development ==
+There are five main forks of the original program:
+
+WinUAE, designed to run on Windows
+PUAE, designed to run on Unix platforms (continuation of the abandoned E-UAE and also a port of WinUAE)
+FS-UAE, designed to run on Windows, macOS and Linux (a port of WinUAE with a focus on emulating games, featuring a new on-screen GUI and cross-platform online play)
+UAE4all, a stripped version, designed to run a low end Amiga emulation on mobile devices.
+Scripted Amiga Emulator (SAE), designed to run in a modern browser using JavaScript and HTML5. It is also based on WinUAE and was released on 1. September 2012 by Rupert Hausberger. SAE needs a very fast computer to run on.The most active fork is WinUAE; current versions of this still contain bugs and compatibility issues. 
+Specific versions:
+UAE v0.8.29 2008-11-30,
+FS-UAE v2.6.2 2015-10-27,
+E-UAE v0.8.29 2007-03-28
+
+
+== See also ==
+
+Amiga Forever, Amiga emulator
+Basilisk II, Apple Macintosh emulator which uses UAE to emulate the 68k processor
+Hatari, Atari ST/STe/TT/Falcon computer series emulator which uses UAE for the core m68k emulation
+Fellow, another Amiga emulator which was released not too long after the first usable versions of UAE, and generated competition beneficial to both projects.
+POSE, Palm OS emulator that is based on Copilot, which in turn was based on UAE's m68k emulation
+TiEmu, Texas Instruments calculator emulator, which uses UAE for the core m68k emulation
+
+
+== References ==
+
+
+== External links ==
+UAE Website
+WinUAE Website
+PUAE - fork of E-UAE
+FS-UAE - A fork of WinUAE and E-UAE
+Scripted Amiga Emulator
+Gamebase Amiga - provides a single click ROM starting interface on top of WinUAE

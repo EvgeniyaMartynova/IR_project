@@ -1,0 +1,35 @@
+Title: Magnocellular cell
+Aspects: {'M cells'}
+
+Magnocellular cells, also called M-cells, are neurons located within the Adina magnocellular layer of the lateral geniculate nucleus of the thalamus.  The cells are part of the visual system.  They are termed "magnocellular" since they are characterized by their relatively large size compared to parvocellular cells.
+
+
+== Structure ==
+
+The full details of the flow of signaling from the eye to the visual cortex of the brain that result in the experience of vision are incompletely understood. Many aspects are subject to active controversy and the disruption of new evidence.In the visual system, signals mostly travel from the retina to the lateral geniculate nucleus (LGN) and then to the visual cortex. In humans the LGN is normally described as having six distinctive layers. The inner two layers, (1 and 2) are magnocellular cell (M cell) layers, while the outer four layers, (3,4,5 and 6), are parvocellular cell (P cell) layers. An additional set of neurons, known as the koniocellular cell (K cell) layers, are found ventral to each of the M cell and P cell layers.  These layers were named this way because cells in the M layers of the LGN are larger than cells in the P layers.M cells in the LGN receive input from parasol ganglion cells (which some neuroscientists call M cells), and P cells receive input from midget retinal ganglion cells (which some neuroscientists call P cells).
+
+From the LGN, the M pathway continues by sending information to the interblob regions of the 4Cα layer of the V1 region of the visual cortex, also called the "striate cortex". Other cells in the striate are more influenced from signaling from P cells and yet others from K cells.   As signals are passed to other regions of the cortex, the signals start to be less separate, more integrated, and more influenced by signals from other parts of the brain.  While classically it is said that signaling through the M pathway ultimately flow out of the visual cortex through the dorsal stream and signaling through the P pathway ultimately flows to the ventral stream, subsequent studies have shown that both pathways influence both streams.
+
+
+== Function ==
+The magnocellular pathway cannot provide finely detailed or colored information, but still provides useful static, depth, and motion information. The M pathway has high light/dark contrast detection, and is more sensitive at low spatial frequencies than high spatial frequencies. Due to this contrast information, M cells are essential for detecting changes in luminance, and performing visual search tasks and detecting edges.The M pathway is also important for providing information about the location of objects. M cells can detect the orientation and position of objects in space, information that is sent through the dorsal stream. This information is also useful for detecting the difference in positions of objects on the retina of each eye, an important tool in binocular depth perception.Cells in the M pathway have the ability to detect high temporal frequencies and can thus detect quick changes in the position of an object. This is the basis for detecting motion. The information sent to the Intraparietal Sulcus (IPS) of the posterior parietal cortex allows the M pathway to direct attention and guide saccadic eye movements to follow important moving objects in the visual field. In addition to following objects with the eyes, the IPS sends information to parts of the frontal lobe that allows the hands and arms to adjust their movements to correctly grasp objects based on their size, position, and location. This ability has led some neuroscientists to hypothesize that the purpose of the M pathway is not to detect spatial locations, but to guide actions related to the position and motion of objects.Some information has also been found to support the hypothesis that the M pathway is necessary for facial processing.
+
+
+== Clinical significance ==
+Abnormal magnocellular pathways and magnocellular cells can be associated with various disorders and ocular impairments, including dyslexia, prosopagnosia and schizophrenia.
+
+
+=== Dyslexia ===
+Dyslexia is a disability which affects individual’s ability to read. It often first manifests in childhood, if at all; however, dyslexia can manifest itself in adulthood because of a brain tumor or lesion on/penetrating M cells. There is no clear idea of the role of M cells and the magnocellular pathway in dyslexia.
+One theory suggests that the nonlinearity, size, and compensation of miniature eye movements of M cells all help to focus on a single target and blur the surroundings, which is crucial in reading. This suggests that M cells are underdeveloped in many dyslexics. This may be due to genetics, autoimmunity, or nutrition. The KIAA0319 gene on chromosome six. controls cell migration to the LGN during development; and studies in transgenic mice and on brains of people with dyslexia examined after they died, show malformations in the LGN and cells expressing KIAA0319 growing in the wrong place. M cells are vulnerable to antineuronal antibodies which attack and render them unusable in the magnocellular pathway. This could be a cause of why dyslexics are more likely to have weakened immune systems.Another line of research suggests that defective eye movement caused by M cells is the cause of dyslexia. Since the magnocellular system is sensitive to image movement, and dyslexia is posited to be caused by abnormalities in M cells, dyslexics tend to focus on words longer, take shorter scans when reading, and stop more often per line. The study postulates that this is not caused by dyslexia but rather, low comprehension of the text causing abnormal eye movements in M cells. Therefore, it is difficult to conclude the importance of M cells in dyslexia from this study.
+
+
+=== Schizophrenia ===
+Schizophrenia is a mental disorder in which people are unable to differentiate what is real and what is not. It is believed that the magnocellular pathway may help with facial recognition and discrimination in children, but when this pathway is not developed completely or correctly, facial processing is more difficult for individuals later in life. This is seen in people with schizophrenia and occurs when there are issues in the integration of information from the M cell and P cell pathways, making it difficult for individuals with schizophrenia to differentiate between reality and hallucinations.
+
+
+== References ==
+
+
+== External links ==
+NIF Search - Magnocellular Cell via the Neuroscience Information Framework

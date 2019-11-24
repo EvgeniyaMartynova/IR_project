@@ -1,0 +1,105 @@
+Title: Extended Copy Protection
+Aspects: {'XCP'}
+
+Extended Copy Protection (XCP) is a software package developed by the British company First 4 Internet (which on 20 November 2006, changed its name to Fortium Technologies Ltd) and sold as a copy protection or digital rights management (DRM) scheme for Compact Discs. It was used on some CDs distributed by Sony BMG and sparked the 2005 Sony BMG CD copy protection scandal; in that context it is also known as the Sony rootkit.
+Security researchers, beginning with Mark Russinovich in October 2005, have described the program as functionally identical to a rootkit: a computer program used by computer intruders to conceal unauthorised activities on a computer system. Russinovich broke the story on his Sysinternals blog, where it gained attention from the media and other researchers. This ultimately led to a civil lawsuit and criminal investigations, which forced Sony to discontinue use of the system.
+While Sony eventually recalled the CDs that contained the XCP system, the web-based uninstaller was investigated by noted security researchers Ed Felten and Alex Halderman, who stated that the ActiveX component used for removing the software exposed users to far more significant security risks, including arbitrary code execution from websites on the internet.
+
+
+== Description ==
+The version of this software used in Sony CDs is the one marketed as "XCP-Aurora".  The first time a user attempts to play such a CD on a Windows system, the user is presented with an EULA, if they refuse to accept it the CD is ejected, if they accept it the software is installed. The EULA did not mention that it installed hidden software. The software will then remain resident in the user's system, intercepting all accesses of the CD drive to prevent any media player or ripper software other than the one included with XCP-Aurora from accessing the music tracks of the Sony CD. No obvious way to uninstall the program is provided. Attempting to remove the software by deleting the associated files manually will render the CD drive inoperable due to registry settings that the program has altered. However, it was soon discovered that the software could be easily defeated by merely using a permanent marker to draw a dark border along the edge of the disk.
+
+
+== Security research ==
+Following Mark Russinovich's publication of his findings, other security researchers were quick to publish their own analyses. Many of these findings were highly critical of Sony and First 4 Internet. Specifically, the software was found to conceal its activity in the manner of a rootkit and expose users to follow-on harm from viruses and trojans.
+XCP's cloaking technique, which makes all processes with names starting with $sys$ invisible, can be used by other malware "piggybacking" on it to ensure that it, too, is hidden from the user's view. The first malicious trojan to hide via XCP was discovered on 10 November 2005 according to a report by the BitDefender antivirus company.Follow-up research by Felten and Halderman showed that the Web-based uninstaller Sony later offered for the software contains its own critical security problems. The software installs an ActiveX component which allows any Web site to run software on the user's computer without restriction. This component is used by First 4 Internet's Web site to download and run the uninstaller, but it remains active afterward allowing any Web site the user visits to take over the computer.
+Since it is specific to Microsoft Windows, XCP has no effect on all other operating systems such as Linux, BSD, OS/2, Solaris, or OS X, meaning that users of those systems do not suffer the potential harm of this software, and they also are not impeded from "ripping" (or copying) the normal music tracks on the CD. (Some discs involved in the Sony scandal contained a competing technology, MediaMax from SunnComm, which attempts to install a kernel extension on Mac OS X. However, due to the permissions of Mac OS X, there were no widespread infections among Mac users.)
+Although Russinovich was the first to publish about the rootkit, other researchers had discovered it around the same time, but were either still analyzing it or chose not to disclose anything sooner due to the chilling effect of the anti-circumvention clause of the Digital Millennium Copyright Act.
+
+
+=== Antivirus industry response ===
+Shortly after independent researchers broke the story, security software vendors followed up, releasing detailed descriptions of the components of XCP - as well as software to remove the $sys$* cloaking component of it. On the other hand, no software has yet been released to remove the CD-ROM filter driver component. Computer Associates, makers of the PestPatrol anti-spyware software, characterize the XCP software as both a trojan horse and a
+rootkit:
+
+XCP.Sony.Rootkit installs a DRM executable as a Windows service, but misleadingly names this service "Plug and Play Device Manager", employing a technique commonly used by malware authors to fool everyday users into believing this is a part of Windows. Approximately every 1.5 seconds, this service queries the primary executables associated with all processes running on the machine, resulting in nearly continuous read attempts on the hard drive. This has been shown to shorten the drive's lifespan.
+Furthermore, XCP.Sony.Rootkit installs a device driver, specifically a CD-ROM filter driver, which intercepts calls to the CD-ROM drive. If any process other than the included Music Player (player.exe) attempts to read the audio section of the CD, the filter driver inserts seemingly random noise into the returned data, thus making the music unlistenable.
+XCP.Sony.Rootkit loads a system filter driver which intercepts all calls for process, directory or registry listings, even those unrelated to the Sony BMG application. This rootkit driver modifies what information is visible to the operating system in order to cloak the Sony BMG software. This is commonly referred to as rootkit technology. Furthermore, the rootkit does not only affect XCP.Sony.Rootkit's files. This rootkit hides every file, process, or registry key beginning with $sys$. This represents a vulnerability, which has already been exploited to hide World of Warcraft RING0 hacks as of the time of this writing, and could potentially hide an attacker's files and processes once access to an infected system had been gained.
+
+Computer Associates announced, on November 2005, that its anti-spyware product, PestPatrol, would be able to remove Sony's software. One month later, Microsoft released an update for its Windows Malicious Software Removal Tool which could clean the F4IRootkit malware.The somewhat slow and incomplete response of some antivirus companies has, however, been questioned by Bruce Schneier, information security expert and author of security articles and texts, including Secrets and Lies. In an article for Wired News, Mr. Schneier asks, "What happens when the creators of malware collude with the very companies we hire to protect us from that malware?" His answer is that "users lose... A dangerous and damaging rootkit gets introduced into the wild, and half a million computers get infected before anyone does anything."
+
+
+== Impact of XCP ==
+Beginning as early as August 2005, Windows users reported crashes related to a program called aries.sys, while inexplicably being unable to find the file on their computers.
+This file is now known to be part of XCP. Call for Help host Leo Laporte said that he had experienced a rise in reports of "missing" CD-ROM drives, a symptom of unsuccessful attempts to remove XCP.
+Security researcher Dan Kaminsky used DNS cache analysis to determine that 568,000 networks worldwide may contain at least one XCP-infected computer. Kaminsky's technique uses the fact that DNS nameservers cache recently fetched results, and that XCP phones home to a specific hostname. By finding DNS servers that carry that hostname in cache, Kaminsky was able to approximate the number of networks affected. [3]  After the release of the data, Kaminsky learned that an as-yet undetermined number of "Enhanced CDs" without the rootkit also phone home to the same address that rootkit-affected discs use, so infection rates are still under active investigation.
+
+
+== XCP flaw ==
+According to analyst firm Gartner, XCP suffers from the same flaw in implementing DRM as any DRM technology (current or future) that tries to apply DRM to audio CDs designed to be played on stand-alone CD players. According to Gartner, because the installation of XCP or any DRM software relies on the CD being multi-session, the application of ink (via an ordinary felt-tip marker) to the outer edge of the disk renders the data track of the CD unreadable, thereby causing the PC to treat the disc as an ordinary single-session music CD.Slysoft's AnyDVD program, which removes copy protections from both standard and hi-definition video discs, also defeats DRM on audio CDs.  When active and an audio CD is inserted, AnyDVD blocks the PC from accessing any session but the audio; rendering data sessions unreadable and preventing the installation of malware such as XCP.
+
+
+== Legal concerns ==
+There is much speculation to what extent the actions taken by this software are a violation of various laws against unauthorized tampering with computers, or laws regarding invasion of privacy by "spyware", and how they subject Sony and First 4 Internet to legal liability. The States of California, New York, and Texas, as well as Italy, have already taken legal action against both companies and more class action lawsuits are likely. However, the mere act of attempting to view or remove this software in order to determine or prevent its alteration of Windows would theoretically constitute a civil or criminal offense under certain anti-circumvention legislation such as the controversial Digital Millennium Copyright Act in the United States.
+
+The Electronic Frontier Foundation's Fred von Lohmann also heavily criticised the XCP EULA, calling it the "legalese rootkit."One of the primary reasons for the XCP experiment lies in the issue of adding on DRM to a legacy standard.  These problems are explored by Professor Randal Picker, Professor of Law for the University of Chicago School of Law, in his article, "Mistrust-Based Digital Rights Management", published in Volume 5 of the Journal on Telecommunications and High Technology Law. CDs by themselves are incapable of updating legacy hardware such as stand-alone CD players, and lack the ability to change or upgrade the firmware in order to read DRM.  Thus the DRM must be added on so as not to interfere with the function of the legacy players yet still work when the same CD is placed in a computer. Professor Picker analyzes the four main issues with add-on DRM.
+The first problem, as demonstrated in the XCP example, is that capable consumers can simply by-pass the DRM. Turning off autorun prevented the rootkit installation and thus invalidated the DRM scheme.
+The second problem is consumer reaction. Adding DRM to a legacy product like music CDs, which traditionally had no rights management scheme, will infuriate consumers. Professor Picker points out that in the wake of the negative publicity surrounding the Sony add-on DRM, Amazon.com began alerting customers as to which Sony CDs contained XCP. Customers could avoid the DRM entirely, negating the effectiveness.
+The third problem lies in the legal response. The EFF, as well as state attorneys general, investigated and brought suit against Sony for the XCP program. Professor Picker does not analyze the legal merits of such suits, but the cost of litigation potentially outweighs the benefit of attempting to add-on DRM.
+The fourth and final problem lies in the End User License Agreement attempted to be enforced by the add-on DRM. The ability to actually enforce these agreements on add-on DRM is limited by the mere fact that without active registration and tracking of the CDs, the company will have no one to enforce against. Therefore, the expected benefit of enforcing the EULA against violators is actually non-existent; the costs, however, of implementing the add-on DRM scheme, in the form of state and federal investigations, private lawsuits, negative publicity, consumer backlash and the technical limitations, far outweighs the benefits.
+
+
+=== Copyright violations ===
+Researcher Sebastian Porst, Matti Nikki and a number of software experts have published evidence that the XCP software infringes on the copyright of the LAME mp3 encoder, mpglib,FAACid3lib (ID3 tag reading and writing), mpg123 and the VLC media player.Princeton researcher Alex Halderman discovered that on nearly every XCP CD, code which uses a modified version from Jon Johansen's DRMS software which allows to open Apple Computer's FairPlay DRM is included. He found the code to be inactive, but fully functional as he could use it to insert songs into Fairplay. DRMS, mpg123 and VLC are licensed under the GNU General Public License (GPL). The other software found, like LAME, is licensed under the terms of the GNU Lesser General Public License (LGPL), also as free software. If the claims are correct, then Sony/BMG was distributing copyrighted material illegally.
+Jon Johansen wrote in his blog that after talking with a lawyer, he thinks that he cannot sue; however, there are opinions that the advice he was given is wrong.
+The LAME developers have put an open letter to Sony/BMG online.
+Copyright violations which Sony could be accused of include:
+
+No "prominent notices" for including of GPL and LGPL software.
+Statically linking GPL code into the program but not providing the source code of the whole program under GPL.
+Statically linking LGPL code but not providing the source of the LGPL parts and the binary code of the non-LGPL parts to allow relinking with updated LGPL code.
+Placing restrictions on the use of the code outside of what GPL/LGPL allow, e.g. not "licensing at no charge to all third parties" under the LGPL and GPL.Sony already provides a version of id3lib's source code on its web site, but unrelated to XCP.
+
+
+== Sony's response ==
+On a National Public Radio program, Thomas Hesse, President of Sony BMG's global digital business division asked, "Most people, I think, don't even know what a rootkit is, so why should they care about it?"  He explained that "The software is designed to protect our CDs from unauthorized copying and ripping."
+Sony also contends that the "component is not malicious and does not compromise security," but "to alleviate any concerns that users may have about the program posing potential security vulnerabilities, this update has been released to enable users to remove the rootkit component from their computers."An analysis of this uninstaller has been published by Mark Russinovich - who initially uncovered XCP - titled "More on Sony: Dangerous Decloaking Patch, EULAs and Phoning Home". Obtaining the original uninstaller requires one to use a specific browser (Microsoft Internet Explorer) and to fill out an online form with their email address, receive an email, install the patch, fill out a second online form, and then they will receive a link to the uninstaller.  The link is personalized, and will not work for multiple uninstalls.  Furthermore, Sony's Privacy Policy states that this address can be used for promotions, or given to affiliates or "reputable third parties who may contact you directly".
+It has also been reported that the uninstaller might have security problems which would allow remote code execution.  Sony's uninstall page would attempt to install an ActiveX control when it is displayed in Internet Explorer. This ActiveX control was marked "Safe for scripting," which means that any web page can utilize the control and its methods. Some of the methods provided by this control were dangerous, as they may have allowed an attacker to upload and execute arbitrary code.
+On 11 November 2005, Sony announced they would suspend manufacturing CDs using the XCP system:
+
+"As a precautionary measure, Sony BMG is temporarily suspending the manufacture of CDs containing XCP technology," it said in a statement.
+"We also intend to re-examine all aspects of our content protection initiative to be sure that it continues to meet our goals of security and ease of consumer use," Sony BMG added.
+
+This followed comments by Stewart Baker, the Department of Homeland Security's assistant secretary for policy, in which he took DRM manufacturers to task, as reported in the Washington Post:
+
+In a remark clearly aimed directly at Sony and other labels, Stewart continued: "It's very important to remember that it's your intellectual property - it's not your computer. And in the pursuit of protection of intellectual property, it's important not to defeat or undermine the security measures that people need to adopt in these days."
+
+According to The New York Times, Sony BMG said "about 4.7 million CDs containing the software had been shipped, and about 2.1 million had been sold." 52 albums were distributed by Sony-BMG that contained XCP.On 14 November 2005, Sony announced it was recalling the affected
+CDs and plans to offer exchanges to consumers who purchased the discs.
+
+
+== Albums with XCP ==
+
+The Electronic Frontier Foundation published its original list of 19 titles on 9 November 2005.
+On 15 November 2005 The Register published an article saying there may be as many as 47 titles.
+Sony BMG says there are 52 XCP CDs.Amazon says it's treating the XCP CDs as defective merchandise and will offer a refund with shipping, as long as the customer specifies the request.
+The various adverse side-effects of XCP can rationally be viewed as defects, as they are not part of the (apparent) intended function of XCP; this view skirts the more substantive issue of whether Sony transgressed against computer owners by intentionally modifying their computer systems without consent.
+
+
+== See also ==
+Janus (DRM)
+OpenMG - Sony DRM used by Sony Connect
+SecuROM
+
+
+== Notes ==
+
+
+== References ==
+Krebs, Brian. "Calif. Lawsuit Targets Sony". The Washington Post; 8 November 2005.
+
+
+== External links ==
+Titles containing XCP distributed in the United States
+Sony BMG XCP Help Page
+Online and downloadable patch available from Sony
+Virus Writers Exploit Sony Anti-Piracy Software

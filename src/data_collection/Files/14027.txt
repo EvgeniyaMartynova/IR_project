@@ -1,0 +1,16 @@
+Title: Uranium-234
+Aspects: {'U234'}
+
+Uranium-234 (234U) is an isotope of uranium. In natural uranium and in uranium ore, U-234 occurs as an indirect decay product of uranium-238, but it makes up only 0.0055% (55 parts per million) of the raw uranium because its half-life of just 245,500 years is only about 1/18,000 as long as that of U-238. The primary path of production of U-234 via nuclear decay is as follows: U-238 nuclei emit an alpha particle to become thorium-234 (Th-234). Next, with a short half-life, Th-234 nuclei emit a beta particle to become protactinium-234 (Pa-234), or more likely a nuclear isomer denoted Pa-234m. Finally, Pa-234 or Pa-234m nuclei emit another beta particle to become U-234 nuclei.
+U-234 nuclei decay by alpha emission to thorium-230, except for the tiny fraction (parts per billion) of nuclei which undergo spontaneous fission.
+Extraction of rather small amounts of U-234 from natural uranium would be feasible using isotope separation, similar to that used for regular uranium-enrichment. However, there is no real demand in chemistry, physics, or engineering for isolating U-234. Very small pure samples of U-234 can be extracted via the chemical ion-exchange process - from samples of plutonium-238 that have been aged somewhat to allow some decay to U-234 via alpha emission.
+Enriched uranium contains more U-234 than natural uranium as a byproduct of the uranium enrichment process aimed at obtaining U-235, which concentrates lighter isotopes even more strongly than it does U-235. The increased percentage of U-234 in enriched natural uranium is acceptable in current nuclear reactors, but (re-enriched) reprocessed uranium might contain even higher fractions of U-234, which is undesirable. This is because U-234 is not fissile, and tends to absorb slow neutrons in a nuclear reactor - becoming U-235.
+U-234 has a neutron-capture cross section of about 100 barns for thermal neutrons, and about 700 barns for its resonance integral - the average over neutrons having various intermediate energies. In a nuclear reactor non-fissile isotopes capture a neutron breeding fissile isotopes.  U-234 is converted to U-235 more easily and therefore at a greater rate than U-238 is to Pu-239 (via neptunium-239) because U-238 has a much smaller neutron-capture cross-section of just 2.7 barns.
+However, (n, 2n) reactions with fast neutrons also convert small amounts of U-235 to U-234, so that spent nuclear fuel may contain about 0.010% U-234, a much higher fraction than in non-irradiated uranium.Depleted uranium contains much less U-234 (around 0.001%) which makes the radioactivity of depleted uranium about one-half of that of natural uranium.  Natural uranium has an "equilibrium" concentration of U-234 at the point where an equal number of decays of U-238 and U-234 will occur.
+
+
+== See also ==
+Uranium–uranium dating
+
+
+== References ==

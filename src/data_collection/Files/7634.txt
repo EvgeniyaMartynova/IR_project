@@ -1,0 +1,30 @@
+Title: Taito L System
+Aspects: {'L System'}
+
+The Taito L System is an 8-bit arcade system board released by Taito Corporation in 1988.
+
+
+== Specifications ==
+CPU: Taito Custom TC0090LVC (Zilog Z80). Some games have a dual or a triple TC0090LVC on it;
+Sound CPU: Z80;
+Sound Chip: Yamaha YM2203 (YM2610 in Raimais, YM2203 + OKI MSM5205 in Champion Wrestler)
+Video resolution: 320x224
+
+
+== Taito L System games ==
+American Horseshoes
+Cachat / Tube-It
+Champion Wrestler
+Cuby Bop
+Fighting Hawk
+Kuri Kinton
+Palamedes
+Playgirls
+Playgirls 2
+Plotting / Flipull
+Puzznic
+Raimais
+
+
+== References ==
+System16 - The Arcade Museum

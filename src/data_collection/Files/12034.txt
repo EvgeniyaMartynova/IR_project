@@ -1,0 +1,76 @@
+Title: Tumansky R-29
+Aspects: {'R29'}
+
+The Tumansky R-29 is a Soviet turbojet aircraft engine that was developed in the early 1970s. It is generally described as being in the "third generation" of Soviet gas turbine engines which are characterized by high thrust-to-weight ratios and the use of turbine air cooling.
+
+
+== Variants ==
+R-29-300
+Original variant. Used in the MiG-23MF and related variants.
+R-29B-300
+Simplified variant of the engine intended for the MiG-27.
+R-29PN
+Advanced variant that replaced the -300 model on non-export aircraft.
+R-29BS-300
+Variant with modified gearbox. Used in several export variants of the Sukhoi Su-17.
+Khatchaturov R-35
+Developed version used in late variants of the MiG-23
+
+
+== Applications ==
+IAR 95 (Intended application)
+Mikoyan-Gurevich MiG-23
+Mikoyan MiG-27
+Shenyang J-13
+Sukhoi Su-22
+
+
+== Specifications ==
+Data from Gunston
+
+
+==== General characteristics ====
+Type: Turbojet
+Length: 4,991 mm (196.5 in)
+Diameter: 968 mm (38.1 in)
+Dry weight: 1,760 kg (3,880 lb)
+
+
+==== Components ====
+Compressor: Two-spool Five-stage low pressure, six-stage high pressure (axial)
+Combustors: Annular
+Turbine: Two-stage high pressure, single-stage low pressure
+
+
+==== Performance ====
+Maximum thrust: 
+78.48 kilonewtons (17,640 lbf) full military (dry)
+112.81 kilonewtons (25,360 lbf) with boosted afterburner (CSR mode, altitude < 4,000 metres (13,000 ft))
+Overall pressure ratio: 12.9:1
+Air mass flow: 105 kg/s
+Turbine inlet temperature: 1,083 °C
+Specific fuel consumption: =95,8 kg/(h·kN) (0.94 lb/(h·lbf)) at maximum military power
+183.5 kg/(h·kN) (1.81 lb/(h·lbf)) with afterburner
+Thrust-to-weight ratio: 4.55; 6.54 with afterburner.
+
+
+== See also ==
+
+Comparable engines
+
+Lyulka AL-21Related lists
+
+List of aircraft engines
+
+
+== References ==
+
+
+=== Citations ===
+
+
+=== Sources ===
+
+
+== External links ==
+R-29 on leteckemotory.cz (in Czech) (in Slovak)

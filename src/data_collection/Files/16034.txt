@@ -1,0 +1,12 @@
+Title: Cross Enterprise Document Sharing
+Aspects: {'XDS'}
+
+In the field of electronic health records (EHR), Cross Enterprise Document Sharing (XDS) is a system of standards for cataloging and sharing patient records across health institutions. XDS provides a registry for querying which patient records are in an EHR repository and methods for retrieving the documents. The XDS system of registry and repository is termed an integration profile and was created by Integrating the Healthcare Enterprise. XDS uses structured EHR standards such as Continuity of Care Record (CCR) and Clinical Data Architecture (CDA) to facilitate data exchange.The registry stores metadata about each document stored in a repository, including its source or location. There may be multiple repositories of documents indexed, but only one registry per clinical domain. XDS provides a Patient Identity Service for cross-referencing patients across multiple domains.
+Conceptually, patient health record data is classified as Longitudinal Records (EHR-LR) and Care Records (EHR-CR). Longitudinal records describe the basic patient health data across clinics and over the lifetime of the patient. Care records describe specific clinical data contained within a clinical domain. There have also been XDS standards XDS-I and XDS-b developed for electronic imaging records.
+
+
+== References ==
+
+
+== External links ==
+IHE XDS Wiki page

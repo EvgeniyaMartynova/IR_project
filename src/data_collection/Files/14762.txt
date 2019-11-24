@@ -1,0 +1,52 @@
+Title: NRIST W-series UAV
+Aspects: {'W series'}
+
+NRIST W-series UAVs are Chinese UAVs developed by Nanjing Research Institute of Simulation Technology (南京模拟技术研究所) (NRIST), also known as the 60th Research Institute of People's Liberation Army General Staff Department (总参六十所), an ISO 9001 certified research/production facility headquartered in Nanjing.
+
+
+== W-50 ==
+W-50 is an UAV developed by NRIST in twin-boom layout, as a large payload, low cost and simple to operate UAV. Propulsion is provided by a two-blade propeller driven pusher engine mounted at the rearend of the fuselage. Specification:
+Length (m): 3.4
+Wingspan (m): 4.8
+Speed (m/s): 30 – 50
+Max take-off weight (kg): 120
+Payload (kg): 20
+Endurance (h): 3 – 5
+Remote control range (km): 30 – 100
+Ceiling (km): 3
+Min operating altitude (m): 100
+Propulsion: CYS-350F
+Temperature range (°C): -20 to +50
+Launch: Rocket-assisted take-off
+Recovery: parachute
+
+
+== W-60 ==
+W-60 is an UAV developed by NRIST in twin-boom layout and propulsion is provided by a propeller driven pusher engine mounted at the rearend of the fuselage. The existence of W-60 was revealed for the very first time when it was shown in photo form in June 2012 at the 4th UAV Exhibition held in Beijing.
+
+
+== WD-50 ==
+WD-50 is an UAV developed by NRIST in twin-boom layout, and it is a development of W-50. Propulsion is provided by a two-blade propeller driven pusher engine mounted at the rearend of the fuselage. WD-50 can fly at higher altitude than W-50. Specification:
+Length (m): 3.2
+Wingspan (m): 4.8
+Speed (m/s): 30 – 50
+Max take-off weight (kg): 120
+Payload (kg): 20
+Endurance (h): > 4
+Remote control range (km): 100
+Ceiling (km): 4.5
+Temperature range (°C): -20 to +50
+Max wind scale allowed for operation: 5
+Launch: Rocket-assisted take-off
+Recovery: parachute
+
+
+== WG-20 ==
+WG-20 is an UAV developed by NRIST in twin-boom layout with a pair of skids as landing gear. W-60 is launched by catapult and recovered via parachute. Propulsion is provided by a two-blade wooden propeller driven pusher engine mounted at the rearend of the fuselage. WG-20 made its public debut in June 2010 at the 3rd UAV Exhibition held in Beijing.
+
+
+== See also ==
+List of unmanned aerial vehicles of the People's Republic of China
+
+
+== References ==

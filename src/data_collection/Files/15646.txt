@@ -1,0 +1,57 @@
+Title: Convair X-6
+Aspects: {'X12'}
+
+The Convair X-6 was a proposed experimental aircraft project to develop and evaluate a nuclear-powered jet aircraft. The project was to use a Convair B-36 bomber as a testbed aircraft, and though one NB-36H was modified during the early stages of the project, the program was canceled before the actual X-6 and its nuclear reactor engines were completed. The X-6 was part of a larger series of programs, costing US$7 billion in all, that ran from 1946 through 1961.  Because such an aircraft's range would not have been limited by liquid jet fuel, it was theorized that nuclear-powered strategic bombers would be able to stay airborne for weeks at a time.
+
+
+== Development and design ==
+In May 1946, the Nuclear Energy for the Propulsion of Aircraft (NEPA) project was started by the Air Force.  Studies under this program were done until May 1951 when NEPA was replaced by the Aircraft Nuclear Propulsion (ANP) program.  The ANP program included plans for Convair to modify two B-36s under the MX-1589 project.  One of the B-36s was used to study shielding requirements for an airborne reactor, while the other became the X-6.
+
+
+=== Nuclear Test Aircraft ===
+The first modified B-36 was called the Nuclear Test Aircraft (NTA), a B-36H-20-CF (Serial Number 51-5712) that had been damaged in a tornado at Carswell AFB on September 1, 1952.  This plane was redesignated the XB-36H, then the NB-36H and was modified to carry a 3 megawatt, air-cooled nuclear reactor in its bomb bay.  The reactor, named the Aircraft Shield Test Reactor (ASTR), was operational but did not power the plane. Water, acting as both moderator and coolant, was pumped through the reactor core and then to water-to-air heat exchangers to dissipate the heat to the atmosphere. Its sole purpose was to investigate the effect of radiation on aircraft systems.To shield the flight crew, the nose section of the aircraft was modified to include a 12-ton lead and rubber shield. The standard windshield was replaced with one made of 6-inch-thick (15 cm) acrylic glass. The amount of lead and water shielding was variable. Measurements of the resulting radiation levels were then compared with calculated levels to enhance the ability to design optimal shielding with minimum weight for nuclear-powered bombers.The NTA completed 47 test flights and 215 hours of flight time (during 89 of which the reactor was operated) between September 17, 1955, and March 1957 over New Mexico and Texas. This was the only known airborne reactor experiment by the U.S. with an operational nuclear reactor on board. The NB-36H was scrapped at Fort Worth in 1958 when the Nuclear Aircraft Program was abandoned. After the ASTR was removed from the NB-36H, it was moved to the National Aircraft Research Facility.Based on the results of the NTA, the X-6 and the entire nuclear aircraft program was abandoned in 1961.
+
+
+=== Development plans ===
+
+Had the program progressed, follow-on aircraft would have been based on the successor to the B-36, Convair's swept-wing  B-60.The X-6 would have been powered by General Electric X-39 engines (J47 engines modified to use nuclear energy as fuel), utilizing a P-1 reactor. In a nuclear jet engine, the reactor core was used as a heat source for the turbine's air flow, instead of burning jet fuel. One disadvantage of the design was that, since the airflow through the engine was used to cool the reactor, this airflow had to be maintained even after the aircraft had landed and parked. GE built two prototype engines, which can be seen outside the Experimental Breeder Reactor I in Arco, Idaho.A large, 350 ft (110 m) wide hangar was built at Test Area North, part of the National Reactor Testing Station (now part of the Idaho National Laboratory;  Monteview) to house the X-6 project, but the project was cancelled before the planned 15,000 ft (4,600 m) runway was built, necessitated by the expected weight of the nuclear-powered aircraft.
+
+
+=== Soviet program ===
+In the 1960s, the Soviet Union's Tupolev design bureau had its own design for an experimental nuclear-powered aircraft, the Tupolev Tu-119, which was a Tu-95 bomber with two of its conventional turboprops replaced by nuclear-powered turboprops.
+
+
+== Specifications ==
+Data from General characteristics
+Crew: Five
+Length: 162 ft (49.38 m)
+Wingspan: 230 ft (70.1 m)
+Height: 46 ft 9 in (14.26 m)
+Wing area: 4,770 ft² (443.3 m²)
+Max. takeoff weight: 360,000 lb (163,000 kg)
+Powerplant:
+4 × General Electric J53 nuclear turbojets, 5,200 lb (23.1 kN)  each
+6 × Pratt & Whitney R-4360-53, 3,800 hp (2,830 kW)   eachPerformance
+
+Maximum speed: 390 mph (628 km/h)
+Service ceiling: 40,000 ft (12,200 m)
+
+
+== See also ==
+Project Pluto
+Project Rover
+NERVA
+WS-125Related development
+
+Convair NB-36HAircraft of comparable role, configuration and era
+
+Tu-95LAL/Tu-119
+
+
+== References ==
+
+
+== External links ==
+Convair NB-36H Nuclear Test Aircraft on YouTube
+Dream of Atomic-Powered Flight original published on Aviation History, March 1995.
+Joe Baugher. B-36 Peacemaker. Section devoted to NB-36H

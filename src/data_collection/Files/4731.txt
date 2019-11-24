@@ -1,0 +1,70 @@
+Title: D-amino acid oxidase
+Aspects: {'G72'}
+
+D-amino acid oxidase (DAAO; also OXDA, DAMOX) is an enzyme with the function on a molecular level to oxidize D-amino acids to the corresponding imino acids, producing ammonia and hydrogen peroxide. This results in a number of physiological effects in various systems, most notably the brain. The enzyme is most active toward neutral D-amino acids, and not active toward acidic D-amino acids. One of its most important targets in mammals is D-Serine in the central nervous system. By targeting this and other D-amino acids in vertebrates, DAAO is important in detoxification. The role in microorganisms is slightly different, breaking down D-amino acids to generate energy.DAAO is expressed in a wide range of species from yeasts to human. It is not present in plants or in bacteria which instead use D-amino acid dehydrogenase. DAAO in humans is a candidate susceptibility gene and together with G72 may play a role in the glutamatergic mechanisms of schizophrenia. DAAO also plays a role in both biotechnological and medical advancements. Risperidone and sodium benzoate are inhibitors of DAAO.
+D-amino acid oxidase should not be confused with diamine oxidase as they are both sometimes referred to as DAO.
+
+
+== History ==
+In 1935, Hans Adolf Krebs discovered D-amino acid oxidase after an experiment with porcine kidney homogenates and amino acids. Shortly after, Warburg and Christian observed the oxidase had a FAD cofactor making it the second flavoenzyme to be discovered. In the upcoming years other scientists developed and improved the purification procedure for a porcine D-amino acid oxidase.In 1983, inhibitors for the oxidase were discovered. In 2006, the 3D structure of the oxidase was published. Currently, the link between human D-amino acid oxidase (hDAAO) activity and schizophrenia is being researched.
+
+
+== Structure and properties ==
+
+While D-amino acid oxidase differs to some extent between various organisms, the structure is basically the same across most eukaryotes, excluding plants. This enzyme is a flavoprotein belonging to the FAD dependent oxidoreductase family, and acts on the CH-NH2 group of D-amino acid donors with oxygen as acceptor. It is also considered a peroxisomal enzyme containing FAD as a cofactor. Each DAO monomer has an FAD-binding domain (FBD) containing a Rossman fold, and a substrate-binding domain (SBD) that also forms an interface with the other monomer in the protein. DAO exists as a dimer, with each monomer containing both an FBD and SBD. Each monomer is composed of 347 amino acids in human DAO, though among other eukaryotes the protein can range from 345 to 368 amino acids long. In human DAO, the two monomers are connected in a head-to-head fashion. DAO of other organisms, such as yeast, can be present as head-to-tail dimers. The hDAAO gene is found on chromosome 12 and contains 11 exons.DAO is capable of reducing oxygen quickly, and when reduced can stabilize anionic red semiquinone, and it is capable of forming a covalent bond with sulfites. These are all typical properties associated with flavoproteins. Human DAAO has slightly different properties from other DAAO molecules, including a weaker ability to bind FAD and decreased rate of reaction for some molecules, such as flavin.
+
+
+== Actions in the brain ==
+DAO acts in the brain to oxidize specific D-amino acids using the FAD region (flavin adenine dinucleotide region) and is commonly thought to be produced in the hindbrain, although there is new evidence of DAO expression in the forebrain as well. The DAO present in the forebrain seems to be inactive, however, causing speculation on the topic of DAO function in the forebrain as opposed to the hindbrain where the function is more well-known. The consensus is that DAO is produced and is active in glial cells, most specifically in cerebellar type-1 and type-2 astrocytes, and the D-serine amino acid that is produced by DAO in these cells has been shown to increase synaptic NMDA receptor activity.
+
+
+== Impact on schizophrenia ==
+
+There is evidence to show that schizophrenia, as a neural phenomenon, is caused by the inappropriate activity of NMDA receptors and the related increase in glutamate activity associated with NMDA receptors.
+
+It has been shown that increased DAO activity produces more D-serine, which in turn has been shown to increase NMDA activity in the hypothalamus. A study confirmed the increased NMDA activity and showed increased DAO activity in the cerebellum of schizophrenia subjects. The genetic background of DAO involvement in schizophrenia is highly debated, and no compulsatory evidence has been found for DAO genes being strongly linked to schizophrenia. Although, the G72 gene, which reportedly encodes the D-amino acid oxidase activator, may be involved in the development of schizophrenia.
+
+
+== Regulation ==
+Bassoon protein and pLG72, are the current known proteins to physically interact and modulate human DAAO. plG72 is the product of the primate-specific G72 gene, and higher levels of both were observed in schizophrenia patients.  Interaction of plG72 with hDAAO was observed to cause a time-dependent inactivation with the oxidase. This is believed to be caused by plG72 binding limiting the amount of the enzyme that is catalytically competent, and can be negated by the cofactor or any active-site ligands. The plG72 structure is not fully determined so the specific physical interaction with hDAAO is not completely understood as well. Experiments with the basson protein and hDAAO has resulted with a decrease in enzymatic activity similar to plG72. Researchers suspect the bassoon protein prevents D-Serine depletion particularly in the presynaptic neuron.Additionally, researchers focused on compounds that could act as hDAAO inhibitors. Over 500 different compounds have been observed in vitro/in vivo to act as inhibitors on the oxidase and most of them do by competitive inhibition. All of these compounds have two similar, main portions. The first portion is the planar portion which interacts with the active site of hDAAO. The planar site’s chemical structure is formed by one or two fused rings and must have a negatively charged carboxylic group. The second portion is the substrate chain, which can participate in the active zone or entrance of the enzyme.  Furthermore, the different compounds are divided into multiple categories (classical, novel, second generation, third generation) depending on the chemical structures. An example of a compound is benzoate, which is a classical inhibitor. The carboxylic group of benzoate interacts with Arg238, and the aromatic interacts with Tyr224 on the active zone of the oxidase.
+
+
+== Applications ==
+
+
+=== Biotechnology ===
+
+
+==== Cephalosporin synthesis ====
+D-amino acid oxidase is used in biotechnology primarily to produce antibiotics called cephalosporins. The use of D-amino acid oxidase for the creation of antibiotics is a patented production of antibiotics and started in 1970. Originally the D-amino acid oxidase used in this process was taken from a pig’s kidney and was given the name pkDAAO. PkDAAO is very unstable throughout the processes of antibiotic synthesis and therefore gave a low yield of antibiotics. Through continued research a more successful form of D-amino acid oxidase was discovered from a yeast species named Rhodotorula gracilis and therefore was named RgDAAO. RgDAAO is now used as the primary D-amino acid oxidase used in cephalosporin antibiotics because the immobilization on commercial ion exchange resins creates a more stable system that yields much higher amounts of antibiotics.
+
+
+==== D-amino acid biosensor ====
+D-amino acid oxidase reacts to D-amino acids and can be used to detect the amount of D-amino acids in foods to act as a biosensor. This is important due to the effects of D-amino acids in the D-isomer or multiple enantiomers present in food has on the nutritional value. The more D-isomer or multiple enantiomers present in food, the lower the nutritional value of the food is, so using D-amino acid oxidase to detect these allows for an increase in selection for nutritionally valuable foods. There is no evidence to prove that D-amino acids are toxic, but it raises many possible concerns whether some foods are toxic.
+
+
+=== Medical ===
+
+
+==== Cancer treatment ====
+RgDAAO is used in a process called gene-directed enzyme prodrug therapy (GDEPT) to treat tumors in cancer patients. This treatment uses RgDAAO as the enzyme and D-alanine as a substrate to create a reactive oxygen species H2O2 as a product. H2O2 permeates through tumor cells and damages biopolymers. The damage done by H2O2 creates a cytotoxic metabolite from a nontoxic prodrug within the tumor cells, which then creates a toxic substance in those cells alone. This process is beneficial for cancer patients, because this treatment is toxic only to tumor cells, while chemotherapy is toxic to all cells in the patient's body. D-amino acid oxidase also plays a role in 4-Methylthio-2-oxobutyric acid (MTOBA) production, which is used as an anticancer drug which induces apoptosis of cancer cells.
+
+
+==== Therapeutic treatments ====
+D-amino acid oxidase is used in therapeutic treatments such as regulation of hormones, regulation of hypertension, treatment of schizophrenia,  treatment of psychiatric and cognitive disorders, and possible pain reduction. Changing the amount of D-amino acid oxidase transporters with the use of drugs has therapeutic effects on schizophrenia. D-amino acid oxidase regulates D-Aspartate, which regulates the secretion of melatonin, prolactin, testosterone, luteinizing hormone and growth hormone. By regulating D-amino acid oxidase, D-Aspartate can also be regulated and control hormone secretion. Increased D-amino acid oxidase activity has been correlated with psychiatric and cognitive disorders, so reducing D-amino acid oxidase can have therapeutic effects on these disorders. D-amino acid oxidase helps produce L-6-hydroxynorleucine, which then generates Omapatrilat. Omapatrilat inhibits angiotensin-converting enzyme and neutral endopeptidase and effectively reduces hypertension. D-amino acid oxidase also may have an effect on pain stimuli, but it is not confirmed yet.
+
+
+== See also ==
+DAOA-AS1
+D-amino acid dehydrogenase
+D-amino acid oxidase activator
+D-aspartate oxidase
+Diamine oxidase
+
+
+== External links ==
+D-Amino-Acid+Oxidase at the US National Library of Medicine Medical Subject Headings (MeSH)
+http://www.calzyme.com/commerce/catalog/spcategory.jsp?category_id=1043
+
+
+== References ==

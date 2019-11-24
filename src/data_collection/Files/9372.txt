@@ -1,0 +1,131 @@
+Title: Respirator
+Aspects: {'N99', 'N95'}
+
+A respirator is a device designed to protect the wearer from inhaling hazardous atmospheres, including particulate matter such as dusts and airborne microorganisms, as well as hazardous fumes, vapours and gases. There are two main categories: the air-purifying respirator in which respirable air is obtained by filtering a contaminated atmosphere, and the air-supplied respirator in which an alternate supply of breathable air is delivered. Within each category, different techniques are employed to reduce or eliminate noxious airborne contaminants.
+Air-purifying respirators range from relatively inexpensive single-use, disposable face masks sometimes referred to as a dust mask to more robust reusable models with replaceable cartridges often called a gas mask.
+
+
+== History ==
+
+
+=== Earliest records to 19th century ===
+The history of protective respiratory equipment can be traced back as far as the first century, when Pliny the Elder (circa A.D. 23-79) described using animal bladder skins to protect workers in Roman mines from red lead oxide dust. In the 16th century, Leonardo da Vinci suggested that a finely woven cloth dipped in water could protect sailors from a toxic weapon made of powder that he had designed.In 1785, Jean-François Pilâtre de Rozier invented a respirator.
+Alexander von Humboldt introduced a primitive respirator in 1799 when he worked as a mining engineer in Prussia.
+Practically all early respirators consisted of a bag placed completely over the head, fastened around the throat with windows through which the wearer could see. Some were rubber, some were made of rubberized fabric, and still others of impregnated fabric, but in most cases a tank of compressed air or a reservoir of air under slight pressure was carried by the wearer to supply the necessary breathing air. In some devices certain means were provided for the adsorption of carbon dioxide in exhaled air and the rebreathing of the same air many times; in other cases valves allowed exhalation of used air.
+
+In 1848, the first US patent for an air purifying respirator was granted to Lewis P. Haslett for his 'Haslett's Lung Protector,' which filtered dust from the air using one-way clapper valves and a filter made of moistened wool or a similar porous substance. Following Haslett, a long string of patents were issued for air purifying devices, including patents for the use of cotton fibers as a filtering medium, for charcoal and lime absorption of poisonous vapors, and for improvements on the eyepiece and eyepiece assembly. Hutson Hurd patented a cup-shaped mask in 1879 which became widespread in industrial use, and Hurd's H.S. Cover Company was still in business in the 1970s.Inventors in Europe included John Stenhouse, a Scottish chemist, who investigated the power of charcoal in its various forms, to capture and hold large volumes of gas. He built one of the first respirators able to remove toxic gases from the air, paving the way for activated charcoal to become the most widely used filter for respirators. British physicist John Tyndall took Stenhouse's mask, added a filter of cotton wool saturated with lime, glycerin, and charcoal, and in 1871 invented a 'fireman's respirator', a hood that filtered smoke and gas from air, which he exhibited at a meeting of the Royal Society in London in 1874. Also in 1874, Samuel Barton patented a device that 'permitted respiration in places where the atmosphere is charged with noxious gases, or vapors, smoke, or other impurities.' German Bernhard Loeb patented several inventions to 'purify foul or vitiated air,' and counted the Brooklyn Fire Department among his customers.
+
+
+=== World War I ===
+The first recorded response and defense against chemical attacks using respirators occurred during the Second Battle of Ypres on the Western Front in World War I. It was the first time Germany used chemical weapons on a large scale releasing 168 tons of chlorine gas over a four-mile (6 km) front killing around 6,000 troops within ten minutes through asphyxiation. The gas being denser than air flowed downwards forcing troops to climb out of their trenches. Reserve Canadian troops, who were away from the attack, used urine-soaked cloths as primitive respirators. A Canadian soldier realized that the ammonia in urine would react with the chlorine, neutralizing it, and that the water would dissolve the chlorine, allowing soldiers to breathe through the gas.
+
+
+== Modern technology ==
+
+All respirators have some type of facepiece held to the wearer's head with straps, a cloth harness, or some other method. The facepiece of the respirator covers either the entire face or the bottom half of the face including the nose and mouth. Half-face respirators can only be worn in environments where the contaminants are not toxic to the eyes or facial area. For example, someone who is painting an object with spray paint could wear a half-face respirator, but someone who works with chlorine gas would have to wear a full-face respirator. Facepieces come in many different styles and sizes, to accommodate all types of face shapes. The differences in respirator design impact the respirator assigned protection factors, i.e. the resulting degree of protection which kind of hazard.
+
+
+=== Fit testing ===
+
+All respirators function by forming a seal on the users face with the respirator itself.  This is essential, as respirators are designed to come in contact with all air flowing through them, which is then delivered to the user.  Fit testing uses simple equipment that places the users face and head into a hood, into which flavored mist is sprayed, usually either bitter or sweet in flavor, with bitter flavors being favored for the almost involuntary reaction of users.  Following a standard procedure, the user then breathes through the chosen respirator, and indicates whether they can detect the mist.  If they cannot, the filter has passed the basic requirement of a face seal and the user also understands how to fit the mask.While the user may not detect the sweet or bitter indicator, which indicates a proper fit, this test does not provide any indication as to whether the equipment is appropriate for the hazard.
+
+
+=== Air-purifying ===
+
+Air-purifying respirators are used against particulates, gases, and vapors that are at atmospheric concentrations less than immediately dangerous to life and health. This includes:
+
+negative-pressure respirators using mechanical filters and chemical media
+positive-pressure units such as powered air-purifying respirators (PAPRs)
+Escape Only respirators or hoods such as Air-Purifying Escape Respirators for use by the general public for chemical, biological, radiological, and nuclear  (CBRN) terrorism incidents.Full hood, half- or full-facepiece designs are marketed in many varieties depending on the hazard of concern using an air filter which acts passively on air inhaled by the wearer. Two common examples of this type of respirator are single-use escape hoods and filter masks. The latter are typically simple, light, single-piece, half-face masks and employ the first three mechanical filter mechanisms in the list below to remove particulates from the air stream.  The most common of these is the disposable white N95 variety. It is discarded after single use or some extended period depending on the contaminant. Filter masks also come in replaceable-cartridge, multiple-use models. Typically one or two cartridges attach securely to a mask which has built into it a corresponding number of valves for inhalation and one for exhalation.The American National Standards Institute (ANSI) and the International Safety Equipment Association (ISEA) established the American National Standard for Air-Purifying Respiratory Protective Smoke Escape Devices to define both test criteria and approval methods for fire/smoke escape hoods. ANSI/ISEA Standard 110 provides design guidance to manufacturers of Respiratory Protective Smoke Escape Devices (RPED) in the form of performance requirements and testing procedures. The standard covers certification, ISO registration for the manufacturer, associated test methods, labeling, conditioning requirements, independent process and quality control audits, and follow-up inspection programs. ANSI/ISEA 110 was prepared by members of the ISEA RPED group, in consultation with testing laboratories and was reviewed by a consensus panel representing users, health and safety professionals and government representatives. The U.S. Consumer Product Safety Commission uses ANSI/ISEA 110 as the benchmark in their testing of fire escape masks.
+
+
+==== Mechanical filter ====
+Mechanical filter respirators retain particulate matter such as dust created during woodworking or metal processing, when contaminated air is passed through the filter material. Wool is still used today as a filter, along with plastic, glass, cellulose, and combinations of two or more of these materials. Since the filters cannot be cleaned and reused and have a limited lifespan, cost and disposability are key factors. Single-use, disposable and replaceable cartridge models exist.
+
+Mechanical filters remove contaminants from air in the following ways:
+
+by interception when particles following a line of flow in the airstream come within one radius of a fiber and adhere to it;
+by impaction, when larger particles unable to follow the curving contours of the airstream are forced to embed in one of the fibers directly; this increases with diminishing fiber separation and higher air flow velocity
+by an enhancing mechanism called diffusion, where gas molecules collide with the smallest particles, especially those below 100 nm in diameter, which are thereby impeded and delayed in their path through the filter; this effect is similar to Brownian motion and increases the probability that particles will be stopped by either of the two mechanisms above; it becomes dominant at lower air flow velocities
+by using certain resins, waxes, and plastics as coatings on the filter material to attract particles with an electrostatic charge that holds them on the filter surface;
+by using gravity and allowing particles to settle into the filter material (this effect is typically negligible); and
+by using the particles themselves, after the filter has been used, to act as a filter medium for other particles.Considering only particulates carried on an air stream and a fiber mesh filter, diffusion predominates below the 0.1 μm diameter particle size. Impaction and interception predominate above 0.4 μm. In between, near the 0.3 μm most penetrating particle size, diffusion and interception predominate.For maximum efficiency of particle removal and to decrease resistance to airflow through the filter, particulate filters are designed to keep the velocity of air flow through the filter as low as possible. This is achieved by manipulating the slope and shape of the filter to provide larger surface area.A substantial advance in mechanical filter technology was the HEPA filter. A HEPA filter can remove as much as 99.97% of all airborne particulates with aerodynamic diameter of 0.3 micrometres or greater.In the United States, the National Institute for Occupational Safety and Health  defines the following categories of particulate filters as of 2011:
+
+European standard EN 143 defines the following classes of particle filters that can be attached to a face mask:
+European standard EN 149 defines the following classes of “filtering half masks” (also called “filtering face pieces”), that is respirators that are entirely or substantially constructed of filtering material:
+
+Both European standard EN 143 and EN 149 test filter penetration with dry sodium chloride and paraffin oil aerosols after storing the filters at 70 °C and −30 °C for 24 h each. The standards include testing mechanical strength, breathing resistance and clogging. EN 149 tests the inward leakage between the mask and face, where ten human subjects perform 5 exercises each and for 8 individuals the average measured inward leakage must not exceed 22%, 8% and 2% respectively, as listed above.
+
+
+==== Chemical cartridge ====
+
+Chemical cartridge respirators use a cartridge to remove gases, volatile organic compounds (VOCs), and other vapors from breathing air by adsorption, absorption, or chemisorption.  A typical organic vapor respirator cartridge is a metal or plastic case containing from 25 to 40 grams of sorption media such as activated charcoal or certain resins.  The service life of the cartridge varies based, among other variables, on the carbon weight and molecular weight of the vapor and the cartridge media, the concentration of vapor in the atmosphere, the relative humidity of the atmosphere, and the breathing rate of the respirator wearer.  When filter cartridges become saturated or particulate accumulation within them begins to restrict air flow, they must be changed.If the concentration of harmful gases is immediately dangerous to life or health, in workplaces covered by the Occupational Safety and Health Act the US Occupational Safety and Health Administration specifies the use of air-supplied respirators except when intended solely for escape during emergencies. NIOSH also discourages their use under such conditions.
+
+
+==== Powered air-purifying respirators ====
+Powered air-purifying respirator (PAPRs) take contaminated air, remove a certain quantity of pollutants and return the air to the user. There are different units for different environments. The units consist of a powered fan which forces incoming air through one or more filters to the user for breathing. The fan and filters may be carried by the user or they may be remotely mounted and the user breathes the air through tubing.The filter type must be matched to the contaminants that need to be removed. Some PAPR's are designed to remove fine particulate matter, while others are suitable for working with volatile organic compounds as those in spray paints. These must have their filter elements replaced more often than a particulate filter.
+
+
+=== Self-contained breathing apparatus (SCBA) ===
+A self contained breathing apparatus (SCBA) typically has three main components: a high-pressure air cylinder (e.g., 2200 psi to 4500 psi), a pressure gauge and regulator, and an inhalation connection (mouthpiece, mouth mask or full face mask), connected together and mounted to a carrying frame or a harness with adjustable shoulder straps and belt so it can be worn on the back. There are two kinds of SCBA: open circuit and closed circuit. Most modern SCBAs are open-circuit.Open-circuit industrial breathing sets are filled with filtered, compressed air. The compressed air passes through a regulator, is inhaled and exhaled out of the circuit, quickly depleting the supply of air. Air cylinders are made of aluminum, steel, or of a composite construction like fiberglass-wrapped aluminum. The "positive pressure" type is common, which supplies a steady stream of air to stop fumes or smoke from leaking into the mask. Other SCBA's are of the "demand" type, which only supply air when the regulator senses the user inhaling. All fire departments and those working in toxic environments use the positive pressure SCBA for safety reasons.The closed-circuit type SCBA filters, supplements, and recirculates exhaled gas like a rebreather. It is used when a longer-duration supply of breathing gas is needed, such as in mine rescue and in long tunnels, and going through passages too narrow for a large open-circuit air cylinder.
+
+
+== Training of OSH specialists ==
+The choice and use of respirators in developed countries is regulated by national legislation. To ensure that employers choose respirators correctly, and perform high-quality respiratory protection programs, various guides and textbooks have been developed:
+
+
+== Factors Impacting Respirator Efficiency ==
+Respirator Performance Testing
+A U.S. Department of Labor study showed that in almost 40 thousand American enterprises, the requirements for the correct use of respirators are not always met.
+Experts note that in practice it is difficult to achieve elimination of occupational morbidity with the help of respirators:
+
+It is well known how ineffective ... trying to compensate the harmful workplace conditions with ... the use of respirators by employees.Unfortunately, the only certain way of reducing the exceedance fraction to zero is to ensure that Co (note: Co - concentration of pollutants in the breathing zone) never exceeds the PEL value.
+The very limited field tests of air-purifying respirator performance in the workplace show that respirators may perform far less well under actual use conditions than is indicated by laboratory fit factors. We are not yet able to predict the level of protection accurately; it will vary from person to person, and it may also vary from one use to the next for the same individual. In contrast, we can predict the effectiveness of engineering controls, and we can monitor their performance with commercially available state-of-the-art devices.The Impact of Respirator Fit
+Poor fit can have a negative impact on the respirator's overall filtering effectiveness by as much as 65%. A study on respirator effectiveness conducted in Beijing found that facial fit was the primary contributor to total inward leakage (TIL), based on a test of nine different models.  A high-quality respirator should see TIL of only around 5%.
+
+
+== See also ==
+Cartridge (respirator) – A container that cleans pollution from air inhaled through it.
+Dust mask – A pad held over the nose and mouth to protect against dust
+Face shield – A device used to protect the wearer's face from hazards
+Gas mask – A mask used to protect the user from inhaling airborne pollutants and toxic gases
+Paint mask – A flexible pad held over the nose and mouth by elastic or rubber straps to protect against paint mists or vapors
+Pocket mask – A device used to safely deliver first aid rescue breaths
+Self-contained breathing apparatus – Emergency breathing air supply system carried by the user
+Smoke hood – A device to protect the user from smoke inhalation in an emergency
+Surgical mask – Oro-nasal cover worn by health professionals to reduce spread of airborne pathogens
+Workplace respirator testing – Testing of respirators in real life conditions
+
+
+== References ==
+
+
+== Bibliography ==
+Nancy Bollinger, Robert Schutz et al. NIOSH Guide to Industrial Respiratory Protection. — NIOSH. — Cincinnati, Ohio: DHHS (NIOSH) Publication No. 87-116, 1987. — 305 p.
+Linda Rosenstock et al. TB Respiratory Protection Program In Health Care Facilities. Administrator's Guide. — DHHS (NIOSH) Publication No. 99-143. — Cincinnati, Ohio, 1999. — 120 p.
+Nancy Bollinger et al. NIOSH Respirator Selection Logic. — DHHS (NIOSH) Publication No. 2005-100. — Cincinnati, Ohio, 2004. — 39 p
+Respiratory protective equipment at work. A practical guide. 4 ed. — HSE (UK). — Norwich: Crown, 2013. — 59 p. — ISBN 978 0 7176 6454 2.
+BGR/GUV-R 190 Benutzung von Atemschutzgeräten. — Deutsche Gesetzliche Unfallversicherung e.V. (DGUV), Medienproduktion. — Berlin (BRD), 2011. — 174 p.
+Jaime Lara, Mireille Vennes. Guide pratique de protection respiratoire. —  Institut de recherche Robert-Sauvé en santé et en sécurité du travail (IRSST). — Montréal (Canada), 2002. — 56 p. — ISBN 2-550-37465-7Further reading
+
+Savage, Robert C. Woosnam; Hall, Anthony (2002). Brassey's Book of Body Armor. Brassey's. ISBN 978-1-57488-465-4.
+Palazzo, Albert (2000). Seeking Victory on the Western Front: The British Army and Chemical Warfare in World War I. University of Nebraska Press. ISBN 978-0-8032-8774-7.
+Cheremisinoff, Nicholas (1999). Handbook of Industrial Toxicology and Hazardous Materials. Marcel Dekker. ISBN 978-0-8247-1935-7.
+NIOSH respirators main page
+NIOSH respirator fact sheet
+What’s Special about Chemical, Biological, Radiological, and Nuclear (CBRN) Air-Purifying Respirators (APR)? NIOSH Fact Sheet
+NIOSH-Approved Disposable Particulate Respirators (Filtering Facepieces)
+TSI Application note ITI-041: Mechanisms of Filtration for High Efficiency Fibrous Filters
+British Standard BS EN 143:2000: Respiratory protective devices – Particle filters – Requirements, testing, marking
+British Standard BS EN 149:2001: Respiratory protective devices – Filtering half masks to protect against particles – Requirements, testing, marking
+
+
+== External links ==
+3M Safety Respirator Classification Guide 3M.com
+Mine Safety Appliance Company (MSA) Respirator Classification Guide MSA.com
+CDC Protective Masks Fact Sheet cdc.gov/niosh
+Canadian Centre for Occupational Health and Safety (CCOHS) Respirator Selection ccohs.ca
+The following links are respirator selection logic and competitive bid research information pages for Chemical, Biological, Radiological, and Nuclear (CBRN) defense responders:Air-Purifying Respirators (APR): cdc.gov/niosh. Respirator manufacturer approvals for NIOSH-certified air-purifying respirator with CBRN Protections (CBRN APR). This link covers APR and Air-Purifying Escape Respirators (APER) certified by the NIOSH's National Personal Protective Technology Laboratory (NPPTL), Pittsburgh, PA, to CBRN protection NIOSH standards.  CBRN APR are tight-fitting, full-face respirators with approved accessories and protect the user breathing zone by relying on user negative pressure, fit testing and user seal checks to filter less than Immediately Dangerous to Life and Health (IDLH) concentrations of hazardous respiratory compounds and particulates through NIOSH CBRN Cap 1, Cap 2 or Cap 3 canisters for CBRN APR- or CBRN 15- or CBRN 30-rated APER.
+PAPR: cdc.gov/niosh. Respirator manufacturer approvals for NIOSH-certified powered air-purifying respirator with CBRN Protections (CBRN PAPR-loose fitting or tight fitting)OSHA videos on respiratory protection osha.gov
+Occupational Safety & Health Administration, Respiratory Protection Training Video on respiratory protection
+The Invention of the Gas Mask brinkster.com

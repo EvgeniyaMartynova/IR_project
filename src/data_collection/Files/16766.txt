@@ -1,0 +1,2406 @@
+Title: Characteristic impedance
+Aspects: {'Z0'}
+
+The characteristic impedance or surge impedance (usually written Z0) of a uniform transmission line is the ratio of the amplitudes of voltage and current of a single wave propagating along the line; that is, a wave travelling in one direction in the absence of reflections in the other direction. Alternatively and equivalently it can be defined as the input impedance of a transmission line when its length is infinite. Characteristic impedance is determined by the geometry and materials of the transmission line and, for a uniform line, is not dependent on its length. The SI unit of characteristic impedance is the ohm.
+The characteristic impedance of a lossless transmission line is purely real, with no reactive component. Energy supplied by a source at one end of such a line is transmitted through the line without being dissipated in the line itself. A transmission line of finite length (lossless or lossy) that is terminated at one end with an impedance equal to the characteristic impedance appears to the source like an infinitely long transmission line and produces no reflections.
+
+
+== Transmission line model ==
+
+The characteristic impedance 
+  
+    
+      
+        Z
+        (
+        ω
+        )
+      
+    
+    {\displaystyle Z(\omega )}
+   of an infinite transmission line at a given angular frequency 
+  
+    
+      
+        ω
+      
+    
+    {\displaystyle \omega }
+   is the ratio of the voltage and current of a pure sinusoidal wave of the same frequency travelling along the line. This definition extends to DC by letting 
+  
+    
+      
+        ω
+      
+    
+    {\displaystyle \omega }
+   tend to 0, and subsists for finite transmission lines until the wave reaches the end of the line. In this case, there will be in general a reflected wave which travels back along the line in the opposite direction.  When this wave reaches the source, it adds to the transmitted wave and the ratio of the voltage and current at the input to the line will no longer be the characteristic impedance.  This new ratio is called the input impedance.  The input impedance of an infinite line is equal to the characteristic impedance since the transmitted wave is never reflected back from the end.  It can be shown that an equivalent definition is: the characteristic impedance of a line is that impedance which, when terminating an arbitrary length of line at its output, produces an input impedance of equal value. This is so because there is no reflection on a line terminated in its own characteristic impedance.
+Applying the transmission line model based on the telegrapher's equations as derived below, the general expression for the characteristic impedance of a transmission line is:
+
+  
+    
+      
+        
+          Z
+          
+            0
+          
+        
+        =
+        
+          
+            
+              
+                R
+                +
+                j
+                ω
+                L
+              
+              
+                G
+                +
+                j
+                ω
+                C
+              
+            
+          
+        
+      
+    
+    {\displaystyle Z_{0}={\sqrt {\frac {R+j\omega L}{G+j\omega C}}}}
+  where
+
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+   is the resistance per unit length, considering the two conductors to be in series,
+
+  
+    
+      
+        L
+      
+    
+    {\displaystyle L}
+   is the inductance per unit length,
+
+  
+    
+      
+        G
+      
+    
+    {\displaystyle G}
+   is the conductance of the dielectric per unit length,
+
+  
+    
+      
+        C
+      
+    
+    {\displaystyle C}
+   is the capacitance per unit length,
+
+  
+    
+      
+        j
+      
+    
+    {\displaystyle j}
+   is the imaginary unit, and
+
+  
+    
+      
+        ω
+      
+    
+    {\displaystyle \omega }
+   is the angular frequency.Although an infinite line is assumed, since all quantities are per unit length, the characteristic impedance is independent of the length of the transmission line.
+The voltage and current phasors on the line are related by the characteristic impedance as:
+
+  
+    
+      
+        
+          
+            
+              V
+              
+                +
+              
+            
+            
+              I
+              
+                +
+              
+            
+          
+        
+        =
+        
+          Z
+          
+            0
+          
+        
+        =
+        −
+        
+          
+            
+              V
+              
+                −
+              
+            
+            
+              I
+              
+                −
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {V^{+}}{I^{+}}}=Z_{0}=-{\frac {V^{-}}{I^{-}}}}
+  where the superscripts 
+  
+    
+      
+        +
+      
+    
+    {\displaystyle +}
+   and 
+  
+    
+      
+        −
+      
+    
+    {\displaystyle -}
+   represent forward- and backward-traveling waves, respectively.  A surge of energy on a finite transmission line will see an impedance of Z0 prior to any reflections arriving, hence surge impedance is an alternative name for characteristic impedance.
+
+
+== Derivation ==
+
+
+=== Using telegrapher's equation ===
+
+The differential equations describing the dependence of the voltage and current on time and space are linear, so that a linear combination of solutions is again a solution. This means that we can consider solutions with a time dependence 
+  
+    
+      
+        
+          e
+          
+            j
+            ω
+            t
+          
+        
+      
+    
+    {\displaystyle e^{j\omega t}}
+  , and the time dependence will factor out, leaving an ordinary differential equation for the coefficients, which will be phasors depending on space only. Moreover, the parameters can be generalized to be frequency-dependent.Let
+
+  
+    
+      
+        V
+        (
+        x
+        ,
+        t
+        )
+        ≡
+        V
+        (
+        x
+        )
+         
+        
+          e
+          
+            +
+            j
+            ω
+            t
+          
+        
+      
+    
+    {\displaystyle V(x,t)\equiv V(x)\ e^{+j\omega t}}
+  and
+
+  
+    
+      
+        I
+        (
+        x
+        ,
+        t
+        )
+        ≡
+        I
+        (
+        x
+        )
+         
+        
+          e
+          
+            +
+            j
+            ω
+            t
+          
+        
+      
+    
+    {\displaystyle I(x,t)\equiv I(x)\ e^{+j\omega t}}
+  Take the positive direction for 
+  
+    
+      
+        V
+      
+    
+    {\displaystyle V}
+   and 
+  
+    
+      
+        I
+      
+    
+    {\displaystyle I}
+   in the loop to be clockwise.
+We find that
+
+  
+    
+      
+        
+          d
+        
+        V
+        =
+        −
+        (
+        R
+        +
+        j
+        ω
+        L
+        )
+         
+        I
+         
+        d
+        x
+        =
+        −
+        Z
+         
+        I
+         
+        
+          d
+        
+        x
+      
+    
+    {\displaystyle {\text{d}}V=-(R+j\omega L)\ I\ dx=-Z\ I\ {\text{d}}x}
+  and
+
+  
+    
+      
+        
+          d
+        
+        I
+        =
+        −
+        (
+        G
+        +
+        j
+        ω
+        C
+        )
+         
+        V
+         
+        
+          d
+        
+        x
+        =
+        −
+        Y
+         
+        V
+         
+        
+          d
+        
+        x
+      
+    
+    {\displaystyle {\text{d}}I=-(G+j\omega C)\ V\ {\text{d}}x=-Y\ V\ {\text{d}}x}
+  or
+
+  
+    
+      
+        
+          
+            
+              
+                d
+              
+              V
+            
+            
+              
+                d
+              
+              x
+            
+          
+        
+        =
+        −
+        Z
+         
+        I
+      
+    
+    {\displaystyle {\frac {{\text{d}}V}{{\text{d}}x}}=-Z\ I}
+  and
+
+  
+    
+      
+        
+          
+            
+              
+                d
+              
+              I
+            
+            
+              
+                d
+              
+              x
+            
+          
+        
+        =
+        −
+        Y
+         
+        V
+      
+    
+    {\displaystyle {\frac {{\text{d}}I}{{\text{d}}x}}=-Y\ V}
+  These two first-order equations are easily uncoupled by a second differentiation, with the results:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  d
+                
+                
+                  2
+                
+              
+              V
+            
+            
+              
+                d
+              
+              
+                x
+                
+                  2
+                
+              
+            
+          
+        
+        =
+        Z
+        Y
+         
+        V
+      
+    
+    {\displaystyle {\frac {{\text{d}}^{2}V}{{\text{d}}x^{2}}}=ZY\ V}
+  and
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  d
+                
+                
+                  2
+                
+              
+              I
+            
+            
+              
+                d
+              
+              
+                x
+                
+                  2
+                
+              
+            
+          
+        
+        =
+        Z
+        Y
+         
+        I
+      
+    
+    {\displaystyle {\frac {{\text{d}}^{2}I}{{\text{d}}x^{2}}}=ZY\ I}
+  Notice that both 
+  
+    
+      
+        V
+      
+    
+    {\displaystyle V}
+   and 
+  
+    
+      
+        I
+      
+    
+    {\displaystyle I}
+   satisfy the same equation.
+Since 
+  
+    
+      
+        Z
+        Y
+      
+    
+    {\displaystyle ZY}
+   is independent of 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+   and 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+  , it can be represented by a single constant 
+  
+    
+      
+        −
+        
+          k
+          
+            2
+          
+        
+      
+    
+    {\displaystyle -k^{2}}
+  . That is:
+
+  
+    
+      
+        −
+        
+          k
+          
+            2
+          
+        
+        ≡
+        Z
+         
+        Y
+         
+      
+    
+    {\displaystyle -k^{2}\equiv Z\ Y\ }
+  so
+
+  
+    
+      
+        j
+         
+        k
+        =
+        ±
+        
+          
+            Z
+             
+            Y
+             
+          
+        
+      
+    
+    {\displaystyle j\ k=\pm {\sqrt {Z\ Y\ }}}
+  The minus sign is included for later convenience. Because of it, we can write the above equation as
+
+  
+    
+      
+        k
+        =
+        ±
+        ω
+        
+          
+            (
+            L
+            −
+            j
+            R
+            
+              /
+            
+            ω
+            )
+            (
+            C
+            −
+            j
+            G
+            
+              /
+            
+            ω
+            )
+             
+          
+        
+      
+    
+    {\displaystyle k=\pm \omega {\sqrt {(L-jR/\omega )(C-jG/\omega )\ }}}
+  which is correct for all transmission lines. And for typical transmission lines, that are built to make wire resistance loss 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+   small and insulation leakage conductance 
+  
+    
+      
+        G
+      
+    
+    {\displaystyle G}
+   low, the constant 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+   is very close to being a real number:
+
+  
+    
+      
+        k
+        ≈
+        ±
+        ω
+        
+          
+            L
+            C
+             
+          
+        
+        .
+      
+    
+    {\displaystyle k\approx \pm \omega {\sqrt {LC\ }}.}
+  Further, with this definition of 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+   the position- or 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  -dependent part will appear as 
+  
+    
+      
+         
+        ±
+        j
+         
+        k
+         
+        x
+         
+      
+    
+    {\displaystyle \ \pm j\ k\ x\ }
+   in the exponential solutions of the equation, similar to the time-dependent part 
+  
+    
+      
+         
+        +
+        j
+         
+        ω
+         
+        t
+         
+      
+    
+    {\displaystyle \ +j\ \omega \ t\ }
+  , so the solution reads
+
+  
+    
+      
+        V
+        (
+        x
+        )
+        =
+        
+          v
+          
+            +
+          
+        
+         
+        
+          e
+          
+            −
+            j
+            k
+            x
+          
+        
+        +
+        
+          v
+          
+            −
+          
+        
+        
+          e
+          
+            +
+            j
+            k
+            x
+          
+        
+      
+    
+    {\displaystyle V(x)=v^{+}\ e^{-jkx}+v^{-}e^{+jkx}}
+  where 
+  
+    
+      
+        
+          v
+          
+            +
+          
+        
+      
+    
+    {\displaystyle v^{+}}
+   and 
+  
+    
+      
+        
+          v
+          
+            −
+          
+        
+      
+    
+    {\displaystyle v^{-}}
+   are the constants of integration. When we recombine the time-dependent part we obtain the full solution:
+
+  
+    
+      
+        V
+        (
+        x
+        ,
+        t
+        )
+        
+        =
+        
+        V
+        (
+        x
+        )
+         
+        
+          e
+          
+            +
+            j
+            ω
+            t
+          
+        
+        
+        =
+        
+        
+          v
+          
+            +
+          
+        
+         
+        
+          e
+          
+            −
+            j
+            k
+            x
+            +
+            j
+            ω
+            t
+          
+        
+        +
+        
+          v
+          
+            −
+          
+        
+        
+          e
+          
+            +
+            j
+            k
+            x
+            +
+            j
+            ω
+            t
+          
+        
+      
+    
+    {\displaystyle V(x,t)\quad =\quad V(x)\ e^{+j\omega t}\quad =\quad v^{+}\ e^{-jkx+j\omega t}+v^{-}e^{+jkx+j\omega t}}
+  Since the equation for 
+  
+    
+      
+        I
+      
+    
+    {\displaystyle I}
+   is the same form, it has a solution of the same form:
+
+  
+    
+      
+        I
+        (
+        x
+        )
+        =
+        
+          i
+          
+            +
+          
+        
+         
+        
+          e
+          
+            −
+            j
+            k
+            x
+          
+        
+        +
+        
+          i
+          
+            −
+          
+        
+        
+          e
+          
+            +
+            j
+            k
+            x
+          
+        
+      
+    
+    {\displaystyle I(x)=i^{+}\ e^{-jkx}+i^{-}e^{+jkx}}
+  where 
+  
+    
+      
+        
+          i
+          
+            +
+          
+        
+      
+    
+    {\displaystyle i^{+}}
+   and 
+  
+    
+      
+        
+          i
+          
+            −
+          
+        
+      
+    
+    {\displaystyle i^{-}}
+   are again constants of integration.
+The above equations are the wave solution for 
+  
+    
+      
+        V
+      
+    
+    {\displaystyle V}
+   and 
+  
+    
+      
+        I
+      
+    
+    {\displaystyle I}
+  . In order to be compatible, they must still satisfy the original differential equations, one of which is
+
+  
+    
+      
+        
+          
+            
+              
+                d
+              
+              V
+            
+            
+              
+                d
+              
+              x
+            
+          
+        
+        =
+        −
+        Z
+         
+        I
+      
+    
+    {\displaystyle {\frac {{\text{d}}V}{{\text{d}}x}}=-Z\ I}
+  Substituting the solutions for 
+  
+    
+      
+        V
+      
+    
+    {\displaystyle V}
+   and 
+  
+    
+      
+        I
+      
+    
+    {\displaystyle I}
+   into the above equation, we get
+
+  
+    
+      
+        
+          
+            d
+            
+              
+                d
+              
+              x
+            
+          
+        
+        
+          [
+          
+            
+              v
+              
+                +
+              
+            
+             
+            
+              e
+              
+                −
+                j
+                k
+                x
+              
+            
+            +
+            
+              v
+              
+                −
+              
+            
+             
+            
+              e
+              
+                +
+                j
+                k
+                x
+              
+            
+          
+          ]
+        
+        =
+        −
+        (
+        R
+        +
+        j
+        ω
+        L
+        )
+        
+          [
+          
+             
+            
+              i
+              
+                +
+              
+            
+             
+            
+              e
+              
+                −
+                j
+                k
+                x
+              
+            
+            +
+            
+              i
+              
+                −
+              
+            
+             
+            
+              e
+              
+                +
+                j
+                k
+                x
+              
+            
+          
+          ]
+        
+      
+    
+    {\displaystyle {\frac {\text{d}}{{\text{d}}x}}\left[v^{+}\ e^{-jkx}+v^{-}\ e^{+jkx}\right]=-(R+j\omega L)\left[\ i^{+}\ e^{-jkx}+i^{-}\ e^{+jkx}\right]}
+  or
+
+  
+    
+      
+        −
+        j
+        k
+         
+        
+          v
+          
+            +
+          
+        
+         
+        
+          e
+          
+            −
+            j
+            k
+            x
+          
+        
+        +
+        j
+        k
+         
+        
+          v
+          
+            −
+          
+        
+         
+        
+          e
+          
+            +
+            j
+            k
+            x
+          
+        
+        =
+        −
+        (
+        R
+        +
+        j
+        ω
+        L
+        )
+         
+        
+          i
+          
+            +
+          
+        
+         
+        
+          e
+          
+            −
+            j
+            k
+            x
+          
+        
+        −
+        (
+        R
+        +
+        j
+        ω
+        L
+        )
+         
+        
+          i
+          
+            −
+          
+        
+         
+        
+          e
+          
+            +
+            j
+            k
+            x
+          
+        
+      
+    
+    {\displaystyle -jk\ v^{+}\ e^{-jkx}+jk\ v^{-}\ e^{+jkx}=-(R+j\omega L)\ i^{+}\ e^{-jkx}-(R+j\omega L)\ i^{-}\ e^{+jkx}}
+  Isolating distinct powers of 
+  
+    
+      
+        e
+      
+    
+    {\displaystyle e}
+   and combining identical powers, we see that in order for the above equation to hold for all possible values of 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+   we must have:
+
+For the co-efficients of 
+  
+    
+      
+        
+          e
+          
+            −
+            j
+            k
+            x
+          
+        
+        
+        
+           : 
+        
+        
+        −
+        j
+         
+        k
+         
+        
+          v
+          
+            +
+          
+        
+        =
+        −
+        (
+        R
+        +
+        j
+        ω
+         
+        L
+        )
+         
+        
+          i
+          
+            +
+          
+        
+      
+    
+    {\displaystyle e^{-jkx}\quad {\text{ : }}\quad -j\ k\ v^{+}=-(R+j\omega \ L)\ i^{+}}
+  For the co-efficients of 
+  
+    
+      
+        
+          e
+          
+            +
+            j
+            k
+            x
+          
+        
+        
+        
+           : 
+        
+        
+        +
+        j
+         
+        k
+         
+        
+          v
+          
+            −
+          
+        
+        =
+        −
+        (
+        R
+        +
+        j
+        ω
+        L
+        )
+         
+        
+          i
+          
+            −
+          
+        
+      
+    
+    {\displaystyle e^{+jkx}\quad {\text{ : }}\quad +j\ k\ v^{-}=-(R+j\omega L)\ i^{-}}
+  Since 
+  
+    
+      
+        j
+        k
+        =
+        
+          
+            (
+            R
+            +
+            j
+            ω
+            L
+            )
+            (
+            G
+            +
+            j
+            ω
+            C
+            )
+             
+          
+        
+      
+    
+    {\displaystyle jk={\sqrt {(R+j\omega L)(G+j\omega C)\ }}}
+  
+
+  
+    
+      
+        +
+        
+          
+            
+              v
+              
+                +
+              
+            
+            
+              i
+              
+                +
+              
+            
+          
+        
+        =
+        
+          
+            
+              R
+              +
+              j
+              ω
+              L
+            
+            
+              j
+              k
+            
+          
+        
+        =
+        
+          
+            
+              
+                
+                  R
+                  +
+                  j
+                  ω
+                  L
+                
+                
+                  G
+                  +
+                  j
+                  ω
+                  C
+                
+              
+            
+             
+          
+        
+        ≡
+        
+          Z
+          
+            o
+          
+        
+      
+    
+    {\displaystyle +{\frac {v^{+}}{i^{+}}}={\frac {R+j\omega L}{jk}}={\sqrt {{\frac {R+j\omega L}{G+j\omega C}}\ }}\equiv Z_{\text{o}}}
+  
+  
+    
+      
+        −
+        
+          
+            
+              v
+              
+                −
+              
+            
+            
+              i
+              
+                −
+              
+            
+          
+        
+        =
+        
+          
+            
+              R
+              +
+              j
+              ω
+              L
+            
+            
+              j
+              k
+            
+          
+        
+        =
+        
+          
+            
+              
+                
+                  R
+                  +
+                  j
+                  ω
+                  L
+                
+                
+                  G
+                  +
+                  j
+                  ω
+                  C
+                
+              
+            
+             
+          
+        
+        ≡
+        
+          Z
+          
+            o
+          
+        
+      
+    
+    {\displaystyle -{\frac {v^{-}}{i^{-}}}={\frac {R+j\omega L}{jk}}={\sqrt {{\frac {R+j\omega L}{G+j\omega C}}\ }}\equiv Z_{\text{o}}}
+  hence, for valid solutions require
+
+  
+    
+      
+        
+          v
+          
+            +
+          
+        
+        =
+        +
+        
+          Z
+          
+            o
+          
+        
+         
+        
+          i
+          
+            +
+          
+        
+        
+        
+           and 
+        
+        
+        
+          v
+          
+            −
+          
+        
+        =
+        −
+        
+          Z
+          
+            o
+          
+        
+         
+        
+          i
+          
+            −
+          
+        
+      
+    
+    {\displaystyle v^{+}=+Z_{\text{o}}\ i^{+}\quad {\text{ and }}\quad v^{-}=-Z_{\text{o}}\ i^{-}}
+  It can be seen that the constant 
+  
+    
+      
+        
+          Z
+          
+            o
+          
+        
+      
+    
+    {\displaystyle Z_{\text{o}}}
+  , defined in the above equations has the dimensions of impedance (ratio of voltage to current) and is a function of primary constants of the line and operating frequency. It is called the “characteristic impedance” of the transmission line, and conventionally denoted by 
+  
+    
+      
+        
+          Z
+          
+            o
+          
+        
+      
+    
+    {\displaystyle Z_{\text{o}}}
+  .
+
+  
+    
+      
+        
+          Z
+          
+            o
+          
+        
+        
+        =
+        
+        
+          
+            
+              
+                
+                  R
+                  +
+                  j
+                  ω
+                  L
+                
+                
+                  G
+                  +
+                  j
+                  ω
+                  C
+                
+              
+            
+             
+          
+        
+        
+        =
+        
+        
+          
+            
+              
+                
+                  L
+                  −
+                  j
+                  R
+                  
+                    /
+                  
+                  ω
+                
+                
+                  C
+                  −
+                  j
+                  G
+                  
+                    /
+                  
+                  ω
+                
+              
+            
+             
+          
+        
+      
+    
+    {\displaystyle Z_{\text{o}}\quad =\quad {\sqrt {{\frac {R+j\omega L}{G+j\omega C}}\ }}\quad =\quad {\sqrt {{\frac {L-jR/\omega }{C-jG/\omega }}\ }}}
+  for any transmission line, and for well-functioning transmission lines, with 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+   and 
+  
+    
+      
+        G
+      
+    
+    {\displaystyle G}
+   both very small, or 
+  
+    
+      
+        ω
+      
+    
+    {\displaystyle \omega }
+   very high, or all of the above, we get
+
+  
+    
+      
+        
+          Z
+          
+            o
+          
+        
+        ≈
+        
+          
+            
+              
+                L
+                C
+              
+            
+             
+          
+        
+      
+    
+    {\displaystyle Z_{\text{o}}\approx {\sqrt {{\frac {L}{C}}\ }}}
+  hence the characteristic impedance is typically very close to being a real number (see also the Heaviside condition.)
+
+
+=== Alternative approach ===
+We follow an approach posted by Tim Healy. The line is modeled by a series of differential segments with differential series 
+  
+    
+      
+        (
+        R
+        
+          d
+        
+        x
+        ,
+        L
+        
+          d
+        
+        x
+        )
+      
+    
+    {\displaystyle (R{\text{d}}x,L{\text{d}}x)}
+   and shunt 
+  
+    
+      
+        (
+        C
+        
+          d
+        
+        x
+        ,
+        G
+        
+          d
+        
+        x
+        )
+      
+    
+    {\displaystyle (C{\text{d}}x,G{\text{d}}x)}
+   elements (as shown in the figure above). The characteristic impedance is defined as the ratio of the input voltage to the input current of a semi-infinite length of line. We call this impedance 
+  
+    
+      
+        
+          Z
+          
+            o
+          
+        
+      
+    
+    {\displaystyle Z_{\text{o}}}
+  . That is, the impedance looking into the line on the left is 
+  
+    
+      
+        
+          Z
+          
+            o
+          
+        
+      
+    
+    {\displaystyle Z_{\text{o}}}
+  . But, of course, if we go down the line one differential length 
+  
+    
+      
+        
+          d
+        
+        x
+      
+    
+    {\displaystyle {\text{d}}x}
+  , the impedance into the line is still 
+  
+    
+      
+        
+          Z
+          
+            o
+          
+        
+      
+    
+    {\displaystyle Z_{\text{o}}}
+  . Hence we can say that the impedance looking into the line on the far left is equal to 
+  
+    
+      
+        
+          Z
+          
+            o
+          
+        
+      
+    
+    {\displaystyle Z_{\text{o}}}
+   in parallel with 
+  
+    
+      
+        C
+        
+          d
+        
+        x
+      
+    
+    {\displaystyle C{\text{d}}x}
+   and 
+  
+    
+      
+        G
+        
+          d
+        
+        x
+      
+    
+    {\displaystyle G{\text{d}}x}
+  , all of which is in series with 
+  
+    
+      
+        R
+        
+          d
+        
+        x
+      
+    
+    {\displaystyle R{\text{d}}x}
+   and 
+  
+    
+      
+        L
+        
+          d
+        
+        x
+      
+    
+    {\displaystyle L{\text{d}}x}
+  . Hence:
+
+  
+    
+      
+        
+          Z
+          
+            o
+          
+        
+        =
+        (
+        R
+        +
+        j
+        ω
+        L
+        )
+        
+          d
+        
+        x
+        +
+        
+          
+            1
+            
+               
+              (
+              G
+              +
+              j
+              ω
+              C
+              )
+              
+                d
+              
+              x
+              +
+              
+                
+                  1
+                  
+                    Z
+                    
+                      o
+                    
+                  
+                
+              
+               
+            
+          
+        
+      
+    
+    {\displaystyle Z_{\text{o}}=(R+j\omega L){\text{d}}x+{\frac {1}{\ (G+j\omega C){\text{d}}x+{\frac {1}{Z_{\text{o}}}}\ }}}
+  
+  
+    
+      
+        
+          Z
+          
+            o
+          
+        
+        =
+        (
+        R
+        +
+        j
+        ω
+        L
+        )
+        
+          d
+        
+        x
+        +
+        
+          
+            
+               
+              
+                Z
+                
+                  o
+                
+              
+               
+            
+            
+              
+                Z
+                
+                  o
+                
+              
+              (
+              G
+              +
+              j
+              ω
+              C
+              )
+              
+                d
+              
+              x
+              +
+              1
+               
+            
+          
+        
+      
+    
+    {\displaystyle Z_{\text{o}}=(R+j\omega L){\text{d}}x+{\frac {\ Z_{\text{o}}\ }{Z_{\text{o}}(G+j\omega C){\text{d}}x+1\ }}}
+  
+  
+    
+      
+        
+          Z
+          
+            o
+          
+        
+        +
+        
+          Z
+          
+            o
+          
+          
+            2
+          
+        
+        (
+        G
+        +
+        j
+        ω
+        C
+        )
+        
+          d
+        
+        x
+        =
+        (
+        R
+        +
+        j
+        ω
+        L
+        )
+        
+          d
+        
+        x
+        +
+        
+          Z
+          
+            o
+          
+        
+        (
+        G
+        +
+        j
+        ω
+        C
+        )
+        
+          d
+        
+        x
+        (
+        R
+        +
+        j
+        ω
+        L
+        )
+        
+          d
+        
+        x
+        +
+        
+          Z
+          
+            o
+          
+        
+      
+    
+    {\displaystyle Z_{\text{o}}+Z_{\text{o}}^{2}(G+j\omega C){\text{d}}x=(R+j\omega L){\text{d}}x+Z_{\text{o}}(G+j\omega C){\text{d}}x(R+j\omega L){\text{d}}x+Z_{\text{o}}}
+  The 
+  
+    
+      
+        
+          Z
+          
+            o
+          
+        
+      
+    
+    {\displaystyle Z_{\text{o}}}
+   terms cancel, leaving
+
+  
+    
+      
+        
+          Z
+          
+            o
+          
+          
+            2
+          
+        
+        (
+        G
+        +
+        j
+        ω
+        C
+        )
+        
+          d
+        
+        x
+        =
+        (
+        R
+        +
+        j
+        ω
+        L
+        )
+        
+          d
+        
+        x
+        +
+        
+          Z
+          
+            o
+          
+        
+        (
+        G
+        +
+        j
+        ω
+        C
+        )
+        (
+        R
+        +
+        j
+        ω
+        L
+        )
+        (
+        
+          d
+        
+        x
+        
+          )
+          
+            2
+          
+        
+      
+    
+    {\displaystyle Z_{\text{o}}^{2}(G+j\omega C){\text{d}}x=(R+j\omega L){\text{d}}x+Z_{\text{o}}(G+j\omega C)(R+j\omega L)({\text{d}}x)^{2}}
+  The first-power 
+  
+    
+      
+        
+          d
+        
+        x
+      
+    
+    {\displaystyle {\text{d}}x}
+   terms are the highest remaining order. In comparison to 
+  
+    
+      
+        
+          d
+        
+        x
+      
+    
+    {\displaystyle {\text{d}}x}
+  , the term with the factor 
+  
+    
+      
+        (
+        
+          d
+        
+        x
+        
+          )
+          
+            2
+          
+        
+      
+    
+    {\displaystyle ({\text{d}}x)^{2}}
+   may be discarded, since it is infinitesimal in comparison, leading to:
+
+  
+    
+      
+        
+          Z
+          
+            o
+          
+          
+            2
+          
+        
+        (
+        G
+        +
+        j
+        ω
+        C
+        )
+        
+          d
+        
+        x
+        =
+        (
+        R
+        +
+        j
+        ω
+        L
+        )
+        
+          d
+        
+        x
+      
+    
+    {\displaystyle Z_{\text{o}}^{2}(G+j\omega C){\text{d}}x=(R+j\omega L){\text{d}}x}
+  and hence
+
+  
+    
+      
+        
+          Z
+          
+            o
+          
+        
+        =
+        ±
+        
+          
+            
+              
+                
+                  R
+                  +
+                  j
+                  ω
+                  L
+                
+                
+                  G
+                  +
+                  j
+                  ω
+                  C
+                
+              
+            
+             
+          
+        
+      
+    
+    {\displaystyle Z_{\text{o}}=\pm {\sqrt {{\frac {R+j\omega L}{G+j\omega C}}\ }}}
+  Reversing the sign on the square root has the effect of changing the direction of the flow of current.
+
+
+== Lossless line ==
+The analysis of lossless lines provides an accurate approximation for real transmission lines that simplifies the mathematics considered in modeling transmission lines. A lossless line is defined as a transmission line that has no line resistance and no dielectric loss. This would imply that the conductors act like perfect conductors and the dielectric acts like a perfect dielectric. For a lossless line, R and G are both zero, so the equation for characteristic impedance derived above reduces to:
+
+  
+    
+      
+        
+          Z
+          
+            0
+          
+        
+        =
+        
+          
+            
+              L
+              C
+            
+          
+        
+        .
+      
+    
+    {\displaystyle Z_{0}={\sqrt {\frac {L}{C}}}.}
+  In particular, 
+  
+    
+      
+        
+          Z
+          
+            0
+          
+        
+      
+    
+    {\displaystyle Z_{0}}
+   does not depend any more upon the frequency.
+The above expression is wholly real, since the imaginary term j has canceled out, implying that Z0 is purely resistive. For a lossless line terminated in Z0, there is no loss of current across the line, and so the voltage remains the same along the line. The lossless line model is a useful approximation for many practical cases, such as low-loss transmission lines and transmission lines with high frequency. For both of these cases, R and G are much smaller than ωL and ωC, respectively, and can thus be ignored.
+The solutions to the long line transmission equations include incident and reflected portions of the voltage and current:When the line is terminated with its characteristic impedance, the reflected portions of these equations are reduced to 0 and the solutions to the voltage and current along the transmission line are wholly incident. Without a reflection of the wave, the load that is being supplied by the line effectively blends into the line making it appear to be an infinite line. In a lossless line this implies that the voltage and current remain the same everywhere along the transmission line. Their magnitudes remain constant along the length of the line and are only rotated by a phase angle.
+
+
+== Surge impedance loading ==
+In electric power transmission, the characteristic impedance of a transmission line is expressed in terms of the surge impedance loading (SIL), or natural loading, being the power loading at which reactive power is neither produced nor absorbed:
+
+  
+    
+      
+        
+          
+            S
+            I
+            L
+          
+        
+        =
+        
+          
+            
+              
+                
+                  V
+                  
+                    
+                      L
+                      L
+                    
+                  
+                
+              
+              
+                2
+              
+            
+            
+              Z
+              
+                0
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\mathit {SIL}}={\frac {{V_{\mathrm {LL} }}^{2}}{Z_{0}}}}
+  in which 
+  
+    
+      
+        
+          V
+          
+            
+              L
+              L
+            
+          
+        
+      
+    
+    {\displaystyle V_{\mathrm {LL} }}
+   is the line-to-line voltage in volts.
+Loaded below its SIL, a line supplies reactive power to the system, tending to raise system voltages. Above it, the line absorbs reactive power, tending to depress the voltage. The Ferranti effect describes the voltage gain towards the remote end of a very lightly loaded (or open ended) transmission line. Underground cables normally have a very low characteristic impedance, resulting in an SIL that is typically in excess of the thermal limit of the cable. Hence a cable is almost always a source of reactive power.
+
+
+== Practical examples ==
+
+
+=== Coaxial cable ===
+
+The characteristic impedance of coaxial cables (coax) is commonly chosen to be 50 Ω for RF and microwave applications.  Coax for video applications is usually 75 Ω for its lower loss.
+
+
+== See also ==
+Ampère's circuital law
+Characteristic acoustic impedance
+Electrical impedance
+Maxwell's equations
+Transmission line
+Wave impedance
+Space cloth
+
+
+== References ==
+
+Guile, A. E. (1977). Electrical Power Systems. ISBN 0-08-021729-X.
+Pozar, D. M. (February 2004). Microwave Engineering (3rd ed.). ISBN 0-471-44878-8.
+Ulaby, F. T. (2004). Fundamentals Of Applied Electromagnetics (media ed.). Prentice Hall. ISBN 0-13-185089-X.
+
+
+== External links ==
+ This article incorporates public domain material from the General Services Administration document "Federal Standard 1037C".
+
+IEEE: Differential Impedance... finally made simple (2000)

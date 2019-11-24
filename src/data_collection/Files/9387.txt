@@ -1,0 +1,34 @@
+Title: Pocket LOOX
+Aspects: {'N100 (disambiguation)'}
+
+Pocket LOOX was a series of Pocket PC-based personal digital assistants (PDAs) and navigation systems developed by Fujitsu Siemens. It was discontinued in 2007.
+
+
+== Product comparison charts ==
+
+
+=== Fujitsu Siemens Pocket LOOX PDAs ===
+Pocket LOOX 600 was a first PDA by Fujitsu Siemens, and HTC, released in 2002. It had a built-in Bluetooth module and two expansion slots, SD/MMC and CF. Fujitsu Siemens later released GPRS expansion module that provides mobile phone functionality.
+
+Pocket LOOX 600 can be upgraded to Windows Mobile 2003.
+
+
+=== Fujitsu Siemens Pocket LOOX navigation system ===
+
+Pocket LOOX navigation systems were powered by Navigon MobileNavigator|6s.  There were 9 maps supplied with device, covering 37 European countries. Main difference between N100 and N110 is that N100 did not have any built-in user accessible memory, but came with 1 GB Mini SD card. N110 on the other hand had 2 GB built-in memory and a free Mini SD expansion slot.
+
+
+== Alternative operating systems ==
+It is possible to run Linux on Pocket LOOX 600. The latest supported version of Linux kernel is 2.4.19. Linux is loaded from a CF card, allowing a return to PocketPC 2002. But during restart, all contents of RAM are erased. To prevent data loss, users should backup RAM before restarting to Linux.
+Work is being done to port Android to Pocket Loox 720. A port of Android 2.2 is running on the 720. It is possible to boot from either CF or SD cards; as mentioned above, a backup of all data is highly recommended.
+
+
+== See also ==
+Fujitsu Siemens Computers
+List of Fujitsu products
+Personal digital assistant
+Windows Mobile
+Pocket PC
+
+
+== References ==

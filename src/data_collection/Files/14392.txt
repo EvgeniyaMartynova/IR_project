@@ -1,0 +1,98 @@
+Title: Bell XV-15
+Aspects: {'V15'}
+
+The Bell XV-15 is an American tiltrotor VTOL aircraft.  It was the second successful experimental tiltrotor aircraft and the first to demonstrate the concept's high speed performance relative to conventional helicopters.
+
+
+== Development ==
+
+
+=== Early VTOL rotor aircraft ===
+The idea of building Vertical Take-Off and Landing aircraft using helicopter-like rotors at the wingtips originated in the 1930s. The first design resembling modern tiltrotors was patented by George Lehberger in May 1930, but he did not develop the concept further. In World War II, a German prototype called the Focke-Achgelis FA-269 was developed starting in 1942, but it never flew.
+Two prototypes that made it to flight were the one-seat Transcendental Model 1-G and two-seat Transcendental Model 2, both powered by single reciprocating engines.  Development started on the Model 1-G in 1947, and it flew in 1954. The Model 1-G flew until a crash in Chesapeake Bay on 20 July 1955, destroying the prototype aircraft but not seriously injuring the pilot.  The Transcendental 1-G was the first tiltrotor aircraft to have flown, and it accomplished most of a helicopter-to-aircraft transition in flight to within ten degrees of true horizontal aircraft flight.  The Model 2 was developed and flew shortly afterward, but it did not fly much beyond hover tests.  The United States Air Force withdrew funding in favor of the Bell XV-3.
+The Bell XV-3 was first flown in 1955. Like its predecessors, the XV-3 had the engines in the fuselage and driveshafts transferring power out to tilting wingtip rotor assemblies.
+Other rotor concepts, such as slowed rotors, stopped rotors, folding rotors, and variable-diameter rotors, were investigated for subsequent designs, but Bell engineers Kenneth Wernicke and Bob Lichten deemed them unfeasible compared to experience with the XV-3 project.
+
+
+=== Technological advances ===
+
+One of the major problems with the early tiltrotor aircraft designs was that the driveshafts carrying power from the fuselage out to the wingtip rotors, along with the gearbox and tilting mechanisms at the wingtips, had substantial loads placed upon them and were heavy. They were transferring large amounts of power and torque long distances for an aircraft power transmission system.
+The XV-15 experimental aircraft introduced a major design concept advance: instead of engines in the fuselage, the XV-15 moved the engines out to the rotating wingtip pods, directly coupled to the rotors. The normal path for power was directly from the engine into a speed-reduction gearbox and into the rotor/propeller without any long shafts involved. There was still a driveshaft along the wings for emergency use to transfer power to the opposite rotor in case of engine failure, but that shaft did not normally carry any power loads, making it lighter.
+The tilting engine concept introduced complexities in the design of the engines and engine pods to be able to shift from operating horizontally to operating vertically. Those problems were addressed fairly early in the XV-15 program.
+In the late 1960s and early 1970s, NASA and other researchers worked extensively on theoretical and wind tunnel tests of various rotor pods. Two companies were involved in the research and proposing designs: Bell Helicopter and Boeing-Vertol. The focus was on tilt-rotor pods, integration of the tilting rotors with the wings and fuselage of the aircraft, and studying the airflow as the rotors tilted. Tilt rotors with fixed rotors and with folding rotors were investigated.
+
+
+=== XV-15 project ===
+What was to become the XV-15 program was launched in 1971 at NASA Ames Research Center. After preliminary work, a competition was held to award two $0.5 million research and development contracts for prototype designs. Companies that responded included Sikorsky Aircraft Corporation, Grumman Aircraft, Boeing Vertol, and Bell Helicopter.
+R&D contracts were issued to Bell Helicopter and Boeing-Vertol on 20 October 1972. The two companies' design proposals were delivered on 22 January 1973.
+
+
+==== Competing designs ====
+
+Boeing proposed a design, Model 222 (not to be confused with the later Bell 222 conventional helicopter), in which the engines were in fixed pods at the end of each wing, and a small, rotating pod with the rotor was slightly closer to the fuselage on the wing. This design simplified the engine design by keeping it horizontal at all times without having very long driveshafts to the tilting rotors.
+In the Bell design, Bell Model 301, the whole wingtip pod rotated between horizontal and vertical, with the engine and rotor assembly fixed together within the pod.  This simplified the power transmission, but it had more complicated requirements for the engine design and was probably slightly heavier than the Boeing proposal.
+After a review of both proposals, NASA selected the Bell 301 for further development, and a contract for further R&D was issued on 31 July 1973. Extensive engineering and testing took the next four years to complete the development of the aircraft. The first of two Bell XV-15s, tail number N702NA, first flew on 3 May 1977. After minimal flight tests at the Bell test facility, the aircraft was moved to Ames Research Center in Mountain View, California, where it was then mounted in the large Ames wind tunnel and tested extensively in various simulated flight environments.
+For the U.S. Department of Defense Joint-service Vertical take-off/landing Experimental (JVX) aircraft program, Bell Helicopter and Boeing Vertol teamed to submit a bid for an enlarged version of the XV-15 in 1983.  The Bell Boeing team received a preliminary design contract that year, which led to the Bell Boeing V-22 Osprey.
+
+
+== Flight testing ==
+Following wind tunnel and flight testing by Bell, the aircraft was then moved to NASA Dryden, which is at Edwards Air Force Base in the California High Desert.  The XV-15 flight testing continued expanding its flight envelope. It was able to successfully operate in both helicopter and normal aircraft flight modes and smoothly transition between the two. Once the aircraft was considered sufficiently tested, it was returned to Ames Research Center for further testing.
+The XV-15s were deemed sufficiently tested, and one aircraft was taken to the 1981 Paris Air Show for demonstration flights. The New York Times praised its performance. "And if ever there was a lovable plane, it is the Bell XV-15 ... The machine, the hit of the show, performed a series of maneuvers including bowing to the crowd."  Over the next year, Senator Barry Goldwater, Navy Secretary John Lehman, and other officials were offered guest co-piloting flights to promote tiltrotor technology for military development.The XV-15s were a standard demonstration in the annual summer airshow at the co-located Moffett Field Naval Air Station for several years during the 1980s. Both XV-15s were flown actively throughout the 1980s testing aerodynamics and tiltrotor applications for civilian and military aircraft types that might follow, including the V-22 and AW609 program.
+Fédération Aéronautique Internationale classifies the XV-15 as a Rotodyne, and as such it holds the speed record of 456 kilometres per hour (283 mph), and the 3 km and 6 km time-to-climb.
+
+
+=== Further testing ===
+
+The first XV-15 prototype aircraft, N702NA, was transferred back to Bell for company development and demonstration use. On 20 August 1992, the aircraft crashed while being flown by a guest test pilot. He was lifting off for a final hover when a bolt slipped out of the collective control system on one pylon, causing that rotor to go to full pitch. The aircraft rolled upside down out of control and crashed inverted. While significantly damaged, the aircraft was largely structurally intact and both the pilot and copilot escaped with only minor injuries from the crash.  The cockpit of the aircraft was salvaged and converted for use as a flight simulator.
+The second XV-15 prototype, N703NA, was used for tests to support the V-22 Osprey military tiltrotor program and Bell/Agusta BA609 civilian medium tiltrotor transport aircraft.  It continued in primarily NASA test operations until September 2003.  The shortest takeoff distance was achieved with the nacelles at 75 degrees angle.After N703NA was retired from test operations, it was donated to the Smithsonian National Air and Space Museum in Washington, D.C.  The XV-15 was flown cross-country from Fort Worth, Texas to the museum before being decommissioned for display.  It is now on display at the Steven F. Udvar-Hazy Center at Washington Dulles International Airport.
+
+
+== Specifications (XV-15) ==
+
+Data from NASA SP-2000-4517General characteristics
+Crew: two (pilot, copilot)
+Length: 42 ft 1 in (12.83 m
+Wingspan: 57 ft 2 in (17.42 m) with turning rotors)
+Rotor diameter: 25 ft (7.62 m)
+Height: 12 ft 8 in (3.86 m)
+Airfoil: NACA 64A015
+Empty weight: 10,083 lb (4,574 kg)
+Max. takeoff weight: 13,000 lb (6,000 kg)
+Engine power ratings:
+1,550 shp (1,156 kW) normal takeoff power (10 min max)
+1,802 shp (1,354 kW) emergency power (2 min max)
+Fuel weight: 1,436 lb (651 kg)
+Powerplant: 2 × Avco Lycoming LTC1K-4K (modified T53-L-13B) turboshaft engine, 1,550 shp (1,156 kW)  eachPerformance
+
+Maximum speed: 300 knots (345 mph, 557 km/h)
+Stall speed: 100 knots when in airplane mode (115 mph, 185 km/h)
+Range: 445 nmi (515 mi, 825 km)
+Service ceiling: 29,500 ft (8,840 m)
+Disc loading: 13.2 lb/ft2 (73 kg/m2)
+Power loading: 1.35 kg/kW
+Hovering altitude: 8,800 ft (2,635 m) out of ground effect
+
+
+== See also ==
+
+Related development
+
+Bell XV-3
+Bell Boeing V-22 Osprey
+AgustaWestland AW609Aircraft of comparable role, configuration and era
+
+Canadair CL-84
+Sikorsky S-69
+Sikorsky S-72
+Related lists
+
+List of VTOL aircraft
+
+
+== References ==
+Notes
+Bibliography
+
+
+== External links ==
+Image of XV-15 in hovering flight

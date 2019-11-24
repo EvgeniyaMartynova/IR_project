@@ -1,0 +1,33 @@
+Title: Isotopes of nitrogen
+Aspects: {'N16'}
+
+Natural nitrogen (7N) consists of two stable isotopes, nitrogen-14, which makes up the vast majority of naturally occurring nitrogen, and nitrogen-15, which is less common. Fourteen radioactive isotopes (radioisotopes) have also been found so far, with atomic masses ranging from 10 to 25, and one nuclear isomer, 11mN. All of these radioisotopes are short-lived, with the longest-lived one being nitrogen-13 with a half-life of 9.965 minutes. All of the others have half-lives below 7.15 seconds, with most of these being below 620 milliseconds. Most of the isotopes with atomic mass numbers below 14 decay to isotopes of carbon, while most of the isotopes with masses above 15 decay to isotopes of oxygen. The shortest-lived known isotope is nitrogen-10, with a half-life of about 200 yoctoseconds.
+
+
+== List of isotopes ==
+
+
+== Nitrogen-13 ==
+
+Nitrogen-13 and oxygen-15 are produced in the atmosphere when gamma rays (for example from lightning) knock neutrons out of nitrogen-14 and oxygen-16:
+
+14N + γ → 13N + n
+16O + γ → 15O + nThe nitrogen-13 decays with a half-life of ten minutes to carbon-13, emitting a positron. The positron quickly annihilates with an electron, producing two gamma rays of about 511 keV. After a lightning bolt, this gamma radiation dies down with a half-life of ten minutes, but these low-energy gamma rays go on average only about 90 metres through the air, so they may only be detected for a minute or so as the "cloud" of 13N and 15O floats by, carried by the wind.
+
+
+== Nitrogen-14 ==
+Nitrogen-14 is one of two stable (non-radioactive) isotopes of the chemical element nitrogen, which makes about 99.636% of natural nitrogen.
+Nitrogen-14 is one of the very few stable nuclides with both an odd number of protons and of neutrons (seven each) and is the only one to make up a majority of its element. Each of proton or neutron contributes a nuclear spin of plus or minus spin 1/2, giving the nucleus a total magnetic spin of one.
+Like all elements heavier than lithium, the original source of nitrogen-14 and nitrogen-15 in the Universe is believed to be stellar nucleosynthesis, where they are produced as part of the carbon-nitrogen-oxygen cycle.
+Nitrogen-14 is the source of naturally-occurring, radioactive, carbon-14. Some kinds of cosmic radiation cause a nuclear reaction with nitrogen-14 in the upper atmosphere of the Earth, creating carbon-14, which decays back to nitrogen-14 with a half-life of 5,730 ± 40 years.
+
+
+== Nitrogen-15 ==
+Nitrogen-15 is a rare stable isotope of nitrogen. Two sources of nitrogen-15 are the positron emission of oxygen-15 and the beta decay of carbon-15. Nitrogen-15 presents one of the lowest thermal neutron capture cross sections of all isotopes.Nitrogen-15 is frequently used in NMR (Nitrogen-15 NMR spectroscopy). Unlike the more abundant nitrogen-14, which has an integer nuclear spin and thus a quadrupole moment, 15N has a fractional nuclear spin of one-half, which offers advantages for NMR such as narrower line width.
+Nitrogen-15 tracing is a technique used to study the nitrogen cycle.
+
+
+== Isotopic signatures ==
+
+
+== References ==

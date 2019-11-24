@@ -1,0 +1,41 @@
+Title: Robert Kowalski
+Aspects: {'R. A. Kowalski'}
+
+Robert Anthony  Kowalski (born 15 May 1941) is a logician and computer scientist, whose research is concerned with developing both human-oriented models of computing and computational models of human thinking. He has spent most of his career in the United Kingdom.
+
+
+== Education ==
+He was educated at the University of Chicago, University of Bridgeport (BA in mathematics, 1963), Stanford University (MSc in mathematics, 1966), University of Warsaw and the University of Edinburgh (PhD in computer science, 1970). 
+
+
+== Career ==
+He was a research fellow at the University of Edinburgh (1970–75) and has been at Imperial College London since 1975, attaining a chair in Computational logic in 1982 and becoming Emeritus Professor in 1999.
+He began his research in the field of automated theorem proving, developing both SL-resolution with Donald Kuehner and the connection graph proof procedure. He developed SLD resolution and the procedural interpretation of Horn clauses, which underpin the operational semantics of backward reasoning in logic programming. With Maarten van Emden., he also developed the minimal model and the fixpoint semantics of Horn clauses, which underpin the logical semantics of logic programming.
+With Marek Sergot, he developed both the event calculus and the application of logic programming to legal reasoning. With Fariba Sadri, he developed an agent model in which beliefs are represented by logic programs and goals are represented by integrity constraints. 
+Kowalski was one of the developers of Abductive Logic Programming, in which logic programs are augmented with integrity constraints and with undefined, abducible predicates. This work led to the demonstration with Phan Minh Dung and Francesca Toni that most logics for default reasoning can be regarded as special cases of assumption-based argumentation.In his 1979 book, Logic for Problem Solving, Kowalski argues that logical inference provides a simple and powerful model of problem solving that can be used by both humans and computers. In his 2011 book, Computational Logic and Human Thinking - How to be Artificially Intelligent, he argues that the use of computational logic can help ordinary people to improve their natural language communication skills, and that in combination with decision theory it can be used to improve their practical problem solving abilities.
+More recently in joint work with Fariba Sadri, he has developed the logic and computer language LPS, (Logic Production Systems), which integrates much of his previous work on computational logic. 
+
+
+== Honours and awards ==
+Kowalski was elected a Fellow of the American Association for Artificial Intelligence in 1991, of the European Co-ordinating Committee for Artificial Intelligence in 1999, and the Association for Computing Machinery in 2001. He received the IJCAI Award for Research Excellence, “for his contributions to logic for knowledge representation and problem solving, including his pioneering work on automated theorem proving and logic programming” in 2011 , and the Japan Society for the Promotion of Science Award for Eminent Scientists for 2012-2014.
+
+
+== Books ==
+Logic for Problem Solving, North Holland, Elsevier, 1979.
+Computational Logic and Human Thinking: How to be Artificially Intelligent, Cambridge University Press, 2011.
+
+
+== See also ==
+Event calculus
+Logic programming
+Prolog
+
+
+== References ==
+
+
+== External links ==
+Robert Kowalski's home page
+Biography
+Biography (PDF)
+Biographical Essay

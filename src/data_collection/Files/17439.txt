@@ -1,0 +1,62 @@
+Title: Zaghawa language
+Aspects: {'Zaghawa'}
+
+Zaghawa is a Saharan language spoken by the Zaghawa people of east-central Chad (in the Sahel) and northwestern Sudan (Darfur). The people who speak this language call it Beria, from Beri, the endonym of the Zaghawa people, and a, Zaghawa for "mouth". It has been estimated that there are between 750,000 and 1,350,000 Zaghawa speakers, who primarily live in Chad and the Darfur region of Sudan.
+
+
+== Dialects ==
+Zaghawa clans are:
+Beria (Arabic: Zaghawa)
+Tuba (Arabic: Bideyat): Biria, Brogat
+Kube (Arabic: Zaghawa): Dirong, Guruf, Kube, Kapka
+Wegi (Arabic: Twer)Zaghawa dialects, which do not always correspond to clan divisions, are:
+
+
+== Phonology ==
+
+
+=== Vowels ===
+Zaghawa has a nine-vowel system with advanced-tongue-root vowel harmony. The vowels fall into two sets:
+
+/i e o u/
+/ɪ ɛ a ɔ ʊ/,with the vowels of affixes depending on the set of vowels in the stem, and with /a/ functioning in both sets. There is some variation among dialects as to the presence of a tenth vowel, /ə/, which in some dialects functions as the +ATR counterpart of /a/. Diphthongs are /ei əu iə/ and /aɪ aʊ ɔɪ/.
+
+
+=== Consonants ===
+Consonants are simple:
+
+/p b t d k ɡ, m n ɲ ŋ, f s ʃ h, ɾ r, l j w/.Osman also includes /ʒ ħ/ in this list. /ʃ/ occurs primarily in the Sudanese dialect as a variant of /s/ appearing before /i/. The phonemic status of the rhotics are unclear: Osman states that [ɾ r] may be exchanged without any change in meaning, yet maintains that they are distinct phonemes. Of the obstruents, /p/ may not occur word-initially, and only /p t k s/ may occur word-finally, with /b/ in final position in some dialects. /r/ may not occur word-initially, and /f ɾ/ only appear in the middle of words, as in /tòrfù/ 'bird'.
+
+
+=== Tone ===
+There are five tones, high, mid, low, rising, falling, all of which may occur on simple vowels, for example in /ɪ́ɡɪ́/ I watered, /ɪ̌ɡɪ̂/ I said, /ɪ̀ɡɪ̀/ right (direction). Tone distinguishes words, but also has grammatical functions; for example, the plural of many nouns is formed by changing the tone of the final syllable from low to high, and the perfective aspect of many verbs is similarly formed by changing the tone of the final syllable from low to high.
+
+
+=== Syllable structure ===
+Words tend to be short, often CV and CVCV. The most complex syllables are CVC and CRV, where R is either of the two rhotics.
+
+
+== Orthography ==
+
+In the 1950s, a Zaghawa schoolteacher named Adam Tajir created an alphabet for the Zaghawa language that was based on the clan identification marks (brands). Sometimes known as the camel alphabet, he based the phoneme choice on the Arabic language rather than on Zaghawa. Also, some of the marks were longer than others, which made it harder to use it as a computer font.
+In 2000, a Beri veterinarian named Siddick Adam Issa prepared an improved version of the alphabet which is named Beria Giray Erfe (Beria Writing Marks). In 2007, this system of writing was turned into a computer font by Seonil Yun in cooperation with SIL International and the Mission Protestante Franco-Suisse au Tchad.There is also an Arabic script alphabet under development, based on the Tijani system of writing African languages in the 13th century.
+
+
+== Notes ==
+
+
+== References ==
+Jakobi, Angelika and Joachim Crass 2004. Grammaire du beria (langue saharienne). Cologne: Rudiger Koppe.
+Khidir, Z.F. 1999. Lexique des plantes connues Beri du Tchad. University of Leipzig Papers on Africa, 11. University of Leipzig.
+Khidir, Z.F. 2001. Lexique des animaux chez les Beri du Tchad. University of Leipzig Papers on Africa, 17. University of Leipzig.
+MacMichael, H.A. 1912. Notes on the Zaghawa and the People of Gebel Midob, Anglo-Egyptian Sudan. The Journal of the Royal Anthropological Institute of Great Britain and Ireland, 42: 288-344.
+Tubiana, Joseph 1963. Note sur la langue des zaghawa. Travaux de XXVe congrès internationale des orientalistes, 614-619. Moscow.
+Tubiana, Marie-Josée 1964. Survivances préislamiques en pays zaghawa. Paris: Université de Paris.
+Tubiana, Marie-Josée 1985. Des troupeaux et de femmes: Mariage et transferts de biens chez les Beri (Zaghawa et Bideyat) du Tchad et du Soudan. Paris: L’Harmattan.
+Tubiana, Marie-Josée et Joseph Tubiana (eds.). 1995. Contes Zaghawa du Tchad. Paris: L’Harmattan.
+
+
+== External links ==
+Suleiman Osman: Phonology of Zaghawa Language in Sudan (presented at the 9th Nilo-Saharan colloquium at Khartoum)
+Zaghawa Beria Computer Font
+ELAR documentation on the Sudanese dialectal variant of Zaghawa

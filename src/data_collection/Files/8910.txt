@@ -1,0 +1,133 @@
+Title: N-Gage (service)
+Aspects: {'N-Gage'}
+
+The N-Gage service (also referred to as N-Gage 2.0) was a mobile gaming platform from Nokia that was available for several Nokia smartphones running on S60 (Symbian). N-Gage provided numerous games with 3D graphics into an application featuring online (via N-Gage Arena) and social features. It takes its name from the original 2003 N-Gage gaming device, which it succeeded.
+The N-Gage platform was compatible with: Nokia N78, N79, N81, N81 8GB, N82, N85, N86, N86 8MP, N95, N95 8GB, N96, N97, Nokia 5320 XpressMusic, 5630 XpressMusic, 5730 XpressMusic  Nokia 6210 Navigator, 6710 Navigator, 6720 Classic, E52, E55 and E75. Due to memory issues, hinted in an interview in February 2008, support for the  Nokia N73, N93 and N93i was cancelled.After less than two years on 30 October 2009, Nokia announced that no new N-Gage games would be produced. Some reasons cited for its failure are its bad development model, marketing, and success of Apple's App Store. A total of 49 games were released for it. Nokia moved its games onto their Ovi Store thereafter. Games can still be played on compatible devices, but the service and online features are no longer functional after it ceased in September 2010.
+
+
+== Background ==
+Nokia's N-Gage gaming smartphone from 2003 did not perform as well as expected, and its upgraded QD version didn't improve it either. Instead of developing a new gaming device, there was a change in concept as Nokia explained to the world during E3 2005 that they were planning to put a N-Gage platform on several smartphone devices, rather than releasing a specific device (although their N81 and 5730 XpressMusic models with its two dedicated gaming-buttons next to the screen is being marketed as a phone built for gaming). It was often nicknamed as N-Gage Next Generation by the public.
+Working behind closed doors, it took a little more than a year before, at E3 2006, finally announcing the N-Gage mobile gaming service, set for a 2007 release. They also started showing off next-gen titles such as System Rush: Evolution and Hooked On: Creatures of the Deep, with the fighting game ONE perhaps being the most visually impressive—even making use of motion capture.
+In February 2007, Nokia announced a pilot service in Finland to promote the upcoming service. Nokia showed off previews of the service at the 2007 Game Developers Conference in San Francisco, California.
+On 27 August 2007, Nokia confirmed a previously leaked N-Gage logo is the official logo for the upcoming service.
+
+
+== Launch ==
+The N-Gage gaming service in its final form was finally announced by Nokia on 29 August 2007. Nokia used the tagline Get out and play to promote the platform. It was supposed to be released in December 2007, but it was delayed as Nokia's team were making sure the service ran 'smoothly'.
+First AccessA public beta test of the N-Gage application took place from 4 February 2008 to 27 March 2008, though limited only for the N81. This period of time was referred to as "First Access" and only a public test of the client which could be downloaded for free from the N-Gage website. While not the final version, the user had access to most of the features that the new application had to offer along with three games to try out: Hooked On: Creatures of the Deep, System Rush: Evolution and Space Impact Kappa Base. Later in February, Nokia also released Tetris, Block Breaker Deluxe and World Series of Poker: Pro Challenge for the users to try out. None of the games are entirely free but all offer a limited trial for testing purposes. In order to experience the full game it has to be either purchased or rented.
+Shortly after being released to the public, hackers managed to unpack the N-Gage installation file into components, which can then be installed separately, thus removing N81-only limitation. N-Gage was subsequently reported working on other Nokia Nseries devices, such as N73 and N95. In response, Nokia released an advisory asking users not to install this unsupported version as it could cause errors or other issues.
+On 20 March, the official N-Gage Blog reported that First Access would come to an end on 27 March, though all downloaded games at that time would still be playable through the application until the updated version was released—which occurred on 3 April.
+ReleaseAfter numerous delays and many vague release dates, the N-Gage platform was finally (and also quite suddenly) released to the public on 3 April 2008 through the N-Gage official website, though only five phone models are compatible to begin with. This probably has to do with the older models being less powerful as was pointed out in an interview earlier the same year whereas an N-Gage representative mentioned some memory issues with the N73. The launch titles also changed from six to only five: Asphalt 3: Street Rules, Brain Challenge, Hooked On: Creatures of the Deep, System Rush: Evolution, and World Series of Poker: Pro Challenge. The first two titles weren't even included on the original list (which included Block Breaker Deluxe and Tetris instead). The sixth (postponed) game was Space Impact Kappa Base.
+
+After releaseSome hours after the launch, Ikona, the man behind the official N-Gage Blog had this to say about the delay: "We are currently ensuring Block Breaker Deluxe, Space Impact Kappa Base, and Tetris are running smoothly with our new application. These should be available in the showroom next week or two."
+Four days later, on 7 April - Nokia posted their official press release commenting on the release of their new mobile service, and at which point FIFA 08 also became available for purchase.
+With this release, the official website also saw a small change in appearance with price tags added to all games available for download, an event calendar, a tab for support on both the application itself and N-Gage compatible devices and much more. Players logged on the website could now also see their Reputation level, N-Gage level, and gathered N-Gage points.
+There was also a release party held at the N-Gage chat room shortly after the release, with several members from the N-Gage team attending to answer any questions asked. A few T-shirts were randomly handed out during the three-hour-long event and everyone was also promised a few N-Gage points for coming to the "party".
+As expected, the launch was not problem-free but numerous people reported having trouble downloading, purchasing and activating games, installing the application and logging on to the N-Gage Arena.
+
+
+== Compatibility ==
+Because N-Gage is a software based solution, the first generation MMC games are not compatible with the new platform, though some games made a comeback in the form of a sequel (e.g. System Rush: Evolution) or a remake/port (e.g. Mile High Pinball). Similarly, games developed for this next-gen N-Gage platform do not work on the original N-Gage nor N-Gage QD, adding to the fact that newer S60 software, including the N-Gage client and games, aren't binary-compatible with older S60 devices and vice versa.
+
+
+== The N-Gage application ==
+
+With a user interface that resembles Microsoft’s Xbox Live service, at the top of the N-Gage launcher there are five icons that can be navigated through by pressing left and right on the phone’s thumb pad. These represent the user's games library, profile, friends list, and the showroom.
+
+
+=== Home ===
+The launcher welcomes the user with a Home screen where the last game played is shown along with some quick links to your friends, progress (score table), the Featured Game that Nokia wants to "highlight" for this week, and your Inbox for messaging within the launcher.
+
+
+=== My Games ===
+This screen shows all the games that are currently installed on the phone—be it a Trial version or the full game (purchased or rented). The ones that are trial versions have a pink stripe that says "TRIAL" to the far right of the game icon, overlapping what looks somewhat like a battery meter that, once you pay for the game, illustrates your progress with that game. At the bottom of the list of installed games is a quick link (Get More Games) that takes you to the showroom.
+Games that are not paid for will show a pop-up every time you play it—asking whether you’d like to try the free trial or either purchase, enter an unlock code (purchased or given through promotions), or rent the game. More on this below.
+From this screen, the user may also rate any of the games downloaded from 1 to 5 stars, as well as write a small verdict on it.
+
+
+=== My Profile ===
+The next tab is your profile which shows how many N-Gage points you’ve scored so far from playing, your reputation level (ranging between 1-5 stars), the number of friends you have enlisted, and your chosen avatar/picture to represent you (will display a white silhouette of a person with an orange background per default). Further down is your current status (offline, online or away—the last two can each be assigned with a personal message), N-Gage Point Level, and a list of what games you have played (Gaming History). Selecting one will not only display how many points you’ve gathered within the chosen game—but also show how well your friends are doing with the same game. From here, users are also able to look at what achievements have been unlocked—or Point Pickups as they’re called.
+
+
+=== My Friends ===
+This is where you go to add a friend to your friends list as well as check them all out. Once highlighted, you may choose to view recent conversations with the player, send them a message, view his or her profile, and rate the player. Messages can be sent regardless of whether the player is currently online or not and your friends list can be sorted by name, availability/status, or N-Gage points gathered.
+
+
+=== Showroom ===
+The Showroom displays all games that are available for download as well as Game Extras for expanding a game with extra content, such as downloading new episodes/adventures for the adventure game Dirk Dagger. Games may be browsed by genre, latest arrivals, or just in alphabetical order.
+Payment can be made by either using a credit card or paying through the phone bill (network operator). Apart from actually purchasing a game, there’s also an option of renting.
+Games can be downloaded directly to the phone over the air (by GPRS or WiFi), or the user may choose to download it to a computer and then install it on to the phone using a USB-cable and Nokia PC Suite.
+
+
+== Reception ==
+There have been a lot of hands-on articles with the First Access client and they all generally reflect both the positive and negative feedback of the official First Access forum, where N81 users shared their thoughts on what was good and what could've been made better—regarding both the launcher itself and the games currently available. The biggest issues at that point was that of players not being able to "activate" a purchased game but still having only the trial version to play. A lot of players have also been reporting connection issues.
+Head of New Experience, Nokia Play, Jaakko Kaidesoja had this to say to Pocket Gamer in an interview on 21 February 2008 when asked about what early feedback they had received:
+
+"The feedback has been positive and well received within the company and some critical comments were well received as well. We know it's not perfect yet and there are some features people want more of. Those are the things we want to check and get on the roadmap."
+
+
+== Awards ==
+Several of the N-Gage 2.0 games were nominated for International Mobile Gaming Awards in 2007.
+Two out of three N-Gage 2.0 titles received an award:
+ONE by Digital Legends won the Best 3D award.
+Dirk Dagger and the Fallen Idol by Jadestone won the Best Gameplay award.
+Hooked On: Creatures of the Deep by Infinite Dreams Inc. was nominated for Best Gameplay, but did not receive the award.On 8 May 2008, Hooked On: Creatures of the Deep won a Games Award during the 2008 Meffy Awards in Cannes.
+
+
+== Updates ==
+Prior to the closure of N-Gage service, Nokia released updates for the N-Gage application on a regular basis and the first update was made available on 2 October 2008. Dubbed v1.010_131, this update included the following major changes:
+
+There was an issue that occurred when a user reached 10,000 N-Gage Points, the application would exit unexpectedly and refuse to restart. This issue has been addressed.
+On some devices, if a user had close to fifty friends the application would behave unexpectedly. This issue has been addressed.
+An issue where Snakes Subsonic on certain devices would exit unexpectedly when hosting a Bluetooth multiplayer match has been addressed
+An issue where Blockbreaker Deluxe would exit with an error when a user activated Bluetooth has been addressed
+There was an issue where the WiFi connection changed to a GPRS connection during Operator Billing. This issue has been addressed.
+There was an issue where certain games would exit unexpectedly if a user selected 'Cancel' during the Get License.
+There was an issue where a user would launch a game, and during the 'Attempting Login' screen, could not select the 'Cancel' button. This issue has been addressed.
+There was an error where the N-Gage Arena Rankings could not be accessed using WLAN when the device is in Offline Mode. This error has been addressed.
+Some localization issues with Spanish and French have been addressed.
+An issue where the application would freeze unexpectedly when the device is left idle on the N-Gage Arena terms and conditions page has been addressed.
+A problem with password retrieval has been addressed.Version 1.20(1459) was released on 13 May 2009 but didn't do much more than eliminate a few bugs. On 18 August 2009, version 1.40(1557) introduced a new start-up icon, welcoming screen, and way of breaking down the installed games. The speed of the application itself was slightly improved as well.
+Updating the application may be done through the app itself—by using the "Check for Updates" function on the device, or it can be downloaded in the "Get N-Gage" section on N-Gage.com.
+
+
+== Technical details ==
+SpecificationsIn order for the N-Gage platform and games to run smoothly, all N-Gage compatible mobile devices share a common set of specifications.
+Screen: landscape or portrait 320 x 240 pixels (except N97, with a 640 x 360 pixels screen, graphics are stretched and displayed in a letterbox format to keep aspect ratio)
+OS: Symbian S60 3rd edition (S60 5th edition on N97)
+Interface: 5 way (up, down, left, right, center) directional pad, Dedicated action buttons Circle and Square (Mapped onto keypad '5' and '0' in portrait mode) and 2 contextual buttons. Touch screen interactions were not supported (N97 emulated the actions buttons into the on-screen buttons)
+Connectivity: 3G or Wifi (Required for the connecting to the N-Gage platform for downloading games, online functions such as rankings and multiplayer)
+CPU: ARM11 with speed ranges from 369 MHz (N81) to 600 MHz (E52)
+GPU: 3D Graphics Hardware Accelerator supported (games running on devices such as the HW-Accelerated N95 have enhanced performance)
+Audio: Stereo channel
+
+Game DevelopmentN-Gage games are packaged differently than normal Symbian applications and have the extension ".n-gage" and can only run via the N-Gage application. The game resources are protected by DRM.
+They cannot use any native Symbian APIs, instead they use a proprietary API from the N-Gage SDK.
+The N-Gage API is in fact an extension of the RGA API available in the Open C++ plug-in.Only select companies are allowed access to the N-Gage SDK. To gain access they first must be approved by Nokia and sign a NDA.
+
+
+== Games library ==
+As of 23 October 2009, there were 49 games released officially on N-Gage. Many other games were cancelled with the shutting down of the N-Gage service (see below).
+Some of these games are sequels or remakes or ports of the first generation N-Gage MMC games.
+
+Other games that were reportedly in development but are cancelled include:
+
+
+== Closure of N-Gage ==
+On 30 October 2009, Nokia announced that no new N-Gage games would be produced, effectively shutting down the N-Gage platform. All N-Gage services, which includes purchasing of games and various online features, had reportedly ceased operation by the end of 2010.On 31 March 2011 Nokia closed their DRM activation service, leaving customers unable to reactivate their purchases in the case of a device format or software update. No transition of their purchases was made to the Ovi store, and no compensation was given because, according to support staff, software purchases are only supported for one year.
+Some gaming websites e.g. Pocket Gamer link N-Gage's failure to the overwhelming competition it faces from the Apple iPhone, while Ovi Gaming cited poor implementation and support from their parent company, Nokia.
+
+
+== See also ==
+Scalable Network Application Package
+Nokia Game
+Sony Ericsson Xperia Play
+
+
+== References ==
+
+
+== External links ==
+N-Gage’s official website
+Nokia’s official website
+Get Out And Play, an N-Gage promoting website, owned by Nokia

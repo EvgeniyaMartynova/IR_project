@@ -1,0 +1,28 @@
+Title: Nonconvex great rhombicuboctahedron
+Aspects: {'U17'}
+
+In geometry, the nonconvex great rhombicuboctahedron is a nonconvex uniform polyhedron, indexed as U17. It is represented by Schläfli symbol t0,2{4,3/2}  and Coxeter-Dynkin diagram of . Its vertex figure is a crossed quadrilateral.
+This model shares the name with the convex great rhombicuboctahedron, also called the truncated cuboctahedron.
+An alternate name for this figure is quasirhombicuboctahedron. From that derives its Bowers acronym: querco.
+
+
+== Orthogonal projections ==
+
+
+== Related polyhedra ==
+It shares the vertex arrangement with the convex truncated cube. It additionally shares its edge arrangement with the great cubicuboctahedron (having the triangular faces and 6 square faces in common), and with the great rhombihexahedron (having 12 square faces in common). It has the same vertex figure as the pseudo great rhombicuboctahedron, which is not a uniform polyhedron.
+
+
+=== Great deltoidal icositetrahedron ===
+The great deltoidal icositetrahedron is the dual of the nonconvex great rhombicuboctahedron.
+
+
+== References ==
+Wenninger, Magnus (1983), Dual Models, Cambridge University Press, doi:10.1017/CBO9780511569371, ISBN 978-0-521-54325-5, MR 0730208
+
+
+== External links ==
+Weisstein, Eric W. "Great Deltoidal Icositetrahedron". MathWorld.
+
+Weisstein, Eric W. "Uniform great rhombicuboctahedron". MathWorld.
+Great Rhombicuboctahedron Paper model

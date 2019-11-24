@@ -1,0 +1,23 @@
+Title: Q40 (motherboard)
+Aspects: {'Q40'}
+
+The Q40 and Q60 (sometimes known generically as the Qx0 series) are computer motherboards designed  in the late 1990s, based on the Motorola 68040 and 68060 microprocessors respectively and intended to be partially compatible with the Sinclair QL microcomputer.
+
+
+== Hardware ==
+The Q40 and Q60 motherboards were designed by Peter Graf of Germany and manufactured by D&D Systems of the United Kingdom.
+Peter Graf designed it to fit any standard AT form factor computer case, although D&D later sold it as complete, fully assembled computer.The Q60 became available in 1999.The Q40 consists of a sub-AT form factor board comprising a 40 MHz 68040 processor, 1 MiB of video RAM, and several PLDs implementing a QL-compatible video display generator, an ISA bus, stereo 20 kHz audio DACs and an AT keyboard interface. Floppy disk, ATA hard disk, RS-232 and Centronics printer port interfaces are provided by an ISA "multi-I/O" card in one of the two ISA slots provided. Up to 32 MiB of FPM or EDO RAM can be installed in two 72-pin SIMM slots. Also included are sockets for two ROM devices, 2 kiB of non-volatile RAM and a real-time clock.
+Both of the QL's standard video modes are supported, plus two extended modes: 512×256 or 1024×512 pixels with 16-bit colour.
+The Q60 is a revised board with a 66 MHz 68060 or 80 MHz 68LC060 processor and support for up to 128 MiB of RAM.
+The Q40 board was produced in limited quantities before being superseded by the Q40i; essentially a Q60 board with a 40 MHz 68040.
+
+
+== Software ==
+Three operating systems are available for the Q40/Q60; these comprise QDOS Classic (an enhanced version of Qdos 1.10), SMSQ/E and a custom Linux distribution.
+
+
+== References ==
+
+
+== External links ==
+Official Q40/Q60 website

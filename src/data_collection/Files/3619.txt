@@ -1,0 +1,136 @@
+Title: Mitsubishi F-2
+Aspects: {'F2B'}
+
+The Mitsubishi F-2 is a multirole fighter derived from the General Dynamics F-16 Fighting Falcon, and manufactured by Mitsubishi Heavy Industries and Lockheed Martin for the Japan Air Self-Defense Force, with a 60/40 split in manufacturing between Japan and the United States. Production started in 1996 and the first aircraft entered service in 2000. The first 76 aircraft entered service by 2008, with a total of 98 airframes produced. The first active electronically scanned array (AESA) radar on a combat aircraft was the J/APG-1 introduced on the Mitsubishi F-2 in 1995. The F-2 is nicknamed "Viper Zero", a reference to the F-16's semi-official nickname of "Viper" and the Mitsubishi A6M Zero.
+
+
+== Development ==
+
+
+=== US–Japan negotiations ===
+The JASDF and its contractors considered developing a Japanese-designed, Japanese-produced replacement for the aging Mitsubishi F-1 fighter as early as 1981. A formal feasibility study commenced in 1985. Japan's initial intentions to develop the aircraft domestically built upon Japan's previous success in producing the F-15J fighter under license from McDonnell Douglas. Japanese defense contractors argued that they needed to build a new aircraft from the beginning in order to develop the skill of their engineers and, in turn, develop the Japanese aircraft industry.As the program began to take formal shape in 1985, several United States officials raised concerns that the program would result in an inferior aircraft, and would weaken the U.S.–Japan defense relationship. Pentagon officials advocated co-production or co-development of an aircraft based on the F-16 or F-18 platform, as they believed that Japan would not agree to buy U.S. aircraft.In early 1987, the United States, through Caspar Weinberger and other administration officials, began formally pressuring Japan to execute the project as a U.S.–Japan bilateral joint development. The timing of this lobbying coincided with the height of "Japan bashing" in the United States: the Toshiba-Kongsberg scandal, in which Toshiba was found to have sold propeller milling machinery to the Soviet Union in violation of COCOM sanctions, became public in May 1987. Japan's negotiating stance changed amid the risk of deterioration in U.S.–Japan relations.The Reagan administration and Nakasone government announced the joint project in October 1987. Under a memorandum of understanding signed in November 1988, General Dynamics would provide its F-16 Fighting Falcon technology to Mitsubishi Heavy Industries, and would handle up to 45 percent of the development work as a joint principal contractor.On the American side, senior officials in the State Department and Defense Department supported the project as a means for the U.S. to access Japanese technology and as a means of strengthening U.S.–Japan relations, but the Commerce Department and many members of Congress opposed the project due to the risk of strengthening Japan's ability to compete with U.S. aerospace firms. Opponents in Congress argued that Japan should acquire American aircraft in order to offset the trade deficit between the two countries. More than twenty members of the Senate demanded official review of the deal.After George H. W. Bush took office as president of the United States in January 1989, the U.S. government responded to domestic criticism of the deal by seeking "clarification" of the terms of the MOU, which the Japanese government viewed as an attempt to re-negotiate it. The Bush administration was particularly concerned with the risks of transferring technology to Japan. Bush announced a revised agreement in April 1989, shortly before the resignation of his Japanese counterpart Noboru Takeshita, under which Japanese access to flight control and weapons control software was limited, while the U.S. was to have access to any new technology that Japan developed for the project. American contractors were guaranteed at least 40% of the production for the program. Congress ratified the deal in June 1989 while expressing official displeasure with it.Japanese lawmaker Shintaro Ishihara was a vocal critic of the final deal, writing in 1990 that "our Foreign Ministry and other Government agencies decided it was better to eat humble pie than incur Uncle Sam's wrath on yet another bilateral issue," and pointing out that "we give away our most advanced defense technology to the United States but pay licensing and patent fees for each piece of technology we use."
+
+
+=== Production ===
+Work started in the FS-X program, initially given the company designation Mitsubishi SX-3. In 1984 General Dynamics had offered an enlarged version of the F-16 to the US Air Force and considered entering it as a low cost alternative in the Advanced Tactical Fighter competition.  Neither came to fruition, however this concept became the starting point for F-2 development. The F-2 used the wing design of the F-16 Agile Falcon, but much of the electronics were further updated to 1990s standards. Japan selected the fighter to replace the F-4EJ and supplement the F-15J, its main air superiority fighter. The program involved technology transfer from the U.S. to Japan and vice versa. Responsibility for cost sharing was split 60% by Japan and 40% by the U.S. Lockheed Martin would manufacture all the aft fuselages and wing leading-edge flaps and eight of the ten left-hand wingboxes.The F-2 program was controversial, because the unit cost, which includes development costs, is roughly four times that of a Block 50/52 F-16, which does not include development costs. Inclusion of development costs distorts the incremental unit cost (this happens with most modern military aircraft), though even at the planned procurement levels, the price per aircraft was somewhat high. The initial plan of 141 F-2s would have reduced the unit cost by up to US$10 million(€7,5 million) per unit, not including reduced cost from mass production. As of 2008, 94 aircraft were planned.The F-2's maiden flight was on 7 October 1995. Later that year, the Japanese government approved an order for 141 (but that was soon cut to 130), to enter service by 1999; structural problems resulted in service entry being delayed until 2000. Because of issues with cost-efficiency, orders for the aircraft were curtailed to 98 (including four prototypes) in 2004. Flight testing of the four prototypes were conducted by the Japan Defense Agency at Gifu Air Field.The last of 94 production aircraft ordered under contract was delivered to the Defense Ministry on 27 September 2011.  During the roll-out ceremony of the last production F-2 fighter jet, Mitsubishi Heavy Industries confirmed that production of the F-2 would end and no more F-2 fighters will be produced by the manufacturer. As of 2014 there are 61 single-seaters flying, and 21 two-seat trainers.
+
+
+== Design ==
+General Electric, Kawasaki, Honeywell, Raytheon, NEC, Hazeltine, and Kokusai Electric were among the primary component sub-contractors. Lockheed Martin supplied the aft fuselage, leading-edge slats, stores management system, a large portion of wingboxes (as part of two-way technology transfer agreements), and other components. Kawasaki built the midsection of the fuselage, as well as the doors to the main wheel and the engine, while the forward fuselage and wings were built by Mitsubishi. Avionics were supplied by Lockheed Martin, and the digital fly-by-wire system was jointly developed by Japan Aviation Electric and Honeywell (formerly Allied Signal). Contractors for communication systems and IFF interrogators included: Raytheon, NEC, Hazeltine, and Kokusai Electric. Final assembly was done in Japan, by MHI at its Komaki-South facility in Nagoya.
+Larger wings give an aircraft better payload and maneuverability in proportion to its thrust, but also tend to add weight to the airframe in various ways.  More weight can have negative effects on acceleration, climbing, payload, and range.  To make the larger wings lighter the skin, spars, ribs and cap of the wings were made from graphite-epoxy composite and co-cured in an autoclave. This was the first application of co-cured technology to a production tactical fighter. This technology for the wings encountered some teething problems, but proved to be a leading-edge use of a technology that provides weight savings, improved range, and some stealth benefits. This technology was then transferred back to America, as part of the program's industrial partnership.The F-2 has three display screens, including a liquid crystal display from Yokogawa.
+
+Some differences in the F-2 from the F-16A:
+
+a 25% larger wing area
+composite materials used to reduce overall weight and radar signature
+longer and wider nose to accommodate a J/APG-1/J/APG-2 active electronically scanned array (AESA) radar. The F-2 was the first operational military aircraft in the world to feature an AESA radar, before the F-22 Raptor’s AN/APG-77 AESA radar.
+larger tailplane
+larger air intake
+three-piece cockpit canopy
+capabilities for four ASM-1 or ASM-2 anti-ship missiles, four AAMs, and additional fuel tanksAlso, the F-2 is equipped with a drogue parachute, like the version of the F-16 used by South Korea, the Netherlands, Norway, Greece, Turkey, Indonesia, Taiwan, and Venezuela.
+
+
+== Operational history ==
+On 7 February 2013, two Russian Air Force Sukhoi Su-27 fighters briefly entered Japanese airspace off Rishiri Island near Hokkaido, flying south over the Sea of Japan before turning back to the north. Four F-2 fighters were scrambled to visually confirm the Russian planes, warning them by radio to leave their airspace. A photo taken by a JASDF pilot of one of the two Su-27s was released by the Japan Ministry of Defense. Russia denied the incursion, saying the jets were making routine flights near the disputed Kuril Islands.On 22 August 2013, two Russian Tupolev Tu-142 Bear-F maritime patrol aircraft (MPA) entered Japanese airspace near the major southern island of Kyushu for less than 2 minutes.  F-2 fighters were scrambled in response.
+
+
+== Variants ==
+
+XF-2A: Single-seat prototypes.
+XF-2B: Two-seat prototypes.
+F-2A: Single-seat fighter version.
+F-2B: Two-seat training version.
+
+
+== Operators ==
+ JapanJapan Air Self-Defense ForceAir Defense CommandNorthern Air Defense Force
+3rd Air Wing, Misawa Air Base
+3rd Tactical Fighter Squadron (2001–present)
+Western Air Defense Force
+8th Wing, Tsuiki Air Base
+6th Tactical Fighter Squadron (2004–present)
+8th Tactical Fighter Squadron (2008–present)Air Training Command4th Air Wing, Matsushima Air Base
+21st Fighter Training Squadron (Reactivated)Air Development and Test CommandAir Development and Test Wing, Gifu Air Base
+
+
+== Accidents and incidents ==
+On 31 October 2007, an F-2B crashed during takeoff and subsequently caught fire at Nagoya Airfield in central Japan. The jet was being taken up on a test flight by Mitsubishi employees, after major maintenance and before being delivered to the JSDF. Both test pilots survived the incident with only minor injuries. It was eventually determined that improper wiring caused the crash.
+As a result of the 2011 Tōhoku earthquake and tsunami, 18 F-2Bs belonging to the 21st Fighter Squadron at Matsushima Air Base were damaged or destroyed.  Of these 18, 5 were deemed beyond repair and have been scrapped.  The remaining 13 F-2s are being repaired at the estimated cost of ¥80 billion(€490 million).  In the meantime, training duties carried out by the 21st Fighter Squadron have been transferred to other air bases. Repair works were completed by 2016, when the 21st Squadron returned to Matsushima.
+On 20 February 2019, an F-2B crashed during a training flight over the Sea of Japan. Both the flight instructor and pilot survived the accident.
+
+
+== Specifications (F-2A) ==
+
+Data from Jane's all the World's Aircraft 2010–11, Combat Aircraft since 1945General characteristics
+Crew: 1 (F-2B: 2)
+Length: 15.52 m (50 ft 11 in)
+Wingspan: 11.125 m (36 ft 6 in) over missile launchers10.8 m (35 ft) without missile launchersWing area: 34.84 m2 (375.0 sq ft)
+Aspect ratio: 3.3
+Empty weight: 9,527 kg (21,003 lb) F-2B: 9,633 kg (21,237 lb)Gross weight: 13,459 kg (29,672 lb) clean
+Max takeoff weight: 22,100 kg (48,722 lb) 
+Maximum landing weight: 18,300 kg (40,300 lb)
+Fuel capacity: 4,637 l (1,225 US gal; 1,020 imp gal) maximum internal fuel 4,588 l (1,212 US gal; 1,009 imp gal) usableF-2B 3,948 l (1,043 US gal; 868 imp gal) maximum internal fuel 3,903 l (1,031 US gal; 859 imp gal) usableExternal Fuel capacity: 5,678 l (1,500 US gal; 1,249 imp gal) maximum - (1x 1,135.5 l (300.0 US gal; 249.8 imp gal) + 2x 2,271.25 l (600.00 US gal; 499.61 imp gal) drop-tanks)
+Powerplant: 1 × General Electric F110-IHI-129 afterburning turbofan, 76 kN (17,000 lbf) thrust dry, 131 kN (29,500 lbf) with afterburnerPerformance
+
+Maximum speed: 2,124 km/h (1,320 mph, 1,147 kn)
+Maximum speed: Mach 2 at high altitude, Mach 1.1 at low altitude
+Combat range: 833 km (518 mi, 450 nmi) +
+Service ceiling: 18,000 m (59,000 ft)
+Wing loading: 634.3 kg/m2 (129.9 lb/sq ft) maximum
+Thrust/weight: 0.606Armament
+20 mm JM61A1 cannon, plus maximum weapon load of 8,085 kg:
+Rocket pod JLAU-3/A
+AAMs:Mitsubishi AAM-3, Mitsubishi AAM-4, Mitsubishi AAM-5, AIM-9 Sidewinder, AIM-7 Sparrow
+air-to-ground weapons include: ASM-1 and ASM-2 anti-ship missiles, various free-fall bombs with GCS-1 IIR seeker heads, JDAM
+others: J/AAQ-2 FLIR, AN/AAQ-33Avionics
+Mitsubishi active electronically scanned array radar system J/APG-2
+AN/ARC-164 Have Quick UHF transceiver
+NEC V/UHF transceiver
+Tokyo Radio Systems/BAE Systems AIFF
+Hitachi Kokuai Electric HF radio
+Japan Aviation Electronics/Honeywell digital AFCS
+Japan Aviation Electronics ring laser IRS (Inertial Reference System)
+Toshiba VOR/ILS
+Rockwell Collins TacAN
+Shimadzu wide-angle holographic HUD
+Yokogawa LCD displays
+Mitsubishi Electric Mission computer
+Mitsubishi Electric MDS mission planning system
+Toshiba digital map display
+Mitsubishi Electric intefrated EW system
+
+
+== See also ==
+
+Fourth-generation jet fighter
+Fighter units of the Japan Air Self-Defense ForceRelated development
+
+General Dynamics F-16 Fighting Falcon
+AIDC F-CK-1 Ching-kuo
+KAI T-50 Golden EagleAircraft of comparable role, configuration and era
+
+Chengdu J-10
+Saab JAS 39 Gripen
+Related lists
+
+List of fighter aircraft
+
+
+== References ==
+
+
+=== Citations ===
+
+
+=== Bibliography ===
+Aoki, Yoshimoto. "Mitsubishi F-2: 21st Century JASDF fighter-support". World Air Power Journal, Volume 39, Winter 1999. London:Aerospace Publishing. ISBN 1-86184-039-X. ISSN 0959-7050. pp. 38–49.
+https://web.archive.org/web/20090509093421/http://www.mod.go.jp/asdf/english/formation/index.html (accessed on February 9, 2007)
+http://www.mod.go.jp/asdf/equipment/index.html (accessed on February 9, 2007)
+John W.R. Taylor, ed. (1988). Jane's All the World's Aircraft 1988–89. London: Jane's Information Group. ISBN 0 7106 0867 5.
+
+
+== External links ==
+JASDF Official F-2 webpage (in Japanese)
+F-2 at Mitsubishi Heavy Industries
+F-2 at Lockheed Martin
+F-2 at Globalsecurity.org

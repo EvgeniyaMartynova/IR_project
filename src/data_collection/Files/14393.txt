@@ -1,0 +1,44 @@
+Title: V16 engine
+Aspects: {'V16'}
+
+A V16 engine is a V engine with 16 cylinders. Engines of this number of cylinders are uncommon in automotive use.
+A V16 engine is perfectly balanced so long as its constituent straight 8 banks are balanced, regardless of the V angle.   That is to say, it does not require contra-rotating balancing shafts, which are necessary to balance engines with an odd number of cylinders in-line or those equipped with counterweighted crankshafts like the 90° V8. In addition, V angles of 45° and 135° give an impulse every 45°, so they are optimal solutions for even-firing and non-split bearing crankshaft journals.
+V16 engines are rarely used in automobiles because V8s or V12s of the same displacement typically produce just as much power and are much less expensive to manufacture and maintain. The few V16s that have been produced were used in high-end luxury and high-performance automobiles due to their smoothness (low vibration).
+Today, the most common applications for V16 engines are railroad locomotives, marine craft, and stationary power generators.
+
+
+== Automotive history ==
+
+
+=== Consumer automobiles ===
+
+Howard Marmon had begun working on the world's first automotive V16 engine in 1927, but was unable to complete the production 'Sixteen' model until 1931. By that time, Cadillac had already introduced their V16, designed by ex-Marmon engineer Owen Nacker. Peerless, too, was developing a V16 with help from another ex-Marmon engineer, James Bohannon. Peerless built one single prototype V-16 engine, but ended all automobile production and turned its factory into a brewery when prohibition was repealed.
+The Cadillac Series 452 was the most exclusive model of the marque from January 1930 until 1940, with this type of engine. Two varieties were built. From 1930 to 1937, Cadillac used a 452 CID (7.4 L), OHV motor with a 45° V. For 1938, a new 431 CID (7.1 L) design was introduced for the Series 90, with a flathead valvetrain and an angle of 135°; this resulted in a much lower cowl height. The 431 was in many ways a superior engine, producing as much power as its immediate predecessor while being far less complex, had a stiffer crankshaft which aided durability and smoothness, and even had an external oil filter, a rarity for any car at any price in those days. However, it was never as popular or highly regarded as its 452 CID predecessor.
+By contrast, the Marmon Sixteen was a 45° engine made almost entirely of aluminium. Like modern engines, it used pressed steel cylinder liners. Just 400 Marmon Sixteens were produced between 1931 and 1933.
+In 1988, a joint business venture between Claudio Zampolli and musician Giorgio Moroder produced the Cizeta-Moroder V16T which featured a 16-cylinder engine in a unique configuration, but which was not a true V16. Rather, the engine was made up of two flat plane V8s, mounted transversely, with gearing between the two providing a single output from the center of the engine assembly to the longitudinal transmission. It began production in 1991 but only a few cars were produced before the company closed its doors for good.
+Cadillac revived the V16 concept in 2003 with a General Motors concept car, the Cadillac Sixteen. This car used a 1,000 hp (750 kW) OHV V16.
+BMW also experimented with a V16, eventually showing a 9-litre (~550 CID) version in the Rolls-Royce 100EX concept car, but it has been changed to a V12 for production due to the customer feedback. However, one of the Rolls-Royce Phantom Coupés which featured in the film Johnny English Reborn is powered by this V16 engine. That was not BMW's first foray into V16: BMW had conceived the Project Goldfish, adding four cylinders to the BMW M70 V12 motor. The BMW Goldfish V16 motor had the displacement of 6.7-litre (414 CID), putting out about 408 hp (304 kW) and 637 N·m (470 lb·ft). That motor was also trialled in the new Bentley Mulsanne in the early 1990s.
+At the same time that BMW was developing its V16, Mercedes Benz also developed a V16 engine, with 8.0 liters and 530 hp. 35 prototypes of the S800 SE / SEL V16 were built.
+
+
+=== Racing ===
+
+The first known use of a V16 in auto racing was by Maserati with their 1929 Tipo V4.Harry Miller installed a custom-built V16 that he had built for a Cord "supercar" he had been working on into a chassis that he had built for the 1931 Indianapolis 500 driven by Shorty Cantlon. The car was competitive, charging from 26th on the grid to 3rd, but was slowed by unreliability, further exacerbated by having to change all sixteen spark plugs. Bryan Saulpaugh qualified the car third for the 1932 Indianapolis 500, but the car suffered a broken oil line on lap 55 and their race was over. Shortly after the race the V16 was removed and replaced with a conventional Miller four-cylinder. The car was re-assembled and rebuilt with an exact replica V16 in 1993.The V16 was used in Grand Prix by the mid-engined Auto Union racing cars that rivalled the Mercedes from 1933 to 1938.
+Alfa Romeo made two cars with V16 engine the Tipo 162 (135° V16) and Tipo 316 (60° V16). The first one was prototype and the 316 was used on 1938 Tripoli Grand Prix. The 135° engine was engineered by Wifredo Ricart and gave 490 bhp (370 kW) at 7800 rpm, specific output was said to be 164 bhp (122 kW) per litre.It has only been used once in the post-World War II era, by British Racing Motors (BRM). Most unusually, this was a 135° V 1.5 L (90.8 cu in) supercharged engine. It was a failure despite being powerful. Officially, it produced 550 hp (410 kW) but probably delivered around 600 hp (450 kW).The BRM V16 delivered this power in a narrow, very lofty, RPM range. This made the car difficult to handle (but the sound made by the 16 small cylinders has been described as 'unforgettable'). The problem was caused by the supercharging system adopted. For expediency BRM chose it to be designed by Rolls-Royce, drawing on their experience of centrifugal superchargers for aircraft engines. Centrifugal superchargers are much more efficient than the more conspicuous Roots type, but they deliver high pressure only at high RPM.
+
+
+== Other applications ==
+
+
+=== Marine/locomotive diesels ===
+
+Another use for the V16 configuration is in medium-speed diesel engines. Here, manufacturers tend to work with a common cylinder size across a wide range of engines, and size the engine by the number of cylinders for different power requirements. Thus, many users of medium speed diesel engines such as railroad locomotives use V16 powerplants, including most Electro-Motive Diesel and GE Transportation Systems locomotives. EMD's 16-cylinder two-stroke diesel, with 710 CID per cylinder (hence known as the 16-710), can produce over 4,300 hp (3.2 MW). Engines such as these are also popular for marine applications and for large emergency generator sets (which frequently use available marine engines, since weight is unimportant). GE's four-stroke V16 diesels, the 7FD Series (used in marine, locomotive, and stationary applications), have 668 CID per cylinder and can produce over 4,400 hp (3.3 MW). GE also manufactures the GEVO line of engines; the V16 version, known as the GEVO-16, produces over 6,000 hp (4.47 MW). Some of Wärtsilä’s marine diesel engines are also available in the V16 configuration. The largest of them, the Wärtsilä 46F, produces over 25,700 hp (19.2 MW) at 600 rpm.
+
+
+=== Aviation ===
+
+In 1904, Léon Levavasseur, the engineer for the Antoinette engine manufacturer conceptualized a modular engine design that would include a V8 engine, a V16 engine, and a V32 engine. Antoinette built a prototype V16 in 1907, and an aircraft equipped with an Antoinette V16 competed in the 1910 Gordon Bennett Cup at Belmont Park in the United States.Toward the end of World War I, Duesenberg developed a V16 engine for use in aircraft.  However, the engine was not tested in an aircraft before the end of the war.In 1939, Chrysler was contracted by the US government to create a new engine for use in fighter aircraft. Chrysler responded by designing an inverted V16, the IV-2220. They tried many designs before choosing a hemispherical combustion chambered OHV head. The big V16 was rated at 2,500 hp (1,900 kW). It was finally tested in June 1945. It was installed in the P-47 Thunderbolt in place of a radial engine. This airplane was designated the XP-47H. The change in engine and aerodynamics increased the top speed from 439 mph (707 km/h) to 504 mph (811 km/h). The war ended shortly after the tests, and the hemi V16 was never mass-produced, although the basic design and valvetrain setup live on in today's Hemi V8s.
+Four Daimler-Benz DB 602 V16s were used to power the famous Hindenburg airship.
+
+
+== References ==

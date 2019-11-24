@@ -1,0 +1,2401 @@
+Title: E (mathematical constant)
+Aspects: {'E number (disambiguation)'}
+
+The number e is a mathematical constant that is the base of the natural logarithm: the unique number whose natural logarithm is equal to one. It is approximately equal to 2.71828, and is the limit of (1 + 1/n)n as n approaches infinity, an expression that arises in the study of compound interest. It can also be calculated as the sum of the infinite series
+
+  
+    
+      
+        e
+        =
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          
+            1
+            
+              n
+              !
+            
+          
+        
+        =
+        
+          
+            1
+            1
+          
+        
+        +
+        
+          
+            1
+            1
+          
+        
+        +
+        
+          
+            1
+            
+              1
+              ⋅
+              2
+            
+          
+        
+        +
+        
+          
+            1
+            
+              1
+              ⋅
+              2
+              ⋅
+              3
+            
+          
+        
+        +
+        ⋯
+      
+    
+    {\displaystyle e=\sum \limits _{n=0}^{\infty }{\frac {1}{n!}}={\frac {1}{1}}+{\frac {1}{1}}+{\frac {1}{1\cdot 2}}+{\frac {1}{1\cdot 2\cdot 3}}+\cdots }
+  The constant can be characterized in many different ways.  For example, it can be defined as the unique positive number a such that the graph of the function y = ax has unit slope at x = 0. The function f(x) = ex is called the (natural) exponential function, and is the unique exponential function equal to its own derivative.  The natural logarithm, or logarithm to base e, is the inverse function to the natural exponential function.  The natural logarithm of a number k > 1 can be defined directly as the area under the curve y = 1/x between x = 1 and x = k, in which case e is the value of k for which this area equals one (see image).  There are alternative characterizations.
+e is sometimes called Euler's number after the Swiss mathematician Leonhard Euler (not to be confused with γ, the Euler–Mascheroni constant, sometimes called simply Euler's constant), or as Napier's constant. However, Euler's choice of the symbol e is said to have been retained in his honor. The constant was discovered by the Swiss mathematician Jacob Bernoulli while studying compound interest.The number e is of eminent importance in mathematics, alongside 0, 1, π, and i. All five of these numbers play important and recurring roles across mathematics, and are the five constants appearing in one formulation of Euler's identity. Like the constant π, e is irrational:  it is not a ratio of integers.  Also like π, e is transcendental: it is not a root of any non-zero polynomial with rational coefficients. The numerical value of e truncated to 50 decimal places is
+
+
+== History ==
+The first references to the constant were published in 1618 in the table of an appendix of a work on logarithms by John Napier. However, this did not contain the constant itself, but simply a list of logarithms calculated from the constant. It is assumed that the table was written by William Oughtred. The discovery of the constant itself is credited to Jacob Bernoulli in 1683, who attempted to find the value of the following expression (which is in fact e):
+
+  
+    
+      
+        
+          lim
+          
+            n
+            →
+            ∞
+          
+        
+        
+          
+            (
+            
+              1
+              +
+              
+                
+                  1
+                  n
+                
+              
+            
+            )
+          
+          
+            n
+          
+        
+        .
+      
+    
+    {\displaystyle \lim _{n\to \infty }\left(1+{\frac {1}{n}}\right)^{n}.}
+  The first known use of the constant, represented by the letter b, was in correspondence from Gottfried Leibniz to Christiaan Huygens in 1690 and 1691. Leonhard Euler introduced the letter e as the base for natural logarithms, writing in a letter to Christian Goldbach on 25 November 1731. Euler started to use the letter e for the constant in 1727 or 1728, in an unpublished paper on explosive forces in cannons, and the first appearance of e in a publication was in Euler's Mechanica (1736). While in the subsequent years some researchers used the letter c, the letter e was more common and eventually became standard.In mathematics, the standard is to typeset the constant as "e", in italics; the ISO 80000-2:2009 standard recommends typesetting constants in an upright style, but this has not been validated by scientific community.
+
+
+== Applications ==
+
+
+=== Compound interest ===
+
+Jacob Bernoulli discovered this constant in 1683 by studying a question about compound interest:
+An account starts with $1.00 and pays 100 percent interest per year. If the interest is credited once, at the end of the year, the value of the account at year-end will be $2.00. What happens if the interest is computed and credited more frequently during the year?
+
+If the interest is credited twice in the year, the interest rate for each 6 months will be 50%, so the initial $1 is multiplied by 1.5 twice, yielding $1.00 × 1.52 = $2.25 at the end of the year. Compounding quarterly yields $1.00 × 1.254 = $2.4414…, and compounding monthly yields $1.00 × (1 + 1/12)12 = $2.613035… If there are n compounding intervals, the interest for each interval will be 100%/n and the value at the end of the year will be $1.00×(1 + 1/n)n.
+Bernoulli noticed that this sequence approaches a limit (the force of interest) with larger n and, thus, smaller compounding intervals. Compounding weekly (n = 52) yields $2.692597..., while compounding daily (n = 365) yields $2.714567..., just two cents more. The limit as n grows large is the number that came to be known as e; with continuous compounding, the account value will reach $2.7182818...
+More generally, an account that starts at $1 and offers an annual interest rate of R will, after t years, yield eRt dollars with continuous compounding. (Here R is the decimal equivalent of the rate of interest expressed as a percentage, so for 5% interest, R = 5/100 = 0.05.)
+
+
+=== Bernoulli trials ===
+
+The number e itself also has applications to probability theory, where it arises in a way not obviously related to exponential growth. Suppose that a gambler plays a slot machine that pays out with a probability of one in n and plays it n times. Then, for large n (such as a million) the probability that the gambler will lose every bet is approximately 1/e. For n = 20 it is already approximately 1/2.79.
+This is an example of a Bernoulli trial process. Each time the gambler plays the slots, there is a one in one million chance of winning. Playing one million times is modelled by the binomial distribution, which is closely related to the binomial theorem and Pascal's triangle. The probability of winning k times out of a million trials is:
+
+  
+    
+      
+        
+          
+            
+              (
+            
+            
+              
+                10
+                
+                  6
+                
+              
+              k
+            
+            
+              )
+            
+          
+        
+        
+          
+            (
+            
+              10
+              
+                −
+                6
+              
+            
+            )
+          
+          
+            k
+          
+        
+        
+          
+            (
+            
+              1
+              −
+              
+                10
+                
+                  −
+                  6
+                
+              
+            
+            )
+          
+          
+            
+              10
+              
+                6
+              
+            
+            −
+            k
+          
+        
+        .
+      
+    
+    {\displaystyle {\binom {10^{6}}{k}}\left(10^{-6}\right)^{k}\left(1-10^{-6}\right)^{10^{6}-k}.}
+  In particular, the probability of winning zero times (k = 0) is
+
+  
+    
+      
+        
+          
+            (
+            
+              1
+              −
+              
+                
+                  1
+                  
+                    10
+                    
+                      6
+                    
+                  
+                
+              
+            
+            )
+          
+          
+            
+              10
+              
+                6
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \left(1-{\frac {1}{10^{6}}}\right)^{10^{6}}.}
+  This is very close to the limit
+
+  
+    
+      
+        
+          lim
+          
+            n
+            →
+            ∞
+          
+        
+        
+          
+            (
+            
+              1
+              −
+              
+                
+                  1
+                  n
+                
+              
+            
+            )
+          
+          
+            n
+          
+        
+        =
+        
+          
+            1
+            e
+          
+        
+        .
+      
+    
+    {\displaystyle \lim _{n\to \infty }\left(1-{\frac {1}{n}}\right)^{n}={\frac {1}{e}}.}
+  
+
+
+=== Standard normal distribution ===
+
+The normal distribution with zero mean and unit standard deviation is known as the standard normal distribution, given by the probability density function
+
+  
+    
+      
+        ϕ
+        (
+        x
+        )
+        =
+        
+          
+            1
+            
+              2
+              π
+            
+          
+        
+        
+          e
+          
+            −
+            
+              
+                1
+                2
+              
+            
+            
+              x
+              
+                2
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \phi (x)={\frac {1}{\sqrt {2\pi }}}e^{-{\frac {1}{2}}x^{2}}.}
+  The constraint of unit variance (and thus also unit standard deviation) results in the 1/2 in the exponent, and the constraint of unit total area under the curve ϕ(x) results in the factor 
+  
+    
+      
+        
+          1
+          
+            /
+          
+          
+            
+              2
+              π
+            
+          
+        
+      
+    
+    {\displaystyle \textstyle 1/{\sqrt {2\pi }}}
+  .[proof]  This function is symmetric around x = 0, where it attains its maximum value 
+  
+    
+      
+        
+          1
+          
+            /
+          
+          
+            
+              2
+              π
+            
+          
+        
+      
+    
+    {\displaystyle \textstyle 1/{\sqrt {2\pi }}}
+  , and has inflection points at x = ±1.
+
+
+=== Derangements ===
+
+Another application of e, also discovered in part by Jacob Bernoulli along with Pierre Raymond de Montmort, is in the problem of derangements, also known as the hat check problem: n guests are invited to a party, and at the door, the guests all check their hats with the butler, who in turn places the hats into n boxes, each labelled with the name of one guest. But the butler has not asked the identities of the guests, and so he puts the hats into boxes selected at random. The problem of de Montmort is to find the probability that none of the hats gets put into the right box. The answer is:
+
+  
+    
+      
+        
+          p
+          
+            n
+          
+        
+        =
+        1
+        −
+        
+          
+            1
+            
+              1
+              !
+            
+          
+        
+        +
+        
+          
+            1
+            
+              2
+              !
+            
+          
+        
+        −
+        
+          
+            1
+            
+              3
+              !
+            
+          
+        
+        +
+        ⋯
+        +
+        
+          
+            
+              (
+              −
+              1
+              
+                )
+                
+                  n
+                
+              
+            
+            
+              n
+              !
+            
+          
+        
+        =
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            n
+          
+        
+        
+          
+            
+              (
+              −
+              1
+              
+                )
+                
+                  k
+                
+              
+            
+            
+              k
+              !
+            
+          
+        
+        .
+      
+    
+    {\displaystyle p_{n}=1-{\frac {1}{1!}}+{\frac {1}{2!}}-{\frac {1}{3!}}+\cdots +{\frac {(-1)^{n}}{n!}}=\sum _{k=0}^{n}{\frac {(-1)^{k}}{k!}}.}
+  As the number n of guests tends to infinity, pn approaches 1/e. Furthermore, the number of ways the hats can be placed into the boxes so that none of the hats are in the right box is n!/e rounded to the nearest integer, for every positive n.
+
+
+=== Optimal planning problems ===
+A stick of length L is broken into n equal parts.  The value of n that maximizes the product of the lengths is then either
+
+  
+    
+      
+        n
+        =
+        
+          ⌊
+          
+            
+              L
+              e
+            
+          
+          ⌋
+        
+      
+    
+    {\displaystyle n=\left\lfloor {\frac {L}{e}}\right\rfloor }
+   or 
+  
+    
+      
+        
+          ⌊
+          
+            
+              L
+              e
+            
+          
+          ⌋
+        
+        +
+        1.
+      
+    
+    {\displaystyle \left\lfloor {\frac {L}{e}}\right\rfloor +1.}
+  The stated result follows because the maximum value of 
+  
+    
+      
+        
+          x
+          
+            −
+            1
+          
+        
+        ln
+        ⁡
+        x
+      
+    
+    {\displaystyle x^{-1}\ln x}
+   occurs at 
+  
+    
+      
+        x
+        =
+        e
+      
+    
+    {\displaystyle x=e}
+   (Steiner's problem, discussed below).  The quantity 
+  
+    
+      
+        
+          x
+          
+            −
+            1
+          
+        
+        ln
+        ⁡
+        x
+      
+    
+    {\displaystyle x^{-1}\ln x}
+   is a measure of information gleaned from an event occurring with probability 
+  
+    
+      
+        1
+        
+          /
+        
+        x
+      
+    
+    {\displaystyle 1/x}
+  , so that essentially the same optimal division appears in optimal planning problems like the secretary problem.
+
+
+=== Asymptotics ===
+The number e occurs naturally in connection with many problems involving asymptotics. An example is Stirling's formula for the asymptotics of the factorial function, in which both the numbers e and π enter:
+
+  
+    
+      
+        n
+        !
+        ∼
+        
+          
+            2
+            π
+            n
+          
+        
+        
+          
+            (
+            
+              
+                n
+                e
+              
+            
+            )
+          
+          
+            n
+          
+        
+        .
+      
+    
+    {\displaystyle n!\sim {\sqrt {2\pi n}}\left({\frac {n}{e}}\right)^{n}.}
+  As a consequence,
+
+  
+    
+      
+        e
+        =
+        
+          lim
+          
+            n
+            →
+            ∞
+          
+        
+        
+          
+            n
+            
+              
+                n
+                !
+              
+              
+                n
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle e=\lim _{n\to \infty }{\frac {n}{\sqrt[{n}]{n!}}}.}
+  
+
+
+== In calculus ==
+
+The principal motivation for introducing the number e, particularly in calculus, is to perform differential and integral calculus with exponential functions and logarithms. A general exponential function y = ax has a derivative, given by a limit:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    d
+                    
+                      d
+                      x
+                    
+                  
+                
+                
+                  a
+                  
+                    x
+                  
+                
+              
+              
+                
+                =
+                
+                  lim
+                  
+                    h
+                    →
+                    0
+                  
+                
+                
+                  
+                    
+                      
+                        a
+                        
+                          x
+                          +
+                          h
+                        
+                      
+                      −
+                      
+                        a
+                        
+                          x
+                        
+                      
+                    
+                    h
+                  
+                
+                =
+                
+                  lim
+                  
+                    h
+                    →
+                    0
+                  
+                
+                
+                  
+                    
+                      
+                        a
+                        
+                          x
+                        
+                      
+                      
+                        a
+                        
+                          h
+                        
+                      
+                      −
+                      
+                        a
+                        
+                          x
+                        
+                      
+                    
+                    h
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  a
+                  
+                    x
+                  
+                
+                ⋅
+                
+                  (
+                  
+                    
+                      lim
+                      
+                        h
+                        →
+                        0
+                      
+                    
+                    
+                      
+                        
+                          
+                            a
+                            
+                              h
+                            
+                          
+                          −
+                          1
+                        
+                        h
+                      
+                    
+                  
+                  )
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\frac {d}{dx}}a^{x}&=\lim _{h\to 0}{\frac {a^{x+h}-a^{x}}{h}}=\lim _{h\to 0}{\frac {a^{x}a^{h}-a^{x}}{h}}\\&=a^{x}\cdot \left(\lim _{h\to 0}{\frac {a^{h}-1}{h}}\right).\end{aligned}}}
+  The parenthesized limit on the right is independent of the variable x: it depends only on the base a. When the base is set to e, this limit is equal to 1, and so e is symbolically defined by the equation:
+
+  
+    
+      
+        
+          
+            d
+            
+              d
+              x
+            
+          
+        
+        
+          e
+          
+            x
+          
+        
+        =
+        
+          e
+          
+            x
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {d}{dx}}e^{x}=e^{x}.}
+  Consequently, the exponential function with base e is particularly suited to doing calculus. Choosing e, as opposed to some other number, as the base of the exponential function makes calculations involving the derivative much simpler.
+Another motivation comes from considering the derivative of the base-a logarithm, i.e., of loga x for x > 0:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    d
+                    
+                      d
+                      x
+                    
+                  
+                
+                
+                  log
+                  
+                    a
+                  
+                
+                ⁡
+                x
+              
+              
+                
+                =
+                
+                  lim
+                  
+                    h
+                    →
+                    0
+                  
+                
+                
+                  
+                    
+                      
+                        log
+                        
+                          a
+                        
+                      
+                      ⁡
+                      (
+                      x
+                      +
+                      h
+                      )
+                      −
+                      
+                        log
+                        
+                          a
+                        
+                      
+                      ⁡
+                      (
+                      x
+                      )
+                    
+                    h
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  lim
+                  
+                    h
+                    →
+                    0
+                  
+                
+                
+                  
+                    
+                      
+                        log
+                        
+                          a
+                        
+                      
+                      ⁡
+                      (
+                      1
+                      +
+                      h
+                      
+                        /
+                      
+                      x
+                      )
+                    
+                    
+                      x
+                      ⋅
+                      h
+                      
+                        /
+                      
+                      x
+                    
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    1
+                    x
+                  
+                
+                
+                  log
+                  
+                    a
+                  
+                
+                ⁡
+                
+                  (
+                  
+                    
+                      lim
+                      
+                        u
+                        →
+                        0
+                      
+                    
+                    (
+                    1
+                    +
+                    u
+                    
+                      )
+                      
+                        
+                          1
+                          u
+                        
+                      
+                    
+                  
+                  )
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    1
+                    x
+                  
+                
+                
+                  log
+                  
+                    a
+                  
+                
+                ⁡
+                e
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\frac {d}{dx}}\log _{a}x&=\lim _{h\to 0}{\frac {\log _{a}(x+h)-\log _{a}(x)}{h}}\\&=\lim _{h\to 0}{\frac {\log _{a}(1+h/x)}{x\cdot h/x}}\\&={\frac {1}{x}}\log _{a}\left(\lim _{u\to 0}(1+u)^{\frac {1}{u}}\right)\\&={\frac {1}{x}}\log _{a}e,\end{aligned}}}
+  where the substitution u = h/x was made. The a-logarithm of e is 1, if a equals e. So symbolically,
+
+  
+    
+      
+        
+          
+            d
+            
+              d
+              x
+            
+          
+        
+        
+          log
+          
+            e
+          
+        
+        ⁡
+        x
+        =
+        
+          
+            1
+            x
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {d}{dx}}\log _{e}x={\frac {1}{x}}.}
+  The logarithm with this special base is called the natural logarithm and is denoted as ln; it behaves well under differentiation since there is no undetermined limit to carry through the calculations.
+There are thus two ways in which to select such special numbers a. One way is to set the derivative of the exponential function ax equal to ax, and solve for a. The other way is to set the derivative of the base a logarithm to 1/x and solve for a. In each case, one arrives at a convenient choice of base for doing calculus. It turns out that these two solutions for a are actually the same, the number e.
+
+
+=== Alternative characterizations ===
+
+Other characterizations of e are also possible: one is as the limit of a sequence, another is as the sum of an infinite series, and still others rely on integral calculus. So far, the following two (equivalent) properties have been introduced:
+
+The number e is the unique positive real number such that 
+  
+    
+      
+        
+          
+            d
+            
+              d
+              t
+            
+          
+        
+        
+          e
+          
+            t
+          
+        
+        =
+        
+          e
+          
+            t
+          
+        
+      
+    
+    {\displaystyle {\frac {d}{dt}}e^{t}=e^{t}}
+  .
+The number e is the unique positive real number such that 
+  
+    
+      
+        
+          
+            d
+            
+              d
+              t
+            
+          
+        
+        
+          log
+          
+            e
+          
+        
+        ⁡
+        t
+        =
+        
+          
+            1
+            t
+          
+        
+      
+    
+    {\displaystyle {\frac {d}{dt}}\log _{e}t={\frac {1}{t}}}
+  .The following four characterizations can be proven equivalent:
+
+
+== Properties ==
+
+
+=== Calculus ===
+As in the motivation, the exponential function ex is important in part because it is the unique nontrivial function (up to multiplication by a constant) which is its own derivative
+
+  
+    
+      
+        
+          
+            d
+            
+              d
+              x
+            
+          
+        
+        
+          e
+          
+            x
+          
+        
+        =
+        
+          e
+          
+            x
+          
+        
+      
+    
+    {\displaystyle {\frac {d}{dx}}e^{x}=e^{x}}
+  and therefore its own antiderivative as well:
+
+  
+    
+      
+        ∫
+        
+          e
+          
+            x
+          
+        
+        
+        d
+        x
+        =
+        
+          e
+          
+            x
+          
+        
+        +
+        C
+        .
+      
+    
+    {\displaystyle \int e^{x}\,dx=e^{x}+C.}
+  
+
+
+=== Inequalities ===
+
+The number e is the unique real number such that
+
+  
+    
+      
+        
+          
+            (
+            
+              1
+              +
+              
+                
+                  1
+                  x
+                
+              
+            
+            )
+          
+          
+            x
+          
+        
+        <
+        e
+        <
+        
+          
+            (
+            
+              1
+              +
+              
+                
+                  1
+                  x
+                
+              
+            
+            )
+          
+          
+            x
+            +
+            1
+          
+        
+      
+    
+    {\displaystyle \left(1+{\frac {1}{x}}\right)^{x}<e<\left(1+{\frac {1}{x}}\right)^{x+1}}
+  for all positive x.Also, we have the inequality
+
+  
+    
+      
+        
+          e
+          
+            x
+          
+        
+        ≥
+        x
+        +
+        1
+      
+    
+    {\displaystyle e^{x}\geq x+1}
+  for all real x, with equality if and only if x = 0.  Furthermore, e is the unique base of the exponential for which the inequality ax ≥ x + 1 holds for all x.  This is a limiting case of Bernoulli's inequality.
+
+
+=== Exponential-like functions ===
+
+Steiner's problem asks to find the global maximum for the function
+
+  
+    
+      
+        f
+        (
+        x
+        )
+        =
+        
+          x
+          
+            
+              1
+              x
+            
+          
+        
+        .
+      
+    
+    {\displaystyle f(x)=x^{\frac {1}{x}}.}
+  This maximum occurs precisely at x = e.  For proof, the inequality 
+  
+    
+      
+        
+          e
+          
+            y
+          
+        
+        ≥
+        y
+        +
+        1
+      
+    
+    {\displaystyle e^{y}\geq y+1}
+  , from above, evaluated at 
+  
+    
+      
+        y
+        =
+        (
+        x
+        −
+        e
+        )
+        
+          /
+        
+        e
+      
+    
+    {\displaystyle y=(x-e)/e}
+   and simplifying gives 
+  
+    
+      
+        
+          e
+          
+            x
+            
+              /
+            
+            e
+          
+        
+        ≥
+        x
+      
+    
+    {\displaystyle e^{x/e}\geq x}
+  .  So 
+  
+    
+      
+        
+          e
+          
+            1
+            
+              /
+            
+            e
+          
+        
+        ≥
+        
+          x
+          
+            1
+            
+              /
+            
+            x
+          
+        
+      
+    
+    {\displaystyle e^{1/e}\geq x^{1/x}}
+   for all positive x.Similarly, x = 1/e is where the global minimum occurs for the function
+
+  
+    
+      
+        f
+        (
+        x
+        )
+        =
+        
+          x
+          
+            x
+          
+        
+      
+    
+    {\displaystyle f(x)=x^{x}}
+  defined for positive x.  More generally, for the function
+
+  
+    
+      
+        f
+        (
+        x
+        )
+        =
+        
+          x
+          
+            
+              x
+              
+                n
+              
+            
+          
+        
+      
+    
+    {\displaystyle f(x)=x^{x^{n}}}
+  the global maximum for positive x occurs at x = 1/e for any n < 0; and the global minimum occurs at x = e−1/n for any n > 0.
+The infinite tetration
+
+  
+    
+      
+        
+          x
+          
+            
+              x
+              
+                
+                  x
+                  
+                    
+                      ⋅
+                      
+                        
+                          ⋅
+                          
+                            ⋅
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle x^{x^{x^{\cdot ^{\cdot ^{\cdot }}}}}}
+   or 
+  
+    
+      
+        
+          
+            
+            
+              ∞
+            
+          
+        
+        x
+      
+    
+    {\displaystyle {^{\infty }}x}
+  converges if and only if e−e ≤ x ≤ e1/e (or approximately between 0.0660 and 1.4447), due to a theorem of Leonhard Euler.
+
+
+=== Number theory ===
+The real number e is irrational. Euler proved this by showing that its simple continued fraction expansion is infinite. (See also Fourier's proof that e is irrational.)
+Furthermore, by the Lindemann–Weierstrass theorem, e is transcendental, meaning that it is not a solution of any non-constant polynomial equation with rational coefficients. It was the first number to be proved transcendental without having been specifically constructed for this purpose (compare with Liouville number); the proof was given by Charles Hermite in 1873.
+It is conjectured that e is normal, meaning that when e is expressed in any base the possible digits in that base are uniformly distributed (occur with equal probability in any sequence of given length).
+
+
+=== Complex numbers ===
+The exponential function ex may be written as a Taylor series
+
+  
+    
+      
+        
+          e
+          
+            x
+          
+        
+        =
+        1
+        +
+        
+          
+            x
+            
+              1
+              !
+            
+          
+        
+        +
+        
+          
+            
+              x
+              
+                2
+              
+            
+            
+              2
+              !
+            
+          
+        
+        +
+        
+          
+            
+              x
+              
+                3
+              
+            
+            
+              3
+              !
+            
+          
+        
+        +
+        ⋯
+        =
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          
+            
+              x
+              
+                n
+              
+            
+            
+              n
+              !
+            
+          
+        
+      
+    
+    {\displaystyle e^{x}=1+{x \over 1!}+{x^{2} \over 2!}+{x^{3} \over 3!}+\cdots =\sum _{n=0}^{\infty }{\frac {x^{n}}{n!}}}
+  Because this series is convergent for every complex value of x, it is commonly used to extend the definition of ex to the complex numbers. This, with the Taylor series for sin and cos x, allows one to derive Euler's formula:
+
+  
+    
+      
+        
+          e
+          
+            i
+            x
+          
+        
+        =
+        cos
+        ⁡
+        x
+        +
+        i
+        sin
+        ⁡
+        x
+        ,
+      
+    
+    {\displaystyle e^{ix}=\cos x+i\sin x,}
+  which holds for every complex x. The special case with x = π is Euler's identity:
+
+  
+    
+      
+        
+          e
+          
+            i
+            π
+          
+        
+        +
+        1
+        =
+        0
+        ,
+      
+    
+    {\displaystyle e^{i\pi }+1=0,}
+  from which it follows that, in the principal branch of the logarithm,
+
+  
+    
+      
+        ln
+        ⁡
+        (
+        −
+        1
+        )
+        =
+        i
+        π
+        .
+      
+    
+    {\displaystyle \ln(-1)=i\pi .}
+  Furthermore, using the laws for exponentiation,
+
+  
+    
+      
+        (
+        cos
+        ⁡
+        x
+        +
+        i
+        sin
+        ⁡
+        x
+        
+          )
+          
+            n
+          
+        
+        =
+        
+          
+            (
+            
+              e
+              
+                i
+                x
+              
+            
+            )
+          
+          
+            n
+          
+        
+        =
+        
+          e
+          
+            i
+            n
+            x
+          
+        
+        =
+        cos
+        ⁡
+        (
+        n
+        x
+        )
+        +
+        i
+        sin
+        ⁡
+        (
+        n
+        x
+        )
+        ,
+      
+    
+    {\displaystyle (\cos x+i\sin x)^{n}=\left(e^{ix}\right)^{n}=e^{inx}=\cos(nx)+i\sin(nx),}
+  which is de Moivre's formula.
+The expression
+
+  
+    
+      
+        cos
+        ⁡
+        x
+        +
+        i
+        sin
+        ⁡
+        x
+      
+    
+    {\displaystyle \cos x+i\sin x}
+  is sometimes referred to as cis(x).
+The expressions of 
+  
+    
+      
+        sin
+        ⁡
+        x
+      
+    
+    {\displaystyle \sin x}
+   and 
+  
+    
+      
+        cos
+        ⁡
+        x
+      
+    
+    {\displaystyle \cos x}
+   in terms of the exponential function can be deduced:
+
+  
+    
+      
+        sin
+        ⁡
+        x
+        =
+        
+          
+            
+              
+                e
+                
+                  i
+                  x
+                
+              
+              −
+              
+                e
+                
+                  −
+                  i
+                  x
+                
+              
+            
+            
+              2
+              i
+            
+          
+        
+        ,
+        
+        cos
+        ⁡
+        x
+        =
+        
+          
+            
+              
+                e
+                
+                  i
+                  x
+                
+              
+              +
+              
+                e
+                
+                  −
+                  i
+                  x
+                
+              
+            
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle \sin x={\frac {e^{ix}-e^{-ix}}{2i}},\qquad \cos x={\frac {e^{ix}+e^{-ix}}{2}}.}
+  
+
+
+=== Differential equations ===
+The family of functions
+
+  
+    
+      
+        y
+        (
+        x
+        )
+        =
+        C
+        
+          e
+          
+            x
+          
+        
+        ,
+      
+    
+    {\displaystyle y(x)=Ce^{x},}
+  where C is any real number, is the solution to the differential equation
+
+  
+    
+      
+        
+          y
+          ′
+        
+        =
+        y
+        .
+      
+    
+    {\displaystyle y'=y.}
+  
+
+
+== Representations ==
+
+The number e can be represented as a real number in a variety of ways: as an infinite series, an infinite product, a continued fraction, or a limit of a sequence. The chief among these representations, particularly in introductory calculus courses is the limit
+
+  
+    
+      
+        
+          lim
+          
+            n
+            →
+            ∞
+          
+        
+        
+          
+            (
+            
+              1
+              +
+              
+                
+                  1
+                  n
+                
+              
+            
+            )
+          
+          
+            n
+          
+        
+        ,
+      
+    
+    {\displaystyle \lim _{n\to \infty }\left(1+{\frac {1}{n}}\right)^{n},}
+  given above, as well as the series
+
+  
+    
+      
+        e
+        =
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          
+            1
+            
+              n
+              !
+            
+          
+        
+      
+    
+    {\displaystyle e=\sum _{n=0}^{\infty }{\frac {1}{n!}}}
+  given by evaluating the above power series for ex at x = 1.
+Less common is the continued fraction
+
+  
+    
+      
+        e
+        =
+        [
+        2
+        ;
+        1
+        ,
+        2
+        ,
+        1
+        ,
+        1
+        ,
+        4
+        ,
+        1
+        ,
+        1
+        ,
+        6
+        ,
+        1
+        ,
+        .
+        .
+        .
+        ,
+        1
+        ,
+        2
+        n
+        ,
+        1
+        ,
+        .
+        .
+        .
+        ]
+        ,
+      
+    
+    {\displaystyle e=[2;1,2,1,1,4,1,1,6,1,...,1,2n,1,...],}
+  which written out looks like
+
+  
+    
+      
+        e
+        =
+        2
+        +
+        
+          
+            
+              
+                
+              
+              
+                
+                  1
+                
+              
+            
+            
+              
+                
+              
+              
+                
+                  1
+                  +
+                  
+                    
+                      
+                        
+                          
+                        
+                        
+                          
+                            1
+                          
+                        
+                      
+                      
+                        
+                          
+                        
+                        
+                          
+                            2
+                            +
+                            
+                              
+                                
+                                  
+                                    
+                                  
+                                  
+                                    
+                                      1
+                                    
+                                  
+                                
+                                
+                                  
+                                    
+                                  
+                                  
+                                    
+                                      1
+                                      +
+                                      
+                                        
+                                          
+                                            
+                                              
+                                            
+                                            
+                                              
+                                                1
+                                              
+                                            
+                                          
+                                          
+                                            
+                                              
+                                            
+                                            
+                                              
+                                                1
+                                                +
+                                                
+                                                  
+                                                    
+                                                      
+                                                        
+                                                      
+                                                      
+                                                        
+                                                          1
+                                                        
+                                                      
+                                                    
+                                                    
+                                                      
+                                                        
+                                                      
+                                                      
+                                                        
+                                                          4
+                                                          +
+                                                          
+                                                            
+                                                              
+                                                                
+                                                                  
+                                                                
+                                                                
+                                                                  
+                                                                    1
+                                                                  
+                                                                
+                                                              
+                                                              
+                                                                
+                                                                  
+                                                                
+                                                                
+                                                                  
+                                                                    1
+                                                                    +
+                                                                    
+                                                                      
+                                                                        
+                                                                          
+                                                                            
+                                                                          
+                                                                          
+                                                                            
+                                                                              1
+                                                                            
+                                                                          
+                                                                        
+                                                                        
+                                                                          
+                                                                            
+                                                                          
+                                                                          
+                                                                            
+                                                                              1
+                                                                              +
+                                                                              ⋱
+                                                                            
+                                                                          
+                                                                        
+                                                                      
+                                                                    
+                                                                  
+                                                                
+                                                              
+                                                            
+                                                          
+                                                        
+                                                      
+                                                    
+                                                  
+                                                
+                                              
+                                            
+                                          
+                                        
+                                      
+                                    
+                                  
+                                
+                              
+                            
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle e=2+{\cfrac {1}{1+{\cfrac {1}{2+{\cfrac {1}{1+{\cfrac {1}{1+{\cfrac {1}{4+{\cfrac {1}{1+{\cfrac {1}{1+\ddots }}}}}}}}}}}}}}.}
+  This continued fraction for e converges three times as quickly:
+
+  
+    
+      
+        e
+        =
+        1
+        +
+        
+          
+            
+              
+                
+              
+              
+                
+                  2
+                
+              
+            
+            
+              
+                
+              
+              
+                
+                  1
+                  +
+                  
+                    
+                      
+                        
+                          
+                        
+                        
+                          
+                            1
+                          
+                        
+                      
+                      
+                        
+                          
+                        
+                        
+                          
+                            6
+                            +
+                            
+                              
+                                
+                                  
+                                    
+                                  
+                                  
+                                    
+                                      1
+                                    
+                                  
+                                
+                                
+                                  
+                                    
+                                  
+                                  
+                                    
+                                      10
+                                      +
+                                      
+                                        
+                                          
+                                            
+                                              
+                                            
+                                            
+                                              
+                                                1
+                                              
+                                            
+                                          
+                                          
+                                            
+                                              
+                                            
+                                            
+                                              
+                                                14
+                                                +
+                                                
+                                                  
+                                                    
+                                                      
+                                                        
+                                                      
+                                                      
+                                                        
+                                                          1
+                                                        
+                                                      
+                                                    
+                                                    
+                                                      
+                                                        
+                                                      
+                                                      
+                                                        
+                                                          18
+                                                          +
+                                                          
+                                                            
+                                                              
+                                                                
+                                                                  
+                                                                
+                                                                
+                                                                  
+                                                                    1
+                                                                  
+                                                                
+                                                              
+                                                              
+                                                                
+                                                                  
+                                                                
+                                                                
+                                                                  
+                                                                    22
+                                                                    +
+                                                                    
+                                                                      
+                                                                        
+                                                                          
+                                                                            
+                                                                          
+                                                                          
+                                                                            
+                                                                              1
+                                                                            
+                                                                          
+                                                                        
+                                                                        
+                                                                          
+                                                                            
+                                                                          
+                                                                          
+                                                                            
+                                                                              26
+                                                                              +
+                                                                              ⋱
+                                                                            
+                                                                          
+                                                                        
+                                                                      
+                                                                    
+                                                                  
+                                                                
+                                                              
+                                                            
+                                                          
+                                                        
+                                                      
+                                                    
+                                                  
+                                                
+                                              
+                                            
+                                          
+                                        
+                                      
+                                    
+                                  
+                                
+                              
+                            
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle e=1+{\cfrac {2}{1+{\cfrac {1}{6+{\cfrac {1}{10+{\cfrac {1}{14+{\cfrac {1}{18+{\cfrac {1}{22+{\cfrac {1}{26+\ddots }}}}}}}}}}}}}}.}
+  Many other series, sequence, continued fraction, and infinite product representations of e have been developed.
+
+
+=== Stochastic representations ===
+In addition to exact analytical expressions for representation of e, there are stochastic techniques for estimating e.  One such approach begins with an infinite sequence of independent random variables X1, X2..., drawn from the uniform distribution on [0, 1]. Let V be the least number n such that the sum of the first n observations exceeds 1:
+
+  
+    
+      
+        V
+        =
+        min
+        
+          {
+          
+            n
+            ∣
+            
+              X
+              
+                1
+              
+            
+            +
+            
+              X
+              
+                2
+              
+            
+            +
+            ⋯
+            +
+            
+              X
+              
+                n
+              
+            
+            >
+            1
+          
+          }
+        
+        .
+      
+    
+    {\displaystyle V=\min \left\{n\mid X_{1}+X_{2}+\cdots +X_{n}>1\right\}.}
+  Then the expected value of V is e: E(V) = e.
+
+
+=== Known digits ===
+The number of known digits of e has increased substantially during the last decades. This is due both to the increased performance of computers and to algorithmic improvements.
+Since that time, the proliferation of modern high-speed desktop computers has made it possible for amateurs, with the right hardware, to compute trillions of digits of e.
+
+
+== In computer culture ==
+In contemporary internet culture, individuals and organizations frequently pay homage to the number e.
+For instance, in the IPO filing for Google in 2004, rather than a typical round-number amount of money, the company announced its intention to raise $2,718,281,828, which is e billion dollars rounded to the nearest dollar. Google was also responsible for a billboard that appeared in the heart of Silicon Valley, and later in Cambridge, Massachusetts; Seattle, Washington; and Austin, Texas. It read "{first 10-digit prime found in consecutive digits of e}.com". Solving this problem and visiting the advertised (now defunct) web site led to an even more difficult problem to solve, which in turn led to Google Labs where the visitor was invited to submit a résumé. The first 10-digit prime in e is 7427466391, which starts at the 99th digit.In another instance, the computer scientist Donald Knuth let the version numbers of his program Metafont approach e. The versions are 2, 2.7, 2.71, 2.718, and so forth.
+
+
+== Notes ==
+
+
+== Further reading ==
+Maor, Eli; e: The Story of a Number, ISBN 0-691-05854-7
+Commentary on Endnote 10 of the book Prime Obsession for another stochastic representation
+McCartin, Brian J. (2006). "e: The Master of All" (PDF). The Mathematical Intelligencer. 28 (2): 10–21. doi:10.1007/bf02987150.
+
+
+== External links ==
+The number e to 1 million places and 2 and 5 million places
+e Approximations – Wolfram MathWorld
+Earliest Uses of Symbols for Constants Jan. 13, 2008
+"The story of e", by Robin Wilson at Gresham College, 28 February 2007 (available for audio and video download)
+e Search Engine 2 billion searchable digits of e, π and √2

@@ -1,0 +1,38 @@
+Title: XIAP
+Aspects: {'XAF'}
+
+X-linked inhibitor of apoptosis protein (XIAP),  also known as inhibitor of apoptosis protein 3 (IAP3) and baculoviral IAP repeat-containing protein 4 (BIRC4), is a protein that stops apoptotic cell death. In humans, this protein (XIAP) is produced by a gene named XIAP gene located on the X chromosome.XIAP is a member of the inhibitor of apoptosis family of proteins (IAP). IAPs were initially identified in baculoviruses, but XIAP is one of the homologous proteins found in mammals. It is so called because it was first discovered by a 273 base pair site on the X chromosome.  The protein is also called human IAP-like Protein (hILP), because it is not as well conserved as the human IAPS: hIAP-1 and hIAP-2. XIAP is the most potent human IAP protein currently identified.
+
+
+== Discovery ==
+Neuronal apoptosis inhibitor protein (NAIP) was the first homolog to baculoviral IAPs that was identified in humans. With the sequencing data of NIAP, the gene sequence for a RING zinc-finger domain was discovered at site Xq24-25. Using PCR and cloning, three BIR domains and a RING finger were found on the protein, which became known as X-linked Inhibitor of Apoptosis Protein. The transcript size of Xiap is 9.0kb, with an open reading frame of 1.8kb. Xiap mRNA has been observed in all human adult and fetal tissues "except peripheral blood leukocytes". The XIAP sequences led to the discovery of other members of the IAP family.
+
+
+== Structure ==
+XIAP consists of three major types of structural elements (domains). Firstly, there is the baculoviral IAP repeat (BIR) domain consisting of approximately 70 amino acids, which characterizes all IAP. Secondly, there is a UBA domain, which allows XIAP to bind to ubiquitin. Thirdly, there is a zinc-binding domain, or a “carboxy-terminal RING Finger”. XIAP has been characterized with three amino-terminal BIR domains followed by one UBA domain and finally one RING domain. Between the BIR-1 and BIR-2 domains, there is a linker-BIR-2 region that is thought to contain the only element that comes into contact with the caspase molecule to form the XIAP/Caspase-7 complex.
+
+
+== Function ==
+XIAP stops apoptotic cell death that is induced either by viral infection or by overproduction of caspases. Caspases are the enzymes primarily responsible for cell death. XIAP binds to and inhibits caspase 3, 7 and 9. The BIR2 domain of XIAP inhibits caspase 3 and 7, while BIR3 binds to and inhibits caspase 9. The RING domain utilizes E3 ubiquitin ligase activity and enables IAPs to catalyze ubiquination of self, caspase-3, or caspase-7 by degradation via proteasome activity. However, mutations affecting the RING Finger do not significantly affect apoptosis, indicating that the BIR domain is sufficient for the protein’s function. When inhibiting caspase-3 and caspase-7 activity, the BIR2 domain of XIAP binds to the active-site substrate groove, blocking access of the normal protein substrate that would result in apoptosis.Caspases are activated by cytochrome c, which is released into the cytosol by dysfunctioning mitochondria. Studies show that XIAP does not directly affect cytochrome c.XIAP distinguishes itself from the other human IAPs because it is able to effectively prevent cell death due to "TNF-α, Fas, UV light, and genotoxic agents".
+
+
+== Inhibiting XIAP ==
+XIAP is inhibited by DIABLO (Smac) and HTRA2 (Omi), two death-signaling proteins released into the cytoplasm by the mitochondria. Smac/DIABLO, a mitochondrial protein and negative regulator of XIAP, can enhance apoptosis by binding to XIAP and preventing it from binding to caspases. This allows normal caspase activity to proceed. The binding process of Smac/DIABLO to XIAP and caspase release requires a conserved tetrapeptide motif.
+
+
+== Clinical significance ==
+Deregulation of XIAP can result in “cancer, neurodegenerative disorders, and autoimmunity”. High proportions of XIAP may function as a tumor marker. In the development of lung cancer NCI-H460, the overexpression of XIAP not only inhibits caspase, but also stops the activity of cytochrome c (Apoptosis). In developing prostate cancer, XIAP is one of four IAPs overexpressed in the prostatic epithelium, indicating that a molecule that inhibits all IAPs may be necessary for effective treatment. Apoptotic regulation is an extremely important biological function, as evidenced by "the conservation of the IAPs from humans to Drosophila".Mutations in the XIAP gene can result in a  severe and rare type of inflammatory bowel disease. Defects in the XIAP gene can also result in an extremely rare condition called X-linked lymphoproliferative disease.
+
+
+== Interactions ==
+XIAP has been shown to interact with:
+
+
+== References ==
+
+
+== Further reading ==
+
+
+== External links ==
+GeneReviews/NCBI/NIH/UW entry on Lymphoproliferative Disease, X-Linked

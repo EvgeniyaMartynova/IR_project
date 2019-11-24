@@ -1,0 +1,74 @@
+Title: Cunninghamella elegans
+Aspects: {'C. elegans elegans'}
+
+Cunninghamella elegans is a species of fungus in the genus Cunninghamella found in soil.It can be grown in Sabouraud dextrose broth, a liquid medium used for cultivation of yeasts and molds from liquid which are normally sterile.
+As opposed to C. bertholletiae, it is not a human pathogen, with the exception of two documented patients.
+
+
+== Description ==
+C. elegans is a filamentous fungus that produces purely gray colonies.Electron microscopy studies show that the conidia are covered with spines.
+
+
+== Use as a fungal organism capable of xenobiotics metabolism ==
+Cunninghamella elegans is able to degrade xenobiotics. It has a variety of enzymes of phases I (modification enzymes acting to introduce reactive and polar groups into their substrates) and II (conjugation enzymes) of the xenobiotic metabolism, as do mammals. 
+Cytochrome P450 monooxygenase, aryl sulfotransferase, glutathione S-transferase, UDP-glucuronosyltransferase, UDP-glucosyltransferase activities have been detected in cytosolic or microsomal fractions.Cytochrome P-450 and cytochrome P-450 reductase in C. elegans are part of the phase I enzymes. They are induced by the corticosteroid cortexolone and by phenanthrene. C. elegans also possesses a lanosterol 14-alpha demethylase, another enzyme in the cytochrome P450 family.C. elegans also possesses a glutathione S-transferase.
+
+
+=== Use as a fungal model organism of mammalian drug metabolism ===
+Cunninghamella elegans is a microbial model of mammalian drug metabolism. The use of this fungus could reduce the over-all need for laboratory animals.C. elegans is able to transform the tricyclic antidepressants amitriptyline and doxepin, the  tetracyclic antidepressant mirtazapine, the  muscle relaxant cyclobenzaprine, the typical antipsychotic chlorpromazine as well as the antihistamine and anticholinergic methdilazine and azatadine. It is also able to transform the antihistamines brompheniramine, chlorpheniramine and pheniramine.It forms a glucoside with the diuretic furosemide.The transformation of oral contraceptive mestranol by C. elegans yields two hydroxylated metabolites, 6beta-hydroxymestranol and 6beta,12beta-dihydroxymestranol.
+
+
+=== Metabolism of polycyclic aromatic hydrocarbons ===
+The phase I cytochrome P450 enzyme systems of C. elegans has been implicated in the neutralization of numerous polycyclic aromatic hydrocarbons (PAH).It can degrade molecules such as anthracene, 7-methylbenz[a]anthracene and 7-hydroxymethylbenz[a]anthracene, phenanthrene, acenaphthene, 1- and 2-methylnaphthalene, naphthalene, fluorene or benzo(a)pyrene.In the case of phenanthrene, C. elegans produces a glucoside conjugate of 1-hydroxyphenanthrene (phenanthrene 1-O-beta-glucose).
+
+
+=== Metabolism of pesticides ===
+C. elegans is also able to degrade the herbicides alachlor, metolachlor and isoproturon as well as the fungicide mepanipyrim.
+
+
+=== Metabolism of phenolics ===
+Cunninghamella elegans can be used to study the metabolism of phenols. This type of molecules already have reactive and polar groups comprised within their structure therefore phases I enzymes are less active than phase II (conjugation) enzymes.
+
+
+==== Metabolism of flavonoids ====
+FlavonolsIn flavonols, an hydroxyl group is available in the 3- position allowing the glycosylation at that position. The biotransformation of quercetin yields three metabolites, including quercetin 3-O-β-D-glucopyranoside, kaempferol 3-O-β-D-glucopyranoside and isorhamnetin 3-O-β-D-glucopyranoside. Glucosylation and O-methylation are involved in the process.
+FlavonesIn flavones, there is no hydroxyl group available at the 3- position. Conjugation, in the form of sulfation occurs at the 7- or 4'- positions. Apigenin and chrysin are also transformed by C. elegans and produce apigenin 7-sulfate, apigenin 7,4′-disulfate, chrysin 7-sulfate.Sulfation also occurs on naringenin and produces naringenin-7-sulfate.Glucosylation may nevertheless occur but in 3'- position, as happens during the microbial transformation of psiadiarabin and its 6-desmethoxy analogue, 5,3′ dihydroxy-7,2′,4′,5′-tetramethoxyflavone, by Cunninghamella elegans NRRL 1392 that gives the 3′-glucoside conjugates of the two flavones.
+flavanonesAs in flavones, there is no hydroxyl groups available at the 3- position for glycosylation in flavanones. Therefore, sulfation occurs at the 7- position. In compounds like 7-methoxylated flavanones like 7-O-methylnaringenin (sakuranetin), demethylation followed by sulfation occur.
+
+
+==== Metabolism of synthetic phenolics ====
+It is also able to degrade synthetic phenolic compounds like bisphenol A.
+
+
+=== Metabolism of heterocyclic organic compounds ===
+C. elegans can transform the nitrogen containing compound phthalazine It is also able to oxidize the organosulfur compound dibenzothiophene.
+
+
+== Uses in biotechnology ==
+Methods for efficient C. elegans genomic DNA isolation and transformation have been developed.The cytochrome P450 of C. elegans has been cloned in Escherichia coli as well as an enolase.
+
+
+=== Use in bioconversion ===
+
+
+==== Techniques employed ====
+Cunninghamella elegans can be grown in stirred tank batch bioreactor. Protoplasts cultures have been used.
+
+
+==== Examples of uses ====
+C. elegans can be used for phenanthrene bioconversion or for steroid transformation. It has been used to produce isoapocodeine from 10,11-dimethoxyaporphine, triptoquinone from the synthetic abietane diterpene triptophenolide or for the rational and economical bioconversion of antimalarial drug artemisinin to 7beta-hydroxyartemisinin.
+
+
+=== Environmental biotechnology ===
+Cunninghamella elegans has been used in environmental biotechnology for the treatment of textile wastewaters, for instance those discoloured by azo dyes or malachite green.Chitin and chitosan isolated from C. elegans can be used for heavy metal biosorption. Production can be made on yam bean (Pachyrhizus erosus L. Urban) medium.
+
+
+== Strains ==
+Cunninghamella elegans ATCC 9245Cunninghamella elegans ATCC 36112Cunninghamella elegans ATCC 26269Cunninghamella elegans NRRL 1393Cunninghamella elegans IFM 46109Cunninghamella elegans UCP 542
+
+
+== References ==
+
+
+== External links ==
+Cunninghamella elegans on the Fungal Genomics Project

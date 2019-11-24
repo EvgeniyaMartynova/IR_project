@@ -1,0 +1,88 @@
+Title: N'Ko script
+Aspects: {"N'Ko"}
+
+N'Ko (N'Ko: ߒߞߏ‎) is a script devised by Solomana Kante in 1949, as a writing system for the Manding languages of West Africa. The term N'Ko, which means I say in all Manding languages, is also used for the Manding literary standard written in N'Ko script.
+The script has a few similarities to the Arabic script, notably its direction (right-to-left) and the letters which are connected at the base. Unlike Arabic, it obligatorily marks both tone and vowels. N'Ko tones are marked as diacritics, in a similar manner to the marking of some vowels in Arabic.
+
+
+== History ==
+
+Kante created N'Ko in response to what he felt were beliefs that Africans were a culture-less people, because before then, no indigenous African writing system for his language existed. N'Ko was invented in Bingerville, Côte d'Ivoire and then brought to Kante's natal region of Kankan, Guinea before being disseminated into other Manding-speaking parts of West Africa. N'Ko Alphabet Day is April 14, relating to the date in 1949 when the script is believed to have been finalized.The introduction of the script led to a movement promoting literacy in the N'Ko script among Manding speakers in both Anglophone and Francophone West Africa. N'Ko literacy was instrumental in shaping the Maninka cultural identity in Guinea, and it has also strengthened the Manding identity in other parts of West Africa.
+
+
+== Current use ==
+As of 2005, it is used mainly in Guinea and the Ivory Coast (respectively by Maninka and Dyula speakers), with an active user community in Mali (by Bambara-speakers). Publications include a translation of the Quran, a variety of textbooks on subjects such as physics and geography, poetic and philosophical works, descriptions of traditional medicine, a dictionary, and several local newspapers. It has been classed as the most successful of the West African scripts.N'Ko literature generally uses a literary language register, termed kangbe (literally, 'clear language'), that is seen as a potential compromise dialect across Manding languages. For example, the word for 'name' in Bamanan is tɔgɔ and in Maninka it is tɔɔ. In written communication each person will write it one single way in N'Ko, and yet read and pronounce it as in their own language. This literary register is thus intended as a koiné blending elements of the principal Manding languages (which are mutually intelligible), but has a very strong Maninka flavour.
+There has also been documented use of N'Ko, with additional diacritics, for traditional religious publications in the Yoruba and Fon languages of Benin and southwest Nigeria.
+
+
+== Letters ==
+The N'Ko script is written from right to left, with letters being connected to one another.
+
+
+=== Vowels ===
+
+
+=== Consonants ===
+
+
+=== Tones ===
+N'Ko uses diacritical marks to denote tonality and vowel length. Together with plain vowels, N'Ko distinguishes four tones: high, low, ascending, and descending; and two vowel lengths: long and short. However no mark exists for a short, descending tone.
+
+
+=== Numbers ===
+
+
+=== Non-native sounds and letters ===
+N'Ko also provides a way of representing non-native sounds through the modification of its letters with diacritics. These letters are used in transliterated names and loanwords.
+Two dots above a vowel, resembling a diaeresis mark, represent a foreign tone: u-two-dots for the French /y/ sound, or e-two-dots for the French /ə/. 
+Diacritics are also placed above some consonant letters to cover sounds not found in Manding, such as gb-dot for /g/; gb-line for /ɣ/; gb-two-dots for /k͡p/; f-dot for /v/; rr-dot for /ʁ/; etc.
+
+
+== Digitization ==
+With the increasing use of computers and the subsequent desire to provide universal access to information technology, the challenge arose of developing ways to use the N'Ko script on computers. From the 1990s onwards, there were efforts to develop fonts and even web content by adapting other software and fonts. A DOS word processor named Koma Kuda was developed by Prof. Baba Mamadi Diané from Cairo University. However the lack of intercompatibility inherent in such solutions was a block to further development.
+Pango 1.18 and GNOME 2.20 have native support for the N'Ko languages. An iOS calculator in N'Ko, N'Ko:Calc, is available on the Apple App Store. An iOS app for sending email in N'Ko is also available, called Triage-N'Ko. There is a virtual keyboard named virtual-keyboard-nko to type N'Ko characters on the Windows operating system.
+A N'Ko font, Conakry, is available for Windows 8, macOS, and OpenOffice-LibreOffice's Graphite engine, which was developed by SIL International.
+
+
+=== Unicode ===
+
+N'Ko script was added to the Unicode Standard in July 2006 with the release of version 5.0.
+UNESCO's Programme Initiative B@bel supported preparing a proposal to encode N'Ko in Unicode. In 2004, the proposal, presented by three professors of N'Ko (Baba Mamadi Diané, Mamady Doumbouya, and Karamo Kaba Jammeh) working with Michael Everson, was approved for balloting by the ISO working group WG2. In 2006, N'Ko was approved for Unicode 5.0. The Unicode block for N'Ko is U+07C0–U+07FF:
+
+
+== References ==
+
+
+=== Sources ===
+Condé, Ibrahima Sory 2. Soulemana Kanté entre Linguistique et Grammaire : Le cas de la langue littéraire utilisée dans les textes en N'Ko (in French)
+Conrad, David C. (2001). Reconstructing Oral Tradition: Souleymane Kanté's Approach to Writing Mande History. Mande Studies 3, 147–200.
+Dalby, David (1969) 'Further indigenous scripts of West Africa: Mandin, Wolof and Fula alphabets and Yoruba 'Holy' writing', African Language Studies, 10, pp. 161–181.
+Davydov, Artem. On Souleymane Kanté's "Nko Grammar"
+Everson, Michael, Mamady Doumbouya, Baba Mamadi Diané, & Karamo Jammeh. 2004. Proposal to add the N'Ko script to the BMP of the UCS
+Donaldson, Coleman (2017) Clear Language: Script, Register and the N'ko Movement of Manding-Speaking West Africa. Doctoral Dissertation, Philadelphia, PA: University of Pennsylvania.
+Donaldson, Coleman (2019) "Linguistic and Civic Refinement in the N’ko Movement of Manding-Speaking West Africa," Signs and Society 7, no. 2 (Spring 2019): 156-185.
+Donaldson, Coleman (2017) "Orthography, Standardization and Register: The Case of Manding." In Standardizing Minority Languages: Competing Ideologies of Authority and Authenticity in the Global Periphery, edited by Pia Lane, James Costa, and Haley De Korne, 175–199. Routledge Critical Studies in Multilingualism. New York, NY: Routledge.
+Oyler, Dianne White (1994) Mande identity through literacy, the N'ko writing system as an agent of cultural nationalism. Toronto : African Studies Association.
+Oyler, Dianne (1995). For "All Those Who Say N'ko": N'ko Literacy and Mande Cultural Nationalism in the Republic of Guinea. Unpublished PhD dissertation, University of Florida.
+Oyler, Dianne White (1997) 'The N'ko alphabet as a vehicle of indigenist historiography', History in Africa, 24, pp. 239–256.
+Rovenchak, Andrij. (2015) Quantitative Studies in the Corpus of Nko Periodicals, Recent Contributions to Quantitative Linguistics, Arjuna Tuzzi, Martina Benešová, Ján Macutek (eds.), 125–138. Berlin: Walter de Gruyter.
+Singler, John Victor (1996) 'Scripts of West Africa', in Daniels, Peter T., & Bright, William (eds) The World's Writing Systems, New York, NY: Oxford University Press, Inc. pp. 593–598.
+Vydrine, Valentin F. (2001) 'Souleymane Kanté, un philosophe-innovateur traditionnaliste maninka vu à travers ses écrits en nko', Mande Studies, 3, pp. 99–131.
+Wyrod, Christopher. 2003. The light on the horizon: N'Ko literacy and formal schooling in Guinea. MA thesis, George Washington University.
+Wyrod, Christopher. 2008. A social orthography of identity: the N'Ko literacy movement in West Africa. International Journal of the Sociology of Language 192:27–44.
+B@bel and Script Encoding Initiative Supporting Linguistic Diversity in Cyberspace 12-11-2004 (UNESCO)
+
+
+== External links ==
+N'Ko Institute
+Kanjamadi
+Observations on the use of N'ko
+Omniglot page on N'ko, with more links
+Nkohome, N'ko tutorial site with information on N'ko publications and contacts
+Information about Manding languages
+An introduction to N'Ko
+"Casablanca Statement" (on localization of ICT) translated & written in N'Ko
+PanAfriL10n page on N'Ko
+Translation of the Meaning of the Holy Quran in N'ko
+Everyone Speaks Text Message (Tina Rosenberg, New York Times Magazine, Dec. 11, 2011)
+some link to ߒߞߏ

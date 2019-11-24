@@ -1,0 +1,86 @@
+Title: Microsoft Exchange Server
+Aspects: {'E12'}
+
+Microsoft Exchange Server is a mail server and calendaring server developed by Microsoft. It runs exclusively on Windows Server operating systems.
+The first version was called Exchange Server 4.0, to position it as the successor to the related Microsoft Mail 3.5. Exchange initially used the X.400 directory service but switched to Active Directory later. Until version 5.0 it came bundled with an email client called Microsoft Exchange Client. This was discontinued in favor of Microsoft Outlook.
+Exchange Server primarily uses a proprietary protocol called MAPI to talk to email clients, but subsequently added support for POP3, IMAP, and EAS. The standard SMTP protocol is used to communicate to other Internet mail servers.
+Exchange Server is licensed both as on-premises software and software as a service (SaaS). In the on-premises form, customers purchase client access licenses (CALs); as SaaS, Microsoft charges a monthly service fee instead.
+
+
+== History ==
+
+Microsoft had sold a number of simpler email products before, but the first release of Exchange (Exchange Server 4.0 in March 1996) was an entirely new X.400-based client–server groupware system with a single database store, which also supported X.500 directory services. The directory used by Exchange Server eventually became Microsoft's Active Directory service, an LDAP-compliant directory service which was integrated into Windows 2000 as the foundation of Windows Server domains.
+As of 2018, there have been nine releases.
+
+
+=== Current version ===
+The current version, Exchange Server 2019, was released in October 2018. Unlike other Office Server 2019 products such as SharePoint and Skype for Business, Exchange Server 2019 can only be deployed on Windows Server 2019. One of the key features of the new release is that Exchange Server can be deployed onto Windows Server Core for the first time, additionally Microsoft has retired the Unified Messaging feature of Exchange, meaning that Skype for Business on-premises customers will have to use alternative solutions for voicemail, such as Azure cloud voicemail. Unified Messaging continues to exist in Exchange Online requiring an Exchange Plan 2 license. 
+
+
+=== New Features ===
+Security: support for installing Exchange Server 2019 onto Windows Server Core
+Performance:  supports running Exchange Server with up to 48 processor cores and 256 GB of RAM
+
+
+=== Removed features ===
+Unified Messaging
+
+
+== Clustering and high availability ==
+Exchange Server Enterprise Edition supports clustering of up to 4 nodes when using Windows 2000 Server, and up to 8 nodes with Windows Server 2003. Exchange Server 2003 also introduced active-active clustering, but for two-node clusters only. In this setup, both servers in the cluster are allowed to be active simultaneously. This is opposed to Exchange's more common active-passive mode in which the failover servers in any cluster node cannot be used at all while their corresponding home servers are active. They must wait, inactive, for the home servers in the node to fail. Subsequent performance issues with active-active mode have led Microsoft to recommend that it should no longer be used. In fact, support for active-active mode clustering has been discontinued with Exchange Server 2007.
+Exchange's clustering (active-active or active-passive mode) has been criticized because of its requirement for servers in the cluster nodes to share the same data. The clustering in Exchange Server provides redundancy for Exchange Server as an application, but not for Exchange data. In this scenario, the data can be regarded as a single point of failure, despite Microsoft's description of this set-up as a "Shared Nothing" model. This void has however been filled by ISVs and storage manufacturers, through "site resilience" solutions, such as geo-clustering and asynchronous data replication. Exchange Server 2007 introduces new cluster terminology and configurations that address the shortcomings of the previous "shared data model".Exchange Server 2007 provides built-in support for asynchronous replication modeled on SQL Server's "Log shipping" in CCR (Cluster Continuous Replication) clusters, which are built on MSCS MNS (Microsoft Cluster Service—Majority Node Set) clusters, which do not require shared storage. This type of cluster can be inexpensive and deployed in one, or "stretched" across two data centers for protection against site-wide failures such as natural disasters. The limitation of CCR clusters is the ability to have only two nodes and the third node known as "voter node" or file share witness that prevents "split brain" scenarios, generally hosted as a file share on a Hub Transport Server. The second type of cluster is the traditional clustering that was available in previous versions, and is now being referred to as SCC (Single Copy Cluster). In Exchange Server 2007 deployment of both CCR and SCC clusters has been simplified and improved; the entire cluster install process takes place during Exchange Server installation. LCR or Local Continuous Replication has been referred to as the "poor man's cluster". It is designed to allow for data replication to an alternative drive attached to the same system and is intended to provide protection against local storage failures. It does not protect against the case where the server itself fails.
+In November 2007, Microsoft released SP1 for Exchange Server 2007. This service pack includes an additional high-availability feature called SCR (Standby Continuous Replication). Unlike CCR, which requires that both servers belong to a Windows cluster typically residing in the same datacenter, SCR can replicate data to a non-clustered server, located in a separate datacenter.
+With Exchange Server 2010, Microsoft introduced the concept of the Database Availability Group (DAG). A DAG contains Mailbox servers that become members of the DAG. Once a Mailbox server is a member of a DAG, the Mailbox Databases on that server can be copied to other members of the DAG. When a Mailbox server is added to a DAG, the Failover Clustering Windows role is installed on the server and all required clustering resources are created.
+
+
+== Licensing ==
+Like Windows Server products, Exchange Server requires client access licenses, which are different from Windows CALs. Corporate license agreements, such as the Enterprise Agreement, or EA, include Exchange Server CALs. It also comes as part of the Core CAL. Just like Windows Server and other server products from Microsoft, there is the choice to use User CALs or Device CALs. Device CALs are assigned to devices (workstation, laptop or PDA), which may be used by one or more users. User CALs, are assigned to users, allowing them to access Exchange from any device. User and Device CALs have the same price, however, they cannot be used interchangeably.
+For service providers looking to host Microsoft Exchange, there is a Service Provider License Agreement (SPLA) available whereby Microsoft receives a monthly service fee instead of traditional CALs. Two types of Exchange CAL are available: Exchange CAL Standard and Exchange CAL Enterprise. The Enterprise CAL is an add-on license to the Standard CAL.
+
+
+== Clients ==
+Microsoft Exchange Server uses a proprietary remote procedure call (RPC) protocol called MAPI/RPC, which was designed to be used by Microsoft Outlook. Clients capable of using the proprietary features of Exchange Server include Evolution, Hiri and Microsoft Outlook. 
+Exchange Web Services (EWS), an alternative to the MAPI protocol, is a documented SOAP-based protocol introduced with Exchange Server 2007. Exchange Web Services is used by the latest version of Microsoft Entourage for Mac and Microsoft Outlook for Mac - since the release of Mac OS X Snow Leopard Mac computers running OS X include some support for this technology via Apple's Mail application. 
+E-mail hosted on an Exchange Server can also be accessed using POP3, and IMAP4 protocols, using clients such as Windows Live Mail, Mozilla Thunderbird, and Lotus Notes. These protocols must be enabled on the server. Exchange Server mailboxes can also be accessed through a web browser, using Outlook Web App (OWA). Exchange Server 2003 also featured a version of OWA for mobile devices, called Outlook Mobile Access (OMA).
+Microsoft Exchange Server up to version 5.0 came bundled with Microsoft Exchange Client as the email client. After version 5.0, this was replaced by Microsoft Outlook, bundled as part of Microsoft Office 97 and later. When Outlook 97 was released, Exchange Client 5.0 was still in development and to be later released as part of Exchange Server 5.0, primarily because Outlook was only available for Windows. Later, in Exchange Server 5.5, Exchange Client was removed and Outlook was made the only Exchange client. As part of Exchange Server 5.5, Outlook was released for other platforms.
+The original Windows 95 "Inbox" client also used MAPI and was called "Microsoft Exchange". A stripped down version of the Exchange Client that does not have support for Exchange Server was released as Windows Messaging to avoid confusion; it was included with Windows 95 OSR2, Windows 98, and Windows NT 4. It was discontinued because of the move to email standards such as SMTP, IMAP, and POP3, all of which Outlook Express supports better than Windows Messaging.
+
+
+=== Exchange ActiveSync ===
+Support for Exchange ActiveSync (EAS) was added to Microsoft Exchange Server 2003. It allows a compliant device such as a Windows Mobile device or smartphone to securely synchronize mail, contacts and other data directly with an Exchange server and has become a popular mobile access standard for businesses due to support from companies like Nokia and Apple Inc. as well as its device security and compliance features. 
+Support for push email was added to it with Exchange Server 2003 Service Pack 2 and is supported by Windows Phone 7, the iPhone and Android phones, but notably not for Apple's native Mail app on macOS.
+Exchange ActiveSync Policies allow administrators to control which devices can connect to the organization, remotely deactivate features, and remotely wipe a lost or stolen devices.
+
+
+== Hosted Exchange as a service ==
+The complexities of managing Exchange Server -- namely running both one or more  Exchange Servers, plus Active Directory synchronization servers --  make it attractive for organisations to purchase it as a hosted service.
+
+
+=== Third-party providers ===
+This has been possible from a number of providers for more than 10 years, but as of June 2018 is that many providers have been marketing the service as "cloud computing" or "Software-as-a-Service." Exchange hosting allows for Microsoft Exchange Server to be running in the Internet, also referred to as the Cloud, and managed by a "Hosted Exchange Server provider" instead of building and deploying the system in-house.
+
+
+=== Exchange Online ===
+Exchange Online is Exchange Server delivered as a cloud service hosted by Microsoft itself. It is built on the same technologies as on-premises Exchange Server, and offers essentially the same services as third-party providers which host Exchange Server instances.Customers can also choose to combine both on-premises and online options in a hybrid deployment.. Hybrid implementations are popular for organizations that are unsure of the need or urgency to do a full transition to Exchange Online, and also allows for staggered email migration.
+Hybrid tools can cover the main stack of Microsoft Exchange, Lync, SharePoint, Windows, and Active Directory servers, in addition to using replica data to report cloud user experience.
+
+
+==== History ====
+Exchange Online was first provided as a hosted service in dedicated customer environments in 2005 to select pilot customers. Microsoft launched a multi-tenant version of Exchange Online as part of the Business Productivity Online Standard Suite in November 2008. In June 2011, as part of the commercial release of Microsoft Office 365, Exchange Online was updated with the capabilities of Exchange Server 2010.
+Exchange Server 2010 was developed concurrently as a server product and for the Exchange Online service.
+
+
+== See also ==
+History of Microsoft Exchange Server
+Comparison of mail servers
+Extensible Storage Engine
+List of applications with iCalendar support
+List of collaborative software
+Innovative Communications Alliance (Microsoft - Nortel)
+
+
+== References ==
+
+
+== External links ==
+Microsoft Exchange Server – official site

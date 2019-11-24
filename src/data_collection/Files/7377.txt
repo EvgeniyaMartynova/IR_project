@@ -1,0 +1,98 @@
+Title: Kurzweil Music Systems
+Aspects: {'K1000', 'K2000'}
+
+Kurzweil Music Systems is an American company that produces electronic musical instruments. It was founded in 1982 by Stevie Wonder (musician), Raymond Kurzweil (innovator) and Bruce Cichowlas (software developer). 
+Kurzweil was a developer of reading machines for the blind, and their company used many of the technologies originally designed for reading machines, and adapted them to musical purposes. They released their first instrument, the K250 in 1983, and have continued producing new instruments ever since. The company was acquired by Young Chang in 1990. HDC acquired Young Chang in 2006 and in January 2007 appointed Raymond Kurzweil as Chief Strategy Officer of Kurzweil Music Systems.
+
+
+== Products ==
+
+
+=== K250 synthesizer ===
+
+The company launched the K250 synthesizer/sampler in 1984: while limited by today's standards and quite expensive, it was considered to be the first really successful attempt to emulate the complex sound of a grand piano. This instrument was inspired by a bet between Ray Kurzweil and musician Stevie Wonder over whether a synthesizer could sound like a real piano. First issued as a very large and heavy keyboard, the electronics were also issued in a very large and heavy rackmount version, as the 250RMX (Rack Mount "Expander"—the presumed intention being that one could drive via MIDI and sequencers one or more "expanders"). Additional sample ROMs were developed and issued for both models.
+
+
+=== K150 synthesizer ===
+As opposed to using 'sample-based' or 'subtractive' synthesis, the K150 (a rack-mount unit) uses additive synthesis. Hal Chamberlin (mentioned below) developed software to run on Apple II class computers, which would allow extensive control of the very rich possibilities of the K150. This synthesizer was never a commercial music success, but was very popular in academic and research facilities.
+
+
+=== K1xxx synthesizers ===
+The K1000 and K1200 (and their rack-mounted variants) were designed to deliver the sample libraries developed originally for the K250 to a wider audience in less expensive and physically more manageable forms. Unlike the K250, these instruments could not sample new sounds directly; but their programming architecture and operating system were evolutionary steps that would culminate in the K2xxx series. There were several keyboard versions issued, and the 1000 modules were originally issued in PX (pianos and mixed bag), SX (strings), HX (horns and winds), and GX (guitars and basses) versions, each with differing sample-ROMs. As computing and electronics technologies changed rapidly during the period, larger sample bases could be combined. The later 1200 module versions contained these larger sample bases (i.e., PX+SX; SX+HX; HX+GX).
+
+
+=== K2xxx synthesizers ===
+
+The company's flagship line of synthesizer workstations, the K2xxx series, began to make real headway with the K2000, which introduced the company's acclaimed Variable Architecture Synthesis Technology (V.A.S.T.) engine. Throughout the 1990s, updates and upgrades to the K2000 (and eventually its successors, the K2500 and K2600) ensured that the K2x series was regarded as one of the most powerful and best-sounding synthesizers/samplers available. Although initially very expensive, Kurzweil instruments were popular in top recording studios and for use with music production for film because of their high-quality sounds.
+The K2000 was released in 1990 and was initially available in four versions, the K2000, K2000S, K2000R, and K2000RS. The S versions contain the hardware required for sampling, while the R versions are rack-mountable; the versions without an R feature 61 pressure-sensitive keys. The K2000 is capable of 24 voice polyphony,  which is somewhat limited, although up to 3 oscillators per voice can be used and an intelligent voice stealing algorithm retires the playing notes which are estimated to be least audible rather than simply the oldest. Each voice of the K2000 is able to play a separate program, allowing for smooth transitions during live performance - this simple feature took Kurzweil's competitors more than a decade to match.  The keyboard came with 2MB RAM but could be equipped with up to 64 megabytes of RAM for user loaded samples. Later models included the K2000VP (keyboard), K2000VPR (rack), K2VX (keyboard w/ optional ROMs), and K2VXS (keyboard w/ optional ROMs + sampling), which were based on the same hardware as the K2000 series but had the K2500 sound set loaded.
+
+The K2500, released in 1996, was a substantial improvement to the K2000, increasing polyphony to 48 voices and onboard RAM capacity to 128MB. The K2500 and later K2600 models can have a single patch running 192 virtual oscillators. There were also a number of other minor improvements as well as sound expansion options (daughterboard + 8mb piano expansion, 8MB orchestral expansion ROM, 8MB contemporary instruments ROM).
+The K2500 was available in 7 versions:
+
+K2500 - 76 note semi-weighted keyboard;
+K2500X - 88 note weighted action keyboard;
+K2500S - 76 note semi-weighted keyboard with sampling;
+K2500XS - 88 note weighted action keyboard with sampling;
+K2500AES - Audio Elite System, Limited Release (6 Units) 88 note weighted action keyboard with sampling, KDFX effects engine, all available upgrade options, and an extensive sample library (retail cost, $20,000.00).
+K2500R - rack-mounted version (no keyboard);
+K2500RS - rack-mounted version with sampling.The keyboard models included a ribbon controller and an input for a breath controller, making them the most expressive electronic instruments available at the time. Additionally one could add digital input/output (I/O) to connect S/PDIF or ADAT inputs and a program RAM (PRAM) expansion for loading larger soundsets or MIDI songs into memory. If one had purchased a model without onboard sampling, one could add the sampling option, PRAM, and reinstall their operating system to have the upgraded model.
+
+The K2600, released in 1999, improved on the K2500 with the addition of a new effects engine called KDFX and an enhancement to the V.A.S.T. engine called triple-mode. KDFX was also offered as an upgrade for the K2500 and later made available as a standalone product in the KSP8. KDFX drastically improved the quality of effects over the K2000 and K2500's built-in effects units, and added more flexibility such as using the Kurzweil as a vocoder. But the most impressive feature of the K2600 was Kurzweil's 'Triple Strike Piano', which was one of the most realistic-sounding sampled pianos available at the time. Patches for the K2500 were completely redesigned to incorporate the KDFX and triple strike capability. The K2600 uses different type sound expansion ROMs than the K2500 (although they contain the same samples), and could have a classic keys and General MIDI (GM) soundset added.
+The Kurzweil K2661, released in 2004, is basically a full-featured K2600 with a 61-key keyboard, flash memory storage, and a redesigned soundset that includes the expansion sets that had been produced for the K2000, K2500, and K2600.
+In 2008, all K26xx series synthesizers were discontinued by Kurzweil Music Systems, although inventory still remains (as of August 2008). This leaves the PC3 and PC3X (which have no sampling capability; see below) as Kurzweil's current flagship synthesizers for the time being.
+
+
+=== PCx Series ===
+
+In the mid 90s, Kurzweil introduced the PC88 keyboard, which was advertised more as a MIDI controller.  It was good for this purpose because it had 88 fully weighted keys and the ability to set four zones for controlling different instruments.  It was also a bit smaller so it was more portable than the K series instruments.  The instrument itself had over 300 internal sound patches and the ability to combine them together with different effects.  It was common for performers to use this instrument in combination with a rack mount K series synth. The PC88MX included a General MIDI soundboard with additional high-quality sounds taken from the K2xxx series. Unlike the K2xxx series, the PCx series did not include floppy disk nor SCSI expansion, although sounds could be edited and new sounds created. Another distinguishing feature of the PCx series was the lack of an onboard sequencer.
+
+In the 2000s, Kurzweil introduced the PC2 Series of keyboards that contained the famed Triple Strike Piano and used a V.A.S.T. synthesis engine similar to the K2xxx series, and later introduced the PC1 Series, which was a slightly cut down version of the PC2, losing only the KB3 organ mode, and some inputs and outputs.
+In Spring 2008, Kurzweil launched the PC3 Performance Controller, which has next generation V.A.S.T. synthesis technology derived from the K2xxx series but vastly improved with new features, new algorithms, virtual analog synthesis, sequencer, powerful effects processor based on Kurzweil KSP8 unit, and overall better sounds than previous Kurzweil synths.
+
+In January 2010, Kurzweil unveiled PC3K series of keyboards, which adds the ability to load K2xxx-series samples and programs (with limitations). It includes sample-playback capability and 128 Mbytes of flash memory storage for user samples.
+
+
+=== SP Series ===
+
+The initial Kurzweil SP Series are Stage Pianos based on the popular Kurzweil Micro Piano half-rack module of the mid-90's. It provides 32 sounds including pianos, electric pianos, organs, strings and synths.
+The board is also a fairly capable MIDI controller, and features two ribbon controllers.
+In summer of 2007, Kurzweil launched the SP2.
+
+
+=== Midiboard ===
+The Kurzweil Midiboard, a dedicated MIDI controller, was conceived of and specified by Jeff Tripp, then president of Key Concepts. It was perhaps the first of the pure keyboard controllers, brought to market to complement Kurzweil's rack mounted synthesizers. 'Midiboard' was, in fact, a Key Concepts trademark, transferred to Kurzweil Music Systems as part of a licensing agreement.
+Its novel sensing system, invented and patented by Tripp and Key Concepts co-founder, John Allen, provided velocity, individual aftertouch pressure, and release velocity information from a single sensor per key. Each sensor was shaped as an arch of conductive rubber that served as one plate of a capacitor and was designed to deform (change shape under pressure) in a scaled way. The sensors were nicknamed 'sushi sensors' because the first prototype was conductive rubber sheet (think 'nori') held in a barrel shape by a center of white silicone RTV (think 'the rice'). Released in 1988, the Midiboard's software and electronics were designed under contract to Key Concepts by Hal Chamberlin, then of Micro Technology Unlimited.
+The Midiboard had its virtues and its drawbacks. It was reasonable to manufacture and relatively inexpensive for the range of input forces, both presses and impulse inputs, it could transduce. One of its drawbacks was that it was not well damped in very light playing, making touch uncertain. At some point, working for Kurzweil, Hal Chamberlin debounced this burble. A hardware fix was possible - splitting the sensors.
+It contained a number of interesting innovations, some of which remain fairly uncommon. For example, most MIDI controllers provide aftertouch data, but the Midiboard is capable of polyphonic aftertouch, a feature found on few other keyboards. The Midiboard also provides comprehensive signal routing, layering, and transposition control.  These advanced features are not without their cost: the Midiboard weighs approximately 100 lb and is fairly difficult to use.
+
+
+=== Artis/Forte Series ===
+In 2013 Kurzweil released a brand new stage piano called the "Artis". Marketed as "the ultimate all-in-one gigmachine", the Artis is an 88 key weighted action keyboard, in a newly designed, relatively light package of 21 kg. Featuring sounds from the PC3K series and the "Kore64" expansion library, and a user interface focused on easy selection, layering and splitting of sounds, the Artis is aimed at live performance. Also featuring in the Artis is a brand new "German D" grand piano. A newly sampled Steinway model D grand piano in six velocity layers with pedal noise effects. Other than aforementioned splitting- and layering abilities, and effects manipulation on pre-programmed controllers the Artis has no on-board editing options. However, a company called "Soundtower" released an editor application for Mac, PC, and iOS devices, allowing for full V.A.S.T. editing.
+Summer 2014, the Kurzweil Forte was released as the new flagship stage piano. The Forte is based on the same architecture as the Artis, but with more features. Most notably the Forte has 16GB of "flash play" sample memory used for brand new piano, electric piano and clavinet samples. The same "German D" piano from the Artis is available in the Forte, but far more extensively sampled. The Forte adds two more dynamic layers, and string resonance. By comparison, the German D piano is 128MB in size on the Artis, and 4GB on the Forte. On top of the "German D" the Forte features a "Japanese Grand", which is a sampled Yamaha C7 grand piano, also 4GB in size. 
+Other features are a bigger sound library, bigger effects library, a bigger, full colour display, and more.
+As of now (April 2016), the Artis and Forte series consist of 6 models in total:
+Artis - the original keyboard as described above
+Artis 7 - A full featured Artis, but with 76 semi-weighted keys
+Artis SE - A cheaper, simplified Artis with less sounds, less effects and less controllers.
+Forte - the original keyboard as described above
+Forte 7 - A full featured Forte, but with 76 keys (unlike the Artis 7, these are fully weighted keys)
+Forte SE - A cheaper, simplified Forte with less sounds and effects, 128mb versions of both the German and Japanese piano's and only 2GB of "Flash Play" memory. The Forte SE still has more features than the Artis though.
+
+
+== Competition ==
+Korg
+Roland Corporation
+Yamaha Corporation
+Clavia
+
+
+== References ==
+
+
+== External links ==
+The homepage of the company
+Kurzweil PC3 Performers Guide
+VASTprogrammer
+Kurzweil synthesizer music demonstrations at MiddleOfNowhere
+Mastering V.A.S.T. Forum
+NAMM Oral History Interview with Ray Kurzweil January 20, 2007

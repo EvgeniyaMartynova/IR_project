@@ -1,0 +1,69 @@
+Title: Westinghouse J32
+Aspects: {'J32'}
+
+The Westinghouse J32 was a small turbojet engine developed by the Westinghouse Aviation Gas Turbine Division in the mid-1940s.
+
+
+== Design and development ==
+Development of the 9.5A (military designation J32-WE-2) began in late 1942, and Westinghouse delivered the first engine to the U.S. Navy in mid-1944. The Navy selected the 9.5A to power the Gorgon II-B and III-B air-to-air missiles, but these applications did not materialize."
+An improved version, the 9.5B, powered the  TD2N-1 Gorgon high-speed target drone, which successfully flew in 1945. The engine's high cost and continuing development delays led to the cancellation of the TD2N-1 program in 1946. Westinghouse manufactured 24 of the 9.5A and 20 of the 9.5B engines. Despite their limited use, they constituted the first family of small turbojet engines successfully developed and produced in the United States.
+
+
+== Variants ==
+J32
+Military designation of the Westinghouse 9.5 turbojet engine
+Westinghouse 9.5A
+Company designation of the J32, denoting the diameter of the engine in inches
+Westinghouse 9.5B
+Improved version of the 9.5A
+
+
+== Applications ==
+NAMU KDN-1 Gorgon high-speed target drone
+
+
+== Engines on display ==
+A cutaway Westinghouse 9.5A/J32 turbojet engine is on display at the Steven F. Udvar-Hazy Center in Chantilly, VA. This engine was built from spare parts and never had a serial number.
+
+
+== Specifications (9.5A) ==
+Data from 
+
+
+==== General characteristics ====
+Type: axial flow turbojet
+Length: 55.2 in (1,402.1 mm)
+Diameter: 9.5 in (241.3 mm)
+Dry weight: 9.5A 143 lb (64.9 kg), 9.5B 145 lb (65.8 kg)
+
+
+==== Components ====
+Compressor: 6-stage axial
+Combustors: annular stainless steel
+Turbine: single-stage axial
+Fuel type: 100/130 gasoline
+Oil system: pressure spray at 65 psi (448.2 kPa)
+
+
+==== Performance ====
+Maximum thrust: 9.5A 275 lbf (1.22 kN) at 36,000 rpm at sea level, 9.5B 260 lbf (1.16 kN) at 34,000 rpm at sea level
+Overall pressure ratio: 3:1
+Air mass flow: 5.25 lb (2.38 kg)/s at 28,000 rpm
+Turbine inlet temperature: 1,500 °F (816 °C)
+Specific fuel consumption: 1.7 lb/(lbf⋅h) (48 g/(kN⋅s))
+Thrust-to-weight ratio: 1.92
+Normal thrust, static: 9.5A 175 lbf (0.78 kN) at 29,800 rpm at sea level, 9.5B 260 lbf (1.16 kN) at 34,000 rpm at sea level
+Military thrust, flight: 215 lbf (0.96 kN) at 36,000 rpm at altitude
+Normal thrust, flight: 160 lbf (0.71 kN) at 29,800 rpm at altitude
+
+
+== Notes ==
+
+
+== References ==
+
+Christiansen, Paul J. (2019). Early Westinghouse Axial Turbojets. Olney, Maryland, USA: Bleeg Publishing, LLC. pp. 360–361.
+
+
+== External links ==
+"Westinghouse J32-WE-2 (9.5A) Turbojet Engine, Cutaway". Smithsonian National Air and Space Museum. Retrieved 1 January 2011.

@@ -1,0 +1,3573 @@
+Title: Schur polynomial
+Aspects: {'S-function'}
+
+In mathematics, Schur polynomials, named after Issai Schur, are certain symmetric polynomials in n variables, indexed by partitions, that generalize the elementary symmetric polynomials and the complete homogeneous symmetric polynomials.  In representation theory  they are the characters of polynomial irreducible representations of the general linear groups. The Schur polynomials form a linear basis for the space of all symmetric polynomials.  Any product of Schur polynomials can be written as a linear combination of Schur polynomials with non-negative integral coefficients; the values of these coefficients is given combinatorially by the Littlewood–Richardson rule. More generally, skew Schur polynomials  are associated with pairs of partitions and have similar properties to Schur polynomials.
+
+
+== Definition (Jacobi's bialternant formula) ==
+Schur polynomials are indexed by integer partitions.  Given a partition λ = (λ1, λ2, …,λn),
+where λ1 ≥ λ2≥ … ≥ λn, and each λj is a non-negative integer, the functions
+
+  
+    
+      
+        
+          a
+          
+            (
+            
+              λ
+              
+                1
+              
+            
+            +
+            n
+            −
+            1
+            ,
+            
+              λ
+              
+                2
+              
+            
+            +
+            n
+            −
+            2
+            ,
+            …
+            ,
+            
+              λ
+              
+                n
+              
+            
+            )
+          
+        
+        (
+        
+          x
+          
+            1
+          
+        
+        ,
+        
+          x
+          
+            2
+          
+        
+        ,
+        …
+        ,
+        
+          x
+          
+            n
+          
+        
+        )
+        =
+        det
+        
+          [
+          
+            
+              
+                
+                  
+                    x
+                    
+                      1
+                    
+                    
+                      
+                        λ
+                        
+                          1
+                        
+                      
+                      +
+                      n
+                      −
+                      1
+                    
+                  
+                
+                
+                  
+                    x
+                    
+                      2
+                    
+                    
+                      
+                        λ
+                        
+                          1
+                        
+                      
+                      +
+                      n
+                      −
+                      1
+                    
+                  
+                
+                
+                  …
+                
+                
+                  
+                    x
+                    
+                      n
+                    
+                    
+                      
+                        λ
+                        
+                          1
+                        
+                      
+                      +
+                      n
+                      −
+                      1
+                    
+                  
+                
+              
+              
+                
+                  
+                    x
+                    
+                      1
+                    
+                    
+                      
+                        λ
+                        
+                          2
+                        
+                      
+                      +
+                      n
+                      −
+                      2
+                    
+                  
+                
+                
+                  
+                    x
+                    
+                      2
+                    
+                    
+                      
+                        λ
+                        
+                          2
+                        
+                      
+                      +
+                      n
+                      −
+                      2
+                    
+                  
+                
+                
+                  …
+                
+                
+                  
+                    x
+                    
+                      n
+                    
+                    
+                      
+                        λ
+                        
+                          2
+                        
+                      
+                      +
+                      n
+                      −
+                      2
+                    
+                  
+                
+              
+              
+                
+                  ⋮
+                
+                
+                  ⋮
+                
+                
+                  ⋱
+                
+                
+                  ⋮
+                
+              
+              
+                
+                  
+                    x
+                    
+                      1
+                    
+                    
+                      
+                        λ
+                        
+                          n
+                        
+                      
+                    
+                  
+                
+                
+                  
+                    x
+                    
+                      2
+                    
+                    
+                      
+                        λ
+                        
+                          n
+                        
+                      
+                    
+                  
+                
+                
+                  …
+                
+                
+                  
+                    x
+                    
+                      n
+                    
+                    
+                      
+                        λ
+                        
+                          n
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+          ]
+        
+      
+    
+    {\displaystyle a_{(\lambda _{1}+n-1,\lambda _{2}+n-2,\dots ,\lambda _{n})}(x_{1},x_{2},\dots ,x_{n})=\det \left[{\begin{matrix}x_{1}^{\lambda _{1}+n-1}&x_{2}^{\lambda _{1}+n-1}&\dots &x_{n}^{\lambda _{1}+n-1}\\x_{1}^{\lambda _{2}+n-2}&x_{2}^{\lambda _{2}+n-2}&\dots &x_{n}^{\lambda _{2}+n-2}\\\vdots &\vdots &\ddots &\vdots \\x_{1}^{\lambda _{n}}&x_{2}^{\lambda _{n}}&\dots &x_{n}^{\lambda _{n}}\end{matrix}}\right]}
+  are alternating polynomials by properties of the determinant. A polynomial is alternating if it changes sign under any transposition of the variables.
+Since they are alternating, they are all divisible by the Vandermonde determinant,
+
+  
+    
+      
+        
+          a
+          
+            (
+            n
+            −
+            1
+            ,
+            n
+            −
+            2
+            ,
+            …
+            ,
+            0
+            )
+          
+        
+        (
+        
+          x
+          
+            1
+          
+        
+        ,
+        
+          x
+          
+            2
+          
+        
+        ,
+        …
+        ,
+        
+          x
+          
+            n
+          
+        
+        )
+        =
+        det
+        
+          [
+          
+            
+              
+                
+                  
+                    x
+                    
+                      1
+                    
+                    
+                      n
+                      −
+                      1
+                    
+                  
+                
+                
+                  
+                    x
+                    
+                      2
+                    
+                    
+                      n
+                      −
+                      1
+                    
+                  
+                
+                
+                  …
+                
+                
+                  
+                    x
+                    
+                      n
+                    
+                    
+                      n
+                      −
+                      1
+                    
+                  
+                
+              
+              
+                
+                  
+                    x
+                    
+                      1
+                    
+                    
+                      n
+                      −
+                      2
+                    
+                  
+                
+                
+                  
+                    x
+                    
+                      2
+                    
+                    
+                      n
+                      −
+                      2
+                    
+                  
+                
+                
+                  …
+                
+                
+                  
+                    x
+                    
+                      n
+                    
+                    
+                      n
+                      −
+                      2
+                    
+                  
+                
+              
+              
+                
+                  ⋮
+                
+                
+                  ⋮
+                
+                
+                  ⋱
+                
+                
+                  ⋮
+                
+              
+              
+                
+                  1
+                
+                
+                  1
+                
+                
+                  …
+                
+                
+                  1
+                
+              
+            
+          
+          ]
+        
+        =
+        
+          ∏
+          
+            1
+            ≤
+            j
+            <
+            k
+            ≤
+            n
+          
+        
+        (
+        
+          x
+          
+            j
+          
+        
+        −
+        
+          x
+          
+            k
+          
+        
+        )
+        .
+      
+    
+    {\displaystyle a_{(n-1,n-2,\dots ,0)}(x_{1},x_{2},\dots ,x_{n})=\det \left[{\begin{matrix}x_{1}^{n-1}&x_{2}^{n-1}&\dots &x_{n}^{n-1}\\x_{1}^{n-2}&x_{2}^{n-2}&\dots &x_{n}^{n-2}\\\vdots &\vdots &\ddots &\vdots \\1&1&\dots &1\end{matrix}}\right]=\prod _{1\leq j<k\leq n}(x_{j}-x_{k}).}
+  The Schur polynomials are defined as the ratio
+
+  
+    
+      
+        
+          s
+          
+            λ
+          
+        
+        (
+        
+          x
+          
+            1
+          
+        
+        ,
+        
+          x
+          
+            2
+          
+        
+        ,
+        …
+        ,
+        
+          x
+          
+            n
+          
+        
+        )
+        =
+        
+          
+            
+              
+                a
+                
+                  (
+                  
+                    λ
+                    
+                      1
+                    
+                  
+                  +
+                  n
+                  −
+                  1
+                  ,
+                  
+                    λ
+                    
+                      2
+                    
+                  
+                  +
+                  n
+                  −
+                  2
+                  ,
+                  …
+                  ,
+                  
+                    λ
+                    
+                      n
+                    
+                  
+                  +
+                  0
+                  )
+                
+              
+              (
+              
+                x
+                
+                  1
+                
+              
+              ,
+              
+                x
+                
+                  2
+                
+              
+              ,
+              …
+              ,
+              
+                x
+                
+                  n
+                
+              
+              )
+            
+            
+              
+                a
+                
+                  (
+                  n
+                  −
+                  1
+                  ,
+                  n
+                  −
+                  2
+                  ,
+                  …
+                  ,
+                  0
+                  )
+                
+              
+              (
+              
+                x
+                
+                  1
+                
+              
+              ,
+              
+                x
+                
+                  2
+                
+              
+              ,
+              …
+              ,
+              
+                x
+                
+                  n
+                
+              
+              )
+            
+          
+        
+        .
+      
+    
+    {\displaystyle s_{\lambda }(x_{1},x_{2},\dots ,x_{n})={\frac {a_{(\lambda _{1}+n-1,\lambda _{2}+n-2,\dots ,\lambda _{n}+0)}(x_{1},x_{2},\dots ,x_{n})}{a_{(n-1,n-2,\dots ,0)}(x_{1},x_{2},\dots ,x_{n})}}.}
+  which is known as the bialternant formula of Jacobi. It is a special case of the Weyl character formula.
+This is a symmetric function because the numerator and denominator are both alternating, and a polynomial since all alternating polynomials are divisible by the Vandermonde determinant.
+
+
+== Properties ==
+The degree d Schur polynomials in n variables are a linear basis for the space of homogeneous degree d symmetric polynomials in n variables. 
+For a partition λ = (λ1, λ2, ..., λn), the Schur polynomial is a sum of monomials,
+
+  
+    
+      
+        
+          s
+          
+            λ
+          
+        
+        (
+        
+          x
+          
+            1
+          
+        
+        ,
+        
+          x
+          
+            2
+          
+        
+        ,
+        …
+        ,
+        
+          x
+          
+            n
+          
+        
+        )
+        =
+        
+          ∑
+          
+            T
+          
+        
+        
+          x
+          
+            T
+          
+        
+        =
+        
+          ∑
+          
+            T
+          
+        
+        
+          x
+          
+            1
+          
+          
+            
+              t
+              
+                1
+              
+            
+          
+        
+        ⋯
+        
+          x
+          
+            n
+          
+          
+            
+              t
+              
+                n
+              
+            
+          
+        
+      
+    
+    {\displaystyle s_{\lambda }(x_{1},x_{2},\ldots ,x_{n})=\sum _{T}x^{T}=\sum _{T}x_{1}^{t_{1}}\cdots x_{n}^{t_{n}}}
+  where the summation is over all semistandard Young tableaux T of shape λ. The exponents t1, ..., tn give the weight of T, in other words each ti counts the occurrences of the number i in T. This can be shown to be equivalent to the definition from the first Giambelli formula using the Lindström–Gessel–Viennot lemma (as outlined on that page).
+Schur polynomials can be expressed as linear combinations of monomial symmetric functions mμ with non-negative integer coefficients Kλμ called Kostka numbers,
+
+  
+    
+      
+        
+          s
+          
+            λ
+          
+        
+        =
+        
+          ∑
+          
+            μ
+          
+        
+        
+          K
+          
+            λ
+            μ
+          
+        
+        
+          m
+          
+            μ
+          
+        
+        .
+         
+      
+    
+    {\displaystyle s_{\lambda }=\sum _{\mu }K_{\lambda \mu }m_{\mu }.\ }
+  The Kostka numbers Kλμ are given by the number of semi-standard Young tableaux of shape λ and weight μ.
+
+
+=== Jacobi−Trudi identities ===
+The first Jacobi−Trudi formula expresses the Schur polynomial as a determinant
+in terms of the complete homogeneous symmetric polynomials,
+
+  
+    
+      
+        
+          s
+          
+            λ
+          
+        
+        =
+        det
+        (
+        
+          h
+          
+            
+              λ
+              
+                i
+              
+            
+            +
+            j
+            −
+            i
+          
+        
+        
+          )
+          
+            i
+            ,
+            j
+            =
+            1
+          
+          
+            l
+            (
+            λ
+            )
+          
+        
+        =
+        det
+        
+          [
+          
+            
+              
+                
+                  
+                    h
+                    
+                      
+                        λ
+                        
+                          1
+                        
+                      
+                    
+                  
+                
+                
+                  
+                    h
+                    
+                      
+                        λ
+                        
+                          1
+                        
+                      
+                      +
+                      1
+                    
+                  
+                
+                
+                  …
+                
+                
+                  
+                    h
+                    
+                      
+                        λ
+                        
+                          1
+                        
+                      
+                      +
+                      n
+                      −
+                      1
+                    
+                  
+                
+              
+              
+                
+                  
+                    h
+                    
+                      
+                        λ
+                        
+                          2
+                        
+                      
+                      −
+                      1
+                    
+                  
+                
+                
+                  
+                    h
+                    
+                      
+                        λ
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+                
+                  …
+                
+                
+                  
+                    h
+                    
+                      
+                        λ
+                        
+                          2
+                        
+                      
+                      +
+                      n
+                      −
+                      2
+                    
+                  
+                
+              
+              
+                
+                  ⋮
+                
+                
+                  ⋮
+                
+                
+                  ⋱
+                
+                
+                  ⋮
+                
+              
+              
+                
+                  
+                    h
+                    
+                      
+                        λ
+                        
+                          n
+                        
+                      
+                      −
+                      n
+                      +
+                      1
+                    
+                  
+                
+                
+                  
+                    h
+                    
+                      
+                        λ
+                        
+                          n
+                        
+                      
+                      −
+                      n
+                      +
+                      2
+                    
+                  
+                
+                
+                  …
+                
+                
+                  
+                    h
+                    
+                      
+                        λ
+                        
+                          n
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+          ]
+        
+        ,
+      
+    
+    {\displaystyle s_{\lambda }=\det(h_{\lambda _{i}+j-i})_{i,j=1}^{l(\lambda )}=\det \left[{\begin{matrix}h_{\lambda _{1}}&h_{\lambda _{1}+1}&\dots &h_{\lambda _{1}+n-1}\\h_{\lambda _{2}-1}&h_{\lambda _{2}}&\dots &h_{\lambda _{2}+n-2}\\\vdots &\vdots &\ddots &\vdots \\h_{\lambda _{n}-n+1}&h_{\lambda _{n}-n+2}&\dots &h_{\lambda _{n}}\end{matrix}}\right],}
+  where hi := s(i).
+The second Jacobi-Trudi formula expresses the Schur polynomial as 
+a determinant in terms of the elementary symmetric polynomials,
+
+  
+    
+      
+        
+          s
+          
+            λ
+          
+        
+        =
+        det
+        (
+        
+          e
+          
+            
+              λ
+              
+                i
+              
+              ′
+            
+            +
+            j
+            −
+            i
+          
+        
+        
+          )
+          
+            i
+            ,
+            j
+            =
+            1
+          
+          
+            l
+            (
+            
+              λ
+              ′
+            
+            )
+          
+        
+        =
+        det
+        
+          [
+          
+            
+              
+                
+                  
+                    e
+                    
+                      
+                        λ
+                        
+                          1
+                        
+                        ′
+                      
+                    
+                  
+                
+                
+                  
+                    e
+                    
+                      
+                        λ
+                        
+                          1
+                        
+                        ′
+                      
+                      +
+                      1
+                    
+                  
+                
+                
+                  …
+                
+                
+                  
+                    e
+                    
+                      
+                        λ
+                        
+                          1
+                        
+                        ′
+                      
+                      +
+                      l
+                      −
+                      1
+                    
+                  
+                
+              
+              
+                
+                  
+                    e
+                    
+                      
+                        λ
+                        
+                          2
+                        
+                        ′
+                      
+                      −
+                      1
+                    
+                  
+                
+                
+                  
+                    e
+                    
+                      
+                        λ
+                        
+                          2
+                        
+                        ′
+                      
+                    
+                  
+                
+                
+                  …
+                
+                
+                  
+                    e
+                    
+                      
+                        λ
+                        
+                          2
+                        
+                        ′
+                      
+                      +
+                      l
+                      −
+                      2
+                    
+                  
+                
+              
+              
+                
+                  ⋮
+                
+                
+                  ⋮
+                
+                
+                  ⋱
+                
+                
+                  ⋮
+                
+              
+              
+                
+                  
+                    e
+                    
+                      
+                        λ
+                        
+                          l
+                        
+                        ′
+                      
+                      −
+                      l
+                      +
+                      1
+                    
+                  
+                
+                
+                  
+                    e
+                    
+                      
+                        λ
+                        
+                          l
+                        
+                        ′
+                      
+                      −
+                      l
+                      +
+                      2
+                    
+                  
+                
+                
+                  …
+                
+                
+                  
+                    e
+                    
+                      
+                        λ
+                        
+                          l
+                        
+                        ′
+                      
+                    
+                  
+                
+              
+            
+          
+          ]
+        
+        ,
+      
+    
+    {\displaystyle s_{\lambda }=\det(e_{\lambda '_{i}+j-i})_{i,j=1}^{l(\lambda ')}=\det \left[{\begin{matrix}e_{\lambda '_{1}}&e_{\lambda '_{1}+1}&\dots &e_{\lambda '_{1}+l-1}\\e_{\lambda '_{2}-1}&e_{\lambda '_{2}}&\dots &e_{\lambda '_{2}+l-2}\\\vdots &\vdots &\ddots &\vdots \\e_{\lambda '_{l}-l+1}&e_{\lambda '_{l}-l+2}&\dots &e_{\lambda '_{l}}\end{matrix}}\right],}
+  where ei := s(1i).
+and λ' is the conjugate partition to λ.
+These two formulae are known as determinantal identities.
+
+
+=== The Giambelli identity ===
+Another determinantal identity is Giambelli's formula, which expresses the Schur function for an arbitrary partition in terms of those for the hook partitions contained within the Young diagram. In Frobenius' notation, the partition is denoted 
+
+  
+    
+      
+        (
+        
+          a
+          
+            1
+          
+        
+        ,
+        .
+        .
+        .
+        
+          a
+          
+            r
+          
+        
+        
+          |
+        
+        
+          b
+          
+            1
+          
+        
+        ,
+        .
+        .
+        .
+        
+          b
+          
+            r
+          
+        
+        )
+      
+    
+    {\displaystyle (a_{1},...a_{r}|b_{1},...b_{r})}
+  where, for each diagonal element in position ii, ai denotes the number of boxes to the right in the same row and bi denotes the number of boxes beneath it in the same column (the arm and leg lengths, respectively).
+The Giambelli identity expresses the Schur function corresponding to this partition as the determinant
+
+  
+    
+      
+        
+          s
+          
+            (
+            
+              a
+              
+                1
+              
+            
+            ,
+            .
+            .
+            .
+            
+              a
+              
+                r
+              
+            
+            
+              |
+            
+            
+              b
+              
+                1
+              
+            
+            ,
+            .
+            .
+            .
+            
+              b
+              
+                r
+              
+            
+            )
+          
+        
+        =
+        det
+        (
+        
+          s
+          
+            (
+            
+              a
+              
+                i
+              
+            
+            
+              |
+            
+            
+              b
+              
+                j
+              
+            
+            )
+          
+        
+        )
+      
+    
+    {\displaystyle s_{(a_{1},...a_{r}|b_{1},...b_{r})}=\det(s_{(a_{i}|b_{j})})}
+  of those for hook partitions.
+
+
+=== The Cauchy identity ===
+The Cauchy identity for Schur functions (now in infinitely many variables), and its dual state that
+
+  
+    
+      
+        
+          ∑
+          
+            λ
+          
+        
+        
+          s
+          
+            λ
+          
+        
+        (
+        x
+        )
+        
+          s
+          
+            λ
+          
+        
+        (
+        y
+        )
+        =
+        
+          ∑
+          
+            λ
+          
+        
+        
+          m
+          
+            λ
+          
+        
+        (
+        x
+        )
+        
+          h
+          
+            λ
+          
+        
+        (
+        y
+        )
+        =
+        
+          ∏
+          
+            i
+            ,
+            j
+          
+        
+        (
+        1
+        −
+        
+          x
+          
+            i
+          
+        
+        
+          y
+          
+            j
+          
+        
+        
+          )
+          
+            −
+            1
+          
+        
+        ,
+      
+    
+    {\displaystyle \sum _{\lambda }s_{\lambda }(x)s_{\lambda }(y)=\sum _{\lambda }m_{\lambda }(x)h_{\lambda }(y)=\prod _{i,j}(1-x_{i}y_{j})^{-1},}
+  and
+
+  
+    
+      
+        
+          ∑
+          
+            λ
+          
+        
+        
+          s
+          
+            λ
+          
+        
+        (
+        x
+        )
+        
+          s
+          
+            
+              λ
+              ′
+            
+          
+        
+        (
+        y
+        )
+        =
+        
+          ∑
+          
+            λ
+          
+        
+        
+          m
+          
+            λ
+          
+        
+        (
+        x
+        )
+        
+          e
+          
+            λ
+          
+        
+        (
+        y
+        )
+        =
+        
+          ∏
+          
+            i
+            ,
+            j
+          
+        
+        (
+        1
+        +
+        
+          x
+          
+            i
+          
+        
+        
+          y
+          
+            j
+          
+        
+        )
+        ,
+      
+    
+    {\displaystyle \sum _{\lambda }s_{\lambda }(x)s_{\lambda '}(y)=\sum _{\lambda }m_{\lambda }(x)e_{\lambda }(y)=\prod _{i,j}(1+x_{i}y_{j}),}
+  where the sum is taken over all partitions λ, and 
+  
+    
+      
+        
+          h
+          
+            λ
+          
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle h_{\lambda }(x)}
+  , 
+  
+    
+      
+        
+          e
+          
+            λ
+          
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle e_{\lambda }(x)}
+   denote the complete symmetric functions and elementary symmetric functions, respectively. If the sum is taken over products of Schur polynomials in 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+   variables 
+  
+    
+      
+        (
+        
+          x
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          x
+          
+            n
+          
+        
+        )
+      
+    
+    {\displaystyle (x_{1},\dots ,x_{n})}
+  , the sum becomes finite, since  only partitions of length 
+  
+    
+      
+        ℓ
+        (
+        λ
+        )
+        ≤
+        n
+      
+    
+    {\displaystyle \ell (\lambda )\leq n}
+   give Schur polynomials that are nonvanishing.
+There are many generalizations of these identities to other families of symmetric functions. 
+For example, Macdonald polynomials, Schubert polynomials and Grothendieck polynomials admit Cauchy-like identities.
+
+
+=== Further identities ===
+The Schur polynomial can also be computed via a specialization of a formula for Hall–Littlewood polynomials,
+
+  
+    
+      
+        
+          s
+          
+            λ
+          
+        
+        (
+        
+          x
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          x
+          
+            n
+          
+        
+        )
+        =
+        
+          ∑
+          
+            w
+            ∈
+            
+              S
+              
+                n
+              
+            
+            
+              /
+            
+            
+              S
+              
+                n
+              
+              
+                λ
+              
+            
+          
+        
+        w
+        
+          (
+          
+            
+              x
+              
+                λ
+              
+            
+            
+              ∏
+              
+                
+                  λ
+                  
+                    i
+                  
+                
+                >
+                
+                  λ
+                  
+                    j
+                  
+                
+              
+            
+            
+              
+                
+                  x
+                  
+                    i
+                  
+                
+                
+                  
+                    x
+                    
+                      i
+                    
+                  
+                  −
+                  
+                    x
+                    
+                      j
+                    
+                  
+                
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle s_{\lambda }(x_{1},\dotsc ,x_{n})=\sum _{w\in S_{n}/S_{n}^{\lambda }}w\left(x^{\lambda }\prod _{\lambda _{i}>\lambda _{j}}{\frac {x_{i}}{x_{i}-x_{j}}}\right)}
+  where 
+  
+    
+      
+        
+          S
+          
+            n
+          
+          
+            λ
+          
+        
+      
+    
+    {\displaystyle S_{n}^{\lambda }}
+   is the subgroup of permutations such that 
+  
+    
+      
+        
+          λ
+          
+            w
+            (
+            i
+            )
+          
+        
+        =
+        
+          λ
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \lambda _{w(i)}=\lambda _{i}}
+  
+for all i, and w acts on variables by permuting indices.
+
+
+=== The Murnaghan−Nakayama rule ===
+The Murnaghan–Nakayama rule expresses a product of a power-sum symmetric function with a Schur polynomial, in terms of Schur polynomials:
+
+  
+    
+      
+        
+          p
+          
+            r
+          
+        
+        ⋅
+        
+          s
+          
+            λ
+          
+        
+        =
+        
+          ∑
+          
+            μ
+          
+        
+        (
+        −
+        1
+        
+          )
+          
+            h
+            t
+            (
+            μ
+            
+              /
+            
+            λ
+            )
+            +
+            1
+          
+        
+        
+          s
+          
+            μ
+          
+        
+      
+    
+    {\displaystyle p_{r}\cdot s_{\lambda }=\sum _{\mu }(-1)^{ht(\mu /\lambda )+1}s_{\mu }}
+  where the sum is over all partitions μ such that μ/λ is a rim-hook of size r and ht(μ/λ) is the number of rows in the diagram μ/λ.
+
+
+=== The Littlewood-Richardson rule and Pieri's formula ===
+The Littlewood–Richardson coefficients depend on three partitions, say 
+  
+    
+      
+        λ
+        ,
+        μ
+        ,
+        ν
+      
+    
+    {\displaystyle \lambda ,\mu ,\nu }
+  , of which 
+  
+    
+      
+        λ
+      
+    
+    {\displaystyle \lambda }
+   and 
+  
+    
+      
+        μ
+      
+    
+    {\displaystyle \mu }
+   describe the Schur functions being multiplied, and 
+  
+    
+      
+        ν
+      
+    
+    {\displaystyle \nu }
+   gives the Schur function of which this is the coefficient in the linear combination; in other words they are the coefficients 
+  
+    
+      
+        
+          c
+          
+            λ
+            ,
+            μ
+          
+          
+            ν
+          
+        
+      
+    
+    {\displaystyle c_{\lambda ,\mu }^{\nu }}
+   such that
+
+  
+    
+      
+        
+          s
+          
+            λ
+          
+        
+        
+          s
+          
+            μ
+          
+        
+        =
+        
+          ∑
+          
+            ν
+          
+        
+        
+          c
+          
+            λ
+            ,
+            μ
+          
+          
+            ν
+          
+        
+        
+          s
+          
+            ν
+          
+        
+        .
+      
+    
+    {\displaystyle s_{\lambda }s_{\mu }=\sum _{\nu }c_{\lambda ,\mu }^{\nu }s_{\nu }.}
+  The Littlewood–Richardson rule states that 
+  
+    
+      
+        
+          c
+          
+            λ
+            ,
+            μ
+          
+          
+            ν
+          
+        
+      
+    
+    {\displaystyle c_{\lambda ,\mu }^{\nu }}
+   is equal to the number of Littlewood–Richardson tableaux of skew shape 
+  
+    
+      
+        ν
+        
+          /
+        
+        λ
+      
+    
+    {\displaystyle \nu /\lambda }
+   and of weight 
+  
+    
+      
+        μ
+      
+    
+    {\displaystyle \mu }
+  .
+Pieri's formula is a special case of the Littlewood-Richardson rule, which expresses the product 
+  
+    
+      
+        
+          h
+          
+            r
+          
+        
+        
+          s
+          
+            λ
+          
+        
+      
+    
+    {\displaystyle h_{r}s_{\lambda }}
+   in terms of Schur polynomials. The dual version expresses  
+  
+    
+      
+        
+          e
+          
+            r
+          
+        
+        
+          s
+          
+            λ
+          
+        
+      
+    
+    {\displaystyle e_{r}s_{\lambda }}
+   in terms of Schur polynomials.
+
+
+=== Specializations ===
+Evaluating the Schur polynomial sλ in (1,1,...,1) gives the number of semi-standard Young tableaux of shape λ with entries in 1, 2, ..., n. 
+One can show, by using the Weyl character formula for example, that
+
+  
+    
+      
+        
+          s
+          
+            λ
+          
+        
+        (
+        1
+        ,
+        1
+        ,
+        …
+        ,
+        1
+        )
+        =
+        
+          ∏
+          
+            1
+            ≤
+            i
+            <
+            j
+            ≤
+            n
+          
+        
+        
+          
+            
+              
+                λ
+                
+                  i
+                
+              
+              −
+              
+                λ
+                
+                  j
+                
+              
+              +
+              j
+              −
+              i
+            
+            
+              j
+              −
+              i
+            
+          
+        
+        .
+      
+    
+    {\displaystyle s_{\lambda }(1,1,\dots ,1)=\prod _{1\leq i<j\leq n}{\frac {\lambda _{i}-\lambda _{j}+j-i}{j-i}}.}
+  In this formula, λ, the tuple indicating the width of each row of the Young diagram, is implicitly extended with zeros until it has length n.  The sum of the elements λi is d.
+See also the Hook length formula which computes the same quantity for fixed λ.
+
+
+== Example ==
+The following extended example should help clarify these ideas.  Consider the case n = 3, d = 4.  Using Ferrers diagrams or some other method, we find that there are just four partitions of 4 into at most three parts.  We have
+
+  
+    
+      
+        
+          s
+          
+            (
+            2
+            ,
+            1
+            ,
+            1
+            )
+          
+        
+        (
+        
+          x
+          
+            1
+          
+        
+        ,
+        
+          x
+          
+            2
+          
+        
+        ,
+        
+          x
+          
+            3
+          
+        
+        )
+        =
+        
+          
+            1
+            Δ
+          
+        
+        
+        det
+        
+          [
+          
+            
+              
+                
+                  
+                    x
+                    
+                      1
+                    
+                    
+                      4
+                    
+                  
+                
+                
+                  
+                    x
+                    
+                      2
+                    
+                    
+                      4
+                    
+                  
+                
+                
+                  
+                    x
+                    
+                      3
+                    
+                    
+                      4
+                    
+                  
+                
+              
+              
+                
+                  
+                    x
+                    
+                      1
+                    
+                    
+                      2
+                    
+                  
+                
+                
+                  
+                    x
+                    
+                      2
+                    
+                    
+                      2
+                    
+                  
+                
+                
+                  
+                    x
+                    
+                      3
+                    
+                    
+                      2
+                    
+                  
+                
+              
+              
+                
+                  
+                    x
+                    
+                      1
+                    
+                  
+                
+                
+                  
+                    x
+                    
+                      2
+                    
+                  
+                
+                
+                  
+                    x
+                    
+                      3
+                    
+                  
+                
+              
+            
+          
+          ]
+        
+        =
+        
+          x
+          
+            1
+          
+        
+        
+        
+          x
+          
+            2
+          
+        
+        
+        
+          x
+          
+            3
+          
+        
+        
+        (
+        
+          x
+          
+            1
+          
+        
+        +
+        
+          x
+          
+            2
+          
+        
+        +
+        
+          x
+          
+            3
+          
+        
+        )
+      
+    
+    {\displaystyle s_{(2,1,1)}(x_{1},x_{2},x_{3})={\frac {1}{\Delta }}\;\det \left[{\begin{matrix}x_{1}^{4}&x_{2}^{4}&x_{3}^{4}\\x_{1}^{2}&x_{2}^{2}&x_{3}^{2}\\x_{1}&x_{2}&x_{3}\end{matrix}}\right]=x_{1}\,x_{2}\,x_{3}\,(x_{1}+x_{2}+x_{3})}
+  
+  
+    
+      
+        
+          s
+          
+            (
+            2
+            ,
+            2
+            ,
+            0
+            )
+          
+        
+        (
+        
+          x
+          
+            1
+          
+        
+        ,
+        
+          x
+          
+            2
+          
+        
+        ,
+        
+          x
+          
+            3
+          
+        
+        )
+        =
+        
+          
+            1
+            Δ
+          
+        
+        
+        det
+        
+          [
+          
+            
+              
+                
+                  
+                    x
+                    
+                      1
+                    
+                    
+                      4
+                    
+                  
+                
+                
+                  
+                    x
+                    
+                      2
+                    
+                    
+                      4
+                    
+                  
+                
+                
+                  
+                    x
+                    
+                      3
+                    
+                    
+                      4
+                    
+                  
+                
+              
+              
+                
+                  
+                    x
+                    
+                      1
+                    
+                    
+                      3
+                    
+                  
+                
+                
+                  
+                    x
+                    
+                      2
+                    
+                    
+                      3
+                    
+                  
+                
+                
+                  
+                    x
+                    
+                      3
+                    
+                    
+                      3
+                    
+                  
+                
+              
+              
+                
+                  1
+                
+                
+                  1
+                
+                
+                  1
+                
+              
+            
+          
+          ]
+        
+        =
+        
+          x
+          
+            1
+          
+          
+            2
+          
+        
+        
+        
+          x
+          
+            2
+          
+          
+            2
+          
+        
+        +
+        
+          x
+          
+            1
+          
+          
+            2
+          
+        
+        
+        
+          x
+          
+            3
+          
+          
+            2
+          
+        
+        +
+        
+          x
+          
+            2
+          
+          
+            2
+          
+        
+        
+        
+          x
+          
+            3
+          
+          
+            2
+          
+        
+        +
+        
+          x
+          
+            1
+          
+          
+            2
+          
+        
+        
+        
+          x
+          
+            2
+          
+        
+        
+        
+          x
+          
+            3
+          
+        
+        +
+        
+          x
+          
+            1
+          
+        
+        
+        
+          x
+          
+            2
+          
+          
+            2
+          
+        
+        
+        
+          x
+          
+            3
+          
+        
+        +
+        
+          x
+          
+            1
+          
+        
+        
+        
+          x
+          
+            2
+          
+        
+        
+        
+          x
+          
+            3
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle s_{(2,2,0)}(x_{1},x_{2},x_{3})={\frac {1}{\Delta }}\;\det \left[{\begin{matrix}x_{1}^{4}&x_{2}^{4}&x_{3}^{4}\\x_{1}^{3}&x_{2}^{3}&x_{3}^{3}\\1&1&1\end{matrix}}\right]=x_{1}^{2}\,x_{2}^{2}+x_{1}^{2}\,x_{3}^{2}+x_{2}^{2}\,x_{3}^{2}+x_{1}^{2}\,x_{2}\,x_{3}+x_{1}\,x_{2}^{2}\,x_{3}+x_{1}\,x_{2}\,x_{3}^{2}}
+  and so on.  Summarizing:
+
+  
+    
+      
+        
+          s
+          
+            (
+            2
+            ,
+            1
+            ,
+            1
+            )
+          
+        
+        =
+        
+          e
+          
+            1
+          
+        
+        
+        
+          e
+          
+            3
+          
+        
+      
+    
+    {\displaystyle s_{(2,1,1)}=e_{1}\,e_{3}}
+  
+
+  
+    
+      
+        
+          s
+          
+            (
+            2
+            ,
+            2
+            ,
+            0
+            )
+          
+        
+        =
+        
+          e
+          
+            2
+          
+          
+            2
+          
+        
+        −
+        
+          e
+          
+            1
+          
+        
+        
+        
+          e
+          
+            3
+          
+        
+      
+    
+    {\displaystyle s_{(2,2,0)}=e_{2}^{2}-e_{1}\,e_{3}}
+  
+
+  
+    
+      
+        
+          s
+          
+            (
+            3
+            ,
+            1
+            ,
+            0
+            )
+          
+        
+        =
+        
+          e
+          
+            1
+          
+          
+            2
+          
+        
+        
+        
+          e
+          
+            2
+          
+        
+        −
+        
+          e
+          
+            2
+          
+          
+            2
+          
+        
+        −
+        
+          e
+          
+            1
+          
+        
+        
+        
+          e
+          
+            3
+          
+        
+      
+    
+    {\displaystyle s_{(3,1,0)}=e_{1}^{2}\,e_{2}-e_{2}^{2}-e_{1}\,e_{3}}
+  
+
+  
+    
+      
+        
+          s
+          
+            (
+            4
+            ,
+            0
+            ,
+            0
+            )
+          
+        
+        =
+        
+          e
+          
+            1
+          
+          
+            4
+          
+        
+        −
+        3
+        
+        
+          e
+          
+            1
+          
+          
+            2
+          
+        
+        
+        
+          e
+          
+            2
+          
+        
+        +
+        2
+        
+        
+          e
+          
+            1
+          
+        
+        
+        
+          e
+          
+            3
+          
+        
+        +
+        
+          e
+          
+            2
+          
+          
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle s_{(4,0,0)}=e_{1}^{4}-3\,e_{1}^{2}\,e_{2}+2\,e_{1}\,e_{3}+e_{2}^{2}.}
+  Every homogeneous degree-four symmetric polynomial in three variables can be expressed as a unique linear combination of these four Schur polynomials, and this combination can again be found using a Gröbner basis for an appropriate elimination order.  For example,
+
+  
+    
+      
+        ϕ
+        (
+        
+          x
+          
+            1
+          
+        
+        ,
+        
+          x
+          
+            2
+          
+        
+        ,
+        
+          x
+          
+            3
+          
+        
+        )
+        =
+        
+          x
+          
+            1
+          
+          
+            4
+          
+        
+        +
+        
+          x
+          
+            2
+          
+          
+            4
+          
+        
+        +
+        
+          x
+          
+            3
+          
+          
+            4
+          
+        
+      
+    
+    {\displaystyle \phi (x_{1},x_{2},x_{3})=x_{1}^{4}+x_{2}^{4}+x_{3}^{4}}
+  is obviously a symmetric polynomial which is homogeneous of degree four, and we have
+
+  
+    
+      
+        ϕ
+        =
+        
+          s
+          
+            (
+            2
+            ,
+            1
+            ,
+            1
+            )
+          
+        
+        −
+        
+          s
+          
+            (
+            3
+            ,
+            1
+            ,
+            0
+            )
+          
+        
+        +
+        
+          s
+          
+            (
+            4
+            ,
+            0
+            ,
+            0
+            )
+          
+        
+        .
+        
+        
+      
+    
+    {\displaystyle \phi =s_{(2,1,1)}-s_{(3,1,0)}+s_{(4,0,0)}.\,\!}
+  
+
+
+== Relation to representation theory ==
+The Schur polynomials occur in the representation theory of the symmetric groups, general linear groups, and unitary groups.  The Weyl character formula implies that the Schur polynomials are the characters of finite-dimensional irreducible representations of the general linear groups, and helps to generalize Schur's work to other compact and semisimple Lie groups.
+Several expressions arise for this relation, one of the most important being the expansion of the Schur functions sλ in terms of the symmetric power functions 
+  
+    
+      
+        
+          p
+          
+            k
+          
+        
+        =
+        
+          ∑
+          
+            i
+          
+        
+        
+          x
+          
+            i
+          
+          
+            k
+          
+        
+      
+    
+    {\displaystyle p_{k}=\sum _{i}x_{i}^{k}}
+  . If we write χλρ for the character of the representation of the symmetric group indexed by the partition λ evaluated at elements of cycle type indexed by the partition ρ, then 
+
+  
+    
+      
+        
+          s
+          
+            λ
+          
+        
+        =
+        
+          ∑
+          
+            ν
+          
+        
+        
+          
+            
+              χ
+              
+                ν
+              
+              
+                λ
+              
+            
+            
+              z
+              
+                ν
+              
+            
+          
+        
+        
+          p
+          
+            ν
+          
+        
+        =
+        
+          ∑
+          
+            ρ
+            =
+            (
+            
+              1
+              
+                
+                  r
+                  
+                    1
+                  
+                
+              
+            
+            ,
+            
+              2
+              
+                
+                  r
+                  
+                    2
+                  
+                
+              
+            
+            ,
+            
+              3
+              
+                
+                  r
+                  
+                    3
+                  
+                
+              
+            
+            ,
+            …
+            )
+          
+        
+        
+          χ
+          
+            ρ
+          
+          
+            λ
+          
+        
+        
+          ∏
+          
+            k
+          
+        
+        
+          
+            
+              p
+              
+                k
+              
+              
+                
+                  r
+                  
+                    k
+                  
+                
+              
+            
+            
+              
+                r
+                
+                  k
+                
+              
+              !
+              
+                k
+                
+                  
+                    r
+                    
+                      k
+                    
+                  
+                
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle s_{\lambda }=\sum _{\nu }{\frac {\chi _{\nu }^{\lambda }}{z_{\nu }}}p_{\nu }=\sum _{\rho =(1^{r_{1}},2^{r_{2}},3^{r_{3}},\dots )}\chi _{\rho }^{\lambda }\prod _{k}{\frac {p_{k}^{r_{k}}}{r_{k}!k^{r_{k}}}},}
+  where ρ = (1r1, 2r2, 3r3, ...) means that the partition ρ has rk parts of length k.
+A proof of this can be found in R. Stanley's Enumerative Combinatorics Volume 2, Corollary 7.17.5.
+The integers χλρ can be computed using the Murnaghan–Nakayama rule.
+
+
+== Schur positivity ==
+Due to the connection with representation theory, a symmetric function which expands positively in Schur functions are of 
+particular interest. For example, the skew Schur functions expand positively in the ordinary Schur functions,
+and the coefficients are Littlewood–Richardson coefficients.
+A special case of this is the expansion of the complete homogeneous symmetric functions hλ in Schur functions.
+This decomposition reflects how a permutation module is decomposed into irreducible representations.
+
+
+=== Methods for proving Schur positivity ===
+There are several approaches to prove Schur positivity of a given symmetric function F.
+If F is described in a combinatorial manner, a direct approach is to produce a bijection with semi-standard Young tableaux.
+The Edelman–Green correspondence and the Robinson–Schensted–Knuth correspondence are examples of such bijections.
+A bijection with more structure is a proof using so called crystals. This method can be described as defining a certain graph structure described with local rules on the underlying combinatorial objects.
+A similar idea is the notion of dual equivalence. This approach also uses a graph structure, but on the objects representing the expansion in the fundamental quasisymmetric basis. It is closely related to the RSK-correspondence.
+
+
+== Generalizations ==
+
+
+=== Skew Schur functions ===
+Skew Schur functions sλ/μ depend on two partitions λ and μ, and can be defined by the property
+
+  
+    
+      
+        ⟨
+        
+          s
+          
+            λ
+            
+              /
+            
+            μ
+          
+        
+        ,
+        
+          s
+          
+            ν
+          
+        
+        ⟩
+        =
+        ⟨
+        
+          s
+          
+            λ
+          
+        
+        ,
+        
+          s
+          
+            μ
+          
+        
+        
+          s
+          
+            ν
+          
+        
+        ⟩
+        .
+      
+    
+    {\displaystyle \langle s_{\lambda /\mu },s_{\nu }\rangle =\langle s_{\lambda },s_{\mu }s_{\nu }\rangle .}
+  Here, the inner product is the Hall inner product, for which the Schur polynomials form an orthonormal basis.
+Similar to the ordinary Schur polynomials, there are numerous ways to compute these. The corresponding Jacobi-Trudi identities are
+
+  
+    
+      
+        
+          s
+          
+            λ
+            
+              /
+            
+            μ
+          
+        
+        =
+        det
+        (
+        
+          h
+          
+            
+              λ
+              
+                i
+              
+            
+            −
+            
+              μ
+              
+                j
+              
+            
+            −
+            i
+            +
+            j
+          
+        
+        
+          )
+          
+            i
+            ,
+            j
+            =
+            1
+          
+          
+            l
+            (
+            λ
+            )
+          
+        
+      
+    
+    {\displaystyle s_{\lambda /\mu }=\det(h_{\lambda _{i}-\mu _{j}-i+j})_{i,j=1}^{l(\lambda )}}
+  
+
+  
+    
+      
+        
+          s
+          
+            
+              λ
+              ′
+            
+            
+              /
+            
+            
+              μ
+              ′
+            
+          
+        
+        =
+        det
+        (
+        
+          e
+          
+            
+              λ
+              
+                i
+              
+            
+            −
+            
+              μ
+              
+                j
+              
+            
+            −
+            i
+            +
+            j
+          
+        
+        
+          )
+          
+            i
+            ,
+            j
+            =
+            1
+          
+          
+            l
+            (
+            λ
+            )
+          
+        
+      
+    
+    {\displaystyle s_{\lambda '/\mu '}=\det(e_{\lambda _{i}-\mu _{j}-i+j})_{i,j=1}^{l(\lambda )}}
+  There is also a combinatorial interpretation of the skew Schur polynomials,
+namely it is a sum over all semi-standard Young tableaux (or column-strict tableaux) of the skew shape 
+  
+    
+      
+        λ
+        
+          /
+        
+        μ
+      
+    
+    {\displaystyle \lambda /\mu }
+  .
+The skew Schur polynomials expands positively in Schur polynomials. A rule for the coefficients is 
+given by the Littlewood-Richardson rule.
+
+
+=== Double Schur polynomials ===
+The double Schur polynomials can be seen as a generalization of the shifted Schur polynomials. 
+These polynomials are also closely related to the factorial Schur polynomials.
+Given a partition λ, and a sequence a1, a2,…
+one can define the double Schur polynomial sλ(x || a) as
+
+  
+    
+      
+        
+          s
+          
+            λ
+          
+        
+        (
+        x
+        
+          |
+        
+        
+          |
+        
+        a
+        )
+        =
+        
+          ∑
+          
+            T
+          
+        
+        
+          ∏
+          
+            α
+            ∈
+            λ
+          
+        
+        (
+        
+          x
+          
+            T
+            (
+            α
+            )
+          
+        
+        −
+        
+          a
+          
+            T
+            (
+            α
+            )
+            −
+            c
+            (
+            α
+            )
+          
+        
+        )
+      
+    
+    {\displaystyle s_{\lambda }(x||a)=\sum _{T}\prod _{\alpha \in \lambda }(x_{T(\alpha )}-a_{T(\alpha )-c(\alpha )})}
+  where the sum is taken over all reverse semi-standard Young tableaux T of shape λ, and integer entries
+in 1,…,n.  Here T(α) denotes the value in the box α in T and c(α) is the content
+of the box.
+A combinatorial rule for the Littlewood-Richardson coefficients (depending on the sequence a),
+is given by A.I Molev in. In particular, this implies that the shifted Schur polynomials have non-negative Littlewood-Richardson coefficients.
+The shifted Schur polynomials, s*λ(y) , can be obtained from the double Schur polynomials by specializing ai=-i and yi=xi+i.
+The double Schur polynomials are special cases of the double Schubert polynomials.
+
+
+=== Factorial Schur polynomials ===
+The factorial Schur polynomials may be defined as follows.
+Given a partition λ, and a doubly infinite sequence …,a−1, a0, a1, …
+one can define the factorial Schur polynomial sλ(x|a) as
+
+  
+    
+      
+        
+          s
+          
+            λ
+          
+        
+        (
+        x
+        
+          |
+        
+        a
+        )
+        =
+        
+          ∑
+          
+            T
+          
+        
+        
+          ∏
+          
+            α
+            ∈
+            λ
+          
+        
+        (
+        
+          x
+          
+            T
+            (
+            α
+            )
+          
+        
+        −
+        
+          a
+          
+            T
+            (
+            α
+            )
+            +
+            c
+            (
+            α
+            )
+          
+        
+        )
+      
+    
+    {\displaystyle s_{\lambda }(x|a)=\sum _{T}\prod _{\alpha \in \lambda }(x_{T(\alpha )}-a_{T(\alpha )+c(\alpha )})}
+  where the sum is taken over all semi-standard Young tableaux T of shape λ, and integer entries
+in 1,…,n.  Here T(α) denotes the value in the box α in T and c(α) is the content
+of the box.
+There is also a determinant formula,
+
+  
+    
+      
+        
+          s
+          
+            λ
+          
+        
+        (
+        x
+        
+          |
+        
+        a
+        )
+        =
+        
+          
+            
+              det
+              [
+              (
+              
+                x
+                
+                  j
+                
+              
+              
+                |
+              
+              a
+              
+                )
+                
+                  
+                    λ
+                    
+                      i
+                    
+                  
+                  +
+                  n
+                  −
+                  i
+                
+              
+              
+                ]
+                
+                  i
+                  ,
+                  j
+                  =
+                  1
+                
+                
+                  l
+                  (
+                  λ
+                  )
+                
+              
+            
+            
+              
+                ∏
+                
+                  i
+                  <
+                  j
+                
+              
+              (
+              
+                x
+                
+                  i
+                
+              
+              −
+              
+                x
+                
+                  j
+                
+              
+              )
+            
+          
+        
+      
+    
+    {\displaystyle s_{\lambda }(x|a)={\frac {\det[(x_{j}|a)^{\lambda _{i}+n-i}]_{i,j=1}^{l(\lambda )}}{\prod _{i<j}(x_{i}-x_{j})}}}
+  where (y|a)k = (y-a1)... (y-ak). It is clear that if we let ai=0 for all i,
+we recover the usual Schur polynomial sλ.
+The double Schur polynomials and the factorial Schur polynomials in n variables are related via the identity 
+sλ(x||a)  = sλ(x|u) where an-i+1 = ui.
+
+
+=== Other generalizations ===
+There are numerous generalizations of Schur polynomials:
+
+Hall–Littlewood polynomials
+Shifted Schur polynomials
+Flagged Schur polynomials
+Schubert polynomials
+Stanley symmetric functions (also known as stable Schubert polynomials)
+Key polynomials (also known as Demazure characters)
+Quasi-symmetric Schur polynomials
+Row-strict Schur polynomials
+Jack polynomials
+Modular Schur polynomials
+Loop Schur functions
+Macdonald polynomials
+Schur polynomials for the symplectic and orthogonal group.
+k-Schur functions
+Grothendieck polynomials (K-theoretical analogue of Schur polynomials)
+LLT polynomials
+
+
+== See also ==
+Schur functor
+Littlewood–Richardson rule, where one finds some identities involving Schur polynomials.
+
+
+== References ==
+Macdonald, I. G. (1995). Symmetric functions and Hall polynomials. Oxford Mathematical Monographs (2nd ed.). The Clarendon Press Oxford University Press. ISBN 978-0-19-853489-1. MR 1354144. Archived from the original on 2012-12-11.
+Sagan, Bruce E. (2001) [1994], "Schur functions in algebraic combinatorics",  in Hazewinkel, Michiel (ed.), Encyclopedia of Mathematics, Springer Science+Business Media B.V. / Kluwer Academic Publishers, ISBN 978-1-55608-010-4
+Sturmfels, Bernd (1993). Algorithms in Invariant Theory. New York: Springer. ISBN 978-0-387-82445-1.

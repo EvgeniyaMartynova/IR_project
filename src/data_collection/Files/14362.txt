@@ -1,0 +1,38 @@
+Title: V8 (JavaScript engine)
+Aspects: {'V8 engine (disambiguation)'}
+
+V8 is an open-source JavaScript engine developed by The Chromium Project for Google Chrome and Chromium web browsers. The project’s creator is Lars Bak. The first version of the V8 engine was released at the same time as the first version of Chrome: September 2, 2008. It has also been used on the server side, for example in Couchbase, MongoDB and Node.js.
+
+
+== History ==
+The V8 assembler is based on the Strongtalk assembler. On 7 December 2010, a new compiling infrastructure named Crankshaft was released, with speed improvements. Since version 41 of Chrome in 2015, project TurboFan has been added to enable more speed, e.g. for asm.js.In 2016, the Ignition interpreter was added to V8 with the design goal of reducing the memory usage on small memory Android phones in comparison with TurboFan and Crankshaft.In 2017, V8 shipped a brand-new compiler pipeline, consisting of Ignition (the interpreter) and TurboFan (the optimizing compiler). Starting with V8 version 5.9, Full-codegen and Crankshaft are no longer used in V8 for JavaScript execution, since the team believes they are no longer able to keep pace with new JavaScript language features and the optimizations those features require.
+
+
+== Design ==
+V8 first generates an abstract syntax tree with its own parser. Then, Ignition, the V8 interpreter, generates bytecode from this syntax tree using the internal V8 bytecode format. TurboFan is the V8 optimizing compiler, it takes this bytecode and generates machine code from it. In other words, V8 compiles JavaScript directly to native machine code using just-in-time compilation before executing it. The compiled code is additionally optimized (and re-optimized) dynamically at runtime, based on heuristics of the code's execution profile. Optimization techniques used include inlining, elision of expensive runtime properties, and inline caching. The garbage collector is a generational incremental collector.
+
+
+== Usage ==
+V8 can compile to x86, ARM or MIPS instruction set architectures in both their 32- and 64-bit editions; as well, it has been ported to PowerPC and IBM s390 for use in servers.V8 can be used in a browser or integrated into independent projects. V8 is used in the following software:
+
+Google Chrome and other Chromium-based web browsers, including Brave, Opera, and Vivaldi
+Couchbase database server
+Deno runtime environment
+Electron desktop application framework, used by the Atom and Visual Studio Code text editors
+MarkLogic database server
+NativeScript mobile application framework
+Node.js runtime environment
+Qt Quick runtime environment
+
+
+== See also ==
+
+Blink, the Chromium browser engine
+Comparison of JavaScript engines
+
+
+== References ==
+
+
+== External links ==
+Official website

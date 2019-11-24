@@ -1,0 +1,126 @@
+Title: Type 45 destroyer
+Aspects: {'D-class destroyer'}
+
+The Type 45 destroyer, also known as the D or Daring class, is a class of six guided missile destroyers built for the United Kingdom's Royal Navy. The class is primarily designed for anti-aircraft and anti-missile warfare and is built around the PAAMS (Sea Viper) air-defence system utilizing the SAMPSON AESA and the S1850M long-range radars. The first three destroyers were assembled by BAE Systems Surface Fleet Solutions from partially prefabricated "blocks" built at different shipyards; the remaining three were built by BAE Systems Maritime – Naval Ships. The first ship in the Daring class, HMS Daring, was launched on 1 February 2006 and commissioned on 23 July 2009.The Type 45 destroyers were built to replace the Type 42 (Sheffield class) destroyers that had served during the Falklands War, with the last Type 42 being decommissioned in 2013. The National Audit Office reported that, during an "intensive attack", a single Type 45 could simultaneously track, engage and destroy more targets than five Type 42 destroyers operating together. After the launch of Daring on 1 February 2006 Admiral Sir Alan West, a former First Sea Lord, stated that it would be the Royal Navy's most capable destroyer ever, as well as the world's best air-defence ship. The reduction in the number to be procured from twelve, then to (up to) eight, finally with only six confirmed (in 2008) was controversial.Another controversy arose when it was revealed that due to a design flaw on the Northrop Grumman intercooler which, when attached to the Rolls-Royce WR-21 gas turbines and functioning in the warm climate of the Persian Gulf, power availability was diminished considerably; and it quickly became apparent that the class was not operating as originally envisioned. A refit will take place from 2019-21 to fully resolve the problems with the six ships in the class.
+
+
+== Development ==
+
+The UK had sought to procure a new class of air-defence guided missile destroyers in collaboration with seven other NATO nations under the NFR-90 project; the project collapsed due to varying requirements of the different countries involved. The UK then joined France and Italy in the Horizon-class frigate programme; however, differing national requirements, workshare arguments and delays led to the UK withdrawing on 26 April 1999 and starting its own national project. On 23 November 1999 Marconi Electronic Systems (MES) was confirmed as prime contractor for the Type 45 project. Seven days later MES and British Aerospace merged to form BAE Systems (BAE), making the latter the prime contractor.
+The Type 45 project has been criticised for rising costs and delays, with the six ships costing £6.46 billion, an increase of £1.5 billion (29%) on the original budget. The first ship entered service in 2010, rather than 2007 as initially planned. In 2007, the Defence Select Committee expressed its disappointment that the Ministry of Defence (MOD) and BAE had failed to control rising costs.
+
+
+=== Construction ===
+The Type 45 destroyers take advantage of some Horizon development work and use the Sea Viper air-defence system and the SAMPSON radar. The ships are built by BAE Systems Maritime – Naval Ships, originally created as BVT Surface Fleet by the merger of the surface shipbuilding arms of BAE Systems and VT Group. These two companies previously built the ships in collaboration. BAE's two Glasgow shipyards and single Portsmouth shipyard are responsible for different "blocks". BAE's Govan yard is responsible for Block A (stern to edge of helicopter hangar). The Scotstoun yard builds Blocks B/C (a 2600 tonne section which contains the Rolls-Royce WR-21 gas turbines, starts with the helicopter hangar to the bridge section) and Block D (bridge section itself). BAE's Portsmouth shipyard is responsible for Blocks E/F (bridge to the bow) and the funnels and masts. For ships 2 to 6 blocks A-D were assembled in the Ships Block and Outfit Hall of the Govan shipyard, and taken fully outfitted to the Scotstoun berth. The masts and funnels were also fitted before launch.
+
+For the first-of-class, Block A was assembled at Govan and moved to Scotstoun, where it was mated to Block B/C, which was already fitted with the WR-21 turbines and machinery. Block D, also assembled at Scotstoun, was fitted to these three blocks. The bow sections (E/F) were mated at Portsmouth and taken by barge to Scotstoun. These were the final blocks to be attached. At this point the hull was launched into the Clyde and towed to the Scotstoun Dry Dock where the masts and funnels were fitted (the masts are partially outfitted with equipment, for example the mast for the S1850M radar is sent from Portsmouth to Thales Nederland to be fitted with radar equipment). Once this is complete, the remaining equipment is fitted: radar arrays, bow-mounted sonar, propellers, missile equipment and 4.5-inch gun.
+This modular construction arrangement was agreed in February 2002. However, when the original contract for three ships was signed in July 2000, BAE Systems Marine was to build the first and third ships, and Vosper Thornycroft (now VT) was to build the second.
+By the end of 2010, all six Type 45 destroyers had been launched, with the first two in commission and the remainder fitting out. By 2012, all destroyers were structurally complete and the production lines had been closed. Duncan, the last of the Type 45 destroyers, was commissioned at Portsmouth Naval Base on 26 September 2013, and entered service in 2014 after trials and training.The Daring class are the largest escorts ever built for the Royal Navy in terms of displacement.In 2009 delivery of the ships' Aster missiles was delayed due to a failure during testing. A subsequent investigation revealed a manufacturing fault with a single batch of missiles, making delivery of the Aster 30 possible in 2010.
+
+
+== Characteristics ==
+
+
+=== General specifications ===
+The Type 45 destroyers are 152.4 m (500 ft) in length, with a beam of 21.2 m (70 ft), a draught of 7.4 m. (24.3 ft) and a displacement of approximately 8,500 tonnes. This makes them significantly larger than the Type 42 they replace (displacement 5,200 tonnes). The Type 45 destroyers are the first British warships built to meet the Lloyd's Register's Naval Ship Rules for hull structure requiring design approval by Lloyd's Register for the principal structural arrangements of the vessel. BAE Systems is the Design Authority for the Type 45, a role traditionally held by the UK Ministry of Defence. The design of the Type 45 brings new levels of radar signature reduction to the Royal Navy. Deck equipment and life rafts are concealed behind the ship's superstructure panels, producing a very "clean" superstructure, somewhat similar to that of the French La Fayette-class frigates. The mast is also sparingly equipped externally. Speculation by the press suggests that this design gives the ship the radar cross-section of a small fishing boat.The Daring class is notable for being the first Royal Navy vessels to include gender-neutral living spaces to accommodate male and female crew members; communal shower and heads facilities have given way to individual cubicles, and six-person berths for junior ratings are far more flexible in accommodating a mixture of male and female sailors. Men and women will continue to sleep in separate spaces, in common with most other navies.
+
+
+=== Propulsion and power ===
+
+The Type 45 is fitted with an advanced and innovative integrated electric propulsion system. Historically, electric-drive ships (like USS Langley) have supplied power to their electric motors using DC, and ship's electrical load, where necessary at all, was either separately supplied or was supplied as DC with a large range of acceptable voltage. Integrated electric propulsion seeks to supply all propulsion and ship's electrical load using alternating current at a high quality of voltage and frequency. This is achieved by computerised control, high quality transformation, and electrical filtering. Two Rolls-Royce WR-21 gas turbine alternators and two Wärtsilä 12V200 diesel generators provide electrical power at 4,160 volts to a high voltage system. The high voltage supply is then used to provide power to two GE Power Conversion advanced induction motors with outputs of 20 MW (27,000 hp) each. Ship's services, including hotel load and weapons system power supplies, are supplied via transformers from the high voltage supply at 440 V and 115 V. The benefits of integrated electric propulsion are cited as:
+
+The ability to place the electric motors closer to the propeller, thus shortening the shaftline, obviating the need for a gearbox or controllable pitch propellers, and reducing exposure to action damage.
+The opportunity to place prime movers (diesel generators and gas turbine alternators) at convenient locations away from the shaftline, thus reducing the space lost to funnels, while at the same time improving access for maintenance and engine changes.
+The freedom to run all propulsion and ship services from a single prime mover for much of the ship's life, thus dramatically reducing engine running hours and emissions.The key to the efficient use of a single prime mover is the choice of a gas turbine that provides efficiency over a large load range; the WR-21 gas turbine incorporates compressor intercooling and exhaust heat recovery, making it significantly more efficient than previous marine gas turbines, especially at low and medium load. The combination of greater efficiency and high fuel capacity gives an endurance of 7,000 nautical miles (13,000 km) at 18 knots (33 km/h). High power density and the hydrodynamic efficiency of a longer hull form allow high speeds to be sustained. It has been reported that Daring reached her design speed of 29 knots (54 km/h) in 70 seconds and achieved a speed of 31.5 knots (58 km/h) in 120 seconds during sea trials in August 2007.
+
+
+==== Engine trouble ====
+In January 2016, the Ministry of Defence acknowledged that the Northrop Grumman intercooler in the propulsion system was unreliable. A staggered refit was also announced, which will involve cutting into the ship's hulls and fitting additional diesel generation capacity. On occasion there have been near-complete power generation failures, temporarily disabling propulsion, power generation for weapons, navigational systems and other purposes, leaving the ships vulnerable to "total electric failure".In June 2016, defence chiefs stated that the Northrop Grumman intercooler could not cope with the warm waters of the Gulf. The manufacturers, Rolls-Royce, said that while the engines for the WR-21 had been built as specified by the Ministry of Defence, the conditions in the Middle East were not "in line with the specs of the intercooler". The First Sea Lord, Admiral Philip Jones, clarified that the "WR-21 gas turbines were designed in extreme hot weather conditions to what we call "gracefully degrade" in their performance, until you get to the point where it goes beyond the temperature at which they would operate... we found that the resilience of the diesel generators and the WR-21 in the ship at the moment was not degrading gracefully; it was degrading catastrophically, so that is what we have had to address".While the Ministry of Defence does not release detailed information related to the number of problems experienced by the class, including total engine failure, several such occasions have been reported in the media. Daring broke down in November 2010 and April 2012, Dauntless in February 2014 and Duncan in November 2016.On 23 November 2017, The Register, a British technology news and opinion website, quoting The Times, reported that a Type 45 destroyer had been recalled to Britain with propeller problems, leaving the Royal Navy's traditional "east of Suez" deployment without proper warship cover. It was stated that "HMS Diamond is on her way back to the UK after a propeller problem proved too much for the ship's crew to repair on their own. The problem is not linked to the Type 45's notoriously unreliable WR-21 engines. Rumours have swirled that Diamond is a testbed for an interim fix before a proper solution is rolled out in 2019... the withdrawal of Diamond from her planned nine-month deployment leaves naval planners in a very difficult situation. While the RN does have a permanent presence in the Middle East, at the moment it is down to four minesweepers and their lightly armed support ship."On 21 March 2018, it was announced that each ship would have their two diesel engines replaced by three new ones at Cammell Laird in Birkenhead.
+
+
+=== Advanced air-defence ===
+
+The Type 45 destroyers are primarily designed for anti-air warfare with the capability to defend against targets such as fighter aircraft and drones as well as highly maneuverable sea skimming anti-ship missiles travelling at supersonic speeds. The Royal Navy describes the destroyers' mission as being "to shield the Fleet from air attack".
+
+The Type 45 destroyer is equipped with the Sea Viper (PAAMS) air-defence system utilizing the SAMPSON active electronically scanned array multi-function radar and the S1850M long-range radar. PAAMS is able to track over 2,000 targets and simultaneously control and coordinate multiple missiles in the air at once, allowing a large number of tracks to be intercepted and destroyed at any given time. This makes it particularly difficult to swamp PAAMS during a saturation attack, even if the attacking elements are supersonic. The US Naval War College has suggested that the SAMPSON radar is capable of tracking 1,000 objects the size of a cricket ball travelling at three times the speed of sound (Mach 3), emphasising the system's capabilities against high performance stealth targets.
+
+A core component of PAAMS is the Aster missile, comprising Aster 15 and Aster 30. MBDA describe Aster as a "hit-to-kill" anti-missile missile capable of intercepting all types of high performance air threats at a maximum range of 120 km. The Aster missile is autonomously guided and equipped with an active RF seeker enabling it to cope with "saturated attacks" thanks to a "multiple engagement capability" and a "high rate of fire". Presently the Daring-class destroyers are equipped with a 48-cell A50 Sylver Vertical Launching System allowing for a mix of up to 48 Aster 15 and 30 missiles.
+In addition to its anti-air warfare role, PAAMS offers additional ballistic missile defence capabilities. In March 2013 the United States Naval Institute reported that the Royal Navy along with the United States Missile Defense Agency will explore the potential of the Daring class to provide ballistic missile defence in Europe along with United States Navy Aegis equipped destroyers. In May 2014, it was reported by Jane's Information Group that the United Kingdom is committing more funds to explore the capabilities of the SAMPSON multi-function radar and the Type 45 destroyer in a ballistic missile defence role. This followed a successful live firing event hundreds of miles north of Kwajalein Atoll in the Western Pacific Ocean, where Daring demonstrated the ability to "detect at the earliest opportunity" and track "through to intercept" two medium-range ballistic missiles. BAE systems reportedly told Jane's that the SAMPSON multi-function radar "exceeded expectations in all respects". An "Experiment Concurrency and Cueing (TECC)" event for the Type 45 was planned for late 2015.Because of the marked increase in capabilities delivered by the Type 45 destroyers in relation to their predecessors, the exceptionally high price per ship, and the large amount of public attention they have attracted, defence analysts and correspondents commonly refer to the Daring class as being the "most advanced" or "most powerful" air-defence destroyers in the world. Likewise, the ships' builders BAE Systems claim: "Able to detect and track hundreds of targets simultaneously, the Type 45 Destroyer is recognised as the most advanced anti-air warfare vessel in the world." Nick Brown, the editor-in-chief of Jane's International Defence Review, was quoted by The Huffington Post (a US online news aggregator and blog) saying, "It's [Type 45 destroyer] certainly one of the most advanced air defence ships in the world... The US Aegis system is similar, but Sea Viper is more advanced."
+
+
+== Weapons, countermeasures, capabilities and sensors ==
+
+
+=== Anti-air warfare ===
+The Sea Viper air-defence system:
+
+SAMPSON active electronically scanned array multi-function air tracking radar, capable of tracking hundreds of targets (range 400 km).
+S1850M 3D long-range air surveillance radar, capable of tracking up to 1,000 targets (range 400 km).A 48-cell A50 Sylver Vertical Launching System for a mix of up to 48:
+
+Aster 15 missiles, range 1.7–30 km (1.1–18.6 mi).
+Aster 30 Block 0 missiles, range 3–120 km (1.9–74.6 mi).The Type 45 does not have a formal theatre ballistic missile defence (TBMD) capability but its potential for such a role is being assessed. Land-based Aster 30 Block 1 missiles have intercepted short-range ballistic missiles and trials of a land-based SAMPSON modified for BMD were planned for early 2012. The Ministry of Defence announced in 2013 that the first ship, Daring, would take part in ballistic defence trials with the US Missile Defence Agency (MDA) as part of a major research and development programme. In March 2016 Britain and France announced a joint procurement programme with the intention of France acquiring Brimstone missiles to equip the Tiger Mk3 helicopter and Britain acquiring Aster Block 1NT missiles capable of intercepting medium range ballistic missiles of 1,000–1,500 km (620–930 mi) range. A block 2 version of the Aster 30 NT is under development by France and Italy capable of intercepting 3,000 km (1,900 mi) range missiles.
+MBDA are the prime contractor for both the weapons systems (Sea Viper) and the Samson radar with BAE systems as the secondary contractor reporting to MBDA.
+
+
+=== Guns ===
+1 × BAE Systems 4.5 inch Mark 8 Mod 1 naval gun. As of November 2011 the Mk8 Mod 1 is scheduled to remain in service until the 2030s, with a Mod 2 upgrade along the way to address obsolescence. The limitations of the 4.5" gun mean it is likely that the Type 45 will receive a new gun before then, the same Medium-Calibre Gun System (MCGS) that is being procured to meet the Maritime Indirect Fire System (MIFS) requirement of the new Type 26 frigate (Global Combat Ship). In 2015, the BAE Mk45 Mod 4 5"/62 was selected for the Type 26 frigate.
+2 × 30mm Small Calibre Gun on single DS-30B mounts.
+2 × Phalanx 20 mm calibre close-in weapons systems (CIWS).
+2 × 7.62 mm miniguns.
+Up to 6 × FN MAG General Purpose Machine Guns.
+
+
+=== Aviation ===
+The flight deck of the Type 45 is large enough to accommodate aircraft up to the size of a Chinook helicopter. It has hangar space for either one Merlin HM1 or two Lynx helicopters. Both types have a dipping sonar, sonobuoys and radar; the Merlin carries four anti-submarine Sting Ray torpedoes whilst the smaller Lynx HMA8 carries either two Sting Ray or four Sea Skua anti-ship missiles. From 2015 the Lynx will be replaced in RN service by the AW159 Wildcat whose weapons will include the Lightweight Multirole Missile and FASGW(H) missile.
+
+
+=== Anti-ship, submarine and land-attack ===
+It was revealed through a FOIA request in August 2013 that four of the six Type 45 destroyers would receive Harpoon launchers recycled from the last four decommissioned Type 22 frigates. On 2 March 2015, Duncan set sail on her maiden deployment equipped with Harpoon anti-ship missiles. On 23 March 2015, the crew of Diamond were reunited with their ship following a refit, which included the installation of Harpoon. HMS Daring is currently undergoing maintenance to receive Harpoon missiles.
+The Type 45 has a bow-mounted medium-frequency Ultra/EDO MFS-7000 sonar but its main anti-submarine weapon is its helicopter(s). As of August 2013 there are no plans to fit anti-submarine torpedo tubes.
+The 4.5" Mark 8 Mod 1 naval gun has an anti-ship and naval gunfire support (NGS) role.
+
+
+=== Countermeasures ===
+The Seagnat decoy system allows for the seduction and distraction of radar guided weapons, through active and passive means. An infrared countermeasure device is planned for future retrofits.
+Airborne Systems's Naval Decoy IDS300 floating naval decoy system (corner reflectors).
+Surface Ship Torpedo Defence System (SSTD) active torpedo decoy system.
+
+
+=== Communications and other systems ===
+Fully Integrated Communications System (FICS45): a combined external and internal communications system supplied by Thales and Selex ES Ltd.
+In 2012, the UAT Mod2.0 digital Radar Electronic Surveillance system was fitted to Daring and Diamond as part of a £40m contract with Thales UK that will see UAT Mod2.1 fitted to the other Type 45's.
+METOC Meteorology and Oceanography: The Metoc system by BAE Systems comprises the Upper Air Sounding System using launchable radiosondes by Eurodefence Systems Ltd and Graw Radiosondes (Germany) joint venture, as well as a comprehensive weather satellite receiving system and a bathymetrics system. These sensors provide each vessel with full environmental awareness for tasks such as radar propagation, ballistics and general self-supporting meteorological and oceanographic data production.
+
+
+=== Additional capabilities ===
+Type 45 has sufficient space to embark 60 Royal Marines and their equipment.
+The Type 45 destroyers are designed with the configuration and capacity to be tasked in a flagship role.
+
+
+=== Provisioned for but not fitted ===
+
+There is provision for another 16 strike-length VLS tubes at the rear of the existing VLS. These could be Mk 41 tubes for Tomahawk land-attack cruise missiles (TLAM) and LRASM, or Sylver A70 for the MdCN derivative of Storm Shadow.
+
+
+== Ships in the class ==
+
+Six ships have been ordered, and transfer of custody of the first happened on 10 December 2008. The MoD's initial planning assumption was to procure twelve ships (essentially a like-for-like replacement of a similar number of Type 42s), with the size of the second batch to be determined between 2005 and 2010. However this was reduced to eight ships in the 2003 defence white paper entitled Delivering Security in a Changing World: Future Capabilities. It was reported in December 2006 that the last two could be cut. In July 2007, Ministry of Defence officials stated that they "still planned to build eight Type 45 destroyers" and that "the extra two ships were still included in planning assumptions". This plan was officially abandoned on 19 June 2008 when the Minister for the Armed Forces, Bob Ainsworth, announced in Parliament that options for the seventh and eighth destroyers would not be taken up. The continual scaling back of the project, first from twelve to eight, and subsequently to six ships, has been criticised for leaving the Royal Navy with insufficient ships to meet its requirements.On 9 March 2007, The Independent reported that Saudi Arabia was considering buying "two or three" Type 45s. On 7 September 2007 it was reported that Saudi Arabian officials had been invited to observe Daring's sea trials.In July 2016, it was reported that all six of the class were docked in Portsmouth. A spokesperson of the Directorate of Defense Communications attributed it to manpower issues. The Ministry of Defence further stated that "All Type 45 destroyers are currently in port as they have either just returned from operations, or are about to be deployed, are conducting training or carrying out maintenance or are home for crew to take summer leave."In an interview with the Sunday Times, former Rear Admiral Chris Parry claimed that the Type 45 destroyers are noisy ships which can be heard 100 miles away by submarines.The entire class is based at HMNB Portsmouth.
+Only three ships of the Type 45 Daring class carry the same names as members of the previous Daring-class destroyers of 1949; these are: Daring, Diamond and Defender. These names had been used for the D-class destroyers of the 1930s, with the addition of Duncan, which was also one of the Type 14 frigates in the 1950s. The remaining Type 45 names, Dauntless and Dragon, were previously carried by D-class cruisers of 1918, which served until 1945.
+
+
+== See also ==
+
+UXV Combatant – a concept warship based on the Type 45 hull.
+Horizon-class frigate – the Franco-Italian equivalent of the Type 45 destroyer.
+List of naval ship classes in service
+
+
+== Footnotes ==
+
+
+== References ==
+
+
+== External links ==
+"Type 45". Royal Navy.
+"Type 45 Daring class Anti-Air Warfare Destroyer". NavyRecognition.com.

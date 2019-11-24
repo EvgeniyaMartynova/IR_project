@@ -1,0 +1,46 @@
+Title: SPARC T series
+Aspects: {'T series'}
+
+The SPARC T-series family of RISC processors and server computers, based on the SPARC V9 architecture, was originally developed by Sun Microsystems, and later by Oracle Corporation after its acquisition of Sun. Its distinguishing feature from earlier SPARC iterations is the introduction of chip multithreading (CMT) technology, a multithreading, multicore design intended to drive greater processor utilization at lower power consumption.
+The first generation T-series processor, the UltraSPARC T1, and servers based on it, were announced in December 2005. As later generations were introduced, the term "T series" was used to refer to the entire family of processors.
+
+
+== Pre-Oracle era ==
+Sun Microsystems' Sun Fire and SPARC Enterprise product lines were based on early generations of CMT technology. The UltraSPARC T1 based Sun Fire T2000 and T1000 servers were launched in December 2005 and early 2006, respectively. They were later rebranded to match the name of the UltraSPARC T2 and T2 Plus based Sun SPARC Enterprise T5**0 servers.
+
+
+== SPARC T3 ==
+In September 2010, Oracle announced a range of SPARC T3 processor based servers. These are branded as the "SPARC T3" series, the "SPARC Enterprise" brand being dropped.
+The SPARC T3-series servers include the T3-1B, a blade server module that fits into the Sun Blade 6000 system. All other T3 based servers are rack mounted systems. Subsequent T-series server generations also include a blade server in the same Sun Blade 6000 form factor.
+
+
+== SPARC T4 ==
+On September 26, 2011, Oracle announced a range of SPARC T4-based servers. These systems use the same chassis as the earlier T3 based systems.  Their main features are very similar, with the exception of:
+
+T4 CPU instead of T3 CPU, with complete core redesign
+doubled RAM capacity
+small changes in mass storage capacity
+
+
+== SPARC T5 ==
+On March 26, 2013, Oracle announced refreshed SPARC servers based on the new SPARC T5 microprocessor, which the company claims is "the world's fastest".  In the T5 range of servers, the single socket rackmount server design was deprecated, while a new eight-socket rackmount server was introduced.
+
+
+== SPARC M7 ==
+On October 26, 2015, Oracle announced a family of systems built on the 32-core, 256-thread SPARC M7 microprocessor. Unlike prior generations, both T- and M-series systems were introduced using the same processor.
+
+
+== Partitioning and virtualization ==
+SPARC T-series servers can be partitioned using Oracle's Logical Domains technology. Additional virtualization is provided by Oracle Solaris Zones (aka Solaris Containers) to create isolated virtual servers within a single operating system instance. Logical Domains and Solaris Zones can be used together to increase server utilization.
+
+
+== Servers ==
+
+
+== References ==
+
+
+== External links ==
+All current Oracle SPARC servers
+SPARC Servers
+SPARC T4 About page by Oracle

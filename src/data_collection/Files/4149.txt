@@ -1,0 +1,20 @@
+Title: Gravitino
+Aspects: {'G̃ (disambiguation)'}
+
+In supergravity theories combining general relativity and supersymmetry, the gravitino (G͂) is the gauge fermion  supersymmetric partner of the hypothesized graviton.  It has been suggested as a candidate for dark matter.
+If it exists, it is a fermion of spin 3/2 and therefore obeys the Rarita-Schwinger equation. The gravitino field is conventionally written as ψμα with μ = 0, 1, 2, 3 a four-vector index and α = 1, 2 a spinor index.
+For μ = 0 one would get negative norm modes, as with every massless particle of spin 1 or higher. These modes are unphysical, and for consistency there must be a gauge symmetry which cancels these modes: δψμα = ∂μεα, where εα(x) is a spinor function of spacetime. This gauge symmetry is a local supersymmetry transformation, and the resulting theory is supergravity.
+Thus the gravitino is the fermion mediating supergravity interactions, just as the photon is mediating electromagnetism, and the graviton is presumably mediating gravitation. Whenever supersymmetry is broken in supergravity theories, it acquires a mass which is determined by the scale at which supersymmetry is broken.  This varies greatly between different models of supersymmetry breaking, but if supersymmetry is to solve the hierarchy problem of the Standard Model, the gravitino cannot be more massive than about 1 TeV/c2.
+
+
+== Gravitino cosmological problem ==
+If the gravitino indeed has a mass of the order of TeV, then it creates a problem in the standard model of cosmology, at least naïvely.One option is that the gravitino is stable. This would be the case if the gravitino is the lightest supersymmetric particle and R-parity is conserved (or nearly so). In this case the gravitino is a candidate for dark matter; as such gravitinos will have been created in the very early universe. However, one may calculate the density of gravitinos and it turns out to be much higher than the observed dark matter density.
+The other option is that the gravitino is unstable. Thus the gravitinos mentioned above would decay and will not contribute to the observed dark matter density. However, since they decay only through gravitational interactions, their lifetime would be very long, of the order of Mpl2 ∕ m3 in natural units, where Mpl is the Planck mass and m is the mass of a gravitino. For a gravitino mass of the order of TeV this would be 105 s, much later than the era of nucleosynthesis. At least one possible channel of decay must include either a photon, a charged lepton or a meson, each of which would be energetic enough to destroy a nucleus if it strikes one. One can show that enough such energetic particles will be created in the decay as to destroy almost all the nuclei created in the era of nucleosynthesis, in contrast with observations. In fact, in such a case the universe would have been made of hydrogen alone, and star formation would probably be impossible.
+One possible solution to the cosmological gravitino problem is the split supersymmetry model, where the gravitino mass is much higher than the TeV scale, but other fermionic supersymmetric partners of standard model particles already appear at this scale.
+Another solution is that R-parity is slightly violated and the gravitino is the lightest supersymmetric particle. This causes almost all supersymmetric particles in the early Universe to decay into Standard Model particles via R-parity violating interactions well before the synthesis of primordial nuclei; a small fraction however decay into gravitinos, whose half-life is orders of magnitude greater than the age of the Universe due to the suppression of the decay rate by the Planck scale and the small R-parity violating couplings.
+
+
+== See also ==
+
+
+== References ==

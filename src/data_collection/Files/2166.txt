@@ -1,0 +1,86 @@
+Title: D-Wave Systems
+Aspects: {'D-Wave'}
+
+D-Wave Systems, Inc. is a Canadian quantum computing company, based in Burnaby, British Columbia, Canada. D-Wave was the world's first company to sell computers to exploit quantum effects in their operation.  D-Wave's early customers include Lockheed Martin, University of Southern California, Google/NASA and Los Alamos National Lab.
+In 2015, D-Wave's 2X Quantum Computer with more than 1000 qubits was installed at the Quantum Artificial Intelligence Lab at NASA Ames Research Center. They have subsequently shipped systems with 2048 qubits. In 2019, D-Wave announced a 5000 qubit system available mid-2020, using their new Pegasus chip with 15 connections per qubit.
+
+
+== History ==
+D-Wave was founded by Haig Farris (former chair of board), Geordie Rose (former CEO/CTO), Bob Wiens (former CFO), and Alexandre Zagoskin (former VP Research and Chief Scientist). Farris taught a business course at the University of British Columbia (UBC), where Rose obtained his PhD, and Zagoskin was a postdoctoral fellow. The company name refers to their first qubit designs, which used d-wave superconductors.
+D-Wave operated as an offshoot from UBC, while maintaining ties with the Department of Physics and Astronomy. It funded academic research in quantum computing, thus building a collaborative network of research scientists. The company collaborated with several universities and institutions, including UBC, IPHT Jena, Université de Sherbrooke, University of Toronto, University of Twente, Chalmers University of Technology, University of Erlangen, and Jet Propulsion Laboratory. These partnerships were listed on D-Wave's website until 2005. In June 2014, D-Wave announced a new quantum applications ecosystem with computational finance firm 1QB Information Technologies (1QBit) and cancer research group DNA-SEQ to focus on solving real-world problems with quantum hardware.On May 11, 2011, D-Wave Systems announced D-Wave One, described as "the world's first commercially available quantum computer", operating on a 128-qubit chipset using quantum annealing (a general method for finding the global minimum of a function by a process using quantum fluctuations) to solve optimization problems. The D-Wave One was built on early prototypes such as D-Wave's Orion Quantum Computer. The prototype was a 16-qubit quantum annealing processor, demonstrated on February 13, 2007, at the Computer History Museum in Mountain View, California. D-Wave demonstrated what they claimed to be a 28-qubit quantum annealing processor on November 12, 2007. The chip was fabricated at the NASA Jet Propulsion Laboratory Microdevices Lab in Pasadena, California.In May 2013, a collaboration between NASA, Google and the Universities Space Research Association (USRA) launched a Quantum Artificial Intelligence Lab based on the D-Wave Two 512-qubit quantum computer that would be used for research into machine learning, among other fields of study.On August 20, 2015, D-Wave Systems announced the general availability of the D-Wave 2X system, a 1000+ qubit quantum computer. This was followed by an announcement on September 28, 2015, that it had been installed at the Quantum Artificial Intelligence Lab at NASA Ames Research Center.
+In January 2017, D-Wave released the D-Wave 2000Q and an open source repository containing software tools for quantum annealers. It contains Qbsolv, which is a piece of open-source software that solves QUBO problems on both company's quantum processors and classic hardware architectures.
+D-Wave operated from various locations in Vancouver, British Columbia, and laboratory spaces at UBC before moving to its current location in the neighboring suburb of Burnaby. D-Wave also has offices in Palo Alto and Vienna, USA.
+
+
+== Computer systems ==
+
+The first commercially produced D-Wave processor was a programmable, superconducting integrated circuit with up to 128 pair-wise coupled superconducting flux qubits. The 128-qubit processor was superseded by a 512-qubit processor in 2013. The processor is designed to implement a special-purpose quantum annealing as opposed to being operated as a universal gate-model quantum computer.
+The underlying ideas for the D-Wave approach arose from experimental results in condensed matter physics, and in particular work on quantum annealing in magnets performed by  Gabriel Aeppli, Thomas Felix Rosenbaum and collaborators, who had been checking  the advantages, proposed by Bikas K. Chakrabarti & collaborators,  of quantum tunneling/fluctuations in the search for ground state(s) in spin glasses. These ideas were later recast in the language of quantum computation by MIT physicists Edward Farhi, Seth Lloyd, Terry Orlando, and Bill Kaminsky, whose publications in 2000 and 2004 provided both a theoretical model for quantum computation that fit with the earlier work in quantum magnetism (specifically the adiabatic quantum computing model and quantum annealing, its finite temperature variant), and a specific enablement of that idea using superconducting flux qubits which is a close cousin to the designs D-Wave produced. In order to understand the origins of much of the controversy around the D-Wave approach, it is important to note that the origins of the D-Wave approach to quantum computation arose not from the conventional quantum information field, but from experimental condensed matter physics.
+D-Wave maintains a list of peer-reviewed technical publications by their own scientists and others on their website.
+
+
+=== Orion prototype ===
+On February 13, 2007, D-Wave demonstrated the Orion system, running three different applications at the Computer History Museum in Mountain View, California. This marked the first public demonstration of, supposedly, a quantum computer and associated service.The first application, an example of pattern matching, performed a search for a similar compound to a known drug within a database of molecules. The next application computed a seating arrangement for an event subject to compatibilities and incompatibilities between guests. The last involved solving a Sudoku puzzle.The processors at the heart of D-Wave's "Orion quantum computing system" are designed for use as hardware accelerator processors rather than general-purpose computer microprocessors. The system is designed to solve a particular NP-complete problem related to the two dimensional Ising model in a magnetic field. D-Wave terms the device a 16-qubit superconducting adiabatic quantum computer processor.According to the company, a conventional front end running an application that requires the solution of an NP-complete problem, such as pattern matching, passes the problem to the Orion system.
+According to Geordie Rose, founder and Chief Technology Officer of D-Wave, NP-complete problems "are probably not exactly solvable, no matter how big, fast or advanced computers get"; the adiabatic quantum computer used by the Orion system is intended to quickly compute an approximate solution.
+
+
+==== 2009 Google demonstration ====
+On December 8, 2009, at the Neural Information Processing Systems (NIPS) conference, a Google research team led by Hartmut Neven used D-Wave's processor to train a binary image classifier.
+
+
+=== D-Wave One ===
+On May 11, 2011, D-Wave Systems announced the D-Wave One, an integrated quantum computer system running on a 128-qubit processor. The processor used in the D-Wave One, code-named "Rainier," performs a single mathematical operation, discrete optimization. Rainier uses quantum annealing to solve optimization problems. The D-Wave One was claimed to be the world's first commercially available quantum computer system. Its price was quoted at approximately US$10,000,000.A research team led by Matthias Troyer and Daniel Lidar found that, while there is evidence of quantum annealing in D-Wave One, they saw no speed increase compared to classical computers. They implemented an optimized classical algorithm to solve the same particular problem as the D-Wave One.
+
+
+==== Lockheed Martin and D-Wave collaboration ====
+On May 25, 2011, Lockheed Martin signed a multi-year contract with D-Wave Systems to realize the benefits based upon a quantum annealing processor applied to some of Lockheed's most challenging computation problems. The contract included purchase of the D-Wave One quantum computer, maintenance, and associated professional services.
+
+
+==== Optimization problem-solving in protein structure determination ====
+In August 2012, a team of Harvard University researchers presented results of the largest protein-folding problem solved to date using a quantum computer. The researchers solved instances of a lattice protein folding model, known as the Miyazawa–Jernigan model, on a D-Wave One quantum computer.
+
+
+=== D-Wave Two ===
+
+In early 2012, D-Wave Systems revealed a 512-qubit quantum computer, code-named Vesuvius, which was launched as a production processor in 2013.In May 2013, Catherine McGeoch, a consultant for D-Wave, published the first comparison of the technology against regular top-end desktop computers running an optimization algorithm. Using a configuration with 439 qubits, the system performed 3,600 times as fast as CPLEX, the best algorithm on the conventional machine, solving problems with 100 or more variables in half a second compared with half an hour. The results are presented at the Computing Frontiers 2013 conference.In March 2013 several groups of researchers at the Adiabatic Quantum Computing workshop at the Institute of Physics in London produced evidence, though only indirect, of quantum entanglement in the D-Wave chips.In May 2013 it was announced that a collaboration between NASA, Google and the USRA launched a Quantum Artificial Intelligence Lab at the NASA Advanced Supercomputing Division at Ames Research Center in California, using a 512-qubit D-Wave Two that would be used for research into machine learning, among other fields of study.
+
+
+=== D-Wave 2X and D-Wave 2000Q ===
+On August 20, 2015, D-Wave released general availability of their D-Wave 2X computer, with 1000 qubits in a Chimera graph architecture (although, due to magnetic offsets and manufacturing variability inherent in the superconductor circuit fabrication, fewer than 1152 qubits are functional and available for use; the exact number of qubits yielded will vary with each specific processor manufactured). This was accompanied by a report comparing speeds with high-end single threaded CPUs. Unlike previous reports, this one explicitly stated that question of quantum speedup was not something they were trying to address, and focused on constant-factor performance gains over classical hardware. For general-purpose problems, a speedup of 15x was reported, but it is worth noting that these classical algorithms benefit efficiently from parallelization—so that the computer would be performing on par with, perhaps, 30 high-end single-threaded cores.
+The D-Wave 2X processor is based on a 2048-qubit chip with half of the qubits disabled; these were activated in the D-Wave 2000Q.
+
+
+=== Pegasus ===
+In February 2019 D-Wave announced their next-generation Pegasus quantum processor chip, announcing that it would be "the world’s most connected commercial quantum system," with 15 connections per qubit instead of 6; that the next-generation system would use the Pegasus chip; that it would have more than 5000 qubits and reduced noise; and that it would be available in mid-2020.A description of Pegasus and how it differs from the previous "Chimera" architecture has been available to the public.
+
+
+== Comparison of D-Wave systems ==
+
+
+== Notable alumni and collaborators ==
+Jacob Biamonte (Skolkovo Institute of Science and Technology)
+Alexandre Zagoskin (Founder of D-Wave; Loughborough University)
+Geordie Rose  (Founder of D-Wave; Founder of Kindred.ai; Founder of Sanctuary.ai)
+Kazi Saabique Ahmed (Former Researcher at DARPA)
+Walter Vinci (Researcher at NASA Ames Research Center)
+
+
+== See also ==
+Adiabatic quantum computation
+Analog computer
+AQUA@home
+Flux qubit
+Quantum annealing
+Superconducting quantum computing
+IBM Q System One
+
+
+== References ==
+
+
+== External links ==
+Official website
+"Announcement of the 16-qubit quantum computer demonstration". Jan 19, 2007.
+Quantum Computing Day 2: Image Recognition with an Adiabatic Quantum Computer on YouTube
+Karimi, Kamran; Dickson, Neil G.;  et al. (Jan 27, 2011). "Investigating the Performance of an Adiabatic Quantum Optimization Processor". arXiv:1006.4147 [quant-ph]. Theoretical performance of a D-Wave processor
+Ghosh, A.; Mukherjee, S. (Dec 2, 2013). "Quantum Annealing and Computation: A Brief Documentary Note". Science and Culture. 79: 485–500. arXiv:1310.1339. Bibcode:2013arXiv1310.1339G.

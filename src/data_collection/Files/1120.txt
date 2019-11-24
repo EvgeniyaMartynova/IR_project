@@ -1,0 +1,27 @@
+Title: WebMethods Developer
+Aspects: {'B2D'}
+
+webMethods Developer is the Java-based Integrated development environment (IDE) for developing code on the webMethods Integration Server. 
+It allows development in webMethods Flow which is a graphical programming language designed to simplify and speed up integration application development. With version 7 of the webMethods product suite, webMethods Developer started to be replaced by webMethods Designer, an Eclipse-based IDE. This transition has not been finished yet and both products exist side by side.
+Note that it does not store code or execute application logic locally as it is merely a client which instructs the Integration Server to perform those actions.
+
+
+== Program Features ==
+The webMethods Developer provides editing facilities for:
+writing graphical flow and java services (the programming logic)
+defining and modifying documents and mapping logic
+testing, debugging and executing services
+creation and configuration of web services
+editing adapter service and notifications (used to connect with external systems)
+
+
+== See also ==
+webMethods
+
+
+== References ==
+
+
+== External links ==
+webMethods product list
+webMethods community forums

@@ -1,0 +1,74 @@
+Title: Steel grades
+Aspects: {'UB6'}
+
+Steel grades to classify various steels by their composition and physical properties have been developed by a number of standards organizations.
+
+For alloys in general (including steel), unified numbering system (UNS) of ASTM International and the Society of Automotive Engineers (SAE).
+American steel grades : AISI/SAE steel grades standard
+British Standards
+International Organization for Standardization ISO/TS 4949:2003
+European standards - EN 10027
+Japanese steel grades : Japanese Industrial Standards (JIS) standard and NK standard
+Germany steel grades : DIN standard
+China steel grades : GB standard
+Russia steel grades : GOST standard
+Spain steel grades : UNE standard
+France steel grades : AFNOR standard
+Italy steel grades : UNI standard
+Sweden steel grades : SIS standard
+Norway steel grades : DNV standard
+
+
+== European standard steel grades ==
+
+European standard steel grade names fall into two categories:
+
+Steel specified by purpose of use and mechanical properties.
+Steel specified by chemical composition.The inclusion of a letter 'G' before the code indicates the steel is specified in the form of a casting.
+
+
+=== Category 1 ===
+Basic grade designations for category 1 steels consist of a single letter (designating application) then a number signifying the mechanical property (often yield strength) dictated in the standard for that application designation. For some application designations another letter is included before the property value, this number is used to indicate any special requirements or conditions. These additional letters and values depend entirely on the application of the steel and are specified in the standard and far too numerous to mention here.
+The next set of 3 digits gives the steel's minimum yield strength. So S355 has a minimum yield strength of 355 MPa for the smallest thickness range covered by the relevant standard – i.e. EN10025.Below is a table indicating the most common application codes.
+
+
+=== Additional symbols ===
+In addition to the above category codes there are symbols that can be added to the grade code to identify any additional compositional requirements, delivery conditions, mechanical properties, &c. These values depend solely on the type/application code given in the first part of the code and are so numerous as to be impossible to indicate here. Additional symbols are separated from the main code by the plus sign (+).
+The most common additional symbols are the impact and temperature codes for structural steels, category 1 - Sxxx.
+
+Delivery condition codes are also relatively common, the most common being:
+
+
+=== European standard steel number ===
+In addition to the descriptive steel grade naming system indicated above, within EN 10027-2 is defined a system for creating unique steel grade numbers. While less descriptive and intuitive than the grand names they are easier to tabulate and use in data processing applications.
+The number is in the following format: x.yyzz(zz)Where x is the material type (only 1 is specified so far), yy is the steel group number (specified in EN10027-2) and zz(zz) is a sequential number designated by the certifying body, the number in brackets being unused but reserved for later use.
+The steel groups are indicated below:
+
+The current certification body is the VDEh in Düsseldorf, Germany.
+
+
+== Comparisons ==
+Below is a table comparing steel grades from different grading systems.
+
+
+== Color Codes for API Steel Grade ==
+In order to clearly distinguish the steel grade, tubing, casing and its coupling should be painted with color codes respectively. Color bands should be painted on tubing and casing body longer than 600mm to either end. The whole outer-body of the coupling needs to be painted color and then color codes
+
+API 5B and 5CT provide various steel grades and color codes of each grade, offering detailed and overall information of casing and tubing, which help you clearly pick out the most suitable products for different well application.
+
+
+== References ==
+
+
+=== Notes ===
+
+
+=== Bibliography ===
+Oberg, E.;  et al. (1996), Machinery's Handbook (25th ed.), Industrial Press Inc
+
+
+== External links ==
+Steel classification according to EN 10027-2.Free searchable database "European steel and alloy grades"
+Comparison of various steel standards
+Comparison of various tool steel standards
+General guide to the EN 10027 steel name and numbering systems.

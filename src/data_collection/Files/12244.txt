@@ -1,0 +1,185 @@
+Title: French grammar
+Aspects: {'-s'}
+
+French grammar is the set of rules by which the French language creates statements, questions and commands. In many respects, it is quite similar to that of the other Romance languages.
+French is a moderately inflected language. Nouns and most pronouns are inflected for number (singular or plural, though in most nouns the plural is pronounced the same as the singular even if spelled differently); adjectives, for number and gender (masculine or feminine) of their nouns; personal pronouns and a few other pronouns, for person, number, gender, and case; and verbs, for tense, aspect, mood, and the person and number of their subjects. Case is primarily marked using word order and prepositions, while certain verb features are marked using auxiliary verbs. Example of marked auxiliary verbs in French: the word fait becomes fais. (English translation: made becomes making, etc.) S is marked while T is unmarked.
+
+
+== Verbs ==
+
+Verbs in French are conjugated to reflect the following information:
+
+a mood (indicative, imperative, subjunctive, conditional, infinitive, participle, or gerundive)
+a tense (past, present, or future, though not all tenses can be combined with all moods)
+an aspect (perfective or imperfective)
+a voice (active, passive, or reflexive)Some of these features are combined into seven tense–aspect–mood combinations.  The simple (one-word) forms are commonly referred to as the present, the simple past or preterite (past tense, perfective aspect), the imperfect (past tense, imperfective aspect), the future, the conditional, the present subjunctive, and the imperfect subjunctive. However, the simple past is rarely used in informal French, and the imperfect subjunctive is rarely used in modern French.
+Verbs in the finite moods (indicative, imperative, subjunctive, and conditional) are also conjugated to agree with their subjects in person (first, second, or third) and number (singular or plural). As in English, the subject must be included (except in the imperative mood); in other words, unlike other Romance languages, French is neither a null-subject language nor a pro-drop language.
+Auxiliary verbs are combined with past participles of main verbs to produce compound tenses, including the compound past (passé composé). For most main verbs the auxiliary is (the appropriate form of) avoir ("to have"), but for reflexive verbs and certain intransitive verbs the auxiliary is a form of être ("to be"). The participle agrees with the subject when the auxiliary is être, and with a preceding direct object (if any) when the auxiliary is avoir. Forms of être are also used with the past participles of transitive verbs to form the passive voice.
+The imperative mood, which only has first-person plural and second-person singular and plural forms, usually has forms similar or identical to the corresponding ones in the present indicative.
+
+
+== Nouns ==
+
+
+=== Gender ===
+Every French noun has a grammatical gender, either masculine or feminine. The grammatical gender of a noun referring to a human usually corresponds to the noun's natural gender (i.e., its referent's sex or gender). For such nouns, there will very often be one noun of each gender, with the choice of noun being determined by the natural gender of the person described; for example, a male singer is a chanteur, while a female singer is either a chanteuse, or in the case of an opera singer, a cantatrice. A plural noun that refers to both males and females is masculine. In some cases, the two nouns are identical in form, with the difference only being marked in neighbouring words (due to gender agreement; see below); a Catholic man is un catholique, while a Catholic woman is une catholique. Nonetheless, there are some such nouns that retain their grammatical gender regardless of natural gender; personne 'person' is always feminine, while (at least in "standard" French) professeur 'teacher' is always masculine. In Canadian French, une professeure is the standard feminine form, which is becoming more and more common in European French.
+A noun's gender is not perfectly predictable from its form, but there are some trends. As a very broad trend, nouns ending in -e tend to be feminine, while the rest tend to be masculine. More consistently, some endings, such as -sion, -tion, -aison and -ité occur almost exclusively with feminine nouns, while others, such as -aire and -isme  occur almost exclusively with masculine ones. Nonetheless, a noun that seems masculine judging by its ending might actually be feminine (e.g., la peau 'skin') or vice versa (e.g., un squelette 'skeleton'). Noun clauses are masculine.A very small number of nouns can be used either in masculine or feminine gender with the same meaning (e.g., après-midi 'afternoon'). Often one gender is preferred over the other. Some (very rare) nouns change gender according to the way they are used: the words amour 'love' and délice 'pleasure' are masculine in singular and feminine in plural; the word orgue 'organ' is masculine, but when used emphatically in plural to refer to a church organ it becomes feminine (les grandes orgues); the plural noun gens 'people' changes gender in a very unusual way, being usually masculine but triggering feminine agreement when certain adjectives precede the word.
+The vocabulary of French includes many homophones, i.e., pairs of words with different spellings but the same pronunciation. Grammatical gender, however, may serve to distinguish some of these. For example, le pot 'pot' and la peau 'skin' are both pronounced [po] but disagree in gender.
+
+
+=== Number ===
+As in English, nouns inflect for number. In terms of spelling, the plural is usually formed from the singular by adding the letter -s (cf. maison > maisons 'houses'). Nouns ending in -au, -eu, and -ou often take the ending -x instead (cf. jeu > jeux 'games'). However, the endings -s and -x are mute outside of liaison contexts, so the plural form of a noun generally has the same pronunciation as the singular. Nouns which end in -s, -x or -z in the singular are left unchanged in the plural in both pronunciation and spelling (cf. croix > croix 'crosses', both pronounced [kʁwa]).
+In spoken French, therefore, the plurality of a noun generally cannot be determined from the pronunciation of the noun, but it is commonly marked by the form of a preceding article or determiner (cf. la maison [la mɛzɔ̃] 'the house' >  les maisons [le mɛzɔ̃] 'the houses'; mon frère [mɔ̃ fʁɛːʁ] 'my brother' >  mes frères [me fʁɛːʁ] 'my brothers').
+Liaison between a plural noun and a following adjective is only common in careful speech, for example, by newsreaders. In this case the plural ending -s or -x may be pronounced: des fenêtres ouvertes [dɛ fənɛtʁəz‿uvɛʁt] ("open windows"). In common speech this is almost never done, so singular and plural forms of most nouns are homophonous in all contexts.
+However, some French nouns have distinguishable spoken plural forms. This includes most of those ending in -al, whose plural form is -aux (cf. cheval [ʃəval] > chevaux [ʃəvo] 'horses'), as well as a few nouns ending in -ail which also follow this pattern (cf. travail [tʁavaj] > travaux [tʁavo] 'works'). Three nouns form completely irregular plurals: aïeul [ajœl] > aïeux [ajø] 'ancestors' (but aïeuls [ajœl] 'grandfathers'); ciel [sjɛl] > cieux [sjø] 'heavens' (but des ciels de lit 'bed canopies'); and œil [œj] > yeux [jø] 'eyes' (but des œils-de-bœuf 'oculi' (round windows), des œils-de-perdrix 'calluses' (on the feet)). Three other nouns have regular plurals in spelling but have irregular pronunciations: bœuf [bœf] > bœufs [bø] 'oxen, cattle'; œuf [œf] > œufs [ø] 'eggs'; and os [ɔs] > os [o] 'bones'.
+As with English, most uncountable nouns are grammatically treated as singular, though some are plural, such as les mathématiques 'mathematics'; some nouns that are uncountable in English are countable in French, such as une information 'a piece of information'.
+
+
+=== Case ===
+Nouns in French are not inflected for any other grammatical categories. (However, personal pronouns are inflected for case and person; see below.)
+
+
+== Articles and determiners ==
+
+Articles and determiners agree in gender and number with the noun they determine; unlike with nouns, this inflection is made in speech as well as in writing.
+French has three articles: definite, indefinite, and partitive. The difference between the definite and indefinite articles is similar to that in English (definite: the; indefinite: a, an), except that the indefinite article has a plural form (similar to some, though English normally doesn't use an article before indefinite plural nouns). The partitive article is similar to the indefinite article but used for uncountable singular nouns.
+
+
+== Adjectives ==
+An adjective must agree in gender and number with the noun it modifies. French adjectives therefore have four forms: masculine singular, feminine singular, masculine plural, and feminine plural.
+The masculine singular, an adjective's basic form, is listed in dictionaries. The feminine singular is normally formed by adding -e to the basic form. This -e is mute, which makes many masculine and feminine forms homophonous (cf. civil > civile 'civil', both pronounced /sivil/). However, the ending causes "mute" final sounds to be pronounced, whereby masculine-feminine pairs become distinguishable in pronunciation if the masculine form ends in a mute consonant, which is the case with a great deal of adjectives (cf. lourd [luʁ] > lourde [luʁd] 'heavy'). Under certain circumstances, other minor changes occur in the formation of feminine forms, such as the placement of an accent, the doubling of a consonant, or its replacement with another, changes that often reflect the pronunciation of such endings (cf. bon [bɔ̃] > bonne [bɔn] 'good'; heureux [øʁø] > heureuse [øʁøːz] 'happy'). Irregular feminine forms include beau > belle 'beautiful', blanc > blanche 'white', and a limited number of others. If an adjective's basic form ends in -e, it is left unchanged in the feminine (cf. riche > riche 'rich').
+The plural is normally formed by adding -s to the singular (masculine and feminine). This -s is usually mute, but pronounced [z] in liaison with a following noun that begins with a vowel. Unlike liaison after plural nouns, liaison after plural adjectives is common and even obligatory in standard usage. If the basic form ends in -s, -x, or -z, an adjective is left unchanged in the masculine plural (cf. doux > doux 'soft, gentle'). A few adjectives take the (also mute) ending -x in the masculine plural (cf. nouveau > nouveaux 'new'). Plural forms that are distinguishable from the singular outside of liaison environments occur only with adjectives ending in -al. These normally have -aux in the masculine plural (cf. central [sɑ᷉tʁal] > centraux [sɑ᷉tʁo] 'central'). By contrast, the feminine plural is formed according to the general rule: centrale > centrales.
+Due to the aforementioned rules, French adjectives might have four distinguished written forms which are all pronounced the same. This is the case if an adjective's masculine and feminine forms are homophonous and if there is no liaison between the adjective and a following noun.
+
+On the other hand, if the masculine and feminine forms have different pronunciations and liaison does occur, all four forms can be distinguishable in pronunciation. Adjective declension is therefore important in spoken French, though to a lesser extent than in writing. (All forms distinguished in pronunciation are also distinguished in writing, but not vice versa.)
+
+Due to the peculiar orthography of French, which denotes mute final consonants, most feminine forms seem regular in terms of their spelling because they are formed by adding -e to the masculine form, e.g., grand > grande, lent > lente, persan > persane. However, if we put this etymologic orthography aside and consider only current pronunciation, the formation of French female forms becomes quite irregular with several possible "endings": [ɡʁɑ̃] > [ɡʁɑ̃d], [lɑ̃] > [lɑ̃t], [pɛʁsɑ̃] > [pɛʁsan].
+Most adjectives, when used attributively, appear after their nouns: le vin rouge ("the red wine"). A number of adjectives (often having to do with beauty, age, goodness, or size, a tendency summarized by the acronym "BAGS"), come before their nouns: une belle femme ("a beautiful woman"). With a few adjectives of the latter type, there are two masculine singular forms: one used before consonants (the basic form), and one used before vowels. For example, the adjective beau ("beautiful") changes form from un beau garçon ("a handsome boy") to un bel homme ("a handsome man"). Some adjectives change position depending on their meaning, sometimes preceding their nouns and sometimes following them. For example, ancien means "former" when it precedes its noun, but "ancient" when it follows it. To give another example, un homme grand means "a tall man", whereas un grand homme means "a great man".
+Many compound words contain an adjective, such as une belle-mère "a mother-in-law", which is distinct from une belle mère "a beautiful mother". Some of them use an archaic form of the feminine adjective that lacks the final -e. These used to be written with an apostrophe, but a hyphen is now (at least since 1960) considered more correct: une grand'‍route une grand-route "a main country road", which is distinct from une grande route "a long way", and une grand'‍-mère une grand-mère "a grandmother", which is distinct from une grande mère "a tall mother".
+
+
+== Adverbs ==
+
+As in English, adverbs in French are used to modify adjectives, other adverbs, verbs, or clauses. Most adverbs are derived from an adjective by adding the suffix -ment, usually to its feminine form (-ment is analogous to the English suffix -ly): e.g. anciennement "anciently", "of old", "in olden times"; grandement "greatly"; lentement "slowly"; though there are some systematic deviations (e.g. patient → patiemment "patiently", malaisé → malaisément "uneasily"), some adverbs are derived irregularly (bon "good" → bien "well") and others do not derive from adjectives at all.
+Adverbs themselves are generally invariable. Exceptions to this are a handful of adverbs exhibiting syncretic comparative forms (e.g. bien "well" → mieux "better") and the adverb tout "wholly, very" which agrees in gender and number with the adjective it modifies when it is in the feminine (e.g. tout petit "very small, m.s.", tout petits "very small, m.pl." but toute petite "very small, f.s.", toutes petites "very small, f.pl.").
+
+
+== Prepositions ==
+French prepositions link two related parts of a sentence. In word order, they are placed in front of a noun in order to specify the relationship between the noun and the verb, adjective, or other noun that precedes it. Some common French prepositions are: à (to, at, in), à côté de (next to, beside), après (after), au sujet de (about, on the subject of), avant (before), avec (with), chez (at the home/office of, among), contre (against), dans (in), d'après (according to), de (from, of, about), depuis (since, for), derrière (in back of, behind), devant (in front of), durant (during, while), en (in, on, to), en dehors de (outside of), en face de (facing, across from), entre (between), envers (toward), environ (approximately), hors de (outside of), jusque (until, up to, even), loin de (far from), malgré (despite), par (by, through), parmi (among), pendant (during), pour (for), près de (near), quant à (as for, regarding), sans (without), selon (according to), sous (under), suivant (according to), sur (on), vers (toward).
+
+
+== Pronouns ==
+
+In French pronouns can be inflected to indicate their role in a clause (subject, direct object, etc.), as well as the person, gender, and number of their referent. Not all of these inflections may be present at once; for example, the relative pronoun que (that, which, whom) may have any referent, while the possessive pronoun le mien (mine) may have any role in a clause.
+As noted above, French (like English) is a non-pro-drop ("pronoun-dropping") language; therefore, pronouns feature prominently in the language. Impersonal verbs (e.g., pleuvoir – to rain) use the impersonal pronoun il (analogous to English it).
+French object pronouns are all clitics. Some appear so consistently – especially in everyday speech — that some have commented that French could almost be considered to demonstrate polypersonal agreement.
+
+
+== Negation ==
+French usually expresses negation in two parts, with the particle ne attached to the verb, and one or more negative words (connegatives) that modify the verb or one of its arguments. Negation encircles a conjugated verb with ne after the subject and the connegative after verb, if the verb is finite or a gerund. However, both parts of the negation come before the targeted verb when it is in its infinitive form. For example:
+
+Je les ai pris 'I took them' → Je ne les ai pas pris 'I did not take them'
+Je voudrais regarder un film et m'endormir 'I would like to watch a movie and fall asleep' → Je voudrais regarder un film et ne pas m'endormir. 'I would like to watch a movie and not fall asleep'Other negative words used in combination with ne are:
+
+negative adverbsne … plus — "not anymore, no longer"
+ne … jamais — "never"
+ne … nulle part — "nowhere"
+ne … guère — "not much, hardly" (literary)
+ne … point / aucunement / nullement — "not, not at all" (literary)negative pronounsne … rien — "nothing"
+ne … personne — "nobody"others(determiner) ne … aucun — "no/not any" (also nul, literary)
+(restrictive particle) ne … que — "only"Examples:
+
+« Je ne sais pas. » — "I do not know."
+« Il ne fume plus. » — "He does not smoke anymore."
+« Nous n'avons vu personne. » — "We did not see anybody."
+« Elle n'a rien bu. » — "She didn't drink anything."
+« Je n'ai aucune idée. » — "I have no idea."
+« Vous ne mangez que des légumes ? » — "You only eat vegetables?"The negative adverbs (and rien) follow finite verbs but precede infinitives (along with ne):
+
+« Il prétend ne pas/ne jamais/ne rien fumer. » — "He claims not to smoke/to never smoke/to smoke nothing."Moreover, it is possible for rien and personne to be used as the subject of a sentence, which moves them to the beginning of the sentence (before the ne):
+
+« Rien n'est certain. » — "Nothing is certain."
+« Personne n'est arrivé. » — "Nobody came."Several negative words (other than pas) can appear in the same sentence, but the sentence is still usually interpreted as a simple negation. When another negative word occurs with pas, a double negation interpretation usually arises, but this construction is criticised.
+
+« Elle n'a plus jamais rien dit à personne. » — "She never said anything else to anybody."
+« Elle n'a pas vu personne.  — "She did not see nobody (i.e., she saw somebody)."
+
+
+=== Colloquial usage ===
+In colloquial French, it is common to drop the ne, although this can create some ambiguity with the ne … plus construction when written down, as plus could mean either "more" or "not anymore". Generally when plus is used to mean "more", the final "s" is pronounced ([plys]) whereas it is never pronounced when used to mean "not anymore" ([ply]).
+As an example, the informal sentence Il y en a plus could be pronounced with the final [s] ([il i ɑ̃n a plys, jɑ̃n a plys]) to mean "There is more". Or it could be pronounced without it ([il i ɑ̃n a ply, jɑ̃n a ply]) to mean "There is none left".
+
+
+=== Independent ne ===
+In certain, mostly literary constructions, ne can express negation by itself (without pas or another negative word). The four verbs that can use this construction are pouvoir ("to be able to"), savoir ("to know"), oser ("to dare"), and cesser ("to cease").
+
+(standard, ne + pas) « Je n'ai pas pu venir. » — "I was not able to come."
+(casual, pas only) « J'ai pas pu venir. » [same]
+(literary, ne only) « Je n'ai pu venir. » [same];cf. phrase « Je ne sais quoi » — "I do not know what [it is]" remaining in colloquial speech as a fossilized phrase
+
+
+=== Expletive ne ===
+In certain cases in formal French, the word ne can be used without signifying negation; the ne in such instances is known as expletive ne (French: ne explétif):
+
+« J'ai peur que cela ne se reproduise. » — "I am afraid that it might happen again."
+« Il est arrivé avant que nous n'ayons commencé. » — "He arrived before we started."
+« Ils sont plus nombreux que tu ne le crois. » — "There are more of them than you think."Expletive ne is found in finite subordinate clauses (never before an infinitive). It is characteristic of literary rather than colloquial style. In other registers French tends to not use any negation at all in such clauses, e.g., J'ai peur que cela se reproduise.
+The following contexts allow expletive ne
+
+the complement clause of verbs expressing fear or avoidance: craindre (to fear), avoir peur (to be afraid), empêcher (to prevent), éviter (to avoid)
+the complement clause of verbs expressing doubt or denial: douter (to doubt), nier (to deny)
+adverbial clauses introduced by the following expressions: avant que (before), à moins que (unless), de peur/crainte que (for fear that)
+comparative constructions expressing inequality: autre (other), meilleur (better), plus fort (stronger), moins intelligent (less intelligent), etc.
+
+
+== Existential clauses ==
+In French, the equivalent of the English existential clause "there is" is expressed with il y a, literally, "it there has" or "it has to it".  The verb may be conjugated to indicate tense, but always remains in the third person singular. For example
+
+« Il y a deux bergers et quinze moutons dans le pré. » - "There are two shepherds and fifteen sheep in the meadow."
+« Il y aura beaucoup à manger. » - "There will be a lot to eat."
+« Il y aurait deux morts et cinq blessés dans l'accident. » - "There appears to have been (lit. would have) two dead and five injured in the accident." (as in news reporting)
+« Il n'y avait personne chez les Martin. » - "There was nobody at the Martins' home."This construction is also used to express the passage of time since an event occurred, like the English ago or it has been:
+
+« Je l'ai vu il y a deux jours. » - "I saw him two days ago."
+« Il y avait longtemps que je ne l'avais pas vu. » - "It had been a long time since I had seen him."
+« Le langage d’il y a cent ans est très différent de celui d’aujourd’hui. » - "The language/usage of one hundred years ago is very different from that of today."In informal speech, il y is typically reduced to [j], as in:
+
+Y a [ja] deux bergers et quinze moutons dans le pré.
+Y aura [joʁa] beaucoup à manger.
+Y avait [javɛ] personne chez les Martin.
+Je l'ai vu y a deux jours.
+
+
+== Word order ==
+The components of a declarative clause are typically arranged in the following order (though not all components are always present):
+
+Adverb(s)
+Subject
+ne (usually a marker for negation, though it has some other uses)
+First- and second-person object pronoun (me, te, nous, vous) or the third-person reflexive pronoun (se)
+Third-person human direct-object pronoun (le, la, les)
+Third-person human indirect-object pronoun (lui or leur)
+The pronoun y
+The pronoun en
+Finite verb (may be an auxiliary)
+Adverb(s)
+The pronoun rien (if not subject)
+Main verb (if the finite verb is an auxiliary)
+Adverb(s) and object(s)French basic word order is thus subject–verb–object (Je lisais un livre: I was reading a book) although, if the object is a clitic pronoun, it precedes the verb (Je le lisais: I was reading it). Some types of sentences allow for or require different word orders, in particular inversion of the subject and verb. For example, some adverbial expressions placed at the beginning of a sentence trigger inversion of pronominal subjects: Peut-être est-elle partie (Maybe she has left).
+Word order can be an indicator of stylistic register. For instance, inversion of nominal subjects is possible in many relative clauses.
+
+C'est le livre [que mon cousin lui a donné]. (Object–subject–verb)
+C'est le livre [que lui a donné mon cousin]. (Object–verb–subject)"That's the book my cousin gave her."The second version of the sentence, with inversion, is more formal.
+
+
+== See also ==
+Le Bon Usage, a reference by Maurice Grevisse, and later editions by André Goosse
+
+
+== External links ==
+French Grammar from About-France.com
+French Grammar by LanguageGuide.org
+French Grammar by Lingolia
+
+
+== Notes ==

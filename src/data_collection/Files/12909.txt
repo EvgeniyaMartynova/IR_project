@@ -1,0 +1,49 @@
+Title: Juniper T series
+Aspects: {'T series'}
+
+The Juniper T series is a line of core routers designed and manufactured by Juniper Networks. The T-series core router family comprises the T320, T640, T1600, T4000, TX Matrix, and TX Matrix Plus, designed for high-end and core networks with throughput from 320 Gbit/s to 25.6 Tbit/s with a maximum forwarding rate of 30.7 billion pps. The JCS1200, the industry’s only independent control plane scaling system, brings virtualization to the core of the network. The TX Matrix Plus provides transport scale up to 25 Tbit/s. The T-series routers run Junos OS.
+In 2015 Juniper Networks announced the 2016 end-of-life for all T-series routers other than T4000. The other models in the series are superseded by the PTX-series core routers and MX-series edge routers, except for applications that require legacy protocols like SONET or ATM.
+
+
+== Models and platforms ==
+The Juniper T-series routers which consists of T320, T640, T1600, T4000, TX Matrix and TX Matrix Plus has thousands of units deployed by the major telecom and ISP networks around the world.
+
+
+=== T320 ===
+The T320 has a total throughput of 320G bit/s (bits per second, 160G bit/s full duplex), compared with the bigger version T640's 640G bit/s (320 Gbit/s full duplex). T320 Core Router is designed for use where rack space is at a premium and a wide range of interface speeds are needed. Each T320 router can support up to sixteen 10-Gbit/s ports (OC-192c/ STM-64 or 10-Gigabit Ethernet) while allowing lower speed connectivity down to channelized increments within the same chassis. Befitting its edge aggregation role, the T320 also can accommodate smaller interfaces. Those include ATM (Asynchronous Transfer Mode) and SONet (Synchronous Optical Network) interfaces at OC-3 (155M bit/s) and OC-12 (622M bit/s), as well as Gigabit Ethernet. For those connections, carriers can reuse interfaces from the M series and install them in the T-series blades.
+
+
+=== T640 ===
+The T640 supports up to 8 OC-768c/STM-256 ports, 32 10-Gbit/s ports (10-Gigabit Ethernet or OC-192/STM-64), 128 OC-48c/STM-16 ports, or 320 Gigabit Ethernet ports. It delivers up to 640 Gbit/s of capacity (320G bit/s full duplex) with the ability to forward up to 770 million packets per second (Mpps).
+
+
+=== T1600 ===
+The T1600 delivers up to 1.6 Tbit/s of capacity (800 Gbit/s full-duplex, or 8 slots at 100 Gbit/s per slot) with the ability to forward up to 1.92 billion pps. The packet forwarding and switching complex of a T1600 supports 100 Gbit/s per slot. Current interface configurations include up to 16 OC-768c/STM-256 ports or 64 10-Gbit/s ports (10-Gigabit Ethernet or OC-192/STM-64).
+
+
+=== T4000 ===
+The T4000 delivers 4Tbit/s switching capacity (1920 Gbit/s full-duplex) over the backplane in a half-shelf router with a per-slot capacity of 240Gbit/s, up from 100Gbit/s in the existing T1600 models and 50Gbit/s in T640 models. It is possible to upgrade these two existing models to the T4000 line
+
+
+=== TX Matrix ===
+Interconnects up to four T640 chassis into a single routing entity. It has 32 slots and a sustainable throughput rate of 2.5 Tbit/s (up to 3 billion pps).
+
+
+=== TX Matrix Plus ===
+Juniper's TX Matrix Plus is the central switching and routing element that can interconnect up to 16 T1600 chassis into a single routing entity with 128 slots and a sustainable throughput rate of up to 25 Tbit/s (30.7 billion pps). With TX Matrix Plus, operators can build systems containing up to 16 line card chassis for a total of up to 1024 10-Gigabit Ethernet ports or 256 40 Gbit/s ports. Using the virtualization capabilities of JCS1200, this available resource can be partitioned into aggregation or edge routing, or into the support of virtual service networks for advanced partitioned services such as video, mobile, and all corporate traffic.
+
+
+=== JCS1200 ===
+The Juniper Networks JCS1200 Control System is the industry’s first purpose-built, control plane scaling platform, providing high-power processing with a multi-CPU, multi-core server-class computing environment. With scalable memory and storage media, JCS1200 provides up to 12 routing engines in a compact one-quarter rack chassis.
+
+
+== Features ==
+The T-series features include MPLS Differentiated Services (DiffServ-TE), point-to-multipoint label-switched paths, nonstop routing and in-service software upgrades (ISSUs), hierarchical MPLS, and service delivery coupling with the Juniper Networks JCS1200 and the Partner Solution Development Platform (PSDP).
+
+
+== References ==
+
+
+== External links ==
+"T Series Core Routers – Technical Documentation – Support – Juniper Networks". juniper.net. Retrieved 2014-08-26.
+"T Series Core Routers – Service Provider Networks – Juniper Networks". juniper.net. Retrieved 2014-08-26.

@@ -1,0 +1,8 @@
+Title: Extensible Data Format
+Aspects: {'XDF'}
+
+The Extensible Data Format (X) is an XML standard (specified as a DTD) developed by NASA, meant to be used throughout scientific disciplines. In many ways it is akin to XSIL, Extensible Scientific Interchange Language. NASA provides two XDF APIs, in Perl and in Java.
+XDF is used to store high-dimensional data and information related to it in compact XML format. The purpose is to have interchangeable and high quality format that can be used as a main archive format for this kind of data.The XDF project and related development have been halted (2002,2006). The existing information have been archived to the UMD Astronomy Information and Knowledge Group site as a reference.
+
+
+== References ==

@@ -1,0 +1,597 @@
+Title: McCarthy 91 function
+Aspects: {'F91'}
+
+The McCarthy 91 function is a recursive function, defined by the computer scientist John McCarthy as a test case for formal verification within computer science.
+The McCarthy 91 function is defined as
+
+  
+    
+      
+        M
+        (
+        n
+        )
+        =
+        
+          
+            {
+            
+              
+                
+                  n
+                  −
+                  10
+                  ,
+                
+                
+                  
+                    
+                      if 
+                    
+                  
+                  n
+                  >
+                  100
+                  
+                    
+                       
+                    
+                  
+                
+              
+              
+                
+                  M
+                  (
+                  M
+                  (
+                  n
+                  +
+                  11
+                  )
+                  )
+                  ,
+                
+                
+                  
+                    
+                      if 
+                    
+                  
+                  n
+                  ≤
+                  100
+                  
+                    
+                       
+                    
+                  
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle M(n)={\begin{cases}n-10,&{\mbox{if }}n>100{\mbox{ }}\\M(M(n+11)),&{\mbox{if }}n\leq 100{\mbox{ }}\end{cases}}}
+  The results of evaluating the function are given by M(n) = 91 for all integer arguments n ≤ 100, and M(n) = n − 10 for n > 100. Indeed, the result of M(101) is also 91 (101 - 10 = 91). All results of M(n) after n = 101 are continually increasing by 1, e.g. M(102) = 92, M(103) = 93.
+
+
+== History ==
+The 91 function was introduced in papers published by Zohar Manna, Amir Pnueli and John McCarthy in 1970.  These papers represented early developments towards the application of formal methods to program verification.  The 91 function was chosen for being nested-recursive (contrasted with single recursion, such as defining 
+  
+    
+      
+        f
+        (
+        n
+        )
+      
+    
+    {\displaystyle f(n)}
+   by means of 
+  
+    
+      
+        f
+        (
+        n
+        −
+        1
+        )
+      
+    
+    {\displaystyle f(n-1)}
+  ).  The example was popularized by Manna's book, Mathematical Theory of Computation (1974). As the field of Formal Methods advanced, this example appeared repeatedly in the research literature.
+In particular, it is viewed as a "challenge problem" for automated program verification.
+It is easier to reason about tail-recursive control flow, this is an equivalent (extensionally equal) definition:
+
+  
+    
+      
+        M
+        t
+        (
+        n
+        )
+        =
+        M
+        t
+        a
+        u
+        x
+        (
+        n
+        ,
+        1
+        )
+      
+    
+    {\displaystyle Mt(n)=Mtaux(n,1)}
+  
+
+  
+    
+      
+        M
+        t
+        a
+        u
+        x
+        (
+        n
+        ,
+        c
+        )
+        =
+        
+          
+            {
+            
+              
+                
+                  n
+                  ,
+                
+                
+                  
+                    
+                      if 
+                    
+                  
+                  c
+                  =
+                  0
+                
+              
+              
+                
+                  M
+                  t
+                  a
+                  u
+                  x
+                  (
+                  n
+                  −
+                  10
+                  ,
+                  c
+                  −
+                  1
+                  )
+                  ,
+                
+                
+                  
+                    
+                      if 
+                    
+                  
+                  n
+                  >
+                  100
+                  
+                    
+                       and 
+                    
+                  
+                  c
+                  ≠
+                  0
+                
+              
+              
+                
+                  M
+                  t
+                  a
+                  u
+                  x
+                  (
+                  n
+                  +
+                  11
+                  ,
+                  c
+                  +
+                  1
+                  )
+                  ,
+                
+                
+                  
+                    
+                      if 
+                    
+                  
+                  n
+                  ≤
+                  100
+                  
+                    
+                       and 
+                    
+                  
+                  c
+                  ≠
+                  0
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle Mtaux(n,c)={\begin{cases}n,&{\mbox{if }}c=0\\Mtaux(n-10,c-1),&{\mbox{if }}n>100{\mbox{ and }}c\neq 0\\Mtaux(n+11,c+1),&{\mbox{if }}n\leq 100{\mbox{ and }}c\neq 0\end{cases}}}
+  As one of the examples used to demonstrate such reasoning, Manna's book includes a tail-recursive algorithm equivalent to the nested-recursive 91 function. Many of the papers that report an "automated verification" (or termination proof) of the 91 function only handle the tail-recursive version.
+This is an equivalent mutually tail-recursive definition:
+
+  
+    
+      
+        M
+        m
+        t
+        (
+        n
+        )
+        =
+        M
+        m
+        t
+        a
+        u
+        x
+        (
+        n
+        ,
+        0
+        )
+      
+    
+    {\displaystyle Mmt(n)=Mmtaux(n,0)}
+  
+
+  
+    
+      
+        M
+        m
+        t
+        a
+        u
+        x
+        (
+        n
+        ,
+        c
+        )
+        =
+        
+          
+            {
+            
+              
+                
+                  M
+                  m
+                  t
+                  a
+                  u
+                  x
+                  2
+                  (
+                  n
+                  −
+                  10
+                  ,
+                  c
+                  )
+                  ,
+                
+                
+                  
+                    
+                      if 
+                    
+                  
+                  n
+                  >
+                  100
+                  
+                    
+                       
+                    
+                  
+                
+              
+              
+                
+                  M
+                  m
+                  t
+                  a
+                  u
+                  x
+                  (
+                  n
+                  +
+                  11
+                  ,
+                  c
+                  +
+                  1
+                  )
+                  ,
+                
+                
+                  
+                    
+                      if 
+                    
+                  
+                  n
+                  ≤
+                  100
+                  
+                    
+                       
+                    
+                  
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle Mmtaux(n,c)={\begin{cases}Mmtaux2(n-10,c),&{\mbox{if }}n>100{\mbox{ }}\\Mmtaux(n+11,c+1),&{\mbox{if }}n\leq 100{\mbox{ }}\end{cases}}}
+  
+
+  
+    
+      
+        M
+        m
+        t
+        a
+        u
+        x
+        2
+        (
+        n
+        ,
+        c
+        )
+        =
+        
+          
+            {
+            
+              
+                
+                  n
+                  ,
+                
+                
+                  
+                    
+                      if 
+                    
+                  
+                  c
+                  =
+                  0
+                  
+                    
+                       
+                    
+                  
+                
+              
+              
+                
+                  M
+                  m
+                  t
+                  a
+                  u
+                  x
+                  (
+                  n
+                  ,
+                  c
+                  −
+                  1
+                  )
+                  ,
+                
+                
+                  
+                    
+                      if 
+                    
+                  
+                  c
+                  ≠
+                  0
+                  
+                    
+                       
+                    
+                  
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle Mmtaux2(n,c)={\begin{cases}n,&{\mbox{if }}c=0{\mbox{ }}\\Mmtaux(n,c-1),&{\mbox{if }}c\neq 0{\mbox{ }}\end{cases}}}
+  A formal derivation of the mutually tail-recursive version from the nested-recursive one was given in a 1980 article by Mitchell Wand, based on the use of continuations.
+
+
+== Examples ==
+Example A:
+
+M(99) = M(M(110)) since 99 ≤ 100
+      = M(100)    since 110 > 100
+      = M(M(111)) since 100 ≤ 100
+      = M(101)    since 111 > 100
+      = 91        since 101 > 100
+
+Example B:
+
+M(87) = M(M(98))
+      = M(M(M(109)))
+      = M(M(99))
+      = M(M(M(110)))
+      = M(M(100))
+      = M(M(M(111)))
+      = M(M(101))
+      = M(91)
+      = M(M(102))
+      = M(92)
+      = M(M(103))
+      = M(93)
+   .... Pattern continues increasing till M(99), M(100) and M(101), exactly as we saw on the example A)
+      = M(101)    since 111 > 100
+      = 91        since 101 > 100
+
+
+== Code ==
+Here is an implementation of the nested-recursive algorithm in Lisp:
+
+Here is an implementation of the nested-recursive algorithm in Haskell:
+
+Here is an implementation of the nested-recursive algorithm in OCaml:
+
+Here is an implementation of the tail-recursive algorithm in OCaml:
+
+Here is an implementation of the nested-recursive algorithm in Python:
+
+Here is an implementation of the nested-recursive algorithm in C:
+
+Here is an implementation of the tail-recursive algorithm in C:
+
+
+== Proof ==
+Here is a proof that the function is equivalent to non-recursive:
+
+  
+    
+      
+        M
+        (
+        n
+        )
+        =
+        
+          
+            {
+            
+              
+                
+                  n
+                  −
+                  10
+                  ,
+                
+                
+                  
+                    
+                      if 
+                    
+                  
+                  n
+                  >
+                  100
+                  
+                    
+                       
+                    
+                  
+                
+              
+              
+                
+                  91
+                  ,
+                
+                
+                  
+                    
+                      if 
+                    
+                  
+                  n
+                  ≤
+                  100
+                  
+                    
+                       
+                    
+                  
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle M(n)={\begin{cases}n-10,&{\mbox{if }}n>100{\mbox{ }}\\91,&{\mbox{if }}n\leq 100{\mbox{ }}\end{cases}}}
+  For 90 ≤ n < 101,
+
+M(n) = M(M(n + 11))
+     = M(n + 11 - 10), where n + 11 >= 101 since n >= 90
+     = M(n + 1)
+
+So M(n) = 91 for 90 ≤ n < 101.
+We can use this as a base case for induction on blocks of 11 numbers, like so:
+Assume that M(n) = 91 for a ≤ n < a + 11.
+Then, for any n such that a - 11 ≤ n < a,
+
+M(n) = M(M(n + 11))
+     = M(91), by hypothesis, since a ≤ n + 11 < a + 11
+     = 91, by the base case.
+
+Now by induction M(n) = 91 for any n in such a block. There are no holes between the blocks, so M(n) = 91 for n < 101. We can also add n = 101 as a special case.
+
+
+== Knuth's generalization ==
+Donald Knuth generalized the 91 function to include additional parameters. John Cowles developed a formal proof that Knuth's generalized function was total, using the ACL2 theorem prover.
+
+
+== References ==
+Manna, Zohar; Pnueli, Amir (July 1970). "Formalization of Properties of Functional Programs". Journal of the ACM. 17 (3): 555–569. doi:10.1145/321592.321606.
+Manna, Zohar; McCarthy, John (1970). "Properties of programs and partial function logic". Machine Intelligence. 5. OCLC 35422131.
+Manna, Zohar (1974). Mathematical Theory of Computation (4th ed.). McGraw-Hill. ISBN 9780070399105.
+Wand, Mitchell (January 1980). "Continuation-Based Program Transformation Strategies". Journal of the ACM. 27 (1): 164–180. doi:10.1145/322169.322183.
+Knuth, Donald E. (1991). "Textbook Examples of Recursion". Artificial intelligence and mathematical theory of computation. arXiv:cs/9301113. Bibcode:1993cs........1113K.
+Cowles, John (2013) [2000]. "Knuth's generalization of McCarthy's 91 function".  In Kaufmann, M.; Manolios, P.; Strother Moore, J (eds.). Computer-Aided reasoning: ACL2 case studies. Kluwer Academic. pp. 283–299. ISBN 9781475731880.

@@ -1,0 +1,110 @@
+Title: Chloroform
+Aspects: {'R20'}
+
+Chloroform, or trichloromethane, is an organic compound with formula CHCl3. It is a colorless, sweet-smelling, dense liquid that is produced on a large scale as a precursor to PTFE. It is also a precursor to various refrigerants. It is one of the four chloromethanes and a trihalomethane.  It is a powerful anesthetic, euphoriant, anxiolytic and sedative when inhaled or ingested.
+
+
+== Structure ==
+The molecule adopts a tetrahedral molecular geometry with C3v symmetry.
+
+
+== Natural occurrence ==
+The total global flux of chloroform through the environment is approximately 660000 tonnes per year, and about 90% of emissions are natural in origin. Many kinds of seaweed produce chloroform, and fungi are believed to produce chloroform in soil. Abiotic process is also believed to contribute to natural chloroform productions in soils although the mechanism is still unclear.Chloroform volatilizes readily from soil and surface water and undergoes degradation in air to produce phosgene, dichloromethane, formyl chloride, carbon monoxide, carbon dioxide, and hydrogen chloride. Its half-life in air ranges from 55 to 620 days. Biodegradation in water and soil is slow. Chloroform does not significantly bioaccumulate in aquatic organisms.
+
+
+== History ==
+Chloroform was synthesized independently by several investigators circa 1831:
+
+Moldenhawer, a German pharmacist from Frankfurt an der Oder, appears to have produced chloroform in 1830 by mixing chlorinated lime (calcium hypochlorite) with ethanol; however, he mistook it for Chloräther (chloric ether, 1,2-dichloroethane).
+Samuel Guthrie, an American physician from Sackets Harbor, New York, also appears to have produced chloroform in 1831 by reacting chlorinated lime with ethanol, as well as noting its anaesthetic properties; however, he also believed that he had prepared chloric ether.
+Justus von Liebig carried out the alkaline cleavage of chloral.
+Eugène Soubeiran obtained the compound by the action of chlorine bleach on both ethanol and acetone.
+In 1834, French chemist Jean-Baptiste Dumas determined chloroform's empirical formula and named it.  In 1835, Dumas prepared the substance by the alkaline cleavage of trichloroacetic acid. Regnault prepared chloroform by chlorination of chloromethane.
+In 1842, Robert Mortimer Glover in London discovered the anaesthetic qualities of chloroform on laboratory animals.
+In 1847, Scottish obstetrician James Y. Simpson was the first to demonstrate the anaesthetic properties of chloroform on humans and helped to popularise the drug for use in medicine. By the 1850s, chloroform was being produced on a commercial basis by using the Liebig procedure, which retained its importance until the 1960s. Today, chloroform — along with dichloromethane — is prepared exclusively and on a massive scale by the chlorination of methane and chloromethane.
+
+
+== Production ==
+In industry production, chloroform is produced by heating a mixture of chlorine and either chloromethane (CH3Cl) or methane (CH4). At 400–500 °C, a free radical halogenation occurs, converting these precursors to progressively more chlorinated compounds:
+
+CH4 + Cl2 → CH3Cl + HCl
+CH3Cl + Cl2 → CH2Cl2 + HCl
+CH2Cl2 + Cl2 → CHCl3 + HClChloroform undergoes further chlorination to yield carbon tetrachloride (CCl4):
+
+CHCl3 + Cl2 → CCl4 + HClThe output of this process is a mixture of the four chloromethanes (chloromethane, dichloromethane, chloroform, and carbon tetrachloride), which can then be separated by distillation.Chloroform may also be produced on a small scale via the haloform reaction between acetone and sodium hypochlorite:
+
+3 NaClO + (CH3)2CO → CHCl3 + 2 NaOH + CH3COONa
+
+
+=== Deuterochloroform ===
+
+Deuterated chloroform is an isotopologue of chloroform with a single deuterium atom. CDCl3 is a common solvent used in NMR spectroscopy. Deuterochloroform is produced by the haloform reaction, the reaction of acetone (or ethanol) with sodium hypochlorite or calcium hypochlorite. The haloform process is now obsolete for the production of ordinary chloroform. Deuterochloroform can be prepared by the reaction of sodium deuteroxide with chloral hydrate.
+
+
+=== Inadvertent formation of chloroform ===
+The haloform reaction can also occur inadvertently in domestic settings. Bleaching with hypochlorite generates halogenated compounds in side reactions; chloroform is the main byproduct. Sodium hypochlorite solution (chlorine bleach) mixed with common household liquids such as acetone, butanone, methyl ethyl ketone, ethanol, or isopropyl alcohol can produce some chloroform, in addition to other compounds such as chloroacetone or dichloroacetone.
+
+
+== Uses ==
+In terms of scale, the most important reaction of chloroform is with hydrogen fluoride to give monochlorodifluoromethane (CFC-22), a precursor in the production of polytetrafluoroethylene (Teflon):
+CHCl3 + 2 HF → CHClF2 + 2 HClThe reaction is conducted in the presence of a catalytic amount of mixed antimony halides. Chlorodifluoromethane is then converted into tetrafluoroethylene, the main precursor to Teflon. Before the Montreal Protocol, chlorodifluoromethane (designated as R-22) was also a popular refrigerant.
+
+
+=== Solvent ===
+The hydrogen attached to carbon in chloroform participates in hydrogen bonding. Worldwide, chloroform is also used in pesticide formulations, as a solvent for fats, oils, rubber, alkaloids, waxes, gutta-percha, and resins, as a cleansing agent, grain fumigant, in fire extinguishers, and in the rubber industry. CDCl3 is a common solvent used in NMR spectroscopy.
+
+
+=== Reagent ===
+As a reagent, chloroform serves as a source of the dichlorocarbene CCl2 group. It reacts with aqueous sodium hydroxide usually in the presence of a phase transfer catalyst to produce dichlorocarbene, CCl2. This reagent effects ortho-formylation of activated aromatic rings such as phenols, producing aryl aldehydes in a reaction known as the Reimer–Tiemann reaction. Alternatively, the carbene can be trapped by an alkene to form a cyclopropane derivative. In the Kharasch addition, chloroform forms the CHCl2 free radical in addition to alkenes.
+
+
+=== Anesthetic ===
+
+The anaesthetic qualities of chloroform were first described in 1842 in a thesis by Robert Mortimer Glover, which won the Gold Medal of the Harveian Society for that year. Glover also undertook practical experiments on dogs to prove his theories. Glover further refined his theories and presented them in the thesis for his doctorate at the University of Edinburgh in the summer of 1847. The Scottish obstetrician James Young Simpson was one of the persons required to read the thesis, but later claimed to have never read the thesis and to have come to his conclusions independently.On 4 November 1847, Simpson first used the anesthetic qualities of chloroform on a pair of humans: two guests at his dinner party. This was done as an entertainment and not as a medical procedure.A few days later, during the course of a dental procedure in Edinburgh, Francis Brodie Imlach became the first person to use chloroform on a patient in a clinical context.In May 1848, Robert Halliday Gunning made a presentation to the Medico-Chirurgical Society of Edinburgh following a series of laboratory experiments on rabbits that confirmed Glover's findings and also refuted Simpson's claims of originality. However, a knighthood for Simpson, and massive media coverage of the wonders of chloroform ensured that Simpson's reputation remained high, whilst the laboratory experiments proving the dangers of chloroform were largely ignored. Gunning, who became one of the richest persons in Britain, endowed some 13 university scholarships under the names of other scientists rather than his own name. He considered Simpson a charlatan, but one of these prizes is named the Simpson Prize for Obstetrics. It is, however, probably a strange reverse compliment, as arguably any Simpson prize in the wider public eye should be a prize for anaesthesia. By not calling it this he effectively snubbed Simpson whilst at the same time appearing to honour him.The use of chloroform during surgery expanded rapidly thereafter in Europe. In the 1850s, chloroform was used during the birth of Queen Victoria's last two children. In the United States, chloroform began to replace ether as an anesthetic at the beginning of the 20th century; however, it was quickly abandoned in favor of ether upon discovery of its toxicity, especially its tendency to cause fatal cardiac arrhythmia analogous to what is now termed "sudden sniffer's death". Some people used chloroform as a recreational drug or to attempt suicide. One possible mechanism of action for chloroform is that it increases movement of potassium ions through certain types of potassium channels in nerve cells. Chloroform could also be mixed with other anesthetic agents such as ether to make C.E. mixture, or ether and alcohol to make A.C.E. mixture.
+In 1848, Hannah Greener, a 15-year-old girl who was having an infected toenail removed, died after being given the anesthetic. Her autopsy establishing the cause of death was undertaken by John Fife assisted by Robert Mortimer Glover. A number of physically fit patients died after inhaling it. However, in 1848 John Snow developed an inhaler that regulated the dosage and so successfully reduced the number of deaths.The opponents and supporters of chloroform were mainly at odds with the question of whether the complications were solely due to respiratory disturbance or whether chloroform had a specific effect on the heart. Between 1864 and 1910 numerous commissions in Britain studied chloroform, but failed to come to any clear conclusions. It was only in 1911 that Levy proved in experiments with animals that chloroform can cause cardiac fibrillation. The reservations about chloroform could not halt its soaring popularity. Between about 1865 and 1920, chloroform was used in 80 to 95% of all narcoses performed in the UK and the German-speaking countries. In America, however, there was less enthusiasm for chloroform narcosis. In Germany, the first comprehensive surveys of the fatality rate during anesthesia were made by Gurlt between 1890 and 1897. In 1934, Killian gathered all the statistics compiled until then and found that the chances of suffering fatal complications under ether were between 1:14,000 and 1:28,000, whereas under chloroform the chances were between 1:3,000 and 1:6,000. The rise of gas anesthesia using nitrous oxide, improved equipment for administering anesthetics and the discovery of hexobarbital in 1932 led to the gradual decline of chloroform narcosis.
+
+
+=== Criminal use ===
+Chloroform has reputedly been used by criminals to knock out, daze, or even murder victims. Joseph Harris was charged in 1894 with using chloroform to rob people. Serial killer H. H. Holmes used chloroform overdoses to kill his female victims. In September 1900, chloroform was also implicated in the murder of the American businessman William Marsh Rice, the namesake of the institution now known as Rice University. Chloroform was also deemed a factor in the alleged murder of a woman in 1991 when she was asphyxiated while sleeping. In a 2007 plea bargain, a man confessed to using stun guns and chloroform to sexually assault minors. Use of chloroform as an incapacitating agent has become widely recognized, bordering on clichéd, due to the popularity of crime fiction authors having criminals use chloroform-soaked rags to render victims unconscious. However, it is nearly impossible to incapacitate someone using chloroform in this manner. It takes at least five minutes of inhaling an item soaked in chloroform to render a person unconscious. Most criminal cases involving chloroform also involve another drug being co-administered, such as alcohol or diazepam, or the victim being found to have been complicit in its administration. After a person has lost consciousness due to chloroform inhalation, a continuous volume must be administered and the chin must be supported to keep the tongue from obstructing the airway, a difficult procedure typically requiring the skills of an anesthesiologist. In 1865 as a direct result of the criminal reputation chloroform had gained, medical journal The Lancet offered a "permanent scientific reputation" to anyone who could demonstrate "instantaneous insensibility", IE losing consciousness instantaneously, using chloroform.
+
+
+== Safety ==
+
+
+=== Exposure ===
+Chloroform is known to form as a by-product of water chlorination along with a range of other disinfection by-products and as such is commonly present in municipal tap water and swimming pools. Reported ranges vary considerably but are generally below the current health standard for total trihalomethanes of 100μg/L. Nonetheless, the presence of chloroform in drinking water at any concentration is considered controversial by some.Historically chloroform exposure may well have been higher due to its common use as an anesthetic, as an ingredient in cough syrups, and as a constituent of tobacco smoke where p,p'-DDT had previously been used as a fumigant.
+
+
+=== Pharmacology ===
+It is well absorbed, metabolized, and eliminated rapidly by mammals after oral, inhalation, or dermal exposure. Accidental splashing into the eyes has caused irritation. Prolonged dermal exposure can result in the development of sores as a result of defatting. Elimination is primarily from lungs in the form of chloroform and carbon dioxide; less than 1% is excreted in urine.Chloroform is metabolized in the liver by the cytochrome P-450 enzymes, by oxidation to chloromethanol and by reduction to the dichloromethyl free radical. Other metabolites of chloroform include hydrochloric acid and digluathionyl dithiocarbonate, with carbon dioxide as the predominant end product of metabolism.Chloroform causes depression of the central nervous system (CNS), ultimately producing deep coma and respiratory center depression. When ingested, chloroform caused symptoms similar to those seen following inhalation. Serious illness has followed ingestion of 7.5 g (0.26 oz). The mean lethal oral dose for an adult is estimated at about 45 g (1.6 oz).The anesthetic use of chloroform has been discontinued because it caused deaths due to respiratory failure and cardiac arrhythmias. Following chloroform-induced anesthesia, some patients suffered nausea, vomiting, hyperthermia, jaundice, and coma due to hepatic dysfunction. At autopsy, liver necrosis and degeneration have been observed.Chloroform has induced liver tumors in mice and kidney tumors in mice and rats. The hepatotoxicity and nephrotoxicity of chloroform is thought to be due largely to phosgene.
+
+
+=== Conversion to phosgene ===
+Chloroform converts slowly in air to phosgene (COCl2), releasing HCl in the process.
+2 CHCl3 + O2 → 2 COCl2 + 2 HClTo prevent accidents, commercial chloroform is stabilized with ethanol or amylene, but samples that have been recovered or dried no longer contain any stabilizer. Amylene has been found ineffective, and the phosgene can affect analytes in samples, lipids, and nucleic acids dissolved in or extracted with chloroform. Phosgene and HCl can be removed from chloroform by washing with saturated aqueous carbonate solutions, such as sodium bicarbonate. This procedure is simple and results in harmless products. Phosgene reacts with water to form carbon dioxide and HCl, and the carbonate salt neutralizes the resulting acid.
+Suspected samples can be tested for phosgene using filter paper (treated with 5% diphenylamine, 5% dimethylaminobenzaldehyde in ethanol, and then dried), which turns yellow in phosgene vapor. There are several colorimetric and fluorometric reagents for phosgene, and it can also be quantified with mass spectrometry.
+
+
+=== Regulation ===
+Chloroform is suspected of causing cancer (i.e., carcinogenic) as per the International Agency for Research on Cancer (IARC) Monographs. [PDF]
+It is classified as an extremely hazardous substance in the United States as defined in Section 302 of the U.S. Emergency Planning and Community Right-to-Know Act (42 U.S.C. 11002), and is subject to strict reporting requirements by facilities that produce, store, or use it in significant quantities.
+
+
+== Bioremediation of chloroform ==
+Some anaerobic bacteria use chloroform for their respiration, termed organohalide respiration, converting it to dichloromethane.
+
+
+== References ==
+
+
+== External links ==
+Chloroform "The Molecular Lifesaver" An article at Oxford University providing facts about chloroform.
+Concise International Chemical Assessment Document 58
+IARC Summaries & Evaluations: Vol. 1 (1972), Vol. 20 (1979), Suppl. 7 (1987), Vol. 73 (1999)
+International Chemical Safety Card 0027
+NIOSH Pocket Guide to Chemical Hazards. "#0127". National Institute for Occupational Safety and Health (NIOSH).
+NIST Standard Reference Database
+Story on Chloroform from BBC's The Material World (28 July 2005)
+Sudden Sniffer's Death Syndrome article at Carolinas Poison Center (dead link)
+Calculation of vapor pressure, liquid density, dynamic liquid viscosity, surface tension of chloroform
+ChemSub Online: Chloroform – Methane, trichloro-

@@ -1,0 +1,115 @@
+Title: ATC code R06
+Aspects: {'R06'}
+
+ATC code R06 Antihistamines for systemic use is a therapeutic subgroup of the Anatomical Therapeutic Chemical Classification System, a system of alphanumeric codes developed by the WHO for the classification of drugs and other medical products. Subgroup R06 is part of the anatomical group R Respiratory system.
+Codes for veterinary use (ATCvet codes) can be created by placing the letter Q in front of the human ATC code: for example, QR06. National issues of the ATC classification may include additional codes not present in this list, which follows the WHO version.
+
+
+== R06A Antihistamines for systemic use ==
+
+
+=== R06AA Aminoalkyl ethers ===
+R06AA01 Bromazine
+R06AA02 Diphenhydramine
+R06AA04 Clemastine
+R06AA06 Chlorphenoxamine
+R06AA07 Diphenylpyraline
+R06AA08 Carbinoxamine
+R06AA09 Doxylamine
+R06AA10 Trimethobenzamide
+R06AA52 Diphenhydramine, combinations
+R06AA54 Clemastine, combinations
+R06AA56 Chlorphenoxamine, combinations
+R06AA57 Diphenylpyraline, combinations
+R06AA59 Doxylamine, combinations
+
+
+=== R06AB Substituted alkylamines ===
+R06AB01 Brompheniramine
+R06AB02 Dexchlorpheniramine
+R06AB03 Dimetindene
+R06AB04 Chlorphenamine
+R06AB05 Pheniramine
+R06AB06 Dexbrompheniramine
+R06AB07 Talastine
+R06AB51 Brompheniramine, combinations
+R06AB52 Dexchlorpheniramine, combinations
+R06AB54 Chlorphenamine, combinations
+R06AB56 Dexbrompheniramine, combinations
+
+
+=== R06AC Substituted ethylene diamines ===
+R06AC01 Mepyramine
+R06AC02 Histapyrrodine
+R06AC03 Chloropyramine
+R06AC04 Tripelennamine
+R06AC05 Methapyrilene
+R06AC06 Thonzylamine
+R06AC52 Histapyrrodine, combinations
+R06AC53 Chloropyramine, combinations
+
+
+=== R06AD Phenothiazine derivatives ===
+R06AD01 Alimemazine
+R06AD02 Promethazine
+R06AD03 Thiethylperazine
+R06AD04 Methdilazine
+R06AD05 Hydroxyethylpromethazine
+R06AD06 Thiazinam
+R06AD07 Mequitazine
+R06AD08 Oxomemazine
+R06AD09 Isothipendyl
+R06AD52 Promethazine, combinations
+R06AD55 Hydroxyethylpromethazine, combinations
+
+
+=== R06AE Piperazine derivatives ===
+R06AE01 Buclizine
+R06AE03 Cyclizine
+R06AE04 Chlorcyclizine
+R06AE05 Meclozine
+R06AE06 Oxatomide
+R06AE07 Cetirizine
+R06AE09 Levocetirizine
+R06AE51 Buclizine, combinations
+R06AE53 Cyclizine, combinations
+R06AE55 Meclozine, combinations
+
+
+=== R06AK Combinations of antihistamines ===
+Empty group
+
+
+=== R06AX Other antihistamines for systemic use ===
+R06AX01 Bamipine
+R06AX02 Cyproheptadine
+R06AX03 Thenalidine
+R06AX04 Phenindamine
+R06AX05 Antazoline
+R06AX07 Triprolidine
+R06AX08 Pyrrobutamine
+R06AX09 Azatadine
+R06AX11 Astemizole
+R06AX12 Terfenadine
+R06AX13 Loratadine
+R06AX15 Mebhydrolin
+R06AX16 Deptropine
+R06AX17 Ketotifen
+R06AX18 Acrivastine
+R06AX19 Azelastine
+R06AX21 Tritoqualine
+R06AX22 Ebastine
+R06AX23 Pimethixene
+R06AX24 Epinastine
+R06AX25 Mizolastine
+R06AX26 Fexofenadine
+R06AX27 Desloratadine
+R06AX28 Rupatadine
+R06AX29 Bilastine
+R06AX31 Quifenadine
+R06AX32 Sequifenadine
+R06AX53 Thenalidine, combinations
+R06AX58 Pyrrobutamine, combinations
+
+
+== References ==

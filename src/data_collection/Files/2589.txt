@@ -1,0 +1,25 @@
+Title: Cumulative elevation gain
+Aspects: {'D+'}
+
+In running, cycling, and mountaineering, cumulative elevation gain refers to the sum of every gain in elevation throughout an entire trip. It is sometimes also known as cumulative gain or (confusingly) elevation gain, or often in the context of mountain travel, simply gain. Another commonly used phrase is total ascent. Elevation losses are not counted in this measure. Cumulative elevation gain, along with round-trip distance, is arguably the most important value used in quantifying the strenuousness of a trip. This is because hiking 10 miles (16 km) on flat land (zero elevation gain) is significantly easier than hiking up and down a large mountain with the same round-trip distance. It is much harder to ascend vertically, or to increase elevation, than to walk on flat land because doing so also requires that the hiker increase his/her gravitational potential energy.
+
+
+== Computation ==
+
+In the simplest case of a trip where hikers only travel up on their way to a single summit, the cumulative elevation gain is simply given by the difference in the summit elevation and the starting elevation. For example, if one starts hiking at a trailhead with elevation 1,000 feet (300 m), and continues up to a summit of 5,000 feet (1,500 m), the cumulative elevation gain is only 5000 ft − 1000 ft = 4,000 feet (1,200 m) The loss of elevation on the descent is not relevant, because only increases in elevation are considered in this measure.
+However, when climbing a mountain with some "ups-and-downs", or traversing several mountains, one must take into account every "up" along the whole route. This even means that the (usually small) uphills on the descent must be counted. For example, consider a mountain whose summit is 5,000 feet (1,500 m) in elevation, but somewhere on the way up, the trail goes back down 250 feet (76 m). If starting at an elevation of 1,000 feet (300 m), one gains 4,250 feet (1,300 m) on the ascent (not 4000 feet, because 250 feet is lost and then has to be "regained"). Additionally, this section of the trail on the overall ascent that goes down 250 feet subsequently goes up on the descent, so it is counted as another gain in elevation. Therefore, the cumulative elevation gain for the trip both up and down the mountain along the same path is 4,500 feet (1,400 m).
+If one hikes over five hills of 100 vertical feet each, the cumulative elevation gain is 5 × (100 feet (30 m)) = 500 feet (150 m). Only the uphill sections are counted, not the downhills.
+This concept explains why travel on terrain which has more frequent and sharp "ups-and-downs", or is generally more rugged, is usually significantly more strenuous even if the highest absolute elevation reached on any peak is not very great.
+
+
+== Technology ==
+Cumulative elevation gain can be recorded using GPS services such as Garmin or Strava.
+
+
+== See also ==
+Naismith's rule
+
+
+== References ==
+Elevation Gain and 5,000+ Foot Elevation Gain Lists
+National Three Peaks Challenge - use of phrase 'total ascent'

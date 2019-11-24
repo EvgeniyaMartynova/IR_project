@@ -1,0 +1,54 @@
+Title: Fujita scale
+Aspects: {'F-number (disambiguation)', 'F scale', 'F0'}
+
+The Fujita scale (F-Scale; ), or Fujita–Pearson scale (FPP scale), is a scale for rating tornado intensity, based primarily on the damage tornadoes inflict on human-built structures and vegetation. The official Fujita scale category is determined by meteorologists and engineers after a ground or aerial damage survey, or both; and depending on the circumstances, ground-swirl patterns (cycloidal marks), weather radar data, witness testimonies, media reports and damage imagery, as well as photogrammetry or videogrammetry if motion picture recording is available. The Fujita scale was replaced with the Enhanced Fujita scale (EF-Scale) in the United States in February 2007. In April 2013, Canada adopted the EF-Scale over the Fujita scale along with 31 "Specific Damage Indicators" used by Environment Canada (EC) in their ratings.
+
+
+== Background ==
+The scale was introduced in 1971 by Ted Fujita of the University of Chicago, in collaboration with  Allen Pearson, head of the National Severe Storms Forecast Center/NSSFC (currently the Storm Prediction Center/SPC). The scale was updated in 1973, taking into account path length and width. In the United States, starting in 1973, tornadoes were rated soon after occurrence. The Fujita scale was applied retroactively to tornadoes reported between 1950 and 1972 in the National Oceanic and Atmospheric Administration (NOAA) National Tornado Database. Fujita rated tornadoes from 1916–1992  and Tom Grazulis of The Tornado Project retroactively rated all known significant tornadoes (F2–F5 or causing a fatality) in the U.S. back to 1880.
+The Fujita scale was adopted in most areas outside of Great Britain.On February 1st, 2007, the Fujita scale was decommissioned, and the Enhanced Fujita Scale was introduced in the United States. The new scale more accurately matches wind speeds to the severity of damage caused by the tornado.
+Though each damage level is associated with a wind speed, the Fujita scale is effectively a damage scale, and the wind speeds associated with the damage listed aren't rigorously verified. The Enhanced Fujita Scale was formulated due to research which suggested that the wind speeds required to inflict damage by intense tornadoes on the Fujita scale are greatly overestimated. A process of expert elicitation with top engineers and meteorologists resulted in the EF scale wind speeds, however, these are biased to United States construction practices. The EF scale also improved damage parameter descriptions.
+
+
+== Derivation ==
+
+The original scale as derived by Fujita was a theoretical 13-level scale (F0–F12) designed to smoothly connect the Beaufort scale and the Mach number scale. F1 corresponds to the twelfth level of the Beaufort scale, and F12 corresponds to Mach number 1.0. F0 was placed at a position specifying no damage (approximately the eighth level of the Beaufort scale), in analogy to how the Beaufort's zeroth level specifies little to no wind. From these wind speed numbers, qualitative descriptions of damage were made for each category of the Fujita scale, and then these descriptions were used to classify tornadoes. The diagram on the right illustrates the relationship between the Beaufort, Fujita, and Mach number scales.
+At the time Fujita derived the scale, little information was available on damage caused by wind, so the original scale presented little more than educated guesses at wind speed ranges for specific tiers of damage. Fujita intended that only F0–F5 be used in practice, as this covered all possible levels of damage to frame homes as well as the expected estimated bounds of wind speeds. He did, however, add a description for F6, which he phrased as "inconceivable tornado", to allow for wind speeds exceeding F5 and for possible future advancements in damage analysis which might show it.Furthermore, the original wind speed numbers have since been found to be higher than the actual wind speeds required to incur the damage described at each category. The error manifests itself to an increasing degree as the category increases, especially in the range of F3 through F5. NOAA notes that "... precise wind speed numbers are actually guesses and have never been scientifically verified. Different wind speeds may cause similar-looking damage from place to place—even from building to building. Without a thorough engineering analysis of tornado damage in any event, the actual wind speeds needed to cause that damage are unknown." Since then, the Enhanced Fujita Scale has been created using better wind estimates by engineers and meteorologists.
+
+
+== Parameters ==
+The six categories are listed here, in order of increasing intensity.
+
+The rating of any given tornado is of the most severe damage to any well-built frame home or comparable level of damage from engineering analysis of other damage.
+Since the Fujita scale is based on the severity of damage resulting from high winds, an F6 or an F7 tornado is a theoretical construct. Structural damage cannot exceed total destruction, which constitutes F5 damage. A tornado with wind speeds greater than 319 miles per hour (513 km/h) is theoretically possible, and the 1999 Bridge Creek-Moore Tornado may have been such an event. However, no such wind speed has ever been recorded and that measurement was not near ground level.
+
+
+== Rating classifications ==
+For purposes such as tornado climatology studies, Fujita scale ratings may be grouped into classes.
+
+
+== Decommission in the US ==
+
+The Fujita scale, introduced in 1971 as a means to differentiate tornado intensity and path area, assigned wind speeds to damage that were, at best, educated guesses. Fujita and others recognized this immediately and intensive engineering analysis was conducted through the rest of the 1970s. This research, as well as subsequent research, showed that tornado wind speeds required to inflict the described damage were actually much lower than the F-scale indicated, particularly for the upper categories. Also, although the scale gave general descriptions for the type of damage a tornado could cause, it gave little leeway for strength of construction and other factors that might cause a building to receive higher damage at lower wind speeds. Fujita tried to address these problems somewhat in 1992 with the Modified Fujita Scale, but by then he was semi-retired and the National Weather Service was not in a position for the undertaking of updating to an entirely new scale, so it went largely unenacted.In the United States, on February 1, 2007, the Fujita scale was decommissioned in favor of what these scientists believe is a more accurate Enhanced Fujita Scale, which replaces it. The meteorologists and engineers who designed the EF Scale believe it an improvement on the F-scale on many counts—it accounts for different degrees of damage that occur with different types of structures, both man-made and natural. The expanded and refined damage indicators and degrees of damage standardize what was somewhat ambiguous. It also is thought to provide a much better estimate for wind speeds and sets no upper limit on the wind speeds for the strongest level, EF5. Several countries continue to use the original Fujita Scale. Environment Canada has begun using the Enhanced Fujita scale in Canada as of April 18, 2013.
+
+
+== See also ==
+
+
+== References ==
+
+
+=== Notes ===
+
+
+=== Bibliography ===
+Marshall, Timothy P. (2001). "Birth of the Fujita Scale". Storm Track. 24 (3): 6–10.
+Edwards, Roger; J. G. LaDue; J. T. Ferree; K. Scharfenberg; C. Maier; W. L. Coulbourne (2013). "Tornado Intensity Estimation: Past, Present, and Future". Bull. Amer. Meteor. Soc. 94 (5): 641–53. Bibcode:2013BAMS...94..641E. doi:10.1175/BAMS-D-11-00006.1.
+
+
+== External links ==
+Enhanced F Scale for Tornado Damage (SPC)
+The Enhanced Fujita Scale (EF Scale) (SPC)
+A Guide for Conducting Convective Windstorm Surveys (NWS SR146)
+The Tornado: An Engineering-Oriented Perspective (NWS SR147)
+Fujita archival records (Texas Tech University)

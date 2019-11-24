@@ -1,0 +1,270 @@
+Title: Loading gauge
+Aspects: {'W6'}
+
+A loading gauge defines the maximum height and width for railway vehicles and their loads to ensure that they can pass safely through tunnels, under bridges and keep clear of track-side structures. Classification systems vary between different countries and gauges may vary across a network, even if the track gauge remains constant.
+
+
+== Overview ==
+
+The loading gauge restricts the size of passenger coaches, goods wagons (freight cars) and shipping containers that can travel on a section of railway track. It varies across the world and often within a single railway system. Over time there has been a trend towards larger loading gauges and more standardization of gauges; some older lines have had their structure gauges enhanced by raising bridges, increasing the height and width of tunnels and making other necessary alterations. Containerisation and a trend towards larger shipping containers has led rail companies to increase structure gauges to compete effectively with road haulage.
+The term "loading gauge" can also refer to a physical structure, sometimes using electronic detectors using light beams on an arm or gantry placed over the exit lines of goods yards or at the entry point to a restricted part of a network. The devices ensure that loads stacked on open or flat wagons stay within the height/shape limits of the line's bridges and tunnels, and prevent out-of-gauge rolling stock entering a stretch of line with a smaller loading gauge. Compliance with a loading gauge can be checked with a clearance car. In the past, these were simple wooden frames or physical feelers mounted on rolling stock. More recently, laser beams are used.
+The loading gauge is the maximum size of rolling stock. This is distinct from the structure gauge, which is the minimum size of bridges and tunnels, and must be larger to allow for engineering tolerances and car motion. The difference between the two is called the clearance. The terms "dynamic envelope" or "kinematic envelope" – which include factors such as suspension travel, overhang on curves (at both ends and middle) and lateral motion on the track – are sometimes used in place of loading gauge.The height of platforms is also a consideration for the loading gauge of passenger trains. Where the two are not directly compatible, stairs may be required, which will increase loading times. Where long carriages are used at a curved platform, there will be gaps between the platform and the carriage door, causing risk. Problems increase where trains of several different loading gauges and train floor heights use (or even must pass without stopping at) the same platform.
+The size of load that can be carried on a railway of a particular gauge is also influenced by the design of the rolling stock. Low-deck rolling stock can sometimes be used to carry taller 9 ft 6 in (2.9 m) shipping containers on lower gauge lines although their low-deck rolling stock cannot then carry as many containers.
+
+
+=== Out of gauge ===
+Larger out-of-gauge loads can also sometimes be conveyed by taking one or more of the following measures:
+
+Operate at low speed, especially in places with limited clearance, such as platforms.
+Cross over from a track with inadequate clearance to another track with greater clearance, even if there is no signalling to allow this.
+Prevent operation of other trains on adjacent tracks.
+Use refuge loops to allow trains to operate on other tracks.
+Use of Schnabel cars (special rolling stock) that manipulate the load up and down or left and right to clear obstacles.
+Remove (and later replace) obstacles.
+Use gauntlet track to shift the train to side or center.
+For locomotives that are too heavy, ensure that fuel tanks are nearly empty.
+Turn off power in overhead wiring or in the third rail.Rapid Transit (metro) railways generally have a very small loading gauge, which reduces the cost of tunnel construction. These systems only use their own specialised rolling stock.
+
+
+== History ==
+The loading gauge on the main lines of Great Britain, most of which were built before 1900, is generally smaller than in other countries. In mainland Europe, the slightly larger Berne gauge (Gabarit passe-partout international, PPI) was agreed to in 1913 and came into force in 1914. As a result, British (passenger) trains have noticeably and considerably smaller loading gauges and smaller interiors, despite the track being standard gauge along with much of the world.
+This results in increased costs for purchasing trains as they must be specifically designed for the British network, rather than being purchased "off-the-shelf". For example, the new trains for HS2 have a 50% premium applied to the "classic compatible" sets that will be able to run on the rest of the network, meaning they will cost £40 million each rather than £27 million for the captive stock (built to European standards and unable to run on other lines), despite the captive stock being larger.
+
+
+== Standard loading gauges for standard track gauge lines ==
+
+
+=== International Union of Railways (UIC) Gauge ===
+
+The International Union of Railways (UIC) has developed a standard series of loading gauges named A, B, B+ and C.
+
+PPI – the predecessor of the UIC gauges had the maximum dimensions 3.15 by 4.28 m (10 ft 4 in by 14 ft 1 in) with an almost round roof top.
+UIC A: The smallest (slightly larger than PPI gauge). Maximum dimensions 3.15 by 4.32 m (10 ft 4 in by 14 ft 2 in).
+UIC B: Most of the high-speed TGV tracks in France are built to UIC B. Maximum dimensions 3.15 by 4.32 m (10 ft 4 in by 14 ft 2 in).
+UIC B+: New structures in France are being built to UIC B+. Up to 4.28 m (14 ft 1 in) it features a width of 2.50 m (8 ft 2 in) to accommodate ISO containers.
+UIC C: The Central European gauge. In Germany and other central European countries, the railway systems are built to UIC C gauges, sometimes with an increment in the width, allowing Scandinavian trains to reach German stations directly, originally built for Soviet freight cars. Maximum dimensions 3.15 by 4.65 m (10 ft 4 in by 15 ft 3 in).
+
+
+=== Europe ===
+
+
+==== European standards ====
+
+In the European Union, the UIC directives were supplanted by ERA Technical Specifications for Interoperability (TSI) of European Union in 2002, which has defined a number of recommendations to harmonize the train systems. The TSI Rolling Stock (2002/735/EC) has taken over the UIC Gauges definitions defining Kinematic Gauges with a reference profile such that Gauges GA and GB have a height of 4.35 m (14 ft 3 in) (they differ in shape) with Gauge GC rising to 4.70 m (15 ft 5 in) allowing for a width of 3.08 m (10 ft 1 in) of the flat roof. All cars must fall within an envelope of 3.15 m (10 ft 4 in) wide on a 250 m (12 ch) radius curve. The TGVs, which are 2.9 m (9 ft 6 in) wide, fall within this limit.
+The designation of a GB+ loading gauge refers to the plan to create a pan-European freight network for ISO containers and trailers with loaded ISO containers. These container trains (piggy-back trains) fit into the B envelope with a flat top so that only minor changes are required for the widespread structures built to loading gauge B on continental Europe. Currently, some structures on the British Isles are extended to fit with GB+ as well, where the first lines to be rebuilt start at the Channel Tunnel.Many member states' legacy railways, notably those in Great Britain, do not conform to the TSI specification and, given the cost and disruption entailed, are not likely to be retrofitted other than for GB+.
+
+
+==== Double-decker carriages ====
+
+A specific example of the value of these loading gauges is that they permit double decker passenger carriages. Although mainly used for suburban commuter lines (in Austria, Belgium, the Czech Republic, Denmark, Finland, France, Germany, Italy, Lithuania, Poland, Portugal, Russia, Slovakia, Spain, Sweden, and Switzerland as well as other locations around the world, including Sydney, Australia), France is notable for using them on its high speed TGV services: the SNCF TGV Duplex carriages are 4.32 metres (14 ft 2 in) high, and the Netherlands and Switzerland feature large numbers of double decker intercity trains as well.
+
+
+==== Great Britain ====
+Great Britain has (in general) the most restrictive loading gauge (relative to track gauge) in the world. This is a legacy of the British railway network being the world's oldest, and having been built by a plethora of different private companies, each with different standards for the width and height of trains. After nationalisation, a standard static gauge W5 was defined in 1951 that would virtually fit everywhere in the network. The W6 gauge is a refinement to W5 and the W6a changed the lower body to accommodate third-rail electrification. While the upper body is rounded for W6a with a static curve, there is an additional small rectangular notch for W7 to accommodate the transport of 2.44 m (8 ft 0 in) ISO containers and the W8 loading gauge has an even larger notch spanning outside of the curve to accommodate the transport of 2.6 m (8 ft 6 in) ISO containers. While W5 to W9 are based on a rounded roof structure, those for W10 to W12 define a flat line at the top and, instead of a strict static gauge for the wagons, their sizes are derived from dynamic gauge computations for rectangular freight containers.Network Rail uses a W loading gauge classification system of freight transport ranging from W6A (smallest) through W7, W8, W9, W9Plus, W10, W11 to W12 (largest). The definitions assume a common "lower sector structure gauge" with a common freight platform at 1,100 mm (43.31 in) above rail.In addition, gauge C1 provides a specification for standard coach stock, gauge C3 for longer MkIII coaching stock, gauge C4 for Pendolino stock and gauge UK1 for high-speed rail. There is also a gauge for locomotives. The size of container that can be conveyed depends both upon the size of the load that can be conveyed and the design of the rolling stock.
+W6a: Available over the majority of the British rail network.
+W8: Allows standard 2.6 m (8 ft 6 in) high shipping containers to be carried on standard wagons.
+W9: Allows 2.9 m (9 ft 6 in) high Hi-Cube shipping containers to be carried on "Megafret" wagons that have lower deck height with reduced capacity. At 2.6 m (8 ft 6 in) wide, it allows for 2.5 m (8 ft 2 in) wide Euro shipping containers, which are designed to carry Euro-pallets efficiently
+W10: Allows 2.9 m (9 ft 6 in) high Hi-Cube shipping containers to be carried on standard wagons and also allows 2.5 m (8 ft 2 in) wide Euro shipping containers. Larger than UIC A.
+W11: Little used but larger than UIC B.
+W12: Slightly wider than W10 at 2.6 m (8 ft 6 in) to accommodate refrigerated containers. Recommended clearance for new structures, such as bridges and tunnels.
+UIC GC: Channel Tunnel and Channel Tunnel Rail Link to London; with proposals to enable GB+ northwards from London via an upgraded Midland Main Line.A strategy was adopted in 2004 to guide enhancements of loading gauges and in 2007 the freight route utilisation strategy was published; this identified a number of key routes where the loading gauge should be cleared to W10 standard and, where structures are being renewed, that W12 is the preferred standard.Height and width of containers that can be carried on GB gauges (Height by width). Units as per source material.
+
+W9: 9 ft 0 in (2.74 m) by 8 ft 6 in (2.6 m)
+W10: 9 ft 6 in (2.90 m) by 8 ft 2 in (2.5 m)
+W11: 9 ft 6 in (2.90 m) by 8 ft 4 in (2.55 m)
+W12: 9 ft 6 in (2.90 m) by 8 ft 6 in (2.6 m)
+
+
+===== Tube lines =====
+City & South London Railway was built with tunnels of only 10.5 ft (3.20 m) diameter. Enlarged for Northern line to 12.0 ft (3.66 m)
+Central line with tunnels of 11 ft 8 1⁄4 in (3.56 m), increased on curves, reduced to 11 ft 6 in (3.51 m) near to stations. This makes Central line trains unique on the London Underground system because, although the loading gauge of the rolling stock is the same as the other 'tube' lines, the smaller size of the tunnel requires that the positive conductor rail is 1.6 in (41 mm) higher than on all other lines.A Parliamentary committee headed by James Stansfeld then reported on 23 May 1892, "The evidence submitted to the Committee on the question of the diameter of the underground tubes containing the railways has been distinctly in favour of a minimum diameter of 11 ft. 6 in." After that, all tube lines were at least that size.
+Piccadilly line with tunnels of 12.0 ft (3.66 m)
+Victoria line with tunnels of 12.5 ft (3.81 m); enlarged to reduce air friction.
+Glasgow Subway with tunnels of 11.0 ft (3.35 m) and a unique track gauge of only 4 ft 0 in (1.22 m).
+Tyne and Wear Metro with tunnels of 15.5 ft (4.7 m); built to mainline rail network standards.
+
+
+==== Sweden ====
+Sweden uses shapes similar to the Central European loading gauge but trains are wider. There are three main classes in use (width × height):
+Class SE-A is 3.40 by 4.65 m (11 ft 2 in by 15 ft 3 in). Similar to OPS-NL (Netherlands), Victorian (Australia) and Chinese loading gauges.
+Class SE-B is 3.40 by 4.30 m (11 ft 2 in by 14 ft 1 in). Similar to Norwegian loading gauge.
+Class SE-C is 3.60 by 4.83 m (11 ft 10 in by 15 ft 10 in) with a completely flat roof top. Similar to OPS-GC (Netherlands) loading gauge.Malmbanan north of Kiruna was the first electrified railway line in Sweden and has limited height clearance (SE-B) because of snow shelters. On the rest of the network belonging to Trafikverket, the structure gauge accepts cars built to SE-A and thus accepts both cars built to UIC GA and GB. Some modern electric multiple-units, like Regina X50 with derivatives, are somewhat wider than normally permitted by SE-A at 3.45 m (11 ft 4 in). This is generally acceptable as the extra width is above normal platform height, but it means that they can not use the high platforms that Arlanda Express uses (Arlanda Central Station has normal clearances). The higher width allows sleeping cars in which tall people can sleep with straight legs and feet, which is not the case on the continent.
+When building new railways or extensive reinvestments are made to the existing railway infrastructure, the gauge is expanded to SE-C that also accepts UIC GC. The structure gauge on the bulk of the system already (2012) allows large cars built to SE-C, albeit with restrictions and a special permit. The remaining limitation is the track circuits, the blocks are not dimensioned for the extra width and a large car placed to close to a turnout at a passing loop may intrude on the structure envelope of the through line. As a stop-gap this is generally solved by adding an extra normal-sized car at the tail-end to ensure that no part of the consist obstruct the space needed by passing trains (the engine serves the same function at the front-end). The larger cars are also barred from using certain industrial spurs leading to warehouses or loading docks built for the narrower cars. The SE-C loading gauge is the future European standard, for the 1,435 mm (4 ft 8 1⁄2 in) Rail Baltica II and the Narvik to Tel-Aviv train routes including the fixed rail links between Sweden and Poland and the second Marmaray fixed rail link.
+
+
+==== Netherlands ====
+In the Netherlands, a similar shape to the UIC C is used that rises to 4.70 m (15 ft 5 in) in height. The trains are wider allowing for 3.40 m (11 ft 2 in) width similar to Sweden. About one third of the Dutch passenger trains use double-decker railcars. However, Dutch platforms are much higher than Swedish ones.
+
+
+==== Betuweroute and Channel Tunnel ====
+Betuweroute: 4.10 by 6.15 m (13 ft 5 in by 20 ft 2 in) to allow double stacked container trains in the future. The present overhead line does not allow this height, as it has to follow standards.
+Channel Tunnel: 4.10 by 5.60 m (13 ft 5 in by 18 ft 4 in)
+
+
+=== North America ===
+
+
+==== Freight ====
+The American loading gauge for freight cars on the North American rail network is generally based on standards set by the Association of American Railroads (AAR) Mechanical Division. The most widespread standards are AAR Plate B and AAR Plate C, but higher loading gauges have been introduced on major routes outside urban centers to accommodate rolling stock that makes better economic use of the network, such as auto carriers, hi-cube boxcars, and double-stack container loads.Listed here are the maximum heights and widths for cars. However, the specification in each plate shows a car cross-section that is chamfered at the top and bottom, meaning that a compliant car is not permitted to fill an entire rectangle of the maximum height and width.
+
+Technically, Plate B is still the maximum and the circulation of Plate C is somewhat restricted. The prevalence of excess-height rolling stock, at first ~18 ft (5.5 m) piggybacks and hicube boxcars, then later autoracks, airplane parts cars, and flatcars for hauling Boeing 737 fuselages, as well as 20 ft 2 in (6.15 m) high double-stacked containers in container well cars, has been increasing. This means that most, if not all, lines are now designed for a higher loading gauge. The width of these extra-height cars is covered by Plate C-1.All the Class I rail companies have invested in longterm projects to increase clearances to allow double stack freight. The mainline North American rail networks of the Union Pacific, the BNSF, the Canadian National, and the Canadian Pacific, have already been upgraded to Plate K. This represents over 60% of the Class I rail network.
+
+
+==== Passenger service ====
+
+The old standard North American passenger railcar is 10 ft 6 in (3.20 m) wide by 14 ft 6 in (4.42 m) high and measures 85 ft 0 in (25.91 m) over coupler pulling faces with 59 ft 6 in (18.14 m) truck centers, or 86 ft 0 in (26.21 m) over coupler pulling faces with 60 ft 0 in (18.29 m) truck centers. In the 1940s and 1950s, the American passenger car loading gauge was increased to a 16 ft 6 in (5.03 m) height throughout most of the country outside the Northeast, to accommodate dome cars and later Superliners and other double-decker commuter trains. Bilevel and Hi-level passenger cars have been in use since the 1950s, and new passenger equipment with a height of 19 ft 9 1⁄2 in (6.03 m) has been built for use in Alaska and the Canadian Rockies. See Bilevel rail car. The structure gauge of the Mount Royal Tunnel limits the height of bilevel cars to 14 feet 6 inches (4.42 m).
+
+
+==== New York City Subway ====
+The New York City Subway is an amalgamation of three former constituent companies, and while all are standard gauge, inconsistencies in loading gauge prevent cars from the former BMT and IND systems (B Division) from running on the lines of the former IRT system (A Division), and vice versa. This is mainly because IRT tunnels and stations are approximately 1 foot (305 mm) narrower than the others, meaning that IRT cars running on the BMT or IND lines would have platform gaps of over 8 inches (203 mm) between the train and some platforms, whereas BMT and IND cars would not even fit into an IRT station without hitting the platform edge. Taking this into account, all maintenance vehicles are built to IRT loading gauge so that they can be operated over the entire network, and employees are responsible for minding the gap.
+Another inconsistency is the maximum permissible railcar length. Cars in the former IRT system are 51 feet (15.54 m) as of December 2013, but can be as long as 64 feet (19.51 m). Railcars in the former BMT and IND can be longer: on the former Eastern Division, the cars are limited to 60 feet (18.29 m), while on the rest of the BMT and IND lines plus the Staten Island Railway (which uses modified IND stock) the cars may be as long as 75 feet (22.86 m).
+
+
+==== Boston (MBTA) ====
+The MBTA's rapid transit system is composed of four unique subway lines; while all lines are standard gauge, inconsistencies in loading gauge, electrification, and platform height prevent trains on one line from being used on another. The first segment of the Green Line (known as the Tremont Street Subway) was constructed in 1897 to take the streetcars off Boston's busy downtown streets. When the Blue Line opened in 1904, it only ran streetcar services; the line was converted to rapid transit in 1924 due to high passenger loads, but the tight clearances in the tunnel under the Boston Harbor required narrower and shorter rapid transit cars. The Orange Line was originally built in 1901 to accommodate heavy rail transit cars of higher capacity than streetcars. The Red Line was opened in 1912, designed to handle what were for a time the largest underground transit cars in the world.
+
+
+==== Los Angeles (LACMTA) ====
+The Los Angeles Metro Rail system is an amalgamation of two former constituent companies, the Los Angeles County Transportation Commission and the Southern California Rapid Transit District; both of those companies were responsible for planning the initial system. Nowadays, it is composed of two heavy rail subway lines and several light rail lines with subway sections; while all lines are standard gauge, inconsistencies in electrification and loading gauge prohibit the light rail trains from operating on the heavy rail lines, and vice versa. The LACTC-planned Blue Line was opened in 1990 and partially operates on the route of the Pacific Electric interurban railroad line between downtown Los Angeles and Long Beach, which used overhead electrification and street-running streetcar vehicles. The SCRTD-planned Red Line (later split into the Red and Purple lines) was opened in 1993 and was designed to handle high-capacity heavy rail transit cars that would operate underground. Shortly after the Red Line began operations, the LACTC and the SCRTD merged to form the LACMTA, which became responsible for planning and construction of the Green, Gold, Expo, and Crenshaw lines, as well as the Purple Line Extension and the Regional Connector.
+
+
+=== Asia ===
+Major trunk raillines in East Asian countries, including China, North Korea, South Korea, as well as the Shinkansen of Japan, have all adopted a loading gauge of 3,400 mm (11 ft 2 in) maximum width and can accept the maximum height of 4,500 mm (14 ft 9 in).
+
+
+==== China ====
+The max. height, width, and length of Chinese rolling stock are 4,800 mm (15 ft 9 in), 3,400 mm (11 ft 2 in) and 26 m (85 ft 4 in). China is building numerous new railways in sub-Sahara Africa and Southeast Asia (such as in Kenya and Laos), and these are being built to "Chinese Standards". This presumably means track gauge, loading gauge, structure gauge, couplings, brakes, electrification, etc.
+
+
+==== Japan ====
+
+Trains on the Shinkansen network operate on standard-gauge (1,435 mm) track and have a loading gauge of 3,400 mm (11 ft 2 in) maximum width and 4,500 mm (14 ft 9 in) maximum height. However some Shinkansen trains are wider, such as E1 Series Shinkansen. This allows the operation of double-deck high-speed trains.
+Mini Shinkansen (former conventional narrow gauge lines that have been regauged into standard gauge) and some private railways in Japan (including some lines of the Tokyo subway and all of the Osaka Metro) also use standard gauge; however, their loading gauges are different.
+The rest of Japan's system is discussed under #Narrow gauge, below.
+
+
+==== Hong Kong ====
+
+
+==== South Korea ====
+The South Korean national network has the same loading gauge as Japanese Shinkansen. The body frame may have a maximum height of 4,500 mm (180 in) and a maximum width of 3,400 mm (130 in) with additional installations allowed up to 3,600 mm (140 in). That width of 3,400 mm is only allowed above 1,250 mm (49 in) as the common passenger platforms are built to former standard trains of 3,200 mm (130 in) in width.
+
+
+=== Australia ===
+The standard gauge lines of New South Wales Government Railways (NSWGR) allowed for a width of 9 ft 6 in (2.90 m) until 1910, after a conference of the states created a new standard of 10 ft 6 in (3.20 m), with corresponding increase in track centres. The narrow widths have mostly been eliminated, except, for example, at the mainline platforms at Gosford railway station and some sidings. The longest carriages are 72 ft 6 in (22.10 m).
+The Commonwealth Railways adopted the national standard of 10 ft 6 in (3.20 m) when they were established in 1912, although no connection with New South Wales was made until 1970.
+The height of the NSW loading gauge just happens to allow for double decker trains in Sydney, while the Victorian loading gauge (in this populous city), which is similar to Swedish SE-A loading gauge, is not quite tall enough to allow for double deck trains in Melbourne (except for one experimental train).
+An NSW HV Composite Bogie Brake Van of 1884 was 8 ft 3.5 in (2.527 m) wide and 11 ft 5 in (3.48 m) tall.
+A NSW single deck suburban electric train of the 1920s was 10 ft 6 in (3.20 m) wide, with track centres widened to 12 ft 0 in (3.66 m) to suit. With metrication in 1973, track centres of new work were widened to 13 ft 1.5 in (4.001 m)
+A double deck Electric Tangara train of the late 1980s was 3,000 mm (118.1 in) wide. Track centres from Penrith railway station to Mount Victoria railway station and Gosford and Wyong have been gradually widened to suit. The proposed Korean manufactured intercity sets are however 3,100 mm (122.0 in) wide, so further, costly modification will be required beyond Springwood.
+
+
+== Broad gauge ==
+
+
+=== Passenger ===
+The smallest loading gauge for a railway of the 1,676 mm (5 ft 6 in) gauge track is Delhi Metro, which is 3,250 mm (10 ft 8 in) wide and 4,140 mm (13 ft 7 in) high.
+Indian Railways and Pakistan Railways (also 1,676 mm gauge track) have very large loading gauge. 3,660 mm (12 ft 0 in) wide and 5,300 mm (17 ft 5 in) high for passenger traffic.
+
+
+=== Freight ===
+In India and Pakistan, 3,250 mm (10 ft 8 in) wide and 7,000 mm (23 ft 0 in) high on the freight only lines, and 3,250 mm (10 ft 8 in) wide and 6,150 mm (20 ft 2 in) high on the passenger lines.
+In Finland, the rails cars can be up to 3.4 m (11 ft 2 in) wide with a permitted height from 4.37 m (14 ft 4 in) on the sides to 5.3 m (17 ft 5 in) in the middle.
+
+
+=== Russia ===
+The Russian loading gauges are defined in standard GOST 9238 (ГОСТ 9238-83, ГОСТ 9238-2013) with the current 2013 standard named "Габариты железнодорожного подвижного состава и приближения строений" (construction of rolling stock clearance diagrams [official English title]). It was accepted by the interstate council for standardization, metrology and certification to be valid in Russia, Belarus, Moldova, Ukraine, Uzbekistan and Armenia.The standard defines static envelopes for trains on the national network as T, Tc and Tpr. The static profile 1-T is the common standard on the complete 1520 mm rail network including the CIS and Baltic states. The structure clearance is given as S, Sp and S250. There is a tradition that structure clearance is much bigger than the common train sizes. For international traffic, the standard references the kinematic envelope for GC and defines a modified GCru for its high-speed trains. For other international traffic, there are 1-T, 1-VM, 0-VM, 02-VM and 03-VMst/03-VMk for the trains and 1-SM for the structure clearance.The main static profile T allows for a maximum width of 3,750 mm (12 ft 3.6 in) rising to a maximum height of 5,300 mm (17 ft 4.7 in). The profile Tc allows that width only at a height of 3,000 mm (9 ft 10.1 in), requiring a maximum of 3,400 mm (11 ft 1.9 in) below 1,270 mm (50.0 in), which matches with the standard for train platforms (with a height of 1,100 mm [43.3 in]). The profile Tpr has the same lower frame requirement but reduces the maximum upper body width to 3,500 mm (11 ft 5.8 in). The more universal profile 1-T has the complete body at a maximum width of 3,400 mm (11 ft 1.9 in) still rising to a height of 5,300 mm (17 ft 4.7 in).The structure gauge S requires buildings to be placed at minimum of 3,100 mm (10 ft 2.0 in) from the track centreline. Bridges and tunnels must have a clearance of at least 4,900 mm (16 ft 0.9 in) wide and 6,400 mm (21 ft 0 in) high. The structure gauge Sp for passenger platforms allows 4900 mm only above 1100 mm (the common platform height) requiring a width of 3,840 mm (12 ft 7.2 in) below that line.The main platform is defined to have a height of 1,100 mm (43.3 in) at a distance of 1,920 mm (75.6 in) from the center of the track to allow for trains with profile T. Low platforms at a height of 200 mm (7.9 in) may be placed at 1,745 mm (68.7 in) from the center of the track. A medium platform is a variant of the high platform but at a height of 550 mm (21.7 in). The latter matches with the TSI height in Central Europe. In the earlier standard from 1983, the profile T would only be allowed to pass low platforms at 200 mm while the standard high platform for cargo and passenger platforms would be placed no less than 1,750 mm (68.9 in) from the center of the track. That matches with the Tc, Tpr and the universal 1-T loading gauge.
+
+
+== Narrow gauge ==
+
+Narrow gauge railways generally have a smaller loading gauge than standard gauge ones, and this is a major reason for cost savings rather than the railgauge itself. For example, the Lyn locomotive of the Lynton and Barnstaple Railway is 7 feet 2 inches (2.18 m) wide. By comparison, several standard gauge 73 class locomotives of the NSWR, which are 9 feet 3 inches (2.82 m) wide, have been converted for use on 610 mm (2 ft) cane tramways, where there are no narrow bridges, tunnels or track centres to cause trouble. The 6E1 locomotive of the 1,067 mm (3 ft 6 in) South African Railways are 9 feet 6 inches (2.9 m) wide.
+A large numbers of railways using the 762 mm (2 ft 6 in) gauge used the same rolling stock plans, which were 7 ft 0 in (2.13 m) wide.
+
+
+=== Great Britain ===
+
+
+==== Festiniog Railway ====
+
+gauge = 597 mm (1 ft 11 1⁄2 in)
+width (brakevan mirrors) = 6 feet 10 inches (2.08 m).
+width (brakevan body) = 6 feet 0 inches (1.83 m).
+height = 5 feet 7.5 inches (1.715 m).
+length = (carriage) 36 feet 0 inches (10.97 m).
+
+
+==== Lynton and Barnstaple Railway ====
+
+gauge = 597 mm (1 ft 11 1⁄2 in)
+Lyn locomotive over headstocks
+length = 23 ft 6 in (7.16 m)
+width = 7 ft 2 in (2.18 m)
+height = 8 ft 11 in (2.72 m)
+Passenger
+length = 39 ft 6 in (12.04 m)
+width = 6 ft (1.83 m) wide,
+width over steps = 7 ft 4 in (2.24 m)
+height = 8 ft 7 in (2.62 m)
+
+
+=== Japan ===
+Japanese national network operated by Japan Railways Group employs narrow gauge 1,067 mm (3 ft 6 in) and has maximum width of 3,000 mm (9 ft 10 in) and maximum height of 4,100 mm (13 ft 5 in); however, a number JR lines were constructed as private railways prior to nationalisation in the early 20th century, and feature loading gauges smaller than the standard. These include the Chūō Main Line west of Takao, the Minobu Line, and the Yosan Main Line west of Kan'onji (3,900 mm (12 ft 10 in) height). Nevertheless, advances in pantograph technology have largely eliminated the need for separate rolling stock in these areas.
+There are many private railway companies in Japan and the loading gauge is different for each company.
+
+
+=== South Africa ===
+
+The South African national network employs 1,067 mm (3 ft 6 in) gauge, and has maximum width of 3,048 mm (10 ft) and maximum height of 3,962 mm (13 ft), which is greater than the normal British loading gauge for standard gauge vehicles.
+
+
+=== New Zealand ===
+New Zealand Railways uses 1,067 mm (3 ft 6 in) gauge. The maximum width is 2,830 mm (9 ft 3 in) and maximum height is 3,815 mm (12 ft 6 in).
+
+
+=== Other ===
+gauge 762 mm (2 ft 6 in) for the United Kingdom, Sierra Leone
+minimum radius 132 feet (40 m).
+width 7 feet 0 inches (2.13 m) see Everard Calthrop.
+waggon length freight 25 feet 0 inches (7.62 m) over headstocks
+waggon length passenger 40 feet 0 inches (12.19 m) over headstocks
+tank engine length 29 feet 6 inches (8.99 m) over headstocks
+
+
+== Structure gauge ==
+
+The structure gauge, which refers to the dimensions of the lowest and narrowest bridges or tunnels of the track, complements the loading gauge, which specifies the tallest and widest allowable vehicle dimensions. There is a gap between the structure gauge and loading gauge, and some allowance needs to be made for the dynamic movement of vehicles (sway) to avoid mechanical interference causing equipment and structural damage.
+
+
+== Out of gauge ==
+While it may be true that trains of a particular loading gauge can travel freely over tracks of a matching structure gauge, in practice, problems can still occur. In an accident at Moston station, an old platform not normally used by freight trains was hit by a train that wasn't within its intended W6a gauge because two container fastenings were hanging over the side. Analysis showed that the properly configured train would have passed safely even though the platform couldn't handle the maximum design sway of W6a. Accepting reduced margins for old construction is normal practice if there have been no incidents but if the platform had met modern standards with greater safety margin the out of gauge train would have passed without incident. Trains larger than the loading gauge, but not too large, can operate if the structure gauge is carefully measured, and the trip is subject to various special regulations.
+
+
+== See also ==
+Berne gauge
+Cut
+Platform gap
+Railway platform height
+Ride height
+Structure gauge
+
+
+== References ==
+
+
+== Further reading ==
+Jane's World Railways yearbook contains many though not all loading gauge diagrams.
+
+
+== External links ==
+2002/732/EC: Commission Decision of 30 May 2002 concerning the technical specification for interoperability relating to the infrastructure subsystem of the trans-European high-speed rail system
+Berne and all that (1992 diagram of European loading gauges) at crowsnest.com (Images do not open)
+AAR "plate" loading gauge diagrams compared to UIC (pdf & Autocad)
+Railway Loading Gauges at Joyce's World of Transport Eclectica Archived 6 October 2014 at the Wayback Machine
+Loading Gauges at The Self Site
+UIC Leaflets
+Railway industrial Clearance Association
+British Track Gauge & Loading Gauge
+APTA PR-CS-RP-003-98
+Railway line clearances and car dimensions including weight limitations of railroads in the United States, Canada, Mexico and Cuba.
+AAR plates with UIC

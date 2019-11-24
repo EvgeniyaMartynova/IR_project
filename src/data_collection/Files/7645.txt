@@ -1,0 +1,36 @@
+Title: Langlands dual group
+Aspects: {'L-group'}
+
+In representation theory, a branch of mathematics, the Langlands dual LG of a reductive algebraic group G (also called the L-group of G) is a group that controls the representation theory of G. If G is defined over a field k, then LG is an extension of the absolute Galois group of k by a complex Lie group. There is also a variation called the Weil form of the L-group, where the Galois group is replaced by a Weil group. The Langlands dual group is also often referred to as an L-group; here the letter L indicates also the connection with the theory of L-functions, particularly the automorphic L-functions. The Langlands dual was introduced by Langlands (1967) in a letter to A. Weil.
+The L-group is used heavily in the Langlands conjectures of Robert Langlands. It is used to make precise statements from ideas that automorphic forms are in a sense functorial in the group G, when k is a global field. It is not exactly G with respect to which automorphic forms and representations are functorial, but LG. This makes sense of numerous phenomena, such as 'lifting' of forms from one group to another larger one, and the general fact that certain groups that become isomorphic after field extensions have related automorphic representations.
+
+
+== Definition for separably closed fields ==
+From a reductive algebraic group over a separably closed field K we can construct its root datum (X*, Δ,X*, Δv), where 
+X* is the lattice of characters of a maximal torus, X* the dual lattice (given by the 1-parameter subgroups), Δ the roots, and Δv the coroots. A connected reductive algebraic group over K  is uniquely determined (up to isomorphism) by its root datum. A root datum contains slightly more information than the Dynkin diagram, because it also determines the center of the group.
+For any root datum (X*, Δ,X*, Δv), we can define a dual root datum (X*, Δv,X*, Δ) by switching the characters with the 1-parameter subgroups, and switching the roots with the coroots.
+If G is a connected reductive algebraic group over the algebraically closed field K, then its Langlands dual group LG is the complex connected reductive group whose root datum is dual to that of G.
+Examples:
+The Langlands dual group LG has the same Dynkin diagram as G, except that components of type Bn are changed to components of type Cn and vice versa. If G has trivial center then LG is simply connected, and if G is simply connected then LG has trivial center. The Langlands dual of GLn(K) is GLn(C).
+
+
+== Definition for groups over more general fields ==
+Now suppose that G is a reductive group over some field k with separable closure K. Over K, G has a root datum, and this comes with an action of the Galois group Gal(K/k). The identity component LGo of the L-group is the connected complex reductive group of the dual root datum; this has an induced action of the Galois group Gal(K/k). The full L-group LG is the semidirect product
+
+LG = LGo×Gal(K/k)of the connected component with the Galois group.
+There are some variations of the definition of the L-group, as follows:
+
+Instead of using the full Galois group Gal(K/k) of the separable closure, one can just use the Galois group of a finite extension over which G is split. The corresponding semidirect product then has only a finite number of components and is a complex Lie group.
+Suppose that k is a local, global, or finite field. Instead of using the absolute Galois group of k, one can use the absolute Weil group, which has a natural map to the Galois group and therefore also acts on the root datum. The corresponding semidirect product is called the Weil form of the L-group.
+For algebraic groups G over finite fields, Deligne and Lusztig introduced a different dual group. As before, G gives a root datum with an action of the absolute Galois group of the finite field. The dual group G* is then the reductive algebraic group over the finite field associated to the dual root datum with the induced action of the Galois group. (This dual group is defined over a finite field, while the component of the Langlands dual group is defined over the complex numbers.)
+
+
+== Applications ==
+The Langlands conjectures imply, very roughly, that if G is a reductive algebraic group over a local or global field, then there is a correspondence between "good" representations of G and homomorphisms of a Galois group (or Weil group or Langlands group) into the Langlands dual group of G. A more general formulation of the conjectures is Langlands functoriality, which says (roughly) that given a (well behaved) homomorphism between Langlands dual groups, there should be an induced map between "good" representations of the corresponding groups.
+To make this theory explicit, there must be defined the concept of L-homomorphism of an L-group into another. That is, L-groups must be made into a category, so that 'functoriality' has meaning. The definition on the complex Lie groups is as expected, but L-homomorphisms must be 'over' the Weil group.
+
+
+== References ==
+A. Borel, Automorphic L-functions, in Automorphic forms, representations, and L-functions, ISBN 0-8218-1437-0
+Langlands, R. (1967), letter to A. Weil
+Mirković, I.; Vilonen, K. (2007), "Geometric Langlands duality and representations of algebraic groups over commutative rings", Annals of Mathematics, Second Series, 166 (1): 95–143, arXiv:math/0401222, doi:10.4007/annals.2007.166.95, ISSN 0003-486X, MR 2342692 describes the dual group of G in terms of the geometry of the affine Grassmannian of G.

@@ -1,0 +1,117 @@
+Title: Windows API
+Aspects: {'W32'}
+
+The Windows API, informally WinAPI, is Microsoft's core set of application programming interfaces (APIs) available in the Microsoft Windows operating systems. The name Windows API collectively refers to several different platform implementations that are often referred to by their own names (for example, Win32 API); see the versions section. Almost all Windows programs interact with the Windows API. On the Windows NT line of operating systems, a small number (such as programs started early in the Windows startup process) use the Native API.Developer support is available in the form of a software development kit, Microsoft Windows SDK, providing documentation and tools needed to build software based on the Windows API and associated Windows interfaces.
+The Windows API (Win32) is focused mainly on the programming language C in that its exposed functions and data structures are described in that language in recent versions of its documentation. However, the API may be used by any programming language compiler or assembler able to handle the (well-defined) low-level data structures along with the prescribed calling conventions for calls and callbacks. Similarly, the internal implementation of the API's function has been developed in several languages, historically. Despite the fact that C is not an object-oriented programming language, the Windows API and Windows have both historically been described as object-oriented. There have also been many wrapper classes and extensions (from Microsoft and others) for object-oriented languages that make this object-oriented structure more explicit (Microsoft Foundation Class Library (MFC), Visual Component Library (VCL), GDI+, etc.). For instance, Windows 8 provides the Windows API and the WinRT API, which is implemented in C++ and is object-oriented by design.
+
+
+== Overview ==
+The functions provided by the Windows API can be grouped into eight categories:
+Base Services
+ Provide access to the basic resources available to a Windows system. Included are things like file systems, devices, processes, threads, and error handling. These functions reside in kernel.exe, krnl286.exe or krnl386.exe files on 16-bit Windows, kernel32.dll, and KernelBase.dll on 32 and 64 bit Windows. These files reside in the folder "System32" which is in the "Windows" directory on 64 bit Windows, and the "Windows" directory on 16 bit versions of Windows
+Advanced Services
+Provide access to functions beyond the kernel. Included are things like the Windows registry, shutdown/restart the system (or abort), start/stop/create a Windows service, manage user accounts. These functions reside in advapi32.dll and advapires32.dll on 32-bit Windows.
+Graphics Device Interface
+ Provides functions to output graphics content to monitors, printers, and other output devices. It resides in gdi.exe on 16-bit Windows, and gdi32.dll on 32-bit Windows in user-mode. Kernel-mode GDI support is provided by win32k.sys which communicates directly with the graphics driver.
+User Interface
+ Provides the functions to create and manage screen windows and most basic controls, such as buttons and scrollbars, receive mouse and keyboard input, and other functions associated with the graphical user interface (GUI) part of Windows. This functional unit resides in user.exe on 16-bit Windows, and user32.dll on 32-bit Windows. Since Windows XP versions, the basic controls reside in comctl32.dll, together with the common controls (Common Control Library).
+Common Dialog Box Library
+ Provides applications the standard dialog boxes to open and save files, choose color and font, etc. The library resides in a file called commdlg.dll on 16-bit Windows, and comdlg32.dll on 32-bit Windows. It is grouped under the User Interface category of the API.
+Common Control Library
+ Gives applications access to some advanced controls provided by the operating system. These include things like status bars, progress bars, toolbars and tabs. The library resides in a dynamic-link library (DLL) file called commctrl.dll on 16-bit Windows, and comctl32.dll on 32-bit Windows. It is grouped under the User Interface category of the API.
+Windows Shell
+ Component of the Windows API allows applications to access functions provided by the operating system shell, and to change and enhance it. The component resides in shell.dll on 16-bit Windows, and shell32.dll on 32-bit Windows. The Shell Lightweight Utility Functions are in shlwapi.dll. It is grouped under the User Interface category of the API.
+Network Services
+ Give access to the various networking abilities of the operating system. Its subcomponents include NetBIOS, Winsock, NetDDE, remote procedure call (RPC) and many more. This component resides in netapi32.dll on 32-bit Windows.
+
+
+=== Web ===
+The Internet Explorer (IE) web browser also exposes many APIs that are often used by applications, and as such could be considered a part of the Windows API. IE has been included with the operating system since Windows 95 OSR2 and has provided web-related services to applications since Windows 98. Specifically, it is used to provide:
+
+An embeddable web browser control, contained in shdocvw.dll and mshtml.dll.
+The URL moniker service, held in urlmon.dll, which provides COM objects to applications for resolving URLs. Applications can also provide their own URL handlers for others to use.
+An HTTP client library which also takes into account system-wide Proxy settings (wininet.dll); however, Microsoft has added another HTTP client library called winhttp.dll which is smaller and more suitable for some applications.
+A library to assist multi-language and international text support (mlang.dll).
+DirectX Transforms, a set of image filter components.
+XML support (the MSXML components, held in msxml*.dll).
+Access to the Windows Address Books.
+
+
+=== Multimedia ===
+The classic windows Multimedia API is placed in winmm.dll and contains functions to play sound files, to send and receive MIDI messages, to access joysticks, and to facilitate all other features of the so-called MCI subsystem of Windows, which originates from the Multimedia Extensions available for Windows 3.0 separately and as an integral part of the operating system since Windows 3.1, at which time they were located in mmsystem.dll.
+Apart from that, as part of every Windows version since Windows 95 OSR2, Microsoft has provided the DirectX APIs—a loosely related set of graphics and gaming services, which includes:
+
+Direct2D for hardware-accelerated 2D vector graphics.
+Direct3D for hardware-accelerated 3D graphics.
+DirectSound for low-level hardware-accelerated sound card access.
+DirectInput for communication with input devices such as joysticks and gamepads.
+DirectPlay as a multiplayer gaming infrastructure. This component has been deprecated as of DirectX 9, and Microsoft no longer recommends its use for game development.
+DirectDraw for 2D graphics in earlier DirectX versions, now deprecated and replaced with Direct2D.
+WinG for 2D graphics in 16-bit games written for Windows 3.x versions. Deprecated with Windows 95 release.Microsoft also provides several APIs for media encoding and playback:
+
+DirectShow, which builds and runs generic multimedia pipelines. It is comparable to the GStreamer framework and often used to render in-game videos and build media players (Windows Media Player is based on it). DirectShow is no longer recommended for game development.
+Media Foundation, a newer digital media API intended to replace DirectShow.
+
+
+=== Program interaction ===
+The Windows API is designed mostly for the interaction between the operating system and an application. For communication among different Windows applications, Microsoft has developed a series of technologies alongside the main Windows API. This started out with Dynamic Data Exchange (DDE), which was superseded by Object Linking and Embedding (OLE) and later by the Component Object Model (COM), Automation Objects, ActiveX controls, and the .NET Framework. There is not always a clear distinction between these technologies, and there is much overlap.
+The variety of terms is basically the result of grouping software mechanisms that relate to a given aspect of software development. Automation specifically relates to exporting the function of an application or component (as an application programming interface (API)) so that it can be controlled by other applications instead of by human users only, .NET is a self-contained general methodology and technology to develop desktop and web applications written in a variety of just-in-time (JIT) compiled languages.
+Windows.pas is a Pascal/Delphi unit which contains the Windows-specific API declarations. It is the Pascal equivalent to windows.h, used in C.
+
+
+=== Wrapper libraries ===
+Various wrappers were developed by Microsoft that took over some of the more low level functions of the Windows API, and allowed applications to interact with the API in a more abstract manner. Microsoft Foundation Class Library (MFC) wrapped Windows API functionality in C++ classes, and thus allows a more object-oriented way to interact with the API. The Active Template Library (ATL) is a template oriented wrapper for COM. The Windows Template Library (WTL) was developed as an extension to ATL, and intended as a smaller alternative to MFC.
+Most application frameworks for Windows (at least partly) wrap the Windows API. Thus, the .NET Framework and Java, likewise any other programming languages under Windows, are (or contain) wrapper libraries. Windows API Code Pack for Microsoft .NET Framework is a .NET wrapper library for Windows API.
+
+
+== History ==
+The Windows API has always exposed a large part of the underlying structure of the Windows systems to programmers. This had the advantage of giving them much flexibility and power over their applications, but also creates great responsibility in how applications handle various low-level, sometimes tedious, operations that are associated with a graphical user interface.
+For example, a beginning C programmer will often write the simple "hello world" as their first assignment. The working part of the program is only a single printf line within the main subroutine. The overhead for linking to the standard I/O library is also only one line:
+
+The Windows version was still only one working line of code but it required many, many more lines of overhead. Charles Petzold, who wrote several books about programming for the Windows API, said: "The original hello world program in the Windows 1.0 SDK was a bit of a scandal. HELLO.C was about 150 lines long, and the HELLO.RC resource script had another 20 or so more lines. (...) Veteran programmers often curled up in horror or laughter when encountering the Windows hello-world program."Over the years, various changes and additions were made to Windows systems, and the Windows API changed and grew to reflect this. The Windows API for Windows 1.0 supported fewer than 450 function calls, whereas modern versions of the Windows API support thousands. However, in general, the interface remained fairly consistent, and an old Windows 1.0 application will still look familiar to a programmer who is used to the modern Windows API.Microsoft has made an effort to maintain backward compatibility. To achieve this, when developing new versions of Windows, Microsoft sometimes implemented workarounds to allow compatibility with third-party software that used the prior version in an undocumented or even inadvisable way. Raymond Chen, a Microsoft developer who works on the Windows API, has said: "I could probably write for months solely about bad things apps do and what we had to do to get them to work again (often in spite of themselves). Which is why I get particularly furious when people accuse Microsoft of maliciously breaking applications during OS upgrades. If any application failed to run on Windows 95, I took it as a personal failure."One of the largest changes to the Windows API was the transition from Win16 (shipped in Windows 3.1 and older) to Win32 (Windows NT and Windows 95 and up). While Win32 was originally introduced with Windows NT 3.1 and Win32s allowed use of a Win32 subset before Windows 95, it was not until Windows 95 that widespread porting of applications to Win32 began. To ease the transition, in Windows 95, for developers outside and inside Microsoft, a complex scheme of API thunks was used that could allow 32-bit code to call into 16-bit code (for most of Win16 APIs) and vice versa. Flat thunks allowed 32-bit code to call into 16-bit libraries, and the scheme was used extensively inside Windows 95's libraries to avoid porting the whole OS to Win32 in one batch. In Windows NT, the OS was pure 32-bit, except parts for compatibility with 16-bit applications, and only generic thunks were available to thunk from Win16 to Win32, as for Windows 95. The Platform SDK shipped with a compiler that could produce the code needed for these thunks. Versions of 64-bit Windows are also able to run 32-bit applications via WoW64. The SysWOW64 folder located in the Windows folder on the OS drive contains several tools to support 32-bit applications.
+
+
+== Versions ==
+Almost every new version of Microsoft Windows has introduced its own additions and changes to the Windows API. The name of the API, however, remained consistent between different Windows versions, and name changes were kept limited to major architectural and platform changes for Windows. Microsoft eventually changed the name of the then current Win32 API family into Windows API, and made it into a catch-all term for both past and future API versions.
+Win16 is the API for the first, 16-bit versions of Microsoft Windows. These were initially referred to as simply the Windows API, but were later renamed to Win16 in an effort to distinguish them from the newer, 32-bit version of the Windows API. The functions of Win16 API reside in mainly the core files of the OS: kernel.exe (or krnl286.exe or krnl386.exe), user.exe and gdi.exe. Despite the file extension of exe, these actually are dynamic-link libraries.
+Win32 is the 32-bit application programming interface (API) for versions of Windows from 95 onwards. The API consists of functions implemented, as with Win16, in system DLLs. The core DLLs of Win32 are kernel32.dll, user32.dll, and gdi32.dll. Win32 was introduced with Windows NT. The version of Win32 shipped with Windows 95 was initially referred to as Win32c, with c meaning compatibility. This term was later abandoned by Microsoft in favor of Win32.
+Win32s is an extension for the Windows 3.1x family of Microsoft Windows that implemented a subset of the Win32 API for these systems. The "s" stands for "subset".
+Win64 is the variant of the API implemented on 64-bit platforms of the Windows architecture (as of 2011 x86-64 and IA-64). Both 32-bit and 64-bit versions of an application can be still compiled from one codebase, although some older APIs have been deprecated, and some of the APIs that were already deprecated in Win32 were removed. All memory pointers are 64-bit by default (the LLP64 model), so the source code must be checked for compatibility with 64-bit pointer arithmetic and rewritten as necessary.
+WinCE is the implementation of the Windows API for the Windows CE operating system.
+
+
+== Other implementations ==
+The Wine project provides a Win32 API compatibility layer for Unix-like platforms, between Linux kernel API and programs written for the Windows API. ReactOS goes a step further and aims to implement the full Windows operating system, working closely with the Wine project to promote code re-use and compatibility. DosWin32 and HX DOS Extender are other projects which emulate the Windows API to allow executing simple Windows programs from a DOS command line. Odin is a project to emulate Win32 on OS/2, superseding the original Win-OS/2 emulation which was based on Microsoft code. Other minor implementations include the MEWEL and Zinc libraries which were intended to implement a subset of the Win16 API on DOS (see List of platform-independent GUI libraries).
+Windows Interface Source Environment (WISE) was a licensing program from Microsoft which allowed developers to recompile and run Windows-based applications on Unix and Macintosh platforms. WISE SDKs were based on an emulator of the Windows API that could run on those platforms.Efforts toward standardization included Sun's Public Windows Interface (PWI) for Win16 (see also: Sun Windows Application Binary Interface (Wabi)), Willows Software's Application Programming Interface for Windows (APIW) for Win16 and Win32 (see also: Willows TWIN), and ECMA-234, which attempted to standardize the Windows API bindingly.
+
+
+== Compiler support ==
+To develop software that uses the Windows API, a compiler must be able to use the Microsoft-specific DLLs listed above (COM-objects are outside Win32 and assume a certain vtable layout). The compiler must either handle the header files that expose the interior API function names, or supply such files.
+For the language C++, Zortech (later Symantec, then Digital Mars), Watcom and Borland have all produced well known commercial compilers that have been used often with Win16, Win32s, and Win32. Some of them supplied memory extenders, allowing Win32 programs to run on Win16 with Microsoft's redistributable Win32s DLL. The Zortech compiler was probably one of the first stable and usable C++ compilers for Windows programming, before Microsoft had a C++ compiler.
+For certain classes of applications, the compiler system should also be able to handle interface description language (IDL) files. Collectively, these prerequisites (compilers, tools, libraries, and headers) are known as the Microsoft Platform SDK. For a time, the Microsoft Visual Studio and Borland's integrated development system were the only integrated development environments (IDEs) that could provide this (although, the SDK is downloadable for free separately from the entire IDE suite, from Microsoft Windows SDK for Windows 7 and .NET Framework 4).
+As of 2016, the MinGW and Cygwin projects also provide such an environment based on the GNU Compiler Collection (GCC), using a stand-alone header file set, to make linking against the Win32-specific DLLs simple. LCC-Win32 is a C compiler maintained by Jacob Navia, freeware for non-commercial use. Pelles C is a freeware C compiler maintained by Pelle Orinius. Free Pascal is a free software Object Pascal compiler that supports the Windows API. The MASM32 package is a mature project providing support for the Windows API under Microsoft Macro Assembler (MASM) by using custom made or converted headers and libraries from the Platform SDK. Flat assembler FASM allows building Windows programs without using an external linker, even when running on Linux.
+Windows specific compiler support is also needed for Structured Exception Handling (SEH). This system serves two purposes: it provides a substrate on which language-specific exception handling can be implemented, and it is how the kernel notifies applications of exceptional conditions such as dereferencing an invalid pointer or stack overflow. The Microsoft/Borland C++ compilers had the ability to use this system as soon as it was introduced in Windows 95 and NT, however the actual implementation was undocumented and had to be reverse engineered for the Wine project and free compilers. SEH is based on pushing exception handler frames onto the stack, then adding them to a linked list stored in thread local storage (the first field of the thread environment block). When an exception is thrown, the kernel and base libraries unwind the stack running handlers and filters as they are encountered. Eventually, every exception unhandled by the application will be dealt with by the default backstop handler, which pops up the Windows common crash dialog.
+
+
+== See also ==
+Windows Libraries for OS/2
+Interix
+Linux kernel API
+Microsoft Windows library files
+Windows legacy audio components
+C++/WinRT, a library providing access to Windows Runtime
+
+
+== Notes ==
+
+
+== References ==
+Windows application programming interface
+
+
+== External links ==
+MSDN Windows API
+Advanced Win32 api newsgroup
+French Win32 api newsgroup
+Windows API Code Pack for Microsoft .NET Framework
+ECMA-234 – ECMA standard for a subset of the Windows API

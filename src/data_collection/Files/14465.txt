@@ -1,0 +1,60 @@
+Title: DB Class V 60
+Aspects: {'V60'}
+
+The DB Class V 60 is a German diesel locomotive operated by the Deutsche Bundesbahn (DB) and later, the Deutsche Bahn AG (DB AG), which is used particularly for shunting duties, but also for hauling light goods trains. Seventeen locomotives were bought used by the Norwegian State Railways and designated NSB Di 5. Also the Yugoslav Railways bought used units, and designated them JŽ 734; they were subsequently designated Series 2133 by the Croatian Railways.
+
+
+== History ==
+The DB had a shortage of small shunters. As a result, in 1951, a diesel shunter was designed, almost all the major locomotive firms being involved in its development and production. The new class was initially called the V 60. In 1955 the first prototype locomotives, V 60 001–004, were delivered by Krupp, Krauss-Maffei, Mak and Henschel, each having different engines. Later that same year orders for the first production locomotives were issued; they were to have GTO 6 or GTO 6A motors from Maybach. Several of the locomotives were given a stronger frame and had a higher adhesive weight of 53 tonnes (52 long tons; 58 short tons) instead of 48.3–49.5 tonnes (47.5–48.7 long tons; 53.2–54.6 short tons). In addition these engines could carry up to an extra 6 tonnes (5.9 long tons; 6.6 short tons) of ballast for heavy duties, however they continued to be classed as V 60s. A total of 942 locomotives of this class were built. In 1968 the V 60s, like all other DB locomotives were given computer readable numbers. At this point the class was divided into Classes 260 (light variant) and 261 (heavy variant).
+
+
+=== Norwegian State Railways ===
+In the 1980s, the Norwegian State Railways (NSB) saw a need for shunters to replace the aging Di 2 units and chose to buy seven used V 260 from DB in 1985 and given the designation NSB Di 5. Two years later NSB bought another ten units, but one of them was only used for spare parts. The locomotives were numbered 5.861–877. They were scrapped between 1996 and 1998—none have been preserved.
+
+
+=== Croatian Railways ===
+In 1985, the Yugoslav Railways (JŽ) bought some used locomotives. They were designated JŽ 734. After the split, they were transferred to the Croatian Railways and designated Class 2133. There were two subtypes: 2133-0 with traction effort 118 kN (27,000 lbf), and 2133-1 with traction effort 132 kN (30,000 lbf).
+
+
+== Technology ==
+The  V 60 (260/261) is 10.45 metres (34 ft 3 in) long and can run at speeds of up to 60 km/h (37 mph). 
+The frame is fully welded. The transmission is under the driver's cab, which itself is not quite in the centre of the vehicle. Under the front end is the motor and cooling system, under the rear end the brake compressor and main air reservoir, the fuel system and a tank. The driver's cab is sound-proofed, the footplate is at the front and the loco can be operated from either side.
+The drive is achieved using a 12 cylinder Maybach GT06-diesel motor capable of producing 478 kW (650 PS). This engine is an evolutionary development of the type G05, which was installed from 1932 in various railcars including the Flying Hamburger. The locomotive is driven by means of a hydraulic transmission by Voith via a jackshaft and coupling rods to the three axles, a concept that had also been used on earlier shunting engines such as the Class V 36. 
+The centre axle has about 30 millimetres (1.18 in) of lateral play. Between the second and third axle there is a jack shaft.
+The locomotives have shunting and running gears.
+In order to start the diesel motor, it has to be pre-heated. The first batches had a small coke oven (later ones used an oil burner) and, for that reason, the locomotive carried up to 150 kg (330 lb) of coke. The Class 362/363 engines had an electrically-controlled preheater and heat retention system.
+The locomotives had a compressed air through brake, an auxiliary brake and a hand brake that braked the third axle.
+
+
+== Operations ==
+
+The engines were not just used for shunting, but also for light goods and passenger train services. They were even employed hauling departmental trains.
+After the V 60 had been in service for about 25 years, in 1982 the DB tested a variety of shunting engines under the Class 259, which were to be the successors of the V 60. They were unable to decide on one, however, so that in the following years several measures were carried out in order to improve the economy of the V 60.
+In 1987 the engine was classified as a minor locomotive (Kleinlok) and reclassified. Class 260 became Class 360 and the 261s became 361s.  Its categorisation as a Kleinlok saved staff costs, because the railway no longer had to employ "engine drivers", only "Kleinlok operators", whose training was cheaper. The installation of radio control enabled one-man shunting movements using remote control; the fully radio controlled models were called the Class 364 (light class) or 365 (heavy class), however the only loco in Class 364 was soon renumbered to 365 700.
+Since 1997 the Maybach motors have been replaced during refurbishment by Caterpillar 12-cylinder engines generating 465 kW (632 PS), this conversion only being done on engines with radio control. These locos are designated as Class 362 (light variant) and 363 (heavy variant).
+In 2001 one engine was equipped with a Caterpillar V8 engine run on natural gas and tested in the Munich area; it was designated as Class 760. It has since been scrapped.
+
+Of the 942 locomotives originally supplied to the DB, many are still active. Those without radio control were gradually retired by early 2003, of the radio controlled locos around 400 were still working for the DB in 2004, several of which have ended up in private or industrial railways in Germany and elsewhere, as well as the state railways in Turkey, the former  Yugoslavia (e.g. the Croatian Railways HŽ series 2133) and Norway (17 engines as NSB Di 5). In 2008 over 70 were owned by German private and industrial lines, of which the majority were working in construction logistics and in local goods services.Locomotive number 362 362 is the first V 60, that has clocked up 50 years of services in the DB/DBAG - it entered service on 12 April 1957 and is currently (2008) the third oldest locomotive in DB AG service.
+Identical or similar locos were and are also used by other state railways. As early as the 1960s they were delivered to places like Greece (Hellenic State Railways, class A-101) or Turkey, or built under licence as in Belgium. Even Israel ran very similar engines.
+The museum locomotive V 60 150 was burnt up in the great fire at the Nuremberg Transport Museum's locomotive shed.
+
+
+== Sources ==
+Arno Bretschneider, Manfred Traube, Die Baureihe V 60. Das Arbeitstier der DB, Eisenbahn-Kurier Verlag, Freiburg, 1997, ISBN 3-88255-804-0
+Horst J. Obermayer: Taschenbuch Deutsche Diesellokomotiven. Mit Kleinlokomotiven. Franckh, Stuttgart 1972, ISBN 3-440-03932-3
+Rolf Löttgers: Bundesbahn-Rangierhobel. Eisenbahn Magazin 9/2007, S. 60–62
+
+
+== See also ==
+List of Deutsche Bundesbahn locomotives and railbuses
+List of Deutsche Bahn AG locomotives and railbuses
+
+
+== References ==
+
+
+== External links ==
+V 60 at v50.de (in German)
+Images at railfaneurope.net
+V 60 at rangierdiesel.de (in German)
+DB Class V 60 - The shunting locomotive of the DB

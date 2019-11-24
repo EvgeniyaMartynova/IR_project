@@ -1,0 +1,4677 @@
+Title: J-invariant
+Aspects: {'J-function'}
+
+In mathematics, Felix Klein's j-invariant or j function, regarded as a function of a complex variable τ, is a modular function of weight zero for SL(2, Z) defined on the upper half-plane of complex numbers. It is the unique such function which is holomorphic away from a simple pole at the cusp such that
+
+  
+    
+      
+        j
+        
+          (
+          
+            e
+            
+              2
+              π
+              i
+              
+                /
+              
+              3
+            
+          
+          )
+        
+        =
+        0
+        ,
+        
+        j
+        (
+        i
+        )
+        =
+        1728
+        =
+        
+          12
+          
+            3
+          
+        
+        .
+      
+    
+    {\displaystyle j\left(e^{2\pi i/3}\right)=0,\quad j(i)=1728=12^{3}.}
+  Rational functions of j are modular, and in fact give all modular functions. Classically, the j-invariant was studied as a parameterization of elliptic curves over C, but it also has surprising connections to the symmetries of the Monster group (this connection is referred to as monstrous moonshine).
+
+
+== Definition ==
+
+The j-invariant can be defined as a function on the upper half-plane H = {τ ∈ C, Im(z) > 0},
+
+  
+    
+      
+        j
+        (
+        τ
+        )
+        =
+        1728
+        
+          
+            
+              
+                g
+                
+                  2
+                
+              
+              (
+              τ
+              
+                )
+                
+                  3
+                
+              
+            
+            
+              
+                g
+                
+                  2
+                
+              
+              (
+              τ
+              
+                )
+                
+                  3
+                
+              
+              −
+              27
+              
+                g
+                
+                  3
+                
+              
+              (
+              τ
+              
+                )
+                
+                  2
+                
+              
+            
+          
+        
+        =
+        1728
+        
+          
+            
+              
+                g
+                
+                  2
+                
+              
+              (
+              τ
+              
+                )
+                
+                  3
+                
+              
+            
+            
+              Δ
+              (
+              τ
+              )
+            
+          
+        
+      
+    
+    {\displaystyle j(\tau )=1728{\frac {g_{2}(\tau )^{3}}{g_{2}(\tau )^{3}-27g_{3}(\tau )^{2}}}=1728{\frac {g_{2}(\tau )^{3}}{\Delta (\tau )}}}
+  where:
+
+  
+    
+      
+        
+          g
+          
+            2
+          
+        
+        (
+        τ
+        )
+        =
+        60
+        
+          ∑
+          
+            (
+            m
+            ,
+            n
+            )
+            ≠
+            (
+            0
+            ,
+            0
+            )
+          
+        
+        
+          
+            (
+            
+              m
+              +
+              n
+              τ
+            
+            )
+          
+          
+            −
+            4
+          
+        
+      
+    
+    {\displaystyle g_{2}(\tau )=60\sum _{(m,n)\neq (0,0)}\left(m+n\tau \right)^{-4}}
+  
+
+  
+    
+      
+        
+          g
+          
+            3
+          
+        
+        (
+        τ
+        )
+        =
+        140
+        
+          ∑
+          
+            (
+            m
+            ,
+            n
+            )
+            ≠
+            (
+            0
+            ,
+            0
+            )
+          
+        
+        
+          
+            (
+            
+              m
+              +
+              n
+              τ
+            
+            )
+          
+          
+            −
+            6
+          
+        
+      
+    
+    {\displaystyle g_{3}(\tau )=140\sum _{(m,n)\neq (0,0)}\left(m+n\tau \right)^{-6}}
+  
+
+  
+    
+      
+        Δ
+        (
+        τ
+        )
+        =
+        
+          g
+          
+            2
+          
+        
+        (
+        τ
+        
+          )
+          
+            3
+          
+        
+        −
+        27
+        
+          g
+          
+            3
+          
+        
+        (
+        τ
+        
+          )
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \Delta (\tau )=g_{2}(\tau )^{3}-27g_{3}(\tau )^{2}}
+       (the modular discriminant)This can be motivated by viewing each τ as representing an isomorphism class of elliptic curves. Every elliptic curve E over C is a complex torus, and thus can be identified with a rank 2 lattice; that is, a two-dimensional lattice of C. This lattice can be rotated and scaled (operations that preserve the isomorphism class), so that it is generated by 1 and τ ∈ H. This lattice corresponds to the elliptic curve 
+  
+    
+      
+        
+          y
+          
+            2
+          
+        
+        =
+        4
+        
+          x
+          
+            3
+          
+        
+        −
+        
+          g
+          
+            2
+          
+        
+        (
+        τ
+        )
+        x
+        −
+        
+          g
+          
+            3
+          
+        
+        (
+        τ
+        )
+      
+    
+    {\displaystyle y^{2}=4x^{3}-g_{2}(\tau )x-g_{3}(\tau )}
+   (see Weierstrass elliptic functions).
+Note that j is defined everywhere in H as the modular discriminant is non-zero. This is due to the corresponding cubic polynomial having distinct roots.
+
+
+== The fundamental region ==
+
+It can be shown that Δ is a modular form of weight twelve, and g2 one of weight four, so that its third power is also of weight twelve. Thus their quotient, and therefore j, is a modular function of weight zero, in particular a holomorphic function H → C invariant under the action of SL(2, Z). Quotienting out by its centre { ±I } yields the modular group, which we may identify with the projective special linear group PSL(2, Z).
+By a suitable choice of transformation belonging to this group,
+
+  
+    
+      
+        τ
+        ↦
+        
+          
+            
+              a
+              τ
+              +
+              b
+            
+            
+              c
+              τ
+              +
+              d
+            
+          
+        
+        ,
+        
+        a
+        d
+        −
+        b
+        c
+        =
+        1
+        ,
+      
+    
+    {\displaystyle \tau \mapsto {\frac {a\tau +b}{c\tau +d}},\qquad ad-bc=1,}
+  we may reduce τ to a value giving the same value for j, and lying in the fundamental region for j, which consists of values for τ satisfying the conditions
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  |
+                
+                τ
+                
+                  |
+                
+              
+              
+                
+                ≥
+                1
+              
+            
+            
+              
+                −
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+              
+              
+                
+                <
+                
+                  
+                    R
+                  
+                
+                (
+                τ
+                )
+                ≤
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+              
+            
+            
+              
+                −
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+              
+              
+                
+                <
+                
+                  
+                    R
+                  
+                
+                (
+                τ
+                )
+                <
+                0
+                ⇒
+                
+                  |
+                
+                τ
+                
+                  |
+                
+                >
+                1
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}|\tau |&\geq 1\\-{\tfrac {1}{2}}&<{\mathfrak {R}}(\tau )\leq {\tfrac {1}{2}}\\-{\tfrac {1}{2}}&<{\mathfrak {R}}(\tau )<0\Rightarrow |\tau |>1\end{aligned}}}
+  The function j(τ) when restricted to this region still takes on every value in the complex numbers C exactly once.  In other words, for every c in C, there is a unique τ in the fundamental region such that c = j(τ). Thus, j has the property of mapping the fundamental region to the entire complex plane.
+Additionally two values τ,τ' ∈H  produce the same elliptic curve iff τ = T(τ') for some T ∈ PSL(2, Z). This means j provides a bijection from the set of elliptic curves over C to the complex plane.As a Riemann surface, the fundamental region has genus 0, and every (level one) modular function is a rational function in j; and, conversely, every rational function in j is a modular function. In other words, the field of modular functions is C(j).
+
+
+== Class field theory and j ==
+The j-invariant has many remarkable properties:
+
+If τ is any CM point, that is, any element of an imaginary quadratic field with positive imaginary part (so that j is defined), then j(τ) is an algebraic integer. These special values are called singular moduli.
+The field extension Q[j(τ), τ]/Q(τ) is abelian, that is, it has an abelian Galois group.
+Let Λ be the lattice in C generated by {1, τ}. It is easy to see that all of the elements of Q(τ) which fix Λ under multiplication form a ring with units, called an order. The other lattices with generators {1, τ′}, associated in like manner to the same order define the algebraic conjugates j(τ′) of j(τ) over Q(τ). Ordered by inclusion, the unique maximal order in Q(τ) is the ring of algebraic integers of Q(τ), and values of τ having it as its associated order lead to unramified extensions of Q(τ).These classical results are the starting point for the theory of complex multiplication.
+
+
+== Transcendence properties ==
+In 1937 Theodor Schneider proved the aforementioned result that if τ is a quadratic irrational number in the upper half plane then j(τ) is an algebraic integer.  In addition he proved that if τ is an algebraic number but not imaginary quadratic then j(τ) is transcendental.
+The j function has numerous other transcendental properties.  Kurt Mahler conjectured a particular transcendence result that is often referred to as Mahler's conjecture, though it was proved as a corollary of results by Yu. V. Nesterenko and Patrice Phillipon in the 1990s.  Mahler's conjecture was that if τ was in the upper half plane then e2πiτ and j(τ) were never both simultaneously algebraic. Stronger results are now known, for example if e2πiτ is algebraic then the following three numbers are algebraically independent, and thus at least two of them transcendental:
+
+  
+    
+      
+        j
+        (
+        τ
+        )
+        ,
+        
+          
+            
+              
+                j
+                
+                  ′
+                
+              
+              (
+              τ
+              )
+            
+            π
+          
+        
+        ,
+        
+          
+            
+              
+                j
+                
+                  ′
+                  ′
+                
+              
+              (
+              τ
+              )
+            
+            
+              π
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle j(\tau ),{\frac {j^{\prime }(\tau )}{\pi }},{\frac {j^{\prime \prime }(\tau )}{\pi ^{2}}}}
+  
+
+
+== The q-expansion and moonshine ==
+Several remarkable properties of j have to do with its q-expansion (Fourier series expansion), written as a Laurent series in terms of q = e2πiτ (the square of the nome), which begins:
+
+  
+    
+      
+        j
+        (
+        τ
+        )
+        =
+        
+          q
+          
+            −
+            1
+          
+        
+        +
+        744
+        +
+        196884
+        q
+        +
+        21493760
+        
+          q
+          
+            2
+          
+        
+        +
+        864299970
+        
+          q
+          
+            3
+          
+        
+        +
+        20245856256
+        
+          q
+          
+            4
+          
+        
+        +
+        ⋯
+      
+    
+    {\displaystyle j(\tau )=q^{-1}+744+196884q+21493760q^{2}+864299970q^{3}+20245856256q^{4}+\cdots }
+  Note that j has a simple pole at the cusp, so its q-expansion  has no terms below q−1.
+All the Fourier coefficients are integers, which results in several almost integers, notably Ramanujan's constant:
+
+  
+    
+      
+        
+          e
+          
+            π
+            
+              
+                163
+              
+            
+          
+        
+        ≈
+        
+          640320
+          
+            3
+          
+        
+        +
+        744
+      
+    
+    {\displaystyle e^{\pi {\sqrt {163}}}\approx 640320^{3}+744}
+  .The asymptotic formula for the coefficient of qn is given by
+
+  
+    
+      
+        
+          
+            
+              e
+              
+                4
+                π
+                
+                  
+                    n
+                  
+                
+              
+            
+            
+              
+                
+                  2
+                
+              
+              
+              
+                n
+                
+                  3
+                  
+                    /
+                  
+                  4
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {e^{4\pi {\sqrt {n}}}}{{\sqrt {2}}\,n^{3/4}}}}
+  ,as can be proved by the Hardy–Littlewood circle method.
+
+
+=== Moonshine ===
+More remarkably, the Fourier coefficients for the positive exponents of q are the dimensions of the graded part of an infinite-dimensional graded algebra representation of the monster group  called the moonshine module – specifically, the coefficient of qn is the dimension of grade-n part of the moonshine module, the first example being the Griess algebra, which has dimension 196,884, corresponding to the term 196884q. This startling observation, first made by John McKay, was the starting point for moonshine theory.
+The study of the Moonshine conjecture led John Horton Conway and Simon P. Norton to look at the genus-zero modular functions. If they are normalized to have the form
+
+  
+    
+      
+        
+          q
+          
+            −
+            1
+          
+        
+        +
+        
+          O
+        
+        (
+        q
+        )
+      
+    
+    {\displaystyle q^{-1}+{O}(q)}
+  then John G. Thompson showed that there are only a finite number of such functions (of some finite level), and Chris J. Cummins later showed that there are exactly 6486 of them, 616 of which have integral coefficients.
+
+
+== Alternate expressions ==
+We have
+
+  
+    
+      
+        j
+        (
+        τ
+        )
+        =
+        
+          
+            
+              256
+              
+                
+                  (
+                  
+                    1
+                    −
+                    x
+                  
+                  )
+                
+                
+                  3
+                
+              
+            
+            
+              x
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle j(\tau )={\frac {256\left(1-x\right)^{3}}{x^{2}}}}
+  where x = λ(1 − λ) and λ is the modular lambda function
+
+  
+    
+      
+        λ
+        (
+        τ
+        )
+        =
+        
+          
+            
+              
+                θ
+                
+                  2
+                
+                
+                  4
+                
+              
+              (
+              0
+              ,
+              τ
+              )
+            
+            
+              
+                θ
+                
+                  3
+                
+                
+                  4
+                
+              
+              (
+              0
+              ,
+              τ
+              )
+            
+          
+        
+        =
+        
+          k
+          
+            2
+          
+        
+        (
+        τ
+        )
+      
+    
+    {\displaystyle \lambda (\tau )={\frac {\theta _{2}^{4}(0,\tau )}{\theta _{3}^{4}(0,\tau )}}=k^{2}(\tau )}
+  a ratio of Jacobi theta functions θm, and is the square of the elliptic modulus k(τ). The value of j is unchanged when λ is replaced by any of the six values of the cross-ratio:
+
+  
+    
+      
+        
+          {
+          
+            λ
+            ,
+            
+              
+                1
+                
+                  1
+                  −
+                  λ
+                
+              
+            
+            ,
+            
+              
+                
+                  λ
+                  −
+                  1
+                
+                λ
+              
+            
+            ,
+            
+              
+                1
+                λ
+              
+            
+            ,
+            
+              
+                λ
+                
+                  λ
+                  −
+                  1
+                
+              
+            
+            ,
+            1
+            −
+            λ
+          
+          }
+        
+      
+    
+    {\displaystyle \left\lbrace {\lambda ,{\frac {1}{1-\lambda }},{\frac {\lambda -1}{\lambda }},{\frac {1}{\lambda }},{\frac {\lambda }{\lambda -1}},1-\lambda }\right\rbrace }
+  The branch points of j are at {0, 1, ∞}, so that j is a Belyi function.
+
+
+== Expressions in terms of theta functions ==
+Define the nome q = eπiτ and the Jacobi theta function,
+
+  
+    
+      
+        ϑ
+        (
+        0
+        ;
+        τ
+        )
+        =
+        
+          ϑ
+          
+            00
+          
+        
+        (
+        0
+        ;
+        τ
+        )
+        =
+        1
+        +
+        2
+        
+          ∑
+          
+            n
+            =
+            1
+          
+          
+            ∞
+          
+        
+        
+          
+            (
+            
+              e
+              
+                π
+                i
+                τ
+              
+            
+            )
+          
+          
+            
+              n
+              
+                2
+              
+            
+          
+        
+        =
+        
+          ∑
+          
+            n
+            =
+            −
+            ∞
+          
+          
+            ∞
+          
+        
+        
+          q
+          
+            
+              n
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle \vartheta (0;\tau )=\vartheta _{00}(0;\tau )=1+2\sum _{n=1}^{\infty }\left(e^{\pi i\tau }\right)^{n^{2}}=\sum _{n=-\infty }^{\infty }q^{n^{2}}}
+  from which one can derive the auxiliary theta functions. Let,
+
+  
+    
+      
+        
+          
+            
+              
+                a
+              
+              
+                
+                =
+                
+                  θ
+                  
+                    2
+                  
+                
+                (
+                0
+                ;
+                q
+                )
+                =
+                
+                  ϑ
+                  
+                    10
+                  
+                
+                (
+                0
+                ;
+                τ
+                )
+              
+            
+            
+              
+                b
+              
+              
+                
+                =
+                
+                  θ
+                  
+                    3
+                  
+                
+                (
+                0
+                ;
+                q
+                )
+                =
+                
+                  ϑ
+                  
+                    00
+                  
+                
+                (
+                0
+                ;
+                τ
+                )
+              
+            
+            
+              
+                c
+              
+              
+                
+                =
+                
+                  θ
+                  
+                    4
+                  
+                
+                (
+                0
+                ;
+                q
+                )
+                =
+                
+                  ϑ
+                  
+                    01
+                  
+                
+                (
+                0
+                ;
+                τ
+                )
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}a&=\theta _{2}(0;q)=\vartheta _{10}(0;\tau )\\b&=\theta _{3}(0;q)=\vartheta _{00}(0;\tau )\\c&=\theta _{4}(0;q)=\vartheta _{01}(0;\tau )\end{aligned}}}
+  where θm and ϑn are alternative notations, and a4 − b4 + c4 = 0.  Then,
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  g
+                  
+                    2
+                  
+                
+                (
+                τ
+                )
+              
+              
+                
+                =
+                
+                  
+                    
+                      2
+                      3
+                    
+                  
+                
+                
+                  π
+                  
+                    4
+                  
+                
+                
+                  (
+                  
+                    
+                      a
+                      
+                        8
+                      
+                    
+                    +
+                    
+                      b
+                      
+                        8
+                      
+                    
+                    +
+                    
+                      c
+                      
+                        8
+                      
+                    
+                  
+                  )
+                
+              
+            
+            
+              
+                
+                  g
+                  
+                    3
+                  
+                
+                (
+                τ
+                )
+              
+              
+                
+                =
+                
+                  
+                    
+                      4
+                      27
+                    
+                  
+                
+                
+                  π
+                  
+                    6
+                  
+                
+                
+                  
+                    
+                      
+                        
+                          
+                            (
+                            
+                              
+                                a
+                                
+                                  8
+                                
+                              
+                              +
+                              
+                                b
+                                
+                                  8
+                                
+                              
+                              +
+                              
+                                c
+                                
+                                  8
+                                
+                              
+                            
+                            )
+                          
+                          
+                            3
+                          
+                        
+                        −
+                        54
+                        
+                          
+                            (
+                            
+                              a
+                              b
+                              c
+                            
+                            )
+                          
+                          
+                            8
+                          
+                        
+                      
+                      2
+                    
+                  
+                
+              
+            
+            
+              
+                Δ
+              
+              
+                
+                =
+                
+                  g
+                  
+                    2
+                  
+                  
+                    3
+                  
+                
+                −
+                27
+                
+                  g
+                  
+                    3
+                  
+                  
+                    2
+                  
+                
+                =
+                4096
+                
+                  π
+                  
+                    12
+                  
+                
+                
+                  
+                    (
+                    
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      a
+                      b
+                      c
+                    
+                    )
+                  
+                  
+                    8
+                  
+                
+                =
+                4096
+                
+                  π
+                  
+                    12
+                  
+                
+                η
+                (
+                τ
+                
+                  )
+                  
+                    24
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}g_{2}(\tau )&={\tfrac {2}{3}}\pi ^{4}\left(a^{8}+b^{8}+c^{8}\right)\\g_{3}(\tau )&={\tfrac {4}{27}}\pi ^{6}{\sqrt {\frac {\left(a^{8}+b^{8}+c^{8}\right)^{3}-54\left(abc\right)^{8}}{2}}}\\\Delta &=g_{2}^{3}-27g_{3}^{2}=4096\pi ^{12}\left({\tfrac {1}{2}}abc\right)^{8}=4096\pi ^{12}\eta (\tau )^{24}\end{aligned}}}
+  for Weierstrass invariants g2, g3, and Dedekind eta function η(τ). We can then express j(τ) in a form which can rapidly be computed.
+
+  
+    
+      
+        j
+        (
+        τ
+        )
+        =
+        1728
+        
+          
+            
+              g
+              
+                2
+              
+              
+                3
+              
+            
+            
+              
+                g
+                
+                  2
+                
+                
+                  3
+                
+              
+              −
+              27
+              
+                g
+                
+                  3
+                
+                
+                  2
+                
+              
+            
+          
+        
+        =
+        32
+        
+          
+            
+              
+                (
+                
+                  
+                    a
+                    
+                      8
+                    
+                  
+                  +
+                  
+                    b
+                    
+                      8
+                    
+                  
+                  +
+                  
+                    c
+                    
+                      8
+                    
+                  
+                
+                )
+              
+              
+                3
+              
+            
+            
+              
+                (
+                
+                  a
+                  b
+                  c
+                
+                )
+              
+              
+                8
+              
+            
+          
+        
+      
+    
+    {\displaystyle j(\tau )=1728{\frac {g_{2}^{3}}{g_{2}^{3}-27g_{3}^{2}}}=32{\frac {\left(a^{8}+b^{8}+c^{8}\right)^{3}}{\left(abc\right)^{8}}}}
+  
+
+
+== Algebraic definition ==
+So far we have been considering j as a function of a complex variable. However, as an invariant for isomorphism classes of elliptic curves, it can be defined purely algebraically. Let
+
+  
+    
+      
+        
+          y
+          
+            2
+          
+        
+        +
+        
+          a
+          
+            1
+          
+        
+        x
+        y
+        +
+        
+          a
+          
+            3
+          
+        
+        y
+        =
+        
+          x
+          
+            3
+          
+        
+        +
+        
+          a
+          
+            2
+          
+        
+        
+          x
+          
+            2
+          
+        
+        +
+        
+          a
+          
+            4
+          
+        
+        x
+        +
+        
+          a
+          
+            6
+          
+        
+      
+    
+    {\displaystyle y^{2}+a_{1}xy+a_{3}y=x^{3}+a_{2}x^{2}+a_{4}x+a_{6}}
+  be a plane elliptic curve over any field. Then we may perform successive transformations to get the above equation into the standard form y2 = 4x3 − g2x − g3 (note that this transformation can only be made when the characteristic of the field is not equal to 2 or 3). The resulting coefficients are:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  b
+                  
+                    2
+                  
+                
+              
+              
+                
+                =
+                
+                  a
+                  
+                    1
+                  
+                  
+                    2
+                  
+                
+                +
+                4
+                
+                  a
+                  
+                    2
+                  
+                
+                ,
+                
+              
+              
+                
+                  b
+                  
+                    4
+                  
+                
+              
+              
+                
+                =
+                
+                  a
+                  
+                    1
+                  
+                
+                
+                  a
+                  
+                    3
+                  
+                
+                +
+                2
+                
+                  a
+                  
+                    4
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  b
+                  
+                    6
+                  
+                
+              
+              
+                
+                =
+                
+                  a
+                  
+                    3
+                  
+                  
+                    2
+                  
+                
+                +
+                4
+                
+                  a
+                  
+                    6
+                  
+                
+                ,
+                
+              
+              
+                
+                  b
+                  
+                    8
+                  
+                
+              
+              
+                
+                =
+                
+                  a
+                  
+                    1
+                  
+                  
+                    2
+                  
+                
+                
+                  a
+                  
+                    6
+                  
+                
+                −
+                
+                  a
+                  
+                    1
+                  
+                
+                
+                  a
+                  
+                    3
+                  
+                
+                
+                  a
+                  
+                    4
+                  
+                
+                +
+                
+                  a
+                  
+                    2
+                  
+                
+                
+                  a
+                  
+                    3
+                  
+                  
+                    2
+                  
+                
+                +
+                4
+                
+                  a
+                  
+                    2
+                  
+                
+                
+                  a
+                  
+                    6
+                  
+                
+                −
+                
+                  a
+                  
+                    4
+                  
+                  
+                    2
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  c
+                  
+                    4
+                  
+                
+              
+              
+                
+                =
+                
+                  b
+                  
+                    2
+                  
+                  
+                    2
+                  
+                
+                −
+                24
+                
+                  b
+                  
+                    4
+                  
+                
+                ,
+                
+              
+              
+                
+                  c
+                  
+                    6
+                  
+                
+              
+              
+                
+                =
+                −
+                
+                  b
+                  
+                    2
+                  
+                  
+                    3
+                  
+                
+                +
+                36
+                
+                  b
+                  
+                    2
+                  
+                
+                
+                  b
+                  
+                    4
+                  
+                
+                −
+                216
+                
+                  b
+                  
+                    6
+                  
+                
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}b_{2}&=a_{1}^{2}+4a_{2},\quad &b_{4}&=a_{1}a_{3}+2a_{4},\\b_{6}&=a_{3}^{2}+4a_{6},\quad &b_{8}&=a_{1}^{2}a_{6}-a_{1}a_{3}a_{4}+a_{2}a_{3}^{2}+4a_{2}a_{6}-a_{4}^{2},\\c_{4}&=b_{2}^{2}-24b_{4},\quad &c_{6}&=-b_{2}^{3}+36b_{2}b_{4}-216b_{6},\end{aligned}}}
+  where g2 = c4 and g3 = c6.  We also have the discriminant
+
+  
+    
+      
+        Δ
+        =
+        −
+        
+          b
+          
+            2
+          
+          
+            2
+          
+        
+        
+          b
+          
+            8
+          
+        
+        +
+        9
+        
+          b
+          
+            2
+          
+        
+        
+          b
+          
+            4
+          
+        
+        
+          b
+          
+            6
+          
+        
+        −
+        8
+        
+          b
+          
+            4
+          
+          
+            3
+          
+        
+        −
+        27
+        
+          b
+          
+            6
+          
+          
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle \Delta =-b_{2}^{2}b_{8}+9b_{2}b_{4}b_{6}-8b_{4}^{3}-27b_{6}^{2}.}
+  The j-invariant for the elliptic curve may now be defined as
+
+  
+    
+      
+        j
+        =
+        
+          
+            
+              c
+              
+                4
+              
+              
+                3
+              
+            
+            Δ
+          
+        
+      
+    
+    {\displaystyle j={\frac {c_{4}^{3}}{\Delta }}}
+  In the case that the field over which the curve is defined has characteristic different from 2 or 3, this is equal to
+
+  
+    
+      
+        j
+        =
+        1728
+        
+          
+            
+              c
+              
+                4
+              
+              
+                3
+              
+            
+            
+              
+                c
+                
+                  4
+                
+                
+                  3
+                
+              
+              −
+              
+                c
+                
+                  6
+                
+                
+                  2
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle j=1728{\frac {c_{4}^{3}}{c_{4}^{3}-c_{6}^{2}}}.}
+  
+
+
+== Inverse function ==
+The inverse function of the j-invariant can be expressed in terms of the hypergeometric function 2F1 (see also the article Picard–Fuchs equation). Explicitly, given a number N, to solve the equation j(τ) = N for τ can be done in at least four ways.
+Method 1: Solving the sextic in λ,
+
+  
+    
+      
+        j
+        (
+        τ
+        )
+        =
+        
+          
+            
+              256
+              
+                
+                  (
+                
+              
+              1
+              −
+              λ
+              (
+              1
+              −
+              λ
+              )
+              
+                
+                  
+                    )
+                  
+                
+                
+                  3
+                
+              
+            
+            
+              
+                
+                  (
+                
+              
+              λ
+              (
+              1
+              −
+              λ
+              )
+              
+                
+                  
+                    )
+                  
+                
+                
+                  2
+                
+              
+            
+          
+        
+        =
+        
+          
+            
+              256
+              
+                
+                  (
+                  
+                    1
+                    −
+                    x
+                  
+                  )
+                
+                
+                  3
+                
+              
+            
+            
+              x
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle j(\tau )={\frac {256{\bigl (}1-\lambda (1-\lambda ){\bigr )}^{3}}{{\bigl (}\lambda (1-\lambda ){\bigr )}^{2}}}={\frac {256\left(1-x\right)^{3}}{x^{2}}}}
+  where x = λ(1 − λ), and λ is the modular lambda function so the sextic can be solved as a cubic in x. Then,
+
+  
+    
+      
+        τ
+        =
+        i
+         
+        
+          
+            
+              
+                
+
+                
+                
+                  2
+                
+              
+              
+                F
+                
+                  1
+                
+              
+              
+                (
+                
+                  
+                    
+                      
+                        1
+                        2
+                      
+                    
+                  
+                  ,
+                  
+                    
+                      
+                        1
+                        2
+                      
+                    
+                  
+                  ,
+                  1
+                  ;
+                  1
+                  −
+                  λ
+                
+                )
+              
+            
+            
+              
+                
+
+                
+                
+                  2
+                
+              
+              
+                F
+                
+                  1
+                
+              
+              
+                (
+                
+                  
+                    
+                      
+                        1
+                        2
+                      
+                    
+                  
+                  ,
+                  
+                    
+                      
+                        1
+                        2
+                      
+                    
+                  
+                  ,
+                  1
+                  ;
+                  λ
+                
+                )
+              
+            
+          
+        
+      
+    
+    {\displaystyle \tau =i\ {\frac {{}_{2}F_{1}\left({\tfrac {1}{2}},{\tfrac {1}{2}},1;1-\lambda \right)}{{}_{2}F_{1}\left({\tfrac {1}{2}},{\tfrac {1}{2}},1;\lambda \right)}}}
+  for any of the six values of λ.
+Method 2: Solving the quartic in γ,
+
+  
+    
+      
+        j
+        (
+        τ
+        )
+        =
+        
+          
+            
+              27
+              
+                
+                  (
+                  
+                    1
+                    +
+                    8
+                    γ
+                  
+                  )
+                
+                
+                  3
+                
+              
+            
+            
+              γ
+              
+                
+                  (
+                  
+                    1
+                    −
+                    γ
+                  
+                  )
+                
+                
+                  3
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle j(\tau )={\frac {27\left(1+8\gamma \right)^{3}}{\gamma \left(1-\gamma \right)^{3}}}}
+  then for any of the four roots,
+
+  
+    
+      
+        τ
+        =
+        
+          
+            i
+            
+              3
+            
+          
+        
+        
+          
+            
+              
+                
+
+                
+                
+                  2
+                
+              
+              
+                F
+                
+                  1
+                
+              
+              
+                (
+                
+                  
+                    
+                      
+                        1
+                        3
+                      
+                    
+                  
+                  ,
+                  
+                    
+                      
+                        2
+                        3
+                      
+                    
+                  
+                  ,
+                  1
+                  ;
+                  1
+                  −
+                  γ
+                
+                )
+              
+            
+            
+              
+                
+
+                
+                
+                  2
+                
+              
+              
+                F
+                
+                  1
+                
+              
+              
+                (
+                
+                  
+                    
+                      
+                        1
+                        3
+                      
+                    
+                  
+                  ,
+                  
+                    
+                      
+                        2
+                        3
+                      
+                    
+                  
+                  ,
+                  1
+                  ;
+                  γ
+                
+                )
+              
+            
+          
+        
+      
+    
+    {\displaystyle \tau ={\frac {i}{\sqrt {3}}}{\frac {{}_{2}F_{1}\left({\tfrac {1}{3}},{\tfrac {2}{3}},1;1-\gamma \right)}{{}_{2}F_{1}\left({\tfrac {1}{3}},{\tfrac {2}{3}},1;\gamma \right)}}}
+  Method 3: Solving the cubic in β,
+
+  
+    
+      
+        j
+        (
+        τ
+        )
+        =
+        
+          
+            
+              64
+              
+                
+                  (
+                  
+                    1
+                    +
+                    3
+                    β
+                  
+                  )
+                
+                
+                  3
+                
+              
+            
+            
+              β
+              
+                
+                  (
+                  
+                    1
+                    −
+                    β
+                  
+                  )
+                
+                
+                  2
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle j(\tau )={\frac {64\left(1+3\beta \right)^{3}}{\beta \left(1-\beta \right)^{2}}}}
+  then for any of the three roots,
+
+  
+    
+      
+        τ
+        =
+        
+          
+            i
+            
+              2
+            
+          
+        
+        
+          
+            
+              
+                
+
+                
+                
+                  2
+                
+              
+              
+                F
+                
+                  1
+                
+              
+              
+                (
+                
+                  
+                    
+                      
+                        1
+                        4
+                      
+                    
+                  
+                  ,
+                  
+                    
+                      
+                        3
+                        4
+                      
+                    
+                  
+                  ,
+                  1
+                  ;
+                  1
+                  −
+                  β
+                
+                )
+              
+            
+            
+              
+                
+
+                
+                
+                  2
+                
+              
+              
+                F
+                
+                  1
+                
+              
+              
+                (
+                
+                  
+                    
+                      
+                        1
+                        4
+                      
+                    
+                  
+                  ,
+                  
+                    
+                      
+                        3
+                        4
+                      
+                    
+                  
+                  ,
+                  1
+                  ;
+                  β
+                
+                )
+              
+            
+          
+        
+      
+    
+    {\displaystyle \tau ={\frac {i}{\sqrt {2}}}{\frac {{}_{2}F_{1}\left({\tfrac {1}{4}},{\tfrac {3}{4}},1;1-\beta \right)}{{}_{2}F_{1}\left({\tfrac {1}{4}},{\tfrac {3}{4}},1;\beta \right)}}}
+  Method 4: Solving the quadratic in α,
+
+  
+    
+      
+        j
+        (
+        τ
+        )
+        =
+        
+          
+            1728
+            
+              4
+              α
+              (
+              1
+              −
+              α
+              )
+            
+          
+        
+      
+    
+    {\displaystyle j(\tau )={\frac {1728}{4\alpha (1-\alpha )}}}
+  then,
+
+  
+    
+      
+        τ
+        =
+        i
+         
+        
+          
+            
+              
+                
+
+                
+                
+                  2
+                
+              
+              
+                F
+                
+                  1
+                
+              
+              
+                (
+                
+                  
+                    
+                      
+                        1
+                        6
+                      
+                    
+                  
+                  ,
+                  
+                    
+                      
+                        5
+                        6
+                      
+                    
+                  
+                  ,
+                  1
+                  ;
+                  1
+                  −
+                  α
+                
+                )
+              
+            
+            
+              
+                
+
+                
+                
+                  2
+                
+              
+              
+                F
+                
+                  1
+                
+              
+              
+                (
+                
+                  
+                    
+                      
+                        1
+                        6
+                      
+                    
+                  
+                  ,
+                  
+                    
+                      
+                        5
+                        6
+                      
+                    
+                  
+                  ,
+                  1
+                  ;
+                  α
+                
+                )
+              
+            
+          
+        
+      
+    
+    {\displaystyle \tau =i\ {\frac {{}_{2}F_{1}\left({\tfrac {1}{6}},{\tfrac {5}{6}},1;1-\alpha \right)}{{}_{2}F_{1}\left({\tfrac {1}{6}},{\tfrac {5}{6}},1;\alpha \right)}}}
+  One root gives τ, and the other gives −1/τ, but since j(τ) = j(−1/τ), it makes no difference which α is chosen. The latter three methods can be found in Ramanujan's theory of elliptic functions to alternative bases.
+The inversion applied in high-precision calculations of elliptic function periods even as their ratios become unbounded. A related result is the expressibility via quadratic radicals of the values of j at the points of the imaginary axis whose magnitudes are powers of 2 (thus permitting compass and straightedge constructions). The latter result is hardly evident since the modular equation of level 2 is cubic.
+
+
+== Pi formulas ==
+The Chudnovsky brothers found in 1987,
+
+  
+    
+      
+        
+          
+            1
+            π
+          
+        
+        =
+        
+          
+            12
+            
+              640320
+              
+                3
+                
+                  /
+                
+                2
+              
+            
+          
+        
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          
+            
+              (
+              6
+              k
+              )
+              !
+              (
+              163
+              ⋅
+              3344418
+              k
+              +
+              13591409
+              )
+            
+            
+              (
+              3
+              k
+              )
+              !
+              
+                
+                  (
+                  
+                    k
+                    !
+                  
+                  )
+                
+                
+                  3
+                
+              
+              
+                
+                  (
+                  
+                    −
+                    640320
+                  
+                  )
+                
+                
+                  3
+                  k
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {1}{\pi }}={\frac {12}{640320^{3/2}}}\sum _{k=0}^{\infty }{\frac {(6k)!(163\cdot 3344418k+13591409)}{(3k)!\left(k!\right)^{3}\left(-640320\right)^{3k}}}}
+  which uses the fact that
+
+  
+    
+      
+        j
+        
+          (
+          
+            
+              
+                1
+                +
+                
+                  
+                    −
+                    163
+                  
+                
+              
+              2
+            
+          
+          )
+        
+        =
+        −
+        
+          640320
+          
+            3
+          
+        
+        .
+      
+    
+    {\displaystyle j\left({\frac {1+{\sqrt {-163}}}{2}}\right)=-640320^{3}.}
+  For similar formulas, see the Ramanujan–Sato series.
+
+
+== Special values ==
+The j-invariant vanishes at the "corner" of the fundamental domain at
+
+  
+    
+      
+        
+        J
+        
+          (
+          
+            
+              
+                
+                  1
+                  +
+                  
+                    
+                      3
+                    
+                  
+                  i
+                
+                2
+              
+            
+          
+          )
+        
+        =
+        0
+      
+    
+    {\displaystyle \quad J\left({\tfrac {1+{\sqrt {3}}i}{2}}\right)=0}
+  Here are a few more special values given in terms of the alternative notation J(τ) ≡ 1/1728 j(τ) (only the first four of which are well known):
+
+  
+    
+      
+        
+          
+            
+              
+                J
+                (
+                i
+                )
+              
+              
+                
+                =
+                J
+                
+                  (
+                  
+                    
+                      
+                        
+                          1
+                          +
+                          i
+                        
+                        2
+                      
+                    
+                  
+                  )
+                
+                =
+                1
+              
+            
+            
+              
+                J
+                
+                  (
+                  
+                    
+                      
+                        2
+                      
+                    
+                    i
+                  
+                  )
+                
+              
+              
+                
+                =
+                
+                  
+                    (
+                    
+                      
+                        
+                          5
+                          3
+                        
+                      
+                    
+                    )
+                  
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+                J
+                (
+                2
+                i
+                )
+              
+              
+                
+                =
+                
+                  
+                    (
+                    
+                      
+                        
+                          11
+                          2
+                        
+                      
+                    
+                    )
+                  
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+                J
+                
+                  (
+                  
+                    2
+                    
+                      
+                        2
+                      
+                    
+                    i
+                  
+                  )
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      125
+                      216
+                    
+                  
+                
+                
+                  
+                    (
+                    
+                      19
+                      +
+                      13
+                      
+                        
+                          2
+                        
+                      
+                    
+                    )
+                  
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+                J
+                (
+                4
+                i
+                )
+              
+              
+                
+                =
+                
+                  
+                    
+                      1
+                      64
+                    
+                  
+                
+                
+                  
+                    (
+                    
+                      724
+                      +
+                      513
+                      
+                        
+                          2
+                        
+                      
+                    
+                    )
+                  
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+                J
+                
+                  (
+                  
+                    
+                      
+                        
+                          1
+                          +
+                          2
+                          i
+                        
+                        2
+                      
+                    
+                  
+                  )
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      1
+                      64
+                    
+                  
+                
+                
+                  
+                    (
+                    
+                      724
+                      −
+                      513
+                      
+                        
+                          2
+                        
+                      
+                    
+                    )
+                  
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+                J
+                
+                  (
+                  
+                    
+                      
+                        
+                          1
+                          +
+                          2
+                          
+                            
+                              2
+                            
+                          
+                          i
+                        
+                        3
+                      
+                    
+                  
+                  )
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      125
+                      216
+                    
+                  
+                
+                
+                  
+                    (
+                    
+                      19
+                      −
+                      13
+                      
+                        
+                          2
+                        
+                      
+                    
+                    )
+                  
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+                J
+                (
+                3
+                i
+                )
+              
+              
+                
+                =
+                
+                  
+                    
+                      1
+                      27
+                    
+                  
+                
+                
+                  
+                    (
+                    
+                      2
+                      +
+                      
+                        
+                          3
+                        
+                      
+                    
+                    )
+                  
+                  
+                    2
+                  
+                
+                
+                  
+                    (
+                    
+                      21
+                      +
+                      20
+                      
+                        
+                          3
+                        
+                      
+                    
+                    )
+                  
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+                J
+                
+                  (
+                  
+                    2
+                    
+                      
+                        3
+                      
+                    
+                    i
+                  
+                  )
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      125
+                      16
+                    
+                  
+                
+                
+                  
+                    (
+                    
+                      30
+                      +
+                      17
+                      
+                        
+                          3
+                        
+                      
+                    
+                    )
+                  
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+                J
+                
+                  (
+                  
+                    
+                      
+                        
+                          1
+                          +
+                          7
+                          
+                            
+                              3
+                            
+                          
+                          i
+                        
+                        2
+                      
+                    
+                  
+                  )
+                
+              
+              
+                
+                =
+                −
+                
+                  
+                    
+                      64000
+                      7
+                    
+                  
+                
+                
+                  
+                    (
+                    
+                      651
+                      +
+                      142
+                      
+                        
+                          21
+                        
+                      
+                    
+                    )
+                  
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+                J
+                
+                  (
+                  
+                    
+                      
+                        
+                          1
+                          +
+                          3
+                          
+                            
+                              11
+                            
+                          
+                          i
+                        
+                        10
+                      
+                    
+                  
+                  )
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      64
+                      27
+                    
+                  
+                
+                
+                  
+                    (
+                    
+                      23
+                      −
+                      4
+                      
+                        
+                          33
+                        
+                      
+                    
+                    )
+                  
+                  
+                    2
+                  
+                
+                
+                  
+                    (
+                    
+                      −
+                      77
+                      +
+                      15
+                      
+                        
+                          33
+                        
+                      
+                    
+                    )
+                  
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+                J
+                
+                  (
+                  
+                    
+                      
+                        21
+                      
+                    
+                    i
+                  
+                  )
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      1
+                      32
+                    
+                  
+                
+                
+                  
+                    (
+                    
+                      5
+                      +
+                      3
+                      
+                        
+                          3
+                        
+                      
+                    
+                    )
+                  
+                  
+                    2
+                  
+                
+                
+                  
+                    (
+                    
+                      3
+                      +
+                      
+                        
+                          7
+                        
+                      
+                    
+                    )
+                  
+                  
+                    2
+                  
+                
+                
+                  
+                    (
+                    
+                      65
+                      +
+                      34
+                      
+                        
+                          3
+                        
+                      
+                      +
+                      26
+                      
+                        
+                          7
+                        
+                      
+                      +
+                      15
+                      
+                        
+                          21
+                        
+                      
+                    
+                    )
+                  
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+                J
+                
+                  (
+                  
+                    
+                      
+                        
+                          
+                            
+                              30
+                            
+                          
+                          i
+                        
+                        1
+                      
+                    
+                  
+                  )
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      1
+                      16
+                    
+                  
+                
+                
+                  
+                    (
+                    
+                      10
+                      +
+                      7
+                      
+                        
+                          2
+                        
+                      
+                      +
+                      4
+                      
+                        
+                          5
+                        
+                      
+                      +
+                      3
+                      
+                        
+                          10
+                        
+                      
+                    
+                    )
+                  
+                  
+                    4
+                  
+                
+                
+                  
+                    (
+                    
+                      55
+                      +
+                      30
+                      
+                        
+                          2
+                        
+                      
+                      +
+                      12
+                      
+                        
+                          5
+                        
+                      
+                      +
+                      10
+                      
+                        
+                          10
+                        
+                      
+                    
+                    )
+                  
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+                J
+                
+                  (
+                  
+                    
+                      
+                        
+                          
+                            
+                              30
+                            
+                          
+                          i
+                        
+                        2
+                      
+                    
+                  
+                  )
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      1
+                      16
+                    
+                  
+                
+                
+                  
+                    (
+                    
+                      10
+                      +
+                      7
+                      
+                        
+                          2
+                        
+                      
+                      −
+                      4
+                      
+                        
+                          5
+                        
+                      
+                      −
+                      3
+                      
+                        
+                          10
+                        
+                      
+                    
+                    )
+                  
+                  
+                    4
+                  
+                
+                
+                  
+                    (
+                    
+                      55
+                      +
+                      30
+                      
+                        
+                          2
+                        
+                      
+                      −
+                      12
+                      
+                        
+                          5
+                        
+                      
+                      −
+                      10
+                      
+                        
+                          10
+                        
+                      
+                    
+                    )
+                  
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+                J
+                
+                  (
+                  
+                    
+                      
+                        
+                          
+                            
+                              30
+                            
+                          
+                          i
+                        
+                        5
+                      
+                    
+                  
+                  )
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      1
+                      16
+                    
+                  
+                
+                
+                  
+                    (
+                    
+                      10
+                      −
+                      7
+                      
+                        
+                          2
+                        
+                      
+                      +
+                      4
+                      
+                        
+                          5
+                        
+                      
+                      −
+                      3
+                      
+                        
+                          10
+                        
+                      
+                    
+                    )
+                  
+                  
+                    4
+                  
+                
+                
+                  
+                    (
+                    
+                      55
+                      −
+                      30
+                      
+                        
+                          2
+                        
+                      
+                      +
+                      12
+                      
+                        
+                          5
+                        
+                      
+                      −
+                      10
+                      
+                        
+                          10
+                        
+                      
+                    
+                    )
+                  
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+                J
+                
+                  (
+                  
+                    
+                      
+                        
+                          
+                            
+                              30
+                            
+                          
+                          i
+                        
+                        10
+                      
+                    
+                  
+                  )
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      1
+                      16
+                    
+                  
+                
+                
+                  
+                    (
+                    
+                      10
+                      −
+                      7
+                      
+                        
+                          2
+                        
+                      
+                      −
+                      4
+                      
+                        
+                          5
+                        
+                      
+                      +
+                      3
+                      
+                        
+                          10
+                        
+                      
+                    
+                    )
+                  
+                  
+                    4
+                  
+                
+                
+                  
+                    (
+                    
+                      55
+                      −
+                      30
+                      
+                        
+                          2
+                        
+                      
+                      −
+                      12
+                      
+                        
+                          5
+                        
+                      
+                      +
+                      10
+                      
+                        
+                          10
+                        
+                      
+                    
+                    )
+                  
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+                J
+                
+                  (
+                  
+                    
+                      
+                        
+                          1
+                          +
+                          
+                            
+                              31
+                            
+                          
+                          i
+                        
+                        2
+                      
+                    
+                  
+                  )
+                
+              
+              
+                
+                =
+                
+                  
+                    (
+                    
+                      1
+                      −
+                      
+                        
+                          (
+                          
+                            1
+                            +
+                            
+                              
+                                
+                                  19
+                                
+                                2
+                              
+                            
+                            
+                              (
+                              
+                                
+                                  
+                                    
+                                      
+                                        
+                                          13
+                                          −
+                                          
+                                            
+                                              93
+                                            
+                                          
+                                        
+                                        
+                                          13
+                                          +
+                                          
+                                            
+                                              93
+                                            
+                                          
+                                        
+                                      
+                                    
+                                  
+                                
+                                ⋅
+                                
+                                  
+                                    
+                                      
+                                        
+                                          
+                                            
+                                              31
+                                            
+                                          
+                                          +
+                                          
+                                            
+                                              27
+                                            
+                                          
+                                        
+                                        
+                                          
+                                            
+                                              31
+                                            
+                                          
+                                          −
+                                          
+                                            
+                                              27
+                                            
+                                          
+                                        
+                                      
+                                    
+                                    
+                                      3
+                                    
+                                  
+                                
+                                +
+                                
+                                  
+                                    
+                                      
+                                        
+                                          13
+                                          +
+                                          
+                                            
+                                              93
+                                            
+                                          
+                                        
+                                        
+                                          13
+                                          −
+                                          
+                                            
+                                              93
+                                            
+                                          
+                                        
+                                      
+                                    
+                                  
+                                
+                                ⋅
+                                
+                                  
+                                    
+                                      
+                                        
+                                          
+                                            
+                                              31
+                                            
+                                          
+                                          −
+                                          
+                                            
+                                              27
+                                            
+                                          
+                                        
+                                        
+                                          
+                                            
+                                              31
+                                            
+                                          
+                                          +
+                                          
+                                            
+                                              27
+                                            
+                                          
+                                        
+                                      
+                                    
+                                    
+                                      3
+                                    
+                                  
+                                
+                              
+                              )
+                            
+                          
+                          )
+                        
+                        
+                          2
+                        
+                      
+                    
+                    )
+                  
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+                J
+                (
+                
+                  
+                    70
+                  
+                
+                i
+                )
+              
+              
+                
+                =
+                
+                  
+                    (
+                    
+                      1
+                      +
+                      
+                        
+                          
+                            9
+                            4
+                          
+                        
+                      
+                      
+                        
+                          (
+                          
+                            303
+                            +
+                            220
+                            
+                              
+                                2
+                              
+                            
+                            +
+                            139
+                            
+                              
+                                5
+                              
+                            
+                            +
+                            96
+                            
+                              
+                                10
+                              
+                            
+                          
+                          )
+                        
+                        
+                          2
+                        
+                      
+                    
+                    )
+                  
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+                J
+                (
+                7
+                i
+                )
+              
+              
+                
+                =
+                
+                  
+                    (
+                    
+                      1
+                      +
+                      
+                        
+                          
+                            9
+                            4
+                          
+                        
+                      
+                      
+                        
+                          21
+                          +
+                          8
+                          
+                            
+                              7
+                            
+                          
+                        
+                      
+                      
+                        
+                          (
+                          
+                            30
+                            +
+                            11
+                            
+                              
+                                7
+                              
+                            
+                            +
+                            
+                              (
+                              
+                                6
+                                +
+                                
+                                  
+                                    7
+                                  
+                                
+                              
+                              )
+                            
+                            
+                              
+                                21
+                                +
+                                8
+                                
+                                  
+                                    7
+                                  
+                                
+                              
+                            
+                          
+                          )
+                        
+                        
+                          2
+                        
+                      
+                    
+                    )
+                  
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+                J
+                (
+                8
+                i
+                )
+              
+              
+                
+                =
+                
+                  
+                    (
+                    
+                      1
+                      +
+                      
+                        
+                          
+                            9
+                            4
+                          
+                        
+                      
+                      
+                        
+                          2
+                          
+                            4
+                          
+                        
+                      
+                      
+                        (
+                        
+                          1
+                          +
+                          
+                            
+                              2
+                            
+                          
+                        
+                        )
+                      
+                      
+                        
+                          (
+                          
+                            123
+                            +
+                            104
+                            
+                              
+                                2
+                                
+                                  4
+                                
+                              
+                            
+                            +
+                            88
+                            
+                              
+                                2
+                              
+                            
+                            +
+                            73
+                            
+                              
+                                8
+                                
+                                  4
+                                
+                              
+                            
+                          
+                          )
+                        
+                        
+                          2
+                        
+                      
+                    
+                    )
+                  
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+                J
+                (
+                10
+                i
+                )
+              
+              
+                
+                =
+                
+                  
+                    (
+                    
+                      1
+                      +
+                      
+                        
+                          
+                            9
+                            8
+                          
+                        
+                      
+                      
+                        
+                          (
+                          
+                            2402
+                            +
+                            1607
+                            
+                              
+                                5
+                                
+                                  4
+                                
+                              
+                            
+                            +
+                            1074
+                            
+                              
+                                25
+                                
+                                  4
+                                
+                              
+                            
+                            +
+                            719
+                            
+                              
+                                125
+                                
+                                  4
+                                
+                              
+                            
+                          
+                          )
+                        
+                        
+                          2
+                        
+                      
+                    
+                    )
+                  
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+                J
+                
+                  (
+                  
+                    
+                      
+                        
+                          5
+                          i
+                        
+                        2
+                      
+                    
+                  
+                  )
+                
+              
+              
+                
+                =
+                
+                  
+                    (
+                    
+                      1
+                      +
+                      
+                        
+                          
+                            9
+                            8
+                          
+                        
+                      
+                      
+                        
+                          (
+                          
+                            2402
+                            −
+                            1607
+                            
+                              
+                                5
+                                
+                                  4
+                                
+                              
+                            
+                            +
+                            1074
+                            
+                              
+                                25
+                                
+                                  4
+                                
+                              
+                            
+                            −
+                            719
+                            
+                              
+                                125
+                                
+                                  4
+                                
+                              
+                            
+                          
+                          )
+                        
+                        
+                          2
+                        
+                      
+                    
+                    )
+                  
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+                J
+                (
+                2
+                
+                  
+                    58
+                  
+                
+                i
+                )
+              
+              
+                
+                =
+                
+                  
+                    (
+                    
+                      1
+                      +
+                      
+                        
+                          
+                            9
+                            256
+                          
+                        
+                      
+                      
+                        
+                          (
+                          
+                            1
+                            +
+                            
+                              
+                                2
+                              
+                            
+                          
+                          )
+                        
+                        
+                          5
+                        
+                      
+                      
+                        
+                          (
+                          
+                            5
+                            +
+                            
+                              
+                                29
+                              
+                            
+                          
+                          )
+                        
+                        
+                          5
+                        
+                      
+                      
+                        
+                          (
+                          
+                            793
+                            +
+                            907
+                            
+                              
+                                2
+                              
+                            
+                            +
+                            237
+                            
+                              
+                                29
+                              
+                            
+                            +
+                            103
+                            
+                              
+                                58
+                              
+                            
+                          
+                          )
+                        
+                        
+                          2
+                        
+                      
+                    
+                    )
+                  
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+                J
+                
+                  (
+                  
+                    
+                      
+                        
+                          1
+                          +
+                          
+                            
+                              1435
+                            
+                          
+                          i
+                        
+                        2
+                      
+                    
+                  
+                  )
+                
+              
+              
+                
+                =
+                
+                  
+                    (
+                    
+                      1
+                      −
+                      9
+                      
+                        
+                          (
+                          
+                            9892538
+                            +
+                            4424079
+                            
+                              
+                                5
+                              
+                            
+                            +
+                            1544955
+                            
+                              
+                                41
+                              
+                            
+                            +
+                            690925
+                            
+                              
+                                205
+                              
+                            
+                          
+                          )
+                        
+                        
+                          2
+                        
+                      
+                    
+                    )
+                  
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+                J
+                
+                  (
+                  
+                    
+                      
+                        
+                          1
+                          +
+                          
+                            
+                              1555
+                            
+                          
+                          i
+                        
+                        2
+                      
+                    
+                  
+                  )
+                
+              
+              
+                
+                =
+                
+                  
+                    (
+                    
+                      1
+                      −
+                      9
+                      
+                        
+                          (
+                          
+                            22297077
+                            +
+                            9971556
+                            
+                              
+                                5
+                              
+                            
+                            +
+                            
+                              (
+                              
+                                3571365
+                                +
+                                1597163
+                                
+                                  
+                                    5
+                                  
+                                
+                              
+                              )
+                            
+                            
+                              
+                                
+                                  
+                                    
+                                      31
+                                      +
+                                      21
+                                      
+                                        
+                                          5
+                                        
+                                      
+                                    
+                                    2
+                                  
+                                
+                              
+                            
+                          
+                          )
+                        
+                        
+                          2
+                        
+                      
+                    
+                    )
+                  
+                  
+                    3
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}J(i)&=J\left({\tfrac {1+i}{2}}\right)=1\\J\left({\sqrt {2}}i\right)&=\left({\tfrac {5}{3}}\right)^{3}\\J(2i)&=\left({\tfrac {11}{2}}\right)^{3}\\J\left(2{\sqrt {2}}i\right)&={\tfrac {125}{216}}\left(19+13{\sqrt {2}}\right)^{3}\\J(4i)&={\tfrac {1}{64}}\left(724+513{\sqrt {2}}\right)^{3}\\J\left({\tfrac {1+2i}{2}}\right)&={\tfrac {1}{64}}\left(724-513{\sqrt {2}}\right)^{3}\\J\left({\tfrac {1+2{\sqrt {2}}i}{3}}\right)&={\tfrac {125}{216}}\left(19-13{\sqrt {2}}\right)^{3}\\J(3i)&={\tfrac {1}{27}}\left(2+{\sqrt {3}}\right)^{2}\left(21+20{\sqrt {3}}\right)^{3}\\J\left(2{\sqrt {3}}i\right)&={\tfrac {125}{16}}\left(30+17{\sqrt {3}}\right)^{3}\\J\left({\tfrac {1+7{\sqrt {3}}i}{2}}\right)&=-{\tfrac {64000}{7}}\left(651+142{\sqrt {21}}\right)^{3}\\J\left({\tfrac {1+3{\sqrt {11}}i}{10}}\right)&={\tfrac {64}{27}}\left(23-4{\sqrt {33}}\right)^{2}\left(-77+15{\sqrt {33}}\right)^{3}\\J\left({\sqrt {21}}i\right)&={\tfrac {1}{32}}\left(5+3{\sqrt {3}}\right)^{2}\left(3+{\sqrt {7}}\right)^{2}\left(65+34{\sqrt {3}}+26{\sqrt {7}}+15{\sqrt {21}}\right)^{3}\\J\left({\tfrac {{\sqrt {30}}i}{1}}\right)&={\tfrac {1}{16}}\left(10+7{\sqrt {2}}+4{\sqrt {5}}+3{\sqrt {10}}\right)^{4}\left(55+30{\sqrt {2}}+12{\sqrt {5}}+10{\sqrt {10}}\right)^{3}\\J\left({\tfrac {{\sqrt {30}}i}{2}}\right)&={\tfrac {1}{16}}\left(10+7{\sqrt {2}}-4{\sqrt {5}}-3{\sqrt {10}}\right)^{4}\left(55+30{\sqrt {2}}-12{\sqrt {5}}-10{\sqrt {10}}\right)^{3}\\J\left({\tfrac {{\sqrt {30}}i}{5}}\right)&={\tfrac {1}{16}}\left(10-7{\sqrt {2}}+4{\sqrt {5}}-3{\sqrt {10}}\right)^{4}\left(55-30{\sqrt {2}}+12{\sqrt {5}}-10{\sqrt {10}}\right)^{3}\\J\left({\tfrac {{\sqrt {30}}i}{10}}\right)&={\tfrac {1}{16}}\left(10-7{\sqrt {2}}-4{\sqrt {5}}+3{\sqrt {10}}\right)^{4}\left(55-30{\sqrt {2}}-12{\sqrt {5}}+10{\sqrt {10}}\right)^{3}\\J\left({\tfrac {1+{\sqrt {31}}i}{2}}\right)&=\left(1-\left(1+{\frac {\sqrt {19}}{2}}\left({\sqrt {\tfrac {13-{\sqrt {93}}}{13+{\sqrt {93}}}}}\cdot {\sqrt[{3}]{\tfrac {{\sqrt {31}}+{\sqrt {27}}}{{\sqrt {31}}-{\sqrt {27}}}}}+{\sqrt {\tfrac {13+{\sqrt {93}}}{13-{\sqrt {93}}}}}\cdot {\sqrt[{3}]{\tfrac {{\sqrt {31}}-{\sqrt {27}}}{{\sqrt {31}}+{\sqrt {27}}}}}\right)\right)^{2}\right)^{3}\\J({\sqrt {70}}i)&=\left(1+{\tfrac {9}{4}}\left(303+220{\sqrt {2}}+139{\sqrt {5}}+96{\sqrt {10}}\right)^{2}\right)^{3}\\J(7i)&=\left(1+{\tfrac {9}{4}}{\sqrt {21+8{\sqrt {7}}}}\left(30+11{\sqrt {7}}+\left(6+{\sqrt {7}}\right){\sqrt {21+8{\sqrt {7}}}}\right)^{2}\right)^{3}\\J(8i)&=\left(1+{\tfrac {9}{4}}{\sqrt[{4}]{2}}\left(1+{\sqrt {2}}\right)\left(123+104{\sqrt[{4}]{2}}+88{\sqrt {2}}+73{\sqrt[{4}]{8}}\right)^{2}\right)^{3}\\J(10i)&=\left(1+{\tfrac {9}{8}}\left(2402+1607{\sqrt[{4}]{5}}+1074{\sqrt[{4}]{25}}+719{\sqrt[{4}]{125}}\right)^{2}\right)^{3}\\J\left({\tfrac {5i}{2}}\right)&=\left(1+{\tfrac {9}{8}}\left(2402-1607{\sqrt[{4}]{5}}+1074{\sqrt[{4}]{25}}-719{\sqrt[{4}]{125}}\right)^{2}\right)^{3}\\J(2{\sqrt {58}}i)&=\left(1+{\tfrac {9}{256}}\left(1+{\sqrt {2}}\right)^{5}\left(5+{\sqrt {29}}\right)^{5}\left(793+907{\sqrt {2}}+237{\sqrt {29}}+103{\sqrt {58}}\right)^{2}\right)^{3}\\J\left({\tfrac {1+{\sqrt {1435}}i}{2}}\right)&=\left(1-9\left(9892538+4424079{\sqrt {5}}+1544955{\sqrt {41}}+690925{\sqrt {205}}\right)^{2}\right)^{3}\\J\left({\tfrac {1+{\sqrt {1555}}i}{2}}\right)&=\left(1-9\left(22297077+9971556{\sqrt {5}}+\left(3571365+1597163{\sqrt {5}}\right){\sqrt {\tfrac {31+21{\sqrt {5}}}{2}}}\right)^{2}\right)^{3}\\\end{aligned}}}
+  
+
+
+== References ==
+
+Apostol, Tom M. (1976), Modular functions and Dirichlet Series in Number Theory, Graduate Texts in Mathematics, 41, New York: Springer-Verlag, MR 0422157. Provides a very readable introduction and various interesting identities.
+Apostol, Tom M. (1990), Modular functions and Dirichlet Series in Number Theory, Graduate Texts in Mathematics, 41 (2nd ed.), doi:10.1007/978-1-4612-0999-7, ISBN 978-0-387-97127-8, MR 1027834
+Berndt, Bruce C.; Chan, Heng Huat (1999), "Ramanujan and the modular j-invariant" (PDF), Canadian Mathematical Bulletin, 42 (4): 427–440, doi:10.4153/CMB-1999-050-1, MR 1727340, archived from the original (PDF) on 2007-09-29. Provides a variety of interesting algebraic identities, including the inverse as a hypergeometric series.
+Cox, David A. (1989), Primes of the Form x^2 + ny^2: Fermat, Class Field Theory, and Complex Multiplication, New York: Wiley-Interscience Publication, John Wiley & Sons Inc., MR 1028322 Introduces the j-invariant and discusses the related class field theory.
+Conway, John Horton; Norton, Simon (1979), "Monstrous moonshine", Bulletin of the London Mathematical Society, 11 (3): 308–339, doi:10.1112/blms/11.3.308, MR 0554399. Includes a list of the 175 genus-zero modular functions.
+Rankin, Robert A. (1977), Modular forms and functions, Cambridge: Cambridge University Press, ISBN 978-0-521-21212-0, MR 0498390. Provides a short review in the context of modular forms.
+Schneider, Theodor (1937), "Arithmetische Untersuchungen elliptischer Integrale", Math. Annalen, 113: 1–13, doi:10.1007/BF01571618, MR 1513075.

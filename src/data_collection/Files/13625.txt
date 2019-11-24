@@ -1,0 +1,352 @@
+Title: Phonological history of Old English
+Aspects: {'U-mutation'}
+
+The phonological system of the Old English language underwent many changes during the period of its existence. These included a number of vowel shifts, and the palatalization of velar consonants in many positions.
+For historical developments prior to the Old English period, see Proto-Germanic language.
+
+
+== Phonetic transcription ==
+Various conventions are used below for describing Old English words, reconstructed parent forms of various sorts and reconstructed Proto-West-Germanic (PWG), Proto-Germanic (PG) and Proto-Indo-European (PIE) forms:
+
+Forms in italics denote either Old English words as they appear in spelling or reconstructed forms of various sorts. Where phonemic ambiguity occurs in Old English spelling, extra diacritics are used (ċ, ġ, ā, ǣ, ē, ī, ō, ū, ȳ).
+Forms between /slashes/ or [brackets] indicate, respectively, broad (phonemic) or narrow (allophonic) pronunciation. Sounds are indicated using standard IPA notation.The following table indicates the correspondence between spelling and pronunciation transcribed in the International Phonetic Alphabet. For details of the relevant sound systems, see Proto-Germanic phonology and Old English phonology.
+
+1Proto-Germanic /b d ɡ/ had two allophones each: stops [b d ɡ] and fricatives [β ð ɣ]. The stops occurred:
+
+following a nasal;
+when geminated;
+word-initially, for /b/ and /d/ only;
+following /l/, for /d/ only.By West Germanic times, /d/ was pronounced as a stop [d] in all positions. The fricative allophones are sometimes indicated in reconstructed forms to make it easier to understand the development of Old English consonants. Old English retained the allophony [ɡ~ɣ], which in case of palatalization (see below) became [dʒ~j]. Later, non-palatalized [ɣ] became [ɡ] word-initially. The allophony [b~β] was broken when [β] merged with [v], the voiced allophone of /f/.
+
+
+== Phonological processes ==
+
+A number of phonological processes affected Old English in the period before the earliest documentation. The processes affected especially vowels and are the reason that many Old English words look significantly different from related words in languages such as Old High German, which is much closer to the common West Germanic ancestor of both languages. The processes took place chronologically in roughly the order described below (with uncertainty in ordering as noted).
+
+
+=== Absorption of nasals before fricatives ===
+This is the source of such alternations as modern English five, mouth, us versus German fünf, Mund, uns. For detail see Ingvaeonic nasal spirant law.
+
+
+=== First a-fronting ===
+
+The Anglo-Frisian languages underwent a sound change in their development from Proto-West-Germanic by which ā [ɑː], unless followed by /n, m/ or nasalized, was fronted to ǣ [æː]. This was similar to the later process affecting short a, which is known as Anglo-Frisian brightening or First Fronting (see below). Nasalized ą̄ and the sequences ān, ām were unaffected and were later raised to ǭ, ōn, ōm (see below). (This may be taken to imply that a nasal consonant n, m caused a preceding long vowel to nasalize.) In the non-West-Saxon dialects of English (including the Anglian dialect underlying Modern English) this sound was further raised to ē [eː]: W.S. slǣpan, sċēap (< Proto-West-Germanic *slāpąn, *skāpă < Proto-Germanic *slēpaną, skēpą) versus Anglian slēpan, sċēp. The Modern English descendants sleep and sheep reflect the Anglian vowel; the West Saxon words would have developed to *sleap, *sheap.
+The Proto-West-Germanic ā that is the source of this change was the reflex of the Proto-Germanic /ɛː/. It is possible that this vowel was never in fact backed to [ɑː] in Anglo-Frisian, but simply became ǣ. However, borrowings such as Old English strǣt from Latin strāta (via) and the backing to ō before nasals are much easier to explain under the assumption of a common West Germanic stage *ā.
+
+
+=== Monophthongization ===
+Proto-Germanic /ai/ was monophthongized (smoothed) to /aː/ ([ɑː]). This occurred after first a-fronting. For example, Proto-Germanic *stainaz became stān (modern stone) (cf. Old Frisian stēn vs. Gothic stáin, Old High German stein). In many cases, the resulting [ɑː] was later fronted to [æː] by i-mutation: dǣlan "to divide" (cf. Old Frisian dēla vs. Gothic dáiljan, Old High German teilen).
+It is possible that this occurred via the height harmonisation that produced the other diphthongs in Old English (presumably through an intermediate stage: /ai/ > [ɑæ] > /aː/).
+
+
+=== Second a-fronting ===
+
+The second part of a-fronting, called Anglo-Frisian brightening or First Fronting, is very similar to the first part except that it affects short a instead of long ā. Here a [ɑ] is fronted to æ [æ] unless followed by /n, m/ or nasalized, the same conditions as applied in the first part.Importantly, a-fronting was blocked by n, m only in stressed syllables, not unstressed syllables, which accounts for forms like ġefen (formerly ġefæn) "given" from Proto-Germanic *gebanaz. However, the infinitive ġefan retains its back vowel due to a-restoration (see the explanation given in that section for the similar case of faren vs. faran).
+
+
+=== Diphthong height harmonization ===
+Proto-Germanic had the closing diphthongs /ai, au, eu/ (and [iu], an allophone of /eu/ when an /i/ or /j/ followed in the next syllable). In Old English, these (except /ai/, which had been monophthongized, as noted above) developed into diphthongs of a generally less common type in which both elements are of the same height, called height-harmonic diphthongs. This process is called diphthong height harmonization. Specifically:
+
+/au/ [ɑu] underwent a-fronting to /æu/ and was then harmonized to /æɑ/, spelled ea.
+/eu/ [eu] was harmonized to /eo/, spelled eo.
+[iu] was already harmonic; it became a separate phoneme /iu/, spelled io (this interpretation is somewhat controversial; see below).Old English diphthongs also arose from other later processes, such as breaking, palatal diphthongization, back mutation and i-mutation, which also gave an additional diphthong ie /iy/. The diphthongs could occur both short (monotonic) /æa, eo, iu, iy/ and long /æːa, eːo, iːu, iːy/. The interpretations /æa/ and /eo/ for ea and eo are generally accepted (evidence for the former comes, for example, from the behavior of breaking and back mutation as described below, and the Middle English development of ea into /a/). However, the interpretations /iu/ and /iy/ for io and ie are controversial, with many (especially more traditional) sources assuming that the pronunciation matched the spelling (/io/, /ie/), and hence that these diphthongs were of the opening rather than the height-harmonic type.
+Late in the development of the standard West Saxon dialect, io (both long and short) merged with eo, which is, in fact, one of the most noticeable differences between early Old English (c. 900) and late Old English (c. 1000).
+
+
+=== Breaking and retraction ===
+Vowel breaking in Old English is the diphthongization of the short front vowels /i, e, æ/ to short diphthongs /iu, eo, æɑ/ when followed by /h/, /w/ or by /r/ or /l/ plus another consonant. Long /iː, æː/ similarly broke to /iːu, æːa/, but only when followed by /h/. The geminates rr and ll usually count as r or l plus another consonant, but breaking does not occur before ll produced by West Germanic gemination (the /i/ or /j/ in the following syllable prevents breaking).
+Note that /iu, iːu/ were lowered to /eo, eːo/ in late Old English (see above).
+The exact conditions for breaking vary somewhat depending on the sound being broken:
+
+Short /æ/ breaks before h, rC, lC, where C is any consonant.
+Short /e/ breaks before h, rC, lh, lc, w, i.e. compared to /æ/ it is also broken before w, but is broken before l only in the combination lh and sometimes lc.
+Short /i/ breaks before h, rC, w. However, it does not break before wi, and in the Anglian dialects breaking before rCi happens only in the combination *rzi (e.g. Anglian iorre "anger" from *irziją but afirran from *a+firrijaną).
+Long ī and ǣ break only before h.Examples:
+
+weorpan [ˈweorpɑn] "to throw" < */ˈwerpan/
+wearp [wæɑrp] "threw (sing.)" < */wærp/
+feoh [feox] "money" < */feh/
+feaht [fæaxt] "fought (sing.)" < */fæht/
+healp [hæaɫp] "helped (sing.)" < */hælp/ (but no breaking in helpan "to help" because the consonant after /l/ is not /h/)
+feorr [feorr] "far" < */ferr/
+feallan [ˈfæɑllɑn] "to fall" < */ˈfællan/ (but tellan < earlier */ˈtælljan/ is not broken because of the following /j/)
+eolh [eoɫx] "elk" < */elh/
+liornian, leornian [ˈliurniɑn], [ˈleorniɑn] "to learn" < earlier */ˈlirnoːjan/
+nēah "near" [næːɑx] (cf. "nigh") < */næːh/
+lēon "to lend" [leːon] < */liːun/ < */ˈliuhan/ < */ˈliːhan/The i-mutation of broken /iu, eo, æa/ (whether long or short) is spelled ie (possibly /iy/, see above).
+Examples:
+
+hwierfþ "turns" (intr.) < /ˈhwiurfiθ/ + i-mutation < /ˈhwirfiθ/ + breaking < Proto-Germanic *hwirbiþi < early Proto-Germanic *hwerbiþi
+hwierfan "to turn" (tr.) < /ˈhwæarfijan/ + i-mutation < /ˈhwærfijan/ + breaking < /ˈhwarfijan/ + a-fronting < Proto-Germanic *hwarbijaną
+nīehst "nearest" (cf. "next") < /ˈnæːahist/ + i-mutation < /ˈnæːhist/ + breaking < /ˈnaːhist/ + a-fronting < Proto-Germanic *nēhist
+līehtan "to lighten" < /ˈliːuhtijan/ + i-mutation < /ˈliːhtijan/ + breaking < Proto-Germanic *līhtijanąNote that in some dialects /æ/ was backed (retracted) to /a/ ([ɑ]) rather than broken, when occurring in the circumstances described above that would normally trigger breaking. This happened in the dialect of Anglia that partially underlies Modern English, and explains why Old English ceald appears as Modern English "cold" (actually from Anglian Old English cald) rather than "*cheald" (the expected result of ceald).
+Both breaking and retraction are fundamentally phenomena of assimilation to a following velar consonant. While /w/ is in fact a velar consonant, /h/, /l/, and /r/ are less obviously so. It is therefore assumed that, at least at the time of the occurrence of breaking and retraction (several hundred years before recorded Old English), /h/ was pronounced [x] or similar – at least when following a vowel – and /l/ and /r/ before a consonant had a velar or retroflex quality and were already pronounced [ɫ] and [rˠ], or similar.
+
+
+=== A-restoration ===
+After breaking occurred, short /æ/ (and in some dialects long /æː/ as well) was backed to /a/ ([ɑ]) when there was a back vowel in the following syllable. This is called a-restoration, because it partly restored original /a/, which had earlier been fronted to /æ/ (see above). (Note: The situation is complicated somewhat by a later change called second fronting, but this did not affect the standard West Saxon dialect of Old English.)
+Because strong masculine and neuter nouns have back vowels in plural endings, alternations with /æ/ in the singular vs. /a/ in the plural are common in this noun class:
+
+A-restoration occurred before the *ō of the weak verb suffix *-ōj-, although this surfaces in Old English as the front vowel i, as in macian "to make" < *makōjan-.
+Breaking (see above) occurred between a-fronting and a-restoration. This order is necessary to account for words like slēan "to slay" (pronounced /slæːɑn/) from original *slahan: /ˈslahan/ > /ˈslæhan/ (a-fronting) > /ˈslæɑhɑn/ (breaking; inhibits a-restoration) > /ˈslæɑ.ɑn/ (h-loss) > /slæːɑn/ (vowel coalescence, compensatory lengthening).
+A-restoration interacted in a tricky fashion with a-fronting (Anglo-Frisian brightening) to produce e.g. faran "to go" from Proto-Germanic *faraną but faren "gone" from Proto-Germanic *faranaz. Basically:
+
+Note that the key difference is in steps 3 and 4, where nasalized ą is unaffected by a-fronting even though the sequence an is in fact affected, since it occurs in an unstressed syllable. This leads to a final-syllable difference between a and æ, which is transferred to the preceding syllable in step 4.
+
+
+=== Palatalization ===
+Palatalization of the velar consonants /k/ and /ɡ/ occurred in certain environments, mostly involving front vowels. (The phoneme /ɡ/ at that time had two allophones: [ɡ] after /n/ or when geminated, and [ɣ] everywhere else.) This palatalization is similar to what occurred in Italian and Swedish. In the relevant positions:
+
+/k/ became /tʃ/
+/sk/ became /ʃ/
+[ɡ] became [dʒ]
+[ɣ] became [ʝ] (a voiced palatal fricative; it would later become [j], but not before the loss of older /j/ in certain positions discussed below)Palatalization occurred:
+
+Before /i, iː, j/, for example:
+ċīdan ("to chide"), bēċ ("books", from earlier */ˈboːkiz/), sēċan ("seek", from earlier */ˈsoːkijanã/) (/k/ > /tʃ/); bryċġ ("bridge", from earlier West Germanic */ˈbruɡɡjoː/ after Proto-Germanic */bruɣjoː/) ([ɡɡ] > [ddʒ]); ġifþ ("gives") ([ɣ] > [j])
+Before other front vowels and diphthongs, in the case of word-initial /k/ and all [ɣ], for example:
+ċeorl ("churl"), ċēas ("chose (sg.)"), ċeald ("cold") (initial /k/ > /tʃ/); ġeaf /jæf/ ("gave"), ġeard ("yard") ([ɣ] > [j])
+After /i/, /iː/ (possibly with an intervening /n/), unless a back vowel followed, for example:
+iċ ("I"), dīċ ("ditch, dike") (/k/ > /tʃ/), but in wicu ("weak") the /k/ is not affected due to the following /u/
+For [ɣ] and /sk/ only, after other front vowels (/e/, /eː/, /æ/, /æː/), unless a back vowel followed, for example:
+weġ ("way"), næġl ("nail"), mǣġ ("relative") ([ɣ] > [j]), but in wegas ("ways") the [ɣ] is not affected due to the following /ɑ/; fisċ ("fish") (/sk/ > /ʃ/), but in āscian ("ask", from earlier */ˈaːskoːjanã/) the /sk/ remains
+For word-initial /sk/, always, even when followed by a back vowel or /r/, for example:
+sċip ("ship"), sċuldor ("shoulder"), sċort ("short"), sċrūd ("dress", giving modern shroud) (/sk/ > /ʃ/)Palatal sounds reverted to their non-palatal equivalents when they came to stand immediately before a consonant, even if this occurred at a significantly later period, as when *sēċiþ ("seeks") became sēcþ, and *senġiþ ("singes") became sengþ.
+Palatalization occurred after a-restoration and before i-mutation (although it is unclear whether it occurred before or after h-loss). Thus, it did not occur in galan "to sing" (cf. modern English regale), with the first /a/ backed from /æ/ due to a-restoration. Similarly, palatalization occurred in dæġ ("day"), but not in a-restored dagas ("days"; cf. dialectal English dawes "days") or in dagung ("dawn", where the ⟨w⟩ represents the reflex of unpalatalized [ɣ]). Nor did it occur in cyning ("king"), cemban ("to comb") or gēs ("geese"), where the front vowels /y, e, eː/ developed from earlier /u, a, oː/ due to i-mutation.
+In many instances where a ċ/c, ġ/g, or sċ/sc alternation would be expected within a paradigm, it was leveled out by analogy at some point in the history of the language. For example, the velar of sēcþ "he seeks" has replaced the palatal of sēċan "to seek" in Modern English; on the other hand, the palatalized forms of besēċan have replaced the velar forms, giving modern beseech.
+The sounds /k~tʃ/ and /ɡ~j/ had almost certainly split into distinct phonemes by Late West Saxon, the dialect in which the majority of Old English documents are written. This is suggested by such near-minimal pairs as drincan [ˈdriŋkɑn] ("drink") vs. drenċan [ˈdrentʃɑn] ("drench"), and gēs [ɡeːs] ("geese") vs. ġē [jeː] ("you"). Nevertheless, there are few true minimal pairs, and velars and palatals often alternate with each other in ways reminiscent of allophones, for example:
+
+ċēosan [ˈtʃeːozan] ("to choose") vs. curon [ˈkuron] ("chose", plural form)
+ġēotan [ˈjeːotan] ("to pour") vs. guton [ˈɡuton] ("poured", plural form)The voiced velars [ɡ] and [ɣ] were still allophones of a single phoneme (although by now [ɡ] was the form used in initial position); similarly, their respective palatalized reflexes [dʒ] and [j] are analysed as allophones of a single phoneme /j/ at this stage. This /j/ also included older instances of [j] which derived from Proto-Germanic /j/, and could stand before back vowels, as in ġeong /junɡ/ ("young"; from PGmc *jungaz) and ġeoc /jok/ ("yoke"; from PGmc *juką). (See also Old English phonology: dorsal consonants.)
+Standard Old English spelling did not reflect the split, and used the same letter ⟨c⟩ for both /k/ and /tʃ/, and ⟨g⟩ for both /ɡ/ ([ɡ], [ɣ]) and /j/ ([j], [dʒ]). In the standard modernized orthography (as used here), the velar and palatal variants are distinguished with a diacritic: ⟨c⟩ stands for /k/, ⟨ċ⟩ for /tʃ/, ⟨g⟩ for [ɡ] and [ɣ], and ⟨ġ⟩ for [j] and [dʒ]. The geminates of these are written ⟨cc⟩, ⟨ċċ⟩, ⟨cg⟩, ⟨ċġ⟩.
+Loanwords from Old Norse typically do not display any palatalization, showing that at the time they were borrowed the palatal–velar distinction was no longer allophonic and the two sets were now separate phonemes. Compare, for example, the modern doublet shirt and skirt; these both derive from the same Germanic root, but shirt underwent Old English palatalization, whereas skirt comes from a Norse borrowing which did not. Similarly, give, an unpalatalized Norse borrowing, existed alongside (and eventually displaced) the regularly palatalized yive. Other later loanwords similarly escaped palatalization: compare ship (from palatalized Old English sċip) with skipper (borrowed from unpalatalized Dutch schipper).
+
+
+=== Second fronting ===
+Second fronting fronted /a/ to /æ/, and /æ/ to /e/, later than related processes of a-fronting and a-restoration. Second fronting did not affect the standard West Saxon dialect of Old English. In fact, it took place only in a relatively small section of the area (English Midlands) where the Mercian dialect was spoken. Mercian itself was a subdialect of the Anglian dialect (which includes all of Central and Northern England).
+
+
+=== Palatal diphthongization ===
+The front vowels e, ē, æ, and ǣ usually become the diphthongs ie, īe, ea, and ēa after ċ, ġ, and sċ:
+sċieran "to cut", sċear "cut (past sing.)", sċēaron "cut (past pl.)", which belongs to the same conjugation class (IV) as beran "to carry", bær "carried (sing.)", bǣron "carried (pl.)"
+ġiefan "to give", ġeaf "gave (sing.)", ġēafon "gave (pl.)", ġiefen "given", which belongs to the same conjugation class (V) as tredan "to tread", træd "trod (sing.)", trǣdon "trod (pl.)", treden "trodden"In a similar way, the back vowels u, o, and a were spelled as eo and ea after ċ, ġ, and sċ:
+
+*ġung > ġeong "young" (cf. German jung)
+*sċolde > sċeolde "should" (cf. German sollte)
+*sċadu > sċeadu "shadow" (cf. Dutch schaduw)Most likely, the second process was simply a spelling convention, and a, o, u actually did not change in pronunciation: the vowel u continued to be pronounced in ġeong, o in sċeolde, and a in sċeadu. This is suggested by their developments in Middle and Modern English. If ġeong and sċeolde had the diphthong eo, they would develop into Modern English *yeng and *sheeld instead of young and should.
+There is less agreement about the first process. The traditional view is that e, ē, æ, and ǣ actually became diphthongs, but a minority view is that they remained as monophthongs:
+sċieran [ˈʃerɑn]
+sċear [ʃær]
+sċēaron [ˈʃæːron]
+ġiefan [ˈjevɑn]
+ġeaf [jæf]
+ġēafon [ˈjæːvon]
+ġiefen [ˈjeven]The main arguments in favor of this view are the fact that the corresponding process involving back vowels is indeed purely orthographic, and that diphthongizations like /æ/ → [æɑ] and /e/ → [iy] (if this is the correct interpretation of orthographic ie) are phonetically unmotivated in the context of a preceding palatal or postalveolar consonant.
+
+
+=== Metathesis of r ===
+Original sequences of an r followed by a short vowel metathesized, with the vowel and r switching places. This normally only occurred when the next following consonant was s or n, and sometimes d.
+
+Before s: berstan "to burst" (Icelandic bresta), gærs "grass" (Gothic gras), þerscan "to thresh" (Gothic þriskan)
+Before n: byrnan ~ beornan "to burn (intr.)" (Gothic brinnan), irnan "to run" (Gothic rinnan), īren "iron" (< *īsren < īsern; Gothic eisarn), wærna "wren" (Icelandic rindill), ærn "house" (Gothic razn)
+Before d: þirda "third" (Gothic þridja), Northumbrian bird "chick, nestling" (standard bryd)Not all potential words to which metathesis can apply are actually affected, and many of the above words also appear in their unmetathesized form (e.g. græs "grass", rinnan "to run", wrenna "wren", rare forms brustæn "burst (past part.)", þrescenne "to thresh", onbran "set fire to (past)", īsern "iron", ren- "house", þridda "third"; briddes "birds" in Chaucer). Note also that many of the words have come down to Modern English in their unmetathesized forms.
+Metathesis in the other direction occasionally occurs before ht, e.g. wrohte "worked" (cf. obsolescent wrought; Gothic wurhta), Northumbrian breht ~ bryht "bright" (Gothic baírhts), fryhto "fright" (Gothic faúrhtei), wryhta "maker" (cf. wright; Old Saxon wurhtio). Unmetathesized forms of all of these words also occur in Old English. The phenomenon occurred in most Germanic languages.
+
+
+=== I-mutation (i-umlaut) ===
+
+Like most other Germanic languages, Old English underwent a process known as i-mutation or i-umlaut. This involved the fronting or raising of vowels under the influence of /i(ː)/ or /j/ in the following syllable. Among its effects were the new front rounded vowels /y(ː), ø(ː)/, and likely the diphthong /iy/ (see above). The original following /i(ː)/ or /j/ that triggered the umlaut was often lost at a later stage. The umlaut is responsible for such modern English forms as men, feet, mice (compare the singulars man, foot, mouse), elder, eldest (compare old), fill (compare full), length (compare long), etc.
+For details of the changes, see Germanic umlaut, and particularly the section on i-mutation in Old English.
+
+
+=== Final a-loss ===
+Absolutely final unstressed low vowels (-æ from Proto-Germanic -a(z) by Anglo-Frisian brightening, and -ą) were lost. Note that final -z was lost already in West Germanic times. Preceding -j-, -ij-, and -w- were vocalized to -i, -ī and -u, respectively. This occurred after breaking, since PG *barwaz was affected, becoming OE bearu, while words in PG *-uz were not. (Apparent instances of such breaking are due to the later process of back mutation, which did not apply across all consonants, cf. unbroken West Saxon OE teru "tear" < PG *teruz but broken smeoru "grease" < PG *smerwą, where back mutation did not apply across -r- in West Saxon.) It also probably occurred after a-restoration; see that section for examples showing this. It apparently occurred before high vowel loss, because the preceding vocalized semivowels were affected by this process; e.g. gād "lack" < *gādu (by high-vowel loss) < PG *gaidwą (cf. Gothic gaidw). It is unclear whether it occurred before or after i-mutation.
+
+
+=== Medial syncopation ===
+In medial syllables, short low and mid vowels (/a, æ, e/) are deleted in all open syllables.Short high vowels (/i, u/) are deleted in open syllables following a long syllable, but usually remain following a short syllable; this is part of the process of high vowel loss.
+Syncopation of low/mid vowels occurred after i-mutation and before high vowel loss. An example demonstrating that it occurred after i-mutation is mæġden "maiden":
+
+If the syncopation of short low/mid vowels had occurred before i-mutation, the result in Old English would be **meġden.
+An example showing that syncopation occurred before high vowel loss is sāw(o)l "soul":
+
+PG *saiwalō > *sāwalu > *sāwlu (medial syncopation) > sāwl "soul". (By-form sāwol is due to vowel epenthesis.)Had it occurred after high vowel loss, the result in Old English would be **sāwlu.
+
+
+=== High vowel loss ===
+In an unstressed open syllable, /i/ and /u/ (including final /-u/ from earlier /-oː/) were lost when following a long syllable (i.e. one with a long vowel or diphthong, or followed by two consonants), but not when following a short syllable (i.e. one with a short vowel followed by a single consonant). This took place in two types of contexts:
+
+Absolutely word-final
+In a medial open syllableWord-finalHigh-vowel loss caused many paradigms to split depending on the length of the root syllable, with -u or -e (from *-i) appearing after short but not long syllables. For example,
+
+feminine ō-stem nouns in the nom. sg.: PG *gebō > OE ġiefu "gift" but PG *laizō > OE lār "teaching";
+neuter a-stem nouns in the nom./acc. pl.: PG *skipō > OE scipu "ships" but PG *wurdō > OE word "words";
+masculine i-stem nouns in the nom./acc. sg.: PG *winiz > OE wine "friend" but PG *gastiz > OE ġiest "guest";
+u-stem nouns in the nom./acc. sg.: PG *sunuz > OE sunu "son" but PG *handuz > OE hand "hand";
+strong adjectives in the feminine nom. sg. and neuter nom./acc. pl.: PG *tilō > OE tilu "good (fem. nom. sg., neut. nom./acc. pl.)" but PG *gōdō > OE gōd "good (fem. nom. sg., neut. nom./acc. pl.)";
+weak class 1 imperatives: OE freme "perform!" vs. hīer "hear!" (PG stems *frami- and *hauzi-, respectively; it's unclear if the imperatives ended in *-i or *-ī).This loss affected the plural of root nouns, e.g. PrePG *pōdes > PG *fōtiz > *fø̄ti > OE fēt "feet (nom.)". All such nouns had long-syllable stems, and so all were without ending in the plural, with the plural marked only by i-mutation.
+Note that two-syllable nouns consisting of two short syllables were treated as if they had a single long syllable — a type of equivalence found elsewhere in the early Germanic languages, e.g. in the handling of Sievers' law in Proto-Norse, as well as in the metric rules of Germanic alliterative poetry. Hence, final high vowels are dropped. However, in a two-syllable noun consisting of a long first syllable, the length of the second syllable determines whether the high vowel is dropped. Examples (all are neuter nouns):
+Short-short: werod "troop", pl. werod (treated as equivalent to a single long syllable, or more correctly as a single long foot)
+Short-long: færeld "journey", pl. færeld
+Long-short: hēafod "head", pl. hēafdu (from *hēafodu)
+Long-long: īsern "iron", pl. īsernNote also the following apparent exceptions:
+
+OE wītu "punishments" (pl. of wīte) < PG *wītijō;
+OE rīċ(i)u "kingdoms" (pl. of rīċe) < PG *rīkijō;
+OE wildu "wild" (fem. of wilde) < PG *wildijō;
+OE strengþu "strength" < PG *strangiþō.In reality, these aren't exceptions because at the time of high-vowel loss the words had the same two-syllable long-short root structure as hēafod (see above).
+As a result, high-vowel loss must have occurred after i-mutation but before the loss of internal -(i)j-, which occurred shortly after i-mutation.
+
+Word-medialParadigm split also occurred medially as a result of high-vowel loss, e.g. in the past tense forms of Class I weak forms:
+
+PG *dōmidē > OE dēmde "(he) judged"
+PG *framidē > OE fremede "(he) did, performed (a duty)"Normally, syncopation (i.e. vowel loss) does not occur in closed syllables, e.g. Englisċe "English", ǣresta "earliest", sċēawunge "a showing, inspection" (each word with an inflected ending following it). However, syncopation passes its usual limits in certain West Saxon verbal and adjectival forms, e.g. the present tense of strong verbs (birst "(you) carry" < PG *beris-tu, birþ "(he) carries" < PG *beriþ, similarly dēmst, dēmþ "(you) judge, (he) judges") and comparative adjectives (ġinġsta "youngest" < PG *jungistô, similarly strenġsta "strongest", lǣsta "least" < *lǣsesta < PG *laisistô).
+When both medial and final high-vowel loss can operate in a single word, medial but not final loss occurs:
+PG *strangiþō > WG *strangiþu > *strengþu "strength";
+PG *haubudō > WG *haubudu > *hēafdu "heads".This implies that final high-vowel loss must precede medial high-vowel loss; else the result would be **strengþ, hēafd.
+
+
+=== Loss of -(i)j- ===
+Internal -j- and its Sievers' law variant -ij-, when they still remained in an internal syllable, were lost just after high-vowel loss, but only after a long syllable. Hence:
+
+PG *wītijō > WG *wītiju > OE wītu "punishments" (if -ij- were lost before high-vowel loss, the result would be **wīt);
+PG *dōmijaną > *dø̄mijan (after i-mutation) > OE dēman "to judge" (cf. NE deem);
+PG *satjaną > WG *sattjaną > *sættjaną (after Anglo-Frisian brightening) > *settjan (after i-mutation) > OE settan "to set".Note that in Proto-Germanic, the non-Sievers'-law variant -j- occurred only after short syllables, but due to West Germanic gemination, a consonant directly preceding the -j- was doubled, creating a long syllable. West Germanic gemination didn't apply to /r/, leaving a short syllable, and hence /j/ wasn't lost in such circumstances:
+
+PG *arjaną > OE erian "to plow".By Sievers' law, the variant /ij/ occurred only after long syllables, and thus was always lost when it was still word-internal at this point.
+When -j- and -ij- became word-final after loss of a following vowel or vowel+/z/, they were converted into -i and -ī, respectively. The former was affected by high-vowel loss, surfacing as -e when not deleted (i.e. after /r/), while the latter always surfaces as -e:
+
+PG *kunją > WG *kunnją > *kunni > *kynni > OE cynn "kin, family, kind";
+PG *harjaz > WG *harja (West Germanic gemination didn't apply to /r/) > *hari > *heri > OE here "army";
+PG *wītiją > *wītī > OE wīte "punishment".It is possible that loss of medial -j- occurred slightly earlier than loss of -ij-, and in particular before high-vowel loss. This appears to be necessary to explain short -jō stem words like nytt "use":
+
+PG *nutjō > WG *nuttju > *nyttju (by i-mutation) > *nyttu (by j-loss) > OE nytt (by high-vowel deletion).If high-vowel deletion occurred first, the result would presumably be an unattested **nytte.
+A similar loss of -(i)j- occurred in the other West Germanic languages, although after the earliest records of those languages (especially Old Saxon, which still has written settian, hēliand corresponding to Old English settan "to set", hǣlend "savior"). Some details are different, as the form kunni with retained -i is found in Old Saxon, Old Dutch and Old High German (but note Old Frisian kenn, kin).
+This did not affect the new /j/ (< /ʝ/) formed from palatalization of PG */ɣ/, suggesting that it was still a palatal fricative at the time of the change. For example, PG *wrōgijanan > early OE */ˈwrøːʝijan/ > OE wrēġan (/ˈwreːjan/).
+
+
+=== Back mutation ===
+Back mutation (sometimes back umlaut, guttural umlaut, u-umlaut, or velar umlaut) is a change that took place in late prehistoric Old English and caused short e, i and sometimes a to break into a diphthong (eo, io, ea respectively, similar to breaking) when a back vowel (u, o, ō, a) occurred in the following syllable. Examples:
+
+seofon "seven" < *sebun (cf. Gothic sibun)
+heol(o)stor "hiding place, cover" (cf. English holster) < earlier helustr < *hulestr < *hulistran (cf. Gothic hulistr)
+eofor "boar" < *eburaz (cf. Old High German ebur)
+heorot "hart" < *herutaz (cf. Old High German hiruz)
+mioluc, meoluc "milk" < *melukz (cf. Gothic miluks)
+liofast, leofast "you (sg.) live" < *libast
+ealu "ale" < *aluþNote that io turned into eo in late Old English.
+A number of restrictions governed whether back mutation took place:
+
+Generally it only took place when a single consonant followed the vowel being broken.
+In the standard West Saxon dialect, back mutation only took place before labials (f, b, w) and liquids (l, r). In the Anglian dialect, it took place before all consonants except c, g (Anglian meodu "mead", eosol "donkey" vs. West Saxon medu, esol). In the Kentish dialect, it took place before all consonants (Kentish breogo "price" vs. West Saxon, Anglian bregu, brego).
+Back mutation of a normally took place only in the Mercian subdialect of the Anglian dialect. Standard ealu "ale" is a borrowing from Mercian. Similar borrowings are poetic beadu "battle" and eafora "son, heir", cf. Gothic afar (many poetic words were borrowed from Mercian). On the other hand, standard bealu "evil" (arch. bale) and bearu "grove" owe their ea due to breaking — their forms at the time of breaking were *balwą, *barwaz, and the genitive singulars in Old English are bealwes, bearwes.
+
+
+=== Anglian smoothing ===
+In the Anglian (i.e. Mercian and Northumbrian) dialects of Old English, a process called smoothing undid many of the effects of breaking. In particular, before a velar /h, ɡ, k/ or before an /r/ or /l/ followed by a velar, diphthongs were reduced to monophthongs. Note that the context for smoothing is similar to the context for the earlier process of breaking that produced many of the diphthongs in the first place. In particular:
+
+ea > æ before a velar, e before /r/ or /l/ + velar
+ēa > ē
+eo > e
+ēo > ē
+io > i
+īo > īThis change preceded h-loss and vowel assimilation.
+Note also that the diphthongs ie and īe did not exist in Anglian (or in fact in any dialect other than West Saxon).
+
+
+=== H-loss ===
+In the same contexts where the voiceless fricatives /f, θ, s/ become voiced, i.e. between vowels and between a voiced consonant and a vowel, /h/ is lost, with compensatory lengthening of the preceding vowel if it is short. This occurs after breaking; hence breaking before /rh/ and /lh/ takes place regardless of whether the /h/ is lost by this rule. An unstressed short vowel is absorbed into the preceding long vowel.
+Examples:
+
+sċōs "shoe" (gen.) < /ˈʃoː.es/ < /ˈʃoːhes/, cf. sċōh (nom.)
+fēos "money" (gen.) < /ˈfeːo.es/ < /ˈfeohes/ < /ˈfehes/, cf. feoh (nom.)
+wēalas "foreigners, Welsh people" < /ˈwæalhas/ < /ˈwælhas/, cf. wealh (sing.)
+
+
+=== Vowel assimilation ===
+Two vowels that occurred in hiatus (i.e. next to each other, with no consonant separating) collapsed into a single long vowel. Many occurrences were due to h-loss, but some came from other sources, e.g. loss of /j/ or /w/ after a front vowel. (Loss of /j/ occurred early, in Proto-Germanic times. Loss of /w/ occurred later, after i-umlaut.) If the first vowel was e or i (long or short), and the second vowel was a back vowel, a diphthong resulted. Examples:
+
+sċōs "shoe" (gen.) < Proto-Germanic *skōhas (see under h-loss)
+fēos "money" (gen.) < Proto-Germanic *fehas (see under h-loss)
+frēond "friend" < frīond < Proto-Germanic *frijōndz (two syllables, cf. Gothic frijōnds)
+sǣm "sea" (dat. pl.) < sǣum < *sǣwum < *sǣwimiz < Proto-Germanic *saiwimiz
+
+
+=== Palatal umlaut ===
+Palatal umlaut is a process whereby short e, eo, io appear as i (occasionally ie) before final ht, hs, hþ. Examples:
+
+riht "right" (cf. German recht)
+cniht "boy" (mod. knight) (cf. German Knecht)
+siex "six" (cf. German sechs)
+briht, bryht "bright" (cf. non-metathesized Old English forms beorht, (Anglian) berht, Dutch brecht)
+hlihþ "(he) laughs" < *hlehþ < *hlæhiþ + i-mutation < Proto-Germanic *hlahiþ (cf. hliehhan "to laugh" < Proto-Germanic *hlahjaną)
+
+
+=== Unstressed vowel reduction ===
+
+There was steady vowel reduction in unstressed syllables, in a number of stages:
+
+In West Germanic times, absolutely final non-nasal *-ō (but not e.g. *-ōz, *-ô or *-ǭ) was raised and shortened to -u.
+All other final-syllable *ō were lowered to *ā. By Anglo-Frisian brightening, these ended up as *-ǣ (later -æ). Overlong *ô, as well as *ō in medial syllables, were unaffected.
+Although vowel nasality persisted at least up through Anglo-Frisian times and likely through the time of a-restoration, it was eventually lost (in stressed as well as unstressed syllables), with non-nasal vowels the result.
+Final a-loss deleted word-final short unstressed low vowels (*-æ < PG *-az, *-a < PG *-ą), causing preceding semivowels -j- -ij- -w- to become vocalized to -i -ī -u.
+Medial syncopation deleted word-medial short unstressed low/mid vowels in open syllables. This may be the same process as final a-loss.
+High-vowel loss deleted short unstressed high vowels /i/ and /u/ in open syllables following a long syllable, whether word-final or word-medial.
+All unstressed long and overlong vowels were shortened, with remaining long ō, ô shortening to a.
+This produced five final-syllable short vowels, which remained into early documented Old English (back a, u; front æ, e, i). By the time of the majority of Old English documents, however, all three front short vowels had merged into e.
+Absolutely final -u tends to be written u (sometimes o); but before a consonant, it is normally written o (e.g. seovon "seven" < PG *sibun). Exceptions are the endings -ung, -(s)um, -uc and when the root has u in it, e.g. duguþ "band of warriors; prosperity".
+Final-syllable e is written i in the endings -ing, -iġ, -(l)iċ, -isċ, -iht.A table showing these developments in more detail is found in Proto-Germanic: Later developments.
+
+
+=== Vowel lengthening ===
+In the late 8th or early 9th century, short stressed vowels were lengthened before certain groups of consonants: ld, mb, nd, ng, rd, rl, rn, rs+vowel. Some of the lengthened vowels would be shortened again by or during the Middle English period; this applied particularly before the clusters beginning r. Examples of words in which the effect of lengthening has been preserved are:
+
+ċild > ċīld > mod. child /aɪ/ (but lengthening did not occur if another consonant immediately followed, as in ċildru, giving modern children with /ɪ/)
+ald > āld > mod. old /oʊ/ (but lengthening did not occur in the antepenultimate syllable, as in aldormann, giving modern alderman, with an originally short a)
+climban > clīmban > mod. climb /aɪ/
+grund > grūnd > mod. ground /aʊ/
+lang > lāng > mod. long (ā went regularly to ō but was shortened in this position in late Middle English; compare Scots lang where the shortening occurred first)
+
+
+== Diphthong changes ==
+In Late West Saxon (but not in the Anglian dialects of the same period) io and īo were merged into eo and ēo. Also, the earlier West Saxon diphthongs ie and īe had developed into what is known as "unstable i", merging into /y(ː)/ in Late West Saxon. For further detail, see Old English diphthongs. All of the remaining Old English diphthongs were monophthongized in the early Middle English period: see Middle English stressed vowel changes.
+
+
+== Dialects ==
+
+Old English had four major dialect groups: West Saxon, Mercian, Northumbrian, and Kentish. West Saxon and Kentish occurred in the south, approximately to the south of the River Thames. Mercian constituted the middle section of the country, divided from the southern dialects by the Thames and from Northumbrian by the Humber and Mersey rivers. Northumbrian encompassed the area between the Humber and the Firth of Forth (including what is now southeastern Scotland but was once part of the Kingdom of Northumbria). In the south, the easternmost portion was Kentish and everywhere else was West Saxon. Mercian and Northumbrian are often grouped together as "Anglian".
+The biggest differences occurred between West Saxon and the other groups. The differences occurred mostly in the front vowels, and particularly the diphthongs. (However, Northumbrian was distinguished from the rest by much less palatalization. Forms in Modern English with hard /k/ and /ɡ/ where a palatalized sound would be expected from Old English are due either to Northumbrian influence or to direct borrowing from Scandinavian. Note that, in fact, the lack of palatalization in Northumbrian was probably due to heavy Scandinavian influence.)
+The early history of Kentish was similar to Anglian, but sometime around the ninth century all of the front vowels æ, e, y (long and short) merged into e (long and short). The further discussion concerns the differences between Anglian and West Saxon, with the understanding that Kentish, other than where noted, can be derived from Anglian by front-vowel merger. The primary differences were:
+
+Original (post Anglo-Frisian brightening) ǣ was raised to ē in Anglian but remained in West Saxon. This occurred before other changes such as breaking, and did not affect ǣ caused by i-umlaut of ā. Hence, e.g., dǣlan "to divide" < *dailijan appears the same in both dialects, but West Saxon slǣpan "to sleep" appears as slēpan in Anglian. (Note the corresponding vowel difference in the spelling of "deal" < dǣlan vs. "sleep" < Anglian slēpan.)
+The West Saxon vowels ie/īe, caused by i-umlaut of long and short ea, eo, io, did not appear in Anglian. Instead, i-umlaut of ea and rare eo is spelled e, and i-umlaut of io remains as io.
+Breaking of short /æ/ to ea did not happen in Anglian before /l/ and a consonant; instead, the vowel was retracted to /a/. When mutated by i-umlaut, it appears again as æ (vs. West Saxon ie). Hence, Anglian cald "cold" vs. West Saxon ċeald.
+Merger of eo and io (long and short) occurred early in West Saxon, but much later in Anglian.
+Many instances of diphthongs in Anglian, including the majority of cases caused by breaking, were turned back into monophthongs again by the process of "Anglian smoothing", which occurred before c, h, g, alone or preceded by r or l. This accounts for some of the most noticeable differences between standard (i.e. West Saxon) Old English and Modern English spelling. E.g. ēage "eye" became ēge in Anglian; nēah "near" became Anglian nēh, later raised to nīh in the transition to Middle English by raising of ē before h (hence "nigh" in Modern English); nēahst "nearest" become Anglian nēhst, shortened to nehst in late Old English by vowel-shortening before three consonants (hence "next" in Modern English).As mentioned above, Modern English derives mostly from the Anglian dialect rather than the standard West Saxon dialect of Old English. However, since London sits on the Thames near the boundary of the Anglian, West Saxon, and Kentish dialects, some West Saxon and Kentish forms have entered Modern English. For example, "bury" has its spelling derived from West Saxon and its pronunciation from Kentish (see below).
+The Northumbrian dialect, which was spoken as far north as Edinburgh, survives as the Scots language spoken in Scotland and parts of Northern Ireland. The distinguishing feature of Northumbrian, the lack of palatalization of velars, is still evident in doublets between Scots and Modern English such as kirk / "church", brig / "bridge", kist / "chest", yeuk / "itch" (OE ġyċċan < PGmc jukjaną). (However, most of the phonetic differences between Scots and Modern English postdate the Old English period: see Phonological history of Scots for more details.)
+
+
+== Summary of vowel developments ==
+
+NOTE: Another version of this table is available at Phonological history of English#Through Middle English. This covers the same changes from a more diachronic perspective. It includes less information on the specific differences between the Anglian and West Saxon dialects of Old English, but includes much more information on the Proto-Indo-European changes leading up to the vowels below, and the Middle English vowels that resulted from them.
+NOTE: This table only describes the changes in accented syllables. Vowel changes in unaccented syllables were very different and much more extensive. In general, long vowels were reduced to short vowels (and sometimes deleted entirely) and short vowels were very often deleted. All remaining vowels were reduced to only the vowels /u/, /a/ and /e/, and sometimes /o/. (/o/ also sometimes appears as a variant of unstressed /u/.)
+
+
+== Changes leading up to Middle and Modern English ==
+For a detailed description of the changes between Old English and Middle/Modern English, see the article on the phonological history of English. A summary of the main vowel changes is presented below. Note that the spelling of Modern English largely reflects Middle English pronunciation. Note also that this table presents only the general developments. Many exceptional outcomes occurred in particular environments, e.g. vowels were often lengthened in late Old English before /ld, nd, mb/; vowels changed in complex ways before /r/, throughout the history of English; vowels were diphthongized in Middle English before /h/; new diphthongs arose in Middle English by the combination of vowels with Old English w, g /ɣ/ > /w/, and ġ /j/; etc. The only conditional development considered in detail below is Middle English open-syllable lengthening. Note that, in the column on modern spelling, CV means a sequence of a single consonant followed by a vowel.
+NOTE: In this table, abbreviations are used as follows:
+
+Note that the Modern English vowel usually spelled au (British /ɔː/, American /ɔ/) does not appear in the above chart. Its main source is late Middle English /au/, which come from various sources: Old English aw and ag ("claw" < clawu, "law" < lagu); diphthongization before /h/ ("sought" < sōhte, "taught" < tāhte, "daughter" < dohtor); borrowings from Latin and French ("fawn" < Old French faune, "Paul" < Latin Paulus). Other sources are Early Modern English lengthening of /a/ before /l/ ("salt, all"); occasional shortening and later re-lengthening of Middle English /ɔː/ ("broad" < /brɔːd/ < brād); and in American English, lengthening of short o before unvoiced fricatives and voiced velars ("dog, long, off, cross, moth", all with /ɔ/ in American English, at least in dialects that still maintain the difference between /a/ and /ɔ/).
+As mentioned above, Modern English is derived from the Middle English of London, which is derived largely from Anglian Old English, with some admixture of West Saxon and Kentish. One of the most noticeable differences among the dialects is the handling of original Old English /y/. By the time of the written Old English documents, the Old English of Kent had already unrounded /y/ to /e/, and the late Old English of Anglia unrounded /y/ to /i/. In the West Saxon area, /y/ remained as such well into Middle English times, and was written u in Middle English documents from this area. Some words with this sound were borrowed into London Middle English, where the unfamiliar /y/ was substituted with /u/. Hence:
+
+"gild" < gyldan, "did" < dyde, "sin" < synn, "mind" < mynd, "dizzy" < dysiġ "foolish", "lift" < lyft "air", etc. show the normal (Anglian) development.
+"much" < myċel shows the West Saxon development.
+"merry" < myriġ shows the Kentish development.
+"build" < byldan and "busy" < bysiġ have their spelling from West Saxon but pronunciation from Anglian.
+"bury" /ˈbɛri/ < byrġan has its spelling from West Saxon but its pronunciation from Kentish.Note that some apparent instances of modern e for Old English y are actually regular developments, particularly where the y is a development of earlier (West Saxon) ie from i-mutation of ea, as the normal i-mutation of ea in Anglian is e; for example, "stern" < styrne < *starnijaz, "steel" < stȳle < *stahliją (cf. Old Saxon stehli). Also, some apparent instances of modern u for Old English y may actually be due to the influence of a related form with unmutated u, e.g. "sundry" < syndriġ, influenced by sundor "apart, differently" (cf. "to sunder" and "asunder").
+
+
+== Notes ==
+
+
+== References ==

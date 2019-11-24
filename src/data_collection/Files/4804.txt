@@ -1,0 +1,189 @@
+Title: Hamiltonian matrix
+Aspects: {'H-matrix'}
+
+In mathematics, a Hamiltonian matrix is a 2n-by-2n matrix A such that JA is symmetric, where J is the skew-symmetric matrix
+
+  
+    
+      
+        J
+        =
+        
+          
+            [
+            
+              
+                
+                  0
+                
+                
+                  
+                    I
+                    
+                      n
+                    
+                  
+                
+              
+              
+                
+                  −
+                  
+                    I
+                    
+                      n
+                    
+                  
+                
+                
+                  0
+                
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle J={\begin{bmatrix}0&I_{n}\\-I_{n}&0\\\end{bmatrix}}}
+  and In is the n-by-n identity matrix. In other words, A is Hamiltonian if and only if (JA)T = JA where ()T denotes the transpose.
+
+
+== Properties ==
+Suppose that the 2n-by-2n matrix A is written as the block matrix
+
+  
+    
+      
+        A
+        =
+        
+          
+            [
+            
+              
+                
+                  a
+                
+                
+                  b
+                
+              
+              
+                
+                  c
+                
+                
+                  d
+                
+              
+            
+            ]
+          
+        
+      
+    
+    {\displaystyle A={\begin{bmatrix}a&b\\c&d\end{bmatrix}}}
+  where a, b, c, and d are n-by-n matrices. Then the condition that A be Hamiltonian is equivalent to requiring that the matrices b and c are symmetric, and that a + dT = 0. Another equivalent condition is that A is of the form A = JS with S symmetric.It follows easily from the definition that the transpose of a Hamiltonian matrix is Hamiltonian. Furthermore, the sum (and any linear combination) of two Hamiltonian matrices is again Hamiltonian, as is their commutator. It follows that the space of all Hamiltonian matrices is a Lie algebra, denoted sp(2n). The dimension of sp(2n) is 2n2 + n. The corresponding Lie group is the symplectic group Sp(2n). This group consists of the symplectic matrices, those matrices A which satisfy ATJA = J. Thus, the matrix exponential of a Hamiltonian matrix is symplectic. However the logarithm of a symplectic matrix is not necessarily Hamiltonian because the exponential map from the Lie algebra to the group is not surjective.The characteristic polynomial of a real Hamiltonian matrix is even. Thus, if a Hamiltonian matrix has λ as an eigenvalue, then −λ, λ* and −λ* are also eigenvalues. It follows that the trace of a Hamiltonian matrix is zero.
+The square of a Hamiltonian matrix is skew-Hamiltonian (a matrix A is skew-Hamiltonian if (JA)T = −JA). Conversely, every skew-Hamiltonian matrix arises as the square of a Hamiltonian matrix.
+
+
+== Extension to complex matrices ==
+The definition for Hamiltonian matrices can be extended to complex matrices in two ways. One possibility is to say that a matrix A is Hamiltonian if (JA)T = JA, as above. Another possibility is to use the condition (JA)* = JA where ()* denotes the conjugate transpose.
+
+
+== Hamiltonian operators ==
+Let V be a vector space, equipped with a symplectic form Ω. A linear map 
+  
+    
+      
+        A
+        :
+        
+        V
+        ↦
+        V
+      
+    
+    {\displaystyle A:\;V\mapsto V}
+   is called a Hamiltonian operator with respect to Ω if the form  
+  
+    
+      
+        x
+        ,
+        y
+        ↦
+        Ω
+        (
+        A
+        (
+        x
+        )
+        ,
+        y
+        )
+      
+    
+    {\displaystyle x,y\mapsto \Omega (A(x),y)}
+   is symmetric. Equivalently, it
+should satisfy
+
+  
+    
+      
+        Ω
+        (
+        A
+        (
+        x
+        )
+        ,
+        y
+        )
+        =
+        −
+        Ω
+        (
+        x
+        ,
+        A
+        (
+        y
+        )
+        )
+      
+    
+    {\displaystyle \Omega (A(x),y)=-\Omega (x,A(y))}
+  Choose a basis e1, …, e2n in V,  such that Ω is written as 
+  
+    
+      
+        
+          ∑
+          
+            i
+          
+        
+        
+          e
+          
+            i
+          
+        
+        ∧
+        
+          e
+          
+            n
+            +
+            i
+          
+        
+      
+    
+    {\displaystyle \sum _{i}e_{i}\wedge e_{n+i}}
+  . A linear operator is Hamiltonian with respect to Ω if and only if its matrix in this basis is Hamiltonian.
+
+
+== References ==

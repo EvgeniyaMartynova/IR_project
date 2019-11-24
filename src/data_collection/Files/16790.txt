@@ -1,0 +1,56 @@
+Title: Zork I
+Aspects: {'Z1'}
+
+Zork: The Great Underground Empire - Part I, later known as Zork I, is an interactive fiction video game written by Marc Blank, Dave Lebling, Bruce Daniels, and Tim Anderson and published by Infocom in 1980. It was the first game in the Zork trilogy and was released for a wide range of computer systems, followed by Zork II and Zork III. It was Infocom's first game, and sold 378,000 copies by 1986.
+
+
+== Gameplay ==
+The game takes place in the Zork calendar year 948 GUE (although the passage of time is not notable in gameplay). The player steps into the deliberately vague role of an "adventurer". The game begins near a white house in a small, self-contained area. Although the player is given little instruction, the house provides an obvious point of interest.
+When the player enters the house, it yields a number of intriguing objects, including a brass, battery-powered lantern, an empty trophy case, and an Elvish sword of great antiquity. Beneath the rug a trap door leads down into a dark cellar, which is revealed to be one of several entrances to a vast subterranean land known as the Great Underground Empire. The player soon encounters a colorful host of dangerous enemies, including deadly grues who only prey on their victims in the dark, an axe-wielding troll, a giant cyclops who flees in terror at the mention of Odysseus, a vampire bat that can drop the player anywhere in the mine if encountered, evil spirits guarding the Entrance to Hades, and a nimble-fingered thief armed with a stiletto who makes mapping the maze difficult by removing or scattering any items that the player might drop to leave a trail.
+The ultimate goal of Zork I is to collect the Twenty Treasures of Zork and install them in the trophy case. Finding the treasures requires solving a variety of puzzles such as the navigation of two complex mazes and some intricate manipulations at Flood Control Dam #3.Placing all of the treasures into the trophy case scores the player 350 points and grants the rank of "Master Adventurer." An ancient map with further instructions then magically appears in the trophy case. These instructions provide access to a stone barrow. The entrance to the barrow is the end of Zork I and the beginning of Zork II.There are 28 ways for the player to die. It is possible to score all 350 points in 223 moves (and win the game completely in 228 moves) by exploiting a bug.
+
+
+== Feelies ==
+Infocom did not begin their tradition of including feelies, or extra items related to a game, until the 1982 release Deadline. Later re-releases of the game, however, were packaged with:
+
+The booklet The Great Underground Empire: A History, by "Froboz Mumbar"
+A map roughly corresponding to a portion of the game's areaAlthough the back of the Zork I "Grey box" depicted a zorkmid coin included with the other feelies, production difficulties led to the coins' omission from the packages. Zorkmid coins were not included as feelies until the release of the Zork Trilogy boxed set.
+
+
+== Release ==
+The original version of Zork I was published by Personal Software and simply called Zork. It was distributed in clear plastic bags containing only the game disk and a 36-page booklet. Infocom's first "self-published" version of Zork I was in the so-called "Folio" format which included a single piece of paper describing how to run the game. The feelies noted above were only introduced when Zork I was re-released in the "Grey box" format.
+
+
+== Notes ==
+
+The opening text of Zork I is among the most notable descriptions in video games:
+
+West of House
+You are standing in an open field west of a white house, with a boarded front door.
+There is a small mailbox here.This is quite simplistic when compared to Infocom's later games, many of which started with screens full of introductory text.
+Several of the game's situations and descriptions have become iconic within the field of interactive fiction, such as the brass lantern and the "Elvish sword of great antiquity".
+Zork I also introduced the notable grue, a "sinister, lurking presence" who kills adventurers who go exploring in the dark. Grues appeared (or, at least, were mentioned) in many subsequent Infocom adventures, right up to the 1997 graphic adventure Zork Grand Inquisitor, published by Activision.
+
+
+== Reception ==
+
+Zork I's sales surprised Infocom by rising, not falling, over time; many dealers sold the game as an essential accessory to those purchasing new computers, including the DEC Rainbow,  TI Professional, and others that most people did not see as game machines. It was the best-selling game of 1982, with 32,000 copies sold by the first half of that year; almost 100,000 copies in 1983,—Inc. reported that the game had been a best seller for four years—more than 150,000 copies in 1984, comprising more than 20% of Infocom's sales that year; and a total of 378,987 copies by 1986. InfoWorld reported in April 1984 that Zork I "has returned to the top of the sales charts two years after its release". Based on sales and market-share data, Video listed it fifth on the magazine's list of best selling video games in both February and March 1985, and II Computing listed Zork I fourth on the magazine's overall list of top Apple II software as of October–November 1985, and first on the games list.BYTE declared in 1981 that "No single advance in the science of Adventure has been as bold and exciting" as Zork. The magazine praised the sophisticated parser and quality of writing, stating, "That the program is entertaining, eloquent, witty, and precisely written is almost beside the point ... Zork can be felt and touched—experienced, if you will—through the care and attention to detail the authors have rendered." It concluded, "Somebody, please, let me know when [the sequel is] done." Jerry Pournelle wrote in the magazine in 1983 that he played the game with his sons, stating that "If you liked Adventure and wanted more after you solved the Colossal Cave, I guarantee you'll love Zork". Jon Mishcon reviewed Zork in The Space Gamer No. 40. Mishcon commented that "Other than the absence of graphics, this game has no weak points I can find. Although [the price] is expensive I believe this is a first rate game and well worth every penny." 80 Micro called Zork "complicated and sophisticated ... a joy to play". It praised the documentation ("Take it from a rank amateur; these instructions are clear and easy to follow"), and wondered if the game could be solved because "the program lets you do pretty much what you want to do, even if the consequences are much less than desirable, it leaves open marvelous opportunities". The magazine concluded by hoping that "we can expect a second part sometime soon". The Addison-Wesley Book of Atari Software 1984 gave the game an overall A+ rating, calling it "THE definitive adventure game".In 1992, Computer Gaming World added Zork I to its Hall of Fame, waiving the normal criteria "in favor of honoring this venerable classic." In 1996, the magazine listed Zork I at #13 among the top 150 best games of all-time. The editors wrote, "This seminal Infocom text adventure combined challenging puzzles, wonderful descriptive prose, and a touch of humor to create a rich universe that existed not in SVGA graphics, but within your head." On March 12, 2007, The New York Times reported that it was named to a list of the ten most important video games of all time, the so-called game canon. The Library of Congress took up a video game preservation proposal and began with the games from this list, including Zork.
+
+
+== Legacy ==
+Zork I was one of five Infocom games that were re-released in Solid Gold format with in-game hints.
+Infocom allowed the distribution of the early Fortran version, therefore source code is available. Various Public domain software ports are available in various repositories.There is also an abridged version, called Mini-Zork I, dated November 24, 1987. Mini-Zork was released free of charge as a promotion.
+A German language version was developed, but never released. An unfinished version of this story file, dated January 13, 1988, has made its way into public circulation. The German is evidently non-native, containing many spelling and grammar errors. It is known that Jeff O'Neill worked on this version.
+A remastered version of Zork I: The Great Underground Empire (ZORK I(ゾーク ワン) ザー グレート アンダグラウンド エンパイアー, Zōku Wan Zā Gurēto Andaguraundo Enpaiā) was first released by Japanese software development company SystemSoft for the NEC PC-9801 in March 1991. There are differences in this enhanced remake: the game recognizes verb commands typed in kana (Japanese syllable system) or Latin alphabet. For convenience, some of the most common verb commands (Look, Take, etc.) can be accessed by pressing a corresponding button, but the player still has to type the name of an object. This remake also helps the player to interact with the environment by displaying a list of objects after the player has typed a command.  Also, unlike the original, the remake contains enhanced graphics, especially in the list of objects on which the text is super-imposed. Another remastered version was released by Activision and Shoeisha in Japan for the Sega Saturn and PlayStation in 1996. This version also includes graphics (with the interfaces of Lucasfilm's and Legend's early entries in particular), sound effects, auto-mapping, and music by Yuzo Koshiro. Neither version was ever released outside Japan.
+The game is playable in Call of Duty: Black Ops with the code "ZORK". To do this, Mason (the main character) needs to get up from the chair. PlayStation 3 and Xbox 360 users need to pull L2 and R2 (LT and RT on Xbox 360) rapidly. Windows players need to press the space bar rapidly and Wii players must shake the controls (Wiimote + nunchuck control scheme). After Mason gets up from his chair, he must walk to the left and use the old computer, which is behind the chair. To play Zork, type "zork" into the command prompt. An achievement/trophy is also awarded for putting in the code.
+
+
+== References ==
+
+
+== External links ==
+Zork: The Great Underground Empire at MobyGames
+Zork I can be played for free in the browser at the Internet Archive
+Infocom-if.org's entry for Zork I
+Zork I Technical Info and Screenshot
+The Infocom Bugs List entry for Zork I

@@ -1,0 +1,121 @@
+Title: Fiber-Optic Link Around the Globe
+Aspects: {'FA1'}
+
+Fiber-Optic Link Around the Globe (FLAG) is a 28,000 kilometres (17,400 miles; 15,120 nautical miles) long fibre optic mostly-submarine communications cable that connects the United Kingdom, Japan, India, and many places in between.  The cable is operated by Global Cloud Xchange.  The system runs from the eastern coast of North America to Japan.  Its Europe-Asia segment was the fourth longest cable in the world in 2008.The Europe-Asia segment was laid by Cable & Wireless Marine in the mid-1990s, and was the subject of an article in Wired magazine in December 1996 by Neal Stephenson.
+
+
+== Description ==
+The FLAG cable system was first placed into commercial service in late 1997.  FLAG offered a speed of 10 Gbit/s, and uses synchronous digital hierarchy technology.  It carries over 120,000 voice channels via 27,000 kilometres (16,780 miles; 14,580 nautical miles) of mostly undersea cable.  FLAG uses erbium-doped fiber amplifiers, and was jointly supplied by AT&T Submarine Systems and KDD-Submarine Cable Systems.  Its design, development, installation, and service conformed to ISO 9000 quality standards.  FLAG provided a link between the European end of high-density transatlantic crossings and the Asian end of the transpacific crossings.FLAG includes undersea cable segments, and two terrestrial crossings.  The segments can be either direct point-to-point links, or multipoint links, which are attained through branching units.  At each cable landing point, a FLAG cable station is located.  The total route length exceeds 27,000 kilometres (16,780 miles; 14,580 nautical miles), and comprises 1,020 kilometres (634 miles) of terrestrial crossings.  Approximately 6,600 kilometres (4,100 miles; 3,560 nautical miles) of the submerged cable is buried 1 metre (3 feet 3 inches) below the sea bed.  Cable burial was performed by either a submersible plough as the cable was laid, or jetting the laid cable into the sea bed via remotely operated vehicles (ROVs).Over several years, the route evolved as new branches and feeder systems were considered and realised.  FLAG includes two terrestrial crossings, one in Egypt, and the other in Thailand.  Each of these land crossings is totally duplicated on fully different routes.  As a result, any fault within one route will cause automatic protection switching to the other route within a time period of less than 50 ms.Like other global undersea networks, FLAG uses erbium-doped fibre amplifiers (EDFAs).  EDFAs boost the optical signals instead of the optical/electrical conversion, which is generally used in regenerative technology.  These optical amplifiers use short, gain-specific lengths of fibre which are doped with erbium ions, and spliced in-line with the transmission fibre.  The signal power is amplified by pumping the erbium-doped fibre (EDF) with 1,480 nm laser light which is attached through an optical coupler.  The majority of the repeater components are passive.  These include EDF, fused-fibre optical couplers and optical isolators.  Active components include laser pump assemblies, and associated controls.  The total number of components within the repeater is lesser than that of regenerative systems.The FLAG terrestrial crossings do not contain repeaters for reliability reasons.  The terminal stations in land crossings use optical amplifiers, high performance transmitter / receivers, and forward error correction to cross the large distances without repeaters.  Amplification at the terminal output provides output signal power as high as +17 dBm, and optical amplification at the receiver improves the receiver sensitivity as much as 8 dB.The route between Alexandria and Cairo is 223 kilometres (139 miles) long, and hence requires remote pumping in order to meet performance requirements.  Remotely pumped amplifiers can be regarded as repeaters without active modules.  This technology comprises short lengths of EDF spliced into the land cable.  The erbium-doped sections are situated within the cable span, and are pumped by 1,480 nm pump lasers which are based at the station.An upgrade to the network was announced in 2006, when the acronym was expanded to "Fibre Loop Across Globe" (FLAG).
+
+
+== Segments and landing points ==
+Cable landing points are:
+
+
+=== Europe Asia ===
+
+FLAG Europe Asia (FEA) was the first segment opened for commercial use on 22 November 1997.
+Porthcurno / Skewjack, Cornwall, England, United Kingdom
+Estepona, Málaga, Andalusia, Spain
+Palermo, Province of Palermo, Sicily, Italy
+Alexandria, Al Iskandariyah Governorate, Egypt
+Cairo, Egypt
+Suez, As Suways Governorate, Egypt
+Aqaba, Aqaba Governorate, Jordan
+Jeddah, Makkah Province, Saudi Arabia
+Fujairah, United Arab Emirates
+Mumbai, Maharashtra, India
+Penang, Malaysia, meeting SAFE and SEA-ME-WE 3
+Satun, Satun Province, Thailand
+Songkhla, Songkhla province, Thailand
+Silvermine Bay, Lantau Island, Hong Kong
+Nanhui, Shanghai, China
+Keoje, South Gyeongsang Province, South Korea
+Ninomiya, Kanagawa Prefecture, Japan
+Miura, Kanagawa, Kanagawa Prefecture, Japan
+
+
+=== Atlantic ===
+The FLAG Atlantic 1 (FA-1) segment became operational in June 2001.  It was constructed as a joint venture between a FLAG Atlantic subsidiary of the parent company FLAG Telecom Holdings, and GTS Transatlantic.  Alcatel Submarine Networks laid the undersea portion, and the entire cost was estimated at $1.1 billion.
+New York City, New York, United States
+Northport, Suffolk County, New York, United States
+Island Park, Nassau County, New York, United States
+Porthcurno / Skewjack, Cornwall, England, UK
+London, England, UK
+Plérin, Côtes-d'Armor, Brittany, France
+Paris, FranceIn March 2013, an upgrade for the southerly link was announced to up to 100 Gbit/s, with equipment from Ciena.
+
+
+=== FLAG Alcatel-Lucent Optical Network ===
+The FLAG Alcatel-Lucent Optical Network (FALCON) cable system, connecting India and several countries in the Persian Gulf, became operational in September 2006.  It has landing points in:
+Suez, As Suways Governorate, Egypt
+Aqaba, Jordan
+Jeddah, Makkah Province, Saudi Arabia
+Port Sudan, Sudan
+Al Hudaydah, Yemen
+Al Ghaydah, Yemen
+Al Seeb, Muscat, Oman
+Khasab, Oman
+Dubai, United Arab Emirates
+Sumaisma, Doha, Qatar
+Manama, Bahrain
+Al Khobar, Saudi Arabia
+Al-Safat, Kuwait City, Kuwait
+Al-Faw, Iraq
+Bandar Abbas, Iran
+Chabahar, Iran
+Mumbai, IndiaThere is an additional segment, listed as part of FALCON, but not directly connected.  It has landing points in:
+Thiruvananthapuram, India
+Hulumale, Malé, the Maldives
+Colombo, Sri LankaIn 2006, Kenya Data Networks announced plans for a spur from Yemen to Mombasa.
+
+
+=== FLAG North Asia Loop / Tiger ===
+FLAG North Asia Loop (FNAL) / Tiger became operational in stages, with the final stages completed in 2002.  The FNAL landing points are:
+Tong Fuk, Lantau Island, Hong Kong
+Toucheng, Yilan County, Taiwan
+Busan, Yeongnam, South Korea
+Wada, Awa District, Chiba Prefecture, JapanWest of Mumbai, FLAG has a capacity of 80 Gbit/s.
+The segment between Lantau, Hong Kong, and Busan, South Korea was broken by the 2006 Hengchun earthquake.
+
+
+== Disruptions ==
+
+
+=== December 2006 and January 2007 ===
+The 2006 Hengchun earthquake on 26 December 2006, off the southwest coast of Taiwan, disrupted internet services in Asia, affecting many Asian countries.  Financial transactions, particularly in the foreign exchange market were seriously affected as well.  The disruption was caused by damage to several submarine communications cables.
+
+
+=== January and February 2008 ===
+
+On 30 January 2008, internet services were widely disrupted in the Middle East and in the Indian subcontinent following damage to the SEA-ME-WE 4 and FLAG cables in the Mediterranean Sea.  BBC News Online reported 70% disruption in Egypt and 60% disruption in India.  Problems were reported in Bahrain, Bangladesh, Kuwait, Pakistan, Qatar, Saudi Arabia, and United Arab Emirates.  The respective contributions of the two cable systems to this blackout is unclear.  Network outage graphs suggest that the two breaks occurred at 04:30 and 08:00 UTC.The cause of the damage was not declared by either cable operator, but news sources speculated the damage was caused by a ship's anchor near Alexandria.  According to the Agence France-Presse, the Kuwaiti government attributed the breaks to "weather conditions and maritime traffic".  The New York Times reported that the damage occurred to the two systems separately near Alexandria and near Marseilles.  Egypt knew of "no passing ships" near Alexandria which has restricted waters.One day later, on 1 February 2008, the FALCON cable was also reported cut 56 kilometres (35 miles; 30 nautical miles) off Dubai.  The first of two repair ships was in place by 5 February.
+
+
+=== December 2008 ===
+On 19 December 2008, internet services were widely disrupted in the Middle East, and in the Indian subcontinent, following damage to the SEA-ME-WE 4, SEA-ME-WE 3, and FLAG FEA  cables in the Mediterranean Sea.It is not known what has caused these multiple breaks, however, there was seismic activity in the Malta area shortly before the breaks were identified, although it is thought that the damage may be due to a ship's anchor or trawler net.According to FEA Cable System of Reliance Globalcom, the failure lay between Alexandria and Palermo.  Reliance Globalcom completed the repair on the FLAG EUROPE ASIA (FEA) cable on 29 December 2008, at 14:15 GMT.  Customer services that were affected due to the cable cut have been restored back normal with the completion of repairs.
+
+
+=== August 2009 ===
+Damage to FNAL caused by Typhoon Morakot was reported as affecting internet traffic to China on 18 August 2009.
+
+
+== GCHQ interception ==
+In 2014, it was revealed that Skewjack was the location of the Government Communications Headquarters (GCHQ) interception point on the Reliance Communications international fibre link, copying data to GCHQ Bude, as part of GCHQ's Mastering the Internet project.
+
+
+== See also ==
+
+Reach North Asia Loop (RNAL), cable network developed jointly by Reach and FLAG Telecom
+List of international submarine communications cablesOther cable systems following a substantially similar route to FLAG Europe-Asia (FEA) are:
+
+Europe-India Gateway (EIG)
+I-ME-WE
+SEA-ME-WE 3
+SEA-ME-WE 4
+
+
+== References ==
+
+
+== External links ==
+FlagTelecom.com — official FLAG website

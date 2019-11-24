@@ -1,0 +1,31 @@
+Title: Double-flowered
+Aspects: {'Yae'}
+
+"Double-flowered" describes varieties of flowers with extra petals, often containing flowers within flowers. The double-flowered trait is often noted alongside the scientific name with the abbreviation fl. pl. (flore pleno, a Latin ablative form meaning "with full flower"). The first abnormality to be documented in flowers, double flowers are popular varieties of many commercial flower types, including roses, camellias and carnations. In some double-flowered varieties all of the reproductive organs are converted to petals — as a result, they are sexually sterile and must be propagated through cuttings. Many double-flowered plants have little wildlife value as access to the nectaries is typically blocked by the mutation.
+
+
+== History ==
+Double flowers are the earliest documented form of floral abnormality, first recognized more than two thousand years ago. Theophrastus mentioned double roses in his Enquiry into Plants, written before 286 BC. Pliny also described double roses in 1st century BC. In China, double peonies were known and selected by around 750 AD, and around 1000 AD double varieties of roses were cultivated to form the China rose (one of the ancestors of modern hybrid tea roses). Today, most cultivated rose varieties bear this double-flower trait.
+
+Herbalists of the Renaissance recognized double flowers and began to cultivate them in their gardens—Rembert Dodoens published a description of double flowers in 1568, and John Gerard created illustrations of many double flowers beside their wild-type counterparts in 1597. A double-flowered variety of Marsh Marigold was discovered and cultivated in Austria in the late 16th century, becoming a valued garden plant.The first documented double-flowered mutant of Arabidopsis, a model organism for plant development and genetics, was recorded in 1873. The mutated gene likely responsible for the phenotype, AGAMOUS, was cloned and characterized in 1990 in Elliot Meyerowitz's lab as part of his study of molecular mechanisms of pattern formation in flowers.
+
+
+== Genetics of double-flower mutations ==
+
+Double-flower forms often arise when some or all of the stamens in a flower are replaced by petals. These types of mutations, where one organ in a developing organism is replaced with another, are known as homeotic mutations. They are usually recessive, although the double flower mutation in carnations exhibits incomplete dominance.In Arabidopsis, which has been used as a model for understanding flower development, the double-flower gene AGAMOUS encodes a protein responsible for tissue specification of stamen and carpel flower segments. When both copies of the gene are deleted or otherwise damaged, developing flowers lack the signals to form stamen and carpel segments. Regions which would have formed stamens instead default to petals and the carpel region develops into a new flower, resulting in a recursive sepal-petal-petal pattern. Because no stamens and carpels form, the plants have no reproductive organs and are sexually sterile.
+Mutations affecting flower morphology in Arabidopsis can be described by the ABC model of flower development. In this model, genes involved in flower formation belong to one of three classes of genes: A class genes which affect sepal and petal formation, B class genes which affect petal and stamen formation, and C class genes which affect stamen and carpel formation. These genes are expressed in certain regions of the developing flower and are responsible for development of organs in those regions. Agamous is a C class gene, a transcription factor responsible for activating genes involved in stamen and carpel development.
+
+
+== Gallery ==
+
+		
+		
+		
+		
+		
+
+
+== References ==
+
+
+== External links ==

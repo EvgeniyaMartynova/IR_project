@@ -1,0 +1,51 @@
+Title: Partially ordered group
+Aspects: {'L-group'}
+
+In abstract algebra, a partially ordered group is a group (G,+) equipped with a partial order "≤" that is translation-invariant; in other words, "≤" has the property that, for all a, b, and g in G, if a ≤ b then a + g ≤ b + g and g + a ≤ g + b.
+An element x of G is called positive element if 0 ≤ x. The set of elements 0 ≤ x is often denoted with G+, and it is called the positive cone of G. So we have a ≤ b if and only if -a + b ∈ G+.
+By the definition, we can reduce the partial order to a monadic property: a ≤ b if and only if 0 ≤ -a + b.
+For the general group G, the existence of a positive cone specifies an order on G. A group G is a partially ordered group if and only if there exists a subset H (which is G+) of G such that:
+
+0 ∈ H
+if a ∈ H and b ∈ H then a + b ∈ H
+if a ∈ H then -x + a + x ∈ H for each x of G
+if a ∈ H and -a ∈ H then a = 0A partially ordered group G with positive cone G+ is said to be unperforated if n · g ∈ G+ for some positive integer n implies g ∈ G+. Being unperforated means there is no "gap" in the positive cone G+.
+If the order on the group is a linear order, then it is said to be a linearly ordered group.
+If the order on the group is a lattice order, i.e. any two elements have a least upper bound, then it is a lattice-ordered group (shortly l-group, though usually typeset with a script l: ℓ-group).
+A Riesz group is an unperforated partially ordered group with a property slightly weaker than being a lattice ordered group. Namely, a Riesz group satisfies the Riesz interpolation property: if x1, x2, y1, y2 are elements of G and xi ≤ yj, then there exists z ∈ G such that xi ≤ z ≤ yj.
+If G and H are two partially ordered groups, a map from G to H is a morphism of partially ordered groups if it is both a group homomorphism and a monotonic function. The partially ordered groups, together with this notion of morphism, form a category.
+Partially ordered groups are used in the definition of valuations of fields.
+
+
+== Examples ==
+The integers
+An ordered vector space is a partially ordered group
+A Riesz space is a lattice-ordered group
+A typical example of a partially ordered group is Zn, where the group operation is componentwise addition, and we write (a1,...,an) ≤ (b1,...,bn) if and only if ai ≤ bi (in the usual order of integers) for all i = 1,..., n.
+More generally, if G is a partially ordered group and X is some set, then the set of all functions from X to G is again a partially ordered group: all operations are performed componentwise. Furthermore, every subgroup of G is a partially ordered group: it inherits the order from G.
+If A is an approximately finite-dimensional C*-algebra, or more generally, if A is a stably finite unital C*-algebra, then K0(A) is a partially ordered abelian group. (Elliott, 1976)
+
+
+== See also ==
+Partially ordered ring
+Linearly ordered group
+Cyclically ordered group
+Integrally closed ordered group
+
+
+== References ==
+M. Anderson and T. Feil, Lattice Ordered Groups: an Introduction, D. Reidel, 1988.
+M. R. Darnel, The Theory of Lattice-Ordered Groups, Lecture Notes in Pure and Applied Mathematics 187, Marcel Dekker, 1995.
+L. Fuchs, Partially Ordered Algebraic Systems, Pergamon Press, 1963.
+A. M. W. Glass, Ordered Permutation Groups, London Math. Soc. Lecture Notes Series 55, Cambridge U. Press, 1981.
+V. M. Kopytov and A. I. Kokorin (trans. by D. Louvish), Fully Ordered Groups, Halsted Press (John Wiley & Sons), 1974.
+V. M. Kopytov and N. Ya. Medvedev, Right-ordered groups, Siberian School of Algebra and Logic, Consultants Bureau, 1996.
+V. M. Kopytov and N. Ya. Medvedev, The Theory of Lattice-Ordered Groups, Mathematics and its Applications 307, Kluwer Academic Publishers, 1994.
+R. B. Mura and A. Rhemtulla, Orderable groups, Lecture Notes in Pure and Applied Mathematics 27, Marcel Dekker, 1977.
+T.S. Blyth, Lattices and Ordered Algebraic Structures, Springer, 2005, ISBN 1-85233-905-5, chap. 9.
+G.A. Elliott, On the classification of inductive limits of sequences of semisimple finite-dimensional algebras, J. Algebra, 38 (1976)29-44.
+
+
+== External links ==
+"Partially Ordered Group". Encyclopedia of Mathematics. Retrieved 2009-04-03.
+http://www.encyclopediaofmath.org/index.php/Lattice-ordered_group

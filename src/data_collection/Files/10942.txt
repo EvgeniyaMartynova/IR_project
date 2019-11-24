@@ -1,0 +1,650 @@
+Title: Q-value (statistics)
+Aspects: {'Q value'}
+
+In statistical hypothesis testing, specifically multiple hypothesis testing, the q-value provides a means to control the positive false discovery rate (pFDR). Just as the p-value gives the expected false positive rate obtained by rejecting the null hypothesis for any result with an equal or smaller p-value, the q-value gives the expected pFDR obtained by rejecting the null hypothesis for any result with an equal or smaller q-value.
+
+
+== History ==
+In statistics, testing multiple hypotheses simultaneously using methods appropriate for testing single hypotheses tends to yield many false positives: the so-called multiple comparisons problem. For example, assume that one were to test 1,000 null hypotheses, all of which are true, and (as is conventional in single hypothesis testing) to reject null hypotheses with a significance level of 0.05; due to random chance, one would expect 5% of the results to appear significant (P < 0.05), yielding 50 false positives (rejections of the null hypothesis). Since the 1950s, statisticians had been developing methods for multiple comparisons that reduced the number of false positives, such as controlling the family-wise error rate (FWER) using the Bonferroni correction, but these methods also increased the number of false negatives (i.e. reduced the statistical power). In 1995, Yoav Benjamini and Yosef Hochberg proposed controlling the false discovery rate (FDR) as a more statistically powerful alternative to controlling the FWER in multiple hypothesis testing. The pFDR and the q-value were introduced by John D. Storey in 2002 in order to improve upon a limitation of the FDR, namely that the FDR is not defined when there are no positive results.
+
+
+== Definition ==
+Let there be a null hypothesis 
+  
+    
+      
+        
+          H
+          
+            0
+          
+        
+      
+    
+    {\displaystyle H_{0}}
+   and an alternative hypothesis 
+  
+    
+      
+        
+          H
+          
+            1
+          
+        
+      
+    
+    {\displaystyle H_{1}}
+  . Perform 
+  
+    
+      
+        m
+      
+    
+    {\displaystyle m}
+   hypothesis tests; let the test statistics be i.i.d. random variables 
+  
+    
+      
+        
+          T
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          T
+          
+            m
+          
+        
+      
+    
+    {\displaystyle T_{1},\ldots ,T_{m}}
+   such that 
+  
+    
+      
+        
+          T
+          
+            i
+          
+        
+        ∣
+        
+          H
+          
+            i
+          
+        
+        ∼
+        (
+        1
+        −
+        
+          H
+          
+            i
+          
+        
+        )
+        ⋅
+        
+          F
+          
+            0
+          
+        
+        +
+        
+          H
+          
+            i
+          
+        
+        ⋅
+        
+          F
+          
+            1
+          
+        
+      
+    
+    {\displaystyle T_{i}\mid H_{i}\sim (1-H_{i})\cdot F_{0}+H_{i}\cdot F_{1}}
+  . That is, if 
+  
+    
+      
+        
+          H
+          
+            0
+          
+        
+      
+    
+    {\displaystyle H_{0}}
+   is true for test 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+   (
+  
+    
+      
+        
+          H
+          
+            i
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle H_{i}=0}
+  ), then 
+  
+    
+      
+        
+          T
+          
+            i
+          
+        
+      
+    
+    {\displaystyle T_{i}}
+   follows the null distribution  
+  
+    
+      
+        
+          F
+          
+            0
+          
+        
+      
+    
+    {\displaystyle F_{0}}
+  ; while if 
+  
+    
+      
+        
+          H
+          
+            1
+          
+        
+      
+    
+    {\displaystyle H_{1}}
+   is true (
+  
+    
+      
+        
+          H
+          
+            i
+          
+        
+        =
+        1
+      
+    
+    {\displaystyle H_{i}=1}
+  ), then 
+  
+    
+      
+        
+          T
+          
+            i
+          
+        
+      
+    
+    {\displaystyle T_{i}}
+   follows the alternative distribution 
+  
+    
+      
+        
+          F
+          
+            1
+          
+        
+      
+    
+    {\displaystyle F_{1}}
+  . Let 
+  
+    
+      
+        
+          H
+          
+            i
+          
+        
+        ∼
+        Bernoulli
+        ⁡
+        (
+        
+          π
+          
+            1
+          
+        
+        )
+      
+    
+    {\displaystyle H_{i}\sim \operatorname {Bernoulli} (\pi _{1})}
+  , that is, for each test, 
+  
+    
+      
+        
+          H
+          
+            1
+          
+        
+      
+    
+    {\displaystyle H_{1}}
+   is true with probability 
+  
+    
+      
+        
+          π
+          
+            1
+          
+        
+      
+    
+    {\displaystyle \pi _{1}}
+   and 
+  
+    
+      
+        
+          H
+          
+            0
+          
+        
+      
+    
+    {\displaystyle H_{0}}
+   is true with probability 
+  
+    
+      
+        
+          π
+          
+            0
+          
+        
+        =
+        1
+        −
+        
+          π
+          
+            1
+          
+        
+      
+    
+    {\displaystyle \pi _{0}=1-\pi _{1}}
+  . Denote the critical region (the values of 
+  
+    
+      
+        
+          T
+          
+            i
+          
+        
+      
+    
+    {\displaystyle T_{i}}
+   for which 
+  
+    
+      
+        
+          H
+          
+            0
+          
+        
+      
+    
+    {\displaystyle H_{0}}
+   is rejected) at significance level 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+   by 
+  
+    
+      
+        
+          Γ
+          
+            α
+          
+        
+      
+    
+    {\displaystyle \Gamma _{\alpha }}
+  . Let an experiment yield a value 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+   for the test statistic. The q-value of 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+   is formally defined as
+
+  
+    
+      
+        
+          inf
+          
+            {
+            
+              Γ
+              
+                α
+              
+            
+            :
+            t
+            ∈
+            
+              Γ
+              
+                α
+              
+            
+            }
+          
+        
+        pFDR
+        ⁡
+        (
+        
+          Γ
+          
+            α
+          
+        
+        )
+      
+    
+    {\displaystyle \inf _{\{\Gamma _{\alpha }:t\in \Gamma _{\alpha }\}}\operatorname {pFDR} (\Gamma _{\alpha })}
+  That is, the q-value is the infimum of the pFDR if 
+  
+    
+      
+        
+          H
+          
+            0
+          
+        
+      
+    
+    {\displaystyle H_{0}}
+  is rejected for test statistics with values 
+  
+    
+      
+        ≥
+        t
+      
+    
+    {\displaystyle \geq t}
+  . Equivalently, the q-value equals
+
+  
+    
+      
+        
+          inf
+          
+            {
+            
+              Γ
+              
+                α
+              
+            
+            :
+            t
+            ∈
+            
+              Γ
+              
+                α
+              
+            
+            }
+          
+        
+        Pr
+        (
+        H
+        =
+        0
+        ∣
+        T
+        ∈
+        
+          Γ
+          
+            α
+          
+        
+        )
+      
+    
+    {\displaystyle \inf _{\{\Gamma _{\alpha }:t\in \Gamma _{\alpha }\}}\Pr(H=0\mid T\in \Gamma _{\alpha })}
+  which is the infimum of the probability that 
+  
+    
+      
+        
+          H
+          
+            0
+          
+        
+      
+    
+    {\displaystyle H_{0}}
+   is true given that 
+  
+    
+      
+        
+          H
+          
+            0
+          
+        
+      
+    
+    {\displaystyle H_{0}}
+   is rejected (the false discovery rate).
+
+
+== Relationship to the p-value ==
+The p-value is defined as
+
+  
+    
+      
+        
+          inf
+          
+            {
+            
+              Γ
+              
+                α
+              
+            
+            :
+            t
+            ∈
+            
+              Γ
+              
+                α
+              
+            
+            }
+          
+        
+        Pr
+        (
+        T
+        ∈
+        
+          Γ
+          
+            α
+          
+        
+        ∣
+        H
+        =
+        0
+        )
+      
+    
+    {\displaystyle \inf _{\{\Gamma _{\alpha }:t\in \Gamma _{\alpha }\}}\Pr(T\in \Gamma _{\alpha }\mid H=0)}
+  the infimum of the probability that 
+  
+    
+      
+        
+          H
+          
+            0
+          
+        
+      
+    
+    {\displaystyle H_{0}}
+   is rejected given that 
+  
+    
+      
+        
+          H
+          
+            0
+          
+        
+      
+    
+    {\displaystyle H_{0}}
+   is true (the false positive rate). Comparing the definitions of the p- and q-values, it can be seen that the q-value is the minimum posterior probability that 
+  
+    
+      
+        
+          H
+          
+            0
+          
+        
+      
+    
+    {\displaystyle H_{0}}
+   is true.
+
+
+== Interpretation ==
+The q-value can be interpreted as the false discovery rate (FDR): the proportion of false positives among all positive results. Given a set of test statistics and their associated q-values, rejecting the null hypothesis for all tests whose q-value is less than or equal to some threshold 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+   ensures that the expected value of the false discovery rate is 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  .
+
+
+== Applications ==
+
+
+=== Biology ===
+
+
+==== Gene expression ====
+Genome-wide analyses of differential gene expression involve simultaneously testing the expression of thousands of genes. Controlling the FWER (usually to 0.05) avoids excessive false positives (i.e. detecting differential expression in a gene that is not differentially expressed) but imposes a strict threshold for the p-value that results in many false negatives (many differentially expressed genes are overlooked). However, controlling the pFDR by selecting genes with significant q-values lowers the number of false negatives (increases the statistical power) while ensuring that the expected value of the proportion of false positives among all positive results is low (e.g. 5%).For example, suppose that among 10,000 genes tested, 1,000 are actually differentially expressed and 9,000 are not:
+
+If we consider every gene with a p-value of less than 0.05 to be differentially expressed, we expect that 450 (5%) of the 9,000 genes that are not differentially expressed will appear to be differentially expressed (450 false positives).
+If we control the FWER to 0.05, there is only a 5% probability of obtaining at least one false positive. However, this very strict criterion will reduce the power such that few of the 1,000 genes that are actually differentially expressed will appear to be differentially expressed (many false negatives).
+If we control the pFDR to 0.05 by considering all genes with a q-value of less than 0.05 to be differentially expressed, then we expect 5% of the positive results to be false positives (e.g. 900 true positives, 45 false positives, 100 false negatives, 8,955 true negatives). This strategy enables one to obtain relatively low numbers of both false positives and false negatives.
+
+
+== Implementations ==
+Note: the following is an incomplete list.
+
+
+=== R ===
+The qvalue package in R estimates q-values from a list of p-values.
+
+
+== References ==

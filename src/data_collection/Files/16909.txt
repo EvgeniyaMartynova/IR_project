@@ -1,0 +1,46 @@
+Title: Z22 (computer)
+Aspects: {'Z22'}
+
+The Z22 was the seventh computer model Konrad Zuse developed (the first six being the Z1, Z2, Z3, Z4, Z5 and Z11, respectively). One of the early commercial computers, the Z22's design was finished about 1955. The major version jump from Z11 to Z22 was due to the use of vacuum tubes, as opposed to the electromechanical systems used in earlier models. The first machines built were shipped to Berlin and Aachen.
+By the end of 1958 the ZMMD-group had built a working ALGOL 58 compiler for the Z22 computer. ZMMD was an abbreviation for  Zürich (where Rutishauser worked), München (workplace of Bauer and  Samelson), Mainz (location of the Z22 computer), Darmstadt (workplace of Bottenbruch).
+In 1961, the Z22 was followed by a logically very similar transistorized version, the Z23. Already in 1954 Zuse had come to an agreement with Heinz Zemanek that his Zuse KG would finance the work of Rudolf Bodo, who helped Zemanek build the early European transistorized computer Mailüfterl, and that after that project Bodo should work for the Zuse KG—there he helped build the transistorized Z23. Furthermore, all circuit diagrams of the Z22 were supplied to Bodo and Zemanek.
+The University of Applied Sciences, Karlsruhe  still has an operational Z22 which is on permanent loan at the ZKM in Karlsruhe.
+Altogether 55 Z22 computers were produced.In the 1970s, clones of the Z22 using TTL were built by the company Thiemicke Computer.
+
+
+== Technical data ==
+The typical setup of a Z22 was:
+
+14 words of 38-bit as fast access RAM implemented as core memory
+8192 word (38-bit each) magnetic drum memory as RAM
+One teletype as console and main input/output device
+Additional punch tape devices as fast input/output devices
+600 tubes working as flip-flops
+electrical cooling unit, needing a water tap connection (water cooling, so to say)
+380V 16A three phase power supplyThe Z22 operated at 3kHz operating frequency, which was synchronous with the speed of the drum storage. The input of data and programs was possible via punch-tape reader and console commands. The Z22 also had glow-lamps which showed the memory state and machine state as output.
+
+
+== Programming ==
+The Z22 was designed to be easier to program than previous first generation computers.
+It was programmed in machine code with 38-bit instruction words, consisting of five fields:
+
+2 bits `10` to mark an instruction
+18 bits instruction field, thereof
+5 bits condition symbols
+13 bits operation symbols
+5 bit fast storage  (core) address
+13 bit (drum) memory addressUnlike today's processor opcodes, the 18 bit instruction field did not contain a single opcode but each bit did control one function unit of the CPU. Instructions where constructed from these. For example the bit 'A' meaning to add the content of a memory location to the accumulator could be combined with `N` Nullstellen (zeroing) to turn the Add instruction into a Load. Many combinations are quite unusual by modern standards, like 'LLRA 4' equals to multiplying the accumulator by three.
+There also was an assembly-like programming language called "Freiburger Code".  It was designed to make writing programs for solving mathematical problems easier than writing machine code, and reportedly did so.
+
+
+== See also ==
+List of vacuum tube computers
+
+
+== References ==
+
+
+== External links ==
+Z22 computer emulator
+Homepage of the Z22/13 of the university of Karlsruhe (in German), Google translation
+"Z22". www.horst-zuse.homepage.t-online.de.

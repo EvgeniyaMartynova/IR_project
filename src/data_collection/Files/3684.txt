@@ -1,0 +1,76 @@
+Title: McDonnell Douglas F-15 STOL/MTD
+Aspects: {'F15'}
+
+The McDonnell Douglas F-15 STOL/MTD (Short Takeoff and Landing/Maneuver Technology Demonstrator) is a modified F-15 Eagle. Developed as a technology demonstrator, the F-15 STOL/MTD carried out research for studying the effects of thrust vectoring and enhanced maneuverability. The aircraft used for the project was pre-production TF-15A (F-15B) No. 1 (USAF S/N 71-0290), the first two-seat F-15 Eagle built by McDonnell Douglas (out of 2 prototypes), the sixth F-15 off the assembly line, and was the oldest F-15 flying up to its retirement. It was also used as the avionics testbed for the F-15E Strike Eagle program. The plane was on loan to NASA from the United States Air Force.
+This same aircraft would later be used in the F-15 ACTIVE (Advanced Control Technology for Integrated Vehicles) from 1993 to 1999, and later in the Intelligent Flight Control System programs from 1999 to 2008.
+While with NASA, the aircraft's tail number was 837; for the Quiet Spike program and Research Testbed it was 836, and 835 was used for the Highly Integrated Digital Electronic Control (HIDEC) program.
+
+
+== Design and development ==
+
+In 1975, Langley Research Center began to conduct sponsored programs studying two-dimensional thrust vectoring nozzles; government and industry studies of non-axisymmetric two-dimensional (2-D) nozzles in the early 1970s had identified significant payoffs for thrust-vectoring 2-D nozzle concepts.In 1977, Langley started a system integration study of thrust-vectoring, thrust-reversing, and 2-D nozzles on the F-15 with McDonnell Douglas. In 1984, the Flight Dynamics Laboratory, the Air Force Aeronautical Systems Division awarded a contract to McDonnell Douglas for an advanced development STOL/MTD experimental aircraft.The aircraft used in the STOL/MTD program has flown several times since the successful STOL/MTD program completion in 1991 that used thrust vectoring and canard foreplanes to improve low-speed performance. This aircraft tested high-tech methods for operating from a short runway.  This F-15 was part of an effort to improve ABO (Air Base Operability), the survival of warplanes and fighting capability at airfields under attack.
+The F-15 STOL/MTD tested ways to land and take off from wet, bomb-damaged runways. The aircraft used a combination of reversible engine thrust, jet nozzles that could be deflected by 20 degrees, and canard foreplanes. Pitch vectoring/reversing nozzles and canard foreplanes were fitted to the F-15 in 1988. NASA acquired the plane in 1993 and replaced the engines with Pratt & Whitney F100-229 engines with Pitch/Yaw vectoring nozzles. The canard foreplanes were derived from the F/A-18's stabilators.
+Prior to August 15, 1991, when McDonnell Douglas ended its program after accomplishing their flight objectives, the F-15 STOL/MTD plane achieved some impressive performance results:
+
+Demonstrated vectored takeoffs with rotation at speeds as low as 42 mph (68 km/h)
+A 25-percent reduction in takeoff roll
+Landing on just 1,650 ft (500 m) of runway compared to 7,500 ft (2,300 m) for the standard F-15
+Thrust reversal in flight to produce rapid deceleration
+Controlled flight at angles of attack up to about 85 degrees
+
+
+=== Further modifications ===
+
+During the 1990s the same F-15 airframe (USAF S/N 71-0290) was further modified (canards and nozzles were retained) for the ACTIVE (Advanced Control Technology for Integrated VEhicles) program in which Pitch/Yaw Balance Beam Nozzles (P/YBBN) and advanced control-logic programming were investigated.  In the ACTIVE configuration it was also used for the LANCETS (lift and nozzle change effects on tail shock) program, in which computed supersonic shockwave parameters were compared to those measured in flight.  The LANCETS flight tests ended in December 2008.  F-15 ACTIVE lasted from 1993–99.
+The aircraft would later be used in the F-15 IFCS (Intelligent Flight Control System) program from 1999 to 2008. The plane was also used for the Space-Based Range Demonstration and Certification project under the Exploration Communications and Navigation Systems program (SBRDC/ECANS) from 2006 to 2007, High Stability Engine Control (HISTEC) program and High-Speed Research Acoustics in 1997.
+
+
+== Specifications ==
+
+
+=== F-15 ACTIVE ===
+
+Data from NASA.General characteristics
+Crew: 2
+Payload: 17,000 lb (7,112 kg)
+Length: 63.7 ft excluding flight test nose boom (19.42 m)
+Wingspan: 42.8 ft (13 m)
+Height: 18 ft 6 in (5.64 m)
+Wing area: 608 ft² (56.5 m²)
+Empty weight: 35,000 lb (15,876 kg)
+Loaded weight: 47,000 lb (21,319 kg)
+Fuel capacity: 11,520 lb (5,225 kg) (approx. 1,700 gal)
+Horizontal tail span: 28.2 ft (8.60 m)
+Canard span: 25.6 ft (7.80 m)
+Powerplant: 2 × Pratt & Whitney F100-PW-229 turbofan engines, equipped with Pratt & Whitney P/YBBN 20 Degree three-dimensional thrust vectoring nozzles
+Dry thrust: 17,800 lbf (79 kN)  each
+Thrust with afterburner: 29,000 lb (129 kN) eachPerformance
+
+Maximum speed: Mach 2.0 (1,522 mph, 2,450 km/h)
+Service ceiling: 60,000 ft (18,288 m)
+
+
+== See also ==
+
+Related development
+
+F-15 Eagle
+F-15E Strike EagleAircraft of comparable role, configuration and era
+
+Rockwell-MBB X-31
+Sukhoi Su-37
+Related lists
+
+List of experimental aircraft
+List of military aircraft of the United States
+
+
+== References ==
+
+Aircraft of the World: The Complete Guide.
+
+
+== External links ==
+NASA Dryden Fact Sheet – NASA NF-15B Research Aircraft
+NASA Dryden Fact Sheet – F-15B #837
+McDonnell Douglas F-15SMTD Cutaway at flightglobal.com

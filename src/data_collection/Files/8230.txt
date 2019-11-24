@@ -1,0 +1,45 @@
+Title: Polycyclic group
+Aspects: {'M-group'}
+
+In mathematics, a polycyclic group is a solvable group that satisfies the maximal condition on subgroups (that is, every subgroup is finitely generated). Polycyclic groups are finitely presented, and this makes them interesting from a computational point of view.
+
+
+== Terminology ==
+Equivalently, a group G is polycyclic if and only if it admits a subnormal series with cyclic factors, that is a finite set of subgroups, let's say G0, ..., Gn such that
+
+G0 coincides with G
+Gn is the trivial subgroup
+Gi+1 is a normal subgroup of Gi (for every i between 0 and n - 1)
+and the quotient group Gi / Gi+1 is a cyclic group (for every i between 0 and n - 1)A metacyclic group is a polycyclic group with n ≤ 2, or in other words an extension of a cyclic group by a cyclic group.
+
+
+== Examples ==
+Examples of polycyclic groups include finitely generated abelian groups, finitely generated nilpotent groups, and finite solvable groups. Anatoly Maltsev proved that solvable subgroups of the integer general linear group are polycyclic; and later Louis Auslander (1967) and Swan proved the converse, that any polycyclic group is up to isomorphism a group of integer matrices. The holomorph of a polycyclic group is also such a group of integer matrices.
+
+
+== Strongly polycyclic groups ==
+A group G is said to be strongly polycyclic if it is polycyclic with the added stipulation that each Gi / Gi+1 is infinitely cyclic. Clearly, a strongly polycyclic group is polycyclic. Also, any subgroup of a strongly polycyclic group is strongly polycyclic.
+
+
+== Polycyclic-by-finite groups ==
+A virtually polycyclic group is a group that has a polycyclic subgroup of finite index, an example of a virtual property. Such a group necessarily has a normal polycyclic subgroup of finite index, and therefore such groups are also called polycyclic-by-finite groups. Although polycyclic-by-finite groups need not be solvable, they still have many of the finiteness properties of polycyclic groups; for example, they satisfy the maximal condition, and they are finitely presented and residually finite.
+In the textbook (Scott 1964, Ch 7.1) and some papers, an M-group refers to what is now called a polycyclic-by-finite group, which by Hirsch's theorem can also be expressed as a group which has a finite length subnormal series with each factor a finite group or an infinite cyclic group.
+These groups are particularly interesting because they are the only known examples of Noetherian group rings (Ivanov 1989), or group rings of finite injective dimension.
+
+
+== Hirsch length ==
+The Hirsch length or Hirsch number of a polycyclic group G is the number of infinite factors in its subnormal series.
+If G is a polycyclic-by-finite group, then the Hirsch length of G is the Hirsch length of a polycyclic normal subgroup H of G, where H has finite index in G. This is independent of choice of subgroup, as all such subgroups will have the same Hirsch length.
+
+
+== See also ==
+Group theory
+Supersolvable group
+
+
+== References ==
+Ivanov, S. V. (1989), "Group rings of Noetherian groups", Akademiya Nauk SSSR. Matematicheskie Zametki, 46 (6): 61–66, ISSN 0025-567X, MR 1051052
+Scott, W.R. (1987), Group Theory, New York: Dover Publications, pp. 45–46, ISBN 978-0-486-65377-8
+
+
+== Notes ==

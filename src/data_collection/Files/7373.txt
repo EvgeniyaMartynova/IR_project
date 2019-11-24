@@ -1,0 +1,30 @@
+Title: Sony Ericsson K700
+Aspects: {'K700'}
+
+The Sony Ericsson K700 was introduced in 2004 as a high-end mobile phone, and as a successor to the T630. It was succeeded by the K750.
+
+
+== Features ==
+The K700 features Bluetooth, IrDA, GPRS (4+2), Java ME support, and a 640x480 (VGA resolution) digital camera which is capable of taking still photographs and videos. The digital camera has 4× digital zoom and a LED light which is bright enough to use as both a flash for the camera and a torch. The digital camera can extrapolate photographs to higher resolutions - up to 1280x960 in extended mode, about 1.2-megapixel resolution, however, due to poor VGA quality, pictures often appear to be pixelated when uploaded onto a PC. The K700 also has a built-in email client, WAP and HTML browser which supports the SVG presentation   Tiny specification, a media player which is capable of playing MIDI, WAV, MP3 and AAC audio files and 3GP, MPEG-4 video files, and an FM radio (which is only operable when the supplied headphones are inserted).
+Its Java ME implementation supports Mobile 3D Graphics API. It is advertised as having 41 megabytes of built-in memory, which is not expandable.
+One unusual feature of the device was its support of the HID Bluetooth profile, under the name of "Remote Control". This is the first instance of HID profile support in a mainstream device. This poorly documented feature allows the device to function as a computer keyboard/mouse. This feature has been included in most subsequent Sony Ericsson models, such as the Sony Ericsson S700  and K750.
+
+
+== Variants ==
+K700i ('i' for International'): GSM 900/1800/1900 for all regions except China.
+K700c ('c' for China): GSM 900/1800/1900 for China, featuring Chinese keypad and Chinese language interface.
+
+
+== Design ==
+
+The K700 weighs 93g (3.3 oz). It is a rectangular unit that is typically held in the palm of the hand, with the buttons operated by the thumb. It has the 'dual-front' design common to most Sony Ericsson mobile phones since the T630, with the back of the mobile phone designed to look like a digital camera. The central joystick button is used for selecting options and navigating menus (as this is essential for phone operation it wears quickly and jams under heavy use), with the "C" button as an 'undo' or 'delete' button, and the arrow-labeled button as a 'return' or 'back' button. The two buttons labeled by black horizontal lines, known as 'hotkeys' or 'soft keys' perform the function of making binary decisions, labelled on the phone's display (e.g.: save/discard). The on/off button is a black button that is located on the top of the phone next to the IrDA port.
+There are three sidekeys on the left of the phone; two control volume (for both calls and when playing sound files) - these also control brightness when in camera mode; and when held down can skip between tracks whilst using the minimized media player. The third sidekey activates the digital camera mode, and also acts as a shutter button when in camera mode.
+
+A sidekey on the right of the phone starts the web browser and goes to the home page as set in the Internet profile settings.  There is a sticker on this side, labeled "Online" on non-network specific handsets.  Additionally, the rubber pad at the very base of the front of the phone (below the main keypad and labeled "Quickshare" in non-network specific versions) is prone to becoming detached.
+The bottom end of this phone features the second generation of connectors, dating back from the Ericsson T28, and aptly dubbed the "T28" port. They are covered by a rubber clip, which is also prone to becoming horribly loose and, in some circumstances, falling off. This is Sony Ericsson's last phone to use the T28 connector (later models, as of the K750, use the Sony-designed FastPort connector).
+
+
+== External links ==
+Official website
+Official Support Site
+Official Sony Ericsson press images of the K700

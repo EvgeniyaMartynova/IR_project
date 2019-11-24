@@ -1,0 +1,279 @@
+Title: ICD-10 Chapter X: Diseases of the respiratory system
+Aspects: {'J38'}
+
+ICD-10 is an international statistical classification used in health care and related industries.
+Produced by the World Health Organization, it is used in several countries around the world. Some have gone on to develop their own national enhancements, building off the international version of the classification.
+Chapter X of ICD-10 deals with conditions effecting the respiratory system. Examples of conditions captured using codes from Chapter X include; flu, asthma, and respiratory failure.
+
+
+== J00–J99 – Diseases of the respiratory system ==
+
+
+=== (J00–J06) Acute upper respiratory infections ===
+(J00) Acute nasopharyngitis (common cold)
+(J01) Acute sinusitis
+(J02) Acute pharyngitis
+(J02.0) Streptococcal pharyngitis
+Strep throat
+(J02.8) Acute pharyngitis due to other specified organisms
+(J02.9) Acute pharyngitis, unspecified
+(J03) Acute tonsillitis
+(J04) Acute laryngitis and tracheitis
+(J04.0) Acute laryngitis
+(J04.1) Acute tracheitis
+(J04.2) Acute laryngotracheitis
+(J05) Acute obstructive laryngitis (croup) and epiglottitis
+(J05.0) Acute obstructive laryngitis (croup)
+(J05.1) Acute epiglottitis
+(J06) Acute upper respiratory infections of multiple and unspecified sites
+
+
+=== (J09–J18) Influenza and Pneumonia ===
+(J09) Influenza due to identified avian influenza virus
+(J10) Influenza due to identified influenza virus
+(J10.0) Influenza with pneumonia, influenza virus identified
+(J10.1) Influenza with other respiratory manifestations, influenza virus identified
+(J10.8) Influenza with other manifestations, influenza virus identified
+(J11) Influenza, virus not identified
+(J11.0) Influenza with pneumonia, virus not identified
+(J11.1) Influenza with other respiratory manifestations, virus not identified
+(J11.8) Influenza with other manifestations, virus not identified
+(J12) Viral pneumonia, not elsewhere classified
+(J12.0) Adenoviral pneumonia
+(J13) Pneumonia due to Streptococcus pneumoniae
+(J14) Pneumonia due to Haemophilus influenzae
+(J15) Bacterial pneumonia, not elsewhere classified
+(J15.0) Pneumonia due to Klebsiella pneumoniae
+(J15.1) Pneumonia due to Pseudomonas
+(J15.2) Pneumonia due to staphylococcus
+(J15.3) Pneumonia due to streptococcus, group B
+(J15.4) Pneumonia due to other streptococci
+(J15.5) Pneumonia due to Escherichia coli
+(J15.6) Pneumonia due to other aerobic Gram-negative bacteria
+(J15.7) Pneumonia due to Mycoplasma pneumoniae
+(J15.8) Other bacterial pneumonia
+(J15.9) Bacterial pneumonia, unspecified
+(J16) Pneumonia due to other infectious organisms, not elsewhere classified
+(J16.0) Chlamydial pneumonia
+(J16.8) Pneumonia due to other specified infectious organisms
+(J17) Pneumonia in disease classified elsewhere
+(J17.0) Pneumonia in bacterial diseases classified elsewhere
+(J17.1) Pneumonia in viral diseases classified elsewhere
+(J17.2) Pneumonia in mycoses
+(J17.3) Pneumonia in parasitic diseases
+(J17.8) Pneumonia in other diseases classified elsewhere
+(J18) Pneumonia, organism unspecified
+(J18.0) Bronchopneumonia, unspecified
+(J18.1) Lobar pneumonia, unspecified
+(J18.2) Hypostatic pneumonia, unspecified
+(J18.8) Other pneumonia, organism unspecified
+(J18.9) Pneumonia, unspecified
+
+
+=== (J20–J22) Other acute lower respiratory infections ===
+(J20) Acute bronchitis
+(J21) Acute bronchiolitis
+(J22) Unspecified acute lower respiratory infection
+
+
+=== (J30–J39) Other diseases of upper respiratory tract ===
+(J30) Vasomotor and allergic rhinitis
+(J30.0) Vasomotor rhinitis
+(J30.1) Allergic rhinitis due to pollen
+Allergy NOS due to pollen
+Hay fever
+Pollinosis
+(J30.2) Other seasonal allergic rhinitis
+(J30.3) Other allergic rhinitis
+Perennial allergic rhinitis
+(J30.4) Allergic rhinitis, unspecified
+(J31) Chronic rhinitis, nasopharyngitis and pharyngitis
+(J31.0) Chronic rhinitis
+Ozena
+(J31.1) Chronic nasopharyngitis
+(J31.2) Chronic pharyngitis
+(J32) Chronic sinusitis
+(J33) Nasal polyp
+(J34) Other disorders of nose and nasal sinuses
+(J34.0) Abscess, furuncle and carbuncle of nose
+(J34.1) Cyst and mucocele of nose and nasal sinus
+(J34.2) Deviated nasal septum
+(J34.3) Hypertrophy of nasal turbinates
+(J34.8) Other specified disorders of nose and nasal sinuses
+Perforation of nasal septum NOS
+Rhinolith
+(J35) Chronic diseases of tonsils and adenoids
+(J35.0) Chronic tonsillitis
+(J35.1) Hypertrophy of tonsils
+(J35.2) Hypertrophy of adenoids
+(J35.3) Hypertrophy of tonsils with hypertrophy of adenoids
+(J35.8) Other chronic diseases of tonsils and adenoids
+(J35.9) Chronic disease of tonsils and adenoids, unspecified
+(J36) Peritonsillar abscess
+(J37) Chronic laryngitis and laryngotracheitis
+(J37.0) Chronic laryngitis
+(J37.1) Chronic laryngo-tracheitis
+(J38) Diseases of vocal cords and larynx, not elsewhere classified
+(J38.0) Paralysis of vocal cords and larynx
+(J38.1) Polyp of vocal cord and larynx
+(J38.2) Nodules of vocal cords
+(J38.3) Other diseases of vocal cords
+(J38.4) Oedema of larynx
+(J38.5) Laryngeal spasm
+(J38.6) Stenosis of larynx
+(J38.7) Other diseases of larynx
+(J39) Other diseases of upper respiratory tract
+(J39.0) Retropharyngeal and parapharyngeal abscess
+(J39.1) Other abscess of pharynx
+(J39.2) Other diseases of pharynx
+(J39.3) Upper respiratory tract hypersensitivity reaction, site unspecified
+(J39.8) Other specified diseases of upper respiratory tract
+(J39.9) Disease of upper respiratory tract, unspecified
+
+
+=== (J40–J47) Chronic lower respiratory diseases ===
+(J40) Bronchitis, not specified as acute or chronic
+(J41) Simple and mucopurulent chronic bronchitis
+(J42) Unspecified chronic bronchitis
+Chronic bronchitis NOS
+Chronic tracheitis
+Chronic tracheobronchitis
+(J43) Emphysema
+(J44) Other chronic obstructive pulmonary disease
+(J45) Asthma
+(J46) Status asthmaticus
+(J47) Bronchiectasis
+
+
+=== (J60–J70) Lung diseases due to external agents ===
+(J60) Coalworker's pneumoconiosis
+(J61) Pneumoconiosis due to asbestos and other mineral fibres
+Asbestosis
+(J62) Pneumoconiosis due to dust containing silica
+(J62.0) Pneumoconiosis due to talc dust
+(J62.8) Pneumoconiosis due to other dust containing silica
+Silicosis NOS
+(J63) Pneumoconiosis due to other inorganic dusts
+(J63.0) Aluminosis (of lung)
+(J63.1) Bauxite fibrosis (of lung)
+(J63.2) Berylliosis
+(J63.3) Graphite fibrosis (of lung)
+(J63.4) Siderosis
+(J63.5) Stannosis
+(J63.8) Pneumoconiosis due to other specified inorganic dusts
+(J64) Unspecified pneumoconiosis
+(J65) Pneumoconiosis associated with tuberculosis
+(J66) Airway disease due to specific organic dust
+(J66.0) Byssinosis
+(J66.1) Flax-dresser's disease
+(J66.2) Cannabinosis
+(J66.8) Airway disease due to other specific organic dusts
+(J67) Hypersensitivity pneumonitis due to organic dust
+(J67.0) Farmer's lung
+(J67.1) Bagassosis
+(J67.2) Bird fancier's lung
+(J67.3) Suberosis
+(J67.4) Maltworker's lung
+(J67.5) Mushroom-worker's lung
+(J67.6) Maple-bark-stripper's lung
+(J67.7) Air-conditioner and humidifier lung
+(J67.8) Hypersensitivity pneumonitis due to other organic dusts
+(J67.9) Hypersensitivity pneumonitis due to unspecified organic dust
+(J68) Respiratory conditions due to inhalation of chemicals, gases, fumes and vapours
+(J69) Pneumonitis due to solids and liquids
+(J70) Respiratory conditions due to other external agents
+(J70.0) Acute pulmonary manifestations due to radiation
+Radiation pneumonitis
+(J70.1) Chronic and other pulmonary manifestations due to radiation
+Fibrosis of lung following radiation
+(J70.2) Acute drug-induced interstitial lung disorders
+(J70.3) Chronic drug-induced interstitial lung disorders
+(J70.4) Drug-induced interstitial lung disorders, unspecified
+(J70.8) Respiratory conditions due to other specified external agents
+(J70.9) Respiratory conditions due to unspecified external agent
+
+
+=== (J80–J84) Other respiratory diseases principally affecting the interstitium ===
+(J80) Adult respiratory distress syndrome
+(J81) Pulmonary oedema
+(J82) Pulmonary eosinophilia, not elsewhere classified
+Eosinophilic asthma
+Löffler's pneumonia
+Tropical (pulmonary) eosinophilia NOS
+(J84) Other interstitial pulmonary diseases
+(J84.0) Alveolar and parietoalveolar conditions
+(J84.1) Other interstitial pulmonary diseases with fibrosis
+Hamman-Rich syndrome
+Idiopathic pulmonary fibrosis
+(J84.8) Other specified interstitial pulmonary diseases
+(J84.9) Interstitial pulmonary disease, unspecified
+
+
+=== (J85–J86) Suppurative and necrotic conditions of lower respiratory tract ===
+(J85) Abscess of lung and mediastinum
+(J85.1) Abscess of lung with pneumonia
+(J86) Pyothorax
+Empyema
+
+
+=== (J90–J94) Other diseases of pleura ===
+(J90) Pleural effusion, not elsewhere classified
+Pleurisy with effusion
+(J91) Pleural effusion in conditions classified elsewhere
+(J92) Pleural plaque
+(J93) Pneumothorax
+(J94) Other pleural conditions
+(J94.0) Chylous effusion
+(J94.1) Fibrothorax
+(J94.2) Haemothorax
+Haemopneumothorax
+(J94.8) Other specified pleural conditions
+Hydrothorax
+(J94.9) Pleural condition, unspecified
+
+
+=== (J95–J99) Other diseases of the respiratory system ===
+(J95) Postprocedural respiratory disorders, not elsewhere classified
+(J95.0) Tracheostomy malfunction
+Tracheo-oesophageal fistula following tracheostomy
+(J95.1) Acute pulmonary insufficiency following thoracic surgery
+(J95.2) Acute pulmonary insufficiency following nonthoracic surgery
+(J95.3) Chronic pulmonary insufficiency following surgery
+(J95.4) Mendelson's syndrome
+(J95.5) Postprocedural subglottic stenosis
+(J95.8) Other postprocedural respiratory disorders
+(J95.9) Postprocedural respiratory disorder, unspecified
+(J96) Respiratory failure, not elsewhere classified
+(J98) Other respiratory disorders
+(J98.0) Diseases of bronchus, not elsewhere classified
+(J98.1) Pulmonary collapse
+Atelectasis
+(J98.2) Interstitial emphysema
+Mediastinal emphysema
+(J98.3) Compensatory emphysema
+(J98.4) Other disorders of lung
+(J98.5) Diseases of mediastinum, not elsewhere classified
+Mediastinitis
+(J98.6) Disorders of diaphragm
+(J99) Respiratory disorders in diseases classified elsewhere
+
+
+== Excludes ==
+Certain conditions originating in the perinatal period (P04-P96)
+Certain infectious and parasitic diseases (A00-B99)
+Complications of pregnancy, childbirth and the puerperium (O00-O9A)
+Congenital malformations, deformations and chromosomal abnormalities (Q00-Q99)
+Endocrine, nutritional, and metabolic diseases (E00-E88)
+Injury, poisoning and certain other consequences of external causes (S00-T88)
+Neoplasms (C00-D49)
+Smoke inhalation (T59.81-)
+Symptoms, signs, and abnormal clinical and laboratory findings, NEC (R00-R94)
+
+
+== See also ==
+List of ICD-10 codes
+International Statistical Classification of Diseases and Related Health Problems
+List of ICD-9 codes 460–519: diseases of the resιpiratory system
+
+
+== References ==

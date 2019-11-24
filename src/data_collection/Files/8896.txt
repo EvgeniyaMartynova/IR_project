@@ -1,0 +1,9 @@
+Title: N-ary associativity
+Aspects: {'N-ary'}
+
+In algebra, n-ary associativity is a generalization of the associative law to n-ary operations. Ternary associativity is
+
+(abc)de = a(bcd)e = ab(cde),i.e. the string abcde with any three adjacent elements bracketed.  n-ary associativity is a string of length n + (n − 1) with any n adjacent elements bracketed.
+
+
+== References ==

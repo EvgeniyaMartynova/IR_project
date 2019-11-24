@@ -1,0 +1,16 @@
+Title: Permutation box
+Aspects: {'P-box'}
+
+In cryptography, a permutation box (or P-box) is a method of bit-shuffling used to permute or transpose bits across S-boxes inputs, retaining diffusion while transposing.
+
+In block ciphers, the S-boxes and P-boxes are used to make the relation between the plaintext and the ciphertext difficult to understand (see Shannon's property of confusion). P-boxes are typically classified as compression, expansion, and straight, depending on whether the number of output bits is less than, greater than, or equal to the number of input bits. Only straight P-boxes are invertible.
+
+
+== See also ==
+S-box
+Substitution cipher
+Nothing-up-my-sleeve number
+Boolean function
+
+
+== References ==

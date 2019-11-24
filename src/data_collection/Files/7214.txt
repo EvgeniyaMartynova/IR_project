@@ -1,0 +1,51 @@
+Title: Uniform k 21 polytope
+Aspects: {'K21 (disambiguation)'}
+
+In geometry, a uniform k21 polytope is a polytope in k + 4 dimensions constructed from the En Coxeter group, and having only regular polytope facets. The family was named by their Coxeter symbol k21 by its bifurcating Coxeter–Dynkin diagram, with a single ring on the end of the k-node sequence.
+Thorold Gosset discovered this family as a part of his 1900 enumeration of the regular and semiregular polytopes, and so they are sometimes called Gosset's semiregular figures. Gosset named them by their dimension from 5 to 9, for example the 5-ic semiregular figure.
+
+
+== Family members ==
+The sequence as identified by Gosset ends as an infinite tessellation (space-filling honeycomb) in 8-space, called the E8 lattice. (A final form was not discovered by Gosset and is called the E9 lattice: 621. It is a tessellation of hyperbolic 9-space constructed of ∞ 9-simplex and ∞ 9-orthoplex facets with all vertices at infinity.)
+The family starts uniquely as 6-polytopes. The triangular prism and rectified 5-cell are included at the beginning for completeness. The demipenteract also exists in the demihypercube family.
+They are also sometimes named by their symmetry group, like E6 polytope, although there are many uniform polytopes within the E6 symmetry.
+The complete family of Gosset semiregular polytopes are:
+
+triangular prism: −121 (2 triangles and 3 square faces)
+rectified 5-cell: 021, Tetroctahedric (5 tetrahedra and 5 octahedra cells)
+demipenteract: 121, 5-ic semiregular figure (16 5-cell and 10 16-cell facets)
+2 21 polytope: 221, 6-ic semiregular figure (72 5-simplex and 27 5-orthoplex facets)
+3 21 polytope: 321, 7-ic semiregular figure (567 6-simplex and 126 6-orthoplex facets)
+4 21 polytope: 421, 8-ic semiregular figure (17280 7-simplex and 2160 7-orthoplex facets)
+5 21 honeycomb: 521, 9-ic semiregular check tessellates Euclidean 8-space (∞ 8-simplex and ∞ 8-orthoplex facets)
+6 21 honeycomb: 621, tessellates hyperbolic 9-space (∞ 9-simplex and ∞ 9-orthoplex facets)Each polytope is constructed from (n − 1)-simplex and (n − 1)-orthoplex facets.
+The orthoplex faces are constructed from the Coxeter group Dn−1 and have a Schläfli symbol of {31,n−1,1} rather than the regular {3n−2,4}. This construction is an implication of two "facet types". Half the facets around each orthoplex ridge are attached to another orthoplex, and the others are attached to a simplex. In contrast, every simplex ridge is attached to an orthoplex.
+Each has a vertex figure as the previous form. For example, the rectified 5-cell has a vertex figure as a triangular prism.
+
+
+== Elements ==
+
+
+== See also ==
+Uniform 2k1 polytope family
+Uniform 1k2 polytope family
+
+
+== References ==
+T. Gosset: On the Regular and Semi-Regular Figures in Space of n Dimensions, Messenger of Mathematics, Macmillan, 1900
+Alicia Boole Stott Geometrical deduction of semiregular from regular polytopes and space fillings, Verhandelingen of the Koninklijke academy van Wetenschappen width unit Amsterdam, Eerste Sectie 11,1, Amsterdam, 1910
+Stott, A. B. "Geometrical Deduction of Semiregular from Regular Polytopes and Space Fillings." Verhandelingen der Koninklijke Akad. Wetenschappen Amsterdam 11, 3–24, 1910.
+Alicia Boole Stott, "Geometrical deduction of semiregular from regular polytopes and space fillings," Verhandelingen der Koninklijke Akademie van Wetenschappen te Amsterdam, (eerste sectie), Vol. 11, No. 1, pp. 1–24 plus 3 plates, 1910.
+Stott, A. B. 1910. "Geometrical Deduction of Semiregular from Regular Polytopes and Space Fillings." Verhandelingen der Koninklijke Akad. Wetenschappen Amsterdam
+Schoute, P. H., Analytical treatment of the polytopes regularly derived from the regular polytopes, Ver. der Koninklijke Akad. van Wetenschappen te Amsterdam (eerstie sectie), vol 11.5, 1913.
+H. S. M. Coxeter: Regular and Semi-Regular Polytopes, Part I, Mathematische Zeitschrift, Springer, Berlin, 1940
+N.W. Johnson: The Theory of Uniform Polytopes and Honeycombs, Ph.D. Dissertation, University of Toronto, 1966
+H.S.M. Coxeter: Regular and Semi-Regular Polytopes, Part II, Mathematische Zeitschrift, Springer, Berlin, 1985
+H.S.M. Coxeter: Regular and Semi-Regular Polytopes, Part III, Mathematische Zeitschrift, Springer, Berlin, 1988
+G.Blind and R.Blind, "The semi-regular polyhedra", Commentari Mathematici Helvetici 66 (1991) 150–154
+John H. Conway, Heidi Burgiel, Chaim Goodman-Strass, The Symmetries of Things 2008, ISBN 978-1-56881-220-5 (Chapter 26. pp. 411–413: The Gosset Series: n21)
+
+
+== External links ==
+PolyGloss v0.05: Gosset figures (Gossetoicosatope)
+Regular, SemiRegular, Regular faced and Archimedean polytopes

@@ -1,0 +1,3639 @@
+Title: Faà di Bruno's formula
+Aspects: {'FAA (disambiguation)'}
+
+Faà di Bruno's formula is an identity in mathematics generalizing the chain rule to higher derivatives, named after Francesco Faà di Bruno (1855, 1857), though he was not the first to state or prove the formula. In 1800, more than 50 years before Faà di Bruno, the French mathematician Louis François Antoine Arbogast stated the formula in a calculus textbook, considered the first published reference on the subject.Perhaps the most well-known form of Faà di Bruno's formula says that
+
+  
+    
+      
+        
+          
+            
+              d
+              
+                n
+              
+            
+            
+              d
+              
+                x
+                
+                  n
+                
+              
+            
+          
+        
+        f
+        (
+        g
+        (
+        x
+        )
+        )
+        =
+        ∑
+        
+          
+            
+              n
+              !
+            
+            
+              
+                m
+                
+                  1
+                
+              
+              !
+              
+              1
+              
+                !
+                
+                  
+                    m
+                    
+                      1
+                    
+                  
+                
+              
+              
+              
+                m
+                
+                  2
+                
+              
+              !
+              
+              2
+              
+                !
+                
+                  
+                    m
+                    
+                      2
+                    
+                  
+                
+              
+              
+              ⋯
+              
+              
+                m
+                
+                  n
+                
+              
+              !
+              
+              n
+              
+                !
+                
+                  
+                    m
+                    
+                      n
+                    
+                  
+                
+              
+            
+          
+        
+        ⋅
+        
+          f
+          
+            (
+            
+              m
+              
+                1
+              
+            
+            +
+            ⋯
+            +
+            
+              m
+              
+                n
+              
+            
+            )
+          
+        
+        (
+        g
+        (
+        x
+        )
+        )
+        ⋅
+        
+          ∏
+          
+            j
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          
+            (
+            
+              
+                g
+                
+                  (
+                  j
+                  )
+                
+              
+              (
+              x
+              )
+            
+            )
+          
+          
+            
+              m
+              
+                j
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle {d^{n} \over dx^{n}}f(g(x))=\sum {\frac {n!}{m_{1}!\,1!^{m_{1}}\,m_{2}!\,2!^{m_{2}}\,\cdots \,m_{n}!\,n!^{m_{n}}}}\cdot f^{(m_{1}+\cdots +m_{n})}(g(x))\cdot \prod _{j=1}^{n}\left(g^{(j)}(x)\right)^{m_{j}},}
+  where the sum is over all n-tuples of nonnegative integers (m1, ..., mn) satisfying the constraint
+
+  
+    
+      
+        1
+        ⋅
+        
+          m
+          
+            1
+          
+        
+        +
+        2
+        ⋅
+        
+          m
+          
+            2
+          
+        
+        +
+        3
+        ⋅
+        
+          m
+          
+            3
+          
+        
+        +
+        ⋯
+        +
+        n
+        ⋅
+        
+          m
+          
+            n
+          
+        
+        =
+        n
+        .
+      
+    
+    {\displaystyle 1\cdot m_{1}+2\cdot m_{2}+3\cdot m_{3}+\cdots +n\cdot m_{n}=n.}
+  Sometimes, to give it a memorable pattern, it is written in a way in which the coefficients that have the combinatorial interpretation discussed below are less explicit:
+
+  
+    
+      
+        
+          
+            
+              d
+              
+                n
+              
+            
+            
+              d
+              
+                x
+                
+                  n
+                
+              
+            
+          
+        
+        f
+        (
+        g
+        (
+        x
+        )
+        )
+        =
+        ∑
+        
+          
+            
+              n
+              !
+            
+            
+              
+                m
+                
+                  1
+                
+              
+              !
+              
+              
+                m
+                
+                  2
+                
+              
+              !
+              
+              ⋯
+              
+              
+                m
+                
+                  n
+                
+              
+              !
+            
+          
+        
+        ⋅
+        
+          f
+          
+            (
+            
+              m
+              
+                1
+              
+            
+            +
+            ⋯
+            +
+            
+              m
+              
+                n
+              
+            
+            )
+          
+        
+        (
+        g
+        (
+        x
+        )
+        )
+        ⋅
+        
+          ∏
+          
+            j
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          
+            (
+            
+              
+                
+                  
+                    g
+                    
+                      (
+                      j
+                      )
+                    
+                  
+                  (
+                  x
+                  )
+                
+                
+                  j
+                  !
+                
+              
+            
+            )
+          
+          
+            
+              m
+              
+                j
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {d^{n} \over dx^{n}}f(g(x))=\sum {\frac {n!}{m_{1}!\,m_{2}!\,\cdots \,m_{n}!}}\cdot f^{(m_{1}+\cdots +m_{n})}(g(x))\cdot \prod _{j=1}^{n}\left({\frac {g^{(j)}(x)}{j!}}\right)^{m_{j}}.}
+  Combining the terms with the same value of m1 + m2 + ... + mn = k and noticing that mj has to be zero for j > n − k + 1 leads to a somewhat simpler formula expressed in terms of Bell polynomials Bn,k(x1,...,xn−k+1):
+
+  
+    
+      
+        
+          
+            
+              d
+              
+                n
+              
+            
+            
+              d
+              
+                x
+                
+                  n
+                
+              
+            
+          
+        
+        f
+        (
+        g
+        (
+        x
+        )
+        )
+        =
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          f
+          
+            (
+            k
+            )
+          
+        
+        (
+        g
+        (
+        x
+        )
+        )
+        ⋅
+        
+          B
+          
+            n
+            ,
+            k
+          
+        
+        
+          (
+          
+            
+              g
+              ′
+            
+            (
+            x
+            )
+            ,
+            
+              g
+              ″
+            
+            (
+            x
+            )
+            ,
+            …
+            ,
+            
+              g
+              
+                (
+                n
+                −
+                k
+                +
+                1
+                )
+              
+            
+            (
+            x
+            )
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle {d^{n} \over dx^{n}}f(g(x))=\sum _{k=1}^{n}f^{(k)}(g(x))\cdot B_{n,k}\left(g'(x),g''(x),\dots ,g^{(n-k+1)}(x)\right).}
+  
+
+
+== Combinatorial form ==
+The formula has a "combinatorial" form:
+
+  
+    
+      
+        
+          
+            
+              d
+              
+                n
+              
+            
+            
+              d
+              
+                x
+                
+                  n
+                
+              
+            
+          
+        
+        f
+        (
+        g
+        (
+        x
+        )
+        )
+        =
+        (
+        f
+        ∘
+        g
+        
+          )
+          
+            (
+            n
+            )
+          
+        
+        (
+        x
+        )
+        =
+        
+          ∑
+          
+            π
+            ∈
+            Π
+          
+        
+        
+          f
+          
+            (
+            
+              |
+              π
+              |
+            
+            )
+          
+        
+        (
+        g
+        (
+        x
+        )
+        )
+        ⋅
+        
+          ∏
+          
+            B
+            ∈
+            π
+          
+        
+        
+          g
+          
+            (
+            
+              |
+              B
+              |
+            
+            )
+          
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle {d^{n} \over dx^{n}}f(g(x))=(f\circ g)^{(n)}(x)=\sum _{\pi \in \Pi }f^{(\left|\pi \right|)}(g(x))\cdot \prod _{B\in \pi }g^{(\left|B\right|)}(x)}
+  where
+
+π runs through the set Π of all partitions of the set { 1, ..., n },
+"B ∈ π" means the variable B runs through the list of all of the "blocks" of the partition π, and
+|A| denotes the cardinality of the set A (so that |π| is the number of blocks in the partition π and |B| is the size of the block B).
+
+
+== Example ==
+The following is a concrete explanation of the combinatorial form for the n = 4 case.
+
+  
+    
+      
+        
+          
+            
+              
+                (
+                f
+                ∘
+                g
+                
+                  )
+                  ⁗
+                
+                (
+                x
+                )
+                =
+                
+
+                
+              
+              
+                
+                  f
+                  ⁗
+                
+                (
+                g
+                (
+                x
+                )
+                )
+                
+                  g
+                  ′
+                
+                (
+                x
+                
+                  )
+                  
+                    4
+                  
+                
+                +
+                6
+                
+                  f
+                  ‴
+                
+                (
+                g
+                (
+                x
+                )
+                )
+                
+                  g
+                  ″
+                
+                (
+                x
+                )
+                
+                  g
+                  ′
+                
+                (
+                x
+                
+                  )
+                  
+                    2
+                  
+                
+              
+            
+            
+              
+              
+                
+                
+
+                
+                +
+                
+                3
+                
+                  f
+                  ″
+                
+                (
+                g
+                (
+                x
+                )
+                )
+                
+                  g
+                  ″
+                
+                (
+                x
+                
+                  )
+                  
+                    2
+                  
+                
+                +
+                4
+                
+                  f
+                  ″
+                
+                (
+                g
+                (
+                x
+                )
+                )
+                
+                  g
+                  ‴
+                
+                (
+                x
+                )
+                
+                  g
+                  ′
+                
+                (
+                x
+                )
+              
+            
+            
+              
+              
+                
+                
+
+                
+                +
+                
+                
+                  f
+                  ′
+                
+                (
+                g
+                (
+                x
+                )
+                )
+                
+                  g
+                  ⁗
+                
+                (
+                x
+                )
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}(f\circ g)''''(x)={}&f''''(g(x))g'(x)^{4}+6f'''(g(x))g''(x)g'(x)^{2}\\[8pt]&{}+\;3f''(g(x))g''(x)^{2}+4f''(g(x))g'''(x)g'(x)\\[8pt]&{}+\;f'(g(x))g''''(x).\end{aligned}}}
+  The pattern is:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  g
+                  ′
+                
+                (
+                x
+                
+                  )
+                  
+                    4
+                  
+                
+              
+              
+              
+                ↔
+              
+              
+              
+                1
+                +
+                1
+                +
+                1
+                +
+                1
+              
+              
+              
+                ↔
+              
+              
+              
+                
+                  f
+                  ⁗
+                
+                (
+                g
+                (
+                x
+                )
+                )
+              
+              
+              
+                ↔
+              
+              
+              
+                1
+              
+            
+            
+              
+                
+                  g
+                  ″
+                
+                (
+                x
+                )
+                
+                  g
+                  ′
+                
+                (
+                x
+                
+                  )
+                  
+                    2
+                  
+                
+              
+              
+              
+                ↔
+              
+              
+              
+                2
+                +
+                1
+                +
+                1
+              
+              
+              
+                ↔
+              
+              
+              
+                
+                  f
+                  ‴
+                
+                (
+                g
+                (
+                x
+                )
+                )
+              
+              
+              
+                ↔
+              
+              
+              
+                6
+              
+            
+            
+              
+                
+                  g
+                  ″
+                
+                (
+                x
+                
+                  )
+                  
+                    2
+                  
+                
+              
+              
+              
+                ↔
+              
+              
+              
+                2
+                +
+                2
+              
+              
+              
+                ↔
+              
+              
+              
+                
+                  f
+                  ″
+                
+                (
+                g
+                (
+                x
+                )
+                )
+              
+              
+              
+                ↔
+              
+              
+              
+                3
+              
+            
+            
+              
+                
+                  g
+                  ‴
+                
+                (
+                x
+                )
+                
+                  g
+                  ′
+                
+                (
+                x
+                )
+              
+              
+              
+                ↔
+              
+              
+              
+                3
+                +
+                1
+              
+              
+              
+                ↔
+              
+              
+              
+                
+                  f
+                  ″
+                
+                (
+                g
+                (
+                x
+                )
+                )
+              
+              
+              
+                ↔
+              
+              
+              
+                4
+              
+            
+            
+              
+                
+                  g
+                  ⁗
+                
+                (
+                x
+                )
+              
+              
+              
+                ↔
+              
+              
+              
+                4
+              
+              
+              
+                ↔
+              
+              
+              
+                
+                  f
+                  ′
+                
+                (
+                g
+                (
+                x
+                )
+                )
+              
+              
+              
+                ↔
+              
+              
+              
+                1
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{array}{cccccc}g'(x)^{4}&&\leftrightarrow &&1+1+1+1&&\leftrightarrow &&f''''(g(x))&&\leftrightarrow &&1\\[12pt]g''(x)g'(x)^{2}&&\leftrightarrow &&2+1+1&&\leftrightarrow &&f'''(g(x))&&\leftrightarrow &&6\\[12pt]g''(x)^{2}&&\leftrightarrow &&2+2&&\leftrightarrow &&f''(g(x))&&\leftrightarrow &&3\\[12pt]g'''(x)g'(x)&&\leftrightarrow &&3+1&&\leftrightarrow &&f''(g(x))&&\leftrightarrow &&4\\[12pt]g''''(x)&&\leftrightarrow &&4&&\leftrightarrow &&f'(g(x))&&\leftrightarrow &&1\end{array}}}
+  The factor 
+  
+    
+      
+        
+          g
+          ″
+        
+        (
+        x
+        )
+        
+          g
+          ′
+        
+        (
+        x
+        
+          )
+          
+            2
+          
+        
+      
+    
+    {\displaystyle g''(x)g'(x)^{2}}
+   corresponds to the partition 2 + 1 + 1 of the integer 4, in the obvious way.  The factor 
+  
+    
+      
+        
+          f
+          ‴
+        
+        (
+        g
+        (
+        x
+        )
+        )
+      
+    
+    {\displaystyle f'''(g(x))}
+   that goes with it corresponds to the fact that there are three summands in that partition.  The coefficient 6 that goes with those factors corresponds to the fact that there are exactly six partitions of a set of four members that break it into one part of size 2 and two parts of size 1.
+Similarly, the factor 
+  
+    
+      
+        
+          g
+          ″
+        
+        (
+        x
+        
+          )
+          
+            2
+          
+        
+      
+    
+    {\displaystyle g''(x)^{2}}
+   in the third line corresponds to the partition 2 + 2 of the integer 4, (4, because we are finding the fourth derivative), while 
+  
+    
+      
+        
+          f
+          ″
+        
+        (
+        g
+        (
+        x
+        )
+        )
+      
+    
+    {\displaystyle f''(g(x))}
+   corresponds to the fact that there are two summands (2 + 2) in that partition. The coefficient 3 corresponds to the fact that there are 
+  
+    
+      
+        
+          
+            
+              1
+              2
+            
+          
+        
+        
+          
+            
+              
+                (
+              
+              
+                4
+                2
+              
+              
+                )
+              
+            
+          
+        
+        =
+        3
+      
+    
+    {\displaystyle {\tfrac {1}{2}}{\tbinom {4}{2}}=3}
+   ways of partitioning 4 objects into groups of 2. The same concept applies to the others.
+A memorizable scheme is as follows:
+
+  
+    
+      
+        
+          
+            
+              
+              
+                
+                  
+                    
+                      
+                        D
+                        
+                          1
+                        
+                      
+                      (
+                      f
+                      ∘
+                      
+
+                      
+                      g
+                      )
+                    
+                    
+                      1
+                      !
+                    
+                  
+                
+              
+              
+                =
+                
+                  (
+                  
+                    
+                      f
+                      
+                        (
+                        1
+                        )
+                      
+                    
+                    ∘
+                    
+
+                    
+                    g
+                  
+                  )
+                
+                
+                  
+                    
+                      
+                        g
+                        
+                          (
+                          1
+                          )
+                        
+                      
+                      
+                        1
+                        !
+                      
+                    
+                    
+                      1
+                      !
+                    
+                  
+                
+              
+            
+            
+              
+              
+                
+                  
+                    
+                      
+                        D
+                        
+                          2
+                        
+                      
+                      (
+                      f
+                      ∘
+                      g
+                      )
+                    
+                    
+                      2
+                      !
+                    
+                  
+                
+              
+              
+                =
+                
+                  (
+                  
+                    
+                      f
+                      
+                        (
+                        1
+                        )
+                      
+                    
+                    ∘
+                    
+
+                    
+                    g
+                  
+                  )
+                
+                
+                  
+                    
+                      
+                        g
+                        
+                          (
+                          2
+                          )
+                        
+                      
+                      
+                        2
+                        !
+                      
+                    
+                    
+                      1
+                      !
+                    
+                  
+                
+              
+              
+                
+                
+
+                
+                +
+                
+                  (
+                  
+                    
+                      f
+                      
+                        (
+                        2
+                        )
+                      
+                    
+                    ∘
+                    
+
+                    
+                    g
+                  
+                  )
+                
+                
+                  
+                    
+                      
+                        
+                          
+                            g
+                            
+                              (
+                              1
+                              )
+                            
+                          
+                          
+                            1
+                            !
+                          
+                        
+                      
+                      
+                        
+                          
+                            g
+                            
+                              (
+                              1
+                              )
+                            
+                          
+                          
+                            1
+                            !
+                          
+                        
+                      
+                    
+                    
+                      2
+                      !
+                    
+                  
+                
+              
+            
+            
+              
+              
+                
+                  
+                    
+                      
+                        D
+                        
+                          3
+                        
+                      
+                      (
+                      f
+                      ∘
+                      g
+                      )
+                    
+                    
+                      3
+                      !
+                    
+                  
+                
+              
+              
+                =
+                
+                  (
+                  
+                    
+                      f
+                      
+                        (
+                        1
+                        )
+                      
+                    
+                    ∘
+                    
+
+                    
+                    g
+                  
+                  )
+                
+                
+                  
+                    
+                      
+                        g
+                        
+                          (
+                          3
+                          )
+                        
+                      
+                      
+                        3
+                        !
+                      
+                    
+                    
+                      1
+                      !
+                    
+                  
+                
+              
+              
+                
+                
+
+                
+                +
+                
+                  (
+                  
+                    
+                      f
+                      
+                        (
+                        2
+                        )
+                      
+                    
+                    ∘
+                    
+
+                    
+                    g
+                  
+                  )
+                
+                
+                  
+                    
+                      
+                        g
+                        
+                          (
+                          1
+                          )
+                        
+                      
+                      
+                        1
+                        !
+                      
+                    
+                    
+                      1
+                      !
+                    
+                  
+                
+                
+                  
+                    
+                      
+                        g
+                        
+                          (
+                          2
+                          )
+                        
+                      
+                      
+                        2
+                        !
+                      
+                    
+                    
+                      1
+                      !
+                    
+                  
+                
+              
+              
+                
+
+                
+                +
+                
+                  (
+                  
+                    
+                      f
+                      
+                        (
+                        3
+                        )
+                      
+                    
+                    ∘
+                    
+
+                    
+                    g
+                  
+                  )
+                
+                
+                  
+                    
+                      
+                        
+                          
+                            g
+                            
+                              (
+                              1
+                              )
+                            
+                          
+                          
+                            1
+                            !
+                          
+                        
+                      
+                      
+                        
+                          
+                            g
+                            
+                              (
+                              1
+                              )
+                            
+                          
+                          
+                            1
+                            !
+                          
+                        
+                      
+                      
+                        
+                          
+                            g
+                            
+                              (
+                              1
+                              )
+                            
+                          
+                          
+                            1
+                            !
+                          
+                        
+                      
+                    
+                    
+                      3
+                      !
+                    
+                  
+                
+              
+            
+            
+              
+              
+                
+                  
+                    
+                      
+                        D
+                        
+                          4
+                        
+                      
+                      (
+                      f
+                      ∘
+                      g
+                      )
+                    
+                    
+                      4
+                      !
+                    
+                  
+                
+              
+              
+                =
+                
+                  (
+                  
+                    
+                      f
+                      
+                        (
+                        1
+                        )
+                      
+                    
+                    ∘
+                    
+
+                    
+                    g
+                  
+                  )
+                
+                
+                  
+                    
+                      
+                        g
+                        
+                          (
+                          4
+                          )
+                        
+                      
+                      
+                        4
+                        !
+                      
+                    
+                    
+                      1
+                      !
+                    
+                  
+                
+              
+              
+                
+                
+
+                
+                +
+                
+                  (
+                  
+                    
+                      f
+                      
+                        (
+                        2
+                        )
+                      
+                    
+                    ∘
+                    
+
+                    
+                    g
+                  
+                  )
+                
+                
+                  (
+                  
+                    
+                      
+                        
+                          
+                            g
+                            
+                              (
+                              1
+                              )
+                            
+                          
+                          
+                            1
+                            !
+                          
+                        
+                        
+                          1
+                          !
+                        
+                      
+                    
+                    
+                      
+                        
+                          
+                            g
+                            
+                              (
+                              3
+                              )
+                            
+                          
+                          
+                            3
+                            !
+                          
+                        
+                        
+                          1
+                          !
+                        
+                      
+                    
+                    +
+                    
+                      
+                        
+                          
+                            
+                              
+                                g
+                                
+                                  (
+                                  2
+                                  )
+                                
+                              
+                              
+                                2
+                                !
+                              
+                            
+                          
+                          
+                            
+                              
+                                g
+                                
+                                  (
+                                  2
+                                  )
+                                
+                              
+                              
+                                2
+                                !
+                              
+                            
+                          
+                        
+                        
+                          2
+                          !
+                        
+                      
+                    
+                  
+                  )
+                
+              
+              
+                
+
+                
+                +
+                
+                  (
+                  
+                    
+                      f
+                      
+                        (
+                        3
+                        )
+                      
+                    
+                    ∘
+                    
+
+                    
+                    g
+                  
+                  )
+                
+                
+                  
+                    
+                      
+                        
+                          
+                            g
+                            
+                              (
+                              1
+                              )
+                            
+                          
+                          
+                            1
+                            !
+                          
+                        
+                      
+                      
+                        
+                          
+                            g
+                            
+                              (
+                              1
+                              )
+                            
+                          
+                          
+                            1
+                            !
+                          
+                        
+                      
+                    
+                    
+                      2
+                      !
+                    
+                  
+                
+                
+                  
+                    
+                      
+                        g
+                        
+                          (
+                          2
+                          )
+                        
+                      
+                      
+                        2
+                        !
+                      
+                    
+                    
+                      1
+                      !
+                    
+                  
+                
+              
+              
+                
+                
+
+                
+                +
+                
+                  (
+                  
+                    
+                      f
+                      
+                        (
+                        4
+                        )
+                      
+                    
+                    ∘
+                    
+
+                    
+                    g
+                  
+                  )
+                
+                
+                  
+                    
+                      
+                        
+                          
+                            g
+                            
+                              (
+                              1
+                              )
+                            
+                          
+                          
+                            1
+                            !
+                          
+                        
+                      
+                      
+                        
+                          
+                            g
+                            
+                              (
+                              1
+                              )
+                            
+                          
+                          
+                            1
+                            !
+                          
+                        
+                      
+                      
+                        
+                          
+                            g
+                            
+                              (
+                              1
+                              )
+                            
+                          
+                          
+                            1
+                            !
+                          
+                        
+                      
+                      
+                        
+                          
+                            g
+                            
+                              (
+                              1
+                              )
+                            
+                          
+                          
+                            1
+                            !
+                          
+                        
+                      
+                    
+                    
+                      4
+                      !
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}&{\frac {D^{1}(f\circ {}g)}{1!}}&=\left(f^{(1)}\circ {}g\right){\frac {\frac {g^{(1)}}{1!}}{1!}}\\[8pt]&{\frac {D^{2}(f\circ g)}{2!}}&=\left(f^{(1)}\circ {}g\right){\frac {\frac {g^{(2)}}{2!}}{1!}}&{}+\left(f^{(2)}\circ {}g\right){\frac {{\frac {g^{(1)}}{1!}}{\frac {g^{(1)}}{1!}}}{2!}}\\[8pt]&{\frac {D^{3}(f\circ g)}{3!}}&=\left(f^{(1)}\circ {}g\right){\frac {\frac {g^{(3)}}{3!}}{1!}}&{}+\left(f^{(2)}\circ {}g\right){\frac {\frac {g^{(1)}}{1!}}{1!}}{\frac {\frac {g^{(2)}}{2!}}{1!}}&{}+\left(f^{(3)}\circ {}g\right){\frac {{\frac {g^{(1)}}{1!}}{\frac {g^{(1)}}{1!}}{\frac {g^{(1)}}{1!}}}{3!}}\\[8pt]&{\frac {D^{4}(f\circ g)}{4!}}&=\left(f^{(1)}\circ {}g\right){\frac {\frac {g^{(4)}}{4!}}{1!}}&{}+\left(f^{(2)}\circ {}g\right)\left({\frac {\frac {g^{(1)}}{1!}}{1!}}{\frac {\frac {g^{(3)}}{3!}}{1!}}+{\frac {{\frac {g^{(2)}}{2!}}{\frac {g^{(2)}}{2!}}}{2!}}\right)&{}+\left(f^{(3)}\circ {}g\right){\frac {{\frac {g^{(1)}}{1!}}{\frac {g^{(1)}}{1!}}}{2!}}{\frac {\frac {g^{(2)}}{2!}}{1!}}&{}+\left(f^{(4)}\circ {}g\right){\frac {{\frac {g^{(1)}}{1!}}{\frac {g^{(1)}}{1!}}{\frac {g^{(1)}}{1!}}{\frac {g^{(1)}}{1!}}}{4!}}\end{aligned}}}
+  
+
+
+== Combinatorics of the Faà di Bruno coefficients ==
+These partition-counting Faà di Bruno coefficients have a "closed-form" expression.  The number of partitions of a set of size n corresponding to the integer partition
+
+  
+    
+      
+        
+          n
+          =
+          
+            
+              
+                
+                  1
+                  +
+                  ⋯
+                  +
+                  1
+                
+                ⏟
+              
+            
+            
+              
+                m
+                
+                  1
+                
+              
+            
+          
+          
+          +
+          
+          
+            
+              
+                
+                  2
+                  +
+                  ⋯
+                  +
+                  2
+                
+                ⏟
+              
+            
+            
+              
+                m
+                
+                  2
+                
+              
+            
+          
+          
+          +
+          
+          
+            
+              
+                
+                  3
+                  +
+                  ⋯
+                  +
+                  3
+                
+                ⏟
+              
+            
+            
+              
+                m
+                
+                  3
+                
+              
+            
+          
+          +
+          ⋯
+        
+      
+    
+    {\displaystyle \displaystyle n=\underbrace {1+\cdots +1} _{m_{1}}\,+\,\underbrace {2+\cdots +2} _{m_{2}}\,+\,\underbrace {3+\cdots +3} _{m_{3}}+\cdots }
+  of the integer n is equal to
+
+  
+    
+      
+        
+          
+            
+              n
+              !
+            
+            
+              
+                m
+                
+                  1
+                
+              
+              !
+              
+              
+                m
+                
+                  2
+                
+              
+              !
+              
+              
+                m
+                
+                  3
+                
+              
+              !
+              
+              ⋯
+              1
+              
+                !
+                
+                  
+                    m
+                    
+                      1
+                    
+                  
+                
+              
+              
+              2
+              
+                !
+                
+                  
+                    m
+                    
+                      2
+                    
+                  
+                
+              
+              
+              3
+              
+                !
+                
+                  
+                    m
+                    
+                      3
+                    
+                  
+                
+              
+              
+              ⋯
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {n!}{m_{1}!\,m_{2}!\,m_{3}!\,\cdots 1!^{m_{1}}\,2!^{m_{2}}\,3!^{m_{3}}\,\cdots }}.}
+  These coefficients also arise in the Bell polynomials, which are relevant to the study of cumulants.
+
+
+== Variations ==
+
+
+=== Multivariate version ===
+Let y = g(x1, ..., xn). Then the following identity holds regardless of whether the n variables are all distinct, or all identical, or partitioned into several distinguishable classes of indistinguishable variables (if it seems opaque, see the very concrete example below):
+
+  
+    
+      
+        
+          
+            
+              ∂
+              
+                n
+              
+            
+            
+              ∂
+              
+                x
+                
+                  1
+                
+              
+              ⋯
+              ∂
+              
+                x
+                
+                  n
+                
+              
+            
+          
+        
+        f
+        (
+        y
+        )
+        =
+        
+          ∑
+          
+            π
+            ∈
+            Π
+          
+        
+        
+          f
+          
+            (
+            
+              |
+              π
+              |
+            
+            )
+          
+        
+        (
+        y
+        )
+        ⋅
+        
+          ∏
+          
+            B
+            ∈
+            π
+          
+        
+        
+          
+            
+              
+                ∂
+                
+                  
+                    |
+                    B
+                    |
+                  
+                
+              
+              y
+            
+            
+              
+                ∏
+                
+                  j
+                  ∈
+                  B
+                
+              
+              ∂
+              
+                x
+                
+                  j
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\partial ^{n} \over \partial x_{1}\cdots \partial x_{n}}f(y)=\sum _{\pi \in \Pi }f^{(\left|\pi \right|)}(y)\cdot \prod _{B\in \pi }{\partial ^{\left|B\right|}y \over \prod _{j\in B}\partial x_{j}}}
+  where (as above)
+
+π runs through the set Π of all partitions of the set { 1, ..., n },
+"B ∈ π" means the variable B runs through the list of all of the "blocks" of the partition π, and
+|A| denotes the cardinality of the set A (so that |π| is the number of blocks in the partition π and |B| is the size of the block B).More general versions hold for cases where the all functions are vector- and even Banach-space-valued. In this case one needs to consider the Fréchet derivative or Gateaux derivative.
+
+ExampleThe five terms in the following expression correspond in the obvious way to the five partitions of the set { 1, 2, 3 }, and in each case the order of the derivative of f is the number of parts in the partition:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    
+                      ∂
+                      
+                        3
+                      
+                    
+                    
+                      ∂
+                      
+                        x
+                        
+                          1
+                        
+                      
+                      
+                      ∂
+                      
+                        x
+                        
+                          2
+                        
+                      
+                      
+                      ∂
+                      
+                        x
+                        
+                          3
+                        
+                      
+                    
+                  
+                
+                f
+                (
+                y
+                )
+                =
+                
+
+                
+              
+              
+                
+                  f
+                  ′
+                
+                (
+                y
+                )
+                
+                  
+                    
+                      
+                        ∂
+                        
+                          3
+                        
+                      
+                      y
+                    
+                    
+                      ∂
+                      
+                        x
+                        
+                          1
+                        
+                      
+                      
+                      ∂
+                      
+                        x
+                        
+                          2
+                        
+                      
+                      
+                      ∂
+                      
+                        x
+                        
+                          3
+                        
+                      
+                    
+                  
+                
+              
+            
+            
+              
+              
+                
+                
+
+                
+                +
+                
+                  f
+                  ″
+                
+                (
+                y
+                )
+                
+                  (
+                  
+                    
+                      
+                        
+                          ∂
+                          y
+                        
+                        
+                          ∂
+                          
+                            x
+                            
+                              1
+                            
+                          
+                        
+                      
+                    
+                    ⋅
+                    
+                      
+                        
+                          
+                            ∂
+                            
+                              2
+                            
+                          
+                          y
+                        
+                        
+                          ∂
+                          
+                            x
+                            
+                              2
+                            
+                          
+                          
+                          ∂
+                          
+                            x
+                            
+                              3
+                            
+                          
+                        
+                      
+                    
+                    +
+                    
+                      
+                        
+                          ∂
+                          y
+                        
+                        
+                          ∂
+                          
+                            x
+                            
+                              2
+                            
+                          
+                        
+                      
+                    
+                    ⋅
+                    
+                      
+                        
+                          
+                            ∂
+                            
+                              2
+                            
+                          
+                          y
+                        
+                        
+                          ∂
+                          
+                            x
+                            
+                              1
+                            
+                          
+                          
+                          ∂
+                          
+                            x
+                            
+                              3
+                            
+                          
+                        
+                      
+                    
+                    +
+                    
+                      
+                        
+                          ∂
+                          y
+                        
+                        
+                          ∂
+                          
+                            x
+                            
+                              3
+                            
+                          
+                        
+                      
+                    
+                    ⋅
+                    
+                      
+                        
+                          
+                            ∂
+                            
+                              2
+                            
+                          
+                          y
+                        
+                        
+                          ∂
+                          
+                            x
+                            
+                              1
+                            
+                          
+                          
+                          ∂
+                          
+                            x
+                            
+                              2
+                            
+                          
+                        
+                      
+                    
+                  
+                  )
+                
+              
+            
+            
+              
+              
+                
+                
+
+                
+                +
+                
+                  f
+                  ‴
+                
+                (
+                y
+                )
+                
+                  
+                    
+                      ∂
+                      y
+                    
+                    
+                      ∂
+                      
+                        x
+                        
+                          1
+                        
+                      
+                    
+                  
+                
+                ⋅
+                
+                  
+                    
+                      ∂
+                      y
+                    
+                    
+                      ∂
+                      
+                        x
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+                ⋅
+                
+                  
+                    
+                      ∂
+                      y
+                    
+                    
+                      ∂
+                      
+                        x
+                        
+                          3
+                        
+                      
+                    
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\partial ^{3} \over \partial x_{1}\,\partial x_{2}\,\partial x_{3}}f(y)={}&f'(y){\partial ^{3}y \over \partial x_{1}\,\partial x_{2}\,\partial x_{3}}\\[10pt]&{}+f''(y)\left({\partial y \over \partial x_{1}}\cdot {\partial ^{2}y \over \partial x_{2}\,\partial x_{3}}+{\partial y \over \partial x_{2}}\cdot {\partial ^{2}y \over \partial x_{1}\,\partial x_{3}}+{\partial y \over \partial x_{3}}\cdot {\partial ^{2}y \over \partial x_{1}\,\partial x_{2}}\right)\\[10pt]&{}+f'''(y){\partial y \over \partial x_{1}}\cdot {\partial y \over \partial x_{2}}\cdot {\partial y \over \partial x_{3}}.\end{aligned}}}
+  If the three variables are indistinguishable from each other, then three of the five terms above are also indistinguishable from each other, and then we have the classic one-variable formula.
+
+
+=== Formal power series version ===
+Suppose 
+  
+    
+      
+        f
+        (
+        x
+        )
+        =
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          
+            a
+            
+              n
+            
+          
+        
+        
+          x
+          
+            n
+          
+        
+      
+    
+    {\displaystyle f(x)=\sum _{n=0}^{\infty }{a_{n}}x^{n}}
+  
+and 
+  
+    
+      
+        g
+        (
+        x
+        )
+        =
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          
+            b
+            
+              n
+            
+          
+        
+        
+          x
+          
+            n
+          
+        
+      
+    
+    {\displaystyle g(x)=\sum _{n=0}^{\infty }{b_{n}}x^{n}}
+  
+are formal power series and 
+  
+    
+      
+        
+          b
+          
+            0
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle b_{0}=0}
+  .
+Then the composition 
+  
+    
+      
+        f
+        ∘
+        g
+      
+    
+    {\displaystyle f\circ g}
+   is again a formal power series,
+
+  
+    
+      
+        f
+        (
+        g
+        (
+        x
+        )
+        )
+        =
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          
+            c
+            
+              n
+            
+          
+        
+        
+          x
+          
+            n
+          
+        
+        ,
+      
+    
+    {\displaystyle f(g(x))=\sum _{n=0}^{\infty }{c_{n}}x^{n},}
+  where c0 = a0 and the other coefficient cn for n ≥ 1 
+can be expressed as a sum over compositions of n or as an equivalent sum over partitions of n:
+
+  
+    
+      
+        
+          c
+          
+            n
+          
+        
+        =
+        
+          ∑
+          
+            
+              i
+            
+            ∈
+            
+              
+                
+                  C
+                
+              
+              
+                n
+              
+            
+          
+        
+        
+          a
+          
+            k
+          
+        
+        
+          b
+          
+            
+              i
+              
+                1
+              
+            
+          
+        
+        
+          b
+          
+            
+              i
+              
+                2
+              
+            
+          
+        
+        ⋯
+        
+          b
+          
+            
+              i
+              
+                k
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle c_{n}=\sum _{\mathbf {i} \in {\mathcal {C}}_{n}}a_{k}b_{i_{1}}b_{i_{2}}\cdots b_{i_{k}},}
+  where 
+
+  
+    
+      
+        
+          
+            
+              C
+            
+          
+          
+            n
+          
+        
+        =
+        {
+        (
+        
+          i
+          
+            1
+          
+        
+        ,
+        
+          i
+          
+            2
+          
+        
+        ,
+        …
+        ,
+        
+          i
+          
+            k
+          
+        
+        )
+        
+        :
+         
+        1
+        ≤
+        k
+        ≤
+        n
+        ,
+         
+        
+          i
+          
+            1
+          
+        
+        +
+        
+          i
+          
+            2
+          
+        
+        +
+        ⋯
+        +
+        
+          i
+          
+            k
+          
+        
+        =
+        n
+        }
+      
+    
+    {\displaystyle {\mathcal {C}}_{n}=\{(i_{1},i_{2},\dots ,i_{k})\,:\ 1\leq k\leq n,\ i_{1}+i_{2}+\cdots +i_{k}=n\}}
+  is the set of compositions of n with k denoting the number of parts,
+or
+
+  
+    
+      
+        
+          c
+          
+            n
+          
+        
+        =
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          a
+          
+            k
+          
+        
+        
+          ∑
+          
+            
+              π
+            
+            ∈
+            
+              
+                
+                  P
+                
+              
+              
+                n
+                ,
+                k
+              
+            
+          
+        
+        
+          
+            
+              (
+            
+            
+              k
+              
+                
+                  π
+                  
+                    1
+                  
+                
+                ,
+                
+                  π
+                  
+                    2
+                  
+                
+                ,
+                .
+                .
+                .
+                ,
+                
+                  π
+                  
+                    n
+                  
+                
+              
+            
+            
+              )
+            
+          
+        
+        
+          b
+          
+            1
+          
+          
+            
+              π
+              
+                1
+              
+            
+          
+        
+        
+          b
+          
+            2
+          
+          
+            
+              π
+              
+                2
+              
+            
+          
+        
+        ⋯
+        
+          b
+          
+            n
+          
+          
+            
+              π
+              
+                n
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle c_{n}=\sum _{k=1}^{n}a_{k}\sum _{\mathbf {\pi } \in {\mathcal {P}}_{n,k}}{\binom {k}{\pi _{1},\pi _{2},...,\pi _{n}}}b_{1}^{\pi _{1}}b_{2}^{\pi _{2}}\cdots b_{n}^{\pi _{n}},}
+  where
+
+  
+    
+      
+        
+          
+            
+              P
+            
+          
+          
+            n
+            ,
+            k
+          
+        
+        =
+        {
+        (
+        
+          π
+          
+            1
+          
+        
+        ,
+        
+          π
+          
+            2
+          
+        
+        ,
+        …
+        ,
+        
+          π
+          
+            n
+          
+        
+        )
+        
+        :
+         
+        
+          π
+          
+            1
+          
+        
+        +
+        
+          π
+          
+            2
+          
+        
+        +
+        ⋯
+        +
+        
+          π
+          
+            n
+          
+        
+        =
+        k
+        ,
+         
+        
+          π
+          
+            1
+          
+        
+        ⋅
+        1
+        +
+        
+          π
+          
+            2
+          
+        
+        ⋅
+        2
+        +
+        ⋯
+        +
+        
+          π
+          
+            n
+          
+        
+        ⋅
+        n
+        =
+        n
+        }
+      
+    
+    {\displaystyle {\mathcal {P}}_{n,k}=\{(\pi _{1},\pi _{2},\dots ,\pi _{n})\,:\ \pi _{1}+\pi _{2}+\cdots +\pi _{n}=k,\ \pi _{1}\cdot 1+\pi _{2}\cdot 2+\cdots +\pi _{n}\cdot n=n\}}
+  is the set of partitions of n into k parts, in frequency-of-parts form.
+The first form is obtained by picking out the  coefficient of xn
+in 
+  
+    
+      
+        (
+        
+          b
+          
+            1
+          
+        
+        x
+        +
+        
+          b
+          
+            2
+          
+        
+        
+          x
+          
+            2
+          
+        
+        +
+        ⋯
+        
+          )
+          
+            k
+          
+        
+      
+    
+    {\displaystyle (b_{1}x+b_{2}x^{2}+\cdots )^{k}}
+   "by inspection", and the second form
+is then obtained by collecting like terms, or alternatively, by applying the multinomial theorem.
+The special case f(x) = ex, g(x) = ∑n ≥ 1 an /n! xn gives the exponential formula.
+The special case f(x) = 1/(1 − x), g(x) = ∑n ≥ 1 (−an) xn gives an expression for the reciprocal of the formal power series ∑n ≥ 0 an xn in the case a0 = 1.
+Stanley 
+gives a version for exponential power series.
+In the formal power series
+
+  
+    
+      
+        f
+        (
+        x
+        )
+        =
+        
+          ∑
+          
+            n
+          
+        
+        
+          
+            
+              a
+              
+                n
+              
+            
+            
+              n
+              !
+            
+          
+        
+        
+          x
+          
+            n
+          
+        
+        ,
+      
+    
+    {\displaystyle f(x)=\sum _{n}{\frac {a_{n}}{n!}}x^{n},}
+  we have the nth derivative at 0:
+
+  
+    
+      
+        
+          f
+          
+            (
+            n
+            )
+          
+        
+        (
+        0
+        )
+        =
+        
+          a
+          
+            n
+          
+        
+        .
+      
+    
+    {\displaystyle f^{(n)}(0)=a_{n}.}
+  This should not be construed as the value of a function, since these series are purely formal; there is no such thing as convergence or divergence in this context.
+If
+
+  
+    
+      
+        g
+        (
+        x
+        )
+        =
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          
+            
+              b
+              
+                n
+              
+            
+            
+              n
+              !
+            
+          
+        
+        
+          x
+          
+            n
+          
+        
+      
+    
+    {\displaystyle g(x)=\sum _{n=0}^{\infty }{\frac {b_{n}}{n!}}x^{n}}
+  and
+
+  
+    
+      
+        f
+        (
+        x
+        )
+        =
+        
+          ∑
+          
+            n
+            =
+            1
+          
+          
+            ∞
+          
+        
+        
+          
+            
+              a
+              
+                n
+              
+            
+            
+              n
+              !
+            
+          
+        
+        
+          x
+          
+            n
+          
+        
+      
+    
+    {\displaystyle f(x)=\sum _{n=1}^{\infty }{\frac {a_{n}}{n!}}x^{n}}
+  and
+
+  
+    
+      
+        g
+        (
+        f
+        (
+        x
+        )
+        )
+        =
+        h
+        (
+        x
+        )
+        =
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          
+            
+              c
+              
+                n
+              
+            
+            
+              n
+              !
+            
+          
+        
+        
+          x
+          
+            n
+          
+        
+        ,
+      
+    
+    {\displaystyle g(f(x))=h(x)=\sum _{n=0}^{\infty }{\frac {c_{n}}{n!}}x^{n},}
+  then the coefficient cn (which would be the nth derivative of h evaluated at 0 if we were dealing with convergent series rather than formal power series) is given by
+
+  
+    
+      
+        
+          c
+          
+            n
+          
+        
+        =
+        
+          ∑
+          
+            π
+            =
+            
+              {
+              
+                
+                  B
+                  
+                    1
+                  
+                
+                ,
+                …
+                ,
+                
+                  B
+                  
+                    k
+                  
+                
+              
+              }
+            
+          
+        
+        
+          a
+          
+            
+              |
+              
+                B
+                
+                  1
+                
+              
+              |
+            
+          
+        
+        ⋯
+        
+          a
+          
+            
+              |
+              
+                B
+                
+                  k
+                
+              
+              |
+            
+          
+        
+        
+          b
+          
+            k
+          
+        
+      
+    
+    {\displaystyle c_{n}=\sum _{\pi =\left\{B_{1},\ldots ,B_{k}\right\}}a_{\left|B_{1}\right|}\cdots a_{\left|B_{k}\right|}b_{k}}
+  where π runs through the set of all partitions of the set {1, ..., n} and B1, ..., Bk are the blocks of the partition π, and | Bj | is the number of members of the jth block, for j = 1, ..., k.
+This version of the formula is particularly well suited to the purposes of combinatorics.
+We can also write with respect to the notation above
+
+  
+    
+      
+        g
+        (
+        f
+        (
+        x
+        )
+        )
+        =
+        
+          b
+          
+            0
+          
+        
+        +
+        
+          ∑
+          
+            n
+            =
+            1
+          
+          
+            ∞
+          
+        
+        
+          
+            
+              
+                ∑
+                
+                  k
+                  =
+                  1
+                
+                
+                  n
+                
+              
+              
+                b
+                
+                  k
+                
+              
+              
+                B
+                
+                  n
+                  ,
+                  k
+                
+              
+              (
+              
+                a
+                
+                  1
+                
+              
+              ,
+              …
+              ,
+              
+                a
+                
+                  n
+                  −
+                  k
+                  +
+                  1
+                
+              
+              )
+            
+            
+              n
+              !
+            
+          
+        
+        
+          x
+          
+            n
+          
+        
+        ,
+      
+    
+    {\displaystyle g(f(x))=b_{0}+\sum _{n=1}^{\infty }{\frac {\sum _{k=1}^{n}b_{k}B_{n,k}(a_{1},\ldots ,a_{n-k+1})}{n!}}x^{n},}
+  where Bn,k(a1,...,an−k+1) are Bell polynomials.
+
+
+=== A special case ===
+If f(x) = ex, then all of the derivatives of f are the same and are a factor common to every term.  In case g(x) is a cumulant-generating function, then f(g(x)) is a moment-generating function, and the polynomial in various derivatives of g is the polynomial that expresses the moments as functions of the cumulants.
+
+
+== Notes ==
+
+
+== References ==
+
+
+=== Historical surveys and essays ===
+Brigaglia, Aldo (2004), "L'Opera Matematica",  in Giacardi, Livia (ed.), Francesco Faà di Bruno. Ricerca scientifica insegnamento e divulgazione, Studi e fonti per la storia dell'Università di Torino (in Italian), XII, Torino: Deputazione Subalpina di Storia Patria, pp. 111–172. "The mathematical work" is an essay on the mathematical activity, describing both the research and teaching activity of Francesco Faà di Bruno.
+Craik, Alex D. D. (February 2005), "Prehistory of Faà di Bruno's Formula", American Mathematical Monthly, 112 (2): 217–234, doi:10.2307/30037410, JSTOR 30037410, MR 2121322, Zbl 1088.01008.
+Johnson, Warren P. (March 2002), "The Curious History of Faà di Bruno's Formula" (PDF), American Mathematical Monthly, 109 (3): 217–234, CiteSeerX 10.1.1.109.4135, doi:10.2307/2695352, JSTOR 2695352, MR 1903577, Zbl 1024.01010.
+
+
+=== Research works ===
+Arbogast, L. F. A. (1800), Du calcul des derivations [On the calculus of derivatives] (in French), Strasbourg: Levrault, pp. xxiii+404, Entirely freely available from Google books.
+Faà di Bruno, F. (1855), "Sullo sviluppo delle funzioni" [On the development of the functions], Annali di Scienze Matematiche e Fisiche (in Italian), 6: 479–480, LCCN 06036680. Entirely freely available from Google books. A well-known paper where Francesco Faà di Bruno presents the two versions of the formula that now bears his name, published in the journal founded by Barnaba Tortolini.
+Faà di Bruno, F. (1857), "Note sur une nouvelle formule de calcul differentiel" [On a new formula of differential calculus], The Quarterly Journal of Pure and Applied Mathematics (in French), 1: 359–360. Entirely freely available from Google books.
+Faà di Bruno, Francesco (1859), Théorie générale de l'élimination [General elimination theory] (in French), Paris: Leiber et Faraguet, pp. x+224. Entirely freely available from Google books.
+Flanders, Harley (2001) "From Ford to Faa", American Mathematical Monthly  108(6): 558–61 doi:10.2307/2695713
+Fraenkel, L. E. (1978), "Formulae for high derivatives of composite functions", Mathematical Proceedings of the Cambridge Philosophical Society, 83 (2): 159–165, doi:10.1017/S0305004100054402, MR 0486377, Zbl 0388.46032.
+Krantz, Steven G.; Parks, Harold R. (2002), A Primer of Real Analytic Functions, Birkhäuser Advanced Texts - Basler Lehrbücher (Second ed.), Boston: Birkhäuser Verlag, pp. xiv+205, ISBN 978-0-8176-4264-8, MR 1916029, Zbl 1015.26030
+Porteous, Ian R. (2001), "Paragraph 4.3: Faà di Bruno's formula", Geometric Differentiation (Second ed.), Cambridge: Cambridge University Press, pp. 83–85, ISBN 978-0-521-00264-6, MR 1871900, Zbl 1013.53001.
+T. A., (Tiburce Abadie, J. F. C.) (1850), "Sur la différentiation des fonctions de fonctions" [On the derivation of functions], Nouvelles annales de mathématiques, journal des candidats aux écoles polytechnique et normale, Série 1 (in French), 9: 119–125, available at NUMDAM. This paper, according to Johnson (2002, p. 228) is one of the precursors of Faà di Bruno 1855: note that the author signs only as "T.A.", and the attribution to J. F. C. Tiburce Abadie is due again to Johnson.
+A., (Tiburce Abadie, J. F. C.) (1852), "Sur la différentiation des fonctions de fonctions. Séries de Burmann, de Lagrange, de Wronski" [On the derivation of functions. Burmann, Lagrange and Wronski series.], Nouvelles annales de mathématiques, journal des candidats aux écoles polytechnique et normale, Série 1 (in French), 11: 376–383, available at NUMDAM. This paper, according to Johnson (2002, p. 228) is one of the precursors of Faà di Bruno 1855: note that the author signs only as "A.", and the attribution to J. F. C. Tiburce Abadie is due again to Johnson.
+
+
+== External links ==
+Weisstein, Eric W. "Faa di Bruno's Formula". MathWorld.

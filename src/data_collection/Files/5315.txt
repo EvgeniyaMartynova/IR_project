@@ -1,0 +1,372 @@
+Title: ICD-10 Chapter VII: Diseases of the eye, adnexa
+Aspects: {'H15'}
+
+ICD-10 is an international statistical classification used in health care and related industries.
+Produced by the World Health Organization, it is used in several countries around the world. Some have gone on to develop their own national enhancements, building off the international version of the classification.
+Chapter VII of ICD-10 deals with conditions effecting the eye and adnexa. Examples of conditions captured using codes from Chapter VII include; conjunctivitis, cataracts, and papilloedema
+
+
+== H00–H59 – Diseases of the eye and adnexa ==
+
+
+=== (H00–H06) Disorders of eyelid, lacrimal system and orbit ===
+(H00) Hordeolum and chalazion
+(H00.0) Hordeolum and other deep inflammation of eyelid
+(H00.1) Chalazion
+(H01) Other inflammation of eyelid
+(H01.0) Blepharitis
+(H01.1) Noninfectious dermatoses of eyelid
+(H02) Other disorders of eyelid
+(H02.0) Entropion and trichiasis of eyelid
+(H02.1) Ectropion of eyelid
+(H02.2) Lagophthalmos
+(H02.3) Blepharochalasis
+(H02.4) Ptosis of eyelid
+(H02.5) Other disorders affecting eyelid function
+Ankyloblepharon
+Blepharophimosis
+Lid retraction
+(H02.6) Xanthelasma of eyelid
+(H02.7) Other degenerative disorders of eyelid and periocular area
+(H03) Disorders of eyelid in diseases classified elsewhere
+(H04) Disorders of lacrimal system
+(H04.0) Dacryoadenitis
+(H04.1) Other disorders of lacrimal gland
+(H04.2) Epiphora
+(H04.3) Acute and unspecified inflammation of lacrimal passages
+Acute, subacute or unspecified dacryocystitis
+(H04.4) Chronic inflammation of lacrimal passages
+Chronic dacryocystitis
+(H04.5) Stenosis and insufficiency of lacrimal passages
+(H04.6) Other changes in lacrimal passages
+(H05) Disorders of orbit
+(H05.2) Exophthalmic conditions
+(H05.4) Enophthalmos
+(H06) Disorders of lacrimal system and orbit in diseases classified elsewhere
+
+
+=== (H10–H13) Disorders of conjunctiva ===
+(H10) Conjunctivitis
+(H11) Other disorders of conjunctiva
+(H11.0) Pterygium
+(H11.1) Conjunctival degenerations and deposits
+(H11.2) Conjunctival scars
+Symblepharon
+(H11.3) Conjunctival haemorrhage
+Subconjunctival haemorrhage
+(H11.4) Other conjunctival vascular disorders and cysts
+(H11.8) Other specified disorders of conjunctiva
+Pseudopterygium
+(H11.9) Disorder of conjunctiva, unspecified
+(H13) Disorders of conjunctiva in diseases classified elsewhere
+
+
+=== (H15–H19) Disorders of sclera and cornea ===
+(H15) Disorders of sclera
+(H15.0) Scleritis
+(H15.1) Episcleritis
+(H16) Keratitis
+(H16.0) Corneal ulcer
+(H16.1) Other superficial keratitis without conjunctivitis
+Photokeratitis
+Snow blindness
+(H16.2) Keratoconjunctivitis
+(H16.3) Interstitial and deep keratitis
+(H16.4) Corneal neovascularization
+(H17) Corneal scars and opacities
+(H18) Other disorders of cornea
+(H18.0) Corneal pigmentations and deposits
+Haematocornea
+Kayser-Fleischer ring
+Krukenberg's spindle
+Staehli's line
+(H18.1) Bullous keratopathy
+(H18.2) Other corneal oedema
+(H18.3) Changes in corneal membranes
+(H18.4) Corneal degeneration
+Arcus senilis
+Band keratopathy
+(H18.5) corneal dystrophies
+Fuchs' dystrophy
+(H18.6) Keratoconus
+(H18.7) Other corneal deformities
+(H18.8) Other specified disorders of cornea
+(H18.9) Disorder of cornea, unspecified
+(H19) Disorders of sclera and cornea in diseases classified elsewhere
+(H19.0) Scleritis and episcleritis in diseases classified elsewhere
+(H19.1) Herpesviral keratitis and keratoconjunctivitis
+(H19.2) Keratitis and keratoconjunctivitis in other infectious and parasitic diseases
+(H19.3) Keratitis and keratoconjunctivitis in other diseases classified elsewhere
+Keratoconjunctivitis sicca
+(H19.8) Other disorders of sclera and cornea in diseases classified elsewhere
+
+
+=== (H20–H22) Disorders of iris and ciliary body ===
+(H20) Iridocyclitis
+(H20.0) Acute and subacute iridocyclitis
+Anterior uveitis
+Cyclitis
+Iritis
+(H20.1) Chronic iridocyclitis
+(H20.2) Lens-induced iridocyclitis
+(H20.8) Other iridocyclitis
+(H20.9) Iridocyclitis, unspecified
+(H21) Other disorders of iris and ciliary body
+(H21.0) Hyphaema
+(H21.1) Other vascular disorders of iris and ciliary body
+Neovascularization of iris or ciliary body
+Rubeosis of iris
+(H21.2) Degeneration of iris and ciliary body
+Heterochromia iridis
+(H21.3) Cyst of iris, ciliary body and anterior chamber
+(H21.4) Pupillary membranes
+(H21.5) Other adhesions and disruptions of iris and ciliary body
+Goniosynechiae
+Iridodialysis
+Synechiae (iris)
+(H21.8) Other specified disorders of iris and ciliary body
+(H21.9) Disorder of iris and ciliary body, unspecified
+(H22) Disorders of iris and ciliary body in diseases classified elsewhere
+
+
+=== (H25–H28) Disorders of lens ===
+(H25) Senile cataract
+(H26) Other cataract
+(H27) Other disorders of lens
+(H27.0) Aphakia
+(H27.1) Dislocation of lens
+(H28) Cataract and other disorders of lens in diseases classified elsewhere
+
+
+=== (H30–H36) Disorders of choroid and retina ===
+(H30) Chorioretinal inflammation
+(H30.0) Focal chorioretinal inflammation
+(H30.1) Disseminated chorioretinal inflammation
+(H30.2) Posterior cyclitis
+(H30.8) Other chorioretinal inflammations
+(H30.9) Chorioretinal inflammation, unspecified
+Chorioretinitis NOS
+Choroiditis NOS
+Fuchs spot NOS
+Retinitis NOS
+Retinochoroiditis NOS
+(H31) Other disorders of choroid
+(H31.0) Chorioretinal scars
+(H31.1) Choroidal degeneration
+(H31.2) Hereditary choroidal dystrophy
+Choroideremia
+(H31.3) Choroidal haemorrhage and rupture
+(H31.4) Choroidal detachment
+(H31.8) Other specified disorders of choroid
+(H31.9) Disorder of choroid, unspecified
+(H32) Chorioretinal disorders in diseases classified elsewhere
+(H33) Retinal detachments and breaks
+(H33.1) Retinoschisis and retinal cysts
+(H34) Retinal vascular occlusions
+(H34.0) Transient retinal artery occlusion
+(H34.1) Central retinal artery occlusion
+(H34.2) Other retinal artery occlusions
+Hollenhorst's plaque
+(H34.8) Other retinal vascular occlusions
+Central retinal vein occlusion
+(H34.9) Retinal vascular occlusion, unspecified
+(H35) Other retinal disorders
+(H35.0) Background retinopathy and retinal vascular changes
+Hypertensive retinopathy
+(H35.1) Retinopathy of prematurity
+(H35.3) Degeneration of macula and posterior pole
+Macular degeneration
+(H35.5) Hereditary retinal dystrophy
+Retinitis pigmentosa
+(H35.6) Retinal haemorrhage
+(H35.7) Separation of retinal layers
+Central serous chorioretinopathy
+(H35.8) Other specified retinal disorders
+(H36) Retinal disorders in diseases classified elsewhere
+
+
+=== (H40–H42) Glaucoma ===
+(H40) Glaucoma
+(H40.0) Glaucoma suspect
+Ocular hypertension
+(H40.1) Primary open-angle glaucoma
+(H40.2) Primary angle-closure glaucoma
+(H40.3) Glaucoma secondary to eye trauma
+(H40.4) Glaucoma secondary to eye inflammation
+(H40.5) Glaucoma secondary to other eye disorders
+(H40.6) Glaucoma secondary to drugs
+(H42) Glaucoma in diseases classified elsewhere
+
+
+=== (H43–H45) Disorders of vitreous body and globe ===
+(H43) Disorders of vitreous body
+(H43.0) Vitreous prolapse
+(H43.1) Vitreous haemorrhage
+(H43.2) Crystalline deposits in vitreous body
+(H43.3) Other vitreous opacities
+(H43.8) Other disorders of vitreous body
+(H43.9) Disorder of vitreous body, unspecified
+Floater
+(H44) Disorders of globe
+(H44.0) Purulent endophthalmitis
+Panophthalmitis
+Vitreous abscess
+(H44.1) Other endophthalmitis
+Sympathetic uveitis
+(H44.2) Degenerative myopia
+(H44.3) Other degenerative disorders of globe
+Chalcosis
+Siderosis of eye
+(H44.4) Hypotony of eye
+(H44.5) Degenerated conditions of globe
+Absolute glaucoma
+Atrophy of globe
+Phthisis bulbi
+(H44.6) Retained (old) intraocular foreign body, magnetic
+(H44.7) Retained (old) intraocular foreign body, nonmagnetic
+(H44.8) Other disorders of globe
+Haemophthalmos
+Luxation of globe
+(H44.9) Disorder of globe, unspecified
+(H45) Disorders of vitreous body and globe in diseases classified elsewhere
+
+
+=== (H46–H48) Disorders of optic nerve and visual pathways ===
+(H46) Optic neuritis
+Optic
+neuropathy, except ischaemic
+papillitis
+Retrobulbar neuritis NOS
+Excludes:
+ischaemic optic neuropathy (H47.0)
+neuromyelitis optica [Devic] (G36.0)
+(H47) Other disorders of optic (2nd) nerve and visual pathways
+(H47.0) Disorders of optic nerve, not elsewhere classified
+Compression of optic nerve
+Haemorrhage in optic nerve sheath
+Ischaemic optic neuropathy
+(H47.1) Papilloedema, unspecified
+(H47.2) Optic atrophy
+Temporal pallor of optic disc
+(H47.3) Other disorders of optic disc
+Drusen of optic disc
+Pseudopapilloedema
+(H47.4) Disorders of optic chiasm
+(H47.5) Disorders of other visual pathways
+Disorders of optic tracts, geniculate nuclei and optic radiations
+(H47.6) Disorders of visual cortex
+(H47.7) Disorders of visual pathways, unspecified
+(H48) Disorders of optic (2nd) nerve and visual pathways in diseases classified elsewhere
+
+
+=== (H49–H52) Disorders of ocular muscles, binocular movement, accommodation and refraction ===
+(H49) Paralytic strabismus
+(H49.0) Third (oculomotor) nerve palsy
+(H49.1) Fourth (trochlear) nerve palsy
+Congenital fourth nerve palsy
+(H49.2) Sixth (abducent) nerve palsy
+(H49.3) Total (external) ophthalmoplegia
+(H49.4) Progressive external ophthalmoplegia
+(H49.8) Other paralytic strabismus
+External ophthalmoplegia NOS
+Kearns-Sayre syndrome
+(H49.9) Paralytic strabismus, unspecified
+(H50) Other strabismus
+(H50.0) Convergent concomitant strabismus
+Esotropia (alternating)(monocular), except intermittent
+(H50.1) Divergent concomitant strabismus
+Exotropia (alternating)(monocular), except intermittent
+(H50.2) Vertical strabismus
+Hypertropia
+Hypotropia
+(H50.3) Intermittent heterotropia
+(H50.4) Other and unspecified heterotropia
+Concomitant strabismus NOS
+Cyclotropia
+Microtropia
+Monofixation syndrome
+(H50.5) Heterophoria
+Alternating hyperphoria
+Esophoria
+Exophoria
+(H50.6) Mechanical strabismus
+Brown's sheath syndrome
+Strabismus due to adhesions
+Traumatic limitation of duction of eye muscle
+(H50.8) Other specified strabismus
+Duane syndrome
+(H50.9) Strabismus, unspecified
+(H51) Other disorders of binocular movement
+(H51.0) Palsy of conjugate gaze
+(H51.1) Convergence insufficiency and excess
+(H51.2) Internuclear ophthalmoplegia
+(H51.8) Other specified disorders of binocular movement
+(H51.9) Disorder of binocular movement, unspecified
+(H52) Disorders of refraction and accommodation
+(H52.0) Hypermetropia
+(H52.1) Myopia
+(H52.2) Astigmatism
+(H52.3) Anisometropia and aniseikonia
+(H52.4) Presbyopia
+(H52.5) Disorders of accommodation
+(H52.6) Other disorders of refraction
+(H52.7) Disorder of refraction, unspecified
+
+
+=== (H53–H54) Visual disturbances and blindness ===
+(H53) Visual disturbances
+(H53.0) Amblyopia ex anopsia
+Amblyopia
+(H53.1) Subjective visual disturbances
+Asthenopia
+Hemeralopia
+Metamorphopsia
+Photophobia
+Scintillating scotoma
+(H53.2) Diplopia
+(H53.3) Other disorders of binocular vision
+(H53.4) Visual field defects
+Scotoma
+Binasal hemianopsia
+Bitemporal hemianopsia
+(H53.5) Colour vision deficiencies
+Achromatopsia
+(H53.6) Night blindness
+(H54) Blindness and low vision
+
+
+=== (H55–H59) Other disorders of eye and adnexa ===
+(H55) Nystagmus and other irregular eye movements
+(H57) Other disorders of eye and adnexa
+(H57.0) Anomalies of pupillary function
+Miosis
+Mydriasis
+(H57.1) Ocular pain
+(H57.9) Disorder of eye and adnexa, unspecified
+Red eye
+(H58) Other disorders of eye and adnexa in diseases classified elsewhere
+(H58.0) Anomalies of pupillary function in diseases classified elsewhere
+Argyll Robertson phenomenon or pupil, syphilitic
+(H59) Postprocedural disorders of eye and adnexa, not elsewhere classified
+
+
+== Excludes ==
+Certain conditions originating in the perinatal period (P00-P96)
+Complications of pregnancy, childbirth and the puerperium (O00-O9A)
+Congenital malformations, deformations and chromosomal abnormalities (Q00-Q99)
+Diabetes mellitus related eye conditions (E09.3-, E10.3-, E11.3-, E13.3-)
+Endocrine, nutritional, and metabolic diseases (E00-E88)
+Injury (trauma) of eye and orbit (S05-)
+Injury, poisoning and certain other consequences of external causes (S00-T88)
+Neoplasms (C00-D49)
+Symptoms, signs, and abnormal clinical and laboratory findings, NEC (R00-R94)
+Syphilis related eye disorders (A50.01, A50.3-, A51.43, A52.71)
+
+
+== See also ==
+List of ICD-10 codes
+International Statistical Classification of Diseases and Related Health Problems
+List of ICD-9 codes 360–389: diseases of the sense organs
+
+
+== References ==

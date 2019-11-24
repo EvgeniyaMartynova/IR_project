@@ -1,0 +1,94 @@
+Title: Windows 10 editions
+Aspects: {'S mode'}
+
+Windows 10 has twelve editions, all with varying feature sets, use cases, or intended devices. Certain editions are distributed only on devices directly from an original equipment manufacturer (OEM), while editions such as Enterprise and Education are only available through volume licensing channels. Microsoft also makes editions of Windows 10 available to device manufacturers for use on specific classes of devices, including smartphones (Windows 10 Mobile) and IoT devices.
+
+
+== Baseline editions ==
+Baseline editions are the only editions available as standalone purchases in the retail outlets.
+
+Home
+Windows 10 Home is designed for use in PCs, tablets and 2-in-1 PCs. It includes all features directed at consumers.
+Pro
+Windows 10 Pro includes all features of Windows 10 Home, with additional capabilities that are oriented towards prosumers or business environments, such as Active Directory, Remote Desktop, BitLocker, Hyper-V, and Windows Defender Device Guard.
+Pro for Workstations
+Windows 10 Pro for Workstations is designed for high-end hardware for intensive computing tasks and supports Intel Xeon, AMD Opteron and the latest AMD Epyc processors; up to four CPUs; up to 6 TB RAM; the ReFS file system; Non-Volatile Dual In-line Memory Module (NVDIMM); and remote direct memory access (RDMA).
+
+
+== Organizational editions ==
+These editions add features to facilitate centralized control of many installations of the OS within an organization. The main avenue of acquiring them is a volume licensing contract with Microsoft.
+
+S
+Windows 10 S is a feature-limited edition of Windows 10 designed primarily for low-end devices in the education market. It has a faster initial setup and login process, and allows devices to be provisioned using a USB drive with the "Set Up School PCs" app. Windows 10 S only allows the installation of software (both Universal Windows Platform and Windows API apps) from Microsoft Store, although command line programs or shells (even from Microsoft Store) are not allowed. System settings are locked to allow only Microsoft Edge as the default web browser with Bing as its search engine. The operating system may be upgraded to Windows 10 Pro for a fee, to enable unrestricted software installation. All Windows 10 S devices include a free one-year subscription to Minecraft: Education Edition. Critics have compared the edition to Windows RT, and have considered it to be a competitor to Chrome OS.
+In March 2018, Microsoft announced that it would be phasing out Windows 10 S, citing confusion among manufacturers and end-users. Microsoft stated that it would replace this edition with the ability for vendors to ship their Windows 10 Home or Pro devices in "S Mode", wherein Windows defaults to only allowing applications to be installed from Microsoft Store. S Mode does not require payment in order to disable these restrictions.Education
+Windows 10 Education is distributed through Academic Volume Licensing. It was built off of Windows 10 Enterprise and initially reported to have the same feature set. As of version 1709, however, this edition has fewer features. See § Comparison chart for details.
+Pro Education
+This edition was introduced in July 2016 for hardware partners on new devices purchased with the discounted K–12 academic license. It was built off of the Pro edition of Windows 10 and contains the mostly same features as Windows 10 Pro with different options disabled by default, and adds options for setup and deployment in an education environment. It also features a "Set Up School PCs" app that allows provisioning of settings using a USB flash drive, and does not include Cortana, Microsoft Store suggestions, or Windows Spotlight.
+Enterprise
+Windows 10 Enterprise provides all the features of Windows 10 Pro, with additional features to assist with IT-based organizations. Windows 10 Enterprise is configurable on three branches, Semi-Annual Channel, Semi-Annual Channel (Targeted), and Windows Insider.
+Enterprise LTSC
+Enterprise LTSC (Long-Term Servicing Channel) is a long-term support version of Windows 10 Enterprise released every 2 to 3 years. Each release is supported with security updates for 10 years after its release, and intentionally receive no feature updates. Some features, including the Microsoft Store and bundled apps, are not included in this edition. This edition was first released as Windows 10 Enterprise LTSB (Long-Term Servicing Branch). There are currently 3 releases of LTSC: one in 2015 (version 1507), one in 2016 (version 1607) and one in 2018 (version 1809).
+
+
+== Device-specific editions ==
+These editions are licensed to OEMs only. The main avenue of purchasing these editions is through buying specific devices (e.g. smartphones) that have them pre-installed.
+
+X
+Designed for use on the upcoming Surface Neo, future dual screen devices, and other potential form factors; X features custom functionality to support dual screen devices with context specific interactions or "postures"; this version is an initial step towards a more modular Windows 10.
+IoT
+Designed specifically for use in small footprint, low-cost devices and IoT scenarios. It is a rebranded version of Microsoft's earlier embedded operating systems, Windows Embedded. Three editions are already announced: IoT Core, IoT Enterprise, and IoT Mobile Enterprise.
+Team
+Windows 10 Team is a device-specific version of Windows 10 loaded onto the Surface Hub.
+
+
+== Discontinued editions ==
+The following editions of Windows 10 are discontinued, i.e. were not part of Windows 10 version 1803.  (For both Mobile and Mobile Enterprise, Microsoft confirmed it was exiting the consumer mobile devices market, so no successor product is available.)
+
+Mobile
+Windows 10 Mobile is designed for smartphones and small tablets. It includes all basic consumer features, including Continuum capability. It is the de facto successor of Windows Phone 8.1 and Windows RT.
+Mobile Enterprise
+Windows 10 Mobile Enterprise provides all the features in Windows 10 Mobile, with additional features to assist IT-based organizations, in a manner similar to Windows 10 Enterprise, but optimized for mobile devices.
+
+
+== Variations ==
+As with previous versions of Windows since XP, all Windows 10 editions for PC hardware have "N" and "KN" variations in Europe and South Korea that exclude certain bundled multimedia functionality, including media players and related components, in order to comply with antitrust rulings. The "Media Feature Pack" can be installed to restore these features.As with Windows 8.1, a reduced-price "Windows 10 with Bing" SKU is available to OEMs; it is subsidized by having Microsoft's Bing search engine set as default, which cannot be changed to a different search engine by OEMs. It is intended primarily for low-cost devices, and is otherwise identical to Windows 10 Home.In May 2017, it was reported that Microsoft had, as part of its partnership with China Electronics Technology Group, created a specially-modified version of Windows 10 Enterprise designed for use within branches of the Chinese government. This version is pre-configured to "remove features that are not needed by Chinese government employees", and allow the use of its internal encryption algorithms.
+
+
+== Comparison chart ==
+[1] The 4 GB limit for 32-bit editions is a limitation of the 32-bit addressing, not of Windows 10 itself. In practice, less than 4 GB of memory is addressable as the 4 GB space also incudes the memory mapped peripherals.
+Microsoft OEM licensing formula takes display size, RAM capacity and storage capacity into account. In mid-2015, devices with 4 GB RAM were expected to be $20 more expensive than devices with 2 GB RAM.
+
+
+== Upgrade path ==
+
+
+=== Free upgrade ===
+At the time of launch, Microsoft deemed Windows 7 (with Service Pack 1) and Windows 8.1 users eligible to upgrade to Windows 10 free of charge, so long as the upgrade takes place within one year of Windows 10's initial release date. Windows RT and the respective Enterprise editions of Windows 7, 8, and 8.1 were excluded from this offer.
+
+
+=== Commercial upgrade ===
+The following table summarizes possible upgrade paths that can be taken, provided that proper licenses are purchased.
+
+
+== Release branches ==
+New releases of Windows 10, called feature updates, are released twice a year as a free update for existing Windows 10 users. Each feature update contains new features and other changes to the operating system. The pace at which a system receives feature updates is dependent on the release branch from which the system downloads its updates. Windows 10 Pro, Enterprise and Education can optionally use a branch that receives updates at a slower pace. These modes can be managed through system settings, Windows Server Update Services (WSUS), Windows Update for Business, Group Policy or through mobile device management systems such as Microsoft Intune.
+Windows Insider
+Windows Insider is a beta testing program that allows access to pre-release builds of Windows 10; it is designed to allow power users, developers, and vendors to test and provide feedback on future feature updates to Windows 10 as they are developed. Windows Insider itself consists of four "rings", "Fast" (which receives new builds as they are released), "Slow" (which receives new builds on a delay after it is deployed to Fast ring users), "Release Preview" (which receives early access to updates for the Current Branch), and formerly "Skip Ahead" (which receives super-early builds for the next feature update while a current release is being finished).
+Semi-Annual Channel (Targeted)
+The Semi-Annual Channel (Targeted), previously known as the Current Branch (CB), distributes all feature updates as they graduate from the Windows Insider branch. Microsoft only supports the latest build. As of version 1703, additional settings are provided to pause or defer feature updates for a specified length of time, but they were not available on Windows 10 Home until version 1903.
+Semi-Annual Channel
+The Semi-Annual Channel, previously known as Current Branch for Business (CBB), distributes feature updates on a four-month delay from their original release to the Semi-Annual Channel. This allows customers and vendors to evaluate and perform additional testing on new builds before broader deployments. Devices can be switched back to the Semi-Annual Channel (Targeted) at any time. The Semi-Annual Channel is not available on Windows 10 Home.
+Long-Term Servicing Channel (LTSC)
+This servicing option is exclusively available for Windows 10 Enterprise LTSC edition and distributes snapshots of this edition that are updated every 2-3 years. LTSC builds adhere to Microsoft's traditional support policy which was in effect before Windows 10: They are not updated with new features, and are supported with critical updates for 10 years after their release. Microsoft officially discourages the use of LTSC outside of "special-purpose devices" that perform a fixed function and thus do not require new user experience features. As a result, it excludes Windows Store, most Cortana functionality, and most bundled apps (including Microsoft Edge). According to a Microsoft announcement, this servicing option was renamed from Long-Term Servicing Branch (LTSB) in 2016 to Long-Term Servicing Channel (LTSC) in 2018, to match the name changes mentioned above.
+
+
+== See also ==
+Windows Server 2016, the sibling of Windows 10 designed for servers, based on Windows 10 version 1607
+Windows Server 2019, based on Windows 10 version 1809
+Xbox One system software, an operating system based on the Windows 10 core, designed to run on consoles
+
+
+== Notes ==
+
+
+== References ==

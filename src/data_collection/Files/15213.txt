@@ -1,0 +1,35 @@
+Title: Wabi (software)
+Aspects: {'WABI'}
+
+Wabi is a discontinued commercial software application from Sun Microsystems that implements the Windows Win16 API specification on Solaris; a version for Linux was also released by Caldera Systems. Wabi runs applications developed for Windows 3.1, Windows 3.11, and Windows for Workgroups.
+
+
+== History ==
+The technology was originally developed by Praxsys Technologies as the result of discussions in 1990 with Interactive Systems Corporation. The assets of Praxsys were acquired by Sun in the fall of 1992. The name "Wabi" was chosen for two reasons: its meaning in Japanese of balance or harmony, which conjured the notion of a more peaceful coexistence between Windows and Unix software; and, the more obvious implication of it standing for "Windows Application Binary Interface", although before its release Sun declared that the name was not an acronym.
+Wabi 2.2B was licensed by Caldera to allow its users to run Windows applications under Linux, together with the also licensed Merge.
+Wabi development was discontinued in December 1997.
+
+
+== Features ==
+Wabi requires a Windows 3.x installation in order to work, meaning that it also requires a Windows license, unlike similar software that endeavors to implement the entire Windows API, such as Wine or select versions of OS/2. The basic premise of the product is to provide an emulation of the lowest layers of the Windows environment in the form of the user.dll, kernel.dll and gdi.dll libraries. As all other Windows dlls depend on these three modules, cloning this functionality allows Windows applications and their associated support dlls to execute correctly on a foreign host system. This approach, as opposed to a full replacement, was thought by the engineering team to be the only rational methodology for success given both the size of Microsoft's ever-expanding efforts and the difficulties of the emulation being precise enough to run commercial grades of software.
+Wabi was released for both x86 and SPARC systems. In order to run an x86 Windows environment on SPARC systems, a code translation layer was also provided, which dynamically converts x86 instructions on first use into SPARC instructions.
+
+
+== Standardization attempt ==
+In conjunction with its development of the Wabi software, Sun initiated an effort to create an ISO standard, non-proprietary definition of the Windows API. The Public Windows Initiative (PWI) was intended to define a publicly available standard that would help Sun and other companies that wished to clone the Microsoft Windows programming interface (such as Willows TWIN, another LGPL'd implementation of the API), but despite Sun's contention that there was no intellectual property breach, this effort was lobbied against at ISO by Microsoft, being rejected in 1996.
+
+
+== See also ==
+Macintosh Application Environment
+Wine - Windows compatibility layer
+
+
+== References ==
+
+
+== External links ==
+Wabi 2.2 User's Guide
+Review of Caldera's Wabi 2.2 for Linux
+Wabi for Linux User's Guide
+1998 comparison of Caldera's Wabi 2.2B, Wine and Willows Twin Libraries
+"Wabi: Caldera's Solution for Windows Applications" (Linux Journal, 1997)

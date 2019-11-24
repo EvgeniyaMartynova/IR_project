@@ -1,0 +1,1218 @@
+Title: Hierarchical matrix
+Aspects: {'H-matrix'}
+
+In numerical mathematics, hierarchical matrices (H-matrices)
+
+are used as data-sparse approximations of non-sparse matrices.
+While a sparse matrix of dimension 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+   can be represented efficiently in 
+  
+    
+      
+        O
+        (
+        n
+        )
+      
+    
+    {\displaystyle O(n)}
+   units of storage
+by storing only its non-zero entries, a non-sparse matrix would require 
+  
+    
+      
+        O
+        (
+        
+          n
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle O(n^{2})}
+   units of storage, and using this type
+of matrices for large problems would therefore be prohibitively expensive in terms of storage and computing time.
+Hierarchical matrices provide an approximation requiring only 
+  
+    
+      
+        O
+        (
+        n
+        k
+        
+        log
+        ⁡
+        (
+        n
+        )
+        )
+      
+    
+    {\displaystyle O(nk\,\log(n))}
+   units of storage, where 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+   is a
+parameter controlling the accuracy of the approximation.
+In typical applications, e.g., when discretizing integral equations
+
+,
+preconditioning the resulting systems of linear equations
+,
+or solving elliptic partial differential equations
+
+,
+a rank proportional to 
+  
+    
+      
+        log
+        ⁡
+        (
+        1
+        
+          /
+        
+        ϵ
+        
+          )
+          
+            γ
+          
+        
+      
+    
+    {\displaystyle \log(1/\epsilon )^{\gamma }}
+   with a small constant 
+  
+    
+      
+        γ
+      
+    
+    {\displaystyle \gamma }
+   is sufficient to ensure an
+accuracy of 
+  
+    
+      
+        ϵ
+      
+    
+    {\displaystyle \epsilon }
+  .
+Compared to many other data-sparse representations of non-sparse matrices, hierarchical matrices offer a major advantage:
+the results of matrix arithmetic operations like matrix multiplication, factorization or inversion can be approximated
+in 
+  
+    
+      
+        O
+        (
+        n
+        
+          k
+          
+            α
+          
+        
+        
+        log
+        ⁡
+        (
+        n
+        
+          )
+          
+            β
+          
+        
+        )
+      
+    
+    {\displaystyle O(nk^{\alpha }\,\log(n)^{\beta })}
+   operations, where 
+  
+    
+      
+        α
+        ,
+        β
+        ∈
+        {
+        1
+        ,
+        2
+        ,
+        3
+        }
+        .
+      
+    
+    {\displaystyle \alpha ,\beta \in \{1,2,3\}.}
+  
+
+
+== Basic idea ==
+Hierarchical matrices rely on local low-rank approximations:
+let 
+  
+    
+      
+        I
+        ,
+        J
+      
+    
+    {\displaystyle I,J}
+   be index sets, and let 
+  
+    
+      
+        G
+        ∈
+        
+          
+            
+              R
+            
+          
+          
+            I
+            ×
+            J
+          
+        
+      
+    
+    {\displaystyle G\in {\mathbb {R} }^{I\times J}}
+   denote the matrix we have to approximate.
+In many applications (see above), we can find subsets 
+  
+    
+      
+        t
+        ⊆
+        I
+        ,
+        s
+        ⊆
+        J
+      
+    
+    {\displaystyle t\subseteq I,s\subseteq J}
+   such that 
+  
+    
+      
+        G
+        
+          
+            |
+          
+          
+            t
+            ×
+            s
+          
+        
+      
+    
+    {\displaystyle G|_{t\times s}}
+  
+can be approximated by a rank-
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+   matrix.
+This approximation can be represented in factorized form 
+  
+    
+      
+        G
+        
+          
+            |
+          
+          
+            t
+            ×
+            s
+          
+        
+        ≈
+        A
+        
+          B
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle G|_{t\times s}\approx AB^{*}}
+   with factors
+
+  
+    
+      
+        A
+        ∈
+        
+          
+            
+              R
+            
+          
+          
+            t
+            ×
+            k
+          
+        
+        ,
+        B
+        ∈
+        
+          
+            
+              R
+            
+          
+          
+            s
+            ×
+            k
+          
+        
+      
+    
+    {\displaystyle A\in {\mathbb {R} }^{t\times k},B\in {\mathbb {R} }^{s\times k}}
+  .
+While the standard representation of the matrix 
+  
+    
+      
+        G
+        
+          
+            |
+          
+          
+            t
+            ×
+            s
+          
+        
+      
+    
+    {\displaystyle G|_{t\times s}}
+   requires 
+  
+    
+      
+        O
+        (
+        (
+        #
+        t
+        )
+        (
+        #
+        s
+        )
+        )
+      
+    
+    {\displaystyle O((\#t)(\#s))}
+   units of storage,
+the factorized representation requires only 
+  
+    
+      
+        O
+        (
+        k
+        (
+        #
+        t
+        +
+        #
+        s
+        )
+        )
+      
+    
+    {\displaystyle O(k(\#t+\#s))}
+   units.
+If 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+   is not too large, the storage requirements are reduced significantly.
+In order to approximate the entire matrix 
+  
+    
+      
+        G
+      
+    
+    {\displaystyle G}
+  , it is split into a family of submatrices.
+Large submatrices are stored in factorized representation, while small submatrices are stored in standard representation
+in order to improve the efficiency.
+Low-rank matrices are closely related to degenerate expansions used in panel clustering and the fast multipole method
+to approximate integral operators.
+In this sense, hierarchical matrices can be considered the algebraic counterparts of these techniques.
+
+
+== Application to integral operators ==
+Hierarchical matrices are successfully used to treat integral equations, e.g., the single and double layer potential operators
+appearing in the boundary element method.
+A typical operator has the form
+
+  
+    
+      
+        
+          
+            G
+          
+        
+        [
+        u
+        ]
+        (
+        x
+        )
+        =
+        
+          ∫
+          
+            Ω
+          
+        
+        κ
+        (
+        x
+        ,
+        y
+        )
+        u
+        (
+        y
+        )
+        
+        d
+        y
+        .
+      
+    
+    {\displaystyle {\mathcal {G}}[u](x)=\int _{\Omega }\kappa (x,y)u(y)\,dy.}
+  The Galerkin method leads to matrix entries of the form
+
+  
+    
+      
+        
+          g
+          
+            i
+            j
+          
+        
+        =
+        
+          ∫
+          
+            Ω
+          
+        
+        
+          ∫
+          
+            Ω
+          
+        
+        κ
+        (
+        x
+        ,
+        y
+        )
+        
+          φ
+          
+            i
+          
+        
+        (
+        x
+        )
+        
+          ψ
+          
+            j
+          
+        
+        (
+        y
+        )
+        
+        d
+        y
+        
+        d
+        x
+        ,
+      
+    
+    {\displaystyle g_{ij}=\int _{\Omega }\int _{\Omega }\kappa (x,y)\varphi _{i}(x)\psi _{j}(y)\,dy\,dx,}
+  where 
+  
+    
+      
+        (
+        
+          φ
+          
+            i
+          
+        
+        
+          )
+          
+            i
+            ∈
+            I
+          
+        
+      
+    
+    {\displaystyle (\varphi _{i})_{i\in I}}
+   and 
+  
+    
+      
+        (
+        
+          ψ
+          
+            j
+          
+        
+        
+          )
+          
+            j
+            ∈
+            J
+          
+        
+      
+    
+    {\displaystyle (\psi _{j})_{j\in J}}
+   are families of finite element basis functions.
+If the kernel function 
+  
+    
+      
+        κ
+      
+    
+    {\displaystyle \kappa }
+   is sufficiently smooth, we can approximate it by polynomial interpolation to obtain
+
+  
+    
+      
+        
+          
+            
+              κ
+              ~
+            
+          
+        
+        (
+        x
+        ,
+        y
+        )
+        =
+        
+          ∑
+          
+            ν
+            =
+            1
+          
+          
+            k
+          
+        
+        κ
+        (
+        x
+        ,
+        
+          ξ
+          
+            ν
+          
+        
+        )
+        
+          ℓ
+          
+            ν
+          
+        
+        (
+        y
+        )
+        ,
+      
+    
+    {\displaystyle {\tilde {\kappa }}(x,y)=\sum _{\nu =1}^{k}\kappa (x,\xi _{\nu })\ell _{\nu }(y),}
+  where 
+  
+    
+      
+        (
+        
+          ξ
+          
+            ν
+          
+        
+        
+          )
+          
+            ν
+            =
+            1
+          
+          
+            k
+          
+        
+      
+    
+    {\displaystyle (\xi _{\nu })_{\nu =1}^{k}}
+   is the family of interpolation points and 
+  
+    
+      
+        (
+        
+          ℓ
+          
+            ν
+          
+        
+        
+          )
+          
+            ν
+            =
+            1
+          
+          
+            k
+          
+        
+      
+    
+    {\displaystyle (\ell _{\nu })_{\nu =1}^{k}}
+  
+is the corresponding family of Lagrange polynomials.
+Replacing 
+  
+    
+      
+        κ
+      
+    
+    {\displaystyle \kappa }
+   by 
+  
+    
+      
+        
+          
+            
+              κ
+              ~
+            
+          
+        
+      
+    
+    {\displaystyle {\tilde {\kappa }}}
+   yields an approximation
+
+  
+    
+      
+        
+          
+            
+              
+                g
+                ~
+              
+            
+          
+          
+            i
+            j
+          
+        
+        =
+        
+          ∫
+          
+            Ω
+          
+        
+        
+          ∫
+          
+            Ω
+          
+        
+        
+          
+            
+              κ
+              ~
+            
+          
+        
+        (
+        x
+        ,
+        y
+        )
+        
+          φ
+          
+            i
+          
+        
+        (
+        x
+        )
+        
+          ψ
+          
+            j
+          
+        
+        (
+        y
+        )
+        
+        d
+        y
+        
+        d
+        x
+        =
+        
+          ∑
+          
+            ν
+            =
+            1
+          
+          
+            k
+          
+        
+        
+          ∫
+          
+            Ω
+          
+        
+        κ
+        (
+        x
+        ,
+        
+          ξ
+          
+            ν
+          
+        
+        )
+        
+          φ
+          
+            i
+          
+        
+        (
+        x
+        )
+        
+        d
+        x
+        
+          ∫
+          
+            Ω
+          
+        
+        
+          ℓ
+          
+            ν
+          
+        
+        (
+        y
+        )
+        
+          ψ
+          
+            j
+          
+        
+        (
+        y
+        )
+        
+        d
+        y
+        =
+        
+          ∑
+          
+            ν
+            =
+            1
+          
+          
+            k
+          
+        
+        
+          a
+          
+            i
+            ν
+          
+        
+        
+          b
+          
+            j
+            ν
+          
+        
+      
+    
+    {\displaystyle {\tilde {g}}_{ij}=\int _{\Omega }\int _{\Omega }{\tilde {\kappa }}(x,y)\varphi _{i}(x)\psi _{j}(y)\,dy\,dx=\sum _{\nu =1}^{k}\int _{\Omega }\kappa (x,\xi _{\nu })\varphi _{i}(x)\,dx\int _{\Omega }\ell _{\nu }(y)\psi _{j}(y)\,dy=\sum _{\nu =1}^{k}a_{i\nu }b_{j\nu }}
+  with the coefficients
+
+  
+    
+      
+        
+          a
+          
+            i
+            ν
+          
+        
+        =
+        
+          ∫
+          
+            Ω
+          
+        
+        κ
+        (
+        x
+        ,
+        
+          ξ
+          
+            ν
+          
+        
+        )
+        
+          φ
+          
+            i
+          
+        
+        (
+        x
+        )
+        
+        d
+        x
+        ,
+      
+    
+    {\displaystyle a_{i\nu }=\int _{\Omega }\kappa (x,\xi _{\nu })\varphi _{i}(x)\,dx,}
+  
+  
+    
+      
+        
+          b
+          
+            j
+            ν
+          
+        
+        =
+        
+          ∫
+          
+            Ω
+          
+        
+        
+          ℓ
+          
+            ν
+          
+        
+        (
+        y
+        )
+        
+          ψ
+          
+            j
+          
+        
+        (
+        y
+        )
+        
+        d
+        y
+        .
+      
+    
+    {\displaystyle b_{j\nu }=\int _{\Omega }\ell _{\nu }(y)\psi _{j}(y)\,dy.}
+  If we choose 
+  
+    
+      
+        t
+        ⊆
+        I
+        ,
+        s
+        ⊆
+        J
+      
+    
+    {\displaystyle t\subseteq I,s\subseteq J}
+   and use the same interpolation points for all 
+  
+    
+      
+        i
+        ∈
+        t
+        ,
+        j
+        ∈
+        s
+      
+    
+    {\displaystyle i\in t,j\in s}
+  , we obtain
+
+  
+    
+      
+        G
+        
+          
+            |
+          
+          
+            t
+            ×
+            s
+          
+        
+        ≈
+        A
+        
+          B
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle G|_{t\times s}\approx AB^{*}}
+  .
+Obviously, any other approximation separating the variables 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+   and 
+  
+    
+      
+        y
+      
+    
+    {\displaystyle y}
+  , e.g., the multipole expansion,
+would also allow us to split the double integral into two single integrals and thus arrive at a similar factorized low-rank matrix.
+Of particular interest are cross approximation techniques
+
+that use only the entries of the original matrix 
+  
+    
+      
+        G
+      
+    
+    {\displaystyle G}
+   to construct a low-rank approximation.
+
+
+== Application to elliptic partial differential equations ==
+Since the solution operator of an elliptic partial differential equation can be expressed as an integral operator involving
+Green's function, it is not surprising that the inverse of the stiffness matrix arising from the finite element method
+can be approximated by a hierarchical matrix.
+Green's function depends on the shape of the computational domain, therefore it is usually not known.
+Nevertheless, approximate arithmetic operations can be employed to compute an approximate inverse without knowing the
+function explicitly.
+Surprisingly, it is possible to prove that the inverse can be approximated even if
+the differential operator involves non-smooth coefficients and Green's function is therefore not smooth.
+
+
+== Arithmetic operations ==
+The most important innovation of the hierarchical matrix method is the development of efficient algorithms for performing
+(approximate) matrix arithmetic operations on non-sparse matrices, e.g., to compute approximate inverses, LU decompositions
+and solutions to matrix equations.
+The central algorithm is the efficient matrix-matrix multiplication, i.e., the computation of 
+  
+    
+      
+        Z
+        =
+        Z
+        +
+        α
+        X
+        Y
+      
+    
+    {\displaystyle Z=Z+\alpha XY}
+  
+for hierarchical matrices 
+  
+    
+      
+        X
+        ,
+        Y
+        ,
+        Z
+      
+    
+    {\displaystyle X,Y,Z}
+   and a scalar factor 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  .
+The algorithm requires the submatrices of the hierarchical matrices to be organized in a block tree structure and takes
+advantage of the properties of factorized low-rank matrices to compute the updated 
+  
+    
+      
+        Z
+      
+    
+    {\displaystyle Z}
+   in
+
+  
+    
+      
+        O
+        (
+        n
+        
+          k
+          
+            2
+          
+        
+        
+        log
+        ⁡
+        (
+        n
+        
+          )
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle O(nk^{2}\,\log(n)^{2})}
+   operations.
+Taking advantage of the block structure, the inverse can be computed by using recursion to compute inverses and
+Schur complements of diagonal blocks and combining both using the matrix-matrix multiplication.
+In a similar way, the LU decomposition
+
+can be constructed using only recursion and multiplication.
+Both operations also require 
+  
+    
+      
+        O
+        (
+        n
+        
+          k
+          
+            2
+          
+        
+        
+        log
+        ⁡
+        (
+        n
+        
+          )
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle O(nk^{2}\,\log(n)^{2})}
+   operations.
+
+
+== H2-matrices ==
+In order to treat very large problems, the structure of hierarchical matrices can be improved:
+H2-matrices
+
+replace the general low-rank structure of the blocks by a hierarchical representation closely related to the
+fast multipole method in order to reduce the storage complexity to 
+  
+    
+      
+        O
+        (
+        n
+        k
+        )
+      
+    
+    {\displaystyle O(nk)}
+  .
+In the context of boundary integral operators, replacing the fixed rank 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+   by block-dependent ranks
+leads to approximations that preserve the rate of convergence of the underlying boundary element method
+at a complexity of 
+  
+    
+      
+        O
+        (
+        n
+        )
+        .
+      
+    
+    {\displaystyle O(n).}
+  Arithmetic operations like multiplication, inversion, and Cholesky or LR factorization of H2-matrices
+can be implemented based on two fundamental operations: the matrix-vector multiplication with submatrices
+and the low-rank update of submatrices.
+While the matrix-vector multiplication is straightforward, implementing efficient low-rank updates with
+adaptively optimized cluster bases poses a significant challenge.
+
+
+== Literature ==
+
+
+== Software ==
+HLib is a C software library implementing the most important algorithms for hierarchical and 
+  
+    
+      
+        
+          
+            
+              H
+            
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle {\mathcal {H}}^{2}}
+  -matrices.
+AHMED is a C++ software library that can be downloaded for educational purposes.
+HLIBpro is an implementation of the core hierarchical matrix algorithms for commercial applications.
+H2Lib is an open source implementation of hierarchical matrix algorithms intended for research and teaching.
+awesome-hierarchical-matrices is a repository containing a list of other H-Matrices implementations.
+HierarchicalMatrices.jl is a Julia package implementing hierarchical matrices.
