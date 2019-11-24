@@ -13,7 +13,7 @@ topics_aspects_folder = "Topics Aspects"
 
 wiki_url = "https://en.wikipedia.org"
 
-abc_list = string.ascii_uppercase
+abc_list = "b" #string.ascii_uppercase
 dis_page = wikipedia.WikipediaPage("Category:All disambiguation pages")
 
 
@@ -48,6 +48,7 @@ def create_topic_directory(topic_title):
         return topic_path
     except OSError:
         print("Creation of the directory %s failed" % topic_path)
+        return None
 
 
 def extract_disambiguation_pages(letter, index):
@@ -117,7 +118,7 @@ def download_wiki_data(index = 0):
         pages = dict()
         for link, topic in disambiguation_pages:
             # remove (disambiguation) from pages that have it and the remaining whitespace
-            topic = topic.strip("(disambiguation)").strip()
+            topic = topic.strip("(disambiguation)")
             print(topic)
             page_html = extract_func_from_link(link)
             pages[topic] = extract_topics_aspects(page_html)
@@ -126,28 +127,29 @@ def download_wiki_data(index = 0):
         topics = pages.keys()
         for topic in topics:
             topic_directory = create_topic_directory(topic)
-            aspect_pages = pages[topic]
-            aspects = []
-            for aspect_link, aspect_title in aspect_pages:
-                if aspect_title:
-                    try:
-                        page = wikipedia.page(aspect_title)
-                        page_id = uuid.uuid4()
-                        save_page(aspect_title, page.content, page_id, topic_directory)
-                        aspects.append((aspect_title, page_id))
-                    except wikipedia.exceptions.DisambiguationError:
-                        print("Page Error")
-                        continue
-                    except wikipedia.exceptions.PageError:
-                        print("Page non existent")
-                        continue
-                    except:
-                        print("Unknown Error")
-                        continue
-            if len(aspects) == 0:
-                os.rmdir(topic_directory)
-            else:
-                save_page_topic_aspects(topic, aspects)
+            if topic_directory is not None:
+                aspect_pages = pages[topic]
+                aspects = []
+                for aspect_link, aspect_title in aspect_pages:
+                    if aspect_title:
+                        try:
+                            page = wikipedia.page(aspect_title)
+                            page_id = uuid.uuid4()
+                            save_page(aspect_title, page.content, page_id, topic_directory)
+                            aspects.append((aspect_title, page_id))
+                        except wikipedia.exceptions.DisambiguationError:
+                            print("Page Error")
+                            continue
+                        except wikipedia.exceptions.PageError:
+                            print("Page non existent")
+                            continue
+                        except:
+                            print("Unknown Error")
+                            continue
+                if len(aspects) == 0:
+                    os.rmdir(topic_directory)
+                else:
+                    save_page_topic_aspects(topic, aspects)
 
 
 
