@@ -1,0 +1,5188 @@
+Lambert W function
+
+In mathematics, the Lambert W function, also called the omega function or product logarithm, is a set of functions, namely the branches of the inverse relation of the function f(z) = zez, where ez is the exponential function, and z is any complex number (x+iy). In other words, if w = W(z) is any branch of the Lambert W function then
+
+  
+    
+      
+        z
+        =
+        f
+        (
+        w
+        )
+        =
+        w
+        
+          e
+          
+            w
+          
+        
+        .
+      
+    
+    {\displaystyle z=f(w)=we^{w}.}
+  This is not quite the same as the similar-looking statement in reverse order
+
+  
+    
+      
+        w
+        =
+        
+          f
+          
+            −
+            1
+          
+        
+        
+          (
+          z
+          )
+        
+        =
+        W
+        
+          (
+          
+            w
+            
+              e
+              
+                w
+              
+            
+          
+          )
+        
+        ,
+      
+    
+    {\displaystyle w=f^{-1}\left(z\right)=W\left(we^{w}\right),}
+  which requires that the correct branch of W be chosen on the right-hand side in order to ensure equality.
+With that caveat, by substituting w = W(z) into the first equation above, we get the defining equation for the W function (and for the W relation in general):
+
+  
+    
+      
+        z
+        =
+        W
+        (
+        z
+        )
+        
+          e
+          
+            W
+            (
+            z
+            )
+          
+        
+      
+    
+    {\displaystyle z=W(z)e^{W(z)}}
+  for any complex number z.
+The relation W is multivalued (except at 0).  If we restrict attention to real-valued W, the complex variable z is then replaced by the real variable x, and the relation is defined only for x ≥ −1/e and is double-valued on the interval (−1/e, 0). The additional constraint W ≥ −1 defines a single-valued function W0(x).  We have W0(0) = 0 and W0(−1/e) = −1.  Meanwhile, the lower branch has W ≤ −1 and is denoted W−1(x).  It decreases from W−1(−1/e) = −1 to W−1(0−) = −∞.
+It can be extended to the function z = xax using the identity
+
+  
+    
+      
+        x
+        =
+        
+          
+            
+              W
+              (
+              z
+              ln
+              ⁡
+              
+                a
+              
+              )
+            
+            
+              ln
+              ⁡
+              
+                a
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle x={\frac {W(z\ln {a})}{\ln {a}}}.}
+  The Lambert W relation cannot be expressed in terms of elementary functions. It is useful in combinatorics, for instance, in the enumeration of trees. It can be used to solve various equations involving exponentials (e.g. the maxima of the Planck, Bose–Einstein, and Fermi–Dirac distributions) and also occurs in the solution of delay differential equations, such as y′(t) = a y(t − 1). In biochemistry, and in particular enzyme kinetics, a closed-form solution for the time-course kinetics analysis of Michaelis–Menten kinetics is described in terms of the Lambert W function.
+
+
+== Terminology ==
+
+The Lambert W function is named after Johann Heinrich Lambert. The main branch W0 is denoted Wp in the Digital Library of Mathematical Functions, and the branch W−1 is denoted Wm there.
+The notation convention chosen here (with W0 and W−1) follows the canonical reference on the Lambert W function by Corless, Gonnet, Hare, Jeffrey and Knuth.
+
+
+== History ==
+Lambert first considered the related Lambert's Transcendental Equation in 1758, which led to an article by Leonhard Euler in 1783 that discussed the special case of wew.
+The function Lambert considered was 
+
+  
+    
+      
+        x
+        =
+        
+          x
+          
+            m
+          
+        
+        +
+        q
+        .
+      
+    
+    {\displaystyle x=x^{m}+q.}
+  Euler transformed this equation into the form
+
+  
+    
+      
+        
+          x
+          
+            a
+          
+        
+        −
+        
+          x
+          
+            b
+          
+        
+        =
+        (
+        a
+        −
+        b
+        )
+        c
+        
+          x
+          
+            a
+            +
+            b
+          
+        
+        .
+      
+    
+    {\displaystyle x^{a}-x^{b}=(a-b)cx^{a+b}.}
+  Both authors derived a series solution for their equations.
+Once Euler had solved this equation he considered the case a = b. Taking limits he derived the equation
+
+  
+    
+      
+        ln
+        ⁡
+        x
+        =
+        c
+        
+          x
+          
+            a
+          
+        
+        .
+      
+    
+    {\displaystyle \ln x=cx^{a}.}
+  He then put a = 1 and obtained a convergent series solution.
+After taking derivatives with respect to x and some manipulation, the standard form of the Lambert function is obtained.
+In 1993, when it was reported that the Lambert W function provides an exact solution to the quantum-mechanical double-well Dirac delta function model for equal charges—a fundamental problem in physics—Corless and developers of the Maple computer algebra system made a library search and found that this function was ubiquitous in nature.Another example where this function is found is in Michaelis–Menten kinetics.
+
+
+== Calculus ==
+
+
+=== Derivative ===
+By implicit differentiation, one can show that all branches of W satisfy the differential equation
+
+  
+    
+      
+        z
+        (
+        1
+        +
+        W
+        )
+        
+          
+            
+              d
+              W
+            
+            
+              d
+              z
+            
+          
+        
+        =
+        W
+        
+        
+          for 
+        
+        z
+        ≠
+        −
+        
+          
+            1
+            e
+          
+        
+        .
+      
+    
+    {\displaystyle z(1+W){\frac {dW}{dz}}=W\quad {\text{for }}z\neq -{\frac {1}{e}}.}
+  (W is not differentiable for z = −1/e.) As a consequence, we get the following formula for the derivative of W:
+
+  
+    
+      
+        
+          
+            
+              d
+              W
+            
+            
+              d
+              z
+            
+          
+        
+        =
+        
+          
+            
+              W
+              (
+              z
+              )
+            
+            
+              z
+              (
+              1
+              +
+              W
+              (
+              z
+              )
+              )
+            
+          
+        
+        
+        
+          for 
+        
+        z
+        ∉
+        
+          {
+          
+            0
+            ,
+            −
+            
+              
+                1
+                e
+              
+            
+          
+          }
+        
+        .
+      
+    
+    {\displaystyle {\frac {dW}{dz}}={\frac {W(z)}{z(1+W(z))}}\quad {\text{for }}z\not \in \left\{0,-{\frac {1}{e}}\right\}.}
+  Using the identity eW(z) = z / W(z), we get the following equivalent formula:
+
+  
+    
+      
+        
+          
+            
+              d
+              W
+            
+            
+              d
+              z
+            
+          
+        
+        =
+        
+          
+            1
+            
+              z
+              +
+              
+                e
+                
+                  W
+                  (
+                  z
+                  )
+                
+              
+            
+          
+        
+        
+        
+          for 
+        
+        z
+        ≠
+        −
+        
+          
+            1
+            e
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {dW}{dz}}={\frac {1}{z+e^{W(z)}}}\quad {\text{for }}z\neq -{\frac {1}{e}}.}
+  
+
+
+=== Antiderivative ===
+The function W(x), and many expressions involving W(x), can be integrated using the substitution w = W(x), i.e. x = wew:
+
+  
+    
+      
+        
+          
+            
+              
+                ∫
+                W
+                (
+                x
+                )
+                
+                d
+                x
+              
+              
+                
+                =
+                x
+                W
+                (
+                x
+                )
+                −
+                x
+                +
+                
+                  e
+                  
+                    W
+                    (
+                    x
+                    )
+                  
+                
+                +
+                C
+              
+            
+            
+              
+              
+                
+                =
+                x
+                
+                  (
+                  
+                    W
+                    (
+                    x
+                    )
+                    −
+                    1
+                    +
+                    
+                      
+                        1
+                        
+                          W
+                          (
+                          x
+                          )
+                        
+                      
+                    
+                  
+                  )
+                
+                +
+                C
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\int W(x)\,dx&=xW(x)-x+e^{W(x)}+C\\&=x\left(W(x)-1+{\frac {1}{W(x)}}\right)+C.\end{aligned}}}
+  (The last equation is more common in the literature but does not hold at x = 0).  One consequence of this (using the fact that W(e) = 1) is the identity
+
+  
+    
+      
+        
+          ∫
+          
+            0
+          
+          
+            e
+          
+        
+        W
+        (
+        x
+        )
+        
+        d
+        x
+        =
+        e
+        −
+        1.
+      
+    
+    {\displaystyle \int _{0}^{e}W(x)\,dx=e-1.}
+  
+
+
+== Asymptotic expansions ==
+The Taylor series of W0 around 0 can be found using the Lagrange inversion theorem and is given by
+
+  
+    
+      
+        
+          W
+          
+            0
+          
+        
+        (
+        x
+        )
+        =
+        
+          ∑
+          
+            n
+            =
+            1
+          
+          
+            ∞
+          
+        
+        
+          
+            
+              (
+              −
+              n
+              
+                )
+                
+                  n
+                  −
+                  1
+                
+              
+            
+            
+              n
+              !
+            
+          
+        
+        
+          x
+          
+            n
+          
+        
+        =
+        x
+        −
+        
+          x
+          
+            2
+          
+        
+        +
+        
+          
+            
+              3
+              2
+            
+          
+        
+        
+          x
+          
+            3
+          
+        
+        −
+        
+          
+            
+              8
+              3
+            
+          
+        
+        
+          x
+          
+            4
+          
+        
+        +
+        
+          
+            
+              125
+              24
+            
+          
+        
+        
+          x
+          
+            5
+          
+        
+        −
+        ⋯
+        .
+      
+    
+    {\displaystyle W_{0}(x)=\sum _{n=1}^{\infty }{\frac {(-n)^{n-1}}{n!}}x^{n}=x-x^{2}+{\tfrac {3}{2}}x^{3}-{\tfrac {8}{3}}x^{4}+{\tfrac {125}{24}}x^{5}-\cdots .}
+  The radius of convergence is 1/e, as may be seen by the ratio test. The function defined by this series can be extended to a holomorphic function defined on all complex numbers with a branch cut along the interval (−∞, −1/e]; this holomorphic function defines the principal branch of the Lambert W function.
+For large values of x, W0 is asymptotic to
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  W
+                  
+                    0
+                  
+                
+                (
+                x
+                )
+              
+              
+                
+                =
+                
+                  L
+                  
+                    1
+                  
+                
+                −
+                
+                  L
+                  
+                    2
+                  
+                
+                +
+                
+                  
+                    
+                      L
+                      
+                        2
+                      
+                    
+                    
+                      L
+                      
+                        1
+                      
+                    
+                  
+                
+                +
+                
+                  
+                    
+                      
+                        L
+                        
+                          2
+                        
+                      
+                      
+                        (
+                        
+                          −
+                          2
+                          +
+                          
+                            L
+                            
+                              2
+                            
+                          
+                        
+                        )
+                      
+                    
+                    
+                      2
+                      
+                        L
+                        
+                          1
+                        
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+                +
+                
+                  
+                    
+                      
+                        L
+                        
+                          2
+                        
+                      
+                      
+                        (
+                        
+                          6
+                          −
+                          9
+                          
+                            L
+                            
+                              2
+                            
+                          
+                          +
+                          2
+                          
+                            L
+                            
+                              2
+                            
+                            
+                              2
+                            
+                          
+                        
+                        )
+                      
+                    
+                    
+                      6
+                      
+                        L
+                        
+                          1
+                        
+                        
+                          3
+                        
+                      
+                    
+                  
+                
+                +
+                
+                  
+                    
+                      
+                        L
+                        
+                          2
+                        
+                      
+                      
+                        (
+                        
+                          −
+                          12
+                          +
+                          36
+                          
+                            L
+                            
+                              2
+                            
+                          
+                          −
+                          22
+                          
+                            L
+                            
+                              2
+                            
+                            
+                              2
+                            
+                          
+                          +
+                          3
+                          
+                            L
+                            
+                              2
+                            
+                            
+                              3
+                            
+                          
+                        
+                        )
+                      
+                    
+                    
+                      12
+                      
+                        L
+                        
+                          1
+                        
+                        
+                          4
+                        
+                      
+                    
+                  
+                
+                +
+                ⋯
+              
+            
+            
+              
+              
+                
+                =
+                
+                  L
+                  
+                    1
+                  
+                
+                −
+                
+                  L
+                  
+                    2
+                  
+                
+                +
+                
+                  ∑
+                  
+                    l
+                    =
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                
+                  ∑
+                  
+                    m
+                    =
+                    1
+                  
+                  
+                    ∞
+                  
+                
+                
+                  
+                    
+                      (
+                      −
+                      1
+                      
+                        )
+                        
+                          l
+                        
+                      
+                      
+                        [
+                        
+                          
+                            
+                              
+                                
+                                  l
+                                  +
+                                  m
+                                
+                              
+                              
+                                
+                                  l
+                                  +
+                                  1
+                                
+                              
+                            
+                          
+                        
+                        ]
+                      
+                    
+                    
+                      m
+                      !
+                    
+                  
+                
+                
+                  L
+                  
+                    1
+                  
+                  
+                    −
+                    l
+                    −
+                    m
+                  
+                
+                
+                  L
+                  
+                    2
+                  
+                  
+                    m
+                  
+                
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}W_{0}(x)&=L_{1}-L_{2}+{\frac {L_{2}}{L_{1}}}+{\frac {L_{2}\left(-2+L_{2}\right)}{2L_{1}^{2}}}+{\frac {L_{2}\left(6-9L_{2}+2L_{2}^{2}\right)}{6L_{1}^{3}}}+{\frac {L_{2}\left(-12+36L_{2}-22L_{2}^{2}+3L_{2}^{3}\right)}{12L_{1}^{4}}}+\cdots \\[5pt]&=L_{1}-L_{2}+\sum _{l=0}^{\infty }\sum _{m=1}^{\infty }{\frac {(-1)^{l}\left[{\begin{smallmatrix}l+m\\l+1\end{smallmatrix}}\right]}{m!}}L_{1}^{-l-m}L_{2}^{m},\end{aligned}}}
+  where L1 = ln x, L2 = ln ln x, and [l + ml + 1] is a non-negative Stirling number of the first kind. Keeping only the first two terms of the expansion,
+
+  
+    
+      
+        
+          W
+          
+            0
+          
+        
+        (
+        x
+        )
+        =
+        ln
+        ⁡
+        x
+        −
+        ln
+        ⁡
+        ln
+        ⁡
+        x
+        +
+        o
+        (
+        1
+        )
+        .
+      
+    
+    {\displaystyle W_{0}(x)=\ln x-\ln \ln x+o(1).}
+  The other real branch, W−1, defined in the interval [−1/e, 0), has an approximation of the same form as x approaches zero, with in this case L1 = ln(−x) and L2 = ln(−ln(−x)).It is shown that the following bound holds (the upper bound only for x ≥ e):
+
+  
+    
+      
+        ln
+        ⁡
+        x
+        −
+        ln
+        ⁡
+        ln
+        ⁡
+        x
+        +
+        
+          
+            
+              ln
+              ⁡
+              ln
+              ⁡
+              x
+            
+            
+              2
+              ln
+              ⁡
+              x
+            
+          
+        
+        ≤
+        
+          W
+          
+            0
+          
+        
+        (
+        x
+        )
+        ≤
+        ln
+        ⁡
+        x
+        −
+        ln
+        ⁡
+        ln
+        ⁡
+        x
+        +
+        
+          
+            e
+            
+              e
+              −
+              1
+            
+          
+        
+        
+          
+            
+              ln
+              ⁡
+              ln
+              ⁡
+              x
+            
+            
+              ln
+              ⁡
+              x
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \ln x-\ln \ln x+{\frac {\ln \ln x}{2\ln x}}\leq W_{0}(x)\leq \ln x-\ln \ln x+{\frac {e}{e-1}}{\frac {\ln \ln x}{\ln x}}.}
+  In 2013 it was proven that the branch W−1 can be bounded as follows:
+
+  
+    
+      
+        −
+        1
+        −
+        
+          
+            2
+            u
+          
+        
+        −
+        u
+        <
+        
+          W
+          
+            −
+            1
+          
+        
+        
+          (
+          
+            −
+            
+              e
+              
+                −
+                u
+                −
+                1
+              
+            
+          
+          )
+        
+        <
+        −
+        1
+        −
+        
+          
+            2
+            u
+          
+        
+        −
+        
+          
+            
+              2
+              3
+            
+          
+        
+        u
+        
+        
+          for 
+        
+        u
+        >
+        0.
+      
+    
+    {\displaystyle -1-{\sqrt {2u}}-u<W_{-1}\left(-e^{-u-1}\right)<-1-{\sqrt {2u}}-{\tfrac {2}{3}}u\quad {\text{for }}u>0.}
+  
+
+
+=== Integer and complex powers ===
+Integer powers of W0 also admit simple Taylor (or Laurent) series expansions at zero:
+
+  
+    
+      
+        
+          W
+          
+            0
+          
+        
+        (
+        x
+        
+          )
+          
+            2
+          
+        
+        =
+        
+          ∑
+          
+            n
+            =
+            2
+          
+          
+            ∞
+          
+        
+        
+          
+            
+              −
+              2
+              
+                
+                  (
+                  
+                    −
+                    n
+                  
+                  )
+                
+                
+                  n
+                  −
+                  3
+                
+              
+            
+            
+              (
+              n
+              −
+              2
+              )
+              !
+            
+          
+        
+        
+          x
+          
+            n
+          
+        
+        =
+        
+          x
+          
+            2
+          
+        
+        −
+        2
+        
+          x
+          
+            3
+          
+        
+        +
+        4
+        
+          x
+          
+            4
+          
+        
+        −
+        
+          
+            
+              25
+              3
+            
+          
+        
+        
+          x
+          
+            5
+          
+        
+        +
+        18
+        
+          x
+          
+            6
+          
+        
+        −
+        ⋯
+        .
+      
+    
+    {\displaystyle W_{0}(x)^{2}=\sum _{n=2}^{\infty }{\frac {-2\left(-n\right)^{n-3}}{(n-2)!}}x^{n}=x^{2}-2x^{3}+4x^{4}-{\tfrac {25}{3}}x^{5}+18x^{6}-\cdots .}
+  More generally, for r ∈ ℤ, the Lagrange inversion formula gives
+
+  
+    
+      
+        
+          W
+          
+            0
+          
+        
+        (
+        x
+        
+          )
+          
+            r
+          
+        
+        =
+        
+          ∑
+          
+            n
+            =
+            r
+          
+          
+            ∞
+          
+        
+        
+          
+            
+              −
+              r
+              
+                
+                  (
+                  
+                    −
+                    n
+                  
+                  )
+                
+                
+                  n
+                  −
+                  r
+                  −
+                  1
+                
+              
+            
+            
+              (
+              n
+              −
+              r
+              )
+              !
+            
+          
+        
+        
+          x
+          
+            n
+          
+        
+        ,
+      
+    
+    {\displaystyle W_{0}(x)^{r}=\sum _{n=r}^{\infty }{\frac {-r\left(-n\right)^{n-r-1}}{(n-r)!}}x^{n},}
+  which is, in general, a Laurent series of order r. Equivalently, the latter can be written in the form of a Taylor expansion of powers of W0(x) / x:
+
+  
+    
+      
+        
+          
+            (
+            
+              
+                
+                  
+                    W
+                    
+                      0
+                    
+                  
+                  (
+                  x
+                  )
+                
+                x
+              
+            
+            )
+          
+          
+            r
+          
+        
+        =
+        
+          e
+          
+            −
+            r
+            
+              W
+              
+                0
+              
+            
+            (
+            x
+            )
+          
+        
+        =
+        
+          ∑
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          
+            
+              r
+              
+                
+                  (
+                  
+                    n
+                    +
+                    r
+                  
+                  )
+                
+                
+                  n
+                  −
+                  1
+                
+              
+            
+            
+              n
+              !
+            
+          
+        
+        
+          
+            (
+            
+              −
+              x
+            
+            )
+          
+          
+            n
+          
+        
+        ,
+      
+    
+    {\displaystyle \left({\frac {W_{0}(x)}{x}}\right)^{r}=e^{-rW_{0}(x)}=\sum _{n=0}^{\infty }{\frac {r\left(n+r\right)^{n-1}}{n!}}\left(-x\right)^{n},}
+  which holds for any r ∈ ℂ and |x| < 1/e.
+
+
+== Identities ==
+A few identities follow from the definition:
+
+  
+    
+      
+        
+          
+            
+              
+                W
+                (
+                x
+                
+                  e
+                  
+                    x
+                  
+                
+                )
+              
+              
+                
+                =
+                x
+              
+              
+                
+                  for 
+                
+                x
+              
+              
+                
+                ≥
+                0
+                ,
+              
+            
+            
+              
+                
+                  W
+                  
+                    0
+                  
+                
+                (
+                x
+                
+                  e
+                  
+                    x
+                  
+                
+                )
+              
+              
+                
+                =
+                x
+              
+              
+                
+                  for 
+                
+                x
+              
+              
+                
+                ≥
+                −
+                1
+                ,
+              
+            
+            
+              
+                
+                  W
+                  
+                    −
+                    1
+                  
+                
+                (
+                x
+                
+                  e
+                  
+                    x
+                  
+                
+                )
+              
+              
+                
+                =
+                x
+              
+              
+                
+                  for 
+                
+                x
+              
+              
+                
+                ≤
+                −
+                1.
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}W(xe^{x})&=x&{\text{for }}x&\geq 0,\\W_{0}(xe^{x})&=x&{\text{for }}x&\geq -1,\\W_{-1}(xe^{x})&=x&{\text{for }}x&\leq -1.\end{aligned}}}
+  Note that, since f(x) = xex is not injective, it does not always hold that W(f(x)) = x, much like with the inverse trigonometric functions. For fixed x < 0 and x ≠ −1, the equation xex = yey has two solutions in y, one of which is of course y = x. Then, for i = 0 and x < −1, as well as for i = −1 and x ∈ (−1, 0), y = Wi(xex) is the other solution.
+Some other identities:
+
+  
+    
+      
+        
+          
+            
+              
+              
+                W
+                (
+                x
+                )
+                ⋅
+                
+                  e
+                  
+                    W
+                    (
+                    x
+                    )
+                  
+                
+                =
+                x
+                ,
+                
+                
+                  therefore:
+                
+              
+            
+            
+              
+              
+                
+                  e
+                  
+                    W
+                    (
+                    x
+                    )
+                  
+                
+                =
+                
+                  
+                    x
+                    
+                      W
+                      (
+                      x
+                      )
+                    
+                  
+                
+                ,
+                
+                
+                  e
+                  
+                    −
+                    W
+                    (
+                    x
+                    )
+                  
+                
+                =
+                
+                  
+                    
+                      W
+                      (
+                      x
+                      )
+                    
+                    x
+                  
+                
+                ,
+                
+                
+                  e
+                  
+                    n
+                    W
+                    (
+                    x
+                    )
+                  
+                
+                =
+                
+                  
+                    (
+                    
+                      
+                        x
+                        
+                          W
+                          (
+                          x
+                          )
+                        
+                      
+                    
+                    )
+                  
+                  
+                    n
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}&W(x)\cdot e^{W(x)}=x,\quad {\text{therefore:}}\\[5pt]&e^{W(x)}={\frac {x}{W(x)}},\qquad e^{-W(x)}={\frac {W(x)}{x}},\qquad e^{nW(x)}=\left({\frac {x}{W(x)}}\right)^{n}.\end{aligned}}}
+  
+  
+    
+      
+        ln
+        ⁡
+        W
+        (
+        x
+        )
+        =
+        ln
+        ⁡
+        x
+        −
+        W
+        (
+        x
+        )
+        
+        
+          for 
+        
+        x
+        >
+        0.
+      
+    
+    {\displaystyle \ln W(x)=\ln x-W(x)\quad {\text{for }}x>0.}
+  
+  
+    
+      
+        W
+        
+          (
+          
+            a
+            ln
+            ⁡
+            a
+          
+          )
+        
+        =
+        ln
+        ⁡
+        a
+        
+        
+          for 
+        
+        a
+        ∈
+        
+          R
+        
+        .
+      
+    
+    {\displaystyle W\left(a\ln a\right)=\ln a\quad {\text{for }}a\in \mathbb {R} .}
+  
+  
+    
+      
+        
+          
+            
+              
+              
+                W
+                (
+                x
+                )
+                =
+                ln
+                ⁡
+                
+                  
+                    x
+                    
+                      W
+                      (
+                      x
+                      )
+                    
+                  
+                
+              
+              
+              
+                
+                  for 
+                
+                x
+                ≥
+                −
+                
+                  
+                    1
+                    e
+                  
+                
+                ,
+              
+            
+            
+              
+              
+                W
+                
+                  (
+                  
+                    
+                      
+                        n
+                        
+                          x
+                          
+                            n
+                          
+                        
+                      
+                      
+                        W
+                        
+                          
+                            (
+                            x
+                            )
+                          
+                          
+                            n
+                            −
+                            1
+                          
+                        
+                      
+                    
+                  
+                  )
+                
+                =
+                n
+                W
+                (
+                x
+                )
+              
+              
+              
+                
+                  for 
+                
+                n
+                ,
+                x
+                >
+                0
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}&W(x)=\ln {\frac {x}{W(x)}}&&{\text{for }}x\geq -{\frac {1}{e}},\\[5pt]&W\left({\frac {nx^{n}}{W\left(x\right)^{n-1}}}\right)=nW(x)&&{\text{for }}n,x>0\end{aligned}}}
+  (which can be extended to other n and x if the right branch is chosen).
+  
+    
+      
+        W
+        (
+        x
+        )
+        +
+        W
+        (
+        y
+        )
+        =
+        W
+        
+          (
+          
+            x
+            y
+            
+              (
+              
+                
+                  
+                    1
+                    
+                      W
+                      (
+                      x
+                      )
+                    
+                  
+                
+                +
+                
+                  
+                    1
+                    
+                      W
+                      (
+                      y
+                      )
+                    
+                  
+                
+              
+              )
+            
+          
+          )
+        
+        
+        
+          for 
+        
+        x
+        ,
+        y
+        >
+        0.
+      
+    
+    {\displaystyle W(x)+W(y)=W\left(xy\left({\frac {1}{W(x)}}+{\frac {1}{W(y)}}\right)\right)\quad {\text{for }}x,y>0.}
+  From inverting f(ln x):
+
+  
+    
+      
+        
+          
+            
+              
+                W
+                (
+                x
+                ln
+                ⁡
+                x
+                )
+              
+              
+                
+                =
+                ln
+                ⁡
+                x
+              
+            
+            
+              
+              
+                
+                =
+                W
+                (
+                x
+                )
+                +
+                ln
+                ⁡
+                W
+                (
+                x
+                )
+                
+                
+                  for 
+                
+                x
+                >
+                0.
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}W(x\ln x)&=\ln x\\&=W(x)+\ln W(x)\quad {\text{for }}x>0.\end{aligned}}}
+  Substituting −ln x in the definition:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  W
+                  
+                    0
+                  
+                
+                
+                  (
+                  
+                    −
+                    
+                      
+                        
+                          ln
+                          ⁡
+                          x
+                        
+                        x
+                      
+                    
+                  
+                  )
+                
+              
+              
+                
+                =
+                −
+                ln
+                ⁡
+                x
+              
+              
+                
+                  for 
+                
+                0
+              
+              
+                
+                <
+                x
+                ≤
+                e
+                ,
+              
+            
+            
+              
+                
+                  W
+                  
+                    −
+                    1
+                  
+                
+                
+                  (
+                  
+                    −
+                    
+                      
+                        
+                          ln
+                          ⁡
+                          x
+                        
+                        x
+                      
+                    
+                  
+                  )
+                
+              
+              
+                
+                =
+                −
+                ln
+                ⁡
+                x
+              
+              
+                
+                  for 
+                
+                x
+              
+              
+                
+                >
+                e
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}W_{0}\left(-{\frac {\ln x}{x}}\right)&=-\ln x&{\text{for }}0&<x\leq e,\\[5pt]W_{-1}\left(-{\frac {\ln x}{x}}\right)&=-\ln x&{\text{for }}x&>e.\end{aligned}}}
+  With Euler's iterated exponential h(x):
+
+  
+    
+      
+        
+          
+            
+              
+                h
+                (
+                x
+                )
+              
+              
+                
+                =
+                
+                  e
+                  
+                    −
+                    W
+                    (
+                    −
+                    ln
+                    ⁡
+                    x
+                    )
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    
+                      W
+                      (
+                      −
+                      ln
+                      ⁡
+                      x
+                      )
+                    
+                    
+                      −
+                      ln
+                      ⁡
+                      x
+                    
+                  
+                
+                
+                
+                  for 
+                
+                x
+                ≠
+                1.
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}h(x)&=e^{-W(-\ln x)}\\&={\frac {W(-\ln x)}{-\ln x}}\quad {\text{for }}x\neq 1.\end{aligned}}}
+  
+
+
+== Special values ==
+For any nonzero algebraic number x, W(x) is a transcendental number. Indeed, if W(x) is zero, then x must be zero as well, and if W(x) is nonzero and algebraic, then by the Lindemann–Weierstrass theorem, eW(x) must be transcendental, implying that x = W(x)eW(x) must also be transcendental.
+
+  
+    
+      
+        W
+        
+          (
+          
+            −
+            
+              
+                π
+                2
+              
+            
+          
+          )
+        
+        =
+        
+          
+            
+              i
+              π
+            
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle W\left(-{\frac {\pi }{2}}\right)={\frac {i\pi }{2}}.}
+  
+  
+    
+      
+        W
+        
+          (
+          
+            −
+            
+              
+                1
+                e
+              
+            
+          
+          )
+        
+        =
+        −
+        1.
+      
+    
+    {\displaystyle W\left(-{\frac {1}{e}}\right)=-1.}
+  
+  
+    
+      
+        W
+        
+          (
+          
+            −
+            
+              
+                
+                  ln
+                  ⁡
+                  a
+                
+                a
+              
+            
+          
+          )
+        
+        =
+        −
+        ln
+        ⁡
+        a
+        
+        
+          (
+          
+            
+              
+                1
+                e
+              
+            
+            ≤
+            a
+            ≤
+            e
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle W\left(-{\frac {\ln a}{a}}\right)=-\ln a\quad \left({\frac {1}{e}}\leq a\leq e\right).}
+  
+  
+    
+      
+        W
+        
+          (
+          
+            2
+            ln
+            ⁡
+            2
+          
+          )
+        
+        =
+        ln
+        ⁡
+        2.
+      
+    
+    {\displaystyle W\left(2\ln 2\right)=\ln 2.}
+  
+  
+    
+      
+        W
+        (
+        0
+        )
+        =
+        0.
+      
+    
+    {\displaystyle W(0)=0.}
+  
+  
+    
+      
+        W
+        (
+        1
+        )
+        =
+        Ω
+        =
+        
+          
+            (
+            
+              
+                ∫
+                
+                  −
+                  ∞
+                
+                
+                  ∞
+                
+              
+              
+                
+                  
+                    d
+                    t
+                  
+                  
+                    
+                      
+                        (
+                        
+                          
+                            e
+                            
+                              t
+                            
+                          
+                          −
+                          t
+                        
+                        )
+                      
+                      
+                        2
+                      
+                    
+                    +
+                    
+                      π
+                      
+                        2
+                      
+                    
+                  
+                
+              
+            
+            )
+          
+          
+            −
+            1
+          
+        
+        −
+        1
+        ≈
+        0.56714329
+        …
+      
+    
+    {\displaystyle W(1)=\Omega =\left(\int _{-\infty }^{\infty }{\frac {dt}{\left(e^{t}-t\right)^{2}+\pi ^{2}}}\right)^{-1}-1\approx 0.56714329\ldots }
+   (the Omega constant).
+  
+    
+      
+        W
+        (
+        1
+        )
+        =
+        
+          e
+          
+            −
+            W
+            (
+            1
+            )
+          
+        
+        =
+        ln
+        ⁡
+        
+          (
+          
+            
+              1
+              
+                W
+                (
+                1
+                )
+              
+            
+          
+          )
+        
+        =
+        −
+        ln
+        ⁡
+        W
+        (
+        1
+        )
+        .
+      
+    
+    {\displaystyle W(1)=e^{-W(1)}=\ln \left({\frac {1}{W(1)}}\right)=-\ln W(1).}
+  
+  
+    
+      
+        W
+        (
+        e
+        )
+        =
+        1.
+      
+    
+    {\displaystyle W(e)=1.}
+  
+  
+    
+      
+        W
+        (
+        
+          e
+          
+            1
+            +
+            e
+          
+        
+        )
+        =
+        e
+        .
+      
+    
+    {\displaystyle W(e^{1+e})=e.}
+  
+  
+    
+      
+        W
+        (
+        −
+        1
+        )
+        ≈
+        −
+        0.31813
+        +
+        1.33723
+        i
+        .
+      
+    
+    {\displaystyle W(-1)\approx -0.31813+1.33723i.}
+  
+  
+    
+      
+        
+          W
+          ′
+        
+        (
+        0
+        )
+        =
+        1.
+      
+    
+    {\displaystyle W'(0)=1.}
+  
+
+
+== Representations ==
+The principal branch of the Lambert function can be represented by a proper integral, due to Poisson:
+
+  
+    
+      
+        −
+        
+          
+            π
+            2
+          
+        
+        W
+        (
+        −
+        x
+        )
+        =
+        
+          ∫
+          
+            0
+          
+          
+            π
+          
+        
+        
+          
+            
+              sin
+              ⁡
+              
+                (
+                
+                  
+                    
+                      
+                        3
+                        2
+                      
+                    
+                  
+                  t
+                
+                )
+              
+              −
+              x
+              
+                e
+                
+                  cos
+                  ⁡
+                  t
+                
+              
+              sin
+              ⁡
+              
+                (
+                
+                  
+                    
+                      
+                        5
+                        2
+                      
+                    
+                  
+                  t
+                  −
+                  sin
+                  ⁡
+                  t
+                
+                )
+              
+            
+            
+              1
+              −
+              2
+              x
+              
+                e
+                
+                  cos
+                  ⁡
+                  t
+                
+              
+              cos
+              ⁡
+              (
+              t
+              −
+              sin
+              ⁡
+              t
+              )
+              +
+              
+                x
+                
+                  2
+                
+              
+              
+                e
+                
+                  2
+                  cos
+                  ⁡
+                  t
+                
+              
+            
+          
+        
+        sin
+        ⁡
+        
+          (
+          
+            
+              
+                
+                  1
+                  2
+                
+              
+            
+            t
+          
+          )
+        
+        
+        d
+        t
+        
+        
+          for 
+        
+        
+          |
+        
+        x
+        
+          |
+        
+        <
+        
+          
+            1
+            e
+          
+        
+        .
+      
+    
+    {\displaystyle -{\frac {\pi }{2}}W(-x)=\int _{0}^{\pi }{\frac {\sin \left({\tfrac {3}{2}}t\right)-xe^{\cos t}\sin \left({\tfrac {5}{2}}t-\sin t\right)}{1-2xe^{\cos t}\cos(t-\sin t)+x^{2}e^{2\cos t}}}\sin \left({\tfrac {1}{2}}t\right)\,dt\quad {\text{for }}|x|<{\frac {1}{e}}.}
+  On the wider domain −1/e ≤ x ≤ e, the considerably simpler representation is found by Mező:
+
+  
+    
+      
+        W
+        (
+        x
+        )
+        =
+        
+          
+            1
+            π
+          
+        
+        Re
+        ⁡
+        
+          ∫
+          
+            0
+          
+          
+            π
+          
+        
+        ln
+        ⁡
+        
+          (
+          
+            
+              
+                
+                  e
+                  
+                    
+                      e
+                      
+                        i
+                        t
+                      
+                    
+                  
+                
+                −
+                x
+                
+                  e
+                  
+                    −
+                    i
+                    t
+                  
+                
+              
+              
+                
+                  e
+                  
+                    
+                      e
+                      
+                        i
+                        t
+                      
+                    
+                  
+                
+                −
+                x
+                
+                  e
+                  
+                    i
+                    t
+                  
+                
+              
+            
+          
+          )
+        
+        
+        d
+        t
+        .
+      
+    
+    {\displaystyle W(x)={\frac {1}{\pi }}\operatorname {Re} \int _{0}^{\pi }\ln \left({\frac {e^{e^{it}}-xe^{-it}}{e^{e^{it}}-xe^{it}}}\right)\,dt.}
+  The following continued fraction representation also holds for the principal branch:
+
+  
+    
+      
+        W
+        (
+        x
+        )
+        =
+        
+          
+            
+              
+                
+              
+              
+                
+                  x
+                
+              
+            
+            
+              
+                
+              
+              
+                
+                  1
+                  +
+                  
+                    
+                      
+                        
+                          
+                        
+                        
+                          
+                            x
+                          
+                        
+                      
+                      
+                        
+                          
+                        
+                        
+                          
+                            1
+                            +
+                            
+                              
+                                
+                                  
+                                    
+                                  
+                                  
+                                    
+                                      x
+                                    
+                                  
+                                
+                                
+                                  
+                                    
+                                  
+                                  
+                                    
+                                      2
+                                      +
+                                      
+                                        
+                                          
+                                            
+                                              
+                                            
+                                            
+                                              
+                                                5
+                                                x
+                                              
+                                            
+                                          
+                                          
+                                            
+                                              
+                                            
+                                            
+                                              
+                                                3
+                                                +
+                                                
+                                                  
+                                                    
+                                                      
+                                                        
+                                                      
+                                                      
+                                                        
+                                                          17
+                                                          x
+                                                        
+                                                      
+                                                    
+                                                    
+                                                      
+                                                        
+                                                      
+                                                      
+                                                        
+                                                          10
+                                                          +
+                                                          
+                                                            
+                                                              
+                                                                
+                                                                  
+                                                                
+                                                                
+                                                                  
+                                                                    133
+                                                                    x
+                                                                  
+                                                                
+                                                              
+                                                              
+                                                                
+                                                                  
+                                                                
+                                                                
+                                                                  
+                                                                    17
+                                                                    +
+                                                                    
+                                                                      
+                                                                        
+                                                                          
+                                                                            
+                                                                          
+                                                                          
+                                                                            
+                                                                              1927
+                                                                              x
+                                                                            
+                                                                          
+                                                                        
+                                                                        
+                                                                          
+                                                                            
+                                                                          
+                                                                          
+                                                                            
+                                                                              190
+                                                                              +
+                                                                              
+                                                                                
+                                                                                  
+                                                                                    
+                                                                                      
+                                                                                    
+                                                                                    
+                                                                                      
+                                                                                        13582711
+                                                                                        x
+                                                                                      
+                                                                                    
+                                                                                  
+                                                                                  
+                                                                                    
+                                                                                      
+                                                                                    
+                                                                                    
+                                                                                      
+                                                                                        94423
+                                                                                        +
+                                                                                        ⋱
+                                                                                      
+                                                                                    
+                                                                                  
+                                                                                
+                                                                              
+                                                                            
+                                                                          
+                                                                        
+                                                                      
+                                                                    
+                                                                  
+                                                                
+                                                              
+                                                            
+                                                          
+                                                        
+                                                      
+                                                    
+                                                  
+                                                
+                                              
+                                            
+                                          
+                                        
+                                      
+                                    
+                                  
+                                
+                              
+                            
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle W(x)={\cfrac {x}{1+{\cfrac {x}{1+{\cfrac {x}{2+{\cfrac {5x}{3+{\cfrac {17x}{10+{\cfrac {133x}{17+{\cfrac {1927x}{190+{\cfrac {13582711x}{94423+\ddots }}}}}}}}}}}}}}}}.}
+  Also, if |W(z)| < 1:
+
+  
+    
+      
+        W
+        (
+        x
+        )
+        =
+        
+          
+            
+              
+                
+              
+              
+                
+                  x
+                
+              
+            
+            
+              
+                
+              
+              
+                
+                  exp
+                  ⁡
+                  
+                    
+                      
+                        
+                          
+                        
+                        
+                          
+                            x
+                          
+                        
+                      
+                      
+                        
+                          
+                        
+                        
+                          
+                            exp
+                            ⁡
+                            
+                              
+                                
+                                  
+                                    
+                                  
+                                  
+                                    
+                                      x
+                                    
+                                  
+                                
+                                
+                                  
+                                    
+                                  
+                                  
+                                    
+                                      ⋱
+                                    
+                                  
+                                
+                              
+                            
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle W(x)={\cfrac {x}{\exp {\cfrac {x}{\exp {\cfrac {x}{\ddots }}}}}}.}
+  In turn, if |W(z)| > e, then
+
+  
+    
+      
+        W
+        (
+        x
+        )
+        =
+        ln
+        ⁡
+        
+          
+            
+              
+                
+              
+              
+                
+                  x
+                
+              
+            
+            
+              
+                
+              
+              
+                
+                  ln
+                  ⁡
+                  
+                    
+                      
+                        
+                          
+                        
+                        
+                          
+                            x
+                          
+                        
+                      
+                      
+                        
+                          
+                        
+                        
+                          
+                            ln
+                            ⁡
+                            
+                              
+                                
+                                  
+                                    
+                                  
+                                  
+                                    
+                                      x
+                                    
+                                  
+                                
+                                
+                                  
+                                    
+                                  
+                                  
+                                    
+                                      ⋱
+                                    
+                                  
+                                
+                              
+                            
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle W(x)=\ln {\cfrac {x}{\ln {\cfrac {x}{\ln {\cfrac {x}{\ddots }}}}}}.}
+  
+
+
+== Branches and range ==
+
+There are countably many branches of the W function, denoted by Wk(z), for integer k; W0(z) being the principal branch.  The branch point for the principal branch is at z = −1/e, with a branch cut that extends to −∞ along the negative real axis.  This branch cut separates the principal branch from the two branches W−1 and W1.  In all other branches, there is a branch point at z = 0 and a branch cut along the whole negative real axis.
+The range of the entire function is the complex plane.  The image of the real axis coincides with the quadratrix of Hippias, the parametric curve w = −t cot t + it.
+
+
+== Other formulas ==
+
+
+=== Definite integrals ===
+There are several useful definite integral formulas involving the W function, including the following:
+
+  
+    
+      
+        
+          
+            
+              
+              
+                
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    π
+                  
+                
+                W
+                
+                  (
+                  
+                    2
+                    
+                      cot
+                      
+                        2
+                      
+                    
+                    ⁡
+                    x
+                  
+                  )
+                
+                
+                  sec
+                  
+                    2
+                  
+                
+                ⁡
+                x
+                
+                d
+                x
+                =
+                4
+                
+                  
+                    π
+                  
+                
+                .
+              
+            
+            
+              
+              
+                
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                
+                  
+                    
+                      W
+                      (
+                      x
+                      )
+                    
+                    
+                      x
+                      
+                        
+                          x
+                        
+                      
+                    
+                  
+                
+                
+                d
+                x
+                =
+                2
+                
+                  
+                    2
+                    π
+                  
+                
+                .
+              
+            
+            
+              
+              
+                
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                W
+                
+                  (
+                  
+                    
+                      1
+                      
+                        x
+                        
+                          2
+                        
+                      
+                    
+                  
+                  )
+                
+                
+                d
+                x
+                =
+                
+                  
+                    2
+                    π
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}&\int _{0}^{\pi }W\left(2\cot ^{2}x\right)\sec ^{2}x\,dx=4{\sqrt {\pi }}.\\[5pt]&\int _{0}^{\infty }{\frac {W(x)}{x{\sqrt {x}}}}\,dx=2{\sqrt {2\pi }}.\\[5pt]&\int _{0}^{\infty }W\left({\frac {1}{x^{2}}}\right)\,dx={\sqrt {2\pi }}.\end{aligned}}}
+  The first identity can be found by writing the Gaussian integral in polar coordinates.
+The second identity can be derived by making the substitution u = W(x), which gives
+
+  
+    
+      
+        
+          
+            
+              
+                x
+              
+              
+                
+                =
+                u
+                
+                  e
+                  
+                    u
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  
+                    
+                      d
+                      x
+                    
+                    
+                      d
+                      u
+                    
+                  
+                
+              
+              
+                
+                =
+                (
+                u
+                +
+                1
+                )
+                
+                  e
+                  
+                    u
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}x&=ue^{u},\\[5pt]{\frac {dx}{du}}&=(u+1)e^{u}.\end{aligned}}}
+  Thus
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                
+                  
+                    
+                      W
+                      (
+                      x
+                      )
+                    
+                    
+                      x
+                      
+                        
+                          x
+                        
+                      
+                    
+                  
+                
+                
+                d
+                x
+              
+              
+                
+                =
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                
+                  
+                    u
+                    
+                      u
+                      
+                        e
+                        
+                          u
+                        
+                      
+                      
+                        
+                          u
+                          
+                            e
+                            
+                              u
+                            
+                          
+                        
+                      
+                    
+                  
+                
+                (
+                u
+                +
+                1
+                )
+                
+                  e
+                  
+                    u
+                  
+                
+                
+                d
+                u
+              
+            
+            
+              
+              
+                
+                =
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                
+                  
+                    
+                      u
+                      +
+                      1
+                    
+                    
+                      u
+                      
+                        e
+                        
+                          u
+                        
+                      
+                    
+                  
+                
+                d
+                u
+              
+            
+            
+              
+              
+                
+                =
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                
+                  
+                    
+                      u
+                      +
+                      1
+                    
+                    
+                      u
+                    
+                  
+                
+                
+                  
+                    1
+                    
+                      
+                        e
+                        
+                          u
+                        
+                      
+                    
+                  
+                
+                d
+                u
+              
+            
+            
+              
+              
+                
+                =
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                
+                  u
+                  
+                    
+                      
+                        1
+                        2
+                      
+                    
+                  
+                
+                
+                  e
+                  
+                    −
+                    
+                      
+                        u
+                        2
+                      
+                    
+                  
+                
+                d
+                u
+                +
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                
+                  u
+                  
+                    −
+                    
+                      
+                        
+                          1
+                          2
+                        
+                      
+                    
+                  
+                
+                
+                  e
+                  
+                    −
+                    
+                      
+                        u
+                        2
+                      
+                    
+                  
+                
+                d
+                u
+              
+            
+            
+              
+              
+                
+                =
+                2
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                (
+                2
+                w
+                
+                  )
+                  
+                    
+                      
+                        1
+                        2
+                      
+                    
+                  
+                
+                
+                  e
+                  
+                    −
+                    w
+                  
+                
+                
+                d
+                w
+                +
+                2
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                (
+                2
+                w
+                
+                  )
+                  
+                    −
+                    
+                      
+                        
+                          1
+                          2
+                        
+                      
+                    
+                  
+                
+                
+                  e
+                  
+                    −
+                    w
+                  
+                
+                
+                d
+                w
+              
+              
+              
+                
+                
+                (
+                u
+                =
+                2
+                w
+                )
+              
+            
+            
+              
+              
+                
+                =
+                2
+                
+                  
+                    2
+                  
+                
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                
+                  w
+                  
+                    
+                      
+                        1
+                        2
+                      
+                    
+                  
+                
+                
+                  e
+                  
+                    −
+                    w
+                  
+                
+                
+                d
+                w
+                +
+                
+                  
+                    2
+                  
+                
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                
+                  w
+                  
+                    −
+                    
+                      
+                        
+                          1
+                          2
+                        
+                      
+                    
+                  
+                
+                
+                  e
+                  
+                    −
+                    w
+                  
+                
+                
+                d
+                w
+              
+            
+            
+              
+              
+                
+                =
+                2
+                
+                  
+                    2
+                  
+                
+                ⋅
+                Γ
+                
+                  (
+                  
+                    
+                      
+                        3
+                        2
+                      
+                    
+                  
+                  )
+                
+                +
+                
+                  
+                    2
+                  
+                
+                ⋅
+                Γ
+                
+                  (
+                  
+                    
+                      
+                        1
+                        2
+                      
+                    
+                  
+                  )
+                
+              
+            
+            
+              
+              
+                
+                =
+                2
+                
+                  
+                    2
+                  
+                
+                
+                  (
+                  
+                    
+                      
+                        
+                          1
+                          2
+                        
+                      
+                    
+                    
+                      
+                        π
+                      
+                    
+                  
+                  )
+                
+                +
+                
+                  
+                    2
+                  
+                
+                
+                  (
+                  
+                    
+                      π
+                    
+                  
+                  )
+                
+              
+            
+            
+              
+              
+                
+                =
+                2
+                
+                  
+                    2
+                    π
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\int _{0}^{\infty }{\frac {W(x)}{x{\sqrt {x}}}}\,dx&=\int _{0}^{\infty }{\frac {u}{ue^{u}{\sqrt {ue^{u}}}}}(u+1)e^{u}\,du\\[5pt]&=\int _{0}^{\infty }{\frac {u+1}{\sqrt {ue^{u}}}}du\\[5pt]&=\int _{0}^{\infty }{\frac {u+1}{\sqrt {u}}}{\frac {1}{\sqrt {e^{u}}}}du\\[5pt]&=\int _{0}^{\infty }u^{\tfrac {1}{2}}e^{-{\frac {u}{2}}}du+\int _{0}^{\infty }u^{-{\tfrac {1}{2}}}e^{-{\frac {u}{2}}}du\\[5pt]&=2\int _{0}^{\infty }(2w)^{\tfrac {1}{2}}e^{-w}\,dw+2\int _{0}^{\infty }(2w)^{-{\tfrac {1}{2}}}e^{-w}\,dw&&\quad (u=2w)\\[5pt]&=2{\sqrt {2}}\int _{0}^{\infty }w^{\tfrac {1}{2}}e^{-w}\,dw+{\sqrt {2}}\int _{0}^{\infty }w^{-{\tfrac {1}{2}}}e^{-w}\,dw\\[5pt]&=2{\sqrt {2}}\cdot \Gamma \left({\tfrac {3}{2}}\right)+{\sqrt {2}}\cdot \Gamma \left({\tfrac {1}{2}}\right)\\[5pt]&=2{\sqrt {2}}\left({\tfrac {1}{2}}{\sqrt {\pi }}\right)+{\sqrt {2}}\left({\sqrt {\pi }}\right)\\[5pt]&=2{\sqrt {2\pi }}.\end{aligned}}}
+  The third identity may be derived from the second by making the substitution u = x−2 and the first can also be derived from the third by the substitution z = (tan x) / √2.
+Except for z along the branch cut (−∞, −1/e] (where the integral does not converge), the principal branch of the Lambert W function can be computed by the following integral:
+
+  
+    
+      
+        
+          
+            
+              
+                W
+                (
+                z
+                )
+              
+              
+                
+                =
+                
+                  
+                    z
+                    
+                      2
+                      π
+                    
+                  
+                
+                
+                  ∫
+                  
+                    −
+                    π
+                  
+                  
+                    π
+                  
+                
+                
+                  
+                    
+                      
+                        
+                          (
+                          
+                            1
+                            −
+                            ν
+                            cot
+                            ⁡
+                            ν
+                          
+                          )
+                        
+                        
+                          2
+                        
+                      
+                      +
+                      
+                        ν
+                        
+                          2
+                        
+                      
+                    
+                    
+                      z
+                      +
+                      ν
+                      csc
+                      ⁡
+                      ν
+                      
+                        e
+                        
+                          −
+                          ν
+                          cot
+                          ⁡
+                          ν
+                        
+                      
+                    
+                  
+                
+                
+                d
+                ν
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    z
+                    π
+                  
+                
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    π
+                  
+                
+                
+                  
+                    
+                      
+                        
+                          (
+                          
+                            1
+                            −
+                            ν
+                            cot
+                            ⁡
+                            ν
+                          
+                          )
+                        
+                        
+                          2
+                        
+                      
+                      +
+                      
+                        ν
+                        
+                          2
+                        
+                      
+                    
+                    
+                      z
+                      +
+                      ν
+                      csc
+                      ⁡
+                      ν
+                      
+                        e
+                        
+                          −
+                          ν
+                          cot
+                          ⁡
+                          ν
+                        
+                      
+                    
+                  
+                
+                
+                d
+                ν
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}W(z)&={\frac {z}{2\pi }}\int _{-\pi }^{\pi }{\frac {\left(1-\nu \cot \nu \right)^{2}+\nu ^{2}}{z+\nu \csc \nu e^{-\nu \cot \nu }}}\,d\nu \\[5pt]&={\frac {z}{\pi }}\int _{0}^{\pi }{\frac {\left(1-\nu \cot \nu \right)^{2}+\nu ^{2}}{z+\nu \csc \nu e^{-\nu \cot \nu }}}\,d\nu ,\end{aligned}}}
+  where the two integral expressions are equivalent due to the symmetry of the integrand.
+
+
+=== Indefinite integrals ===
+
+  
+    
+      
+        
+          
+            
+              
+              
+                
+                ∫
+                
+                  
+                    
+                      W
+                      (
+                      x
+                      )
+                    
+                    x
+                  
+                
+                d
+                x
+                =
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                
+                  
+                    (
+                    
+                      1
+                      +
+                      W
+                      (
+                      x
+                      )
+                    
+                    )
+                  
+                  
+                    2
+                  
+                
+                +
+                C
+                .
+              
+            
+            
+              
+              
+                
+                ∫
+                W
+                
+                  (
+                  
+                    A
+                    
+                      e
+                      
+                        B
+                        x
+                      
+                    
+                  
+                  )
+                
+                d
+                x
+                =
+                
+                  
+                    1
+                    
+                      2
+                      B
+                    
+                  
+                
+                
+                  
+                    (
+                    
+                      1
+                      +
+                      W
+                      
+                        (
+                        
+                          A
+                          
+                            e
+                            
+                              B
+                              x
+                            
+                          
+                        
+                        )
+                      
+                    
+                    )
+                  
+                  
+                    2
+                  
+                
+                +
+                C
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}&\int {\frac {W(x)}{x}}dx={\tfrac {1}{2}}\left(1+W(x)\right)^{2}+C.\\[5pt]&\int W\left(Ae^{Bx}\right)dx={\frac {1}{2B}}\left(1+W\left(Ae^{Bx}\right)\right)^{2}+C.\end{aligned}}}
+  
+
+
+== Applications ==
+
+
+=== Viscous flows ===
+Granular and debris flow fronts and deposits, and the fronts of viscous fluids in natural events and in laboratory experiments can be described by using the Lambert–Euler omega function as follows:
+
+  
+    
+      
+        H
+        (
+        x
+        )
+        =
+        1
+        +
+        W
+        
+          (
+          
+            (
+            H
+            (
+            0
+            )
+            −
+            1
+            )
+            
+              e
+              
+                (
+                H
+                (
+                0
+                )
+                −
+                1
+                )
+                −
+                
+                  
+                    x
+                    L
+                  
+                
+              
+            
+          
+          )
+        
+        ,
+      
+    
+    {\displaystyle H(x)=1+W\left((H(0)-1)e^{(H(0)-1)-{\frac {x}{L}}}\right),}
+  where H(x) is the debris flow height, x is the channel downstream position, L is the unified model parameter consisting of several physical and geometrical parameters of the flow, flow height and the hydraulic pressure gradient.
+In pipe flow, the Lambert W function is part of the explicit formulation of the Colebrook equation for finding the Darcy friction factor. This factor is used to determine the pressure drop through a straight run of pipe when the flow is turbulent.
+
+
+=== Neuroimaging ===
+The Lambert W function was employed in the field of neuroimaging for linking cerebral blood flow and oxygen consumption changes within a brain voxel, to the corresponding blood oxygenation level dependent (BOLD) signal.
+
+
+=== Chemical engineering ===
+The Lambert W function was employed in the field of chemical engineering for modelling the porous electrode film thickness in a glassy carbon based supercapacitor for electrochemical energy storage. The Lambert W function turned out to be the exact solution for a gas phase thermal activation process where growth of carbon film and combustion of the same film compete with each other.
+
+
+=== Materials science ===
+The Lambert W function was employed in the field of epitaxial film growth for the determination of the critical dislocation onset film thickness. This is the calculated thickness of an epitaxial film, where due to thermodynamic principles the film will develop crystallographic dislocations in order to minimise the elastic energy stored in the films. Prior to application of Lambert W for this problem, the critical thickness had to be determined via solving an implicit equation. Lambert W turns it in an explicit equation for analytical handling with ease.
+
+
+=== Porous media ===
+The Lambert W function has been employed in the field of fluid flow in porous media to model the tilt of an interface separating two gravitationally segregated fluids in a homogeneous tilted porous bed of constant dip and thickness where the heavier fluid, injected at the bottom end, displaces the lighter fluid that is produced at the same rate from the top end. The principal branch of the solution corresponds to stable displacements while the −1 branch applies if the displacement is unstable with the heavier fluid running underneath the lighter fluid.
+
+
+=== Bernoulli numbers and Todd genus ===
+The equation (linked with the generating functions of Bernoulli numbers and Todd genus):
+
+  
+    
+      
+        Y
+        =
+        
+          
+            X
+            
+              1
+              −
+              
+                e
+                
+                  X
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle Y={\frac {X}{1-e^{X}}}}
+  can be solved by means of the two real branches W0 and W−1:
+
+  
+    
+      
+        X
+        (
+        Y
+        )
+        =
+        
+          
+            {
+            
+              
+                
+                  
+                    W
+                    
+                      −
+                      1
+                    
+                  
+                  
+                    (
+                    
+                      Y
+                      
+                        e
+                        
+                          Y
+                        
+                      
+                    
+                    )
+                  
+                  −
+                  
+                    W
+                    
+                      0
+                    
+                  
+                  
+                    (
+                    
+                      Y
+                      
+                        e
+                        
+                          Y
+                        
+                      
+                    
+                    )
+                  
+                  =
+                  Y
+                  −
+                  
+                    W
+                    
+                      0
+                    
+                  
+                  
+                    (
+                    
+                      Y
+                      
+                        e
+                        
+                          Y
+                        
+                      
+                    
+                    )
+                  
+                
+                
+                  
+                    for 
+                  
+                  Y
+                  <
+                  −
+                  1
+                  ,
+                
+              
+              
+                
+                  
+                    W
+                    
+                      0
+                    
+                  
+                  
+                    (
+                    
+                      Y
+                      
+                        e
+                        
+                          Y
+                        
+                      
+                    
+                    )
+                  
+                  −
+                  
+                    W
+                    
+                      −
+                      1
+                    
+                  
+                  
+                    (
+                    
+                      Y
+                      
+                        e
+                        
+                          Y
+                        
+                      
+                    
+                    )
+                  
+                  =
+                  Y
+                  −
+                  
+                    W
+                    
+                      −
+                      1
+                    
+                  
+                  
+                    (
+                    
+                      Y
+                      
+                        e
+                        
+                          Y
+                        
+                      
+                    
+                    )
+                  
+                
+                
+                  
+                    for 
+                  
+                  −
+                  1
+                  <
+                  Y
+                  <
+                  0.
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle X(Y)={\begin{cases}W_{-1}\left(Ye^{Y}\right)-W_{0}\left(Ye^{Y}\right)=Y-W_{0}\left(Ye^{Y}\right)&{\text{for }}Y<-1,\\W_{0}\left(Ye^{Y}\right)-W_{-1}\left(Ye^{Y}\right)=Y-W_{-1}\left(Ye^{Y}\right)&{\text{for }}-1<Y<0.\end{cases}}}
+  This application shows that the branch difference of the W function can be employed in order to solve other transcendental equations.
+
+
+=== Statistics ===
+The centroid of a set of histograms defined with respect to the symmetrized Kullback–Leibler divergence (also called the Jeffreys divergence) has a closed form using the Lambert W function.
+
+
+=== Exact solutions of the Schrödinger equation ===
+The Lambert W function appears in a quantum-mechanical potential (see Lambert W step potential) which affords the fifth – next to those of the harmonic oscillator plus centrifugal, the Coulomb plus inverse square, the Morse, and the inverse square root potential – exact solution to the stationary one-dimensional Schrödinger equation in terms of the confluent hypergeometric functions. The potential is given as
+
+  
+    
+      
+        V
+        =
+        
+          
+            
+              V
+              
+                0
+              
+            
+            
+              1
+              +
+              W
+              
+                (
+                
+                  e
+                  
+                    −
+                    
+                      
+                        x
+                        σ
+                      
+                    
+                  
+                
+                )
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle V={\frac {V_{0}}{1+W\left(e^{-{\frac {x}{\sigma }}}\right)}}.}
+  A peculiarity of the solution is that each of the two fundamental solutions that compose the general solution of the Schrödinger equation is given by a combination of two confluent hypergeometric functions of an argument proportional to
+
+  
+    
+      
+        z
+        =
+        W
+        
+          (
+          
+            e
+            
+              −
+              
+                
+                  x
+                  σ
+                
+              
+            
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle z=W\left(e^{-{\frac {x}{\sigma }}}\right).}
+  
+
+
+=== Exact solutions of the Einstein vacuum equations ===
+In the Schwarzschild metric solution of the Einstein vacuum equations, the W function is needed to go from the Eddington-Finkelstein coordinates to the Schwarzschild coordinates.  For this reason, it also appears in the construction of the Kruskal–Szekeres coordinates.
+
+
+=== Resonances of the delta-shell potential ===
+The s-wave resonances of the delta-shell potential can be written exactly in terms of the Lambert W function.
+
+
+=== Thermodynamic equilibrium ===
+If a reaction involves reactants and products having heat capacities that are constant with temperature then the equilibrium constant K obeys
+
+  
+    
+      
+        ln
+        ⁡
+        K
+        =
+        
+          
+            a
+            T
+          
+        
+        +
+        b
+        +
+        c
+        ln
+        ⁡
+        T
+      
+    
+    {\displaystyle \ln K={\frac {a}{T}}+b+c\ln T}
+  for some constants a, b, and c. When c (equal to ΔCp / R) is not zero we can find the value or values of T where K equals a given value as follows, where we use L for ln T.
+
+  
+    
+      
+        
+          
+            
+              
+                −
+                a
+              
+              
+                
+                =
+                (
+                b
+                −
+                ln
+                ⁡
+                K
+                )
+                T
+                +
+                c
+                T
+                ln
+                ⁡
+                T
+              
+            
+            
+              
+              
+                
+                =
+                (
+                b
+                −
+                ln
+                ⁡
+                K
+                )
+                
+                  e
+                  
+                    L
+                  
+                
+                +
+                c
+                L
+                
+                  e
+                  
+                    L
+                  
+                
+              
+            
+            
+              
+                −
+                
+                  
+                    a
+                    c
+                  
+                
+              
+              
+                
+                =
+                
+                  (
+                  
+                    
+                      
+                        
+                          b
+                          −
+                          ln
+                          ⁡
+                          K
+                        
+                        c
+                      
+                    
+                    +
+                    L
+                  
+                  )
+                
+                
+                  e
+                  
+                    L
+                  
+                
+              
+            
+            
+              
+                −
+                
+                  
+                    a
+                    c
+                  
+                
+                
+                  e
+                  
+                    
+                      
+                        b
+                        −
+                        ln
+                        ⁡
+                        K
+                      
+                      c
+                    
+                  
+                
+              
+              
+                
+                =
+                
+                  (
+                  
+                    L
+                    +
+                    
+                      
+                        
+                          b
+                          −
+                          ln
+                          ⁡
+                          K
+                        
+                        c
+                      
+                    
+                  
+                  )
+                
+                
+                  e
+                  
+                    L
+                    +
+                    
+                      
+                        
+                          b
+                          −
+                          ln
+                          ⁡
+                          K
+                        
+                        c
+                      
+                    
+                  
+                
+              
+            
+            
+              
+                L
+              
+              
+                
+                =
+                W
+                
+                  (
+                  
+                    −
+                    
+                      
+                        a
+                        c
+                      
+                    
+                    
+                      e
+                      
+                        
+                          
+                            b
+                            −
+                            ln
+                            ⁡
+                            K
+                          
+                          c
+                        
+                      
+                    
+                  
+                  )
+                
+                +
+                
+                  
+                    
+                      ln
+                      ⁡
+                      K
+                      −
+                      b
+                    
+                    c
+                  
+                
+              
+            
+            
+              
+                T
+              
+              
+                
+                =
+                exp
+                ⁡
+                
+                  (
+                  
+                    W
+                    
+                      (
+                      
+                        −
+                        
+                          
+                            a
+                            c
+                          
+                        
+                        
+                          e
+                          
+                            
+                              
+                                b
+                                −
+                                ln
+                                ⁡
+                                K
+                              
+                              c
+                            
+                          
+                        
+                      
+                      )
+                    
+                    +
+                    
+                      
+                        
+                          ln
+                          ⁡
+                          K
+                          −
+                          b
+                        
+                        c
+                      
+                    
+                  
+                  )
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}-a&=(b-\ln K)T+cT\ln T\\&=(b-\ln K)e^{L}+cLe^{L}\\[5pt]-{\frac {a}{c}}&=\left({\frac {b-\ln K}{c}}+L\right)e^{L}\\[5pt]-{\frac {a}{c}}e^{\frac {b-\ln K}{c}}&=\left(L+{\frac {b-\ln K}{c}}\right)e^{L+{\frac {b-\ln K}{c}}}\\[5pt]L&=W\left(-{\frac {a}{c}}e^{\frac {b-\ln K}{c}}\right)+{\frac {\ln K-b}{c}}\\[5pt]T&=\exp \left(W\left(-{\frac {a}{c}}e^{\frac {b-\ln K}{c}}\right)+{\frac {\ln K-b}{c}}\right).\end{aligned}}}
+  If a and c have the same sign there will be either two solutions or none (or one if the argument of W is exactly −1/e). (The upper solution may not be relevant.) If they have opposite signs, there will be one solution.
+
+
+=== AdS/CFT correspondence ===
+The classical finite-size corrections to the dispersion relations of giant magnons, single spikes and GKP strings can be expressed in terms of the Lambert W function.
+
+
+== Generalizations ==
+The standard Lambert W function expresses exact solutions to transcendental algebraic equations (in x) of the form:
+
+where a0, c and r are real constants.  The solution is
+
+  
+    
+      
+        x
+        =
+        r
+        +
+        
+          
+            1
+            c
+          
+        
+        W
+        
+          (
+          
+            
+              
+                c
+                
+                
+                  e
+                  
+                    −
+                    c
+                    r
+                  
+                
+              
+              
+                a
+                
+                  0
+                
+              
+            
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle x=r+{\frac {1}{c}}W\left({\frac {c\,e^{-cr}}{a_{0}}}\right).}
+  Generalizations of the Lambert W function include:
+
+An application to general relativity and quantum mechanics (quantum gravity) in lower dimensions, in fact a previously unknown link (unknown prior to 2007) between these two areas,  where the right-hand side of (1) is now a quadratic polynomial in x:
+where r1 and r2 are real distinct constants, the roots of the quadratic polynomial. Here, the solution is a function has a single argument x but the terms like ri and a0 are parameters of that function.  In this respect, the generalization resembles the hypergeometric function and the Meijer G function but it belongs to a different class of functions. When r1 = r2, both sides of (2) can be factored and reduced to (1) and thus the solution reduces to that of the standard W function.  Equation (2) expresses the equation governing the dilaton field, from which is derived the metric of the R = T or lineal two-body gravity problem in 1 + 1 dimensions (one spatial dimension and one time dimension) for the case of unequal rest masses, as well as the eigenenergies of the quantum-mechanical double-well Dirac delta function model for unequal charges in one dimension.Analytical solutions of the eigenenergies of a special case of the quantum mechanical three-body problem, namely the (three-dimensional) hydrogen molecule-ion. Here the right-hand side of (1) (or (2)) is now a ratio of infinite order polynomials in x:
+where ri and si are distinct real constants and x is a function of the eigenenergy and the internuclear distance R. Equation (3) with its specialized cases expressed in (1) and (2) is related to a large class of delay differential equations. G. H. Hardy's notion of a "false derivative" provides exact multiple roots to special cases of (3).Applications of the Lambert W function in fundamental physical problems are not exhausted even for the standard case expressed in (1) as seen recently in the area of atomic, molecular, and optical physics.
+
+
+== Plots ==
+Plots of the Lambert W function on the complex plane
+		
+		
+		
+		
+
+
+== Numerical evaluation ==
+The W function may be approximated using Newton's method, with successive approximations to w = W(z) (so z = wew) being
+
+  
+    
+      
+        
+          w
+          
+            j
+            +
+            1
+          
+        
+        =
+        
+          w
+          
+            j
+          
+        
+        −
+        
+          
+            
+              
+                w
+                
+                  j
+                
+              
+              
+                e
+                
+                  
+                    w
+                    
+                      j
+                    
+                  
+                
+              
+              −
+              z
+            
+            
+              
+                e
+                
+                  
+                    w
+                    
+                      j
+                    
+                  
+                
+              
+              +
+              
+                w
+                
+                  j
+                
+              
+              
+                e
+                
+                  
+                    w
+                    
+                      j
+                    
+                  
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle w_{j+1}=w_{j}-{\frac {w_{j}e^{w_{j}}-z}{e^{w_{j}}+w_{j}e^{w_{j}}}}.}
+  The W function may also be approximated using Halley's method,
+
+  
+    
+      
+        
+          w
+          
+            j
+            +
+            1
+          
+        
+        =
+        
+          w
+          
+            j
+          
+        
+        −
+        
+          
+            
+              
+                w
+                
+                  j
+                
+              
+              
+                e
+                
+                  
+                    w
+                    
+                      j
+                    
+                  
+                
+              
+              −
+              z
+            
+            
+              
+                e
+                
+                  
+                    w
+                    
+                      j
+                    
+                  
+                
+              
+              
+                (
+                
+                  
+                    w
+                    
+                      j
+                    
+                  
+                  +
+                  1
+                
+                )
+              
+              −
+              
+                
+                  
+                    
+                      
+                        (
+                        
+                          
+                            w
+                            
+                              j
+                            
+                          
+                          +
+                          2
+                        
+                        )
+                      
+                      
+                        (
+                        
+                          
+                            w
+                            
+                              j
+                            
+                          
+                          
+                            e
+                            
+                              
+                                w
+                                
+                                  j
+                                
+                              
+                            
+                          
+                          −
+                          z
+                        
+                        )
+                      
+                    
+                    
+                      2
+                      
+                        w
+                        
+                          j
+                        
+                      
+                      +
+                      2
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle w_{j+1}=w_{j}-{\frac {w_{j}e^{w_{j}}-z}{e^{w_{j}}\left(w_{j}+1\right)-{\dfrac {\left(w_{j}+2\right)\left(w_{j}e^{w_{j}}-z\right)}{2w_{j}+2}}}}}
+  given in Corless et al. to compute W.
+
+
+== Software ==
+The Lambert W function is implemented as
+LambertW in Maple, lambertw in GP (and glambertW in PARI), lambertw in Matlab, also lambertw in octave with the specfun package, as lambert_w in Maxima, as ProductLog (with a silent alias LambertW) in Mathematica, as lambertw in Python scipy's special function package, as LambertW in Perl's ntheory module, and as gsl_sf_lambert_W0, gsl_sf_lambert_Wm1 functions in the special functions section of the GNU Scientific Library (GSL). In the Boost C++ libraries, the calls are lambert_w0, lambert_wm1, lambert_w0_prime, and lambert_wm1_prime. In R, the Lambert W function is implemented as the lambertW0 and lambertWm1 functions in the lamW package.A C++ code for all the branches of the complex Lambert W function is available on the homepage of István Mező.
+
+
+== See also ==
+Wright Omega function
+Lambert's trinomial equation
+Lagrange inversion theorem
+Experimental mathematics
+Holstein–Herring method
+R = T model
+Ross' π lemma
+
+
+== Notes ==
+
+
+== References ==
+Corless, R.; Gonnet, G.; Hare, D.; Jeffrey, D.; Knuth, Donald (1996). "On the Lambert W function" (PDF). Advances in Computational Mathematics. 5: 329–359. doi:10.1007/BF02124750. ISSN 1019-7168
+Chapeau-Blondeau, F.; Monir, A. (2002). "Evaluation of the Lambert W Function and Application to Generation of Generalized Gaussian Noise With Exponent 1/2" (PDF). IEEE Trans. Signal Process. 50 (9).
+Francis;  et al. (2000). "Quantitative General Theory for Periodic Breathing". Circulation. 102 (18): 2214–21. CiteSeerX 10.1.1.505.7194. doi:10.1161/01.cir.102.18.2214. PMID 11056095. (Lambert function is used to solve delay-differential dynamics in human disease.)
+Hayes, B. (2005). "Why W?" (PDF). American Scientist. 93 (2): 104–108. doi:10.1511/2005.2.104.
+Roy, R.; Olver, F. W. J. (2010), "Lambert W function",  in Olver, Frank W. J.; Lozier, Daniel M.; Boisvert, Ronald F.; Clark, Charles W. (eds.), NIST Handbook of Mathematical Functions, Cambridge University Press, ISBN 978-0-521-19225-5, MR 2723248
+Stewart, Seán M. (2005). "A New Elementary Function for Our Curricula?" (PDF). Australian Senior Mathematics Journal. 19 (2): 8–26. ISSN 0819-4564. ERIC EJ720055. Lay summary.
+Veberic, D., "Having Fun with Lambert W(x) Function" arXiv:1003.1628 (2010); Veberic, D. (2012). "Lambert W function for applications in physics". Computer Physics Communications. 183 (12): 2622–2628. arXiv:1209.0735. Bibcode:2012CoPhC.183.2622V. doi:10.1016/j.cpc.2012.07.008.
+Chatzigeorgiou, I. (2013). "Bounds on the Lambert function and their Application to the Outage Analysis of User Cooperation". IEEE Communications Letters. 17 (8): 1505–1508. arXiv:1601.04895. doi:10.1109/LCOMM.2013.070113.130972.
+
+
+== External links ==
+National Institute of Science and Technology Digital Library – Lambert W
+MathWorld – Lambert W-Function
+Computing the Lambert W function
+Corless et al. Notes about Lambert W research
+GPL C++ implementation with Halley's and Fritsch's iteration.
+Special Functions of the GNU Scientific Library – GSL

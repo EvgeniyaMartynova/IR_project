@@ -1,0 +1,17 @@
+Robert Hecht-Nielsen
+
+Robert Hecht-Nielsen (July 18, 1947 - May 25, 2019) was an American computer scientist who was an adjunct professor of electrical and computer engineering at the University of California, San Diego.  He co-founded HNC Software, and became a vice president of R&D at Fair Isaac Corporation when it acquired the company.
+In March, 2005, he held an event to announce "the fundamental mechanism of cognition", which he believes is a process of confabulation (neural networks).  He posits that all actions and thoughts begin as the "winners" of competitions, where confabulations are tested for cogency based on antecedent support.  He presented some mathematical models of the proposed mechanism, and some experimental results where software using this system was able to add several words to a stub of a sentence, keeping that stub coherent and, optionally, maintaining some connection to a full input sentence supplied as context.
+For example, given "But the other ..." the program returns "But the other semifinal match between fourth-seeded ...".  Given "Japan manufactures many consumer products." for context, and the same three-word stub, it returns "But the other executives included well-known companies ...".  Five pages of such examples were given.
+He made red, green, and blue-striped medallions to commemorate the event, and had them distributed to the audience along with pamphlets explaining their significance:  "This new era, which as yet has no name, will be characterized by the eternal universal freedom from want provided by intelligent machines."
+
+
+== References ==
+
+
+== External links ==
+UCSD site, with video
+UCSD faculty biography
+News coverage of the announcement at the Wayback Machine (archived December 15, 2005)
+May/June 2007 Fair Isaac "Viewpoints" article
+Hecht-Nielsen lecturing at IBM's Almaden institute on YouTube

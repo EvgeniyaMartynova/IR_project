@@ -1,0 +1,83 @@
+IRiver H320
+
+The iriver H300 series were a series of portable audio players developed by iriver, including the iriver H320 and H340 models.  Each can play music, transfer pictures directly from digital cameras and UMS-compatible devices, such as flash drives (on the international version), and display digital images on a colour screen. Since firmware v1.2, the devices can play movies at 10 frames per second with Xvid encoding.
+
+
+== Features ==
+The features of the H300 series are
+
+2 inch color screen with a resolution of 220x176
+Playback of MP3, Ogg, WMA, ASF and WAV encoded sound files
+FM radio with 20 pre-set memories
+Built-in 1300 mA·h Li-polymer battery, advertised 16 hours playback time
+Viewing JPEG and BMP pictures
+Viewing TXT files
+Viewing XviD AVI videos encoded at 15 frames per second
+Recording via internal or external microphone or line-in to MP3
+Recording of FM radio to MP3
+USB v2.0 Device Interface
+USB v1.1 On-The-Go (OTG) Host Interface (International models)
+Motorola Coldfire CPU [1]
+
+
+== Models ==
+There are two models
+
+iriver H320
+Toshiba MK2004GAL 20 GB 1.8" hard disk with a depth of 5 mm
+Size is approx. 62x103x22 mm (Width x Height x Depth)
+Weight is approx. 183 g
+iriver H340
+Toshiba MK4004GAH 40 GB hard disk 1.8" hard disk with a depth of 8 mm
+Size is approx. 62x103x25 mm
+Weight is approx. 203 gThere are two hardware types for each model. These hardware types are commonly referred to by the locations they are sold. The USA models, predominantly sold in North America, have a built in DRM key, which lets them play music with Microsoft DRM. The International models, sold everywhere but North America, do not handle DRM-restricted content and have the HOST port linked to the battery, which allows them to do USB On-The-Go. The International models also support limited xvid (10 frame/s) video playback.
+North American models can be modified to support USB OTG by means of a small internal soldering job, an external modified cable, or a USB transfer box. International firmware is also required.
+
+
+== Preinstalled firmware ==
+There are 4 different firmware editions available for H300's
+
+European - FM Radio tuner is fixed to European frequencies and the volume is limited as per EU directive. The video icon and mode introduced in v1.29 of the firmware is also not available due to licensing issues in Europe. This firmware is designated by an E appended to the version number. This firmware also ships in Australia and New Zealand.
+Korean - FM Radio frequency is selectable between European, Korean, Japanese or Americas standards. Volume is not limited. This firmware is designated by a K appended to the version number.
+Japanese - Same as Korean but defaults to Japanese tuner region. This firmware is designated by a J appended to the version number.
+Americas - Capable of playing WMA DRM protected music. This firmware has been updated twice since v1.02 (v1.03, v1.04) and does not have video support. It is also not possible to upgrade US firmware to any other firmware (including v1.03 unless it comes on the player) without permanently losing DRM capabilities.
+
+
+=== Firmware version history ===
+There have been different versions of the firmware over time
+
+
+==== International firmware updates ====
+This firmware applies to the European, Korean and Japanese editions of the firmware.
+
+1.02: First "standard" firmware made for the players when released
+1.07: Shipped with new players only
+1.08: Shipped with new players only
+1.20: Added video playback support
+1.25: Video improved (fast-forward and rewind added) and also introduced a bug which reduced battery life considerably
+1.27: Battery bug fixed and still better video
+1.28: Added clock and WAV playback. Added use of subfolders in "text" mode and playback speed. Use of remote control no longer triggers player backlight. First version that correctly preserves dates on files copied via USB-OTG
+1.29: Released November 2005 – Added video icon & mode, JPEG thumbnails, Hebrew/Greek tags, 24-hour clock, resume playlist playback and true shuffle bug fixes, including bug fixes regarding the remote control's backlight. Korean firmware defaults to Korean language for the control panel.
+1.30: Released December 2005 – This release is for the European firmware only. Due to licensing issues in Europe, it removed the video icon & mode added in release 1.29.
+1.31: Released November 20, 2006 – Added quicklist (playlist) and a game (minesweeper). No word on any other additions or bugfixes. (UMS only, not for US MTP. players.)
+
+
+==== American firmware updates ====
+This firmware only applies to the America's edition of the firmware.
+
+1.02: Shipped with new players only
+1.03: Shipped with new players only
+1.04: Release November 2005 - Added support for .WAV playback, adjustable playback speed, JPEG Thumbnails, Hebrew/Greek tags, resume playlist playback, TEXT support for subfolders, true shuffle and bug fixes. This is the first version that can upgrade the America's firmware
+
+
+== References ==
+
+
+== See also ==
+iriver H100 series — the preceding series of harddrive players made by iriver
+iriver H10 series — the following series
+Rockbox (alternative, open source firmware for the iriver H10, H100 and H300 series)
+
+
+== External links ==
+iriver Official Website

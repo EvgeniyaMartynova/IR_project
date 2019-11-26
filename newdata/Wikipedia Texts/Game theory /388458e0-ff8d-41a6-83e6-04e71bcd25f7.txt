@@ -1,0 +1,229 @@
+Combinatorial game theory
+
+Combinatorial game theory (CGT) is a branch of mathematics and theoretical computer science that typically studies sequential games with perfect information. Study has been largely confined to two-player games that have a position in which the players take turns changing in defined ways or moves to achieve a defined winning condition. CGT has not traditionally studied games of chance or those that use imperfect or incomplete information, favoring games that offer perfect information in which the state of the game and the set of available moves is always known by both players. However, as mathematical techniques advance, the types of game that can be mathematically analyzed expands, thus the boundaries of the field are ever changing. Scholars will generally define what they mean by a "game" at the beginning of a paper, and these definitions often vary as they are specific to the game being analyzed and are not meant to represent the entire scope of the field.
+Combinatorial games include well-known games such as chess, checkers, and Go, which are regarded as non-trivial, and tic-tac-toe, which is considered as trivial in the sense of being "easy to solve". Some combinatorial games may also have an unbounded playing area, such as infinite chess. In CGT, the moves in these and other games are represented as a game tree.  
+Combinatorial games also include one-player combinatorial puzzles such as Sudoku, and no-player automata, such as Conway's Game of Life, (although in the strictest definition, "games" can be said to require more than one participant, thus the designations of "puzzle" and "automata".) 
+Game theory in general includes games of chance, games of imperfect knowledge, and games in which players can move simultaneously, and they tend to represent real-life decision making situations.
+CGT has a different emphasis than "traditional" or "economic" game theory, which was initially developed to study games with simple combinatorial structure, but with elements of chance (although it also considers sequential moves, see extensive-form game). Essentially, CGT has contributed new methods for analyzing game trees, for example using surreal numbers, which are a subclass of all two-player perfect-information games. The type of games studied by CGT is also of interest in artificial intelligence, particularly for automated planning and scheduling. In CGT there has been less emphasis on refining practical search algorithms (such as the alpha–beta pruning heuristic included in most artificial intelligence textbooks), but more emphasis on descriptive theoretical results (such as measures of game complexity or proofs of optimal solution existence without necessarily specifying an algorithm, such as the strategy-stealing argument).
+An important notion in CGT is that of the solved game. For example, tic-tac-toe is considered a solved game, as it can be proven that any game will result in a draw if both players play optimally. Deriving similar results for games with rich combinatorial structures is difficult. For instance, in 2007 it was announced that checkers has been weakly solved—optimal play by both sides also leads to a draw—but this result was a computer-assisted proof. Other real world games are mostly too complicated to allow complete analysis today, although the theory has had some recent successes in analyzing Go endgames. Applying CGT to a position attempts to determine the optimum sequence of moves for both players until the game ends, and by doing so discover the optimum move in any position. In practice, this process is torturously difficult unless the game is very simple.
+It can be helpful to distinguish between combinatorial "mathgames" of interest primarily to mathematicians and scientists to ponder and solve, and combinatorial "playgames" of interest to the general population as a form of entertainment and competition. However, a number of games fall into both categories.  Nim, for instance, is a playgame instrumental in the foundation of CGT, and one of the first computerized games. Tic-tac-toe is still used to teach basic principles of game AI design to computer science students.  
+
+
+== History ==
+CGT arose in relation to the theory of impartial games, in which any play available to one player must be available to the other as well. One such game is nim, which can be solved completely. Nim is an impartial game for two players, and subject to the normal play condition, which means that a player who cannot move loses.  In the 1930s, the Sprague–Grundy theorem showed that all impartial games are equivalent to heaps in nim, thus showing that major unifications are possible in games considered at a combinatorial level, in which detailed strategies matter, not just pay-offs.
+In the 1960s, Elwyn R. Berlekamp, John H. Conway and Richard K. Guy jointly introduced the theory of a partisan game, in which the requirement that a play available to one player be available to both is relaxed. Their results were published in their book Winning Ways for your Mathematical Plays in 1982. However, the first work published on the subject was Conway's 1976 book On Numbers and Games, also known as ONAG, which introduced the concept of surreal numbers and the generalization to games. On Numbers and Games was also a fruit of the collaboration between Berlekamp, Conway, and Guy.
+Combinatorial games are generally, by convention,  put into a form where one player wins when the other has no moves remaining. It is easy to convert any finite game with only two possible results into an equivalent one where this convention applies. One of the most important concepts in the theory of combinatorial games is that of the sum of two games, which is a game where each player may choose to move either in one game or the other at any point in the game, and a player wins when his opponent has no move in either game. This way of combining games leads to a rich and powerful mathematical structure.
+John Conway states in ONAG that the inspiration for the theory of partisan games was based on his observation of the play in go endgames, which can often be decomposed into sums of simpler endgames isolated from each other in different parts of the board.
+
+
+== Examples ==
+The introductory text Winning Ways introduced a large number of games, but the following were used as motivating examples for the introductory theory:
+
+Blue–Red Hackenbush - At the finite level, this partisan combinatorial game allows constructions of games whose values are dyadic rational numbers. At the infinite level, it allows one to construct all real values, as well as many infinite ones that fall within the class of surreal numbers.
+Blue–Red–Green Hackenbush - Allows for additional game values that are not numbers in the traditional sense, for example, star.
+Toads and Frogs - Allows various game values. Unlike most other games, a position is easily represented by a short string of characters.
+Domineering - Various interesting games, such as hot games, appear as positions in Domineering, because there is sometimes an incentive to move, and sometimes not.  This allows discussion of a game's temperature.
+Nim - An impartial game. This allows for the construction of the nimbers.  (It can also be seen as a green-only special case of Blue-Red-Green Hackenbush.)The classic game Go was influential on the early combinatorial game theory, and Berlekamp and Wolfe subsequently developed an endgame and temperature theory for it (see references).  Armed with this they were able to construct plausible Go endgame positions from which they could give expert Go players a choice of sides and then defeat them either way.
+Another game studied in the context of combinatorial game theory is chess. In 1953 Alan Turing wrote of the game, "If one can explain quite unambiguously in English, with the aid of mathematical symbols if required, how a calculation is to be done, then it is always possible to programme any digital computer to do that calculation, provided the storage capacity is adequate." In a 1950 paper, Claude Shannon estimated the lower bound of the game-tree complexity of chess to be 10120, and today this is referred to as the Shannon number. Chess remains unsolved, although extensive study, including work involving the use of supercomputers has created chess end-game tablebases, which shows the result of perfect play for all end-games with seven pieces or less. Infinite chess has an even greater combinatorial complexity than chess (unless only limited end-games, or composed positions with a small number of pieces are being studied).
+
+
+== Overview ==
+A game, in its simplest terms, is a list of possible "moves" that two players, called left and right, can make.  The game position resulting from any move can be considered to be another game. This idea of viewing games in terms of their possible moves to other games leads to a recursive mathematical definition of games that is standard in combinatorial game theory. In this definition, each game has the notation {L|R}.  L is the set of game positions that the left player can move to, and R is the set of game positions that the right player can move to; each position in L and R is defined as a game using the same notation.
+Using Domineering as an example, label each of the sixteen boxes of the four-by-four board by A1 for the upper leftmost square, C2 for the third box from the left on the second row from the top, and so on. We use e.g. (D3, D4) to stand for the game position in which a vertical domino has been placed in the bottom right corner. Then, the initial position can be described in combinatorial game theory notation as
+
+  
+    
+      
+        {
+        (
+        
+          A
+        
+        1
+        ,
+        
+          A
+        
+        2
+        )
+        ,
+        (
+        
+          B
+        
+        1
+        ,
+        
+          B
+        
+        2
+        )
+        ,
+        …
+        
+          |
+        
+        (
+        
+          A
+        
+        1
+        ,
+        
+          B
+        
+        1
+        )
+        ,
+        (
+        
+          A
+        
+        2
+        ,
+        
+          B
+        
+        2
+        )
+        ,
+        …
+        }
+        .
+      
+    
+    {\displaystyle \{(\mathrm {A} 1,\mathrm {A} 2),(\mathrm {B} 1,\mathrm {B} 2),\dots |(\mathrm {A} 1,\mathrm {B} 1),(\mathrm {A} 2,\mathrm {B} 2),\dots \}.}
+  In standard Cross-Cram play, the players alternate turns, but this alternation is handled implicitly by the definitions of combinatorial game theory rather than being encoded within the game states.
+
+  
+    
+      
+        {
+        (
+        
+          A
+        
+        1
+        ,
+        
+          A
+        
+        2
+        )
+        
+          |
+        
+        (
+        
+          A
+        
+        1
+        ,
+        
+          B
+        
+        1
+        )
+        }
+        =
+        {
+        {
+        
+          |
+        
+        }
+        
+          |
+        
+        {
+        
+          |
+        
+        }
+        }
+        .
+      
+    
+    {\displaystyle \{(\mathrm {A} 1,\mathrm {A} 2)|(\mathrm {A} 1,\mathrm {B} 1)\}=\{\{|\}|\{|\}\}.}
+  The above game describes a scenario in which there is only one move left for either player, and if either player makes that move, that player wins. (An irrelevant open square at C3 has been omitted from the diagram.) The {|} in each player's move list (corresponding to the single leftover square after the move) is called the zero game, and can actually be abbreviated 0.  In the zero game, neither player has any valid moves; thus, the player whose turn it is when the zero game comes up automatically loses.
+The type of game in the diagram above also has a simple name; it is called the star game, which can also be abbreviated ∗.  In the star game, the only valid move leads to the zero game, which means that whoever's turn comes up during the star game automatically wins.
+An additional type of game, not found in Domineering, is a loopy game, in which a valid move of either left or right is a game that can then lead back to the first game.  Checkers, for example, becomes loopy when one of the pieces promotes, as then it can cycle endlessly between two or more squares. A game that does not possess such moves is called loopfree.
+
+
+== Game abbreviations ==
+
+
+=== Numbers ===
+Numbers represent the number of free moves, or the move advantage of a particular player. By convention positive numbers represent an advantage for Left, while negative numbers represent an advantage for Right. They are defined recursively with 0 being the base case.
+
+0 = {|}
+1 = {0|}, 2 = {1|}, 3 = {2|}
+−1 = {|0}, −2 = {|−1}, −3 = {|−2}The zero game is a loss for the first player.
+The sum of number games behaves like the integers, for example 3 + −2 = 1.
+
+
+=== Star ===
+Star, written as ∗ or {0|0}, is a first-player win since either player must (if first to move in the game) move to a zero game, and therefore win.
+
+∗ + ∗ = 0, because the first player must turn one copy of ∗ to a 0, and then the other player will have to turn the other copy of ∗ to a 0 as well; at this point, the first player would lose, since 0 + 0 admits no moves.The game ∗ is neither positive nor negative; it and all other games in which the first player wins (regardless of which side the player is on) are said to be fuzzy with or confused with 0; symbolically, we write ∗ || 0.
+
+
+=== Up ===
+Up, written as ↑, is a position in combinatorial game theory. In standard notation, ↑ = {0|∗}.
+
+−↑ = ↓ (down)Up is strictly positive (↑ > 0), but is infinitesimal. Up is defined in Winning Ways for your Mathematical Plays.
+
+
+=== Down ===
+Down, written as ↓, is a position in combinatorial game theory. In standard notation, ↓ = {∗|0}.
+
+−↓ = ↑ (up)Down is strictly negative (↓ < 0), but is infinitesimal. Down is defined in Winning Ways for your Mathematical Plays.
+
+
+=== "Hot" games ===
+Consider the game {1|−1}. Both moves in this game are an advantage for the player who makes them; so the game is said to be "hot;" it is greater than any number less than −1, less than any number greater than 1, and fuzzy with any number in between. It is written as ±1. It can be added to numbers, or multiplied by positive ones, in the expected fashion; for example, 4 ± 1 = {5|3}.
+
+
+== Nimbers ==
+An impartial game is one where, at every position of the game, the same moves are available to both players. For instance, Nim is impartial, as any set of objects that can be removed by one player can be removed by the other. However, domineering is not impartial, because one player places horizontal dominoes and the other places vertical ones. Likewise Checkers is not impartial, since the players own different colored pieces. For any ordinal number, one can define an impartial game generalizing Nim in which, on each move, either player may replace the number with any smaller ordinal number; the games defined in this way are known as nimbers. The Sprague–Grundy theorem states that every impartial game is equivalent to a nimber.
+The "smallest" nimbers – the simplest and least under the usual ordering of the ordinals – are 0 and ∗.
+
+
+== See also ==
+Alpha–beta pruning, an optimised algorithm for searching the game tree
+Backward induction, reasoning backwards from a final situation
+Cooling and heating (combinatorial game theory), various transformations of games making them more amenable to the theory
+Connection game, a type of game where players attempt to establish connections
+Endgame tablebase, a database saying how to play endgames
+Expectiminimax tree, an adaptation of a minimax game tree to games with an element of chance
+Extensive-form game, a game tree enriched with payoffs and information available to players
+Game classification, an article discussing ways of classifying games
+Game complexity, an article describing ways of measuring the complexity of games
+Grundy's game, a mathematical game in which heaps of objects are split
+Multi-agent system, a type of computer system for tackling complex problems
+Solving chess
+Sylver coinage, a mathematical game of choosing positive integers that are not the sum of non-negative multiples of previously chosen integers
+Wythoff's game, a mathematical game of taking objects from one or two piles
+Topological game, a type of mathematical game played in a topological space
+Zugzwang, being obliged to play when this is disadvantageous
+
+
+== Notes ==
+
+
+== References ==
+Albert, Michael H.; Nowakowski, Richard J.; Wolfe, David (2007). Lessons in Play: An Introduction to Combinatorial Game Theory. A K Peters Ltd. ISBN 978-1-56881-277-9.
+Beck, József (2008). Combinatorial games: tic-tac-toe theory. Cambridge University Press. ISBN 978-0-521-46100-9.
+Berlekamp, E.; Conway, J. H.; Guy, R. (1982). Winning Ways for your Mathematical Plays: Games in general. Academic Press. ISBN 0-12-091101-9. 2nd ed., A K Peters Ltd (2001–2004),  ISBN 1-56881-130-6, ISBN 1-56881-142-X
+Berlekamp, E.; Conway, J. H.; Guy, R. (1982). Winning Ways for your Mathematical Plays: Games in particular. Academic Press. ISBN 0-12-091102-7. 2nd ed., A K Peters Ltd (2001–2004), ISBN 1-56881-143-8, ISBN 1-56881-144-6.
+Berlekamp, Elwyn; Wolfe, David (1997). Mathematical Go: Chilling Gets the Last Point. A K Peters Ltd. ISBN 1-56881-032-6.
+Bewersdorff, Jörg (2004). Luck, Logic and White Lies: The Mathematics of Games. A K Peters Ltd. ISBN 1-56881-210-8. See especially sections 21–26.
+Conway, John Horton (1976). On Numbers and Games. Academic Press. ISBN 0-12-186350-6. 2nd ed., A K Peters Ltd (2001), ISBN 1-56881-127-6.
+Robert A. Hearn; Erik D. Demaine (2009). Games, Puzzles, and Computation. A K Peters, Ltd. ISBN 978-1-56881-322-6.
+
+
+== External links ==
+List of combinatorial game theory links at the homepage of David Eppstein
+An Introduction to Conway's games and numbers by Dierk Schleicher and Michael Stoll
+Combinational Game Theory terms summary by Bill Spight
+Combinatorial Game Theory Workshop, Banff International Research Station, June 2005

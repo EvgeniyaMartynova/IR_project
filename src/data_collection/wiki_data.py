@@ -6,14 +6,16 @@ from collections import defaultdict
 import pickle
 import os
 import uuid
+import random
+import re
 
-data_path = "../../../data"
+data_path = "newdata/"#"../../../data"
 topics_texts_folder = "Wikipedia Texts"
 topics_aspects_folder = "Topics Aspects"
 
 wiki_url = "https://en.wikipedia.org"
 
-abc_list = "b" #string.ascii_uppercase
+abc_list = string.ascii_uppercase
 dis_page = wikipedia.WikipediaPage("Category:All disambiguation pages")
 
 
@@ -51,8 +53,7 @@ def create_topic_directory(topic_title):
         return None
 
 
-def extract_disambiguation_pages(letter, index):
-    url = dis_page.url + "?from=" + letter
+def extract_disambiguation_pages(url):
     page = requests.get(url)
     html = bs(page.text, 'lxml')
     subcategories_html = html.find_all('div', class_='mw-category-group')
@@ -106,19 +107,19 @@ def save_page_topic_aspects(topic, aspects):
         f.write(str(index) + "\t" + aspect + "\n")
     f.close()
 
-
-# index - for future use if we want to download more than top 200 for each page
-def download_wiki_data(index = 0):
+def download_wiki_data(links):
     create_topics_texts_directory()
     create_topics_aspects_directory()
-    for letter in abc_list:
-        disambiguation_pages = extract_disambiguation_pages(letter, index)
+    for page in links:
+        #url = dis_page.url + "?from=" + letter
+        url = wiki_url + page
+        disambiguation_pages = extract_disambiguation_pages(url)
 
         # collect links of disambiguation pages
         pages = dict()
         for link, topic in disambiguation_pages:
             # remove (disambiguation) from pages that have it and the remaining whitespace
-            topic = topic.strip("(disambiguation)")
+            topic = re.sub('\(disambiguation\)$', '' ,topic)
             print(topic)
             page_html = extract_func_from_link(link)
             pages[topic] = extract_topics_aspects(page_html)
@@ -154,7 +155,11 @@ def download_wiki_data(index = 0):
 
 
 def main():
-    download_wiki_data()
+    with open("Links.pkl", 'rb') as f:
+        links = pickle.load(f)
+    sample = random.sample(links, 30)
+    print(sample)
+    download_wiki_data(sample)
 
 if __name__ == '__main__':
     main()

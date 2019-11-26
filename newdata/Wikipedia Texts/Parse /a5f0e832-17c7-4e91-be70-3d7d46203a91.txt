@@ -1,0 +1,17 @@
+Parse (platform)
+
+Parse was a mobile backend as a service platform originally developed by the provider Parse, Inc.  The company was acquired by Facebook in 2013 and shut down in January 2017.  Following the announcement in 2016 of the impending shutdown, the platform was subsequently open sourced.
+Since the hosted service was shut down, Parse Platform has grown into an open source community with its own blog, documentation, and community forum.
+
+
+== History ==
+Parse was founded in 2011 by Tikhon Bernstam, Ilya Sukhar, James Yu, and Kevin Lacker, previously at  Google and Y Combinator. The firm produces     back-end tools for mobile developers  that help mobile developers store data in the cloud, manage identity log-ins, handle push notifications and run custom code in the cloud.
+On November 9, 2011, it raised $5.5 million in venture capital funding. In 2012, its tools were being used by 20,000 mobile developers and that number was growing at 40% monthly. On Sept 11, 2012, it added the ability to create custom code on the back end.Fast Company named Parse one of the top 50 most innovative companies of 2013.Facebook acquired the firm  for $85 million in 2013.In 2014, Parse was reported to power 500,000 mobile apps.On 28 January 2016, Facebook announced that it will close down Parse, with services effectively shutting down on 28 January 2017. The service operated until 30 January 2017, at which point all users needed to have migrated their applications to other platforms. Parse did open the application source code in order to allow users to perform the migration and release Parse Server. A range of vendors are able to host Parse applications, providing migration alternatives.
+Prior to the Build 2016 Conference, Microsoft announced a Parse Server on Azure Managed Services, as an easy way for developers to migrate from the soon-to-be-defunct Facebook service.
+
+
+== References ==
+
+
+== External links ==
+Official website

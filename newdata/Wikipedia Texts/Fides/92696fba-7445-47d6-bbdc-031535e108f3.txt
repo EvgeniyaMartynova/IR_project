@@ -1,0 +1,61 @@
+Fides (reliability)
+
+Fides (Latin: trust) is a guide allowing estimated reliability calculation for electronic components and systems. The reliability prediction is generally expressed in FIT (number of failures for 109 hours) or MTBF (Mean Time Between Failures). This guide provides reliability data for RAMS (Reliability, Availability, Maintainability, Safety) studies.
+
+
+== Purpose ==
+Fides is a DGA (French armament industry supervision agency) study conducted by a European consortium formed by eight industrialists from the fields of aeronautics and Defence:
+
+Airbus France
+Eurocopter
+Nexter Electronics
+MBDA Missiles Systems
+Thales Services
+Thales Airborne Systems
+Thales Avionics
+Thales Underwater SystemsThe first aim of the Fides project was to develop a new reliability assessment method for electronic components which takes into consideration COTS (commercial off-the-shelf) and specific parts and the new technologies. The global aim is to find a replacement to the worldwide reference MIL-HDBK-217F, which is old and has not been revised since 1995 (issue F notice 2). Moreover, the MIL HDBK 217F is very pessimistic for COTS components which are more and more widely used in military and aerospace systems.
+The second aim was to write a reliability engineering guide in order to provide engineering process and tools to improve reliability in the development of new electronic systems.
+
+
+== Method content ==
+The Fides guide is made of two distinct parts. The first is a reliability prediction calculation method concerning main electronic component families and complete subassemblies like hard disks or LCD displays. The second part is a process control and audit guide which is a tool to assess the reliability quality and technical know-how in the operating time of the studied product, operational specification and maintenance.
+
+
+== Availability ==
+The Fides guide is freely available on the Fides reliability website.
+
+
+== Standardization ==
+The French standardisation organisation UTE (Union Technique de l'Electricité) has accepted the Fides publication, with the reference UTE C 80 811 (available in both French and English). An international normative reference extension (International Electrotechnical Commission) is planned for the future.
+
+
+== Future ==
+Fides has met great interest and success since the end of the study in 2004. The method has been quickly declared a standard that can be applied to French military programs. For two years, the French military experts of DGA have already used FIDES method in different major programs for Defence, in missiles or tactical telecommunications fields for example.
+American companies like Boeing, Japanese organisations like JAXA (Japan Aerospace Exploration Agency) as well as French companies or organisations like EDF (Electricité de France, French electricity provider) or CNES (Centre National d’Etudes Spatiales, the French space agency) showed an interest in FIDES methodology, but none of them are using FIDES at this time.
+Further developments of the Fides guide (such as the improvement of existing models and the widening of the spectrum covered by component families) resulted in a new version of the Fides guide being published in the middle of year 2009.
+
+
+== See also ==
+Reliability
+Reliability theory
+MTBF
+Failure rate
+
+
+== References ==
+
+
+== Sources ==
+"Space product assurance". Retrieved 20 November 2007.
+"BQR reliability engineering – FIDES". Archived from the original on 9 May 2008. Retrieved 20 November 2007.
+"Electronic reliability prediction" (PDF). Retrieved 20 November 2007.
+"Reliability assessment for components of complex mechanisms and machines" (PDF). Retrieved 20 November 2007.
+"NORISKO tool for reliability calculation" (PDF). Archived from the original (PDF) on 20 July 2011. Retrieved 26 November 2007. (Software information sheet)
+
+
+== Further reading ==
+"MIL-HDBK-217F – Revision F Change Notice 2" (PDF). Department of Defense. 28 February 1995. Retrieved 17 November 2007. File size : 5791.3 KB
+
+
+== External links ==
+Fides guide website (Requires free registration to obtain the Fides guide in both English and French)

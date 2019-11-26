@@ -1,0 +1,32 @@
+Universal edit button
+
+The Universal Edit Button is a software tool that provides a green pencil icon in the address bar of a web browser that indicates that a web page on the World Wide Web (most often a wiki) is editable. It is similar to the orange "broadcast" RSS icon () that indicates that there is a web feed available. Clicking the icon opens the edit window. It was invented by a collaborative team of wiki enthusiasts, including Ward Cunningham, Jack Herrick, and many others.
+
+
+== History ==
+
+The concept was first conceived during the 2007 RecentChangesCamp in Montreal, Quebec. After the next RecentChangesCamp, coding began by Travis Derouin, Brion Vibber and other programmers, the button was officially launched on June 19, 2008.Conversations on this idea started at RoCoCo (a RecentChangesCamp) in Montreal in 2007, and discussions continued on the AboutUs wiki. At the Palo Alto RCC in 2008, a handful of people explored the idea, got excited about the ability to have the button automatically detected by browsers, and helped spread the idea.
+
+
+== Description ==
+
+The Universal Editing Button (UEB) is intended to enable an internet user to quickly recognize when a website—such as a wiki—may be edited. According to the UEB's creators, "it is a convenience to web surfers who are already inclined to contribute, and an invitation to those who have yet to discover the thrill of building a common resource. As this kind of public editing becomes more commonplace, the button may become regarded as a badge of honor.It serves as an incentive to encourage companies and site developers to add publicly-editable components to their sites, in order to have the UEB displayed for their sites."
+Tim Berners-Lee's initial vision for the web was a read-write medium. However, as the web matured, very few web sites offered users the ability to write or edit. The web became primarily a "read only" medium.  In the 2000s, wikis spread the concept that the web could be editable. The success of Wikipedia, and the increasing utility of wikis like wikiHow, AboutUs.org, Wikivoyage and Wikia demonstrated the possibility that open editing could create usable information resources.
+
+
+== Implementation ==
+The plug-ins on the browser side recognize the specific form of the alternative link specification in HTML fragment:
+
+The href part tag species the edit page that corresponds with the page being viewed. Every server that is capable and willing to support the user editing can include this fragment and this way enable the button. Hence the button support can be relatively easily added to various web applications if the source code is available. The tag does not put any requirements on the details about the editing session itself and simply brings to the page where the user would also come by clicking on Edit tab (or similar). The button is normally used in the user editable pages, so no maintainer-only credentials should be asked to start a valid editing session. If only registered (logged in) users can edit, the button should bring to the register/login form.
+Plug-ins are currently available for Firefox, Opera, Epiphany, and Chrome. There is ongoing work to support Internet Explorer.
+
+
+== Supported websites ==
+Websites supporting the Universal Edit Button include wikiHow, AboutUs.org, Wikimedia (including Wikipedia, Wiktionary, Wikimedia Commons and all other Wikimedia projects), MediaWiki software, DokuWiki, MoinMoin, PhpWiki, Socialtext, TWiki, the Creative Commons wiki, Foodista, Wikia, PBworks, WikkaWiki, Memory Alpha, Wired's How-To blog, WordPress (as a plug-in), and many others. Currently, the project's website lists over 80 other websites that have implemented support for the button.
+
+
+== References ==
+
+
+== External links ==
+A podcast on the Universal Edit Button by Ward Cunningham (inventor of the wiki), Mark Dilley (AboutUs.org), and Peter Kaminski (Socialtext).

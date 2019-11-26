@@ -1,0 +1,44 @@
+App Store (iMessage)
+
+iMessage is an instant messaging service developed by Apple Inc. Launched in 2011, it is supported by the Messages application in iOS 5 and later and OS X Mountain Lion and later.
+
+
+== History ==
+iMessage was announced by Scott Forstall at the WWDC 2011 keynote on June 6, 2011. A version of the Messages app for iOS with support for iMessage was included in the iOS 5 update on October 12, 2011. On February 16, 2012, Apple announced that a new Messages app replacing iChat would be part of OS X Mountain Lion. Mountain Lion was released on July 25, 2012.
+On October 23, 2012, Apple CEO, Tim Cook announced that Apple device users have sent 300 billion messages using iMessage and that Apple delivers an average of 28,000 messages per second. In February 2016, Eddy Cue announced that the number of iMessages sent per second had grown to 200,000.In May 2014, a lawsuit was filed against Apple over an issue that, if a user switches from an Apple device to a non-Apple device, messages being delivered to them through iMessage would not reach their destination.  In November 2014 Apple addressed this problem by providing instructions and an online tool to deregister iMessage. A federal court dismissed the suit in Apple's favor.On March 21, 2016, a group of researchers from Johns Hopkins University published a report in which they demonstrated that an attacker in possession of iMessage ciphertexts could potentially decrypt photos and videos that had been sent via the service. The researchers published their findings after the vulnerability had been patched by Apple.On May 3, 2016, an independent open-source project named "PieMessage" was announced by app developer Eric Chee,  consisting of code for OS X that communicates with iMessage and connects to an Android client, allowing the Android client to send and receive messages.On June 13, 2016, Apple announced the addition of Apps to iMessage service, accessible via the Messages apps. Apps can create and share content, add stickers, make payments, and more within iMessage conversations without having to switch to standalone apps. One could develop standalone iMessage apps or an extension to existing iOS apps. Publishers can also create standalone stickers apps without writing any code. According to Sensor Tower, as of March 2017 the iMessage App Store features nearly 5,000 Message-enabled apps.
+
+
+== Features ==
+
+iMessage allows users to send texts, documents, photos, videos, contact information, and group messages over the Internet to other iOS or macOS users. iMessage is an alternative to the SMS and MMS messaging for most users with devices running iOS 5 or later. The "Send as SMS" setting under Messages will cause the message to be sent via SMS if the sender does not have an active Internet connection. If the receiver has no Internet connection, the message should be stored on a server until a connection is restored.
+iMessage is accessible through the Messages app on an iPhone, iPad or iPod touch running iOS 5 or later, or on a Mac running OS X Mountain Lion or later. Owners of these devices can register one or more email addresses with Apple. Additionally, iPhone owners can register their phone numbers with Apple, provided their carrier is supported. When a message is sent to a mobile number, Messages will check with Apple if the mobile number is set up for iMessage. If it is not, the message will seamlessly transition from iMessage to SMS.In Messages, the user's sent communication is aligned to the right, with replies from other people on the left. A user can see if the other iMessage user is typing a message. A pale gray ellipsis appears in the text bubble of the other user when a reply is started. It is also possible to start a conversation on one iOS device and continue it on another. On iPhones, green buttons and text bubbles indicate SMS-based communication; on all iOS devices, blue buttons and text bubbles indicate iMessage communication.
+All iMessages are encrypted and can be tracked using delivery receipts. If the recipient enables Read Receipts, the sender will be able to see when the recipient has read the message. iMessage also allows users to set up chats with more than two people—a "group chat".
+With the launch of iOS 10, users can send messages accompanied by a range of "bubble" or "screen" effects. By holding down the send button with force, the range of effects is surfaced for users to select an effect to be sent to the receiver. 
+
+
+== Technology ==
+The iMessage protocol is based on the Apple Push Notification service (APNs)—a proprietary, binary protocol. It sets up a Keep-Alive connection with the Apple servers. Every connection has its own unique code, which acts as an identifier for the route that should be used to send a message to a specific device. The connection is encrypted with TLS using a client-side certificate, that is requested by the device on the activation of iMessage.
+
+
+== Reception ==
+On November 12, 2012, Chetan Sharma, a technology and strategy consulting firm, published the US Mobile Data Market Update Q3 2012, noting the decline of text messaging in the United States, and suggested the decline may be attributed to Americans using alternative free messaging services such as iMessage.In 2017, Google announced they would compete with iMessage with their own messaging service, Android Messaging.
+
+
+=== Security and privacy ===
+On November 4, 2014, the Electronic Frontier Foundation (EFF) listed iMessage on its "Secure Messaging Scorecard", giving it a score of 5 out of 7 points. It received points for having communications encrypted in transit, having communications encrypted with keys the provider doesn't have access to (end-to-end encryption), having past communications secure if the keys are stolen (forward secrecy), having their security designs well-documented, and having a recent independent security audit. It missed points because users can not verify contacts' identities and because the source code is not open to independent review. In September 2015, Matthew Green noted that, because iMessage does not display key fingerprints for out-of-band verification, users are unable to verify that a man-in-the-middle attack has not occurred. The post also noted that iMessage uses RSA key exchange. This means that, as opposed to what EFF's scorecard claims, iMessage does not feature forward secrecy.On August 7, 2019, researchers from Project Zero presented 6 “interaction-less” exploits in iMessage that could be used to take over control of a user’s device. These six exploits have been fixed in iOS 12.4, released on July 22, 2019, however there are still some undisclosed exploits which will be patched in a future update.
+
+
+== See also ==
+FaceTime, Apple's videotelephony service which also uses APNs
+WhatsApp
+Facebook Messenger
+WeChat
+Line
+Skype
+Snapchat
+
+
+== References ==
+
+
+== Further reading ==

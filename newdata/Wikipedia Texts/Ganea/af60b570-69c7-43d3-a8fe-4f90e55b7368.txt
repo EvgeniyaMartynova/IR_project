@@ -1,0 +1,22 @@
+Eilenberg−Ganea conjecture
+
+The Eilenberg–Ganea conjecture is a claim in algebraic topology.  It was formulated by Samuel Eilenberg and Tudor Ganea in 1957, in a short, but influential paper.  It states that if a group G has cohomological dimension 2, then it has a 2-dimensional Eilenberg–MacLane space 
+  
+    
+      
+        K
+        (
+        G
+        ,
+        1
+        )
+      
+    
+    {\displaystyle K(G,1)}
+  .  For n different from 2, a group G of cohomological dimension n has an n-dimensional Eilenberg–MacLane space. It is also known that a group of cohomological dimension 2 has a 3-dimensional Eilenberg−MacLane space.
+In 1997,  Mladen Bestvina and Noel Brady constructed a group G so that either G is a counterexample to the Eilenberg–Ganea conjecture, or there must be a counterexample to the Whitehead conjecture; in other words, not both conjectures can be true. 
+
+
+== References ==
+Eilenberg, Samuel; Ganea, Tudor (1957). "On the Lusternik–Schnirelmann category of abstract groups". Annals of Mathematics. 2nd Ser. 65 (3): 517–518. doi:10.2307/1970062. MR 0085510.
+Bestvina, Mladen; Brady, Noel (1997). "Morse theory and finiteness properties of groups". Inventiones Mathematicae. 129 (3): 445–470. doi:10.1007/s002220050168. MR 1465330.

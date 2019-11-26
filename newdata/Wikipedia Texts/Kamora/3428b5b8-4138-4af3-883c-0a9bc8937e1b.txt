@@ -1,0 +1,34 @@
+Kamora (diacritic)
+
+Inverted breve or arch is a diacritical mark, shaped like the top half of a circle ( ̑ ), that is, like an upside-down breve (˘). It looks similar to the circumflex (ˆ), but the circumflex has a sharp tip; the inverted breve is rounded: compare Ȃ ȃ Ȇ ȇ Ȋ ȋ Ȏ ȏ Ȗ ȗ (inverted breve) versus Â â Ê ê Î î Ô ô Û û (circumflex).
+Inverted breve can occur above or below the letter. It is not used in any natural language alphabet, but only as a phonetic indicator though it is identical in form to the Ancient Greek circumflex.
+
+
+== Uses ==
+
+
+=== Serbo-Croatian ===
+The inverted breve above is used in traditional Slavicist notation of Serbo-Croatian phonology to indicate long falling accent. It is placed above the syllable nucleus, which can be one of five vowels (ȃ ȇ ȋ ȏ ȗ) or syllabic ȓ.
+This use of the inverted breve is derived from the Ancient Greek circumflex, which was preserved in the polytonic orthography of Modern Greek and influenced early Serbian Cyrillic printing through religious literature. In the early 19th century, it began to be used in both Latin and Cyrillic as a diacritic to mark prosody in the systematic study of the Serbian-Croatian linguistic continuum.
+
+
+=== International Phonetic Alphabet ===
+In the International Phonetic Alphabet, inverted breve below is used  to denote that the vowel is not syllabic. Thus, semivowels are transcribed either using dedicated symbols (of which there are only a few, e.g. [j, w, ɥ]) or by adding the diacritic to a vowel sound (e.g. [i̯, u̯]), enabling more possible semivowels (e.g. [ɐ̯, ʏ̯, e̯]).
+The same diacritic is placed under iota (ι̯) to represent the Proto-Indo-European semivowel *y as it relates to Greek grammar; upsilon with an inverted breve (υ̯) is used alongside digamma to represent the Proto-Indo-European semivowel *w.
+
+
+== Encoding ==
+Inverted breve characters are supported in Unicode and HTML code (decimal numeric character reference).
+
+In LaTeX the control \textroundcap{o} puts an inverted breve over the letter o.
+
+
+== Notes ==
+
+
+== See also ==
+Tie (typography)
+
+
+== External links ==
+Diacritics Project — All you need to design a font with correct accents

@@ -1,0 +1,26 @@
+MPack (software)
+
+In computer security, MPack is a PHP-based malware kit produced by Russian crackers. The first version was released in December 2006. Since then a new version is thought to have been released roughly every month. It is thought to have been used to infect up to 160,000 PCs with keylogging software.  In August 2007 it was believed to have been used in an attack on the web site of the Bank of India which originated from the Russian Business Network.
+Unusual for such kits, MPack is sold as commercial software (costing $500 to $1,000 US), and is provided by its developers with technical support and regular updates of the software vulnerabilities it exploits.   Modules are sold by the developers containing new exploits. These cost between $50 and $150 US depending on how severe the exploit is. The developers also charge to make the scripts and executables undetectable by antivirus software.
+The server-side software in the kit is able to customize attacks to a variety of web browsers including Microsoft Internet Explorer, Mozilla Firefox and Opera. MPack generally works by being loaded in an IFrame attached to the bottom of a defaced website. When a user visits the page, MPack sends a script that loads in the IFrame and determines if any vulnerabilities in the browser or operating system can be exploited. If it finds any, it will exploit them and store various statistics for future reference.
+Included with the server is a management console, which allows the attacker deploying the software to view statistics about the computers that have been infected, including what web browsers they were using and what countries their connections originated from.
+
+
+== See also ==
+Exploit
+Exploit kit
+Trojan horse (computing)
+Spyware
+Botnet
+Computer virus
+Backdoor (computing)
+
+
+== References ==
+"Hackers target 'legitimate' sites". BBC. 2007-06-20. Retrieved 2007-06-26.
+"MPack, Packed Full of Badness". Symantec. 2007-05-27. Retrieved 2007-06-26.
+"PandaLabs Report: MPack uncovered" (PDF). PandaLabs. 2007-05-11. Retrieved 2007-07-04.
+"MPack malware exposes cheapskate web hosts". The Register. 2007-07-04. Retrieved 2007-07-04.
+"Interview with MPack developer". The Register. 2007-07-23. Retrieved 2007-07-23.
+Brian Krebs (2007-10-13). "Mapping the Russian Business Network". Washington Post blogs. Retrieved 2007-10-14.
+Gregg Keizer (2007-09-30). "Bank of India site hacked, serves up 22 exploits". Computer World. Archived from the original on 2007-10-14. Retrieved 2007-10-14.

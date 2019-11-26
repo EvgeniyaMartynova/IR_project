@@ -1,0 +1,9 @@
+Crawler (BEAM)
+
+In BEAM robotics, a Crawler is a robot that has a mode of locomotion by tracks or by transferring the robot's body on limbs or appendages. These do not drag parts of their body on the ground.
+
+
+== Genera ==
+Turbots : Rolls over and over as a mode of locomotion via arms or flagella.
+Inchworms : Driven mode of locomotion via the robot's body undulating; this undulation moves part of the body ahead, while the rest of the chassis is on the ground.
+Tracked robots : "Track-ed" wheel locomotion; tank-like action.

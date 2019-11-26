@@ -1,0 +1,1352 @@
+Mollifier
+
+In mathematics, mollifiers (also known as approximations to the identity) are smooth functions with special properties, used for example in distribution theory to create sequences of smooth functions approximating nonsmooth (generalized) functions, via convolution. Intuitively, given a function which is rather irregular, by convolving it with a mollifier the function gets "mollified", that is, its sharp features are smoothed, while still remaining close to the original nonsmooth (generalized) function. They are also known as Friedrichs mollifiers after Kurt Otto Friedrichs, who introduced them.
+
+
+== Historical notes ==
+Mollifiers were introduced by Kurt Otto Friedrichs in his paper (Friedrichs 1944, pp. 136–139), which is considered a watershed in the modern theory of partial differential equations. The name of this mathematical object had a curious genesis, and Peter Lax tells the whole story  in his commentary on that paper published in Friedrichs' "Selecta". According to him, at that time, the mathematician Donald Alexander Flanders was a colleague of Friedrichs: since he liked to consult colleagues about English usage, he asked Flanders an advice on how to name the smoothing operator he was using. Flanders was a puritan, nicknamed by his friends Moll after Moll Flanders in recognition of his moral qualities: he suggested to call the new mathematical concept a "mollifier" as a pun incorporating both Flanders' nickname and the verb 'to mollify', meaning 'to smooth over' in a figurative sense.Previously, Sergei Sobolev used mollifiers in his epoch making 1938 paper, which contains the proof of the Sobolev embedding theorem: Friedrichs himself acknowledged Sobolev's work on mollifiers stating that:-"These mollifiers were introduced by Sobolev and the author...".It must be pointed out that the term "mollifier" has undergone linguistic drift since the time of these foundational works: Friedrichs defined as "mollifier" the integral operator whose kernel is one of the functions nowadays called mollifiers. However, since the properties of a linear integral operator are completely determined by its kernel, the name mollfier was inherited by the kernel itself as a result of common usage.
+
+
+== Definition ==
+
+
+=== Modern (distribution based) definition ===
+Definition 1. If 
+  
+    
+      
+        φ
+      
+    
+    {\displaystyle \varphi }
+   is a smooth function on ℝn, n ≥ 1, satisfying the following three requirements
+
+(1)   it is compactly supported
+(2)  
+  
+    
+      
+        
+          ∫
+          
+            
+              
+                R
+              
+              
+                n
+              
+            
+          
+        
+        
+        φ
+        (
+        x
+        )
+        
+          d
+        
+        x
+        =
+        1
+      
+    
+    {\displaystyle \int _{\mathbb {R} ^{n}}\!\varphi (x)\mathrm {d} x=1}
+  
+(3)  
+  
+    
+      
+        
+          lim
+          
+            ϵ
+            →
+            0
+          
+        
+        
+          φ
+          
+            ϵ
+          
+        
+        (
+        x
+        )
+        =
+        
+          lim
+          
+            ϵ
+            →
+            0
+          
+        
+        
+          ϵ
+          
+            −
+            n
+          
+        
+        φ
+        (
+        x
+        
+          /
+        
+        ϵ
+        )
+        =
+        δ
+        (
+        x
+        )
+      
+    
+    {\displaystyle \lim _{\epsilon \to 0}\varphi _{\epsilon }(x)=\lim _{\epsilon \to 0}\epsilon ^{-n}\varphi (x/\epsilon )=\delta (x)}
+  where 
+  
+    
+      
+        δ
+        (
+        x
+        )
+      
+    
+    {\displaystyle \delta (x)}
+   is the Dirac delta function and the limit must be understood in the space of Schwartz distributions, then 
+  
+    
+      
+        φ
+      
+    
+    {\displaystyle \varphi }
+   is a mollifier. The function 
+  
+    
+      
+        φ
+      
+    
+    {\displaystyle \varphi }
+   could also satisfy further conditions: for example, if it satisfies
+
+(4)  
+  
+    
+      
+        φ
+      
+    
+    {\displaystyle \varphi }
+  
+  
+    
+      
+        (
+        x
+        )
+      
+    
+    {\displaystyle (x)}
+   ≥ 0 for all x ∈ ℝn, then it is called a positive mollifier
+(5)  
+  
+    
+      
+        φ
+      
+    
+    {\displaystyle \varphi }
+  
+  
+    
+      
+        (
+        x
+        )
+      
+    
+    {\displaystyle (x)}
+  =
+  
+    
+      
+        μ
+      
+    
+    {\displaystyle \mu }
+  
+  
+    
+      
+        (
+        
+          |
+        
+        x
+        
+          |
+        
+        )
+      
+    
+    {\displaystyle (|x|)}
+   for some infinitely differentiable function 
+  
+    
+      
+        μ
+      
+    
+    {\displaystyle \mu }
+   : ℝ+ → ℝ, then it is called a symmetric mollifier
+
+
+=== Notes on Friedrichs' definition ===
+Note 1. When the theory of distributions was still not widely known nor used, property (3) above was formulated by saying that the convolution of the function 
+  
+    
+      
+        
+          
+            φ
+            
+              ϵ
+            
+          
+        
+      
+    
+    {\displaystyle \scriptstyle \varphi _{\epsilon }}
+   with a given function belonging to a proper Hilbert or Banach space converges as ε → 0  to that function: this is exactly what Friedrichs did. This also clarifies why mollifiers are related to approximate identities.Note 2. As briefly pointed out in the "Historical notes" section of this entry, originally, the term "mollifier" identified the following convolution operator:
+
+  
+    
+      
+        
+          Φ
+          
+            ϵ
+          
+        
+        (
+        f
+        )
+        (
+        x
+        )
+        =
+        
+          ∫
+          
+            
+              
+                R
+              
+              
+                n
+              
+            
+          
+        
+        
+          φ
+          
+            ϵ
+          
+        
+        (
+        x
+        −
+        y
+        )
+        f
+        (
+        y
+        )
+        
+          d
+        
+        y
+      
+    
+    {\displaystyle \Phi _{\epsilon }(f)(x)=\int _{\mathbb {R} ^{n}}\varphi _{\epsilon }(x-y)f(y)\mathrm {d} y}
+  where 
+  
+    
+      
+        
+          φ
+          
+            ϵ
+          
+        
+        (
+        x
+        )
+        =
+        
+          ϵ
+          
+            −
+            n
+          
+        
+        φ
+        (
+        x
+        
+          /
+        
+        ϵ
+        )
+      
+    
+    {\displaystyle \varphi _{\epsilon }(x)=\epsilon ^{-n}\varphi (x/\epsilon )}
+   and 
+  
+    
+      
+        φ
+      
+    
+    {\displaystyle \varphi }
+   is a smooth function satisfying the first three conditions stated above and one or more supplementary conditions as positivity and symmetry.
+
+
+== Concrete example ==
+Consider the function 
+  
+    
+      
+        φ
+      
+    
+    {\displaystyle \varphi }
+  
+  
+    
+      
+        (
+        x
+        )
+      
+    
+    {\displaystyle (x)}
+   of a variable in ℝn defined by
+
+  
+    
+      
+        φ
+        (
+        x
+        )
+        =
+        
+          
+            {
+            
+              
+                
+                  
+                    e
+                    
+                      −
+                      1
+                      
+                        /
+                      
+                      (
+                      1
+                      −
+                      
+                        |
+                      
+                      x
+                      
+                        
+                          |
+                        
+                        
+                          2
+                        
+                      
+                      )
+                    
+                  
+                  
+                    /
+                  
+                  
+                    I
+                    
+                      n
+                    
+                  
+                
+                
+                  
+                     if 
+                  
+                  
+                    |
+                  
+                  x
+                  
+                    |
+                  
+                  <
+                  1
+                
+              
+              
+                
+                  0
+                
+                
+                  
+                     if 
+                  
+                  
+                    |
+                  
+                  x
+                  
+                    |
+                  
+                  ≥
+                  1
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle \varphi (x)={\begin{cases}e^{-1/(1-|x|^{2})}/I_{n}&{\text{ if }}|x|<1\\0&{\text{ if }}|x|\geq 1\end{cases}}}
+  
+where the numerical constant 
+  
+    
+      
+        
+          I
+          
+            n
+          
+        
+      
+    
+    {\displaystyle I_{n}}
+   ensures normalization. It is  easily seen that this function is infinitely differentiable, non analytic with vanishing derivative for |x| = 1. 
+  
+    
+      
+        φ
+      
+    
+    {\displaystyle \varphi }
+   can be therefore used as mollifier as described above: it is also easy to see that 
+  
+    
+      
+        φ
+      
+    
+    {\displaystyle \varphi }
+  
+  
+    
+      
+        (
+        x
+        )
+      
+    
+    {\displaystyle (x)}
+   defines a positive and symmetric mollifier.
+
+
+== Properties ==
+All properties of a mollifier are related to its behaviour under the operation of convolution: we list the following ones, whose proofs can be found in every text on distribution theory.
+
+
+=== Smoothing property ===
+For any distribution 
+  
+    
+      
+        T
+      
+    
+    {\displaystyle T}
+  , the following family of convolutions indexed by the real number 
+  
+    
+      
+        ϵ
+      
+    
+    {\displaystyle \epsilon }
+  
+
+  
+    
+      
+        
+          T
+          
+            ϵ
+          
+        
+        =
+        T
+        ∗
+        
+          φ
+          
+            ϵ
+          
+        
+      
+    
+    {\displaystyle T_{\epsilon }=T\ast \varphi _{\epsilon }}
+  where 
+  
+    
+      
+        ∗
+      
+    
+    {\displaystyle \ast }
+   denotes convolution, is a family of smooth functions.
+
+
+=== Approximation of identity ===
+For any distribution 
+  
+    
+      
+        T
+      
+    
+    {\displaystyle T}
+  , the following family of convolutions indexed by the real number 
+  
+    
+      
+        ϵ
+      
+    
+    {\displaystyle \epsilon }
+   converges to 
+  
+    
+      
+        T
+      
+    
+    {\displaystyle T}
+  
+
+  
+    
+      
+        
+          lim
+          
+            ϵ
+            →
+            0
+          
+        
+        
+          T
+          
+            ϵ
+          
+        
+        =
+        
+          lim
+          
+            ϵ
+            →
+            0
+          
+        
+        T
+        ∗
+        
+          φ
+          
+            ϵ
+          
+        
+        =
+        T
+        ∈
+        
+          D
+          
+            ′
+          
+        
+        (
+        
+          
+            R
+          
+          
+            n
+          
+        
+        )
+      
+    
+    {\displaystyle \lim _{\epsilon \to 0}T_{\epsilon }=\lim _{\epsilon \to 0}T\ast \varphi _{\epsilon }=T\in D^{\prime }(\mathbb {R} ^{n})}
+  
+
+
+=== Support of convolution ===
+For any distribution 
+  
+    
+      
+        T
+      
+    
+    {\displaystyle T}
+  ,
+
+  
+    
+      
+        
+          s
+          u
+          p
+          p
+        
+        
+          T
+          
+            ϵ
+          
+        
+        =
+        
+          s
+          u
+          p
+          p
+        
+        (
+        T
+        ∗
+        
+          φ
+          
+            ϵ
+          
+        
+        )
+        ⊂
+        
+          s
+          u
+          p
+          p
+        
+        T
+        +
+        
+          s
+          u
+          p
+          p
+        
+        
+          φ
+          
+            ϵ
+          
+        
+      
+    
+    {\displaystyle \mathrm {supp} T_{\epsilon }=\mathrm {supp} (T\ast \varphi _{\epsilon })\subset \mathrm {supp} T+\mathrm {supp} \varphi _{\epsilon }}
+  where 
+  
+    
+      
+        
+          s
+          u
+          p
+          p
+        
+      
+    
+    {\displaystyle \mathrm {supp} }
+   indicates the support in the sense of distributions, and 
+  
+    
+      
+        +
+      
+    
+    {\displaystyle +}
+   indicates their Minkowski addition.
+
+
+== Applications ==
+The basic applications of mollifiers is to prove properties valid for smooth functions also in nonsmooth situations:
+
+
+=== Product of distributions ===
+In some theories of generalized functions, mollifiers are used to define the multiplication of distributions: precisely, given two distributions 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+   and 
+  
+    
+      
+        T
+      
+    
+    {\displaystyle T}
+  , the limit of the product of a smooth function and a distribution
+
+  
+    
+      
+        
+          lim
+          
+            ϵ
+            →
+            0
+          
+        
+        
+          S
+          
+            ϵ
+          
+        
+        ⋅
+        T
+        =
+        
+          lim
+          
+            ϵ
+            →
+            0
+          
+        
+        S
+        ⋅
+        
+          T
+          
+            ϵ
+          
+        
+        
+          
+            =
+            
+              d
+              e
+              f
+            
+          
+        
+        S
+        ⋅
+        T
+      
+    
+    {\displaystyle \lim _{\epsilon \to 0}S_{\epsilon }\cdot T=\lim _{\epsilon \to 0}S\cdot T_{\epsilon }{\overset {\mathrm {def} }{=}}S\cdot T}
+  defines (if it exists) their product in various theories of generalized functions.
+
+
+=== "Weak=Strong" theorems ===
+Very informally, mollifiers are used to prove the identity of two different kind of extension of differential operators: the strong extension and the weak extension. The paper (Friedrichs 1944) illustrates this concept quite well: however the high number of technical details needed to show what this really means prevent them from being formally detailed in this short description.
+
+
+=== Smooth cutoff functions ===
+By convolution of the characteristic function of the unit ball 
+  
+    
+      
+        
+          B
+          
+            1
+          
+        
+        =
+        {
+        x
+        :
+        
+          |
+        
+        x
+        
+          |
+        
+        <
+        1
+        }
+      
+    
+    {\displaystyle B_{1}=\{x:|x|<1\}}
+   with the smooth function 
+  
+    
+      
+        
+          φ
+          
+            1
+            
+              /
+            
+            2
+          
+        
+      
+    
+    {\displaystyle \varphi _{1/2}}
+   (defined as in (3) with 
+  
+    
+      
+        ϵ
+        =
+        1
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle \epsilon =1/2}
+  ), one obtains the function
+
+  
+    
+      
+        
+          χ
+          
+            
+              B
+              
+                1
+              
+            
+            ,
+            1
+            
+              /
+            
+            2
+          
+        
+        (
+        x
+        )
+        =
+        
+          χ
+          
+            
+              B
+              
+                1
+              
+            
+          
+        
+        ∗
+        
+          φ
+          
+            1
+            
+              /
+            
+            2
+          
+        
+        (
+        x
+        )
+        =
+        
+          ∫
+          
+            
+              
+                R
+              
+              
+                n
+              
+            
+          
+        
+        
+        
+        
+        
+          χ
+          
+            
+              B
+              
+                1
+              
+            
+          
+        
+        (
+        x
+        −
+        y
+        )
+        
+          φ
+          
+            1
+            
+              /
+            
+            2
+          
+        
+        (
+        y
+        )
+        
+          d
+        
+        y
+        =
+        
+          ∫
+          
+            
+              B
+              
+                1
+                
+                  /
+                
+                2
+              
+            
+          
+        
+        
+        
+        
+        
+          χ
+          
+            
+              B
+              
+                1
+              
+            
+          
+        
+        (
+        x
+        −
+        y
+        )
+        
+          φ
+          
+            1
+            
+              /
+            
+            2
+          
+        
+        (
+        y
+        )
+        
+          d
+        
+        y
+         
+         
+         
+        (
+        ∵
+         
+        
+          s
+          u
+          p
+          p
+        
+        (
+        
+          φ
+          
+            1
+            
+              /
+            
+            2
+          
+        
+        )
+        =
+        
+          B
+          
+            1
+            
+              /
+            
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle \chi _{B_{1},1/2}(x)=\chi _{B_{1}}\ast \varphi _{1/2}(x)=\int _{\mathbb {R} ^{n}}\!\!\!\chi _{B_{1}}(x-y)\varphi _{1/2}(y)\mathrm {d} y=\int _{B_{1/2}}\!\!\!\chi _{B_{1}}(x-y)\varphi _{1/2}(y)\mathrm {d} y\ \ \ (\because \ \mathrm {supp} (\varphi _{1/2})=B_{1/2})}
+  which is a smooth function equal to 
+  
+    
+      
+        1
+      
+    
+    {\displaystyle 1}
+   on 
+  
+    
+      
+        
+          B
+          
+            1
+            
+              /
+            
+            2
+          
+        
+        =
+        {
+        x
+        :
+        
+          |
+        
+        x
+        
+          |
+        
+        <
+        1
+        
+          /
+        
+        2
+        }
+      
+    
+    {\displaystyle B_{1/2}=\{x:|x|<1/2\}}
+  , with support contained in 
+  
+    
+      
+        
+          B
+          
+            3
+            
+              /
+            
+            2
+          
+        
+        =
+        {
+        x
+        :
+        
+          |
+        
+        x
+        
+          |
+        
+        <
+        3
+        
+          /
+        
+        2
+        }
+      
+    
+    {\displaystyle B_{3/2}=\{x:|x|<3/2\}}
+  . This can be seen easily by observing that if 
+  
+    
+      
+        
+          |
+        
+        x
+        
+          |
+        
+      
+    
+    {\displaystyle |x|}
+   ≤ 
+  
+    
+      
+        1
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle 1/2}
+   and 
+  
+    
+      
+        
+          |
+        
+        y
+        
+          |
+        
+      
+    
+    {\displaystyle |y|}
+   ≤ 
+  
+    
+      
+        1
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle 1/2}
+   then 
+  
+    
+      
+        
+          |
+        
+        x
+        −
+        y
+        
+          |
+        
+      
+    
+    {\displaystyle |x-y|}
+   ≤ 
+  
+    
+      
+        1
+      
+    
+    {\displaystyle 1}
+  . Hence for 
+  
+    
+      
+        
+          |
+        
+        x
+        
+          |
+        
+      
+    
+    {\displaystyle |x|}
+   ≤ 
+  
+    
+      
+        1
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle 1/2}
+  ,
+
+  
+    
+      
+        
+          ∫
+          
+            
+              B
+              
+                1
+                
+                  /
+                
+                2
+              
+            
+          
+        
+        
+        
+        
+        
+          χ
+          
+            
+              B
+              
+                1
+              
+            
+          
+        
+        (
+        x
+        −
+        y
+        )
+        
+          φ
+          
+            1
+            
+              /
+            
+            2
+          
+        
+        (
+        y
+        )
+        
+          d
+        
+        y
+        =
+        
+          ∫
+          
+            
+              B
+              
+                1
+                
+                  /
+                
+                2
+              
+            
+          
+        
+        
+        
+        
+        
+          φ
+          
+            1
+            
+              /
+            
+            2
+          
+        
+        (
+        y
+        )
+        
+          d
+        
+        y
+        =
+        1
+      
+    
+    {\displaystyle \int _{B_{1/2}}\!\!\!\chi _{B_{1}}(x-y)\varphi _{1/2}(y)\mathrm {d} y=\int _{B_{1/2}}\!\!\!\varphi _{1/2}(y)\mathrm {d} y=1}
+  .It is easy to see how this construction can be generalized to obtain a smooth function identical to one on a neighbourhood of a given compact set, and equal to zero in every point whose distance from this set is greater than a given 
+  
+    
+      
+        ϵ
+      
+    
+    {\displaystyle \epsilon }
+  . Such a function is called a (smooth) cutoff function: those functions are used to eliminate singularities of a given (generalized) function by multiplication. They leave unchanged the value of the (generalized) function they multiply only on a given set, thus modifying its support: also cutoff functions are the basic parts of smooth partitions of unity.
+
+
+== See also ==
+Approximate identity
+Non-analytic smooth function
+Bump function
+Convolution
+Weierstrass transform
+Distribution (mathematics)
+Kurt Otto Friedrichs
+Generalized function
+Sergei Sobolev
+
+
+== Notes ==
+
+
+== References ==
+Friedrichs, Kurt Otto (January 1944), "The identity of weak and strong extensions of differential operators", Transactions of the American Mathematical Society, 55 (1): 132–151, doi:10.1090/S0002-9947-1944-0009701-0, JSTOR 1990143, MR 0009701, Zbl 0061.26201. The first paper where mollifiers were introduced.
+Friedrichs, Kurt Otto (1953), "On the differentiability of the solutions of linear elliptic differential equations", Communications on Pure and Applied Mathematics, VI (3): 299–326, doi:10.1002/cpa.3160060301, MR 0058828, Zbl 0051.32703, archived from the original on 2013-01-05. A paper where the differentiability of solutions of elliptic partial differential equations is investigated by using mollifiers.
+Friedrichs, Kurt Otto (1986),  Morawetz, Cathleen S. (ed.), Selecta, Contemporary Mathematicians, Boston-Basel-Stuttgart: Birkhäuser Verlag, pp. 427 (Vol. 1), pp. 608 (Vol. 2), ISBN 0-8176-3270-0, Zbl 0613.01020. A selection from Friedrichs' works with a biography and commentaries of David Isaacson, Fritz John, Tosio Kato, Peter Lax, Louis Nirenberg, Wolfgag Wasow, Harold Weitzner.
+Giusti, Enrico (1984), Minimal surfaces and functions of bounded variations, Monographs in Mathematics, 80, Basel-Boston-Stuttgart: Birkhäuser Verlag, pp. xii+240, ISBN 0-8176-3153-4, MR 0775682, Zbl 0545.49018, ISBN 3-7643-3153-4.
+Hörmander, Lars (1990), The analysis of linear partial differential operators I, Grundlehren der Mathematischen Wissenschaft, 256 (2nd ed.), Berlin-Heidelberg-New York: Springer-Verlag, ISBN 0-387-52343-X, MR 1065136, Zbl 0712.35001, ISBN 3-540-52343-X.
+Sobolev, Sergei L. (1938), "Sur un théorème d'analyse fonctionnelle", Recueil Mathématique (Matematicheskii Sbornik) (in Russian and French), 4(46) (3): 471–497, Zbl 0022.14803. The paper where Sergei Sobolev proved his embedding theorem, introducing and using integral operators very similar to mollifiers, without naming them.

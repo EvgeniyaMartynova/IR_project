@@ -1,0 +1,99 @@
+Carbon dioxide removal
+
+Carbon dioxide removal (CDR) refers to a group of technologies the objective of which is the large-scale removal of carbon dioxide from the atmosphere.  Among such technologies are bio-energy with carbon capture and storage, biochar, ocean fertilization, enhanced weathering, and direct air capture when combined with storage. CDR is a different approach from removing CO2 from the stack emissions of large fossil fuel point sources, such as power stations. The latter reduces emission to the atmosphere but cannot reduce the amount of carbon dioxide already in the atmosphere. As CDR removes carbon dioxide from the atmosphere, it 'creates' negative emissions that offset the emissions from small and dispersed point sources such as domestic heating systems, airplanes and vehicle exhausts.  It is regarded by some as a form of climate engineering, while other commentators describe it as a form of carbon capture and storage or extreme mitigation. Whether CDR would satisfy common definitions of "climate engineering" or "geoengineering" usually depends upon the scale at which it would be undertaken.
+The likely need for CDR has been publicly expressed by a range of individuals and organizations involved with climate change issues, including  IPCC chief Rajendra Pachauri, the UNFCCC executive secretary Christiana Figueres, and the World Watch Institute. Institutions with major programs focusing on CDR include the Lenfest Center for Sustainable Energy at the Earth Institute, Columbia University, and the Climate Decision Making Center, an international collaboration operated out of Carnegie-Mellon University's Department of Engineering and Public Policy.
+The mitigation effectiveness of air capture is limited by societal investment, land use, availability of geologic reservoirs, and leakage. The reservoirs are estimated to be sufficient for storing at least 545 gigatonnes of carbon (GtC). Storing 771 GtC would cause a 186 ppm atmospheric reduction. In order to return the atmospheric CO2 content to 350 ppm we would need atmospheric reductions of 50 ppm each year and also to reduce current emissions by the equivalent of 2 ppm per year.
+
+
+== General ==
+Carbon dioxide removal is different from reducing emissions, as the former produces an outlet of carbon dioxide from Earth's atmosphere, whereas the latter decreases the inlet of carbon dioxide to the atmosphere. Both have the same net effect, but for achieving carbon dioxide concentration levels below present levels,  carbon dioxide removal is critical. Also for meeting higher concentration levels, carbon dioxide removal is  increasingly considered to be crucial as it provides the only possibility to fill the gap between needed reductions to meet mitigation targets and global emission trends.
+In the OECD Environmental Outlook to 2050 released at the 2011 United Nations Climate Change Conference, the authors commented on the need for negative emissions, stating "Achieving lower concentration targets (450 ppm) depends significantly on the use of BECCS".
+A carbon dioxide sink such as a concentrated group of plants or any other primary producer that binds carbon dioxide into biomass, such as within forests and kelp beds, is not carbon negative, as sinks are not permanent. A carbon dioxide sink of this type moves carbon, in the form of carbon dioxide, from the atmosphere or hydrosphere to the biosphere. This process could be undone, for example by wildfires or logging.
+Carbon dioxide sinks that store carbon dioxide in the Earth's crust by injecting it into the subsurface, or in the form of insoluble carbonate salts (mineral sequestration), are considered carbon negative. This is because they are removing carbon from the atmosphere and sequestering it indefinitely and presumably for a considerable duration (thousands to millions of years). However, Carbon Capture technology remains, at best, theoretical and is yet to reach more than 33% efficiency. Furthermore, this process could be rapidly undone, for example by earthquakes or mining.
+
+
+== Methods ==
+
+
+=== Bio-energy with carbon capture & storage ===
+
+Bio-energy with carbon capture and storage, or BECCS, uses biomass to extract carbon dioxide from the atmosphere, and carbon capture and storage technologies to concentrate and permanently store it in deep geological formations.
+BECCS is currently (as of October 2012) the only CDR technology deployed at full industrial scale, with 550 000 tonnes CO2/year in total capacity operating, divided between three different facilities (as of January 2012).The Imperial College London, the UK Met Office Hadley Centre for Climate Prediction and Research, the Tyndall Centre for Climate Change Research, the Walker Institute for Climate System Research, and the Grantham Institute for Climate Change issued a joint report on carbon dioxide removal technologies as part of the AVOID: Avoiding dangerous climate change research program, stating that "Overall, of the technologies studied in this report, BECCS has the greatest maturity and there are no major practical barriers to its introduction into today’s energy system. The presence of a primary product will support early deployment."According to the OECD, "Achieving lower concentration targets (450 ppm) depends significantly on the use of BECCS".
+
+
+=== Biochar ===
+
+Biochar is created by the pyrolysis of biomass, and is under investigation as a method of carbon sequestration.
+Biochar is a charcoal that is used for agricultural purposes which also aids in carbon sequestration, the capture or hold of carbon.  It is created using a process called pyrolysis, which is basically the act of high temperature heating biomass in an environment with low oxygen levels.  What remains is a material known as char, similar to charcoal but is made through a sustainable process, thus the use of biomass.  Biomass is organic matter produced by living organisms or recently living organisms, most commonly plants or plant based material. The offset of  greenhouse gas (GHG) emission, if biochar were to be implemented, would be a maximum of 12%.  This equates to about 106 metric tons of CO2 equivalents.  On a medium conservative level, it would be 23% less than that, at  82 metric tons. A study done by the UK Biochar Research Center has stated that, on a conservative level, biochar can store 1 gigaton of carbon per year.  With greater effort in marketing and acceptance of biochar, the benefit could be the storage of 5–9 gigatons per year of carbon in biochar soils.
+
+
+=== Enhanced weathering ===
+
+Enhanced weathering is a chemical approach to remove carbon dioxide involving land- or ocean-based techniques. One example of a land-based enhanced weathering technique is in-situ carbonation of silicates. Ultramafic rock, for example, has the potential to store from hundreds to thousands of years' worth of CO2 emissions, according to estimates. Ocean-based techniques involve alkalinity enhancement, such as grinding, dispersing, and dissolving olivine, limestone, silicates, or calcium hydroxide to address ocean acidification and CO2 sequestration. Enhanced weathering is considered one of the least expensive geoengineering options. One example of a research project on the feasibility of enhanced weathering is the CarbFix project in Iceland.
+
+
+=== Direct air capture (DAC) ===
+
+Carbon dioxide can be removed from ambient air through chemical processes, sequestered, and stored. Traditional modes of carbon capture such as precombustion and postcombustion CO2 capture from large point sources can help slow the rate of increase of the atmospheric CO2 concentration, but only the direct removal of CO2 from the air, or direct air capture (DAC), can actually reduce the global atmospheric CO2 concentration if combined with long-term storage of CO2.
+DAC relying on amine-based absorption demands significant water input. It was estimated, that to capture 3.3 Gigatonnes of CO2 a year would require 300 km3 of water, or 4% of the water used for irrigation. On the other hand, using sodium hydroxide needs far less water, but the substance itself is highly caustic and dangerous.DAC also requires much greater energy input in comparison to traditional capture from point sources, like flue gas, due to the low concentration of CO2. The theoretical minimum energy required to extract CO2 from ambient air is about 250 kWh per tonne of CO2, while capture from natural gas and coal power plants requires respectively about 100 and 65 kWh per tonne of CO2.
+
+
+=== Ocean fertilization ===
+
+Ocean fertilization or ocean nourishment is a type of climate engineering based on the purposeful introduction of nutrients to the upper ocean to increase marine food production and to remove carbon dioxide from the atmosphere. A number of techniques, including fertilization by iron, urea and phosphorus have been proposed.
+
+
+== Example CO2 scrubbing chemistry ==
+
+
+=== Calcium oxide ===
+Calcium oxide (quicklime) will absorb CO2 from atmospheric air mixed with steam at 400 °C (forming calcium carbonate) and release it at 1,000 °C. This process, proposed by A. Steinfeld, can be performed using renewable energy from thermal concentrated solar power.
+Quicklime is made by heating limestone to release the CO2 within it.
+Quicklime is mixed with sand for brick building as mortar, where it hardens by  absorption of CO2.
+
+
+=== Sodium hydroxide ===
+
+Zeman and Lackner outlined a specific method of air capture using sodium hydroxide. Carbon Engineering, a Calgary, Alberta firm founded in 2009 and partially funded by Bill Gates, is developing a process to capture carbon dioxide using a solution of potassium hydroxide mixed with some water at their pilot plant. They hope to create and sell synthetic fuels at a cost of $100 a ton. They have partnered with Greyrock.
+
+
+== Direct air capture (DAC) process example using NaOH ==
+
+Among the technologies studied for direct air capture (DAC), the use of aqueous hydroxide sorbents is one of the most promising approaches.
+In this process, CO2 from the air is chemically dissolved into NaOH(aq) solution as Na2CO3; the Na2CO3 is then reacted with solid Ca(OH)2, which regenerates the solvent and produces CaCO3 crystals; lastly, heat is applied to the CaCO3 crystals to produce pure CO2 gas.Air is pumped through the CO2 absorber as the first step of this process.  CO2 absorber for DAC are designed either as a counter-current spray tower or as a counter-current thin-falling-film contractor to maximize the contact area between the air and the solvent and thus maximize the absorption driving force.  The solvent is regenerated in the causticization unit by reacting the Na2CO3 with Ca(OH)2, which also transfers the captured CO2 to the form of CaCO3 solid crystals.  A mechanical filter is then used to separate the CaCO3 crystals from the water.  Since the crystals come out wet from the filter, they are dried in a steam dryer.  Then the dry crystals are heated in a furnace to produce CaO and pure CO2 gas.  The CaO is then hydrated to regenerate the Ca(OH)2 used for the causticization reaction.  The pure CO2 stream is then compressed and ready to be transported for geologic sequestration, EOR, or other commercial applications.
+1 M NaOH (aq) is a typical solvent concentration because this concentration is limited by the causticization reaction that regenerates the solvent and it is not too far from the practical maximum of 2 M NaOH.  The furnace/kiln can be powered renewably or by burning fuel on-site with pure oxygen produces in an on-site air separation unit.
+NaOH is economically competitive with other absorbents--e.g., amines--used for DAC processes.
+DAC processes are energy intensive.
+Calcination (at the furnace) is the most energy intensive step of this process.
+
+
+== Economic issues ==
+
+A crucial issue for CDR methods is their cost, which differs substantially among the different technologies: some of these are not sufficiently developed to perform cost assessments. In 2011 the American Physical Society estimated the costs for direct air capture to be $600/tonne with optimistic assumptions. A 2018 study found this estimate lowered to between $94 and $232 per tonne. The IEA Greenhouse Gas R&D Programme and Ecofys provides an estimate that 3.5 billion tonnes could be removed annually from the atmosphere with BECCS (Bio-Energy with Carbon Capture and Storage) at carbon prices as low as €50 per tonne, while a report from Biorecro and the Global Carbon Capture and Storage Institute estimates costs "below €100" per tonne for large scale BECCS deployment.
+
+
+== Risks, problems and criticisms ==
+CDR is slow to act, and requires a long-term political and engineering program to effect. CDR is even slower to take effect on acidified oceans. In a Business as usual concentration pathway, the deep ocean will remain acidified for centuries, and as a consequence many marine species are in danger of extinction.The Special 1.5°C IPCC report was very clear about CDR: "CDR deployed at scale is unproven and reliance on such technology is a major risk in the ability to limit warming to 1.5°C."These objections are at least partly based on a straw man, as CDR has never been proposed as a sole solution, claiming to solve the climate crisis by itself. The Environmental Defense Fund (EDF) now favors its use in conjunction with renewable electricity, electric vehicles, and other strategies to reduce emissions.
+
+
+== See also ==
+Bio-energy with carbon capture and storage (BECCS)
+Biochar
+Carbon capture and storage
+Carbon dioxide scrubber
+Carbon-neutral fuel
+Climate change mitigation
+Climate change mitigation scenarios
+Climate engineering
+Greenhouse gas removal
+List of emerging technologies
+Lithium peroxide
+Low-carbon economy
+Virgin Earth Challenge
+
+
+== References ==
+
+
+== External links ==
+Krupp, Fred; Keohane, Nathaniel; Pooley, Eric. "Less Than Zero; Can Carbon-Removal Technologies Curb Climate Change?". Foreign Affairs (March/April 2019): 142–152. Retrieved April 9, 2019.

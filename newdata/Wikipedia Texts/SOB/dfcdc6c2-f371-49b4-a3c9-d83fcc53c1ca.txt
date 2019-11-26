@@ -1,0 +1,38 @@
+Seventeen or Bust
+
+Seventeen or Bust was a distributed computing project started in March 2002 to solve the last seventeen cases in the Sierpinski problem.  The project solved eleven cases before a server loss in April 2016 forced it to cease operations.  Work on the Sierpinski problem moved to PrimeGrid, which solved a twelfth case in October 2016. Five cases remain unsolved as of September 2018.
+
+
+== Goals ==
+
+The goal of the project was to prove that 78557 is the smallest Sierpinski number, that is, the least odd k such that k·2n+1 is composite (i.e. not prime) for all n > 0.
+When the project began, there were only seventeen values of k < 78557 for which the corresponding sequence was not known to contain a prime.
+For each of those seventeen values of k, the project searched for a prime number in the sequence
+
+k·21+1, k·22+1, …, k·2n+1, …testing candidate values n using Proth's theorem.  If one was found, it proved that k was not a Sierpinski number.  If the goal had been reached, the conjectured answer 78557 to the Sierpinski problem would be proven true.
+There is also the possibility that some of the sequences contain no prime numbers. In that case, the search would continue forever, searching for prime numbers where none can be found.  However, there is some empirical evidence suggesting the conjecture is true.Every known Sierpinski number k has a small covering set, a finite set of primes with at least one dividing k·2n+1 for each n>0 (or else k has algebraic factorizations for some n values and a finite prime set that works only for the remaining n).  For example, for the smallest known Sierpinski number, 78557, the covering set is {3,5,7,13,19,37,73}. For another known Sierpinski number, 271129, the covering set is {3,5,7,13,17,241}.  Each of the remaining sequences has been tested and none has a small covering set, so it is suspected that each of them contains primes.
+The second generation of the client was based on Prime95, which is used in the Great Internet Mersenne Prime Search.
+The Seventeen or Bust server went down during April 2016, when the server and backups were lost for reasons that were not revealed to the public. The project is no longer active. Work on the Sierpinski problem continues at PrimeGrid.
+
+
+== Progress of the search ==
+Twelve prime numbers have been found to date, eleven by the original Seventeen or Bust, and a twelfth by PrimeGrid's SoB project:
+As of January 2019 the largest of these primes, 10223·231172165+1, is the largest known prime number that is not a Mersenne prime.  The primes on this list over one million digits in length are the six known "Colbert numbers" whimsically named after Stephen Colbert. These are defined as primes which eliminate a remaining Sierpinski number candidate.Each of these numbers has enough digits to fill up a medium-sized novel, at least. The project was dividing numbers among its active users, in hope of finding a prime number in each of the five remaining sequences:
+
+k·2n+1, for k = 21181, 22699, 24737, 55459, 67607.In March 2017, n had exceeded 31,000,000 for the last five k values. At that time, PrimeGrid decided to suspend testing to do a double check of all those smaller n values for which the Proth test residue had been lost, or for which the result had not been successfully verified by two independent computations on different computers. The double check was completed on October 10, 2019, taking about two and a half years.
+
+
+== See also ==
+
+Riesel Sieve, a related distributed computing project for numbers of the form k·2n−1
+List of distributed computing projects
+PrimeGrid, biggest search for primes.
+Computer-assisted proof
+
+
+== References ==
+
+
+== External links ==
+Seventeen or Bust homepage (historical) from Internet Archive
+PrimeGrid

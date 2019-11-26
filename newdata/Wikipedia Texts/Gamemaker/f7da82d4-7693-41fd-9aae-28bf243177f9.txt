@@ -1,0 +1,35 @@
+The 3D Gamemaker
+
+The Game Creators Ltd (TGC; formerly Dark Basic Software Limited) is a British software house based in Macclesfield, Cheshire, England, which specialises in software for video game development, originally for the Microsoft Windows platform. The company was established in March 1999 through a partnership between programmers Lee Bamber and Richard Vanner.
+
+
+== Products ==
+
+
+=== DarkBASIC ===
+DarkBASIC was released in the year 2000 as a game creation programming language with accompanying IDE and development tools. The language is a structured form of BASIC, similar to AMOS on the Amiga. The purpose of the language is video game creation using Microsoft's DirectX from a BASIC programming language. It is marketed for its ability to allow a novice game developer to make playable games after following its tutorials. It can create both 2D and 3D games by providing function libraries that enable a game to be programmed with considerably less code than with a language such as C++, especially without such dedicated libraries. The software consists of an IDE, debugger and interpreter, and an engine built on DirectX 7. The compiler emits Bytecode that is appended to an interpreter to create a stand-alone executable. Star Wraith is an example game made with DarkBASIC.
+In 2002, an updated version called DarkBASIC Professional was released that was able to use newer versions of DirectX. The earlier version of the software is now informally referred to as DarkBASIC Classic to distinguish the two products.
+On 14 August 2008, the last DarkBASIC version (1.21) was released. Since the introduction of DarkBASIC Professional, The Game Creators have stated that there will be no further updates to the language, although it will still be sold.
+In 2015, TGC lead developer Lee Bamber decided to open source DarkBASIC Professional for the community, to prevent it from becoming unsupported abandonware. The project and its source code are hosted (since start of 2016) under the MIT license on Github. The latest released freeware binary program was Dark Basic Pro Binary 120216 (December 2, 2016), which included the activation of many previously commercial modules.
+
+
+=== GameGuru ===
+In 2013 TheGameCreators launched GameGuru, an easy to use game development tool (based on their previous products FPS Creator and FPS Creator Reloaded) available via Steam and direct from TheGameCreators. Funded by the company, their gaming community and some private investment, GameGuru continues to be refined although its progress has slowed considerably as TheGameCreators concentrate their efforts on their other products AppGameKit and EduGuru.
+
+
+=== The 3D Gamemaker ===
+The 3D Gamemaker is a computer application developed by The Game Creators, that allows users to make various genres of 3D games for Microsoft Windows. The tool is marketed as allowing users to create 3D games without programming and art skills. Games developed with 3D Gamemaker require at least 400 MHz Pentium processor, 64 MB of RAM and DirectX 7.0b to run. Alongside the full boxed release, The 3D Gamemaker was also released in a Lite edition, with less categories of assets available and a reduced feature set.
+The software has a simple point-and-click interface which guides the user through the process of creating the game. The user chooses a scene from one of several different genres ("shooter", "horror", "war", "space", "driving", "jungle", "cartoon", or "silly"), and then chooses different characters, weapons, items, enemies and so on. The software includes hundreds of pre-made scenes and 3D objects. The software can also automatically generate a game by choosing random elements. The resulting game can be exported as a standalone Windows executable. The 3D Gamemaker has a built in placement editor that allows the user to indicate where enemies, items, and obstacles go. This is not available in beginner mode or the lite edition. There is also, amongst other things, a simple level creator. It also includes the ability to import your own media.Reviewing The 3D Gamemaker for GameSpy, Tricia Harris praised the software's ease-of-use, but criticised the animation and "placement editor" systems.
+
+
+=== FPS Creator Classic ===
+In February 2016 The Game Creators decided to release "FPS Creator" as "FPS Creator Classic" source available (no defined license) with many model packs on github.com.
+
+
+=== AppGameKit ===
+AppGameKit offers a high level coding and programming tool which aims to be easy for beginners to learn. 
+In July 2016, AppGameKit Education Pack was released. AppGameKit was featured in Develop-Online's top 16 game engines of 2014.
+In December 2018 the app Driving Theory Test Kit 4in1 (built in AppGameKit by TheGameCreators) was cited by Apple as their top paid-for app in 2018.
+
+
+== References ==

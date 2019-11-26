@@ -1,0 +1,89 @@
+Free Internet Chess Server
+
+The Free Internet Chess Server (FICS) is a volunteer-run Internet chess server. It was organised as a free alternative to the Internet Chess Club (ICC), after that site began charging for membership.
+
+
+== History ==
+
+The first Internet chess server, named the Internet Chess Server (ICS), started in January 1992. The software was coded, supported, and operated by volunteers until 1995, when administrators began charging players for membership and changed the name to ICC.Several former ICS programmers saw the commercialisation of ICS as an exploitation of their work. This group, led by Chris Petroff and Henrik Gram, developed FICS as an alternative to the paid model, giving users free, unrestricted access. The server debuted on 3 March 1995 (1995-03-03).In 1998, the Free Internet Chess Organization (FICS) was organized as a nonprofit organization.In 2007, the legal entity was involuntarily dissolved. The server is still maintained and administered by volunteers. In 2016, 50,000 active players played a total of 23 million games.As of August 2014, FICS had over 650,000 registered accounts.
+
+
+== Usage ==
+
+
+=== Connecting ===
+
+Playing chess on FICS requires connecting to the server either through a web-based applet on the FICS website or else by using a client program, which could be as simple as a telnet client, but is usually an interface designed specifically for playing Internet chess. Users can log in either as an anonymous guest or else by registering for a free account. Each user is permitted only one account. The server maintains rating and game statistics for registered users. FICS uses the Glicko rating system.
+
+
+=== Gameplay ===
+Players can watch for game requests by other users broadcast or create their own seeks and wait for someone to respond. Seeks include time controls and frequently an optional ratings limit. Seeks can be programmed to be require manual acceptance by the user, or they can automatically be accepted by the player. Users can challenge specific players to a game by using the match command. Moves are made with a mouse on an image of a chess board or users can type in moves in algebraic chess notation. All games played by registered users are recorded by a computer and made publicly available.
+
+
+=== Time controls ===
+Since the mechanics of play are simplified, chess games played online tend to use faster time controls than in over-the-board (OTB) play. Longer games (i.e., usually 15 or more minutes per player) are called standard and are also common on the server. Separate ratings are maintained for lightning (under 3 minutes), blitz (usually 5 or 10 minutes), and standard (over 15 minutes). Irregular variants, such as Fischer Random, are grouped together into a handful of formats like Wild, and these are not further classified by time controls.Fischer delay is popular: the time control is specified by two numbers, the minutes each player is allotted at the start of the game, and the seconds added to a player's clock after making a move (the increment). For example, in the popular 2–12 time controls, each player receives 2 minutes at the beginning of the game, and 12 seconds are added to a player's clock after they make a move. Since all games are assumed to last 40 moves for format classification purposes, 2–12 is grouped with 10-minutes-per-player (10=2+12*40/60).The timeseal is a utility which allows the server to adjust for the effects of internet lag. Each move is time-stamped locally and the time is takes for each command to travel to the server is not deducted from the player's clock. This method of time stamping each move is helpful for players with slow internet connections. FICS does not track lag centrally and does not permit users to exclude persistent laggers.
+
+
+=== Interfaces ===
+
+FICS is designed to be accessed by a chess interface designed to connect to Internet chess servers. Interfaces are created independently. FICS does not have an official interface and does not endorse any interface. The most popular interfaces for Windows are BabasChess, Jin, XBoard, Thief, and Raptor. Mobialia Chess is the most common platform for mobile operating systems Android and IOS.
+On other operating systems (mainly Unix-type boxes based on Linux or macOS), eboard, XBoard, PyChess, Jin, JavaBoard, and Raptor are popular choices. JavaBoard, JinApplet, and QXBoard are web interfaces that run in a web browser and have fewer features than other clients.In 2017, the Free Chess Club open-source project released a web-based client targeted towards modern web browsers using JavaScript, HTML5 and WebSockets. In addition to a web interface, Free Chess Club provides a cross-platform desktop application that runs on Linux, macOS and Windows.
+
+
+=== Channels ===
+FICS has a number of very conservatively censored chat channels numbered 0 through 255. Many of the channels are reserved for administrators and bots.Some of the more popular channels include:
+
+channel 1 - general help; questions asked in channel 1 are usually answered by FICS admins or Service Representatives (SRs)
+channel 4 - helping guests
+channel 50 - general chat
+channel 53 - guest chatRegistration is required for all channels except channels 1,4 and 53.
+Some channels are used for FICS staff and cannot be seen by regular users:
+
+channel 0 - the admin channel
+channel 5 - the service representatives channel
+channel 48 - the mamer manager channel
+channel 63 - the chess advisor channelA user can listen and send tells to up to thirty channels simultaneously. Another form of mass communication available to registered users is "shouts" which can be seen by all connected users connected who haven't turned shouts off.
+
+
+=== Variants ===
+Currently, the following chess variants are available on FICS, besides regular chess:
+
+Suicide – capturing is compulsory, a player wins by losing all his pieces; the king has no special significance
+Loser's chess – like suicide, but with additional rules pertaining to the king and check
+Atomic – pieces "explode" when captured, removing all adjacent pieces except pawns
+Wild – Nine different variants similar to regular chess but with different types of starting positions, including Chess960
+Bughouse – fast-paced, four player game, in which two teams of two players face each other on two boards
+Crazyhouse – two player version (like in regular chess) of bughouse, where captured pieces reenter the game
+
+
+=== Tournaments on FICS ===
+Tournaments are regularly organised or relayed on FICS.
+
+
+==== Mamer tournaments ====
+Most tournaments are organised by "Mamer," an automated tournament director. Mamer is run by tourney managers who organize and supervise tournaments. Mamer announces tournaments through channel 49 and through tells and "tshouts." Tournaments organised by Mamer range in time controls and include variants.
+
+
+==== Other tournaments ====
+Other regular conducted tournaments on FICS include tournaments featuring slow time controls (STC) of typically more than 45 minutes. Two of the most popular of these are FICS Teamleague, which uses 45 45 controls, and the Online Chess League (OCL), which uses 60 15 time controls. Both are team events with teams of 4 competing against each other, and each player typically plays one game per week. In addition, the STC Bunch, or the Slow Time Control Bunch, organised several tournaments with slow time controls.
+
+
+=== Relay ===
+FICS relays major chess events. A bot takes the moves in ongoing games and relays them to special demo accounts on FICS. These demo accounts bear the names of the grandmasters playing in the event. Users and guests on FICS can watch the games in progress and chat about the games with each other. The relay has covered every single World Chess Championship since its inception. Other major relays include the yearly relay of Wijk aan Zee, Morelia-Linares and Amber Melody.
+
+
+== See also ==
+List of Internet chess servers
+
+
+== References ==
+
+
+== External links ==
+Official website
+Scheduled tournaments
+FICS Game Database - database of all games played
+FICS Mac OS app
+FICS Bughouse Database
+FICS interface comparison
+FICS TeamLeague

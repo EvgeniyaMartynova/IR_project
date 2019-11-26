@@ -1,0 +1,60 @@
+Pure function
+
+In computer programming, a pure function is a function that has the following properties:
+Its return value is the same for the same arguments (no variation with local static variables, non-local variables, mutable reference arguments or input streams from I/O devices).
+Its evaluation has no side effects (no mutation of local static variables, non-local variables, mutable reference arguments or I/O streams).Thus a pure function is a computational analogue of a mathematical function. Some authors, particularly from the imperative language community, use the term "pure" for all functions that just have the above property 2 (discussed below).
+
+
+== Examples ==
+
+
+=== Pure functions ===
+The following examples of C++ functions are pure:
+
+floor, returning the floor of a number;
+max, returning the maximum of two values.
+
+
+=== Impure functions ===
+The following C++ functions are impure as they lack the above property 1:
+
+because of return value variation with a non-local variable
+For the same reason, e.g. the C++ library function sin() is not pure, since its result depends on the IEEE rounding mode which can be changed at runtime.because of return value variation with a mutable reference argumentThe following C++ functions are impure as they lack the above property 2:
+
+because of mutation of a local static variablebecause of mutation of a non-local variablebecause of mutation of a mutable reference argumentbecause of mutation of an output streamThe following C++ functions are impure as they lack both the above properties 1 and 2:
+
+because of return value variation with a local static variable and mutation of a local static variablebecause of return value variation with an input stream and mutation of an input stream
+
+
+== I/O in pure functions ==
+I/O is inherently impure: input operations undermine referential transparency, and output operations create side effects.
+Nevertheless, there is a sense in which function can perform input or output and still be pure, if the sequence of operations on the relevant I/O devices is modeled explicitly as both an argument and a result, and I/O operations are taken to fail when the input sequence does not describe the operations actually taken since the program began execution.
+The second point ensures that the only sequence usable as an argument must change with each I/O action; the first allows different calls to an I/O-performing function to return different results on account of the sequence arguments having changed.The I/O monad is a programming idiom typically used to perform I/O in pure functional languages.
+
+
+== Compiler optimizations ==
+Functions that have just the above property 2 allow for compiler optimization techniques such as common subexpression elimination and loop optimization similar to arithmetic operators. A C++ example is the length method, returning the size of a string, which depends on the memory contents where the string points to, therefore lacking the above property 1. Nevertheless, in a single-threaded environment, the following C++ code
+
+can be optimized such that the value of s.length() is computed only once, before the loop.
+In Fortran, the pure keyword can be used to declare a function to be just side-effect free (i.e. have just the above property 2).
+
+
+== See also ==
+Compile time function execution: the evaluation of pure functions at compile time
+Purely functional data structure
+Referential transparency (computer science)
+Lambda calculus
+Side effect (computer science)
+Pure procedure
+Idempotence
+pure keyword in Fortran annotating pure functions
+constexpr keyword in C++ annotating pure functions usable at compile-time
+
+
+== References ==
+
+
+== External links ==
+Pure attribute in Fortran
+constexpr attribute in C++
+Pure attribute in D language

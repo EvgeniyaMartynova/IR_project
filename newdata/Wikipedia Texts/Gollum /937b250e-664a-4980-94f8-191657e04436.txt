@@ -1,0 +1,18 @@
+Gollum Wiki
+
+Gollum is a wiki using git as the back end storage mechanism, and written mostly in Ruby. It is the wiki system used by the GitHub web hosting system.
+
+
+== Formats supported ==
+Gollum wikis are simply Git repositories that adhere to a specific format. Gollum pages may be written in a variety of formats including Markdown, AsciiDoc, ReStructuredText, Creole and MediaWiki markup.
+
+
+== Editing ==
+Editing the pages can be done via the provided web interface, via its API or with a text editor directly in the git repository.
+
+
+== References ==
+
+
+== External links ==
+Git repository

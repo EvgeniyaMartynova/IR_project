@@ -1,0 +1,245 @@
+Carathéodory's criterion
+
+Carathéodory's criterion is a result in measure theory that was formulated by Greek mathematician Constantin Carathéodory. Its statement is as follows: Let 
+  
+    
+      
+        
+          λ
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle \lambda ^{*}}
+   denote the Lebesgue outer measure on 
+  
+    
+      
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{n}}
+  , and let 
+  
+    
+      
+        E
+        ⊆
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle E\subseteq \mathbb {R} ^{n}}
+  .  Then 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+   is Lebesgue measurable if and only if 
+  
+    
+      
+        
+          λ
+          
+            ∗
+          
+        
+        (
+        A
+        )
+        =
+        
+          λ
+          
+            ∗
+          
+        
+        (
+        A
+        ∩
+        E
+        )
+        +
+        
+          λ
+          
+            ∗
+          
+        
+        (
+        A
+        ∩
+        
+          E
+          
+            
+              c
+            
+          
+        
+        )
+      
+    
+    {\displaystyle \lambda ^{*}(A)=\lambda ^{*}(A\cap E)+\lambda ^{*}(A\cap E^{\mathrm {c} })}
+   for every 
+  
+    
+      
+        A
+        ⊆
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle A\subseteq \mathbb {R} ^{n}}
+  .
+Notice that 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+   is not required to be a measurable set.  
+The Carathéodory criterion is of considerable importance because, in contrast to Lebesgue's original formulation of measurability, which relies on certain topological properties of 
+  
+    
+      
+        
+          R
+        
+      
+    
+    {\displaystyle \mathbb {R} }
+  ,  this criterion readily generalizes to a characterization of measurability in abstract spaces.  Indeed, in the generalization to abstract measures, this theorem is sometimes extended to a definition of measurability.  Thus, we have the following definition:  Let 
+  
+    
+      
+        
+          μ
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle \mu ^{*}}
+   be an outer measure on a set 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  .  Then 
+  
+    
+      
+        E
+        ⊂
+        X
+      
+    
+    {\displaystyle E\subset X}
+   is called 
+  
+    
+      
+        
+          μ
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle \mu ^{*}}
+  –measurable if for every 
+  
+    
+      
+        A
+        ⊂
+        X
+      
+    
+    {\displaystyle A\subset X}
+  , the equality 
+  
+    
+      
+        
+          μ
+          
+            ∗
+          
+        
+        (
+        A
+        )
+        =
+        
+          μ
+          
+            ∗
+          
+        
+        (
+        A
+        ∩
+        E
+        )
+        +
+        
+          μ
+          
+            ∗
+          
+        
+        (
+        A
+        ∩
+        
+          E
+          
+            
+              c
+            
+          
+        
+        )
+      
+    
+    {\displaystyle \mu ^{*}(A)=\mu ^{*}(A\cap E)+\mu ^{*}(A\cap E^{\mathrm {c} })}
+   holds.
+
+
+== See also ==
+Carathéodory's theorem (disambiguation)

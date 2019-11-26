@@ -1,0 +1,95 @@
+Unified English Braille Code
+
+Unified English Braille Code (UEBC, formerly UBC, now usually simply UEB) is an English language Braille code standard, developed to permit representing the wide variety of literary and technical material in use in the English-speaking world today, in uniform fashion.
+
+
+== Background on why the new encoding standard was developed ==
+Standard 6-dot braille only provides 63 distinct characters (not including the space character), and thus, over the years a number of distinct rule-sets have been developed to represent literary text, mathematics, scientific material, computer software, the @ symbol used in email addresses, and other varieties of written material.  Different countries also used differing encodings at various times:  during the 1800s American Braille competed with English Braille, in the War of the Dots.  As a result of the expanding need to represent technical symbolism, and divergence during the past 100 years across countries, braille users who desired to read or write a large range of material have needed to learn different sets of rules, depending on what kind of material they were reading at a given time.  Rules for a particular type of material were often not compatible from one system to the next (the rule-sets for literary/mathematical/computerized encoding-areas were sometimes conflicting—and of course differing approaches to encoding mathematics were not compatible with each other), so the reader would need to be notified as the text in a book moved from computer braille code for programming to Nemeth Code for mathematics to standard literary braille.  Moreover, the braille rule-set used for math and computer science topics, and even to an extent braille for literary purposes, differed among various English-speaking countries.
+
+
+== Overview of the goals of UEB ==
+Unified English Braille is intended to develop one set of rules, the same everywhere in the world, which could be applied across various types of English-language material.  The notable exception to this unification is Music Braille, which UEB specifically does not encompass, because it is already well-standardized internationally.  Unified English Braille is designed to be readily understood by people familiar with the literary braille (used in standard prose writing), while also including support for specialized math and science symbols, computer-related symbols (the @ sign as well as more specialised programming-language syntax), foreign alphabets, and visual effects (bullets, bold type, accent marks, and so on).
+According to the original 1991 specification for UEB, the goals were:
+
+1.  simplify and unify the system of braille used for encoding English, reducing community-fragmentation
+2.  reduce the overall number of official coding systems, which currently include:
+a.  literary code (since 1933, English Braille Grade 2 has been the main component)
+i.  BANA flavor used in North America, et cetera
+ii. BAUK flavor used in United Kingdom, etc.
+b.  Textbook Formats and Techniques code
+c.  math-notation and science-notation codes
+i. Nemeth Code (since 1952, in North America and several other countries)
+ii.  modern variants of Taylor Code, a subset of literary code (since 18xx, standard elsewhere, alternative in North America)
+iii. Extended Nemeth Code With Chemistry Module
+iv.  Extended Nemeth Code With Ancient Numeration Module
+v. Mathematical Diagrams Module (not actually associated with any particular coding-system)
+d.  Computer Braille Code (since the 1980s, for special characters)
+i. the basic CBC
+ii.  CBC With Flowchart Module
+e.  Braille Music Code (since 1829, last upgraded/unified 1997, used for vocals and instrumentals—this one explicitly not to be unified nor eliminated)
+f.  [added later] IPA Braille code (used for phonetic transcriptions—this one did not yet exist in 1991)
+3.  if possible, unify the literary-code used across English-speaking countries
+4.  where it is not possible to reduce the number of coding systems, reduce conflicts
+a.  most especially, rule-conflicts (which make the codes incompatible at a "software" level—in human brains and computer algorithms)
+b.  symbol conflicts, for example, the characters "$", "%", "]", and "[" are all represented differently in the various code systems
+c.  sometimes the official coding-systems themselves are not explicitly in conflict, but ambiguity in their rules can lead to accidental conflicts
+5.  the overall goal of steps 1 to 4 above is to make acquisition of reading, writing, and teaching skill in the use of braille quicker, easier, and more efficient
+6.  this in turn will help reverse the trend of steadily eroding usage of Braille itself (which is being replaced by electronics and/or illiteracy)
+7.  besides those practical goals, it is also desired that braille—as a writing system—have the properties required for long-term success:
+a.  universal, with no special code-system for particular subject-matter, no special-purpose "modules", and no serious disagreements about how to encode English
+b.  coherent, with no internal conflicts, and thus no need for authoritative fiat to "resolve" such conflicts by picking winners and losers
+c.  ease of use, with dramatically less need for braille-coding-specific lessons, certifications, workshops, literature, etc.
+d.  uniform yet extensible, with symbol-assignment giving an unvarying identity-relationship, and new symbols possible without conflicts or overhauls
+8.  philosophically, an additional goal is to upgrade the braille system to be practical for employment in a workplace, not just for reading recreational and religious texts
+a.  computer-friendly (braille-production on modern keyboards and braille-consumption via computerized file formats—see also Braille e-book which did not really exist back in 1990)
+b.  tech-writing-friendly (straightforward handling of notations used in math/science/medical/programming/engineering/similar)
+c.  precise bidirectional representation (both #8a and #8b can be largely satisfied by a precision writing system…but the existing braille systems as of 1990 were not fully precise, replacing symbols with words, converting unit-systems, altering punctuation, and so on)
+9.  upgrades to existing braille-codes are required, and then these modified codes can be merged into a unified code (preferably singular plus the music-code)Some goals were specially and explicitly called out as key objectives, not all of which are mentioned above:
+
+objective#A = precise bidirectional representation of printed-text (see #8c)
+objective#B = maximizing the usefulness of braille's limited formatting mechanisms in systematic fashion (so that readers can quickly and easily locate the information they are seeking)
+objective#C = unifying the rule-systems and symbol-assignments for all subject-matters except musical notation, to eliminate 'unlearning' (#9 / #2 / #3)
+objective#D = context-independent encoding (symbols must be transcribable in straightforward fashion—without regard to their English meaning)
+objective#E = markup or mode-switching ability (to clearly distinguish between information from the printed version, versus transcriber commentary)
+objective#F = easy-to-memorize symbol-assignments (to make learning the coding system easier—and also facilitate reading of relatively rare symbols) (see #7c / #5 / #1)
+objective#G = extensible coding-system (with the possibility of introducing new symbols in a non-conflicting and systematic manner) (see #7d)
+objective#H = algorithmic representation and deterministic rule-set (texts are amenable to automatic computerized translation from braille to print—and vice versa) (see #8a)
+objective#I = backward compatibility with English Braille Grade 2 (someone reading regular words and sentences will hardly notice any modifications)
+objective#J = reverse the steadily declining trend of braille-usage (as a statistical percentage of the blind-community), as soon as possible (see #6)Goals that were specifically not part of the UEB upgrade process were the ability to handle languages outside the Roman alphabet (cf. the various national variants of ASCII in the ISO 8859 series versus the modern pan-universal Unicode standard, which governs how writing systems are encoded for computerized use).
+
+
+== History of specification and adoption of UEB ==
+Work on UEB formally began in 1991, and preliminary draft standard was published in March 1995 (as UBC), then upgraded several times thereafter. Unified English Braille (UEB) was originally known as Unified Braille Code (UBC), with the English-specific nature being implied, but later the word "English" was formally incorporated into its name—Unified English Braille Code (UEBC)—and still more recently it has come to be called Unified English Braille (UEB). On April 2, 2004, the International Council on English Braille (ICEB) gave the go-ahead for the unification of various English braille codes. This decision was reached following 13 years of analysis, research, and debate. ICEB said that Unified English Braille was sufficiently complete for recognition as an international standard for English braille, which the seven ICEB member-countries could consider for adoption as their national code. South Africa adopted the UEB almost immediately (in May 2004). During the following year, the standard was adopted by Nigeria (February 5, 2005), Australia (May 14, 2005), and New Zealand (November 2005). On April 24, 2010, the Canadian Braille Authority (CBA) voted to adopt UEB, making Canada the fifth nation to adopt UEB officially. On October 21, 2011, the UK Association for Accessible Formats voted to adopt UEB as the preferred code in the UK.  On November 2, 2012 the Braille Authority of North America (BANA) became the sixth of the seven member-countries of the ICEB to officially adopt the UEB.
+
+
+== Controversy over math-notation in UEB ==
+The major criticism against UEB is that it fails to handle mathematics or computer science as compactly as codes designed to be optimal for those disciplines.  Besides requiring more space to represent and more time to read and write, the verbosity of UEB can make learning mathematics more difficult.  Nemeth Braille, officially used in the United States since 1952, and as of 2002 the de facto standard for teaching and doing mathematics in braille in the US, was specifically invented to correct the cumbersomeness of doing mathematics in braille.  However, although the Nemeth encoding standard was officially adopted by the JUTC of the US and the UK in the 1950s, in practice only the USA switched their mathematical braille to the Nemeth system, whereas the UK continued to use the traditional Henry Martyn Taylor coding (not to be confused with Hudson Taylor who was involved with the use of Moon Type for the blind in China during the 1800s) for their braille mathematics.  Programmers in the United States who write their programming codefiles in braille—as opposed to in ASCII text with use of a screenreader for example—tend to use Nemeth-syntax numerals, whereas programmers in the UK use yet another system (not Taylor-numerals and not literary-numerals). The key difference of Nemeth Braille compared to Taylor (and UEB which uses an upgraded version of the Taylor encoding for math) is that Nemeth uses "down-shifted" numerals from the fifth decade of the Braille alphabet (overwriting various punctuation characters), whereas UEB/Taylor uses the traditional 1800s approach with "up-shifted" numerals from the first decade of the (English) Braille alphabet (overwriting the first ten letters, namely ABCDEFGHIJ).  Traditional 1800s Braille, and also UEB, require insertion of numeral-prefixes when speaking of numerals, which makes representing some mathematical equations 42% more verbose.  As an alternative to UEB, there were proposals in 2001 and 2009, and most recently these were the subject of various technical workshops during 2012. Although UEB adopts some features of Nemeth, the final version of UEB mandates up-shifted numerals, which are the heart of the controversy.  According to BANA, which adopted UEB in 2012, the official braille codes for the USA will be UEB and Nemeth Braille (as well as Music Braille for vocals and instrumentals plus IPA Braille for phonetic linguistics), despite the use of contradictory representation of numerals and arithmetical symbols in the UEB and Nemeth encodings.  Thus, although UEB has officially been adopted in most English-speaking ICEB member-countries, in the USA (and possibly the UK where UEB is only the "preferred" system) the new encoding is not to be the sole encoding.
+Another proposed braille-notation for encoding math is GS8/GS6, which was specifically invented in the early 1990s as an attempt to get rid of the "up-shifted" numerals used in UEB—see Gardner–Salinas Braille.  GS6 implements "extra-dot" numerals from the fourth decade of the English Braille alphabet (overwriting various two-letter ligatures).  GS8 expands the braille-cell from 2×3 dots to 2×4 dots, quadrupling the available codepoints from the traditional 64 up to 256, but in GS8 the numerals are still represented in the same way as in GS6 (albeit with a couple unused dot-positions at the bottom).Attempts to give the numerals their own distinct position in Braille are not new: the original 1829 specification by Louis Braille gave the numerals their own distinct symbols, with the modern digraph-based literary-braille approach mentioned as an optional fallback.  However, after trying the system out in the classroom, the dashes used in the numerals—as well as several other rows of special characters—were found to be too difficult to distinguish from dot-pairs, and thus the typical digraph-based numerals became the official standard in 1837.
+
+
+== Implementation of UEB in English-speaking countries ==
+As of 2013, with the majority of English-speaking ICEB member-countries having officially adopted UEB, there remain barriers to implementation and deployment.  Besides ICEB member-nations, there are also many other countries with blind citizens that teach and use English: India, Hong Kong/China, Pakistan, the Philippines, and so on.  Many of these countries use non-UEB math notation, for English-speaking countries specifically, versions of the Nemeth Code were widespread by 1990 (in the United States, Western Samoa, Canada including Quebec, New Zealand, Israel, Greece, India, Pakistan, Sri Lanka, Thailand, Malaysia, Indonesia, Cambodia, Vietnam, and Lebanon) in contrast to the similar-to-UEB-but-not-identical Taylor notation in 1990 (used by the UK, Ireland, Australia, Nigeria, Hong Kong, Jordan, Kenya, Sierra Leone, Singapore, and Zimbabwe).  Some countries in the Middle East used Nemeth and Taylor math-notations as of 1990, i.e. Iran and Saudi Arabia.  As of 2013, it is unclear whether the English-using blind populations of various ICEB and non-ICEB nations will move to adopt the UEB, and if so, at what rate. Beyond official adoption rates in schools and by individuals, there are other difficulties.  The vast majority of existing Braille materials, both printed and electronic, are in non-UEB encodings.  Furthermore, other technologies that compete with braille are now ever-more-widely affordable (screen readers for electronic-text-to-speech, plus physical-pages-to-electronic-text software combined with high-resolution digital cameras and high-speed document scanners, and the increasing ubiquity of tablets/smartphones/PDAs/PCs). The percentage of blind children who are literate in braille is already declining—and even those who know some system tend not to know UEB, since that system is still very new. Still, as of 2012 many of the original goals for UEB have already been fully or partially accomplished:
+
+A unified literary code across most English-speaking countries (see separate section of this article on the adoption of UEB)
+Number of coding-subsystems reduced from five major and one minor (banaLiterary/baukLiteraryAndTaylor/textbook/nemeth/cbc + music/etc.) down to two major and two minor (uebLiterary/nemeth using formal codeswitching + music/ipa), plus the generality of the basic uebLiterary was increased to fully cover parentheses, math-symbols, emails, and websites.
+Reasonable level of backward compatibility with the American style of English Braille (more time is required before the exact level of transitional pain can be pinpointed, but studies in Australia and the UK indicate that braille users in the United States will also likely cope quite easily)
+Making braille more computer-friendly, especially in terms of translation and backtranslation of the encoding system
+Fully extensible encoding system, where new symbols can be added without causing conflicts or requiring coding-overhauls Not all the symbol-duplications were eliminated (there are still at least two representations of the $ symbol for instance). Since there are still two major coding-systems for math-notation and other technical or scientific writing (Nemeth as an option in the United States versus the Taylor-style math-notation recently added to uebLiterary that will likely be used in other countries), some rule conflicts remain, and braille users will be required to "unlearn" certain rules when switching. In the long run, whether these accomplishments will translate into broader goals, of reducing community fragmentation among English-speaking braille users, boosting the acquisition speed of reading/writing/teaching skill in the use of braille, and thereby preserving braille's status as a useful writing-system for the blind, as of 2013 remains to be seen.
+
+
+== See also ==
+American Braille
+Gardner Salinas braille
+Nemeth Braille
+
+
+== References ==
+
+
+== External links ==
+The Rules of Unified English Braille (2013)
+Comments on Mathematical Aspects of the UEBC by Dr. Abraham Nemeth, inventor of the Nemeth Braille Code
+International Council on English Braille (ICEB)
+National Braille Press has a free booklet about the UEBC (in braille or electronic braille only)
+Some Thoughts on the UEBC
+History of standardization of braille-encodings, 1860 through 1950

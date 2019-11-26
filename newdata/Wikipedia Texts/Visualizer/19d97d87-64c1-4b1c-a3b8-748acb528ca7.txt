@@ -1,0 +1,79 @@
+Music visualization
+
+Music visualization or music visualisation, a feature found in electronic music visualizers and media player software, generates animated imagery based on a piece of music.  The imagery is usually generated and rendered in real time and in a way synchronized with the music as it is played.
+Visualization techniques range from simple ones (e.g., a simulation of an oscilloscope display) to elaborate ones, which often include a number of composited effects.  The changes in the music's loudness and frequency spectrum are among the properties used as input to the visualization.
+Effective music visualization aims to attain a high degree of visual correlation between a musical track's spectral characteristics such as frequency and amplitude and the objects or components of the visual image being rendered and displayed.
+
+
+== Definition ==
+"Music visualization" can be defined, in contrast to previous existing pre-generated music plus visualization combinations (as for example music videos), by its characteristic as being real-time generated. Another possible distinction is seen by some in the ability of some music visualization systems (such as Geiss' MilkDrop) to create different visualizations for each song or audio every time the program is run, in contrast to other forms of music visualization (such as music videos or a laser lighting display) which always show the same visualization. Music visualization may be achieved in a 2D or a 3D coordinate system where up to 6 dimensions can be modified, the 4th, 5th and 6th dimensions being color, intensity and transparency./
+
+
+== History ==
+
+The first electronic music visualizer was the Atari Video Music introduced by Atari Inc. in 1976, and designed by the initiator of the home version of Pong, Robert Brown. The idea was to create a visual exploration that could be implemented into a Hi-Fi stereo system. It is described in US 4081829 . In the United Kingdom music visualization was first pioneered by Fred Judd.
+Music and audio players were available on early home computers, Sound to Light Generator (1985, Infinite Software) used the ZX Spectrum's cassette player for example. The 1984 movie Electric Dreams prominently made use of one, although as a pre-generated effect, rather than calculated in real-time.
+For PC/DOS one of the first modern music visualization programs was the open-source, multi-platform Cthugha in 1993. In the 1990s the emerging demo and tracker music scene pioneered the real-time technics for music visualization on the PC platform; resulting examples are Cubic player (1994), Inertia Player (1995) or in general their real-time generated Demos.Subsequently, PC computer music visualization became widespread in the mid to late 1990s as applications such as Winamp (1997), Audion (1999), and SoundJam (2000). By 1999, there were several dozen freeware non-trivial music visualizers in distribution. In particular, MilkDrop (2001) and its predecessor "geiss-plugin" (1998) by Ryan Geiss, G-Force by Andy O'Meara, and AVS (2000) by Nullsoft became popular music visualizations. AVS is part of Winamp and has been recently open-sourced, and G-Force was licensed for use in iTunes and Windows Media Center and is presently the flagship product for Andy O'Meara's software startup company, SoundSpectrum. In 2008, iTunes added the "Magnetosphere" visualizer created by The Barbarian Group.Some of the more recent applications such as Luminant Music (2017), produce visualization in real time and render to a full-3D environment. 
+With the increasing popularity of virtual reality, several start ups have begun working on music visualization although reception has been mixed  with one informal poll finding that only 33% of respondents were interested in music visualization for VR.
+
+
+== Music visualization for the deaf ==
+There have been applications of electronic music visualization in order to enhance the music listening experience for the deaf and hard of hearing. Richard Burn, a PhD candidate at Birmingham City University, is currently researching a device that displays detailed visual feedback from electronic instruments. These visuals will provide information on the specifics of what is being played, such as the pitch and the harmonics of the sound. This allows deaf musicians to better understand what notes they are playing, which enables them to create music in a new way.Researchers from the National University of Singapore have also created a device that will enhance musical experiences for the deaf. This technology combines a music display and haptic chair that integrates sound qualities from music into vibrations and visual images that correlate to the specific qualities found within the music. The visual display shows various shapes that change size, color, and brightness in correlation with the music. Combining this visual display with a haptic chair that vibrates along with the music gives a more all-around experience of music to those hard of hearing.Music visualization can also be used in education. The Cooper Union in NYC is using music visualization to teach deaf children about sound. They have developed an interactive light studio in the American Sign Language and English Lower School in NYC. This consists of an interactive wall display that shows digital output created by sound and music. Children can trigger the playing of instruments with their movement, and they can watch the visual feedback from this music. They are also able to view a "talking flower" wall, in which each flower can transform sound into light based on the specific frequencies of the sounds.
+
+
+== List of electronic music visualizers ==
+Atari Video Music, designed by the initiator of the home version of Pong, Robert Brown, and introduced by Atari Inc. in 1976.
+Pixelmusic 3000, open source music visualizer on a microcontroller, made by Uncommon Projects in 2008.
+
+
+== List of music visualization software ==
+
+Psychedelia (1984, Jeff Minter), an early "light synthesizer", did not use audio input but was designed to create visualizations in accompaniment to music.
+Virtual Light Machine (1990, Jeff Minter) (Platform: Atari Jaguar)
+Cthugha (1993, Kevin "Zaph" Burfitt) (Platform: DOS)
+Advanced Visualization Studio (Justin Frankel) (Platform: Windows)
+MilkDrop (2001–2012, Ryan Geiss) reimplemented as projectM (Platforms: Windows, Linux, Android)
+Music Animation Machine (1985–2013, Stephen Malinowski) visualizes MIDI, rather than waveforms.
+Neon (2004, Jeff Minter and Ivan Zorzin) (Platform: Xbox 360)
+Visual Music Tone Painter (1992–2004, Stephen Nachmanovitch)
+Vsxu (2003–2019, Vovoid) (Platforms: Windows, Linux)
+Magic Music Visuals (2012–2019, Color & Music, LLC) (Platforms: Windows, macOS/OSX)
+Luminant Music (2017–Present, Cybernetic Entertainment) (Platforms: Windows)
+
+
+== List of media players supporting visualization ==
+AIMP (AIMP DevTeam) (Platform: Windows)
+Foobar2000 (Platform: Windows)
+MediaPortal (OpenSource, Team MediaPortal) (Platform: Windows)
+iTunes (2001, Apple) (Platforms: Mac OS X, Windows)
+Winamp (Nullsoft/Radionomy) (Platforms: Windows)
+Windows Media Player (Microsoft) (Platforms: Windows)
+MediaMonkey (Ventis Media Inc.) (Platform: Windows)
+Kodi (formerly XBMC) (Team XBMC) (Platform: Cross-Platform)
+MusicBee (Steven Mayall) (Platforms: Windows)
+K-Multimedia Player (Pandora.TV) (Platform: Windows)
+Amarok (Open Source, KDE) (Platform: Cross-platform)
+Totem (Open Source, Gnome) (Platform: Linux)
+Clementine (Open Source) (Platform: Cross-platform)
+Audacious Media Player (Audacious Team) (Platforms: POSIX)
+VLC media player (VideoLAN Project) (Platforms: Cross-platform)
+Xine player
+
+
+== See also ==
+Animusic
+Augmented reality § Music
+Clavier à lumières
+Cymatics
+Libvisual
+Liquid light show
+List of music software
+Video art
+VJing
+
+
+== Notes ==
+
+
+== External links ==
+Visual Music Archive

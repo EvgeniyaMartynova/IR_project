@@ -1,0 +1,212 @@
+George Johnstone Stoney
+
+George Johnstone Stoney FRS (15 February 1826 – 5 July 1911) was an Irish physicist. He is most famous for introducing the term electron as the "fundamental unit quantity of electricity".He had introduced the concept, though not the word, as early as 1874, initially naming it "electrine", and the word itself came in 1891. He published around 75 scientific papers during his lifetime.
+
+
+== Education and employment ==
+Stoney was born at Oakley Park, near Birr, County Offaly, in the Irish Midlands, the son of George Stoney (1792–) and Anne Blood (1801–1883). The Stoney family is an old-established Anglo-Irish family. He attended Trinity College, Dublin, graduating with a B.A. degree in 1848. From 1848 to 1852 he worked as an astronomy assistant to William Parsons, 3rd Earl of Rosse at Birr Castle, County Offaly, where Parsons had built the world's largest telescope, the 72-inch Leviathan of Parsonstown. Simultaneously Stoney continued to study physics and mathematics and was awarded an M.A. by Trinity College Dublin in 1852.
+From 1852 to 1857, Stoney was professor of physics at Queen's College Galway. From 1857 to 1882, he was employed as Secretary of the Queen's University of Ireland, an administrative job based in Dublin. In the early 1880s, he moved to the post of superintendent of Civil Service Examinations in Ireland, a post he held until his retirement in 1893. In that year, he took up residence in London, England. Stoney died in 1911 at his home in Notting Hill, London. During his decades of non-scientific employment responsibilities in Dublin, Stoney continued to do scientific research on his own. He also served for decades as honorary secretary and then vice-president of the Royal Dublin Society, a scientific society modelled after the Royal Society of London, and after his move to London Stoney served on the council of that society too. Additionally, he intermittently served on scientific review committees of the British Association for the Advancement of Science from the early 1860s on.
+
+
+== Scientific output ==
+Stoney published seventy-five scientific papers in a variety of journals, but chiefly in the journals of the Royal Dublin Society. He made significant contributions to cosmic physics and to the theory of gases. He estimated the number of molecules in a cubic millimetre of gas, at room temperature and pressure, from data obtained from the kinetic theory of gases. Stoney's most important scientific work was the conception and calculation of the magnitude of the "atom of electricity". In 1891, he proposed the term 'electron' to describe the fundamental unit of electrical charge, and his contributions to research in this area laid the foundations for the eventual discovery of the particle by J. J. Thomson in 1897.
+His scientific work was carried out in his spare time.Stoney was elected a Fellow of the Royal Society in June 1861 on the basis of being the author of papers on "The Propagation of Waves," – "On the Rings seen in Fibrous Specimens of Calc Spar," and Molecular Physics, published in the Transactions of the Royal Irish Academy, et cetera, Distinguished for his acquaintance with the science of Astronomy & General Physics.
+
+
+=== The Stoney scale ===
+Contemporary physics has settled on the Planck scale as the most suitable scale for a unified theory. The Planck scale was, however, anticipated by George Stoney. Like Planck after him, Stoney realised that large-scale effects such as gravity and small-scale effects such as electromagnetism naturally imply an intermediate scale where physical differences might be rationalised. This intermediate scale comprises units (Stoney scale units) of mass, length, time etc., yet mass is the cornerstone.
+The Stoney mass mS (expressed in contemporary terms):
+
+  
+    
+      
+        
+          m
+          
+            S
+          
+        
+        =
+        
+          
+            
+              
+                e
+                
+                  2
+                
+              
+              
+                4
+                π
+                
+                  ε
+                  
+                    0
+                  
+                
+                G
+              
+            
+          
+        
+        =
+        
+          
+            α
+          
+        
+        
+        
+          m
+          
+            P
+          
+        
+      
+    
+    {\displaystyle m_{S}={\sqrt {\frac {e^{2}}{4\pi \varepsilon _{0}G}}}={\sqrt {\alpha }}\,m_{P}}
+  where ε0 is the permittivity of free space, e is the elementary charge and G is the gravitational constant, and where α is the fine-structure constant and  mP is the Planck mass.
+Like the Planck scale, the Stoney scale functions as a symmetrical link between microcosmic and macrocosmic processes in general and yet it appears uniquely oriented towards the unification of electromagnetism and gravity. Thus for example whereas the Planck length is the mean square root of the reduced Compton wavelength and half the gravitational radius of any mass, the Stoney length is the mean square root of the 'electromagnetic radius' (see Classical electron radius) and half the gravitational radius of any mass, m:
+
+  
+    
+      
+        
+          ℓ
+          
+            P
+          
+        
+        =
+        
+          
+            
+              
+                ℏ
+                
+                  m
+                  c
+                
+              
+            
+            ⋅
+            
+              
+                
+                  G
+                  m
+                
+                
+                  c
+                  
+                    2
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle \ell _{P}={\sqrt {{\frac {\hbar }{mc}}\cdot {\frac {Gm}{c^{2}}}}}}
+  
+  
+    
+      
+        
+          ℓ
+          
+            S
+          
+        
+        =
+        
+          
+            
+              
+                
+                  e
+                  
+                    2
+                  
+                
+                
+                  4
+                  π
+                  
+                    ε
+                    
+                      0
+                    
+                  
+                  m
+                  
+                    c
+                    
+                      2
+                    
+                  
+                
+              
+            
+            ⋅
+            
+              
+                
+                  G
+                  m
+                
+                
+                  c
+                  
+                    2
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle \ell _{S}={\sqrt {{\frac {e^{2}}{4\pi \varepsilon _{0}mc^{2}}}\cdot {\frac {Gm}{c^{2}}}}}}
+  where 
+  
+    
+      
+        ℏ
+         
+      
+    
+    {\displaystyle \hbar \ }
+   is the reduced Planck's constant and c is the speed of light. It should be noted however that these are only mathematical constructs since there must be some practical limit to how small a length can get. If the Stoney length is the minimum length then either a body's electromagnetic radius or its half gravitational radius is a physical impossibility, since one of these must be smaller than the Stoney length. If Planck length is the minimum then either a body's reduced Compton wavelength or its half gravitational radius is a physical impossibility since one of these must be smaller than the Planck length. Moreover, the Stoney length and Planck length cannot both be the minimum length.
+According to contemporary convention, the Planck scale is the scale of vacuum energy, below which space and time do not retain any physical significance. This prescription mandates general neglect of the Stoney scale within the scientific community today. Previous to this mandate, Hermann Weyl made a notable attempt to construct a unified theory by associating a gravitational unit of charge with the Stoney length. Weyl's theory led to significant mathematical innovations but his theory is generally thought to lack physical significance.
+
+
+== Family ==
+Stoney married his cousin, Margaret Sophia Stoney, by whom he had had two sons and three daughters. For most of his decades in Dublin, Stoney resided in the Dundrum, Dublin neighbourhood. The street that he lived on was later renamed Stoney Road in his memory. After Stoney died in London, his cremated ashes were buried in St. Nahi's Church in Dundrum.
+One of Stoney's sons, George Gerald Stoney FRS, was a scientist, his daughter Florence Stoney OBE was a radiologist while his daughter Edith is considered to be the first woman medical physicist. But a more scientifically notable relative was Stoney's nephew, the Dublin-based physicist George FitzGerald (1851–1901). 
+His brother Bindon Blood Stoney was Engineer of Dublin Port is renowned for building a number of the main Dublin bridges, and developing the Quayside, as well as other engineering projects.
+
+
+== Legacy ==
+
+Stoney received an honorary Doctorate of Science (D.Sc.) from the University of Dublin in June 1902.Stoney and FitzGerald were in regular communication on scientific matters. In addition, on political matters, both Stoney and FitzGerald were active opponents of the Irish Home Rule Movement. In their political opinion, the spirit of Irish Home Rule and later Irish nationalism was contrary to the spirit of science. Stoney resigned from his job as Secretary of Queen's University of Ireland in 1882 in objection to a government decision to introduce "sectarianism" into the system; i.e., Stoney wanted to keep the system non-denominational, but the government acceded to Irish Catholic demands for Catholic institutions.
+Craters on Mars and the Moon are named in his honour.
+
+
+== See also ==
+Basic concepts of quantum mechanics
+Planck units
+Stoney units
+
+
+== References ==
+
+
+== Bibliography ==
+The Infancy of Atomic Physics. Hercules in His Cradle, by Alex Keller. Oxford University 1983. ISBN 0-19-853904-5 2013 reprint. Dover. 9 October 2013. ISBN 9780486149950.
+O'Hara, J. G. (1975). "George Johnstone Stoney, F.R.S., and the Concept of the Electron". Notes and Records of the Royal Society of London. 29 (2): 265–276. doi:10.1098/rsnr.1975.0018. JSTOR 531468.
+Stoney, G. J. (1894). "Of the "Electron", or Atom of Electricity". Philosophical Magazine. Series 5. 38: 418–420.
+Barrow, J. D. (1983). "Natural Units Before Planck". Quarterly Journal of the Royal Astronomical Society. 24: 24. Bibcode:1983QJRAS..24...24B.
+"The Constants of Nature, by John D. Barrow, Jonathan Cape, London 2002.

@@ -1,0 +1,27 @@
+Dead-man's vigilance device
+
+A dead-man's vigilance device (also called the Driver Vigilance Device or DVD for short) is a  railroad safety device that operates in the case of incapacitation of the engineer. It is a hybrid between a dead-man's switch and a vigilance control. The main safety failing with the basic dead-man's control system is the possibility of the operating device being permanently held in position, either deliberately or accidentally. The dead-man's vigilance device was developed to detect this condition by requiring that the dead-man's device be released momentarily and re-applied at timed intervals.
+
+
+== Modern practice ==
+Modern locomotive practice is to incorporate the dead-man's and vigilance functions under the control of the alerter or the event recorder. This enables more sophisticated monitoring of the driver's alertness. The vigilance control cycle time can then be speed dependent, varying inversely to train speed in order to reduce the distance the train may travel before a non-response is detected and acted upon.
+
+
+== Warning and braking ==
+If the timer period is allowed to expire a visual and audible warning is given by the alerter or similar warning device. If the operator fails to acknowledge the warning, a penalty brake application results.
+
+
+== Accidents due to insufficient vigilance control ==
+1987 Maryland train collision
+2008 Chatsworth train collision
+Beresfield rail disaster (1997)
+Hinton train collision (1986)
+Violet Town rail accident (1969)
+Waterfall rail accident (2003)
+
+
+== References ==
+
+
+== External links ==
+FRA Regulations

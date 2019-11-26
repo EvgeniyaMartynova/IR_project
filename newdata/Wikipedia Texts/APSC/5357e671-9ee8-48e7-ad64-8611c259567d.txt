@@ -1,0 +1,79 @@
+APS-C
+
+Advanced Photo System type-C (APS-C) is an image sensor format approximately equivalent in size to the Advanced Photo System film negative in its C ("Classic") format, of 25.1×16.7 mm, an aspect ratio of 3:2. It is therefore also equivalent in size to the Super 35 motion picture film format, which has the dimensions of 24.89 mm × 18.66 mm (0.980 in × 0.735 in).
+Sensors approximating these dimensions are used in many digital single-lens reflex cameras (DSLRs), mirrorless interchangeable-lens cameras (MILCs), and a few large-sensor live-preview digital cameras. APS-C size sensors are also used in a few digital rangefinders.
+Such sensors exist in many different variants depending on the manufacturer and camera model. 
+All APS-C variants are considerably smaller than 35 mm standard film which measures 36×24 mm. Because of this, devices with APS-C sensors are known as "cropped frame," especially when used in connection with lens mounts that are also used with sensors the size of 35 mm film: only part of the image produced by the lens is captured by the APS-C size sensor. Sensor sizes range from 20.7×13.8 mm to 28.7×19.1 mm, but are typically about 22.5×15 mm for Canon and 24×16 mm for other manufacturers. Each variant results in a slightly different angle of view from lenses at the same focal length and overall a much narrower angle of view compared to 35 mm film. This is why each manufacturer offers a range of lenses designed for its format.
+
+
+== Comparison with other formats ==
+The signal-to-noise ratio for a given pixel is largely defined by the number of photons per pixel and the sensor readout noise. Hence, for practical applications, the image noise of an APS-C sensor cannot be directly compared to either smaller or bigger sensor sizes, as its light-collecting property is largely defined by the overall optical system, rather than sensor area.
+
+
+== Brand designations ==
+
+Most DSLR and third party lens manufacturers now make lenses specifically designed for APS-C cameras. The designations by brand include:
+
+Canon: EF-S, EF-M
+Fujifilm: X-Mount
+Konica Minolta: DT
+Leica: T or TL
+Nikon: DX
+Pentax: DA
+Samsung: NX
+Sigma: DC
+Sony: DT, E (it is APS-C if not FE designated)
+Tamron: Di II
+Tokina: DX
+
+
+== Multiplier factors ==
+A crop factor (sometimes referred to as a "focal length multiplier" for comparing a proportionally scaled lens/image circle projection/sensor diameter) can be used to calculate the field of view in 35 mm terms from the actual focal length. The most common multiplier ratios:
+
+1.7× — Sigma DP1, Sigma DP2, Sigma SD15, Sigma SD14, Sigma SD10, Sigma SD9, Canon EOS DCS 3†
+1.6× — Canon EOS 7D†, 7D Mark II, 50D†, 60D†, 70D†, 77D (9000D), 80D, 550D (T2i)†, 200D (Rebel SL2), 600D (T3i/X5)†, 650D (T4i/X6i)†, 700D (T5i/X7i)†, 750D (T6i/X8i), 760D (T6s/8000D), 800D (T7i/X9i) 1100D (T3/X50)†, 1200D (T5/X70)†, 1300D (T6/X80); Canon EOS M†, M2† (sold in Asia only), M3 (not sold in North America until Oct 2015), M5, M6, M10
+1.56× — Nikon D3100†
+1.55× — Sony Alpha 58, Nikon D3200†
+1.54× — Pentax K20D,† Samsung NX5†, Samsung NX10†, Samsung NX11†, Samsung NX100†, Sony NEX-5†
+1.53× — Pentax KP, K-3, K-S1, K-S2, K-5 II†, K-5†, K10D†, K200D†, K70, Ricoh GR, Nikon D3300†, Nikon D5300†, Nikon D5500, Nikon Coolpix A, Sony NEX-7,† Sony NEX-6, Sony α6000†, Sony α6300, Sony Alpha 77, Sony Alpha 77 II, Sony Alpha 65, Sony Alpha 57, Sony Alpha 37, Sony Alpha 580, Sony Alpha 500, all Samsung NX except NX5, NX10, NX11, NX100
+1.52× — All Nikon DX format DSLR cameras except D3100, D3200, D3300, D5300, and D5500; Pentax K-30†, K-01, K-50, K-500;† all Fujifilm interchangeable lens X-system cameras and Fujifilm X100 series; Sony Alpha 100; Sigma SD1, Sigma SD1 Merrill, Sigma DP1 Merrill, Sigma DP2 Merrill
+1.35× — Sigma SD Quattro H
+1.3×‡ — Canon EOS-1D Mark IV†, 1D Mark III†, 1D Mark II† (and Mark II N), EOS-1D†, Kodak DCS 460†, Kodak DCS 560†, Kodak DCS 660†, Kodak DCS 760†, Leica M8, M8.2Notes:
+†Discontinued
+‡ A 1.3× Focal Length Multiplier is also known as APS-H.  Actual multiplier factor is 1.255× for the 1D Digital, 1.28× for the Canon EOS-1D Mark III and 1.29× for the Canon EOS-1D Mark IV[1][2]. Leica M8 is 1.33×
+
+
+== APS-C lens formats ==
+Canon, Fuji, Nikon, Pentax and Sony have developed and designed lenses specifically for their cameras with a lens factor (more fully, lens focal length conversion factor) or "crop factor".  Whilst Canon uses a factor of 1.6×, the other four brands all use 1.5×. APS-C cameras use a smaller area to form the image than traditional 35 mm cameras, and so lenses used on APS-C format cameras have a correspondingly narrower field of view. For example, a 28 mm lens is a wide angle lens on a traditional 35 mm camera. But the same lens on an APS-C camera, with a lens factor of 1.6× (relative to a standard full-frame 35 mm format camera), has the same angle of view as a 45 mm (28 mm × 1.6 lens factor) lens on a 35 mm camera—i.e. a normal lens. Several third-party lens manufacturers, such as Tamron, Tokina, and Sigma, also manufacture a range of lenses optimised for APS-C sensors.
+
+Canon
+Canon introduced the Canon EF-S line of lenses in 2003 alongside the 300D. These lenses place the rear of the lens closer to the camera's sensor (referred to as short back focus). This has several benefits, including lighter lenses and a narrower field of view (which implies "longer" zoom). EF-S lenses are compatible with Canon's APS-C digital SLRs, with the exception of the early Canon EOS D30, Canon EOS D60, and Canon EOS 10D, which predated the introduction of the mounting system. EF-S lenses will not physically mount on Canon's full-frame digital or 35mm film SLRs. More recently, the company introduced the EF-M line for its EOS M series of mirrorless interchangeable-lens cameras (MILCs). EF-M lenses will not physically mount on any Canon SLR, whether film or digital. The rear of an EF-M lens is considerably closer to the sensor or film plane than that of an EF (full-frame/35mm) or EF-S lens, making it necessary to ensure that the EF-M lens will not mount on the other bodies. Canon sells an optional adapter that allows EF-M bodies to accept all EF and EF-S lenses.
+
+NikonNikon makes DX format lenses for their line of APS-C digital cameras. These can be physically mounted to all Nikon digital and film SLR camera bodies since 1977.  These lenses generally exhibit vignetting at shorter focal lengths when mounted on Nikon film bodies, but are typically usable at longer focal lengths. When mounted on a Nikon FX (full-frame) digital body, by default the camera will automatically adjust the viewfinder to depict the DX frame area and crop the captured images to the DX image size. This can be overridden by the user if desired.
+
+PentaxPentax produces the DA line for their APS-C cameras. These lenses are available in focal lengths that offer similar field-of-view as lenses previously available for 135 film. The trademark compact design of the DA limited series takes advantage of the smaller APS-C format with the lenses under 40 mm and is fully usable on 135 Film with the DA Limited Lenses over 35 mm focal length. All DA lenses can be mounted on Pentax film bodies, albeit with increased vignetting. All fixed focal lengths in the rugged DA* series cover 35 film format fully.
+SonySony has two lines specifically designed for their APS-C cameras—the DT line for their A-mount DSLRs and α SLTs, and the E-mount for their α MILCs. The DT lenses can be mounted on any Sony A-mount camera, but are specifically designed for the DSLR-A100 up to DSLR-A700 series of APS-C-format DSLRs, the earlier Konica Minolta 5D and 7D, and the most recent APS-C Alpha SLTs. DT lenses can be mounted on full-frame models like the DSLR-A850, DSLR-A900, and SLT-A99 in "crop" mode, where the frame is cropped and the resolution is roughly halved. E-mount lenses are compatible with all of the company's APS-C MILCs, from the NEX-3 and NEX-5 through the current α3000, α5100, and α6500. In addition, they can be mounted on Sony full-frame MILCs (α7/α7R/α7S, α7R II, α7S II) in "crop" mode (the company also produces E-mount lenses designated as "FE", which cover the entire full-frame image circle).
+
+
+== See also ==
+35 mm equivalent focal length
+Advanced Photo System
+Crop factor
+Digital versus film photography
+Film format
+Four Thirds system
+Full-frame digital SLR
+Image sensor format
+Image sensor
+Lenses for SLR and DSLR cameras
+List of large sensor interchangeable-lens video cameras
+
+
+== References ==
+
+
+== External links ==
+Bob Atkins: The Future of Digital - Full Frame or APS-C? written in 2004
+Vincent Bockaert: Focal Length Multiplier Digital Photography Review, written in 1998
+Fred Kamphues: The digital crop factor explained, written in 2005
+Zack Smith: SSensor Pixel Size as a Determinant of Digital Camera Image Quality, written in 2007

@@ -1,0 +1,59 @@
+Depth in a well
+
+In the oil and gas industry, depth in a well is the measurement, for any point in that well, of the distance between a reference point or elevation, and that point.  It is the most common method of reference for locations in the well, and therefore, in oil industry speech, "depth" also refers to the location itself.
+By extension, depth can refer to locations below, or distances from, a reference point or elevation, even when there is no well.  In that sense, depth is a concept related to elevation, albeit in the opposite direction.  Depth in a well is not necessarily measured vertically or along a straight line.
+Because wells are not always drilled vertically, there may be two "depths" for every given point in a wellbore:  the measured depth (MD) measured along the path of the borehole, and the true vertical depth (TVD), the absolute vertical distance between the datum and the point in the wellbore.  In perfectly vertical wells, the TVD equals the MD; otherwise, the TVD is less than the MD measured from the same datum. Common datums used are ground level (GL), drilling rig floor (DF), rotary table (RT), kelly bushing (KB or RKB) and mean sea level (MSL).
+
+
+== The specification of depth ==
+Although it is an intuitive concept, depth in a well is the source of much confusion because it is frequently not specified correctly.  Absolute depth should always be specified with three components:  
+
+a unit (e.g. m for metre),
+a path (e.g. MD for measured depth)
+and the reference or datum they refer to (e.g. RT for rotary table),and none of these 3 components should ever be left implicit. 
+Example: the top of a reservoir may be found at 1,500 mMDRT in a particular well (1,500 m measured depth below the rotary table), which may be equal to 1,492 mTVDMSL (1,492  m true-vertical-depth below mean sea level) after correction for deviations from vertical.
+
+
+== Depth in a well as used in the oil and gas industry ==
+Well depth values taken during the drilling operation are referred to as "driller's depth". The "total depth" for the well, core depths and all analysis of core / mud and other materials from the drilling hole are measured in "drillers depth".
+Well depth values from the wireline loggers operation are referred to as "logger's depth". The loggers depth are typically considered more reliable than the drillers depth.
+The differences between loggers and drillers depths are due to different stretch in the drilling string when drilling, and the wire line entered into the bore hole during wireline logging operations. This difference is estimated and referred to as "core shift". A core from a certain drillers depth is lined up with a wireline log (loggers depth) and structures in the core are compared with the log and matched.
+Sign Convention - Depth increases positive in the downward direction.  This may seem intuitive but confusion can arise when using certain references while integrating data from different sources.  Workers mapping surfaces typically use elevation which, by convention, increases positive in the upward direction.  Be mindful when integrating depth and elevation.  For example, shallow wells drilled onshore often encounter reservoir at negative depths when referenced to sea level, mappers would define these same reservoirs at positive elevations when referenced to sea level.
+Depth increases in the "down" direction, so an elevation is a negative depth.  There is no need to specify above or below the depth reference.  Example: RT = -10 mMDLAT
+
+The term "subsea" (SS) by itself should not be used, as it is ambiguous.  It could mean: below sea floor or bottom, below mean sea level (MSL), below lowest astronomical tide (LAT), etc.
+The acronym TVDSS is commonly used in the oil industry to represent TVD minus the elevation above mean sea level of the depth reference point of the well.  The depth reference point is the kelly bushing in the United States and a few other nations, but is the drill floor in most places.
+Differential (or relative) depths or thicknesses should generally be specified with at least two components: a unit and a path, plus any eventual specifiers to remove any possible ambiguity.  No specifier should ever be left "implicit" or "understood".  There are cases where a path is not needed and in fact should not be specified, because it is defined by the specifier, e.g. isochore (true stratigraphic thickness, independent of well path or inclination).
+It is important to remember that depths, whether "absolute", "relative", "true", etc., have an intrinsic uncertainty and are never really true.
+The distinction between "loggers' depth" and "drillers' depth" is becoming blurred due to the increasing use of logs acquired while drilling (LWD).  At the time of writing, the common practice remains that the petrophysicists or geologists define the "official depths" in a well, and these depths are frequently different from the "drillers' depth", after various corrections, tie-ins, etc., have been applied.
+Petrophysicists and drilling operations tend to express depths with reference to the rotary table or the original drill floor; geologists tend to use a common datum such as the mean sea level; geophysicists use the mean sea level.  This can introduce much confusion when a unit is not specified with all 3 components: unit, path, and reference.
+Special consideration must be given to depth measurement in toe-up laterals (J-profile).  In these cases the measured depth will continue to increase while true vertical depth will decrease toward the toe of the wellbore.
+
+
+== Depth in practice ==
+Unit: the usual unit of depth is the metre (m).
+Path: common expressions of path are measured depth (MD) – elsewhere often known as along hole depth (AHD) – and true vertical depth (TVD).  Note that using TV for true vertical depth is not consistent with the use of MD for measured depth, hence the recommended TVD.
+Reference:
+the legal datum offshore Australia is Lowest Astronomical Tide (LAT) – (Ref. 1 & 2).  Note that this requirement in itself can cause difficulties as it is difficult to measure offshore and can vary greatly between locations and even with time.  There is, however, an advantage to this convention: tidal corrections should always be of the same sign (negative depth), i.e. the sea level is always higher than or equal to LAT.
+A commonly used alternative is Mean Sea Level (MSL).
+A datum used in the past was Mean Indian Spring Low Water (MISLW).  It is comparable to, but not exactly the same as, LAT.
+Common references used in operations include: Rotary Table (RT), Drill Floor (DF), Kelly Bushing (KB), Sea Bottom (SB), Ground Level (GL), Casing Bowl Flange (CBF).Any combination of unit, path, and reference can be used, as long as they result in fully specified, unambiguous depths. A well may reach to many kilometers.
+
+
+== Figures ==
+
+Specification of an absolute depth: in Figure 1 above, point P1 might be at 3207 mMDRT and 2370 mTVDMSL, while point P2 might be at 2530 mMDRT and 2502 mTVDLAT.   
+Specification of a differential depth or a thickness: in Figure 2 above, the thickness of the reservoir penetrated by the well might be 57 mMD or 42 mTVD, even though the reservoir true stratigraphic thickness in that area (or isopach) might be only 10 m, and its true vertical thickness (isochore), 14 m.
+
+
+== See also ==
+Measured depth
+
+
+== References ==
+
+
+== External links ==
+Determining Lowest Astronomical Tide (LAT)
+Seas and Submerged Lands Act 1973 (Australia)
+Log Data Acquisition and Quality Control, Ph. Theys, 1991, Editions Technip

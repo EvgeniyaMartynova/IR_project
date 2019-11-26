@@ -1,0 +1,105 @@
+Visual perception
+
+Visual perception is the ability to interpret the surrounding environment using light in the visible spectrum reflected by the objects in the environment. This is different from visual acuity, which refers to how clearly a person sees (for example "20/20 vision"). A person can have problems with visual perceptual processing even if they have 20/20 vision.
+The resulting perception is also known as visual perception, eyesight, sight, or vision (adjectival form: visual, optical, or ocular). The various physiological components involved in vision are referred to collectively as the visual system, and are the focus of much research in linguistics, psychology, cognitive science, neuroscience, and molecular biology, collectively referred to as vision science.
+
+
+== Visual system ==
+
+In humans, and a number of other mammals light enters the eye through the cornea which then the lens focuses light onto the light-sensitive membrane in the back of the eye, called the retina. The retina serves as a transducer for the conversion of light into neuronal signals. This transduction is achieved by specialized photoreceptive cells of the retina, also known as the rods and cones, which detect the photons of light and respond by producing neural impulses. These signals are transmitted by the optic nerve, from the retina upstream to central ganglia in the brain. the lateral geniculate nucleus, which transmits the information to the visual cortex. Signals from the retina also travel directly from the retina to the superior colliculus.
+The lateral geniculate nucleus sends signals to primary visual cortex, also called striate cortex. Extrastriate cortex, also called visual association cortex is a set of cortical structures, that receive information from striate cortex, as well as each other. Recent descriptions of visual association cortex describe a division into two functional pathways, a ventral and a dorsal pathway. This conjecture is known as the two streams hypothesis.
+The human visual system is generally believed to be sensitive to visible light in the range of wavelengths between 370 and 730 nanometers (0.00000037 to 0.00000073 meters) of the electromagnetic spectrum. However, some research suggests that humans can perceive light in wavelengths down to 340 nanometers (UV-A), especially the young.
+
+
+== Study ==
+
+The major problem in visual perception is that what people see is not simply a translation of retinal stimuli (i.e., the image on the retina). Thus people interested in perception have long struggled to explain what visual processing does to create what is actually seen.
+
+
+=== Early studies ===
+
+There were two major ancient Greek schools, providing a primitive explanation of how vision works.
+The first was the "emission theory" which maintained that vision occurs when rays emanate from the eyes and are intercepted by visual objects. If an object was seen directly it was by 'means of rays' coming out of the eyes and again falling on the object. A refracted image was, however, seen by 'means of rays' as well, which came out of the eyes, traversed through the air, and after refraction, fell on the visible object which was sighted as the result of the movement of the rays from the eye. This theory was championed by scholars like Euclid and Ptolemy and their followers.
+The second school advocated the so-called 'intro-mission' approach which sees vision as coming from something entering the eyes representative of the object. With its main propagators Aristotle, Galen and their followers, this theory seems to have some contact with modern theories of what vision really is, but it remained only a speculation lacking any experimental foundation. (In eighteenth-century England, Isaac Newton, John Locke, and others, carried the intromission/intromittist theory forward by insisting that vision involved a process in which rays—composed of actual corporeal matter—emanated from seen objects and entered the seer's mind/sensorium through the eye's aperture.)Both schools of thought relied upon the principle that "like is only known by like", and thus upon the notion that the eye was composed of some "internal fire" which interacted with the "external fire" of visible light and made vision possible. Plato makes this assertion in his dialogue Timaeus, as does Aristotle, in his De Sensu.
+
+Alhazen (965 – c. 1040) carried out many investigations and experiments on visual perception, extended the work of Ptolemy on binocular vision, and commented on the anatomical works of Galen. He was the first person to explain that vision occurs when light bounces on an object and then is directed to one's eyes.Leonardo da Vinci (1452–1519) is believed to be the first to recognize the special optical qualities of the eye. He wrote "The function of the human eye ... was described by a large number of authors in a certain way. But I found it to be completely different." His main experimental finding was that there is only a distinct and clear vision at the line of sight—the optical line that ends at the fovea. Although he did not use these words literally he actually is the father of the modern distinction between foveal and peripheral vision.Issac Newton (1642–1726/27) was the first to discover through experimentation, by isolating individual colors of the spectrum of light passing through a prism, that the visually perceived color of objects appeared due to the character of light the objects reflected, and that these divided colors could not be changed into any other color, which was contrary to scientific expectation of the day.
+
+
+=== Unconscious inference ===
+
+Hermann von Helmholtz is often credited with the first study of visual perception in modern times. Helmholtz examined the human eye and concluded that it was incapable of producing a high quality image. Insufficient information seemed to make vision impossible. He therefore concluded that vision could only be the result of some form of "unconscious inference", coining that term in 1867. He proposed the brain was making assumptions and conclusions from incomplete data, based on previous experiences.Inference requires prior experience of the world.
+Examples of well-known assumptions, based on visual experience, are:
+
+light comes from above
+objects are normally not viewed from below
+faces are seen (and recognized) upright.
+closer objects can block the view of more distant objects, but not vice versa
+figures (i.e., foreground objects) tend to have convex bordersThe study of visual illusions (cases when the inference process goes wrong) has yielded much insight into what sort of assumptions the visual system makes.
+Another type of the unconscious inference hypothesis (based on probabilities) has recently been revived in so-called Bayesian studies of visual perception. Proponents of this approach consider that the visual system performs some form of Bayesian inference to derive a perception from sensory data. However, it is not clear how proponents of this view derive, in principle, the relevant probabilities required by the Bayesian equation. Models based on this idea have been used to describe various visual perceptual functions, such as the perception of motion, the perception of depth, and figure-ground perception. The "wholly empirical theory of perception" is a related and newer approach that rationalizes visual perception without explicitly invoking Bayesian formalisms.
+
+
+=== Gestalt theory ===
+
+Gestalt psychologists working primarily in the 1930s and 1940s raised many of the research questions that are studied by vision scientists today.The Gestalt Laws of Organization have guided the study of how people perceive visual components as organized patterns or wholes, instead of many different parts. "Gestalt" is a German word that partially translates to "configuration or pattern" along with "whole or emergent structure". According to this theory, there are eight main factors that determine how the visual system automatically groups elements into patterns: Proximity, Similarity, Closure, Symmetry, Common Fate (i.e. common motion), Continuity as well as Good Gestalt (pattern that is regular, simple, and orderly) and Past Experience.
+
+
+=== Analysis of eye movement ===
+
+During the 1960s, technical development permitted the continuous registration of eye movement during reading, in picture viewing, and later, in visual problem solving, and when headset-cameras became available, also during driving.The picture to the right shows what may happen during the first two seconds of visual inspection. While the background is out of focus, representing the peripheral vision, the first eye movement goes to the boots of the man (just because they are very near the starting fixation and have a reasonable contrast).
+The following fixations jump from face to face. They might even permit comparisons between faces.
+It may be concluded that the icon face is a very attractive search icon within the peripheral field of vision. The foveal vision adds detailed information to the peripheral first impression.
+It can also be noted that there are different types of eye movements: fixational eye movements (microsaccades, ocular drift, and tremor), vergence movements, saccadic movements and pursuit movements. Fixations are comparably static points where the eye rests. However, the eye is never completely still, but gaze position will drift. These drifts are in turn corrected by microsaccades, very small fixational eye-movements. Vergence movements involve the cooperation of both eyes to allow for an image to fall on the same area of both retinas. This results in a single focused image. Saccadic movements is the type of eye movement that makes jumps from one position to another position and is used to rapidly scan a particular scene/image. Lastly, pursuit movement is smooth eye movement and is used to follow objects in motion.
+
+
+=== Face and object recognition ===
+There is considerable evidence that face and object recognition are accomplished by distinct systems. For example, prosopagnosic patients show deficits in face, but not object processing, while object agnosic patients (most notably, patient C.K.) show deficits in object processing with spared face processing. Behaviorally, it has been shown that faces, but not objects, are subject to inversion effects, leading to the claim that faces are "special". Further, face and object processing recruit distinct neural systems. Notably, some have argued that the apparent specialization of the human brain for face processing does not reflect true domain specificity, but rather a more general process of expert-level discrimination within a given class of stimulus, though this latter claim is the subject of substantial debate. Using fMRI and electrophysiology Doris Tsao and colleagues described brain regions and a mechanism for face recognition in macaque monkeys.The inferotemporal cortex has a key role in the task of recognition and differentiation of different objects. A study of the MIT shows that subset regions of the IT cortex are in charge of different objects. By selectively shutting off neural activity of many small areas of the cortex, the animal gets alternately unable to distinguish between certain particular pairments of objects. This shows that the IT cortex is divided into regions that respond to different and particular visual features. In a similar way, certain particular patches and regions of the cortex are more involved into face recognition than other objects recognition.
+Some studies tend to show that rather than the uniform global image, some particular features and regions of interest of the objects are key elements when the brain need to recognise an object in image. In this way, the human vision is vulnerable to small particular changes to the image, such as disrupting the edges of the object,  modifying texture or any small change in a crucial region of the image.Studies of people whose sight has been restored after a long blindness reveal that they cannot necessarily recognize objects and faces (as opposed to color, motion, and simple geometric shapes). Some hypothesize that being blind during childhood prevents some part of the visual system necessary for these higher-level tasks from developing properly. The general belief that a critical period lasts until age 5 or 6 was challenged by a 2007 study that found that older patients could improve these abilities with years of exposure.
+
+
+== The cognitive and computational approaches ==
+In the 1970s, David Marr developed a multi-level theory of vision, which analyzed the process of vision at different levels of abstraction. In order to focus on the understanding of specific problems in vision, he identified three levels of analysis: the computational, algorithmic and implementational levels. Many vision scientists, including Tomaso Poggio, have embraced these levels of analysis and employed them to further characterize vision from a computational perspective.The computational level addresses, at a high level of abstraction, the problems that the visual system must overcome. The algorithmic level attempts to identify the strategy that may be used to solve these problems. Finally, the implementational level attempts to explain how solutions to these problems are realized in neural circuitry.
+Marr suggested that it is possible to investigate vision at any of these levels independently. Marr described vision as proceeding from a two-dimensional visual array (on the retina) to a three-dimensional description of the world as output. His stages of vision include:
+
+A 2D or primal sketch of the scene, based on feature extraction of fundamental components of the scene, including edges, regions, etc. Note the similarity in concept to a pencil sketch drawn quickly by an artist as an impression.
+A 2​1⁄2 D sketch of the scene, where textures are acknowledged, etc. Note the similarity in concept to the stage in drawing where an artist highlights or shades areas of a scene, to provide depth.
+A 3 D model, where the scene is visualized in a continuous, 3-dimensional map.Marr's 2​1⁄2D sketch assumes that a depth map is constructed, and that this map is the basis of 3D shape perception. However, both stereoscopic and pictorial perception, as well as monocular viewing, make clear that the perception of 3D shape precedes, and does not rely on, the perception of the depth of points. It is not clear how a preliminary depth map could, in principle, be constructed, nor how this would address the question of figure-ground organization, or grouping. The role of perceptual organizing constraints, overlooked by Marr, in the production of 3D shape percepts from binocularly-viewed 3D objects has been demonstrated empirically for the case of 3D wire objects, e.g. For a more detailed discussion, see Pizlo (2008).
+
+
+== Transduction ==
+
+Transduction is the process through which energy from environmental stimuli is converted to neural activity. The retina contains three different cell layers: photoreceptor layer, bipolar cell layer and ganglion cell layer. The photoreceptor layer where transduction occurs is farthest from the lens. It contains photoreceptors with different sensitivities call rods and cones . The cones are responsible for color perception and are of three distinct types labelled red, green and blue. Rods, are responsible for the perception of objects in low light. Photoreceptors contain within them a special chemical called a photopigment, which is embedded in the membrane of the lamellae; a single human rod contains approximately 10 million of them. The photopigment molecules consist of two parts: an opsin (a protein) and retinal (a lipid). There are 3 specific photopigments (each with their own wavelength sensitivity) that respond across the spectrum of visible light. When the appropriate wavelengths (those that the specific photopigment is sensitive to) hit the photoreceptor, the photopigment splits into two, which sends a signal to the bipolar cell layer, which in turn sends a signal to the ganglion cells, the axons of which form the optic nerve and transmit the information to the brain. If a particular cone type is missing or abnormal, due to a genetic anomaly, a color vision deficiency , sometimes called color blindness will occur.
+
+
+== Opponent process ==
+Transduction involves chemical messages sent from the photoreceptors to the bipolar cells to the ganglion cells. Several photoreceptors may send their information to one ganglion cell. There are two types of ganglion cells: red/green and yellow/blue. These neurons constantly fire—even when not stimulated. The brain interprets different colors (and with a lot of information, an image) when the rate of firing of these neurons alters. Red light stimulates the red cone, which in turn stimulates the red/green ganglion cell. Likewise, green light stimulates the green cone, which stimulates the red/green ganglion cell and blue light stimulates the blue cone which stimulates the yellow/blue ganglion cell. The rate of firing of the ganglion cells is increased when it is signaled by one cone and decreased (inhibited) when it is signaled by the other cone. The first color in the name of the ganglion cell is the color that excites it and the second is the color that inhibits it. i.e.: A red cone would excite the red/green ganglion cell and the green cone would inhibit the red/green ganglion cell. This is an opponent process. If the rate of firing of a red/green ganglion cell is increased, the brain would know that the light was red, if the rate was decreased, the brain would know that the color of the light was green.
+
+
+== Artificial visual perception ==
+Theories and observations of visual perception have been the main source of inspiration for computer vision (also called machine vision, or computational vision). Special hardware structures and software algorithms provide machines with the capability to interpret the images coming from a camera or a sensor.
+
+
+== See also ==
+
+
+=== Vision deficiencies or disorders ===
+
+
+=== Related disciplines ===
+
+
+== References ==
+
+
+== Further reading ==
+Von Helmholtz, Hermann (1867). Handbuch der physiologischen Optik. 3. Leipzig: Voss. Quotations are from the English translation produced by Optical Society of America (1924–25): Treatise on Physiological Optics.
+
+
+== External links ==
+ The dictionary definition of vision at Wiktionary
+The Organization of the Retina and Visual System
+Effect of Detail on Visual Perception by Jon McLoone, the Wolfram Demonstrations Project.
+The Joy of Visual Perception Resource on the eye's perception abilities.
+VisionScience. Resource for Research in Human and Animal Vision A collection of resources in vision science and perception.
+Vision and Psychophysics.
+Visibility in Social Theory and Social Research. An inquiry into the cognitive and social meanings of visibility.
+Vision Scholarpedia Expert articles about Vision

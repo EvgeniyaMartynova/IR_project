@@ -1,0 +1,45 @@
+Crazing
+
+Crazing is the phenomenon that produces a network of fine cracks on the surface of a material, for example in a glaze layer. Crazing frequently precedes fracture in some glassy thermoplastic polymers. As it only takes place under tensile stress, the plane of the crazing corresponds to the stress direction. The effect is visibly distinguishable from other types of fine cracking because the crazing region has different refractive indices from surrounding material. Crazing occurs in regions of high hydrostatic tension, or in regions of very localized yielding, which leads to the formation of interpenetrating microvoids and small fibrils. If an applied tensile load is sufficient, these bridges elongate and break, causing the microvoids to grow and coalesce; as microvoids coalesce, cracks begin to form.
+
+
+== Polymers ==
+Crazing occurs in polymers, because the material is held together by a combination of weaker Van der Waals forces and stronger covalent bonds.  Sufficient local stress overcomes the Van der Waals force, allowing a narrow gap.  Once the slack is taken out of the backbone chain, covalent bonds holding the chain together hinder further widening of the gap.  The gaps in a craze are microscopic in size.  Crazes can be seen because light reflects off the surfaces of the gaps.  The gaps are bridged by fine filament called fibrils, which are molecules of the stretched backbone chain.  The fibrils are only a few nanometers in diameter, and cannot be seen with a light microscope, but are visible with an electron microscope.The thickness profile of a crazing is like a sewing needle: the very tip of the crazing may be as thin as several atoms, as the distance from the tip increase, it tends to thicken gradually with the rate of the increase diminishing with distance. Therefore, the growth of crazing has a critical distance from the tip. The opening angle of the crazing lies between 2° to 10°. The boundary between crazing and surrounding bulk polymer is very sharp, the microstructure of which can be scaled down to 20Å or less, which means it can only be observed by electron microscopy.A craze is different from a crack in that it cannot be felt on the surface and it can continue to support a load. Furthermore, the process of craze growth prior to cracking absorbs fracture energy and effectively increases the fracture toughness of a polymer. The initial energy absorption per square meter in a craze region has been found to be up to several hundred times that of the uncrazed region, but quickly decreases and levels off. Crazes form at highly stressed regions associated with scratches, flaws, stress concentrations and molecular inhomogeneities. Crazes generally propagate perpendicular to the applied tension. Crazing occurs mostly in amorphous, brittle polymers like polystyrene (PS), acrylic (PMMA), and polycarbonate; it is typified by a whitening of the crazed region. The white colour is caused by light-scattering from the crazes.
+Besides, the production of crazing is a reversible process, after applied compressive stress or elevated temperature (higher than glass transformation temperature), it may disappear and the materials will return to optically homogeneous state.
+Shear banding is the narrow region with high level of shearing strain from local strain softening, it is also very common during the deformation of thermoplastic materials. One of the main differences between crazing and shear banding, is that crazing occurs with an increase in volume, which shear banding does not. This means that under compression, many of these brittle, amorphous polymers will shear band rather than craze, as there is a contraction of volume instead of an increase. In addition, when crazing occurs, one will typically not observe "necking," or concentration of force upon one spot in a material. Rather, crazing will occur homogeneously throughout the material.
+
+
+=== Rubber toughening ===
+Rubber particles are often used to toughen thermoplastic materials, after modified, the ability of absorbing energy will be increased significantly. For some brittle plastic materials, they can even go through brittle-ductile transformation. Previously, the rubber particles were considered as the main contributor to the increased energy absorption. It was proposed that rubber particles might gather around crack tips under tension and impede the growth of crack, or the contraction of rubber particles induced the decline of glass transformation temperature of the matrix. Nevertheless, experiments showed that the energy absorbed by rubber particles made up only 10% of the total energy, and the decrease of glass transformation temperature caused by rubber was only around 10 K, which was not enough for the matrix to yield at room temperature.
+Schmitt and Bucknall developed the mechanism of rubber toughening according to the existence of stress whitening and shear yielding when the stress is lower than fracture strength. They proposed that the rubber particles served as the center for stress concentration, hence initiated the brittle-ductile transformation and yielding of the matrix material. To specify, yielding happens in the form of crazing or shear band, which can consume a large portion of deformation energy.
+
+
+=== Environment effect ===
+Crazing can take place in glassy polymers under environmental effects. It is troublesome because it requires a much lower stress state and sometimes it happens in a long delay, which means it's hard to detect and avoid. For example, the PMMA containers in daily use is quite resistive to humidity and temperature without any visible defects. But after they are machine-washed and then left in air for one or two days, they will shutter abruptly when wet with gin. During the process, the stress applied is negligible, but crazing is still found in the containers.
+There are many theories that tried to explain the environmental effects upon formation of crazing, among which surface energy reduction and plasticization are widely accepted and well developed. To eliminate the environmental crazing and cracking, many methods like surface coating, stress reduction are adopted. However, due to the complicity of the environmental effects, especially the effects in organic environment, it's hard to find a general solution and remove the effect completely.
+
+
+== Construction ==
+Crazing is also seen on single ply roofing membranes, joint sealant, and on concrete when good concrete practices are not followed.
+
+
+== Ceramics ==
+Crazing is a glaze defect of glazed pottery. Characterised as a spider web pattern of cracks penetrating the glaze, it is caused by tensile stresses greater than the glaze is able to withstand.  In pottery a distinction is often made between crazing, as an accidental defect, and "crackle", when the same phenomenon, often strongly accentuated, is produced deliberately. The Chinese in particular enjoyed the random effects of crackle and whereas in Ru ware it seems to have been a tolerated feature of most pieces, but not sought, in Guan ware a strong crackle was a desired effect.
+
+
+== Odontology ==
+Crazing is also used as a term in odontology to describe fine cracks in the enamel of teeth.
+
+
+== Metaphor ==
+The root sense of “crazy” in English, meaning “to shatter, crush, or break,” dates to the 1300s. The metaphorical senses familiar today derive from crazing in pottery: “crazy” meaning “diseased or sickly” dates to about 1570; “of unsound mind,” to about 1610.
+
+
+== References ==
+
+
+== External links ==
+Understanding Crazing
+Crazing in Single Ply Roofing: Causes, Restoration
+Crazing Concrete Surfaces
+Images of crazing via Google Images (look for the images of fine 'cracks')

@@ -1,0 +1,77 @@
+Silver nitrate
+
+Silver nitrate is an inorganic compound with chemical formula AgNO3. This compound is a versatile precursor to many other silver compounds, such as those used in photography. It is far less sensitive to light than the halides. It was once called lunar caustic because silver was called luna by the ancient alchemists, who believed that silver was associated with the moon.In solid silver nitrate, the silver ions are three-coordinated in a trigonal planar arrangement.
+
+
+== Discovery ==
+Albertus Magnus, in the 13th century, documented the ability of nitric acid to separate gold and silver by dissolving the silver. Magnus noted that the resulting solution of silver nitrate could blacken skin.
+
+
+== Synthesis ==
+Silver nitrate can be prepared by reacting silver, such as silver bullion or silver foil, with nitric acid, resulting in silver nitrate, water, and oxides of nitrogen. Reaction byproducts depend upon the concentration of nitric acid used.
+
+3 Ag + 4 HNO3 (cold and diluted) → 3 AgNO3 + 2 H2O + NO
+Ag + 2 HNO3 (hot and concentrated) → AgNO3 + H2O + NO2This is performed under a fume hood because of toxic nitrogen oxides evolved during the reaction.
+
+
+== Reactions ==
+A typical reaction with silver nitrate is to suspend a rod of copper in a solution of silver nitrate and leave it for a few hours. The silver nitrate reacts with copper to form hairlike crystals of silver metal and a blue solution of copper nitrate:
+
+2 AgNO3 + Cu → Cu(NO3)2 + 2 AgSilver nitrate decomposes when heated:
+
+2 AgNO3(l) → 2 Ag(s) + O2(g) + 2 NO2(g)Qualitatively, decomposition is negligible below the melting point, but becomes appreciable around 250 °C and totally decompose at 440 °C.Most metal nitrates thermally decompose to the respective oxides, but silver oxide decomposes at a lower temperature than silver nitrate, so the decomposition of silver nitrate yields elemental silver instead.
+
+
+== Uses ==
+
+
+=== Precursor to other silver compounds ===
+Silver nitrate is the least expensive salt of silver; it offers several other advantages as well. It is non-hygroscopic, in contrast to silver fluoroborate and silver perchlorate. It is relatively stable to light. Finally, it dissolves in numerous solvents, including water. The nitrate can be easily replaced by other ligands, rendering AgNO3 versatile. Treatment with solutions of halide ions gives a precipitate of AgX (X = Cl, Br, I). When making photographic film, silver nitrate is treated with halide salts of sodium or potassium to form insoluble silver halide in situ in photographic gelatin, which is then applied to strips of tri-acetate or polyester. Similarly, silver nitrate is used to prepare some silver-based explosives, such as the fulminate, azide, or acetylide, through a precipitation reaction.
+Treatment of silver nitrate with base gives dark grey silver oxide:
+2 AgNO3 + 2 NaOH → Ag2O + 2 NaNO3 + H2O
+
+
+=== Halide abstraction ===
+The silver cation, Ag+, reacts quickly with halide sources to produce the insoluble silver halide, which is a cream precipitate if Br- is used, a white precipitate if Cl− is used and a yellow precipitate if I− is used. This reaction is commonly used in inorganic chemistry to abstract halides:
+
+Ag+(aq) + X−(aq) → AgX(s)where X− = Cl−, Br−, or I−.
+Other silver salts with non-coordinating anions, namely silver tetrafluoroborate and silver hexafluorophosphate are used for more demanding applications.
+Similarly, this reaction is used in analytical chemistry to confirm the presence of chloride, bromide, or iodide ions. Samples are typically acidified with dilute nitric acid to remove interfering ions, e.g. carbonate ions and sulfide ions. This step avoids confusion of silver sulfide or silver carbonate precipitates with that of silver halides. The color of precipitate varies with the halide: white (silver chloride), pale yellow/cream (silver bromide), yellow (silver iodide). AgBr and especially AgI photo-decompose to the metal, as evidence by a grayish color on exposed samples.
+The same reaction was used on steamships in order to determine whether or not boiler feedwater had been contaminated with seawater. It is still used to determine if moisture on formerly dry cargo is a result of condensation from humid air, or from seawater leaking through the hull.
+
+
+=== Organic synthesis ===
+Silver nitrate is used in many ways in organic synthesis, e.g. for deprotection and oxidations. Ag+ binds alkenes reversibly, and silver nitrate has been used to separate mixtures of alkenes by selective absorption. The resulting adduct can be decomposed with ammonia to release the free alkene. Silver Nitrate is highly soluble in water but is poorly soluble in most organic solvents, except acetonitrile (111.8 mg/100 g, 25°C).
+
+
+=== Biology ===
+In histology, silver nitrate is used for silver staining, for demonstrating reticular fibers, proteins and nucleic acids. For this reason it is also used to demonstrate proteins in PAGE gels. It can be used as a stain in scanning electron microscopy.
+
+
+== Medicine ==
+
+Silver salts have antiseptic properties. In 1881 Credé introduced the use of dilute solutions of AgNO3 in newborn babies' eyes at birth to prevent contraction of gonorrhea from the mother, which could cause blindness. (Modern antibiotics are now used instead.)Fused silver nitrate, shaped into sticks, was traditionally called "lunar caustic". It is used as a cauterizing agent, for example to remove granulation tissue around a stoma. General Sir James Abbott noted in his journals that in India in 1827 it was infused by a British surgeon into wounds in his arm resulting from the bite of a mad dog to cauterize the wounds and prevent the onset of rabies.Silver nitrate is used to cauterize superficial blood vessels in the nose to help prevent nose bleeds.
+Dentists sometimes use silver nitrate-infused swabs to heal oral ulcers. Silver nitrate is used by some podiatrists to kill cells located in the nail bed.
+The Canadian physician C. A. Douglas Ringrose researched the use of silver nitrate for sterilization procedures, believing that silver nitrate could be used to block and corrode the fallopian tubes. The technique was ineffective.
+
+
+=== Disinfection ===
+Much research has been done in evaluating the ability of the silver ion at inactivating Escherichia coli, a microorganism commonly used as an indicator for fecal contamination and as a surrogate for pathogens in drinking water treatment. Concentrations of silver nitrate evaluated in inactivation experiments range from 10–200 micrograms per liter as Ag+. 
+Silver's antimicrobial activity saw many applications prior to the discovery of modern antibiotics, when it fell into near disuse. Its association with argyria made consumers wary and led them to turn away from it when given an alternative.
+
+
+=== Against warts ===
+
+Repeated daily application of silver nitrate can induce adequate destruction of cutaneous warts, but occasionally pigmented scars may develop. In a placebo-controlled study of 70 patients, silver nitrate given over nine days resulted in clearance of all warts in 43% and improvement in warts in 26% one month after treatment compared to 11% and 14%, respectively, in the placebo group.
+
+
+== Safety ==
+As an oxidant, silver nitrate should be properly stored away from organic compounds. Despite its common usage in extremely low concentrations to prevent gonorrhea and control nose bleeds, silver nitrate is still very toxic and corrosive. Brief exposure will not produce any immediate side effects other than the purple, brown or black stains on the skin, but upon constant exposure to high concentrations, side effects will be noticeable, which include burns. Long-term exposure may cause eye damage. Silver nitrate is known to be a skin and eye irritant. Silver nitrate has not been thoroughly investigated for potential carcinogenic effect.Silver nitrate is currently unregulated in water sources by the United States Environmental Protection Agency. However, if more than 1 gram of silver is accumulated in the body, a condition called argyria may develop. Argyria is a permanent cosmetic condition in which the skin and internal organs turn a blue-gray color. The United States Environmental Protection Agency used to have a maximum contaminant limit for silver in water until 1990, when it was determined that argyria did not impact the function of any affected organs despite the discolouration. Argyria is more often associated with the consumption of colloidal silver solutions rather than with silver nitrate, since it is only used at extremely low concentrations to disinfect the water. However, it is still important to be wary before ingesting any sort of silver-ion solution.
+
+
+== References ==
+
+
+== External links ==
+International Chemical Safety Card 1116
+NIOSH Pocket Guide to Chemical Hazards

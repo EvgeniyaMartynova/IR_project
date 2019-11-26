@@ -1,0 +1,15 @@
+Front and back office application
+
+A front office application is any software that has a direct relation to customers. It provides functionality and data necessary to take orders, configure complex products and provide effective service and support to customers. It includes customer relationship management (CRM), sales force automation, customer support and field service.  In turn, a back office application has no such direct relation. It provides functionality for internal operations such as enterprise resource planning (ERP), inventory control, manufacturing and all of the supply chain activities associated with procuring goods, services and raw materials. If an ERP system includes order entry and customer service capabilities, that system would bridge both back office and front office.
+
+
+== Examples ==
+The software enabling the customer to order a product from a company is considered a front office application. If a salesperson is typing the order into the application, it is still considered a front office application even though the customer is not directly interacting with the software.If the company uses different software to order the product from a manufacturer, it is considered a back office application.
+
+
+== See also ==
+Front office
+Back office
+
+
+== References ==

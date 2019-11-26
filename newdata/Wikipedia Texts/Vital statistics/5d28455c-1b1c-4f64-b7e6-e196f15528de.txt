@@ -1,0 +1,76 @@
+Vital signs
+
+Vital signs (also known as vitals) are a group of the four to six most important medical signs that indicate the status of the body’s vital (life-sustaining) functions. These measurements are taken to help assess the general physical health of a person, give clues to possible diseases, and show progress toward recovery. The normal ranges for a person’s vital signs vary with age, weight, gender, and overall health.There are four primary vital signs: body temperature, blood pressure, pulse (heart rate), and breathing rate (respiratory rate), often notated as BT, BP, HR, and RR. However, depending on the clinical setting, the vital signs may include other measurements called the "fifth vital sign" or "sixth vital sign". Vital signs are recorded using the LOINC internationally accepted standard coding system.Early warning scores have been proposed that combine the individual values of vital signs into a single score. This was done in recognition that deteriorating vital signs often precede cardiac arrest and/or admission to the intensive care unit. Used appropriately, a rapid response team can assess and treat a deteriorating patient and prevent adverse outcomes.
+
+
+== Primary vital signs ==
+There are four primary vital signs which are standard in most medical settings:
+
+Body temperature
+Heart rate or Pulse
+Respiratory rate
+Blood pressureThe equipment needed is a thermometer, a sphygmomanometer, and a watch. Although a pulse can be taken by hand, a stethoscope may be required for a patient with a very weak pulse.
+
+
+=== Temperature ===
+Temperature recording gives an indication of core body temperature which is normally tightly controlled (thermoregulation) as it affects the rate of chemical reactions. Body temperature is maintained through a balance of the heat produced by the body and the heat lost from the body.
+
+Temperature can be recorded in order to establish a baseline for the individual's normal body temperature for the site and measuring conditions. 
+Temperature can be measured from the mouth, rectum, axilla (armpit), ear, or skin. Oral, rectal, and axillary temperature can be measured with either a glass or electronic thermometer. Note that rectal temperature measures approximately 1°F greater than oral temperature, and axillary temperature measures about 1°F less than oral temperature. Aural and skin temperature measurements require special devices designed to measure temperature from these locations. While 98.6 °F/ 37°C is considered "normal" body temperature, there is some variance between individuals. Most have a normal body temperature set point that falls within the range of 36.0°C to 37.5°C (96.5–99.5°F).The main reason for checking body temperature is to solicit any signs of systemic infection or inflammation in the presence of a fever. Fever is considered oral temperature of >99.5°F or rectal temperature of  >100.5°F. Other causes of elevated temperature include hyperthermia, which results from unregulated heat generation or abnormalities in the body's heat exchange mechanisms.Temperature depression (hypothermia) also needs to be evaluated. Hypothermia is classified as temperature below 35 °C/95 °F . It is also recommended to review the trend of the patient's temperature over time. A fever of 38 °C does not necessarily indicate an ominous sign if the patient's previous temperature has been higher.
+
+
+=== Pulse ===
+
+The pulse is the rate at which the heart beats while pumping blood through the arteries, recorded as beats per minute (bpm). It may also be called "heart rate". In addition to providing the heart rate, the pulse should also be evaluated for strength and obvious rhythm abnormalities. The pulse is commonly taken at the wrist (radial artery). Alternative sites include the elbow (brachial artery), the neck (carotid artery), behind the knee (popliteal artery), or in the foot (dorsalis pedis or posterior tibial arteries). The pulse is taken with the index finger and middle finger by pushing with firm yet gentle pressure at the locations described above, and counting the beats felt per 60 seconds (or per 30 seconds and multiplying by two). The pulse rate can also be measured by listening directly to the heartbeat using a stethoscope.  The pulse may vary due to exercise, fitness level, disease, emotions, and medications.  The pulse also varies with age. A newborn can have a heart rate of 100-160 bpm, an infant (0-5 months old) a heart rate of 90–150 bpm, and a toddler (6-12 months old) a heart rate of 80–140 bpm. A child aged 1-3 years old can have a heart rate of 80-130 bpm, a child aged 3-5 years old a heart rate of 80-120 bpm, an older child (age of 6-10) a heart rate of 70-110 bpm, and an adolescent (age 11-14) a heart rate of 60–105 bpm. An adult (age 15+) can have a heart rate of 60–100 bpm.
+
+
+=== Respiratory rate ===
+
+Average respiratory rates vary between ages, but the normal reference range for people age 18 to 65 is 16–20 breaths per minute. The value of respiratory rate as an indicator of potential respiratory dysfunction has been investigated but findings suggest it is of limited value. Respiratory rate is a clear indicator of acidotic states, as the main function of respiration is removal of CO2 leaving bicarbonate base in circulation.
+
+
+=== Blood pressure ===
+
+Blood pressure is recorded as two readings: a higher systolic pressure, which occurs during the maximal contraction of the heart, and the lower diastolic or resting pressure. In adults, a normal blood pressure is 120/80, with 120 being the systolic and 80 being the diastolic reading. Usually, the blood pressure is read from the left arm unless there is some damage to the arm. The difference between the systolic and diastolic pressure is called the pulse pressure. The measurement of these pressures is now usually done with an aneroid or electronic sphygmomanometer. The classic measurement device is a mercury sphygmomanometer, using a column of mercury measured off in millimeters. In the United States and UK, the common form is millimeters of mercury, while elsewhere SI units of pressure are used. There is no natural 'normal' value for blood pressure, but rather a range of values that on increasing are associated with increased risks. The guideline acceptable reading also takes into account other co-factors for disease. Therefore, elevated blood pressure (hypertension) is variously defined when the systolic number is persistently over 140–160 mmHg. Low blood pressure is hypotension. Blood pressures are also taken at other portions of the extremities. These pressures are called segmental blood pressures and are used to evaluate blockage or arterial occlusion in a limb (see Ankle brachial pressure index).
+
+
+== Other signs ==
+In the U.S., in addition to the above four, many providers are required or encouraged by government technology-in-medicine laws to record the patient's height, weight, and body mass index. In contrast to the traditional vital signs, these measurements are not useful for assessing acute changes in state because of the rate at which they change; however, they are useful for assessing the impact of prolonged illness or chronic health problems.
+The definition of vital signs may also vary with the setting of the assessment. Emergency medical technicians (EMTs), in particular, are taught to measure the vital signs of respiration, pulse, skin, pupils, and blood pressure as "the 5 vital signs" in a non-hospital setting.
+
+
+=== Fifth vital signs ===
+The "fifth vital sign" may refer to a few different parameters.
+
+Pain is considered a standard fifth vital sign in some organizations, such as the U.S. Veterans Affairs. Pain is measured on a 0-10 pain scale based on subjective patient reporting and may be unreliable. Some studies show that recording pain routinely may not change management.
+Menstrual cycle 
+Oxygen saturation  (as measured by pulse oximetry)
+Blood Glucose level 
+
+
+=== Sixth vital signs ===
+There is no standard "sixth vital sign"; its use is more informal and discipline-dependent.
+
+End-tidal CO2.
+Functional status
+Shortness of breath
+Gait speed
+Delirium 
+
+
+== Variations by age ==
+Children and infants have respiratory and heart rates that are faster than those of adults as shown in the following table:
+
+
+== Monitoring ==
+Monitoring of vital parameters most commonly includes at least blood pressure and heart rate, and preferably also pulse oximetry and respiratory rate. Multimodal monitors that simultaneously measure and display the relevant vital parameters are commonly integrated into the bedside monitors in intensive care units, and the anesthetic machines in operating rooms. These allow for continuous monitoring of a patient, with medical staff being continuously informed of the changes in general condition of a patient.
+While monitoring has traditionally been done by nurses and doctors, a number of companies are developing devices which can be used by consumers themselves. These include Scanadu and Azoi.
+
+
+== See also ==
+Biotelemetry
+Medical record
+Remote Patient Monitoring
+
+
+== References ==

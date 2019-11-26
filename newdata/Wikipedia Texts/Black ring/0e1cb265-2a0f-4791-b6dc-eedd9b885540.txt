@@ -1,0 +1,21 @@
+Higher-dimensional Einstein gravity
+
+Higher-dimensional Einstein gravity is any of various physical theories that attempt to generalise to higher dimensions various results of the well established theory of standard (four-dimensional) Einstein gravity, that is, general relativity. This attempt at generalisation has been strongly influenced in recent decades by string theory.
+At present, this work can probably be most fairly described as extended theoretical speculation. Currently, it has no direct observational and experimental support, in contrast to four-dimensional general relativity. However, this theoretical work has led to the possibility of proving the existence of extra dimensions. This is best demonstrated by the proof of Harvey Reall and Roberto Emparan that there is a 'black ring' solution in 5 dimensions. If such a 'black ring' could be produced in a particle accelerator such as the Large Hadron Collider, this would provide the evidence that higher dimensions exist.
+
+
+== Exact solutions ==
+The higher-dimensional generalization of the Kerr metric was discovered by Myers and Perry.  Like the Kerr metric, the Myers-Perry metric has spherical horizon topology. The construction involves making a Kerr-Schild ansatz; by a similar method, the solution has been generalized to include a cosmological constant. The black ring is a solution of five-dimensional general relativity. It inherits its name from the fact that its event horizon is topologically S1 × S2. This is in contrast to other known black hole solutions in five dimensions which have horizon topology S3.
+
+
+== Black hole uniqueness ==
+In four dimensions, Hawking proved that the topology of the event horizon of a non-rotating black hole must be spherical. Because the proof uses the Gauss–Bonnet theorem, it does not generalize to higher dimensions. The discovery of black ring solutions in five dimensions shows that other topologies are allowed in higher dimensions, but it is unclear precisely which topologies are allowed. It has been shown that the horizon must be of positive Yamabe type, meaning that it must admit a metric of positive scalar curvature.
+
+
+== See also ==
+Gauss–Bonnet gravity
+General relativity
+Kaluza–Klein theory
+
+
+== References ==

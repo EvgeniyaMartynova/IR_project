@@ -1,0 +1,168 @@
+Apportionment (politics)
+
+Apportionment is the process by which seats in a legislative body are distributed among  administrative divisions entitled to representation.
+
+
+== Apportionment in theory ==
+The simplest and most universal principle is that elections should give each voter's intentions equal weight.  This is both intuitive and stated in historical documents such as the Fourteenth Amendment to the United States Constitution (the Equal Protection Clause).  However, there are a variety of historical and technical reasons why this principle is not followed absolutely or, in some cases, as a first priority.
+
+
+=== Common problems ===
+Fundamentally, the representation of a population in the thousands or millions by a reasonable size, thus accountable governing body involves arithmetic that will not be exact.  Although it could make representation more exact for a representative's votes (on proposed laws and measures etc.) to be weighted according to the number of his constituents, it avoids complexity in governance, giving equality between representatives, if each elected representative has exactly 1 vote.
+Over time, populations migrate and change in number, and preferences change.  Governing bodies, however, usually exist for a defined term of office.  While Parliamentary systems provide for dissolution of the body in reaction to political events, no system tries to make real-time adjustments (during one term of office) to reflect demographic changes.  Instead, any redistricting takes effect at the next scheduled election or next scheduled census.
+
+
+=== Apportionment by district ===
+In some representative assemblies, each member represents a geographic district.  Equal representation requires that districts comprise the same number of residents or voters.  But this is not universal, for reasons including the following:
+
+In federations like the United States and Canada, the regions, states, or provinces are important as more than mere election districts.  For example, residents of New York State identify as New Yorkers and not merely as members of some 415th Congressional district; the state also has institutional interests that it seeks to pursue in Congress through its representatives.  Consequently, election districts do not span regions.
+Malapportionment might be deliberate, as when the governing documents guarantee outlying regions a specific number of seats.  Denmark guarantees two seats each for Greenland and the Faroe Islands; Spain (see below) has a number of designated seats; and Canada (see below) favors its territories.  Remote regions might have special views to which the governing body should give dedicated weight, otherwise might be inclined to secede.
+A lowest common denominator between adjoining voters exists, the voting place or administrative quantum (for example, a municipality, a precinct, a polling district) traditionally designed for voting convenience, tending to unite small clusters of homes and to remain little changed.  The government (or an independent body) does not organize the perfect number of voters into an election district, but a roughly appropriate number of voting places.
+The basis for apportionment may be out of date.  For example, in the United States, apportionment follows the decennial census.  The states conducted the 2010 elections with districts apportioned according to the 2000 Census.  The lack of accuracy does not justify the present cost and perceived intrusion of a new census before each biennial election.A perfectly apportioned governing body would assist but does not ensure good representation; voters who did not vote for their district's winner might have no representative who is disposed to voice their opinion in the governing body. Conversely, a representative in the governing body may voice the opinions held by a voter who is not actually their constituent, though representatives usually seek to serve their own constituents first and will only voice the interests of an outside group of voters if it pertains to their district as well or is of national importance. The representative has the power, and in many theories or jurisdictions the duty, to represent the whole cohort of people from their district.
+
+
+=== Apportionment by party list ===
+Nations such as Israel and the Netherlands use party-list proportional representation elections.  Mexico does so for some of the members of its lower house.
+In this system, voters do not vote for a person to represent their geographic district, but for a political party that aligns with the voter's philosophy.  Each party names a number of representatives based on the number of votes it receives nationally.
+This system tallies (agglomerates) more of the voters' preferences.  As in other systems parties with very few voters do not earn a representative in the governing body.  Moreover, most such systems impose a threshold that a party must reach (for example, some percentage of the total vote) to qualify to obtain representatives in the body which eliminates extreme parties, to make the governing body as orderly in non-proportionate systems. With the minimum votes threshold version, if a subtype of single-issue politics based on a local issue exists, those parties or candidates distancing themselves from a broad swathe of electoral districts, such as marginal secessionists, or using a marginal minority language, may find themselves without representation.
+The vast majority of voters elect representatives of their philosophies.  However, unlike district systems (or the hybrid models) no one elects a representative that represents him/her, or the specific region, and voters might reduce personal contact with their representatives.
+
+
+=== Mathematics of apportionment ===
+There are many different mathematical schemes for calculating apportionment, differing primarily in how they handle rounding of fractional representatives.  The schemes can produce different results in terms of seats for the relevant party or sector. Additionally, all methods are subject to one or more anomalies.  The article on the largest remainder method presents several schemes and discusses their trade-offs, with examples.
+
+
+== Malapportionment ==
+Malapportionment is the creation of electoral districts with divergent ratios of voters to representatives. For example, if one single-member district has 10,000 voters and another has 100,000 voters, voters in the former district have ten times the influence, per person, over the governing body.  Malapportionment may be deliberate, for reasons such as favouring equity of groups over equality of individuals. For example, in a federation, each member unit may have the same representation regardless of its population.
+The effect might not be just a vague empowerment of some voters but a systematic bias to the nation's government. Many instances worldwide arise in which large, sparsely populated rural regions are given equal representation to densely packed urban areas. For example, in the United States (see below), the Republican Party benefits from institutional advantages to rural states with low populations, such that the Senate and the Presidency may reflect results counter to the total popular vote.  Unequal representation that does not introduce biases into the governing body is not as controversial.
+Unequal representation can be measured in the following ways:
+
+By the ratio of the most populous electoral district to the least populous.  In the two figures above, the ratio is 10:1.  A ratio approaching 1:1 means there are no anomalies among districts.  In India in 1991, a ratio of nearly 50:1 was measured.  The Reynolds v. Sims decision of the U.S. Supreme Court found ratios of up to 1081:1 in state legislatures.  A higher ratio measures the severity of the worst anomalies, but does not indicate whether inequality is prevalent. The maximum electoral disparity.
+By the standard deviation of the electorates of electoral districts.
+By the smallest percentage of voters that could win a majority in the governing body due to disparities in the populations of districts.  For example, in a 61-member body, this would be half the voters in the 31 districts with the lowest populations.  It is persuasive to show that far fewer than 50% of the voters could win a majority in the governing body.  But it requires additional research to conclude that such an outcome is realistic: whether the malapportionment is systematic and designed to bias the body, or is the result of random factors that give extra power to voters whose interests are unlikely to coincide.Even when electoral districts have similar populations, legislators may draw the boundaries to pursue private agendas; see Gerrymandering.
+
+
+== Apportionment by country ==
+
+
+=== Australia ===
+The Australian Senate is elected on a basis of equality among the States: all States elect 12 senators. Tasmania, with a population of 502,000, elects the same number of senators as New South Wales, with almost 7.1 million. This was deliberate under the Australian Constitution to protect the less populous States, without which federation would not have been agreed to, and can only be changed via a national referendum. A more minor system of malapportionment also takes place in the House of Representatives. While seats are allocated between states in proportion to population, each state is constitutionally guaranteed a minimum of five seats. At present, Tasmania is the only state affected by this provision. As such, while federal divisions in other states average just over 100,000 voters, Tasmania's divisions average around 75,000.
+There has been malapportionment of electoral districts in both the Federal and State legislatures in the past, often resulting in rural constituencies containing far fewer voters than urban ones and maintaining in power those parties that have rural support despite polling fewer popular votes. Past apportionments in Queensland, Western Australia and the 'Playmander' in South Australia were notorious examples of the differences between urban and rural constituency sizes.  In extreme cases, rural areas had four times the voting power of metropolitan areas.  Supporters of such arrangements claimed Australia's urban population dominates the countryside and that these practices gave fair representation to country people. (See: Australian electoral system#Gerrymandering and malapportionment.)
+
+
+=== Canada ===
+In Canada, each federal electoral district ("riding") is represented by one Member of Parliament (MP). Ridings are based on population, but each territory is also given an MP; so Nunavut receives one MP even though its population in 2006 was only 29,474.
+Certain provisions in the Constitution and law (the "grandfather clause" and the "senatorial clause") guarantee that provinces cannot have fewer MPs than they had in 1982. The apportionment method is to grant one MP to each territory, and allocate 279 other MPs according to population among the 10 provinces. After doing so, the provinces with slower historical population growth since joining the Confederation receive extra ridings so as not to lose MPs. After the 1991 Census, 19 extra ridings were created, making a total of 301. After the 2001 Census, seven more ridings were created, making a total of 308.
+That ridings were not eliminated but only added created huge disparities. For example, in 2006 the Peace River riding in Alberta had a population of 138,009, whilst Charlottetown riding in Prince Edward Island had a population of 32,174; yet both ridings received equal representation in the House of Commons. Rural ridings even in populous provinces also tended to have more constituents than urban ridings.
+The Fair Representation Act, passed in 2011 and effective for the federal election that took place in 2015, specified a uniform "electoral quotient" of 111,166 (to be readjusted after each future census) but again ensured that no province would lose ridings, increasing the size of the House of Commons to 338.
+
+
+=== European Parliament ===
+
+The apportionment of seats in the European Parliament  between European Union member states uses a principle of degressive proportionality; those with larger population have more Members of the European Parliament (MEPs) but a higher population per MEP. The exact apportionment is specified by negotiated treaty. While most member states elect their MEPs from a single national constituency, six are subdivided into multiple European Parliament constituencies. Those of France, Ireland, and Italy have low variance in population per MEP, as does the UK with Northern Ireland as an outlier. Poland's vary from 559,000 in Warsaw to 1,326,000 in Podlaskie and Warmian-Masurian, the latter figure higher than in any of the states with larger populations. Belgium's division into "electoral colleges" is not strictly geographic, but rather by language community, such that voters in the officially bilingual Brussels-Capital Region can vote in either the Dutch-speaking or French-speaking electoral college. The single-MEP German-speaking electoral college significantly overrepresents the German-speaking Community of Belgium.
+
+
+=== Japan ===
+Since electoral system of Shugiin was changed to Parallel voting in 1994, each prefecture has been guaranteed one seat apportionment regardless of its population. This apportionment method was called "separated one method" and the supreme court judged that the system is under unconstitutional state in 2009, 2012, and 2016.
+In 2017, electoral districts were rearranged so that every district does not have twice as large population as another district.
+
+
+=== Malaysia ===
+The voters in rural districts are over-represented in Malaysia while the urban districts are under-represented. The largest parliamentary seat (Kapar) is nine times larger than the smallest one (Putrajaya). On average, the rural parliamentary seats are over-represented by six times compared to the urban seats.
+
+
+=== New Zealand ===
+Between 1881 and 1945 New Zealand applied a system of malapportionment called the country quota, which required urban districts to contain more people than rural ones but did not give them any equivalent increase in representation.
+
+
+=== Norway ===
+Out of the 169 seats in the Storting, 150 are apportioned among the 19 Counties of Norway with deliberate bias in favor of rural areas. The number of seats for a county is decided using a formula in which a county receives 1 point for every inhabitant and 1.8 points for every square kilometer of land area. However, the bias is reduced by the 19 compensation seats, which are given to parties that are underrepresented. Thus the system does not have a great effect on the partisan composition of the Storting, but does result in more MPs coming from rural counties. Electoral researcher Bernt Aardal calculated that if the 2009 parliamentary election had been conducted without this bias, the Labour Party and Progress Party would both have lost a seat, while the Red Party and Liberal Party would each have gained one, reducing the majority of the Red-Green Coalition from 3 seats to 1.
+
+
+=== Slovakia ===
+The difference in electorates between the districts was a matter before the Constitutional Court and UN Human Rights Committee, both of which found the rights of a candidate not elected in a district with larger electorate to be violated, but did not request new elections.
+
+
+=== South Africa ===
+In the South African general election of 1948, South Africa's constituency boundaries meant that sparsely populated rural constituencies in the Afrikaner heartland had relatively few eligible voters compared to the urban constituencies in Cape Town. The rural electorates often strongly supported the Reunited National Party, led by Daniel Malan and the urban electorates often supported Jan Christiaan Smuts' United Party (the incumbent prime minister and his party, 90% of whose seats were urban). The 1948 general election saw the Reunited National Party winning more seats than the United Party, meaning that Malan was able to form a government bilaterally with the Afrikaner Party and gain an absolute majority in parliament. This was despite the fact the United Party had won 49% of the vote compared to 38% for Malan's party. By comparison, the British general election of 1945 was also conducted under first past the post but with more equal constituencies, and produced a landslide victory for a party which received 47% of the vote. Malapportionment was a key tool that allowed the National Party to implement its Apartheid program within the notionally democratic parliament.
+
+
+=== Spain ===
+The Spanish Congress of Deputies consists of 350 members. Each Spanish province is a constituency entitled to an initial minimum of two seats for a total of 100 seats, while the North African enclaves of Ceuta and Melilla are allocated one member each. The remaining 248 seats are allocated among the fifty provinces in proportion to their populations. The result is that the smaller provinces are virtually guaranteed a minimum of three seats and have a disproportionate share of seats relative to their electorate. For example, in 2004, Spain had 34,571,831 voters, an average of 98,777 voters per deputy. However, the number of voters per deputy varied from 129,269 in Barcelona  and 127,377 in Madrid  to 38,714 and 26,177 respectively in the smallest provinces of Teruel  and Soria.In the Spanish Senate each of the forty-seven mainland provinces are assigned four seats, while the three largest islands are allocated three seats each, and the seven smaller islands one each. The North African enclaves of Ceuta and Melilla are allocated two seats each. Additionally, the legislative assemblies of the seventeen autonomous communities into which the provinces of Spain are grouped are entitled to appoint at least one Senator each, as well as one Senator for every million voters. The result is a bias in favour of mainly rural areas. For example, the community of Madrid with 4,458,540 voters in 2004 has 9 senators while Castilla y León with 2,179,521 voters has a total of 39 senators.
+
+
+=== United Kingdom ===
+The number of electors in a United Kingdom constituency can vary considerably. This variation has resulted from:
+
+Legislation; beginning with the Redistribution of Seats Act 1958, which replaced an electoral quota (ideal population) for the whole United Kingdom with four separate quotas: England 69,534; Northern Ireland 67,145, Wales 58,383, and Scotland 54,741 voters per constituency.
+Decisions of the four UK Boundary Commissions to favour geographically "natural" districts.
+Population migrations between boundary reviews, which have tended to decrease the number of voters in inner-city districtsFrom the next General Election the maximum disparity in size of local electorates will be less, about fourfold, from Scotland's Na h-Eileanan an Iar (21,837 voters) and Orkney and Shetland (33,755), to England's East Ham (91,531), and the Isle of Wight (110,924).
+
+Periodic reviews by the Boundary Commissions are submitted to the House of Commons for approval, primarily to prevent the reemergence of any new rotten boroughs. The House is allowed to ignore or delay implementation of their findings, but not change them. The Sixth Periodic Review of Westminster constituencies, instigated to reduce the number of MPs from 650 to 600 and address the current malapportionment, was suspended until after the 2015 and 2017 general elections, by votes of the House in 2013 and 2016.
+
+
+=== United States ===
+Apportionment at the federal level of the United States government is guided by the rubrics of the U.S. Constitution. The writers of the Constitution designed the nation's bicameral Legislature to include, a Senate (the upper legislative chamber) to represent the states, and a House of Representatives (the lower legislative chamber) to represent the people rather than the states. Each state—in its entirety—is equally represented in the Senate by two senators, regardless of its population. The constitution guarantees each state at least one representative for its people in the House, while the size of a state's House delegation depends on its total population. Each state is apportioned a number of seats which approximately corresponds to its share of the aggregate population of the 50 states, as determined by the most recent decennial U.S. census. This governance plan came about as a result of the Connecticut Compromise reached during Constitutional Convention of 1787 between delegates from states with a large population and those from states with a small population. The Constitution also prescribes that the President and Vice President be elected by a group of people apportioned among the states in the same numbers as their representatives in Congress, called the Electoral College.
+As the Constitution's apportionment procedures are established solely for the states in the Union, neither the District of Columbia nor the country's territories and possessions are included. Therefore, they do not have the same representation in the federal government as states do.
+
+
+==== Senate ====
+Under Article I, Section 3, of the U.S. Constitution, each state has two seats in the Senate. This equality of representation is shielded from being amended by Article V which specifies that no state, without its consent, shall be deprived of having the same number of seats as the others. (Neither the District of Columbia, nor the country's territories and possessions have representation in the Senate, as they are not states.)
+Senators from each state were originally elected by that state's legislature, and influenced only indirectly by the voters, through their election of state legislators. The 17th Amendment, ratified in 1913, provided for direct election of U.S. Senators. It did not however, change the principle of equal representation of the states in the Senate, which, as James Madison noted in The Federalist No. 39, ensures a polity of mixed sovereignty, one in which the states are an integral part of the federal government. This, of course, is precisely why those who do not think the Constitution not democratic enough would wish to remove that portion of the Constitution. The 38 million people who live in the nation’s  22 least populous states are represented by 44 senators, while the 38 million residents of California, the most populous state, are represented by two.
+
+
+==== House ====
+
+The House of Representatives, by comparison, is required by Article I, Section 2, to be "apportioned among the several states... according to their respective numbers." The Constitution does not provide for either fractional votes nor Congressional seats spanning states, and guarantees every state at least one Representative. Thus, a resident of a state whose population just barely qualifies for two Representatives has almost twice the relative influence as a resident of a state that does not quite qualify for two.
+2 U.S.C. § 2a, based on the Reapportionment Act of 1929, reapportions the Representatives to the states following each decennial census. It left the states to decide how and whether to redistrict, except in the case that the census changes the state's number of Representatives, but federal court cases now require states to redistrict based on each census.
+However, here too, other criteria take precedence over exact equality of representation. In 2012, the Supreme Court endorsed Tennant v. Jefferson County the use of other criteria, including the legislature's reluctance to move voters between districts, to put incumbent Congressmen in the same district, and to divide counties between districts, when the State of West Virginia redrew its three Congressional districts with a disparity of 0.79% between the most populous and least populous district.
+Washington, D.C. and the five largest possessions are instead represented by non-voting delegates. During the tenure of Speaker of the House Tip O'Neill between 1977 and 1987, these delegates were allowed to vote on legislation except for the final, formal vote on enactment. The country's other possessions do not have any representation in the House.
+
+
+==== President ====
+The U.S. President is elected only indirectly by voters, through the Electoral College. Under Article II, Section 1, Clause 2, of the U.S. Constitution, the number of electors for every state is the sum of the number of that state's senators and representatives. This was also a result of the original Connecticut Compromise between large and small states. The effect is to give each state a two-elector bonus (for the state's two Senators) regardless of population. A low-population state does not receive one elector in a body of 435, but three electors out of 535. The two-elector bonus is comparatively minor for a state with a high population.
+Washington, D.C. did not have a voice in the selection of the President until 1961, when the 23rd Amendment was ratified, giving D.C. the treatment of a state in the Electoral College ("but in no event more than the least populous State"; that is, three electors, increasing the total number of electors to 538).
+U.S. territories and possessions still have no voice in the selection of the President. In 2000, Puerto Rico attempted to include the U.S. Presidential election on its ballots, knowing that the Electoral College would not count its result. However, the move was declared unconstitutional by the First Circuit Court of Appeals, and the Presidential ballot was not handed out to voters on election day.A separate obstacle to proportional representation is that almost all of the states choose electors on a "winner-take-all" basis, where the state's electors are awarded to the candidate with the most popular votes in that state. Maine and Nebraska are the only states that instead use the "congressional district method", selecting one elector within each congressional district by popular vote and awarding two electors by a statewide popular vote. With the "winner-takes-all" method used by most of the states, a candidate can still win the presidency without winning the national popular vote (such as what happened in 1824, 1876, 1888, 2000, and 2016).
+The Electoral College denies voters equal influence in the presidential election. However, it induces presidential candidates to campaign outside large population centers and insulates small states from being overwhelmed by election irregularities in large population centers. On the other hand, the electoral college encourages political campaigners to focus on so-called "swing states" while ignoring the rest of the country. States in which polling shows no clear favorite are usually inundated with campaign visits, television advertising, get-out-the-vote efforts by party organizers and debates, while "four out of five" voters in the national election are "absolutely ignored," according to one assessment.In the event that the Electoral College does not produce a majority for any candidate, the 12th Amendment (roughly as Article II, Section 1 had done) throws the election to the U.S. House (the U.S. Senate choosing the Vice President), but under a procedure where each state's delegation, regardless of size, casts one vote—thus giving smaller states more voting power in the event of a deadlock than larger states. For example, Wyoming, with only one representative, has the same power as California, with 53 representatives.
+
+
+==== State senates ====
+The United States government was a construct of the thirteen states, and the Constitution's only original constraint on the states was, in Article IV, Section 4, that the federal government "guarantee to every state... a republican form of government." Though the Fourteenth Amendment contains the Equal Protection Clause and bars the states from "abridging" voting rights, the text does not address apportionment.
+Instead, most state legislatures imitated the Congress, in which the lower house is apportioned by population, while the upper house is apportioned by some other criterion. For example, each county might have one state senator.
+In the 1960s, in cases such as Baker v. Carr and Reynolds v. Sims (the "one man, one vote" decision), the U.S. Supreme Court ruled that the Equal Protection Clause authorized judicial remedy when a significant disparity in population size arises between electoral districts within a state. The biggest immediate effect was to require that state senate districts have substantially equal populations, as Chief Justice Earl Warren wrote, "Legislators represent people, not trees or acres." These cases also opened apportionment of state houses of representatives to review by the judiciary.
+
+
+==== State legislatures ====
+In most states, the legislature draws the boundaries of electoral districts, including its own; and even court decisions that set aside malapportionment acknowledge that political self-interest plays a role in decisions of the legislature. Legislatures and the majority party can pursue self-interest by gerrymandering—contriving legislative districts to promote the election of specific individuals or to concentrate the opposition party's core constituencies in a small number of districts—or by simply declining to reapportion at all, so that the make-up of a legislature fails to track the evolving demographics of the state. Many states now redistrict state electoral districts following each decennial federal census, as Reynolds v. Sims required for Congressional districts.
+A state may draw districts that span political subdivisions and elect multiple representatives, and may draw floterial districts, to match representation to population more precisely than the U.S. House does (see above).
+The basis of apportionment has also been litigated. In Evenwel v. Abbott (2016), a unanimous Supreme Court ruled that "constitutional history, precedent, and practice" support basing districts on population, even when some districts thus had 40% more voters than others.
+
+
+==== Prospects for change ====
+Arguments for or against change to these institutions often have political overtones. The Democratic Party often advocates change, as it is generally more popular in large cities and many of the more populated states, while the Republican Party often defends the current system, as that party is more popular in rural areas and many of the less populated states.
+Any changes would require amendment of the Constitution. But the procedure for doing this also contains protections for states with low populations. Article V, Section 1 requires any amendments to be ratified by three-fourths of the states (currently, 38). Most small states would refuse to ratify any amendment that nullified their traditional advantages.
+Various states have joined the National Popular Vote Interstate Compact, pledging that their legislatures will direct their Presidential electors to vote for whichever presidential candidate wins the national popular vote. This would partly counteract the advantage the Electoral College gives to low-population states, though it might reduce the joiners' influence during presidential campaigns.
+
+
+== Footnotes ==
+
+
+== See also ==
+United States congressional apportionment
+Apportionment in the European Parliament
+Rotten and pocket boroughs
+Gerrymandering
+History of 19th century congressional redistricting in Ohio
+
+
+== References ==
+
+
+== External links ==
+P.A. Madison's historical review of the 14th amendment's apportionment clause.
+Reapportionment and Redistricting in the US an article from the ACE Project
+Index of articles relating to Boundary Delimitation from the ACE Project
+Explanation of the 1991 and 1992 US Supreme Court cases challenging the use of the method of equal proportions
+A guide to the various formulae for apportionment, and statistical differences between them
+The House of Representatives Apportionment Formula: An Analysis of Proposals for Change and Their Impact on States
+The Controversy Over Apportionment, Alfred de Grazia, 1968

@@ -1,0 +1,25 @@
+Content as a Service
+
+Content as a service (CaaS) or managed content as a service (MCaaS) is a service-oriented model, where the service provider delivers the content on demand to the service consumer via web services that are licensed under subscription. The content is hosted by the service provider centrally in the cloud and offered to a number of consumers that need the content delivered into any applications or system, hence content can be demanded by the consumers as and when required.
+Content as a Service is a way to provide raw content (in other words, without the need for a specific human compatible representation, such as HTML) in a way that other systems can make use of it. Content as a Service is not meant for direct human consumption, but rather for other platforms to consume and make use of the content according to their particular needs. This happens usually on the cloud, with a centralized platform which can be globally accessible and provides a standard format for your content. With Content as a Service, you centralize your content into a single repository, where you can manage it, categorize it, make it available to others, search for it, or do whatever you wish with it.
+
+
+== Overview ==
+The content delivered typically could be one or more of the following
+
+The technical terminology related to equipments or spares that is required to procure or design the materials
+The industrial terminology of the equipments or spares
+Technical values pertaining to various types, specifications, applications, characteristics of equipments or spares
+Sourcing information which will help in procurement or supply-chain management of equipments or spares
+Descriptive specifications of equipments or spares based on the product reference number or identifier
+UNSPSC codes or industry practiced classifications
+ISO, IEC compliant terminology
+Ontology or Technical Dictionary of products & services
+Predefined content for specific business needsThe term "content as a service" (CaaS) is considered to be part of the nomenclature of cloud computing service models & Service-oriented architecture along with software as a service (SaaS), Infrastructure as a service (IaaS), platform as a service (PaaS), desktop as a service (DaaS), managed software as a service (MSaaS), digital content as a service (DCaaS), mobile backend as a service (MBaaS), and information technology management as a service (ITMaaS)
+
+
+== See also ==
+Cloud computing service models
+
+
+== References ==

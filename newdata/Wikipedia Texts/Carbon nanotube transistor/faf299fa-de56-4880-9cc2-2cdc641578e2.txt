@@ -1,0 +1,44 @@
+Tunnel diode
+
+A tunnel diode or Esaki diode is a type of semiconductor diode that has negative resistance due to the quantum mechanical effect called tunneling. It was invented in August 1957 by Leo Esaki, Yuriko Kurose, and Takashi Suzuki when they were working at Tokyo Tsushin Kogyo, now known as Sony. In 1973, Esaki received the Nobel Prize in Physics, jointly with Brian Josephson, for discovering the electron tunneling effect used in these diodes. Robert Noyce independently devised the idea of a tunnel diode while working for William Shockley, but was discouraged from pursuing it. Tunnel diodes were first manufactured by Sony in 1957, followed by General Electric and other companies from about 1960, and are still made in low volume today.Tunnel diodes have a heavily doped p–n junction that is about 10 nm (100 Å) wide. The heavy doping results in a broken band gap, where conduction band electron states on the n-side are more or less aligned with valence band hole states on the p-side. They are usually made from germanium, but can also be made from gallium arsenide and silicon materials. Their negative differential resistance in part of their operating range allows them to function as oscillators and amplifiers, and in switching circuits using hysteresis. They are also used as frequency converters and detectors. Their low capacitance allows them to function at microwave frequencies, above the range of ordinary diodes and transistors.
+
+Tunnel diodes are not widely used due to their low output power; their RF output is limited to several hundred milliwatts due to their small voltage swing. In recent years, however, new devices that use the tunneling mechanism have been developed. The resonant-tunneling diode (RTD) has achieved some of the highest frequencies of any solid-state oscillator. Another type of tunnel diode is a metal–insulator–metal (MIM) diode, but its present application appears to be limited to research environments due to inherent sensitivities. There is also a metal–insulator–insulator–metal (MIIM) diode, where an additional insulator layer allows "step tunneling" for precise diode control.
+
+
+== Forward bias operation ==
+Under normal forward bias operation, as voltage begins to increase, electrons at first tunnel through the very narrow p–n junction barrier and fill electron states in the conduction band on the n-side which become aligned with empty valence band hole states on the p-side of the p-n junction. As voltage increases further, these states become increasingly misaligned, and the current drops. This is called negative differential resistance because current decreases with increasing voltage. As voltage increases, the diode begins to operate as a normal diode, where electrons travel by conduction across the p–n junction, and no longer by tunneling through the p–n junction barrier. The most important operating region for a tunnel diode is the negative resistance region. Its graph is different from normal p–n junction diode.
+
+
+== Reverse bias operation ==
+
+When used in the reverse direction, tunnel diodes are called back diodes (or backward diodes) and can act as fast rectifiers with zero offset voltage and extreme linearity for power signals (they have an accurate square law characteristic in the reverse direction). Under reverse bias, filled states on the p-side become increasingly aligned with empty states on the n-side, and electrons now tunnel through the p–n junction barrier in reverse direction.
+
+
+== Technical comparisons ==
+
+In a conventional semiconductor diode, conduction takes place while the p–n junction is forward biased and blocks current flow when the junction is reverse biased. This occurs up to a point known as the "reverse breakdown voltage" at which point conduction begins (often accompanied by destruction of the device). In the tunnel diode, the dopant concentrations in the p and n layers are increased to a level such that the reverse breakdown voltage becomes zero and the diode conducts in the reverse direction. However, when forward-biased, an effect occurs called quantum mechanical tunneling which gives rise to a region in its voltage-current behavior where an increase in forward voltage is accompanied by a decrease in forward current. This negative resistance region can be exploited in a solid state version of the dynatron oscillator which normally uses a tetrode thermionic valve (vacuum tube).
+
+
+== Applications ==
+The tunnel diode showed great promise as an oscillator and high-frequency threshold (trigger) device since it operated at frequencies far greater than the tetrode could: well into the microwave bands. Applications of tunnel diodes included local oscillators for UHF television tuners, trigger circuits in oscilloscopes, high-speed counter circuits, and very fast-rise time pulse generator circuits. In 1977, the Intelsat V satellite receiver used a microstrip tunnel diode amplifier (TDA) front-end in the 14 to 15.5 GHz frequency band. Such amplifiers were considered state-of-the-art, with better performance at high frequencies than any transistor-based front end.  The tunnel diode can also be used as a low-noise microwave amplifier. Since its discovery, more conventional semiconductor devices have surpassed its performance using conventional oscillator techniques. For many purposes, a three-terminal device, such as a field-effect transistor, is more flexible than a device with only two terminals. Practical tunnel diodes operate at a few milliamperes and a few tenths of a volt, making them low-power devices. The Gunn diode has similar high frequency capability and can handle more power.
+Tunnel diodes are also more resistant to ionizing radiation than other diodes. This makes them well suited to higher radiation environments such as those found in space.
+
+
+=== Longevity ===
+Tunnel diodes are notable for their longevity, with devices made in the 1960s still functioning. Writing in Nature, Esaki and coauthors state that semiconductor devices in general are extremely stable, and suggest that their shelf life should be "infinite" if kept at room temperature. They go on to report that a small-scale test of 50-year-old devices revealed a "gratifying confirmation of the diode's longevity". As noticed on some samples of Esaki diodes, the gold plated iron pins can in fact corrode and short out to the case. This can usually be diagnosed and treated with simple peroxide/vinegar technique normally used for repairing phone PCBs and the diode inside normally still works.These components are susceptible to damage by overheating, and thus special care is needed when soldering them.
+Surplus Russian units are also reliable and often can be purchased for a few pence despite original cost being in the £30–50 range.
+The units typically sold are GaAs based and have a Ipk/Iv ratio of 5:1 at around 1–20 mA Ipk, and so should be protected against overcurrent.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Bibliography ==
+Donald G. Fink (ed.), Electronic Engineers Handbook, McGraw Hill, New York, 1975, ISBN 0-07-020980-4.
+
+
+== External links ==
+Tunnel Diode tutorial

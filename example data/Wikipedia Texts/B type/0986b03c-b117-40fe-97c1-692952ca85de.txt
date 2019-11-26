@@ -1,0 +1,138 @@
+Type B videotape
+
+1 inch type B VTR (designated Type B by SMPTE) is a reel-to-reel analog recording video tape format developed by the Bosch Fernseh division of Bosch in Germany in 1976. The magnetic tape format became the broadcasting standard in continental Europe, but adoption was limited in the United States and United Kingdom, where the Type C videotape VTR met with greater success.
+
+
+== Details ==
+The tape speed allowed 96 minutes on a large reel (later 120 minutes), and used 2 record/playback (R/P) heads on the drum rotating at 9000 RPM with a 190 degree wrap around a very small head drum, recording 52 video lines per head segment.  Video is recorded on an FM signal with a bandwidth of 5.5 MHz. Three longitudinal audio tracks are recorded on the tape as well: two audio and one Linear timecode (LTC) track. BCN 50 VTRs were used at the 1980 Summer Olympics in Moscow.The format required an optional, and costly, digital framestore in addition to the normal analog timebase corrector to do any "trick-play" operations, such as slow motion/variable-speed playback, frame step play, and visible shuttle functions. This was because, unlike 1 inch type C which recorded one field per helical scan track on the tape, Type B segmented each field to 5 or 6 tracks per field according to whether it was a 525 (NTSC) or 625 (PAL) line machine.The picture quality was excellent, and standard R/P machines, digital frame store machines, reel-to-reel portables, random access cart machines (for playback of short-form video material such as television commercials), and portable cart versions were marketed.Echo Science Corporation, a United States company, made units like a BCN 1 for the U.S. military for a short time in the 1970s. Echo Science models were Pilot 1, Echo 460, Pilot 260.
+
+
+== Models introduced ==
+BCR (BCR 40, BCR 50 and BCR 60)was a pre BCN VTR, made with Philips, the large scanner made it not useful,
+BCN40  (1976, record unit with no TBC playback)
+BCN50  (1976, recorder with TBC playback)
+BCN20  (1976, one hour, portable with no TBC playback)
+BCWQ   ("L" Unit for BCN20/21, added TBC playback to the portable units)
+Effects control option for digital framestore, for freeze frame, quad split and mirror effects (early digital Special effects).
+BNC51  (recorder with TBC playback, optional Slow motion and visible shuttle)
+BCN5   (26½ pound, portable cart recorder, 40 min.)
+BCN100 (random access 32 multicassette machine, up to 16 hours rec/playback-20 min per tape) Each unit had 3 tape desks with a 21 sec load time each cart. For on air palyback and 3 deck editing system
+BCN52  (recorder with Digital TBC playback, with slow motion & visible shuttle)
+BCN21  (lightweight reel to reel portable with no TBC playback, first Composite material VTR)
+BCN53  (recorder with Digital TBC playback, with slow motion & visible shuttle)
+HR-400 : RCA also sold the BCN50 as an HR-400.
+
+
+== Special BCN units ==
+Ruxton Video in Burbank (1970–1980s) used modified BCNs for 24 Frame playback to TVs used on movie studio sets. Thus the TVs had no flicker when seen on film, due to the film-compatible frame rate. Bill Hogan of Ruxton Ltd received in 1981 an Academy Award for Technical Achievement for his 24frame TV  work.
+Image Transform in Universal City, co-founded by Ken Holland, in 1970, used specially modified BCNs to record 24-frame video also, but for their "Image Vision" system. The BCN would record and play back 24-frame video at 10 MHz bandwidth, with twice the standard 525-line NTSC resolution. To record this the headwheel and capstan ran at twice normal speed. Modified 24 frame/s 10 MHz Bosch Fernseh KCK-40 professional video cameras were used on the set. This was a custom pre-HDTV video system. This Image Vision recording could then be recorded to film on a modified 3M Electron Beam film recorder (EBR). Image Transform had modified other gear for this process. At its peak, this system was used to make "Monty Python Live at the Hollywood Bowl" in 1982. This was the first major use of early electronic cinema technology (using wideband high-resolution analog video technology, predating IT-based DI (digital intermediate) post production for film nowadays) using a film recorder for Film out. Electronovision was also a pre-process like Image Vision. Merlin Engineering also worked on the BCN's wide bandwidth, 10 MHz, BCN modification.
+Bell and Howell (later Rank Video Services) used special BCNs for mass VHS duplication. These specially-modified BCN VTRs could play back movies at two times the normal speed. In addition, the sync signals were also were at two times speed as well.  For proper playback, the headwheel and capstan also ran at twice normal speed. Specially modified VHS recorders could record this video. In doing this, the duplication plant could output twice the product than normal videocassette duplicating systems.Bell and Howell's Data Tape division in Pasadena, California modified BCNs to record high speed data for instrumentation purposes. These instrumentation recordings were mostly used by US government agencies, such as for NASA on the Space Shuttle. This unit could record data from up to 800 sensors.
+Because of the small scanner, BCNs could record even at high g-forces. Hand picked BCN20 VTRs could record at low temperatures, down to -40 °C (-40 °F). This was done at the Olympic Winter Games in Lake Placid (1980) and in Sarajevo (1984).
+Some users modified BCNs to fit 2-hour reels of tape on the BCN, so complete 2-hour movies could fit on one reel of tape. Bosch later made this a factory option, and was designated as BCN LP.
+Bosch also offered SLP BCN, a "long-play" variant of the format.  It moved the tape at 1/3 speed so that up to 6 hours could be recorded one reel. The unit has a special head wheel with azimuth head. This was mostly used for time zone tape delay by television networks. With a head wheel change and a switch the unit could be returned to normal play.
+One of the first Digital SDTV VTRs was a non-production prototype BCN deck that could record and play back early type of CCIR 601 digital signals. These three Bosch VTRs paved the way for the later SMPTE D1 VTR standard. In 1985 and 1986 in a Rennes experimental digital studio in France, an experimental all-digital television center was made, it used the two all digital BCN units.
+The BCH 1000 is an analog HDTV VTR that records and playbacks HD-MAC at 50 frames per second, each at a resolution of 2048×1152. The BCH 1000 was used in the 1992 Summer Olympic Games in Barcelona and 1992 Winter Olympics in Albertville.
+		
+		
+		
+		
+
+
+== Specifications ==
+1 Inch open reel to reel analog video system.
+Video scanner rotation 9600 rpm, a minute, 150 rps.
+52 horizontal lines per head.
+Video FM signal at a bandwidth of 5,5 MHz
+Three analog audio tracks: 2 audio tracks and 1 linear timecode track, 0.8mm wide - 30 mils
+One analog control track 0.4mm wide - 15 mils, built into video scanner head.
+Magnetic tape coating on the outside of the videotape reel.
+Studio reel 96 minutes, later 120 minutes
+Portable reel 60 minutes
+Cart reel 20 minutes (BCN5 - BCN100)
+Video scanner wrap 190 deg.
+Video scanner dia. 50.3mm,  2 inches
+Video track length 3.1 inches, 80mm
+Video track gap 40 um, 1.5 mils
+Tape speed 24cm/sec - 9.5 ips.
+Video head write speed: 24m /sec - 950 ips
+Video track angle 14.3 deg.
+Video track width 160 um - 6.3 mils
+Two video record/play heads at 180 deg.  (rotary transformer)
+Two video erase head for insert edits at 180 deg. (rotary transformer)
+
+
+== Some BCN users ==
+ABC-TV at MCF [1]
+AME – Hollywood, California
+Aquarius Theater –Hollywood, California
+Astin Moore, Los Angeles, California; see John Astin
+ATC–Buenos Aires, Argentina
+Audio Plus Video – Los Angeles, California and Northvale, New York
+Australian Film & Television School, Sydney (now Australian Film, Television & Radio School)
+Bell and Howell, (Rank Video Services) – Oak Brook, Illinois
+Bell and Howell Data Tape – Pasadena, California
+Cinema Video Processors – Chicago, Illinois
+Complete Post – Hollywood, California
+Cossey Studios – Santa Cruz, California
+Dash Motorcars – Santa Cruz, California
+DC Video – current user – Burbank, California
+Editel – Hollywood, California
+Eesti Televisioon
+Glendale Studios (Outpost Video) – Glendale, California
+Image Transform – Universal City, California
+KCPT – Kansas City, Missouri
+KPAZ-TV – Phoenix, Arizona
+KTBN-TV – Costa Mesa, California
+KTBO-TV – Oklahoma, Oklahoma
+KTBW-TV Tacoma, Washington
+Laser Pacific – Hollywood, California
+Leon Russell – Burbank, California and Tulsa, Oklahoma
+4MC – Burbank, California
+Measurement Analysis – Torrance, California
+Merlin – Palo Alto, California
+Modern Video Film – Hollywood, California
+National Institutes of Health- Bethesda, Maryland
+Oral Roberts University – Tulsa, Oklahoma
+ORF-Austrian Broadcasting Corporation – Vienna, Austria
+Premore (see Solo Cup Company) – Culver City, California
+Ruxton – Burbank, California
+Spin Physics – San Diego, California
+Starfax  – Burbank, California
+STW Channel 9 - Perth, Western Australia
+Technicolor – Newberry Park, California
+The Video Tape Company – North Hollywood, California
+The Videography Studios – West Los Angeles, California
+TV2 in Framersheim, Germany
+VDI – Hollywood, California
+Video Business – New York, New York
+Video Pack – New York, New York
+Video Tape Company – Burbank, California
+Vidtronics – Hollywood, California
+WHFT-TV – Pembroke Park, Florida
+WTVY – Dothan, Alabama
+WWWJ-CD –  Louisville, Kentucky
+ZDF in Mainz, Germany
+
+
+== See also ==
+Ampex 2 inch helical VTR
+D1
+D6 HDTV VTR
+Fernseh
+1 inch type A videotape
+1 inch type C videotape
+VTR
+
+
+== References ==
+
+
+== External links ==
+vtoldboys.com BCN Pictures
+The history of television, 1942 to 2000, page 197,  By Albert Abramson [2]
+DC Video BNC page, Current user
+little-archives.net BCN Specs
+youtube.com BCN studio demo
+youtube.com BCN20 demo
+youtube.com BCN 51 PAL studio demo
+Monty Python Live at the Hollywood Bowl on IMDb

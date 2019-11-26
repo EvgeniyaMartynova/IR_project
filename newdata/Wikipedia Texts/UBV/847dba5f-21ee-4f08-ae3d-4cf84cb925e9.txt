@@ -1,0 +1,15 @@
+UBV photometric system
+
+The UBV photometric system (Ultraviolet, Blue, Visual), also called the Johnson system (or Johnson-Morgan system), is a wide band photometric system for classifying stars according to their colors. It is the first known standardized photoelectric photometric system. The letters U, B, and V stand for ultraviolet, blue, and visual magnitudes, which are measured for a star then two subtractions are performed in a specific order to classify it in the system.The choice of colors on the blue end of the spectrum is because of the bias that photographic film has for those colors. It was introduced in the 1950s by American astronomers Harold Lester Johnson and William Wilson Morgan. A 13 in (330 mm) telescope and the 82 in (2,100 mm) telescope at McDonald Observatory were used to define the system.The filters are selected so that the mean wavelengths of response functions (at which magnitudes are measured to mean precision) are 364 nm for U, 442 nm for B, 540 nm for V. Zero points were calibrated in the B−V (B minus V) and U−B (U minus B) color indices selecting such A0 main sequence stars which are not affected by interstellar reddening. These stars correspond with a mean effective temperature (Teff (K)) of between 9727 and 9790 Kelvin, the latter being stars with class A0V.
+The UBV system has some disadvantages. The short wavelength cutoff that is the U filter is defined mainly by the terrestrial atmosphere rather than the filter itself; thus, it (and observed magnitudes) can vary with altitude and atmospheric conditions. However, many measurements have been made in this system, including many of the bright stars.
+
+
+== Extensions ==
+The Johnson-Cousins UBVRI photometric system is a common extension of Johnson's original system that provides redder passbands.
+
+
+== See also ==
+Alan William James Cousins
+
+
+== References ==

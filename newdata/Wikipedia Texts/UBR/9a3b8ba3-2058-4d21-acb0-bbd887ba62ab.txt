@@ -1,0 +1,63 @@
+Unspecified Bit Rate
+
+If a network service (or application) wishes to use a broadband network (an ATM network in particular) to transport a particular kind of traffic, it must first inform the network about what kind of traffic is to be transported, and the performance requirements of that traffic. The application presents this information to the network in the form of a traffic contract.
+
+
+== The Traffic descriptor ==
+When a connection is requested by an application, the application indicates to the network:
+The Type of Service required.
+The Traffic Parameters of each data flow in both directions.
+The Quality of Service (QoS) Parameters requested in each direction.These parameters form the traffic descriptor for the connection.
+
+
+== Type of Service ==
+Currently, five ATM Forum-defined service categories exist (see Table 1). The basic differences among these service categories are described in the following sub-sections. These service categories provide a method to relate traffic characteristics and QoS requirements to network behaviour. The service categories are characterised as being real-time or non-real-time. CBR and rt-VBR are the real-time service categories. The remaining three service categories (nrt-VBR, UBR and ABR) are considered non-real-time service categories.
+
+
+=== Constant Bit Rate (CBR) ===
+The CBR service category is used for connections that transport traffic at a constant bit rate, where there is an inherent reliance on time synchronisation between the traffic source and destination. CBR is tailored for any type of data for which the end-systems require predictable response time and a static amount of bandwidth continuously available for the life-time of the connection. The amount of bandwidth is characterized by a Peak Cell Rate (PCR). These applications include services such as video conferencing, telephony (voice services) or any type of on-demand service, such as interactive voice and audio. For telephony and native voice applications CBR provides low-latency traffic with predictable delivery characteristics, and is therefore typically used for circuit emulation.
+
+
+=== Real-Time Variable Bit Rate (rt-VBR) ===
+The rt-VBR service category is used for connections that transport traffic at variable rates — traffic that relies on accurate timing between the traffic source and destination. An example of traffic that requires this type of service category are variable rate, compressed video streams. Sources that use rt-VBR connections are expected to transmit at a rate that varies with time (for example, traffic that can be considered bursty). Real-time VBR connections can be characterized by a Peak Cell Rate (PCR), Sustained Cell Rate (SCR), and Maximum Burst Size (MBS). Cells delayed beyond the value specified by the maximum CTD (Cell Transfer Delay) are assumed to be of significantly reduced value to the application.
+
+
+=== Non-Real-Time Variable Bit Rate (nrt-VBR) ===
+The nrt-VBR service category is used for connections that transport variable bit rate traffic for which there is no inherent reliance on time synchronisation between the traffic source and destination, but there is a need for an attempt at a guaranteed bandwidth or latency. An application that might require an nrt-VBR service category is Frame Relay interworking, where the Frame Relay CIR (Committed Information Rate) is mapped to a bandwidth guarantee in the ATM network. No delay bounds are associated with nrt-VBR service.
+
+
+=== Available Bit Rate (ABR) ===
+The ABR service category is similar to nrt-VBR, because it also is used for connections that transport variable bit rate traffic for which there is no reliance on time synchronisation between the traffic source and destination, and for which no required guarantees of bandwidth or latency exist. ABR provides a best-effort transport service, in which flow-control mechanisms are used to adjust the amount of bandwidth available to the traffic originator. The ABR service category is designed primarily for any type of traffic that is not time sensitive and expects no guarantees of service. ABR service generally is considered preferable for TCP/IP traffic, as well as other LAN-based protocols, that can modify its transmission behaviour in response to the ABR’s rate-control mechanics.
+ABR uses Resource Management (RM) cells to provide feedback that controls the traffic source in response to fluctuations in available resources within the interior ATM network. The specification for ABR flow control uses these RM cells to control the flow of cell traffic on ABR connections. The ABR service expects the end-system to adapt its traffic rate in accordance with the feedback so that it may obtain its fair share of available network resources. The goal of ABR service is to provide fast access to available network resources at up to the specified Peak Cell Rate (PCR).
+
+
+=== Unspecified Bit Rate (UBR) ===
+The UBR service category also is similar to nrt-VBR, because it is used for connections that transport variable bit rate traffic for which there is no reliance on time synchronization between the traffic source and destination. However, unlike ABR, there are no flow-control mechanisms to dynamically adjust the amount of bandwidth available to the user. UBR generally is used for applications that are very tolerant of delay and cell loss. UBR has enjoyed success in the Internet LAN and WAN environments for store-and-forward traffic, such as file-transfers and e-mail. Similar to the way in which upper-layer protocols react to ABR’s traffic-control mechanisms, TCP/IP and other LAN-based traffic protocols can modify their transmission behaviour in response to latency or cell loss in the ATM network.
+
+
+== Traffic Parameters ==
+Each ATM connection contains a set of parameters that describes the traffic characteristics of the source. These parameters are called source traffic parameters. They are [2][5]:
+
+Peak Cell Rate (PCR). The maximum allowable rate at which cells can be transported along a connection in the ATM network. The PCR is the determining factor in how often cells are sent in relation to time in an effort to minimize jitter. PCR generally is coupled with the CDVT (Cell Delay Variation Tolerance), which indicates how much jitter is allowable.
+Sustainable Cell Rate (SCR). A calculation of the average allowable, long-term cell transfer rate on a specific connection.
+Maximum Burst Size (MBS). The maximum allowable burst size of cells that can be transmitted contiguously on a particular connection.
+Minimum Cell Rate (MCR). The minimum allowable rate at which cells can be transported along an ATM connection.
+
+
+== Quality of Service (QoS) Parameters ==
+A set of parameters are negotiated when a connection is set up in an ATM network. These parameters are used to measure the QoS of a connection and quantify end-to-end network performance at the ATM layer. The network should guarantee the negotiated QoS by meeting certain values of these parameters.
+
+Cell Transfer Delay (CTD). The delay experienced by a cell between the time it takes for the first bit of the cell to be transmitted by the source and the last bit of the cell to be received by the destination. Maximum Cell Transfer Delay (Max CTD) and Mean Cell Transfer Delay (Mean CTD) are used.
+Peak-to-peak Cell Delay Variation (CDV). The difference between the maximum and minimum CTD experienced during the connection. Peak-to-peak CDV and Instantaneous CDV are used.
+Cell Loss Ratio (CLR). The percentage of cells that are lost in the network due to error or congestion and are not received by the destination.
+
+
+== See also ==
+Broadband Networks
+Teletraffic engineering
+Asynchronous Transfer Mode (ATM)
+Quality of Service (QoS)
+Teletraffic engineering in broadband networks
+
+
+== References ==

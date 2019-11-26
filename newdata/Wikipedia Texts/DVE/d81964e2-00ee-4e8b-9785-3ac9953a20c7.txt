@@ -1,0 +1,25 @@
+Driver's Vision Enhancer
+
+The AN/VAS-5B(V) Driver's Vision Enhancer (DVE) is a passive thermal imaging system used to enhance a driver's viewing capabilities while operating during degraded visual conditions, such as darkness, fog, smoke or dust.
+The DVE system consists of a Display Control Module (DCM), Sensor Module (SM), and interfacing manual and Electronic Pan and Tilt Modules (PTM and EPTM). The system operates from a single input voltage of 16 to 32 VDC. This system is typically utilized in tactical military vehicles, providing marked improvements over the previously existing systems.
+There are currently two primary DVE Sensor manufacturers: BAE Systems and DRS Technologies.
+
+
+== Theory of operation ==
+All objects above Absolute zero (−273.15 °C / −459.67 °F) emit infrared radiation (IR), an invisible form of light beyond the optical spectrum.
+The optical spectrum is part of the electromagnetic energy spectrum which consists of ultraviolet, visible, and near, middle, and far-infrared energy. Only a small part of the optical spectrum is visible to the unaided eye.
+The Sun emits energy across the entire electromagnetic spectrum. Solar energy strikes the surface of objects. Some of that energy is absorbed and stored as heat (thermal energy). After sunset, this thermal energy remains and is emitted in the form of IR radiation.
+The DVE system detects energy in the mid to far-infrared portion of the optical spectrum.
+
+
+== Components ==
+Sensor Module (SM)(also known as Sensor Assembly(SA)). The AN/VAS-5B(V) Sensor Module is a lightweight uncooled passive thermal imaging camera. The SM consists of an Infrared (IR) objective lens, and IR detector,signal processing electronics, environmental housing, and connector for the power, control, and video signals. The SM gathers the infrared image and transmits the data to the Display Control Module.
+Display Control Module (DCM) – A 10.4 inch, 640 × 480, flat panel active matrix liquid crystal display (AMLCD). The Display Control Module (DCM)is lightweight and is mounted on the inside of the vehicle on a swing up mount over the driver's position. The DCM is a Liquid Crystal Display (LCD) consisting of the operator’s display, controls, and input/output connections required to operate the system. The DCM houses the electronics for viewing the IR information and presenting it to the operator as a video display. The DCM connectors and controls are labeledto identify functions.
+
+Pan and Tilt (PTM) and Electronic Pan and Tilt Module (EPTM) – manual or electronic mechanism used to move the externally mounted Sensor Module.Tactical wheeled vehicles – Vertical movement is limited to +35° and −60° elevation. Lateral movement is limited to ±90° left and right azimuth. (DRS)
+Combat Vehicles – Vertical movement is limited to +35° and −15° elevation. Lateral movement is limited to ±50° left and right azimuth. (DRS)
+
+
+== See also ==
+Night vision
+Image intensifiers

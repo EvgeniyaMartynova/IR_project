@@ -1,0 +1,43 @@
+UKIRT Infrared Deep Sky Survey
+
+The UKIRT Infrared Deep Sky Survey or UKIDSS is an astronomical survey conducted using the WFCAM wide field camera on the United Kingdom Infrared Telescope on Mauna Kea in Hawaii. Survey observations were commenced in 2005.
+UKIDSS consists of five surveys covering a range of areas and depths, using various combinations of five near-infrared filters.
+
+
+== Description ==
+UKIDSS as a large-scale near infrared survey follows 2MASS and anticipates the VISTA telescope in the Southern hemisphere. It aims to cover 7500 square degrees of the Northern sky. Four particular areas of investigation for UKIDSS are: "the coolest and nearest brown dwarfs, high-redshift dusty starburst galaxies, elliptical galaxies and galaxy clusters at redshifts 1 < z < 2, and the highest-redshift quasars, at z = 7".The UKIDSS data become available online to the ESO community immediately upon entering the WFCAM Science Archive (WSA), and are then released to the world 18 months later.
+
+
+== Surveys ==
+Of the five surveys in UKIDSS, two are directed towards Galactic targets and three are optimized for extra-Galactic observations. The surveys are described here in decreasing order of area. The letters refer to spectral regions; e.g. JHK is a combination of near-infrared filters, more or less synonymous with "the near-infrared".
+
+
+=== Large Area Survey (LAS) ===
+
+The LAS (extra-Galactic) covers an area of 4000 square degrees in YJHK to a depth of K = 18.4. This area has previously been covered at optical wavelengths in the Sloan Digital Sky Survey. While the high Galactic latitudes covered by the LAS make it suitable for observations of sources outside the Milky Way, the survey also targets Galactic sources, incorporating a second pass in J to measure proper motions of nearby stars.
+
+
+=== Galactic Plane Survey (GPS) ===
+
+The GPS (Galactic) covers an area of 1800 square degrees in JHK to a depth of K=19.0, with 300 square degrees also covered through a narrow-band H2 filter. The motivation for the GPS is to obtain a clearer view of the Galactic Plane than is possible at optical wavelengths, due to absorption by material in the disk of the galaxy.
+
+
+=== Galactic Clusters Survey (GCS) ===
+The GCS (Galactic) covers an area of 1400 square degrees in JHK to a depth of K=18.7. The area is distributed over ten open star clusters with the aim of measuring the mass function in a variety of Galactic environments.
+
+
+=== Deep Extragalactic Survey (DXS) ===
+The DXS (extra-Galactic) covers an area of 35 square degrees in JK to a depth of K=21.0 with 5 square degrees also imaged in H. The survey fields are at high Galactic latitudes with low extinction, and are chosen to overlap with deep observations made at other wavelengths.
+
+
+=== Ultra Deep Survey (UDS) ===
+The UDS (extra-Galactic) covers an area of 0.77 square degrees within the XMM-LSS field (which is contained within the DXS) in JHK to a depth of K=23.0. This is the deepest near-infrared survey yet conducted over such an area of sky, with the aim of studying the formation and evolution of galaxies in the early Universe.
+
+
+== Notes ==
+
+
+== External links ==
+UKIDSS Home Page
+WFCAM Science Archive (WSA)
+UKIDSS Ultra-Deep Survey

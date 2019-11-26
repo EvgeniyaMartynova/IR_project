@@ -1,0 +1,69 @@
+Robert V. Hogg
+
+Robert Vincent ("Bob") Hogg (8 November 1924 – 23 December 2014) was an American statistician and professor of statistics of the University of Iowa. Hogg is known for his widely used textbooks on statistics (with his 1963 Ph.D. student Elliot Alan Tanis) and on mathematical statistics (with his 1950 Ph.D. advisor Allen Thornton Craig). Hogg has received recognition for his research on
+robust and adaptive nonparametric statistics and for his scholarship on total quality management and statistics education.
+
+
+== Academic career ==
+
+
+=== Early life ===
+Born on 8 November 1924 in Hannibal, Missouri, Hogg served three years in the US Navy from 1943 through 1946. In 1947, he graduated from the University of Illinois with a bachelor's degree in mathematics. With the goal of becoming an actuary, Hogg matriculated at the mathematics department of the University of Iowa (then the "State University of Iowa"). However, Hogg studied statistics under Allen Craig, who became his mentor and helped him obtain a job teaching statistics at the Mathematics Department. Hogg earned his Ph.D. 1950 under Allen Craig. After graduating, Hogg remained at the Mathematics Department, where he remained to become a long-serving professor.
+
+
+=== Basu's theorem: Special cases ===
+Hogg independently discovered a special case of "Basu's theorem", a few years before the publication by Deb Basu. Hogg's second paper on the topic of Basu's theorem was never published, because of a negative report by an anonymous referee in 1953. Later, Basu refers "to Hogg and Craig (1956) for several interesting uses [of Basu's theorem] in proving results in distribution theory".
+
+
+=== Collaboration and friendship with Allen Craig ===
+The textbook "Hogg and Craig" was innovative, particularly in emphasizing sufficient statistics: Sufficient statistics were treated not only for parametric families but also for nonparametric probability distributions: In particular, the sufficiency and completeness of the order statistics from a continuous distribution were treated.  Another innovation was the systematic derivation of the distributions of functions of several random variables by using the change-of-variable method.As noted before, Craig was Hogg's mentor, helping him to obtain a teaching position while a graduate student and also supervising his thesis. Later, after Hogg had graduated, Craig became a close friend, and served as the best man at Hogg's wedding and later as the "godparent"  to each of Hogg's four children. Indeed, Hogg's son Allen was named after Craig.
+
+
+=== Chairing a new Department of Statistics ===
+In 1965 Hogg became the founding chair of the new Department of Statistics and Actuarial Science, and he remained as the chair for nineteen years. At Iowa, Hogg held other positions, including Chair of the Quality Management and Productivity Program and the Hanson Chair of Manufacturing Productivity. After serving 51 years as an instructor at the University of Iowa, Hogg became Professor Emeritus in 2001.
+
+
+== Statistics education ==
+Hogg has been a leader in statistics education in the US.Hogg has received a number of educational awards by state and national organizations: these awards include the Iowa Governor’s Science Medal for Teaching in 1990, the Iowa Board of Regents' Award for Faculty Excellence in 1992, and the Iowa Section of the Mathematical Association of America (MAA)'s Distinguished Teaching Award in 1992 with the national MAA's Distinguished Teaching Award in 1993. At the University of Iowa, Hogg won his first teaching award after a student submitted a nomination with the title "There is a hog in my statistics book!".
+
+
+== Honors ==
+Hogg's 70th birthday was marked by a conference organized by the Institute of Mathematical Statistics, whose proceedings were published as a special issue of Communications in Statistics – Theory and Methods in 1996; in the conference proceedings, a list of Hogg's publications appears on pages 2467–2481.For his research in nonparametric statistics, Hogg received the Gottfried Noether Senior Scholar Award in 2001.
+Hogg has been recognized internationally as a leading researcher in statistics and as an exemplary professor of statistics who has served as a public spokesperson for the profession. Hogg has had a particularly visible role in the United States, where he was elected as President of the American Statistical Association (ASA), serving in 1988. One of the ASA President's tasks is to arrange an annual meeting, and Hogg's diligence was rewarded by the ASA staff, who presented him with the name tag, "Boss Hogg" (after the name of a character in the television series The Dukes of Hazzard). Three years after Hogg had served as President, he was awarded the ASA’s Founder’s Award in 1991.Hogg has also been internationally active on behalf of the statistics profession. Hogg is a Fellow of the Institute of Mathematical Statistics, which awarded him its Carver Medal. Hogg is also an Elected Member of the International Statistical Institute.
+
+
+== References ==
+
+
+=== Textbooks ===
+Hogg, Robert V.; McKean, Joseph W.; Craig, Allen T. (2005). Introduction to mathematical statistics (fifth ed.). Upper Saddle River, New Jersey: Prentice Hall. p. 692. ISBN 978-0-13-008507-8. MR 0467974. ("Hogg and Craig" was first published in 1959.)
+Hogg, Robert V.; Tanis, Elliot A. (2010). Probability and Statistical Inference (eight ed.). Upper Saddle River, New Jersey: Prentice Hall. p. 648. ISBN 978-0-321-58475-5. | mr = 426223
+Hogg, Robert V., Klugman, Stuart A. Loss distributions. With the assistance of Charles C. Hewitt and Gary Patrik. Wiley Series in Probability and Mathematical Statistics: Applied Probability and Statistics. John Wiley & Sons, Inc., New York, 1984. x+235 pp. ISBN 0-471-87929-0. MR747141
+Hogg, Robert V. and Ledolter, J. (1992). Applied Statistics for Engineers and Physical Scientists. Macmillan, New York.
+
+
+=== Articles ===
+Hogg, R. V. (1953). "Testing the equality of means of rectangular populations. (Abstract)". Annals of Mathematical Statistics. 24: 691.
+Hogg, R. V. (1956). "On the distribution of the likelihood ratio". Annals of Mathematical Statistics. 27 (2): 529. doi:10.1214/aoms/1177728276.
+Hogg, Robert V.; Craig, Allen T. (1956). "Sufficient statistics in elementary distribution theory". Sankhyā. 17 (3): 209–216. JSTOR 25048308. MR 0086456.
+Hogg, Robert V. (1974). "Adaptive Robust Procedures: A Partial Review and Some Suggestions for Future Applications and Theory". Journal of the American Statistical Association. 69 (348): 909–923. doi:10.2307/2286160. ISSN 0162-1459. JSTOR 2286160.
+
+
+==== Statistics education and the statistics profession ====
+Robert V. Hogg (1978). An introduction to mathematical statistics. In Studies in Statistics (Robert V. Hogg, ed.) 1–7. Mathematical Association of America (Washington)
+Robert V. Hogg (Ed) (1980). Modern statistics: Methods and applications. Arner. Math. Soc. (Providence)
+Robert V. Hogg (1982). On graduate programs in statistics. In Teach. Statist. and Statist. Consult. (J.S. Rustagi and D.A. Wolfe, ed.) 71–80. Academic (New York)
+Robert V. Hogg and Jim Swift (1982). Statistical education at the school level in the United States and Canada. In Teaching Statistics in Schools Throughout the World (Vic Barnett, ed.) 139–171. Internat. Statist. Inst. (Voorburg, Netherlands)
+Hogg, Robert V. (1988). "Comments on Harold Hotelling's views on teaching statistics". Statist. Sci. 3: 95–97. doi:10.1214/ss/1177013007.
+Robert V. Hogg (1989). On statistical education in the United States since 1920. In ASA Sesquicentennial Invited Paper Sessions (Mitchell Gail and Norman L. Johnson, eds.) 286–292. Amer. Statist. Assoc. (Alexandria, VA)
+Hogg, Robert V. (March 1989). "How to Hope with Statistics (ASA Presidential Address)". Journal of the American Statistical Association. 84 (405): 1–5. doi:10.2307/2289836. JSTOR 2289836. | jstor = 2289836
+Hogg, R. V. (1991). "Statistical Education: Improvements Are Badly Needed". The American Statistician. 45 (4): 342–343. doi:10.2307/2684473. JSTOR 2684473.
+Garfield, Joan; Hogg, Bob; Schau, Candace; Whittinghill, Dex (9 June 2000).  First Courses in Statistical Science Working Group (ed.). Best Practices in Introductory Statistics (Draft 2000.06.09) (PDF). Undergraduate Statistics Education Initiative Position Paper. American Statistical Association.
+Hogg, Robert V.; Hogg, Mary C. (1995). "Continuous Quality Improvement in Higher Education". International Statistical Review / Revue Internationale de Statistique. 63 (1): 35–48. doi:10.2307/1403776. JSTOR 1403776.
+
+
+== External links ==
+Hogg's homepage at the University of Iowa
+"On the History of Statistics and Actuarial Science at The University of Iowa" presented by Robert V. Hogg on October 2, 2003
+Robert V. Hogg at the Mathematics Genealogy Project
+Hogg at Mathematical Reviews

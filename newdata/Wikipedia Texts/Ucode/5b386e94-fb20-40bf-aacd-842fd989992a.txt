@@ -1,0 +1,43 @@
+Ucode system
+
+The ucode system (written in lower case "ucode") is an identification number system that can be used to identify things in the real world uniquely. Digital information can be associated with objects and places, and the associated information can be retrieved by using ucode.
+Unique identification system for real world objects is considered an essential enabler for the realisation of Internet of Things  and therefore ucode system is seen as a building block for Internet of Things.The ucode system uses 128 bit code for unique naming of things so there are 340282366920938463463374607431768211455 or 3.4 x 10^38 different codes. If more codes are needed, they can be added in chunks of 128 bits. Ucode is application and technology agnostic.  Uniqueness means that each ucode is unique, there can – or at least should - not be another ucode with exactly same number. Ucode is not tied to any specific application or business domain, neither is it committed to any specific technology for containing the ucode number, e.g. RFID, barcode or matrix code. ucode is supported by the uID center, which is a non-profit organisation based in Tokyo, Japan.  The Chairman of the uID Center is Professor Ken Sakamura who is also the person behind ucode.
+
+
+== Structure and Resolution mechanism ==
+Ubiquitous ID system  consists of five components: (1) ucode, (2) ucode tag, (3) ubiquitous communicator, (4) ucode resolution server and (5) ucode information server. The resolution process goes as follows. First, the ucode from an ucode tag using e.g. a mobile phone is read. The camera of the phone can be used to read a matrix code containing the ucode. Then, the mobile phone inquires the ucode resolution server – via internet connection - about the code. The ucode resolution server returns the source of the provided ucode information based on the ucode read. Finally, the ubiquitous communicator connects to the information provision source and acquires contents and services.
+The ucode server architecture is  similar to the familiar Internet DNS resolution service. Like DNS, the ucode resolution mechanism consists of hierarchical levels. The ucode resolution mechanism is three tiered as follows:
+
+uID center maintains the root server
+Top level domain (TLD) servers are under root
+Second level domain (SLD) servers are under TLDThe root server is maintained by uID Center in Tokyo. TLD servers are in place in Japan, other Asian countries and in Europe (Oulu, Finland). The number of TLD and SLD servers is not limited.
+
+
+== ucode tags ==
+Ucode tags can take various forms. They can be 
+
+Print Tag
+Passive RFID Tag/Smart Card
+Active RF Tag (built-in battery type)
+Active Infrared Tag (built-in battery type)
+Acoustic TagPrint tags can be matrix codes, e.g. QR codes or barcodes.  A special sub-section of RFID tags are NFC tags, which can contain ucode.  UID Center has certified a 46 differenrf ucode tags, the first ones in 2003 were barcodes made by Sato corporation, Toppan Forms Inc. and Dai Nippon Printing Co., later on two dimensional matrix codes were introduced, followed by hologram implementation and several RFID tags, often compliant with ISO/IEC15693 standard and using frequency band 13.56 MHz.
+
+
+== Example ==
+The ucode solution has been used in a number of trial cases related to tourist guides, geospatial information applications, housing and real estate as well as food and drug traceability.  
+Japanese organisation Center for Better Living is using ucode for labelling construction material and components in a unique and traceable manner. The label is a sign of approved quality and entitles the buyer into a two to ten year repair warranty, depending on the nature of the material or component.
+
+
+== Other identification systems ==
+EPCGlobal is an identification system aimed for supply chain information management. The EPC (Electronic Product Code) relies on RFID tags for object identification. EPCGlobal is a successor of MIT Auto ID Center which developed the technology used by EPCGlobal.
+[EAN] International Article Numbering system and its sister system UPC Universal Product Code are the familiar barcodes seen in all retail merchandise. ucode differs from them in identifying individual objects, not just the product type.
+
+
+== References ==
+
+
+== External links ==
+[1] uID Center
+[2] T-Engine Forum
+[3] EPC Global
+[4] Center for Better Living

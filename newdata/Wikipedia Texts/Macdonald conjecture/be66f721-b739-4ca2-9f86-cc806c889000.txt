@@ -1,0 +1,538 @@
+Dyson conjecture
+
+In mathematics, the Dyson conjecture (Freeman Dyson 1962) is a conjecture about the constant term of certain Laurent polynomials, proved by Wilson and Gunson. Andrews generalized it to the q-Dyson conjecture, proved by Zeilberger and Bressoud and sometimes called the Zeilberger–Bressoud theorem. Macdonald generalized it further to more general root systems with the Macdonald constant term conjecture, proved by Cherednik.
+
+
+== Dyson conjecture ==
+The Dyson conjecture states that the Laurent polynomial
+
+  
+    
+      
+        
+          ∏
+          
+            1
+            ≤
+            i
+            ≠
+            j
+            ≤
+            n
+          
+        
+        (
+        1
+        −
+        
+          t
+          
+            i
+          
+        
+        
+          /
+        
+        
+          t
+          
+            j
+          
+        
+        
+          )
+          
+            
+              a
+              
+                i
+              
+            
+          
+        
+      
+    
+    {\displaystyle \prod _{1\leq i\neq j\leq n}(1-t_{i}/t_{j})^{a_{i}}}
+  has constant term
+
+  
+    
+      
+        
+          
+            
+              (
+              
+                a
+                
+                  1
+                
+              
+              +
+              
+                a
+                
+                  2
+                
+              
+              +
+              ⋯
+              +
+              
+                a
+                
+                  n
+                
+              
+              )
+              !
+            
+            
+              
+                a
+                
+                  1
+                
+              
+              !
+              
+                a
+                
+                  2
+                
+              
+              !
+              ⋯
+              
+                a
+                
+                  n
+                
+              
+              !
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {(a_{1}+a_{2}+\cdots +a_{n})!}{a_{1}!a_{2}!\cdots a_{n}!}}.}
+  The conjecture was first proved independently by Wilson (1962) and Gunson (1962). Good (1970) later found a short proof, by observing that the Laurent polynomials, and therefore their constant terms, satisfy the recursion relations
+
+  
+    
+      
+        F
+        (
+        
+          a
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          a
+          
+            n
+          
+        
+        )
+        =
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        F
+        (
+        
+          a
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          a
+          
+            i
+          
+        
+        −
+        1
+        ,
+        …
+        ,
+        
+          a
+          
+            n
+          
+        
+        )
+        .
+      
+    
+    {\displaystyle F(a_{1},\dots ,a_{n})=\sum _{i=1}^{n}F(a_{1},\dots ,a_{i}-1,\dots ,a_{n}).}
+  The case  n = 3 of Dyson's conjecture follows from the Dixon identity.
+Sills & Zeilberger (2006) and (Sills 2006) used a computer to find expressions for non-constant coefficients of
+Dyson's Laurent polynomial.
+
+
+== Dyson integral ==
+When all the values ai  are equal to β/2, the constant term in Dyson's conjecture is the value of Dyson's integral
+
+  
+    
+      
+        
+          
+            1
+            
+              (
+              2
+              π
+              
+                )
+                
+                  n
+                
+              
+            
+          
+        
+        
+          ∫
+          
+            0
+          
+          
+            2
+            π
+          
+        
+        ⋯
+        
+          ∫
+          
+            0
+          
+          
+            2
+            π
+          
+        
+        
+          ∏
+          
+            1
+            ≤
+            j
+            <
+            k
+            ≤
+            n
+          
+        
+        
+          |
+        
+        
+          e
+          
+            i
+            
+              θ
+              
+                j
+              
+            
+          
+        
+        −
+        
+          e
+          
+            i
+            
+              θ
+              
+                k
+              
+            
+          
+        
+        
+          
+            |
+          
+          
+            β
+          
+        
+        
+        d
+        
+          θ
+          
+            1
+          
+        
+        ⋯
+        d
+        
+          θ
+          
+            n
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {1}{(2\pi )^{n}}}\int _{0}^{2\pi }\cdots \int _{0}^{2\pi }\prod _{1\leq j<k\leq n}|e^{i\theta _{j}}-e^{i\theta _{k}}|^{\beta }\,d\theta _{1}\cdots d\theta _{n}.}
+  Dyson's integral is a special case of Selberg's integral after a change of variable and has value
+
+  
+    
+      
+        
+          
+            
+              Γ
+              (
+              1
+              +
+              β
+              n
+              
+                /
+              
+              2
+              )
+            
+            
+              Γ
+              (
+              1
+              +
+              β
+              
+                /
+              
+              2
+              
+                )
+                
+                  n
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {\Gamma (1+\beta n/2)}{\Gamma (1+\beta /2)^{n}}}}
+  which gives another proof of Dyson's conjecture in this special case.
+
+
+== q-Dyson conjecture ==
+Andrews (1975) found a q-analog of Dyson's conjecture, stating that the constant term of 
+
+  
+    
+      
+        
+          ∏
+          
+            1
+            ≤
+            i
+            <
+            j
+            ≤
+            n
+          
+        
+        
+          
+            (
+            
+              
+                
+                  
+                    x
+                    
+                      i
+                    
+                  
+                  
+                    x
+                    
+                      j
+                    
+                  
+                
+              
+              ;
+              q
+            
+            )
+          
+          
+            
+              a
+              
+                i
+              
+            
+          
+        
+        
+          
+            (
+            
+              
+                
+                  
+                    q
+                    
+                      x
+                      
+                        j
+                      
+                    
+                  
+                  
+                    x
+                    
+                      i
+                    
+                  
+                
+              
+              ;
+              q
+            
+            )
+          
+          
+            
+              a
+              
+                j
+              
+            
+          
+        
+      
+    
+    {\displaystyle \prod _{1\leq i<j\leq n}\left({\frac {x_{i}}{x_{j}}};q\right)_{a_{i}}\left({\frac {qx_{j}}{x_{i}}};q\right)_{a_{j}}}
+  is 
+
+  
+    
+      
+        
+          
+            
+              (
+              q
+              ;
+              q
+              
+                )
+                
+                  
+                    a
+                    
+                      1
+                    
+                  
+                  +
+                  ⋯
+                  +
+                  
+                    a
+                    
+                      n
+                    
+                  
+                
+              
+            
+            
+              (
+              q
+              ;
+              q
+              
+                )
+                
+                  
+                    a
+                    
+                      1
+                    
+                  
+                
+              
+              ⋯
+              (
+              q
+              ;
+              q
+              
+                )
+                
+                  
+                    a
+                    
+                      n
+                    
+                  
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {(q;q)_{a_{1}+\cdots +a_{n}}}{(q;q)_{a_{1}}\cdots (q;q)_{a_{n}}}}.}
+  Here (a;q)n is the q-Pochhammer symbol.
+This conjecture reduces to Dyson's conjecture for q=1, and was proved by Zeilberger & Bressoud (1985), using a combinatorial approach inspired by
+previous work of Ira Gessel and Dominique Foata. A shorter proof, using formal Laurent series, was given in 2004 by Ira Gessel and Guoce Xin, and
+an even shorter proof, using a quantitative form, due to Karasev and Petrov, and independently to Lason, of Noga Alon's Combinatorial Nullstellensatz,
+was given in 2012 by Gyula Karolyi and Zoltan Lorant Nagy.
+The latter method was extended, in 2013, by Shalosh B. Ekhad and Doron Zeilberger to derive explicit expressions of any specific coefficient, not just the
+constant term, see http://www.math.rutgers.edu/~zeilberg/mamarim/mamarimhtml/qdyson.html, for detailed references.
+
+
+== Macdonald conjectures ==
+Macdonald (1982) extended the conjecture to arbitrary finite or affine root systems, with Dyson's original conjecture corresponding to 
+the case of the An−1 root system and Andrews's conjecture corresponding to the affine An−1 root system. Macdonald reformulated these conjectures as conjectures about the norms of Macdonald polynomials. Macdonald's conjectures were proved by (Cherednik 1995) using doubly affine Hecke algebras.
+Macdonald's form of Dyson's conjecture for root systems of type BC is closely related to Selberg's integral.
+
+
+== References ==
+Andrews, George E. (1975), "Problems and prospects for basic hypergeometric functions", Theory and application of special functions (Proc. Advanced Sem., Math. Res. Center, Univ. Wisconsin, Madison, Wis., 1975), Boston, MA: Academic Press, pp. 191–224, MR 0399528
+Cherednik, I. (1995), "Double Affine Hecke Algebras and Macdonald's Conjectures", The Annals of Mathematics, 141 (1): 191–216, doi:10.2307/2118632, JSTOR 2118632
+Dyson, Freeman J. (1962), "Statistical theory of the energy levels of complex systems. I", Journal of Mathematical Physics, 3: 140–156, doi:10.1063/1.1703773, ISSN 0022-2488, MR 0143556
+Good, I. J. (1970), "Short proof of a conjecture by Dyson", Journal of Mathematical Physics, 11 (6): 1884, doi:10.1063/1.1665339, ISSN 0022-2488, MR 0258644
+Gunson, J. (1962), "Proof of a conjecture by Dyson in the statistical theory of energy levels", Journal of Mathematical Physics, 3 (4): 752–753, doi:10.1063/1.1724277, ISSN 0022-2488, MR 0148401
+Macdonald, I. G. (1982), "Some conjectures for root systems", SIAM Journal on Mathematical Analysis, 13 (6): 988–1007, doi:10.1137/0513070, ISSN 0036-1410, MR 0674768
+Sills, Andrew V. (2006), "Disturbing the Dyson conjecture, in a generally GOOD way", Journal of Combinatorial Theory, Series A, 113 (7): 1368–1380, arXiv:1812.05557, doi:10.1016/j.jcta.2005.12.005, ISSN 1096-0899, MR 2259066
+Sills, Andrew V.; Zeilberger, Doron (2006), "Disturbing the Dyson conjecture (in a GOOD way)", Experimental Mathematics, 15 (2): 187–191, arXiv:1812.04490, doi:10.1080/10586458.2006.10128959, ISSN 1058-6458, MR 2253005
+Wilson, Kenneth G. (1962), "Proof of a conjecture by Dyson", Journal of Mathematical Physics, 3 (5): 1040–1043, doi:10.1063/1.1724291, ISSN 0022-2488, MR 0144627
+Zeilberger, Doron; Bressoud, David M. (1985), "A proof of Andrews' q-Dyson conjecture", Discrete Mathematics, 54 (2): 201–224, doi:10.1016/0012-365X(85)90081-0, ISSN 0012-365X, MR 0791661

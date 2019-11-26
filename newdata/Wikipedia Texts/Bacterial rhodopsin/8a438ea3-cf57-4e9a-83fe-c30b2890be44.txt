@@ -1,0 +1,45 @@
+Microbial rhodopsin
+
+Rhodopsin (also known as visual purple) is a light-sensitive receptor protein involved in visual phototransduction. It is named after ancient Greek ῥόδον (rhódon) for rose, due to its pinkish color, and ὄψις (ópsis) for sight. Rhodopsin is a biological pigment found in the rods of the retina and is a  G-protein-coupled receptor (GPCR). It belongs to opsins. Rhodopsin is extremely sensitive to light, and thus enables vision in low-light conditions.  When rhodopsin is exposed to light, it immediately photobleaches. In humans, it is regenerated fully in about 30 minutes, after which rods are more sensitive.Rhodopsin was discovered by Franz Christian Boll in 1876.
+
+
+== Structure ==
+Rhodopsin consists of two components, a protein molecule also called scotopsin and a covalently-bound cofactor called retinal. Scotopsin is an opsin, a light-sensitive G protein coupled receptor that embeds in the lipid bilayer of cell membranes using seven protein transmembrane domains. These domains form a pocket where the photoreactive chromophore, retinal, lies horizontally to the cell membrane, linked to a lysine residue in the seventh transmembrane domain of the protein. Thousands of rhodopsin molecules are found in each outer segment disc of the host rod cell. Retinal is produced in the retina from vitamin A, from dietary beta-carotene. Isomerization of 11-cis-retinal into all-trans-retinal by light sets off a series of conformational changes ('bleaching') in the opsin, eventually leading it to a form called metarhodopsin II (Meta II), which activates an associated G protein, transducin, to trigger a cyclic guanosine monophosphate (cGMP) second messenger cascade.Rhodopsin of the rods most strongly absorbs green-blue light and, therefore, appears reddish-purple, which is why it is also called "visual purple". It is responsible for monochromatic vision in the dark.
+
+Several closely related opsins differ only in a few amino acids and in the wavelengths of light that they absorb most strongly. Humans have eight other opsins besides rhodopsin, as well as cryptochrome (light-sensitive, but not an opsin).The photopsins are found in the cone cells of the retina and are the basis of color vision. They have absorption maxima for yellowish-green (photopsin I), green (photopsin II), and bluish-violet (photopsin III) light. The remaining opsin, melanopsin, is found in photosensitive ganglion cells and absorbs blue light most strongly.
+In rhodopsin, the aldehyde group of retinal is covalently linked to the amino group of a lysine residue on the protein in a protonated Schiff base (-NH+=CH-). When rhodopsin absorbs light, its retinal cofactor isomerizes from the 11-cis to the all-trans configuration, and the protein subsequently undergoes a series of relaxations to accommodate the altered shape of the isomerized cofactor. The intermediates formed during this process were first investigated in the laboratory of George Wald, who received the Nobel prize for this research in 1967. The photoisomerization dynamics has been subsequently investigated with time-resolved IR spectroscopy and UV/Vis spectroscopy. A first photoproduct called photorhodopsin forms within 200 femtoseconds after irradiation, followed within picoseconds by a second one called bathorhodopsin with distorted all-trans bonds. This intermediate can be trapped and studied at cryogenic temperatures, and was initially referred to as prelumirhodopsin. In subsequent intermediates lumirhodopsin and metarhodopsin I, the Schiff's base linkage to all-trans retinal remains protonated, and the protein retains its reddish color.  The critical change that initiates the neuronal excitation involves the conversion of metarhodopsin I to metarhodopsin II, which is associated with deprotonation of the Schiff's base and change in color from red to yellow.The structure of rhodopsin has been studied in detail via x-ray crystallography on rhodopsin crystals. Several models (e.g., the bicycle-pedal mechanism, hula-twist mechanism) attempt to explain how the retinal group can change its conformation without clashing with the enveloping rhodopsin protein pocket. Recent data support that rhodopsin is a functional monomer, instead of a dimer, which was the paradigm of G-protein-coupled receptors for many years.
+
+
+== Phototransduction ==
+Rhodopsin is an essential G-protein coupled receptor in phototransduction.
+
+
+=== Function ===
+The product of light activation, Metarhodopsin II, initiates the visual phototransduction pathway by stimulating the G protein transducin (Gt), resulting in the liberation of its α subunit. This GTP-bound subunit in turn activates cGMP phosphodiesterase. cGMP phosphodiesterase hydrolyzes (breaks down) cGMP, lowering its local concentration so it can no longer activate cGMP-dependent cation channels.  This leads to the hyperpolarization of photoreceptor cells, changing the rate at which they release transmitters.
+
+
+=== Deactivation ===
+Meta II (metarhodopsin II) is deactivated rapidly after activating transducin by rhodopsin kinase and arrestin. Rhodopsin pigment must be regenerated for further phototransduction to occur. This means replacing all-trans-retinal with 11-cis-retinal and the decay of Meta II is crucial in this process. During the decay of Meta II, the Schiff base link that normally holds all-trans-retinal and the apoprotein opsin (aporhodopsin) is hydrolyzed and becomes Meta III. In the rod outer segment, Meta III decays into separate all-trans-retinal and opsin. A second product of Meta II decay is an all-trans-retinal opsin complex in which the all-trans-retinal has been translocated to second binding sites. Whether the Meta II decay runs into Meta III or the all-trans-retinal opsin complex seems to depend on the pH of the reaction. Higher pH tends to drive the decay reaction towards Meta III.
+
+
+== Retinal disease ==
+Mutation of the rhodopsin gene is a major contributor to various retinopathies such as retinitis pigmentosa. In general, the disease-causing protein aggregates with ubiquitin in inclusion bodies, disrupts the intermediate filament network, and impairs the ability of the cell to degrade non-functioning proteins, which leads to photoreceptor apoptosis. Other mutations on rhodopsin lead to X-linked congenital stationary night blindness, mainly due to constitutive activation, when the mutations occur around the chromophore binding pocket of rhodopsin. Several other pathological states relating to rhodopsin have been discovered including poor post-Golgi trafficking, dysregulative activation, rod outer segment instability and arrestin binding.
+
+
+== Microbial rhodopsins ==
+
+Some prokaryotes express proton pumps called bacteriorhodopsins, archaerhodopsins, proteorhodopsins, and xanthorhodopsins to carry out phototrophy. Like animal visual pigments, these contain a retinal chromophore (although it is an all-trans, rather than 11-cis form) and have seven transmembrane alpha helices; however, they are not coupled to a G protein. Prokaryotic halorhodopsins are light-activated chloride pumps. Unicellular flagellate algae contain channelrhodopsins that act as light-gated cation channels when expressed in heterologous systems. Many other pro- and eukaryotic organisms (in particular, fungi such as Neurospora) express rhodopsin ion pumps or sensory rhodopsins of yet-unknown function. Very recently, microbial rhodopsins with guanylyl cyclase activity have been discovered.  While all microbial rhodopsins have significant sequence homology to one another, they have no detectable sequence homology to the G-protein-coupled receptor (GPCR) family to which animal visual rhodopsins belong. Nevertheless, microbial rhodopsins and GPCRs are possibly evolutionarily related, based on the similarity of their three-dimensional structures. Therefore, they have been assigned to the same superfamily in Structural Classification of Proteins (SCOP).
+
+
+== References ==
+
+
+== Further reading ==
+
+
+== External links ==
+Rhodopsin at the US National Library of Medicine Medical Subject Headings (MeSH)
+Kolb H, Fernandez E, Nelson R, Jones BW (1 March 2010). "Webvision Home Page: The organization of the retina and visual system". University of Utah.
+The Rhodopsin Protein
+Photoisomerization of rhodopsin, animation.
+Rhodopsin and the eye, summary with pictures.

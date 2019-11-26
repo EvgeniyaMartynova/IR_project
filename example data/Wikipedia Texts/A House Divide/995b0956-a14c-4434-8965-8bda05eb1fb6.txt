@@ -1,0 +1,98 @@
+Victoria II
+
+Victoria II is a grand strategy game developed by Paradox Development Studio and published by Paradox Interactive. It was announced on August 19, 2009, and released on August 13, 2010.Virtual Programming published the Mac OS X version of the game on September 17, 2010, which is available on the App Store. The game was localized for Russia by 1C Company and Snowball Studios.Like its predecessor, Victoria II allows for the player to take control of and manage a 19th-century state, including its political, diplomatic, economic, military, and technological aspects. The game has many historical aspects to it, such as the ability to colonize places that, at the time, were not under the control of any European power, such as Sub-Saharan Africa, and North-Western Canada. The time frame of the game is 1836-1936.
+
+
+== Gameplay ==
+ Victoria II spans the globe from 1836 to the start of 1936 with over 200 playable nations. Like its predecessor, Victoria II focuses on internal management, covering the industrialization and social/political changes in a country with 8 different government types. The game gives a lot of importance to the economy of a country by having a complex market system with over 50 types of goods and factories. While warfare is a component of the game it is not the primary focus as in other Paradox Interactive games such as the Hearts of Iron series.Nations' populations are divided into cultures, religions, and occupations. There are several different population groups or "pops" being aristocrats, officers, clergy, capitalists, clerks, craftsmen, soldiers, labourers, farmers, slaves, artisans and bureaucrats, the last being additions to Victoria II. As in other Paradox titles, like Europa Universalis, historical missions called "decisions" that are micro-objectives in the larger game have been added. There are thousands of historical events and decisions as well. These events and nationalist forces can lead to the creation or disintegration of nation states.Victoria II contains a number of changes and improvements from its predecessor. The interface was streamlined when compared to the original game, which was described by producer Johan Andersson as, "the interface God forgot". Automation of various tasks has been added, including trade and population promotion. The education system has received an overhaul by having clergy educate people of the same religion, and each population group now has their own literacy levels. Education and literacy's importance is reflected in the vast technology system that contains thousands of inventions. Additionally, the functioning of ideology in the game was tweaked such that population groups are more sensitive to changes in their country's situation, as well as inclined to agitate for specific levels of political and social reforms.
+
+
+=== Economy ===
+The economic system in Victoria II attempts to simulate the flow of resources in a world market. Every province in the game produces a resource in resource gathering operations (RGOs). Some resources, such as wheat, are demanded principally by the population. Other materials, like iron, are consumed primarily by industry, but are still tradeable.
+The production and unemployment system from the original Victoria has been revised to better reflect market forces, whereas in the original, the state provided the funds for resources and the player possessed a wide range of options with which to build their economy, provided they had access to the proper raw materials. All resources can be collected or produced by industry. The game also has a cottage production system simulating pre-industrial economies.
+
+
+=== Diplomacy ===
+Victoria II contains a deep political simulation reflected in 8 different types of governments, 7 ideologies and a new sphere of influence system, gunboat diplomacy, and a new election system with coalition governments and legislatures.The diplomacy in Victoria II is similar to that of other Paradox titles. Each country has a relation value of –200 to +200 which represents how much they like each other. Diplomatic and in game actions shift this relationship around and it factors into the AI's decisions. However, Paradox Interactive has expanded parts of this system. War goals from Heir to the Throne, an expansion for Europa Universalis III have been integrated though they function in a slightly different way. More war goals can be added as the war progresses, although this depends on the population's temperament. Failure to achieve a war goal will increase the population's militancy, which can lead to revolts as well a loss of prestige.
+In the game controlling a Great Power, one of the eight countries with highest total score, gives special diplomatic options not available to other countries. Great Powers do not just influence how a country sees them; they have the added ability to use their influence on other countries to change their perception of other Great Powers. The struggle for influence that the Great Powers wage around the world is not a simple bilateral basis but occurs with each other inside different countries, giving an added dimension to diplomacy which was not present in the original Victoria.
+
+
+=== Warfare ===
+Warfare is regarded as a lesser priority than politics and economics in Victoria II, though it follows the basic pattern used in other Paradox grand strategy games, with armies moving between provinces and engaging enemy armies and capturing enemy territory.  The basic combat system is a combination of the systems used in Europa Universalis III, Europa Universalis: Rome, and Hearts of Iron III.  A key component to combat is "frontage": the number of units in an army at the front line, which decreases as technology improves to simulate the change from the roving armies of the Napoleonic Era to the continuous trench lines of World War I.Several aspects of the military have been changed from Victoria.  The base unit has been reduced from a 10,000-unit division to a 3,000-unit brigade, which is no longer raised from a national manpower pool but directly raised from a provincial soldier POP, to which the brigade remains connected.  A new aspect to the military is reconnaissance.  This is a value that gives a bonus (or penalty, if low) to capturing provinces and defeating enemy armies; in prolonged combat, however, the reconnaissance value drops.  Units such as cavalry and aeroplanes have high reconnaissance values and are intended to be used as scouts.
+
+
+== Development ==
+The decision to create Victoria II was influenced by voting on the Paradox Interactive forums and debate within the company. The CEO of Paradox Interactive, Fredrik Wester, publicly announced his belief that the game would never see a profit while other members of the company such as Johan Andersson were confident it would be profitable. To this end Wester promised that if the game did indeed make a profit he would shave his head and post the pictures onto the forum. This belief stemmed from the first game's lackluster sales numbers.  It was revealed in a German interview with Fredrik that 70,000 copies would need to be sold in order for Victoria II to be profitable. On June 17, 2010, Jessica Chobot from IGN shaved it off for him.
+
+
+== Expansions and mods ==
+Victoria II has received two main expansion packs, as well as numerous other smaller additions. It was released before Paradox's current DLC plan was used, so differs from games such as Europa Universalis IV and Crusader Kings II in regards to this.
+Many players consider the expansions to be essential to gaining full enjoyment from the game, going as far as to dismiss Victoria II without expansions as unplayable; having added not only new content and mechanics, but also significant user experience improvements like the ability to queue unit production, move/select units, and transport these over water (a common complaint addressed in early releases of Paradox titles such as CK2 and EU4 which Paradox has subsequently patched).
+
+
+=== A House Divided ===
+A House Divided was announced at the Electronic Entertainment Expo 2011  as an expansion pack with an aim on "[improving the] political and economical aspects of the game, with focus on the American Civil War era". It was released on February 2, 2012 for Windows and on March 30, 2012 for OS X; it is currently only available for purchase by download. It includes the following features:
+
+A new starting point in 1861, allowing players to experience the American Civil War from the start.
+The ability to manufacture reasons to go to war with other countries, all in the name of the great game of power.
+For uncivilized countries, various new reform paths to ultimately become equal to the western nations.
+The ability for Great Powers to invest in building infrastructure and factories in other countries to strengthen their ties to them.
+A deeper political system with new national focus options and new types of reform.
+A new system of popular movements that can be appeased or suppressed, but if ignored, will become the revolutionaries of tomorrow.
+An improved interface, with more information easily available and improving gameplay.
+China is now divided into cliques, known as substates, allowing for more interaction in the Far East.
+
+
+=== Heart of Darkness ===
+The Victoria II: Heart of Darkness expansion was released on April 16, 2013. It includes the following features:
+
+A brand new colonization system;
+A new naval combat system;
+Significant changes to land combat (particularly forts, recon/siege);
+A number of top-level interface upgrades including many new map modes;
+Introduction of international crises and many events, allowing smaller nations to achieve their aims with the aid of Great Powers;
+Introduction of newspapers which provide information about events around the world; and
+Several tweaks to industrial production.
+
+
+=== Other DLC ===
+A selection of smaller DLC has been made available for purchase for Victoria II. These have little to no effect on gameplay but alter the game's appearance or music, and are significantly less expensive than their larger counterparts.
+
+
+==== Music packs ====
+Victoria II: Songs of the Civil WarSpecial pre-order content: 
+
+Victoria II: Lament For The Queen
+
+
+==== Cosmetic packs ====
+Victoria II: A House Divided - American Civil War Spritepack
+Victoria II: German Unit Pack
+Victoria II: Interwar Engineer Unit Pack
+Victoria II: Interwar Cavalry Unit Pack
+Victoria II: Interwar Spritepack
+Victoria II: Interwar Artillery Spritepack
+Victoria II: Planes Spritepack
+
+
+== Reception ==
+Victoria II received generally favourable reviews, achieving a 75% average on Metacritic.GameSpot said that there was much less micromanagement than in its predecessor. The reviewer stated: "Thanks to a friendlier interface and tutorials, Victoria II is a lot more playable and enjoyable than its predecessor."GameShark was less enthusiastic. The reviewer said: "As a strategy game, Victoria II frustrates me. It is an orgy of detail for detail's sake, yet the information I really want never seems to be at hand. The decisions I make seem mostly inconsequential, changing the game only by a slow process of accretion. Modeling has overtaken game design. Watching Victoria II is hypnotic and frequently awe-inspiring. Unfortunately, you only occasionally might want to play it."The release of A House Divided drew increased praise and averaged 76% on Metacritic, and Heart of Darkness further increased positive reviews, averaging 81%. Gaming Nexus gave the final product a verdict of 8.5 ("very good") and commented that "after some patching and a couple of expansions, Victoria 2 is rounding into shape. It is still deep with a killer learning curve, but it is starting to feel like a fun game rather than a buggy spreadsheet."
+
+
+== Sequel ==
+In an Ask Me Anything thread on Reddit in October 2013, PDS manager Johan Andersson stated that they would consider making a sequel to Victoria II, but that this would likely come after Hearts of Iron IV.In December 2015, a beta patch was made for Victoria II, long after it was assumed that no further patches would be released. This prompted speculation that there could be refreshed interest in the Victoria series, although in a Reddit thread these rumours were played down by Paradox developers.During an interview for the company’s Paradox Podcast on February 2018, CEO Fredrik Wester mentioned "I'm not a firm believer that Victoria II is the most prioritised game to make a sequel out of", that he won't be the one making the decision either and that it would come "before 2025".
+
+
+== See also ==
+
+List of grand strategy video games
+List of Paradox Interactive games
+List of PC games
+
+
+== References ==
+
+
+== External links ==
+Official website
+Official wiki

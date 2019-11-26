@@ -1,0 +1,3462 @@
+Rotations in 4-dimensional Euclidean space
+
+In mathematics, the group of rotations about a fixed point in four-dimensional Euclidean space is denoted SO(4). The name comes from the fact that it is the special orthogonal group of order 4.
+In this article rotation means rotational displacement. For the sake of uniqueness rotation angles are assumed to be in the segment [0, π] except where mentioned or clearly implied by the context otherwise.
+A "fixed plane" is a plane for which every vector in the plane is unchanged after the rotation. An "invariant plane" is a plane for which every vector in the plane, although it may be affected by the rotation, remains in the plane after the rotation.
+
+
+== Geometry of 4D rotations ==
+Four-dimensional rotations are of two types: simple rotations and double rotations.
+
+
+=== Simple rotations ===
+A simple rotation R about a rotation centre O leaves an entire plane A through O (axis-plane) fixed. Every plane B that is completely orthogonal to A intersects A in a certain point P. Each such point P is the centre of the 2D rotation induced by R in B. All these 2D rotations have the same rotation angle α.
+Half-lines from O in the axis-plane A are not displaced; half-lines from O orthogonal to A are displaced through α; all other half-lines are displaced through an angle less than α.
+
+
+=== Double rotations ===
+
+For each rotation R of 4-space (fixing the origin), there is at least one pair of orthogonal 2-planes A and B each of which is invariant and whose direct sum A ⊕ B is all of 4-space. Hence R operating on either of these planes produces an ordinary rotation of that plane. For almost all R (all of the 6-dimensional set of rotations except for a 3-dimensional subset), the rotation angles α in plane A and β in plane B — both assumed to be nonzero — are different. The unequal rotation angles α and β satisfying −π < α, β < π are almost uniquely determined by R. Assuming that 4-space is oriented, then the orientations of the 2-planes A and B can be chosen consistent with this orientation in two ways. If the rotation angles are unequal (α ≠ β), R is sometimes termed a "double rotation".
+In that case of a double rotation, A and B are the only pair of invariant planes, and half-lines from the origin in A, B are displaced through α and β respectively, and half-lines from the origin not in A or B are displaced through angles strictly between α and β.
+
+
+==== Isoclinic rotations ====
+If the rotation angles of a double rotation are equal then there are infinitely many invariant planes instead of just two, and all half-lines from O are displaced through the same angle. Such rotations are called isoclinic or equiangular rotations, or Clifford displacements. Beware: not all planes through O are invariant under isoclinic rotations; only planes that are spanned by a half-line and the corresponding displaced half-line are invariant.
+Assuming that a fixed orientation has been chosen for 4-dimensional space, isoclinic 4D rotations may be put into two categories. To see this, consider an isoclinic rotation R, and take an orientation-consistent ordered set OU, OX, OY, OZ of mutually perpendicular half-lines at O (denoted as OUXYZ) such that OU and OX span an invariant plane, and therefore OY and OZ also span an invariant plane. Now assume that only the rotation angle α is specified. Then there are in general four isoclinic rotations in planes OUX and OYZ with rotation angle α, depending on the rotation senses in OUX and OYZ.
+We make the convention that the rotation senses from OU to OX and from OY to OZ are reckoned positive. Then we have the four rotations R1 = (+α, +α), R2 = (−α, −α), R3 = (+α, −α) and R4 = (−α, +α). R1 and R2 are each other's inverses; so are R3 and R4. As long as α lies between 0 and π, these four rotations will be distinct.
+Isoclinic rotations with like signs are denoted as left-isoclinic; those with opposite signs as right-isoclinic. Left- and right-isoclinic rotations are represented respectively by left- and right-multiplication by unit quaternions; see the paragraph "Relation to quaternions" below.
+The four rotations are pairwise different except if α = 0 or α = π. The angle α = 0 corresponds to the identity rotation; α = π corresponds to the central inversion, given by the negative of the identity matrix. These two elements of SO(4) are the only ones that are simultaneously left- and right-isoclinic.
+Left- and right-isocliny defined as above seem to depend on which specific isoclinic rotation was selected. However, when another isoclinic rotation R′ with its own axes OU′, OX′, OY′, OZ′ is selected, then one can always choose the order of U′, X′, Y′, Z′ such that OUXYZ can be transformed into OU′X′Y′Z′ by a rotation rather than by a rotation-reflection (that is, so that the ordered basis OU′, OX′, OY′, OZ′ is also consistent with the same fixed choice of orientation as OU, OX, OY, OZ). Therefore, once one has selected an orientation (that is, a system OUXYZ of axes that is universally denoted as right-handed), one can determine the left or right character of a specific isoclinic rotation.
+
+
+=== Group structure of SO(4) ===
+SO(4) is a noncommutative compact 6-dimensional Lie group.
+Each plane through the rotation centre O is the axis-plane of a commutative subgroup isomorphic to SO(2). All these subgroups are mutually conjugate in SO(4).
+Each pair of completely orthogonal planes through O is the pair of invariant planes of a commutative subgroup of SO(4) isomorphic to SO(2) × SO(2).
+These groups are maximal tori of SO(4), which are all mutually conjugate in SO(4). See also Clifford torus.
+All left-isoclinic rotations form a noncommutative subgroup S3L of SO(4), which is isomorphic to the multiplicative group S3 of unit quaternions. All right-isoclinic rotations likewise form a subgroup S3R of SO(4) isomorphic to S3. Both S3L and S3R are maximal subgroups of SO(4).
+Each left-isoclinic rotation commutes with each right-isoclinic rotation. This implies that there exists a direct product S3L × S3R with normal subgroups S3L and S3R; both of the corresponding factor groups are isomorphic to the other factor of the direct product, i.e. isomorphic to S3. (This is not SO(4) or a subgroup of it, because S3L and S3R are not disjoint: the identity I and the central inversion −I each belong to both S3L and S3R.)
+Each 4D rotation A is in two ways the product of left- and right-isoclinic rotations AL and AR. AL and AR are together determined up to the central inversion, i.e. when both AL and AR are multiplied by the central inversion their product is A again.
+This implies that S3L × S3R is the universal covering group of SO(4) — its unique double cover — and that S3L and S3R are normal subgroups of SO(4). The identity rotation I and the central inversion −I form a group C2}} of order 2, which is the centre of SO(4) and of both S3L and S3R. The centre of a group is a normal subgroup of that group. The factor group of C2 in SO(4) is isomorphic to SO(3) × SO(3). The factor groups of S3L by C2 and of S3R by C2 are each isomorphic to SO(3). Similarly, the factor groups of SO(4) by S3L and of SO(4) by S3R are each isomorphic to SO(3).
+The topology of SO(4) is the same as that of the Lie group SO(3) × Spin(3) = SO(3) × SU(2), namely the topology of P3 × S3. However, it is noteworthy that, as a Lie group, SO(4) is not a direct product of Lie groups, and so it is not isomorphic to SO(3) × Spin(3) = SO(3) × SU(2).
+
+
+=== Special property of SO(4) among rotation groups in general ===
+The odd-dimensional rotation groups do not contain the central inversion and are simple groups.
+The even-dimensional rotation groups do contain the central inversion −I and have the group C2 = {I, −I} as their centre. From SO(6) onwards they are almost simple in the sense that the factor groups of their centres are simple groups.
+SO(4) is different: there is no conjugation by any element of SO(4) that transforms left- and right-isoclinic rotations into each other. Reflections transform a left-isoclinic rotation into a right-isoclinic one by conjugation, and vice versa. This implies that under the group O(4) of all isometries with fixed point O the subgroups S3L and S3R are mutually conjugate and so are not normal subgroups of O(4). The 5D rotation group SO(5) and all higher rotation groups contain subgroups isomorphic to O(4). Like SO(4), all even-dimensional rotation groups contain isoclinic rotations. But unlike SO(4), in SO(6) and all higher even-dimensional rotation groups any pair of isoclinic rotations through the same angle is conjugate. The sets of all isoclinic rotations are not even subgroups of SO(2N), let alone normal subgroups.
+
+
+== Algebra of 4D rotations ==
+SO(4) is commonly identified with the group of orientation-preserving isometric linear mappings of a 4D vector space with inner product over the real numbers onto itself.
+With respect to an orthonormal basis in such a space SO(4) is represented as the group of real 4th-order orthogonal matrices with determinant +1.
+
+
+=== Isoclinic decomposition ===
+A 4D rotation given by its matrix is decomposed into a left-isoclinic and a right-isoclinic rotation as follows:
+Let
+
+  
+    
+      
+        A
+        =
+        
+          
+            (
+            
+              
+                
+                  
+                    a
+                    
+                      00
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      01
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      02
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      03
+                    
+                  
+                
+              
+              
+                
+                  
+                    a
+                    
+                      10
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      11
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      12
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      13
+                    
+                  
+                
+              
+              
+                
+                  
+                    a
+                    
+                      20
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      21
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      22
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      23
+                    
+                  
+                
+              
+              
+                
+                  
+                    a
+                    
+                      30
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      31
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      32
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      33
+                    
+                  
+                
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle A={\begin{pmatrix}a_{00}&a_{01}&a_{02}&a_{03}\\a_{10}&a_{11}&a_{12}&a_{13}\\a_{20}&a_{21}&a_{22}&a_{23}\\a_{30}&a_{31}&a_{32}&a_{33}\\\end{pmatrix}}}
+  be its matrix with respect to an arbitrary orthonormal basis.
+Calculate from this the so-called associate matrix
+
+  
+    
+      
+        M
+        =
+        
+          
+            1
+            4
+          
+        
+        
+          
+            (
+            
+              
+                
+                  
+                    a
+                    
+                      00
+                    
+                  
+                  +
+                  
+                    a
+                    
+                      11
+                    
+                  
+                  +
+                  
+                    a
+                    
+                      22
+                    
+                  
+                  +
+                  
+                    a
+                    
+                      33
+                    
+                  
+                
+                
+                  +
+                  
+                    a
+                    
+                      10
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      01
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      32
+                    
+                  
+                  +
+                  
+                    a
+                    
+                      23
+                    
+                  
+                
+                
+                  +
+                  
+                    a
+                    
+                      20
+                    
+                  
+                  +
+                  
+                    a
+                    
+                      31
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      02
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      13
+                    
+                  
+                
+                
+                  +
+                  
+                    a
+                    
+                      30
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      21
+                    
+                  
+                  +
+                  
+                    a
+                    
+                      12
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      03
+                    
+                  
+                
+              
+              
+                
+                  
+                    a
+                    
+                      10
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      01
+                    
+                  
+                  +
+                  
+                    a
+                    
+                      32
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      23
+                    
+                  
+                
+                
+                  −
+                  
+                    a
+                    
+                      00
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      11
+                    
+                  
+                  +
+                  
+                    a
+                    
+                      22
+                    
+                  
+                  +
+                  
+                    a
+                    
+                      33
+                    
+                  
+                
+                
+                  +
+                  
+                    a
+                    
+                      30
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      21
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      12
+                    
+                  
+                  +
+                  
+                    a
+                    
+                      03
+                    
+                  
+                
+                
+                  −
+                  
+                    a
+                    
+                      20
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      31
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      02
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      13
+                    
+                  
+                
+              
+              
+                
+                  
+                    a
+                    
+                      20
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      31
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      02
+                    
+                  
+                  +
+                  
+                    a
+                    
+                      13
+                    
+                  
+                
+                
+                  −
+                  
+                    a
+                    
+                      30
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      21
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      12
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      03
+                    
+                  
+                
+                
+                  −
+                  
+                    a
+                    
+                      00
+                    
+                  
+                  +
+                  
+                    a
+                    
+                      11
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      22
+                    
+                  
+                  +
+                  
+                    a
+                    
+                      33
+                    
+                  
+                
+                
+                  +
+                  
+                    a
+                    
+                      10
+                    
+                  
+                  +
+                  
+                    a
+                    
+                      01
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      32
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      23
+                    
+                  
+                
+              
+              
+                
+                  
+                    a
+                    
+                      30
+                    
+                  
+                  +
+                  
+                    a
+                    
+                      21
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      12
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      03
+                    
+                  
+                
+                
+                  +
+                  
+                    a
+                    
+                      20
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      31
+                    
+                  
+                  +
+                  
+                    a
+                    
+                      02
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      13
+                    
+                  
+                
+                
+                  −
+                  
+                    a
+                    
+                      10
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      01
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      32
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      23
+                    
+                  
+                
+                
+                  −
+                  
+                    a
+                    
+                      00
+                    
+                  
+                  +
+                  
+                    a
+                    
+                      11
+                    
+                  
+                  +
+                  
+                    a
+                    
+                      22
+                    
+                  
+                  −
+                  
+                    a
+                    
+                      33
+                    
+                  
+                
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle M={\frac {1}{4}}{\begin{pmatrix}a_{00}+a_{11}+a_{22}+a_{33}&+a_{10}-a_{01}-a_{32}+a_{23}&+a_{20}+a_{31}-a_{02}-a_{13}&+a_{30}-a_{21}+a_{12}-a_{03}\\a_{10}-a_{01}+a_{32}-a_{23}&-a_{00}-a_{11}+a_{22}+a_{33}&+a_{30}-a_{21}-a_{12}+a_{03}&-a_{20}-a_{31}-a_{02}-a_{13}\\a_{20}-a_{31}-a_{02}+a_{13}&-a_{30}-a_{21}-a_{12}-a_{03}&-a_{00}+a_{11}-a_{22}+a_{33}&+a_{10}+a_{01}-a_{32}-a_{23}\\a_{30}+a_{21}-a_{12}-a_{03}&+a_{20}-a_{31}+a_{02}-a_{13}&-a_{10}-a_{01}-a_{32}-a_{23}&-a_{00}+a_{11}+a_{22}-a_{33}\end{pmatrix}}}
+  M has rank one and is of unit Euclidean norm as a 16D vector if and only if A is indeed a 4D rotation matrix. In this case there exist real numbers a, b, c, d and p, q, r, s such that
+
+  
+    
+      
+        M
+        =
+        
+          
+            (
+            
+              
+                
+                  a
+                  p
+                
+                
+                  a
+                  q
+                
+                
+                  a
+                  r
+                
+                
+                  a
+                  s
+                
+              
+              
+                
+                  b
+                  p
+                
+                
+                  b
+                  q
+                
+                
+                  b
+                  r
+                
+                
+                  b
+                  s
+                
+              
+              
+                
+                  c
+                  p
+                
+                
+                  c
+                  q
+                
+                
+                  c
+                  r
+                
+                
+                  c
+                  s
+                
+              
+              
+                
+                  d
+                  p
+                
+                
+                  d
+                  q
+                
+                
+                  d
+                  r
+                
+                
+                  d
+                  s
+                
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle M={\begin{pmatrix}ap&aq&ar&as\\bp&bq&br&bs\\cp&cq&cr&cs\\dp&dq&dr&ds\end{pmatrix}}}
+  and
+
+  
+    
+      
+        (
+        a
+        p
+        
+          )
+          
+            2
+          
+        
+        +
+        ⋯
+        +
+        (
+        d
+        s
+        
+          )
+          
+            2
+          
+        
+        =
+        
+          (
+          
+            
+              a
+              
+                2
+              
+            
+            +
+            
+              b
+              
+                2
+              
+            
+            +
+            
+              c
+              
+                2
+              
+            
+            +
+            
+              d
+              
+                2
+              
+            
+          
+          )
+        
+        
+          (
+          
+            
+              p
+              
+                2
+              
+            
+            +
+            
+              q
+              
+                2
+              
+            
+            +
+            
+              r
+              
+                2
+              
+            
+            +
+            
+              s
+              
+                2
+              
+            
+          
+          )
+        
+        =
+        1.
+      
+    
+    {\displaystyle (ap)^{2}+\cdots +(ds)^{2}=\left(a^{2}+b^{2}+c^{2}+d^{2}\right)\left(p^{2}+q^{2}+r^{2}+s^{2}\right)=1.}
+  There are exactly two sets of a, b, c, d and p, q, r, s such that a2 + b2 + c2 + d2 = 1 and p2 + q2 + r2 + s2 = 1. They are each other's opposites.
+The rotation matrix then equals
+
+  
+    
+      
+        
+          
+            
+              
+                A
+              
+              
+                
+                =
+                
+                  
+                    (
+                    
+                      
+                        
+                          a
+                          p
+                          −
+                          b
+                          q
+                          −
+                          c
+                          r
+                          −
+                          d
+                          s
+                        
+                        
+                          −
+                          a
+                          q
+                          −
+                          b
+                          p
+                          +
+                          c
+                          s
+                          −
+                          d
+                          r
+                        
+                        
+                          −
+                          a
+                          r
+                          −
+                          b
+                          s
+                          −
+                          c
+                          p
+                          +
+                          d
+                          q
+                        
+                        
+                          −
+                          a
+                          s
+                          +
+                          b
+                          r
+                          −
+                          c
+                          q
+                          −
+                          d
+                          p
+                        
+                      
+                      
+                        
+                          b
+                          p
+                          +
+                          a
+                          q
+                          −
+                          d
+                          r
+                          +
+                          c
+                          s
+                        
+                        
+                          −
+                          b
+                          q
+                          +
+                          a
+                          p
+                          +
+                          d
+                          s
+                          +
+                          c
+                          r
+                        
+                        
+                          −
+                          b
+                          r
+                          +
+                          a
+                          s
+                          −
+                          d
+                          p
+                          −
+                          c
+                          q
+                        
+                        
+                          −
+                          b
+                          s
+                          −
+                          a
+                          r
+                          −
+                          d
+                          q
+                          +
+                          c
+                          p
+                        
+                      
+                      
+                        
+                          c
+                          p
+                          +
+                          d
+                          q
+                          +
+                          a
+                          r
+                          −
+                          b
+                          s
+                        
+                        
+                          −
+                          c
+                          q
+                          +
+                          d
+                          p
+                          −
+                          a
+                          s
+                          −
+                          b
+                          r
+                        
+                        
+                          −
+                          c
+                          r
+                          +
+                          d
+                          s
+                          +
+                          a
+                          p
+                          +
+                          b
+                          q
+                        
+                        
+                          −
+                          c
+                          s
+                          −
+                          d
+                          r
+                          +
+                          a
+                          q
+                          −
+                          b
+                          p
+                        
+                      
+                      
+                        
+                          d
+                          p
+                          −
+                          c
+                          q
+                          +
+                          b
+                          r
+                          +
+                          a
+                          s
+                        
+                        
+                          −
+                          d
+                          q
+                          −
+                          c
+                          p
+                          −
+                          b
+                          s
+                          +
+                          a
+                          r
+                        
+                        
+                          −
+                          d
+                          r
+                          −
+                          c
+                          s
+                          +
+                          b
+                          p
+                          −
+                          a
+                          q
+                        
+                        
+                          −
+                          d
+                          s
+                          +
+                          c
+                          r
+                          +
+                          b
+                          q
+                          +
+                          a
+                          p
+                        
+                      
+                    
+                    )
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    (
+                    
+                      
+                        
+                          a
+                        
+                        
+                          −
+                          b
+                        
+                        
+                          −
+                          c
+                        
+                        
+                          −
+                          d
+                        
+                      
+                      
+                        
+                          b
+                        
+                        
+                          
+                          
+                          
+                          a
+                        
+                        
+                          −
+                          d
+                        
+                        
+                          
+                          
+                          
+                          c
+                        
+                      
+                      
+                        
+                          c
+                        
+                        
+                          
+                          
+                          
+                          d
+                        
+                        
+                          
+                          
+                          
+                          a
+                        
+                        
+                          −
+                          b
+                        
+                      
+                      
+                        
+                          d
+                        
+                        
+                          −
+                          c
+                        
+                        
+                          
+                          
+                          
+                          b
+                        
+                        
+                          
+                          
+                          
+                          a
+                        
+                      
+                    
+                    )
+                  
+                
+                
+                  
+                    (
+                    
+                      
+                        
+                          p
+                        
+                        
+                          −
+                          q
+                        
+                        
+                          −
+                          r
+                        
+                        
+                          −
+                          s
+                        
+                      
+                      
+                        
+                          q
+                        
+                        
+                          
+                          
+                          
+                          p
+                        
+                        
+                          
+                          
+                          
+                          s
+                        
+                        
+                          −
+                          r
+                        
+                      
+                      
+                        
+                          r
+                        
+                        
+                          −
+                          s
+                        
+                        
+                          
+                          
+                          
+                          p
+                        
+                        
+                          
+                          
+                          
+                          q
+                        
+                      
+                      
+                        
+                          s
+                        
+                        
+                          
+                          
+                          
+                          r
+                        
+                        
+                          −
+                          q
+                        
+                        
+                          
+                          
+                          
+                          p
+                        
+                      
+                    
+                    )
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}A&={\begin{pmatrix}ap-bq-cr-ds&-aq-bp+cs-dr&-ar-bs-cp+dq&-as+br-cq-dp\\bp+aq-dr+cs&-bq+ap+ds+cr&-br+as-dp-cq&-bs-ar-dq+cp\\cp+dq+ar-bs&-cq+dp-as-br&-cr+ds+ap+bq&-cs-dr+aq-bp\\dp-cq+br+as&-dq-cp-bs+ar&-dr-cs+bp-aq&-ds+cr+bq+ap\end{pmatrix}}\\&={\begin{pmatrix}a&-b&-c&-d\\b&\;\,\,a&-d&\;\,\,c\\c&\;\,\,d&\;\,\,a&-b\\d&-c&\;\,\,b&\;\,\,a\end{pmatrix}}{\begin{pmatrix}p&-q&-r&-s\\q&\;\,\,p&\;\,\,s&-r\\r&-s&\;\,\,p&\;\,\,q\\s&\;\,\,r&-q&\;\,\,p\end{pmatrix}}.\end{aligned}}}
+  This formula is due to Van Elfrinkhof (1897).
+The first factor in this decomposition represents a left-isoclinic rotation, the second factor a right-isoclinic rotation. The factors are determined up to the negative 4th-order identity matrix, i.e. the central inversion.
+
+
+=== Relation to quaternions ===
+A point in 4-dimensional space with Cartesian coordinates (u, x, y, z) may be represented by a quaternion P = u + xi + yj + zk.
+A left-isoclinic rotation is represented by left-multiplication by a unit quaternion QL = a + bi + cj + dk. In matrix-vector language this is
+
+  
+    
+      
+        
+          
+            (
+            
+              
+                
+                  
+                    u
+                    ′
+                  
+                
+              
+              
+                
+                  
+                    x
+                    ′
+                  
+                
+              
+              
+                
+                  
+                    y
+                    ′
+                  
+                
+              
+              
+                
+                  
+                    z
+                    ′
+                  
+                
+              
+            
+            )
+          
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  a
+                
+                
+                  −
+                  b
+                
+                
+                  −
+                  c
+                
+                
+                  −
+                  d
+                
+              
+              
+                
+                  b
+                
+                
+                  
+                  
+                  
+                  a
+                
+                
+                  −
+                  d
+                
+                
+                  
+                  
+                  
+                  c
+                
+              
+              
+                
+                  c
+                
+                
+                  
+                  
+                  
+                  d
+                
+                
+                  
+                  
+                  
+                  a
+                
+                
+                  −
+                  b
+                
+              
+              
+                
+                  d
+                
+                
+                  −
+                  c
+                
+                
+                  
+                  
+                  
+                  b
+                
+                
+                  
+                  
+                  
+                  a
+                
+              
+            
+            )
+          
+        
+        
+          
+            (
+            
+              
+                
+                  u
+                
+              
+              
+                
+                  x
+                
+              
+              
+                
+                  y
+                
+              
+              
+                
+                  z
+                
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle {\begin{pmatrix}u'\\x'\\y'\\z'\end{pmatrix}}={\begin{pmatrix}a&-b&-c&-d\\b&\;\,\,a&-d&\;\,\,c\\c&\;\,\,d&\;\,\,a&-b\\d&-c&\;\,\,b&\;\,\,a\end{pmatrix}}{\begin{pmatrix}u\\x\\y\\z\end{pmatrix}}}
+  Likewise, a right-isoclinic rotation is represented by right-multiplication by a unit quaternion QR = p + qi + rj + sk, which is in matrix-vector form
+
+  
+    
+      
+        
+          
+            (
+            
+              
+                
+                  
+                    u
+                    ′
+                  
+                
+              
+              
+                
+                  
+                    x
+                    ′
+                  
+                
+              
+              
+                
+                  
+                    y
+                    ′
+                  
+                
+              
+              
+                
+                  
+                    z
+                    ′
+                  
+                
+              
+            
+            )
+          
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  u
+                
+              
+              
+                
+                  x
+                
+              
+              
+                
+                  y
+                
+              
+              
+                
+                  z
+                
+              
+            
+            )
+          
+        
+        
+          
+            (
+            
+              
+                
+                  p
+                
+                
+                  −
+                  q
+                
+                
+                  −
+                  r
+                
+                
+                  −
+                  s
+                
+              
+              
+                
+                  q
+                
+                
+                  
+                  
+                  
+                  p
+                
+                
+                  
+                  
+                  
+                  s
+                
+                
+                  −
+                  r
+                
+              
+              
+                
+                  r
+                
+                
+                  −
+                  s
+                
+                
+                  
+                  
+                  
+                  p
+                
+                
+                  
+                  
+                  
+                  q
+                
+              
+              
+                
+                  s
+                
+                
+                  
+                  
+                  
+                  r
+                
+                
+                  −
+                  q
+                
+                
+                  
+                  
+                  
+                  p
+                
+              
+            
+            )
+          
+        
+        .
+      
+    
+    {\displaystyle {\begin{pmatrix}u'\\x'\\y'\\z'\end{pmatrix}}={\begin{pmatrix}u\\x\\y\\z\end{pmatrix}}{\begin{pmatrix}p&-q&-r&-s\\q&\;\,\,p&\;\,\,s&-r\\r&-s&\;\,\,p&\;\,\,q\\s&\;\,\,r&-q&\;\,\,p\end{pmatrix}}.}
+  In the preceding section (#Isoclinic decomposition) it is shown how a general 4D rotation is split into left- and right-isoclinic factors.
+In quaternion language Van Elfrinkhof's formula reads
+
+  
+    
+      
+        
+          u
+          ′
+        
+        +
+        
+          x
+          ′
+        
+        i
+        +
+        
+          y
+          ′
+        
+        j
+        +
+        
+          z
+          ′
+        
+        k
+        =
+        (
+        a
+        +
+        b
+        i
+        +
+        c
+        j
+        +
+        d
+        k
+        )
+        (
+        u
+        +
+        x
+        i
+        +
+        y
+        j
+        +
+        z
+        k
+        )
+        (
+        p
+        +
+        q
+        i
+        +
+        r
+        j
+        +
+        s
+        k
+        )
+        ,
+      
+    
+    {\displaystyle u'+x'i+y'j+z'k=(a+bi+cj+dk)(u+xi+yj+zk)(p+qi+rj+sk),}
+  or, in symbolic form,
+
+  
+    
+      
+        
+          P
+          ′
+        
+        =
+        
+          Q
+          
+            
+              L
+            
+          
+        
+        P
+        
+          Q
+          
+            
+              R
+            
+          
+        
+        .
+        
+      
+    
+    {\displaystyle P'=Q_{\mathrm {L} }PQ_{\mathrm {R} }.\,}
+  According to the German mathematician Felix Klein this formula was already known to Cayley in 1854.
+Quaternion multiplication is associative. Therefore,
+
+  
+    
+      
+        
+          P
+          ′
+        
+        =
+        
+          (
+          
+            
+              Q
+              
+                
+                  L
+                
+              
+            
+            P
+          
+          )
+        
+        
+          Q
+          
+            
+              R
+            
+          
+        
+        =
+        
+          Q
+          
+            
+              L
+            
+          
+        
+        
+          (
+          
+            P
+            
+              Q
+              
+                
+                  R
+                
+              
+            
+          
+          )
+        
+        ,
+        
+      
+    
+    {\displaystyle P'=\left(Q_{\mathrm {L} }P\right)Q_{\mathrm {R} }=Q_{\mathrm {L} }\left(PQ_{\mathrm {R} }\right),\,}
+  which shows that left-isoclinic and right-isoclinic rotations commute.
+
+
+=== The eigenvalues of 4D rotation matrices ===
+The four eigenvalues of a 4D rotation matrix generally occur as two conjugate pairs of complex numbers of unit magnitude. If an eigenvalue is real, it must be ±1, since a rotation leaves the magnitude of a vector unchanged. The conjugate of that eigenvalue is also unity, yielding a pair of eigenvectors which define a fixed plane, and so the rotation is simple. In quaternion notation, a proper (i.e., non-inverting) rotation in SO(4) is a proper simple rotation if and only if the real parts of the unit quaternions QL and QR are equal in magnitude and have the same sign. If they are both zero, all eigenvalues of the rotation are unity, and the rotation is the null rotation. If the real parts of QL and QR are not equal then all eigenvalues are complex, and the rotation is a double rotation.
+
+
+=== The Euler–Rodrigues formula for 3D rotations ===
+Our ordinary 3D space is conveniently treated as the subspace with coordinate system 0XYZ of the 4D space with coordinate system UXYZ. Its rotation group SO(3) is identified with the subgroup of SO(4) consisting of the matrices
+
+  
+    
+      
+        
+          
+            (
+            
+              
+                
+                  1
+                
+                
+                  
+                  
+                  0
+                
+                
+                  
+                  
+                  0
+                
+                
+                  
+                  
+                  0
+                
+              
+              
+                
+                  0
+                
+                
+                  
+                    a
+                    
+                      11
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      12
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      13
+                    
+                  
+                
+              
+              
+                
+                  0
+                
+                
+                  
+                    a
+                    
+                      21
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      22
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      23
+                    
+                  
+                
+              
+              
+                
+                  0
+                
+                
+                  
+                    a
+                    
+                      31
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      32
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      33
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        .
+      
+    
+    {\displaystyle {\begin{pmatrix}1&\,\,0&\,\,0&\,\,0\\0&a_{11}&a_{12}&a_{13}\\0&a_{21}&a_{22}&a_{23}\\0&a_{31}&a_{32}&a_{33}\end{pmatrix}}.}
+  In Van Elfrinkhof's formula in the preceding subsection this restriction to three dimensions leads to p = a, q = −b, r = −c, s = −d, or in quaternion representation: QR = QL′ = QL−1.
+The 3D rotation matrix then becomes
+
+  
+    
+      
+        
+          
+            (
+            
+              
+                
+                  
+                    a
+                    
+                      11
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      12
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      13
+                    
+                  
+                
+              
+              
+                
+                  
+                    a
+                    
+                      21
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      22
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      23
+                    
+                  
+                
+              
+              
+                
+                  
+                    a
+                    
+                      31
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      32
+                    
+                  
+                
+                
+                  
+                    a
+                    
+                      33
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  
+                    a
+                    
+                      2
+                    
+                  
+                  +
+                  
+                    b
+                    
+                      2
+                    
+                  
+                  −
+                  
+                    c
+                    
+                      2
+                    
+                  
+                  −
+                  
+                    d
+                    
+                      2
+                    
+                  
+                
+                
+                  2
+                  (
+                  b
+                  c
+                  −
+                  a
+                  d
+                  )
+                
+                
+                  2
+                  (
+                  b
+                  d
+                  +
+                  a
+                  c
+                  )
+                
+              
+              
+                
+                  2
+                  (
+                  b
+                  c
+                  +
+                  a
+                  d
+                  )
+                
+                
+                  
+                    a
+                    
+                      2
+                    
+                  
+                  −
+                  
+                    b
+                    
+                      2
+                    
+                  
+                  +
+                  
+                    c
+                    
+                      2
+                    
+                  
+                  −
+                  
+                    d
+                    
+                      2
+                    
+                  
+                
+                
+                  2
+                  (
+                  c
+                  d
+                  −
+                  a
+                  b
+                  )
+                
+              
+              
+                
+                  2
+                  (
+                  b
+                  d
+                  −
+                  a
+                  c
+                  )
+                
+                
+                  2
+                  (
+                  c
+                  d
+                  +
+                  a
+                  b
+                  )
+                
+                
+                  
+                    a
+                    
+                      2
+                    
+                  
+                  −
+                  
+                    b
+                    
+                      2
+                    
+                  
+                  −
+                  
+                    c
+                    
+                      2
+                    
+                  
+                  +
+                  
+                    d
+                    
+                      2
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        ,
+      
+    
+    {\displaystyle {\begin{pmatrix}a_{11}&a_{12}&a_{13}\\a_{21}&a_{22}&a_{23}\\a_{31}&a_{32}&a_{33}\end{pmatrix}}={\begin{pmatrix}a^{2}+b^{2}-c^{2}-d^{2}&2(bc-ad)&2(bd+ac)\\2(bc+ad)&a^{2}-b^{2}+c^{2}-d^{2}&2(cd-ab)\\2(bd-ac)&2(cd+ab)&a^{2}-b^{2}-c^{2}+d^{2}\end{pmatrix}},}
+  which is the representation of the 3D rotation by its Euler–Rodrigues parameters: a, b, c, d.
+The corresponding quaternion formula P′ = QPQ−1, where Q = QL, or, in expanded form:
+
+  
+    
+      
+        
+          x
+          ′
+        
+        i
+        +
+        
+          y
+          ′
+        
+        j
+        +
+        
+          z
+          ′
+        
+        k
+        =
+        (
+        a
+        +
+        b
+        i
+        +
+        c
+        j
+        +
+        d
+        k
+        )
+        (
+        x
+        i
+        +
+        y
+        j
+        +
+        z
+        k
+        )
+        (
+        a
+        −
+        b
+        i
+        −
+        c
+        j
+        −
+        d
+        k
+        )
+      
+    
+    {\displaystyle x'i+y'j+z'k=(a+bi+cj+dk)(xi+yj+zk)(a-bi-cj-dk)}
+  is known as the Hamilton–Cayley formula.
+
+
+=== Hopf coordinates ===
+Rotations in 3D space are made mathematically much more tractable by the use of spherical coordinates. Any rotation in 3D can be characterized by a fixed axis of rotation and an invariant plane perpendicular to that axis. Without loss of generality, we can take the xy-plane as the invariant plane and the z-axis as the fixed axis. Since radial distances are not affected by rotation, we can characterize a rotation by its effect on the unit sphere (2-sphere) by spherical coordinates referred to the fixed axis and invariant plane:
+
+  
+    
+      
+        
+          
+            
+              
+                x
+              
+              
+                
+                =
+                sin
+                ⁡
+                θ
+                cos
+                ⁡
+                ϕ
+              
+            
+            
+              
+                y
+              
+              
+                
+                =
+                sin
+                ⁡
+                θ
+                sin
+                ⁡
+                ϕ
+              
+            
+            
+              
+                z
+              
+              
+                
+                =
+                cos
+                ⁡
+                θ
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}x&=\sin \theta \cos \phi \\y&=\sin \theta \sin \phi \\z&=\cos \theta \end{aligned}}}
+  Because x2 + y2 + z2 = 1, the points lie on the 2-sphere. A point at {θ0, φ0} rotated by an angle φ about the z-axis is specified simply by {θ0, φ0 + φ}. While hyperspherical coordinates are also useful in dealing with 4D rotations, an even more useful coordinate system for 4D is provided by Hopf coordinates {ξ1, η, ξ2}, which are a set of three angular coordinates specifying a position on the 3-sphere. For example:
+
+  
+    
+      
+        
+          
+            
+              
+                u
+              
+              
+                
+                =
+                cos
+                ⁡
+                
+                  ξ
+                  
+                    1
+                  
+                
+                sin
+                ⁡
+                η
+              
+            
+            
+              
+                z
+              
+              
+                
+                =
+                sin
+                ⁡
+                
+                  ξ
+                  
+                    1
+                  
+                
+                sin
+                ⁡
+                η
+              
+            
+            
+              
+                x
+              
+              
+                
+                =
+                cos
+                ⁡
+                
+                  ξ
+                  
+                    2
+                  
+                
+                cos
+                ⁡
+                η
+              
+            
+            
+              
+                y
+              
+              
+                
+                =
+                sin
+                ⁡
+                
+                  ξ
+                  
+                    2
+                  
+                
+                cos
+                ⁡
+                η
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}u&=\cos \xi _{1}\sin \eta \\z&=\sin \xi _{1}\sin \eta \\x&=\cos \xi _{2}\cos \eta \\y&=\sin \xi _{2}\cos \eta \end{aligned}}}
+  Because u2 + x2 + y2 + z2 = 1, the points lie on the 3-sphere.
+In 4D space, every rotation about the origin has two invariant planes which are completely orthogonal to each other and intersect at the origin, and are rotated by two independent angles ξ1 and ξ2. Without loss of generality, we can choose, respectively, the uz- and xy-planes as these invariant planes. A rotation in 4D of a point {ξ10, η0, ξ20} through angles ξ1 and ξ2 is then simply expressed in Hopf coordinates as {ξ10 + ξ1, η0, ξ20 + ξ2}.
+
+
+== Visualization of 4D rotations ==
+
+Every rotation in 3D space has an invariant axis-line which is unchanged by the rotation. The rotation is completely specified by specifying the axis of rotation and the angle of rotation about that axis. Without loss of generality, this axis may be chosen as the z-axis of a Cartesian coordinate system, allowing a simpler visualization of the rotation.
+In 3D space, the spherical coordinates {θ, φ} may be seen as a parametric expression of the 2-sphere. For fixed θ they describe circles on the 2-sphere which are perpendicular to the z-axis and these circles may be viewed as trajectories of a point on the sphere. A point {θ0, φ0} on the sphere, under a rotation about the z-axis, will follow a trajectory {θ0, φ0 + φ} as the angle φ varies. The trajectory may be viewed as a rotation parametric in time, where the angle of rotation is linear in time: φ = ωt, with ω being an "angular velocity".
+Analogous to the 3D case, every rotation in 4D space has at least two invariant axis-planes which are left invariant by the rotation and are completely orthogonal (i.e. they intersect at a point). The rotation is completely specified by specifying the axis planes and the angles of rotation about them. Without loss of generality, these axis planes may be chosen to be the uz- and xy-planes of a Cartesian coordinate system, allowing a simpler visualization of the rotation.
+In 4D space, the Hopf angles {ξ1, η, ξ2} parameterize the 3-sphere. For fixed η they describe a torus parameterized by ξ1 and ξ2, with η = π/4 being the special case of the Clifford torus in the xy- and uz-planes. These tori are not the usual tori found in 3D-space. While they are still 2D surfaces, they are embedded in the 3-sphere. The 3-sphere can be stereographically projected onto the whole Euclidean 3D-space, and these tori are then seen as the usual tori of revolution. It can be seen that a point specified by {ξ10, η0, ξ20} undergoing a rotation with the uz- and xy-planes invariant will remain on the torus specified by η0. The trajectory of a point can be written as a function of time as {ξ10 + ω1t, η0, ξ20 + ω2t} and stereographically projected onto its associated torus, as in the figures below. In these figures, the initial point is taken to be {0, π/4, 0}, i.e. on the Clifford torus. In Fig. 1, two simple rotation trajectories are shown in black, while a left and a right isoclinic trajectory is shown in red and blue respectively. In Fig. 2, a general rotation in which ω1 = 1 and ω2 = 5 is shown, while in Fig. 3, a general rotation in which ω1 = 5 and ω2 = 1 is shown.
+
+
+== Generating 4D rotation matrices ==
+Four-dimensional rotations can be derived from Rodrigues' rotation formula and the Cayley formula. Let A be a 4 × 4 skew-symmetric matrix. The skew-symmetric matrix A can be uniquely decomposed as
+
+  
+    
+      
+        A
+        =
+        
+          θ
+          
+            1
+          
+        
+        
+          A
+          
+            1
+          
+        
+        +
+        
+          θ
+          
+            2
+          
+        
+        
+          A
+          
+            2
+          
+        
+      
+    
+    {\displaystyle A=\theta _{1}A_{1}+\theta _{2}A_{2}}
+  into two skew-symmetric matrices A1 and A2 satisfying the properties A1A2 = 0, A13 = −A1 and A23 = −A2, where ∓θ1i and ∓θ2i are the eigenvalues of A. Then, the 4D rotation matrices can be obtained from the skew-symmetric matrices A1 and A2 by Rodrigues' rotation formula and the Cayley formula.Let A be a 4 × 4 nonzero skew-symmetric matrix with the set of eigenvalues
+
+  
+    
+      
+        
+          {
+          
+            
+              θ
+              
+                1
+              
+            
+            i
+            ,
+            −
+            
+              θ
+              
+                1
+              
+            
+            i
+            ,
+            
+              θ
+              
+                2
+              
+            
+            i
+            ,
+            −
+            
+              θ
+              
+                2
+              
+            
+            i
+            :
+            
+              
+                
+                  θ
+                  
+                    1
+                  
+                
+              
+              
+                2
+              
+            
+            +
+            
+              
+                
+                  θ
+                  
+                    2
+                  
+                
+              
+              
+                2
+              
+            
+            >
+            0
+          
+          }
+        
+        .
+      
+    
+    {\displaystyle \left\{\theta _{1}i,-\theta _{1}i,\theta _{2}i,-\theta _{2}i:{\theta _{1}}^{2}+{\theta _{2}}^{2}>0\right\}.}
+  Then A can be decomposed as
+
+  
+    
+      
+        A
+        =
+        
+          θ
+          
+            1
+          
+        
+        
+          A
+          
+            1
+          
+        
+        +
+        
+          θ
+          
+            2
+          
+        
+        
+          A
+          
+            2
+          
+        
+      
+    
+    {\displaystyle A=\theta _{1}A_{1}+\theta _{2}A_{2}}
+  where A1 and A2 are skew-symmetric matrices satisfying the properties
+
+  
+    
+      
+        
+          A
+          
+            1
+          
+        
+        
+          A
+          
+            2
+          
+        
+        =
+        
+          A
+          
+            2
+          
+        
+        
+          A
+          
+            1
+          
+        
+        =
+        0
+        ,
+        
+        
+          
+            
+              A
+              
+                1
+              
+            
+          
+          
+            3
+          
+        
+        =
+        −
+        
+          A
+          
+            1
+          
+        
+        ,
+        
+        
+          and
+        
+        
+        
+          
+            
+              A
+              
+                2
+              
+            
+          
+          
+            3
+          
+        
+        =
+        −
+        
+          A
+          
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle A_{1}A_{2}=A_{2}A_{1}=0,\qquad {A_{1}}^{3}=-A_{1},\quad {\text{and}}\quad {A_{2}}^{3}=-A_{2}.}
+  Moreover, the skew-symmetric matrices A1 and A2 are uniquely obtained as
+
+  
+    
+      
+        
+          A
+          
+            1
+          
+        
+        =
+        
+          
+            
+              
+                
+                  
+                    θ
+                    
+                      2
+                    
+                  
+                
+                
+                  2
+                
+              
+              A
+              +
+              
+                A
+                
+                  3
+                
+              
+            
+            
+              
+                θ
+                
+                  1
+                
+              
+              
+                (
+                
+                  
+                    
+                      
+                        θ
+                        
+                          2
+                        
+                      
+                    
+                    
+                      2
+                    
+                  
+                  −
+                  
+                    
+                      
+                        θ
+                        
+                          1
+                        
+                      
+                    
+                    
+                      2
+                    
+                  
+                
+                )
+              
+            
+          
+        
+      
+    
+    {\displaystyle A_{1}={\frac {{\theta _{2}}^{2}A+A^{3}}{\theta _{1}\left({\theta _{2}}^{2}-{\theta _{1}}^{2}\right)}}}
+  and
+
+  
+    
+      
+        
+          A
+          
+            2
+          
+        
+        =
+        
+          
+            
+              
+                
+                  
+                    θ
+                    
+                      1
+                    
+                  
+                
+                
+                  2
+                
+              
+              A
+              +
+              
+                A
+                
+                  3
+                
+              
+            
+            
+              
+                θ
+                
+                  2
+                
+              
+              
+                (
+                
+                  
+                    
+                      
+                        θ
+                        
+                          1
+                        
+                      
+                    
+                    
+                      2
+                    
+                  
+                  −
+                  
+                    
+                      
+                        θ
+                        
+                          2
+                        
+                      
+                    
+                    
+                      2
+                    
+                  
+                
+                )
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle A_{2}={\frac {{\theta _{1}}^{2}A+A^{3}}{\theta _{2}\left({\theta _{1}}^{2}-{\theta _{2}}^{2}\right)}}.}
+  Then,
+
+  
+    
+      
+        R
+        =
+        
+          e
+          
+            A
+          
+        
+        =
+        I
+        +
+        sin
+        ⁡
+        
+          θ
+          
+            1
+          
+        
+        
+          A
+          
+            1
+          
+        
+        +
+        
+          (
+          
+            1
+            −
+            cos
+            ⁡
+            
+              θ
+              
+                1
+              
+            
+          
+          )
+        
+        
+          
+            
+              A
+              
+                1
+              
+            
+          
+          
+            2
+          
+        
+        +
+        sin
+        ⁡
+        
+          θ
+          
+            2
+          
+        
+        
+          A
+          
+            2
+          
+        
+        +
+        
+          (
+          
+            1
+            −
+            cos
+            ⁡
+            
+              θ
+              
+                2
+              
+            
+          
+          )
+        
+        
+          
+            
+              A
+              
+                2
+              
+            
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle R=e^{A}=I+\sin \theta _{1}A_{1}+\left(1-\cos \theta _{1}\right){A_{1}}^{2}+\sin \theta _{2}A_{2}+\left(1-\cos \theta _{2}\right){A_{2}}^{2}}
+  is a rotation matrix in E4, which is generated by Rodrigues' rotation formula, with the set of eigenvalues
+
+  
+    
+      
+        
+          {
+          
+            
+              e
+              
+                
+                  θ
+                  
+                    1
+                  
+                
+                i
+              
+            
+            ,
+            
+              e
+              
+                −
+                
+                  θ
+                  
+                    1
+                  
+                
+                i
+              
+            
+            ,
+            
+              e
+              
+                
+                  θ
+                  
+                    2
+                  
+                
+                i
+              
+            
+            ,
+            
+              e
+              
+                −
+                
+                  θ
+                  
+                    2
+                  
+                
+                i
+              
+            
+          
+          }
+        
+        .
+      
+    
+    {\displaystyle \left\{e^{\theta _{1}i},e^{-\theta _{1}i},e^{\theta _{2}i},e^{-\theta _{2}i}\right\}.}
+  Also,
+
+  
+    
+      
+        R
+        =
+        (
+        I
+        +
+        A
+        )
+        (
+        I
+        −
+        A
+        
+          )
+          
+            −
+            1
+          
+        
+        =
+        I
+        +
+        
+          
+            
+              2
+              
+                θ
+                
+                  1
+                
+              
+            
+            
+              1
+              +
+              
+                
+                  
+                    θ
+                    
+                      1
+                    
+                  
+                
+                
+                  2
+                
+              
+            
+          
+        
+        
+          A
+          
+            1
+          
+        
+        +
+        
+          
+            
+              2
+              
+                
+                  
+                    θ
+                    
+                      1
+                    
+                  
+                
+                
+                  2
+                
+              
+            
+            
+              1
+              +
+              
+                
+                  
+                    θ
+                    
+                      1
+                    
+                  
+                
+                
+                  2
+                
+              
+            
+          
+        
+        
+          
+            
+              A
+              
+                1
+              
+            
+          
+          
+            2
+          
+        
+        +
+        
+          
+            
+              2
+              
+                θ
+                
+                  2
+                
+              
+            
+            
+              1
+              +
+              
+                
+                  
+                    θ
+                    
+                      2
+                    
+                  
+                
+                
+                  2
+                
+              
+            
+          
+        
+        
+          A
+          
+            2
+          
+        
+        +
+        
+          
+            
+              2
+              
+                
+                  
+                    θ
+                    
+                      2
+                    
+                  
+                
+                
+                  2
+                
+              
+            
+            
+              1
+              +
+              
+                
+                  
+                    θ
+                    
+                      2
+                    
+                  
+                
+                
+                  2
+                
+              
+            
+          
+        
+        
+          
+            
+              A
+              
+                2
+              
+            
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle R=(I+A)(I-A)^{-1}=I+{\frac {2\theta _{1}}{1+{\theta _{1}}^{2}}}A_{1}+{\frac {2{\theta _{1}}^{2}}{1+{\theta _{1}}^{2}}}{A_{1}}^{2}+{\frac {2\theta _{2}}{1+{\theta _{2}}^{2}}}A_{2}+{\frac {2{\theta _{2}}^{2}}{1+{\theta _{2}}^{2}}}{A_{2}}^{2}}
+  is a rotation matrix in E4, which is generated by Cayley's rotation formula, such that the set of eigenvalues of R is,
+
+  
+    
+      
+        
+          {
+          
+            
+              
+                
+                  
+                    (
+                    
+                      1
+                      +
+                      
+                        θ
+                        
+                          1
+                        
+                      
+                      i
+                    
+                    )
+                  
+                  
+                    2
+                  
+                
+                
+                  1
+                  +
+                  
+                    
+                      
+                        θ
+                        
+                          1
+                        
+                      
+                    
+                    
+                      2
+                    
+                  
+                
+              
+            
+            ,
+            
+              
+                
+                  
+                    (
+                    
+                      1
+                      −
+                      
+                        θ
+                        
+                          1
+                        
+                      
+                      i
+                    
+                    )
+                  
+                  
+                    2
+                  
+                
+                
+                  1
+                  +
+                  
+                    
+                      
+                        θ
+                        
+                          1
+                        
+                      
+                    
+                    
+                      2
+                    
+                  
+                
+              
+            
+            ,
+            
+              
+                
+                  
+                    (
+                    
+                      1
+                      +
+                      
+                        θ
+                        
+                          2
+                        
+                      
+                      i
+                    
+                    )
+                  
+                  
+                    2
+                  
+                
+                
+                  1
+                  +
+                  
+                    
+                      
+                        θ
+                        
+                          2
+                        
+                      
+                    
+                    
+                      2
+                    
+                  
+                
+              
+            
+            ,
+            
+              
+                
+                  
+                    (
+                    
+                      1
+                      −
+                      
+                        θ
+                        
+                          2
+                        
+                      
+                      i
+                    
+                    )
+                  
+                  
+                    2
+                  
+                
+                
+                  1
+                  +
+                  
+                    
+                      
+                        θ
+                        
+                          2
+                        
+                      
+                    
+                    
+                      2
+                    
+                  
+                
+              
+            
+          
+          }
+        
+        .
+      
+    
+    {\displaystyle \left\{{\frac {\left(1+\theta _{1}i\right)^{2}}{1+{\theta _{1}}^{2}}},{\frac {\left(1-\theta _{1}i\right)^{2}}{1+{\theta _{1}}^{2}}},{\frac {\left(1+\theta _{2}i\right)^{2}}{1+{\theta _{2}}^{2}}},{\frac {\left(1-\theta _{2}i\right)^{2}}{1+{\theta _{2}}^{2}}}\right\}.}
+  The generating rotation matrix can be classified with respect to the values θ1 and θ2 as follows:
+
+If θ1 = 0 and θ2 ≠ 0 or vice versa, then the formulae generate simple rotations;
+If θ1 and θ2 are nonzero and θ1 ≠ θ2, then the formulae generate double rotations;
+If θ1 and θ2 are nonzero and θ1 = θ2, then the formulae generate isoclinic rotations.
+
+
+== See also ==
+Laplace–Runge–Lenz vector
+Lorentz group
+Orthogonal group
+Orthogonal matrix
+Plane of rotation
+Poincaré group
+Quaternions and spatial rotation
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Bibliography ==
+L. van Elfrinkhof: Eene eigenschap van de orthogonale substitutie van de vierde orde. Handelingen van het 6e Nederlandsch Natuurkundig en Geneeskundig Congres, Delft, 1897.
+Felix Klein: Elementary Mathematics from an Advanced Standpoint: Arithmetic, Algebra, Analysis. Translated by E.R. Hedrick and C.A. Noble. The Macmillan Company, New York, 1932.
+Henry Parker Manning: Geometry of four dimensions. The Macmillan Company, 1914. Republished unaltered and unabridged by Dover Publications in 1954. In this monograph four-dimensional geometry is developed from first principles in a synthetic axiomatic way. Manning's work can be considered as a direct extension of the works of Euclid and Hilbert to four dimensions.
+J. H. Conway and D. A. Smith: On Quaternions and Octonions: Their Geometry, Arithmetic, and Symmetry. A. K. Peters, 2003.
+Arthur Stafford Hathaway (1902) Quaternion Space, Transactions of the American Mathematical Society 3(1):46–59.
+Johan E. Mebius, A matrix-based proof of the quaternion representation theorem for four-dimensional rotations., arXiv General Mathematics 2005.
+Johan E. Mebius, Derivation of the Euler–Rodrigues formula for three-dimensional rotations from the general formula for four-dimensional rotations., arXiv General Mathematics 2007.
+P.H.Schoute: Mehrdimensionale Geometrie. Leipzig: G.J.Göschensche Verlagshandlung. Volume 1 (Sammlung Schubert XXXV): Die linearen Räume, 1902. Volume 2 (Sammlung Schubert XXXVI): Die Polytope, 1905.
+Stringham, Irving (1901). "On the geometry of planes in a parabolic space of four dimensions". Transactions of the American Mathematical Society. 2: 183–214. doi:10.1090/s0002-9947-1901-1500564-2. JSTOR 1986218.
+Melek Erdoğdu, Mustafa Özdemir, Generating Four Dimensional Rotation Matrices, https://www.researchgate.net/publication/283007638_Generating_Four_Dimensional_Rotation_Matrices, 2015.
+Daniele Mortari, "On the Rigid Rotation Concept in n-Dimensional Spaces", Journal of the Astronautical Sciences 49.3 (July 2001), https://pdfs.semanticscholar.org/f7d8/63ceb75277133592ef9e92457b6705b1264f.pdf

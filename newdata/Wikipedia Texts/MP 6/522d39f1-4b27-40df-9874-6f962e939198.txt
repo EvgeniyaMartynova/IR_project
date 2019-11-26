@@ -1,0 +1,40 @@
+MP6
+
+The Rise mP6 was a superpipelined and superscalar microprocessor designed by Rise Technology to compete with the Intel Pentium line.
+
+
+== History ==
+Rise Technology had spent 5 years developing a x86 compatible microprocessor, and finally introduced it in November 1998 as a low-cost, low-power alternative for the Super Socket 7 platform, that allowed for higher Front-side bus speeds than the previous Socket 7 and that made it possible for other CPU manufacturers to keep competing against Intel, that had moved to the Slot 1 platform.
+
+
+=== Design ===
+The mP6 made use of the MMX instruction set and had three MMX pipelines which allowed the CPU to execute up to three MMX instructions in a single cycle. Its three integer units made it possible to execute three integer instructions in a single cycle as well and the fully pipelined floating point unit could execute up to two floating-point instructions per cycle. To further improve the performance the core utilized branch prediction and a number of techniques to resolve data dependency conflicts. 
+According to Rise, the mP6 should perform almost as fast as Intel Pentium II at the same frequencies.
+
+
+=== Performance ===
+Despite its innovative features, the real-life performance of the mP6 proved disappointing. This was mainly due to the small L1 Cache. Another reason was that the Rise mP6's PR 266 rating was based upon the old Intel Pentium MMX, while its main competitors were the Intel Celeron 266, the IDT WinChip 2-266 and the AMD K6-2 266, that all delivered more performance in most benchmarks and applications. The Celeron and the K6-2 actually worked at 266 MHz, and the WinChip 2's PR rating was based upon the performance of its AMD opponent.
+
+
+=== Use ===
+Announced in 1998, the chip never achieved widespread use, and Rise quietly exited the market in December of the following year. 
+Like competitors Cyrix and IDT, Rise found it was unable to compete with Intel and AMD.
+
+
+== Legacy ==
+
+Silicon Integrated Systems (SiS) licensed the mP6 technology, and used it in the SiS 550, a system-on-a-chip (SoC) that integrated the mP6 CPU, the north and south bridges, and sound and video on a single chip. The SiS 550 saw use in some compact PCs and in consumer devices, such as DVD players. The SiS 551 chip was also marketed by DM&P as Vortex86 (M6127D). 
+Later DM&P took over mP6 design from SiS and continues development under Vortex86 SoC product line.
+DM&P further signed an agreement with Xcore to allow them to rebrand the chip as Xcore86.
+
+
+== mP6 data ==
+
+
+== References ==
+
+
+== External links ==
+CPU-INFO: Rise MP6, indepth processor history
+mP6
+The Rise of the Vortex86: Embedded x86 Processors

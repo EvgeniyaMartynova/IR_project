@@ -1,0 +1,45 @@
+Appro International, Inc.
+
+Appro was a developer of supercomputing supporting High Performance Computing (HPC) markets focused on medium- to large-scale deployments.  Appro was based in Milpitas, California with a computing center in Houston, Texas, and a manufacturing and support subsidiary in South Korea and Japan.Cray Inc. purchased Appro in November 2012.
+
+
+== Company history ==
+Appro was founded in 1991 by President and CEO Daniel Kim. Mr. Kim expanded the company in the US market as OEM high performance rackmount computer systems manufacturer. Appro quickly became one of the fastest growing rackmount computer companies.In 2002, Appro produced and marketed its own line of branded high-density servers for the high-performance and Internet computing markets in a transition from OEM to Appro branded products.
+In 2005, Appro expanded manufacturing, engineering and product development teams in South Korea and introduced its first blade cluster, the Appro HyperBlade Server Cluster Solution and the Appro 1142H, the first 1U 4-processor server available to the HPC market.
+In 2006, Appro launched its first flagship product, the Xtreme-X Supercomputer based on x86 processors. The system combines high performance and high availability in a balanced architecture for scaling out data centers from medium to large-sized systems. The supercomputer features the Appro Cluster Engine (ACE) Management Software, a complete lights-out remote management system.
+In 2008 and 2009, Appro announced the Appro HyperPower Cluster, a hybrid CPU/GPU computing based on NVIDIA Tesla and NVIDIA Cuda software technology and including professional services and cluster management options. Appro also launched the Appro GreenBlade System.
+In 2011, Appro revealed the next generation Xtreme-X Supercomputer.   The system featured the latest processing and accelerator technologies, increased performance/watt, multiple high performance network connectivity, I/O and disk options along with specialized professional services. The system addressed four critical HPC workloads: capacity, hybrid, data intensive, and capability computing. The reinvented system won several major supercomputing contracts for customers such as San Diego Supercomputer Center, Lockheed Martin (Department of Defense), NNSA (Department of Energy), University of Tsukuba, and Lawrence Livermore, Sandia, Los Alamos National Laboratories.
+On November 9, 2012, Cray Inc. announced plans to acquire Appro for $21.8 million to strengthen the company's HPC cluster system offerings. On November 21, 2012 Cray announced it had completed the acquisition of Appro International, Inc.
+
+
+== Customers and Supercomputing Projects ==
+National Oceanic and Atmospheric Administration (NOAA) – 113TF supercomputer for NOAA's Hurricane Forecast Improvement Project (HFIP) (2012)
+Virginia Tech, Advanced Research Computing (ARC) – Blue-Ridge Supercomputer (2011) featuring Intel Xeon Phi coprocessors
+Kyoto University – 210TF supercomputer (2011) for the Academic Center for Computing and Media Studies (ACCMS) at Kyoto University
+San Diego Supercomputer Center (SDSC) – 35M IOPS Gordon Supercomputer (2011), 100TF Trestles (2010), and DASH (2009).
+TLCC Projects for the NNSA – Tri-lab Linux Capacity Cluster: TLCC2 (2011) and TLCC07 (2007) at Lawrence Livermore, Sandia, and Los Alamos National Laboratories
+Los Alamos National Laboratory – 353TF Mustang supercomputer (2011)
+University of Tsukuba – 802TF HA-PACS supercomputer (2011)  and 95TF supercomputer (2009) at the Center for Computational Sciences
+Lockheed Martin – 147.5TF Supercomputer in support of the DoD High Performance Computing Modernization Program (HPCMP)
+Sandia National Laboratory – First of a Kind Intel MIC Testbed Experimental Cluster (2011)
+Idaho National Laboratory – Fission supercomputer (2011)
+Lawrence Livermore National Laboratory – Hyperion Project (2010), 110TF Graph supercomputer (2009) and 222TF Peloton Project consisting of Rhea, Zeus, Minos and Atlas Clusters (2007)
+Renault Formula 1 Team – 38TF supercomputer delivered to the Computational Fluid Dynamics Center in the UK (2009)
+
+
+== Awards and honors ==
+In November 2012, an Appro Xtreme-X supercomputer (Beacon) topped the Green500 List.  Beacon is deployed by National Institute for Computational Sciences of the University of Tennessee, and is actually a GreenBlade GB824M, Xeon E5-2670 based eight cores (8C), 2.6 GHz, Infiniband FDR, Intel Xeon Phi 5110P computer.
+HPCwire Editors' Choice Award 2012 – Appro Xtreme-X Supercomputer was awarded "Best HPC Cluster Solution" and "Best HPC Storage Product or Technology" for the collaborative project with SDSC for its Data Oasis Storage System running on the Gordon Supercomputer.
+Top500 November 2012 – Appro was ranked #4 vendor on the Top500 list  with 24 supercomputers making the list, with the highest ranking system, the Zin supercomputer at Lawrence Livermore National Laboratory, at #29.
+2012 Intel Solution Summit – Datacenter Solution Innovation Award Winner for Appro GreenBlade and Xtreme-X Supercomputer
+HPCwire Reader and Editor Choice 2011 – Editor's Choice for "Top 5 Vendors to Watch" and "Best HPC Server Product or Technology" for Appro Xtreme-X Supercomputer.
+
+
+== References ==
+
+
+== External links ==
+Official website
+Youtube
+Top500 List November 2012
+Green500 List – November 2012

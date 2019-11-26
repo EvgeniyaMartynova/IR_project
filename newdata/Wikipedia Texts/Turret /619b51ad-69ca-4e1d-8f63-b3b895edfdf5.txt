@@ -1,0 +1,14 @@
+Turret (electronics)
+
+Turret boards were an early attempt at making electronic circuits that were relatively rugged, producible, and serviceable in the days before printed circuit boards (PCBs). As this method was somewhat more expensive than conventional "point-to-point" wiring techniques, it was generally found in the more expensive components, such as professional, commercial, and military audio and test equipment. This is similar to cordwood construction.
+Turret boards consist of a thin (generally 1/8 inch) piece of non-conductive material drilled in pattern to match the electronic layout of a set of components. Each hole drilled will have a turret positioned in it. Electronic components are suspended between these turrets and soldered to them to create a complete circuit layout.
+Most of the military electronics used in WWII made use of this construction method, and Altec professional gear of similar vintage has the same construction. However, the underside of some turret boards, such as a consumer Zenith 1A10 console radio, circa 1940, consists of an array of electronics components that are simply suspended, rather than tethered or soldered down, and thus could move unexpectedly. Such construction methods tended to keep the neighborhood radio repairman in work. In general, however, the use of turrets and turret boards dramatically improved reliability and serviceability.
+Turret boards additionally allowed some degree of "engineered" construction. That is, an engineer could design a turret board with listed component interconnects such that it could be assembled by someone skilled in component recognition and soldering. A schematic was unnecessary for assembly.
+Until reliable high-temperature printed circuit boards were developed, turret board construction was considered the best available technology. Currently, the use of turret boards is limited to hand-wired vacuum tube electronics (be it commercial or hobby), often as an attempt to replicate a classic design or design approach. Popular "DIY" (Do-It-Yourself) components utilizing this approach include reproduction vintage guitar amplifiers and certain professional studio components from the 1960s, such as the classic and still widely used Teletronix LA2A tube compressor. In general, however, due to the expense and time-consuming nature of turret board construction methods, experimental or test-stage electronics projects generally make use of one of the many types of perfboard available, while final circuits—both hobby and commercial—utilize printed circuit boards.
+
+
+== References ==
+
+
+== External links ==
+Turret Board Construction How-To

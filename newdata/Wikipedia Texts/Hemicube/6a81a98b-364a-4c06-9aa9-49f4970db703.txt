@@ -1,0 +1,12 @@
+Hemicube (computer graphics)
+
+See also Hemicube (geometry)In 3D computer graphics rendering, a hemicube is one way to represent a 180° view from a surface or point in space.
+
+
+== Shape ==
+Although the name implies any half of a cube, a hemicube is usually a cube cut through a plane parallel to one of its faces. Therefore, it consists of one square face, two 2:1 aspect ratio rectangles, and two 1:2 aspect ratio rectangles.
+
+
+== Uses ==
+The hemicube may be used in the Radiosity algorithm or other Light Transport algorithms in order to determine the amount of light arriving at a particular point on a surface.
+In some cases, a hemicube may be used in environment mapping or reflection mapping.

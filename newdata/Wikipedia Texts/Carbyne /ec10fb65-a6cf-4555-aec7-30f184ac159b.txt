@@ -1,0 +1,51 @@
+Methylidyne radical
+
+Methylidyne, or (unsubstituted) carbyne, is an organic compound whose molecule consists of a single hydrogen atom bonded to a carbon atom.  It is the parent compound of the carbynes, which can be seen as obtained from it by substitution of other functional groups for the hydrogen.
+The carbon atom is left with either one or three unpaired electrons (unsatisfied valence bonds), depending on the molecule's excitation state; making it a radical. Accordingly, the chemical formula can be CH• or CH3•  (also written as ⫶CH); each dot representing an unpaired electron.  The corresponding systematic names are methylylidene or hydridocarbon(•), and methanetriyl or hydridocarbon(3•).  However, the formula is often written simply as CH.
+Methylidyne is a highly reactive gas, that is quickly destroyed in ordinary conditions but is abundant in the interstellar medium (and was one of the first molecules to be detected there).
+
+
+== Nomenclature ==
+The trivial name carbyne is the preferred IUPAC name. 
+Following the substitutive nomenclature, the molecule is viewed as methane with three hydrogen atoms removed, yielding the systematic name "methylidyne".
+Following the additive nomenclature, the molecule is viewed as a hydrogen atom bonded to a carbon atom, yielding the name "hydridocarbon".  
+By default, these names pay no regard to the excitation state of the molecule. When that attribute is considered, the states with one unpaired electron are named "methylylidene" or "hydridocarbon(•)", whereas the excited states with three unpaired electrons are named "methanetriyl" or "hydridocarbon(3•)".
+
+
+== Bonding ==
+
+As an odd-electron species, CH is a radical. The ground state is a doublet (X2Π).  The first two excited states are a quartet (with three unpaired electrons)  (a4Σ−) and a doublet (A2Δ). The quartet lies at 71 kJ/mol above the ground state.Reactions of the doublet radical with non-radical species involves insertion or addition:
+
+[CH]•(X2Π) + H2O → [CHO]• + H2 or [CH2(OH)]•whereas reactions of the quartet radical generally involves only abstraction:
+
+[CH]3•(a4Σ−) + H2O → [CH2] + [HO]•Methylidyne can bind to metal atoms as tridentate ligand in coordination complexes. An example is methylidynetricobaltnonacarbonyl HCCo3(CO)9.
+
+
+== Occurrence and reactivity ==
+
+
+=== Fischer–Tropsch intermediate ===
+Methylidyne-like species are implied intermediates in the Fischer–Tropsch process, the hydrogenation of CO to produce hydrocarbons.  Methylidyne entities are assumed to bond to the catalyst's surface.  A hypothetical sequence is:
+MnCO  +  1/2 H2  →  MnCOH
+MnCOH  +  H2  →  MnCH  +  H2O
+MnCH  +  1/2 H2  →  MnCH2The MnCH intermediate has a tridentate methylidine ligand.  The methylene ligand (H2C) is then poised couple to CO or to another methylene, thereby growing the C–C chain.
+
+
+=== Amphotericity ===
+The methylylidyne group can exhibit both Lewis-acidic and Lewis basic character. Such behavior is only of theoretical interest since it is not possible to produce methylylidyne.
+
+
+=== In interstellar space ===
+In October 2016, astronomers reported that the very basic chemical ingredients of life – the methylidyne radical ⫶CH, the carbon-hydrogen positive ion :CH+, and the carbon ion ⫶C+ – are the result of ultraviolet light from stars, rather than in other ways, such as the result of turbulent events related to supernovae and young stars, as thought earlier. These results have given new light to the formation of organic compounds in the early development of life on earth.
+
+
+== Preparation ==
+Methylidine can be prepared from bromoform.
+
+
+== See also ==
+Methylene group
+Methylene bridge
+
+
+== References ==

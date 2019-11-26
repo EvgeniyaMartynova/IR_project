@@ -1,0 +1,60 @@
+TurnKey Linux Virtual Appliance Library
+
+The TurnKey Linux Virtual Appliance Library is a free open source project which has developed a range of Debian-based pre-packaged server software appliances (a.k.a. virtual appliances). Turnkey appliances can be deployed as a virtual machine (a range of hypervisors are supported), in cloud computing infrastructures (including AWS and others) or installed in physical computers.
+
+
+== Features ==
+The project currently maintains around 100 virtual appliances, all freely licensed and each a ready-to-use solution optimized for ease of use, with daily automatic security updates and full backup capabilities built in. Each appliance is designed to "just work" with little configuration required.They are packaged in several formats, optimized for several different virtualization platforms, in addition to two separate builds for installing onto physical media (to non-virtualized hard disk or USB from a hybrid ISO) or onto the Amazon EC2 cloud.
+Virtual appliance: a ready-to-run Virtual Machine Appliance build types include:
+OVA - As of v14.0 this is the default VM format. It provides "double-click" launch for VirtualBox and most VMware products (e.g. Workstation, Player, Fusion and vSphere/ESX). Also includes open-vmtools (for VMware).
+VMDK - "VM" in Turnkey Linux download mirrors - As above, but packaged as a zip containing a VMDK vHDD as well as a VMX (legacy VMware vm config file). Runs on KVM/QEMU
+OpenStack
+Container - This somewhat generic container format is specifically packaged for Proxmox (as tar.gz) (and formerly OpenNode too). These builds can be downloaded direct within Proxmox's WebUI (and formerly via OpenNode's interface). The tar.gz archive is also known to work with both vanilla OpenVZ and LXC with minimal tweaking.
+Xen
+Docker
+Installable Live CD/USB: a hybrid ISO image which can be burned to either CD or USB and used to install on both bare metal (I.e. a non-virtualized physical machine) and virtual machines, including VMware, Xen, XenServer, VirtualBox, and KVM. This image can also run live in non-persistent demo mode.
+Amazon Machine Image: provisioned on-demand on Amazon Elastic Compute Cloud via either the TurnKey Linux Hub or AWS Marketplace.Pre-integrated server applications include LAMP, WordPress, Joomla, Drupal, Redmine, MySQL, MediaWiki, Domain controller, File server, Ruby on Rails, phpBB, and many others.
+
+
+== History ==
+Founded by engineers of an Israeli startup, the project was conceived in mid-2008 as a community-oriented open source project that would focus on helping users piece together turnkey solutions from open source components in the largest Linux distributions. According to one of TurnKey Linux's co-founders, the project was in part inspired by a desire to provide open source alternatives to proprietary virtual appliance vendors that would be aligned with user interests and could engage the community.The project launched in September 2008 with three prototype appliances for Drupal, Joomla and LAMP, based on the Ubuntu 8.04.1 build. In the following months usability was improved and a dozen additional appliances were released including Ruby on Rails, MediaWiki and Django.In October 2009, the project released 40 appliances based on Ubuntu 8.04.3 including 25 new additions to the virtual appliance library. The release included support for Amazon Elastic Compute Cloud, and a new Virtual machine image format with OVF support.
+TurnKey Linux was listed as a winner of the 2009 "Bossies" by InfoWorld as one of the "Top 40 open source products" of that year.In September 2010, an official unveiling of the TKLBAM (Turnkey Linux Backup and Migration) took place in a blog post describing their goal of "the Ideal Backup System" according to Liraz Siri. Many of the features were described by the author along with videos to demonstrate the functionality of their backup system.
+In November 2010, further additions to the TKLBAM were announced including the integration of Webmin, which was discussed as a future feature in the original unveiling of the TKLBAM.Turnkey Linux was nominated for the SourceForge February 2012 Project of the Month.In August 2012, version 12.0 was released with the library increased to include over 100 appliances. This release also marked a move away from Ubuntu as the underlying Operating System to Debian 6.0 (a.k.a. Squeeze). This move was cited as being for various reasons, particularly security.Early June 2013 saw a significant change of tack with the version 12.1 update release; built with the new "TKLDev" open build infrastructure. This release also included the first X86-64 builds. Later that same month, the Turnkey Linux custom application code was moved to GitHub which also included a tracker for appliances bug reports. As promised, in mid July Turnkey Linux released their image building appliance (TKLDev) as well as an additional separate GitHub account to house all the appliance specific code (used by TKLDev to build the appliances).November 2013 saw the release of v13.0, based on Debian 7.2 (a.k.a. Wheezy).September 2015 saw the long overdue release of v14.0, based on Debian 8.2 (a.k.a. Jessie), followed by an April 2016 maintenance release, v. 14.1, based on Debian 8.4.
+
+
+== Design ==
+TurnKey's virtual appliances start life as a "stripped down" Debian bootstrap (versions previous to v12.0 based on Ubuntu.) To this is added the TurnKey Core, which includes all the common features for the project's virtual appliances, including:
+
+di-live: a live installer, derived from debian-installer.
+A configuration console: developed in Python for the project to allow users to perform basic configuration tasks (for example, networking configuration, reboots)
+An automatic mechanism that installs security patches on a daily basis.
+Web administration interface based on Webmin which includes a selection of generic add-on control and configuration modules.
+Web browser based shell
+TKLBAM (TurnKey Linux Backup And Migration) - a custom TKL backup/migration application/service that uses Duplicity as a backend. By default TKLBAM uses Amazon S3 for storage, but can also be configured to use any other storage medium supported by Duplicity. As of version 1.4 TKLBAM is available for non-TKL Linux OS.The TurnKey Core has a footprint of approximately 110 MB, and is available as a separate download. Application software is installed on top of the Core, which typically increases the size of a virtual appliance up to approximately 160 MB. By downloading and installing the appliance package to the hard drive, it is intended by the developers that administrators would gain an easy method of setting up a dedicated server.New software appliances, or customised appliances can be developed by forking the appropriate appliance build code on GitHub and then built using TKLDev. Additionally appliances can also be customized and extended using TKLPatch, a simple appliance modification mechanism.
+TurnKey Linux can be run as a virtual machine with VirtualBox and VMWare, although the former has been described as having been provided with more documentation.
+
+
+== Screenshots ==
+
+		
+		
+		
+
+
+== See also ==
+
+Virtual appliance
+Software appliance
+Live CD
+Bitnami
+
+
+== References ==
+
+
+== External links ==
+Project website
+The TurnKey Linux "Hub"
+Issue Tracker (bugs and feature requests)
+Development wiki
+TurnKey Linux Virtual Appliance Library at DistroWatch

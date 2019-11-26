@@ -1,0 +1,22 @@
+Damn Vulnerable Linux
+
+Damn Vulnerable Linux (DVL) is a discontinued Linux distribution geared toward computer security students. It functioned as a tool for observing and studying vulnerabilities in the Linux kernel and popular user space software. It was available as a live DVD, and could be run through a virtual machine within the host operating system.
+
+
+== History ==
+DVL was created by Thorsten Schneider, the founder of the TeutoHack laboratory at Bielefeld University, to use as a training system for his university lectures.
+
+
+== Design ==
+DVL is a SLAX-based distribution, and uses the Slackware .tgz package management system. It uses outdated versions of various software, to deliberately make it the most vulnerable operating system ever.DVL is distributed as a live CD, allowing it to be booted directly from the distribution medium without installation on a PC or within a virtual machine.
+
+
+== See also ==
+ Linux portal
+
+
+== References ==
+
+
+== External links ==
+Damn Vulnerable Linux –  official website

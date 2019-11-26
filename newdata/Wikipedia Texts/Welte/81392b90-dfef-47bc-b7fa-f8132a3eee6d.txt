@@ -1,0 +1,45 @@
+Harald Welte
+
+Harald Welte (born 1979) is a programmer.
+Welte is also involved in free software projects Openmoko, (a version of Linux for phones), OsmocomBB and the netfilter/iptables project (a firewall mechanism). He is a member of the Chaos Computer Club.
+
+
+== Linux kernel development ==
+Until 2007, Welte was the chairman of the core team responsible for the netfilter/iptables project. He is also credited with writing the UUCP over SSL how-to, and contributions to User-mode Linux and international encryption kernel projects, among others.
+
+
+== GPL enforcement ==
+Welte has become prominent for his work with gpl-violations.org, an organisation he set up in 2004 to track down and prosecute violators of the GPL, which had been untested in court until then.
+
+
+== Openmoko ==
+Welte part of Openmoko team, a project to create a smartphone platform using free software.However, in 2007, Welte announced his withdrawal from  Openmoko, citing internal friction and demotivation. He continues to contribute as a volunteer to the project.
+
+
+== Awards in 2008 ==
+On 19 March 2008, the Free Software Foundation (FSF) announced that it had awarded the Award for the Advancement of Free Software for 2007 to Welte, stating that
+"The awards committee honored both Welte's technical contributions to projects like the Linux kernel and the OpenMoko mobile platform project, and his community leadership in safeguarding the freedom of free software users by successfully enforcing the GNU General Public License in over one hundred cases since the gpl-violations.org project began in 2004."
+On 22 July 2008, Welte received the Defender of Rights Open Source Award, presented to him by Chris DiBona, who indicated the award was primarily for Welte's work on gpl-violations.org.
+
+
+== VIA ==
+On 25 July 2008, VIA Technologies appointed Harald Welte as its open source liaison. According to VIA, in his role as open source liaison Welte will be responsible for helping refine VIA’s open source strategy and optimise its support for Linux.
+Welte will also "assist VIA to develop drivers that are in line with the standards and best practices of Linux kernel development, enhance the quality and public availability of VIA documentation, and improve interaction with the open source development community".
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+Harald Welte's blog
+Interview at the 3rd international GPLv3 conference, June 22, 2006
+Audio and video of a panel discussion including Welte, June 23, 2006
+Interview in LWN.net, June 12, 2006
+Interview at under-linux.org
+Personal interview with Harald Welte about Openmoko (German-speaking)
+Interview with Harald Welte about gpl-violations.org (German), June 22, 2004
+Podcast at CIO.com
+Audio podcast: Harald Welte on gpl-violations.org and GSM security

@@ -1,0 +1,96 @@
+Backhaul (telecommunications)
+
+In a hierarchical telecommunications network, the backhaul portion of the network comprises the intermediate links between the core network, or backbone network, and the small subnetworks at the edge of the network.
+In contracts pertaining to such networks, backhaul is the obligation to carry packets to and from that backbone network.  A business definition of backhaul is the commercial wholesale bandwidth provider who offers quality of service (QOS) guarantees.  It appears most often in telecommunications trade literature in this sense, whereby the backhaul connection is defined not technically but by who operates and manages it, and who takes legal responsibility for the connection or uptime.
+In both the technical and commercial definitions, backhaul generally refers to the side of the network that communicates with the global Internet, paid for at wholesale commercial access rates to or at an Internet exchange point or other core network access location.  Sometimes middle mile networks exist between the customer's own LAN and those exchanges.  This can be a local WAN connection. 
+Cell phones communicating with a single cell tower constitute a local subnetwork; the connection between the cell tower and the rest of the world begins with a backhaul link to the core of the internet service provider's network (via a point of presence).  A backhaul may include wired, fiber optic and wireless components. Wireless sections may include using microwave bands and mesh and edge network topologies that may use a high-capacity wireless channel to get packets to the microwave or fiber links.
+
+
+== Definition ==
+Visualizing the entire hierarchical network as a human skeleton, the core network would represent the spine, the backhaul links would be the limbs, the edge networks would be the hands and feet, and the individual links within those edge networks would be the fingers and toes.
+Other examples include:
+
+Connecting wireless base stations to the corresponding base station controllers.
+Connecting DSLAMs to the nearest ATM or Ethernet aggregation node.
+Connecting a large company's site to a metro Ethernet network.
+Connecting a submarine communications cable system landing point (which is usually in a remote location) with the main terrestrial telecommunications network of the country that the cable serves.
+
+
+== Example ==
+Network New Hampshire Now and Maine Fiber Company run tariffed public dark fiber networks as a backhaul alternative to encourage local and national carriers to reach areas with broadband and cell phone that they otherwise would not be serving.  These serve retail networks which in turn connect buildings and bill customers directly.
+
+
+== National broadband plans ==
+A telephone company is very often the internet service provider providing backhaul, although for academic research and education networks, large commercial networks or municipal networks, it is increasingly common to connect to public broadband backhaul.  See national broadband plans from around the world, many of which were motivated by the perceived need to break the monopoly of incumbent commercial providers.  The US plan for instance, specifies that all community anchor institutions should be connected by gigabit fiber optics before the end of 2020.
+
+
+== Available backhaul technologies ==
+
+The choice of backhaul technology must take account of such parameters as capacity, cost, reach, and the need for such resources as frequency spectrum, optical fiber, wiring, or rights of way.
+Generally, backhaul solutions can largely be categorised into wired (leased lines or copper/fibre) or wireless (point-to-point, point-to-multipoint over high-capacity radio links). Wired is usually a very expensive solution and often impossible to deploy in remote areas, hence making wireless a more suitable and/or a viable option. Multi-hop wireless architecture can overcome the hurdles of wired solutions to create efficient large coverage areas and with growing demand in emerging markets where often cost is a major factor in deciding technologies, a wireless backhaul solution is able to offer 'carrier-grade' services, whereas this is not easily feasible with wired backhaul connectivity.Backhaul technologies include:
+
+Free-space optical (FSO)
+Point-to-point microwave radio relay transmission (terrestrial or, in some cases, by satellite)
+Point-to-multipoint microwave-access technologies, such as LMDS, Wi-Fi, WiMAX, etc., can also function for backhauling purposes
+DSL variants, such as ADSL, VDSL  and SHDSL
+PDH and SDH/SONET interfaces, such as (fractional) E1/T1, E3, T3, STM-1/OC-3, etc.
+Ethernet
+VoIP telephony over dedicated and public IP networksBackhaul capacity can also be leased from another network operator, in which case that other network operator generally selects the technology being used, though this can be limited to fewer technologies if the requirement is very specific such as short-term links for emergency/disaster relief or for public events, where cost and time would be major factors and would immediately rule out wired solutions, unless pre-existing infrastructure was readily accessible or available.
+
+
+== WiFi mesh networks for wireless backhaul ==
+As data rates increase, the range of wireless network coverage is reduced, raising investment costs for building infrastructure with access points to cover service areas. Mesh networks are unique enablers that can reduce this cost due to their flexible architecture.
+With mesh networking, access points are connected wirelessly and exchange data frames with each other to forward to/from a gateway point.
+Since a mesh requires no costly cable constructions for its backhaul network, it reduces total investment cost. Mesh technology’s capabilities can boost extending coverage of service areas easily and flexibly.
+For further cost reduction, a large-scale high-capacity mesh is desirable.  For instance, Kyushu University's Mimo-Mesh Project, based in Fukuoka City, Fukuoka Prefecture, Japan, has developed and put into use new technology for building high capacity mesh infrastructure. A key component is called IPT, intermittent periodic transmit, a proprietary packet-forwarding scheme that is designed to reduce radio interference in the forwarding path of mesh networks.  In 2010, hundreds of wireless LAN access points incorporating the technology were installed in the commercial shopping and entertainment complex, Canal City Hakata, resulting in the successful operation of one of the world's largest indoor wireless multi-hop backhauls.  That network uses a wireless multi-hop relay of up to 11 access points while delivering high bandwidth to end users. Actual throughput is double that of standard mesh network systems using conventional packet forwarding.  Latency, as in all multi-hop relays, suffers, but not to the degree that it compromises voice over IP communications.
+
+
+== Open solutions:  using many connections as a backhaul ==
+Many common wireless mesh network hotspot solutions are supported in open source router firmware including DD-WRT, OpenWRT and derivatives. Sputnik Agent, Hotspot System, Chillispot and the ad-supported AnchorFree are four examples that work even with lower end routers like the WRT54G. The IEEE 802.21 standard specifies basic capabilities for such systems including 802.11u unknown user authentication and 802.11s ad hoc wireless mesh networking support.  Effectively these allow arbitrary wired net connections to be teamed or ganged into what appears to be a single backhaul – a "virtual private cloud".  Proprietary networks from Meraki follow similar principles.  The use of the term backhaul to describe this type of connectivity may be controversial technically.  They invert the business definition, as it is the customer who is providing the connectivity to the open Internet while the vendor is providing authentication and management services.
+
+
+== Transition from wireless to wired backhaul ==
+Wireless backhaul is easy to deploy, and allows moving points of presence, however, these wireless connections are slower, occupy spectrum that could be used by user devices (especially as 5.8 GHz devices proliferate), require more truck rolls (typically three times as many) as wired backhaul, and are limited in bandwidth.  They are often viewed as an initial or temporary measure.
+
+
+=== Wiring issues ===
+Strategies for moving from wireless to wired backhaul usually involve building out wired connections only as necessary to improve performance (especially latency).  This can often be a simple quantitative analysis:  How much spectrum is freed for user purposes, how much better round trip delay (latency) will be achieved, how much more bandwidth can move, and how well does the network respond to stress conditions notably when there are too many requests for connections than a wireless backhaul can accommodate.  According to some sources, notably Forbes magazine, for 3G/4G/LTE networks, the
+
+"scarcity of wide-area spectrum will cause a significant migration towards more local area networks such as femtocells (small, lower-power radio transmission stations) and wifi, and will eventually find a relay in the infinitely expandable, wired backhaul—the link to a provider’s core network. Wired fiber infrastructure can still carry vastly more data than any wireless system."
+
+
+=== Hardware issues ===
+Aside from changes to the network (wires and switching and management) a well designed future-proof wireless network may not require much change at the endpoints. All equipment used in a wireless backhaul configuration supports simultaneous dual band communication (one band for user communication, another for the backhaul).  Almost all such equipment also supports wired connections, typically using power over Ethernet or (less often in outdoor applications) unpowered Ethernet. So assuming reasonable software flexibility, both bands can be repurposed to user connectivity while the backhaul shifts to a wired connection.  Unless nodes are entirely self-powered, they are connected at least indirectly to an AC or DC power source, suggesting that the single-cable solutions (power over Ethernet DC and IEEE P1901 AC) for both power and data should dominate for low-power shorter-range nodes, especially municipal Wi-Fi projects in low usage rural areas.
+
+
+=== Software issues ===
+Software-defined networking (SDN) is also easing the transition between different link layer technologies.  Most notably, OpenRadio/OpenFlow [1] software architecture gangs many backhaul sources and makes near-optimal use of all-copper existing-wire infrastructure.  As of 2012 these technologies were used mostly in data centres, but wide-area carriers like Verizon were announcing their support for them in customer networks, and many other companies were involved in what was sometimes called the "SDN revolution".These carrier and data centre initiatives are part of a general trend to redundant backhaul or hybrid networking in which there is more of a lattice than hierarchy of backhaul.  For instance, the IEEE P1905 standard permits, and the IEEE 802.21 standard supports in applications, similar connection of multiple connections at the LAN level.Both standards enable hybrid networks that allow many devices to connect via many protocols rather than being tied to a single backhaul associated with that device or an account solely associated with that device. See cloud computing for commercial and industrial precedents for this consumer-level technology.
+
+
+== Cell towers moving from microwave to fiber optic ==
+Longer range, higher power nodes, however, including cell phone towers, must be directly connected to fiber optic, increasingly using the Carrier Ethernet protocols, replacing older T-1 connections.  "Research firm NPD In-Stat projects that by 2014 Ethernet will be the dominant technology for wireless backhaul, with 85% usage in base stations...the momentum is all on the Ethernet side.” [2]  50-100 Mbit/s Ethernet circuits are standard.
+
+“AT&T and Verizon are both very clear that they will accept only fiber to cell towers.”
+
+
+== Very long range (including submarine) networks ==
+On very large scale long range networks, including transcontinental, submarine telecommunications cables are used.  Sometimes these are laid alongside HVDC cables on the same route.  Several companies, including Prysmian, run both HVDC power cables [3] and telecommunications cables [4] as far as FTTx.  This reflects the fact that telecommunications backhaul and long range high voltage electricity transmission have many technologies in common, and are almost identical in terms of route clearing, liability in outages, and other legal aspects. [5]
+
+
+== See also ==
+Access network
+Free Space Optics (FSO)
+Last mile
+Middle mile
+Optical fiber
+Point-to-multipoint
+Point-to-point
+Return channel
+Wireless LAN
+
+
+== References ==
+
+
+== Bibliography ==
+Sauter, Martin (2009). Beyond 3G – Bringing Networks, Terminals and the Web Together: LTE, WiMAX, IMS, 4G Devices and the Mobile Web 2.0. Wiley. ISBN 978-0-470-75188-6.

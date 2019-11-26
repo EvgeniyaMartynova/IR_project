@@ -1,0 +1,657 @@
+Borel–Carathéodory theorem
+
+In mathematics, the Borel–Carathéodory theorem in complex analysis shows that an analytic function may be bounded by its real part. It is an application of the maximum modulus principle. It is named for Émile Borel and Constantin Carathéodory.
+
+
+== Statement of the theorem ==
+Let a function 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+   be analytic on a closed disc of radius R centered at the origin. Suppose that r < R. Then, we have the following inequality:
+
+  
+    
+      
+        ‖
+        f
+        
+          ‖
+          
+            r
+          
+        
+        ≤
+        
+          
+            
+              2
+              r
+            
+            
+              R
+              −
+              r
+            
+          
+        
+        
+          sup
+          
+            
+              |
+            
+            z
+            
+              |
+            
+            ≤
+            R
+          
+        
+        Re
+        ⁡
+        f
+        (
+        z
+        )
+        +
+        
+          
+            
+              R
+              +
+              r
+            
+            
+              R
+              −
+              r
+            
+          
+        
+        
+          |
+        
+        f
+        (
+        0
+        )
+        
+          |
+        
+        .
+      
+    
+    {\displaystyle \|f\|_{r}\leq {\frac {2r}{R-r}}\sup _{|z|\leq R}\operatorname {Re} f(z)+{\frac {R+r}{R-r}}|f(0)|.}
+  Here, the norm on the left-hand side denotes the maximum value of f in the closed disc:
+
+  
+    
+      
+        ‖
+        f
+        
+          ‖
+          
+            r
+          
+        
+        =
+        
+          max
+          
+            
+              |
+            
+            z
+            
+              |
+            
+            ≤
+            r
+          
+        
+        
+          |
+        
+        f
+        (
+        z
+        )
+        
+          |
+        
+        =
+        
+          max
+          
+            
+              |
+            
+            z
+            
+              |
+            
+            =
+            r
+          
+        
+        
+          |
+        
+        f
+        (
+        z
+        )
+        
+          |
+        
+      
+    
+    {\displaystyle \|f\|_{r}=\max _{|z|\leq r}|f(z)|=\max _{|z|=r}|f(z)|}
+  (where the last equality is due to the maximum modulus principle).
+
+
+== Proof ==
+Define A by
+
+  
+    
+      
+        A
+        =
+        
+          sup
+          
+            
+              |
+            
+            z
+            
+              |
+            
+            ≤
+            R
+          
+        
+        Re
+        ⁡
+        f
+        (
+        z
+        )
+        .
+      
+    
+    {\displaystyle A=\sup _{|z|\leq R}\operatorname {Re} f(z).}
+  If f is constant, the inequality is trivial since 
+  
+    
+      
+        (
+        R
+        +
+        r
+        )
+        
+          /
+        
+        (
+        R
+        −
+        r
+        )
+        >
+        1
+      
+    
+    {\displaystyle (R+r)/(R-r)>1}
+  , so we may assume f is nonconstant. First let f(0) = 0. Since Re f is harmonic, Re f(0) is equal to the average of its values around any circle centered at 0. That is,
+
+  
+    
+      
+        Re
+        ⁡
+        f
+        (
+        0
+        )
+        =
+        
+          
+            1
+            
+              2
+              π
+            
+          
+        
+        
+          ∫
+          
+            
+              |
+            
+            z
+            
+              |
+            
+            =
+            R
+          
+        
+        Re
+        ⁡
+        f
+        (
+        z
+        )
+        d
+        z
+        .
+      
+    
+    {\displaystyle \operatorname {Re} f(0)={\frac {1}{2\pi }}\int _{|z|=R}\operatorname {Re} f(z)dz.}
+  Since f is analytic and nonconstant, we have that Re f is also nonconstant. Since Re f(0) = 0, we must have Re 
+  
+    
+      
+        f
+        (
+        z
+        )
+        >
+        0
+      
+    
+    {\displaystyle f(z)>0}
+   for some z on the circle 
+  
+    
+      
+        
+          |
+        
+        z
+        
+          |
+        
+        =
+        R
+      
+    
+    {\displaystyle |z|=R}
+  , so we may take 
+  
+    
+      
+        A
+        >
+        0
+      
+    
+    {\displaystyle A>0}
+  . Now f maps into the half-plane P to the left of the x=A line. Roughly, our goal is to map this half-plane to a disk, apply Schwarz's lemma there, and make out the stated inequality.
+
+  
+    
+      
+        w
+        ↦
+        w
+        
+          /
+        
+        A
+        −
+        1
+      
+    
+    {\displaystyle w\mapsto w/A-1}
+   sends P to the standard left half-plane. 
+  
+    
+      
+        w
+        ↦
+        R
+        (
+        w
+        +
+        1
+        )
+        
+          /
+        
+        (
+        w
+        −
+        1
+        )
+      
+    
+    {\displaystyle w\mapsto R(w+1)/(w-1)}
+   sends the left half-plane to the circle of radius R centered at the origin. The composite, which maps 0 to 0, is the desired map:
+
+  
+    
+      
+        w
+        ↦
+        
+          
+            
+              R
+              w
+            
+            
+              w
+              −
+              2
+              A
+            
+          
+        
+        .
+      
+    
+    {\displaystyle w\mapsto {\frac {Rw}{w-2A}}.}
+  From Schwarz's lemma applied to the composite of this map and f, we have
+
+  
+    
+      
+        
+          
+            
+              
+                |
+              
+              R
+              f
+              (
+              z
+              )
+              
+                |
+              
+            
+            
+              
+                |
+              
+              f
+              (
+              z
+              )
+              −
+              2
+              A
+              
+                |
+              
+            
+          
+        
+        ≤
+        
+          |
+        
+        z
+        
+          |
+        
+        .
+      
+    
+    {\displaystyle {\frac {|Rf(z)|}{|f(z)-2A|}}\leq |z|.}
+  Take |z| ≤ r. The above becomes
+
+  
+    
+      
+        R
+        
+          |
+        
+        f
+        (
+        z
+        )
+        
+          |
+        
+        ≤
+        r
+        
+          |
+        
+        f
+        (
+        z
+        )
+        −
+        2
+        A
+        
+          |
+        
+        ≤
+        r
+        
+          |
+        
+        f
+        (
+        z
+        )
+        
+          |
+        
+        +
+        2
+        A
+        r
+      
+    
+    {\displaystyle R|f(z)|\leq r|f(z)-2A|\leq r|f(z)|+2Ar}
+  so
+
+  
+    
+      
+        
+          |
+        
+        f
+        (
+        z
+        )
+        
+          |
+        
+        ≤
+        
+          
+            
+              2
+              A
+              r
+            
+            
+              R
+              −
+              r
+            
+          
+        
+      
+    
+    {\displaystyle |f(z)|\leq {\frac {2Ar}{R-r}}}
+  ,as claimed. In the general case, we may apply the above to f(z)-f(0):
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  |
+                
+                f
+                (
+                z
+                )
+                
+                  |
+                
+                −
+                
+                  |
+                
+                f
+                (
+                0
+                )
+                
+                  |
+                
+              
+              
+                
+                ≤
+                
+                  |
+                
+                f
+                (
+                z
+                )
+                −
+                f
+                (
+                0
+                )
+                
+                  |
+                
+                ≤
+                
+                  
+                    
+                      2
+                      r
+                    
+                    
+                      R
+                      −
+                      r
+                    
+                  
+                
+                
+                  sup
+                  
+                    
+                      |
+                    
+                    w
+                    
+                      |
+                    
+                    ≤
+                    R
+                  
+                
+                Re
+                ⁡
+                (
+                f
+                (
+                w
+                )
+                −
+                f
+                (
+                0
+                )
+                )
+              
+            
+            
+              
+              
+                
+                ≤
+                
+                  
+                    
+                      2
+                      r
+                    
+                    
+                      R
+                      −
+                      r
+                    
+                  
+                
+                
+                  (
+                  
+                    
+                      sup
+                      
+                        
+                          |
+                        
+                        w
+                        
+                          |
+                        
+                        ≤
+                        R
+                      
+                    
+                    Re
+                    ⁡
+                    f
+                    (
+                    w
+                    )
+                    +
+                    
+                      |
+                    
+                    f
+                    (
+                    0
+                    )
+                    
+                      |
+                    
+                  
+                  )
+                
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}|f(z)|-|f(0)|&\leq |f(z)-f(0)|\leq {\frac {2r}{R-r}}\sup _{|w|\leq R}\operatorname {Re} (f(w)-f(0))\\&\leq {\frac {2r}{R-r}}\left(\sup _{|w|\leq R}\operatorname {Re} f(w)+|f(0)|\right),\end{aligned}}}
+  which, when rearranged, gives the claim.
+
+
+== References ==
+Lang, Serge (1999). Complex Analysis (4th ed.). New York: Springer-Verlag, Inc. ISBN 0-387-98592-1.
+Titchmarsh, E. C. (1938). The theory of functions. Oxford University Press.

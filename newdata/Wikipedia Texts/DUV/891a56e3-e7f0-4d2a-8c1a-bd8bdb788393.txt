@@ -1,0 +1,62 @@
+Diffey weighted UV irradiance
+
+The ultraviolet index or UV Index is an international standard measurement of the strength of sunburn-producing ultraviolet (UV) radiation at a particular place and time. The scale was developed by Canadian scientists in 1992, and then adopted and standardized by the UN's World Health Organization and World Meteorological Organization in 1994. It is primarily used in daily forecasts aimed at the general public, and is increasingly available as an hourly forecast as well.
+The UV Index is designed as an open-ended linear scale, directly proportional to the intensity of UV radiation that causes sunburn on human skin. For example, if a light-skinned individual (without sunscreen) begins to sunburn in 30 minutes at UV Index 6, then that individual should expect to sunburn in about 15 minutes at UV Index 12 – twice the UV, twice as fast.
+The purpose of the UV Index is to help people effectively protect themselves from UV radiation, which has health benefits in moderation but in excess causes sunburn, skin aging, DNA damage, skin cancer, immunosuppression, and eye damage such as cataracts (see the section Human health-related effects of ultraviolet radiation). Public health organizations recommend that people protect themselves (for example, by applying sunscreen to the skin and wearing a hat and sunglasses) if they spend substantial time outdoors when the UV Index is 3 or higher; see the table below for more detailed recommendations.
+
+
+== Description ==
+The UV Index is a linear scale, with higher values representing a greater risk of sunburn (which is correlated with other health risks) due to UV exposure. An index of 0 corresponds to zero UV radiation, as is essentially the case at night. An index of 10 corresponds roughly to midday summer sunlight with a clear sky when the UV Index was originally designed; now summertime index values in the tens are common for tropical latitudes, mountainous altitudes, and areas with above-average ozone layer depletion.While the UV Index can be calculated from a direct measurement of the UV spectral power at a given location, as some inexpensive portable devices are able to approximate, the value given in weather reports is usually a prediction based on a computer model. Although this may be in error (especially when cloud conditions are unexpectedly heavy or light), it is usually within ±1 UV Index unit as that which would be measured.
+
+When the UV Index is presented on a daily basis, it represents UV intensity around the Sun's highest point in the day, called solar noon, halfway between sunrise and sunset. This typically occurs between 11:30 and 12:30, or between 12:30 and 13:30 in areas where daylight saving time is being observed. Predictions are made by a computer model that accounts for the effects of Sun elevation and distance, stratospheric ozone, cloud conditions, air pollutants, surface albedo, and ground altitude, all of which influence the amount of UV radiation at the surface. The calculations are weighted in favor of the UV wavelengths to which human skin is most sensitive, according to the CIE-standard McKinlay-Diffey erythemal action spectrum. The resulting UV Index cannot be expressed in pure physical units, but is a good indicator of likely sunburn damage.
+Because the index scale is linear (and not logarithmic, as is often the case when measuring things such as brightness or sound level), it is reasonable to assume that one hour of exposure at index 5 is approximately equivalent to a half-hour at index 10.
+
+
+== Technical definition ==
+
+The UV Index is a number linearly related to the intensity of sunburn-producing UV radiation at a given point on the earth's surface. It cannot be simply related to the irradiance (measured in W/m2) because the UV of greatest concern occupies a spectrum of wavelength from 295 to 325 nm, and shorter wavelengths have already been absorbed a great deal when they arrive at the earth's surface. Skin damage from sunburn, however, is related to wavelength, the shorter wavelengths being much more damaging. The UV power spectrum (expressed as watts per square metre per nanometre of wavelength) is therefore multiplied by a weighting curve known as the erythemal action spectrum, and the result integrated over the whole spectrum. This gave Canadian scientists a weighted figure (sometimes called Diffey-weighted UV irradiance, or DUV, or erythemal dose rate) typically around 250 mW/m2 in midday summer sunlight. So, they arbitrarily divided by 25 mW/m2 to generate a convenient index value, essentially a scale of 0 to 11+ (though ozone depletion is now resulting in higher values, as mentioned above).
+To illustrate the spectrum weighting principle, the incident power density in midday summer sunlight is typically 0.6 mW/(nm m2) at 295 nm, 74 mW/(nm m2) at 305 nm, and 478 mW/(nm m2) at 325 nm. (Note the huge absorption that has already taken place in the atmosphere at short wavelengths.)
+The erythemal weighting factors applied to these figures are 1.0, 0.22, and 0.003 respectively. (Also note the huge increase in sunburn damage caused by the shorter wavelengths; e.g., for the same irradiance, 305 nm is 22% as damaging as 295 nm, and 325 nm is 0.3% as damaging as 295 nm.) Integration of these values using all the intermediate weightings over the full spectral range of 290 nm to 400 nm produces a figure of 264 mW/m2 (the DUV), which is then divided by 25 mW/m2 to give a UV Index of 10.6.
+
+
+== History ==
+After sporadic attempts by various meteorologists to define a "sunburn index", and amid growing concern about ozone depletion, Environment Canada scientists James B. Kerr, C. Thomas McElroy, and David I. Wardle developed the modern UV Index in Toronto, Ontario. They introduced it on May 27, 1992, making Canada the first country in the world to issue official predictions of UV levels for the next day. Many other countries followed suit with their own UV indices, among them the United States in 1994. Initially, the methods of calculating and reporting a UV Index varied significantly from country to country. A global UV Index, first standardized by the World Health Organization and World Meteorological Organization in 1994, gradually replaced the inconsistent regional versions, specifying not only a uniform calculation method (the Canadian definition) but also standard colors and graphics for visual media. In the United States, the WHO standards officially replaced the original US standards in 2004.
+On December 29, 2003, a world-record ground-level UV index of 43.3 was detected at Bolivia's Licancabur volcano, though other scientists dispute readings higher than 26.In 2005, the United States and Australia launched the UV Alert. While the two countries have different baseline UV intensity requirements before issuing an alert, their common goal is to raise awareness of the dangers of over-exposure to the Sun on days with intense UV radiation.
+In 2007, the United Nations honored UV Index inventors Kerr, McElroy and Wardle with the Innovators Award for their far-reaching work on reducing public health risks from UV radiation. In the same year, a survey among meteorologists ranked the development of the UV Index as #11 for The Weather Channel's 100 Biggest Weather Moments.
+
+
+== Index usage ==
+When the day's predicted UV Index is within various numerical ranges, the recommendations for protection are as follows:
+
+
+=== Notes ===
+When interpreting the UV index and recommendations, be aware that:
+
+The intensity of UV radiation reaching the surface of the earth depends on the angle of the Sun in the sky. Each day, the Sun achieves its highest angle (highest intensity, shortest shadows) at solar noon, which only approximately corresponds to 12:00 on clocks or 13:00 (1:00 p.m.) during daylight saving time. This is because of the differences between solar time and local time in a given time zone as well as Earth's elliptical orbit causing the exact time of solar noon to vary seasonally within several minutes. UV risk is high when the Sun is directly enough overhead that people's shadows are shorter than their height (greater than 45°).
+Likewise, UV intensity can be higher or lower for surfaces at different angles to the horizontal. For example, if people are walking or standing outdoors, UV exposure to the eyes and vertical surfaces of skin, such as the face, can actually be more severe when the Sun is lower (though UVB:UVA ratio can also differ), such as the end of a summer's day, or winter afternoons on a ski trail. This is partly a consequence of the fact that the measurement equipment upon which the index is based is a flat horizontal surface.
+UV intensity can nearly double with reflection from snow or other bright surfaces like water, sand, or concrete.
+The recommendations given are for average adults with lightly tanned skin. Those with darker skin are more likely to withstand greater Sun exposure, while extra precautions are needed for children, seniors, particularly fair-skinned adults, and those who have greater Sun sensitivity for medical reasons or from UV exposure in previous days. (The skin's recovery from UV radiation generally takes two days or more to run its course.)
+Because of the way the UV index is calculated, it technically expresses the risk of developing sunburn, which is caused mostly by UVB radiation. However, UVA radiation also causes damage (photoaging, melanoma). Under some conditions, including most tanning beds which generate even higher UV intensities, the UVA level may be disproportionately higher than described by the UV index. The use of broad-spectrum (UVA/UVB) sunscreen can help address this concern.
+
+
+== Shadow rule ==
+According to the U.S. Environmental Protection Agency, a helpful method to estimate the amount of UV radiation people are exposed to is by observing the length of their shadow. A taller shadow may mean a lower UV exposure while a shorter one could translate to exposure to higher levels of UV radiation.
+
+
+== See also ==
+Health effects of sunlight exposure
+Sun protective clothing
+
+
+== Notes ==
+
+
+== External links ==
+UV radiation program by the World Health Organization
+UV index forecast and archives by the European Space Agency
+Sun Safety by the U.S. Environmental Protection Agency
+UV-B Monitoring and Research Program: Erythemal radiation archive by the U.S. Department of Agriculture/Colorado State University
+Global UV index forecast by the Finnish Meteorological Institute
+Australian UV index forecast by the Australian Bureau of Meteorology
+FastRT UV Calculator – Enter any date, time, location, local conditions; compute "UV doserate" of type "skin burn"; and divide result by 25 to obtain the UV index.
+UVIMate - UV index tracker and forecast mobile app

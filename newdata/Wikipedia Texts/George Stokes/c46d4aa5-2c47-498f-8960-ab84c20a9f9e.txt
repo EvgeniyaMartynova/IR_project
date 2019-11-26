@@ -1,0 +1,125 @@
+Sir George Stokes, 1st Baronet
+
+Sir George Gabriel Stokes, 1st Baronet,  (; 13 August 1819 – 1 February 1903) was an Anglo-Irish physicist and mathematician. Born in County Sligo, Ireland, Stokes spent all of his career at the University of Cambridge, where he was the Lucasian Professor of Mathematics from 1849 until his death in 1903.  As a physicist, Stokes made seminal contributions to fluid mechanics, including the Navier-Stokes equations, and to physical optics, with notable works on polarization and fluorescence. As a mathematician, he popularised "Stokes' theorem" in vector calculus and contributed to the theory of asymptotic expansions. Stokes, along with Felix Hoppe-Seyler, first demonstrated the oxygen transport function of hemoglobin and showed color changes produced by aeration of hemoglobin solutions.
+Stokes was made a baronet (hereditary knight) by the British monarch in 1889.  In 1893 he received the Royal Society's Copley Medal, then the most prestigious scientific prize in the world, "for his researches and discoveries in physical science".  He represented Cambridge University in the British House of Commons from 1887 to 1892, sitting as a Tory.  Stokes also served as president of the Royal Society from 1885 to 1890 and was briefly the Master of Pembroke College, Cambridge.
+
+
+== Biography ==
+George Stokes was the youngest son of the Reverend Gabriel Stokes, a clergyman in the Church of Ireland who served as rector of Skreen, in County Sligo.  Stokes home life was strongly influenced by his father's evangelical Protestantism.  After attending schools in Skreen, Dublin, and Bristol, in 1837 Stokes matriculated at Pembroke College, Cambridge.  Four years later he graduated as senior wrangler and first Smith's prizeman, achievements that earned him election of a fellow of the college.  In accordance with the college statutes, Stokes had to resign the fellowship when he married in 1857.  Twelve years later, under new statutes, he was re-elected to the fellowship and he retained that place until 1902, when on the day before his 83rd birthday, he was elected as the college's Master. Stokes did not hold that position for long, for he died at Cambridge on 1 February the following year, and was buried in the Mill Road cemetery.
+
+
+=== Career ===
+In 1849, Stokes was appointed to the Lucasian professorship of mathematics at Cambridge, a position he held until his death in 1903. On 1 June 1899, the jubilee of this appointment was celebrated there in a ceremony, which was attended by numerous delegates from European and American universities. A commemorative gold medal was presented to Stokes by the chancellor of the university and marble busts of Stokes by Hamo Thornycroft were formally offered to Pembroke College and to the university by Lord Kelvin. Stokes, who was made a baronet in 1889, further served his university by representing it in parliament from 1887 to 1892 as one of the two members for the Cambridge University constituency. During a portion of this period (1885–1890) he also was president of the Royal Society, of which he had been one of the secretaries since 1854. Since he was also Lucasian Professor at this time, Stokes was the first person to hold all three positions simultaneously; Newton held the same three, although not at the same time.
+Stokes was the oldest of the trio of natural philosophers, James Clerk Maxwell and Lord Kelvin being the other two, who especially contributed to the fame of the Cambridge school of mathematical physics in the middle of the 19th century. Stokes's original work began about 1840, and from that date onwards the great extent of his output was only less remarkable than the brilliance of its quality. The Royal Society's catalogue of scientific papers gives the titles of over a hundred memoirs by him published down to 1883. Some of these are only brief notes, others are short controversial or corrective statements, but many are long and elaborate treatises.
+
+
+== Contributions to science ==
+
+In scope, his work covered a wide range of physical inquiry but, as Marie Alfred Cornu remarked in his Rede lecture of 1899, the greater part of it was concerned with waves and the transformations imposed on them during their passage through various media.
+
+
+=== Fluid dynamics ===
+His first published papers, which appeared in 1842 and 1843, were on the steady motion of incompressible fluids and some cases of fluid motion. These were followed in 1845 by one on the friction of fluids in motion and the equilibrium and motion of elastic solids, and in 1850 by another on the effects of the internal friction of fluids on the motion of pendulums. To the theory of sound he made several contributions, including a discussion of the effect of wind on the intensity of sound and an explanation of how the intensity is influenced by the nature of the gas in which the sound is produced. These inquiries together put the science of fluid dynamics on a new footing, and provided a key not only to the explanation of many natural phenomena, such as the suspension of clouds in air, and the subsidence of ripples and waves in water, but also to the solution of practical problems, such as the flow of water in rivers and channels, and the skin resistance of ships.
+
+
+==== Creeping flow ====
+
+His work on fluid motion and viscosity led to his calculating the terminal velocity for a sphere falling in a viscous medium. This became known as Stokes's law. He derived an expression for the frictional force (also called drag force) exerted on spherical objects with very small Reynolds numbers.
+His work is the basis of the falling sphere viscometer, in which the fluid is stationary in a vertical glass tube. A sphere of known size and density is allowed to descend through the liquid. If correctly selected, it reaches terminal velocity, which can be measured by the time it takes to pass two marks on the tube. Electronic sensing can be used for opaque fluids. Knowing the terminal velocity, the size and density of the sphere, and the density of the liquid, Stokes's law can be used to calculate the viscosity of the fluid. A series of steel ball bearings of different diameter is normally used in the classic experiment to improve the accuracy of the calculation. The school experiment uses glycerine as the fluid, and the technique is used industrially to check the viscosity of fluids used in processes.
+The same theory explains why small water droplets (or ice crystals) can remain suspended in air (as clouds) until they grow to a critical size and start falling as rain (or snow and hail). Similar use of the equation can be made in the settlement of fine particles in water or other fluids.
+The CGS unit of kinematic viscosity was named "stokes" in recognition of his work.
+
+
+=== Light ===
+Perhaps his best-known researches are those which deal with the wave theory of light. His optical work began at an early period in his scientific career. His first papers on the aberration of light appeared in 1845 and 1846, and were followed in 1848 by one on the theory of certain bands seen in the spectrum.In 1849 he published a long paper on the dynamical theory of diffraction, in which he showed that the plane of polarisation must be perpendicular to the direction of propagation. Two years later he discussed the colours of thick plates.Stokes also investigated George Airy's mathematical description of rainbows. Airy's findings involved an integral that was awkward to evaluate. Stokes expressed the integral as a divergent series, which were little understood. However, by cleverly truncating the series (i.e., ignoring all except the first few terms of the series), Stokes obtained an accurate approximation to the integral that was far easier to evaluate than the integral itself. Stokes's research on asymptotic series led to fundamental insights about such series.
+
+
+=== Fluorescence ===
+
+In 1852, in his famous paper on the change of wavelength of light, he described the phenomenon of fluorescence, as exhibited by fluorspar and uranium glass, materials which he viewed as having the power to convert invisible ultra-violet radiation into radiation of longer wavelengths that are visible. The Stokes shift, which describes this conversion, is named in Stokes's honour. A mechanical model, illustrating the dynamical principle of Stokes's explanation was shown. The offshoot of this, Stokes line, is the basis of Raman scattering. In 1883, during a lecture at the Royal Institution, Lord Kelvin said he had heard an account of it from Stokes many years before, and had repeatedly but vainly begged him to publish it.
+
+
+=== Polarization ===
+
+In the same year, 1852, there appeared the paper on the composition and resolution of streams of polarised light from different sources, and in 1853 an investigation of the metallic reflection exhibited by certain non-metallic substances. The research was to highlight the phenomenon of light polarisation. About 1860 he was engaged in an inquiry on the intensity of light reflected from, or transmitted through, a pile of plates; and in 1862 he prepared for the British Association a valuable report on double refraction, a phenomenon where certain crystals show different refractive indices along different axes. Perhaps the best known crystal is Iceland spar, transparent calcite crystals.
+A paper on the long spectrum of the electric light bears the same date, and was followed by an inquiry into the absorption spectrum of blood.
+
+
+=== Chemical analysis ===
+The chemical identification of organic bodies by their optical properties was treated in 1864; and later, in conjunction with the Rev. William Vernon Harcourt, he investigated the relation between the chemical composition and the optical properties of various glasses, with reference to the conditions of transparency and the improvement of achromatic telescopes. A still later paper connected with the construction of optical instruments discussed the theoretical limits to the aperture of microscope objectives.
+
+
+=== Other work ===
+
+In other departments of physics may be mentioned his paper on the conduction of heat in crystals (1851) and his inquiries in connection with Crookes radiometer; his explanation of the light border frequently noticed in photographs just outside the outline of a dark body seen against the sky (1882); and, still later, his theory of the x-rays, which he suggested might be transverse waves travelling as innumerable solitary waves, not in regular trains. Two long papers published in 1849 – one on attractions and Clairaut's theorem, and the other on the variation of gravity at the surface of the earth (1849)—also demand notice, as do his mathematical memoirs on the critical values of sums of periodic series (1847) and on the numerical calculation of a class of definite integrals and infinite series (1850) and his discussion of a differential equation relating to the breaking of railway bridges (1849), research related to his evidence given to the Royal Commission on the Use of Iron in Railway structures after the Dee bridge disaster of 1847.
+
+
+=== Unpublished research ===
+Many of Stokes' discoveries were not published, or were only touched upon in the course of his oral lectures. One such example is his work in the theory of spectroscopy.
+
+In his presidential address to the British Association in 1871, Lord Kelvin stated his belief that the application of the prismatic analysis of light to solar and stellar chemistry had never been suggested directly or indirectly by anyone else when Stokes taught it to him at Cambridge University some time prior to the summer of 1852, and he set forth the conclusions, theoretical and practical, which he learnt from Stokes at that time, and which he afterwards gave regularly in his public lectures at Glasgow. These statements, containing as they do the physical basis on which spectroscopy rests, and the way in which it is applicable to the identification of substances existing in the sun and stars, make it appear that Stokes anticipated Kirchhoff by at least seven or eight years. Stokes, however, in a letter published some years after the delivery of this address, stated that he had failed to take one essential step in the argument—not perceiving that emission of light of definite wavelength not merely permitted, but necessitated, absorption of light of the same wavelength. He modestly disclaimed "any part of Kirchhoff's admirable discovery," adding that he felt some of his friends had been over-zealous in his cause. It must be said, however, that English men of science have not accepted this disclaimer in all its fullness, and still attribute to Stokes the credit of having first enunciated the fundamental principles of spectroscopy.
+In another way, too, Stokes did much for the progress of mathematical physics. Soon after he was elected to the Lucasian chair he announced that he regarded it as part of his professional duties to help any member of the university in difficulties he might encounter in his mathematical studies, and the assistance rendered was so real that pupils were glad to consult him, even after they had become colleagues, on mathematical and physical problems in which they found themselves at a loss. Then during the thirty years he acted as secretary of the Royal Society he exercised an enormous if inconspicuous influence on the advancement of mathematical and physical science, not only directly by his own investigations, but indirectly by suggesting problems for inquiry and inciting men to attack them, and by his readiness to give encouragement and help.
+
+
+==== Contributions to engineering ====
+
+Stokes was involved in several investigations into railway accidents, especially the Dee bridge disaster in May 1847, and he served as a member of the subsequent Royal Commission into the use of cast iron in railway structures. He contributed to the calculation of the forces exerted by moving engines on bridges. The bridge failed because a cast iron beam was used to support the loads of passing trains. Cast iron is brittle in tension or bending, and many other similar bridges had to be demolished or reinforced.
+
+He appeared as an expert witness at the Tay Bridge disaster, where he gave evidence about the effects of wind loads on the bridge. The centre section of the bridge (known as the High Girders) was completely destroyed during a storm on 28 December 1879, while an express train was in the section, and everyone aboard died (more than 75 victims). The Board of Inquiry listened to many expert witnesses, and concluded that the bridge was "badly designed, badly built and badly maintained".As a result of his evidence, he was appointed a member of the subsequent Royal Commission into the effect of wind pressure on structures. The effects of high winds on large structures had been neglected at that time, and the commission conducted a series of measurements across Britain to gain an appreciation of wind speeds during storms, and the pressures they exerted on exposed surfaces.
+
+
+==== Work on religion ====
+
+Stokes held conservative religious values and beliefs. In 1886, he became president of the Victoria Institute, which had been founded to defend evangelical Christian principles against challenges from the new sciences, especially the Darwinian theory of biological evolution. He gave the 1891 Gifford lecture on natural theology. He was also the vice-president of the British and Foreign Bible Society and was actively involved in doctrinal debates concerning missionary work.As President of the Victoria Institute, Stokes wrote: "We all admit that the book of Nature and the book of Revelation come alike from God, and that consequently there can be no real discrepancy between the two if rightly interpreted. The provisions of Science and Revelation are, for the most part, so distinct that there is little chance of collision. But if an apparent discrepancy should arise, we have no right on principle, to exclude either in favour of the other. For however firmly convinced we may be of the truth of revelation, we must admit our liability to err as to the extent or interpretation of what is revealed; and however strong the scientific evidence in favour of a theory may be, we must remember that we are dealing with evidence which, in its nature, is probable only, and it is conceivable that wider scientific knowledge might lead us to alter our opinion".
+
+
+== Personal life ==
+He married, on 4 July 1857 at St Patrick's Cathedral, Armagh, Mary Susanna Robinson, daughter of the astronomer Rev Thomas Romney Robinson. They had five children: Arthur Romney, who inherited the baronetcy; Susanna Elizabeth, who died in infancy; Isabella Lucy (Mrs Laurence Humphry) who contributed the personal memoir of her father in "Memoir and Scientific Correspondence of the Late George Gabriel Stokes, Bart"; Dr William George Gabriel, physician, a troubled man who committed suicide aged 30 whilst temporarily insane; and Dora Susanna, who died in infancy. His male line and hence his baronetcy is extinct but through the female line he is survived by one great great grandson, one great great granddaughter, and three great great great grandchildren.
+
+
+== Legacy and honours ==
+
+Lucasian Professor of Mathematics at Cambridge University
+From the Royal Society, of which he became a fellow in 1851, he received the Rumford Medal in 1852 in recognition of his inquiries into the wavelength of light, and later, in 1893, the Copley Medal.
+In 1869 he presided over the Exeter meeting of the British Association.
+From 1883 to 1885 he was Burnett lecturer at Aberdeen, his lectures on light, which were published in 1884–1887, dealing with its nature, its use as a means of investigation, and its beneficial effects.
+On 18 April 1888 he was admitted as a Freeman of the City of London. 
+On 6 July 1889 Queen Victoria created him the Baronet Stokes of Lensfield Cottage in the Baronetage of the United Kingdom; the title became extinct in 1916.
+In 1891, as Gifford lecturer, he published a volume on Natural Theology.
+Member of the Prussian Order Pour le Mérite
+His academic distinctions included honorary degrees from many universities, including
+Doctor mathematicae (honoris causa) from the Royal Frederick University on 6 September 1902, when they celebrated the centennial of the birth of mathematician Niels Henrik Abel.
+The stokes, a unit of kinematic viscosity, is named after him.
+In July 2017, Dublin City University named a building after Stokes in recognition of his contributions to physics and mathematics.
+
+
+== Publications ==
+Stokes's mathematical and physical papers (see external links) were published in a collected form in five volumes; the first three (Cambridge, 1880, 1883, and 1901) under his own editorship, and the two last (Cambridge, 1904 and 1905) under that of Sir Joseph Larmor, who also selected and arranged the Memoir and Scientific Correspondence of Stokes published at Cambridge in 1907.
+
+
+== References ==
+
+ This article incorporates text from a publication now in the public domain: Chisholm, Hugh, ed. (1911). "Stokes, Sir George Gabriel". Encyclopædia Britannica. 25 (11th ed.). Cambridge University Press. pp. 951–953.
+
+
+== Further reading ==
+Wilson, David B., Kelvin and Stokes A Comparative Study in Victorian Physics, (1987) ISBN 0-85274-526-5
+Roche, John (26 May 1988). "Review of Kelvin and Stokes by David Wilson". New Scientist: 73.
+Craik, A.D.D. (2005), "George Gabriel Stokes on water wave theory", Annual Review of Fluid Mechanics, 37: 23–42, Bibcode:2005AnRFM..37...23C, doi:10.1146/annurev.fluid.37.061903.175836
+Peter R Lewis, Beautiful Railway Bridge of the Silvery Tay: Reinvestigating the Tay Bridge Disaster of 1879, Tempus (2004). ISBN 0-7524-3160-9
+PR Lewis and Colin Gagg, "Aesthetics versus function: the fall of the Dee bridge, 1847". Interdisciplinary Science Reviews. 29 (2): 177–191. 2004. doi:10.1179/030801804225012563.
+PR Lewis, Disaster on the Dee: Robert Stephenson's Nemesis of 1847, Tempus Publishing (2007) ISBN 978-0-7524-4266-2
+George Gabriel Stokes: Life, Science and Faith Edited by Mark McCartney, Andrew Whitaker, and Alastair Wood, Oxford University Press, 2019. ISBN 0198822863
+
+
+== External links ==
+Sir George Stokes, 1st Baronet at the Mathematics Genealogy Project
+O'Connor, John J.; Robertson, Edmund F., "Sir George Stokes, 1st Baronet", MacTutor History of Mathematics archive, University of St Andrews.
+Biography on Dublin City University Web site
+George Gabriel Stokes (1907). Memoir and Scientific Correspondence of the Late Sir George Gabriel Stokes ... University press. (1907), ed. by J. Larmor
+Mathematical and physical papers volume 1 and volume 2 from the Internet Archive
+Mathematical and physical papers, volumes 1 to 5 from the University of Michigan Digital Collection.
+Life and work of Stokes
+Natural Theology (1891), Adam and Charles Black. (1891–93 Gifford Lectures)
+Works by or about Sir George Stokes, 1st Baronet at Internet Archive
+Hansard 1803–2005: contributions in Parliament by Sir George Stokes

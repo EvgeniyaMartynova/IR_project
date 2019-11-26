@@ -1,0 +1,40 @@
+Helion Energy
+
+Helion Energy, Inc. is an American company in Redmond, WA developing a magneto-inertial fusion power technology called The Fusion Engine. Their approach combines the stability of magnetic containment and once-per-second heating pulsed inertial fusion. They are developing a 50 MW scale system. 
+
+
+== Organization ==
+Helion Energy was founded in 2013 by Dr. David Kirtley,  Dr. John Slough, Chris Pihl, and Dr. George Votroubek. . Investors in Helion include YCombinator, Mithril Capital Management, and Capricorn Investment Group. 
+The management team won the 2013 National Cleantech Open Energy Generation competition and awards at the 2014 ARPA-E Future Energy Startup competition , were members of the 2014 YCombinator program , and were awarded a 2015 ARPA-E ALPHA contract, "Staged Magnetic Compression of FRC Targets to Fusion Conditions". 
+
+
+== Technology ==
+The Fusion Engine technology is based on the Inductive Plasmoid Accelerator (IPA) experiments performed from 2005 through 2012. This system theoretically operates at 1 Hz, injecting plasma, compressing it to fusion conditions, expanding it and directly recovering the energy to provide electricity. The IPA experiments claimed 300 km/s velocities, deuterium neutron production, and 2 keV deuterium ion temperatures.
+
+
+=== Helium-3 Fuel ===
+Helion intends to produce and use helium-3/deuterium fuel. This fuel allows essentially aneutronic fusion, releasing only 5% of its energy in the form of neutrons. The helium is captured and reused, eliminating supply concerns.Fusion reaction: 2D + 3He → 4He + 1p + 18.3 MeV
+The IPA experiments used deuterium-deuterium fusion, which produces a 2.4 MeV neutron per reaction. Helion and MSNW published articles describing a deuterium-tritium implementation which is the easiest to achieve but generate 14 MeV neutrons. Helion has patented  utilizing pulsed deuterium-deuterium fusion to produce Helium-3 for use in fusion reactors and medical imaging. 
+
+
+=== Confinement ===
+This fusion approach uses the magnetic field of a Field Reversed Configuration (FRC) plasmoid (operated with solid state electronics derived from power switching electronics in wind turbines) to prevent plasma energy losses. An FRC is a magnetized plasma configuration notable for its closed field lines, high Beta and lack of internal penetrations.
+
+
+=== Compression ===
+To inject the target plasmoid into the fusion compression chamber two plasmoids are accelerated at high velocity with pulsed magnetic fields and merge into a single target plasmoid at high pressure. Their 2018 experiments achieved plasmas with multi-keV temperatures . Published records show plans to compress fusion plasmas to 12 Tesla.
+
+
+=== Energy Generation ===
+Energy is captured by direct energy conversion that translates high-energy alpha particles directly into a voltage. This eliminates the need for steam turbines and cooling towers (and the associated energy losses).
+
+
+== Funding ==
+Helion Energy received $7 million in funding from NASA, the U.S. Department of Energy and the Department of Defense, followed by $1.5 million from the private sector in August 2014, through the seed accelerators Y Combinator and Mithril Capital Management.  The company raised an additional $10.6 million in July, 2015.
+
+
+== Revenue Model ==
+Helion Energy’s strategy is to generate revenue based on a royalty model of electricity produced with projected electricity prices of 40-60 $/MWhr (4 to 6 cents per kwh). Penetration of the new capacity market is estimated at 20% of market growth (2.5%) per annum eventually reaching 50% of new power generation worldwide – $52 B/yr. Gradual displacement of existing supplies enables continued growth to 20% of world electrical generation after 20 years with a net return of over $300 billion.
+
+
+== References ==

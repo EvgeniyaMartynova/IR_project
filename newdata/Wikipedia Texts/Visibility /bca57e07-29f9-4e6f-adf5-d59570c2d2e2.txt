@@ -1,0 +1,236 @@
+Interferometric visibility
+
+The interferometric visibility (also known as interference visibility and fringe visibility, or just visibility when in context) quantifies the contrast of interference in any system which has wave-like properties, such as optics, quantum mechanics, water waves, or electrical signals.  Generally, two or more waves are combined and as the phase difference between them varies, the power or intensity (probability or population in quantum mechanics) of the resulting wave oscillates, forming an interference pattern. The pattern may be visible all at once because the phase difference varies as a function of space, as in a 2-slit experiment. Alternately, the phase difference may be manually controlled by the operator, for example by adjusting a vernier knob in an interferometer. The ratio of the size or amplitude of these oscillations to the sum of the powers of the individual waves is defined as the visibility.
+The interferometric visibility gives a practical way to measure the coherence of two waves (or one wave with itself). A theoretical definition of the coherence is given by the degree of coherence, using the notion of correlation.
+
+
+== Visibility in optics ==
+In linear optical interferometers (like the Mach–Zehnder interferometer, Michelson interferometer, and Sagnac interferometer), interference manifests itself as intensity oscillations over time or space, also called fringes. Under these circumstances, the interferometric visibility is also known as the "Michelson visibility"  or the "fringe visibility." For this type of interference, the sum of the intensities (powers) of the two interfering waves equals the average intensity over a given time or space domain. The visibility is written as:
+
+  
+    
+      
+        ν
+        =
+        A
+        
+          /
+        
+        
+          
+            
+              I
+              ¯
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle \nu =A/{\bar {I}},}
+  in terms of the amplitude envelope of the oscillating intensity and the average intensity:
+
+  
+    
+      
+        A
+        =
+        (
+        
+          I
+          
+            max
+          
+        
+        −
+        
+          I
+          
+            min
+          
+        
+        )
+        
+          /
+        
+        2
+        ,
+      
+    
+    {\displaystyle A=(I_{\max }-I_{\min })/2,}
+  
+
+  
+    
+      
+        
+          
+            
+              I
+              ¯
+            
+          
+        
+        =
+        (
+        
+          I
+          
+            max
+          
+        
+        +
+        
+          I
+          
+            min
+          
+        
+        )
+        
+          /
+        
+        2.
+      
+    
+    {\displaystyle {\bar {I}}=(I_{\max }+I_{\min })/2.}
+  So it can be rewritten as:
+
+  
+    
+      
+        ν
+        =
+        
+          
+            
+              
+                I
+                
+                  max
+                
+              
+              −
+              
+                I
+                
+                  min
+                
+              
+            
+            
+              
+                I
+                
+                  max
+                
+              
+              +
+              
+                I
+                
+                  min
+                
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle \nu ={\frac {I_{\max }-I_{\min }}{I_{\max }+I_{\min }}},}
+  where Imax is the maximum intensity of the oscillations and Imin the minimum intensity of the oscillations.  If the two optical fields are ideally monochromatic (consist of only single wavelength) point sources of the same polarization, then the predicted visibility will be
+
+  
+    
+      
+        ν
+        =
+        
+          
+            
+              2
+              
+                
+                  
+                    I
+                    
+                      1
+                    
+                  
+                  
+                    I
+                    
+                      2
+                    
+                  
+                
+              
+            
+            
+              
+                I
+                
+                  1
+                
+              
+              +
+              
+                I
+                
+                  2
+                
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle \nu ={\frac {2{\sqrt {I_{1}I_{2}}}}{I_{1}+I_{2}}},}
+  where 
+  
+    
+      
+        
+          I
+          
+            1
+          
+        
+      
+    
+    {\displaystyle I_{1}}
+   and 
+  
+    
+      
+        
+          I
+          
+            2
+          
+        
+      
+    
+    {\displaystyle I_{2}}
+   indicate the intensity of the respective wave.  Any dissimilarity between the optical fields will decrease the visibility from the ideal. In this sense, the visibility is a measure of the coherence between two optical fields. A theoretical definition for this is given by the degree of coherence.  This definition of interference directly applies to the interference of water waves and electric signals.
+
+
+== Visibility in quantum mechanics ==
+Since the Schrödinger equation is a wave equation and all objects can be considered waves in quantum mechanics, interference is ubiquitous. Some examples: Bose–Einstein condensates can exhibit interference fringes.  Atomic populations show interference in a Ramsey interferometer.  Photons, atoms, electrons, neutrons, and molecules have exhibited interference in double-slit interferometers.
+
+
+== See also ==
+Degree of coherence
+Interferometry
+Optical interferometry
+List of types of interferometers
+Hong–Ou–Mandel effect
+
+
+== References ==
+
+
+== External links ==
+Stedman Review of the Sagnac Effect

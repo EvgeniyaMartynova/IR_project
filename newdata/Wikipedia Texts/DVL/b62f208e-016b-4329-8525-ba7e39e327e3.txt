@@ -1,0 +1,63 @@
+Dishevelled
+
+Dishevelled (Dsh) is a family of proteins involved in canonical and non-canonical Wnt signalling pathways.  Dsh (Dvl in mammals) is a cytoplasmic phosphoprotein that acts directly downstream of frizzled receptors. It takes its name from its initial discovery in flies, where a mutation in the dishevelled gene was observed to cause improper orientation of body and wing hairs. There are vertebrate homologs in zebrafish, Xenopus (Xdsh), mice (Dvl1, -2, -3) and humans (DVL-1, -2, -3). Dsh relays complex Wnt signals in tissues and cells, in normal and abnormal contexts.  It is thought to interact with the novel protein, SPATS1, when regulating the Wnt Signalling pathway.Dishevelled plays important roles in both the embryo and the adult, ranging from cellular differentiation and cell polarity to social behavior.
+
+
+== Members ==
+There are three human genes that encode for the dishevelled proteins:
+DVL1
+DVL2
+DVL3
+
+
+== Function ==
+DVL is an integral part of the Wnt canonical pathway (β-catenin dependent) and non-canonical pathway (β-catenin-independent). In either of these, DVL acts downstream of a Frizzled receptor, although the pathways are distinct.
+
+
+=== Wnt canonical pathway ===
+The Wnt canonical pathway, also known as the Wnt/β-catenin pathway, is activated during development, regulation, cell differentiation, and proliferation. The Wnt canonical pathway moves DVL between the cytoplasm and nucleus, via a conserved nuclear export sequence (NES) and a nuclear localization sequence (NLS), both necessary for proper functioning. The binding of Wnt to Frizzled receptors helps recruit DVL to the membrane, providing a site for Axin and GSK3β to bind and phosphorylate LRP5/6 (transmembrane low-density lipoprotein receptor-related protein), preventing constitutive degradation of β-catenin. The prevention of this degradation DVL allows for β-catenin buildup in the nucleus, where it acts as a coactivator for TCF (T cell factor) to activate Wnt responsive genes. Conversely, without Wnt signaling, the destruction complex, made of APC, CKI, GSK3β and Axin, degrades β-catenin buildup, keeping the concentration of β-catenin in the cell low.
+
+
+=== Wnt non-canonical pathways ===
+
+
+==== Planar cell polarity pathway ====
+The planar cell polarity pathway (PCP) is the most notable β-catenin independent pathway – the Wnt signal is received by the Frizzled receptor, which relays signals to DVL, which then acts as a branch point for two independent pathways, leading to the activation of small GTPases Rho and Rac. For the Rho branch, Wnt signals induce DVL to form a complex with Daam1 (Dishevelled associated activator of morphogenesis 1). This complex then interacts with Rho guanine nucleotide exchange factor WGEF (weak-similarity GEF), which activates downstream effectors like Rho GTPase and Rho-associated kinase (ROCK), which activates actin and cytoskeleton architecture in the cell. For the Rac branch, DVL activates the Rac GTPase. Activating the Rac GTPase stimulates the downstream effector c-Jun N-terminal kinase (JNK), which controls rearrangements in the cytoskeleton and gene expression. More specifically, it regulates the polarity and movement of a cell, in processes in vertebrates (like Xenopus) including gastrulation, neural tube closure, and stereocilia orientation in the inner ear.
+
+
+==== Wnt-calcium pathway ====
+Another pathway independent of β-catenin is the Wnt-Ca2+ pathway, which is involved in cancer, inflammation, and neurodegeneration. Wnt triggers Frizzled-mediated activation, triggering a cascade leading to Ca2+ release, which activates effectors (e.g. CaMKII) that control gene transcription relevant to cell fate and cell migration. This pathway can switch off the Wnt/β-catenin cascade and it can also be inhibited by DVL activation.
+
+
+== Structure ==
+There are five main highly conserved regions that exist in all variations of DVL. These include an amino-terminal DIX (N-terminus) domain, a PDZ (central) domain, a carboxyl-terminal DEP (C-terminus) domain, and two regions with positively charged amino acid residues. There is a proline-heavy region between the DIX and PDZ domains, and a largely basic region between the DIX and PDZ domains that has conserved serine and threonine residues. These regions mediate protein-protein interactions and help DVL channel signals into either the β-catenin or the β-catenin independent pathways. Additionally, there is the conserved nuclear export sequence (NES) and a nuclear localization sequence (NLS), whose ability to move DVL between the cytoplasm and the nucleus may be an important part of its function.
+
+
+=== DIX Domain (Dishevelled-Axin) ===
+Located near the N-terminus region of DVL and consisting of about 82-85 amino acids for human DVL protein, DIX is found in proteins like Axin and coiled-coil protein DIX-domain-containing I (DIXdc1 or Ccd1). The DIX domain of DVL has five β-strands and one α helix with highly conserved amino acid residues.
+
+
+=== PDZ Domain ===
+PDZ, whose name consists of the initials of first three identified proteins to share this common structural domain (Post synaptic density protein (PSD95), Drosophila disc large tumor suppressor (Dlg1), and Zonula occludens-1 protein (zo-1)), lies in the central region of DVL. PDZ typically has about 73 amino acids in each human DVL protein, and consists of 5-6 β-strands and 2-3 α-helices  This motif plays a critical role in ligand binding and conformational properties of the DVL protein. This region mediates many protein-protein interactions and regulates multiple biological processes.
+
+
+=== DEP Domain (Dishevelled-EGL-10-Pleackstrin) ===
+DEP, which is in C-terminal domain of DVL, has 75 amino acids in the human DVL proteins, and has three α-helices, a β-hairpin arm, and two short β-strands. This domain enables interaction between DVL and DAAM1, thus activating the non-canonical pathway. This domain also has results that support claims that the DEP domain is what is responsible for targeting DVL proteins to the membrane upon Wnt signal stimulation. The DEP domain may also be essential for the assembly of functional signalosomes and for Wnt signal transduction to the nucleus.
+
+
+=== NES and NLS regions ===
+In addition to these conserved regions, DVL has both a NES and NLS, which regulate the cellular localization of DVL via movement between the nucleus and the cytoplasm. The NLS is between the PDZ and DEP domains, and the NES is between the DEP and C-terminus of DVL.
+
+
+== Dishevelled Post-translational Modifications ==
+There are three mains types of DVL post-translational modification - phosphorylation, ubiquitination, and methylation. Phosphorylation is the most well-studied, and seems to act such that site-specific phosphorylation can bring about a wide variety of biological responses. Ubiquitination is the post-translational modification that has a role in regulating DVL degradation.
+
+
+== Alignment of dishevelled-specific domain ==
+
+
+== References ==
+
+
+== External links ==
+dishevelled proteins at the US National Library of Medicine Medical Subject Headings (MeSH)

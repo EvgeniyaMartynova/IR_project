@@ -1,0 +1,413 @@
+Snub cube
+
+In geometry, the snub cube, or snub cuboctahedron, is an Archimedean solid with 38 faces: 6 squares and 32 equilateral triangles. It has 60 edges and 24 vertices.
+It is a chiral polyhedron, that is, it has two distinct forms, which are mirror images (or "enantiomorphs") of each other. The union of both forms is a compound of two snub cubes, and the convex hull of both sets of vertices is a truncated cuboctahedron.
+Kepler first named it in Latin as cubus simus in 1619 in his Harmonices Mundi. H. S. M. Coxeter, noting it could be derived equally from the octahedron as the cube, called it snub cuboctahedron, with a vertical extended Schläfli symbol 
+  
+    
+      
+        s
+        
+          
+            
+              {
+              
+                
+                  
+                    4
+                  
+                
+                
+                  
+                    3
+                  
+                
+              
+              }
+            
+          
+        
+      
+    
+    {\displaystyle s\scriptstyle {\begin{Bmatrix}4\\3\end{Bmatrix}}}
+  , and representing an alternation of a truncated cuboctahedron, which has Schläfli symbol 
+  
+    
+      
+        t
+        
+          
+            
+              {
+              
+                
+                  
+                    4
+                  
+                
+                
+                  
+                    3
+                  
+                
+              
+              }
+            
+          
+        
+      
+    
+    {\displaystyle t\scriptstyle {\begin{Bmatrix}4\\3\end{Bmatrix}}}
+  .
+
+
+== Dimensions ==
+For a snub cube with edge length 1, its surface area and volume are:
+
+  
+    
+      
+        
+          
+            
+              
+                A
+              
+              
+                
+                =
+                6
+                +
+                8
+                
+                  
+                    3
+                  
+                
+              
+              
+              
+                
+                ≈
+                19.8564
+              
+            
+            
+              
+                V
+              
+              
+                
+                =
+                
+                  
+                    
+                      
+                        613
+                        t
+                        +
+                        203
+                      
+                      
+                        9
+                        (
+                        35
+                        t
+                        −
+                        62
+                        )
+                      
+                    
+                  
+                
+              
+              
+              
+                
+                ≈
+                7.8892
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}A&=6+8{\sqrt {3}}&&\approx 19.8564\\V&={\sqrt {\frac {613t+203}{9(35t-62)}}}&&\approx 7.8892\end{aligned}}}
+  where t is the tribonacci constant
+
+  
+    
+      
+        t
+        =
+        
+          
+            
+              1
+              +
+              
+                
+                  
+                    19
+                    −
+                    3
+                    
+                      
+                        33
+                      
+                    
+                  
+                  
+                    3
+                  
+                
+              
+              +
+              
+                
+                  
+                    19
+                    +
+                    3
+                    
+                      
+                        33
+                      
+                    
+                  
+                  
+                    3
+                  
+                
+              
+            
+            3
+          
+        
+        ≈
+        1.839
+        
+        29.
+      
+    
+    {\displaystyle t={\frac {1+{\sqrt[{3}]{19-3{\sqrt {33}}}}+{\sqrt[{3}]{19+3{\sqrt {33}}}}}{3}}\approx 1.839\,29.}
+  If the original snub cube has edge length 1, its dual pentagonal icositetrahedron has side lengths
+
+  
+    
+      
+        
+          
+            1
+            
+              t
+              +
+              1
+            
+          
+        
+        
+          ≈
+          0.593
+          
+          465
+        
+        
+        
+          and
+        
+        
+        
+          
+            
+              t
+              +
+              1
+            
+            2
+          
+        
+        ≈
+        0.842
+        
+        509.
+      
+    
+    {\displaystyle {\frac {1}{\sqrt {t+1}}}{\approx 0.593\,465}\quad {\text{and}}\quad {\frac {\sqrt {t+1}}{2}}\approx 0.842\,509.}
+  .
+
+
+== Cartesian coordinates ==
+Cartesian coordinates for the vertices of a snub cube are all the even permutations of
+
+(±1, ±1/t, ±t)with an even number of plus signs, along with all the odd permutations with an odd number of plus signs, where t ≈ 1.83929 is the tribonacci constant. Taking the even permutations with an odd number of plus signs, and the odd permutations with an even number of plus signs, gives a different snub cube, the mirror image. Taking all of them together yields the compound of two snub cubes.
+This snub cube has edges of length α, a number which satisfies the equation
+
+  
+    
+      
+        
+          α
+          
+            6
+          
+        
+        −
+        4
+        
+          α
+          
+            4
+          
+        
+        +
+        16
+        
+          α
+          
+            2
+          
+        
+        −
+        32
+        =
+        0
+        ,
+        
+      
+    
+    {\displaystyle \alpha ^{6}-4\alpha ^{4}+16\alpha ^{2}-32=0,\,}
+  and can be written as
+
+  
+    
+      
+        
+          
+            
+              
+                α
+              
+              
+                
+                =
+                
+                  
+                    
+                      
+                        4
+                        3
+                      
+                    
+                    −
+                    
+                      
+                        16
+                        
+                          3
+                          β
+                        
+                      
+                    
+                    +
+                    
+                      
+                        
+                          2
+                          β
+                        
+                        3
+                      
+                    
+                  
+                
+                ≈
+                1.609
+                
+                72
+              
+            
+            
+              
+                β
+              
+              
+                
+                =
+                
+                  
+                    
+                      26
+                      +
+                      6
+                      
+                        
+                          33
+                        
+                      
+                    
+                    
+                      3
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\alpha &={\sqrt {{\frac {4}{3}}-{\frac {16}{3\beta }}+{\frac {2\beta }{3}}}}\approx 1.609\,72\\\beta &={\sqrt[{3}]{26+6{\sqrt {33}}}}\end{aligned}}}
+  To get a snub cube with unit edge length, divide all the coordinates above by the value α given above.
+
+
+== Orthogonal projections ==
+
+The snub cube has two special orthogonal projections, centered, on two types of faces: triangles, and squares, correspond to the A2 and B2 Coxeter planes.
+
+
+== Spherical tiling ==
+The snub cube can also be represented as a spherical tiling, and projected onto the plane via a stereographic projection. This projection is conformal, preserving angles but not areas or lengths. Great circle arcs (geodesics) on the sphere are projected as circular arcs on the plane.
+
+
+== Geometric relations ==
+
+The snub cube can be generated by taking the six faces of the cube, pulling them outward so they no longer touch, then giving them each a small rotation on their centers (all clockwise or all counter-clockwise) until the spaces between can be filled with equilateral triangles.
+
+The snub cube can also be derived from the truncated cuboctahedron by the process of alternation. 24 vertices of the truncated cuboctahedron form a polyhedron topologically equivalent to the snub cube; the other 24 form its mirror-image. The resulting polyhedron is vertex-transitive but not uniform.
+An "improved" snub cube, with a slightly smaller square face and slightly larger triangular faces compared to Archimedes' uniform snub cube, is useful as a spherical design.
+
+
+== Related polyhedra and tilings ==
+The snub cube is one of a family of uniform polyhedra related to the cube and regular octahedron.
+
+This semiregular polyhedron is a member of a sequence of snubbed polyhedra and tilings with vertex figure (3.3.3.3.n) and Coxeter–Dynkin diagram . These figures and their duals have (n32) rotational symmetry, being in the Euclidean plane for n = 6, and hyperbolic plane for any higher n. The series can be considered to begin with n=2, with one set of faces degenerated into digons.
+
+The snub cube is second in a series of snub polyhedra and tilings with vertex figure 3.3.4.3.n.
+
+
+== Snub cubical graph ==
+In the mathematical field of graph theory, a snub cubical graph is the graph of vertices and edges of the snub cube, one of the Archimedean solids. It has 24 vertices and 60 edges, and is an Archimedean graph.
+
+
+== See also ==
+Compound of two snub cubes
+Snub dodecahedron
+Snub square tiling
+Truncated cube
+
+
+== References ==
+
+Jayatilake, Udaya (March 2005). "Calculations on face and vertex regular polyhedra". Mathematical Gazette. 89 (514): 76–81.
+Williams, Robert (1979). The Geometrical Foundation of Natural Structure: A Source Book of Design. Dover Publications, Inc. ISBN 0-486-23729-X. (Section 3-9)
+Cromwell, P. (1997). Polyhedra. United Kingdom: Cambridge. pp. 79–86 Archimedean solids. ISBN 0-521-55432-2.
+
+
+== External links ==
+Eric W. Weisstein, Snub cube (Archimedean solid) at MathWorld.
+Weisstein, Eric W. "Snub cubic graph". MathWorld.
+Klitzing, Richard. "3D convex uniform polyhedra s3s4s - snic".
+The Uniform Polyhedra
+Virtual Reality Polyhedra The Encyclopedia of Polyhedra
+Editable printable net of a Snub Cube with interactive 3D view

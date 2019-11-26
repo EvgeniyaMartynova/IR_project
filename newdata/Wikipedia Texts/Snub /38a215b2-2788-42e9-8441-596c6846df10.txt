@@ -1,0 +1,50 @@
+SNUB
+
+A snubber is a device used to suppress ("snub") a phenomenon such as voltage transients in electrical systems, pressure transients in fluid systems (caused by for example water hammer) or excess force or rapid movement in mechanical systems.
+
+
+== Electrical systems ==
+Snubbers are frequently used in electrical systems with an inductive load where the sudden interruption of current flow leads to a sharp rise in voltage across the current switching device ("inductive kick"), in accordance with Faraday's law. This transient can be a source of electromagnetic interference (EMI) in other circuits. Additionally, if the voltage generated across the device is beyond what the device is intended to tolerate, it may damage or destroy it. The snubber provides a short-term alternative current path around the current switching device so that the inductive element may be safely discharged. Inductive elements are often unintentional, but arise from the current loops implied by physical circuitry. While current switching is everywhere, snubbers will generally only be required where a major current path is switched, such as in power supplies. Snubbers are also often used to prevent arcing across the contacts of relays and switches, or the electrical interference, or the welding of the contacts that can occur (see also arc suppression).
+
+
+=== RC snubbers ===
+
+A simple RC snubber uses a small resistor (R) in series with a small capacitor (C). This combination can be used to suppress the rapid rise in voltage across a thyristor, preventing the erroneous turn-on of the thyristor; it does this by limiting the rate of rise in voltage (dV/dt) across the thyristor to a value which will not trigger it. An appropriately-designed RC snubber can be used with either DC or AC loads. This sort of snubber is commonly used with inductive loads such as electric motors. The voltage across a capacitor cannot change instantaneously, so a decreasing transient current will flow through it for a small fraction of a second, allowing the voltage across the switch to increase more slowly when the switch is opened. Determination of voltage rating can be difficult owing to the nature of transient waveforms, and may be defined simply by the power rating of the snubber components and the application. RC snubbers can be made discretely and are also built as a single component (see also Boucherot cell).
+
+
+=== Diode snubbers ===
+
+When the current flowing is DC, a simple rectifier diode is often employed as a snubber. The snubber diode is wired in parallel with an inductive load (such as a relay coil or electric motor). The diode is installed so that it does not conduct under normal conditions. When the external driving current is interrupted, the inductor current flows instead through the diode. The stored energy of the inductor is then gradually dissipated by the diode voltage drop and the resistance of the inductor itself. One disadvantage of using a simple rectifier diode as a snubber is that the diode allows current to continue flowing for some time, causing the inductor to remain active for slightly longer than desired. When such a snubber is utilized in a relay, this effect may cause a significant delay in the drop out, or disengagement, of the actuator.
+The diode must immediately enter into forward conduction mode as the driving current is interrupted. Most ordinary diodes, even "slow" power silicon diodes, are able to turn on very quickly, in contrast to their slow reverse recovery time. These are sufficient for snubbing electromechanical devices such as relays and motors.
+In high-speed cases, where the switching is faster than 10 nanoseconds, such as in certain switching power regulators, "fast", "ultrafast", or Schottky diodes may be required.
+
+
+=== RCD snubbers ===
+More sophisticated designs use a diode with an RC network.
+
+
+=== More sophisticated solid-state snubbers ===
+In some DC circuits, a varistor or two inverse-series Zener diodes (collectively called a Transil or Transorb) may be used instead of the simple diode. Because these devices dissipate significant power, the relay may drop-out faster than it would with a simple rectifier diode. An advantage to using a transorb over just one diode is that it will protect against over voltage with both polarities, if connected to ground, forcing the voltage to stay between the confines of the breakdown voltages of the Zener diodes. A Zener diode connected to ground will protect against positive transients that go over the Zener's breakdown voltage, and will protect against negative transients greater than a normal forward diode drop.
+In AC circuits a rectifier diode snubber cannot be used; if a simple RC snubber is not adequate a more complex bidirectional snubber design must be used.
+
+
+== Mechanical and hydraulic systems ==
+
+Snubbers for pipes and equipment are used to control movement during abnormal conditions such as earthquakes, turbine trips, safety valve closure, relief valve closure, or hydraulic fuse closure. Snubbers allow for free thermal movement of a component during regular conditions, but restrain the component in irregular conditions. A hydraulic snubber allows for pipe deflection under normal operating conditions. When subjected to an impulse load, the snubber becomes activated and acts as a restraint in order to restrict pipe movement. A mechanical snubber uses mechanical means to provide the restraint force.
+
+
+== See also ==
+Transient-voltage-suppression diode
+Shunt (electrical)
+
+
+== References ==
+
+
+== Further reading ==
+Ott, Henry (1988). Noise Reduction Techniques in Electronic Systems (2nd ed.). Wiley. ISBN 978-0471850687.
+Horowitz, Paul; Hill, Winfield (1989). The Art Of Electronics (2nd ed.). Cambridge University. ISBN 0-521-37095-7.
+
+
+== External links ==
+Designing RC snubbers - NXP app note

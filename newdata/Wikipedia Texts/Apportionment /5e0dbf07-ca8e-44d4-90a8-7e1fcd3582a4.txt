@@ -1,0 +1,76 @@
+Biproportional apportionment
+
+Biproportional apportionment is a proportional representation method to allocate seats in proportion to two separate characteristics. That is, for two different partitions each part receives the proportional number of seats within the total number of seats. For instance, this method could give proportional results by party and by region, or by party and by gender/ethnicity, or by any other pair of characteristics.
+
+Example: proportional by party and by region
+Each party's share of seats is proportional to its total votes.
+Each region's share of seats is proportional to its total votes
+(or this could be based on its population-size or other criteria).
+Then, as nearly as possible given the totals for each region and each party:
+Each region's seats are allocated among parties in proportion to that region's votes for those parties. (The region's seats go to locally popular parties.)
+Each party's seats are allocated among regions in proportion to that party's votes in those regions. (The party's seats are in regions where it is most popular.)
+
+
+== Process ==
+Suppose that the method is to be used to give proportional results by party and by region.
+Each party nominates a candidate list for every region. The voters vote for the parties of their region (and/or for individual candidates, in an open list or local list system).
+The results are calculated in two steps:
+
+In the so called upper apportionment the seats for each party (over all regions) and the seats for each region (from all parties) are determined.
+In the so called lower apportionment the seats are distributed to the regional party list respecting the results from the upper apportionment.This can be seen as globally adjusting the voting power of each party's voters by the minimum amount necessary so that the region-by-region results become proportional by party.
+
+
+=== Upper apportionment ===
+In the upper apportionment the seats for each party are computed with a highest averages method (for example the Sainte-Laguë method). This determines how many of all seats each party deserves due to the total of all their votes (that is the sum of the votes for all regional lists of that party). Analogical, the same highest averages method is used to determine how many of all seats each region deserves.
+Note, that the results from the upper apportionment are final results for the number of the seats of one party (and analogically for the number of the seats of one region) within the whole voting area, the lower apportionment will only determine in which particular regions the party seats are allocated. Thus, after the upper apportionment is done, the final strength of a party/region within the parliament is definite.
+
+
+=== Lower apportionment ===
+The lower apportionment has to distribute the seats to each regional party list in a way that respects both the apportionment of seats to the party and the apportionment of seats to the regions.
+The result is obtained by an iterative process. Initially, for each region a regional divisor is chosen using the highest averages method for the votes allocated to each regional party list in this region. For each party a party divisor is initialized with 1.
+Effectively, the objective of the iterative process is to modify the regional divisors and party divisors so that
+
+the number of seats in each regional party list equals the number of their votes divided by both the regional and the party divisors which is then rounded by the rounding method of the highest averages method used, and
+the sum of the seats of all regional party lists of one party equals the number of seats computed in the upper apportionment for that party, and
+the sum of the seats of all regional party lists of one region equals the number of seats computed in the upper apportionment for that region.The following two correction steps are executed until this objective is satisfied:
+
+modify the party divisors such that the apportionment within each party is correct with the chosen highest averages method,
+modify the regional divisors such that the apportionment within the region is correct with the chosen highest averages method.Using the Sainte-Laguë method, this iterative process is guaranteed to terminate with appropriate seat numbers for each regional party list.
+
+
+== Specific Example ==
+Suppose there are three parties A, B and C and three regions I, II and III and that there are 20 seats are to be distributed and that the Sainte-Laguë method is used. The votes for the regional party lists are as follows:
+
+
+=== Upper apportionment ===
+For the upper apportionment, the overall seat number for the parties and the regions are determined.
+Since there are 3805 voters and 20 seats, there are 190 (rounded) voters per seat.  Thus the results for the distribution of the party seats is:
+
+Using the divisor 190, the results for the distribution of the region seats is:
+
+
+=== Lower apportionment ===
+Initially, regional divisors have to be found to distribute the seats of each region to the regional party lists. In the tables, for each regional party list, there are two cells, the first shows the number of votes and the second the number of seats allocated.
+
+Now, the party divisors are initialized with ones and the number of seats within each party is checked (that is, compared to the number computed in the upper apportionment):
+
+Since not all parties have the correct number of seats, a correction step have to be executed: For parties A and B, the divisors are to be adjusted. The divisor for A have to be raised and the divisor for B have to be lowered:
+
+Now, the divisors for regions I and III have to be modified. Since region I has one seat too much (8 instead of the 7 seats computed in the upper apportionment), its divisor have to be raised; in opposite, the divisor for region III has to be lowered.
+
+Again, the divisors for the parties have to be adjusted:
+
+Now, the numbers of seats for the three parties and the three regions match the numbers computed in the upper apportionment. Thus, the iterative process is completed.
+The final seat numbers are:
+
+
+== Usage ==
+The method was proposed in 2003 by German mathematician Friedrich Pukelsheim. It is used for cantonal and municipal elections in some cantons of Switzerland, i.e. Zurich (since 2006), Aargau and Schaffhausen (since 2008), Nidwalden, Zug (since 2013), Schwyz (since 2015) and Valais (since 2017).
+
+
+== Fair majority voting ==
+Fair majority voting is a biproportional apportionment method with single-member regions called "districts", so each district has exactly one representative. It was proposed in 2008 by Michel Balinski (who also invented the single-winner voting system called majority judgment) as a way to eliminate the power of gerrymandering, especially in the United States.
+
+
+== References ==
+Balinski, M. “Fair Majority Voting (or How to Eliminate Gerrymandering).” American Mathematical Monthly 115, no. 2 (2008): 97–113.

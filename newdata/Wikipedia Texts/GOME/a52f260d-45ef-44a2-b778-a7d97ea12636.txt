@@ -1,0 +1,49 @@
+European Remote-Sensing Satellite
+
+European remote sensing satellite (ERS) was the European Space Agency's first Earth-observing satellite programme using a polar orbit. It consisted of 2 satellites, ERS-1 and ERS-2.
+
+
+== ERS-1 ==
+ERS-1 (COSPAR 1991-050A) launched 17 July 1991 from Guiana Space Centre aboard an Ariane 4 rocket. The satellite was put into a Sun-synchronous polar orbit at an altitude of 782–785 km. ERS-1 failed on 10 March 2000, far exceeding its expected lifespan.
+
+
+=== Instruments ===
+ERS-1 carried an array of Earth-observation instruments that gathered information about the Earth (land, water, ice and atmosphere) using a variety of measurement principles. These included:
+
+RA (Radar Altimeter) is a single frequency nadir-pointing radar altimeter operating in the Ku band.
+ATSR-1 (Along-Track Scanning Radiometer) is a 4 channel infrared radiometer and microwave sounder for measuring temperatures at the sea-surface and the top of clouds.
+SAR (synthetic aperture radar) operating in C band can detect changes in surface heights with sub-millimeter precision.
+Wind Scatterometer used to calculate information on wind speed and direction.
+MWR is a Microwave Radiometer used in measuring atmospheric water, as well as providing a correction for the atmospheric water for the altimeter.To accurately determine its orbit, the satellite included the PRARE (Precision Range and Range-Rate Equipment) and a Laser Retroreflector. The PRARE became non-operational shortly after launch. The Retroreflector was used for calibrating the Radar Altimeter to within 10 cm.
+
+
+=== Mission ===
+ERS-1 had various mission phases using 3-day and 35-day repeat cycles. During the geodetic mission, ERS-1 was put in two long repeat cycles of 168 days, which is equivalent to a single 336-day cycle. The geodetic mission allowed for accurate mapping of the Earth's bathymetry and geoid over the seas using the Radar Altimeter.
+
+
+== ERS-2 ==
+Its successor, ERS-2 (COSPAR 1995-021A), was launched on 21 April 1995, on an Ariane 4, from ESA's Guiana Space Centre near Kourou, French Guiana. Largely identical to ERS-1, it added additional instruments and included improvements to existing instruments including:
+
+GOME (Global Ozone Monitoring Experiment) is a nadir scanning ultraviolet and visible spectrometer.
+ATSR-2 included 3 visible spectrum bands specialized for Chlorophyll and VegetationWhen ERS-2 was launched, ERS-1 shared the same orbital plane. This allowed a tandem mission, with ERS-2 passing the same point on the ground 1 day later than ERS-1. ERS-2 has a repeat cycle of 35 days.
+ERS-2 has been operating without gyroscopes since February 2001, resulting in some degradation of the data provided by the instruments. The tape drive aboard failed on 22 June 2003, leaving the instruments operating only within visibility of a ground station. Since the tape drive failure additional ground stations have been brought online to increase the data gathering abilities of the satellite. The Wind Scatterometer and GOME were the only instruments of their kind until the launches of MetOp-A and Envisat, respectively.
+The successor to ERS-2 was the Envisat satellite, launched 1 March 2002. Envisat contained improved versions of many of the instruments onboard ERS-2. However, even after the launch of its successor, the operational life of ERS-2 was increased until 2011, when the decision was made to end the mission. Over a series of burns in July, August and September, ERS-2 was finally depleted of all fuel on 5 September 2011. At 13:16:38 the batteries were switched off and the satellite decommissioned. The spacecraft was left in an orbit where it will reenter the Earth's atmosphere and safely disintegrate within 25 years, in accordance with international standards.In the final stages of emptying the fuel tanks, it was estimated that they would be empty after a 40-minute burn on 2 September 2011. However, the spacecraft survived both this maneuver and a second 40-minute burn on 3 September. On 5 September a third burn was initiated and the fuel tanks were finally drained.
+
+
+== See also ==
+
+1991 in spaceflight
+1995 in spaceflight
+
+
+== Notes ==
+Zhao, D.; Kuenzer, C.; Fu, C.; Wagner, W. (2008). "Evaluation of the ERS Scatterometer derived Soil Water Index to monitor water availability and precipitation distribution at three different scales in China". Journal of Hydrometeorology. AMS. 9 (3): 549–562. Bibcode:2008JHyMe...9..549Z. doi:10.1175/2007JHM965.1.
+
+
+== References ==
+
+
+== External links ==
+ERS-homepage at ESA
+ERS operations page at ESA
+Next ESA SAR Toolbox for viewing, calibrating and analyzing ERS 1 & 2 SAR Level 1 data and higher

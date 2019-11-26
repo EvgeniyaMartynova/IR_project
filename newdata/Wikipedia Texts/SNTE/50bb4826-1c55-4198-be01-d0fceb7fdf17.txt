@@ -1,0 +1,31 @@
+Tin telluride
+
+Tin telluride is a compound of tin and tellurium (SnTe); is a IV-VI narrow band gap semiconductor and has direct band gap of 0.18 eV. It is often alloyed with lead to make lead tin telluride, which is used as an infrared detector material.
+Tin telluride normally forms p-type semiconductor (Extrinsic semiconductor) due to tin vacancies and is a low temperature
+superconductor.SnTe exists in 3 crystal phases. At Low temperatures, where the concentration of hole carriers is less than 1.5x1020 cm−3 , Tin Telluride exists in rhombohedral phase also known as α-SnTe.
+At room temperature and atmospheric pressure, Tin Telluride exists in NaCl-like cubic crystal phase, known as β-SnTe.
+While at 18 kbar pressure, β-SnTe transforms to γ-SnTe, orthorhombic phase, space group Pnma. This phase change is characterized by 11 percent increase in density and 360 percent increase in resistance for γ-SnTe.Tin telluride is a thermoelectric material. Theoretical studies
+imply that the n-type performance may be particularly good.
+
+
+== Thermal Properties ==
+Standard enthalpy of formation: - 14.6 ± 0.3 kcal/mole at 298 K
+Standard Enthalpy of sublimation: 52.1 ± 1.4 kcal/mole at 298 K
+Heat capacity: 12.1 + 2.1 x 10−3 T cal/deg
+Bond-dissociation energy for the reaction SnTe(g)-> Sn(g)+ Te(g) : 80.6 ± 1.5 kcal/mole at 298 K
+Entropy: 24.2±0.1 cal/mole.deg
+Enthalpy of Dimerization for the reaction Sn2Te2->2SnTe(g) :46.9 ± 6.0 kcal/mole 
+
+
+== Applications ==
+Generally Pb is alloyed with SnTe in order to access interesting optical and electronic properties, In addition, as a result of Quantum confinement, the band gap of the SnTe increases beyond the bulk band gap, covering the mid-IR wavelength range. The alloyed material has been used in mid- IR photodetectors  and thermoelectric generator.
+
+
+== References ==
+
+
+== External links ==
+Berlin thermophysical properties database
+Webelements page
+Landolt-Börnstein Substance/SnTe index
+Reflectivity of Tin Telluride in the Infrared

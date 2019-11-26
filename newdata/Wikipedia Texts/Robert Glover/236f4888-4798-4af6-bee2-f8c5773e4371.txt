@@ -1,0 +1,261 @@
+Robert W. Glover (page does not exist)
+
+Belief is the attitude that something is the case or true. In epistemology, philosophers use the term "belief" to refer to personal attitudes associated with true or false ideas and concepts. However, "belief" does not require active introspection and circumspection. For example, few ponder whether the sun will rise, just assume it will. Since "belief" is an important aspect of mundane life, according to Eric Schwitzgebel in the Stanford Encyclopedia of Philosophy, a related question asks: "how a physical organism can have beliefs?"In the context of Ancient Greek thought, two related concepts were identified regarding the concept of belief: pistis and doxa. Simplified, pistis refers to "trust" and "confidence", while doxa refers to "opinion" and "acceptance".  The English word "orthodoxy" derives from doxa.
+
+
+== Psychology ==
+Mainstream psychology and related disciplines have traditionally treated belief as if it were the simplest form of mental representation and therefore one of the building blocks of conscious thought. Philosophers have tended to be more abstract in their analysis, and much of the work examining the viability of the belief concept stems from philosophical analysis.
+The concept of belief presumes a subject (the believer) and an object of belief (the proposition). So, like other propositional attitudes, belief implies the existence of mental states and intentionality, both of which are hotly debated topics in the philosophy of mind, whose foundations and relation to brain states are still controversial.
+Beliefs are sometimes divided into core beliefs (that are actively thought about) and dispositional beliefs (that may be ascribed to someone who has not thought about the issue). For example, if asked "do you believe tigers wear pink pajamas?" a person might answer that they do not, despite the fact they may never have thought about this situation before.This has important implications for understanding the neuropsychology and neuroscience of belief. If the concept of belief is incoherent, then any attempt to find the underlying neural processes that support it will fail.
+Philosopher Lynne Rudder Baker has outlined four main contemporary approaches to belief in her controversial book Saving Belief:
+Our common-sense understanding of belief is correct – Sometimes called the "mental sentence theory," in this conception, beliefs exist as coherent entities, and the way we talk about them in everyday life is a valid basis for scientific endeavour. Jerry Fodor was one of the principal defenders of this point of view.
+Our common-sense understanding of belief may not be entirely correct, but it is close enough to make some useful predictions – This view argues that we will eventually reject the idea of belief as we know it now, but that there may be a correlation between what we take to be a belief when someone says "I believe that snow is white" and how a future theory of psychology will explain this behaviour. Most notably, philosopher Stephen Stich has argued for this particular understanding of belief.
+Our common-sense understanding of belief is entirely wrong and will be completely superseded by a radically different theory that will have no use for the concept of belief as we know it – Known as eliminativism, this view (most notably proposed by Paul and Patricia Churchland) argues that the concept of belief is like obsolete theories of times past such as the four humours theory of medicine, or the phlogiston theory of combustion. In these cases science hasn't provided us with a more detailed account of these theories, but completely rejected them as valid scientific concepts to be replaced by entirely different accounts. The Churchlands argue that our common-sense concept of belief is similar in that as we discover more about neuroscience and the brain, the inevitable conclusion will be to reject the belief hypothesis in its entirety.
+Our common-sense understanding of belief is entirely wrong; however, treating people, animals, and even computers as if they had beliefs is often a successful strategy – The major proponents of this view, Daniel Dennett and Lynne Rudder Baker, are both eliminativists in that they hold that beliefs are not a scientifically valid concept, but they don't go as far as rejecting the concept of belief as a predictive device. Dennett gives the example of playing a computer at chess. While few people would agree that the computer held beliefs, treating the computer as if it did (e.g. that the computer believes that taking the opposition's queen will give it a considerable advantage) is likely to be a successful and predictive strategy. In this understanding of belief, named by Dennett the intentional stance, belief-based explanations of mind and behaviour are at a different level of explanation and are not reducible to those based on fundamental neuroscience, although both may be explanatory at their own level.Strategic approaches make a distinction between rules, norms and beliefs as follows:
+(1) Rules. Explicit regulative processes such as policies, laws, inspection routines, or incentives. Rules function as a coercive regulator of behavior and are dependent upon the imposing entity's ability to enforce them.
+(2) Norms. Regulative mechanisms accepted by the social collective. Norms are enforced by normative mechanisms within the organization and are not strictly dependent upon law or regulation.
+(3) Beliefs. The collective perception of fundamental truths governing behavior. The adherence to accepted and shared beliefs by members of a social system will likely persist and be difficult to change over time. Strong beliefs about determinant factors (i.e., security, survival, or honor) are likely to cause a social entity or group to accept rules and norms.
+
+
+== Knowledge and epistemology ==
+
+Epistemology is concerned with delineating the boundary between justified belief and opinion, and involved generally with a theoretical philosophical study of knowledge. The primary problem in epistemology is to understand exactly what is needed in order for us to have knowledge. In a notion derived from Plato's dialogue Theaetetus, where the epistemology of Socrates (Platon) most clearly departs from that of the sophists, who at the time of Plato seem to have defined knowledge as what is here expressed as "justified true belief". The tendency to translate from belief (here: doxa – common opinion) to knowledge (here: episteme), which Plato (e.g. Socrates of the dialogue) utterly dismisses, results from failing to distinguish a dispositive belief (gr. 'doxa', not 'pistis') from knowledge (episteme) when the opinion is regarded true (here: orthé), in terms of right, and juristically so (according to the premises of the dialogue), which was the task of the rhetors to prove. Plato dismisses this possibility of an affirmative relation between belief (i.e. opinion) and knowledge even when the one who opines grounds his belief on the rule, and is able to add justification (gr. logos: reasonable and necessarily plausible assertions/evidence/guidance) to it.Plato has been credited for the "justified true belief" theory of knowledge, even though Plato in the Theaetetus (dialogue) elegantly dismisses it, and even posits this argument of Socrates as a cause for his death penalty. Among American epistemologists, Gettier (1963) and Goldman (1967), have questioned the "justified true belief" definition, and challenged the "sophists" of their time.
+
+
+=== Justified true belief ===
+Justified true belief is a definition of knowledge that gained approval during the Enlightenment, 'justified' standing in contrast to 'revealed'. There have been attempts to trace it back to Plato and his dialogues. The concept of justified true belief states that in order to know that a given proposition is true, one must not only believe the relevant true proposition, but also have justification for doing so. In more formal terms, an agent 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+   knows that a proposition 
+  
+    
+      
+        P
+      
+    
+    {\displaystyle P}
+   is true if and only if:
+
+  
+    
+      
+        P
+      
+    
+    {\displaystyle P}
+   is true
+
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+   believes that 
+  
+    
+      
+        P
+      
+    
+    {\displaystyle P}
+   is true, and
+
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+   is justified in believing that 
+  
+    
+      
+        P
+      
+    
+    {\displaystyle P}
+   is trueThis theory of knowledge suffered a significant setback with the discovery of Gettier problems, situations in which the above conditions were seemingly met but where many philosophers disagree that anything is known.  Robert Nozick suggested a clarification of "justification" which he believed eliminates the problem: the justification has to be such that were the justification false, the knowledge would be false. Bernecker and Dretske (2000) argue that "no epistemologist since Gettier has seriously and successfully defended the traditional view."  On the other hand, Paul Boghossian argues that the Justified True Belief account is the "standard, widely accepted" definition of knowledge.
+
+
+== Formation ==
+
+Psychologists study belief formation and the relationship between beliefs and actions. Three models of belief formation and change have been proposed:
+
+
+=== Conditional inference process ===
+When people are asked to estimate the likelihood that a statement is true, they search their memory for information that has implications for the validity of this statement. Once this information has been identified, they estimate a) the likelihood that the statement would be true if the information were true, and b) the likelihood that the statement would be true if the information were false. If their estimates for these two probabilities differ, people average them, weighting each by the likelihood that the information is true and false (respectively). Thus, information bears directly on beliefs of another, related statement.
+
+
+=== Linear models ===
+Unlike the previous model, this one takes into consideration the possibility of multiple factors influencing belief formation. Using regression procedures, this model predicts belief formation on the basis of several different pieces of information, with weights assigned to each piece on the basis of their relative importance.
+
+
+=== Information processing models and change ===
+These models address the fact that the responses people have to belief-relevant information is unlikely to be predicted from the objective basis of the information that they can recall at the time their beliefs are reported. Instead, these responses reflect the number and meaning of the thoughts that people have about the message at the time that they encounter it.Some influences on people's belief formation include:
+
+Internalization of beliefs during childhood, which can form and shape our beliefs in different domains. Albert Einstein is often quoted as having said that "Common sense is the collection of prejudices acquired by age eighteen." Political beliefs depend most strongly on the political beliefs most common in the community where we live. Most individuals believe the religion they were taught in childhood.
+Charismatic leaders can form and/or modify beliefs (even if those beliefs fly in the face of all previous beliefs). Is belief voluntary? Rational individuals need to reconcile their direct reality with any said belief; therefore, if belief is not present or possible, it reflects the fact that contradictions were necessarily overcome using cognitive dissonance.
+Advertising can form or change beliefs through repetition, shock, and association with images of sex, love, beauty, and other strong positive emotions. Contrary to intuition, a delay, known as the sleeper effect, instead of immediate succession may increase an advertisement's ability to persuade viewer's beliefs if a discounting cue is present.
+Physical trauma, especially to the head, can radically alter a person's beliefs.However, even educated people, well aware of the process by which beliefs form, still strongly cling to their beliefs, and act on those beliefs even against their own self-interest. In Anna Rowley's book, Leadership Therapy, she states "You want your beliefs to change. It's proof that you are keeping your eyes open, living fully, and welcoming everything that the world and people around you can teach you." This means that peoples' beliefs should evolve as they gain new experiences.
+
+
+== Revision ==
+
+An extensive amount of scientific research and philosophical discussion exists around the modification of beliefs, which is commonly referred to as belief revision.
+Generally speaking, the process of belief revision entails the believer weighing the set of truths and/or evidence, and the dominance of a set of truths or evidence on an alternative to a held belief can lead to revision.  One process of belief revision is Bayesian updating and is often referenced for its mathematical basis and conceptual simplicity.  However, such a process may not be representative for individuals whose beliefs are not easily characterized as probabilistic.
+There are several techniques for individuals or groups to change the beliefs of others; these methods generally fall under the umbrella of persuasion.   Persuasion can take on more specific forms such as  consciousness raising when considered in an activist or political context.
+Belief modification may also occur as a result of the experience of outcomes.  Because goals are based, in part on beliefs, the success or failure at a particular goal may contribute to modification of beliefs that supported the original goal.
+Whether or not belief modification actually occurs is dependent not only on the extent of truths or evidence for the alternative belief, but also characteristics outside the specific truths or evidence.  This includes, but is not limited to: the source characteristics of the message, such as credibility; social pressures; the anticipated consequences of a modification; or the ability of the individual or group to act on the modification.  Therefore, individuals seeking to achieve belief modification in themselves or others need to consider all possible forms of resistance to belief revision.
+
+
+== Partial ==
+Without qualification, "belief" normally implies a lack of doubt, especially insofar as it is a designation of a life stance. In practical everyday use however, belief is normally partial and retractable with varying degrees of certainty.
+A copious literature exists in multiple disciplines to accommodate this reality. In mathematics probability, fuzzy logic, fuzzy set theory, and other topics are largely directed to this.
+
+
+== Prediction ==
+Different psychological models have tried to predict people's beliefs and some of them try to estimate the exact probabilities of beliefs. For example, Robert Wyer developed a model of subjective probabilities. When people rate the likelihood of a certain statement (e.g., "It will rain tomorrow"), this rating can be seen as a subjective probability value. The subjective probability model posits that these subjective probabilities follow the same rules as objective probabilities. For example, the law of total probability might be applied to predict a subjective probability value. Wyer found that this model produces relatively accurate predictions for probabilities of single events and for changes in these probabilities, but that the probabilities of several beliefs linked by "and" or "or" do not follow the model as well.
+
+
+== Epistemology versus religion ==
+Historically belief-in belonged in the realm of religious thought, belief-that instead belonged to epistemological considerations.
+
+
+=== Belief-in ===
+To "believe in" someone or something is a distinct concept from "believing-that." There are at least these types of belief-in:
+Commendatory / Faith – we may make an expression of 'faith' in respect of some performance by an agent X, when without prejudice to the truth value of the factual outcome or even confidence in X otherwise, we expect that specific performance. In particular self-confidence or faith in one's self is this kind of belief.
+Existential claim – to claim belief in the existence of an entity or phenomenon in a general way with the implied need to justify its claim of existence. It is often used when the entity is not real, or its existence is in doubt. "He believes in witches and ghosts" or "many children believe in Santa Claus" or "I believe in a deity" are typical examples. The linguistic form is distinct from the assertion of the truth of a proposition since verification is either considered impossible/irrelevant or a counterfactual situation is assumed.
+
+
+=== Belief-that ===
+
+
+==== Economic belief ====
+
+Economic beliefs are beliefs which are reasonably and necessarily contrary to the tenet of rational choice or instrumental rationality.Studies of the Austrian tradition of the economic thought, in the context of analysis of the influence and subsequent degree of change resulting from  existing economic knowledge and belief, has contributed the most to the subsequent holistic collective analysis.
+
+
+==== Delusion ====
+Insofar as the truth of belief is expressed in sentential  and propositional form we are using the sense of belief-that rather than belief-in. Delusion arises when the truth value of the form is clearly nil.Delusions are defined as beliefs in psychiatric diagnostic criteria (for example in the Diagnostic and Statistical Manual of Mental Disorders). Psychiatrist and historian G.E. Berrios has challenged the view that delusions are genuine beliefs and instead labels them as "empty speech acts," where affected persons are motivated to express false or bizarre belief statements due to an underlying psychological disturbance. However, the majority of mental health professionals and researchers treat delusions as if they were genuine beliefs.
+In Lewis Carroll's Through the Looking-Glass the White Queen says, "Why, sometimes I've believed as many as six impossible things before breakfast." This is often quoted in mockery of the common ability of people to entertain beliefs contrary to fact.
+
+
+==== Science ====
+In scientific medical writing, the verb 'believe' can mean "actively accept as true" on the basis of external evidence (for example, a statement of the type, "we believe that x is a better treatment than y in this disease" can imply that "after examining the available evidence, we have concluded that x is...").
+
+
+== Religion ==
+
+Religious belief refers to attitudes towards mythological, supernatural, or spiritual aspects of a religion. Religious belief is distinct from religious practice and from religious behaviours – with some believers not practicing religion and some practitioners not believing religion. Religious beliefs, deriving from ideas that are exclusive to religion, often relate to the existence, characteristics and worship of a deity or deities, to the idea of divine intervention in the universe and in human life, or to the deontological  explanations for the values and practices centered on the teachings of a spiritual leader or of a spiritual group. In contrast to other belief systems, religious beliefs are usually codified.
+
+
+=== Forms ===
+A popular view holds that different religions each have identifiable and exclusive sets of beliefs or creeds, but surveys of religious belief have often found that the official doctrine and descriptions of the beliefs offered by religious authorities do not always agree with the privately held beliefs of those who identify as members of a particular religion. For a broad classification of the kinds of religious belief, see below.
+
+
+==== Fundamentalism ====
+
+First self-applied as a term to the conservative doctrine outlined by anti-modernist Protestants in the United States, "fundamentalism" in religious terms denotes strict adherence to an interpretation of scriptures that are generally associated with theologically conservative positions or traditional understandings of the text and are distrustful of innovative readings, new revelation, or alternative interpretations. Religious fundamentalism has been identified in the media as being associated with fanatical or zealous political movements around the world that have used a strict adherence to a particular religious doctrine as a means to establish political identity and to enforce societal norms.
+
+
+==== Orthodoxy ====
+
+First used in the context of Early Christianity, the term "orthodoxy" relates to religious belief that closely follows the edicts, apologies, and hermeneutics of a prevailing religious authority. In the case of Early Christianity, this authority was the communion of bishops, and is often referred to by the term "Magisterium". The term orthodox was applied almost as an epithet to a group of Jewish believers who held to pre-Enlightenment understanding of Judaism – now known as Orthodox Judaism. The Eastern Orthodox Church of Christianity and the Catholic Church each consider themselves to be the true heir to Early Christian belief and practice. The antonym of "orthodox" is "heterodox", and those adhering to orthodoxy often accuse the heterodox of apostasy, schism, or heresy.
+
+
+==== Modernism/reform ====
+The Renaissance and later the Enlightenment in Europe exhibited varying degrees of religious tolerance and intolerance towards new and old religious ideas. The philosophes took particular exception to many of the more fantastical claims of religions and directly challenged religious authority and the prevailing beliefs associated with the established churches. In response to the liberalizing political and social movements, some religious groups attempted to integrate Enlightenment ideals of rationality, equality, and individual liberty into their belief systems, especially in the nineteenth and twentieth centuries. Reform Judaism and Liberal Christianity offer two examples of such religious associations.
+
+
+=== Approaches to others ===
+Adherents of particular religions deal with the differing doctrines and practices espoused by other religions or by other religious denominations in a variety of ways.
+
+
+==== Exclusivism ====
+
+People with exclusivist beliefs typically explain other beliefs either as in error, or as corruptions or counterfeits of the true faith. This approach is a fairly consistent feature among smaller new religious movements that often rely on doctrine that claims a unique revelation by the founders or leaders, and considers it a matter of faith that the "correct" religion has a monopoly on truth. All three major Abrahamic monotheistic religions have passages in their holy scriptures that attest to the primacy of the scriptural testimony, and indeed monotheism itself is often vouched as an innovation characterized specifically by its explicit rejection of earlier polytheistic faiths.
+Some exclusivist faiths incorporate a specific element of proselytization. This is a strongly-held belief in the Christian tradition which follows the doctrine of the Great Commission, and is less emphasized by the Islamic faith where the Quranic edict "There shall be no compulsion in religion" (2:256) is often quoted as a justification for toleration of alternative beliefs. The Jewish tradition does not actively seek out converts.
+Exclusivism correlates with conservative, fundamentalist, and orthodox approaches of many religions, while pluralistic and syncretist approaches either explicitly downplay or reject the exclusivist tendencies within a religion.
+
+
+==== Inclusivism ====
+People with inclusivist beliefs recognize some truth in all faith systems, highlighting agreements and minimizing differences. This attitude is sometimes associated with Interfaith dialogue or with the Christian Ecumenical movement, though in principle such attempts at pluralism are not necessarily inclusivist and many actors in such interactions (for example, the Roman Catholic Church) still hold to exclusivist dogma while participating in inter-religious organizations.
+Explicitly inclusivist religions include many that are associated with the New Age movement, as well as modern reinterpretations of Hinduism and Buddhism. The Bahá'í Faith considers it doctrine that there is truth in all faith-systems.
+
+
+==== Pluralism ====
+
+People with pluralist beliefs make no distinction between faith systems, viewing each one as valid within a particular culture.  Examples include:
+
+Extracts from the Sri Guru Granth Sahib Ji (Sikh Holy Scriptures), "There is only the One Supreme Lord God; there is no other at all" (Pannaa 45). "By His Power the Vedas and the Puranas exist, and the Holy Scriptures of the Jewish, Christian and Islamic religions. By His Power all deliberations exist." (Pannaa 464). "Some call Him, 'Ram, Ram', and some call Him, 'Khudaa-i'. Some serve Him as 'Gusain', others as 'Allaah'. ||1|| He is the Cause of causes, the Generous Lord. He showers His Grace and Mercy upon us amen." (Pannaa 885).
+
+
+==== Syncretism ====
+
+People with syncretistic views blend the views of a variety of different religions or traditional beliefs into a unique fusion which suits their particular experiences and contexts (see eclecticism). Unitarian Universalism exemplifies a syncretistic faith.
+
+
+=== Adherence ===
+
+Typical reasons for adherence to religion include the following:
+
+Some see belief in a deity as necessary for moral behavior.
+Many people regard religious practices as serene, beautiful, and conducive to religious experiences, which in turn support religious beliefs.
+Organized religions promote a sense of community among their followers, and the moral and cultural common ground of these communities makes them attractive to people with similar values. Indeed, while religious beliefs and practices are usually connected, some individuals with substantially secular beliefs still participate in religious practices for cultural reasons.
+Each religion asserts that it is a means by which its adherents may come into closer contact with the Divine, with Truth, and with spiritual power. They all promise to free adherents from spiritual bondage, and to bring them into spiritual freedom.  It naturally follows that a religion which can free its adherents from deception, sin, and spiritual death will have significant mental-health benefits. Abraham Maslow's research after World War II showed that Holocaust survivors tended to be those who held strong religious beliefs (not necessarily temple attendance, etc.), suggesting that belief helped people cope in extreme circumstances. Humanistic psychology went on to investigate how religious or spiritual identity may have correlations with longer lifespan and better health. The study found that humans may particularly need religious ideas to serve various emotional needs such as the need to feel loved, the need to belong to homogeneous groups, the need for understandable explanations and the need for a guarantee of ultimate justice.  Other factors may involve sense of purpose, sense of identity, or a sense of contact with the divine. See also Man's Search for Meaning, by Viktor Frankl, detailing his experience with the importance of religion in surviving the Holocaust. Critics assert that the very fact that religion was the primary selector for research subjects may have introduced a bias, and that the fact that all subjects were Holocaust survivors may also have had an effect. According to Larson et al. (2000), "[m]ore longitudinal research with better multidimensional measures will help further clarify the roles of these [religious] factors and whether they are beneficial or harmful."Psychologist James Alcock also summarizes a number of apparent benefits which reinforce religious belief. These include prayer appearing to account for successful resolution of problems, "a bulwark against existential anxiety and fear of annihilation," an increased sense of control, companionship with one's deity, a source of self-significance, and group identity.
+
+
+=== Apostasy ===
+
+Typical reasons for rejection of religion include:
+
+Some people regard certain fundamental doctrines of some religions as illogical, contrary to experience, or unsupported by sufficient evidence; such people may reject one or more religions for those reasons. Even some believers may have difficulty accepting particular religious assertions or doctrines. Some people believe the body of evidence available to humans to be insufficient to justify certain religious beliefs. They may thus disagree with religious interpretations of ethics and human purpose, or with various creation myths. This reason has perhaps been aggravated by the protestations and emphases of some fundamentalist Christians.
+Some religions include beliefs that certain groups of people are inferior or sinful and deserve contempt, persecution, or even death, and that non-believers will be punished for their unbelief in an after-life. Adherents to a religion may feel antipathy to unbelievers. Numerous examples exist of people of one religion or sect using religion as an excuse to murder people with different religious beliefs. To mention just a few examples:
+the slaughter of the Huguenots by French Catholics in the sixteenth century
+Hindus and Muslims killing each other when Pakistan separated from India in 1947
+the persecution and killing of Shiite Muslims by Sunni Muslims in Iraq
+the murder of Protestants by Catholics and vice versa in Ireland (both of these examples in the late twentieth century)
+the Israeli–Palestinian conflict that continues as of 2018 – According to some critics of religion, such beliefs can encourage completely unnecessary conflicts and in some cases even wars. Many atheists believe that, because of this, religion is incompatible with world peace, freedom, civil rights, equality, and good government. On the other hand, most religions perceive atheism as a threat and will vigorously and even violently defend themselves against religious sterilization, making the attempt to remove public religious practices a source of strife.
+Some people may be unable to accept the values that a specific religion promotes and will therefore not join that religion. They may also be unable to accept the proposition that those who do not believe will go to hell or be damned, especially if said nonbelievers are close to the person.
+The maintenance of life and the achievement of self-esteem require of a person the fullest exercise of reason—but morality (people are taught) rests on and requires faith.
+
+
+== Systems ==
+
+An ideology comprises a set of mutually supportive beliefs. The beliefs of any such system can be religious, philosophical, political, ideological, or a combination of these. Philosopher Jonathan Glover says that beliefs are always part of a belief system, and that tenanted belief systems are difficult for the tenants to completely revise or reject. This insight has relevance for inquisitors, missionaries, agitprop groups and thought-police.
+
+
+=== Perspectives ===
+A collective belief is referred to when people speak of what "we" believe when this is not simply elliptical for what "we all" believe.Sociologist Émile Durkheim wrote of collective beliefs and proposed that they, like all "social facts", "inhered in" social groups as opposed to individual persons. Jonathan Dancy states that "Durkheim's discussion of collective belief, though suggestive, is relatively obscure".Philosopher Margaret Gilbert (1942- ) has offered a related account in terms of the joint commitment of a number of persons as a body to accept a certain belief. According to this account, individuals who together collectively believe something need not personally believe it individually.  Gilbert's work on the topic has stimulated a developing literature among philosophers. One question that has arisen is whether and how philosophical accounts of belief in general need to be sensitive to the possibility of collective belief.
+
+Jonathan Glover (1941- ) believes that he and other philosophers ought to play some role in starting dialogues between people with deeply-held, opposing beliefs, especially if there is risk of violence. Glover also believes that philosophy can offer insights about beliefs that would be relevant to such dialogue.
+Glover suggests that beliefs have to be considered holistically, and that no belief exists in isolation in the mind of the believer. Each belief always implicates and relates to other beliefs. Glover provides the example of a patient with an illness who returns to a doctor, but the doctor says that the prescribed medicine is not working. At that point, the patient has a great deal of flexibility in choosing what beliefs to keep or reject: the patient could believe that the doctor is incompetent, that the doctor's assistants made a mistake, that the patient's own body is unique in some unexpected way, that Western medicine is ineffective, or even that Western science is entirely unable to discover truths about ailments.Glover maintains that any person can continue to hold any belief if they would really like to (for example, with help from ad hoc hypotheses). One belief can be held fixed, and other beliefs will be altered around it. Glover warns that some beliefs may not be entirely explicitly believed (for example, some people may not realize they have racist belief-systems adopted from their environment as a child). Glover believes that people tend to first realize that beliefs can change, and may be contingent on their upbringing, around age 12 or 15.Glover emphasizes that beliefs are difficult to change. He says that one may try to rebuild one's beliefs on more secure foundations (axioms), like building a new house, but warns that this may not be possible. Glover offers the example of René Descartes, saying: "[Descartes] starts off with the characteristic beliefs of a 17th-century Frenchman; he then junks the lot, he rebuilds the system, and somehow it looks a lot like the beliefs of a 17th-century Frenchman." To Glover, belief systems are not like houses but are instead like boats. As Glover puts it: "Maybe the whole thing needs rebuilding, but inevitably at any point you have to keep enough of it intact to keep floating."Glover's final message is that if people talk about their beliefs, they may find more deep, relevant, philosophical ways in which they disagree (e.g., less obvious beliefs, or more-deeply-held beliefs). Glover thinks that people often manage to find agreements and consensus through philosophy. He says that at the very least, if people do not convert each other, they will hold their own beliefs more openmindedly and will be less likely to go to war over conflicting beliefs.The British philosopher Stephen Law (1960-) has described some belief systems (including belief in homeopathy, psychic powers, and alien abduction) as "claptrap" and says that such belief-systems can "draw people in and hold them captive so they become willing slaves of claptrap [...] if you get sucked in, it can be extremely difficult to think your way clear again".
+
+
+== See also ==
+
+
+== Notes ==
+
+
+== Further reading ==
+Robert Audi. "Dispositional Beliefs and Dispositions to Believe", Noûs, Vol. 28, No. 4 (Dec., 1994), pp. 419–434.  OCLC 481484099
+Coleman III, T., Jong, J., & van Mulukom, V. (2018). Introduction to the Special Issue: What are Religious Beliefs?. Contemporary Pragmatism, 15(3), 279–283. doi:10.1163/18758185-01503001
+Elisa Järnefelt, Created by Some Being: Theoretical and Empirical Exploration of Adults' Automatic and Reflective Beliefs about the Origin of Natural Phenomena. Diss. University of Helsinki, 2013. ISBN 978-952-10-9416-3.
+Fred Leavitt, "Dancing with Absurdity: Your Most Cherished Beliefs (and All Your Others) are Probably Wrong.  Peter Lang, 2015.
+J. Leicester,  "What beliefs are made from". Sharjah, UAE: Bentham Science Publishers, 2016.
+
+
+== External links ==
+ The dictionary definition of belief at Wiktionary
+ The dictionary definition of belief system at Wiktionary
+Schwitzgebel, Eric. "Belief".  In Zalta, Edward N. (ed.). Stanford Encyclopedia of Philosophy.
+"The Aim of Belief". Internet Encyclopedia of Philosophy.

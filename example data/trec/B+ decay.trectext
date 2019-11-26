@@ -1,0 +1,82 @@
+<DOC>
+<DOCNO>4e021245-d6b9-4156-8cd3-485a3431daae</DOCNO>
+<TEXT>
+Positron emission
+
+Positron emission or beta plus decay (β+ decay) is a subtype of radioactive decay called beta decay, in which a proton inside a radionuclide nucleus is converted into a neutron while releasing a positron and an electron neutrino (νe). Positron emission is mediated by the weak force. The positron is a type of beta particle (β+), the other beta particle being the electron (β−) emitted from the β− decay of a nucleus.
+An example of positron emission (β+ decay) is shown with magnesium-23 decaying into sodium-23:
+
+2312Mg → 2311Na + e+ + νeBecause positron emission decreases proton number relative to neutron number, positron decay happens typically in large "proton-rich" radionuclides. Positron decay results in nuclear transmutation, changing an atom of one chemical element into an atom of an element with an atomic number that is less by one unit.
+Positron emission occurs only very rarely naturally on earth, when induced by a cosmic ray or from one in a hundred thousand decays of potassium-40, a rare isotope, 0.012% of that element on earth.
+Positron emission should not be confused with electron emission or beta minus decay (β− decay), which occurs when a neutron turns into a proton and the nucleus emits an electron and an antineutrino.
+Positron emission is different from proton decay, the hypothetical decay of protons, not necessarily those bound with neutrons, not necessarily through the emission of a positron and not as part of nuclear physics, but rather of particle physics.
+
+
+== Discovery of positron emission ==
+In 1934 Frédéric and Irène Joliot-Curie bombarded aluminium with alpha particles to effect the nuclear reaction 42He + 2713Al → 3015P + 10n, and observed that the product isotope 3015P emits a positron identical to those found in cosmic rays by Carl David Anderson in 1932. This was the first example of β+ decay (positron emission). The Curies termed the phenomenon "artificial radioactivity," since 3015P is a short-lived nuclide which does not exist in nature. The discovery of artificial radioactivity would be cited when the husband and wife team won the Nobel Prize.
+
+
+== Positron-emitting isotopes ==
+Isotopes which undergo this decay and thereby emit positrons include carbon-11, potassium-40, nitrogen-13, oxygen-15, aluminium-26, sodium-22, fluorine-18, strontium-83, and iodine-124. As an example, the following equation describes the beta plus decay of carbon-11 to boron-11, emitting a positron and a neutrino:
+
+
+== Emission mechanism ==
+Inside protons and neutrons, there are fundamental particles called quarks. The two most common types of quarks are up quarks, which have a charge of +2/3, and down quarks, with a −1/3 charge. Quarks arrange themselves in sets of three such that they make protons and neutrons. In a proton, whose charge is +1, there are two up quarks and one down quark (2/3 + 2/3 − 1/3 = 1). Neutrons, with no charge, have one up quark and two down quarks (2/3 − 1/3 − 1/3 = 0). Via the weak interaction, quarks can change flavor from down to up, resulting in electron emission. Positron emission happens when an up quark changes into a down quark. (2/3 − 1 = −1/3).
+Nuclei which decay by positron emission may also decay by electron capture. For low-energy decays, electron capture is energetically favored by 2mec2 = 1.022 MeV, since the final state has an electron removed rather than a positron added. As the energy of the decay goes up, so does the branching ratio towards positron emission. However, if the energy difference is less than 2mec2, then positron emission cannot occur and electron capture is the sole decay mode. Certain otherwise electron-capturing isotopes (for instance, 7Be) are stable in galactic cosmic rays, because the electrons are stripped away and the decay energy is too small for positron emission.
+
+
+== Energy conservation ==
+A positron is ejected from the parent nucleus, and the daughter (Z−1) atom must shed an orbital electron to balance charge. The overall results is that the mass of two electrons are ejected from the atom (one for the positron and one for the electron), and the β+ decay is energetically possible only if the mass of the parent atom exceeds the mass of the daughter atom by at least two electron masses (1.02 MeV).Isotopes which increase in mass under the conversion of a proton to a neutron, or which decrease in mass by less than 2me, cannot spontaneously decay by positron emission.
+
+
+== Application ==
+These isotopes are used in positron emission tomography, a technique used for medical imaging. Note that the energy emitted depends on the isotope that is decaying; the figure of 0.96 MeV applies only to the decay of carbon-11.
+The short-lived positron emitting isotopes 11C, 13N, 15O and 18F used for positron emission tomography are typically produced by proton irradiation of natural or enriched targets.
+
+
+== References ==
+
+
+== External links ==
+ The LIVEChart of Nuclides - IAEA  with filter on β+ decay
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>6db04e4d-4dec-435b-8793-c5c6454b7ae8</DOCNO>
+<TEXT>
+B meson
+
+In particle physics, B mesons are mesons composed of a bottom antiquark and either an up (B+), down (B0), strange (B0s) or charm quark (B+c). The combination of a bottom antiquark and a top quark is not thought to be possible because of the top quark's short lifetime. The combination of a bottom antiquark and a bottom quark is not a B meson, but rather bottomonium which is something else entirely.
+Each B meson has an antiparticle that is composed of a bottom quark and an up (B−), down (B0), strange (B0s) or charm antiquark (B−c) respectively.
+
+
+== List of B mesons ==
+
+
+== B–B oscillations ==
+
+The neutral B mesons, B0 and B0s, spontaneously transform into their own antiparticles and back. This phenomenon is called flavor oscillation. The existence of neutral B meson oscillations is a fundamental prediction of the Standard Model of particle physics. It has been measured in the B0–B0 system to be about 0.496 ps−1, and in the B0s–B0s system to be Δms = 17.77 ± 0.10 (stat) ± 0.07 (syst) ps−1 measured by CDF experiment at Fermilab. A first estimation of the lower and upper limit of the B0s–B0s system value have been made by the DØ experiment also at  Fermilab.On 25 September 2006, Fermilab announced that they had claimed discovery of previously-only-theorized Bs meson oscillation. According to Fermilab's press release:
+
+This first major discovery of Run 2 continues the tradition of particle physics discoveries at Fermilab, where the bottom (1977) and top (1995) quarks were discovered. Surprisingly, the bizarre behavior of the B_s (pronounced "B sub s") mesons is actually predicted by the Standard Model of fundamental particles and forces. The discovery of this oscillatory behavior is thus another reinforcement of the Standard Model's durability...
+CDF physicists have previously measured the rate of the matter-antimatter transitions for the B_s meson, which consists of the heavy bottom quark bound by the strong nuclear interaction to a strange antiquark. Now they have achieved the standard for a discovery in the field of particle physics, where the probability for a false observation must be proven to be less than about 5 in 10 million (5/10,000,000). For CDF's result the probability is even smaller, at 8 in 100 million (8/100,000,000).
+Ronald Kotulak, writing for the Chicago Tribune, called the particle "bizarre" and stated that the meson "may open the door to a new era of physics" with its proven interactions with the "spooky realm of antimatter".On 14 May 2010, physicists at the Fermi National Accelerator Laboratory reported that the oscillations decayed into matter 1% more often than into antimatter, which may help explain the abundance of matter over antimatter in the observed Universe.  However, more recent results at LHCb with larger data samples have suggested no significant deviation from the Standard Model.
+
+
+== Rare decays ==
+B-mesons are an important probe for exploring quantum chromodynamics.  Various uncommon decay paths of the B mesons are sensitive to physics processes outside the standard model.  Measuring these rare branching fractions sets limits on new particles. The LHCb experiment has observed and searched for several of these decays such as Bs → µ+µ−.On February 21, 2017, the LHCb collaboration announced that the rare decay of a neutral B-meson into two oppositely charged kaons had been observed to a statistical significance of 5σ.
+
+
+== See also ==
+B–B oscillation
+
+
+== References ==
+
+
+== External links ==
+W.-M. Yao et al. (Particle Data Group), J. Phys. G 33, 1 (2006) and 2007 partial update for edition 2008 (URL: http://pdg.lbl.gov)
+V. Jamieson (18 March 2008). "Flipping particle could explain missing antimatter". New Scientist. Retrieved 23 January 2010.
+</TEXT>
+</DOC>
+

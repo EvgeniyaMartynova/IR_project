@@ -1,0 +1,33 @@
+Heathkit H100
+
+The Z-100 computer is a personal computer made by Zenith Data Systems (ZDS). It was a competitor to the IBM PC.
+
+
+== Design ==
+The Zenith Data Systems Z-100 is a pre-assembled version of the Heathkit H100 electronic kit. Configured as a family (Z-120 is an all-in-one model, with self-contained monitor), the Z-110 (called the low profile model) is similar in size to the cabinet of an IBM PC, XT, or AT, but a bit shorter, and configured with a raised cabinet molding on the top surface within which one placed one's display monitor, designed to keep it from sliding off to either side or back. Both models have a built-in keyboard that was tactilely and in appearance modeled on an IBM Selectric typewriter.
+
+Dual processors: 8085 and 8088.
+Available with CP/M and Z-DOS (non-IBM compatible MS-DOS variant).
+Five S-100 expansion slots.
+Two 320 KB 40-track double-sided 5.25-inch floppy disk drives. Socket enabled direct plug-in of external 8-inch floppies.
+2× serial ports (2661 UART), one Centronics printer port (discrete TTL chips), light pen port.
+640×225 bitmap display. 8 colors (low-profile model), or monochrome upgradable to 8 greyscales (all-in-one).
+Base 128 KB RAM, expandable to 192 KB on board, to 768 KB with S-100 cards. (Video RAM was paged into the 64 KB block above 768 KB).The Z-100 is partially compatible with the IBM PC, using standard floppy drives. It runs a non-IBM version of MS-DOS, so generic MS-DOS programs run, but most commercial PC software use IBM BIOS extensions and do not run, including Lotus 1-2-3. Several companies offered software or hardware solutions to permit unmodified PC programs to work on the Z-100.
+The Z-100 has unusually good graphics for its era, superior to the contemporary CGA (640×200 monochrome bitmap or 320×200 4-color), IBM Monochrome Display Adapter (MDA) (80×25 text-only), and on par with the Hercules Graphics Card (720×348 monochrome). Early versions of AutoCAD were released for the Z-100 because of these advanced graphics.Aftermarket vendors also released modifications to upgrade mainboard memory and permit installation of an Intel 8087 math coprocessor.
+
+
+== Uses ==
+In 1983, Clarkson College of Technology (now Clarkson University) became the first college in the nation to give each incoming freshman a personal computer. The model issued to them was the Z-100.
+
+
+== Reception ==
+Jerry Pournelle in 1983 praised the Z-100's keyboard, and wrote that it "had the best color graphics I've seen on a small machine". Although forced to buy a real IBM PC because of the Z-100 and other computers' incomplete PC compatibility, he reported in December 1983 that a friend who was inexperienced with electronic kits was able to assemble a H100 in a day, with only the disk controller needing soldering.
+
+
+== References ==
+
+
+== External links ==
+Z-100 information and pictures from the DigiBarn Computer Museum
+Heathkit / Zenith Z100/110/120 at old-computers.com
+Z-100 Software and Manual archive from Antediluvian Designs

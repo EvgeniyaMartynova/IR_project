@@ -1,0 +1,6 @@
+Folded Inverted Conformal Antenna
+
+The folded inverted conformal antenna (FICA) belongs to the microstrip antenna family. The FICA placement on the handset board and its feeding mechanisms are similar to those used currently for the great majority of handsets with internal planar inverted-F antenna (PIFA) components. Whereas multiband PIFAs exhibit two resonant modes, which operate by sharing the same available antenna volume, the FICA structure is synthesised in order to sustain three resonant modes that better reuse the volume. The implementation of volume reuse allows spreading of the reactive electromagnetic energy associated with each resonant mode across the entire antenna volume.  This results in FICA modes exhibiting a lower Q factor and a wider fractional bandwidth than the corresponding PIFA modes.
+
+
+== References ==

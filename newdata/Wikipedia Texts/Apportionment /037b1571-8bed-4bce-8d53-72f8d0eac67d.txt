@@ -1,0 +1,67 @@
+Apportionment paradox
+
+An apportionment paradox exists when the rules for apportionment in a political system produce results which are unexpected or seem to violate common sense.
+To apportion is to divide into parts according to some rule, the rule typically being one of proportion. Certain quantities, like milk, can be divided in any proportion whatsoever; others, such as horses, cannot—only whole numbers will do. In the latter case, there is an inherent tension between the desire to obey the rule of proportion as closely as possible and the constraint restricting the size of each portion to discrete values. This results, at times, in unintuitive observations, or paradoxes.
+Several paradoxes related to apportionment, also called fair division, have been identified. In some cases, simple post facto adjustments, if allowed, to an apportionment methodology can resolve observed paradoxes. However, as shown by examples relating to the United States House of Representatives, and subsequently proven by the Balinski–Young theorem, mathematics alone cannot always provide a single, fair resolution to the apportionment of remaining fractions into discrete equal whole-number parts, while complying fully with all the competing fairness elements.
+
+
+== History ==
+The Alabama paradox was discovered in 1880, when census calculations found that if the total number of seats in the House of Representatives were hypothetically increased, this would decrease Alabama's seats from 8 to 7. An actual impact was observed in 1900, when Virginia lost a seat to Maine, even though Virginia's population was growing more rapidly: this is an example of the population paradox. In 1907, when Oklahoma became a state, New York lost a seat to Maine, thus the name "the new state paradox".The method for apportionment used during this period, originally put forth by Alexander Hamilton, but vetoed by George Washington and not adopted until 1852, was as follows:
+
+First, the fair share of each state is computed, i.e. the proportional share of seats that each state would get if fractional values were allowed.
+Second, each state receives as many seats as the whole number portion of its fair share.
+Third, any state whose fair share is less than one receives one seat, regardless of population, as required by the United States Constitution.
+Fourth, any remaining seats are distributed, one each, to the states whose fair shares have the highest fractional parts.The Hamilton method replaced a rounding method proposed by Thomas Jefferson, and was itself replaced by the Huntington–Hill method in 1941. Under certain conditions, it too can give paradoxical results.
+
+
+== Examples of paradoxes ==
+
+
+=== Alabama paradox ===
+The Alabama paradox was the first of the apportionment paradoxes to be discovered. The US House of Representatives is constitutionally required to allocate seats based on population counts, which are required every 10 years. The size of the House is set by statute.
+After the 1880 census, C. W. Seaton, chief clerk of the United States Census Bureau, computed apportionments for all House sizes between 275 and 350, and discovered  that Alabama would get eight seats with a House size of 299 but only seven with a House size of 300. In general the term Alabama paradox refers to any apportionment scenario where increasing the total number of items would decrease one of the shares. A similar exercise by the Census Bureau after the 1900 census computed apportionments for all House sizes between 350 and 400: Colorado would have received three seats in all cases, except with a House size of 357 in which case it would have received two.The following is a simplified example (following the largest remainder method) with three states and 10 seats and 11 seats.
+
+Observe that state C's share decreases from 2 to 1 with the added seat.
+This occurs because increasing the number of seats increases the fair share faster for the large states than for the small states. In particular, large A and B had their fair share increase faster than small C. Therefore, the fractional parts for A and B increased faster than those for C. In fact, they overtook C's fraction, causing C to lose its seat, since the Hamilton method examines which states have the largest remaining fraction.
+The Alabama paradox is an example of violation of the resource monotonicity axiom.
+
+
+=== Population paradox ===
+The population paradox is a counterintuitive result of some procedures for apportionment. When two states have populations increasing at different rates, a small state with rapid growth can lose a legislative seat to a big state with slower growth.
+Some of the earlier Congressional apportionment methods, such as Hamilton, could exhibit the population paradox. In 1900, Virginia lost a seat to Maine, even though Virginia's population was growing more rapidly. However, divisor methods such as the current method do not.
+
+
+=== New states paradox ===
+Given a fixed number of total representatives (as determined by the United States House of Representatives), adding a new state would in theory reduce the number of representatives for existing states, as under the United States Constitution each state is entitled to at least one representative regardless of its population. Also, even if the number of members in the House of Representatives is increased by the number of Representatives in the new state, a pre-existing state could lose a seat because of how the particular apportionment rules deal with rounding methods. In 1907, when Oklahoma became a state, it was given a fair share of seats and the total number of seats increased by that number. The House increased from 386 to 391 members. A recomputation of apportionment affected the number of seats because of other states: New York lost a seat while Maine gained one.
+
+
+== Balinski–Young theorem ==
+In 1983, two mathematicians, Michel Balinski and Peyton Young, proved that any method of apportionment will result in paradoxes whenever there are three or more parties (or states, regions, etc.). The theorem shows that any possible method used to allocate the remaining fraction will necessarily fail to always follow quota. More precisely, their theorem states that there is no apportionment system that has the following properties  (as the example we take the division of seats between parties in a system of proportional representation):
+
+It avoids violations of the quota rule: Each of the parties gets one of the two numbers closest to its fair share of seats. For example, if a party's fair share is 7.34 seats, it must get either 7 or 8 seats to avoid a violation; any other number will violate the rule.
+It does not have the Alabama paradox: If the total number of seats is increased, no party's number of seats decreases.
+It does not have the population paradox: If party A gets more votes and party B gets fewer votes, no seat will be transferred from A to B.Methods may have a subset of these properties, but can't have all of them:
+
+A method may follow quota and be free of the Alabama paradox. Balinski and Young constructed a method that does so, although it is not in common political use.
+A method may be free of both the Alabama paradox and the population paradox. These methods are divisor methods, and Huntington-Hill, the method currently used to apportion House of Representatives seats, is one of them. However, these methods will necessarily fail to always follow quota in other circumstances.
+No method may always follow quota and be free of the population paradox.The division of seats in an election is a prominent cultural concern. In 1876, the United States presidential election turned on the method by which the remaining fraction was calculated. Rutherford Hayes received 185 electoral college votes, and Samuel Tilden received 184. Tilden won the popular vote. With a different rounding method the final electoral college tally would have reversed. However, many mathematically analogous situations arise in which quantities are to be divided into discrete equal chunks. The Balinski–Young theorem applies in these situations: it indicates that although very reasonable approximations can be made, there is no mathematically rigorous way in which to reconcile the small remaining fraction while complying with all the competing fairness elements.
+
+
+== See also ==
+Arrow's impossibility theorem
+Condorcet paradox
+Gibbard–Satterthwaite theorem
+Proof of impossibility
+Monotonicity criterion
+United States congressional apportionment
+
+
+== References ==
+
+
+== External links ==
+The Constitution and Paradoxes
+Alabama Paradox
+New States Paradox
+Population Paradox
+Apportionment: Balinski and Young's Contribution

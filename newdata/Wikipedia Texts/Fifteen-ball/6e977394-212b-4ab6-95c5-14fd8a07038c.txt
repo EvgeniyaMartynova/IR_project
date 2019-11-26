@@ -1,0 +1,6649 @@
+N-ball
+
+In geometry, a ball is a region in space comprising all points within a fixed distance from a given point; that is, it is the region enclosed by a sphere or hypersphere. An n-ball is a ball in n-dimensional Euclidean space. The volume of an n-ball is an important constant that occurs in formulas throughout mathematics; it generalizes the notion of the volume enclosed by a sphere in 3-dimensional space.
+
+
+== Formulas ==
+
+
+=== The volume ===
+The n-dimensional volume of a Euclidean ball of radius R in n-dimensional Euclidean space is:
+
+  
+    
+      
+        
+          V
+          
+            n
+          
+        
+        (
+        R
+        )
+        =
+        
+          
+            
+              π
+              
+                
+                  n
+                  2
+                
+              
+            
+            
+              Γ
+              
+                (
+                
+                  
+                    
+                      n
+                      2
+                    
+                  
+                  +
+                  1
+                
+                )
+              
+            
+          
+        
+        
+          R
+          
+            n
+          
+        
+        ,
+      
+    
+    {\displaystyle V_{n}(R)={\frac {\pi ^{\frac {n}{2}}}{\Gamma \left({\frac {n}{2}}+1\right)}}R^{n},}
+  where Γ is Leonhard Euler's gamma function.  The gamma function extends the factorial function to non-integer arguments.  It satisfies Γ(n) = (n − 1)! if n is a positive integer and Γ(n + 1/2) = (n − 1/2) · (n − 3/2) · … · 1/2 · π1/2 if n is a non-negative integer.
+
+
+=== Alternative forms ===
+Using explicit formulas for particular values of the gamma function at the integers and half integers gives formulas for the volume of a Euclidean ball that do not require an evaluation of the gamma function. These are:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  V
+                  
+                    2
+                    k
+                  
+                
+                (
+                R
+                )
+              
+              
+                
+                =
+                
+                  
+                    
+                      π
+                      
+                        k
+                      
+                    
+                    
+                      k
+                      !
+                    
+                  
+                
+                
+                  R
+                  
+                    2
+                    k
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  V
+                  
+                    2
+                    k
+                    +
+                    1
+                  
+                
+                (
+                R
+                )
+              
+              
+                
+                =
+                
+                  
+                    
+                      
+                        2
+                        
+                          k
+                          +
+                          1
+                        
+                      
+                      
+                        π
+                        
+                          k
+                        
+                      
+                    
+                    
+                      (
+                      2
+                      k
+                      +
+                      1
+                      )
+                      !
+                      !
+                    
+                  
+                
+                
+                  R
+                  
+                    2
+                    k
+                    +
+                    1
+                  
+                
+                =
+                
+                  
+                    
+                      2
+                      (
+                      k
+                      !
+                      )
+                      (
+                      4
+                      π
+                      
+                        )
+                        
+                          k
+                        
+                      
+                    
+                    
+                      (
+                      2
+                      k
+                      +
+                      1
+                      )
+                      !
+                    
+                  
+                
+                
+                  R
+                  
+                    2
+                    k
+                    +
+                    1
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}V_{2k}(R)&={\frac {\pi ^{k}}{k!}}R^{2k},\\V_{2k+1}(R)&={\frac {2^{k+1}\pi ^{k}}{(2k+1)!!}}R^{2k+1}={\frac {2(k!)(4\pi )^{k}}{(2k+1)!}}R^{2k+1}.\end{aligned}}}
+  In the formula for odd-dimensional volumes, the double factorial (2k + 1)!! is defined for odd integers 2k + 1 as (2k + 1)!! = 1 · 3 · 5 · … · (2k − 1) · (2k + 1). 
+Instead of expressing the volume V of the ball in terms of its radius R, the formula can be inverted to express the radius as a function of the volume:
+
+  
+    
+      
+        
+          R
+          
+            n
+          
+        
+        (
+        V
+        )
+        =
+        
+          
+            
+              Γ
+              
+                
+                  (
+                  
+                    
+                      
+                        n
+                        2
+                      
+                    
+                    +
+                    1
+                  
+                  )
+                
+                
+                  
+                    1
+                    n
+                  
+                
+              
+            
+            
+              π
+            
+          
+        
+        
+          V
+          
+            
+              1
+              n
+            
+          
+        
+        .
+      
+    
+    {\displaystyle R_{n}(V)={\frac {\Gamma \left({\frac {n}{2}}+1\right)^{\frac {1}{n}}}{\sqrt {\pi }}}V^{\frac {1}{n}}.}
+  This formula, too, can be separated into even- and odd-dimensional cases using factorials and double factorials in place of the gamma function:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  R
+                  
+                    2
+                    k
+                  
+                
+                (
+                V
+                )
+              
+              
+                
+                =
+                
+                  
+                    
+                      (
+                      k
+                      !
+                      V
+                      
+                        )
+                        
+                          
+                            1
+                            
+                              2
+                              k
+                            
+                          
+                        
+                      
+                    
+                    
+                      π
+                    
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  R
+                  
+                    2
+                    k
+                    +
+                    1
+                  
+                
+                (
+                V
+                )
+              
+              
+                
+                =
+                
+                  
+                    (
+                    
+                      
+                        
+                          (
+                          2
+                          k
+                          +
+                          1
+                          )
+                          !
+                          !
+                          V
+                        
+                        
+                          
+                            2
+                            
+                              k
+                              +
+                              1
+                            
+                          
+                          
+                            π
+                            
+                              k
+                            
+                          
+                        
+                      
+                    
+                    )
+                  
+                  
+                    
+                      1
+                      
+                        2
+                        k
+                        +
+                        1
+                      
+                    
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}R_{2k}(V)&={\frac {(k!V)^{\frac {1}{2k}}}{\sqrt {\pi }}},\\R_{2k+1}(V)&=\left({\frac {(2k+1)!!V}{2^{k+1}\pi ^{k}}}\right)^{\frac {1}{2k+1}}.\end{aligned}}}
+  
+
+
+=== Recursions ===
+The volume satisfies several recursive formulas. These formulas can either be proved directly or proved as consequences of the general volume formula above. The simplest to state is a formula for the volume of an n-ball in terms of the volume of an (n − 2)-ball of the same radius:
+
+  
+    
+      
+        
+          V
+          
+            n
+          
+        
+        (
+        R
+        )
+        =
+        
+          
+            
+              2
+              π
+              
+                R
+                
+                  2
+                
+              
+            
+            n
+          
+        
+        
+          V
+          
+            n
+            −
+            2
+          
+        
+        (
+        R
+        )
+        .
+      
+    
+    {\displaystyle V_{n}(R)={\frac {2\pi R^{2}}{n}}V_{n-2}(R).}
+  There is also a formula for the volume of an n-ball in terms of the volume of an (n − 1)-ball of the same radius:
+
+  
+    
+      
+        
+          V
+          
+            n
+          
+        
+        (
+        R
+        )
+        =
+        R
+        
+          
+            π
+          
+        
+        
+          
+            
+              Γ
+              
+                (
+                
+                  
+                    
+                      n
+                      +
+                      1
+                    
+                    2
+                  
+                
+                )
+              
+            
+            
+              Γ
+              
+                (
+                
+                  
+                    
+                      n
+                      2
+                    
+                  
+                  +
+                  1
+                
+                )
+              
+            
+          
+        
+        
+          V
+          
+            n
+            −
+            1
+          
+        
+        (
+        R
+        )
+        .
+      
+    
+    {\displaystyle V_{n}(R)=R{\sqrt {\pi }}{\frac {\Gamma \left({\frac {n+1}{2}}\right)}{\Gamma \left({\frac {n}{2}}+1\right)}}V_{n-1}(R).}
+  Using explicit formulas for the gamma function again shows that the one-dimension recursion formula can also be written as:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  V
+                  
+                    2
+                    k
+                  
+                
+                (
+                R
+                )
+              
+              
+                
+                =
+                R
+                π
+                
+                  
+                    
+                      (
+                      2
+                      k
+                      −
+                      1
+                      )
+                      !
+                      !
+                    
+                    
+                      
+                        2
+                        
+                          k
+                        
+                      
+                      k
+                      !
+                    
+                  
+                
+                
+                  V
+                  
+                    2
+                    k
+                    −
+                    1
+                  
+                
+                (
+                R
+                )
+                =
+                R
+                π
+                
+                  
+                    
+                      (
+                      2
+                      k
+                      −
+                      1
+                      )
+                      (
+                      2
+                      k
+                      −
+                      3
+                      )
+                      ⋯
+                      5
+                      ⋅
+                      3
+                      ⋅
+                      1
+                    
+                    
+                      (
+                      2
+                      k
+                      )
+                      (
+                      2
+                      k
+                      −
+                      2
+                      )
+                      ⋯
+                      6
+                      ⋅
+                      4
+                      ⋅
+                      2
+                    
+                  
+                
+                
+                  V
+                  
+                    2
+                    k
+                    −
+                    1
+                  
+                
+                (
+                R
+                )
+                ,
+              
+            
+            
+              
+                
+                  V
+                  
+                    2
+                    k
+                    +
+                    1
+                  
+                
+                (
+                R
+                )
+              
+              
+                
+                =
+                2
+                R
+                
+                  
+                    
+                      
+                        2
+                        
+                          k
+                        
+                      
+                      k
+                      !
+                    
+                    
+                      (
+                      2
+                      k
+                      +
+                      1
+                      )
+                      !
+                      !
+                    
+                  
+                
+                
+                  V
+                  
+                    2
+                    k
+                  
+                
+                (
+                R
+                )
+                =
+                2
+                R
+                
+                  
+                    
+                      (
+                      2
+                      k
+                      )
+                      (
+                      2
+                      k
+                      −
+                      2
+                      )
+                      ⋯
+                      6
+                      ⋅
+                      4
+                      ⋅
+                      2
+                    
+                    
+                      (
+                      2
+                      k
+                      +
+                      1
+                      )
+                      (
+                      2
+                      k
+                      −
+                      1
+                      )
+                      ⋯
+                      5
+                      ⋅
+                      3
+                      ⋅
+                      1
+                    
+                  
+                
+                
+                  V
+                  
+                    2
+                    k
+                  
+                
+                (
+                R
+                )
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}V_{2k}(R)&=R\pi {\frac {(2k-1)!!}{2^{k}k!}}V_{2k-1}(R)=R\pi {\frac {(2k-1)(2k-3)\cdots 5\cdot 3\cdot 1}{(2k)(2k-2)\cdots 6\cdot 4\cdot 2}}V_{2k-1}(R),\\[10px]V_{2k+1}(R)&=2R{\frac {2^{k}k!}{(2k+1)!!}}V_{2k}(R)=2R{\frac {(2k)(2k-2)\cdots 6\cdot 4\cdot 2}{(2k+1)(2k-1)\cdots 5\cdot 3\cdot 1}}V_{2k}(R).\end{aligned}}}
+  The radius of an n-ball of volume V may be expressed recursively in terms of the radius of an (n − 1)-ball or an (n − 2)-ball.  These formulas may be derived from the explicit formula for Rn(V) above.
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  R
+                  
+                    n
+                  
+                
+                (
+                V
+                )
+              
+              
+                
+                =
+                
+                  
+                    
+                      Γ
+                      (
+                      
+                        
+                          n
+                          2
+                        
+                      
+                      +
+                      1
+                      
+                        )
+                        
+                          1
+                          
+                            /
+                          
+                          n
+                        
+                      
+                    
+                    
+                      Γ
+                      (
+                      
+                        
+                          
+                            n
+                            −
+                            1
+                          
+                          2
+                        
+                      
+                      +
+                      1
+                      
+                        )
+                        
+                          1
+                          
+                            /
+                          
+                          (
+                          n
+                          −
+                          1
+                          )
+                        
+                      
+                    
+                  
+                
+                
+                  V
+                  
+                    −
+                    1
+                    
+                      /
+                    
+                    (
+                    n
+                    (
+                    n
+                    −
+                    1
+                    )
+                    )
+                  
+                
+                
+                  R
+                  
+                    n
+                    −
+                    1
+                  
+                
+                (
+                V
+                )
+                ,
+              
+            
+            
+              
+                
+                  R
+                  
+                    n
+                  
+                
+                (
+                V
+                )
+              
+              
+                
+                =
+                
+                  
+                    (
+                    
+                      
+                        n
+                        2
+                      
+                    
+                    )
+                  
+                  
+                    1
+                    
+                      /
+                    
+                    n
+                  
+                
+                
+                  
+                    (
+                    
+                      V
+                      ⋅
+                      Γ
+                      
+                        (
+                        
+                          
+                            n
+                            2
+                          
+                        
+                        )
+                      
+                    
+                    )
+                  
+                  
+                    −
+                    2
+                    
+                      /
+                    
+                    (
+                    n
+                    (
+                    n
+                    −
+                    2
+                    )
+                    )
+                  
+                
+                
+                  R
+                  
+                    n
+                    −
+                    2
+                  
+                
+                (
+                V
+                )
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}R_{n}(V)&={\frac {\Gamma ({\frac {n}{2}}+1)^{1/n}}{\Gamma ({\frac {n-1}{2}}+1)^{1/(n-1)}}}V^{-1/(n(n-1))}R_{n-1}(V),\\R_{n}(V)&=\left({\frac {n}{2}}\right)^{1/n}\left(V\cdot \Gamma \left({\frac {n}{2}}\right)\right)^{-2/(n(n-2))}R_{n-2}(V).\end{aligned}}}
+  Using explicit formulas for the gamma function shows that the one-dimension recursion formula is equivalent to
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  R
+                  
+                    2
+                    k
+                  
+                
+                (
+                V
+                )
+              
+              
+                
+                =
+                
+                  
+                    
+                      (
+                      
+                        2
+                        
+                          k
+                        
+                      
+                      k
+                      !
+                      
+                        )
+                        
+                          1
+                          
+                            /
+                          
+                          (
+                          2
+                          k
+                          )
+                        
+                      
+                    
+                    
+                      (
+                      2
+                      k
+                      −
+                      1
+                      )
+                      !
+                      
+                        !
+                        
+                          1
+                          
+                            /
+                          
+                          (
+                          2
+                          k
+                          −
+                          1
+                          )
+                        
+                      
+                    
+                  
+                
+                
+                  
+                    (
+                    
+                      
+                        2
+                        π
+                      
+                    
+                    )
+                  
+                  
+                    1
+                    
+                      /
+                    
+                    (
+                    4
+                    k
+                    −
+                    2
+                    )
+                  
+                
+                
+                  V
+                  
+                    −
+                    1
+                    
+                      /
+                    
+                    (
+                    2
+                    k
+                    (
+                    2
+                    k
+                    −
+                    1
+                    )
+                    )
+                  
+                
+                
+                  R
+                  
+                    2
+                    k
+                    −
+                    1
+                  
+                
+                (
+                V
+                )
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    
+                      
+                        
+                          (
+                        
+                      
+                      (
+                      2
+                      k
+                      )
+                      (
+                      2
+                      k
+                      −
+                      2
+                      )
+                      ⋯
+                      6
+                      ⋅
+                      4
+                      ⋅
+                      2
+                      
+                        
+                          
+                            )
+                          
+                        
+                        
+                          1
+                          
+                            /
+                          
+                          (
+                          2
+                          k
+                          )
+                        
+                      
+                    
+                    
+                      
+                        
+                          (
+                        
+                      
+                      (
+                      2
+                      k
+                      −
+                      1
+                      )
+                      (
+                      2
+                      k
+                      −
+                      3
+                      )
+                      ⋯
+                      5
+                      ⋅
+                      3
+                      ⋅
+                      1
+                      
+                        
+                          
+                            )
+                          
+                        
+                        
+                          1
+                          
+                            /
+                          
+                          (
+                          2
+                          k
+                          −
+                          1
+                          )
+                        
+                      
+                    
+                  
+                
+                
+                  
+                    (
+                    
+                      
+                        2
+                        π
+                      
+                    
+                    )
+                  
+                  
+                    1
+                    
+                      /
+                    
+                    (
+                    4
+                    k
+                    −
+                    2
+                    )
+                  
+                
+                
+                  V
+                  
+                    −
+                    1
+                    
+                      /
+                    
+                    (
+                    2
+                    k
+                    (
+                    2
+                    k
+                    −
+                    1
+                    )
+                    )
+                  
+                
+                
+                  R
+                  
+                    2
+                    k
+                    −
+                    1
+                  
+                
+                (
+                V
+                )
+                ,
+              
+            
+            
+              
+                
+                  R
+                  
+                    2
+                    k
+                    +
+                    1
+                  
+                
+                (
+                V
+                )
+              
+              
+                
+                =
+                
+                  
+                    
+                      (
+                      2
+                      k
+                      +
+                      1
+                      )
+                      !
+                      
+                        !
+                        
+                          1
+                          
+                            /
+                          
+                          (
+                          2
+                          k
+                          +
+                          1
+                          )
+                        
+                      
+                    
+                    
+                      (
+                      
+                        2
+                        
+                          k
+                        
+                      
+                      k
+                      !
+                      
+                        )
+                        
+                          1
+                          
+                            /
+                          
+                          (
+                          2
+                          k
+                          )
+                        
+                      
+                    
+                  
+                
+                
+                  
+                    (
+                    
+                      
+                        π
+                        2
+                      
+                    
+                    )
+                  
+                  
+                    1
+                    
+                      /
+                    
+                    (
+                    4
+                    k
+                    +
+                    2
+                    )
+                  
+                
+                
+                  V
+                  
+                    −
+                    1
+                    
+                      /
+                    
+                    (
+                    (
+                    2
+                    k
+                    +
+                    1
+                    )
+                    2
+                    k
+                    )
+                  
+                
+                
+                  R
+                  
+                    2
+                    k
+                  
+                
+                (
+                V
+                )
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    
+                      
+                        
+                          (
+                        
+                      
+                      (
+                      2
+                      k
+                      +
+                      1
+                      )
+                      (
+                      2
+                      k
+                      −
+                      1
+                      )
+                      ⋯
+                      5
+                      ⋅
+                      3
+                      ⋅
+                      1
+                      
+                        
+                          
+                            )
+                          
+                        
+                        
+                          1
+                          
+                            /
+                          
+                          (
+                          2
+                          k
+                          +
+                          1
+                          )
+                        
+                      
+                    
+                    
+                      
+                        
+                          (
+                        
+                      
+                      (
+                      2
+                      k
+                      )
+                      (
+                      2
+                      k
+                      −
+                      2
+                      )
+                      ⋯
+                      6
+                      ⋅
+                      4
+                      ⋅
+                      2
+                      
+                        
+                          
+                            )
+                          
+                        
+                        
+                          1
+                          
+                            /
+                          
+                          (
+                          2
+                          k
+                          )
+                        
+                      
+                    
+                  
+                
+                
+                  
+                    (
+                    
+                      
+                        π
+                        2
+                      
+                    
+                    )
+                  
+                  
+                    1
+                    
+                      /
+                    
+                    (
+                    4
+                    k
+                    +
+                    2
+                    )
+                  
+                
+                
+                  V
+                  
+                    −
+                    1
+                    
+                      /
+                    
+                    (
+                    (
+                    2
+                    k
+                    +
+                    1
+                    )
+                    2
+                    k
+                    )
+                  
+                
+                
+                  R
+                  
+                    2
+                    k
+                  
+                
+                (
+                V
+                )
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}R_{2k}(V)&={\frac {(2^{k}k!)^{1/(2k)}}{(2k-1)!!^{1/(2k-1)}}}\left({\frac {2}{\pi }}\right)^{1/(4k-2)}V^{-1/(2k(2k-1))}R_{2k-1}(V)\\&={\frac {{\big (}(2k)(2k-2)\cdots 6\cdot 4\cdot 2{\big )}^{1/(2k)}}{{\big (}(2k-1)(2k-3)\cdots 5\cdot 3\cdot 1{\big )}^{1/(2k-1)}}}\left({\frac {2}{\pi }}\right)^{1/(4k-2)}V^{-1/(2k(2k-1))}R_{2k-1}(V),\\R_{2k+1}(V)&={\frac {(2k+1)!!^{1/(2k+1)}}{(2^{k}k!)^{1/(2k)}}}\left({\frac {\pi }{2}}\right)^{1/(4k+2)}V^{-1/((2k+1)2k)}R_{2k}(V)\\&={\frac {{\big (}(2k+1)(2k-1)\cdots 5\cdot 3\cdot 1{\big )}^{1/(2k+1)}}{{\big (}(2k)(2k-2)\cdots 6\cdot 4\cdot 2{\big )}^{1/(2k)}}}\left({\frac {\pi }{2}}\right)^{1/(4k+2)}V^{-1/((2k+1)2k)}R_{2k}(V),\\\end{aligned}}}
+  and that the two-dimension recursion formula is equivalent to
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  R
+                  
+                    2
+                    k
+                  
+                
+                (
+                V
+                )
+              
+              
+                
+                =
+                
+                  k
+                  
+                    1
+                    
+                      /
+                    
+                    (
+                    2
+                    k
+                    )
+                  
+                
+                (
+                V
+                ⋅
+                (
+                k
+                −
+                1
+                )
+                !
+                
+                  )
+                  
+                    −
+                    1
+                    
+                      /
+                    
+                    (
+                    2
+                    (
+                    k
+                    −
+                    1
+                    )
+                    k
+                    )
+                  
+                
+                
+                  R
+                  
+                    2
+                    k
+                    −
+                    2
+                  
+                
+                (
+                V
+                )
+              
+            
+            
+              
+              
+                
+                =
+                
+                  k
+                  
+                    1
+                    
+                      /
+                    
+                    (
+                    2
+                    k
+                    )
+                  
+                
+                (
+                V
+                ⋅
+                (
+                k
+                −
+                1
+                )
+                ⋅
+                (
+                k
+                −
+                2
+                )
+                ⋯
+                3
+                ⋅
+                2
+                ⋅
+                1
+                
+                  )
+                  
+                    −
+                    1
+                    
+                      /
+                    
+                    (
+                    2
+                    (
+                    k
+                    −
+                    1
+                    )
+                    k
+                    )
+                  
+                
+                
+                  R
+                  
+                    2
+                    k
+                    −
+                    2
+                  
+                
+                (
+                V
+                )
+                ,
+              
+            
+            
+              
+                
+                  R
+                  
+                    2
+                    k
+                    +
+                    1
+                  
+                
+                (
+                V
+                )
+              
+              
+                
+                =
+                (
+                2
+                k
+                +
+                1
+                
+                  )
+                  
+                    1
+                    
+                      /
+                    
+                    (
+                    2
+                    k
+                    +
+                    1
+                    )
+                  
+                
+                
+                  
+                    (
+                    
+                      V
+                      ⋅
+                      (
+                      2
+                      k
+                      −
+                      1
+                      )
+                      !
+                      !
+                      
+                        
+                          
+                            π
+                            2
+                          
+                        
+                      
+                    
+                    )
+                  
+                  
+                    −
+                    2
+                    
+                      /
+                    
+                    (
+                    4
+                    
+                      k
+                      
+                        2
+                      
+                    
+                    −
+                    1
+                    )
+                  
+                
+                
+                  R
+                  
+                    2
+                    k
+                    −
+                    1
+                  
+                
+                (
+                V
+                )
+              
+            
+            
+              
+              
+                
+                =
+                (
+                2
+                k
+                +
+                1
+                
+                  )
+                  
+                    1
+                    
+                      /
+                    
+                    (
+                    2
+                    k
+                    +
+                    1
+                    )
+                  
+                
+                
+                  
+                    (
+                    
+                      V
+                      ⋅
+                      (
+                      2
+                      k
+                      −
+                      1
+                      )
+                      (
+                      2
+                      k
+                      −
+                      3
+                      )
+                      ⋯
+                      5
+                      ⋅
+                      3
+                      ⋅
+                      1
+                      
+                        
+                          
+                            π
+                            2
+                          
+                        
+                      
+                    
+                    )
+                  
+                  
+                    −
+                    2
+                    
+                      /
+                    
+                    (
+                    4
+                    
+                      k
+                      
+                        2
+                      
+                    
+                    −
+                    1
+                    )
+                  
+                
+                
+                  R
+                  
+                    2
+                    k
+                    −
+                    1
+                  
+                
+                (
+                V
+                )
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}R_{2k}(V)&=k^{1/(2k)}(V\cdot (k-1)!)^{-1/(2(k-1)k)}R_{2k-2}(V)\\&=k^{1/(2k)}(V\cdot (k-1)\cdot (k-2)\cdots 3\cdot 2\cdot 1)^{-1/(2(k-1)k)}R_{2k-2}(V),\\R_{2k+1}(V)&=(2k+1)^{1/(2k+1)}\left(V\cdot (2k-1)!!{\sqrt {\frac {\pi }{2}}}\right)^{-2/(4k^{2}-1)}R_{2k-1}(V)\\&=(2k+1)^{1/(2k+1)}\left(V\cdot (2k-1)(2k-3)\cdots 5\cdot 3\cdot 1{\sqrt {\frac {\pi }{2}}}\right)^{-2/(4k^{2}-1)}R_{2k-1}(V).\end{aligned}}}
+  
+
+
+=== Low dimensions ===
+In low dimensions, these volume and radius formulas simplify to the following.
+
+
+=== High dimensions ===
+Suppose that R is fixed. Then the volume of an n-ball of radius R approaches zero as n tends to infinity. This can be shown using the two-dimension recursion formula. At each step, the new factor being multiplied into the volume is proportional to 1 / n, where the constant of proportionality 2πR2 is independent of n. Eventually, n is so large that the new factor is less than 1. From then on, the volume of an n-ball must decrease at least geometrically, and therefore it tends to zero. A variant on this proof uses the one-dimension recursion formula. Here, the new factor is proportional to a quotient of gamma functions. Gautschi's inequality bounds this quotient above by n−1/2. The argument concludes as before by showing that the volumes decrease at least geometrically.
+A more precise description of the high dimensional behavior of the volume can be obtained using Stirling's approximation. It implies the asymptotic formula:
+
+  
+    
+      
+        
+          V
+          
+            n
+          
+        
+        (
+        R
+        )
+        ∼
+        
+          
+            1
+            
+              n
+              π
+            
+          
+        
+        
+          
+            (
+            
+              
+                
+                  2
+                  π
+                  e
+                
+                n
+              
+            
+            )
+          
+          
+            
+              n
+              2
+            
+          
+        
+        
+          R
+          
+            n
+          
+        
+        .
+      
+    
+    {\displaystyle V_{n}(R)\sim {\frac {1}{\sqrt {n\pi }}}\left({\frac {2\pi e}{n}}\right)^{\frac {n}{2}}R^{n}.}
+  The error in this approximation is a factor of 1 + O(n−1). Stirling's approximation is in fact an underestimate of the gamma function, so the above formula is an upper bound. This provides another proof that the volume of the ball decreases exponentially: When n is sufficiently large, the factor R√2πe/n is less than one, and then the same argument as before applies.
+If instead V is fixed while n is large, then by Stirling's approximation again, the radius of an n-ball of volume V is approximately
+
+  
+    
+      
+        
+          R
+          
+            n
+          
+        
+        (
+        V
+        )
+        ∼
+        (
+        π
+        n
+        
+          )
+          
+            
+              1
+              
+                2
+                n
+              
+            
+          
+        
+        
+          
+            
+              n
+              
+                2
+                π
+                e
+              
+            
+          
+        
+        
+          V
+          
+            
+              1
+              n
+            
+          
+        
+        .
+      
+    
+    {\displaystyle R_{n}(V)\sim (\pi n)^{\frac {1}{2n}}{\sqrt {\frac {n}{2\pi e}}}V^{\frac {1}{n}}.}
+  This expression is a lower bound for Rn(V), and the error is again a factor of 1 + O(n−1). As n increases, Rn(V) grows as 
+  
+    
+      
+        Θ
+        (
+        
+          
+            n
+          
+        
+        )
+        .
+      
+    
+    {\displaystyle \Theta ({\sqrt {n}}).}
+  
+
+
+=== Relation with surface area ===
+Let An(R) denote the surface area of the n-sphere of radius R. The n-sphere is the boundary of the (n + 1)-ball of radius R. The (n + 1)-ball is a union of concentric spheres, and consequently the surface area and the volume are related by:
+
+  
+    
+      
+        
+          A
+          
+            n
+          
+        
+        (
+        R
+        )
+        =
+        
+          
+            d
+            
+              d
+              R
+            
+          
+        
+        
+          V
+          
+            n
+            +
+            1
+          
+        
+        (
+        R
+        )
+        .
+      
+    
+    {\displaystyle A_{n}(R)={\frac {d}{dR}}V_{n+1}(R).}
+  Combining this with the explicit formula for the volume of an (n + 1)-ball gives
+
+  
+    
+      
+        
+          A
+          
+            n
+          
+        
+        (
+        R
+        )
+        =
+        
+          
+            
+              2
+              
+                π
+                
+                  
+                    
+                      n
+                      +
+                      1
+                    
+                    2
+                  
+                
+              
+            
+            
+              Γ
+              
+                
+                  (
+                
+              
+              
+                
+                  
+                    n
+                    +
+                    1
+                  
+                  2
+                
+              
+              
+                
+                  )
+                
+              
+            
+          
+        
+        
+          R
+          
+            n
+          
+        
+        .
+      
+    
+    {\displaystyle A_{n}(R)={\frac {2\pi ^{\frac {n+1}{2}}}{\Gamma {\big (}{\frac {n+1}{2}}{\big )}}}R^{n}.}
+  Since the volume is proportional to a power of the radius, the above relation leads to a simple equation relating the surface area of an n-ball and the volume of an (n + 1)-ball. By applying the two-dimension recursion formula, it also gives an equation relating the surface area of an n-ball and the volume of an (n − 1)-ball.  These formulas, together with the volume and surface area of zero-dimensional balls, can be used as a system of recurrence relations for the volumes and surface areas of balls:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  V
+                  
+                    0
+                  
+                
+                (
+                R
+                )
+              
+              
+                
+                =
+                1
+                ,
+              
+            
+            
+              
+                
+                  A
+                  
+                    0
+                  
+                
+                (
+                R
+                )
+              
+              
+                
+                =
+                2
+                ,
+              
+            
+            
+              
+                
+                  V
+                  
+                    n
+                    +
+                    1
+                  
+                
+                (
+                R
+                )
+              
+              
+                
+                =
+                
+                  
+                    R
+                    
+                      n
+                      +
+                      1
+                    
+                  
+                
+                
+                  A
+                  
+                    n
+                  
+                
+                (
+                R
+                )
+                ,
+              
+            
+            
+              
+                
+                  A
+                  
+                    n
+                    +
+                    1
+                  
+                
+                (
+                R
+                )
+              
+              
+                
+                =
+                (
+                2
+                π
+                R
+                )
+                
+                  V
+                  
+                    n
+                  
+                
+                (
+                R
+                )
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}V_{0}(R)&=1,\\A_{0}(R)&=2,\\V_{n+1}(R)&={\frac {R}{n+1}}A_{n}(R),\\A_{n+1}(R)&=(2\pi R)V_{n}(R).\end{aligned}}}
+  
+
+
+=== Dimension maximizing the volume of a fixed-radius ball ===
+Suppose that R is a fixed positive real number, and consider the volume Vn(R) as a function of the positive integer dimension n. Since the volume of a ball with fixed positive radius tends to zero as n → ∞, the maximum volume is achieved for some value of n. The dimension in which this happens depends on the radius R.
+To find the n for which the maximum occurs, interpolate the function 
+  
+    
+      
+        n
+        ↦
+        
+          V
+          
+            n
+          
+        
+        (
+        R
+        )
+      
+    
+    {\displaystyle n\mapsto V_{n}(R)}
+   to all real x > 0 by defining
+
+  
+    
+      
+        V
+        (
+        x
+        ,
+        R
+        )
+        =
+        
+          
+            
+              π
+              
+                
+                  x
+                  2
+                
+              
+            
+            
+              Γ
+              
+                (
+                
+                  
+                    
+                      x
+                      2
+                    
+                  
+                  +
+                  1
+                
+                )
+              
+            
+          
+        
+        
+          R
+          
+            x
+          
+        
+        .
+      
+    
+    {\displaystyle V(x,R)={\frac {\pi ^{\frac {x}{2}}}{\Gamma \left({\frac {x}{2}}+1\right)}}R^{x}.}
+  When x is not a positive integer, this function has no obvious geometric interpretation. However, it is smooth, so the techniques of calculus can be used to find maxima. 
+The extrema of V(x, R) for fixed R may occur only at the critical points or at the boundaries x → 0+ and x → ∞.  Because the logarithm is monotonically increasing, the critical points of 
+  
+    
+      
+        V
+        (
+        x
+        ,
+        R
+        )
+      
+    
+    {\displaystyle V(x,R)}
+   are the same as those of its logarithm.  The derivative of 
+  
+    
+      
+        log
+        ⁡
+        V
+        (
+        x
+        ,
+        R
+        )
+      
+    
+    {\displaystyle \log V(x,R)}
+   with respect to x is
+
+  
+    
+      
+        
+          
+            ∂
+            
+              ∂
+              x
+            
+          
+        
+        
+          
+            (
+          
+        
+        log
+        ⁡
+        V
+        (
+        x
+        ,
+        R
+        )
+        
+          
+            )
+          
+        
+        =
+        
+          
+            
+              log
+              ⁡
+              π
+            
+            2
+          
+        
+        +
+        log
+        ⁡
+        R
+        −
+        
+          
+            1
+            2
+          
+        
+        ψ
+        
+          (
+          
+            
+              
+                x
+                2
+              
+            
+            +
+            1
+          
+          )
+        
+        ,
+      
+    
+    {\displaystyle {\frac {\partial }{\partial x}}{\big (}\log V(x,R){\big )}={\frac {\log \pi }{2}}+\log R-{\frac {1}{2}}\psi \left({\frac {x}{2}}+1\right),}
+  where ψ is the digamma function, the logarithmic derivative of the gamma function.  The critical points of V(x, R) therefore occur at the solutions of
+
+  
+    
+      
+        ψ
+        
+          (
+          
+            
+              
+                x
+                2
+              
+            
+            +
+            1
+          
+          )
+        
+        =
+        log
+        ⁡
+        π
+        +
+        2
+        log
+        ⁡
+        R
+        .
+      
+    
+    {\displaystyle \psi \left({\frac {x}{2}}+1\right)=\log \pi +2\log R.}
+  Because the gamma function is logarithmically convex on the positive real axis, the digamma function is monotonically increasing there, so the above equation has at most one solution.  Because 
+  
+    
+      
+        
+          
+            lim
+            
+              x
+              →
+              
+                0
+                
+                  +
+                
+              
+            
+          
+          ψ
+          (
+          x
+          )
+          =
+          −
+          ∞
+        
+      
+    
+    {\displaystyle \textstyle \lim _{x\to 0^{+}}\psi (x)=-\infty }
+   and 
+  
+    
+      
+        
+          
+            lim
+            
+              x
+              →
+              ∞
+            
+          
+          ψ
+          (
+          x
+          )
+          =
+          +
+          ∞
+        
+      
+    
+    {\displaystyle \textstyle \lim _{x\to \infty }\psi (x)=+\infty }
+  , there is at least one positive real solution.  Therefore the above equation has a unique solution.  Denoting the solution by x0, we have
+
+  
+    
+      
+        
+          x
+          
+            0
+          
+        
+        =
+        2
+        
+          ψ
+          
+            −
+            1
+          
+        
+        (
+        log
+        ⁡
+        π
+        +
+        2
+        log
+        ⁡
+        R
+        )
+        −
+        2.
+      
+    
+    {\displaystyle x_{0}=2\psi ^{-1}(\log \pi +2\log R)-2.}
+  The monotonicity of the digamma function along the positive real axis further implies that V(x, R) is increasing for all x < x0 and decreasing for all x > x0.  It follows that x0 is the unique maximum of V(x, R) and that the maxima of n ↦ Vn(R) are contained in the set 
+  
+    
+      
+        {
+        ⌊
+        
+          x
+          
+            0
+          
+        
+        ⌋
+        ,
+        ⌈
+        
+          x
+          
+            0
+          
+        
+        ⌉
+        }
+      
+    
+    {\displaystyle \{\lfloor x_{0}\rfloor ,\lceil x_{0}\rceil \}}
+  .  If x0 is an integer, then this set has only one element, and this element is the unique maximum of both V(x, R) and Vn(R).  Otherwise, the set has two elements, and either Vn(R) assumes its unique maximum at one of the two elements in the set, or Vn(R) is maximized at both these elements.
+More explicit, though less precise, estimates may be derived by bounding the digamma function.  For y > 1, the digamma function satisfies:
+
+  
+    
+      
+        log
+        ⁡
+        
+          (
+          
+            y
+            −
+            
+              
+                
+                  1
+                  2
+                
+              
+            
+          
+          )
+        
+        <
+        ψ
+        (
+        y
+        )
+        <
+        log
+        ⁡
+        (
+        y
+        +
+        
+          e
+          
+            −
+            γ
+          
+        
+        −
+        1
+        )
+        ,
+      
+    
+    {\displaystyle \log \left(y-{\tfrac {1}{2}}\right)<\psi (y)<\log(y+e^{-\gamma }-1),}
+  where γ is the Euler–Mascheroni constant.  Applying these bounds with y = x0/2 + 1 yields
+
+  
+    
+      
+        log
+        ⁡
+        
+          (
+          
+            
+              
+                
+                  
+                    x
+                    
+                      0
+                    
+                  
+                  2
+                
+              
+            
+            +
+            
+              
+                
+                  1
+                  2
+                
+              
+            
+          
+          )
+        
+        <
+        ψ
+        
+          (
+          
+            
+              
+                
+                  
+                    x
+                    
+                      0
+                    
+                  
+                  2
+                
+              
+            
+            +
+            1
+          
+          )
+        
+        =
+        log
+        ⁡
+        π
+        +
+        2
+        log
+        ⁡
+        R
+        <
+        log
+        ⁡
+        
+          (
+          
+            
+              
+                
+                  
+                    x
+                    
+                      0
+                    
+                  
+                  2
+                
+              
+            
+            +
+            
+              e
+              
+                −
+                γ
+              
+            
+          
+          )
+        
+        ,
+      
+    
+    {\displaystyle \log \left({\tfrac {x_{0}}{2}}+{\tfrac {1}{2}}\right)<\psi \left({\tfrac {x_{0}}{2}}+1\right)=\log \pi +2\log R<\log \left({\tfrac {x_{0}}{2}}+e^{-\gamma }\right),}
+  whence
+
+  
+    
+      
+        2
+        π
+        
+          R
+          
+            2
+          
+        
+        −
+        2
+        
+          e
+          
+            −
+            γ
+          
+        
+        <
+        
+          x
+          
+            0
+          
+        
+        <
+        2
+        π
+        
+          R
+          
+            2
+          
+        
+        −
+        1.
+      
+    
+    {\displaystyle 2\pi R^{2}-2e^{-\gamma }<x_{0}<2\pi R^{2}-1.}
+  Therefore the maximum of Vn(R) is achieved for some integer n such that
+
+  
+    
+      
+        ⌊
+        2
+        π
+        
+          R
+          
+            2
+          
+        
+        −
+        2
+        
+          e
+          
+            −
+            γ
+          
+        
+        ⌋
+        ≤
+        n
+        ≤
+        ⌈
+        2
+        π
+        
+          R
+          
+            2
+          
+        
+        −
+        1
+        ⌉
+        .
+      
+    
+    {\displaystyle \lfloor 2\pi R^{2}-2e^{-\gamma }\rfloor \leq n\leq \lceil 2\pi R^{2}-1\rceil .}
+  To find the maximum of Vn(R), it suffices to maximize it over all n in this interval.  Because 
+  
+    
+      
+        
+          |
+        
+        2
+        
+          e
+          
+            −
+            γ
+          
+        
+        −
+        1
+        
+          |
+        
+        <
+        0.2
+      
+    
+    {\displaystyle |2e^{-\gamma }-1|<0.2}
+  , this interval contains at most three integers and often only two.
+For example, when R = 1, these bounds imply that the maximum volume is achieved for some n for which ⌊5.08⌋ ≤ n ≤ ⌈5.28⌉, that is, for n = 5 or n = 6.  An examination of the table above shows that it is achieved at the lower bound, in dimension n = 5.  When R = 1.1, the bounds are ⌊6.48⌋ ≤ n ≤ ⌈6.60⌉, and the maximum is achieved at the upper bound, that is, when n = 7.  Finally, if 
+  
+    
+      
+        R
+        =
+        exp
+        ⁡
+        (
+        11
+        
+          /
+        
+        12
+        −
+        γ
+        
+          /
+        
+        2
+        )
+        
+          /
+        
+        
+          
+            π
+          
+        
+        ≈
+        1.057
+      
+    
+    {\displaystyle R=\exp(11/12-\gamma /2)/{\sqrt {\pi }}\approx 1.057}
+  , then the bounds are ⌊5.90⌋ ≤ n ≤ ⌈6.02⌉, so the interval of possible n contains three integers, and the maximum of both Vn(R) and V(x, R) is achieved at the integer x0 = 6.
+
+
+== Proofs ==
+There are many proofs of the above formulas.
+
+
+=== The volume is proportional to the nth power of the radius ===
+An important step in several proofs about volumes of n-balls, and a generally useful fact besides, is that the volume of the n-ball of radius R is proportional to Rn:
+
+  
+    
+      
+        
+          V
+          
+            n
+          
+        
+        (
+        R
+        )
+        ∝
+        
+          R
+          
+            n
+          
+        
+        .
+      
+    
+    {\displaystyle V_{n}(R)\propto R^{n}.}
+  The proportionality constant is the volume of the unit ball.
+This is a special case of a general fact about volumes in n-dimensional space: If K
+is a body (measurable set) in that space and RK is the body obtained by stretching in all directions by the factor R then the volume of RK equals Rn times the volume of K. This is a direct consequence of the change of variables formula:
+
+  
+    
+      
+        V
+        (
+        R
+        K
+        )
+        =
+        
+          ∫
+          
+            R
+            K
+          
+        
+        d
+        x
+        =
+        
+          ∫
+          
+            K
+          
+        
+        
+          R
+          
+            n
+          
+        
+        
+        d
+        y
+        =
+        
+          R
+          
+            n
+          
+        
+        V
+        (
+        K
+        )
+      
+    
+    {\displaystyle V(RK)=\int _{RK}dx=\int _{K}R^{n}\,dy=R^{n}V(K)}
+  where dx = dx1…dxn and the substitution x = Ry was made.
+Another proof of the above relation, which avoids multi-dimensional integration, uses induction: The base case is n = 0, where the proportionality is obvious. For the inductive case, assume that proportionality is true in dimension n − 1. Note that the intersection of an n-ball with a hyperplane is an (n − 1)-ball. When the volume of the n-ball is written as an integral of volumes of (n − 1)-balls:
+
+  
+    
+      
+        
+          V
+          
+            n
+          
+        
+        (
+        R
+        )
+        =
+        
+          ∫
+          
+            −
+            R
+          
+          
+            R
+          
+        
+        
+          V
+          
+            n
+            −
+            1
+          
+        
+        
+          (
+          
+            
+              
+                R
+                
+                  2
+                
+              
+              −
+              
+                x
+                
+                  2
+                
+              
+            
+          
+          )
+        
+        
+        d
+        x
+        ,
+      
+    
+    {\displaystyle V_{n}(R)=\int _{-R}^{R}V_{n-1}\left({\sqrt {R^{2}-x^{2}}}\right)\,dx,}
+  it is possible by the inductive assumption to remove a factor of R from the radius of the (n − 1)-ball to get:
+
+  
+    
+      
+        
+          V
+          
+            n
+          
+        
+        (
+        R
+        )
+        =
+        
+          R
+          
+            n
+            −
+            1
+          
+        
+        
+          ∫
+          
+            −
+            R
+          
+          
+            R
+          
+        
+        
+          V
+          
+            n
+            −
+            1
+          
+        
+        
+          (
+          
+            
+              1
+              −
+              
+                
+                  (
+                  
+                    
+                      x
+                      R
+                    
+                  
+                  )
+                
+                
+                  2
+                
+              
+            
+          
+          )
+        
+        
+        d
+        x
+        .
+      
+    
+    {\displaystyle V_{n}(R)=R^{n-1}\int _{-R}^{R}V_{n-1}\left({\sqrt {1-\left({\frac {x}{R}}\right)^{2}}}\right)\,dx.}
+  Making the change of variables t = x/R leads to:
+
+  
+    
+      
+        
+          V
+          
+            n
+          
+        
+        (
+        R
+        )
+        =
+        
+          R
+          
+            n
+          
+        
+        
+          ∫
+          
+            −
+            1
+          
+          
+            1
+          
+        
+        
+          V
+          
+            n
+            −
+            1
+          
+        
+        
+          (
+          
+            
+              1
+              −
+              
+                t
+                
+                  2
+                
+              
+            
+          
+          )
+        
+        
+        d
+        t
+        =
+        
+          R
+          
+            n
+          
+        
+        
+          V
+          
+            n
+          
+        
+        (
+        1
+        )
+        ,
+      
+    
+    {\displaystyle V_{n}(R)=R^{n}\int _{-1}^{1}V_{n-1}\left({\sqrt {1-t^{2}}}\right)\,dt=R^{n}V_{n}(1),}
+  which demonstrates the proportionality relation in dimension n. By induction, the proportionality relation is true in all dimensions.
+
+
+=== The two-dimension recursion formula ===
+A proof of the recursion formula relating the volume of the n-ball and an (n − 2)-ball can be given using the proportionality formula above and integration in cylindrical coordinates. Fix a plane through the center of the ball. Let r denote the distance between a point in the plane and the center of the sphere, and let θ denote the azimuth. Intersecting the n-ball with the (n − 2)-dimensional plane defined by fixing a radius and an azimuth gives an (n − 2)-ball of radius √R2 − r2. The volume of the ball can therefore be written as an iterated integral of the volumes of the (n − 2)-balls over the possible radii and azimuths:
+
+  
+    
+      
+        
+          V
+          
+            n
+          
+        
+        (
+        R
+        )
+        =
+        
+          ∫
+          
+            0
+          
+          
+            2
+            π
+          
+        
+        
+          ∫
+          
+            0
+          
+          
+            R
+          
+        
+        
+          V
+          
+            n
+            −
+            2
+          
+        
+        
+          (
+          
+            
+              
+                R
+                
+                  2
+                
+              
+              −
+              
+                r
+                
+                  2
+                
+              
+            
+          
+          )
+        
+        
+        r
+        
+        d
+        r
+        
+        d
+        θ
+        ,
+      
+    
+    {\displaystyle V_{n}(R)=\int _{0}^{2\pi }\int _{0}^{R}V_{n-2}\left({\sqrt {R^{2}-r^{2}}}\right)\,r\,dr\,d\theta ,}
+  The azimuthal coordinate can be immediately integrated out. Applying the proportionality relation shows that the volume equals:
+
+  
+    
+      
+        
+          V
+          
+            n
+          
+        
+        (
+        R
+        )
+        =
+        2
+        π
+        
+          V
+          
+            n
+            −
+            2
+          
+        
+        (
+        R
+        )
+        
+          ∫
+          
+            0
+          
+          
+            R
+          
+        
+        
+          
+            (
+            
+              1
+              −
+              
+                
+                  (
+                  
+                    
+                      r
+                      R
+                    
+                  
+                  )
+                
+                
+                  2
+                
+              
+            
+            )
+          
+          
+            
+              
+                n
+                −
+                2
+              
+              2
+            
+          
+        
+        
+        r
+        
+        d
+        r
+        .
+      
+    
+    {\displaystyle V_{n}(R)=2\pi V_{n-2}(R)\int _{0}^{R}\left(1-\left({\frac {r}{R}}\right)^{2}\right)^{\frac {n-2}{2}}\,r\,dr.}
+  The integral can be evaluated by making the substitution u = 1 − (r/R)2 to get:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  V
+                  
+                    n
+                  
+                
+                (
+                R
+                )
+              
+              
+                
+                =
+                2
+                π
+                
+                  V
+                  
+                    n
+                    −
+                    2
+                  
+                
+                (
+                R
+                )
+                ⋅
+                
+                  
+                    [
+                    
+                      −
+                      
+                        
+                          
+                            R
+                            
+                              2
+                            
+                          
+                          n
+                        
+                      
+                      
+                        
+                          (
+                          
+                            1
+                            −
+                            
+                              
+                                (
+                                
+                                  
+                                    r
+                                    R
+                                  
+                                
+                                )
+                              
+                              
+                                2
+                              
+                            
+                          
+                          )
+                        
+                        
+                          
+                            n
+                            2
+                          
+                        
+                      
+                    
+                    ]
+                  
+                  
+                    r
+                    =
+                    0
+                  
+                  
+                    r
+                    =
+                    R
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    
+                      2
+                      π
+                      
+                        R
+                        
+                          2
+                        
+                      
+                    
+                    n
+                  
+                
+                
+                  V
+                  
+                    n
+                    −
+                    2
+                  
+                
+                (
+                R
+                )
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}V_{n}(R)&=2\pi V_{n-2}(R)\cdot \left[-{\frac {R^{2}}{n}}\left(1-\left({\frac {r}{R}}\right)^{2}\right)^{\frac {n}{2}}\right]_{r=0}^{r=R}\\&={\frac {2\pi R^{2}}{n}}V_{n-2}(R),\end{aligned}}}
+  which is the two-dimension recursion formula.
+The same technique can be used to give an inductive proof of the volume formula. The base cases of the induction are the 0-ball and the 1-ball, which can be checked directly using the facts Γ(1) = 1 and Γ(3/2) = 1/2 · Γ(1/2) = √π/2. The inductive step is similar to the above, but instead of applying proportionality to the volumes of the (n − 2)-balls, the inductive assumption is applied instead.
+
+
+=== The one-dimension recursion formula ===
+The proportionality relation can also be used to prove the recursion formula relating the volumes of an n-ball and an (n − 1)-ball. As in the proof of the proportionality formula, the volume of an n-ball can be written as an integral over the volumes of (n − 1)-balls. Instead of making a substitution, however, the proportionality relation can be applied to the volumes of the (n − 1)-balls in the integrand:
+
+  
+    
+      
+        
+          V
+          
+            n
+          
+        
+        (
+        R
+        )
+        =
+        
+          V
+          
+            n
+            −
+            1
+          
+        
+        (
+        R
+        )
+        
+          ∫
+          
+            −
+            R
+          
+          
+            R
+          
+        
+        
+          
+            (
+            
+              1
+              −
+              
+                
+                  (
+                  
+                    
+                      x
+                      R
+                    
+                  
+                  )
+                
+                
+                  2
+                
+              
+            
+            )
+          
+          
+            
+              
+                n
+                −
+                1
+              
+              2
+            
+          
+        
+        
+        d
+        x
+        .
+      
+    
+    {\displaystyle V_{n}(R)=V_{n-1}(R)\int _{-R}^{R}\left(1-\left({\frac {x}{R}}\right)^{2}\right)^{\frac {n-1}{2}}\,dx.}
+  The integrand is an even function, so by symmetry the interval of integration can be restricted to [0, R]. On the interval [0, R], it is possible to apply the substitution u = (x/R)2. This transforms the expression into:
+
+  
+    
+      
+        
+          V
+          
+            n
+            −
+            1
+          
+        
+        (
+        R
+        )
+        ⋅
+        R
+        ⋅
+        
+          ∫
+          
+            0
+          
+          
+            1
+          
+        
+        (
+        1
+        −
+        u
+        
+          )
+          
+            
+              
+                n
+                −
+                1
+              
+              2
+            
+          
+        
+        
+          u
+          
+            −
+            
+              
+                1
+                2
+              
+            
+          
+        
+        
+        d
+        u
+      
+    
+    {\displaystyle V_{n-1}(R)\cdot R\cdot \int _{0}^{1}(1-u)^{\frac {n-1}{2}}u^{-{\frac {1}{2}}}\,du}
+  The integral is a value of a well-known special function called the beta function Β(x,y), and the volume in terms of the beta function is:
+
+  
+    
+      
+        
+          V
+          
+            n
+          
+        
+        (
+        R
+        )
+        =
+        
+          V
+          
+            n
+            −
+            1
+          
+        
+        (
+        R
+        )
+        ⋅
+        R
+        ⋅
+        
+          B
+        
+        
+          (
+          
+            
+              
+                
+                  
+                    n
+                    +
+                    1
+                  
+                  2
+                
+              
+            
+            ,
+            
+              
+                
+                  1
+                  2
+                
+              
+            
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle V_{n}(R)=V_{n-1}(R)\cdot R\cdot \mathrm {B} \left({\tfrac {n+1}{2}},{\tfrac {1}{2}}\right).}
+  The beta function can be expressed in terms of the gamma function in much the same way that factorials are related to binomial coefficients. Applying this relationship gives:
+
+  
+    
+      
+        
+          V
+          
+            n
+          
+        
+        (
+        R
+        )
+        =
+        
+          V
+          
+            n
+            −
+            1
+          
+        
+        (
+        R
+        )
+        ⋅
+        R
+        ⋅
+        
+          
+            
+              Γ
+              
+                (
+                
+                  
+                    
+                      n
+                      +
+                      1
+                    
+                    2
+                  
+                
+                )
+              
+              Γ
+              
+                (
+                
+                  
+                    1
+                    2
+                  
+                
+                )
+              
+            
+            
+              Γ
+              
+                (
+                
+                  
+                    
+                      n
+                      2
+                    
+                  
+                  +
+                  1
+                
+                )
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle V_{n}(R)=V_{n-1}(R)\cdot R\cdot {\frac {\Gamma \left({\frac {n+1}{2}}\right)\Gamma \left({\frac {1}{2}}\right)}{\Gamma \left({\frac {n}{2}}+1\right)}}.}
+  Using the value Γ(1/2) = √π gives the one-dimension recursion formula:
+
+  
+    
+      
+        
+          V
+          
+            n
+          
+        
+        (
+        R
+        )
+        =
+        R
+        
+          
+            π
+          
+        
+        
+          
+            
+              Γ
+              
+                (
+                
+                  
+                    
+                      n
+                      +
+                      1
+                    
+                    2
+                  
+                
+                )
+              
+            
+            
+              Γ
+              
+                (
+                
+                  
+                    
+                      n
+                      2
+                    
+                  
+                  +
+                  1
+                
+                )
+              
+            
+          
+        
+        
+          V
+          
+            n
+            −
+            1
+          
+        
+        (
+        R
+        )
+        .
+      
+    
+    {\displaystyle V_{n}(R)=R{\sqrt {\pi }}{\frac {\Gamma \left({\frac {n+1}{2}}\right)}{\Gamma \left({\frac {n}{2}}+1\right)}}V_{n-1}(R).}
+  As with the two-dimension recursive formula, the same technique can be used to give an inductive proof of the volume formula.
+
+
+=== Direct integration in spherical coordinates ===
+The volume can be computed by integrating the volume element in spherical coordinates. The spherical coordinate system has a radial coordinate r and angular coordinates φ1, …, φn − 1, where the domain of each φ except φn − 1 is [0, π), and the domain of φn − 1 is [0, 2π). The spherical volume element is:
+
+  
+    
+      
+        d
+        V
+        =
+        
+          r
+          
+            n
+            −
+            1
+          
+        
+        
+          sin
+          
+            n
+            −
+            2
+          
+        
+        ⁡
+        (
+        
+          φ
+          
+            1
+          
+        
+        )
+        
+          sin
+          
+            n
+            −
+            3
+          
+        
+        ⁡
+        (
+        
+          φ
+          
+            2
+          
+        
+        )
+        ⋯
+        sin
+        ⁡
+        (
+        
+          φ
+          
+            n
+            −
+            2
+          
+        
+        )
+        
+        d
+        r
+        
+        d
+        
+          φ
+          
+            1
+          
+        
+        
+        d
+        
+          φ
+          
+            2
+          
+        
+        ⋯
+        d
+        
+          φ
+          
+            n
+            −
+            1
+          
+        
+        ,
+      
+    
+    {\displaystyle dV=r^{n-1}\sin ^{n-2}(\varphi _{1})\sin ^{n-3}(\varphi _{2})\cdots \sin(\varphi _{n-2})\,dr\,d\varphi _{1}\,d\varphi _{2}\cdots d\varphi _{n-1},}
+  and the volume is the integral of this quantity over r between 0 and R and all possible angles:
+
+  
+    
+      
+        
+          V
+          
+            n
+          
+        
+        (
+        R
+        )
+        =
+        
+          ∫
+          
+            0
+          
+          
+            R
+          
+        
+        
+          ∫
+          
+            0
+          
+          
+            π
+          
+        
+        ⋯
+        
+          ∫
+          
+            0
+          
+          
+            2
+            π
+          
+        
+        
+          r
+          
+            n
+            −
+            1
+          
+        
+        
+          sin
+          
+            n
+            −
+            2
+          
+        
+        ⁡
+        (
+        
+          φ
+          
+            1
+          
+        
+        )
+        ⋯
+        sin
+        ⁡
+        (
+        
+          φ
+          
+            n
+            −
+            2
+          
+        
+        )
+        
+        d
+        
+          φ
+          
+            n
+            −
+            1
+          
+        
+        ⋯
+        d
+        
+          φ
+          
+            1
+          
+        
+        
+        d
+        r
+        .
+      
+    
+    {\displaystyle V_{n}(R)=\int _{0}^{R}\int _{0}^{\pi }\cdots \int _{0}^{2\pi }r^{n-1}\sin ^{n-2}(\varphi _{1})\cdots \sin(\varphi _{n-2})\,d\varphi _{n-1}\cdots d\varphi _{1}\,dr.}
+  Each of the factors in the integrand depends on only a single variable, and therefore the iterated integral can be written as a product of integrals:
+
+  
+    
+      
+        
+          V
+          
+            n
+          
+        
+        (
+        R
+        )
+        =
+        
+          (
+          
+            
+              ∫
+              
+                0
+              
+              
+                R
+              
+            
+            
+              r
+              
+                n
+                −
+                1
+              
+            
+            
+            d
+            r
+          
+          )
+        
+        
+          (
+          
+            
+              ∫
+              
+                0
+              
+              
+                π
+              
+            
+            
+              sin
+              
+                n
+                −
+                2
+              
+            
+            ⁡
+            (
+            
+              φ
+              
+                1
+              
+            
+            )
+            
+            d
+            
+              φ
+              
+                1
+              
+            
+          
+          )
+        
+        ⋯
+        
+          (
+          
+            
+              ∫
+              
+                0
+              
+              
+                2
+                π
+              
+            
+            d
+            
+              φ
+              
+                n
+                −
+                1
+              
+            
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle V_{n}(R)=\left(\int _{0}^{R}r^{n-1}\,dr\right)\left(\int _{0}^{\pi }\sin ^{n-2}(\varphi _{1})\,d\varphi _{1}\right)\cdots \left(\int _{0}^{2\pi }d\varphi _{n-1}\right).}
+  The integral over the radius is Rn/n. The intervals of integration on the angular coordinates can, by symmetry, be changed to [0, π/2]:
+
+  
+    
+      
+        
+          V
+          
+            n
+          
+        
+        (
+        R
+        )
+        =
+        
+          
+            
+              R
+              
+                n
+              
+            
+            n
+          
+        
+        
+          (
+          
+            2
+            
+              ∫
+              
+                0
+              
+              
+                
+                  π
+                  2
+                
+              
+            
+            
+              sin
+              
+                n
+                −
+                2
+              
+            
+            ⁡
+            (
+            
+              φ
+              
+                1
+              
+            
+            )
+            
+            d
+            
+              φ
+              
+                1
+              
+            
+          
+          )
+        
+        ⋯
+        
+          (
+          
+            4
+            
+              ∫
+              
+                0
+              
+              
+                
+                  π
+                  2
+                
+              
+            
+            d
+            
+              φ
+              
+                n
+                −
+                1
+              
+            
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle V_{n}(R)={\frac {R^{n}}{n}}\left(2\int _{0}^{\frac {\pi }{2}}\sin ^{n-2}(\varphi _{1})\,d\varphi _{1}\right)\cdots \left(4\int _{0}^{\frac {\pi }{2}}d\varphi _{n-1}\right).}
+  Each of the remaining integrals is now a particular value of the beta function:
+
+  
+    
+      
+        
+          V
+          
+            n
+          
+        
+        (
+        R
+        )
+        =
+        
+          
+            
+              R
+              
+                n
+              
+            
+            n
+          
+        
+        
+          B
+        
+        
+          (
+          
+            
+              
+                
+                  n
+                  −
+                  1
+                
+                2
+              
+            
+            ,
+            
+              
+                1
+                2
+              
+            
+          
+          )
+        
+        
+          B
+        
+        
+          (
+          
+            
+              
+                
+                  n
+                  −
+                  2
+                
+                2
+              
+            
+            ,
+            
+              
+                1
+                2
+              
+            
+          
+          )
+        
+        ⋯
+        
+          B
+        
+        
+          (
+          
+            1
+            ,
+            
+              
+                1
+                2
+              
+            
+          
+          )
+        
+        ⋅
+        2
+        
+          B
+        
+        
+          (
+          
+            
+              
+                1
+                2
+              
+            
+            ,
+            
+              
+                1
+                2
+              
+            
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle V_{n}(R)={\frac {R^{n}}{n}}\mathrm {B} \left({\frac {n-1}{2}},{\frac {1}{2}}\right)\mathrm {B} \left({\frac {n-2}{2}},{\frac {1}{2}}\right)\cdots \mathrm {B} \left(1,{\frac {1}{2}}\right)\cdot 2\mathrm {B} \left({\frac {1}{2}},{\frac {1}{2}}\right).}
+  The beta functions can be rewritten in terms of gamma functions:
+
+  
+    
+      
+        
+          V
+          
+            n
+          
+        
+        (
+        R
+        )
+        =
+        
+          
+            
+              R
+              
+                n
+              
+            
+            n
+          
+        
+        
+          
+            
+              Γ
+              
+                (
+                
+                  
+                    
+                      n
+                      −
+                      1
+                    
+                    2
+                  
+                
+                )
+              
+              Γ
+              
+                (
+                
+                  
+                    1
+                    2
+                  
+                
+                )
+              
+            
+            
+              Γ
+              
+                (
+                
+                  
+                    n
+                    2
+                  
+                
+                )
+              
+            
+          
+        
+        
+          
+            
+              Γ
+              
+                (
+                
+                  
+                    
+                      n
+                      −
+                      2
+                    
+                    2
+                  
+                
+                )
+              
+              Γ
+              
+                (
+                
+                  
+                    1
+                    2
+                  
+                
+                )
+              
+            
+            
+              Γ
+              
+                (
+                
+                  
+                    
+                      n
+                      −
+                      1
+                    
+                    2
+                  
+                
+                )
+              
+            
+          
+        
+        ⋯
+        
+          
+            
+              Γ
+              
+                (
+                1
+                )
+              
+              Γ
+              
+                (
+                
+                  
+                    1
+                    2
+                  
+                
+                )
+              
+            
+            
+              Γ
+              
+                (
+                
+                  
+                    3
+                    2
+                  
+                
+                )
+              
+            
+          
+        
+        ⋅
+        2
+        
+          
+            
+              Γ
+              
+                (
+                
+                  
+                    1
+                    2
+                  
+                
+                )
+              
+              Γ
+              
+                (
+                
+                  
+                    1
+                    2
+                  
+                
+                )
+              
+            
+            
+              Γ
+              
+                (
+                1
+                )
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle V_{n}(R)={\frac {R^{n}}{n}}{\frac {\Gamma \left({\frac {n-1}{2}}\right)\Gamma \left({\frac {1}{2}}\right)}{\Gamma \left({\frac {n}{2}}\right)}}{\frac {\Gamma \left({\frac {n-2}{2}}\right)\Gamma \left({\frac {1}{2}}\right)}{\Gamma \left({\frac {n-1}{2}}\right)}}\cdots {\frac {\Gamma \left(1\right)\Gamma \left({\frac {1}{2}}\right)}{\Gamma \left({\frac {3}{2}}\right)}}\cdot 2{\frac {\Gamma \left({\frac {1}{2}}\right)\Gamma \left({\frac {1}{2}}\right)}{\Gamma \left(1\right)}}.}
+  This product telescopes. Combining this with the values Γ(1/2) = √π and Γ(1) = 1 and the functional equation zΓ(z) = Γ(z + 1) leads to:
+
+  
+    
+      
+        
+          V
+          
+            n
+          
+        
+        (
+        R
+        )
+        =
+        
+          
+            
+              2
+              
+                π
+                
+                  
+                    n
+                    2
+                  
+                
+              
+              
+                R
+                
+                  n
+                
+              
+            
+            
+              n
+              Γ
+              
+                (
+                
+                  
+                    n
+                    2
+                  
+                
+                )
+              
+            
+          
+        
+        =
+        
+          
+            
+              
+                π
+                
+                  
+                    n
+                    2
+                  
+                
+              
+              
+                R
+                
+                  n
+                
+              
+            
+            
+              Γ
+              
+                (
+                
+                  
+                    
+                      n
+                      2
+                    
+                  
+                  +
+                  1
+                
+                )
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle V_{n}(R)={\frac {2\pi ^{\frac {n}{2}}R^{n}}{n\Gamma \left({\frac {n}{2}}\right)}}={\frac {\pi ^{\frac {n}{2}}R^{n}}{\Gamma \left({\frac {n}{2}}+1\right)}}.}
+  
+
+
+=== Gaussian integrals ===
+The volume formula can be proven directly using Gaussian integrals. Consider the function:
+
+  
+    
+      
+        f
+        (
+        
+          x
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          x
+          
+            n
+          
+        
+        )
+        =
+        exp
+        ⁡
+        
+          (
+          
+            −
+            
+              
+                
+                  1
+                  2
+                
+              
+            
+            
+              ∑
+              
+                i
+                =
+                1
+              
+              
+                n
+              
+            
+            
+              x
+              
+                i
+              
+              
+                2
+              
+            
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle f(x_{1},\ldots ,x_{n})=\exp \left(-{\tfrac {1}{2}}\sum _{i=1}^{n}x_{i}^{2}\right).}
+  This function is both rotationally invariant and a product of functions of one variable each. Using the fact that it is a product and the formula for the Gaussian integral gives:
+
+  
+    
+      
+        
+          ∫
+          
+            
+              
+                R
+              
+              
+                n
+              
+            
+          
+        
+        f
+        
+        d
+        V
+        =
+        
+          ∏
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          (
+          
+            
+              ∫
+              
+                −
+                ∞
+              
+              
+                ∞
+              
+            
+            exp
+            ⁡
+            
+              (
+              
+                −
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                
+                  x
+                  
+                    i
+                  
+                  
+                    2
+                  
+                
+              
+              )
+            
+            
+            d
+            
+              x
+              
+                i
+              
+            
+          
+          )
+        
+        =
+        (
+        2
+        π
+        
+          )
+          
+            
+              n
+              2
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle \int _{\mathbf {R} ^{n}}f\,dV=\prod _{i=1}^{n}\left(\int _{-\infty }^{\infty }\exp \left(-{\tfrac {1}{2}}x_{i}^{2}\right)\,dx_{i}\right)=(2\pi )^{\frac {n}{2}},}
+  where dV is the n-dimensional volume element. Using rotational invariance, the same integral can be computed in spherical coordinates:
+
+  
+    
+      
+        
+          ∫
+          
+            
+              
+                R
+              
+              
+                n
+              
+            
+          
+        
+        f
+        
+        d
+        V
+        =
+        
+          ∫
+          
+            0
+          
+          
+            ∞
+          
+        
+        
+          ∫
+          
+            
+              S
+              
+                n
+                −
+                1
+              
+            
+            (
+            r
+            )
+          
+        
+        exp
+        ⁡
+        
+          (
+          
+            −
+            
+              
+                
+                  1
+                  2
+                
+              
+            
+            
+              r
+              
+                2
+              
+            
+          
+          )
+        
+        
+        d
+        A
+        
+        d
+        r
+        ,
+      
+    
+    {\displaystyle \int _{\mathbf {R} ^{n}}f\,dV=\int _{0}^{\infty }\int _{S^{n-1}(r)}\exp \left(-{\tfrac {1}{2}}r^{2}\right)\,dA\,dr,}
+  where Sn − 1(r) is an (n − 1)-sphere of radius r and dA is the area element (equivalently, the (n − 1)-dimensional volume element). The surface area of the sphere satisfies a proportionality equation similar to the one for the volume of a ball: If An − 1(r) is the surface area of an (n − 1)-sphere of radius r, then:
+
+  
+    
+      
+        
+          A
+          
+            n
+            −
+            1
+          
+        
+        (
+        r
+        )
+        =
+        
+          r
+          
+            n
+            −
+            1
+          
+        
+        
+          A
+          
+            n
+            −
+            1
+          
+        
+        (
+        1
+        )
+        .
+      
+    
+    {\displaystyle A_{n-1}(r)=r^{n-1}A_{n-1}(1).}
+  Applying this to the above integral gives the expression:
+
+  
+    
+      
+        
+          A
+          
+            n
+            −
+            1
+          
+        
+        (
+        1
+        )
+        
+          ∫
+          
+            0
+          
+          
+            ∞
+          
+        
+        exp
+        ⁡
+        
+          (
+          
+            −
+            
+              
+                
+                  1
+                  2
+                
+              
+            
+            
+              r
+              
+                2
+              
+            
+          
+          )
+        
+        
+        
+          r
+          
+            n
+            −
+            1
+          
+        
+        
+        d
+        r
+        .
+      
+    
+    {\displaystyle A_{n-1}(1)\int _{0}^{\infty }\exp \left(-{\tfrac {1}{2}}r^{2}\right)\,r^{n-1}\,dr.}
+  By substituting t = r2/2, the expression is transformed into:
+
+  
+    
+      
+        
+          A
+          
+            n
+            −
+            1
+          
+        
+        (
+        1
+        )
+        
+          2
+          
+            
+              
+                n
+                −
+                2
+              
+              2
+            
+          
+        
+        
+          ∫
+          
+            0
+          
+          
+            ∞
+          
+        
+        
+          e
+          
+            −
+            t
+          
+        
+        
+          t
+          
+            
+              
+                n
+                −
+                2
+              
+              2
+            
+          
+        
+        
+        d
+        t
+        .
+      
+    
+    {\displaystyle A_{n-1}(1)2^{\frac {n-2}{2}}\int _{0}^{\infty }e^{-t}t^{\frac {n-2}{2}}\,dt.}
+  This is the gamma function evaluated at n/2.
+Combining the two integrations shows that:
+
+  
+    
+      
+        
+          A
+          
+            n
+            −
+            1
+          
+        
+        (
+        1
+        )
+        =
+        
+          
+            
+              2
+              
+                π
+                
+                  
+                    n
+                    2
+                  
+                
+              
+            
+            
+              Γ
+              
+                (
+                
+                  
+                    n
+                    2
+                  
+                
+                )
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle A_{n-1}(1)={\frac {2\pi ^{\frac {n}{2}}}{\Gamma \left({\frac {n}{2}}\right)}}.}
+  To derive the volume of an n-ball of radius R from this formula, integrate the surface area of a sphere of radius r for 0 ≤ r ≤ R and apply the functional equation zΓ(z) = Γ(z + 1):
+
+  
+    
+      
+        
+          V
+          
+            n
+          
+        
+        (
+        R
+        )
+        =
+        
+          ∫
+          
+            0
+          
+          
+            R
+          
+        
+        
+          
+            
+              2
+              
+                π
+                
+                  
+                    n
+                    2
+                  
+                
+              
+            
+            
+              Γ
+              
+                (
+                
+                  
+                    n
+                    2
+                  
+                
+                )
+              
+            
+          
+        
+        
+        
+          r
+          
+            n
+            −
+            1
+          
+        
+        
+        d
+        r
+        =
+        
+          
+            
+              2
+              
+                π
+                
+                  
+                    n
+                    2
+                  
+                
+              
+            
+            
+              n
+              Γ
+              
+                (
+                
+                  
+                    n
+                    2
+                  
+                
+                )
+              
+            
+          
+        
+        
+          R
+          
+            n
+          
+        
+        =
+        
+          
+            
+              π
+              
+                
+                  n
+                  2
+                
+              
+            
+            
+              Γ
+              
+                (
+                
+                  
+                    
+                      n
+                      2
+                    
+                  
+                  +
+                  1
+                
+                )
+              
+            
+          
+        
+        
+          R
+          
+            n
+          
+        
+        .
+      
+    
+    {\displaystyle V_{n}(R)=\int _{0}^{R}{\frac {2\pi ^{\frac {n}{2}}}{\Gamma \left({\frac {n}{2}}\right)}}\,r^{n-1}\,dr={\frac {2\pi ^{\frac {n}{2}}}{n\Gamma \left({\frac {n}{2}}\right)}}R^{n}={\frac {\pi ^{\frac {n}{2}}}{\Gamma \left({\frac {n}{2}}+1\right)}}R^{n}.}
+  
+
+
+=== Geometric proof ===
+The relations 
+  
+    
+      
+        
+          V
+          
+            n
+            +
+            1
+          
+        
+        (
+        R
+        )
+        =
+        
+          
+            R
+            
+              n
+              +
+              1
+            
+          
+        
+        
+          A
+          
+            n
+          
+        
+        (
+        R
+        )
+      
+    
+    {\textstyle V_{n+1}(R)={\frac {R}{n+1}}A_{n}(R)}
+   and 
+  
+    
+      
+        
+          A
+          
+            n
+            +
+            1
+          
+        
+        (
+        R
+        )
+        =
+        (
+        2
+        π
+        R
+        )
+        
+          V
+          
+            n
+          
+        
+        (
+        R
+        )
+      
+    
+    {\displaystyle A_{n+1}(R)=(2\pi R)V_{n}(R)}
+   and thus the volumes of n-balls and areas of n-spheres can also be derived geometrically.  As noted above, because a ball of radius 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+   is obtained from a unit ball 
+  
+    
+      
+        
+          B
+          
+            n
+          
+        
+      
+    
+    {\displaystyle B_{n}}
+   by rescaling all directions in 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+   times, 
+  
+    
+      
+        
+          V
+          
+            n
+          
+        
+        (
+        R
+        )
+      
+    
+    {\displaystyle V_{n}(R)}
+   is proportional to 
+  
+    
+      
+        
+          R
+          
+            n
+          
+        
+      
+    
+    {\displaystyle R^{n}}
+  , which implies 
+  
+    
+      
+        
+          
+            
+              d
+              
+                V
+                
+                  n
+                
+              
+              (
+              R
+              )
+            
+            
+              d
+              R
+            
+          
+        
+        =
+        
+          
+            n
+            R
+          
+        
+        
+          V
+          
+            n
+          
+        
+        (
+        R
+        )
+      
+    
+    {\textstyle {\frac {dV_{n}(R)}{dR}}={\frac {n}{R}}V_{n}(R)}
+  .  Also, 
+  
+    
+      
+        
+          A
+          
+            n
+            −
+            1
+          
+        
+        (
+        R
+        )
+        =
+        
+          
+            
+              d
+              
+                V
+                
+                  n
+                
+              
+              (
+              R
+              )
+            
+            
+              d
+              R
+            
+          
+        
+      
+    
+    {\textstyle A_{n-1}(R)={\frac {dV_{n}(R)}{dR}}}
+   because a ball is a union of concentric spheres and increasing radius by ε corresponds to a shell of thickness ε.  Thus, 
+  
+    
+      
+        
+          V
+          
+            n
+          
+        
+        (
+        R
+        )
+        =
+        
+          
+            R
+            n
+          
+        
+        
+          A
+          
+            n
+            −
+            1
+          
+        
+        (
+        R
+        )
+      
+    
+    {\textstyle V_{n}(R)={\frac {R}{n}}A_{n-1}(R)}
+  ; equivalently, 
+  
+    
+      
+        
+          V
+          
+            n
+            +
+            1
+          
+        
+        (
+        R
+        )
+        =
+        
+          
+            R
+            
+              n
+              +
+              1
+            
+          
+        
+        
+          A
+          
+            n
+          
+        
+        (
+        R
+        )
+      
+    
+    {\textstyle V_{n+1}(R)={\frac {R}{n+1}}A_{n}(R)}
+  .
+
+  
+    
+      
+        
+          A
+          
+            n
+            +
+            1
+          
+        
+        (
+        R
+        )
+        =
+        (
+        2
+        π
+        R
+        )
+        
+          V
+          
+            n
+          
+        
+        (
+        R
+        )
+      
+    
+    {\displaystyle A_{n+1}(R)=(2\pi R)V_{n}(R)}
+   follows from existence of a volume-preserving bijection between the unit sphere 
+  
+    
+      
+        
+          S
+          
+            n
+            +
+            1
+          
+        
+      
+    
+    {\displaystyle S_{n+1}}
+   and 
+  
+    
+      
+        
+          S
+          
+            1
+          
+        
+        ×
+        
+          B
+          
+            n
+          
+        
+      
+    
+    {\displaystyle S_{1}\times B_{n}}
+  :
+
+  
+    
+      
+        (
+        x
+        ,
+        y
+        ,
+        
+          
+            
+              z
+              →
+            
+          
+        
+        )
+        →
+        
+          (
+          
+            
+              
+                x
+                
+                  
+                    x
+                    
+                      2
+                    
+                  
+                  +
+                  
+                    y
+                    
+                      2
+                    
+                  
+                
+              
+            
+            ,
+            
+              
+                y
+                
+                  
+                    x
+                    
+                      2
+                    
+                  
+                  +
+                  
+                    y
+                    
+                      2
+                    
+                  
+                
+              
+            
+            ,
+            
+              
+                
+                  z
+                  →
+                
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle (x,y,{\vec {z}})\rightarrow \left({\frac {x}{\sqrt {x^{2}+y^{2}}}},{\frac {y}{\sqrt {x^{2}+y^{2}}}},{\vec {z}}\right)}
+  (
+  
+    
+      
+        
+          
+            
+              z
+              →
+            
+          
+        
+      
+    
+    {\displaystyle {\vec {z}}}
+   is an n-tuple; 
+  
+    
+      
+        
+          |
+        
+        (
+        x
+        ,
+        y
+        ,
+        
+          
+            
+              z
+              →
+            
+          
+        
+        )
+        
+          |
+        
+        =
+        1
+      
+    
+    {\displaystyle |(x,y,{\vec {z}})|=1}
+  ; we are ignoring sets of measure 0).  Volume is preserved because at each point, the difference from isometry is a stretching in the xy plane (in 
+  
+    
+      
+        1
+        
+          /
+        
+        
+          
+            
+              x
+              
+                2
+              
+            
+            +
+            
+              y
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\textstyle 1/{\sqrt {x^{2}+y^{2}}}}
+   times in the direction of constant 
+  
+    
+      
+        
+          x
+          
+            2
+          
+        
+        +
+        
+          y
+          
+            2
+          
+        
+      
+    
+    {\displaystyle x^{2}+y^{2}}
+  ) that exactly matches the compression in the direction of the gradient of 
+  
+    
+      
+        
+          |
+        
+        
+          
+            
+              z
+              →
+            
+          
+        
+        
+          |
+        
+      
+    
+    {\displaystyle |{\vec {z}}|}
+   on 
+  
+    
+      
+        
+          S
+          
+            n
+          
+        
+      
+    
+    {\displaystyle S_{n}}
+   (the relevant angles being equal).  For 
+  
+    
+      
+        
+          S
+          
+            2
+          
+        
+      
+    
+    {\displaystyle S_{2}}
+  , a similar argument was originally made by Archimedes in On the Sphere and Cylinder.
+
+
+== Balls in Lp norms ==
+There are also explicit expressions for the volumes of balls in Lp norms. The Lp norm of the vector x = (x1, …, xn) in Rn is:
+
+  
+    
+      
+        
+          
+            (
+            
+              
+                ∑
+                
+                  i
+                  =
+                  1
+                
+                
+                  n
+                
+              
+              
+                |
+              
+              
+                x
+                
+                  i
+                
+              
+              
+                
+                  |
+                
+                
+                  p
+                
+              
+            
+            )
+          
+          
+            
+              1
+              p
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle \left(\sum _{i=1}^{n}|x_{i}|^{p}\right)^{\frac {1}{p}},}
+  and an Lp ball is the set of all vectors whose Lp norm is less than or equal to a fixed number called the radius of the ball. The case p = 2 is the standard Euclidean distance function, but other values of p occur in diverse contexts such as information theory, coding theory, and dimensional regularization.
+The volume of an Lp ball of radius R is:
+
+  
+    
+      
+        
+          V
+          
+            n
+          
+          
+            p
+          
+        
+        (
+        R
+        )
+        =
+        
+          
+            
+              
+                (
+                
+                  2
+                  Γ
+                  
+                    (
+                    
+                      
+                        
+                          1
+                          p
+                        
+                      
+                      +
+                      1
+                    
+                    )
+                  
+                  R
+                
+                )
+              
+              
+                n
+              
+            
+            
+              Γ
+              
+                (
+                
+                  
+                    
+                      n
+                      p
+                    
+                  
+                  +
+                  1
+                
+                )
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle V_{n}^{p}(R)={\frac {\left(2\Gamma \left({\frac {1}{p}}+1\right)R\right)^{n}}{\Gamma \left({\frac {n}{p}}+1\right)}}.}
+  These volumes satisfy a recurrence relation similar to the one dimension recurrence for p = 2:
+
+  
+    
+      
+        
+          V
+          
+            n
+          
+          
+            p
+          
+        
+        (
+        R
+        )
+        =
+        
+          (
+          
+            2
+            Γ
+            
+              (
+              
+                
+                  
+                    
+                      1
+                      p
+                    
+                  
+                
+                +
+                1
+              
+              )
+            
+            R
+          
+          )
+        
+        
+          
+            
+              Γ
+              
+                (
+                
+                  
+                    
+                      
+                        n
+                        −
+                        1
+                      
+                      p
+                    
+                  
+                  +
+                  1
+                
+                )
+              
+            
+            
+              Γ
+              
+                (
+                
+                  
+                    
+                      n
+                      p
+                    
+                  
+                  +
+                  1
+                
+                )
+              
+            
+          
+        
+        
+          V
+          
+            n
+            −
+            1
+          
+          
+            p
+          
+        
+        (
+        R
+        )
+        .
+      
+    
+    {\displaystyle V_{n}^{p}(R)=\left(2\Gamma \left({\tfrac {1}{p}}+1\right)R\right){\frac {\Gamma \left({\frac {n-1}{p}}+1\right)}{\Gamma \left({\frac {n}{p}}+1\right)}}V_{n-1}^{p}(R).}
+  For p = 2, one recovers the recurrence for the volume of a Euclidean ball because 2Γ(3/2) = √π.
+For example, in the cases p = 1 and p = ∞, the volumes are:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  V
+                  
+                    n
+                  
+                  
+                    1
+                  
+                
+                (
+                R
+                )
+              
+              
+                
+                =
+                
+                  
+                    
+                      2
+                      
+                        n
+                      
+                    
+                    
+                      n
+                      !
+                    
+                  
+                
+                
+                  R
+                  
+                    n
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  V
+                  
+                    n
+                  
+                  
+                    ∞
+                  
+                
+                (
+                R
+                )
+              
+              
+                
+                =
+                (
+                2
+                R
+                
+                  )
+                  
+                    n
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}V_{n}^{1}(R)&={\frac {2^{n}}{n!}}R^{n},\\V_{n}^{\infty }(R)&=(2R)^{n}.\end{aligned}}}
+  These agree with elementary calculations of the volumes of cross-polytopes and hypercubes.
+
+
+=== Relation with surface area ===
+For most values of p, the surface area, 
+  
+    
+      
+        
+          A
+          
+            n
+          
+          
+            p
+          
+        
+        (
+        R
+        )
+      
+    
+    {\displaystyle A_{n}^{p}(R)}
+  , of an Lp sphere of radius R (the boundary of an Lp ball of radius R) cannot be calculated by differentiating the volume of an Lp ball with respect to its radius. While the volume can be expressed as an integral over the surface areas using the coarea formula, the coarea formula contains a correction factor that accounts for how the p-norm varies from point to point. For p = 2 and p = ∞, this factor is one. However, if p = 1 then the correction factor is √n: the surface area of an L1 sphere of radius R in Rn is √n times the derivative of the volume of an L1 ball.  This can be seen most simply by applying the divergence theorem to the vector field F(x) = x to get
+
+  
+    
+      
+        n
+        
+          V
+          
+            n
+          
+          
+            1
+          
+        
+        (
+        R
+        )
+        =
+      
+    
+    {\displaystyle nV_{n}^{1}(R)=}
+  
+  
+    
+      
+        
+          ∭
+          
+            V
+          
+        
+        
+          (
+          
+            
+              ∇
+            
+            ⋅
+            
+              F
+            
+          
+          )
+        
+        
+        d
+        V
+        =
+      
+    
+    {\displaystyle \iiint _{V}\left(\mathbf {\nabla } \cdot \mathbf {F} \right)\,dV=}
+   
+  
+    
+      
+        
+          S
+        
+      
+    
+    {\displaystyle \scriptstyle S}
+   
+  
+    
+      
+        (
+        
+          F
+        
+        ⋅
+        
+          n
+        
+        )
+        
+        d
+        S
+      
+    
+    {\displaystyle (\mathbf {F} \cdot \mathbf {n} )\,dS}
+   
+  
+    
+      
+        =
+      
+    
+    {\displaystyle =}
+    
+  
+    
+      
+        
+          S
+        
+      
+    
+    {\displaystyle \scriptstyle S}
+   
+  
+    
+      
+        
+          
+            1
+            
+              n
+            
+          
+        
+        (
+        
+          |
+        
+        
+          x
+          
+            1
+          
+        
+        
+          |
+        
+        +
+        ⋯
+        +
+        
+          |
+        
+        
+          x
+          
+            n
+          
+        
+        
+          |
+        
+        )
+        
+        d
+        S
+      
+    
+    {\displaystyle {\frac {1}{\sqrt {n}}}(|x_{1}|+\cdots +|x_{n}|)\,dS}
+    
+  
+    
+      
+        =
+        
+          
+            R
+            
+              n
+            
+          
+        
+      
+    
+    {\displaystyle ={\frac {R}{\sqrt {n}}}}
+   
+  
+    
+      
+        
+          S
+        
+      
+    
+    {\displaystyle \scriptstyle S}
+   
+  
+    
+      
+        
+        d
+        S
+      
+    
+    {\displaystyle \,dS}
+   
+  
+    
+      
+        =
+        
+          
+            R
+            
+              n
+            
+          
+        
+        
+          A
+          
+            n
+          
+          
+            1
+          
+        
+        (
+        R
+        )
+      
+    
+    {\displaystyle ={\frac {R}{\sqrt {n}}}A_{n}^{1}(R)}
+  .For other values of p, the constant is a complicated integral.
+
+
+=== Generalizations ===
+The volume formula can be generalized even further. For positive real numbers p1, …, pn, define the unit (p1, …, pn) ball to be:
+
+  
+    
+      
+        
+          B
+          
+            
+              p
+              
+                1
+              
+            
+            ,
+            …
+            ,
+            
+              p
+              
+                n
+              
+            
+          
+        
+        =
+        
+          {
+          
+            x
+            =
+            (
+            
+              x
+              
+                1
+              
+            
+            ,
+            …
+            ,
+            
+              x
+              
+                n
+              
+            
+            )
+            ∈
+            
+              
+                R
+              
+              
+                n
+              
+            
+            :
+            |
+            
+              x
+              
+                1
+              
+            
+            
+              |
+              
+                
+                  p
+                  
+                    1
+                  
+                
+              
+            
+            +
+            ⋯
+            +
+            |
+            
+              x
+              
+                n
+              
+            
+            
+              |
+              
+                
+                  p
+                  
+                    n
+                  
+                
+              
+            
+            ≤
+            1
+          
+          }
+        
+        .
+      
+    
+    {\displaystyle B_{p_{1},\ldots ,p_{n}}=\left\{x=(x_{1},\ldots ,x_{n})\in \mathbf {R} ^{n}:\vert x_{1}\vert ^{p_{1}}+\cdots +\vert x_{n}\vert ^{p_{n}}\leq 1\right\}.}
+  The volume of this ball has been known since the time of Dirichlet:
+
+  
+    
+      
+        V
+        (
+        
+          B
+          
+            
+              p
+              
+                1
+              
+            
+            ,
+            …
+            ,
+            
+              p
+              
+                n
+              
+            
+          
+        
+        )
+        =
+        
+          2
+          
+            n
+          
+        
+        
+          
+            
+              Γ
+              
+                (
+                
+                  1
+                  +
+                  
+                    
+                      1
+                      
+                        p
+                        
+                          1
+                        
+                      
+                    
+                  
+                
+                )
+              
+              ⋯
+              Γ
+              
+                (
+                
+                  1
+                  +
+                  
+                    
+                      1
+                      
+                        p
+                        
+                          n
+                        
+                      
+                    
+                  
+                
+                )
+              
+            
+            
+              Γ
+              
+                (
+                
+                  1
+                  +
+                  
+                    
+                      1
+                      
+                        p
+                        
+                          1
+                        
+                      
+                    
+                  
+                  +
+                  ⋯
+                  +
+                  
+                    
+                      1
+                      
+                        p
+                        
+                          n
+                        
+                      
+                    
+                  
+                
+                )
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle V(B_{p_{1},\ldots ,p_{n}})=2^{n}{\frac {\Gamma \left(1+{\frac {1}{p_{1}}}\right)\cdots \Gamma \left(1+{\frac {1}{p_{n}}}\right)}{\Gamma \left(1+{\frac {1}{p_{1}}}+\cdots +{\frac {1}{p_{n}}}\right)}}.}
+  
+
+
+== See also ==
+n-sphere
+Sphere packing
+Hamming bound
+
+
+== References ==
+
+
+== External links ==
+Derivation in hyperspherical coordinates (in French)
+Hypersphere on Wolfram MathWorld
+Volume of the Hypersphere at Math Reference

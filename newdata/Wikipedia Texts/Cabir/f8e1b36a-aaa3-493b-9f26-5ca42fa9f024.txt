@@ -1,0 +1,17 @@
+Cabir (computer worm)
+
+Cabir (also known as Caribe, SybmOS/Cabir, Symbian/Cabir and EPOC.cabir) is the name of a computer worm developed in 2004 that is designed to infect mobile phones running Symbian OS. It is believed to be the first computer worm that can infect mobile phones.  When a phone is infected with Cabir, the message "Caribe" is displayed on the phone's display, and is displayed every time the phone is turned on. The worm then attempts to spread to other phones in the area using wireless Bluetooth signals.
+The worm was not sent out into the wild, but sent directly to anti-virus firms, who believe Cabir in its current state is harmless. However, it does prove that mobile phones are also at risk from virus writers.  Experts also believe that the worm was developed by a group who call themselves 29A, a group of international hackers, as a "proof of concept" worm in order to catch world attention. Several firms subsequently released tools to remove the worm, the first of which was the Australian business TSG Pacific.The worm can attack and replicate on Bluetooth enabled Series 60 phones. The worm tries to send itself to all Bluetooth enabled devices that support  the "Object Push Profile", which can also be non-Symbian phones, desktop computers or even printers. The worm spreads as a .sis file installed in the Apps directory. Cabir does not spread if the user does not accept the file-transfer or does not agree with the installation, though some older phones would keep on displaying popups, as Cabir re-sent itself, rendering the UI useless until yes is clicked. 
+Cabir is the first mobile malware ever discovered While the worm is considered harmless because it replicates but does not perform any other activity, it will result in shortened battery life on portable devices due to constant scanning for other Bluetooth enabled devices.
+Cabir was named by the employees of Kaspersky Lab after their colleague Elena Kabirova.Mabir, a variant of Cabir, is capable of spreading not only via Bluetooth but also via MMS.  By sending out copies of itself as a .sis file over cellular networks, it can affect even users who are outside the 10m range of Bluetooth.
+
+
+== See also ==
+Dendroid (Malware)
+Mobile Malware
+Mobile security
+Symbian OS
+Shedun
+
+
+== References ==

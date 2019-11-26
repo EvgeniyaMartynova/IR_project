@@ -1,0 +1,66 @@
+H101 virus
+
+Adenovirus varieties have been explored extensively as a viral vector for gene therapy and also as an oncolytic virus.Of the many different viruses being explored for oncolytic potential, an adenovirus was the first to be approved by a regulatory agency, the genetically modified H101 strain. It gained regulatory approval in 2005 from China's State Food and Drug Administration (SFDA) for the treatment of head and neck cancer.
+
+
+== Engineering of oncolytic adenovirus ==
+Adenoviruses have so far been through three generations of development. Some of the strategies for modification of adenoviruses are described below.
+
+
+=== Attenuation ===
+For adenovirus replication to occur, the host cell must be induced into S phase by viral proteins interfering with cell cycle proteins. The adenoviral E1A gene is responsible for inactivation of several proteins, including retinoblastoma, allowing entry into S-phase. The adenovirus E1B55kDa gene cooperates with another adenoviral product, E4ORF6, to inactivate p53, thus preventing apoptosis. It was initially proposed that an adenovirus mutant lacking the E1B55kDa gene, dl1520 (ONYX-015), could replicate selectively in p53 deficient cells.
+A conditionally replicative adenovirus (CRAd) with a 24 base pair deletion in the retinoblastoma-binding domain of the E1A protein (Ad5- Δ24E3), is unable to silence retinoblastoma, and therefore unable to induce S-phase in host cells. This restricts Ad5-Δ24E3 to replication only in proliferating cells, such as tumour cells.
+
+
+=== Targeting ===
+The most commonly used group of adenoviruses is serotype 5 (Ad5), whose binding to host cells is initiated by interactions between the cellular coxsackie virus and adenovirus receptor (CAR), and the knob domain of the adenovirus coat protein trimer. CAR is necessary for adenovirus infection. Although expressed widely in epithelial cells, CAR expression in tumours is extremely variable, leading to resistance to Ad5 infection. Retargeting of Ad5 from CAR, to another receptor that is ubiquitously expressed on cancer cells, may overcome this resistance.
+Adapter moleculesBi-specific adapter molecules can be administered along with the virus to redirect viral coat protein tropism. These molecules are fusion proteins that are made up of an antibody raised against the knob domain of the adenovirus coat protein, fused to a natural ligand for a cell-surface receptor.  The use of adapter molecules has been shown to increase viral transduction. However, adapters add complexity to the system, and the effect of adapter molecule binding on the stability of the virus is uncertain.Coat-protein modificationThis method involves genetically modifying the fiber knob domain of the viral coat protein to alter its specificity. Short peptides added to the C-terminal end of the coat protein successfully altered viral tropism. The addition of larger peptides to the C-terminus is not viable because it reduces adenovirus integrity, possibly due to an effect on fiber trimerisation. The fiber protein also contains an HI-loop structure, which can tolerate peptide insertions of up to 100 residues without any negative effects on adenovirus integrity. An RGD motif inserted into the HI loop of the fiber knob protein, shifts specificity toward integrins, which are frequently over-expressed in oesophageal adenocarcinoma. When combined with a form of non-transductional targeting, these viruses proved to be effective and selective therapeutic agents for Oesophageal Adenocarcinoma.Transcriptional targetingThis approach takes advantage of deregulated promoter to drive and control the expression of adenoviral genes. For instance, Cyclooxygenase-2 enzyme (Cox-2) expression is elevated in a range of cancers, and has low liver expression, making it a suitable tumour-specific promoter. AdCox2Lluc is a CRAd targeted against oesophageal adenocarcinoma by placing the early genes under the control of a Cox-2 promoter (adenoviruses have two early genes, E1A and E1B, that are essential for replication). When combined with transductional targeting, AdCox2Lluc showed potential for treatment of Oesophageal Adenocarcinoma. Cox-2 is also a possible tumour-specific promoter candidate for other cancer types, including ovarian cancer.A suitable tumour-specific promoter for prostate cancer is prostate-specific antigen (PSA), whose expression is greatly elevated in prostate cancer. CN706 is a CRAd with a PSA tumour-specific promoter driving expression of the adenoviral E1A gene, required for viral replication. The CN706 titre is significantly greater in PSA-positive cells.Post-Transcriptional detargeting
+Another layer of regulation that has emerged to control adenoviral replication is the use of microRNAs (miRNA) artificial target sites or miRNA response elements (MREs). Differential expression of miRNAs between healthy tissues and tumors permit to engineer oncolytic viruses in order to have their ability to replicate impaired in those tissues of interest while allowing its replication in the tumor cells.
+
+
+== Examples ==
+
+
+=== Oncorine (H101) ===
+H101 and the very similar Onyx-015 have been engineered to remove a viral defense mechanism that interacts with a normal human gene p53, which is very frequently dysregulated in cancer cells. Despite the promises of early in vivo lab work, these viruses do not specifically infect cancer cells, but they still kill cancer cells preferentially.  While overall survival rates are not known, short-term response rates are approximately doubled for H101 plus chemotherapy when compared to chemotherapy alone.  It appears to work best when injected directly into a tumour, and when any resulting fever is not suppressed.  Systemic therapy (such as through infusion through an intravenous line) is desirable for treating metastatic disease. It is now marketed under the brand name Oncorine.
+
+
+=== Onyx-015 (dl1520) ===
+Onyx-015 (originally named Ad2/5 dl1520) is an experimental oncolytic virus created by genetically engineering an adenovirus. It has been trialed as a possible treatment for cancer. The E1B-55kDa gene has been deleted allowing the virus to selectively replicate in and lyse p53-deficient cancer cells.
+
+
+== Directed Evolution ==
+Traditional research has focussed on species C Adenovirus serotype 5 (Ad5) for creating oncolytic vaccines for the potential use as cancer treatment. However, recent data suggests that it may not be the best virus serotype for deriving all oncolytic agents for treating human malignancies. For example, oncolytic vaccines based on the Ad5 serotype have relatively poor clinical efficacy as monotherapies. The need for increased potency (infectivity and lytic activity) has led to an expanded search involving a larger number of less well studied adenovirus serotypes.
+
+
+=== ColoAd1 ===
+One non-species C oncolytic adenovirus currently in development is ColoAd1. It was created using a process of “directed evolution”. This involves the creation of new viral variants or serotypes specifically directed against tumour cells via rounds of directed selection using large populations of randomly generated recombinant precursor viruses. The increased biodiversity produced by the initial homologous recombination step provides a large random pool of viral candidates which can then be passed through a series of selection steps designed to lead towards a pre-specified outcome (e.g. higher tumor specific activity) without requiring any previous knowledge of the resultant viral mechanisms that are responsible for that outcome.
+One particular application of this approach produced ColoAd1, which is a novel Ad11p/Ad3 chimeric Group B oncolytic virus with specificity for human colon cancer and a broad spectrum of anti-cancer activity in common solid tumours. The therapeutic efficacy of ColoAd1 is currently being evaluated in three ongoing clinical trials (see the EU Clinical Trials Register for further details).
+ColoAd1 potency can be further enhanced via the use of therapeutic transgenes, which can be introduced into the ColoAd1 genome without compromising the selectivity or activity of the virus. Recent studies with ColoAd1 have shown a unique mechanism of cell death similar to Oncosis with expression of inflammatory cell death markers and cell membrane blistering and have highlighted mechanisms by which ColoAd1 alters host cell metabolism to facilitate replication.
+
+
+== Background ==
+Tumours form in cells when mutations in genes involved in cell cycle control and apoptosis accumulate over time. Most tumours studied, have defects in the p53 tumor suppressor pathway. p53 is a transcription factor that plays a role in apoptosis, cell cycle and DNA repair. It blocks cell progression in response to cellular stress or DNA damage. Many viruses replicate by altering the cell cycle and exploiting the same pathways that are altered in cancer cells. E1B proteins produced by adenoviruses protect the infected cell by binding to and degrading the p53 transcription factors, preventing it from targeting the cell for apoptosis. This allows the virus to replicate, package its genome, lyse the cell and spread to new cells.
+This gave rise to the idea that an altered adenovirus could be used to target and eliminate cancer cells. Onyx-015 is an adenovirus that was developed in 1987 with the function of the E1B gene knocked out, meaning cells infected with Onyx-015 are incapable of blocking p53's function. If Onyx-015 infects a normal cell, with a functioning p53 gene, it will be prevented from multiplying by the action of the p53 transcription factor. However, if Onyx-015 infects a p53 deficient cell it should be able to survive and replicate, resulting in selective destruction of cancer cells.
+
+
+== Clinical trials ==
+ColoAd1 from PsiOxus Therapeutics has entered Phase I/II clinical study with its oncolytic vaccine. Phase I of the trial recruited patients with metastatic solid tumors and showed evidence for virus replication within tumour sites after intravenous delivery. The second phase of the ColoAd1 study will involve the comparison of intra-tumoural versus intravenous injection to examine viral replication, viral spread, tumour necrosis and anti-tumoural immune responses (see the EU Clinical Trials Register for further details).
+
+
+=== ONYX-015 (dl1520)/H101 ===
+Patents for the therapeutic use of ONYX-015 are held by ONYX Pharmaceuticals and it was used in combination with the standard chemotherapeutic agents cisplatin and 5-fluorouracil to combat head and neck tumours. Onyx-015 has been extensively tested in clinical trials, with the data indicating that it is safe and selective for cancer. However, limited therapeutic effect has been demonstrated following injection and systemic spread of the virus was not detected. ONYX-015 when combined with chemotherapy, however, proved reasonably effective in a proportion of cases. During these trials a plethora of reports emerged challenging the underlying p53-selectivity, with some reports showing that in some cancers with a wild-type p53 ONYX-015 actually did better than in their mutant p53 counterparts. These reports slowed the advancement through Phase III trials in the US, however recently China licensed ONYX-015 for therapeutic use as H101. Further development of Onyx-015 was abandoned in the early 2000s, the exclusive rights being licensed to the Chinese company, Shanghai Sunway Biotech.  On November 17, 2005, the Chinese State Food and Drug Administration approved H101, an oncolytic adenovirus similar to Onyx-015 (E1B-55K/E3B-deleted), for use in combination with chemotherapy for the treatment of late-stage refractory nasopharyngeal cancer. Outside of China, the push to the clinic for ONYX-015 has been largely been discontinued for financial reasons and until a real mechanism can be found.
+
+
+== See also ==
+Oncolytic virus
+Oncolytic AAV
+Oncolytic herpes virus
+Virotherapy
+
+
+== References ==
+
+
+== External links ==
+Information about Oncolytic adenovirus

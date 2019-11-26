@@ -1,0 +1,4112 @@
+Helmholtz decomposition
+
+In physics and mathematics, in the area of vector calculus, Helmholtz's theorem, also known as the fundamental theorem of vector calculus, states that any sufficiently smooth, rapidly decaying vector field in three dimensions can be resolved into the sum of an irrotational (curl-free) vector field and a solenoidal (divergence-free) vector field; this is known as the Helmholtz decomposition or Helmholtz representation.  It is named after Hermann von Helmholtz.As an irrotational vector field has a scalar potential and a solenoidal vector field has a vector potential, the Helmholtz decomposition states that a vector field (satisfying appropriate smoothness and decay conditions) can be decomposed as the sum of the form 
+  
+    
+      
+        −
+        grad
+        ⁡
+        Φ
+        +
+        curl
+        ⁡
+        
+          A
+        
+      
+    
+    {\displaystyle -\operatorname {grad} \Phi +\operatorname {curl} \mathbf {A} }
+  , where Φ is a scalar field, called  scalar potential, and A is a vector field, called a vector potential.
+
+
+== Statement of the theorem ==
+Let 
+  
+    
+      
+        
+          F
+        
+      
+    
+    {\displaystyle \mathbf {F} }
+   be a vector field on a bounded domain 
+  
+    
+      
+        V
+        ⊆
+        
+          
+            R
+          
+          
+            3
+          
+        
+      
+    
+    {\displaystyle V\subseteq \mathbb {R} ^{3}}
+  , which is twice continuously differentiable, and let 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+   be the surface that encloses the domain 
+  
+    
+      
+        V
+      
+    
+    {\displaystyle V}
+  . Then 
+  
+    
+      
+        
+          F
+        
+      
+    
+    {\displaystyle \mathbf {F} }
+   can be decomposed into a curl-free component and a divergence-free component:
+
+  
+    
+      
+        
+          F
+        
+        =
+        −
+        ∇
+        Φ
+        +
+        ∇
+        ×
+        
+          A
+        
+        ,
+      
+    
+    {\displaystyle \mathbf {F} =-\nabla \Phi +\nabla \times \mathbf {A} ,}
+  where
+
+  
+    
+      
+        
+          
+            
+              
+                Φ
+                (
+                
+                  r
+                
+                )
+              
+              
+                
+                =
+                
+                  
+                    1
+                    
+                      4
+                      π
+                    
+                  
+                
+                
+                  ∫
+                  
+                    V
+                  
+                
+                
+                  
+                    
+                      
+                        ∇
+                        ′
+                      
+                      ⋅
+                      
+                        F
+                      
+                      (
+                      
+                        
+                          r
+                        
+                        ′
+                      
+                      )
+                    
+                    
+                      
+                        |
+                      
+                      
+                        r
+                      
+                      −
+                      
+                        
+                          r
+                        
+                        ′
+                      
+                      
+                        |
+                      
+                    
+                  
+                
+                
+                
+                  d
+                
+                
+                  V
+                  ′
+                
+                −
+                
+                  
+                    1
+                    
+                      4
+                      π
+                    
+                  
+                
+                
+                  
+                    
+                      
+                        ∮
+                        
+                      
+                    
+                    
+                  
+                  
+                    S
+                  
+                
+                ⁡
+                
+                  
+                    
+                      
+                        n
+                        ^
+                      
+                    
+                  
+                  ′
+                
+                ⋅
+                
+                  
+                    
+                      
+                        F
+                      
+                      (
+                      
+                        
+                          r
+                        
+                        ′
+                      
+                      )
+                    
+                    
+                      
+                        |
+                      
+                      
+                        r
+                      
+                      −
+                      
+                        
+                          r
+                        
+                        ′
+                      
+                      
+                        |
+                      
+                    
+                  
+                
+                
+                
+                  d
+                
+                
+                  S
+                  ′
+                
+              
+            
+            
+              
+                
+                  A
+                
+                (
+                
+                  r
+                
+                )
+              
+              
+                
+                =
+                
+                  
+                    1
+                    
+                      4
+                      π
+                    
+                  
+                
+                
+                  ∫
+                  
+                    V
+                  
+                
+                
+                  
+                    
+                      
+                        ∇
+                        ′
+                      
+                      ×
+                      
+                        F
+                      
+                      (
+                      
+                        
+                          r
+                        
+                        ′
+                      
+                      )
+                    
+                    
+                      
+                        |
+                      
+                      
+                        r
+                      
+                      −
+                      
+                        
+                          r
+                        
+                        ′
+                      
+                      
+                        |
+                      
+                    
+                  
+                
+                
+                
+                  d
+                
+                
+                  V
+                  ′
+                
+                −
+                
+                  
+                    1
+                    
+                      4
+                      π
+                    
+                  
+                
+                
+                  
+                    
+                      
+                        ∮
+                        
+                      
+                    
+                    
+                  
+                  
+                    S
+                  
+                
+                ⁡
+                
+                  
+                    
+                      
+                        n
+                        ^
+                      
+                    
+                  
+                  ′
+                
+                ×
+                
+                  
+                    
+                      
+                        F
+                      
+                      (
+                      
+                        
+                          r
+                        
+                        ′
+                      
+                      )
+                    
+                    
+                      
+                        |
+                      
+                      
+                        r
+                      
+                      −
+                      
+                        
+                          r
+                        
+                        ′
+                      
+                      
+                        |
+                      
+                    
+                  
+                
+                
+                
+                  d
+                
+                
+                  S
+                  ′
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\Phi (\mathbf {r} )&={\frac {1}{4\pi }}\int _{V}{\frac {\nabla '\cdot \mathbf {F} (\mathbf {r} ')}{|\mathbf {r} -\mathbf {r} '|}}\,\mathrm {d} V'-{\frac {1}{4\pi }}\oint _{S}\mathbf {\hat {n}} '\cdot {\frac {\mathbf {F} (\mathbf {r} ')}{|\mathbf {r} -\mathbf {r} '|}}\,\mathrm {d} S'\\[8pt]\mathbf {A} (\mathbf {r} )&={\frac {1}{4\pi }}\int _{V}{\frac {\nabla '\times \mathbf {F} (\mathbf {r} ')}{|\mathbf {r} -\mathbf {r} '|}}\,\mathrm {d} V'-{\frac {1}{4\pi }}\oint _{S}\mathbf {\hat {n}} '\times {\frac {\mathbf {F} (\mathbf {r} ')}{|\mathbf {r} -\mathbf {r} '|}}\,\mathrm {d} S'\end{aligned}}}
+  and 
+  
+    
+      
+        
+          ∇
+          ′
+        
+      
+    
+    {\displaystyle \nabla '}
+   is the nabla operator with respect to 
+  
+    
+      
+        
+          
+            r
+            ′
+          
+        
+      
+    
+    {\displaystyle \mathbf {r'} }
+  , not 
+  
+    
+      
+        
+          r
+        
+      
+    
+    {\displaystyle \mathbf {r} }
+   .
+If 
+  
+    
+      
+        V
+        =
+        
+          
+            R
+          
+          
+            3
+          
+        
+      
+    
+    {\displaystyle V=\mathbb {R} ^{3}}
+   and is therefore unbounded, and 
+  
+    
+      
+        
+          F
+        
+      
+    
+    {\displaystyle \mathbf {F} }
+   vanishes faster than 
+  
+    
+      
+        1
+        
+          /
+        
+        r
+      
+    
+    {\displaystyle 1/r}
+   as 
+  
+    
+      
+        r
+        →
+        ∞
+      
+    
+    {\displaystyle r\to \infty }
+  , then one has
+
+  
+    
+      
+        
+          
+            
+              
+                Φ
+                (
+                
+                  r
+                
+                )
+              
+              
+                
+                =
+                
+                  
+                    1
+                    
+                      4
+                      π
+                    
+                  
+                
+                
+                  ∫
+                  
+                    
+                      
+                        R
+                      
+                      
+                        3
+                      
+                    
+                  
+                
+                
+                  
+                    
+                      
+                        ∇
+                        ′
+                      
+                      ⋅
+                      
+                        F
+                      
+                      (
+                      
+                        
+                          r
+                        
+                        ′
+                      
+                      )
+                    
+                    
+                      
+                        |
+                      
+                      
+                        r
+                      
+                      −
+                      
+                        
+                          r
+                        
+                        ′
+                      
+                      
+                        |
+                      
+                    
+                  
+                
+                
+                
+                  d
+                
+                
+                  V
+                  ′
+                
+              
+            
+            
+              
+                
+                  A
+                
+                (
+                
+                  r
+                
+                )
+              
+              
+                
+                =
+                
+                  
+                    1
+                    
+                      4
+                      π
+                    
+                  
+                
+                
+                  ∫
+                  
+                    
+                      
+                        R
+                      
+                      
+                        3
+                      
+                    
+                  
+                
+                
+                  
+                    
+                      
+                        ∇
+                        ′
+                      
+                      ×
+                      
+                        F
+                      
+                      (
+                      
+                        
+                          r
+                        
+                        ′
+                      
+                      )
+                    
+                    
+                      
+                        |
+                      
+                      
+                        r
+                      
+                      −
+                      
+                        
+                          r
+                        
+                        ′
+                      
+                      
+                        |
+                      
+                    
+                  
+                
+                
+                
+                  d
+                
+                
+                  V
+                  ′
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\Phi (\mathbf {r} )&={\frac {1}{4\pi }}\int _{\mathbb {R} ^{3}}{\frac {\nabla '\cdot \mathbf {F} (\mathbf {r} ')}{|\mathbf {r} -\mathbf {r} '|}}\,\mathrm {d} V'\\[8pt]\mathbf {A} (\mathbf {r} )&={\frac {1}{4\pi }}\int _{\mathbb {R} ^{3}}{\frac {\nabla '\times \mathbf {F} (\mathbf {r} ')}{|\mathbf {r} -\mathbf {r} '|}}\,\mathrm {d} V'\end{aligned}}}
+  
+
+
+== Derivation ==
+Suppose we have a vector function 
+  
+    
+      
+        
+          F
+        
+        (
+        
+          r
+        
+        )
+      
+    
+    {\displaystyle \mathbf {F} (\mathbf {r} )}
+   of which we know the curl, 
+  
+    
+      
+        ∇
+        ×
+        
+          F
+        
+      
+    
+    {\displaystyle \nabla \times \mathbf {F} }
+  , and the divergence, 
+  
+    
+      
+        ∇
+        ⋅
+        
+          F
+        
+      
+    
+    {\displaystyle \nabla \cdot \mathbf {F} }
+  , in the domain and the fields on the boundary. Writing the function using delta function in the form
+
+  
+    
+      
+        
+          δ
+          
+            3
+          
+        
+        (
+        
+          r
+        
+        −
+        
+          
+            r
+          
+          ′
+        
+        )
+        =
+        −
+        
+          
+            1
+            
+              4
+              π
+            
+          
+        
+        
+          ∇
+          
+            2
+          
+        
+        
+          
+            1
+            
+              
+                |
+              
+              
+                r
+              
+              −
+              
+                
+                  r
+                
+                ′
+              
+              
+                |
+              
+            
+          
+        
+         
+        ,
+      
+    
+    {\displaystyle \delta ^{3}(\mathbf {r} -\mathbf {r} ')=-{\frac {1}{4\pi }}\nabla ^{2}{\frac {1}{|\mathbf {r} -\mathbf {r} '|}}\ ,}
+  where 
+  
+    
+      
+        
+          ∇
+          
+            2
+          
+        
+        :=
+        ∇
+        ⋅
+        ∇
+      
+    
+    {\displaystyle \nabla ^{2}:=\nabla \cdot \nabla }
+  is the Laplace operator, we have
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  F
+                
+                (
+                
+                  r
+                
+                )
+              
+              
+                
+                =
+                
+                  ∫
+                  
+                    V
+                  
+                
+                
+                  F
+                
+                
+                  (
+                  
+                    
+                      r
+                    
+                    ′
+                  
+                  )
+                
+                
+                  δ
+                  
+                    3
+                  
+                
+                (
+                
+                  r
+                
+                −
+                
+                  
+                    r
+                  
+                  ′
+                
+                )
+                
+                  d
+                
+                
+                  V
+                  ′
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  ∫
+                  
+                    V
+                  
+                
+                
+                  F
+                
+                (
+                
+                  
+                    r
+                  
+                  ′
+                
+                )
+                
+                  (
+                  
+                    −
+                    
+                      
+                        1
+                        
+                          4
+                          π
+                        
+                      
+                    
+                    
+                      ∇
+                      
+                        2
+                      
+                    
+                    
+                      
+                        1
+                        
+                          |
+                          
+                            
+                              r
+                            
+                            −
+                            
+                              
+                                r
+                              
+                              ′
+                            
+                          
+                          |
+                        
+                      
+                    
+                  
+                  )
+                
+                
+                  d
+                
+                
+                  V
+                  ′
+                
+              
+            
+            
+              
+              
+                
+                =
+                −
+                
+                  
+                    1
+                    
+                      4
+                      π
+                    
+                  
+                
+                
+                  ∇
+                  
+                    2
+                  
+                
+                
+                  ∫
+                  
+                    V
+                  
+                
+                
+                  
+                    
+                      
+                        F
+                      
+                      (
+                      
+                        
+                          r
+                        
+                        ′
+                      
+                      )
+                    
+                    
+                      |
+                      
+                        
+                          r
+                        
+                        −
+                        
+                          
+                            r
+                          
+                          ′
+                        
+                      
+                      |
+                    
+                  
+                
+                
+                  d
+                
+                
+                  V
+                  ′
+                
+              
+            
+            
+              
+              
+                
+                =
+                −
+                
+                  
+                    1
+                    
+                      4
+                      π
+                    
+                  
+                
+                
+                  [
+                  
+                    ∇
+                    
+                      (
+                      
+                        ∇
+                        ⋅
+                        
+                          ∫
+                          
+                            V
+                          
+                        
+                        
+                          
+                            
+                              
+                                F
+                              
+                              (
+                              
+                                
+                                  r
+                                
+                                ′
+                              
+                              )
+                            
+                            
+                              |
+                              
+                                
+                                  r
+                                
+                                −
+                                
+                                  
+                                    r
+                                  
+                                  ′
+                                
+                              
+                              |
+                            
+                          
+                        
+                        
+                          d
+                        
+                        
+                          V
+                          ′
+                        
+                      
+                      )
+                    
+                    −
+                    ∇
+                    ×
+                    
+                      (
+                      
+                        ∇
+                        ×
+                        
+                          ∫
+                          
+                            V
+                          
+                        
+                        
+                          
+                            
+                              
+                                F
+                              
+                              (
+                              
+                                
+                                  r
+                                
+                                ′
+                              
+                              )
+                            
+                            
+                              |
+                              
+                                
+                                  r
+                                
+                                −
+                                
+                                  
+                                    r
+                                  
+                                  ′
+                                
+                              
+                              |
+                            
+                          
+                        
+                        
+                          d
+                        
+                        
+                          V
+                          ′
+                        
+                      
+                      )
+                    
+                  
+                  ]
+                
+              
+            
+            
+              
+              
+                
+                =
+                −
+                
+                  
+                    1
+                    
+                      4
+                      π
+                    
+                  
+                
+                
+                  [
+                  
+                    ∇
+                    
+                      (
+                      
+                        
+                          ∫
+                          
+                            V
+                          
+                        
+                        
+                          F
+                        
+                        (
+                        
+                          
+                            r
+                          
+                          ′
+                        
+                        )
+                        ⋅
+                        ∇
+                        
+                          
+                            1
+                            
+                              |
+                              
+                                
+                                  r
+                                
+                                −
+                                
+                                  
+                                    r
+                                  
+                                  ′
+                                
+                              
+                              |
+                            
+                          
+                        
+                        
+                          d
+                        
+                        
+                          V
+                          ′
+                        
+                      
+                      )
+                    
+                    +
+                    ∇
+                    ×
+                    
+                      (
+                      
+                        
+                          ∫
+                          
+                            V
+                          
+                        
+                        
+                          F
+                        
+                        (
+                        
+                          
+                            r
+                          
+                          ′
+                        
+                        )
+                        ×
+                        ∇
+                        
+                          
+                            1
+                            
+                              |
+                              
+                                
+                                  r
+                                
+                                −
+                                
+                                  
+                                    r
+                                  
+                                  ′
+                                
+                              
+                              |
+                            
+                          
+                        
+                        
+                          d
+                        
+                        
+                          V
+                          ′
+                        
+                      
+                      )
+                    
+                  
+                  ]
+                
+              
+            
+            
+              
+              
+                
+                =
+                −
+                
+                  
+                    1
+                    
+                      4
+                      π
+                    
+                  
+                
+                
+                  [
+                  
+                    −
+                    ∇
+                    
+                      (
+                      
+                        
+                          ∫
+                          
+                            V
+                          
+                        
+                        
+                          F
+                        
+                        (
+                        
+                          
+                            r
+                          
+                          ′
+                        
+                        )
+                        ⋅
+                        
+                          ∇
+                          ′
+                        
+                        
+                          
+                            1
+                            
+                              |
+                              
+                                
+                                  r
+                                
+                                −
+                                
+                                  
+                                    r
+                                  
+                                  ′
+                                
+                              
+                              |
+                            
+                          
+                        
+                        
+                          d
+                        
+                        
+                          V
+                          ′
+                        
+                      
+                      )
+                    
+                    −
+                    ∇
+                    ×
+                    
+                      (
+                      
+                        
+                          ∫
+                          
+                            V
+                          
+                        
+                        
+                          F
+                        
+                        (
+                        
+                          
+                            r
+                          
+                          ′
+                        
+                        )
+                        ×
+                        
+                          ∇
+                          ′
+                        
+                        
+                          
+                            1
+                            
+                              |
+                              
+                                
+                                  r
+                                
+                                −
+                                
+                                  
+                                    r
+                                  
+                                  ′
+                                
+                              
+                              |
+                            
+                          
+                        
+                        
+                          d
+                        
+                        
+                          V
+                          ′
+                        
+                      
+                      )
+                    
+                  
+                  ]
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\mathbf {F} (\mathbf {r} )&=\int _{V}\mathbf {F} \left(\mathbf {r} '\right)\delta ^{3}(\mathbf {r} -\mathbf {r} ')\mathrm {d} V'\\&=\int _{V}\mathbf {F} (\mathbf {r} ')\left(-{\frac {1}{4\pi }}\nabla ^{2}{\frac {1}{\left|\mathbf {r} -\mathbf {r} '\right|}}\right)\mathrm {d} V'\\&=-{\frac {1}{4\pi }}\nabla ^{2}\int _{V}{\frac {\mathbf {F} (\mathbf {r} ')}{\left|\mathbf {r} -\mathbf {r} '\right|}}\mathrm {d} V'\\&=-{\frac {1}{4\pi }}\left[\nabla \left(\nabla \cdot \int _{V}{\frac {\mathbf {F} (\mathbf {r} ')}{\left|\mathbf {r} -\mathbf {r} '\right|}}\mathrm {d} V'\right)-\nabla \times \left(\nabla \times \int _{V}{\frac {\mathbf {F} (\mathbf {r} ')}{\left|\mathbf {r} -\mathbf {r} '\right|}}\mathrm {d} V'\right)\right]\\&=-{\frac {1}{4\pi }}\left[\nabla \left(\int _{V}\mathbf {F} (\mathbf {r} ')\cdot \nabla {\frac {1}{\left|\mathbf {r} -\mathbf {r} '\right|}}\mathrm {d} V'\right)+\nabla \times \left(\int _{V}\mathbf {F} (\mathbf {r} ')\times \nabla {\frac {1}{\left|\mathbf {r} -\mathbf {r} '\right|}}\mathrm {d} V'\right)\right]\\&=-{\frac {1}{4\pi }}\left[-\nabla \left(\int _{V}\mathbf {F} (\mathbf {r} ')\cdot \nabla '{\frac {1}{\left|\mathbf {r} -\mathbf {r} '\right|}}\mathrm {d} V'\right)-\nabla \times \left(\int _{V}\mathbf {F} (\mathbf {r} ')\times \nabla '{\frac {1}{\left|\mathbf {r} -\mathbf {r} '\right|}}\mathrm {d} V'\right)\right]\end{aligned}}}
+  where we have used the definition of the vector Laplacian:
+
+  
+    
+      
+        
+          ∇
+          
+            2
+          
+        
+        
+          a
+        
+        =
+        ∇
+        (
+        ∇
+        ⋅
+        
+          a
+        
+        )
+        −
+        ∇
+        ×
+        (
+        ∇
+        ×
+        
+          a
+        
+        )
+         
+        ,
+      
+    
+    {\displaystyle \nabla ^{2}\mathbf {a} =\nabla (\nabla \cdot \mathbf {a} )-\nabla \times (\nabla \times \mathbf {a} )\ ,}
+  differentiation/integration with respect to 
+  
+    
+      
+        
+          
+            r
+          
+          ′
+        
+      
+    
+    {\displaystyle \mathbf {r} '}
+  by 
+  
+    
+      
+        
+          ∇
+          ′
+        
+        
+          /
+        
+        
+          d
+        
+        
+          V
+          ′
+        
+        ,
+      
+    
+    {\displaystyle \nabla '/\mathrm {d} V',}
+  and in the last line, linearity of function arguments:
+
+  
+    
+      
+        ∇
+        
+          
+            1
+            
+              |
+              
+                
+                  r
+                
+                −
+                
+                  
+                    r
+                  
+                  ′
+                
+              
+              |
+            
+          
+        
+        =
+        −
+        
+          ∇
+          ′
+        
+        
+          
+            1
+            
+              |
+              
+                
+                  r
+                
+                −
+                
+                  
+                    r
+                  
+                  ′
+                
+              
+              |
+            
+          
+        
+         
+        .
+      
+    
+    {\displaystyle \nabla {\frac {1}{\left|\mathbf {r} -\mathbf {r} '\right|}}=-\nabla '{\frac {1}{\left|\mathbf {r} -\mathbf {r} '\right|}}\ .}
+  Then using the vectorial identities
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  a
+                
+                ⋅
+                ∇
+                ψ
+              
+              
+                
+                =
+                −
+                ψ
+                (
+                ∇
+                ⋅
+                
+                  a
+                
+                )
+                +
+                ∇
+                ⋅
+                (
+                ψ
+                
+                  a
+                
+                )
+              
+            
+            
+              
+                
+                  a
+                
+                ×
+                ∇
+                ψ
+              
+              
+                
+                =
+                ψ
+                (
+                ∇
+                ×
+                
+                  a
+                
+                )
+                −
+                ∇
+                ×
+                (
+                ψ
+                
+                  a
+                
+                )
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\mathbf {a} \cdot \nabla \psi &=-\psi (\nabla \cdot \mathbf {a} )+\nabla \cdot (\psi \mathbf {a} )\\\mathbf {a} \times \nabla \psi &=\psi (\nabla \times \mathbf {a} )-\nabla \times (\psi \mathbf {a} )\end{aligned}}}
+  we get
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  F
+                
+                (
+                
+                  r
+                
+                )
+                =
+                −
+                
+                  
+                    1
+                    
+                      4
+                      π
+                    
+                  
+                
+                
+                  
+                    [
+                  
+                
+              
+              
+                
+                −
+                ∇
+                
+                  (
+                  
+                    −
+                    
+                      ∫
+                      
+                        V
+                      
+                    
+                    
+                      
+                        
+                          
+                            ∇
+                            ′
+                          
+                          ⋅
+                          
+                            F
+                          
+                          
+                            (
+                            
+                              
+                                r
+                              
+                              ′
+                            
+                            )
+                          
+                        
+                        
+                          |
+                          
+                            
+                              r
+                            
+                            −
+                            
+                              
+                                r
+                              
+                              ′
+                            
+                          
+                          |
+                        
+                      
+                    
+                    
+                      d
+                    
+                    
+                      V
+                      ′
+                    
+                    +
+                    
+                      ∫
+                      
+                        V
+                      
+                    
+                    
+                      ∇
+                      ′
+                    
+                    ⋅
+                    
+                      
+                        
+                          
+                            F
+                          
+                          
+                            (
+                            
+                              
+                                r
+                              
+                              ′
+                            
+                            )
+                          
+                        
+                        
+                          |
+                          
+                            
+                              r
+                            
+                            −
+                            
+                              
+                                r
+                              
+                              ′
+                            
+                          
+                          |
+                        
+                      
+                    
+                    
+                      d
+                    
+                    
+                      V
+                      ′
+                    
+                  
+                  )
+                
+              
+            
+            
+              
+              
+                
+                −
+                ∇
+                ×
+                
+                  (
+                  
+                    
+                      ∫
+                      
+                        V
+                      
+                    
+                    
+                      
+                        
+                          
+                            ∇
+                            ′
+                          
+                          ×
+                          
+                            F
+                          
+                          
+                            (
+                            
+                              
+                                r
+                              
+                              ′
+                            
+                            )
+                          
+                        
+                        
+                          |
+                          
+                            
+                              r
+                            
+                            −
+                            
+                              
+                                r
+                              
+                              ′
+                            
+                          
+                          |
+                        
+                      
+                    
+                    
+                      d
+                    
+                    
+                      V
+                      ′
+                    
+                    −
+                    
+                      ∫
+                      
+                        V
+                      
+                    
+                    
+                      ∇
+                      ′
+                    
+                    ×
+                    
+                      
+                        
+                          
+                            F
+                          
+                          
+                            (
+                            
+                              
+                                r
+                              
+                              ′
+                            
+                            )
+                          
+                        
+                        
+                          |
+                          
+                            
+                              r
+                            
+                            −
+                            
+                              
+                                r
+                              
+                              ′
+                            
+                          
+                          |
+                        
+                      
+                    
+                    
+                      d
+                    
+                    
+                      V
+                      ′
+                    
+                  
+                  )
+                
+                
+                  
+                    ]
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\mathbf {F} (\mathbf {r} )=-{\frac {1}{4\pi }}{\bigg [}&-\nabla \left(-\int _{V}{\frac {\nabla '\cdot \mathbf {F} \left(\mathbf {r} '\right)}{\left|\mathbf {r} -\mathbf {r} '\right|}}\mathrm {d} V'+\int _{V}\nabla '\cdot {\frac {\mathbf {F} \left(\mathbf {r} '\right)}{\left|\mathbf {r} -\mathbf {r} '\right|}}\mathrm {d} V'\right)\\&-\nabla \times \left(\int _{V}{\frac {\nabla '\times \mathbf {F} \left(\mathbf {r} '\right)}{\left|\mathbf {r} -\mathbf {r} '\right|}}\mathrm {d} V'-\int _{V}\nabla '\times {\frac {\mathbf {F} \left(\mathbf {r} '\right)}{\left|\mathbf {r} -\mathbf {r} '\right|}}\mathrm {d} V'\right){\bigg ]}.\end{aligned}}}
+  Thanks to the divergence theorem the equation can be rewritten as
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  F
+                
+                (
+                
+                  r
+                
+                )
+              
+              
+                
+                =
+                −
+                
+                  
+                    1
+                    
+                      4
+                      π
+                    
+                  
+                
+                
+                  
+                    [
+                  
+                
+                −
+                ∇
+                
+                  (
+                  
+                    −
+                    
+                      ∫
+                      
+                        V
+                      
+                    
+                    
+                      
+                        
+                          
+                            ∇
+                            ′
+                          
+                          ⋅
+                          
+                            F
+                          
+                          
+                            (
+                            
+                              
+                                r
+                              
+                              ′
+                            
+                            )
+                          
+                        
+                        
+                          |
+                          
+                            
+                              r
+                            
+                            −
+                            
+                              
+                                r
+                              
+                              ′
+                            
+                          
+                          |
+                        
+                      
+                    
+                    
+                      d
+                    
+                    
+                      V
+                      ′
+                    
+                    +
+                    
+                      
+                        
+                          
+                            ∮
+                            
+                          
+                        
+                        
+                      
+                      
+                        S
+                      
+                    
+                    ⁡
+                    
+                      
+                        
+                          
+                            n
+                            ^
+                          
+                        
+                      
+                      ′
+                    
+                    ⋅
+                    
+                      
+                        
+                          
+                            F
+                          
+                          
+                            (
+                            
+                              
+                                r
+                              
+                              ′
+                            
+                            )
+                          
+                        
+                        
+                          |
+                          
+                            
+                              r
+                            
+                            −
+                            
+                              
+                                r
+                              
+                              ′
+                            
+                          
+                          |
+                        
+                      
+                    
+                    
+                      d
+                    
+                    
+                      S
+                      ′
+                    
+                  
+                  )
+                
+              
+            
+            
+              
+              
+                
+                
+                
+                −
+                ∇
+                ×
+                
+                  (
+                  
+                    
+                      ∫
+                      
+                        V
+                      
+                    
+                    
+                      
+                        
+                          
+                            ∇
+                            ′
+                          
+                          ×
+                          
+                            F
+                          
+                          
+                            (
+                            
+                              
+                                r
+                              
+                              ′
+                            
+                            )
+                          
+                        
+                        
+                          |
+                          
+                            
+                              r
+                            
+                            −
+                            
+                              
+                                r
+                              
+                              ′
+                            
+                          
+                          |
+                        
+                      
+                    
+                    
+                      d
+                    
+                    
+                      V
+                      ′
+                    
+                    −
+                    
+                      
+                        
+                          
+                            ∮
+                            
+                          
+                        
+                        
+                      
+                      
+                        S
+                      
+                    
+                    ⁡
+                    
+                      
+                        
+                          
+                            n
+                            ^
+                          
+                        
+                      
+                      ′
+                    
+                    ×
+                    
+                      
+                        
+                          
+                            F
+                          
+                          
+                            (
+                            
+                              
+                                r
+                              
+                              ′
+                            
+                            )
+                          
+                        
+                        
+                          |
+                          
+                            
+                              r
+                            
+                            −
+                            
+                              
+                                r
+                              
+                              ′
+                            
+                          
+                          |
+                        
+                      
+                    
+                    
+                      d
+                    
+                    
+                      S
+                      ′
+                    
+                  
+                  )
+                
+                
+                  
+                    ]
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                −
+                ∇
+                
+                  [
+                  
+                    
+                      
+                        1
+                        
+                          4
+                          π
+                        
+                      
+                    
+                    
+                      ∫
+                      
+                        V
+                      
+                    
+                    
+                      
+                        
+                          
+                            ∇
+                            ′
+                          
+                          ⋅
+                          
+                            F
+                          
+                          
+                            (
+                            
+                              
+                                r
+                              
+                              ′
+                            
+                            )
+                          
+                        
+                        
+                          |
+                          
+                            
+                              r
+                            
+                            −
+                            
+                              
+                                r
+                              
+                              ′
+                            
+                          
+                          |
+                        
+                      
+                    
+                    
+                      d
+                    
+                    
+                      V
+                      ′
+                    
+                    −
+                    
+                      
+                        1
+                        
+                          4
+                          π
+                        
+                      
+                    
+                    
+                      
+                        
+                          
+                            ∮
+                            
+                          
+                        
+                        
+                      
+                      
+                        S
+                      
+                    
+                    ⁡
+                    
+                      
+                        
+                          
+                            n
+                            ^
+                          
+                        
+                      
+                      ′
+                    
+                    ⋅
+                    
+                      
+                        
+                          
+                            F
+                          
+                          
+                            (
+                            
+                              
+                                r
+                              
+                              ′
+                            
+                            )
+                          
+                        
+                        
+                          |
+                          
+                            
+                              r
+                            
+                            −
+                            
+                              
+                                r
+                              
+                              ′
+                            
+                          
+                          |
+                        
+                      
+                    
+                    
+                      d
+                    
+                    
+                      S
+                      ′
+                    
+                  
+                  ]
+                
+              
+            
+            
+              
+              
+                
+                
+                +
+                ∇
+                ×
+                
+                  [
+                  
+                    
+                      
+                        1
+                        
+                          4
+                          π
+                        
+                      
+                    
+                    
+                      ∫
+                      
+                        V
+                      
+                    
+                    
+                      
+                        
+                          
+                            ∇
+                            ′
+                          
+                          ×
+                          
+                            F
+                          
+                          
+                            (
+                            
+                              
+                                r
+                              
+                              ′
+                            
+                            )
+                          
+                        
+                        
+                          |
+                          
+                            
+                              r
+                            
+                            −
+                            
+                              
+                                r
+                              
+                              ′
+                            
+                          
+                          |
+                        
+                      
+                    
+                    
+                      d
+                    
+                    
+                      V
+                      ′
+                    
+                    −
+                    
+                      
+                        1
+                        
+                          4
+                          π
+                        
+                      
+                    
+                    
+                      
+                        
+                          
+                            ∮
+                            
+                          
+                        
+                        
+                      
+                      
+                        S
+                      
+                    
+                    ⁡
+                    
+                      
+                        
+                          
+                            n
+                            ^
+                          
+                        
+                      
+                      ′
+                    
+                    ×
+                    
+                      
+                        
+                          
+                            F
+                          
+                          
+                            (
+                            
+                              
+                                r
+                              
+                              ′
+                            
+                            )
+                          
+                        
+                        
+                          |
+                          
+                            
+                              r
+                            
+                            −
+                            
+                              
+                                r
+                              
+                              ′
+                            
+                          
+                          |
+                        
+                      
+                    
+                    
+                      d
+                    
+                    
+                      S
+                      ′
+                    
+                  
+                  ]
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\mathbf {F} (\mathbf {r} )&=-{\frac {1}{4\pi }}{\bigg [}-\nabla \left(-\int _{V}{\frac {\nabla '\cdot \mathbf {F} \left(\mathbf {r} '\right)}{\left|\mathbf {r} -\mathbf {r} '\right|}}\mathrm {d} V'+\oint _{S}\mathbf {\hat {n}} '\cdot {\frac {\mathbf {F} \left(\mathbf {r} '\right)}{\left|\mathbf {r} -\mathbf {r} '\right|}}\mathrm {d} S'\right)\\&\qquad \qquad -\nabla \times \left(\int _{V}{\frac {\nabla '\times \mathbf {F} \left(\mathbf {r} '\right)}{\left|\mathbf {r} -\mathbf {r} '\right|}}\mathrm {d} V'-\oint _{S}\mathbf {\hat {n}} '\times {\frac {\mathbf {F} \left(\mathbf {r} '\right)}{\left|\mathbf {r} -\mathbf {r} '\right|}}\mathrm {d} S'\right){\bigg ]}\\&=-\nabla \left[{\frac {1}{4\pi }}\int _{V}{\frac {\nabla '\cdot \mathbf {F} \left(\mathbf {r} '\right)}{\left|\mathbf {r} -\mathbf {r} '\right|}}\mathrm {d} V'-{\frac {1}{4\pi }}\oint _{S}\mathbf {\hat {n}} '\cdot {\frac {\mathbf {F} \left(\mathbf {r} '\right)}{\left|\mathbf {r} -\mathbf {r} '\right|}}\mathrm {d} S'\right]\\&\quad +\nabla \times \left[{\frac {1}{4\pi }}\int _{V}{\frac {\nabla '\times \mathbf {F} \left(\mathbf {r} '\right)}{\left|\mathbf {r} -\mathbf {r} '\right|}}\mathrm {d} V'-{\frac {1}{4\pi }}\oint _{S}\mathbf {\hat {n}} '\times {\frac {\mathbf {F} \left(\mathbf {r} '\right)}{\left|\mathbf {r} -\mathbf {r} '\right|}}\mathrm {d} S'\right]\end{aligned}}}
+  with outward surface normal 
+  
+    
+      
+        
+          
+            
+              
+                n
+                ^
+              
+            
+          
+          ′
+        
+      
+    
+    {\displaystyle \mathbf {\hat {n}} '}
+  .
+Defining
+
+  
+    
+      
+        Φ
+        (
+        
+          r
+        
+        )
+        ≡
+        
+          
+            1
+            
+              4
+              π
+            
+          
+        
+        
+          ∫
+          
+            V
+          
+        
+        
+          
+            
+              
+                ∇
+                ′
+              
+              ⋅
+              
+                F
+              
+              
+                (
+                
+                  
+                    r
+                  
+                  ′
+                
+                )
+              
+            
+            
+              |
+              
+                
+                  r
+                
+                −
+                
+                  
+                    r
+                  
+                  ′
+                
+              
+              |
+            
+          
+        
+        
+          d
+        
+        
+          V
+          ′
+        
+        −
+        
+          
+            1
+            
+              4
+              π
+            
+          
+        
+        
+          
+            
+              
+                ∮
+                
+              
+            
+            
+          
+          
+            S
+          
+        
+        ⁡
+        
+          
+            
+              
+                n
+                ^
+              
+            
+          
+          ′
+        
+        ⋅
+        
+          
+            
+              
+                F
+              
+              
+                (
+                
+                  
+                    r
+                  
+                  ′
+                
+                )
+              
+            
+            
+              |
+              
+                
+                  r
+                
+                −
+                
+                  
+                    r
+                  
+                  ′
+                
+              
+              |
+            
+          
+        
+        
+          d
+        
+        
+          S
+          ′
+        
+      
+    
+    {\displaystyle \Phi (\mathbf {r} )\equiv {\frac {1}{4\pi }}\int _{V}{\frac {\nabla '\cdot \mathbf {F} \left(\mathbf {r} '\right)}{\left|\mathbf {r} -\mathbf {r} '\right|}}\mathrm {d} V'-{\frac {1}{4\pi }}\oint _{S}\mathbf {\hat {n}} '\cdot {\frac {\mathbf {F} \left(\mathbf {r} '\right)}{\left|\mathbf {r} -\mathbf {r} '\right|}}\mathrm {d} S'}
+  
+  
+    
+      
+        
+          A
+        
+        (
+        
+          r
+        
+        )
+        ≡
+        
+          
+            1
+            
+              4
+              π
+            
+          
+        
+        
+          ∫
+          
+            V
+          
+        
+        
+          
+            
+              
+                ∇
+                ′
+              
+              ×
+              
+                F
+              
+              
+                (
+                
+                  
+                    r
+                  
+                  ′
+                
+                )
+              
+            
+            
+              |
+              
+                
+                  r
+                
+                −
+                
+                  
+                    r
+                  
+                  ′
+                
+              
+              |
+            
+          
+        
+        
+          d
+        
+        
+          V
+          ′
+        
+        −
+        
+          
+            1
+            
+              4
+              π
+            
+          
+        
+        
+          
+            
+              
+                ∮
+                
+              
+            
+            
+          
+          
+            S
+          
+        
+        ⁡
+        
+          
+            
+              
+                n
+                ^
+              
+            
+          
+          ′
+        
+        ×
+        
+          
+            
+              
+                F
+              
+              
+                (
+                
+                  
+                    r
+                  
+                  ′
+                
+                )
+              
+            
+            
+              |
+              
+                
+                  r
+                
+                −
+                
+                  
+                    r
+                  
+                  ′
+                
+              
+              |
+            
+          
+        
+        
+          d
+        
+        
+          S
+          ′
+        
+      
+    
+    {\displaystyle \mathbf {A} (\mathbf {r} )\equiv {\frac {1}{4\pi }}\int _{V}{\frac {\nabla '\times \mathbf {F} \left(\mathbf {r} '\right)}{\left|\mathbf {r} -\mathbf {r} '\right|}}\mathrm {d} V'-{\frac {1}{4\pi }}\oint _{S}\mathbf {\hat {n}} '\times {\frac {\mathbf {F} \left(\mathbf {r} '\right)}{\left|\mathbf {r} -\mathbf {r} '\right|}}\mathrm {d} S'}
+  we finally obtain
+
+  
+    
+      
+        
+          F
+        
+        =
+        −
+        ∇
+        Φ
+        +
+        ∇
+        ×
+        
+          A
+        
+        .
+      
+    
+    {\displaystyle \mathbf {F} =-\nabla \Phi +\nabla \times \mathbf {A} .}
+  
+  
+    
+      
+        −
+        
+          
+            1
+            
+              4
+              π
+              
+                |
+                
+                  
+                    r
+                  
+                  −
+                  
+                    
+                      r
+                    
+                    ′
+                  
+                
+                |
+              
+            
+          
+        
+      
+    
+    {\displaystyle -{\frac {1}{4\pi \left|\mathbf {r} -\mathbf {r} '\right|}}}
+   is the Green's function for the Laplacian, and in a more general setting it should be replaced by the appropriate Green's function - for example, in two dimensions it should be replaced by 
+  
+    
+      
+        
+          
+            1
+            
+              2
+              π
+            
+          
+        
+        ln
+        ⁡
+        
+          |
+          
+            
+              r
+            
+            −
+            
+              
+                r
+              
+              ′
+            
+          
+          |
+        
+      
+    
+    {\displaystyle {\frac {1}{2\pi }}\ln \left|\mathbf {r} -\mathbf {r} '\right|}
+  . For higher dimensional generalization, see the discussion of Hodge decomposition below.
+
+
+=== Another derivation from the Fourier transform ===
+Note that in the theorem stated here, we have imposed the condition that if 
+  
+    
+      
+        
+          F
+        
+      
+    
+    {\displaystyle \mathbf {F} }
+   is not defined on a bounded domain, then 
+  
+    
+      
+        
+          F
+        
+      
+    
+    {\displaystyle \mathbf {F} }
+   shall decay faster than 
+  
+    
+      
+        1
+        
+          /
+        
+        r
+      
+    
+    {\displaystyle 1/r}
+  . Thus, the Fourier Transform of 
+  
+    
+      
+        
+          F
+        
+      
+    
+    {\displaystyle \mathbf {F} }
+  , denoted as 
+  
+    
+      
+        
+          G
+        
+      
+    
+    {\displaystyle \mathbf {G} }
+  , is guaranteed to exist. We apply the convention
+
+  
+    
+      
+        
+          F
+        
+        (
+        
+          r
+        
+        )
+        =
+        ∭
+        
+          G
+        
+        (
+        
+          k
+        
+        )
+        
+          e
+          
+            i
+            
+              k
+            
+            ⋅
+            
+              r
+            
+          
+        
+        d
+        
+          V
+          
+            k
+          
+        
+      
+    
+    {\displaystyle \mathbf {F} (\mathbf {r} )=\iiint \mathbf {G} (\mathbf {k} )e^{i\mathbf {k} \cdot \mathbf {r} }dV_{k}}
+  The Fourier transform of a scalar field is a scalar field, and the Fourier transform of a vector field is a vector field of same dimension.
+Now consider the following scalar and vector fields:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  G
+                  
+                    Φ
+                  
+                
+                (
+                
+                  k
+                
+                )
+              
+              
+                
+                =
+                i
+                
+                  
+                    
+                      
+                        k
+                      
+                      ⋅
+                      
+                        G
+                      
+                      (
+                      
+                        k
+                      
+                      )
+                    
+                    
+                      ‖
+                      
+                        k
+                      
+                      
+                        ‖
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+              
+            
+            
+              
+                
+                  
+                    G
+                  
+                  
+                    
+                      A
+                    
+                  
+                
+                (
+                
+                  k
+                
+                )
+              
+              
+                
+                =
+                i
+                
+                  
+                    
+                      
+                        k
+                      
+                      ×
+                      
+                        G
+                      
+                      (
+                      
+                        k
+                      
+                      )
+                    
+                    
+                      ‖
+                      
+                        k
+                      
+                      
+                        ‖
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+              
+            
+            
+              
+                Φ
+                (
+                
+                  r
+                
+                )
+              
+              
+                
+                =
+                ∭
+                
+                  G
+                  
+                    Φ
+                  
+                
+                (
+                
+                  k
+                
+                )
+                
+                  e
+                  
+                    i
+                    
+                      k
+                    
+                    ⋅
+                    
+                      r
+                    
+                  
+                
+                d
+                
+                  V
+                  
+                    k
+                  
+                
+              
+            
+            
+              
+                
+                  A
+                
+                (
+                
+                  r
+                
+                )
+              
+              
+                
+                =
+                ∭
+                
+                  
+                    G
+                  
+                  
+                    
+                      A
+                    
+                  
+                
+                (
+                
+                  k
+                
+                )
+                
+                  e
+                  
+                    i
+                    
+                      k
+                    
+                    ⋅
+                    
+                      r
+                    
+                  
+                
+                d
+                
+                  V
+                  
+                    k
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}G_{\Phi }(\mathbf {k} )&=i{\frac {\mathbf {k} \cdot \mathbf {G} (\mathbf {k} )}{\|\mathbf {k} \|^{2}}}\\\mathbf {G} _{\mathbf {A} }(\mathbf {k} )&=i{\frac {\mathbf {k} \times \mathbf {G} (\mathbf {k} )}{\|\mathbf {k} \|^{2}}}\\[8pt]\Phi (\mathbf {r} )&=\iiint G_{\Phi }(\mathbf {k} )e^{i\mathbf {k} \cdot \mathbf {r} }dV_{k}\\\mathbf {A} (\mathbf {r} )&=\iiint \mathbf {G} _{\mathbf {A} }(\mathbf {k} )e^{i\mathbf {k} \cdot \mathbf {r} }dV_{k}\end{aligned}}}
+  Hence
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  G
+                
+                (
+                
+                  k
+                
+                )
+              
+              
+                
+                =
+                −
+                i
+                
+                  k
+                
+                
+                  G
+                  
+                    Φ
+                  
+                
+                (
+                
+                  k
+                
+                )
+                +
+                i
+                
+                  k
+                
+                ×
+                
+                  
+                    G
+                  
+                  
+                    
+                      A
+                    
+                  
+                
+                (
+                
+                  k
+                
+                )
+              
+            
+            
+              
+                
+                  F
+                
+                (
+                
+                  r
+                
+                )
+              
+              
+                
+                =
+                −
+                ∭
+                i
+                
+                  k
+                
+                
+                  G
+                  
+                    Φ
+                  
+                
+                (
+                
+                  k
+                
+                )
+                
+                  e
+                  
+                    i
+                    
+                      k
+                    
+                    ⋅
+                    
+                      r
+                    
+                  
+                
+                d
+                
+                  V
+                  
+                    k
+                  
+                
+                +
+                ∭
+                i
+                
+                  k
+                
+                ×
+                
+                  
+                    G
+                  
+                  
+                    
+                      A
+                    
+                  
+                
+                (
+                
+                  k
+                
+                )
+                
+                  e
+                  
+                    i
+                    
+                      k
+                    
+                    ⋅
+                    
+                      r
+                    
+                  
+                
+                d
+                
+                  V
+                  
+                    k
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                −
+                ∇
+                Φ
+                (
+                
+                  r
+                
+                )
+                +
+                ∇
+                ×
+                
+                  A
+                
+                (
+                
+                  r
+                
+                )
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\mathbf {G} (\mathbf {k} )&=-i\mathbf {k} G_{\Phi }(\mathbf {k} )+i\mathbf {k} \times \mathbf {G} _{\mathbf {A} }(\mathbf {k} )\\[6pt]\mathbf {F} (\mathbf {r} )&=-\iiint i\mathbf {k} G_{\Phi }(\mathbf {k} )e^{i\mathbf {k} \cdot \mathbf {r} }dV_{k}+\iiint i\mathbf {k} \times \mathbf {G} _{\mathbf {A} }(\mathbf {k} )e^{i\mathbf {k} \cdot \mathbf {r} }dV_{k}\\&=-\nabla \Phi (\mathbf {r} )+\nabla \times \mathbf {A} (\mathbf {r} )\end{aligned}}}
+  
+
+
+== Fields with prescribed divergence and curl ==
+The term "Helmholtz theorem" can also refer to the following. Let C be a solenoidal vector field and d a scalar field on R3 which are sufficiently smooth and which vanish faster than 1/r2 at infinity. Then there exists a vector field F such that
+
+  
+    
+      
+        ∇
+        ⋅
+        
+          F
+        
+        =
+        d
+        
+        
+           and 
+        
+        
+        ∇
+        ×
+        
+          F
+        
+        =
+        
+          C
+        
+        ;
+      
+    
+    {\displaystyle \nabla \cdot \mathbf {F} =d\quad {\text{ and }}\quad \nabla \times \mathbf {F} =\mathbf {C} ;}
+  if additionally the vector field F vanishes as r → ∞, then F is unique.In other words, a vector field can be constructed with both a specified divergence and a specified curl, and if it also vanishes at infinity, it is uniquely specified by its divergence and curl. This theorem is of great importance in electrostatics, since Maxwell's equations for the electric and magnetic fields in the static case are of exactly this type. The proof is by a construction generalizing the one given above: we set
+
+  
+    
+      
+        
+          F
+        
+        =
+        −
+        ∇
+        (
+        
+          
+            G
+          
+        
+        (
+        d
+        )
+        )
+        +
+        ∇
+        ×
+        (
+        
+          
+            G
+          
+        
+        (
+        
+          C
+        
+        )
+        )
+        ,
+      
+    
+    {\displaystyle \mathbf {F} =-\nabla ({\mathcal {G}}(d))+\nabla \times ({\mathcal {G}}(\mathbf {C} )),}
+  where 
+  
+    
+      
+        
+          
+            G
+          
+        
+      
+    
+    {\displaystyle {\mathcal {G}}}
+   represents the Newtonian potential operator. (When acting on a vector field, such as ∇ × F, it is defined to act on each component.)
+
+
+== Differential forms ==
+The Hodge decomposition is closely related to the Helmholtz decomposition, generalizing from vector fields on R3 to differential forms on a Riemannian manifold M.  Most formulations of the Hodge decomposition require M to be compact. Since this is not true of R3, the Hodge decomposition theorem is not strictly a generalization of the Helmholtz theorem.  However, the compactness restriction in the usual formulation of the Hodge decomposition can be replaced by suitable decay assumptions at infinity on the differential forms involved,  giving a proper generalization of the Helmholtz theorem.
+
+
+== Weak formulation ==
+The Helmholtz decomposition can also be generalized by reducing the regularity assumptions (the need for the existence of strong derivatives). Suppose Ω is a bounded, simply-connected, Lipschitz domain. Every square-integrable vector field u ∈ (L2(Ω))3 has an orthogonal decomposition:
+
+  
+    
+      
+        
+          u
+        
+        =
+        ∇
+        φ
+        +
+        ∇
+        ×
+        
+          A
+        
+      
+    
+    {\displaystyle \mathbf {u} =\nabla \varphi +\nabla \times \mathbf {A} }
+  where φ is in the Sobolev space H1(Ω) of square-integrable functions on Ω whose partial derivatives defined in the distribution sense are square integrable, and A ∈ H(curl, Ω), the Sobolev space of vector fields consisting of square integrable vector fields with square integrable curl.
+For a slightly smoother vector field u ∈ H(curl, Ω), a similar decomposition holds:
+
+  
+    
+      
+        
+          u
+        
+        =
+        ∇
+        φ
+        +
+        
+          v
+        
+      
+    
+    {\displaystyle \mathbf {u} =\nabla \varphi +\mathbf {v} }
+  where φ ∈ H1(Ω), v ∈ (H1(Ω))d.
+
+
+== Longitudinal and transverse fields ==
+A terminology often used in physics refers to the curl-free component of a vector field as the longitudinal component and the divergence-free component as the transverse component. This terminology comes from the following construction: Compute the three-dimensional Fourier transform 
+  
+    
+      
+        
+          
+            
+              
+                F
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\mathbf {F} }}}
+   of the vector field 
+  
+    
+      
+        
+          F
+        
+      
+    
+    {\displaystyle \mathbf {F} }
+  . Then decompose this field, at each point k, into two components, one of which points longitudinally, i.e. parallel to k, the other of which points in the transverse direction, i.e. perpendicular to k. So far, we have
+
+  
+    
+      
+        
+          
+            
+              
+                F
+              
+              ^
+            
+          
+        
+        (
+        
+          k
+        
+        )
+        =
+        
+          
+            
+              
+                
+                  F
+                
+                ^
+              
+            
+          
+          
+            t
+          
+        
+        (
+        
+          k
+        
+        )
+        +
+        
+          
+            
+              
+                
+                  F
+                
+                ^
+              
+            
+          
+          
+            l
+          
+        
+        (
+        
+          k
+        
+        )
+      
+    
+    {\displaystyle {\hat {\mathbf {F} }}(\mathbf {k} )={\hat {\mathbf {F} }}_{t}(\mathbf {k} )+{\hat {\mathbf {F} }}_{l}(\mathbf {k} )}
+  
+
+  
+    
+      
+        
+          k
+        
+        ⋅
+        
+          
+            
+              
+                
+                  F
+                
+                ^
+              
+            
+          
+          
+            t
+          
+        
+        (
+        
+          k
+        
+        )
+        =
+        0.
+      
+    
+    {\displaystyle \mathbf {k} \cdot {\hat {\mathbf {F} }}_{t}(\mathbf {k} )=0.}
+  
+
+  
+    
+      
+        
+          k
+        
+        ×
+        
+          
+            
+              
+                
+                  F
+                
+                ^
+              
+            
+          
+          
+            l
+          
+        
+        (
+        
+          k
+        
+        )
+        =
+        
+          0
+        
+        .
+      
+    
+    {\displaystyle \mathbf {k} \times {\hat {\mathbf {F} }}_{l}(\mathbf {k} )=\mathbf {0} .}
+  Now we apply an inverse Fourier transform to each of these components. Using properties of Fourier transforms, we derive:
+
+  
+    
+      
+        
+          F
+        
+        (
+        
+          r
+        
+        )
+        =
+        
+          
+            F
+          
+          
+            t
+          
+        
+        (
+        
+          r
+        
+        )
+        +
+        
+          
+            F
+          
+          
+            l
+          
+        
+        (
+        
+          r
+        
+        )
+      
+    
+    {\displaystyle \mathbf {F} (\mathbf {r} )=\mathbf {F} _{t}(\mathbf {r} )+\mathbf {F} _{l}(\mathbf {r} )}
+  
+
+  
+    
+      
+        ∇
+        ⋅
+        
+          
+            F
+          
+          
+            t
+          
+        
+        (
+        
+          r
+        
+        )
+        =
+        0
+      
+    
+    {\displaystyle \nabla \cdot \mathbf {F} _{t}(\mathbf {r} )=0}
+  
+
+  
+    
+      
+        ∇
+        ×
+        
+          
+            F
+          
+          
+            l
+          
+        
+        (
+        
+          r
+        
+        )
+        =
+        
+          0
+        
+      
+    
+    {\displaystyle \nabla \times \mathbf {F} _{l}(\mathbf {r} )=\mathbf {0} }
+  Since 
+  
+    
+      
+        ∇
+        ×
+        (
+        ∇
+        Φ
+        )
+        =
+        0
+      
+    
+    {\displaystyle \nabla \times (\nabla \Phi )=0}
+   and 
+  
+    
+      
+        ∇
+        ⋅
+        (
+        ∇
+        ×
+        
+          A
+        
+        )
+        =
+        0
+      
+    
+    {\displaystyle \nabla \cdot (\nabla \times \mathbf {A} )=0}
+  ,
+we can get
+
+  
+    
+      
+        
+          
+            F
+          
+          
+            t
+          
+        
+        =
+        ∇
+        ×
+        
+          A
+        
+        =
+        
+          
+            1
+            
+              4
+              π
+            
+          
+        
+        ∇
+        ×
+        
+          ∫
+          
+            V
+          
+        
+        
+          
+            
+              
+                ∇
+                ′
+              
+              ×
+              
+                F
+              
+            
+            
+              |
+              
+                
+                  r
+                
+                −
+                
+                  
+                    r
+                  
+                  ′
+                
+              
+              |
+            
+          
+        
+        
+          d
+        
+        
+          V
+          ′
+        
+      
+    
+    {\displaystyle \mathbf {F} _{t}=\nabla \times \mathbf {A} ={\frac {1}{4\pi }}\nabla \times \int _{V}{\frac {\nabla '\times \mathbf {F} }{\left|\mathbf {r} -\mathbf {r} '\right|}}\mathrm {d} V'}
+  
+
+  
+    
+      
+        
+          
+            F
+          
+          
+            l
+          
+        
+        =
+        −
+        ∇
+        Φ
+        =
+        −
+        
+          
+            1
+            
+              4
+              π
+            
+          
+        
+        ∇
+        
+          ∫
+          
+            V
+          
+        
+        
+          
+            
+              
+                ∇
+                ′
+              
+              ⋅
+              
+                F
+              
+            
+            
+              |
+              
+                
+                  r
+                
+                −
+                
+                  
+                    r
+                  
+                  ′
+                
+              
+              |
+            
+          
+        
+        
+          d
+        
+        
+          V
+          ′
+        
+      
+    
+    {\displaystyle \mathbf {F} _{l}=-\nabla \Phi =-{\frac {1}{4\pi }}\nabla \int _{V}{\frac {\nabla '\cdot \mathbf {F} }{\left|\mathbf {r} -\mathbf {r} '\right|}}\mathrm {d} V'}
+  so this is indeed the Helmholtz decomposition.
+
+
+== See also ==
+Clebsch representation for a related decomposition of vector fields
+Darwin Lagrangian for an application
+Poloidal–toroidal decomposition for a further decomposition of the divergence-free component 
+  
+    
+      
+        ∇
+        ×
+        
+          A
+        
+      
+    
+    {\displaystyle \nabla \times \mathbf {A} }
+  .
+Scalar-vector-tensor decomposition
+
+
+== Notes ==
+
+
+== References ==
+
+
+=== General references ===
+
+
+=== References for the weak formulation ===
+
+
+== External links ==
+Helmholtz theorem on MathWorld

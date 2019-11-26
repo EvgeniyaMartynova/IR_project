@@ -1,0 +1,92 @@
+Moo language
+
+A MOO (MUD, object-oriented) is a text-based online virtual reality system to which multiple users (players) are connected at the same time.
+The term MOO is used in two distinct, but related, senses. One is to refer to those programs descended from the original MOO server, and the other is to refer to any MUD that uses object-oriented techniques to organize its database of objects, particularly if it does so in a similar fashion to the original MOO or its derivatives.  Most of this article refers to the original MOO and its direct descendants, but see Non-Descendant MOOs for a list of MOO-like systems.
+The original MOO server was authored by Stephen White, based on his experience from creating the programmable TinyMUCK system.  There was additional later development and maintenance from LambdaMOO founder, and former Xerox PARC employee, Pavel Curtis.
+One of the most distinguishing features of a MOO is that its users can perform object-oriented programming within the server, ultimately expanding and changing how the server behaves to everyone.  Examples of such changes include authoring new rooms and objects, creating new generic objects for others to use, and changing the way the MOO interface operates. The programming language used for extension is the MOO programming language, and many MOOs feature convenient libraries of verbs that can be used by programmers in their coding known as Utilities. The MOO programming language is a domain-specific programming language.
+
+
+== Background ==
+MOOs are network accessible, multi-user, programmable, interactive systems well-suited to the construction of text-based adventure games, conferencing systems, and other collaborative software. Their most common use, however, is as multi-participant, low-bandwidth virtual realities. They have been used in academic environments for distance education, collaboration (such as Diversity University), group decision systems, and teaching object-oriented concepts; but others are primarily social in nature, or used for role-playing video games, or simply to take advantage of the programming possibilities.  They have also been used in scientific studies of virtual presence.Most commonly, MOOs are connected to by users using a client which speaks the telnet protocol, which provides a stay-alive connection with the host, to relay output and send commands. Some however have developed web interfaces, or other such methods; however this commonly limits interaction that the user can have, usually to the point they have no interaction, but instead can browse objects and discover typical information. Developments in cross-MOO networking have also led to the creation of SunNET, a hubless network allowing cross-MOO communication and add extra possibilities to cross-MOO development, including networked channels.  Another network called GNA-NET, designed by Gustavo Glusman of BioMOO connected seventeen mostly education sites.  Most of these MOOs hosted online classes or other early versions of distance education.[4][5]
+Every MOO stores the content and state of all its objects within a persistent object database, which keeps objects from being lost by a reset of the MOO server software or the computer hosting it.
+New MOOs have to choose a starting database from which to set their MOO up, or they can use a minimal one which contains only the necessary objects to start a MOO. There are a handful of such MOO "core" databases which serve as foundations of code and utilities from which to start your MOO, including LambdaCore (from LambdaMOO), MinimalDB (considered the minimum necessary code and utilities to work usefully in a MOO), JHCore (from Jay's House Moo), and enCore
+(from LinguaMOO).
+Every object in the MOO is assigned a number, and may be referred to by this number, prefixed with a #, as well as its name when the user is in the object's presence. Administrators, also known as Wizards, who can manage the MOO, and assign certain global names to these objects, which are prefixed with $, a process known as corifying. They also feature parenting systems, and every object will have a parent, commonly eventually leading to Root Class, otherwise known as #1. #0 is also reserved as a special system object which is responsible for managing the list of global names, incoming network connections, and other information related to the operation of the system.
+
+
+== History ==
+MOO, along with all of its nephews, started out with text based adventure games. With the advent of the internet, MUD was formed as a networked version of one of those games. Eventually it developed into a tree of different types of MUD, with MOO becoming one of them.
+Stephen White (also known by the handles "Ghondahrl" and "ghond") wrote the first version of the MOO server, which was released on May 2, 1990, and used for the operation of a server called "AlphaMOO".  Pavel Curtis, an employee of Xerox PARC and also known by his handles "Lambda", and "Haakon", took the basic design, language, and code, fixed bugs and added features to release the second version, called "LambdaMOO" on October 30, 1990.
+According to Jill Serpentelli in her paper Conversational Structure and Personality Correlates of Electronic Communication:
+
+Curtis went on to explain how the transition occurred from AlphaMOO to LambdaMOO.  After fixing bugs in the system, rewriting some of the code, adding more programming capability, and writing documentation, he had created what he termed "a truly separate entity" from the original AlphaMOO.  He dubbed this new system LambdaMOO, after one of his names on the system and, according to Curtis, "because it's a key word in some of the other non-mud research that I do."  The new system was announced as open for public access on UseNet (a world-wide bulletin board system) in February 1991 (Curtis, personal communication).MOO was originally developed as a MUD server in the same general style (sharing much of the command syntax and community conventions) as TinyMUD.
+There are currently two distributions of the MOO server code. The more popular of the two, the LambdaMOO server, is named such as indication of the close historical and continuing association of the MOO server code with the first public MOO, LambdaMOO.
+It is this LambdaMOO version of MOO that gained popularity in the early 90s, and it remains the most widely used distribution of MOO. Pavel Curtis continued to maintain the server for several years. Other early contributors to the LambdaMOO server included users Tim Allen ("Gemba"), "Gary_Severn", Roger Crew ("Rog"), Judy Anderson ("yduJ"), and Erik Ostrom (known as "Joe Feedback"). Later, Erik Ostrom maintained the server, and the server is now maintained by Ben Jackson and Jay Carlson and has a LambdaMOO SourceForge.net project.
+
+
+=== Social behavior on MOOs ===
+Behavior on social MOOs and role-playing MOOs has been shown to differ. For example, an early study looked at whether users engaged in gender-switching (that is, adopting a different gender online). The majority of participants (60 percent) in social MOOs had never engaged in gender-switching, while the majority (56.7 percent) in role-playing MOOs had done so. However, most of those engaged in gender-switching did so on average only 10 percent of the time. The study also found that the primary barrier to gender-switching was the belief that it is dishonest and manipulative.
+
+
+== Current projects based on MOO ==
+Stunt is a backward compatible fork of the latest MOO server code.  It adds multiple inheritance, anonymous objects, native HTTP support, JSON parsing and generation, a native map datatype, and better cryptography primitives.
+Codepoint is an effort to extend LambdaMOO to support Unicode characters. Originally the project was started by H. Peter Anvin using libucd, a small library that implements features of the Unicode Character Database without being unwieldy. The project is now being developed by James C. Deikun, Robert Leslie, and Kenny Root with the goal of eventually integrating it into the main LambdaMOO distribution.
+
+
+== Non-descendant MOOs ==
+Some servers use "MOO" style object-oriented characteristics without being descended from the original MOO server, in the sense that they use little or none of that server's source code and use internal languages that are more or less incompatible with the MOO programming language.  None of them have attained the popularity of LambdaMOO or its relatives.
+Stephen White went on to write a new and similar system called CoolMUD, although it never obtained the same wide userbase as MOO. Another, later, attempt at a programmable object-oriented MUD server was ColdMUD, written by Greg Hudson and later maintained by Brandon Gillespie under the name "Genesis".One unusual MOO with no real relationship to the original MOO is called mooix.  mooix is unique among MUDs in that it uses the underlying UNIX operating system to handle all of the multitasking and networking issues.  Several unique side effects result from this, one of which is that the MOO can be programmed in any language.  mooix was written after a failed attempt by Joey Hess to write a MOO entirely in Perl, called perlmoo.
+There are a number of MOOs written in Python, including POO, MOOP and ErisMUD.
+MOO is often used in programming games, such as PointSet.
+
+
+== Access ==
+Participants (usually referred to as users) connect to a MOO using telnet or some other, more specialized, client program. Upon connection, they are usually presented with a welcome message explaining how to either create a new character or connect to an existing one.
+Almost every command is parsed by the server into a call on a MOO procedure, or verb, which actually does the work. Thus, programming in the MOO programming language is a central part of making non-trivial extensions to the database and hence the virtual reality.
+
+
+== Administration ==
+All MOOs provide a flag called Wizard; when set on a player, the player gains the ability to view and modify nearly everything in the MOOs database. Such players are called Wizards, and usually form the basis for MOO administration. Designated owners of a MOO are sometimes referred to as Archwizards.
+These wizards can restrict access to the MOO, as well as make news postings and monitor logs. Wizard permissions are needed for modification and even execution of verbs and properties for which the user does not own, or is not publicly readable/writable. All verbs and properties within objects have the appropriate flags, with the user can change to determine its current state. They can also assign global names to any object.
+Builders are players who are given the limited ability to create objects and areas in a MOO, whereas programmers can also program on the MOO.
+
+
+== Notable examples ==
+LambdaMOO was created alongside the server, and has continued despite server development having slowed. It was the first public MOO. [6]
+HellMOO is a role-playing MOO that has been online since 2004. It has a post-apocalypse theme but also mixes in a lot of science-fiction and erotica, cyberpunk, and pop culture references. It is still actively developed and has the largest player base of any MOO.
+JaysHouseMOO was a social MOO started by Jay Carlson at Minnesota State University at Mankato in 1992. It had the first gopher server implemented in MOO language. It was also noted by Netscape as having a web server as well. During the 90's, it was considered the hangout of the MOO programmer elite. Notable among them were former and current LambdaMOO code maintainers Roger Crew, Erik Ostrom, Jay Carlson, and Ben Jackson.
+Diversity University, the first dedicated educational MOO, created by Jeanne McWhorter in 1993.
+Postmodern Culture MOO (PMC2 or PMCMOO) was a MOO hosted by the Institute for Advanced Technologies in the Humanities (IATH) at University of Virginia that was very active in the mid-1990s. It featured discussions of postmodern culture within elaborately programmed spaces, including a segment of Nighttown from James Joyce's novel Ulysses. Some archives remain online.
+MediaMOO is designed for professional media researchers now hosted at Northern Illinois University's Department of English.  It was originally created in 1993 by Amy Bruckman at the Epistemology and Learning Group at the MIT Media Lab.  In its heyday around 1996, MediaMOO had over 1000 members, was governed by an elected council, and hosted frequent meetings, including the Tuesday Cafe, a weekly discussion of members of the Computers and Writing community.  It is still accessible, though largely inactive, and is no longer supervised by Bruckman.
+MOOSE Crossing, a constructionist learning educational MOO designed for teaching children ages 9 to 13. It was developed by Amy S. Bruckman in 1996 as her doctoral dissertation work, and cited among "the most notable MOO research in education". It closed in 2007 after 11 years online.
+De digitale metro (The Digital Subway) founded in 1994 as part of De Digitale Stad (The Digital City of Amsterdam) and one of the first Dutch MOOs. [7]
+BioMOO was a professional MOO started by Gustavo Glusman and Jaime Prilusky at the Weizmann Institute of Science in 1993. It was a virtual place for Biology researchers to meet to brainstorm, hold colloquia and conferences, and explore the serious side of MOOs as a medium. These professional activities were recognized in an article entitled "Cyberspace Offers Chance To Do 'Virtually' Real Science" published in the journal Science. BioMOO Wizards created a portable subset of the BioMOO server, called the Virtual Conference Center, and submitted it as a paper at a virtual scientific conference  and used the VCC to host another virtual scientific conference. BioMOO sported a VR web interface. During its eight years of activity, BioMOO hosted many professional activities including the Virtual School of Natural Sciences' courses on BioComputing and Principles of Protein Structure. Prilusky and Glusman also released in 1994 the File Utilities Package, a MOO server modification enabling direct but controlled access to the underlying file system.  Glusman also developed the intermoo GNA Network.
+LinguaMOO is an educational MOO dedicated to general studies of arts and humanities, created in 1995 by Cynthia Haynes of the University of Texas at Dallas and Jan Rune Holmevik of the University of Bergen.  Many educational MOOs use the enCore system, derived from LinguaMOO, for their MOO database core. [8]  Haynes and Holmevik published two books on the educational use of MOOs.
+MundoHispano [9] was founded in 1994 by Lonnie (Turbee) Chu and Kenzi Mudge (Syracuse University), with co-directors Theresa Minick (Kent State University) and Greg Younger (The Economics Institute). It was the first MOO in Spanish, complete with Spanish commands and accents, built for native speakers, learners and teachers of Spanish. At its height it had over 4,000 user accounts logging on from over a dozen countries. It has recently (2015) reopened at biality.com port 5454.
+BayMOO is a social MOO founded in October 1993. It is based on loosely on San Francisco and its surrounding areas. For part of its life it was hosted at SFSU.  BayMOO also hosted FactoryNet a custom MOO for NIST. In December 1994 it was one of the MOOs chosen to host Aerosmith's four-day "Cyberspace Tour" which was co-sponsored by EFF.  Earlier that year it had also hosted a meeting of the Cypherpunks. Part of SunNET and GNA-NET intermoo networks.[10][11][12]
+Sindome is a cyberpunk role-playing MOO that has been online since 1997.  It is still being developed, with new code being added by a dedicated group of coders.  It is one of the more heavily developed MOO games still online.  The game has a medium size player-base.
+IDMOO is a New York-based MOO that was started by some programmers from LambdaMOO and PMCMOO who felt that MOO spaces were becoming too dominated by societal conventions developed for nonvirtual spaces. IDMOO was online for several years in the late 1990s and is notable for having hosted an early virtual BDSM community and the Plaintext Players.
+ATHEMOO started in 1995 at the University of Hawaii and was an online performance and teaching space for academics and professionals with an interest in theatre. At its height 2200 people were involved in ATHE and ATHEMOO.
+SchoolNet MOO started in the mid 90s and was funded by SchoolNet until 1998, when it was renamed to MOO Canada, Eh?  SchoolNet MOO was particularly popular in the Ottawa, Canada region due to its use by Virtual Ventures at Carleton University, and a member of Actua (known as YES-VACC at these times) as a computer programming educational platform for youths of ages 8–18.
+MultiMoo.com started in 2016 is an all PHP multi-user, multi-domain text based virtual reality that can be added to any website with two lines of javascript.
+Cybersphere is a cyberpunk role-playing MOO, which was first launched in 1995. It is still being developed by a small group of dedicated Wizards. The game has an inbuilt Matrix and is very much leaned towards the more brutal side of the cyberpunk.
+
+
+== See also ==
+MU*
+Chronology of MUDs
+Online text-based role-playing game
+Cyberformance
+
+
+== References ==
+
+
+== External links ==
+Official MOO FAQ, updated October 2004
+Echo Duet MOO List - Active MOO directory
+MediaMOO official web site
+MudVerse directory of MOO and MUD games
+MundoHispano official web site
+MOO at Curlie
+MUDStats list of MOOs by current player count

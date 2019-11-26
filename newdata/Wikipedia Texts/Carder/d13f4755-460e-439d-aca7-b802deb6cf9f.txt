@@ -1,0 +1,201 @@
+Credit card fraud
+
+Credit card fraud is a wide-ranging term for theft and fraud committed using or involving a payment card, such as a credit card or debit card, as a fraudulent source of funds in a transaction. The purpose may be to obtain goods without paying, or to obtain unauthorized funds from an account. Credit card fraud is also an adjunct to identity theft. According to the United States Federal Trade Commission, while the rate of identity theft had been holding steady during the mid 2000s, it increased by 21 percent in 2008. However, credit card fraud, that crime which most people associate with ID theft, decreased as a percentage of all ID theft complaints for the sixth year in a row.Although incidences of credit card fraud are limited to about 0.1% of all card transactions, they have resulted in huge financial losses as the fraudulent transactions have been large value transactions. In 1999, out of 12 billion transactions made annually, approximately 10 million—or one out of every 1200 transactions—turned out to be fraudulent. Also, 0.04% (4 out of every 10,000) of all monthly active accounts were fraudulent. Even with tremendous volume and value increase in credit card transactions since then, these proportions have stayed the same or have decreased due to sophisticated fraud detection and prevention systems. Today's fraud detection systems are designed to prevent one-twelfth of one percent of all transactions processed which still translates into billions of dollars in losses.In the decade to 2008, general credit card losses have been 7 basis points or lower (i.e. losses of $0.07 or less per $100 of transactions). In 2007, fraud in the United Kingdom was estimated at £535 million.
+
+
+== Initiation of a card fraud ==
+Card fraud begins either with the theft of the physical card or with the compromise of data associated with the account, including the card account number or other information that would routinely and necessarily be available to a merchant during a legitimate transaction. The compromise can occur by many common routes and can usually be conducted without tipping off the cardholder, the merchant, or the issuer at least until the account is ultimately used for fraud. A simple example is that of a store clerk copying sales receipts for later use. An advanced example would be when a card scammer purchases from a certain store with the stolen numbers and hacks into the system, taking that money back into their possession. The rapid growth of credit card use on the Internet has made database security lapses particularly costly; in some cases, millions of accounts have been compromised.
+Stolen cards can be reported quickly by cardholders, but a compromised account can be hoarded by a thief for weeks or months before any fraudulent use, making it difficult to identify the source of the compromise. The cardholder may not discover fraudulent use until receiving a billing statement, which may be delivered infrequently. For smaller amounts (e.g. <$100 or €100) many won't notice anything. Cardholders can mitigate this fraud risk by checking their account frequently to ensure constant awareness in case there are any suspicious, unknown transactions or activities.
+
+
+== Stolen cards ==
+When a credit card is lost or stolen, it may be used for illegal purchases until the holder notifies the issuing bank and the bank puts a block on the account. Most banks have free 24-hour telephone numbers to encourage prompt reporting. Still, it is possible for a thief to make unauthorized purchases on a card before the card is canceled. Without other security measures, a thief could potentially purchase thousands of dollars in merchandise or services before the cardholder or the card issuer realizes that the card has been compromised.
+The only common security measure on all cards is a signature panel, but, depending on its exact design, a signature may be relatively easy to forge. Some merchants will demand to see a picture ID, such as a driver's license, to verify the identity of the purchaser, and some credit cards include the holder's picture on the card itself. In some jurisdictions, it is illegal for merchants to demand cardholder identification. Self-serve payment systems (gas stations, kiosks, etc.) are common targets for stolen cards, as there is no way to verify the card holder's identity. There is also a new law that has been implemented that identification or a signature is only required for purchases above $50 unless stated in the policy of the merchant. This new law makes it easier for credit card theft to take place as well because it is not making it necessary for a form of identification to be presented, so as long as the fraud is done at what is considered to be a small amount, little to no action is taken by the merchant to prevent it.
+A common countermeasure is to require the user to key in some identifying information, such as the user's ZIP or postal code. This method may deter casual theft of a card found alone, but if the card holder's wallet is stolen, it may be trivial for the thief to deduce the information by looking at other items in the wallet. For instance, a U.S. driver license commonly has the holder's home address and ZIP code printed on it.  Visa Inc. offers merchants lower rates on transactions if the customer provides a ZIP code.In Europe and Canada, most cards are equipped with an EMV chip which requires a 4 to 6 digit PIN to be entered into the merchant's terminal before payment will be authorized. However, a PIN isn't required for online transactions and is often not required for transactions using the magnetic strip.   However magnetic strip transactions are banned under the EMV system (which requires the PIN). In many/most European countries, if you don't have a card with a chip, you will usually be asked for photo-ID - e.g. national ID card, passport, etc. at the point of sale.   Many self-service machines (e.g. ticket machines at railway stations, and self-service check-in at airports) require a PIN and chip in EMV-land (i.e. which is most of Europe, Asia, Middle East, Canada, etc.).
+Requiring a customer's ZIP code is illegal in California, where the state's 1971 law prohibits merchants from requesting or requiring a cardholder's "personal identification information" as a condition of accepting the card for payment.  The California Supreme Court has ruled that the ZIP code qualifies as personal identification information because it is part of the cardholder's address.  Companies face fines of $250–1000 for each violation. Requiring a "personal identification number" (PIN) may also be a violation.Card issuers have several countermeasures, including sophisticated software that can, prior to an authorized transaction, estimate the probability of fraud. For example, a large transaction occurring a great distance from the cardholder's home might seem suspicious. The merchant may be instructed to call the card issuer for verification or to decline the transaction, or even to hold the card and refuse to return it to the customer. The customer must contact the issuer and prove who they are to get their card back (if it is not fraud and they are actually buying a product).
+In some countries, a credit card holder can make a contactless payment for goods or services by tapping their credit (or debit) card against a RFID or NFC reader without the need for a PIN or signature if the total price falls under a pre-determined floor limit (for example, in Australia this limit is currently at 100 AUD).  A stolen credit or debit card could be used for a significant number of these transactions before the true owner can have the account canceled.
+
+
+== Compromised accounts ==
+Card information is stored in a number of formats. Card numbers – formally the Primary Account Number (PAN) – are often embossed or imprinted on the card, and a magnetic stripe on the back contains the data in machine-readable format. Fields can vary, but the most common include:
+
+Name of card holder
+Card number
+Expiration date
+Verification/CVV code
+
+
+=== Card not present transaction ===
+
+The mail and the Internet are major routes for fraud against merchants who sell and ship products and affect legitimate mail-order and Internet merchants. If the card is not physically present (called CNP, card not present) the merchant must rely on the holder (or someone purporting to be so) presenting the information indirectly, whether by mail, telephone or over the Internet.  The credit card holder can be tracked by mail or phone. While there are safeguards to this, it is still more risky than presenting in person, and indeed card issuers tend to charge a greater transaction rate for CNP, because of the greater risk.
+It is difficult for a merchant to verify that the actual cardholder is indeed authorizing the purchase. Shipping companies can guarantee delivery to a location, but they are not required to check identification and they are usually not involved in processing payments for the merchandise. A common recent preventive measure for merchants is to allow shipment only to an address approved by the cardholder, and merchant banking systems offer simple methods of verifying this information. Before this and similar countermeasures were introduced, mail order carding was rampant as early as 1992. A carder would obtain the credit card information for a local resident and then intercept the delivery of the illegitimately purchased merchandise at the shipping address, often by staking out the porch of the residence.
+Small transactions generally undergo less scrutiny and are less likely to be investigated by either the card issuer or the merchant. CNP merchants must take extra precaution against fraud exposure and associated losses, and they pay higher rates for the privilege of accepting cards. Fraudsters bet on the fact that many fraud prevention features are not used for small transactions.
+Merchant associations have developed some prevention measures, such as single-use card numbers, but these have not met with much success. Customers expect to be able to use their credit card without any hassles and have little incentive to pursue additional security due to laws limiting customer liability in the event of fraud. Merchants can implement these prevention measures but risk losing business if the customer chooses not to use them.
+
+
+=== Identity theft ===
+Identity theft can be divided into two broad categories: application fraud and account takeover.
+
+
+=== Application fraud ===
+Application fraud takes place when a person uses stolen or fake documents to open an account in another person's name. Criminals may steal documents such as utility bills and bank statements to build up useful personal information. Alternatively, they may create fake documents. With this information, they could open a credit card account or Ioan account in the victim's name, and then fully draw it.
+
+
+== Account takeover ==
+An account takeover occurs when criminals pose as a genuine customer, gain control of an account and then makes unauthorized transactions. According to Action Fraud, fraud is committed at the point money is lost. An account takeover refers to the act by which fraudsters will attempt to assume control of a customer's account from a broad array of service providers such as credit cards, email, banks, and more. Control at the account level offers better long-term returns for fraudsters but can be extremely harmful to the rightful account owners. According to Forrester, risk-based authentication (RBA) plays a key role in identity and access management (IAM) and risk mitigation of account takeover attacks that result in up to $7 billion in annual losses.The most prominent types of account takeovers deal with credit card fraud. As opposed to stealing credit card numbers which can be changed after the user reports it lost or stolen, fraudsters prefer account takeover to maximize their return on investment. A fraudster uses parts of the victim's identity such as an email address to gain access to financial accounts. This individual then intercepts communication about the account to keep the victim blind to any threats. Victims are often the first to detect account takeover when they discover charges on monthly statements they did not authorize or multiple questionable withdrawals. Recently there has been an increase in the number of account takeovers since the adoption of EMV technology, which makes it more difficult for fraudsters to clone physical credit cards.Among some of the most common methods by which a fraudster will commit an account takeover include proxy based "checker" one click apps, brute force botnet attacks, phishing, and malware. Other methods include dumpster diving to find personal information in discarded mail, and outright buying lists of 'Fullz,' a slang term for full packages of identifying information sold on the black market. Once the identity profile of the victim is purchased or built, an identity thief can use the information to defeat a knowledge-based authentication system.
+
+
+=== Skimming ===
+
+Skimming is the crime of getting private information about somebody else's credit card used in an otherwise normal transaction.  The thief can procure a victim's card number using basic methods such as photocopying receipts or more advanced methods such as using a small electronic device (skimmer) to swipe and store hundreds of victims' card numbers. Common scenarios for skimming are restaurants or bars where the skimmer has possession of the victim's payment card out of their immediate view. The thief may also use a small keypad to unobtrusively transcribe the three- or four-digit card security code, which is not present on the magnetic strip. Call centers are another area where skimming can easily occur. Skimming can also occur at merchants such as gas stations when a third-party card-reading device is installed either outside or inside a fuel dispenser or other card-swiping terminal. This device allows a thief to capture a customer's card information, including their PIN, with each card swipe.Instances of skimming have been reported where the perpetrator has put over the card slot of an ATM (automated teller machine) a device that reads the magnetic strip as the user unknowingly passes their card through it. These devices are often used in conjunction with a miniature camera (inconspicuously attached to the ATM) to read the user's PIN at the same time. This method is being used in many parts of the world, including South America, Argentina, and Europe. Another technique used is a keypad overlay that matches up with the buttons of the legitimate keypad below it and presses them when operated, but records or wirelessly transmits the keylog of the PIN entered. The device or group of devices illicitly installed on an ATM are also colloquially known as a "skimmer". Recently made ATMs now often run a picture of what the slot and keypad are supposed to look like as a background so that consumers can identify foreign devices attached.
+Skimming is difficult for the typical cardholder to detect, but given a large enough sample, it is fairly easy for the card issuer to detect. The issuer collects a list of all the cardholders who have complained about fraudulent transactions, and then uses data mining to discover relationships among them and the merchants they use. For example, if many of the cardholders use a particular merchant, that merchant can be directly investigated. Sophisticated algorithms can also search for patterns of fraud. Merchants must ensure the physical security of their terminals, and penalties for merchants can be severe if they are compromised, ranging from large fines by the issuer to complete exclusion from the system, which can be a death blow to businesses such as restaurants where credit card transactions are the norm.
+
+
+=== Checker ===
+Checker is a term used for a process to verify the validity of stolen card data. The thief presents the card information on a website that has real-time transaction processing. If the card is processed successfully, the thief knows that the card is still good. The specific item purchased is immaterial, and the thief does not need to purchase an actual product; a website subscription or charitable donation would be sufficient. The purchase is usually for a small monetary amount, both to avoid using the card's credit limit, and also to avoid attracting the card issuer's attention. A website known to be susceptible to carding is known as a cardable website.
+In the past, carders used computer programs called "generators" to produce a sequence of credit card numbers, and then test them to see which were valid accounts. Another variation would be to take false card numbers to a location that does not immediately process card numbers, such as a trade show or special event. However, this process is no longer viable due to widespread requirement by internet credit card processing systems for additional data such as the billing address, the 3 to 4 digit Card Security Code and/or the card's expiration date, as well as the more prevalent use of wireless card scanners that can process transactions right away. Nowadays, carding is more typically used to verify credit card data obtained directly from the victims by skimming or phishing.
+A set of credit card details that have been verified in this way is known in fraud circles as a phish. A carder will typically sell data files of the phish to other individuals who will carry out the actual fraud. The market price for a phish ranges from US$1.00 to US$50.00 depending on the type of card, the freshness of the data and credit status of the victim.
+
+
+=== BIN attack ===
+Credit cards are produced in BIN (Bank Identification Number) ranges. Where an issuer does not use random generation of the card number, it is possible for an attacker to obtain one good card number and generate valid card numbers. But the probability for such an action remains very low and  because of the presence of the Valid date / Expire date and the CVV.
+
+
+=== Phishing ===
+Scammers may use a variety of schemes to lure victims into giving them their card information through tricks such as websites pretending to be of a bank or payment system. Telephone phishing can also be employed, in which a call center is set up to pretend to be associated with a banking organization.
+
+
+=== Balance transfer checks ===
+Some promotional offers include active balance transfer checks which may be tied directly to a credit card account.  These are often sent unsolicited and may occur as often as once per month by some financial institutions.  In cases where checks are stolen from a victim's mailbox, they can be used at a point of sales location thereby leaving the victim responsible for the losses. They are one path at times used by fraudsters.
+
+
+== Unexpected repeat billing ==
+When a cardholder buys something from a vendor and expects the card to be charged only once, a vendor may charge the card a small amount multiple times at infrequent intervals such as monthly or annually until the card expires.  The vendor may state in the fine print that the customer is now a "member" and the membership will be renewed periodically unless the cardholder notifies the vendor in accordance with a cancellation procedure in the "membership agreement" which the cardholder agreed to when they made the initial purchase.  Because the periodic charges are unexpected, infrequent, and small, most cardholders will not notice the charges.  If a cardholder complains to the bank that the charges were unauthorized, the bank will notify the vendor of the disputed charges and the vendor will respond that the cardholder never canceled the "membership" which the cardholder agreed to.  Since most card holders have no idea what the cancellation procedure is and the vendor will reveal it only to new customers, the bank will not reverse the charges, but instead will offer to cancel the credit card and reissue it with a different account number or expiration date. Unexpected repeat billing is in a gray area of the law, depending on whether the customer legitimately agreed to the charges.
+Online bill paying or internet purchases utilizing a bank account are a source for repeat billing known as "recurring bank charges". These are standing orders or banker's orders from a customer to honor and pay a certain amount every month to the payee. With E-commerce, especially in the United States, a vendor or payee can receive payment by direct debit through the ACH Network. While many payments or purchases are valid, and the customer has intentions to pay the bill monthly, some are known as Rogue Automatic Payments.Another type of credit card fraud targets utility customers. Customers receive unsolicited in-person, telephone, or electronic communication from individuals claiming to be representatives of utility companies. The scammers alert customers that their utilities will be disconnected unless an immediate payment is made, usually involving the use of a reloadable debit card to receive payment. Sometimes the scammers use authentic-looking phone numbers and graphics to deceive victims. The Edison Electric Institute (EEI) and a coalition of electric, gas and water companies from across North America created the Utilities United Against Scams Day beginning November 16, 2016, to raise awareness about scams that target utility customers.
+
+
+== Profits, losses, and punishment ==
+
+
+=== United States ===
+
+
+==== Proposed toughening of federal law ====
+The Department of Justice has announced in September 2014 that it will seek to impose a tougher law to combat overseas credit card trafficking. Authorities say the current statute is too weak because it allows people in other countries to avoid prosecution if they stay outside the United States when buying and selling the data and don't pass their illicit business through the U.S. The Department of Justice asks Congress to amend the current law that would make it illegal for an international criminal to possess, buy or sell a stolen credit card issued by a U.S. bank independent of geographic location.
+
+
+==== Cardholder liability ====
+In the US, federal law limits the liability of card holders to $50 in the event of theft of the actual credit card, regardless of the amount charged on the card, if reported within 60 days of receiving the statement. In practice many issuers will waive this small payment and simply remove the fraudulent charges from the customer's account if the customer signs an affidavit confirming that the charges are indeed fraudulent.  If the physical card is not lost or stolen, but rather just the credit card account number itself is stolen, then Federal Law guarantees cardholders have zero liability to the credit card issuer.
+
+
+==== Merchants ====
+The merchants and the financial institutions bear the loss. The merchant loses the value of any goods or services sold and any associated fees.  If the financial institution does not have a charge-back right then the financial institution bears the loss and the merchant does not suffer at all. These losses incline merchants to be cautious and often they ban legitimate transactions and lose potential revenues. Online merchants can choose to apply for additional services that credit card companies offer, such as Verified by Visa and MasterCard SecureCode. However, these are complicated and awkward to do or use for consumers so there is a trade-off between making a sale easy and making it secure.The liability for the fraud is determined by the details of the transaction.  If the merchant retrieved all the necessary pieces of information and followed all of the rules and regulations the financial institution would bear the liability for the fraud.  If the merchant did not get all of the necessary information they would be required to return the funds to the financial institution.  This is all determined by the credit card processors.
+
+
+=== United Kingdom ===
+In the UK, credit cards are regulated by the Consumer Credit Act 1974 (amended 2006). This provides a number of protections and requirements.
+Any misuse of the card, unless deliberately criminal on the part of the cardholder, must be refunded by the merchant or card issuer.
+
+
+=== Australia ===
+
+In Australia, credit card fraud is considered a form of ‘identity crime’. The Australian Transaction Reports and Analysis Centre has established standard definitions in relation to identity crime for use by law enforcement across Australia:
+
+The term identity encompasses the identity of natural persons (living or deceased) and the identity of bodies corporate
+Identity fabrication describes the creation of a fictitious identity
+Identity manipulation describes the alteration of one's own identity
+Identity theft describes the theft or assumption of a pre-existing identity (or significant part thereof), with or without consent and whether, in the case of an individual, the person is living or deceased
+Identity crime is a generic term to describe activities/offences in which a perpetrator uses a fabricated identity, a manipulated identity, or a     stolen/assumed identity to facilitate the commission of a crime(s).
+
+
+==== Losses ====
+Estimates created by the Attorney-General's Department show that identity crime costs Australia upwards of $1.6 billion each year, with majority of about $900 million being lost by individuals through credit card fraud, identity theft and scams. In 2015, the Minister for Justice and Minister Assisting the Prime Minister for Counter-Terrorism, Michael Keenan, released the report Identity Crime and Misuse in Australia 2013-14. This report estimated that the total direct and indirect cost of identity crime was closer to $2 billion, which includes the direct and indirect losses experienced by government agencies and individuals, and the cost of identity crimes recorded by police.
+
+
+==== Cardholder Liability ====
+The victim of credit card fraud in Australia, still in possession of the card, is not responsible for anything bought on it without their permission. However, this is subject to the terms and conditions of the account. If the card has been reported physically stolen or lost the cardholder is usually not responsible for any transactions not made by them, unless it can be shown that the cardholder acted dishonestly or without reasonable care.
+
+
+=== Sweden ===
+In Sweden, the card issuer shall compensate the cardholder for fraudulent usage. The exception is if the cardholder handled the card in a careless way, which can include leaving a handbag with the card out of sight in a public place. Then the cardholder must take the loss, normally limited to 12000 SEK (1404 USD), but unlimited in case of serious carelessness. Credit card purchases are normally verified by a PIN code or identity card in Sweden. If such a check was not performed (which is normal for internet purchases) the merchant must take the loss.
+
+
+=== Credit card companies ===
+To prevent being "charged back" for fraud transactions, merchants can sign up for services offered by Visa and MasterCard called Verified by Visa and MasterCard SecureCode, under the umbrella term 3-D Secure. This requires consumers to add additional information to confirm a transaction.
+Often enough online merchants do not take adequate measures to protect their websites from fraud attacks, for example by being blind to sequencing.  In contrast to more automated product transactions, a clerk overseeing "card present" authorization requests must approve the customer's removal of the goods from the premises in real time.
+Credit card merchant associations, like Visa and MasterCard, receive profits from transaction fees, charging between 0% and 3.25% of the purchase price plus a per transaction fee of between US$0.00 and US$40.00. Cash costs more to bank up, so it is worthwhile for merchants to take cards. Issuers are thus motivated to pursue policies which increase the money transferred by their systems. Many merchants believe this pursuit of revenue reduces the incentive for credit card issuers to adopt procedures to reduce crime, particularly because the cost of investigating a fraud is usually higher than the cost of just writing it off. These costs are passed on to the merchants as "chargebacks". This can result in substantial additional costs: not only has the merchant been defrauded for the amount of the transaction,  he is also obliged to pay the chargeback fee, and to add insult to injury the transaction fees still stand.. Additionally, merchants may lose their merchant account if their percent of chargeback to overall turnover exceeds some value related to their type of product or service sold.
+Merchants have started to request changes in state and federal laws to protect themselves and their consumers from fraud, but the credit card industry has opposed many of the requests. In many cases, merchants have little ability to fight fraud, and must simply accept a proportion of fraud as a cost of doing business.Because all card-accepting merchants and card-carrying customers are bound by civil contract law there are few criminal laws covering the fraud. Payment transfer associations enact changes to regulations, and the three parties— the issuer, the consumer, and the merchant— are all generally bound to the conditions, by a self-acceptance term in the contract that it can be changed.
+
+
+=== Merchants ===
+The merchant loses the payment, the fees for processing the payment, any currency conversion commissions, and the amount of the chargeback penalty. For obvious reasons, many merchants take steps to avoid chargebacks—such as not accepting suspicious transactions. This may spawn collateral damage, where the merchant additionally loses legitimate sales by incorrectly blocking legitimate transactions.  Mail Order/Telephone Order (MOTO) merchants are implementing Agent-assisted automation which allows the call center agent to collect the credit card number and other personally identifiable information without ever seeing or hearing it.  This greatly reduces the probability of chargebacks and increases the likelihood that fraudulent chargebacks will be overturned.
+
+
+== Famous credit fraud attacks ==
+Between July 2005 and mid-January 2007, a breach of systems at TJX Companies exposed data from more than 45.6 million credit cards. Albert Gonzalez is accused of being the ringleader of the group responsible for the thefts. In August 2009 Gonzalez was also indicted for the biggest known credit card theft to date —  information from more than 130 million credit and debit cards was stolen at Heartland Payment Systems, retailers 7-Eleven and Hannaford Brothers, and two unidentified companies.In 2012, about 40 million sets of payment card information were compromised by a hack of Adobe Systems. The information compromised included customer names, encrypted payment card numbers, expiration dates, and information relating to orders, Chief Security Officer Brad Arkin said.In July 2013, press reports indicated four Russians and a Ukrainian were indicted in the U.S. state of New Jersey for what was called “the largest hacking and data breach scheme ever prosecuted in the United States.” Albert Gonzalez was also cited as a co-conspirator of the attack, which saw at least 160 million credit card losses and excess of $300 million in losses. The attack affected both American and European companies including Citigroup, Nasdaq OMX Group, PNC Financial Services Group, Visa licensee Visa Jordan, Carrefour, J. C. Penny and JetBlue Airways.Between 27 November 2013 and 15 December 2013 a breach of systems at Target Corporation exposed data from about 40 million credit cards. The information stolen included names, account numbers, expiry dates, and card security codes.From 16 July to 30 October 2013, a hacking attack compromised about a million sets of payment card data stored on computers at Neiman-Marcus. A malware system, designed to hook into cash registers and monitor the credit card authorisation process (RAM-scraping malware), infiltrated Target's systems and exposed information from as many as 110 million customers.On September 8, 2014, The Home Depot confirmed that their payment systems were compromised. They later released a statement saying that the hackers obtained a total of 56 million credit card numbers as a result of the breach.
+On May 15, 2016, in a coordinated attack, a group of around 100 individuals used the data of 1600 South African credit cards to steal US$12.7 million from 1400 convenience stores in Tokyo within three hours. By acting on a Sunday and in another country than the bank which issued the cards, they are believed to have won enough time to leave Japan before the heist was discovered.There are 209,000 breached credit card account cases in 2018.
+
+
+== Countermeasures ==
+Countermeasures to combat credit card fraud include the following.
+By merchants:
+
+PAN truncation – not displaying the full primary account number on receipts
+Tokenization (data security) – using a reference (token) to the card number rather than the real card number
+Requesting additional information, such as a PIN, ZIP code, or Card Security Code
+Performing geolocation validation, such as IP address
+Use of Reliance Authentication, indirectly via PayPal, or directly via iSignthis or miiCard.By card issuers:
+
+Fraud detection and prevention software that analyzes patterns of normal and unusual behavior as well as individual transactions in order to flag likely fraud. Profiles include such information as IP address. Technologies have existed since the early 1990s to detect potential fraud. One early market entrant was Falcon; other leading software solutions for card fraud include Actimize, SAS, BAE Systems Detica, and IBM.
+Fraud detection and response business processes such as:
+Contacting the cardholder to request verification
+Placing preventative controls/holds on accounts which may have been victimized
+Blocking card until transactions are verified by cardholder
+Investigating fraudulent activity
+Strong Authentication measures such as:
+Multi-factor Authentication, verifying that the account is being accessed by the cardholder through requirement of additional information such as account number, PIN, ZIP, challenge questions
+Multi possession-factor authentication, verifying that the account is being accessed by the cardholder through requirement of additional personal devices such as smart watch, smart phone Challenge-response authentication
+Out-of-band Authentication, verifying that the transaction is being done by the cardholder through a "known" or "trusted" communication channel such as text message, phone call, or security token device
+Industry collaboration and information sharing about known fraudsters and emerging threat vectorsBy Banks / Financial Institutions:
+
+Add a designated area for customers, accessible 24/7, where they can carry out transactions securely. This self-banking area  for the customer to carry out the transactions regardless of the weather conditions. From a security point of view, a control access system can be installed on the access door of the designated area which would provide the following features:
+Identifies every cardholder that gains access to the designated area
+Increased protection for customers during self-service procedures
+Protection of ATMs and banking assets against unauthorized usage
+The protected area can also be monitored by the bank's CCTV system
+Possibility to use CHIP identification (ex PASSCHIP ) to decrease the possibility of card skimming using the magnetic card identificationBy Governmental and Regulatory Bodies:
+
+Enacting consumer protection laws related to card fraud
+Performing regular examinations and risk assessments of credit card issuers
+Publishing standards, guidance, and guidelines for protecting cardholder information and monitoring for fraudulent activity
+Regulation, such as that introduced in the SEPA and EU28 by the European Central Bank's 'SecuRe Pay' requirements and the Payment Services Directive 2 legislation.By cardholders:
+
+Reporting lost or stolen cards
+Reviewing charges regularly and reporting unauthorized transactions immediately
+Installing virus protection software on personal computers
+Using caution when using credit cards for online purchases, especially on non-trusted websites
+Keeping a record of account numbers, their expiration dates, and the phone number and address of each company in a secure place.
+Not sending credit card information by unencrypted email
+Not keeping written PIN numbers with the credit card.Additional technological features:
+
+3-D Secure
+EMV
+Point to Point Encryption
+Strong authentication
+True Link
+
+
+== See also ==
+
+
+== References ==
+
+
+== External links ==
+Federal Financial Institutions Examination Council (FFIEC) IT Booklets » Information Security » Appendix C: Laws, Regulations, and Guidance
+Visa's fraud control basics for merchants
+Mastercard's merchant training support
+The Internet Crime Complaint Center (IC3) is a partnership between the Federal Bureau of Investigation (FBI) and the National White Collar Crime Center(NW3C).
+Internet Fraud, with a section "Avoiding Credit Card Fraud", at the Federal Bureau of Investigation website
+Avoiding Credit and Charge Card Fraud at U.S. Federal Trade Commission
+US Federal Trade Commission Consumer Sentinel Network Report

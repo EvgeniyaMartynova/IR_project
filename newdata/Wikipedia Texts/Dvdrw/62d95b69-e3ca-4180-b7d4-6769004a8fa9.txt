@@ -1,0 +1,106 @@
+DVD-RW
+
+DVD recordable and DVD rewritable are optical disc recording technologies. Both terms describe DVD optical discs that can be written to by a DVD recorder, whereas only 'rewritable' discs are able to erase and rewrite data. Data is written ('burned') to the disc by a laser, rather than the data being 'pressed' onto the disc during manufacture, like a DVD-ROM. Pressing is used in mass production, primarily for the distribution of home video. 
+Like CD-Rs, DVD recordable uses dye to store the data. During the burning of a single bit, the laser's intensity affects the reflective properties of the burned dye. By varying the laser intensity quickly, high density data is written in precise tracks. Since written tracks are made of darkened dye, the data side of a recordable DVD has a distinct color. Burned DVDs have a higher failure-to-read chance than Pressed DVDs, due to differences in the reflective properties of dye compared to the aluminum substrate of pressed discs.
+
+
+== Comparing recordable CDs and DVDs ==
+The larger storage capacity of a DVD-R compared to a CD-R is achieved by focusing the laser to a smaller point, creating smaller 'pits' as well as a finer track pitch of the groove spiral which guides the laser beam. These two changes allow more pits to be written in the same physical disc area, giving higher data density. The smaller focus is possible with a shorter wavelength 'red' laser of 640 nm, compared to CD-R's wavelength of 780 nm. This is used in conjunction with a higher numerical aperture lens. The dyes used in each case are different as they are optimized for different wavelengths.
+
+
+== R and RW formats ==
+
+"R" format DVDs can be written once and read arbitrarily many times. Thus, "R" format discs are only suited to non-volatile data storage, such as audio, or video. This can cause confusion because the 'DVD+RW Alliance' logo is a stylized 'RW'. Thus, many discs have the RW logo, but are not rewritable.
+According to Pioneer, DVD-RW discs may be written to about 1,000 times before needing replacement. RW discs are used to store volatile data, such as when creating backups or collections of files which are subject to change and re-writes. They are also ideal for home DVD video recorders, where it is advantageous to have a rewritable format capable of digital video data speeds, while being removable, small, and relatively inexpensive. Another benefit to using a rewritable disc is, if the burning process produces errors or corrupted data, it can simply be written over again, corrected. In other words, One benefit to using a rewritable disc is, if there are writing errors when recording data, the disc is not ruined and can still store data by erasing the faulty data.
+
+
+== DVD-R and DVD-RW (DVD “dash”) ==
+
+The DVD-R format was developed by Pioneer in 1997. It is supported by most normal DVD players and is approved by the DVD Forum. It has broader playback compatibility than the “+” especially with much older players. The dash format uses a “land pre-pit” method  to provide ‘sector’ address information.
+DVD “minus” R is not correct, according to DVD-R consortium recommendations; it is, in fact, a dash (i.e. DVD “dash” R). DVD-R and DVD+R technologies are not directly compatible, which created a format war in the DVD technology industry. To reconcile the two competing formats, manufacturers created hybrid drives that could read both — most hybrid drives that handle both formats are labeled DVD±R and Super Multi (which includes DVD-RAM support) and are very popular.
+
+
+== DVD+R and DVD+RW (DVD “plus”) ==
+Developed by Philips and Sony with their DVD+RW Alliance.  The "plus" format uses a more reliable bi-phase modulation technique to provide 'sector' address information. It was introduced after the "-" format.
+The DVD+R format was developed by a coalition of corporations—now known as the DVD+RW Alliance—in mid-2002 (though most of the initial advocacy was from Sony).  The DVD Forum initially did not approve of the DVD+R format and claimed that the DVD+R format was not an official DVD format until January 25, 2008.On 25 January 2008, DVD6C officially accepted DVD+R and DVD+RW by adding them to its list of licensable DVD products.DVD+RW supports a method of writing called "lossless linking", which makes it suitable for random access and improves compatibility with DVD players. The rewritable DVD+RW standard was formalized earlier than the non-rewritable DVD+R (the opposite was true with the DVD- formats). Although credit for developing the standard is often attributed to Philips, it was "finalized" in 1997 by the DVD+RW Alliance.  It was then abandoned until 2001, when it was heavily revised (in particular, the capacity increased from 2.8 GB to 4.7GB).
+
+
+== Comparison of “dash” and “plus” formats ==
+As of 2006, the market for recordable DVD technology shows little sign of settling down in favour of either the plus or dash formats, which is mostly the result of the increasing numbers of dual-format devices that can record to both formats. It has become very difficult to find new computer drives that can only record to one of the formats.  By contrast, DVD Video recorders still favour one format over the other, often providing restrictions on what the unfavoured format will do. However, because the DVD-R format has been in use since 1997, it has had a five-year lead on DVD+R. As such, older or cheaper DVD players (up to 2004 vintage) are more likely to favour the DVD-R standard exclusively.DVD+R discs must be formatted before being recorded by a compatible DVD video recorder. DVD-R do not have to be formatted before being recorded by a compatible DVD video recorder, because the two variants of the discs are written in different formats (see DVD+VR and DVD-VR respectively).
+There are a number of significant technical differences between the “dash” and the “plus” format, although most users would not notice the difference. One example is that the DVD+R style address in pregroove (ADIP) system of tracking and speed control is less susceptible to interference and error, which makes the ADIP system more accurate at higher speeds than the land pre pit (LPP) system used by DVD-R.  In addition, DVD+R(W) has a more robust error-management system than DVD-R(W), allowing for more accurate burning to media, independent of the quality of the media. The practical upshot is that a DVD+R writer is able to locate data on the disc to byte accuracy whereas DVD-R is incapable of such precision.
+Additional session linking methods are more accurate with DVD+R(W) versus DVD-R(W), resulting in fewer damaged or unusable discs due to buffer under-run and multi-session discs with fewer PI/PO errors.Like other “plus” media, it is possible to change the book type to increase the compatibility of DVD+R media (though unlike DVD+RW, it is a one way process). This is also known as bitsetting.
+
+
+== DVD-RAM ==
+
+As RAM stands for Random Access Memory, it works more or less like a hard-drive and was designed for corporate back-up use. Developed in 1996, DVD-RAM is a rewritable optical disc originally encased in a cartridge. Currently available in standard 4.7 GB (and sometimes in other sizes), it is useful in applications that require quick revisions and rewriting. It can only be read in drives that are DVD-RAM compatible, of which all multi-format drives are. DVD Forum backs this format.
+Multi-format drives can read and write more than one format; e.g., DVD±R(W) (DVD plus-dash recordable and rewritable) is used to refer to drives that can write/rewrite both plus and dash formats, but not necessarily DVD-RAM.  Drives marked, "DVD Multi Recorder" support DVD±R(W) and DVD-RAM.
+
+
+== Sizes ==
+DVD recordable media are sold in two standard sizes, a regular 12 cm size for home recording and computer usage, and a small 8 cm size (sometimes known as a miniDVD) for use in compact camcorders. The smaller Mini DVD-RW, for example, holds 1.46 GB.
+
+
+== Speed ==
+Notes:
+
+DVD 1× actual spin is 3 times that of CD 1×
+Disc write time in table does not include overhead, leadout, etc.The following table describes the maximal speed of DVD-R and the relative typical write time for a full disc according to the reviews from cdrinfo.com and cdfreaks.com. Many reviews of multiple brand names on varying conditions of hardware and DVD give much lower and wider measurements than the optimal numbers below.
+The write time may vary (± 30 s) between writer and media used. For high speed, the write strategy changes from constant linear velocity (CLV) to constant angular velocity (CAV), or zoned constant linear velocity (ZCLV).  The table below largely assumes CAV.
+
+
+== Capacities ==
+
+Most DVD±R/RWs are advertised using the definition of 1 gigabyte = 1 GB = 1,000,000,000 bytes instead of the more traditional definition of 1 gibibyte = 1 GiB = 1,073,741,824 bytes.  This can be confusing for many users since a 4.7 GB (4.7 billion bytes) DVD that is advertised as such might show up on their device as having 4.38 GiB (depending on what type of prefixes their device uses).
+
+
+== Longevity ==
+
+According to a study published in 2008 by the Preservation Research and Testing Division of the U.S. Library of Congress, most recordable CD products have a higher probability of greater longevity compared to recordable DVD products.
+
+
+== Disc structure ==
+
+
+=== R format ===
+DVD-R discs are composed of two 0.6 mm acrylic discs, bonded with an adhesive to each other. One contains the laser guiding groove and is coated with the recording dye and a silver alloy or gold reflector. The other one (for single-sided discs) is an ungrooved 'dummy' disc to assure mechanical stability of the sandwich structure, and compatibility with the compact disc standard geometry which requires a total disc thickness of about 1.2 mm.  The sandwich structure also helps protect the layer containing data from scratches with a thick "dummy" disc, a problem with CDs, which lack that structure. Double-sided discs have two grooved, recordable disc sides, and require the user to flip the disc to access the other side. Compared to a CD's 1.2 mm thickness, a DVD's laser beam only has to penetrate 0.6 mm of plastic in order to reach the dye recording layer, which allows the lens to focus the beam to a smaller spot size to write smaller pits.
+In a DVD-R, the addressing (the determination of location of the laser beam on the disc) is done with additional pits and lands (called land pre-pits) in the areas between the grooves. The groove on a DVD-R disc has a constant wobble frequency used for motor control, etc.
+In 2011, JVC announced an archival DVD recording medium manufactured with quality control and inspection frequencies techniques greater than is traditionally used in media manufacturing, and using specially developed silver alloy as a reflective layer and organic dye with in-house developed additives to secure long-term data retention.
+
+
+=== RW format ===
+The recording layer in DVD-RW and DVD+RW is not an organic dye, but a special phase change metal alloy, often GeSbTe. The alloy can be switched back and forth between a crystalline phase and an amorphous phase, changing the reflectivity, depending on the power of the laser beam. Data can thus be written, erased and re-written.
+
+
+== Dual layer ==
+In October 2003, it was demonstrated that double layer technology could be used with a DVD+R disc to nearly double the capacity to 8.5 GB per disc. These dual layer (DL) versions, DVD-R DL appeared on the market in 2005.
+A specification for dual-layer DVD-RW discs with a capacity of 8.5 GB (8,500,000,000 bytes) was approved by the DVD Forum, and JVC announced their development of the first media in the format in 2005. A double-layer DVD+RW specification was approved in March 2006 with a capacity of 8.5 GB. However, manufacturing support for these rewritable dual-layer discs did not materialize due to costs and expected competition from newer and higher-capacity formats like Blu-ray and HD DVD.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Bibliography ==
+Bennett, Hugh (July 1998), "In DVD's Own Image: DVD-R Technology and Promise", EMedia Professional, pp. 30+.
+——— (Apr 2004), Understanding Recordable & Rewritable DVD, Cupertino: Optical Storage Technology Association.
+ISO/IEC 17341:2009, Data interchange on 120 mm and 80 mm optical disk using +RW format -- Capacity: 4,7 Gbytes and 1,46 Gbytes per side (recording speed up to 4X)
+ISO/IEC 26925:2009, Data interchange on 120 mm and 80 mm optical disk using +RW HS format -- Capacity: 4,7 Gbytes and 1,46 Gbytes per side (recording speed 8X)
+ISO/IEC 29642:2009, Data interchange on 120 mm and 80 mm optical disk using +RW DL format -- Capacity: 8,55 Gbytes and 2,66 Gbytes per side (recording speed 2,4X)
+
+
+== External links ==
+DVD Forum.
+"Understanding Recordable & Rewritable DVD", Technology, Osta.
+Why DVD+R(W) is superior to DVD-R(W), Myce.
+Care and Handling of CDs and DVDs (report), Clir, 121.
+80 mm (1.23 GB per side) and 120 mm (3.95 GB per side) DVD-Recordable Disc (DVD-R) (standard), ECMA, 279.
+Data interchange on 120 mm and 80 mm Optical Disc using +R format (technical specification), ISO/IEC, 2005, 17344.
+Data interchange on 120 mm and 80 mm optical disc using +R DL format – Capacity: 8.55 GB and 2.66 GB per side (recording speed up to 16×) (technical specification), ISO/IEC, 2008, 25434.
+What's the difference between DVD-R and DVD+R? (Q&A), DVD demystified, archived from the original on August 22, 2009.
+ISO/IEC 17342, 80 mm (1,46 Gbytes per side) and 120 mm (4,70 Gbytes per side) DVD re-recordable disk (DVD-RW)
+ISO/IEC 17342:2004 - publicly available standard
+Understanding Recordable & Rewritable DVD by Hugh Bennett
+Why DVD+R(W) is superior to DVD-R(W)

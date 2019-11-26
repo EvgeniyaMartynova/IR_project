@@ -1,0 +1,350 @@
+Cassini and Catalan identities
+
+Cassini's identity and Catalan's identity are mathematical identities for the Fibonacci numbers. Cassini's identity, a special case of Catalan's identity, states that for the nth Fibonacci number,
+
+  
+    
+      
+        
+          F
+          
+            n
+            −
+            1
+          
+        
+        
+          F
+          
+            n
+            +
+            1
+          
+        
+        −
+        
+          F
+          
+            n
+          
+          
+            2
+          
+        
+        =
+        (
+        −
+        1
+        
+          )
+          
+            n
+          
+        
+        .
+      
+    
+    {\displaystyle F_{n-1}F_{n+1}-F_{n}^{2}=(-1)^{n}.}
+  Catalan's identity generalizes this:
+
+  
+    
+      
+        
+          F
+          
+            n
+          
+          
+            2
+          
+        
+        −
+        
+          F
+          
+            n
+            −
+            r
+          
+        
+        
+          F
+          
+            n
+            +
+            r
+          
+        
+        =
+        (
+        −
+        1
+        
+          )
+          
+            n
+            −
+            r
+          
+        
+        
+          F
+          
+            r
+          
+          
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle F_{n}^{2}-F_{n-r}F_{n+r}=(-1)^{n-r}F_{r}^{2}.}
+  Vajda's identity generalizes this:
+
+  
+    
+      
+        
+          F
+          
+            n
+            +
+            i
+          
+        
+        
+          F
+          
+            n
+            +
+            j
+          
+        
+        −
+        
+          F
+          
+            n
+          
+        
+        
+          F
+          
+            n
+            +
+            i
+            +
+            j
+          
+        
+        =
+        (
+        −
+        1
+        
+          )
+          
+            n
+          
+        
+        
+          F
+          
+            i
+          
+        
+        
+          F
+          
+            j
+          
+        
+        .
+      
+    
+    {\displaystyle F_{n+i}F_{n+j}-F_{n}F_{n+i+j}=(-1)^{n}F_{i}F_{j}.}
+  
+
+
+== History ==
+Cassini's formula was discovered in 1680 by Giovanni Domenico Cassini, then director of the Paris Observatory, and independently proven by Robert Simson (1753). Eugène Charles Catalan found the identity named after him in 1879.
+
+
+== Proof by matrix theory ==
+A quick proof of Cassini's identity may be given (Knuth 1997, p. 81) by recognising the left side of the equation as a determinant of a 2×2 matrix of Fibonacci numbers. The result is almost immediate when the matrix is seen to be the nth power of a matrix with determinant −1:
+
+  
+    
+      
+        
+          F
+          
+            n
+            −
+            1
+          
+        
+        
+          F
+          
+            n
+            +
+            1
+          
+        
+        −
+        
+          F
+          
+            n
+          
+          
+            2
+          
+        
+        =
+        det
+        
+          [
+          
+            
+              
+                
+                  
+                    F
+                    
+                      n
+                      +
+                      1
+                    
+                  
+                
+                
+                  
+                    F
+                    
+                      n
+                    
+                  
+                
+              
+              
+                
+                  
+                    F
+                    
+                      n
+                    
+                  
+                
+                
+                  
+                    F
+                    
+                      n
+                      −
+                      1
+                    
+                  
+                
+              
+            
+          
+          ]
+        
+        =
+        det
+        
+          
+            [
+            
+              
+                
+                  
+                    1
+                  
+                  
+                    1
+                  
+                
+                
+                  
+                    1
+                  
+                  
+                    0
+                  
+                
+              
+            
+            ]
+          
+          
+            n
+          
+        
+        =
+        
+          
+            (
+            
+              det
+              
+                [
+                
+                  
+                    
+                      
+                        1
+                      
+                      
+                        1
+                      
+                    
+                    
+                      
+                        1
+                      
+                      
+                        0
+                      
+                    
+                  
+                
+                ]
+              
+            
+            )
+          
+          
+            n
+          
+        
+        =
+        (
+        −
+        1
+        
+          )
+          
+            n
+          
+        
+        .
+      
+    
+    {\displaystyle F_{n-1}F_{n+1}-F_{n}^{2}=\det \left[{\begin{matrix}F_{n+1}&F_{n}\\F_{n}&F_{n-1}\end{matrix}}\right]=\det \left[{\begin{matrix}1&1\\1&0\end{matrix}}\right]^{n}=\left(\det \left[{\begin{matrix}1&1\\1&0\end{matrix}}\right]\right)^{n}=(-1)^{n}.}
+  
+
+
+== References ==
+Knuth, Donald Ervin (1997), The Art of Computer Programming, Volume 1: Fundamental Algorithms, The Art of Computer Programming, 1 (3rd ed.), Reading, Mass: Addison-Wesley, ISBN 0-201-89683-4Simson, R. (1753). "An Explication of an Obscure Passage in Albert Girard's Commentary upon Simon Stevin's Works". Philosophical Transactions of the Royal Society of London. 48 (0): 368–376. doi:10.1098/rstl.1753.0056.Werman, M.; Zeilberger, D. (1986). "A bijective proof of Cassini's Fibonacci identity". Discrete Mathematics. 58 (1): 109. doi:10.1016/0012-365X(86)90194-9. MR 0820846.
+
+
+== External links ==
+Proof of Cassini's identity
+Proof of Catalan's Identity
+Cassini formula for Fibonacci numbers
+Fibonacci and Phi Formulae

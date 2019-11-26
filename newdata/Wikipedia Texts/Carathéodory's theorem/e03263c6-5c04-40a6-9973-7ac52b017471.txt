@@ -1,0 +1,549 @@
+Carathéodory's theorem (convex hull)
+
+In convex geometry, Carathéodory's theorem states that if a point x of Rd lies in the convex hull of a set P, then x can be written as the convex combination of at most d + 1 points in P. Namely, there is a subset P′ of P consisting of d + 1 or fewer points such that x lies in the convex hull of P′. Equivalently, x lies in an r-simplex with vertices in P, where 
+  
+    
+      
+        r
+        ≤
+        d
+      
+    
+    {\displaystyle r\leq d}
+  .  The smallest r that makes the last statement valid for each x in the convex hull of P is defined as the Carathéodory's number of P. Depending on the properties of P, upper bounds lower than the one provided by Carathéodory's theorem can be obtained. Note that P need not be itself convex. A consequence of this is that P′ can always be extremal in P, as non-extremal points can be removed from P without changing the membership of x in the convex hull. 
+The similar theorems of Helly and Radon are closely related to Carathéodory's theorem: the latter theorem can be used to prove the former theorems and vice versa.The result is named for Constantin Carathéodory, who proved the theorem in 1907 for the case when P is compact. In 1914 Ernst Steinitz expanded Carathéodory's theorem for any sets P in Rd.
+
+
+== Example ==
+Consider a set P = {(0,0), (0,1), (1,0), (1,1)} which is a subset of R2. The convex hull of this set is a square. Consider now a point x = (1/4, 1/4), which is in the convex hull of P. We can then construct a set {(0,0),(0,1),(1,0)} = P′, the convex hull of which is a triangle and encloses x, and thus the theorem works for this instance, since |P′| = 3. It may help to visualise Carathéodory's theorem in 2 dimensions, as saying that we can construct a triangle consisting of points from P that encloses any point in P.
+
+
+== Proof of Carathéodory's theorem ==
+Let x be a point in the convex hull of P. Then, x is a convex combination of a finite number of points in P :
+
+  
+    
+      
+        
+          x
+        
+        =
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            k
+          
+        
+        
+          λ
+          
+            j
+          
+        
+        
+          
+            x
+          
+          
+            j
+          
+        
+      
+    
+    {\displaystyle \mathbf {x} =\sum _{j=1}^{k}\lambda _{j}\mathbf {x} _{j}}
+  where every xj is in P, every λj is non-negative, and 
+  
+    
+      
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            k
+          
+        
+        
+          λ
+          
+            j
+          
+        
+        =
+        1
+      
+    
+    {\displaystyle \sum _{j=1}^{k}\lambda _{j}=1}
+  .
+Suppose k > d + 1 (otherwise, there is nothing to prove). Then, the vectors x2 − x1, ..., xk − x1 are linearly dependent,
+so there are real scalars μ2, ..., μk, not all zero, such that
+
+  
+    
+      
+        
+          ∑
+          
+            j
+            =
+            2
+          
+          
+            k
+          
+        
+        
+          μ
+          
+            j
+          
+        
+        (
+        
+          
+            x
+          
+          
+            j
+          
+        
+        −
+        
+          
+            x
+          
+          
+            1
+          
+        
+        )
+        =
+        
+          0
+        
+        .
+      
+    
+    {\displaystyle \sum _{j=2}^{k}\mu _{j}(\mathbf {x} _{j}-\mathbf {x} _{1})=\mathbf {0} .}
+  If μ1 is defined as
+
+  
+    
+      
+        
+          μ
+          
+            1
+          
+        
+        :=
+        −
+        
+          ∑
+          
+            j
+            =
+            2
+          
+          
+            k
+          
+        
+        
+          μ
+          
+            j
+          
+        
+      
+    
+    {\displaystyle \mu _{1}:=-\sum _{j=2}^{k}\mu _{j}}
+  then
+
+  
+    
+      
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            k
+          
+        
+        
+          μ
+          
+            j
+          
+        
+        
+          
+            x
+          
+          
+            j
+          
+        
+        =
+        
+          0
+        
+      
+    
+    {\displaystyle \sum _{j=1}^{k}\mu _{j}\mathbf {x} _{j}=\mathbf {0} }
+  
+
+  
+    
+      
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            k
+          
+        
+        
+          μ
+          
+            j
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle \sum _{j=1}^{k}\mu _{j}=0}
+  and not all of the μj are equal to zero. Therefore, at least one μj > 0. Then,
+
+  
+    
+      
+        
+          x
+        
+        =
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            k
+          
+        
+        
+          λ
+          
+            j
+          
+        
+        
+          
+            x
+          
+          
+            j
+          
+        
+        −
+        α
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            k
+          
+        
+        
+          μ
+          
+            j
+          
+        
+        
+          
+            x
+          
+          
+            j
+          
+        
+        =
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            k
+          
+        
+        (
+        
+          λ
+          
+            j
+          
+        
+        −
+        α
+        
+          μ
+          
+            j
+          
+        
+        )
+        
+          
+            x
+          
+          
+            j
+          
+        
+      
+    
+    {\displaystyle \mathbf {x} =\sum _{j=1}^{k}\lambda _{j}\mathbf {x} _{j}-\alpha \sum _{j=1}^{k}\mu _{j}\mathbf {x} _{j}=\sum _{j=1}^{k}(\lambda _{j}-\alpha \mu _{j})\mathbf {x} _{j}}
+  for any real α. In particular, the equality will hold if α is defined as
+
+  
+    
+      
+        α
+        :=
+        
+          min
+          
+            1
+            ≤
+            j
+            ≤
+            k
+          
+        
+        
+          {
+          
+            
+              
+                
+                  
+                    λ
+                    
+                      j
+                    
+                  
+                  
+                    μ
+                    
+                      j
+                    
+                  
+                
+              
+            
+            :
+            
+              μ
+              
+                j
+              
+            
+            >
+            0
+          
+          }
+        
+        =
+        
+          
+            
+              
+                λ
+                
+                  i
+                
+              
+              
+                μ
+                
+                  i
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \alpha :=\min _{1\leq j\leq k}\left\{{\tfrac {\lambda _{j}}{\mu _{j}}}:\mu _{j}>0\right\}={\tfrac {\lambda _{i}}{\mu _{i}}}.}
+  Note that α > 0, and for every j between 1 and k,
+
+  
+    
+      
+        
+          λ
+          
+            j
+          
+        
+        −
+        α
+        
+          μ
+          
+            j
+          
+        
+        ≥
+        0.
+      
+    
+    {\displaystyle \lambda _{j}-\alpha \mu _{j}\geq 0.}
+  In particular, λi − αμi = 0 by definition of α. Therefore,
+
+  
+    
+      
+        
+          x
+        
+        =
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            k
+          
+        
+        (
+        
+          λ
+          
+            j
+          
+        
+        −
+        α
+        
+          μ
+          
+            j
+          
+        
+        )
+        
+          
+            x
+          
+          
+            j
+          
+        
+      
+    
+    {\displaystyle \mathbf {x} =\sum _{j=1}^{k}(\lambda _{j}-\alpha \mu _{j})\mathbf {x} _{j}}
+  where every 
+  
+    
+      
+        
+          λ
+          
+            j
+          
+        
+        −
+        α
+        
+          μ
+          
+            j
+          
+        
+      
+    
+    {\displaystyle \lambda _{j}-\alpha \mu _{j}}
+   is nonnegative, their sum is one , and furthermore, 
+  
+    
+      
+        
+          λ
+          
+            i
+          
+        
+        −
+        α
+        
+          μ
+          
+            i
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle \lambda _{i}-\alpha \mu _{i}=0}
+  . In other words, x is represented as a convex combination of at most k-1 points of P. This process can be repeated until x is represented as a convex combination of at most d + 1 points in P.
+Alternative proofs uses Helly's theorem or Perron–Frobenius theorem.
+
+
+== Generalizations ==
+
+
+=== Colorful Carathéodory theorem ===
+Let A1, ..., Ad+1 be sets in Rd  and a1 ∈ A1, ..., ad+1 ∈ Ad+1. If these sets shares a common point a in their convex hulls, then there is a set T = {a1, ..., ad+1} such that the convex hull of T contains the point a.By viewing the sets A1, ..., Ad+1  as different colors, the set T is made by points of all colors, hence the "colorful" in the theorem's name.
+
+
+== See also ==
+Shapley–Folkman lemma
+Helly's theorem
+Radon's theorem, and its generalization Tverberg's theorem
+Krein–Milman theorem
+Choquet theory
+
+
+== Notes ==
+
+
+== Further reading ==
+Eckhoff, J. (1993), "Helly, Radon, and Carathéodory type theorems", Handbook of Convex Geometry, A, B, Amsterdam: North-Holland, pp. 389–448.
+Mustafa, Nabil; Meunier, Frédéric; Goaoc, Xavier; De Loera, Jesús (2019). "The discrete yet ubiquitous theorems of Carathéodory, Helly, Sperner, Tucker, and Tverberg". Bulletin of the American Mathematical Society. 56 (3): 415–511. arXiv:1706.05975. doi:10.1090/bull/1653. ISSN 0273-0979.
+
+
+== External links ==
+Concise statement of theorem in terms of convex hulls (at PlanetMath)

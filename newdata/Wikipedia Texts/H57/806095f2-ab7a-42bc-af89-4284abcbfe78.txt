@@ -1,0 +1,273 @@
+Intel chipsets
+
+This article provides a list of motherboard chipsets made by Intel, divided into three main categories: those that use the PCI bus for interconnection (the 4xx series), those that connect using specialized "hub links" (the 8xx series), and those that connect using PCI Express (the 9xx series). The chipsets are listed in chronological order.
+
+
+== Pre-chipset situation ==
+Early IBM XT-compatible mainboards did not have a chipset yet, but relied instead on a collection of discrete TTL chips by Intel:
+the 8284 clock generator
+the 8288 bus controller
+the 8254 Programmable Interval Timer
+the 8255 parallel I/O interface
+the 8259 Programmable Interrupt Controller
+the 8237 DMA controller
+
+
+== Early chipsets ==
+To integrate the functions needed on a mainboard into a smaller amount of ICs, Intel licensed the ZyMOS POACH chipset for its Intel 80286 and Intel 80386SX processors (the 82230/82231 High Integration AT-Compatible Chip Set). This chipset can be used with an 82335 High-integration Interface Device to provide support for the Intel 386SX.List of early Intel chipset includes:
+82091AA EISA/ISA - Advanced Integrated Peripheral (AIP), includes: floppy disk controller, 2× UARTs, parallel port, IDE controller, oscillator, etc.
+82310 MCA - announced in April 1988. Includes: 82306 Local Channel Support Chip, 82307 DMA Controller/Central Arbiter, 82308 Micro Channel Bus Controller, 82309 Address Bus Controller, 82706 VGA Graphics Controller.
+82350 EISA - announced in September 1988.
+82311 MCA - announced in November 1988. Includes: 82303 and 82304 Local I/O Channel Support Chips, 82307 DMA Controller/Central Arbiter, 82308 Micro Channel Bus Controller, 82309 Address Bus Controller, 82706 VGA Graphics Controller, 82077 Floppy Disk Controller.
+82320 MCA - announced in April 1989.
+82340SX PC AT - announced in January 1990, it is the Topcat chipset licensed from VLSI.
+82340DX PC AT - announced in January 1990, it is the Topcat chipset licensed from VLSI.
+82360SL - announced in October 1990. It was a chipset for the mobile 80386SL and 80486SL processors. It integrated DMA controller, an interrupt controller PIC, serial and parallel ports, and power-management logic for the processor.
+82350DT EISA - announced in April 1991.
+
+
+== 4xx chipsets ==
+
+
+=== 80486 chipsets ===
+
+
+=== Pentium chipsets ===
+While not an actual Intel chipset bug, the Mercury and Neptune chipsets could be found paired with RZ1000 and CMD640 IDE controllers with data corruption bugs. L2 caches are direct-mapped with SRAM tag RAM, write-back for 430FX, HX, VX, and TX.
+
+
+=== Pentium Pro/II/III chipsets ===
+
+
+=== Southbridge 4xx chipsets ===
+
+
+== 8xx chipsets ==
+
+
+=== Pentium II/III chipsets ===
+
+
+=== Pentium III mobile chipsets ===
+
+
+=== Pentium 4 chipsets ===
+Summary:
+
+845 (Brookdale)
+two distinct versions 845 MCH for SDR and 845 MCH for DDR
+875P (Canterwood)
+Similar to E7205, but adds support for 800 MHz bus, DDR at 400 MHz, Communication Streaming Architecture (CSA), Serial ATA (with RAID in certain configurations) and Performance Acceleration Technology (PAT), a mode purported to cut down memory latency.
+SMP capability exists only on Xeon-based (socket 604) motherboards using the 875P chipset. FSB is rated at 533 MHz on these motherboards.
+865PE (Springdale)
+875P without PAT, though it was possible to enable PAT in some early revisions. Also lacks ECC Memory support.
+Sub-versions:
+865P - Similar to 865PE, but supports only 400/533 MHz bus and 333 MHz memory.
+848P - Single memory channel version of 865PE.
+865G (Springdale-G)
+865PE with integrated graphics (Intel Extreme Graphics 2). PAT never supported in any revisions.
+Sub-versions:
+865GV - 865G without external AGP slot.
+E7221 (Copper River)
+Designed for Pentium 4-based server.
+Supports only one physical processor.
+A basic SVGA controller is integrated for analog video.
+One PCI-X slot can be bridged to the PCI-e ×8 using the Intel® 6702PXH 64-bit PCI Hub.
+E7230 (Mukilteo)
+Similar to the Intel 3000 MCH, but mainly designed for Pentium D-based server.
+Supports only one physical processor.
+DDR2-667 4-4-4 is not supported .
+No integrated graphics.
+One PCI-X slot can be bridged to the PCI-e ×8 using Intel® 6700PXH 64-bit PCI Hub/Intel® 6702PXH 64-bit PCI Hub.
+
+
+=== Pentium 4-M/Pentium M/Celeron M mobile chipsets ===
+
+
+=== Southbridge 8xx chipsets ===
+
+
+== 9xx chipsets and 3/4 Series chipsets ==
+
+
+=== Pentium 4/Pentium D/Pentium EE chipsets ===
+All Chipsets listed in the table below: 
+
+Do not support SMP
+Support (-R and -DH) variants for South Bridges[*] Remapping of PCIE/APIC memory ranges not supported, some physical memory might not be accessible (e.g. limited to 3.5 GB or similar).
+Summary:
+
+915P (Grantsdale)
+Supports Pentium 4 on an 800 MT/s bus. Uses DDR memory up to 400 MHz, or DDR2 at 533 MHz. Replaces AGP and CSA with PCI Express, and also supports "Matrix RAID", a RAID mode designed to allow the usage of RAID levels 0 and 1 simultaneously with two hard drives. (Normally RAID1+0 would have required four hard drives)
+Sub-versions:
+915PL - Cut-down version of 915P with no support for DDR2 and only supporting 2 GB of memory.
+915G (Grantsdale-G)
+915P with an integrated GMA 900. This core contains Pixel Shader version 2.0 only, it does not contain Vertex Shaders nor does it feature Transform & Lighting (T&L) capabilities and therefore is not Direct X 8.1 or 9.0 compliant.
+Sub-versions:
+915GL - Same feature reductions as 915PL, but supports 4 GB of memory. No support for external graphics cards.
+915GV - Same as 915G, but has no way of adding an external graphics card.
+910GL - No support for external graphics cards or 800 MT/s bus.
+925X (Alderwood)
+Higher end version of 915. Supports another PAT-like mode and ECC memory, and exclusively uses DDR-II RAM.
+Sub-versions:
+925XE - Supports a 1066 MT/s bus.
+945P (Lakeport)
+Update on 915P, with support for Serial ATA II, RAID mode 5, an improved memory controller with support for DDR-II at 667 MHz and additional PCI Express lanes. Support for DDR-I is dropped. Formal dual-core support was added to this chipset.
+Sub-versions:
+945PL - No support for 1066 MT/s bus, only supports 2 GB of memory.
+945G (Lakeport-G)
+A version of the 945P that has a GMA 950 integrated, supports a 1066 MT/s bus.
+Sub-versions:
+945GC - Same feature reductions as 945PL but with an integrated GMA 950.
+945GZ - Same as 945GC but only supports DDR2 memory at 400/533 MT/s. No support for external graphics cards (some boards, like Asus P5GZ-MX, support through ICH7 on PCIe ×16 @4 lanes mode).
+955X (Lakeport)
+Update for 925X, with additional features of "Lakeport" (e.g., PAT features and ECC memory), and uses DDR2.
+
+
+=== Pentium M/Celeron M mobile chipsets ===
+
+
+=== Core/Core 2 mobile chipsets ===
+[*] Remapping of PCIE/APIC memory ranges not supported, some physical memory might not be accessible (e.g. limited to 3.5 GB or similar).
+
+
+=== Core 2 chipsets ===
+All Core 2 Duo chipsets support the Pentium Dual-Core and Celeron processors based on the Core architecture. Support for all NetBurst based processors was officially dropped starting with the Bearlake chipset family. However, some motherboards still support the older processors.
+[*] Remapping of PCIE/APIC memory ranges not supported, some physical memory might not be accessible (e.g. limited to 3.5 GB or similar). Operational configuration is 4 ranks - 2× 2 GB dual rank modules or 4× 1 GB single rank modules - depends on number of motherboard DDR2 slots.
+Summary:
+
+946PL (Lakeport)
+Update on 945PL, supports 4 GB of memory.
+946GZ (Lakeport-G)
+A version of 946PL with GMA 3000 graphics core.
+P965 (Broadwater)
+Update on 945P, no native PATA support, improved memory controller with support for DDR2 memory up to 800 MHz and official Core 2 Duo support.
+G965 (BroadwaterG)
+A version of P965 that has a GMA X3000 integrated graphics core.
+Q965 (Broadwater)
+Expected G965 intended for Intel's vPro office computing brand, with GMA 3000 graphics instead of GMA X3000 graphics. Supports an ADD2 card to add a second display.
+Sub-versions:
+Q963 - Q965 without an external graphics interface or support for ADD2.
+975X (Glenwood)
+Update of 955, with support for ATI Crossfire Dual Graphics systems and 65 nm processors, including Core 2 Duo.
+P35 (Bearlake)
+The P35 chipset provides updated support for the new Core 2 Duo E6550, E6750, E6800, and E6850. Processors with a number ending in "50" have a 1333 MT/s FSB. Support for all NetBurst based processors is dropped with this chipset.
+G33 (BearlakeG)
+A version of P35 with a GMA 3100 integrated graphics core and uses an ICH9 South Bridge.
+Sub-versions:
+G35 - G33 with a GMA x3500 integrated graphics core and uses an ICH8 South Bridge, no DDR3 support.
+Q35 (BearlakeG)
+Expected G33 intended for Intel's vPro office computing brand, no DDR3 Support.
+Sub-versions:
+Q33 - Q35 without vPro support.
+P31 (BearlakeG)
+A version of P35 with an ICH7 South Bridge, supports only 4 GB of DDR2 memory and does not support DDR3 memory.
+Operational configuration is 4 ranks - 2× 2 GB dual rank modules or 4 × 1 GB single rank modules - depends on number of motherboard DDR2 slots. 4GBs modules are not supported.
+G31 (BearlakeG)
+A version of P31 with a GMA 3100 integrated graphics core. It supports a 1333 MT/s FSB with Core 2 Duo processors, but Core 2 Quad processors are only supported up to 1066 MT/s.
+G41 (EaglelakeG)
+Update of G31 with a GMA X4500 integrated graphics core and DDR3 800/1066 support.
+P45 (Eaglelake)
+Update of P35, with PCIe 2.0 support, Hardware Virtualization, Extreme Memory Profile (XMP) and support for ATI Crossfire (x8+x8).
+Sub-versions:
+P43 - P45 without Crossfire and DDR2-1066/DDR3-1333 support.
+G45 (EaglelakeG)
+A version of P45 that has a GMA X4500HD integrated graphics core and lacks Crossfire support.
+Sub-versions:
+G43 - Same feature reductions as P43, but with a GMA X4500 integrated graphics core.
+Q45 (EaglelakeQ)
+Expected G43 intended for Intel's vPro office computing brand. Also supports Hardware Virtualization Technology and Intel Trusted Platform Module 1.2 feature.
+Sub-versions:
+Q43 - Q45 without vPro support. Also lacks Intel Trusted Platform Module 1.2 support.
+B43 - Q43 with an ICH10D South Bridge.[1] The 975X chipset supports only ×16 PCI Express (electrically) in the top slot when the slot below it is unpopulated. Otherwise it and the lower slot (both attached to the Memory Controller Hub) operate at ×8 electrically.
+[2] Officially 975X supports a maximum of 1066 MT/s FSB. Unofficially, third-party motherboards (Asus, Gigabyte) support certain 1333FSB 45 nm Core2 processors, usually with later BIOS updates.
+[3] The 975X chipset technical specification shows only DDR2-533/667 memory support. Actual implementations of 975X do support DDR2 800.
+[4] VT-d is inherently supported on these chipsets, but may not be enabled by individual OEMs. Always read the motherboard manual and check for BIOS updates. X38/X48 VT-d support is limited to certain Intel, Supermicro, DFI (LanParty) and Tyan boards. VT-d is broken or non existent on some boards until the BIOS is updated. Note that VT-d is a chipset Memory Controller Hub technology, not a processor feature, but this is complicated by later processor generations (Core i3/i5/i7) moving the MCH from the motherboard to the processor package, making only certain I series CPUs support VT-d.
+
+
+=== Core 2 mobile chipsets ===
+1 Unofficially this chipset support 5GB.
+2 Officially only 4GB is supported. Unofficially many laptops with this chipset support 8GB.
+3 Low power mode, HD playback mode and Full performance mode respectively.
+
+
+=== Southbridge 9xx and 3/4 Series chipsets ===
+
+
+== 5/6/7/8/9 Series chipsets ==
+The Nehalem microarchitecture moves the memory controller into the processor. For high-end Nehalem processors, the X58 IOH acts as a bridge from the QPI to PCI Express peripherals and DMI to the ICH10 southbridge. For mainstream and lower-end Nehalem processors, the integrated memory controller (IMC) is an entire northbridge (some even having GPUs), and the PCH (Platform Controller Hub) acts as a southbridge.
+Not listed below is the 3450 chipset (see Xeon chipsets) which is compatible with Nehalem mainstream and high-end processors but does not claim core iX-compatibility. With either a Core i5 or i3 processor, the 3400-series chipsets enable the ECC functionality of unbuffered ECC memory. Otherwise these chipsets do not enable unbuffered ECC functionality.
+The Cougar Point Intel 6 series chipsets with stepping B2 were recalled due to a hardware bug that causes their 3 Gbit/s Serial ATA to degrade over time until they become unusable. Stepping B3 of the Intel 6 series chipsets will have the fix for this. The Z68 chipset which supports CPU overclocking and use of the integrated graphics does not have this hardware bug, however all other ones with B2 did. The Z68 also added support for transparently caching hard disk data on to solid-state drives (up to 64 GB), a technology called Smart Response Technology.
+
+
+=== LGA 1156 ===
+
+Chipsets supporting LGA 1156 CPUs (Lynnfield and Clarkdale).
+
+
+=== LGA 1155 ===
+
+Chipsets supporting LGA 1155 CPUs (Sandy Bridge and Ivy Bridge). The PCIe 2.0 lanes from the PCH ran at 5 GT/s in this series, unlike in the previous LGA 1156 chips.
+1 For Sandy Bridge mainstream desktop and business platforms. Sandy Bridge CPUs provide 16 PCIe 2.0 lanes for direct GPU connectivity.
+2 For Ivy Bridge mainstream desktop platform. Ivy Bridge CPUs provide 16 PCIe 3.0 lanes for direct GPU connectivity and additional 4 PCIe 2.0 lanes.
+
+
+=== LGA 1150 ===
+
+Chipsets that support LGA 1150 CPUs are listed below.  Haswell and Haswell Refresh CPUs are supported by all listed chipsets; however, a BIOS update is usually required for 8-Series Lynx Point motherboards to support Haswell Refresh CPUs.  Broadwell CPUs are supported only by 9-Series chipsets, which are usually referred to as Wildcat Point.The C1 stepping of the Lynx Point chipset contains a bug –  a system could lose connectivity with USB devices plugged into USB 3.0 ports provided by the chipset if the system enters the S3 sleep mode.
+
+
+=== LGA 1366, LGA 2011, and LGA 2011-v3 ===
+Single socket chipsets supporting LGA 1366, LGA 2011, and LGA 2011-v3 CPUs. Please consult List of Intel Xeon chipsets for further, multi-socket, chipsets for these sockets.
+
+1 X58 South Bridge is ICH10/ICH10R.
+2 X58 TDP includes the X58 IOH TDP in addition to the ICH10/ICH10R TDP.
+3 For Sandy Bridge enthusiast desktop platform. Sandy Bridge CPUs will provide up to 40 PCIe 3.0 lanes for direct GPU connectivity and additional 4 PCIe 2.0 lanes. NOTE : This reference number 4 is on X79, which is a Sandy bridge -E, not Sandy Bridge, and PCIe 3.0 only is enabled when an Ivy Bridge-E CPU or Xeon E-5 series is used.
+4 For Haswell enthusiast desktop platform. Haswell CPUs will provide up to 40 PCIe 3.0 lanes for direct GPU connectivity and additional 4 PCIe 2.0 lanes.
+
+
+=== Mobile chipsets ===
+All Core-i series mobile chipsets have an integrated south bridge.
+
+
+== 100/200/300 Series chipsets ==
+All support Intel VT-d and do not support PCI.
+
+
+=== LGA 1151 rev 1 ===
+
+The 100 Series chipsets (codenamed Sunrise Point), for Skylake processors using the LGA 1151 socket, were released in the third quarter of 2015.The 200 Series chipsets (codenamed Union Point) were introduced along with Kaby Lake processors, which also use the LGA 1151 socket; these were released in the first quarter of 2017.
+
+
+=== LGA 1151 rev 2 ===
+
+While Coffee Lake shares the same socket as Skylake and Kaby Lake, this revision of LGA 1151 is electrically incompatible with 100 and 200 series CPUs.
+The 300 Series chipsets were introduced along with Coffee Lake processors, which use the LGA 1151 socket; the enthusiast model was released in the last quarter of 2017, the rest of the line will be released in 2018.
+
+
+==== Xeon chipsets ====
+Chipset C232 does not support CPU integrated GPUs.
+
+
+=== LGA 2066 ===
+Chipsets supporting LGA 2066 socket for Skylake-X processors and Kaby Lake-X processors.
+The C621 Chipset also supports FCLGA3647 socket for Skylake-SP as well as Cascade Lake-W and Cascade Lake-SP processors.
+
+
+=== Mobile chipsets ===
+
+
+== See also ==
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+Search MDDS Database
+Intel Processors and Chipsets by Platform Code Name
+Intel Product Comparison Charts
+Intel ARK

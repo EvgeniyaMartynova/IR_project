@@ -1,0 +1,84 @@
+Wikipedia:Canvassing
+
+In general, it is perfectly acceptable to notify other editors of ongoing discussions, provided that it be done with the intent to improve the quality of the discussion by broadening participation to more fully achieve consensus.
+Canvassing is notification done with the intention of influencing the outcome of a discussion in a particular way, and is considered inappropriate.  This is because it compromises the normal consensus decision-making process, and therefore is generally considered disruptive behavior.
+
+
+== Appropriate notification ==
+
+An editor who may wish to draw a wider range of informed, but uninvolved, editors to a discussion can place a message at any of the following:
+
+The talk page or noticeboard of one or more WikiProjects or other Wikipedia collaborations which may have interest in the topic under discussion.
+A central location (such as the Village pump or other relevant noticeboards) for discussions that have a wider impact such as policy or guideline discussions.
+The talk page of one or more directly related articles.
+On the talk pages of a user mentioned in the discussion (particularly if the discussion concerns complaints about user behavior).
+On the user talk pages of concerned editors.  Examples include:
+Editors who have made substantial edits to the topic or article
+Editors who have participated in previous discussions on the same topic (or closely related topics)
+Editors known for expertise in the field
+Editors who have asked to be kept informedThe audience must not be selected on the basis of their opinions—for example, if notices are sent to editors who previously supported deleting an article, then identical notices should be sent to those who supported keeping it. Do not send notices to too many users, and do not send messages to users who have asked not to receive them.
+Notifications must be polite, neutrally worded with a neutral title, clear in presentation, and brief—the user can always find out more by clicking on the link to the discussion. Do not use a bot to send messages to multiple pages. The {{Please see}} template may help in notifying people in a quick, simple, and neutral manner.
+Note: It is good practice to leave a note at the discussion itself about notifications which have been made, particularly if made to individual users.
+
+
+== Inappropriate notification ==
+Inappropriate notification is generally considered to be disruptive. Canvassing normally involves the posting of messages.  However, it may also include other kinds of solicitation, such as a custom signature to automatically append some promotional message to every signed post.
+The following behaviors are regarded as characteristic of inappropriate notification (and may be seen as disruptive):
+
+Spamming: Posting an excessive number of messages to individual users, or to users with no significant connection to the topic at hand.
+Campaigning: Posting a notification of discussion that presents the topic in a non-neutral manner.
+Vote-stacking: Posting messages to users selected based on their known opinions (which may be made known by a userbox, user category, or prior statement). Vote-banking involves recruiting editors perceived as having a common viewpoint for a group, similar to a political party, in the expectation that notifying the group of any discussion related to that viewpoint will result in a numerical advantage, much as a form of prearranged vote stacking.
+Stealth canvassing: Contacting users off-wiki (by e-mail or IRC, for example) to persuade them to join in discussions (unless there is a specific reason not to use talk pages)
+Soliciting support other than by posting direct messages, such as using a custom signature with a message promoting a specific position on any issue being discussed.Below are brief explanations of the most common types of inappropriate notification:
+
+
+=== Spamming and excessive cross-posting ===
+Indiscriminately sending announcements to editors can be disruptive for any number of reasons. If the editors are uninvolved, the message has the function of "spam" and is disruptive to that user's experience. More importantly, recruiting too many editors to a WP:dispute resolution can often make resolving the dispute impossible. Remember the purpose of a notification is to improve the dispute resolution process, not to disrupt it.
+The inclusion of links to discussions, including featured content nominations, in signatures has been found to be disruptive spamming.
+
+
+=== Campaigning ===
+Campaigning is an attempt to sway the person reading the message, conveyed through the use of tone, wording, or intent. While this may be appropriate as part of a specific individual discussion, it is inappropriate to canvass with such messages.
+
+
+=== Votestacking ===
+
+Votestacking is an attempt to sway consensus by selectively notifying editors who have or are thought to have a predetermined point of view or opinion (which may be determined, among other ways, from a userpage notice, such as a userbox, or from user categorization), and thus encouraging them to participate in the discussion.
+In the case of a re-consideration of a previous debate (such as a "no consensus" result on an AFD or CFD), it is similarly inappropriate to send a disproportionate number of notifications specifically to those who expressed a particular viewpoint on the previous debate.
+Posting an appropriate notice on users' talk pages in order to inform editors on all "sides" of a debate (e.g., everyone who participated in a previous deletion debate on a given subject) may be appropriate under certain circumstances.
+
+
+=== Stealth canvassing ===
+
+Because it is less transparent than on-wiki notifications, the use of email or other off-wiki communication to notify editors is discouraged unless there is a significant reason for not using talk page notifications. Depending on the specific circumstances, sending a notification to a group of editors by email may be looked at more negatively than sending the same message to the same group of people on their talk pages.
+
+
+== How to respond to canvassing ==
+The most effective response to quite recent, clearly disruptive canvassing is to politely request that the user(s) responsible for the canvassing stop posting notices, possibly using {{subst:Uw-canvass}} on their talk page. If they continue, they may be reported to the administrators' noticeboard for incidents, which may result in their being blocked from editing. Users with a prior history of disruptive canvassing, which they have previously been asked to discontinue, may be blocked immediately without further warning, if such an action is deemed to be necessary.
+
+
+== Other forms of inappropriate consensus-building ==
+For other types of action which are inappropriate in the consensus-building process, see the policy on consensus. Apart from canvassing, these include forum shopping (raising an issue on successive discussion pages until you get the result you want), sock puppetry and meat puppetry (bringing fictional or real outside participants into the discussion to create a false impression of support for your viewpoint), and tendentious editing.
+
+
+== Templates ==
+Template:Uw-canvass, warning for user talk pages
+Template:Recruiting, article talk page message
+Template:Not a ballot, for use on discussion pages
+Template:Canvassed, for use in a discussion, to express concern that a specific user was canvassed to the discussion
+Template:Spa, for use in a discussion, to inform other editors that a given user has made few edits outside of this discussion. See Wikipedia:Single-purpose account for more details on proper use of this template.
+
+
+== See also ==
+Wikipedia:Articles for deletion § After nominating: Notify interested projects and editors
+Wikipedia:Cabals
+Wikipedia:Forum shop
+Wikipedia:Griefing
+Wikipedia:Mass message senders
+Wikipedia:Publicising discussions
+Wikipedia:Tag team
+Wikipedia:Talk page guidelines
+Wikipedia:WikiProject Democracy
+
+
+== Notes and references ==

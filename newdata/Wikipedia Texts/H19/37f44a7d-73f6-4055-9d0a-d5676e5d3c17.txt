@@ -1,0 +1,177 @@
+H19 (gene)
+
+H19 is a gene for a long noncoding RNA, found in humans and elsewhere. H19 has a role in the negative regulation (or limiting) of body weight and cell proliferation. This gene also has a role in the formation of some cancers and in the regulation of gene expression.
+.The H19 gene is expressed exclusively on one parental allele in a phenomenon known as imprinting. H19 is only transcribed from the maternally inherited allele; the paternal H19 allele is not expressed. H19 was first named ASM (for Adult Skeletal Muscle) because of its expression in adult skeletal muscle ("ASM") in rats. H19 is also known as BWS because aberrant H19 expression can be involved in Beckwith-Wiedemann Syndrome ("BWS"), as well as Silver-Russell syndrome. Epigenetics deregulations at H19 imprinted gene in sperm have been observed associated with male infertility.
+
+
+== Gene characterization ==
+The H19 gene contains 3 Sp1 binding sites, however these 3 sites are present in a part of the sequence that has shown no transcriptional activity in deletion assays. As a result, these Sp1 binding sites are not expected to contribute much to the regulation of H19 gene transcription. The H19 gene sequence also contains binding sites for the C/EBP family of transcription factors. One of these C/EBP transcription factor binding sites also contains a CpG site.  In vitro methylation of this CpG site on a DNA construct strongly inhibited transcription of the H19 gene.In cell lines derived from human choriocarcinomas, Kopf et al. found that transcription of H19 was under the simultaneous control of both a 5’ upstream and a 3’ downstream region. Kopf et al. have suggested that this simultaneous and bidirectional regulation of H19 may involve a member of the AP2 transcription factor family.H19 gene transcription has also been shown to be activated by the presence of the E2F1 transcription factor.
+
+
+== RNA product ==
+The H19 gene codes for a 2.3 kb RNA product.
+It is transcribed by RNA polymerase II, spliced and polyadenylated, but it does not appear to be translated.After many studies, researchers finally concluded that the end product of the H19 gene is a RNA strand for the following reasons:
+
+The H19 RNA product is evolutionarily conserved at the nucleotide level in humans and rodents
+There is no known open reading frame; the H19 mRNA contains stop codons in all 3 reading frames 
+The cDNA version of the human H19 does not contain the short introns that are characteristic of imprinted genes 
+Although the RNA sequence was highly conserved evolutionarily, at the amino acid level, there was a complete absence of conservation 
+Free energy (thermodynamics) analysis of the H19 RNA sequence revealed a multitude of possible secondary RNA structures, including 16 helices and various hairpin loops 
+In situ hybridization of the H19 RNA revealed that it localizes in a cytoplasmic ribonucleoprotein particle, leading some to suggest that the H19 RNA functions as a riboregulator.Loss of function and overexpression experiments on H19 have revealed two things:
+
+Loss of H19 is not lethal in mice
+Overexpression of H19 is a dominant and lethal mutationMice with a loss of H19 function express an overgrowth phenotype similar to babies with BWS.
+This has led researchers to suggest that perhaps the only function of H19 RNA expression is to regulate the expression of IGF2 (Insulin Growth Factor 2).
+Overexpression of IGF2 can be responsible for overgrowth, and generally, IGF2 is expressed in the absence of H19.
+Mouse embryos overexpressing H19 tend to die between embryonic day 14 and birth.
+Brunkow et al. have suggested two reasons for the lethality of H19 overexpression in embryonic mice:
+
+The overexpression of H19 in tissues where it is normally expressed (e.g., liver and gut) caused its lethal effectsThis implies that H19 gene dosage is under strict control in the fetusThe expression of H19 in tissues where it is normally not expressed (e.g., brain) caused its lethal effects
+
+
+== Expression timeline ==
+In the early placentae (6–8 weeks gestation), both parental H19 alleles (maternal and paternal) are expressed.After 10 weeks gestation and in full term placentae, there is exclusive expression of H19 from the maternal chromosome. In the embryo, maternal expression of H19 is present in endodermal and mesodermal tissues. The regulated expression of H19, from biallelic to monoallelic, throughout embryonic development suggests that regulation is essential for the growth of embryonic and extraembryonic tissues. Immediately after birth, H19 expression is downregulated in all tissues except for skeletal muscle.Studies by Tanos et al. suggest that the accumulation of H19 RNA in skeletal muscle cells is solely due to the stabilization of that RNA in the muscle cells during differentiation.In females, H19 is expressed postnatally during puberty and pregnancy in the mammary glands, and in the uterus during pregnancy.A study by Shoshani et al. suggests that H19 is continued to be expressed in high amounts in the liver after birth, specifically in diploid hepatocytes.
+
+
+== Epigenetics ==
+Genomic imprinting is surmised to have arisen due to the conflicting interests of maternal and paternal genes within a pregnancy.Within a pregnancy, the father wants the mother to devote as much of her resources as possible towards the growth (benefit) of his offspring. However, within the same pregnancy, the mother wants to conserve as much of her resources as possible towards future births without compromising the health of the child(ren) she is currently carrying.H19 contains a differentially methylated region that is also an imprinting control region. This imprinting control region is differentially methylated at its CpGs according to parental inheritance. Usually, the paternal copy of H19 is methylated and silent while the maternal copy is hypomethylated or unmethylated and expressed in the offspring cell. 
+Methylation of the H19 promoter is negatively correlated with H19 expression.As methylation of the promoter reaches 100%, H19 expression from that promoter approaches 0.
+At the same time as H19 expression decreases, the expression of IGF2, a neighboring gene on chromosome 11, increases.Cells treated with Azad, a demethylating agent, grow much slower than cells cultured in the absence of Azad.
+At the same time, H19 expression increases while IGF2 expression decreases in the presence of Azad.
+The reduction of IGF2 expression could be a reason for the slower growth of cells treated with Azad. As well, in a mouse bladder carcinoma cell line, where transfection of a human H19 DNA construct results in high expression of H19, the methylation of the H19 promoter reduces H19 expression.
+The paternal H19 allele, which is silent postnatally, shows increasing methylation of CpGs in its promoter with gestation time in the fetus.
+It appears conclusive that the H19 gene is epigenetically controlled via methylation, where methylation on or near the vicinity of one allele prevents the expression of that allele. As well, based on the results from Banet et al., it appears that functional H19 imprinting occurs during early placenta development.In addition, methylation loss at H19 imprinted gene has been observed associated with MTHFR gene promoter hypermethylation in semen samples from infertile males. Similarly, the CTCF-binding site 6 region of H19 can also be hypomethylated with MTHFR gene promoter hypermethylation.
+
+
+== Replication ==
+A common characteristic of imprinted genes is asynchronous replication during the DNA synthesis phase of the mitotic cycle.
+The replication of two alleles of the same gene can differ according to which parent the allele originated from.
+On the human chromosome 11p15, the methylated paternal H19 allele replicates early in the S phase while the hypomethylated maternal allele replicates later.
+Studies by Bergstrom et al. have determined that the later-replicating maternal H19 allele is CTCF-bound, and that it is this CTCF binding that determines the time of H19 replication.
+
+
+== As an oncogene ==
+Evidence for the identification of H19 as an oncogene:
+
+Overexpression of H19 appears to be important in the development of                 esophageal and                 colorectal cancer cells
+Cells expressing H19 are able to form bigger colonies in soft agar in anchorage-independent growth assays as compared to the control.
+Downregulation of H19 in breast and lung cancer cells decreases their clonogenicity and anchorage-dependent growth
+Subcutaneous injection of H19 into mice promoted tumor progression
+Tumors formed by injection of bladder carcinoma cells into mice express H19; prior to the injection, these bladder carcinoma cells did not express H19.
+Ectopic H19 expression in vivo enhances the tumorigenic potential of carcinoma cells
+c-Myc, an oncogene that functions as a regulator of gene transcription, induces H19 expression
+Knocking down H19 in hypoxic stress diminishes p57 inductionEvidence against the identification of H19 as an oncogene:
+
+The amount of H19 RNA transfected into breast cancer cells did not affect: cell proliferation, cell cycle timing or anchorage-dependent growth
+Tumorigenic mesenchymal stem cells express high levels of H19 compared with non-tumorigenic mesenchymal stem cells. Knock-down of H19 in the tumorigenic cells reduced their tumor forming capacity significantly
+
+
+=== As an oncofetal RNA gene ===
+Definition of an oncofetal gene:
+
+A gene expressed in tumors arising from tissues that express this gene in fetal lifeH19, while possessing oncogenic properties, is best defined as an oncofetal RNA gene because:
+
+The final product of the H19 gene is RNA
+H19 is highly expressed prenatally and downregulated postnatally
+Postnatally, H19 is expressed at high levels in cancer cells
+
+
+== Role in cancer ==
+Increased H19 expression is found in the following cancers: adrenocortical neoplasms, choriocarcinomas, hepatocellular carcinomas, bladder cancers, ovarian serous epithelial cancers, head and neck carcinomas, endometrial cancer, breast cancer, acute T cell leukemia/lymphoma, Wilms' tumor, testicular germ cell cancer, esophageal cancer and lung cancer.
+
+
+=== Genome instability ===
+
+Cellular DNA integrity is often compromised in cancer. Genome instability can refer to the accumulation of extra copies of DNA/chromosomes, chromosomal translocations, chromosomal inversion, chromosome deletions, single stranded breaks in DNA, double stranded breaks in DNA, the intercalation of foreign substances into the DNA double helix, or any abnormal changes in DNA tertiary structure that can cause either the loss of DNA, or the misexpression of genes. It appears that H19 expression is tightly linked to the ploidy of the cell. Diploid liver cells express high levels of H19, whereas the polyploid cell fraction do not express H19. Also, diploid mesenchymal stem cells express high levels of H19 compared to polyploid mesenchymal stem cells. Knock-down of H19 lead to increased polyploidization of mesenchymal stem cells, and induced polyploidy resulted in reduced expression of H19, providing a direct link between H19 expression and the amount of DNA within the cell.
+
+
+=== Adrenocortical neoplasms ===
+In contrast to most other cancers, adrenocortical neoplasms appear to have decreased expression of H19. To determine a possible cause for the downregulation of H19, Gao et al. studied the methylation of 12 CpG sites in the H19 promoter in normal, hyperplasia, adenoma and carcinoma adrenals. They found that in carcinomas, there was more methylation of CpGs than in normal, hyperplasia and adenoma adrenals. Consequently, normal H19 expression was detectable in normal and hyperplasia adrenals, but in carcinomas and surprisingly, adenomas, there was a lower H19 expression that was coupled with detectable (increased) IGF2 expression.The presence of IGF2 RNA expression when H19 RNA was downregulated provides further evidence that IGF2 expression is tightly coupled to and dependent on the absence of H19 expression. As well, the loss of H19 in adrenal cancers may be indicative of tumor suppressor activity by H19, leading Gao et al. to suggest that the loss of H19 and subsequent gain of IGF2 may be involved in adrenal cancer induction. Although Gao et al. found that there was not one CpG methylation site that was more important than the others in downregulating H19 expression, they did find that the increase in CpG methylation in adrenal carcinomas followed the pattern of methylation of the normal, hyperplasia and adenoma adrenals. The mean percent methylation of H19 CpGs peaked at sites 9 and 10 in normal, hyperplasia, adenoma and carcinoma adrenals and the lowest mean percent methylation of H19 CpGs dipped at site 7 in normal, hyperplasia, adenoma and carcinoma adrenals.
+The mean percent methylation of H19 CpGs at sites 13 and 14, after the transcription start site, is insignificant between normal, hyperplasia, adenoma and carcinoma adrenals. This is because methylation of CpGs after the transcription start site is assumed to interfere with RNA polymerase II during transcription. Another point of interest is the significant difference in CpG methylation at site 11 between normal and hyperplasia adrenals. The mean percent CpG methylation at site 11 for hyperplasia and adenoma adrenals is significantly different from that of normal adrenals and carcinoma adrenals, leading Gao et al. to suggest that site 11 is the initial methylated CpG that eventually leads to widespread methylation of the H19 promoter.
+
+
+=== Choriocarcinomas ===
+Choriocarcinomas, in contrast to adrenal carcinomas, have upregulated H19 and downregulated IGF2 expression. The upregulated H19 expression, however, came from alleles that were fully methylated. Surgically removed choriocarcinomas from human patients also exhibited a heavily methylated H19 promoter with enhanced H19 expression. This led researchers Arima et al. to suggest that in cases of choriocarcinomas, the H19 promoter was mutated, allowing it to overcome the transcriptional repression of promoter CpG methylation.
+
+
+=== Hepatocellular carcinoma ===
+In hepatocellular carcinoma, the expression of H19 and IGF2 usually changes from monoallelic to biallelic. In in vitro studies, culturing hepatocellular carcinoma cell lines in hypoxic condition upregulated H19 expression. Whether or not the loss of imprinting for the H19 promoter is a characteristic of hepatocellular carcinoma is not known, as some cell lines exhibit loss of imprinting while others did not.
+
+
+=== Bladder cancers ===
+Bladder mucosa is one of the tissues that express high levels of H19 RNA prenatally. In bladder cancers, H19 is also upregulated and present in most stages.
+The presence of H19 RNA was strongest in bladder carcinomas (sampled in situ) that tend to progress rapidly to invasive cancer as well as invasive transitional cell carcinomas.In samples of bladder carcinoma, loss of imprinting at the H19 loci were observed.
+Verhaugh et al. investigated various polymorphisms in the H19 gene and found that some heterozygous SNP polymorphisms, such as rs2839698 TC, were associated with a decreased risk of developing non-muscle invasive bladder cancer as well as bladder cancer overall; however, this association disappeared for homozygotes (CC).
+
+
+=== Endometrial/ovarian cancer ===
+In normal endometrial tissue, there is no H19 expression; however, in endometrial cancer, H19 is expressed. The expression level of H19 RNA in the epithelial cells of the endometrium increases as tissue differentiation is lost in endometrial cancer.In ovarian cancers, 75% of low malignancy tumors and 65% of invasive ovarian carcinomas are H19 RNA positive.
+
+
+=== Breast cancer ===
+Normal breast tissue does not express H19 RNA, except during puberty and pregnancy in the mammary glands.However, in breast cancer, 72.5% of the breast adenocarcinomas studied by Adriaenssens et al. displayed increased H19 expression when compared to normal breast tissue. Of the tissues with upregulated H19, 92.2% are stromal cells and only 2.9% are epithelial cells.
+Studies by Berteaux et al. have also found that the overexpression of H19 in breast cancer cells promotes proliferation.
+The expression of H19 in these cells is also independent of the tumor suppressor protein p53 and the cell cycle marker Ki-67. However, the presence of tumor suppressor protein pRb and transcription factor E2F6 is sufficient to repress H19 expression in breast cancer cells.In experiments conducted by Doyle et al., it was found that MCF-7, a breast adenomacarcinoma cell line, did not express the H19 gene; however a subline of MCF-7 with a multidrug resistance phenotype, MCF-7/AdrVp, had upregulation of H19.
+Curiously, mutant revertant MCF-7/AdrVp cells that lost their multidrug resistance and became drug-sensitive also lost H19 expression.
+Drug-resistant MCF-AdrVp cells do not overexpress P-glycoprotein, a cell membrane efflux pump commonly found in multidrug resistant cells; instead, they overexpress a 95kD membrane glycoprotein p95.
+p95, or NCA-90, is related to carcinoembryonic antigens, which have been found to reduce drug toxicity by Kawaharata et al.NCI-H1688, a human lung carcinoma cell line that displays multidrug resistance, also overexpress p95 (NCA-90) and H19. No other cell lines with the multidrug resistance phenotype have been found to overexpress p95 (NCA-90) in conjunction with H19.
+
+
+=== Larynx cancer ===
+H19 is overexpressed in laryngeal squamous cell carcinomas that relapse as compared to those that do not relapse. In a pilot study aimed at the development of a prognostic classifier for this cancer H19 was the strongest predictor of relapse. It was overexpressed in cancers that later developed local or distant recurrence. Its expression did not correlate with the expression of IGF2 and H19 overexpression is unlikely to be a simple consequence of loss of imprinting of the locus containing H19 and IGF2 
+
+
+== Participation in signaling pathways ==
+The exact role of H19 RNA within the cell is currently not known. There are various known substances and conditions that are known to activate H19 transcription and there are various known effects of H19 RNA on cell cycle activity/status, although precisely how H19 RNA exerts these effects is still unknown.
+
+
+=== Upstream effectors – hormonal regulation ===
+A previous study conducted by Adriaenssens et al. on H19 correlated an overexpression of H19 with the presence of steroid receptors.Further studies found that 17-β-estradiol, the dominant form of estrogen, and corticosterone were able to individually stimulate H19 transcription in the uterus, while the presence of progesterone inhibited this effect.Tamoxifen is a competitive binder of the estrogen receptor and is often used in chemotherapy treatment of breast cancer. While 17-β-estradiol alone stimulated H19 transcription in MCF-7 cells, the addition of tamoxifen inhibited H19 transcription, demonstrating that there is a putative role of hormones in H19 transcription.
+
+
+=== Downstream effects – angiogenesis, metabolism, tissue invasion and migration ===
+When a cancer bladder cell line, T24P, which does not express H19 was transfected with a DNA construct expressing the H19 gene under the control of the cytomegalovirus promoter, many changes were seen in the resulting cells when compared to both the original T24P cell line and a H19-antisense DNA construct transfected T24P cell line. While there was no difference in proliferation in 10% FCS (normal condition) between the 3 cell lines, when grown in 0.1% FCS (starved serum), the H19-transfected cells maintained their rate of growth while both the control and the antisense H19 transfected cells decreased their rate of proliferation by approximately 50%.When p57 induction in 0.1% FCS media was measured in the 3 cell lines, both the control and antisense H19 transfected cells had significantly upregulated p57; however, the H19-transfected cells showed a significant downregulation of p57 in 0.1% FCS as compared to 10% FCS. In addition, while the expression of PCNA, required for progression of the cell cycle beyond the S phase, was significantly downregulated in all 3 cell lines, the reduction was approximately 80%-90% in the control and antisense H19 transfected cells and only 30% in the H19 transfected cells.An examination of the differences in gene expressed between the H19 transfected cells and the antisense H19 transfected cells showed that the following genes were upregulated: uPar, c-src kinase, tyrosine kinase 2 mitogen-activated protein kinase kinase, tyrosine kinase 2, c-jun, JNK1,  Janus kinase 1, TNF-a, interleukin-6, heparin-binding growth factor-like growth factor, intracellular adhesion molecule 1, NF-κB, ephrin A4 and ezrin. It is also suggested that angiogenin and FGF18 may be potential transcriptional targets of the H19 RNA. As a result of the functions and signaling pathways that H19 RNA-upregulated genes are involved in, it has been suggested that H19 RNA plays crucial roles in tissue invasion, migration and angiogenesis in tumorigenesis.Lottin et al. also found that the overexpression of H19 positively regulates post-transcriptionally thioredoxin. Thioredoxin is a protein crucial to the reduction-oxidation reactions involved in metabolism within a cell, and is often found at high levels in cancerous tissues that also overexpress H19 RNA.
+
+
+== IGF2 ==
+H19 and IGF2 expression are closely linked, as they are expressed in the same tissues during fetal development, albeit from differing parental alleles.
+
+This coupled expression is only lost in cases of loss of imprinting (inherited CpG methylated) or promoter mutation.The hypermethylation of the H19 promoter on the paternal allele plays a vital role in allowing the expression of the paternal allele of IGF2.
+In DNMT-null mice, the paternal allele of IGF2 is also silenced as the paternal H19 promoter is no longer methylated and repressed.
+A reason for the close coupling of H19 and IGF2 expression may be that they share the same 3’ gene enhancer.
+When this 3’ enhancer was deleted, researchers Leighton et al. found decreased H19 and IGF2 RNA expressions in the gut, liver and kidney; however, the methylation status of these genes were not affected by the deleted enhancer.
+Suggestions for why H19 is preferentially activated by the 3’ enhancer instead of IGF2 are that H19 has a stronger promoter than IGF2 and that the H19 gene is physically closer to the 3’ enhancers than the IGF2 gene.It is of interest to note that mice inheriting a deleted maternal H19 and a deleted paternal IGF2 gene were indistinguishable from wildtype mice in birth weight and postnatal growth.
+Mice inheriting only a deleted maternal H19 gene, however, displayed somatic overgrowth while mice inheriting only a deleted paternal IGF2 gene displayed somatic undergrowth when compared to wildtype mice.
+This indicates that the loss of H19 is not lethal, H19 expression governs IGF2 repression, and the overexpression of IGF2 is responsible for the overgrowth phenotype observed in the maternal inheritance of a deleted H19 gene.
+
+
+== Cancer therapy ==
+While the functions of the H19 RNA in the cell are still unclear, its presence in the many types of carcinoma cells suggest that it can be used as a tumor marker for initial diagnosis, cancer recurrence and malignant potential.
+
+
+=== Gene therapy ===
+The activation of the H19 promoter in cancerous cells (and its silence in normal tissues) has led to the suggestion of using the H19 promoter in gene therapy to drive the expression of cytotoxic genes in tumorigenic cells.
+Gene therapy trials utilizing the H19 promoter to drive the expression of cytotoxic genes are currently being tested on mice.
+
+
+=== Drug discovery ===
+A plasmid composed of the H19 gene regulatory sequences that drive the expression of the 'A' strand of Diphtheria Toxin (DT-A), is undergoing clinical testing as a treatment for superficial bladder cancer, ovarian cancer and pancreatic cancer. The plasmid, designated BC-819 (or DTA-H19), embodies a targeted therapy approach, in that the plasmid enters all dividing cells, but the DT-A expression is triggered by the presence of H19 transcription factors found only in tumor cells, thus destroying the tumor without affecting normal cells.
+In a double-center, dose escalation Phase I/IIa clinical trial of BC-819 as a treatment for superficial bladder cancer, no severe adverse events related to the plasmid were detected, and tumor responses were observed in more than 70% of patients, including those with a still not-optimized therapeutic dose and regimen.
+BC-819 was previously tested in human compassionate use for the treatment of superficial bladder cancer, ovarian cancer and metastatic liver cancer. The bladder cancer patient, who was a candidate for radical cystectomy when he was treated in 2004, reported no cancer recurrence and no side effects. The ovarian cancer patient experienced a 50% decline in the amount of the ovarian cancer marker protein CA-125 in her blood as well as a significant decrease in the number of cancerous cells in her ascitic fluid. The patient suffering from metastatic liver cancer was treated with direct injection of BC-819 into the tumor, with considerable tumor necrosis observed.
+
+
+=== Pharmacogenomics ===
+While the expression profile of H19 in most cancer types is known, the role of H19 RNA in influencing cancer cell response to drug treatment is still unknown. 
+However, recent studies have discovered the expression of thioredoxin and p95 (NCA-90) in cancer cells when H19 RNA is present in high quantities.
+This knowledge can lead to a more personalized cancer treatment plan; for example, the expression of p95 in a H19-overexpressing cancer cell may indicate higher tolerance of drug toxicity, so cancer treatment for an individual with high levels of H19 (and p95) may focus more on radiotherapy or immunotherapy instead of chemotherapy.
+
+
+=== Immunotherapy ===
+It is not currently known if H19 expression can be used to induce an anti-cancer response in immune cells.
+
+
+== References ==
+
+
+== External links ==
+Online Mendelian Inheritance in Man (OMIM) H19 Gene -103280

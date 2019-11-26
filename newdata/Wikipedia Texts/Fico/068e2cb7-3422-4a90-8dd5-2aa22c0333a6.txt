@@ -1,0 +1,116 @@
+FICO score
+
+Credit score in the United States is a number representing the creditworthiness of a person, the likelihood that person will pay his or her debts.
+Lenders, such as banks and credit card companies, use credit scores to evaluate the potential risk posed by lending money to consumers. Lenders allege that widespread use of credit scores has made credit more widely available and less expensive for many consumers.
+
+
+== Credit scoring models ==
+
+
+=== FICO score ===
+The FICO score was first introduced in 1989 by FICO, then called Fair, Isaac, and Company. The FICO model is used by the vast majority of banks and credit grantors, and is based on consumer credit files of the three national credit bureaus: Experian, Equifax, and TransUnion. Because a consumer's credit file may contain different information at each of the bureaus, FICO scores can vary depending on which bureau provides the information to FICO to generate the score.
+
+
+==== Makeup ====
+
+Credit scores are designed to measure the risk of default by taking into account various factors in a person's financial history. Although the exact formulas for calculating credit scores are secret, FICO has disclosed the following components:
+35%: payment history: This is best described as the presence or lack of derogatory information.  Bankruptcy, liens, judgments, settlements, charge offs, repossessions, foreclosures, and late payments can cause a FICO score to drop.
+30%: debt burden: This category considers a number of debt specific measurements. According to FICO there are six different metrics in the debt category including the debt to limit ratio, number of accounts with balances, amount owed across different types of accounts, and the amount paid down on installment loans.
+15%: length of credit history aka Time in File: As a credit history ages it can have a positive impact on its FICO score. There are two metrics in this category: the average age of the accounts on a report and the age of the oldest account.
+10%: types of credit used (installment, revolving, consumer finance, mortgage): Consumers can benefit by having a history of managing different types of credit.
+10%: recent searches for credit: hard credit inquiries or "hard pulls," which occur when consumers apply for a credit card or loan (revolving or otherwise), can hurt scores, especially if done in great numbers. Individuals who are "rate shopping" for a mortgage, auto loan, or student loan over a short period (two weeks or 45 days, depending on the generation of FICO score used) will likely not experience a meaningful decrease in their scores as a result of these types of inquiries, as the FICO scoring model considers all of those types of hard inquiries that occur within 14 or 45 days of each other as only one. Further, mortgage, auto, and student loan inquiries do not count at all in a FICO score if they are less than 30 days old. While all credit inquiries are recorded and displayed on personal credit reports for two years, they have no effect after the first year because FICO's scoring system ignores them after 12 months. Credit inquiries that were made by the consumer (such as pulling a credit report for personal use), by an employer (for employee verification), or by companies initiating pre-screened offers of credit or insurance do not have any impact on a credit score: these are called "soft inquiries" or "soft pulls," and do not appear on a credit report used by lenders, only on personal reports. Soft inquires are not considered by credit scoring systems.These percentages are based on the importance of the five categories for the general population. For particular groups — for example, people who have not been using credit long — the relative importance of these categories may be different.
+The makeup factors are limited to the individual's past (and continuing) behavior on credit. Contrary to common misconception, other financial factors such as age, employment status, asset, income, etc. are not accounted. It, however, does not prevent lenders from asking and accounting these factors for particular lending considerations.
+Getting a higher credit limit can help a credit score. The higher the credit limit on the credit card, the lower the utilization ratio average for all of a borrower's credit card accounts. The utilization ratio is the amount owed divided by the amount extended by the creditor and the lower it is the better a FICO rating, in general. So if a person has one credit card with a used balance of $500 and a limit of $1,000 as well as another with a used balance of $700 and $2,000 limit, the average ratio is 40 percent ($1,200 total used divided by $3,000 total limits). If the first credit card company raises the limit to $2,000, the ratio lowers to 30 percent, which could boost the FICO rating.
+There are other special factors which can weigh on the FICO score.
+
+Any money owed because of a court judgment, tax lien, etc., carries an additional negative penalty, especially when recent.
+Having one or more newly opened consumer finance credit accounts may also be a negative.
+
+
+==== Ranges ====
+There are several types of FICO credit score: classic or generic, industry-specific scores (bankcard score, auto score, mortgage score, personal finance score, and installment loan score), XD score, collection score, and NextGen score. The classic or generic FICO credit score (named FICO credit score) is between 300 and 850, and 37% of people had between 750 and 850 in 2013, and 56.8% had between 700 and 850 in 2017. According to FICO, the median FICO credit score in 2006 was 723 and 711 in 2011. The FICO bankcard score and FICO auto score are between 250 and 900. The FICO mortgage score and FICO score XD 2 are between 300 and 850. Higher scores indicate lower credit risk.The FICO credit score lower than 620 is bad, 620-649 is poor, 650-699 is fair, 700-749 is good, and 750 and over is excellent.
+Each individual actually has over 60 credit scores for the FICO scoring model because each of three national credit bureaus, Equifax, Experian and TransUnion, has its own database. Data about an individual consumer can vary from bureau to bureau. FICO scores have different names at each of the different credit reporting agencies: Equifax (BEACON), TransUnion (FICO Risk Score, Classic) and Experian (Experian/FICO Risk Model). There are four active generations of FICO credit scores: FICO 98 (1998), FICO 04 (2004), FICO 8 (2008), and FICO 9 (2014). The FICO 95 credit score released in 1995 is no longer in use. The FICO Score XD uses alternative data and was released in 2016. Consumers can buy their FICO Score 8 for Equifax, TransUnion, and Experian from the FICO website (myFICO), and they will get some free FICO scores in that moment: FICO Bankcard Score 8, FICO Auto Score 8, FICO Score 9, FICO Auto Score 9, FICO Bankcard Score 9, and other FICO scores (1998 and 2004 versions). Consumers also can buy their FICO Score 5 (classic version of 2004) for Equifax in the website of this credit bureau, and their FICO Score 8 for Experian in its website. Other types of FICO scores cannot be obtained by individuals, only by lenders. The consumers with some delinquent account have some FICO collection score (cycle 1, cycle 2 and cycle 3 scores). Some credit cards offer a free FICO score (classic or bankcard) several times per year to their cardholders.
+
+
+==== NextGen Risk Score ====
+The NextGen Score is a scoring model designed by the FICO company for assessing consumer credit risk. This score was introduced in 2001, and in 2003 the second generation of NextGen was released. In 2004, FICO research showed a 4.4% increase in the number of accounts above cutoff while simultaneously showing a decrease in the number of bad, charge-off and Bankrupt accounts when compared to FICO traditional. FICO NextGen score is between 150 and 950.
+Each of the major credit agencies markets this score generated with their data differently:
+
+Experian: FICO Advanced Risk Score
+Equifax: Pinnacle
+TransUnion: FICO Risk Score NextGen ( formerly Precision )Prior to the introduction of NextGen, their FICO scores were marketed under different names:
+
+Experian: FICO Risk Model
+Equifax: BEACON
+TransUnion: FICO Risk Score, Classic (formerly EMPIRICA)
+
+
+==== FICO SBSS ====
+The FICO Small Business Scoring Service (SBSS) score is used to evaluate small business credit applicants. This score can evaluate the personal credit report of a business owner along with the business credit report of the business itself. Financial information of the business may be evaluated as well. The score range for the FICO SBSS score is 0-300. A higher score indicates less risk. Applications for SBA 7(a) loans for $350,000 or less will be prescreened using this score. A minimum score of 140 is needed to pass this prescreen, though most lenders require scores of 160 or more.
+
+
+=== VantageScore ===
+In 2006, to try to win business from FICO, the three major credit-reporting agencies introduced VantageScore, which differs from FICO in several ways.  According to court documents filed in the FICO v. VantageScore federal lawsuit the VantageScore market share was less than 6% in 2006. The VantageScore score methodology initially produced a score range from 501 to 990 (VantageScore 1.0 and 2.0), but VantageScore 3.0 adopted the score range of 300–850 in 2013. The VantageScore 4.0 was released in mid-2017 and also uses a range of 300-850. Consumers can get free VantageScores from free credit report websites, and from some credit cards issued by Capital One, U.S. Bank, Chase Bank, TD Bank, N.A., Synchrony Bank, and USAA Bank.
+
+
+=== CE Score ===
+CE Score is published by CE Analytics and licensed to sites such as Community Empower and iQualifier.com. This score is distributed to 6,500 lenders through the Credit Plus network but is free to consumers. It has a range of 350 to 850.
+
+
+=== Educational credit scores ===
+A number of scores have been developed to help consumers understand and improve their credit score. Most were introduced before FICO began sharing details of their model and encouraging lenders to share scores with consumers. While these scores can help consumers monitor and improve their score, these scores do not replicate the FICO score and may be substantially less accurate if they use less complete data. They also assign different score ranges and rankings to consumers, which has created confusion among consumers who expect to have a single score number. Discussions on the myFICO forum and elsewhere have referred to non-FICO scores as FAKO scores.Experian has the Plus Score between 330 and 830, and Experian's National Equivalence Score ranges from 360 to 840. Equifax has the Equifax Credit Score of between 280 and 850. TransUnion New Account Score 2.0 (formerly TransRisk score) is between 300 and 850. CreditXpert offers a simulation score to estimate the impact various actions on a score range of 350 to 850.
+
+
+=== Other credit scores ===
+Lenders may choose to use non-FICO credit scores to gain additional insight on consumers, especially those with limited traditional credit history who might be difficult to score. These scores may be added to the FICO score if they provide unique insights or used instead of the FICO score if they provide similar predictiveness. Most of these scores are based significantly on data not available through the national credit bureaus (alternative data), such as rental, utility, and telecom payment data or public record information such as property deeds and mortgages, liens, personal property titles, tax records, and licensing data.
+The Credit Optics Score by SageStream blends traditional and alternative credit data with machine learning modeling techniques and ranges from 1 to 999. LexisNexis RiskView score, based on wide-ranging public records, ranges from 501 to 900. CoreLogic Credco reports on property related public records and its Anthem Credit Score ranges from 325 to 850. PRBC allows consumers to self-enroll and report their own non-debt payment history. The PRBC alternative credit score range is 100 to 850. There are also scores like ChexSystems designed for financial account verification services ranging from 100 to 899. The L2C (Link2Credit) score by L2C, Inc. ranges from 300 to 850. Scorelogix LLC offers the JSS Credit Score, which assesses credit risk based on job history, income, and the impact of economy.
+
+
+== Free annual credit report ==
+
+As a result of the FACT Act (Fair and Accurate Credit Transactions Act), each legal U.S. resident is entitled to a free copy of his or her credit report from each credit reporting agency once every twelve months. The law requires all three agencies, Equifax, Experian, and Transunion, to provide reports. These credit reports do not contain credit scores from any of the three agencies. The three credit bureaus run Annualcreditreport.com, where users can get their free credit reports. Non-FICO credit scores are available as an add-on feature of the report for a fee.  This fee is usually $7.95, as the FTC regulates this charge through the Fair Credit Reporting Act.
+
+
+== Non-traditional uses of credit scores ==
+
+Credit scores are often used in determining prices for auto and homeowner's insurance. Starting in the 1990s, the national credit reporting agencies that generate credit scores have also been generating more specialized insurance scores, which insurance companies then use to rate the insurance risk of potential customers. Studies indicate that the majority of those who are insured pay less in insurance through the use of scores. These studies point out that people with higher scores have fewer claims.
+In 2009, TransUnion representatives testified before the Connecticut legislature about their practice of marketing credit score reports to employers for use in the hiring process. Legislators in at least twelve states introduced bills, and three states have passed laws, to limit the use of credit check during the hiring process.
+
+
+== Criticism ==
+Credit scores are widely used because they are inexpensive and largely reliable, but they do have their failings. Credit scores are used as a judgment to allow or deny consumers the opportunity to take out loans, buy houses and cars and open credit cards. This practice of credit scoring has been seen as a discriminatory practice. Credit companies measure credit objectively, by looking at pertinent info like the number of accounts held, length of credit, ability to pay borrowed money back, punctuality of payment. They do not explicitly consider race, gender, or class. However, some see said measures as ways to create inequity and reward consumers who belong to the higher class. In the 2009 National Financial Capability Study , 56% of the people surveyed with incomes above $75,000 had obtained a credit report, while 18% of those with incomes below $25,000 had not. This gap has been used as a key argument for the marginalization of the less privileged from the world of mainstream credit. While credit scores have become necessary to maintain credit and purchasing power, this system has been criticized as exploiting consumers and purchasers while expanding the boundary and differentiates those with poor credit scores and those with good credit scores.
+
+
+=== Easily gamed ===
+Because a significant portion of the FICO score is determined by the ratio of credit used to credit available on credit card accounts, one way to increase the score is to increase the credit limits on one's credit card accounts.
+
+
+=== Not a good predictor of risk ===
+Some have blamed lenders for inappropriately approving loans for subprime applicants, despite signs that people with poor scores were at high risk for not repaying the loan. By not considering whether the person could afford the payments if they were to increase in the future, many of these loans may have put the borrowers at risk of default.Some banks have reduced their reliance on FICO scoring. For example, Golden West Financial (which merged with Wachovia Bank in 2006) abandoned FICO scores for a more costly analysis of a potential borrower's assets and employment before giving a loan.According to the experts at MyFico.com, credit scores are enhanced by having multiple credit cards, the use of credit cards, and having installment loans. However, financially secure individuals who do not use multiple credit cards and/or self-finance installment type expenses may be inaccurately assessed a lower credit score.
+
+
+=== Use in employment decisions ===
+Experian, Equifax, TransUnion and their trade association (the Consumer Data Industry Association or "CDIA") have all gone on record saying that employers do not receive credit scores on the credit reports sold for the purposes of employment screening. The use of credit reports for employment screening is allowed in all states, although some have passed legislation limiting the practice to only certain positions. Eric Rosenberg, director of state government relations for TransUnion, has also stated that there is no research that shows any statistical correlation between what’s in somebody’s credit report and their job performance or their likelihood to commit fraud.
+
+
+=== Other concerns ===
+The use of credit information in connection with applying for various types of insurance or in landlord background checks has drawn similar amounts of scrutiny and criticism. This is because the activities of finding secure employment, renting suitable accommodation and securing insurance are the basic functions of meaningful participation in modern society, and in the case of some types of auto insurance for instance, are mandated by law.
+
+
+==== Credit Scores and Morality ====
+Credit scores have been widely criticized a systematic way to measure morality. They track consumption choices over time and so they are used reflect a person's ability to manage money. The classification system of credit scores “rewards consumers who belong to the right category”, and excludes those who are on the fringes of classification.  Your credit score is how reliable you are as a consumer and becomes your perceived morality. One consumer can be more moral than another if a credit score is higher. Banks, car dealerships, and real estate brokers decide on customers based on their credit score. Companies keep records of purchasing behavior, and buy them from other companies, to attempt to manage your moral hazard through data collection, and them make a performance assessment. They suggest a certain behavior, and reward success and punish those who fail to follow, usually in ways that broaden the economic and moral gaps. These punishments can include higher premiums, loss of privileges, poorer service, or higher interest rates, which ultimately affect credit score and purchasing power.
+
+
+== See also ==
+Comparison of free credit report websites
+Bankruptcy risk score
+Credit scorecards
+Alternative data
+Seasoned tradeline
+
+
+== References ==
+
+
+== External links ==
+"Credit Scores: What You Should Know About Your Own", by Malgorzata Wozniacka and Snigdha Sen (November 2004). Frontline. PBS.

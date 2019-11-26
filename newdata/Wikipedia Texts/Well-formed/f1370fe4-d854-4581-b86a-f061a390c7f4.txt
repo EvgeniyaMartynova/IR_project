@@ -1,0 +1,32 @@
+Well-formedness
+
+Well-formedness is the quality of a clause, word, or other linguistic element that conforms to the grammar of the language of which it is a part. Well-formed words or phrases are grammatical, meaning they obey all relevant rules of grammar. In contrast, a form that violates some grammar rule is ill-formed and does not constitute part of the language.
+A word may be phonologically well-formed, meaning it conforms to the sound pattern of the language. A word, phrase, clause, or utterance may be grammatically well-formed, meaning it obeys the rules of morphology and syntax. A semantically well-formed utterance or sentence is one that is meaningful. Grammatical well-formedness and semantic well-formedness do not always coincide. For example, the following sentence is grammatically well-formed, but has no clear meaning.
+
+Colorless green ideas sleep furiously.The concept of well-formedness was developed in generative grammar during the twentieth century. Sometimes native speakers of a language do not agree whether a particular word, phrase, or clause is well-formed. This problem of gradient well-formedness, uncertainty about the well-formedness of a particular example, is a problem for generative linguistics, which assumes that grammar follows some universal patterns that should not vary among speakers.
+
+
+== Gradient well-formedness ==
+Gradient well-formedness is a problem that arises in the analysis of data in generative linguistics, in which a linguistic entity is neither completely grammatical nor completely ungrammatical. A native speaker may judge a word, phrase or pronunciation as "not quite right" or "almost there," rather than dismissing it as completely unacceptable or fully accepting it as well-formed. Thus, the acceptability of the given entity lies on a "gradient" between well-formedness and ill-formedness. Some generative linguists think that ill-formedness might be strictly additive, thus trying to figure out universal constraints by acquiring scalar grammaticality judgements from informants. Generally, however, gradient well-formedness is considered an unsolved problem in generative linguistics.
+
+
+== See also ==
+Accidental gap
+Constituent (linguistics)
+Validator
+Well-formed document
+Well-formed element
+Well-formed formula
+
+
+== References ==
+
+
+== Further reading ==
+Albright, Adam (January 2007). Gradient phonological acceptability as a grammatical effect (PDF). Retrieved 2009-04-11.
+Featherston, Sam (2004). Judgements in syntax: Why they are good, how they can be better (PDF). Archived from the original (PDF) on 2006-03-24. Retrieved 2008-04-09.
+Hay, Jennifer; Pierrehumbert, Janet; Beckman, Mary (2004). "Speech perception, well-formedness and the statistics of the lexicon".  In John Local, Richard Ogden & Rosalind Temple (ed.). Phonetic Interpretation: Papers in Laboratory Phonology VI. Cambridge University Press. pp. 58–74. ISBN 978-1-139-44992-2.
+Hayes, Bruce (2000). "Gradient well-formedness in Optimality Theory" (PDF).  In Joost Dekkers (ed.). Optimality Theory: Phonology, Syntax, and Acquisition. Oxford University Press. pp. 88–120. ISBN 978-0-19-823844-7. Retrieved 2006-09-20.
+Lakoff, George (1971). "Presupposition and relative well-formedness".  In Danny D. Steinberg & Leon A. Jakobovits (ed.). Semantics: An Interdisciplinary Reader in Philosophy, Linguistics and Psychology. CUP Archive. pp. 329–340. ISBN 978-0-521-07822-1.
+Perlmutter, David (August 19, 1968). Deep and Surface Structure Constraints in Syntax (PDF) (doctoral dissertation). M.I.T. Department of Modern Languages and Linguistics. Retrieved 22 September 2016.
+Singleton, Jenny; Morford, Jill; Goldin-Meadow, Susan (1993). "Once is not enough: Standards of well-formedness in manual communication created over three different timespans". Language. 69 (4): 683–715. doi:10.2307/416883.

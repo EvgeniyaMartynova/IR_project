@@ -1,0 +1,90 @@
+Emergent gameplay
+
+Emergent gameplay refers to complex situations in video games, board games, or table top role-playing games that emerge from the interaction of relatively simple game mechanics.Designers have attempted to encourage emergent play by providing tools to players such as placing web browsers within the game engine (such as in Eve Online, The Matrix Online), providing XML integration tools and programming languages (Second Life), fixing exchange rates (Entropia Universe), and allowing a player to spawn any object they desire to solve a puzzle (Scribblenauts).
+
+
+== Intentional emergence ==
+Intentional emergence occurs when some creative uses of the game are intended by the game designers. Since the 1970s and 1980s board games and table top role playing games such as Cosmic Encounter or Dungeons & Dragons have featured intentional emergence as a primary game function by supplying players with relatively simple rules or frameworks for play that intentionally encouraged them to explore creative strategies or interactions and exploit them toward victory or goal achievement.
+
+
+=== Creative solutions ===
+In games with complex physics and flexible object interaction it may be possible to complete in-game problems using solutions that the game designers did not foresee. Deus Ex is often cited as a game responsible for promoting the idea of emergent gameplay, with players developing interesting solutions such as using wall-mounted mines as pitons for climbing walls.
+Such emergence may also occur in games through open-ended gameplay and sheer weight of simulated content, in Dwarf Fortress or Space Station 13 for example.
+
+
+=== Emergent narrative ===
+Some games do not use a pre-planned story structure, even non-linear.
+In The Sims, a story may emerge from the actions of the player. But the player is given so much control that they are more creating a story than interacting with a story. Emergent narrative would only partially be created by the player. Warren Spector, the designer of Deus Ex, has argued that emergent narrative lacks the emotional impact of linear storytelling.Left 4 Dead features a dynamic system for game dramatics, pacing, and difficulty called the Director. The way the Director works  is called "Procedural narrative": instead of having a difficulty which increases to a constant level, the A.I. analyzes how the players fared in the game so far, and tries to add subsequent events that would give them a sense of narrative.
+
+
+== Unintentional emergence ==
+Unintentional emergence occurs when creative uses of the video game were not intended by the game designers.
+
+
+=== Using game glitches ===
+Emergent gameplay can arise from a game's AI performing actions or creating effects unexpected by even the software developers. This may be by either a software glitch, the game working normally but producing unexpected results when played in an abnormal way or software that allows for AI development; for example the unplanned genetic diseases that can occur in the Creatures series.
+
+
+=== Glitch or quirk-based strategies ===
+
+In several games, especially first-person shooters, game glitches or physics quirks can become viable strategies, or even spawn their own game types.  In id Software's Quake series, rocket jumping and strafe-jumping are two such examples. In the game Halo 2, pressing the melee attack button (B) quickly followed by the reload button (X) and the primary fire button (R trigger) would result in the player not having to wait for the gun to be back in position to shoot after a melée attack. Doing this has become known as "BXR-ing". 
+Starsiege: Tribes had a glitch in the physics engine which allowed players to "ski" up and down steep slopes by rapidly pressing the jump key, gaining substantial speed in the process. The exploitation of this glitch became central to the gameplay, supplanting the vehicles that had been originally envisioned by the designers as the primary means of traversing large maps.Thanks to a programming oversight by Capcom, the combo (or 2-1 combo) notion was introduced with the fighting game Street Fighter II, when skilled players learned that they could combine several attacks that left no time for their opponents to recover, as long as they were timed correctly.
+
+
+=== Changing game objectives ===
+In online car racing games, particularly Project Gotham Racing, players came up with an alternate objective known as "Cat and Mouse".  The racers play on teams of at least two cars.  Each team picks one very slow car as the mouse, and their goal is to have their slow car cross the finish line first. Thus the team members in faster cars aim to push their slow car into the lead and ram their opposing teams' slow cars off the road.
+Completing games without getting certain items or by skipping seemingly required portions of gameplay result in sequence breaking, a technique that has developed its own dedicated community. Often, speed of completion and/or minimalist use of items are respectable achievements. This technique has long been used in the Metroid game series and has developed into a community devoted to speedruns. NetHack has over time codified many such challenges as "conduct" and acknowledges players who manage to finish characters with unbroken pacifist or vegetarian disciplines, for example.  A comparable form of restricted gameplay has been implemented within World of Warcraft, known as "Iron Man" leveling.A change in gameplay can be used to create a de facto minigame, such as the "Green Demon Challenge" in Super Mario 64, where the object is to avoid collecting a 1-up which chases the player, even passing through terrain, while the player attempts to collect all red coins on a level.  Other challenges have been built around reaching normally unreachable areas or items, sometimes using glitches or gameplaying tools, or by completing a level without using an important game control, such as the 'jump' button or joystick.Machinima, the use of computer animation from video game engines to create films, began in 1996. The practice of recording deathmatches in id Software's 1996 computer game Quake was extended by adding a narrative, thus changing the objective from winning to creating a film. Later, game developers provided increased support for creating machinima; for example, Lionhead Studios' 2005 game The Movies, is tailored for it.
+
+
+=== Real economy interaction ===
+
+Traders in MMOs with economic systems play purely to acquire virtual game objects or avatars which they then sell for real-world money on auction websites or game currency exchange sites. This results in the trader's play objective to make real money regardless of the original game designer's objectives.
+Many games prohibit currency trading in the EULA, but it is still a common practice.Some players provide real world services (like website design, web hosting) paid for with in-game currency. This can influence the economy of the game, as players gain wealth/power in the game unrelated to game events. For example, this strategy is used in Blizzard Entertainment's World of Warcraft.
+
+
+== Gambling ==
+Gambling and lotteries may occur in online role-playing games such as EVE Online and Dark Age of Camelot. The provision of gambling services in exchange for in-game currency can take the forms of a lottery, card games, event betting, or any number of other variations, most often at least loosely based on established real-world games. Players typically establish a betting facility, lottery etc.  Players typically create a website for executing the gambling, then accept payment from gamblers using in-game currency to credit the gambler's website account. Winnings are then paid back to the gambler's account.
+Other forms of gambling are commonly used in Massively Multiplayer Online Games, such as betting on who will win a duel.
+
+
+=== Game financial institutions ===
+In games with no financial law game mechanism, players develop financial institutions. Forms include banks or investment schemes launched with an IPO, typically based purely on trust.
+The world's first MMORPG IPO was ISS Marginis by the Interstellar Starbase Syndicate (ISS) in Eve-Online, on 29 September 2005. This was for a dividend based on profitability. The ISS followed up with a series of IPOs, culminating in an IPO of the player guild itself promising a fixed return, like a bond. Eve Online has no game-mechanism for financial law.In games with rough economies like World of Warcraft's Auction House system, some players make a living by buying items that are unusually low priced and reselling them at high prices, or by buying out all competition and creating a monopoly.  In the MMO Runescape, players can purchase many thousand units of an item then sell them later for a profit just like a normal commodity market.  This game includes price data on all items for the last 180 days.
+
+
+== Examples ==
+DayZ
+Crusader Kings II
+Deus Ex
+Dishonored
+Dwarf Fortress
+Far Cry 2
+Kenshi
+Minecraft
+Mount & Blade
+Rimworld
+Sea of Thieves
+S.T.A.L.K.E.R.
+Star Citizen
+System Shock
+System Shock 2
+The Legend of Zelda: Breath of the Wild
+Thief: The Dark Project
+Ultima Underworld: The Stygian Abyss
+World of Warcraft
+X-Com
+
+
+== See also ==
+Alternate reality game
+Cellular automaton, a 0-player "game" that can produce various emergent patterns
+Corrupted Blood incident
+Game Genie
+Immersive sim
+Metagaming
+Procedural generation § Software examples
+Rom hacking
+Sandbox game
+
+
+== References ==

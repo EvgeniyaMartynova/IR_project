@@ -1,0 +1,32 @@
+Buekenhout geometry
+
+In mathematics, a Buekenhout geometry or diagram geometry is a generalization of projective spaces, Tits buildings,  and several other geometric structures, introduced by Buekenhout (1979).
+
+
+== Definition ==
+A Buekenhout geometry consists of a set  X whose elements are called "varieties",  with a symmetric reflexive relation on X called "incidence", together with a function τ called the "type map" from X to a set Δ whose elements are called "types" and whose size is called the "rank". Two distinct varieties of the same type cannot be incident.
+A flag is a subset of X such that any two elements of the flag are incident. 
+The Buekenhout geometry has to satisfy the following axiom:
+
+Every flag is contained in a flag with exactly one variety of each type.Example: X is the linear subspaces of a projective space with two subspaces incident if one is contained in the other,  Δ is the set of possible dimensions of linear subspaces, and the type map takes a linear subspace to its dimension. A flag in this case is a chain of subspaces, and each flag is contained in a so-called complete flag.
+If F is a flag, the residue of F consists of all elements of X that are not in F but are incident with all elements of F. The residue of a flag forms a Buekenhout geometry in the obvious way, whose type are the types of X that are not types of F. A geometry is said to have some property residually if every residue of rank at least 2 has the property. In particular a geometry is called residually connected if every residue of rank at least 2 is connected (for the incidence relation).
+
+
+== Diagrams ==
+The diagram of a Buekenhout geometry has a point for each type, and two points x, y are connected with a line labeled to indicate what sort of geometry the rank 2 residues of type {x,y} have as follows.
+
+If the rank 2 residue is a digon, meaning any variety of type x is incident with every variety of type y, then the line from x to y is omitted. (This is the most common case.)
+If the rank 2 residue is a projective plane, then the line from x to y is not labelled. This is the next most common case.
+If the rank 2 residue is a more complicated geometry, the line is labelled by some symbol, which tends to vary from author to author.
+
+
+== References ==
+Buekenhout, Francis (1979), "Diagrams for geometries and groups", Journal of Combinatorial Theory, Series A, 27 (2): 121–151, doi:10.1016/0097-3165(79)90041-4, ISSN 1096-0899, MR 0542524
+Buekenhout, F., ed. (1995), Handbook of incidence geometry, Amsterdam: North-Holland, ISBN 978-0-444-88355-1, MR 1360715
+Cameron, Peter J. (1991), Projective and polar spaces, QMW Maths Notes, 13, London: Queen Mary and Westfield College School of Mathematical Sciences, MR 1153019
+Pasini, Antonio (1994), Diagram Geometries, Oxford Science Publications, Oxford: Oxford University Press, MR 1318911
+Pasini, Antonio (2001) [1994], "Diagram geometry",  in Hazewinkel, Michiel (ed.), Encyclopedia of Mathematics, Springer Science+Business Media B.V. / Kluwer Academic Publishers, ISBN 978-1-55608-010-4
+
+
+== External links ==
+ Media related to Buekenhout geometry at Wikimedia Commons

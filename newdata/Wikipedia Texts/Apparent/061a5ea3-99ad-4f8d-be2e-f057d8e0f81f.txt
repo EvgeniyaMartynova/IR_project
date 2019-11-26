@@ -1,0 +1,48 @@
+Apparent places
+
+The apparent place of an object is its position in space as seen by an observer. Because of physical and geometrical effects it may differ from the "true" or "geometric" position.
+
+
+== Astronomy ==
+In astronomy, a distinction is made between the mean position, apparent position and topocentric position of an object.
+
+
+=== Position of a star ===
+The mean position of a star (relative to the observer's adopted coordinate system) can be calculated from its value at an arbitrary epoch, together with its actual motion over time (known as proper motion). The apparent position is its position as seen by a theoretical observer at the centre of the moving Earth. Several effects cause the apparent position to differ from the mean position:
+Annual aberration – a deflection caused by the velocity of the Earth's motion around the Sun, relative to an inertial frame of reference. This is independent of the distance of the star from the Earth.
+Annual parallax – the apparent change in position due to the star being viewed from different places as the Earth orbits the Sun in the course of a year. Unlike aberration, this effect depends on the distance of the star, being larger for nearby stars.
+Precession – a long-term (ca. 26,000 years) variation in the direction of the Earth's axis of rotation.
+Nutation – shorter-term variations in the direction of the Earth's axis of rotation.The Apparent Places of Fundamental Stars is an astronomical yearbook, which is published one year in advance by the Astronomical Calculation Institute (Heidelberg University) in Heidelberg, Germany. It lists the apparent place of about 1000 fundamental stars for every 10 days and is published as a book and in a more extensive version on the Internet.
+
+
+=== Solar System objects ===
+The apparent position of a planet or other object in the Solar System is also affected by light-time correction, which is caused by the finite time it takes light from a moving body to reach the observer. Simply put, the observer sees the object in the position where it was when the light left it.
+Theoretically, light-time correction could also be calculated for more distant objects, such as stars, but in practice it is ignored. The movement of an object since the light left it is not needed because the mean position is the mean position of where it appears to be, not of where it once was. Unlike planets, these objects basically appear to move in straight lines, so for normal use no complicated calculation is needed to find their mean position.
+
+
+=== Topocentric position ===
+The topocentric position of a body is that seen by an actual observer on the Earth, and differs from the apparent position as a result of the following effects:
+
+Diurnal aberration – a deflection caused by the velocity of the observer's motion around the Earth's centre, due to its rotation.
+Diurnal parallax – the apparent change in position due to the object being viewed from different places as the observer's position rotates around the Earth's axis.
+Polar motion – small changes in the position of the Earth's axis of rotation relative to its surface.
+Atmospheric refraction – a deflection of the light from the object caused by its passage through the Earth's atmosphere.
+
+
+== See also ==
+Astrometry
+Celestial navigation
+Coordinated Universal Time
+dUT1
+Geodetic astronomy
+Meridian circle
+Solar time
+Star position
+Zenith camera
+
+
+== References ==
+
+
+== External links ==
+Apparent Places of Fundamental Stars

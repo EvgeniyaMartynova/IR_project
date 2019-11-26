@@ -1,0 +1,987 @@
+Helmholtz minimum dissipation theorem
+
+In fluid mechanics, Helmholtz minimum dissipation theorem (named after Hermann von Helmholtz who published it in 1868) states that the steady Stokes flow motion of an incompressible fluid has the smallest rate of dissipation than any other incompressible motion with the same velocity on the boundary. The theorem also has been studied by Diederik Korteweg in 1883 and by Lord Rayleigh in 1913. 
+This theorem is, in fact, true for any fluid motion where the nonlinear term of the incompressible Navier-Stokes equations can be neglected or equivalently when 
+  
+    
+      
+        ∇
+        ×
+        ∇
+        ×
+        
+          ω
+        
+        =
+        0
+      
+    
+    {\displaystyle \nabla \times \nabla \times {\boldsymbol {\omega }}=0}
+  , where 
+  
+    
+      
+        
+          ω
+        
+      
+    
+    {\displaystyle {\boldsymbol {\omega }}}
+   is the vorticity vector. For example, the theorem also applies to unidirectional flows such as Couette flow and Hagen–Poiseuille flow, where nonlinear terms disappear automatically.
+
+
+== Mathematical Proof ==
+Let 
+  
+    
+      
+        
+          u
+        
+        ,
+         
+        p
+      
+    
+    {\displaystyle \mathbf {u} ,\ p}
+   and 
+  
+    
+      
+        E
+        =
+        
+          
+            1
+            2
+          
+        
+        (
+        ∇
+        
+          u
+        
+        +
+        (
+        ∇
+        
+          u
+        
+        
+          )
+          
+            T
+          
+        
+        )
+      
+    
+    {\displaystyle E={\frac {1}{2}}(\nabla \mathbf {u} +(\nabla \mathbf {u} )^{T})}
+   be the velocity, pressure and strain rate tensor of the Stokes flow and 
+  
+    
+      
+        
+          
+            u
+          
+          ′
+        
+        ,
+         
+        
+          p
+          ′
+        
+      
+    
+    {\displaystyle \mathbf {u} ',\ p'}
+   and 
+  
+    
+      
+        
+          E
+          ′
+        
+        =
+        
+          
+            1
+            2
+          
+        
+        (
+        ∇
+        
+          
+            u
+          
+          ′
+        
+        +
+        (
+        ∇
+        
+          
+            u
+          
+          ′
+        
+        
+          )
+          
+            T
+          
+        
+        )
+      
+    
+    {\displaystyle E'={\frac {1}{2}}(\nabla \mathbf {u} '+(\nabla \mathbf {u} ')^{T})}
+   be the velocity, pressure and strain rate tensor of any other incompressible motion with 
+  
+    
+      
+        
+          u
+        
+        =
+        
+          
+            u
+          
+          ′
+        
+      
+    
+    {\displaystyle \mathbf {u} =\mathbf {u} '}
+   on the boundary. Let 
+  
+    
+      
+        
+          u
+          
+            i
+          
+        
+      
+    
+    {\displaystyle u_{i}}
+   and 
+  
+    
+      
+        
+          e
+          
+            i
+            j
+          
+        
+      
+    
+    {\displaystyle e_{ij}}
+   be the representation of velocity and strain tensor in index notation, where the index runs from one to three.
+Consider the following integral,
+
+  
+    
+      
+        
+          
+            
+              
+                ∫
+                (
+                
+                  e
+                  
+                    i
+                    j
+                  
+                  ′
+                
+                −
+                
+                  e
+                  
+                    i
+                    j
+                  
+                
+                )
+                
+                  e
+                  
+                    i
+                    j
+                  
+                
+                 
+                d
+                V
+              
+              
+                
+                =
+                ∫
+                
+                  
+                    
+                      ∂
+                      (
+                      
+                        u
+                        
+                          i
+                        
+                        ′
+                      
+                      −
+                      
+                        u
+                        
+                          i
+                        
+                      
+                      )
+                    
+                    
+                      ∂
+                      
+                        x
+                        
+                          j
+                        
+                      
+                    
+                  
+                
+                
+                  e
+                  
+                    i
+                    j
+                  
+                
+                 
+                d
+                V
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\int (e_{ij}'-e_{ij})e_{ij}\ dV&=\int {\frac {\partial (u_{i}'-u_{i})}{\partial x_{j}}}e_{ij}\ dV\end{aligned}}}
+  where in the above integral, only symmetrical part of the deformation tensor remains, because the contraction of symmetrical and antisymmetrical tensor is identically zero. Integration by parts gives 
+
+  
+    
+      
+        ∫
+        (
+        
+          e
+          
+            i
+            j
+          
+          ′
+        
+        −
+        
+          e
+          
+            i
+            j
+          
+        
+        )
+        
+          e
+          
+            i
+            j
+          
+        
+         
+        d
+        V
+        =
+        ∫
+        (
+        
+          u
+          
+            i
+          
+          ′
+        
+        −
+        
+          u
+          
+            i
+          
+        
+        )
+        
+          e
+          
+            i
+            j
+          
+        
+        
+          n
+          
+            j
+          
+        
+         
+        d
+        A
+        −
+        
+          
+            1
+            2
+          
+        
+        ∫
+        (
+        
+          u
+          
+            i
+          
+          ′
+        
+        −
+        
+          u
+          
+            i
+          
+        
+        )
+        (
+        
+          ∇
+          
+            2
+          
+        
+        
+          u
+          
+            i
+          
+        
+        )
+         
+        d
+        V
+        .
+      
+    
+    {\displaystyle \int (e_{ij}'-e_{ij})e_{ij}\ dV=\int (u_{i}'-u_{i})e_{ij}n_{j}\ dA-{\frac {1}{2}}\int (u_{i}'-u_{i})(\nabla ^{2}u_{i})\ dV.}
+  The first integral is zero because velocity at the boundaries of the two fields are equal. Now, for the second integral, since 
+  
+    
+      
+        
+          u
+          
+            i
+          
+        
+      
+    
+    {\displaystyle u_{i}}
+   satisfies the Stokes flow equation, i.e., 
+  
+    
+      
+        μ
+        
+          ∇
+          
+            2
+          
+        
+        
+          u
+          
+            i
+          
+        
+        =
+        ∇
+        p
+      
+    
+    {\displaystyle \mu \nabla ^{2}u_{i}=\nabla p}
+  , we can write
+
+  
+    
+      
+        ∫
+        (
+        
+          e
+          
+            i
+            j
+          
+          ′
+        
+        −
+        
+          e
+          
+            i
+            j
+          
+        
+        )
+        
+          e
+          
+            i
+            j
+          
+        
+         
+        d
+        V
+        =
+        −
+        
+          
+            1
+            
+              2
+              μ
+            
+          
+        
+        ∫
+        (
+        
+          u
+          
+            i
+          
+          ′
+        
+        −
+        
+          u
+          
+            i
+          
+        
+        )
+        
+          
+            
+              ∂
+              p
+            
+            
+              ∂
+              
+                x
+                
+                  i
+                
+              
+            
+          
+        
+         
+        d
+        V
+        .
+      
+    
+    {\displaystyle \int (e_{ij}'-e_{ij})e_{ij}\ dV=-{\frac {1}{2\mu }}\int (u_{i}'-u_{i}){\frac {\partial p}{\partial x_{i}}}\ dV.}
+  Again doing an Integration by parts gives
+
+  
+    
+      
+        ∫
+        (
+        
+          e
+          
+            i
+            j
+          
+          ′
+        
+        −
+        
+          e
+          
+            i
+            j
+          
+        
+        )
+        
+          e
+          
+            i
+            j
+          
+        
+         
+        d
+        V
+        =
+        −
+        
+          
+            1
+            
+              2
+              μ
+            
+          
+        
+        ∫
+        p
+        (
+        
+          u
+          
+            i
+          
+          ′
+        
+        −
+        
+          u
+          
+            i
+          
+        
+        )
+        
+          n
+          
+            i
+          
+        
+         
+        d
+        A
+        +
+        
+          
+            1
+            
+              2
+              μ
+            
+          
+        
+        ∫
+        p
+        
+          
+            
+              ∂
+              (
+              
+                u
+                
+                  i
+                
+                ′
+              
+              −
+              
+                u
+                
+                  i
+                
+              
+              )
+            
+            
+              ∂
+              
+                x
+                
+                  i
+                
+              
+            
+          
+        
+         
+        d
+        V
+        .
+      
+    
+    {\displaystyle \int (e_{ij}'-e_{ij})e_{ij}\ dV=-{\frac {1}{2\mu }}\int p(u_{i}'-u_{i})n_{i}\ dA+{\frac {1}{2\mu }}\int p{\frac {\partial (u_{i}'-u_{i})}{\partial x_{i}}}\ dV.}
+  The first integral is zero because velocities are equal and the second integral is zero because the flow in incompressible, i.e., 
+  
+    
+      
+        ∇
+        ⋅
+        
+          u
+        
+        =
+        ∇
+        ⋅
+        
+          
+            u
+          
+          ′
+        
+        =
+        0
+      
+    
+    {\displaystyle \nabla \cdot \mathbf {u} =\nabla \cdot \mathbf {u} '=0}
+  . Therefore we have the identity which says,
+
+  
+    
+      
+        ∫
+        (
+        
+          e
+          
+            i
+            j
+          
+          ′
+        
+        −
+        
+          e
+          
+            i
+            j
+          
+        
+        )
+        
+          e
+          
+            i
+            j
+          
+        
+         
+        d
+        V
+        =
+        0.
+      
+    
+    {\displaystyle \int (e_{ij}'-e_{ij})e_{ij}\ dV=0.}
+  
+The total rate of viscous dissipation energy over the whole volume of the field 
+  
+    
+      
+        
+          
+            u
+          
+          ′
+        
+      
+    
+    {\displaystyle \mathbf {u} '}
+   is given by
+
+  
+    
+      
+        
+          D
+          ′
+        
+        =
+        ∫
+        
+          Φ
+          ′
+        
+        d
+        V
+        =
+        2
+        μ
+        ∫
+        
+          e
+          
+            i
+            j
+          
+          ′
+        
+        
+          e
+          
+            i
+            j
+          
+          ′
+        
+         
+        d
+        V
+        =
+        2
+        μ
+        ∫
+        [
+        
+          e
+          
+            i
+            j
+          
+        
+        
+          e
+          
+            i
+            j
+          
+        
+        +
+        
+          e
+          
+            i
+            j
+          
+          ′
+        
+        
+          e
+          
+            i
+            j
+          
+          ′
+        
+        −
+        
+          e
+          
+            i
+            j
+          
+        
+        
+          e
+          
+            i
+            j
+          
+        
+        ]
+         
+        d
+        V
+      
+    
+    {\displaystyle D'=\int \Phi 'dV=2\mu \int e_{ij}'e_{ij}'\ dV=2\mu \int [e_{ij}e_{ij}+e_{ij}'e_{ij}'-e_{ij}e_{ij}]\ dV}
+  and after a rearrangement using above identity, we get
+
+  
+    
+      
+        
+          D
+          ′
+        
+        =
+        2
+        μ
+        ∫
+        [
+        
+          e
+          
+            i
+            j
+          
+        
+        
+          e
+          
+            i
+            j
+          
+        
+        +
+        (
+        
+          e
+          
+            i
+            j
+          
+          ′
+        
+        −
+        
+          e
+          
+            i
+            j
+          
+        
+        )
+        (
+        
+          e
+          
+            i
+            j
+          
+          ′
+        
+        −
+        
+          e
+          
+            i
+            j
+          
+        
+        )
+        ]
+         
+        d
+        V
+      
+    
+    {\displaystyle D'=2\mu \int [e_{ij}e_{ij}+(e_{ij}'-e_{ij})(e_{ij}'-e_{ij})]\ dV}
+  If 
+  
+    
+      
+        D
+      
+    
+    {\displaystyle D}
+   is the total rate of viscous dissipation energy over the whole volume of the field 
+  
+    
+      
+        
+          u
+        
+      
+    
+    {\displaystyle \mathbf {u} }
+  , then we have
+
+  
+    
+      
+        
+          D
+          ′
+        
+        =
+        D
+        +
+        2
+        μ
+        ∫
+        (
+        
+          e
+          
+            i
+            j
+          
+          ′
+        
+        −
+        
+          e
+          
+            i
+            j
+          
+        
+        )
+        (
+        
+          e
+          
+            i
+            j
+          
+          ′
+        
+        −
+        
+          e
+          
+            i
+            j
+          
+        
+        )
+         
+        d
+        V
+      
+    
+    {\displaystyle D'=D+2\mu \int (e_{ij}'-e_{ij})(e_{ij}'-e_{ij})\ dV}
+  .The second integral is non-negative and zero only if 
+  
+    
+      
+        
+          e
+          
+            i
+            j
+          
+        
+        =
+        
+          e
+          
+            i
+            j
+          
+          ′
+        
+      
+    
+    {\displaystyle e_{ij}=e_{ij}'}
+  , thus proving the theorem.
+
+
+== Poiseuille flow theorem ==
+The Poiseuille flow theorem is a consequence of the Helmholtz theorem states that The steady laminar flow of an incompressible viscous fluid down a straight pipe of arbitrary cross-section is characterized by the property that its energy dissipation is least among all laminar (or spatially periodic) flows down the pipe which have the same total flux.
+
+
+== References ==

@@ -1,0 +1,324 @@
+International Practical Shooting Confederation
+
+The International Practical Shooting Confederation (IPSC) is the world's second largest shooting sport association and the largest and oldest within practical shooting. Founded in 1976, the IPSC nowadays affiliates over 100 regions from Africa, Americas, Asia, Europe and Oceania. Competitions are held with pistol, revolver, rifle and shotgun, and competitors are divided into different divisions based on firearm and equipment features. While everyone in a division competes in the Overall category, there are also own separate awards for the categories Lady (female competitors), Super Junior (under 16 years), Junior (under 21 years), Senior (over 50 years) and Super Senior (over 60 years).
+IPSC's activities include international regulation of the sport by approving firearms and equipment for various divisions, administering competition rules and education of range officials (referees) through the International Range Officers Association who are responsible for conducting matches safely, fair and according to the rules. IPSC organizes the World Championships called the Handgun World Shoot, Rifle World Shoot and Shotgun World Shoot with three year intervals for each discipline.
+
+
+== History ==
+
+The sport of practical shooting originated from competitions in California in the 1950s with the goal of developing handgun skills for defensive use, but quickly evolved into a pure sport with little grounding in the original purpose. The sport soon expanded to Europe, Australia, South America, and Africa. IPSC was founded in May 1976 when practical shooting enthusiasts from around the world participated at a conference held in Columbia, Missouri, creating a constitution and establishing the rules governing the sport. Jeff Cooper served as the first IPSC President. Today there are over 100 active IPSC regions, making practical shooting a major international sport which emphasizes firearms safety highly. Through international rules concerning firearms, equipment and organizing of matches one tries to unite the three elements precision, power and speed, which is also the motto of IPSC that is Diligentia, Vis, Celeritous (DVC), Latin for "precision, power, speed". Only full caliber firearms are used, i.e. for handguns 9×19 mm is the smallest caliber, and the competitors try to achieve most points in the shortest time possible.
+
+
+== Scoring system ==
+
+Accuracy and speed is reflected by the comstock scoring method, while power is reflected by the minimum power factor requirement. Competitors fire the stages one at a time, and the scoring system is based on achieving most possible points in the shortest time.
+
+
+=== Comstock ===
+The scoring method is called comstock, named after its inventor Walt Comstock, which means that the competitor has unlimited time to complete the stage and can fire an unlimited number of rounds. The time is measured from the start signal until the last shot fired using special shot timers with microphones, and this way the competitor can influence the total stage time. Since the number of rounds is unlimited, the competitor can re-engage the same target in order to get more points, but at the cost of using more time. Usually the two best scoring hits count for each target.
+Competitors are ranked for each stage by their hit factor, which is the ratio of points per second. The hit factor is calculated by summing the points (target scores minus penalties) and dividing by the time used.
+
+  
+    
+      
+        h
+        i
+        t
+         
+        f
+        a
+        c
+        t
+        o
+        r
+        =
+        
+          
+            
+              p
+              o
+              i
+              n
+              t
+              s
+            
+            
+              s
+              e
+              c
+              o
+              n
+              d
+              s
+            
+          
+        
+      
+    
+    {\displaystyle hit\ factor={points \over seconds}}
+  
+For example, if a stage has 12 paper targets, requires two scoring hits per paper taget, and since an A-hit gives 5 points, the stage will have 12 × 2 × 5 = 120 points available. If a competitor scores 115 points and uses 25.00 seconds he will get a hit factor for that stage of ​115 points⁄25.00 s = 4.6. The competitor with the highest hit factor wins the stage and gets all the available stage points (in this case 120 stage points), while other competitors are given stage points based on their hit factor percentage compared to the winner. For the overall match score, stage points are added for all stages, which means that each stage is weighted by how many stage points that are available.
+The scoring method allows for a precise gradation of performances across the match, but requires a computer and software to do in a timely fashion. Matches can either be scored on paper and manually transferred to the official IPSC Match Scoring System (WinMSS), or can be scored directly on electronic devices like smartphones and tablets with the WinMSS Electronic Score Sheet (ESS) app or third party scoring systems like Shoot'n Score It or PractiScore.
+
+
+=== Power factor ===
+
+The power factor is the momentum of the fired bullet as it's moving through the air, which contribute to the recoil of the firearm (together with the propellant gases stemming from the amount of gunpowder). Thus, the power factor in a way reflects recoil. The power factor must exceed certain thresholds, and is calculated by measuring the bullet speed using a chronograph and measuring another of the competitors bullets on a weighing scale to find the bullet mass, thereafter calculating the power factor by the formula:
+
+  
+    
+      
+        
+          p
+          o
+          w
+          e
+          r
+          
+          f
+          a
+          c
+          t
+          o
+          r
+        
+        =
+        
+          m
+          a
+          s
+          s
+        
+        ⋅
+        
+          v
+          e
+          l
+          o
+          c
+          i
+          t
+          y
+        
+      
+    
+    {\displaystyle {power\;factor}={mass}\cdot {velocity}}
+  The official unit used for the power factor is the imperial unit "kilo grain feet per second" (kgr·ft/s). "Grain feet per second" (gr·ft/s) can be obtained by measuring the mass in grain (gr) (equal to ​1⁄7000 pound), and velocity in feet per second (ft/s), but since their product yields a very large number it is common to multiply by a factor of ​1⁄1000, obtaining the power factor in "kilo grain feet per second" instead.
+
+  
+    
+      
+        k
+        g
+        r
+        ⋅
+        f
+        t
+        
+          /
+        
+        s
+        =
+        
+          
+            
+              g
+              r
+              a
+              i
+              n
+              ⋅
+              f
+              t
+              
+                /
+              
+              s
+            
+            1000
+          
+        
+      
+    
+    {\displaystyle kgr\cdot ft/s={\frac {grain\cdot ft/s}{1000}}}
+  To measure the muzzle velocity the competitor's ammunition must be fired in the competitor's firearm, since velocities can vary slightly from one firearm to another. In for instance handgun competitions the ammunition must exceed 125 kgr·ft/s for minor scoring, and at least 160 or 170 kgr·ft/s for major scoring (depending on division). Extra scoring is not given for exceeding the threshold. A competitor declaring major, but who fails the threshold, have their score re-calculated at minor. A competitor who fails the threshold of minor is given a score of zero for the match.
+
+Minimum power factors
+
+
+=== Targets ===
+
+To achieve a varied, challenging and exciting sport there are no fixed target arrangements, distances or shooting programs, making every match unique. Paper and steel targets can be mixed in the same stage, and may be static, moving or partially covered by targets called no-shoots that give minus points if hit.
+Paper targets have the three scoring zones A, C, and D with points per hit varying slightly depending on power factor. A center hit for both minor or major is five points, but hits in lesser scoring areas are rewarded more for major than minor with the A-C-D zones being scored 5–4–2 for major and 5–3–1 for minor (see table below). A competitor who has declared minor must therefore either shoot more "A" hits or shoot faster than one who has declared major in order to make up the scoring disadvantage.
+Some typical examples moving target setups are swingers, bobbers, clamshells, movers, and drop turners.
+Scoring of the targets is done by the Range Officer. For the competitor to get the relevant scoring value or penalty points, the bullet hole must at least touch the line of the scoring area. (Breaking the relevant scoring line is thus not necessary.)
+Steel targets score 5 points and must fall to be scored. (For rifle some steel targets may score 10 points).
+
+For paper targets, the octagonal IPSC Target in typical cardboard color is used throughout all the disciplines, and a ⅔ scaled down IPSC Mini Target is used to simulate a full size target placed at a greater distance. Additionally the Universal Target can be used for rifle or shotgun, while the A3 and A4 paper targets are approved for shotgun matches only.
+For steel targets, there are two standardized knock down targets, the IPSC Popper (85 cm tall) and the ⅔ scaled down IPSC Mini Popper (56 cm tall). Metal plates are often circles between 20–30 cm in diameter or squares between 15×15 cm to 30×30 cm for handgun, and circles between 15–30 cm in diameter or squares between 15×15 cm to 30×45 cm for rifle and shotgun.
+
+
+== Disciplines and divisions ==
+For many years IPSC was fired with whatever firearm the competitors chose, but as equipment became more and more specialized various equipment classes was introduced. The equipment classes in IPSC are called "divisions". All divisions fire the same stages, on the same days, as all other divisions, in a match. However, when calculating match standings, only divisional stage scores are compared. Thus, the top competitor in Open on a stage is the measure for all other Open competitors, the best Standard competitor is the measure for all other Standard competitors and likewise for all other divisions.
+
+
+=== Handgun ===
+
+In handgun there are currently one division for optical sights and four divisions for iron sights. The minimum caliber is 9×19 mm for all handgun divisions. During competition the handgun must be worn in a holster securely attached to the competitor's belt. The holster needs to cover the trigger guard, the heel of the gun needs to be above the top of the belt and the belt has to be attached through at least three belt loops. Men must wear the holster, magazine holders etc. in the belt at waist level, while female competitors may choose to wear their equipment either at hip or waist level. During competition the position of the holster, magazine holders etc. can not be moved or adjusted from stage to stage. For all divisions except Open and Revolver the foremost portion of the handgun and all magazines must be placed behind the hip bone. Race holsters are permitted in all divisions
+
+Open
+Open division is the handgun equivalent to the Formula 1 race car where most modifications are permitted to achieve a faster and more accurate gun. It's the only division which permits optical and electronic sights (such as red dot sights) and recoil reducing muzzle brakes (also called compensators). The division facilitates the highest magazine capacity, placing a restriction of 170 mm  maximum overall length measured at the rear of any magazine. Shorter magazines, i.e. 140 mm, are also popular because of easier handling and often more reliable feeding, leaving the competitor a choice of equipment according to the stage at hand.
+Open and Revolver are the only two divisions where 9 mm bullets (.355") can be used to achieve major scoring, and hence .38 Super (or some variant) or 9×19 mm loaded to major power factor of 160 kgr·ft/s are popular cartridges for the pistols in Open. The 9 mm caliber cartridges provides higher gas pressures and better magazine capacity over 10 mm calibers. Open handguns are often expensive custom builds with parts and features specifically designed for competition, and with the maximum magazine length of 170 mm some 9 mm/ .38 Super magazines can hold up to 28 or 29 rounds.The Open division was formally adopted at the General Assembly following the 1992 European Handgun Championship in Barcelona, Spain, and became a recognized division starting in 1993. Any handguns complying with the previous rules were included, for instance there was placed no restriction on handgun size or type of sights. Later the 170 mm maximum length was introduced.
+
+Standard
+Standard division allows any handgun that fits inside the IPSC box, and most modifications are permitted (except optical sights or compensators). Light match triggers are common, and modifications such as slide rackers, thumb rests ("gas pedals") and grip tape on the slide can sometimes also be seen. The IPSC box has internal dimensions of 225 x 150 x 45 mm in length × height × depth with a tolerance of +1 mm, −0 mm (approximately 8.86 × 5.91 × 1.77 inches). The handgun must fit with the slide parallel to the longest side of the box and hammer cocked if applicable. The handgun must fit the box with any of its magazines inserted, which means that for instance on 2011 pattern pistols either 124 or 126 mm magazines usually will give the maximum capacity and still fit the box.
+Minimum caliber for minor scoring is 9x19 mm loaded to a power factor of 125 kgr·ft/s while minimum caliber for major scoring is a 10 mm (.40") cartridge loaded to a power factor of 170 kgr·ft/s, making for an interesting choice between minor and major scoring taken in mind the differences in recoil, magazine capacity and scoring points. An example of differences in magazine capacity depending on caliber can be seen when comparing stock 126 mm STI 2011 double stack magazines, which according to the manufacturer yields a capacity of either 12 rounds for .45 ACP, 14 rounds for .40 S&W or 17 rounds for 9x19 mm. Magazine capacity can be further increased using aftermakert springs, followers and basepads as long as they still fit the box. For a 2011 pattern handgun, aftermarket parts and magazine tuning can increase capacity from 12 to 16 rounds for .45 ACP, from 14 to 19 rounds for .40 S&W and from 17 to 21 rounds for 9×x19 mm. It is common belief that major scoring using the .40 S&W will give better scores for most competitors over the 9x19 mm, but at the cost of more expensive ammunition.
+The Standard division was formally adopted at the General Assembly following the 1992 European Handgun Championship in Barcelona, Spain, and became a recognized division starting in 1993. One of the intentions of the Standard division was to create an own division for more "stock" firearms, since it up to then had been no equipment divisions, and the sport had started to become dominated by custom built race guns with compensators and optical sights. However, the Standard division was later criticized for also having become a "race division" somewhat like Open, dominated by custom built guns and specialized gear. Major caliber .40 S&W dominates, since it is seen as a much better alternative scoring-wise, but is more expensive than regular minor scoring 9x19 mm (price difference varies, but usually 50–60% more expensive). Also, from a practical standpoint, the .40 S&W can be difficult to obtain when travelling to international matches, while the 9x19 mm round on the contrary is perceived as affordable and available all around the world. This made way for the Production division starting in 2000, which has minor scoring only, allows fewer modifications and has a common magazine limit of 15 rounds.
+
+Production
+Production division is the most popular division as of 2016. The division allows very few modifications and is limited to typical "off the shelf" service pistols which has to be explicitly approved and listed on the IPSC Production Division List. Maximum barrel length is 127 mm (5 inches). The handgun must be double-action (DA/ SA, DAO or striker fired), and is required to have a minimum trigger pull weight. Striker fired handguns have a minimum trigger pull of 1.36 kg for every trigger pull, while DA/SA handguns are required to have a minimum trigger pull of 2.27 kg only for the first double action trigger pull (no weight limit for subsequent single action trigger pulls).
+Production is the only division with minor scoring only, which means that anyone can be competitive with affordable and readily available 9x19 mm factory ammunition, without having to worry about handloading to make major. Together with (in general) affordable handguns, Production therefore makes for a popular division. Different models of handguns have variance in magazine capacity, but this is evened out by limiting competitors to load their magazines to a maximum of 15 rounds (15 in each magazine plus 1 in the chamber).
+Permitted modifications are limited to the application of grip tape in limited areas around the grip, replacement of sights that do not require gunsmithing to be installed (i.e. milling to the slide) and the replacement of internal components only available as a factory option from the original manufacturer. After-market magazines are allowed. Minor polishing and fitting of trigger components is permitted. Note that there are differences in approved handguns for IPSC Production division and USPSA Production division, as well as permitted modifications.
+From 2019, the Production division has been divided into Production, Production Optics and Production Optics Lite. Production Optics is based on the Production rules, but with an optical sight allowed.The optical sight can only be mounted to the un-modified slide. Racking handles or other protuberances from the optical sight or its mounting is not permitted. Regular Production handguns without optical sights can also compete in this division. Production Optics Lite is similar, except that the complete handgun must satisfy a weight limit of 1000 grams
+The Production division was introduced at the General Assembly after the 1999 Handgun World Shoot in Cebu, Philippines, and became a recognized division starting in 2000. Production Optics was accepted as a trial division in 2017, and both Production Optics and Production Optics Lite were definitively accepted in 2018.
+
+Classic
+Introduced in 2011, the Classic division was modelled after the USPSA Single Stack division and is limited to handguns visually resembling the single stack 1911 form. The handgun with any of its magazines inserted has to fit inside the IPSC box. The competitor can choose between maximum 8 rounds per magazine for major scoring or 10 rounds per magazine for minor scoring. Minor scoring can be achieved with a 9 mm projectile loaded to a power factor of 125 kgr·ft/s, while major scoring requires a 10 mm or larger projectile loaded to a power factor of 170 kgr·ft/s.Handguns must have a one piece metal frame, slide with stirrup cuts and the dust cover (with or without an accessory rail) can have a maximum length of 75 mm from the leading edge to the rear of the slide stop pin. Magazine wells cannot exceed a maximum outside width of 35 mm. Permitted modifications are shaped slides (i.e. flat-top or tri-top), shaped trigger guards (i.e. squared or undercut), bob-tail backstraps, bull or coned barrels, external extractors, finger-grooves (machined, add-on, wrap-around etc.), custom magazine release buttons, triggers, hammers, single/ ambidextrous thumb safeties, any iron sights, extended slide lock levers and thumb shields provided they do not act as a thumb rest. Cosmetic modifications are permitted.
+Prohibited modifications / parts are slide lightening cuts, weak hand thumb rests and slide rackers.
+
+Revolver
+In the Revolver division double action revolvers in caliber 9x19 mm or larger of any capacity can be used. Muzzle brakes or optical sights are not permitted. Competitors may declare major with a 9 mm (.355") bullet loaded to a power factor of 170, but a maximum of 6 rounds can be fired before a reload is required. From 2017, there is no limit on rounds fired number of rounds fired before a reload is required, but revolvers with a capacity of 7 rounds or more will automatically be scored as Minor power factor. It is common to use moon clips for faster reloads. The Revolver division was introduced at the General Assembly after the 1999 Handgun World Shoot in Cebu, Philippines, and was a recognized division starting in 2000, initially under the name "Revolver Standard" before it was renamed to "Revolver" around 2009.
+Modified
+Now obsolete, the Modified division was a mix between Open and Standard. Handguns were allowed to have compensators and optical sights as long as they would fit in the IPSC box with any of its magazine inserted. The Modified division was formally adopted at the General Assembly following the 1992 European Handgun Championship in Barcelona, Spain, and became a recognized division starting in 1993. The division saw some use in southern Europe, but was otherwise not very widespread, and was retired after the 2011 World Shoot XVI in Rhodes, Greece. Competitors with Modified handguns would then afterwards compete in Open.
+
+		
+		
+		
+		
+
+
+=== Rifle ===
+Important elements in rifle include the use of prone, off hand and supported shooting positions. Starting position is usually with the butt of the rifle touching the hip. Knowledge of the firearms ballistics is a key element to succeed at the long range targets. The recommended balance of target distances is that 30 percent of the targets are placed closer than 60 meters, 50 percent of the targets between 60 and 150 meters and 20 percent of the targets between 150 and 300 meters. Most competitors zero their sights at 200 meters. Being an outdoor sport, the weather can have a profound effect on competitor scores due to wind or different lighting conditions, especially on long range targets. Therefore, top ranked competitors are often squadded together in order to achieve the most similar conditions.
+There is no minimum caliber, but the ammunition has to make a power factor of 150 kgr·ft/s for minor or 320 kgr·ft/s for major scoring (formerly 160 and 340 kgr·ft/s respectively). Since two hits per target is normally required, rifles with minor power factor calibers dominate on the shorter ranges in most of the divisions due to less recoil and shorter recoil impulse. Minor ammunition being most common means that anyone can be competitive with affordable and readily available .223 Remington factory ammunition, without having to worry about handloading to make major. Ammunition loaded to major power factor has more recoil and a longer recoil impulse, but have the advantage of better ballistics at long range targets. Major scoring may be more competitive in the manual divisions since normally only one hit is required per target, lessening the importance of a small recoil impulse.
+In the beginning competitions were fired with whatever rifle the competitors chose, and while the type of rifles mostly have remained the same sighting systems have changed a lot. For a while rifles equipped with optics and iron sights competed side by side, but were divided somewhere around the 2000s into an Open division for optic sights and a Standard division for iron sights. Open and Standard were the only two rifle divisions until the 2004 season when similar divisions were introduced for manually operated mechanisms. The Open and Standard division was then renamed to Semi Auto Open and Semi Auto Standard, while the new manual divisions was named Manual Action Open and Manual Action Standard. Around 2011 a provisional division named "Manual Action Standard 10" was approved for evaluation as a testing ground for development of the Manual divisions.
+Self-loading rifles are used in the Semi Auto Open and Semi Auto Standard division, while the manual divisions are limited to manual action types.
+
+Semi Auto Open (Open)
+Semi Auto Open, usually simply referred to as the "Open division", is the most popular rifle division. Optical sights are allowed together with bipods and muzzle brakes. Bipods can be taken on and off during a stage, and on some stages it can even be advantageous to switch between different bipod sizes. Many top competitors use rifles with 46 cm (18") barrels in order to run the longer rifle length gas system and achieve a softer recoil impulse. An adjustable gas system is popular. Some also use low mass bolt carriers and buffer weights, which may however cause reliability issues if not tuned correctly.
+Low power scope sights with a variable magnification starting at 1x are popular, with day time bright illuminated 1-6x or 1-8x scopes being the most popular. Usually only the center of the reticle is illuminated. Some reticles have milliradian based wind holds or holdover marks to compensate for wind and bullet drop on long range targets, while others prefer reticles with a simple dot and crosshair and choose to dial long range adjustments on the turrets instead. Turrets are often exposed and lockable, having ballistic drop compensation (BDC) and a zero stop, while some competitors choose to use capped turrets for the wind adjustment. Important optical characteristics are true 1x or 1.1x low end magnification, while on higher magnification it is important with a large field of view and a large exit pupil. Some other important scope qualities are weight and stray light performance.
+To avoid having to adjust magnification up and down when transitioning between several long and short range targets during the same stage, some combine a scope with a 45 degree side mounted red dot optic, but the effectiveness of this is debated and there are both top competitors who use it and not. For instance Raine Peltokoski uses only one optical sight, and in such situations instead uses a technique called "Occluded Eye Aiming" where one blocks the objective (i.e. with a lens cover or by hand) so that one only sees the illuminated dot with one eye and the target with the other eye.Rifles with non-magnified red dot sights as the primary optic also compete in Open and are very competitive at short ranges, but the lack of magnification is a big disadvantage at longer ranges.
+
+Semi Auto Standard (Standard)
+
+The Semi Auto Standard division usually simply referred to as the "Standard division", tests the added skill of using iron sights only. Also, bipods are not allowed and muzzle brakes have to be within the maximum dimensions of 30x90 mm (approx. 1x3.5 inches). A long sight radius is desirable as it helps even target and sight focus due to larger depth of field, and thus iron sighted rifles often have longer barrels with the front sight attached to the end of it. Many Standard top competitors use the longer 50 cm (20") barrel over the 46 cm (18") to achieve longer sight radius. Any iron sights can be used, and both "globe" and "post" front sights are popular, as well as aperture, ghost ring or diopter rear sights.
+
+Manual Action Open (Manual Open)
+The manual divisions test the added skill of using a manual action, meaning that the rifles must be operated by physical manipulation, with some examples being bolt, pump or straight pull actions. Manual Action Open, usually simply referred to as the "Manual Open division", allows optical sights, muzzle brakes and bipods. Turn bolt actions require the competitor to perform both rotational and linear motions during the loading cycle, while pump and straight pull actions can be cycled back and forward without rotation of the bolt handle by the competitor. This reduces the number of movements from four to two, but comes at the cost of often having either poor or no primary extraction. increasing the risk of malfunctions. A turn bolt action on the other hand has a mechanical advantage used during chambering and primary extraction, which makes for more reliable feeding and extraction. Both types of mechanisms have won championships. Bolt action rifles usually also have a much shorter lock time than hammer fired pump and straight pull actions, which can play a significant role in accuracy on long range targets.
+
+Manual Action Standard (Manual Standard)
+Manual Action Standard, usually simply referred to as the "Manual Standard division",  is limited to iron sights only, and no muzzle brakes or bipods are allowed. Manual Action Standard 10 (MAS10) (between 2012 and 2017) was a trial division that allowed iron sights only, a magazine capacity of 11 rounds (10 in the magazine plus 1 in the chamber) and factory fitted muzzle brakes only.
+
+		
+		
+		
+
+
+=== Shotgun ===
+
+Starting position is usually with the shotgun in one hand and the butt of the shotgun touching the hip. There is only one power factor of 480 kgr·ft/s, and all targets are scored as major which means that anyone can be competitive with affordable and readily available 12 gauge 70 mm (​2 3⁄4") ammunition. Different options on shotgun chokes and ammunition (from different pellet sizes and up to slugs) makes for interesting choke and ammunition choices based on the stage at hand where the competitor has to consider the spread of the choke relative to the distance. All divisions have limits of the number of shells loaded at the beginning of the stage, but the limits are removed after the start signal. For instance some may choose to run 10 or 11 round tubes in the Standard division which is limited to 9 rounds in the tube at the start signal.
+
+Open
+The Open division allows optical sights, muzzle brakes, and is the only division which permits detachable magazines or the use of speed loaders for tube magazines. The maximum overall length of the shotgun is 1320 mm (approximately 52 in) measured parallel to the barrel. Detachable magazines must not contain more than 10 rounds at the start signal, while shotguns with fixed magazines may have an initial load of 14 rounds. After the start signal detachable magazines can be loaded up 12 rounds, while there is no limit for tube magazines.
+
+Modified
+The Modified division allows muzzle brakes and optical sights, but is limited to internal tube magazines. The maximum overall length of the shotgun is 1320 mm. Modifications of the floor plate to facilitate loading is permitted, given that the  modification doesn't exceed 75 mm in length or protrudes more than 32 mm from the shotgun frame in any direction. Maximum 14 rounds can be loaded at the start signal (13+1, 13 in the tube plus 1 in the chamber), but more can be loaded after the start signal. Until 2017 the division was limited to iron sights, but from 2018 optical sights are permitted.
+Standard
+The standard division is the most popular division as of 2017. The division is limited to iron sights and internal tube magazines, and muzzle brakes are not allowed. The shotgun model has to be factory produced of at least 500 units. Maximum 9 rounds can be loaded at the start signal (8+1, 8 in the tube plus 1 in the chamber), but more can be loaded after the start signal.
+
+Standard Manual (Manual)
+The Standard Manual division, usually simply referred to as the "Manual division", is the only shotgun division limited to manual actions. Limited to iron sights, internal tube magazines and no muzzle brakes, the shotgun model has to be factory produced of at least 500 units. Maximum 9 rounds can be loaded at the start signal (8+1, 8 in the tube plus 1 in the chamber), but more can be loaded after the start signal.
+
+		
+		
+		
+		
+
+
+=== Other ===
+Tournaments are 2 or 3-Gun matches which can include any combination of the three disciplines handgun, rifle and shotgun in the same match. There are default Grand Tournament divisions, but match organizers may also declare their own specific Grand Tournament divisions. In addition to the main disciplines (handgun, rifle and shotgun) there are also some supplemental disciplines:
+Mini-Rifle is for small caliber rifles (.22 LR only) with minor power factor scoring only, and competitions are mostly held indoor in the winter as training in the off-season.
+Pistol Caliber Carbine (PCC) is for pistol caliber rifles only (9×19 mm, .40 S&W, .45 ACP, etc.,) with minor power factor scoring only. The Carbine division can be held up to level 3, and either as a standalone match or as a separate division in a regular Handgun, Rifle or Mini Rifle matches.
+Action Air is for airsoft handguns, and enjoys popularity in countries where civilian ownership of firearms are restricted. Minor power factor scoring only. Action Air is also used in the off-season in other countries as an affordable and easily available training tool because there is no need for a shooting range (competitions can for instance be held at an ordinary gym)
+
+
+== Safety ==
+
+The safety of all competitors, officials and spectators are always of the highest importance in competitions. Eye and ear protection is mandatory for both competitors and spectators. Firearms are kept unloaded until on the firing line under the direct supervision of a Range Officer, and can otherwise only be handled in designated safety areas. The safety area contain a direction with a secure backstop where competitors can handle unloaded firearms for example for packing or unpacking, holstering, cleaning or repair, dry firing or training with empty magazines. Handling of ammunition is expressively prohibited within the safety areas, including any dummy rounds. Outside the safety area ammunition can be handled freely to load magazines, but firearms may only be handled under the direct supervision of a Range Officer. The strict separation of firearms and ammunition prevents accidents like accidental discharge (AD). Violations result in disqualification from the competition.
+
+
+== Matches ==
+
+
+=== Types of courses ===
+
+A match consists of a mix between short courses (lowest number of targets), medium and long courses (highest number of targets). The approved balance for a match is a ratio of 3 short courses to 2 medium courses and 1 long course (i.e. 6 short, 4 medium and 2 long courses for a level 3 match). Since the number of targets dictate the available points for that stage, and therefore Long courses potentially can have a have great impact on the overall standings. Short courses have fewer points available, and tend not to be as critical for the overall standings. Short courses are often more technical, offer many different stage solutions, or include challenging elements such as "empty chamber" or "empty magazine well" starts, or "non-freestyle shooting" elements such as strong or weak hand only. Medium courses are something in between, while long courses will have the highest round count. Long courses tend to be more freestyle and straightforward as far as different stage solutions. The shooting challenges may still not necessarily be easy, and a match can be lost or won at a long course since there are so many points available.
+
+
+=== Match levels ===
+
+Competitions are held at all levels from club matches and up to the world championships. Level 3 matches and up require official IPSC pre-approved match level sanctioning in regards to courses, IROA-range official etc.
+
+Level 1: Club matches
+Level 2: Matches open to participants from different clubs
+Level 3: Regional matches, i.e. national championships or  other large matches such as the Extreme Euro Open
+Level 4: Continental championships, i.e. the European or Pan-American Championship
+Level 5: The World ShootsThe World Shoots are the highest level shooting matches within IPSC. Held since 1975, it is a multi-day match where the best IPSC shooters from around the world compete for the World Champion title.
+
+
+=== Match etiquette ===
+Walkthrough refers to being inside the fault lines of a stage when not shooting, and is usually done by competitors for finalizing stage plans. Walkthroughs are restricted for equity reasons. Competitors are not allowed to enter or walk on the stages on their own initiative, but must be invited to do so by the Range Officer first after having received the stage briefing. After the stage brief, the squad as a whole is normally given between 3 and 5 minutes to walk the particular stage collectively. Afterwards, the command Time's up is given, upon which the first shooter is asked to load and make ready.
+On-deck refers to the competitor first in line waiting to shoot. The shooter second in line is referred to as being in-the-hole. During scoring of the preceding shooter, the shooter on deck is usually allowed to take a final walkthrough.
+So as not to disturb, spectators and other competitors should be still and remain silent while a competitor is preparing to shoot as well as during shooting.
+After a competitor has performed well on a stage it is common to receive soft applause. Such quiet clapping is the preferred form of applause for shooters; louder forms of applause are discouraged so as not to disturb other shooters who may be in the process of attempting a stage. Shoot-Off's are an exception to this.
+After having completed a stage and received scores it is common for the competitor to thank and shake hands with the Range Officer.
+
+
+=== Match officials ===
+The International Range Officers Association (IROA) is a part of IPSC with the responsibility to train and certify their own dedicated range officials, who are responsible for conducting matches safely, fair and according to the rules. In addition, each IPSC region have their own National Range Officers Institute (NROI) under the IROA. In a match range officials from IROA and NROI can work alongside in the ranks:
+
+Range Officer (RO) – The Range Officer gives the competitors stage briefings, issue range commands and follows the competitor through the conduction of the stage to monitor time, scores and safe firearms handling.
+Chief Range Officer (CRO) – In case there are several Range Officers, a Chief Range Officer will be assigned to have the primary authority over the particular course. Like the RO, the CRO will oversee fair and consistent application of the rules.
+Range Master (RM) – The Range Master has the overall authority over the entire range during the match, including all Match Officials and the overall safety.
+Match Director (MD) handles the overall match administration before and during the match, including registration, squadding, scheduling, range construction and coordination of the staff. The Match Director doesn't have to be an NROI or IROA Official.
+Stats Officer (SO) is another important role with the responsibility to collect, sort and verify the final results.
+
+
+=== Coaches and instructors ===
+The International Shooting Safety Instructors Association (ISSIA) is a part of IPSC with the responsibility to train and certify their own dedicated safety instructors and coaches, providing supervision and training for both team and individual players. Safety instructors conduct mandatory safety training programs, while coaches are involved in administration, athletic and shooting training, competition coaching as well as representation of practical shooting teams and players.
+
+
+== Competitor ranking ==
+
+The official ICS classification system (IPSC Classification System) allows athletes to be ranked both nationally and internationally based on previous results. Competitors are ranked from top to bottom as either Grand Master, Master, A, B, C or D. This way, shooters can measure progress and compare themselves with other shooters of the same classification in the match results. A classification is division specific, and an athlete may therefore have different classifications in different divisions.
+In order to be classified, you must first register an ICS alias which must be used when signing up for matches. An athlete is then classified within a division after the 4 first classification results. A classification result can be achieved in three ways:
+
+By shooting a standardized CLS stage (Classifier Stage), for example on a club training.
+By competing in a match containing a standardized CLS stage.
+By competing in a "classification match", which means a level 3 match with at least 10 participants within the division, and where at least 30% of the participants in that division already are classified. (A classification match does not have to contain a CLS stage.)Once initial classification has been achieved, the classification will be updated based on the average of the 4 best of the 8 last results. The ICS system is dynamic, and can change based on the results being reported. For example, a result from a CLS stage will at any given time be calculated based on the highest hit factor ever shot for that particular CLS stage. In order to maintain their classification, an athlete each calendar year at least have to achieve a result in either one classification match or two CLS stages.
+
+IPSC Rating.com is a third party rating service based on performance in actual competitions and advanced rating algorithms. Results from IPSC level 3, 4 and 5 matches plus major USPSA matches are processed, with the last IPSC World Shoot as the most trusted and representative source. Scores of competitors in other matches are compared to known "key competitors" who are already rated to achieve global rating percents. To be ranked one must compete in at least two level 3 matches, and old results will expire if they are not updated with following matches.
+
+
+== See also ==
+List of shooting sports organizations
+Shooting sports
+
+
+== References ==
+
+
+== External links ==
+Official website 
+Official Facebook page of the International Practical Shooting Confederation
+ICS Ranking, the official IPSC competitor ranking service
+ipscrating.com, an unofficial third party ranking service

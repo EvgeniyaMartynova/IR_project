@@ -1,0 +1,12 @@
+Well-known URIs
+
+It is increasingly common for Web-based protocols to require the discovery of policy or other information about a host ("site-wide metadata") before making a request. RFC5785 defines a path prefix in HTTP(S) URIs for these "well-known locations", "/.well-known/".
+Specifications that need to define a resource for such site-wide metadata can register their use with Internet Assigned Numbers Authority (IANA) to avoid collisions and minimize impingement upon sites' URI space.
+A well-known URI is a URI RFC3986 whose path component begins with the characters "/.well-known/", and whose scheme is "HTTP", "HTTPS", or another scheme that has explicitly been specified to use well-known URIs.
+For example, if an application registers the name 'example', the corresponding well-known URI on 'http://www.example.com/' would be http://www.example.com/.well-known/example.
+
+
+== Well-known URIs ==
+
+
+== Sources ==

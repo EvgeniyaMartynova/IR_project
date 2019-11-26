@@ -1,0 +1,23 @@
+Ultra-conserved element
+
+An ultra-conserved element (UCE) is a region of DNA that is identical in at least two different species.
+One of the first studies of UCEs showed that certain human DNA sequences of length 200 nucleotides or greater were entirely conserved (identical nucleic acid sequence) in human, rats, and mice. Despite often being noncoding DNA, some ultra-conserved elements have been found to be transcriptionally active, giving non-coding RNA molecules.
+
+
+== Evolution ==
+Perfect conservation of these long stretches of DNA is thought to imply evolutionary importance as these regions appear to have experienced strong negative (purifying) selection for 300-400 million years. The probability of finding ultra-conserved elements by chance (under neutral evolution) has been estimated at less than 10−22 in 2.9 billion bases.
+
+
+== Functions ==
+481 ultra-conserved elements have been identified in the human genome. A database collecting genomic information about ultra-conserved elements (UCbase) that share 100% identity among human, mouse and rat is available at http://ucbase.unimore.it. A small number of those which are transcribed have been connected with human carcinomas and leukemias. For example, TUC338 is strongly upregulated in human hepatocellular carcinoma cells. Indeed, UCEs are often affected by copy number variation in cancer cells, much more than in healthy contexts, suggesting that altering the copy number of ultraconserved elements may be deleterious and associated with cancer. A study comparing ultra-conserved elements between humans and the Japanese puffer fish Takifugu rubripes proposed an importance in vertebrate development. Several ultra-conserved elements are located near transcriptional regulators or developmental genes. Other functions include enhancing and splicing regulation. Double-knockouts of UCEs near the ARX gene in mice caused a shrunken hippocampus in the brain. The knockout effects are not lethal in laboratory mice, but could be in the wild.
+
+
+== See also ==
+Human accelerated regions
+Synteny
+
+
+== References ==
+
+Ryu et al. BMC Evolutionary Biology 2012
+http://www.biomedcentral.com/1471-2148/12/236

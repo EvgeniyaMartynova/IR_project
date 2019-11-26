@@ -1,0 +1,53 @@
+Sulfur trioxide
+
+Sulfur trioxide (alternative spelling sulphur trioxide) is the chemical compound with the formula SO3, with a relatively narrow liquid range. In the gaseous form, this species is a significant pollutant, being the primary agent in acid rain.It is prepared on an industrial scale as a precursor to sulfuric acid.
+In perfectly dry apparatus, sulfur trioxide vapor is invisible, and the liquid is transparent. However, it fumes profusely even in a relatively dry atmosphere (it has been used as a smoke agent) due to formation of a sulfuric acid mist. This vapor has no odor but is extremely corrosive.
+
+
+== Molecular structure and bonding ==
+Gaseous SO3 is a trigonal planar molecule of D3h symmetry, as predicted by VSEPR theory. SO3 belongs to the D3h point group.
+In terms of electron-counting formalism, the sulfur atom has an oxidation state of +6 and a formal charge of 0. The Lewis structure consists of an S=O double bond and two S–O dative bonds without utilizing d-orbitals.The electrical dipole moment of gaseous sulfur trioxide is zero. This is a consequence of the 120° angle between the S-O bonds.
+
+
+== Structure of solid SO3 ==
+
+The nature of solid SO3 is complex because structural changes are caused by traces of water.Upon condensation of the gas, absolutely pure SO3 condenses into a trimer, which is often called γ-SO3. This molecular form is a colorless solid with a melting point of 16.8 °C. It adopts a cyclic structure described as [S(=O)2(μ-O)]3.If SO3 is condensed above 27 °C, then α-SO3 forms, which has a melting point of 62.3 °C. α-SO3 is fibrous in appearance. Structurally, it is the polymer [S(=O)2(μ-O)]n. Each end of the polymer is terminated with OH groups. β-SO3, like the alpha form, is fibrous but of different molecular weight, consisting of an hydroxyl-capped polymer, but melts at 32.5 °C. Both the gamma and the beta forms are metastable, eventually converting to the stable alpha form if left standing for sufficient time. This conversion is caused by traces of water.Relative vapor pressures of solid SO3 are alpha < beta < gamma at identical temperatures, indicative of their relative molecular weights. Liquid sulfur trioxide has a vapor pressure consistent with the gamma form. Thus heating a crystal of  α-SO3 to its melting point results in a sudden increase in vapor pressure, which can be forceful enough to shatter a glass vessel in which it is heated. This effect is known as the "alpha explosion".SO3 is aggressively hygroscopic. The heat of hydration is sufficient that mixtures of SO3 and wood or cotton can ignite. In such cases, SO3 dehydrates these carbohydrates.
+
+
+== Chemical reactions ==
+SO3 is the anhydride of H2SO4. Thus, the following reaction occurs:
+
+SO3 (g) + H2O (l) → H2SO4 (aq) (ΔHf = −200 kJ mol−1)The reaction occurs both rapidly and exothermically, too violently to be used in large-scale manufacturing. At or above 340 °C, sulfuric acid, sulfur trioxide, and water coexist in significant equilibrium concentrations.Sulfur trioxide also oxidizes sulfur dichloride to yield the useful reagent, thionyl chloride.
+
+SO3 + SCl2 → SOCl2 + SO2SO3 is a strong Lewis acid readily forming crystalline complexes with pyridine, dioxane, and trimethylamine. These adducts can be used as sulfonating agents.
+
+
+== Preparation ==
+Sulfur trioxide can be prepared in the laboratory by the two-stage pyrolysis of sodium bisulfate. Sodium pyrosulfate is an intermediate product:
+Dehydration at 315 °C:
+2 NaHSO4  →  Na2S2O7 + H2O
+Cracking at 460 °C:
+Na2S2O7  →  Na2SO4 + SO3In contrast, KHSO4 does not undergo the same reaction.Industrially SO3 is made by the contact process. Sulfur dioxide, which in turn is produced by the burning of sulfur or iron pyrite (a sulfide ore of iron). After being purified by electrostatic precipitation, the SO2 is then oxidised by atmospheric oxygen at between 400 and 600 °C over a catalyst. A typical catalyst consists of vanadium pentoxide (V2O5) activated with potassium oxide K2O on kieselguhr or silica support. Platinum also works very well but is too expensive and is poisoned (rendered ineffective) much more easily by impurities.The majority of sulfur trioxide made in this way is converted into sulfuric acid not by the direct addition of water, with which it forms a fine mist, but by absorption in concentrated sulfuric acid and dilution with water of the produced oleum.
+
+It was once produced industrially by heating calcium sulfate with silica.
+
+
+== Applications ==
+Sulfur trioxide is an essential reagent in sulfonation reactions. These processes afford detergents, dyes, and pharmaceuticals. Sulfur trioxide is generated in situ from sulfuric acid or is used as a solution in the acid.
+
+
+== Safety ==
+Along with being a strong oxidizing agent, sulfur trioxide will cause serious burns on both inhalation and ingestion because it is highly corrosive and hygroscopic in nature. SO3 should be handled with extreme care as it reacts violently with water and produces highly corrosive sulfuric acid. It should also be kept away from organic material due to the strong dehydrating nature of sulfur trioxide and its ability to react violently with such materials.
+
+
+== Sources ==
+NIST Standard Reference Database
+ChemSub Online
+
+
+== See also ==
+Hypervalent molecule
+Sulfur trioxide pyridine complex
+
+
+== References ==

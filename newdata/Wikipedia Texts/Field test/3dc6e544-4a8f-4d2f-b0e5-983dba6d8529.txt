@@ -1,0 +1,20 @@
+Field test mode
+
+Field test mode (FTM) or field test display (FTD) is a software application often pre-installed on mobile phones that provides the user with technical details, statistics relating to the mobile phone network and allows the user to run hardware tests on the phone. On older Nokia phones this mode is known as Netmonitor while newer Series 60 phones have a Field test application which requires a hacked phone to be installed. Many other brands of phones have similar functionality available, often accessed by entering a code into the phone.
+For GSM phones it may provide such details as
+
+TDMA timing advance
+Cell ID
+Transmit power and received signal strength indication (RSSI)
+Neighbouring cell info and PLMN codes
+Location area code
+TMSI number
+Timeslot / paging information
+
+
+== References ==
+
+
+== External links ==
+Field test display blog (for details on enabling)
+Wiki opencellid.org

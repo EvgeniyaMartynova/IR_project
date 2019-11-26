@@ -1,0 +1,24 @@
+ParM
+
+ParM is a prokaryotic actin homologue which provides the force to drive copies of the R1 plasmid to opposite ends of rod shaped bacteria before cytokinesis.
+ParM is a monomer that is encoded in the DNA of the R1 plasmid and manufactured by the host cell's ribosomes. In the cytoplasm it spontaneously polymerizes forming short strands that either bind to ParR or hydrolyze. ParR stabilizes ParM and prevents it from hydrolyzing. Once bound by ParR at both ends, monomer units continue to attach to the ends of the ParM and the resulting reaction pushes R1 plasmids to opposite ends of the cell.
+ParMs from different bacterial plasmids can form astonishingly diverse helical structures comprising two or four strands to maintain faithful plasmid inheritance.
+
+
+== Action ==
+In vitro the ParM monomer has been observed polymerizing both with ATP and with GTP, but experiments by Popp et al. seem to indicate that the reaction "prefers" GTP and that GTP is the nucleotide that most likely makes the significant contributions in the cell. For the remainder of this article GTP will be assumed to be the active nucleotide although many experiments have used ATP instead.
+ParM binds and hydrolyzes GTP as it polymerizes. The current dominant belief is that a "cap" of GTP is required at the ends of the ParM polymer strands to prevent them from hydrolyzing. Although GTP is hydrolyzed by the ParM units after attachment, it is believed that the energy that drives the plasmids is derived from the Gibbs free energy of the ParM monomer concentrations, and not the energy released from GTP hydrolysis. The concentrations of ParM monomer and polymer must be kept out of equilibrium at the ends where attachment is occurring for the reaction to proceed regardless of GTP concentrations.
+Once the ParM has pushed plasmids to opposite ends of the cell the polymer rapidly depolymerizes—returning the monomer units to the cytoplasm.
+
+
+== Structure ==
+The ParM monomer unit is non-functional before binding a GTP nucleotide. Once the GTP has been bound it can attach to the end of a growing filament. At some point after attachment the ParM hydrolyzes GTP which becomes GDP and remains in the ParM subunit as long as the polymer strand remains intact. ParM forms a left-handed helix structure.A study by Garner and Campbell has suggested that the unit at the end of the ParM strand must have GTP bound to maintain the stability of the polymer. If one of the ends has the GDP bound version the polymer strand depolymerizes very quickly into its constituent monomer units. This is suggested by their experiment in which they cut growing ParM polymer strands exposing ADP bound ends. Once cut the strands quickly hydrolyzed.
+
+
+== Dynamic Instability ==
+Dynamic instability is described as the switching of a polymer between phases of steady elongation and rapid shortening. This process is essential to the function of eukaryotic microtubules. In ParM, dynamic instability "rescue" or the switch from a shortening phase back to the elongation phase has very rarely been observed, and only when the ATP nucleotide is used. Unbound ParM filaments are found with a typical average length of 1.5 – 2 μm, when the ParM monomer concentrations are 2 μM or more. The dynamic instability of ParM and eukaryotic microtubules is believed to be an example of convergent evolution.
+L
+ParM spontaneously forms short polymer segments when it is present in the cytoplasm. These segments serve to very efficiently "search" for the R1 plasmids, and also maintains a favorable concentration of ParM monomer units for polymerization.
+
+
+== References ==

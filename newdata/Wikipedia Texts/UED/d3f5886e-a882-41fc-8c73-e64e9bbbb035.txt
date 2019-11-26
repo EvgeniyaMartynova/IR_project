@@ -1,0 +1,9 @@
+Ultrafast electron diffraction
+
+Ultrafast Electron Diffraction (UED) is a pump-probe experimental method based on the combination of optical pump-probe spectroscopy and electron diffraction.  UED provides information on the dynamical changes of the structure of materials.  In the UED technique, a femtosecond (fs) laser optical pulse excites (pumps) a sample into an excited, usually non-equilibrium, state.    The pump pulse may induce chemical, electronic or structural  transitions.  After a finite time interval, a fs electron pulse is incident upon the sample.  The electron pulse undergoes diffraction as a result of interacting with the sample.  The diffraction signal is, subsequently, detected by an electron counting instrument such as a CCD camera. Specifically, after the electron pulse diffracts from the sample, the scattered electrons will form a diffraction pattern (image) on a CCD camera.  This pattern contains structural information about the sample. By adjusting the time difference between the arrival (at the sample) of the pump and probe beams, one can obtain a series of diffraction patterns as a function of the various time differences.  The diffraction data series can be concatenated in order to produces a motion picture of the changes that occurred in the data. UED can provide a wealth of dynamics on charge carriers, atoms, and molecules.
+Electron Pulse Production
+The electron pulses are produced by the process of photoemission in which a fs optical pulse is directed toward a photocathode.  If the incident laser pulse has an appropriate energy, electrons will be ejected from the photocathode through a process known as photoemission.
+
+
+== Sources ==
+Srinivasan, Ramesh; Lobastov, Vladimir A.; Ruan, Chong-Yu; Zewail, Ahmed H. (2003). "Ultrafast Electron Diffraction (UED): A New Development for the 4D Determination of Transient Molecular Structures". Helvetica Chimica Acta. 86 (6): 1761. doi:10.1002/hlca.200390147.

@@ -1,0 +1,321 @@
+MOV (x86 instruction)
+
+The x86 instruction set refers to the set of instructions that x86-compatible microprocessors support. The instructions are usually part of an executable program, often stored as a computer file and executed on the processor.
+The x86 instruction set has been extended several times, introducing wider registers and datatypes as well as new functionality.
+
+
+== x86 integer instructions ==
+This is the full 8086/8088 instruction set of Intel. Most if not all of these instructions are available in 32-bit mode; they just operate on 32-bit registers (eax, ebx, etc.) and values instead of their 16-bit (ax, bx, etc.) counterparts. See also x86 assembly language for a quick tutorial for this processor family.
+The updated instruction set is also grouped according to architecture (i386, i486, i686) and more generally is referred to as x86 32 and x86 64 (also known as AMD64).
+
+
+=== Original 8086/8088 instructions ===
+
+
+=== Added in specific processors ===
+
+
+==== Added with 80186/80188 ====
+
+
+==== Added with 80286 ====
+
+
+==== Added with 80386 ====
+
+
+==== Added with 80486 ====
+
+
+==== Added with Pentium ====
+
+
+==== Added with Pentium MMX ====
+Also MMX registers and MMX support instructions were added. They are usable for both integer and floating point operations, see below.
+
+
+==== Added with AMD K6 ====
+AMD changed the CPUID detection bit for this feature from the K6-II on.
+
+
+==== Added with Pentium Pro ====
+
+
+==== Added with Pentium II ====
+
+
+==== Added with SSE ====
+
+
+==== Added with SSE2 ====
+
+
+==== Added with SSE3 ====
+
+
+==== Added with SSE4.2 ====
+
+
+==== Added with x86-64 ====
+
+
+==== Added with AMD-V ====
+
+
+==== Added with Intel VT-x ====
+
+
+==== Added with ABM ====
+LZCNT, POPCNT (POPulation CouNT) - advanced bit manipulation
+
+
+==== Added with BMI1 ====
+ANDN, BEXTR, BLSI, BLSMSK, BLSR, TZCNT
+
+
+==== Added with BMI2 ====
+BZHI, MULX, PDEP, PEXT, RORX, SARX, SHRX, SHLX
+
+
+==== Added with TBM ====
+BEXTR, BLCFILL, BLCI, BLCIC, BLCMASK, BLCS, BLSFILL, BLSIC, T1MSKC, TZMSK
+
+
+== x87 floating-point instructions ==
+
+
+=== Original 8087 instructions ===
+
+
+=== Added in specific processors ===
+
+
+==== Added with 80287 ====
+
+
+==== Added with 80387 ====
+
+
+==== Added with Pentium Pro ====
+FCMOV variants: FCMOVB, FCMOVBE, FCMOVE, FCMOVNB, FCMOVNBE, FCMOVNE, FCMOVNU, FCMOVU
+FCOMI variants: FCOMI, FCOMIP, FUCOMI, FUCOMIP
+
+
+==== Added with SSE ====
+FXRSTOR, FXSAVE
+These are also supported on later Pentium IIs which do not contain SSE support
+
+
+==== Added with SSE3 ====
+FISTTP (x87 to integer conversion with truncation regardless of status word)
+
+
+== SIMD instructions ==
+
+
+=== MMX instructions ===
+MMX instructions operate on the mm registers, which are 64 bits wide. They are shared with the FPU registers.
+
+
+==== Original MMX instructions ====
+Added with Pentium MMX
+
+
+==== MMX instructions added in specific processors ====
+
+
+===== EMMI instructions =====
+Added with 6x86MX from Cyrix, deprecated now
+PAVEB, PADDSIW, PMAGW, PDISTIB, PSUBSIW, PMVZB, PMULHRW, PMVNZB, PMVLZB, PMVGEZB, PMULHRIW, PMACHRIW
+
+
+===== MMX instructions added with MMX+ and SSE =====
+The following MMX instruction were added with SSE. They are also available on the Athlon under the name MMX+.
+
+
+===== MMX instructions added with SSE2 =====
+The following MMX instructions were added with SSE2:
+
+
+===== MMX instructions added with SSSE3 =====
+
+
+=== 3DNow! instructions ===
+Added with K6-2
+FEMMS, PAVGUSB, PF2ID, PFACC, PFADD, PFCMPEQ, PFCMPGE, PFCMPGT, PFMAX, PFMIN, PFMUL, PFRCP, PFRCPIT1, PFRCPIT2, PFRSQIT1, PFRSQRT, PFSUB, PFSUBR, PI2FD, PMULHRW, PREFETCH, PREFETCHW
+
+
+=== 3DNow!+ instructions ===
+
+
+==== Added with Athlon and K6-2+ ====
+PF2IW, PFNACC, PFPNACC, PI2FW, PSWAPD
+
+
+==== Added with Geode GX ====
+PFRSQRTV, PFRCPV
+
+
+=== SSE instructions ===
+Added with Pentium III
+SSE instructions operate on xmm registers, which are 128 bit wide.
+SSE consists of the following SSE SIMD floating-point instructions:
+
+The floating point single bitwise operations ANDPS, ANDNPS, ORPS and XORPS produce the same result as the SSE2 integer (PAND, PANDN, POR, PXOR) and double ones (ANDPD, ANDNPD, ORPD, XORPD), but can introduce extra latency for domain changes when applied values of the wrong type.
+
+
+=== SSE2 instructions ===
+Added with Pentium 4
+
+
+==== SSE2 SIMD floating-point instructions ====
+
+
+===== SSE2 data movement instructions =====
+
+
+===== SSE2 packed arithmetic instructions =====
+
+
+===== SSE2 logical instructions =====
+
+
+===== SSE2 compare instructions =====
+
+
+===== SSE2 shuffle and unpack instructions =====
+
+
+===== SSE2 conversion instructions =====
+CMPSD and MOVSD have the same name as the string instruction mnemonics CMPSD (CMPS) and MOVSD (MOVS); however, the former refer to scalar double-precision floating-points whereas the latters refer to doubleword strings.
+
+
+==== SSE2 SIMD integer instructions ====
+
+
+===== SSE2 MMX-like instructions extended to SSE registers =====
+SSE2 allows execution of MMX instructions on SSE registers, processing twice the amount of data at once.
+
+
+===== SSE2 integer instructions for SSE registers only =====
+The following instructions can be used only on SSE registers, since by their nature they do not work on MMX registers
+
+
+=== SSE3 instructions ===
+Added with Pentium 4 supporting SSE3
+
+
+==== SSE3 SIMD floating-point instructions ====
+
+
+==== SSE3 SIMD integer instructions ====
+
+
+=== SSE3 instructions ===
+Added with Xeon 5100 series and initial Core 2
+The following MMX-like instructions extended to SSE registers were added with SSSE3
+
+
+=== SSE4 instructions ===
+
+
+==== SSE4.1 ====
+Added with Core 2 manufactured in 45nm
+
+
+===== SSE4.1 SIMD floating-point instructions =====
+
+
+===== SSE4.1 SIMD integer instructions =====
+
+
+==== SSE4a ====
+Added with Phenom processors
+
+EXTRQ/INSERTQ
+MOVNTSD/MOVNTSS
+
+
+==== SSE4.2 ====
+Added with Nehalem processors
+
+
+=== SSE5 derived instructions ===
+SSE5 was a proposed SSE extension by AMD. The bundle did not include the full set of Intel's SSE4 instructions, making it a competitor to SSE4 rather than a successor. AMD chose not to implement SSE5 as originally proposed, however, derived SSE extensions were introduced.
+
+
+==== XOP ====
+Introduced with the bulldozer processor core, removed again from Zen (microarchitecture) onward.
+A revision of most of the SSE5 instruction set
+
+
+==== F16C ====
+Half-precision floating-point conversion.
+
+
+==== FMA3 ====
+Supported in AMD processors starting with the Piledriver architecture and Intel starting with Haswell processors and Broadwell processors since 2014.
+Fused multiply-add (floating-point vector multiply–accumulate) with three operands.
+
+
+==== FMA4 ====
+Supported in AMD processors starting with the Bulldozer architecture. Not supported by any intel chip as of 2017.
+Fused multiply-add with four operands. FMA4 was realized in hardware before FMA3.
+
+
+=== AVX ===
+AVX were first supported by Intel with Sandy Bridge and by AMD with Bulldozer.
+Vector operations on 256 bit registers.
+
+
+=== AVX2 ===
+Introduced in Intel's Haswell microarchitecture and AMD's Excavator.
+Expansion of most vector integer SSE and AVX instructions to 256 bits
+
+
+=== AVX-512 ===
+Introduced in Intel's Xeon Phi x200
+Vector operations on 512 bit registers.
+
+
+== Cryptographic instructions ==
+
+
+=== Intel AES instructions ===
+
+6 new instructions.
+
+
+=== Intel SHA instructions ===
+
+7 new instructions.
+
+
+== Undocumented instructions ==
+
+
+=== Undocumented x86 instructions ===
+The x86 CPUs contain undocumented instructions which are implemented on the chips but not listed in some official documents. They can be found in various sources across the Internet, such as Ralf Brown's Interrupt List and at sandpile.org
+
+
+=== Undocumented x87 instructions ===
+FFREEP performs FFREE ST(i) and pop stack
+
+
+== See also ==
+CLMUL
+RDRAND
+Larrabee extensions
+Advanced Vector Extensions 2
+Bit Manipulation Instruction Sets
+CPUID
+
+
+== References ==
+
+
+== External links ==
+Free IA-32 and x86-64 documentation, provided by Intel
+x86 Opcode and Instruction Reference
+x86 and amd64 instruction reference
+Netwide Assembler Instruction List (from Netwide Assembler)

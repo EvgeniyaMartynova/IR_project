@@ -1,0 +1,50 @@
+Carbon dioxide cleaning
+
+Carbon dioxide cleaning (CO2 cleaning) comprises a family of methods for parts cleaning and sterilization, using carbon dioxide in its various phases. It is often preferred for use on delicate surfaces. CO2 cleaning has found application in the aerospace, automotive, electronics, medical, and other industries. Carbon dioxide snow cleaning has been used to remove particles and organic residues from metals, polymers, ceramics, glasses, and other materials, and from surfaces including hard drives and optical surfaces.
+
+
+== Applications ==
+CO2 cleaning has found application in many industries and technical areas, including aerospace, automotive, electronics, medical, manufacturing, basic and applied research, and optics. The different carbon dioxide cleaning methods can remove gross contamination, paint, overlayers, grease, fingerprints, particles down to nanometers in size, hydrocarbon and organic residues, and radioactive residues.  Materials cleaned include metals, polymers, ceramics, and glasses. The key limitation is that the contamination must be on the surface, not buried within the material.  Porous materials are not good candidates for pellets or snow, but can be cleaned using liquid or supercritical CO2.
+
+
+== Methods ==
+Carbon dioxide cleaning refers to several different methods for parts cleaning, making use of all phases of CO2: basic methods include solid dry ice pellets, liquid CO2, CO2 snow (a hybrid method), and supercritical CO2. The different forms of CO2 cleaning can clean many types of objects, from large generators to small and delicate parts, including hard drives and optics.
+
+
+=== Pellets ===
+
+In pellet cleaning ("dry-ice blasting"), relatively large pellets of solid CO2 are fired at the surface to be cleaned. These pellets impinge on the surface, mechanically dislodging contaminant particles. Pellet cleaning is only appropriate for surfaces which can withstand significant impacts.
+
+
+=== Snow cleaning ===
+In CO2 snow cleaning, compressed liquid or gaseous carbon dioxide is expelled from a nozzle, condensing into a mixture of solid particles and gas, which impact the surface to be cleaned. Jet velocities are frequently supersonic. Snow cleaning works by a combination of momentum transfer (mechanically dislodging contaminant particles) and solvent action. The CO2 sublimates on contact, increasing in volume up to 800 times, thereby generating pressure to sweep particles away. The CO2 also dissolves hydrocarbon contaminants, and its low temperature embrittles residues such as fingerprints, making them easier to blow away.Snow cleaning has found application in the aeronautical, automotive, medical, optical, semiconductor, and space industries. It can provide a gentle cleaning, appropriate for delicate surfaces. The effectiveness of carbon dioxide snow cleaning has been demonstrated via light microscopy, particle counting, scanning electron microscopy, microprobing, X-ray photoelectron spectroscopy, atomic-force microscopy, and mass spectroscopy.Equipment costs for a carbon dioxide snow cleaning system can range from US$1500 for a basic system to $50,000 for a high-end automated unit. Material costs are comparatively low, although ultra-pure CO2 must often be used to avoid the introduction of new contaminants.
+
+
+=== Supercritical fluid ===
+At temperatures and pressures above its critical point, CO2 can be maintained as a supercritical fluid, exhibiting extremely low viscosity and high solvency. To apply this method, parts to be cleaned are enclosed in a pressure vessel that is then filled with supercritical CO2. This method is appropriate for small and delicate parts such as microelectronics, and is not ideal for particulate removal. Aside from cleaning, applications of supercritical carbon dioxide include targeted chemical supercritical fluid extraction and materials processing.
+
+
+=== Liquid CO2 washing ===
+Liquid CO2 washing, like supercritical fluid CO2 washing, relies on the high solvent power of CO2, but at lower temperatures and pressures, the latter making it simpler to implement. Because liquid CO2 does not have the solvent power of supercritical fluid, agitation and surfactants may be added to improve the effectiveness of the method.  Liquid CO2 has been used in dry cleaning and machined parts degreasing.
+
+
+== History ==
+Carbon dioxide cleaning was contemplated in the 1930s, and the "pellet" approach was developed in the 1970s by E.E. Rice, C.H. Franklin, and C.C. Wong.The introduction of CO2 snow cleaning, with its ability to remove sub-micron-scale particles, is credited to Stuart Hoenig of the University of Arizona, who first published on the topic in 1985–1986. Hoenig traveled the US to demonstrate the technology, eventually attracting the interest of The BOC Group, which developed Venturi nozzles for the process, and Hughes Aircraft, which developed straight nozzles. CO2 snow cleaning was further developed by the Fraunhofer Institute for Manufacturing Engineering and Automation IPA, for the purpose of removing paint from aircraft fuselages.Nozzle design is the most significant factor in carbon dioxide snow cleaning performance, affecting the size and velocity of the dry ice particles. Variations in nozzle design have been developed by W.H. Whitlock, L.L. Layden, Applied Surface Technologies, and Sierra Systems Group.
+
+
+== Issues ==
+
+
+=== Safety ===
+CO2 cleaning may present certain safety risks. If the process is used to remove hazardous materials, precautions must be taken to avoid exposure to these materials in the vent stream. Because the CO2 stream is cryogenic, it may cause injury with direct skin contact. In addition, care must be taken to prevent the concentration of carbon dioxide in the work area from exceeding safe levels.
+
+
+=== Contamination ===
+Some commercial grades of carbon dioxide may contain traces of heavy hydrocarbons, which can be left behind on the surface being cleaned. Abrasive particles originating in the cleaning equipment itself may need to be filtered out as well. The low temperature of the carbon dioxide stream can also induce moisture condensation on the part, which may be mitigated with hot plates, heat guns, heat lamps, or dry boxes.
+
+
+=== Static charge ===
+Ionization caused by the flowing gas can result in potentially damaging static charge buildup on non-conductive parts. This can be mitigated by grounding or positive ionization sources.
+
+
+== References ==

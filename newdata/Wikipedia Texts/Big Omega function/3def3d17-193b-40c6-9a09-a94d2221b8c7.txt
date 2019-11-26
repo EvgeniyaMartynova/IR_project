@@ -1,0 +1,3576 @@
+Prime omega function
+
+In number theory, the prime omega functions 
+  
+    
+      
+        ω
+        (
+        n
+        )
+      
+    
+    {\displaystyle \omega (n)}
+   and 
+  
+    
+      
+        Ω
+        (
+        n
+        )
+      
+    
+    {\displaystyle \Omega (n)}
+   count the number of prime factors of a natural number 
+  
+    
+      
+        n
+        .
+      
+    
+    {\displaystyle n.}
+   Thereby  
+  
+    
+      
+        ω
+        (
+        n
+        )
+      
+    
+    {\displaystyle \omega (n)}
+   counts each distinct prime factor, whereas the related function 
+  
+    
+      
+        Ω
+        (
+        n
+        )
+      
+    
+    {\displaystyle \Omega (n)}
+   counts the total number of prime factors of 
+  
+    
+      
+        n
+        ,
+      
+    
+    {\displaystyle n,}
+   honoring their multiplicity (see arithmetic function). For example, if we have a prime factorization of 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+   of the form 
+  
+    
+      
+        n
+        =
+        
+          p
+          
+            1
+          
+          
+            
+              α
+              
+                1
+              
+            
+          
+        
+        
+          p
+          
+            2
+          
+          
+            
+              α
+              
+                2
+              
+            
+          
+        
+        ⋯
+        
+          p
+          
+            k
+          
+          
+            
+              α
+              
+                k
+              
+            
+          
+        
+      
+    
+    {\displaystyle n=p_{1}^{\alpha _{1}}p_{2}^{\alpha _{2}}\cdots p_{k}^{\alpha _{k}}}
+   for distinct primes 
+  
+    
+      
+        
+          p
+          
+            i
+          
+        
+      
+    
+    {\displaystyle p_{i}}
+   (
+  
+    
+      
+        1
+        ≤
+        i
+        ≤
+        k
+      
+    
+    {\displaystyle 1\leq i\leq k}
+  ), then the respective prime omega functions are given by 
+  
+    
+      
+        ω
+        (
+        n
+        )
+        =
+        k
+      
+    
+    {\displaystyle \omega (n)=k}
+   and 
+  
+    
+      
+        Ω
+        (
+        n
+        )
+        =
+        
+          α
+          
+            1
+          
+        
+        +
+        
+          α
+          
+            2
+          
+        
+        +
+        ⋯
+        +
+        
+          α
+          
+            k
+          
+        
+      
+    
+    {\displaystyle \Omega (n)=\alpha _{1}+\alpha _{2}+\cdots +\alpha _{k}}
+  . These prime factor counting functions have many important number theoretic relations.
+
+
+== Properties and relations ==
+The function 
+  
+    
+      
+        ω
+        (
+        n
+        )
+      
+    
+    {\displaystyle \omega (n)}
+   is additive and 
+  
+    
+      
+        Ω
+        (
+        n
+        )
+      
+    
+    {\displaystyle \Omega (n)}
+   is completely additive. 
+
+  
+    
+      
+        ω
+        (
+        n
+        )
+        =
+        
+          ∑
+          
+            p
+            ∣
+            n
+          
+        
+        1
+      
+    
+    {\displaystyle \omega (n)=\sum _{p\mid n}1}
+   
+If 
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+   divides 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+   at least once we count it only once, e.g. 
+  
+    
+      
+        ω
+        (
+        12
+        )
+        =
+        ω
+        (
+        
+          2
+          
+            2
+          
+        
+        3
+        )
+        =
+        2
+      
+    
+    {\displaystyle \omega (12)=\omega (2^{2}3)=2}
+   
+
+  
+    
+      
+        Ω
+        (
+        n
+        )
+        =
+        
+          ∑
+          
+            
+              p
+              
+                α
+              
+            
+            ∣
+            n
+          
+        
+        α
+      
+    
+    {\displaystyle \Omega (n)=\sum _{p^{\alpha }\mid n}\alpha }
+   
+If 
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+   divides 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+   
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+   times then we count the exponents, e.g. 
+  
+    
+      
+        Ω
+        (
+        12
+        )
+        =
+        Ω
+        (
+        
+          2
+          
+            2
+          
+        
+        
+          3
+          
+            1
+          
+        
+        )
+        =
+        3
+      
+    
+    {\displaystyle \Omega (12)=\Omega (2^{2}3^{1})=3}
+   
+
+  
+    
+      
+        Ω
+        (
+        n
+        )
+        ≥
+        ω
+        (
+        n
+        )
+      
+    
+    {\displaystyle \Omega (n)\geq \omega (n)}
+  
+If  
+  
+    
+      
+        Ω
+        (
+        n
+        )
+        =
+        ω
+        (
+        n
+        )
+      
+    
+    {\displaystyle \Omega (n)=\omega (n)}
+   then 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+   is squarefree and related to the Möbius function by 
+
+  
+    
+      
+        μ
+        (
+        n
+        )
+        =
+        (
+        −
+        1
+        
+          )
+          
+            ω
+            (
+            n
+            )
+          
+        
+        =
+        (
+        −
+        1
+        
+          )
+          
+            Ω
+            (
+            n
+            )
+          
+        
+      
+    
+    {\displaystyle \mu (n)=(-1)^{\omega (n)}=(-1)^{\Omega (n)}}
+  If 
+  
+    
+      
+        Ω
+        (
+        n
+        )
+        =
+        1
+      
+    
+    {\displaystyle \Omega (n)=1}
+   then 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+   is a prime number.
+It is known that the average order of the divisor function satisfies 
+  
+    
+      
+        
+          2
+          
+            ω
+            (
+            n
+            )
+          
+        
+        ≤
+        d
+        (
+        n
+        )
+        ≤
+        
+          2
+          
+            Ω
+            (
+            n
+            )
+          
+        
+      
+    
+    {\displaystyle 2^{\omega (n)}\leq d(n)\leq 2^{\Omega (n)}}
+  .Like many arithmetic functions there is no explicit formula for 
+  
+    
+      
+        Ω
+        (
+        n
+        )
+      
+    
+    {\displaystyle \Omega (n)}
+   or 
+  
+    
+      
+        ω
+        (
+        n
+        )
+      
+    
+    {\displaystyle \omega (n)}
+   but there are approximations.
+An asymptotic series for the average order of 
+  
+    
+      
+        ω
+        (
+        n
+        )
+      
+    
+    {\displaystyle \omega (n)}
+   is given by 
+
+  
+    
+      
+        
+          
+            1
+            n
+          
+        
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            n
+          
+        
+        ω
+        (
+        k
+        )
+        ∼
+        log
+        ⁡
+        log
+        ⁡
+        n
+        +
+        
+          B
+          
+            1
+          
+        
+        +
+        
+          ∑
+          
+            k
+            ≥
+            1
+          
+        
+        
+          (
+          
+            
+              ∑
+              
+                j
+                =
+                0
+              
+              
+                k
+                −
+                1
+              
+            
+            
+              
+                
+                  γ
+                  
+                    j
+                  
+                
+                
+                  j
+                  !
+                
+              
+            
+            −
+            1
+          
+          )
+        
+        
+          
+            
+              (
+              k
+              −
+              1
+              )
+              !
+            
+            
+              (
+              log
+              ⁡
+              n
+              
+                )
+                
+                  k
+                
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle {\frac {1}{n}}\sum \limits _{k=1}^{n}\omega (k)\sim \log \log n+B_{1}+\sum _{k\geq 1}\left(\sum _{j=0}^{k-1}{\frac {\gamma _{j}}{j!}}-1\right){\frac {(k-1)!}{(\log n)^{k}}},}
+  where 
+  
+    
+      
+        
+          B
+          
+            1
+          
+        
+        ≈
+        0.26149721
+      
+    
+    {\displaystyle B_{1}\approx 0.26149721}
+   is the Mertens constant and 
+  
+    
+      
+        
+          γ
+          
+            j
+          
+        
+      
+    
+    {\displaystyle \gamma _{j}}
+   are the Stieltjes constants.
+The function 
+  
+    
+      
+        ω
+        (
+        n
+        )
+      
+    
+    {\displaystyle \omega (n)}
+   is related to divisor sums over the Möbius function and the divisor function including the next sums.
+
+  
+    
+      
+        
+          ∑
+          
+            d
+            ∣
+            n
+          
+        
+        
+          |
+        
+        μ
+        (
+        d
+        )
+        
+          |
+        
+        =
+        
+          2
+          
+            ω
+            (
+            n
+            )
+          
+        
+      
+    
+    {\displaystyle \sum _{d\mid n}|\mu (d)|=2^{\omega (n)}}
+  
+
+  
+    
+      
+        
+          ∑
+          
+            r
+            ∣
+            n
+          
+        
+        
+          2
+          
+            ω
+            (
+            r
+            )
+          
+        
+        =
+        d
+        (
+        
+          n
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle \sum _{r\mid n}2^{\omega (r)}=d(n^{2})}
+  
+
+  
+    
+      
+        
+          ∑
+          
+            r
+            ∣
+            n
+          
+        
+        
+          2
+          
+            ω
+            (
+            r
+            )
+          
+        
+        d
+        
+          (
+          
+            
+              n
+              r
+            
+          
+          )
+        
+        =
+        
+          d
+          
+            2
+          
+        
+        (
+        n
+        )
+      
+    
+    {\displaystyle \sum _{r\mid n}2^{\omega (r)}d\left({\frac {n}{r}}\right)=d^{2}(n)}
+  
+
+  
+    
+      
+        
+          ∑
+          
+            
+              
+                
+                  (
+                  k
+                  ,
+                  m
+                  )
+                  =
+                  1
+                
+                
+                  1
+                  ≤
+                  k
+                  ≤
+                  m
+                
+              
+            
+          
+        
+        gcd
+        (
+        
+          k
+          
+            2
+          
+        
+        −
+        1
+        ,
+        
+          m
+          
+            1
+          
+        
+        )
+        gcd
+        (
+        
+          k
+          
+            2
+          
+        
+        −
+        1
+        ,
+        
+          m
+          
+            2
+          
+        
+        )
+        =
+        φ
+        (
+        n
+        )
+        
+          ∑
+          
+            
+              
+                
+                  
+                    d
+                    
+                      2
+                    
+                  
+                  ∣
+                  
+                    m
+                    
+                      2
+                    
+                  
+                
+                
+                  
+                    d
+                    
+                      1
+                    
+                  
+                  ∣
+                  
+                    m
+                    
+                      1
+                    
+                  
+                
+              
+            
+          
+        
+        φ
+        (
+        gcd
+        (
+        
+          d
+          
+            1
+          
+        
+        ,
+        
+          d
+          
+            2
+          
+        
+        )
+        )
+        
+          2
+          
+            ω
+            (
+            lcm
+            ⁡
+            (
+            
+              d
+              
+                1
+              
+            
+            ,
+            
+              d
+              
+                2
+              
+            
+            )
+            )
+          
+        
+        ,
+         
+        
+          m
+          
+            1
+          
+        
+        ,
+        
+          m
+          
+            2
+          
+        
+        
+           odd
+        
+        ,
+        m
+        =
+        lcm
+        ⁡
+        (
+        
+          m
+          
+            1
+          
+        
+        ,
+        
+          m
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle \sum _{\stackrel {1\leq k\leq m}{(k,m)=1}}\gcd(k^{2}-1,m_{1})\gcd(k^{2}-1,m_{2})=\varphi (n)\sum _{\stackrel {d_{1}\mid m_{1}}{d_{2}\mid m_{2}}}\varphi (\gcd(d_{1},d_{2}))2^{\omega (\operatorname {lcm} (d_{1},d_{2}))},\ m_{1},m_{2}{\text{ odd}},m=\operatorname {lcm} (m_{1},m_{2})}
+  
+
+  
+    
+      
+        
+          ∑
+          
+            
+              
+                
+                  gcd
+                  ⁡
+                  (
+                  k
+                  ,
+                  m
+                  )
+                  =
+                  1
+                
+                
+                  1
+                  ≤
+                  k
+                  ≤
+                  n
+                
+              
+            
+          
+        
+        
+        
+        
+        
+        1
+        =
+        n
+        
+          
+            
+              φ
+              (
+              m
+              )
+            
+            m
+          
+        
+        +
+        O
+        
+          (
+          
+            2
+            
+              ω
+              (
+              m
+              )
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \sum _{\stackrel {1\leq k\leq n}{\operatorname {gcd} (k,m)=1}}\!\!\!\!1=n{\frac {\varphi (m)}{m}}+O\left(2^{\omega (m)}\right)}
+  The characteristic function of the primes can be expressed by a convolution with the 
+Möbius function :
+
+  
+    
+      
+        
+          χ
+          
+            
+              P
+            
+          
+        
+        (
+        n
+        )
+        =
+        (
+        μ
+        ∗
+        ω
+        )
+        (
+        n
+        )
+        =
+        
+          ∑
+          
+            d
+            
+              |
+            
+            n
+          
+        
+        ω
+        (
+        d
+        )
+        μ
+        (
+        n
+        
+          /
+        
+        d
+        )
+        .
+      
+    
+    {\displaystyle \chi _{\mathbb {P} }(n)=(\mu \ast \omega )(n)=\sum _{d|n}\omega (d)\mu (n/d).}
+  A partition-related exact identity for 
+  
+    
+      
+        ω
+        (
+        n
+        )
+      
+    
+    {\displaystyle \omega (n)}
+   is given by 
+
+  
+    
+      
+        ω
+        (
+        n
+        )
+        =
+        
+          log
+          
+            2
+          
+        
+        ⁡
+        
+          [
+          
+            
+              ∑
+              
+                k
+                =
+                1
+              
+              
+                n
+              
+            
+            
+              ∑
+              
+                j
+                =
+                1
+              
+              
+                k
+              
+            
+            
+              (
+              
+                
+                  ∑
+                  
+                    d
+                    ∣
+                    k
+                  
+                
+                
+                  ∑
+                  
+                    i
+                    =
+                    1
+                  
+                  
+                    d
+                  
+                
+                p
+                (
+                d
+                −
+                j
+                i
+                )
+              
+              )
+            
+            
+              s
+              
+                n
+                ,
+                k
+              
+            
+            ⋅
+            
+              |
+            
+            μ
+            (
+            j
+            )
+            
+              |
+            
+          
+          ]
+        
+        ,
+      
+    
+    {\displaystyle \omega (n)=\log _{2}\left[\sum _{k=1}^{n}\sum _{j=1}^{k}\left(\sum _{d\mid k}\sum _{i=1}^{d}p(d-ji)\right)s_{n,k}\cdot |\mu (j)|\right],}
+  where 
+  
+    
+      
+        p
+        (
+        n
+        )
+      
+    
+    {\displaystyle p(n)}
+   is the partition function, 
+  
+    
+      
+        μ
+        (
+        n
+        )
+      
+    
+    {\displaystyle \mu (n)}
+   is the Möbius function, and the triangular sequence 
+  
+    
+      
+        
+          s
+          
+            n
+            ,
+            k
+          
+        
+      
+    
+    {\displaystyle s_{n,k}}
+   is expanded by
+
+  
+    
+      
+        
+          s
+          
+            n
+            ,
+            k
+          
+        
+        =
+        [
+        
+          q
+          
+            n
+          
+        
+        ]
+        (
+        q
+        ;
+        q
+        
+          )
+          
+            ∞
+          
+        
+        
+          
+            
+              q
+              
+                k
+              
+            
+            
+              1
+              −
+              
+                q
+                
+                  k
+                
+              
+            
+          
+        
+        =
+        
+          s
+          
+            o
+          
+        
+        (
+        n
+        ,
+        k
+        )
+        −
+        
+          s
+          
+            e
+          
+        
+        (
+        n
+        ,
+        k
+        )
+        ,
+      
+    
+    {\displaystyle s_{n,k}=[q^{n}](q;q)_{\infty }{\frac {q^{k}}{1-q^{k}}}=s_{o}(n,k)-s_{e}(n,k),}
+  in terms of the infinite q-Pochhammer symbol and the restricted partition functions 
+  
+    
+      
+        
+          s
+          
+            o
+            
+              /
+            
+            e
+          
+        
+        (
+        n
+        ,
+        k
+        )
+      
+    
+    {\displaystyle s_{o/e}(n,k)}
+   which respectively denote the number of 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+  's in all partitions of 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+   into an odd (even) number of distinct parts.
+
+
+== Average order and summatory functions ==
+An average order of both 
+  
+    
+      
+        ω
+        (
+        n
+        )
+      
+    
+    {\displaystyle \omega (n)}
+   and 
+  
+    
+      
+        Ω
+        (
+        n
+        )
+      
+    
+    {\displaystyle \Omega (n)}
+   is 
+  
+    
+      
+        log
+        ⁡
+        log
+        ⁡
+        n
+      
+    
+    {\displaystyle \log \log n}
+  . When 
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+   is prime a lower bound on the value of the function is 
+  
+    
+      
+        ω
+        (
+        p
+        )
+        =
+        1
+      
+    
+    {\displaystyle \omega (p)=1}
+  . Similarly, if 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+   is primorial then the function is as large as 
+
+  
+    
+      
+        ω
+        (
+        n
+        )
+        ∼
+        
+          
+            
+              log
+              ⁡
+              n
+            
+            
+              log
+              ⁡
+              log
+              ⁡
+              n
+            
+          
+        
+      
+    
+    {\displaystyle \omega (n)\sim {\frac {\log n}{\log \log n}}}
+   on average order. When 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+   is a power of 2, then 
+  
+    
+      
+        Ω
+        (
+        n
+        )
+        ∼
+        
+          
+            
+              log
+              ⁡
+              n
+            
+            
+              log
+              ⁡
+              2
+            
+          
+        
+      
+    
+    {\displaystyle \Omega (n)\sim {\frac {\log n}{\log 2}}}
+   
+.Asymptotics for the summatory functions over 
+  
+    
+      
+        ω
+        (
+        n
+        )
+      
+    
+    {\displaystyle \omega (n)}
+  , 
+  
+    
+      
+        Ω
+        (
+        n
+        )
+      
+    
+    {\displaystyle \Omega (n)}
+  , and 
+  
+    
+      
+        ω
+        (
+        n
+        
+          )
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \omega (n)^{2}}
+   
+are respectively computed in Hardy and Wright as 
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  ∑
+                  
+                    n
+                    ≤
+                    x
+                  
+                
+                ω
+                (
+                n
+                )
+              
+              
+                
+                =
+                x
+                log
+                ⁡
+                log
+                ⁡
+                x
+                +
+                
+                  B
+                  
+                    1
+                  
+                
+                x
+                +
+                o
+                (
+                x
+                )
+              
+            
+            
+              
+                
+                  ∑
+                  
+                    n
+                    ≤
+                    x
+                  
+                
+                Ω
+                (
+                n
+                )
+              
+              
+                
+                =
+                x
+                log
+                ⁡
+                log
+                ⁡
+                x
+                +
+                
+                  B
+                  
+                    2
+                  
+                
+                x
+                +
+                o
+                (
+                x
+                )
+              
+            
+            
+              
+                
+                  ∑
+                  
+                    n
+                    ≤
+                    x
+                  
+                
+                ω
+                (
+                n
+                
+                  )
+                  
+                    2
+                  
+                
+              
+              
+                
+                =
+                x
+                (
+                log
+                ⁡
+                log
+                ⁡
+                x
+                
+                  )
+                  
+                    2
+                  
+                
+                +
+                O
+                (
+                x
+                log
+                ⁡
+                log
+                ⁡
+                x
+                )
+              
+            
+            
+              
+                
+                  ∑
+                  
+                    n
+                    ≤
+                    x
+                  
+                
+                ω
+                (
+                n
+                
+                  )
+                  
+                    k
+                  
+                
+              
+              
+                
+                =
+                x
+                (
+                log
+                ⁡
+                log
+                ⁡
+                x
+                
+                  )
+                  
+                    k
+                  
+                
+                +
+                O
+                (
+                x
+                (
+                log
+                ⁡
+                log
+                ⁡
+                x
+                
+                  )
+                  
+                    k
+                    −
+                    1
+                  
+                
+                )
+                ,
+                k
+                ∈
+                
+                  
+                    Z
+                  
+                  
+                    +
+                  
+                
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\sum _{n\leq x}\omega (n)&=x\log \log x+B_{1}x+o(x)\\\sum _{n\leq x}\Omega (n)&=x\log \log x+B_{2}x+o(x)\\\sum _{n\leq x}\omega (n)^{2}&=x(\log \log x)^{2}+O(x\log \log x)\\\sum _{n\leq x}\omega (n)^{k}&=x(\log \log x)^{k}+O(x(\log \log x)^{k-1}),k\in \mathbb {Z} ^{+},\end{aligned}}}
+  where 
+  
+    
+      
+        
+          B
+          
+            1
+          
+        
+      
+    
+    {\displaystyle B_{1}}
+   is again the Mertens constant and the constant 
+  
+    
+      
+        
+          B
+          
+            2
+          
+        
+      
+    
+    {\displaystyle B_{2}}
+   is defined by
+
+  
+    
+      
+        
+          B
+          
+            2
+          
+        
+        =
+        
+          B
+          
+            1
+          
+        
+        +
+        
+          ∑
+          
+            p
+            
+               prime
+            
+          
+        
+        
+          
+            1
+            
+              p
+              (
+              p
+              −
+              1
+              )
+            
+          
+        
+        .
+      
+    
+    {\displaystyle B_{2}=B_{1}+\sum _{p{\text{ prime}}}{\frac {1}{p(p-1)}}.}
+  Other sums relating the two variants of the prime omega functions include 
+
+  
+    
+      
+        
+          ∑
+          
+            n
+            ≤
+            x
+          
+        
+        
+          {
+          
+            Ω
+            (
+            n
+            )
+            −
+            ω
+            (
+            n
+            )
+          
+          }
+        
+        =
+        O
+        (
+        x
+        )
+        ,
+      
+    
+    {\displaystyle \sum _{n\leq x}\left\{\Omega (n)-\omega (n)\right\}=O(x),}
+  and
+
+  
+    
+      
+        #
+        
+          {
+          
+            n
+            ≤
+            x
+            :
+            Ω
+            (
+            n
+            )
+            −
+            ω
+            (
+            n
+            )
+            >
+            
+              
+                log
+                ⁡
+                log
+                ⁡
+                x
+              
+            
+          
+          }
+        
+        =
+        O
+        
+          (
+          
+            
+              x
+              
+                (
+                log
+                ⁡
+                log
+                ⁡
+                x
+                
+                  )
+                  
+                    1
+                    
+                      /
+                    
+                    2
+                  
+                
+              
+            
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle \#\left\{n\leq x:\Omega (n)-\omega (n)>{\sqrt {\log \log x}}\right\}=O\left({\frac {x}{(\log \log x)^{1/2}}}\right).}
+  
+
+
+=== Example I: A modified summatory function ===
+In this example we suggest a variant of the summatory functions 
+  
+    
+      
+        
+          S
+          
+            ω
+          
+        
+        (
+        x
+        )
+        :=
+        
+          ∑
+          
+            n
+            ≤
+            x
+          
+        
+        ω
+        (
+        n
+        )
+      
+    
+    {\displaystyle S_{\omega }(x):=\sum _{n\leq x}\omega (n)}
+   estimated in the above results for sufficiently large 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  . We then prove an asymptotic formula for the growth of this modified summatory function derived from the asymptotic estimate of 
+  
+    
+      
+        
+          S
+          
+            ω
+          
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle S_{\omega }(x)}
+   provided in the formulas in the main subsection of this article above.To be completely precise, let the odd-indexed summatory function be defined as
+
+  
+    
+      
+        
+          S
+          
+            odd
+          
+        
+        (
+        x
+        )
+        :=
+        
+          ∑
+          
+            n
+            ≤
+            x
+          
+        
+        ω
+        (
+        n
+        )
+        [
+        n
+        
+           odd
+        
+        
+          ]
+          
+            δ
+          
+        
+        ,
+      
+    
+    {\displaystyle S_{\operatorname {odd} }(x):=\sum _{n\leq x}\omega (n)[n{\text{ odd}}]_{\delta },}
+  where 
+  
+    
+      
+        [
+        ⋅
+        
+          ]
+          
+            δ
+          
+        
+      
+    
+    {\displaystyle [\cdot ]_{\delta }}
+   denotes Iverson's convention. Then we have that
+
+  
+    
+      
+        
+          S
+          
+            odd
+          
+        
+        (
+        x
+        )
+        =
+        
+          
+            x
+            2
+          
+        
+        log
+        ⁡
+        log
+        ⁡
+        x
+        +
+        
+          
+            
+              (
+              2
+              
+                B
+                
+                  1
+                
+              
+              −
+              1
+              )
+              x
+            
+            4
+          
+        
+        +
+        
+          {
+          
+            
+              x
+              4
+            
+          
+          }
+        
+        −
+        
+          
+            [
+            
+              x
+              ≡
+              2
+              ,
+              3
+              
+                mod
+                
+                  4
+                
+              
+            
+            ]
+          
+          
+            δ
+          
+        
+        +
+        O
+        
+          (
+          
+            
+              x
+              
+                log
+                ⁡
+                x
+              
+            
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle S_{\operatorname {odd} }(x)={\frac {x}{2}}\log \log x+{\frac {(2B_{1}-1)x}{4}}+\left\{{\frac {x}{4}}\right\}-\left[x\equiv 2,3{\bmod {4}}\right]_{\delta }+O\left({\frac {x}{\log x}}\right).}
+  The proof of this result follows by first observing that
+
+  
+    
+      
+        ω
+        (
+        2
+        n
+        )
+        =
+        
+          
+            {
+            
+              
+                
+                  ω
+                  (
+                  n
+                  )
+                  +
+                  1
+                  ,
+                
+                
+                  
+                    if 
+                  
+                  n
+                  
+                     is odd; 
+                  
+                
+              
+              
+                
+                  ω
+                  (
+                  n
+                  )
+                  ,
+                
+                
+                  
+                    if 
+                  
+                  n
+                  
+                     is even,
+                  
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle \omega (2n)={\begin{cases}\omega (n)+1,&{\text{if }}n{\text{ is odd; }}\\\omega (n),&{\text{if }}n{\text{ is even,}}\end{cases}}}
+  and then applying the asymptotic result from Hardy and Wright for the summatory function over 
+  
+    
+      
+        ω
+        (
+        n
+        )
+      
+    
+    {\displaystyle \omega (n)}
+  , denoted by 
+  
+    
+      
+        
+          S
+          
+            ω
+          
+        
+        (
+        x
+        )
+        :=
+        
+          ∑
+          
+            n
+            ≤
+            x
+          
+        
+        ω
+        (
+        n
+        )
+      
+    
+    {\displaystyle S_{\omega }(x):=\sum _{n\leq x}\omega (n)}
+  , in the following form:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  S
+                  
+                    ω
+                  
+                
+                (
+                x
+                )
+              
+              
+                
+                =
+                
+                  S
+                  
+                    odd
+                  
+                
+                (
+                x
+                )
+                +
+                
+                  ∑
+                  
+                    n
+                    ≤
+                    
+                      ⌊
+                      
+                        
+                          x
+                          2
+                        
+                      
+                      ⌋
+                    
+                  
+                
+                ω
+                (
+                2
+                n
+                )
+              
+            
+            
+              
+              
+                
+                =
+                
+                  S
+                  
+                    odd
+                  
+                
+                (
+                x
+                )
+                +
+                
+                  ∑
+                  
+                    n
+                    ≤
+                    
+                      ⌊
+                      
+                        
+                          x
+                          4
+                        
+                      
+                      ⌋
+                    
+                  
+                
+                
+                  (
+                  
+                    ω
+                    (
+                    4
+                    n
+                    )
+                    +
+                    ω
+                    (
+                    4
+                    n
+                    +
+                    2
+                    )
+                  
+                  )
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  S
+                  
+                    odd
+                  
+                
+                (
+                x
+                )
+                +
+                
+                  ∑
+                  
+                    n
+                    ≤
+                    
+                      ⌊
+                      
+                        
+                          x
+                          4
+                        
+                      
+                      ⌋
+                    
+                  
+                
+                
+                  (
+                  
+                    ω
+                    (
+                    2
+                    n
+                    )
+                    +
+                    ω
+                    (
+                    2
+                    n
+                    +
+                    1
+                    )
+                    +
+                    1
+                  
+                  )
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  S
+                  
+                    odd
+                  
+                
+                (
+                x
+                )
+                +
+                
+                  S
+                  
+                    ω
+                  
+                
+                
+                  (
+                  
+                    ⌊
+                    
+                      
+                        x
+                        2
+                      
+                    
+                    ⌋
+                  
+                  )
+                
+                +
+                
+                  ⌊
+                  
+                    
+                      x
+                      4
+                    
+                  
+                  ⌋
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}S_{\omega }(x)&=S_{\operatorname {odd} }(x)+\sum _{n\leq \left\lfloor {\frac {x}{2}}\right\rfloor }\omega (2n)\\&=S_{\operatorname {odd} }(x)+\sum _{n\leq \left\lfloor {\frac {x}{4}}\right\rfloor }\left(\omega (4n)+\omega (4n+2)\right)\\&=S_{\operatorname {odd} }(x)+\sum _{n\leq \left\lfloor {\frac {x}{4}}\right\rfloor }\left(\omega (2n)+\omega (2n+1)+1\right)\\&=S_{\operatorname {odd} }(x)+S_{\omega }\left(\left\lfloor {\frac {x}{2}}\right\rfloor \right)+\left\lfloor {\frac {x}{4}}\right\rfloor .\end{aligned}}}
+  
+
+
+=== Example II: Summatory functions for so-termed factorial moments of ===
+  
+    
+      
+        ω
+        (
+        n
+        )
+      
+    
+    {\displaystyle \omega (n)}
+  
+The computations expanded in Chapter 22.11 of Hardy and Wright provide asymptotic estimates for the summatory function
+
+  
+    
+      
+        ω
+        (
+        n
+        )
+        
+          {
+          
+            ω
+            (
+            n
+            )
+            −
+            1
+          
+          }
+        
+        ,
+      
+    
+    {\displaystyle \omega (n)\left\{\omega (n)-1\right\},}
+  by estimating the product of these two component omega functions as
+
+  
+    
+      
+        ω
+        (
+        n
+        )
+        
+          {
+          
+            ω
+            (
+            n
+            )
+            −
+            1
+          
+          }
+        
+        =
+        
+          ∑
+          
+            
+              
+                
+                  
+                    
+                      
+                        p
+                        ,
+                        q
+                        
+                           prime
+                        
+                      
+                      
+                        p
+                        ≠
+                        q
+                      
+                    
+                  
+                
+                
+                  p
+                  q
+                  ∣
+                  n
+                
+              
+            
+          
+        
+        1
+        =
+        
+          ∑
+          
+            
+              
+                
+                  p
+                  ,
+                  q
+                  
+                     prime
+                  
+                
+                
+                  p
+                  q
+                  ∣
+                  n
+                
+              
+            
+          
+        
+        1
+        −
+        
+          ∑
+          
+            
+              
+                
+                  p
+                  
+                     prime
+                  
+                
+                
+                  
+                    p
+                    
+                      2
+                    
+                  
+                  ∣
+                  n
+                
+              
+            
+          
+        
+        1.
+      
+    
+    {\displaystyle \omega (n)\left\{\omega (n)-1\right\}=\sum _{\stackrel {pq\mid n}{\stackrel {p\neq q}{p,q{\text{ prime}}}}}1=\sum _{\stackrel {pq\mid n}{p,q{\text{ prime}}}}1-\sum _{\stackrel {p^{2}\mid n}{p{\text{ prime}}}}1.}
+  We can similarly calculate asymptotic formulas more generally for the related summatory functions over so-termed factorial moments of the function 
+  
+    
+      
+        ω
+        (
+        n
+        )
+      
+    
+    {\displaystyle \omega (n)}
+  .
+
+
+== Dirichlet series ==
+A known Dirichlet series involving 
+  
+    
+      
+        ω
+        (
+        n
+        )
+      
+    
+    {\displaystyle \omega (n)}
+   and the Riemann zeta function is given by 
+
+  
+    
+      
+        
+          ∑
+          
+            n
+            ≥
+            1
+          
+        
+        
+          
+            
+              2
+              
+                ω
+                (
+                n
+                )
+              
+            
+            
+              n
+              
+                s
+              
+            
+          
+        
+        =
+        
+          
+            
+              
+                ζ
+                
+                  2
+                
+              
+              (
+              s
+              )
+            
+            
+              ζ
+              (
+              2
+              s
+              )
+            
+          
+        
+        ,
+         
+        ℜ
+        (
+        s
+        )
+        >
+        1.
+      
+    
+    {\displaystyle \sum _{n\geq 1}{\frac {2^{\omega (n)}}{n^{s}}}={\frac {\zeta ^{2}(s)}{\zeta (2s)}},\ \Re (s)>1.}
+  The function 
+  
+    
+      
+        Ω
+        (
+        n
+        )
+      
+    
+    {\displaystyle \Omega (n)}
+   is completely additive, where 
+  
+    
+      
+        ω
+        (
+        n
+        )
+      
+    
+    {\displaystyle \omega (n)}
+   is additive. Now we can prove a short lemma in the following form which implies exact formulas for the expansions of the Dirichlet series over both 
+  
+    
+      
+        ω
+        (
+        n
+        )
+      
+    
+    {\displaystyle \omega (n)}
+   and 
+  
+    
+      
+        Ω
+        (
+        n
+        )
+      
+    
+    {\displaystyle \Omega (n)}
+  : 
+Lemma. Suppose that 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+   is an additive arithmetic function defined such that its values at prime powers is given by 
+  
+    
+      
+        f
+        (
+        
+          p
+          
+            α
+          
+        
+        )
+        :=
+        
+          f
+          
+            0
+          
+        
+        (
+        p
+        ,
+        α
+        )
+      
+    
+    {\displaystyle f(p^{\alpha }):=f_{0}(p,\alpha )}
+  , i.e., 
+  
+    
+      
+        f
+        (
+        
+          p
+          
+            1
+          
+          
+            
+              α
+              
+                1
+              
+            
+          
+        
+        ⋯
+        
+          p
+          
+            k
+          
+          
+            
+              α
+              
+                k
+              
+            
+          
+        
+        )
+        =
+        
+          f
+          
+            0
+          
+        
+        (
+        
+          p
+          
+            1
+          
+        
+        ,
+        
+          α
+          
+            1
+          
+        
+        )
+        +
+        ⋯
+        +
+        
+          f
+          
+            0
+          
+        
+        (
+        
+          p
+          
+            k
+          
+        
+        ,
+        
+          α
+          
+            k
+          
+        
+        )
+      
+    
+    {\displaystyle f(p_{1}^{\alpha _{1}}\cdots p_{k}^{\alpha _{k}})=f_{0}(p_{1},\alpha _{1})+\cdots +f_{0}(p_{k},\alpha _{k})}
+   for distinct primes 
+  
+    
+      
+        
+          p
+          
+            i
+          
+        
+      
+    
+    {\displaystyle p_{i}}
+   and exponents 
+  
+    
+      
+        
+          α
+          
+            i
+          
+        
+        ≥
+        1
+      
+    
+    {\displaystyle \alpha _{i}\geq 1}
+  . The Dirichlet series of 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+   is expanded by 
+
+  
+    
+      
+        
+          ∑
+          
+            n
+            ≥
+            1
+          
+        
+        
+          
+            
+              f
+              (
+              n
+              )
+            
+            
+              n
+              
+                s
+              
+            
+          
+        
+        =
+        ζ
+        (
+        s
+        )
+        ×
+        
+          ∑
+          
+            p
+            
+               
+              p
+              r
+              i
+              m
+              e
+            
+          
+        
+        (
+        1
+        −
+        
+          p
+          
+            −
+            s
+          
+        
+        )
+        ⋅
+        
+          ∑
+          
+            n
+            ≥
+            1
+          
+        
+        
+          f
+          
+            0
+          
+        
+        (
+        p
+        ,
+        n
+        )
+        
+          p
+          
+            −
+            n
+            s
+          
+        
+        ,
+        ℜ
+        (
+        s
+        )
+        >
+        min
+        (
+        1
+        ,
+        
+          σ
+          
+            f
+          
+        
+        )
+        .
+      
+    
+    {\displaystyle \sum _{n\geq 1}{\frac {f(n)}{n^{s}}}=\zeta (s)\times \sum _{p\mathrm {\ prime} }(1-p^{-s})\cdot \sum _{n\geq 1}f_{0}(p,n)p^{-ns},\Re (s)>\min(1,\sigma _{f}).}
+  Proof. We can see that 
+
+  
+    
+      
+        
+          ∑
+          
+            n
+            ≥
+            1
+          
+        
+        
+          
+            
+              u
+              
+                f
+                (
+                n
+                )
+              
+            
+            
+              n
+              
+                s
+              
+            
+          
+        
+        =
+        
+          ∏
+          
+            p
+            
+               
+              p
+              r
+              i
+              m
+              e
+            
+          
+        
+        
+          (
+          
+            1
+            +
+            
+              ∑
+              
+                n
+                ≥
+                1
+              
+            
+            
+              u
+              
+                
+                  f
+                  
+                    0
+                  
+                
+                (
+                p
+                ,
+                n
+                )
+              
+            
+            
+              p
+              
+                −
+                n
+                s
+              
+            
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle \sum _{n\geq 1}{\frac {u^{f(n)}}{n^{s}}}=\prod _{p\mathrm {\ prime} }\left(1+\sum _{n\geq 1}u^{f_{0}(p,n)}p^{-ns}\right).}
+  This implies that 
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  ∑
+                  
+                    n
+                    ≥
+                    1
+                  
+                
+                
+                  
+                    
+                      f
+                      (
+                      n
+                      )
+                    
+                    
+                      n
+                      
+                        s
+                      
+                    
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    d
+                    
+                      d
+                      u
+                    
+                  
+                
+                
+                  [
+                  
+                    
+                      ∏
+                      
+                        p
+                        
+                           
+                          p
+                          r
+                          i
+                          m
+                          e
+                        
+                      
+                    
+                    
+                      (
+                      
+                        1
+                        +
+                        
+                          ∑
+                          
+                            n
+                            ≥
+                            1
+                          
+                        
+                        
+                          u
+                          
+                            
+                              f
+                              
+                                0
+                              
+                            
+                            (
+                            p
+                            ,
+                            n
+                            )
+                          
+                        
+                        
+                          p
+                          
+                            −
+                            n
+                            s
+                          
+                        
+                      
+                      )
+                    
+                  
+                  ]
+                
+                
+                  
+                    
+                      |
+                    
+                  
+                  
+                    u
+                    =
+                    1
+                  
+                
+                =
+                
+                  ∏
+                  
+                    p
+                  
+                
+                
+                  (
+                  
+                    1
+                    +
+                    
+                      ∑
+                      
+                        n
+                        ≥
+                        1
+                      
+                    
+                    
+                      p
+                      
+                        −
+                        n
+                        s
+                      
+                    
+                  
+                  )
+                
+                ×
+                
+                  ∑
+                  
+                    p
+                  
+                
+                
+                  
+                    
+                      
+                        ∑
+                        
+                          n
+                          ≥
+                          1
+                        
+                      
+                      
+                        f
+                        
+                          0
+                        
+                      
+                      (
+                      p
+                      ,
+                      n
+                      )
+                      
+                        p
+                        
+                          −
+                          n
+                          s
+                        
+                      
+                    
+                    
+                      1
+                      +
+                      
+                        ∑
+                        
+                          n
+                          ≥
+                          1
+                        
+                      
+                      
+                        p
+                        
+                          −
+                          n
+                          s
+                        
+                      
+                    
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                ζ
+                (
+                s
+                )
+                ×
+                
+                  ∑
+                  
+                    p
+                    
+                       
+                      p
+                      r
+                      i
+                      m
+                      e
+                    
+                  
+                
+                (
+                1
+                −
+                
+                  p
+                  
+                    −
+                    s
+                  
+                
+                )
+                ⋅
+                
+                  ∑
+                  
+                    n
+                    ≥
+                    1
+                  
+                
+                
+                  f
+                  
+                    0
+                  
+                
+                (
+                p
+                ,
+                n
+                )
+                
+                  p
+                  
+                    −
+                    n
+                    s
+                  
+                
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\sum _{n\geq 1}{\frac {f(n)}{n^{s}}}&={\frac {d}{du}}\left[\prod _{p\mathrm {\ prime} }\left(1+\sum _{n\geq 1}u^{f_{0}(p,n)}p^{-ns}\right)\right]{\Biggr |}_{u=1}=\prod _{p}\left(1+\sum _{n\geq 1}p^{-ns}\right)\times \sum _{p}{\frac {\sum _{n\geq 1}f_{0}(p,n)p^{-ns}}{1+\sum _{n\geq 1}p^{-ns}}}\\&=\zeta (s)\times \sum _{p\mathrm {\ prime} }(1-p^{-s})\cdot \sum _{n\geq 1}f_{0}(p,n)p^{-ns},\end{aligned}}}
+  wherever the corresponding series and products are convergent. In the last equation, we have used the Euler product representation of the Riemann zeta function. 
+  
+    
+      
+        ⊡
+      
+    
+    {\displaystyle \boxdot }
+  
+The lemma implies that for 
+  
+    
+      
+        ℜ
+        (
+        s
+        )
+        >
+        1
+      
+    
+    {\displaystyle \Re (s)>1}
+  , 
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  D
+                  
+                    ω
+                  
+                
+                (
+                s
+                )
+              
+              
+                
+                :=
+                
+                  ∑
+                  
+                    n
+                    ≥
+                    1
+                  
+                
+                
+                  
+                    
+                      ω
+                      (
+                      n
+                      )
+                    
+                    
+                      n
+                      
+                        s
+                      
+                    
+                  
+                
+                =
+                ζ
+                (
+                s
+                )
+                P
+                (
+                s
+                )
+              
+            
+            
+              
+                
+                  D
+                  
+                    Ω
+                  
+                
+                (
+                s
+                )
+              
+              
+                
+                :=
+                
+                  ∑
+                  
+                    n
+                    ≥
+                    1
+                  
+                
+                
+                  
+                    
+                      Ω
+                      (
+                      n
+                      )
+                    
+                    
+                      n
+                      
+                        s
+                      
+                    
+                  
+                
+                =
+                ζ
+                (
+                s
+                )
+                ×
+                
+                  ∑
+                  
+                    n
+                    ≥
+                    1
+                  
+                
+                P
+                (
+                n
+                s
+                )
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}D_{\omega }(s)&:=\sum _{n\geq 1}{\frac {\omega (n)}{n^{s}}}=\zeta (s)P(s)\\D_{\Omega }(s)&:=\sum _{n\geq 1}{\frac {\Omega (n)}{n^{s}}}=\zeta (s)\times \sum _{n\geq 1}P(ns),\end{aligned}}}
+  where 
+  
+    
+      
+        P
+        (
+        s
+        )
+      
+    
+    {\displaystyle P(s)}
+   is the prime zeta function.
+
+
+== See also ==
+Additive function
+Arithmetic function
+Erdős–Kac theorem
+Omega function (disambiguation)
+Prime number
+Square-free integer
+
+
+== Notes ==
+
+
+== References ==
+G. H. Hardy and E. M. Wright (2006). An Introduction to the Theory of Numbers (6th ed.). Oxford University Press.
+Schmidt, Maxie. "Factorization Theorems for Hadamard Products and Higher-Order Derivatives of Lambert Series Generating Functions". arXiv:1712.00608.
+Weisstein, Eric. "Distinct Prime Factors". MathWorld. Retrieved 22 April 2018.
+
+
+== External links ==
+OEIS Wiki for related sequence numbers and tables
+OEIS Wiki on Prime Factors

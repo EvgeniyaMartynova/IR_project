@@ -1,0 +1,3398 @@
+Approximately finite dimensional C*-algebra
+
+In mathematics, a Caccioppoli set is a set whose boundary is measurable and has (at least locally) a finite measure. A synonym is set of (locally) finite perimeter. Basically, a set is a Caccioppoli set if its characteristic function is a function of bounded variation.
+
+
+== History ==
+The basic concept of a Caccioppoli set was firstly introduced by the Italian mathematician Renato Caccioppoli in the paper (Caccioppoli 1927): considering a plane set or a surface defined on an open set in the plane, he defined their measure or area as the total variation in the sense of Tonelli of their defining functions, i.e. of their parametric equations, provided this quantity was bounded. The measure of the boundary of a set was defined as a functional, precisely a set function, for the first time: also, being defined on open sets, it can be defined on all Borel sets and its value can be approximated by the values it takes  on an increasing net of subsets. Another clearly stated (and demonstrated) property of this functional was its lower semi-continuity.
+In the paper (Caccioppoli 1928), he precised  by using a triangular mesh as an increasing net approximating the open domain, defining positive and negative variations whose sum is the total variation, i.e. the area functional. His inspiring point of view, as he explicitly admitted, was those of Giuseppe Peano, as expressed by the Peano-Jordan Measure: to associate to every portion of a surface an oriented plane area in a similar way as an approximating chord is associated to a curve. Also, another theme found in this theory was the extension of a functional from a subspace to the whole ambient space: the use of theorems generalizing the Hahn–Banach theorem is frequently encountered in Caccioppoli research. However, the restricted meaning of total variation in the sense of Tonelli added much complication to the formal development of the theory, and the use of a parametric description of the sets restricted its scope.
+Lamberto Cesari introduced the "right" generalization of functions of bounded variation to the case of several variables only in 1936: perhaps, this was one of the reasons that induced Caccioppoli to present an improved version of his theory only nearly 24 years later, in the talk (Caccioppoli 1953) at the IV UMI Congress in October 1951, followed by five notes published in the Rendiconti of the Accademia Nazionale dei Lincei. These notes were sharply criticized by Laurence Chisholm Young in the Mathematical Reviews.In 1952 Ennio de Giorgi presented his first results, developing the ideas of Caccioppoli, on the definition of the measure of boundaries of sets at the Salzburg Congress of the Austrian Mathematical Society: he obtained this results by using a smoothing operator, analogous to a mollifier, constructed from the Gaussian function, independently proving some results of Caccioppoli. Probably he was led to study this theory by his teacher and friend Mauro Picone, who had also been the teacher of Caccioppoli and was likewise his friend. De Giorgi met Caccioppoli in 1953 for the first time: during their meeting, Caccioppoli expressed a profound appreciation of his work, starting their lifelong friendship. The same year he published his first paper on the topic i.e. (De Giorgi 1953): however, this paper and the closely following one did not attracted much interest from the mathematical community. It was only with the paper (De Giorgi 1954), reviewed again by Laurence Chisholm Young in the Mathematical Reviews, that his approach to sets of finite perimeter became widely known and appreciated: also, in the review, Young revised  his previous criticism on the work of Caccioppoli.
+The last paper of De Giorgi on the theory of perimeters was published in 1958: in 1959, after the death of Caccioppoli, he started to call sets of finite perimeter "Caccioppoli sets". Two years later Herbert Federer and Wendell Fleming published their paper (Federer & Fleming 1960), changing the approach to the theory. Basically they introduced two new kind of currents, respectively normal currents and integral currents: in a subsequent series of papers and in his famous treatise, Federer showed that Caccioppoli sets are normal currents of dimension 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+   in 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  -dimensional euclidean spaces. However, even if the theory of Caccioppoli sets can be studied within the framework of theory of currents, it is customary to study it through the "traditional" approach using functions of bounded variation, as the various sections found in a lot of important monographs in mathematics and mathematical physics testify.
+
+
+== Formal definition ==
+In what follows, the definition and properties of functions of bounded variation in the 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  -dimensional setting will be used.
+
+
+=== Caccioppoli definition ===
+Definition 1. Let 
+  
+    
+      
+        Ω
+      
+    
+    {\displaystyle \Omega }
+   be an open subset of 
+  
+    
+      
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{n}}
+   and let 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+   be a Borel set. The perimeter of 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+   in 
+  
+    
+      
+        Ω
+      
+    
+    {\displaystyle \Omega }
+   is defined as follows
+
+  
+    
+      
+        P
+        (
+        E
+        ,
+        Ω
+        )
+        =
+        V
+        
+          (
+          
+            
+              χ
+              
+                E
+              
+            
+            ,
+            Ω
+          
+          )
+        
+        :=
+        sup
+        
+          {
+          
+            
+              ∫
+              
+                Ω
+              
+            
+            
+              χ
+              
+                E
+              
+            
+            (
+            x
+            )
+            
+              d
+              i
+              v
+            
+            
+              ϕ
+            
+            (
+            x
+            )
+            
+            
+              d
+            
+            x
+            :
+            
+              ϕ
+            
+            ∈
+            
+              C
+              
+                c
+              
+              
+                1
+              
+            
+            (
+            Ω
+            ,
+            
+              
+                R
+              
+              
+                n
+              
+            
+            )
+            ,
+             
+            ‖
+            
+              ϕ
+            
+            
+              ‖
+              
+                
+                  L
+                  
+                    ∞
+                  
+                
+                (
+                Ω
+                )
+              
+            
+            ≤
+            1
+          
+          }
+        
+      
+    
+    {\displaystyle P(E,\Omega )=V\left(\chi _{E},\Omega \right):=\sup \left\{\int _{\Omega }\chi _{E}(x)\mathrm {div} {\boldsymbol {\phi }}(x)\,\mathrm {d} x:{\boldsymbol {\phi }}\in C_{c}^{1}(\Omega ,\mathbb {R} ^{n}),\ \|{\boldsymbol {\phi }}\|_{L^{\infty }(\Omega )}\leq 1\right\}}
+  where 
+  
+    
+      
+        
+          χ
+          
+            E
+          
+        
+      
+    
+    {\displaystyle \chi _{E}}
+   is the characteristic function of 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+  . That is, the perimeter of 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+   in an open set 
+  
+    
+      
+        Ω
+      
+    
+    {\displaystyle \Omega }
+   is defined to be the total variation of its characteristic function on that open set. If 
+  
+    
+      
+        Ω
+        =
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \Omega =\mathbb {R} ^{n}}
+  , then we write 
+  
+    
+      
+        P
+        (
+        E
+        )
+        =
+        P
+        (
+        E
+        ,
+        
+          
+            R
+          
+          
+            n
+          
+        
+        )
+      
+    
+    {\displaystyle P(E)=P(E,\mathbb {R} ^{n})}
+   for the (global) perimeter.
+Definition 2. The Borel set 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+   is a Caccioppoli set if and only if it has finite perimeter in every bounded open subset 
+  
+    
+      
+        Ω
+      
+    
+    {\displaystyle \Omega }
+   of 
+  
+    
+      
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{n}}
+  , i.e.
+
+  
+    
+      
+        P
+        (
+        E
+        ,
+        Ω
+        )
+        <
+        +
+        ∞
+      
+    
+    {\displaystyle P(E,\Omega )<+\infty }
+   whenever 
+  
+    
+      
+        Ω
+        ⊂
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \Omega \subset \mathbb {R} ^{n}}
+   is open and bounded.Therefore, a Caccioppoli set has a characteristic function whose total variation is locally bounded. From the theory of functions of bounded variation it is known that this implies the existence of a vector-valued Radon measure 
+  
+    
+      
+        D
+        
+          χ
+          
+            E
+          
+        
+      
+    
+    {\displaystyle D\chi _{E}}
+   such that
+
+  
+    
+      
+        
+          ∫
+          
+            Ω
+          
+        
+        
+          χ
+          
+            E
+          
+        
+        (
+        x
+        )
+        
+          d
+          i
+          v
+        
+        
+          ϕ
+        
+        (
+        x
+        )
+        
+          d
+        
+        x
+        =
+        
+          ∫
+          
+            E
+          
+        
+        
+          d
+          i
+          v
+        
+        
+          ϕ
+        
+        (
+        x
+        )
+        
+        
+          d
+        
+        x
+        =
+        −
+        
+          ∫
+          
+            Ω
+          
+        
+        ⟨
+        
+          ϕ
+        
+        ,
+        D
+        
+          χ
+          
+            E
+          
+        
+        (
+        x
+        )
+        ⟩
+        
+        ∀
+        
+          ϕ
+        
+        ∈
+        
+          C
+          
+            c
+          
+          
+            1
+          
+        
+        (
+        Ω
+        ,
+        
+          
+            R
+          
+          
+            n
+          
+        
+        )
+      
+    
+    {\displaystyle \int _{\Omega }\chi _{E}(x)\mathrm {div} {\boldsymbol {\phi }}(x)\mathrm {d} x=\int _{E}\mathrm {div} {\boldsymbol {\phi }}(x)\,\mathrm {d} x=-\int _{\Omega }\langle {\boldsymbol {\phi }},D\chi _{E}(x)\rangle \qquad \forall {\boldsymbol {\phi }}\in C_{c}^{1}(\Omega ,\mathbb {R} ^{n})}
+  As noted for the case of general functions of bounded variation, this vector measure 
+  
+    
+      
+        D
+        
+          χ
+          
+            E
+          
+        
+      
+    
+    {\displaystyle D\chi _{E}}
+   is the distributional or weak gradient of 
+  
+    
+      
+        
+          χ
+          
+            E
+          
+        
+      
+    
+    {\displaystyle \chi _{E}}
+  . The total variation measure associated with 
+  
+    
+      
+        D
+        
+          χ
+          
+            E
+          
+        
+      
+    
+    {\displaystyle D\chi _{E}}
+   is denoted by 
+  
+    
+      
+        
+          |
+        
+        D
+        
+          χ
+          
+            E
+          
+        
+        
+          |
+        
+      
+    
+    {\displaystyle |D\chi _{E}|}
+  , i.e. for every open set 
+  
+    
+      
+        Ω
+        ⊂
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \Omega \subset \mathbb {R} ^{n}}
+   we write 
+  
+    
+      
+        
+          |
+        
+        D
+        
+          χ
+          
+            E
+          
+        
+        
+          |
+        
+        (
+        Ω
+        )
+      
+    
+    {\displaystyle |D\chi _{E}|(\Omega )}
+   for 
+  
+    
+      
+        P
+        (
+        E
+        ,
+        Ω
+        )
+        =
+        V
+        (
+        
+          χ
+          
+            E
+          
+        
+        ,
+        Ω
+        )
+      
+    
+    {\displaystyle P(E,\Omega )=V(\chi _{E},\Omega )}
+  .
+
+
+=== De Giorgi definition ===
+In his papers (De Giorgi 1953) and (De Giorgi 1954), Ennio de Giorgi introduces the following smoothing operator, analogous to the Weierstrass transform in the one-dimensional case
+
+  
+    
+      
+        
+          W
+          
+            λ
+          
+        
+        
+          χ
+          
+            E
+          
+        
+        (
+        x
+        )
+        =
+        
+          ∫
+          
+            
+              
+                R
+              
+              
+                n
+              
+            
+          
+        
+        
+          g
+          
+            λ
+          
+        
+        (
+        x
+        −
+        y
+        )
+        
+          χ
+          
+            E
+          
+        
+        (
+        y
+        )
+        
+          d
+        
+        y
+        =
+        (
+        π
+        λ
+        
+          )
+          
+            −
+            
+              
+                n
+                2
+              
+            
+          
+        
+        
+          ∫
+          
+            E
+          
+        
+        
+          e
+          
+            −
+            
+              
+                
+                  (
+                  x
+                  −
+                  y
+                  
+                    )
+                    
+                      2
+                    
+                  
+                
+                λ
+              
+            
+          
+        
+        
+          d
+        
+        y
+      
+    
+    {\displaystyle W_{\lambda }\chi _{E}(x)=\int _{\mathbb {R} ^{n}}g_{\lambda }(x-y)\chi _{E}(y)\mathrm {d} y=(\pi \lambda )^{-{\frac {n}{2}}}\int _{E}e^{-{\frac {(x-y)^{2}}{\lambda }}}\mathrm {d} y}
+  As one can easily prove, 
+  
+    
+      
+        
+          W
+          
+            λ
+          
+        
+        χ
+        (
+        x
+        )
+      
+    
+    {\displaystyle W_{\lambda }\chi (x)}
+   is a smooth function for all 
+  
+    
+      
+        x
+        ∈
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle x\in \mathbb {R} ^{n}}
+  , such that
+
+  
+    
+      
+        
+          lim
+          
+            λ
+            →
+            0
+          
+        
+        
+          W
+          
+            λ
+          
+        
+        
+          χ
+          
+            E
+          
+        
+        (
+        x
+        )
+        =
+        
+          χ
+          
+            E
+          
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle \lim _{\lambda \to 0}W_{\lambda }\chi _{E}(x)=\chi _{E}(x)}
+  also, its gradient is everywhere well defined, and so is its absolute value
+
+  
+    
+      
+        ∇
+        
+          W
+          
+            λ
+          
+        
+        
+          χ
+          
+            E
+          
+        
+        (
+        x
+        )
+        =
+        
+          g
+          r
+          a
+          d
+        
+        
+          W
+          
+            λ
+          
+        
+        
+          χ
+          
+            E
+          
+        
+        (
+        x
+        )
+        =
+        D
+        
+          W
+          
+            λ
+          
+        
+        
+          χ
+          
+            E
+          
+        
+        (
+        x
+        )
+        =
+        
+          
+            (
+            
+              
+                
+                  
+                    
+                      
+                        ∂
+                        
+                          W
+                          
+                            λ
+                          
+                        
+                        
+                          χ
+                          
+                            E
+                          
+                        
+                        (
+                        x
+                        )
+                      
+                      
+                        ∂
+                        
+                          x
+                          
+                            1
+                          
+                        
+                      
+                    
+                  
+                
+              
+              
+                
+                  ⋮
+                
+              
+              
+                
+                  
+                    
+                      
+                        ∂
+                        
+                          W
+                          
+                            λ
+                          
+                        
+                        
+                          χ
+                          
+                            E
+                          
+                        
+                        (
+                        x
+                        )
+                      
+                      
+                        ∂
+                        
+                          x
+                          
+                            n
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+            )
+          
+        
+        ⟺
+        
+          |
+          
+            D
+            
+              W
+              
+                λ
+              
+            
+            
+              χ
+              
+                E
+              
+            
+            (
+            x
+            )
+          
+          |
+        
+        =
+        
+          
+            
+              ∑
+              
+                k
+                =
+                1
+              
+              
+                n
+              
+            
+            
+              
+                |
+                
+                  
+                    
+                      ∂
+                      
+                        W
+                        
+                          λ
+                        
+                      
+                      
+                        χ
+                        
+                          E
+                        
+                      
+                      (
+                      x
+                      )
+                    
+                    
+                      ∂
+                      
+                        x
+                        
+                          k
+                        
+                      
+                    
+                  
+                
+                |
+              
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle \nabla W_{\lambda }\chi _{E}(x)=\mathrm {grad} W_{\lambda }\chi _{E}(x)=DW_{\lambda }\chi _{E}(x)={\begin{pmatrix}{\frac {\partial W_{\lambda }\chi _{E}(x)}{\partial x_{1}}}\\\vdots \\{\frac {\partial W_{\lambda }\chi _{E}(x)}{\partial x_{n}}}\\\end{pmatrix}}\Longleftrightarrow \left|DW_{\lambda }\chi _{E}(x)\right|={\sqrt {\sum _{k=1}^{n}\left|{\frac {\partial W_{\lambda }\chi _{E}(x)}{\partial x_{k}}}\right|^{2}}}}
+  Having defined this function, De Giorgi gives the following definition of perimeter:
+Definition 3. Let 
+  
+    
+      
+        Ω
+      
+    
+    {\displaystyle \Omega }
+   be an open subset of 
+  
+    
+      
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{n}}
+   and let 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+   be a Borel set. The perimeter of 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+   in 
+  
+    
+      
+        Ω
+      
+    
+    {\displaystyle \Omega }
+   is the value
+
+  
+    
+      
+        P
+        (
+        E
+        ,
+        Ω
+        )
+        =
+        
+          lim
+          
+            λ
+            →
+            0
+          
+        
+        
+          ∫
+          
+            Ω
+          
+        
+        
+          |
+        
+        D
+        
+          W
+          
+            λ
+          
+        
+        
+          χ
+          
+            E
+          
+        
+        (
+        x
+        )
+        
+          |
+        
+        
+          d
+        
+        x
+      
+    
+    {\displaystyle P(E,\Omega )=\lim _{\lambda \to 0}\int _{\Omega }|DW_{\lambda }\chi _{E}(x)|\mathrm {d} x}
+  Actually De Giorgi considered the case 
+  
+    
+      
+        Ω
+        =
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \Omega =\mathbb {R} ^{n}}
+  : however, the extension to the general case is not difficult. It can be proved that the two definitions are exactly equivalent: for a proof see the already cited De Giorgi's papers or the book (Giusti 1984). Now having defined what a perimeter is, De Giorgi gives the same definition 2 of what a set of (locally) finite perimeter is.
+
+
+== Basic properties ==
+The following properties are the ordinary properties which the general notion of a perimeter is supposed to have:
+
+If 
+  
+    
+      
+        Ω
+        ⊆
+        
+          Ω
+          
+            1
+          
+        
+      
+    
+    {\displaystyle \Omega \subseteq \Omega _{1}}
+   then 
+  
+    
+      
+        P
+        (
+        E
+        ,
+        Ω
+        )
+        ≤
+        P
+        (
+        E
+        ,
+        
+          Ω
+          
+            1
+          
+        
+        )
+      
+    
+    {\displaystyle P(E,\Omega )\leq P(E,\Omega _{1})}
+  , with equality holding if and only if the closure of 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+   is a compact subset of 
+  
+    
+      
+        Ω
+      
+    
+    {\displaystyle \Omega }
+  .
+For any two Cacciopoli sets 
+  
+    
+      
+        
+          E
+          
+            1
+          
+        
+      
+    
+    {\displaystyle E_{1}}
+   and 
+  
+    
+      
+        
+          E
+          
+            2
+          
+        
+      
+    
+    {\displaystyle E_{2}}
+  , the relation 
+  
+    
+      
+        P
+        (
+        
+          E
+          
+            1
+          
+        
+        ∪
+        
+          E
+          
+            2
+          
+        
+        ,
+        Ω
+        )
+        ≤
+        P
+        (
+        
+          E
+          
+            1
+          
+        
+        ,
+        Ω
+        )
+        +
+        P
+        (
+        
+          E
+          
+            2
+          
+        
+        ,
+        
+          Ω
+          
+            1
+          
+        
+        )
+      
+    
+    {\displaystyle P(E_{1}\cup E_{2},\Omega )\leq P(E_{1},\Omega )+P(E_{2},\Omega _{1})}
+   holds, with equality holding if and only if 
+  
+    
+      
+        d
+        (
+        
+          E
+          
+            1
+          
+        
+        ,
+        
+          E
+          
+            2
+          
+        
+        )
+        >
+        0
+      
+    
+    {\displaystyle d(E_{1},E_{2})>0}
+  , where 
+  
+    
+      
+        d
+      
+    
+    {\displaystyle d}
+   is the distance between sets in euclidean space.
+If the Lebesgue measure of 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+   is 
+  
+    
+      
+        0
+      
+    
+    {\displaystyle 0}
+  , then 
+  
+    
+      
+        P
+        (
+        E
+        )
+        =
+        0
+      
+    
+    {\displaystyle P(E)=0}
+  : this implies that if the symmetric difference 
+  
+    
+      
+        
+          E
+          
+            1
+          
+        
+        △
+        
+          E
+          
+            2
+          
+        
+      
+    
+    {\displaystyle E_{1}\triangle E_{2}}
+   of two sets has zero Lebesgue measure, the two sets have the same perimeter i.e. 
+  
+    
+      
+        P
+        (
+        
+          E
+          
+            1
+          
+        
+        )
+        =
+        P
+        (
+        
+          E
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle P(E_{1})=P(E_{2})}
+  .
+
+
+== Notions of boundary ==
+For any given Caccioppoli set 
+  
+    
+      
+        E
+        ⊂
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle E\subset \mathbb {R} ^{n}}
+   there exist two naturally associated analytic quantities: the vector-valued Radon measure 
+  
+    
+      
+        D
+        
+          χ
+          
+            E
+          
+        
+      
+    
+    {\displaystyle D\chi _{E}}
+   and its total variation measure 
+  
+    
+      
+        
+          |
+        
+        D
+        
+          χ
+          
+            E
+          
+        
+        
+          |
+        
+      
+    
+    {\displaystyle |D\chi _{E}|}
+  . Given that
+
+  
+    
+      
+        P
+        (
+        E
+        ,
+        Ω
+        )
+        =
+        
+          ∫
+          
+            Ω
+          
+        
+        
+          |
+        
+        D
+        
+          χ
+          
+            E
+          
+        
+        
+          |
+        
+      
+    
+    {\displaystyle P(E,\Omega )=\int _{\Omega }|D\chi _{E}|}
+  is the perimeter within any open set 
+  
+    
+      
+        Ω
+      
+    
+    {\displaystyle \Omega }
+  , one should expect that 
+  
+    
+      
+        D
+        
+          χ
+          
+            E
+          
+        
+      
+    
+    {\displaystyle D\chi _{E}}
+   alone should somehow account for the perimeter of 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+  .
+
+
+=== The topological boundary ===
+It is natural to try to understand the relationship between the objects 
+  
+    
+      
+        D
+        
+          χ
+          
+            E
+          
+        
+      
+    
+    {\displaystyle D\chi _{E}}
+  , 
+  
+    
+      
+        
+          |
+        
+        D
+        
+          χ
+          
+            E
+          
+        
+        
+          |
+        
+      
+    
+    {\displaystyle |D\chi _{E}|}
+  , and the topological boundary 
+  
+    
+      
+        ∂
+        E
+      
+    
+    {\displaystyle \partial E}
+  . There is an elementary lemma that guarantees that the support (in the sense of distributions) of 
+  
+    
+      
+        D
+        
+          χ
+          
+            E
+          
+        
+      
+    
+    {\displaystyle D\chi _{E}}
+  , and therefore also 
+  
+    
+      
+        
+          |
+        
+        D
+        
+          χ
+          
+            E
+          
+        
+        
+          |
+        
+      
+    
+    {\displaystyle |D\chi _{E}|}
+  , is always contained in 
+  
+    
+      
+        ∂
+        E
+      
+    
+    {\displaystyle \partial E}
+  :
+Lemma. The support of the vector-valued Radon measure 
+  
+    
+      
+        D
+        
+          χ
+          
+            E
+          
+        
+      
+    
+    {\displaystyle D\chi _{E}}
+   is a subset of the topological boundary 
+  
+    
+      
+        ∂
+        E
+      
+    
+    {\displaystyle \partial E}
+   of 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+  .
+Proof. To see this choose 
+  
+    
+      
+        
+          x
+          
+            0
+          
+        
+        ∉
+        ∂
+        E
+      
+    
+    {\displaystyle x_{0}\notin \partial E}
+  : then 
+  
+    
+      
+        
+          x
+          
+            0
+          
+        
+      
+    
+    {\displaystyle x_{0}}
+   belongs to the open set 
+  
+    
+      
+        
+          
+            R
+          
+          
+            n
+          
+        
+        ∖
+        ∂
+        E
+      
+    
+    {\displaystyle \mathbb {R} ^{n}\setminus \partial E}
+   and this implies that it belongs to an open neighborhood 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+   contained in the interior of 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+   or in the interior of 
+  
+    
+      
+        
+          
+            R
+          
+          
+            n
+          
+        
+        ∖
+        E
+      
+    
+    {\displaystyle \mathbb {R} ^{n}\setminus E}
+  . Let 
+  
+    
+      
+        ϕ
+        ∈
+        
+          C
+          
+            c
+          
+          
+            1
+          
+        
+        (
+        A
+        ;
+        
+          
+            R
+          
+          
+            n
+          
+        
+        )
+      
+    
+    {\displaystyle \phi \in C_{c}^{1}(A;\mathbb {R} ^{n})}
+  . If 
+  
+    
+      
+        A
+        ⊆
+        (
+        
+          
+            R
+          
+          
+            n
+          
+        
+        ∖
+        E
+        
+          )
+          
+            ∘
+          
+        
+        =
+        
+          
+            R
+          
+          
+            n
+          
+        
+        ∖
+        
+          E
+          
+            −
+          
+        
+      
+    
+    {\displaystyle A\subseteq (\mathbb {R} ^{n}\setminus E)^{\circ }=\mathbb {R} ^{n}\setminus E^{-}}
+   where 
+  
+    
+      
+        
+          E
+          
+            −
+          
+        
+      
+    
+    {\displaystyle E^{-}}
+   is the closure of 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+  , then 
+  
+    
+      
+        
+          χ
+          
+            E
+          
+        
+        (
+        x
+        )
+        =
+        0
+      
+    
+    {\displaystyle \chi _{E}(x)=0}
+   for 
+  
+    
+      
+        x
+        ∈
+        A
+      
+    
+    {\displaystyle x\in A}
+   and
+
+  
+    
+      
+        
+          ∫
+          
+            Ω
+          
+        
+        ⟨
+        
+          ϕ
+        
+        ,
+        D
+        
+          χ
+          
+            E
+          
+        
+        (
+        x
+        )
+        ⟩
+        =
+        −
+        
+          ∫
+          
+            A
+          
+        
+        
+          χ
+          
+            E
+          
+        
+        (
+        x
+        )
+        
+        div
+        ⁡
+        
+          ϕ
+        
+        (
+        x
+        )
+        
+        
+          d
+        
+        x
+        =
+        0
+      
+    
+    {\displaystyle \int _{\Omega }\langle {\boldsymbol {\phi }},D\chi _{E}(x)\rangle =-\int _{A}\chi _{E}(x)\,\operatorname {div} {\boldsymbol {\phi }}(x)\,\mathrm {d} x=0}
+  Likewise, if 
+  
+    
+      
+        A
+        ⊆
+        
+          E
+          
+            ∘
+          
+        
+      
+    
+    {\displaystyle A\subseteq E^{\circ }}
+   then 
+  
+    
+      
+        
+          χ
+          
+            E
+          
+        
+        (
+        x
+        )
+        =
+        1
+      
+    
+    {\displaystyle \chi _{E}(x)=1}
+   for 
+  
+    
+      
+        x
+        ∈
+        A
+      
+    
+    {\displaystyle x\in A}
+   so
+
+  
+    
+      
+        
+          ∫
+          
+            Ω
+          
+        
+        ⟨
+        
+          ϕ
+        
+        ,
+        D
+        
+          χ
+          
+            E
+          
+        
+        (
+        x
+        )
+        ⟩
+        =
+        −
+        
+          ∫
+          
+            A
+          
+        
+        div
+        ⁡
+        
+          ϕ
+        
+        (
+        x
+        )
+        
+        
+          d
+        
+        x
+        =
+        0
+      
+    
+    {\displaystyle \int _{\Omega }\langle {\boldsymbol {\phi }},D\chi _{E}(x)\rangle =-\int _{A}\operatorname {div} {\boldsymbol {\phi }}(x)\,\mathrm {d} x=0}
+  With 
+  
+    
+      
+        ϕ
+        ∈
+        
+          C
+          
+            c
+          
+          
+            1
+          
+        
+        (
+        A
+        ,
+        
+          
+            R
+          
+          
+            n
+          
+        
+        )
+      
+    
+    {\displaystyle \phi \in C_{c}^{1}(A,\mathbb {R} ^{n})}
+   arbitrary it follows that 
+  
+    
+      
+        
+          x
+          
+            0
+          
+        
+      
+    
+    {\displaystyle x_{0}}
+   is outside the support of 
+  
+    
+      
+        D
+        
+          χ
+          
+            E
+          
+        
+      
+    
+    {\displaystyle D\chi _{E}}
+  .
+
+
+=== The reduced boundary ===
+The topological boundary 
+  
+    
+      
+        ∂
+        E
+      
+    
+    {\displaystyle \partial E}
+   turns out to be too crude for Caccioppoli sets because its Hausdorff measure overcompensates for the perimeter 
+  
+    
+      
+        P
+        (
+        E
+        )
+      
+    
+    {\displaystyle P(E)}
+   defined above. Indeed, the Caccioppoli set
+
+  
+    
+      
+        E
+        =
+        {
+        (
+        x
+        ,
+        y
+        )
+        :
+        0
+        ≤
+        x
+        ,
+        y
+        ≤
+        1
+        }
+        ∪
+        {
+        (
+        x
+        ,
+        0
+        )
+        :
+        −
+        1
+        ≤
+        x
+        ≤
+        1
+        }
+        ⊂
+        
+          
+            R
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle E=\{(x,y):0\leq x,y\leq 1\}\cup \{(x,0):-1\leq x\leq 1\}\subset \mathbb {R} ^{2}}
+  representing a square together with a line segment sticking out on the left has perimeter 
+  
+    
+      
+        P
+        (
+        E
+        )
+        =
+        4
+      
+    
+    {\displaystyle P(E)=4}
+  , i.e. the extraneous line segment is ignored, while its topological boundary
+
+  
+    
+      
+        ∂
+        E
+        =
+        {
+        (
+        x
+        ,
+        0
+        )
+        :
+        −
+        1
+        ≤
+        x
+        ≤
+        1
+        }
+        ∪
+        {
+        (
+        x
+        ,
+        1
+        )
+        :
+        0
+        ≤
+        x
+        ≤
+        1
+        }
+        ∪
+        {
+        (
+        x
+        ,
+        y
+        )
+        :
+        x
+        ∈
+        {
+        0
+        ,
+        1
+        }
+        ,
+        0
+        ≤
+        y
+        ≤
+        1
+        }
+      
+    
+    {\displaystyle \partial E=\{(x,0):-1\leq x\leq 1\}\cup \{(x,1):0\leq x\leq 1\}\cup \{(x,y):x\in \{0,1\},0\leq y\leq 1\}}
+  has one-dimensional Hausdorff measure 
+  
+    
+      
+        
+          
+            
+              H
+            
+          
+          
+            1
+          
+        
+        (
+        ∂
+        E
+        )
+        =
+        5
+      
+    
+    {\displaystyle {\mathcal {H}}^{1}(\partial E)=5}
+  .
+The "correct" boundary should therefore be a subset of 
+  
+    
+      
+        ∂
+        E
+      
+    
+    {\displaystyle \partial E}
+  . We define:
+Definition 4. The reduced boundary of a Caccioppoli set 
+  
+    
+      
+        E
+        ⊂
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle E\subset \mathbb {R} ^{n}}
+   is denoted by 
+  
+    
+      
+        
+          ∂
+          
+            ∗
+          
+        
+        E
+      
+    
+    {\displaystyle \partial ^{*}E}
+   and is defined to be equal to be the collection of points 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+   at which the limit:
+
+  
+    
+      
+        
+          ν
+          
+            E
+          
+        
+        (
+        x
+        )
+        :=
+        
+          lim
+          
+            ρ
+            ↓
+            0
+          
+        
+        
+          
+            
+              D
+              
+                χ
+                
+                  E
+                
+              
+              (
+              
+                B
+                
+                  ρ
+                
+              
+              (
+              x
+              )
+              )
+            
+            
+              
+                |
+              
+              D
+              
+                χ
+                
+                  E
+                
+              
+              
+                |
+              
+              (
+              
+                B
+                
+                  ρ
+                
+              
+              (
+              x
+              )
+              )
+            
+          
+        
+        ∈
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \nu _{E}(x):=\lim _{\rho \downarrow 0}{\frac {D\chi _{E}(B_{\rho }(x))}{|D\chi _{E}|(B_{\rho }(x))}}\in \mathbb {R} ^{n}}
+  exists and has length equal to one, i.e. 
+  
+    
+      
+        
+          |
+        
+        
+          ν
+          
+            E
+          
+        
+        (
+        x
+        )
+        
+          |
+        
+        =
+        1
+      
+    
+    {\displaystyle |\nu _{E}(x)|=1}
+  .
+One can remark that by the Radon-Nikodym Theorem the reduced boundary 
+  
+    
+      
+        
+          ∂
+          
+            ∗
+          
+        
+        E
+      
+    
+    {\displaystyle \partial ^{*}E}
+   is necessarily contained in the support of 
+  
+    
+      
+        D
+        
+          χ
+          
+            E
+          
+        
+      
+    
+    {\displaystyle D\chi _{E}}
+  , which in turn is contained in the topological boundary 
+  
+    
+      
+        ∂
+        E
+      
+    
+    {\displaystyle \partial E}
+   as explained in the section above. That is:
+
+  
+    
+      
+        
+          ∂
+          
+            ∗
+          
+        
+        E
+        ⊆
+        support
+        ⁡
+        D
+        
+          χ
+          
+            E
+          
+        
+        ⊆
+        ∂
+        E
+      
+    
+    {\displaystyle \partial ^{*}E\subseteq \operatorname {support} D\chi _{E}\subseteq \partial E}
+  The inclusions above are not necessarily equalities as the previous example shows. In that example, 
+  
+    
+      
+        ∂
+        E
+      
+    
+    {\displaystyle \partial E}
+   is the square with the segment sticking out, 
+  
+    
+      
+        support
+        ⁡
+        D
+        
+          χ
+          
+            E
+          
+        
+      
+    
+    {\displaystyle \operatorname {support} D\chi _{E}}
+   is the square, and 
+  
+    
+      
+        
+          ∂
+          
+            ∗
+          
+        
+        E
+      
+    
+    {\displaystyle \partial ^{*}E}
+   is the square without its four corners.
+
+
+=== De Giorgi's theorem ===
+For convenience, in this section we treat only the case where 
+  
+    
+      
+        Ω
+        =
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \Omega =\mathbb {R} ^{n}}
+  , i.e. the set 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+   has (globally) finite perimeter. De Giorgi's theorem provides geometric intuition for the notion of reduced boundaries and confirms that it is the more natural definition for Caccioppoli sets by showing
+
+  
+    
+      
+        P
+        (
+        E
+        )
+        
+          (
+          
+            =
+            ∫
+            
+              |
+            
+            D
+            
+              χ
+              
+                E
+              
+            
+            
+              |
+            
+          
+          )
+        
+        =
+        
+          
+            
+              H
+            
+          
+          
+            n
+            −
+            1
+          
+        
+        (
+        
+          ∂
+          
+            ∗
+          
+        
+        E
+        )
+      
+    
+    {\displaystyle P(E)\left(=\int |D\chi _{E}|\right)={\mathcal {H}}^{n-1}(\partial ^{*}E)}
+  i.e. that its Hausdorff measure equals the perimeter of the set. The statement of the theorem is quite long because it interrelates various geometric notions in one fell swoop.
+Theorem. Suppose 
+  
+    
+      
+        E
+        ⊂
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle E\subset \mathbb {R} ^{n}}
+   is a Caccioppoli set. Then at each point 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+   of the reduced boundary 
+  
+    
+      
+        
+          ∂
+          
+            ∗
+          
+        
+        E
+      
+    
+    {\displaystyle \partial ^{*}E}
+   there exists a multiplicity one approximate tangent space 
+  
+    
+      
+        
+          T
+          
+            x
+          
+        
+      
+    
+    {\displaystyle T_{x}}
+   of 
+  
+    
+      
+        
+          |
+        
+        D
+        
+          χ
+          
+            E
+          
+        
+        
+          |
+        
+      
+    
+    {\displaystyle |D\chi _{E}|}
+  , i.e. a codimension-1 subspace 
+  
+    
+      
+        
+          T
+          
+            x
+          
+        
+      
+    
+    {\displaystyle T_{x}}
+   of 
+  
+    
+      
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{n}}
+   such that
+
+  
+    
+      
+        
+          lim
+          
+            λ
+            ↓
+            0
+          
+        
+        
+          ∫
+          
+            
+              
+                R
+              
+              
+                n
+              
+            
+          
+        
+        f
+        (
+        
+          λ
+          
+            −
+            1
+          
+        
+        (
+        z
+        −
+        x
+        )
+        )
+        
+          |
+        
+        D
+        
+          χ
+          
+            E
+          
+        
+        
+          |
+        
+        (
+        z
+        )
+        =
+        
+          ∫
+          
+            
+              T
+              
+                x
+              
+            
+          
+        
+        f
+        (
+        y
+        )
+        
+        d
+        
+          
+            
+              H
+            
+          
+          
+            n
+            −
+            1
+          
+        
+        (
+        y
+        )
+      
+    
+    {\displaystyle \lim _{\lambda \downarrow 0}\int _{\mathbb {R} ^{n}}f(\lambda ^{-1}(z-x))|D\chi _{E}|(z)=\int _{T_{x}}f(y)\,d{\mathcal {H}}^{n-1}(y)}
+  for every continuous, compactly supported 
+  
+    
+      
+        f
+        :
+        
+          
+            R
+          
+          
+            n
+          
+        
+        →
+        
+          R
+        
+      
+    
+    {\displaystyle f:\mathbb {R} ^{n}\to \mathbb {R} }
+  . In fact the subspace 
+  
+    
+      
+        
+          T
+          
+            x
+          
+        
+      
+    
+    {\displaystyle T_{x}}
+   is the orthogonal complement of the unit vector
+
+  
+    
+      
+        
+          ν
+          
+            E
+          
+        
+        (
+        x
+        )
+        =
+        
+          lim
+          
+            ρ
+            ↓
+            0
+          
+        
+        
+          
+            
+              D
+              
+                χ
+                
+                  E
+                
+              
+              (
+              
+                B
+                
+                  ρ
+                
+              
+              (
+              x
+              )
+              )
+            
+            
+              
+                |
+              
+              D
+              
+                χ
+                
+                  E
+                
+              
+              
+                |
+              
+              (
+              
+                B
+                
+                  ρ
+                
+              
+              (
+              x
+              )
+              )
+            
+          
+        
+        ∈
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \nu _{E}(x)=\lim _{\rho \downarrow 0}{\frac {D\chi _{E}(B_{\rho }(x))}{|D\chi _{E}|(B_{\rho }(x))}}\in \mathbb {R} ^{n}}
+  defined previously. This unit vector also satisfies
+
+  
+    
+      
+        
+          lim
+          
+            λ
+            ↓
+            0
+          
+        
+        
+          {
+          
+            
+              λ
+              
+                −
+                1
+              
+            
+            (
+            z
+            −
+            x
+            )
+            :
+            z
+            ∈
+            E
+          
+          }
+        
+        →
+        
+          {
+          
+            y
+            ∈
+            
+              
+                R
+              
+              
+                n
+              
+            
+            :
+            y
+            ⋅
+            
+              ν
+              
+                E
+              
+            
+            (
+            x
+            )
+            >
+            0
+          
+          }
+        
+      
+    
+    {\displaystyle \lim _{\lambda \downarrow 0}\left\{\lambda ^{-1}(z-x):z\in E\right\}\to \left\{y\in \mathbb {R} ^{n}:y\cdot \nu _{E}(x)>0\right\}}
+  locally in 
+  
+    
+      
+        
+          L
+          
+            1
+          
+        
+      
+    
+    {\displaystyle L^{1}}
+  , so it is interpreted as an approximate inward pointing unit normal vector to the reduced boundary 
+  
+    
+      
+        
+          ∂
+          
+            ∗
+          
+        
+        E
+      
+    
+    {\displaystyle \partial ^{*}E}
+  . Finally, 
+  
+    
+      
+        
+          ∂
+          
+            ∗
+          
+        
+        E
+      
+    
+    {\displaystyle \partial ^{*}E}
+   is (n-1)-rectifiable and the restriction of (n-1)-dimensional Hausdorff measure 
+  
+    
+      
+        
+          
+            
+              H
+            
+          
+          
+            n
+            −
+            1
+          
+        
+      
+    
+    {\displaystyle {\mathcal {H}}^{n-1}}
+   to 
+  
+    
+      
+        
+          ∂
+          
+            ∗
+          
+        
+        E
+      
+    
+    {\displaystyle \partial ^{*}E}
+   is 
+  
+    
+      
+        
+          |
+        
+        D
+        
+          χ
+          
+            E
+          
+        
+        
+          |
+        
+      
+    
+    {\displaystyle |D\chi _{E}|}
+  , i.e.
+
+  
+    
+      
+        
+          |
+        
+        D
+        
+          χ
+          
+            E
+          
+        
+        
+          |
+        
+        (
+        A
+        )
+        =
+        
+          
+            
+              H
+            
+          
+          
+            n
+            −
+            1
+          
+        
+        (
+        A
+        ∩
+        
+          ∂
+          
+            ∗
+          
+        
+        E
+        )
+      
+    
+    {\displaystyle |D\chi _{E}|(A)={\mathcal {H}}^{n-1}(A\cap \partial ^{*}E)}
+   for all Borel sets 
+  
+    
+      
+        A
+        ⊂
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle A\subset \mathbb {R} ^{n}}
+  .In other words, up to 
+  
+    
+      
+        
+          
+            
+              H
+            
+          
+          
+            n
+            −
+            1
+          
+        
+      
+    
+    {\displaystyle {\mathcal {H}}^{n-1}}
+  -measure zero the reduced boundary 
+  
+    
+      
+        
+          ∂
+          
+            ∗
+          
+        
+        E
+      
+    
+    {\displaystyle \partial ^{*}E}
+   is the smallest set on which 
+  
+    
+      
+        D
+        
+          χ
+          
+            E
+          
+        
+      
+    
+    {\displaystyle D\chi _{E}}
+   is supported.
+
+
+== Applications ==
+
+
+=== A Gauss–Green formula ===
+From the definition of the vector Radon measure 
+  
+    
+      
+        D
+        
+          χ
+          
+            E
+          
+        
+      
+    
+    {\displaystyle D\chi _{E}}
+   and from the properties of the perimeter, the following formula holds true:
+
+  
+    
+      
+        
+          ∫
+          
+            E
+          
+        
+        div
+        ⁡
+        
+          ϕ
+        
+        (
+        x
+        )
+        
+        
+          d
+        
+        x
+        =
+        −
+        
+          ∫
+          
+            ∂
+            E
+          
+        
+        ⟨
+        
+          ϕ
+        
+        ,
+        D
+        
+          χ
+          
+            E
+          
+        
+        (
+        x
+        )
+        ⟩
+        
+        
+          ϕ
+        
+        ∈
+        
+          C
+          
+            c
+          
+          
+            1
+          
+        
+        (
+        Ω
+        ,
+        
+          
+            R
+          
+          
+            n
+          
+        
+        )
+      
+    
+    {\displaystyle \int _{E}\operatorname {div} {\boldsymbol {\phi }}(x)\,\mathrm {d} x=-\int _{\partial E}\langle {\boldsymbol {\phi }},D\chi _{E}(x)\rangle \qquad {\boldsymbol {\phi }}\in C_{c}^{1}(\Omega ,\mathbb {R} ^{n})}
+  This is one version of the divergence theorem for domains with non smooth boundary. De Giorgi's theorem can be used to formulate the same identity in terms of the reduced boundary 
+  
+    
+      
+        
+          ∂
+          
+            ∗
+          
+        
+        E
+      
+    
+    {\displaystyle \partial ^{*}E}
+   and the approximate inward pointing unit normal vector 
+  
+    
+      
+        
+          ν
+          
+            E
+          
+        
+      
+    
+    {\displaystyle \nu _{E}}
+  . Precisely, the following equality holds
+
+  
+    
+      
+        
+          ∫
+          
+            E
+          
+        
+        div
+        ⁡
+        
+          ϕ
+        
+        (
+        x
+        )
+        
+        
+          d
+        
+        x
+        =
+        −
+        
+          ∫
+          
+            
+              ∂
+              
+                ∗
+              
+            
+            E
+          
+        
+        
+          ϕ
+        
+        (
+        x
+        )
+        ⋅
+        
+          ν
+          
+            E
+          
+        
+        (
+        x
+        )
+        
+        
+          d
+        
+        
+          
+            
+              H
+            
+          
+          
+            n
+            −
+            1
+          
+        
+        (
+        x
+        )
+        
+        
+          ϕ
+        
+        ∈
+        
+          C
+          
+            c
+          
+          
+            1
+          
+        
+        (
+        Ω
+        ,
+        
+          
+            R
+          
+          
+            n
+          
+        
+        )
+      
+    
+    {\displaystyle \int _{E}\operatorname {div} {\boldsymbol {\phi }}(x)\,\mathrm {d} x=-\int _{\partial ^{*}E}{\boldsymbol {\phi }}(x)\cdot \nu _{E}(x)\,\mathrm {d} {\mathcal {H}}^{n-1}(x)\qquad {\boldsymbol {\phi }}\in C_{c}^{1}(\Omega ,\mathbb {R} ^{n})}
+  
+
+
+== See also ==
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+O'Neil, Toby Christopher (2001) [1994], "Geometric measure theory",  in Hazewinkel, Michiel (ed.), Encyclopedia of Mathematics, Springer Science+Business Media B.V. / Kluwer Academic Publishers, ISBN 978-1-55608-010-4
+Zagaller, Victor Abramovich (2001) [1994], "Perimeter",  in Hazewinkel, Michiel (ed.), Encyclopedia of Mathematics, Springer Science+Business Media B.V. / Kluwer Academic Publishers, ISBN 978-1-55608-010-4
+Function of bounded variation at Encyclopedia of Mathematics

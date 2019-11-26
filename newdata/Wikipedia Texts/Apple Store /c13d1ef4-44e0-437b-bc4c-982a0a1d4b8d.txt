@@ -1,0 +1,14 @@
+App Store (tvOS)
+
+The App Store is a digital distribution platform, developed and maintained by Apple Inc., for tvOS apps on its Apple TV digital media player. It was announced on September 9, 2015 at the Apple September 2015 event, alongside the 4th generation Apple TV.
+
+
+== Development ==
+tvOS ships with all-new development tools for developers. tvOS adds support for an all-new SDK for developers to build apps for the TV including all of the APIs included in iOS 9 such as Metal. It also adds an App Store which allows users to browse, download, and install a wide variety of applications. In addition, developers can now use their own interface inside of their application rather than only being able to use Apple's interface. Since tvOS is based on iOS, it is easy to port existing iOS apps to the Apple TV with Xcode while making only a few refinements to the app to better suit the larger screen. Apple provides Xcode free of charge to all registered Apple developers. To develop for the new Apple TV, it is necessary to make a parallax image for the application icon. In order to do this, Apple provides a Parallax exporter and previewer in the development tools for the Apple TV.
+
+
+== References ==
+
+
+== External links ==
+Apple Developer program

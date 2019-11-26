@@ -1,0 +1,12 @@
+ATP synthase gamma subunit
+
+Gamma subunit of ATP synthase F1 complex forms the central shaft that connects the Fo rotary motor to the F1 catalytic core. F-ATP synthases (also known as F1Fo ATPase, or H(+)-transporting two-sector ATPase) (EC 3.6.3.14) are composed of two linked complexes: the F1 ATPase complex is the catalytic core and is composed of 5 subunits (alpha, beta, gamma, delta, epsilon), while the Fo ATPase complex is the membrane-embedded proton channel that is composed of at least 3 subunits (A-C), nine in mitochondria (A-G, F6, F8).
+The human ATP synthase gamma subunit is encoded by the gene ATP5C1.
+
+
+== Molecular Interactions ==
+Both the F1 and Fo complexes are rotary motors that are coupled back-to-back. In the F1 complex, the central gamma subunit forms the rotor inside the cylinder made of the alpha(3)beta(3) subunits, while in the Fo complex, the ring-shaped C subunits forms the rotor. The two rotors rotate in opposite directions, but the Fo rotor is usually stronger, using the force from the proton gradient to push the F1 rotor in reverse in order to drive ATP synthesis. These ATPases can also work in reverse to hydrolyse ATP to create a proton gradient.
+The ATPase F1 complex gamma subunit forms the central shaft that connects the Fo rotary motor to the F1 catalytic core. The gamma subunit functions as a rotary motor inside the cylinder formed by the alpha(3)beta(3) subunits in the F1 complex. The best-conserved region of the gamma subunit is its C-terminus, which seems to be essential for assembly and catalysis.
+
+
+== References ==

@@ -1,0 +1,68 @@
+Single non-transferable vote
+
+Single non-transferable vote or SNTV is an electoral system used in multi-member constituency elections. It is a generalization of First-Past-The-Post, applied to multi-member constituencies.
+
+
+== Voting ==
+In any election, each voter casts one vote for one candidate in a multi-candidate race for multiple offices.  Posts are filled by the candidates with the most votes.  Thus, in a three-seat constituency, the three candidates receiving the largest numbers of votes would win office.
+SNTV can be used with non-partisan ballots.
+
+
+=== Example ===
+There are three seats to be filled and five candidates: A, B, C, D and E fielded by 3 parties X, Y and Z.
+
+C, D and E are the winning candidates.
+But counting the votes by party gives:
+
+Party Y has more votes than Party Z, but fewer seats because of an inefficient spread of votes across the candidates.  If either party had risked trying to win all three seats, then Party X would have a higher chance of winning a seat, in the event of an uneven distribution of votes.
+
+
+== Proportional representation ==
+SNTV facilitates minority representation.SNTV only tends to result in proportional representation when political parties have accurate information about their relative levels of electoral support, and nominate a number of candidates in accordance with their respective level of electoral support.  If there are n candidates to be elected, Candidate A can guarantee being elected by receiving one more than 1/(n+1) of the votes (the Droop quota), because n other candidates cannot all receive more than Candidate A.  It can be very difficult for parties to receive representation proportional to their strength, because it is difficult to accurately judge their strength prior to deciding how many candidates to field (strategic nomination).  If they field too many, supporters' votes might be split across too many candidates, spreading their vote numbers to the point where all of a party's candidates lose to a less thinly spread opposing party.  If a party fields too few candidates, they might not field enough candidates to win seats proportional to their level of support, and the winning candidates would have far more support than necessary and thus excess votes causing waste of votes.
+The risks of poor strategic nomination are not equal for parties in various positions of electoral success.  A large party with a majority of seats would have much more to lose from the split vote effect than to gain from avoiding the wasted vote effect, and so would likely decide to err on the side of fielding fewer candidates (but probably not less than their existing number of seats).  A small party with little representation would be more risk-tolerant and err on the side of too many candidates, hoping to gain seats greater than their proportion of the electorate, perhaps by luckily edging out candidates from larger parties with just a few votes.
+SNTV electoral systems, like STV and proportional electoral systems generally, typically produce more proportional electoral outcomes as the size of the electoral districts (number of seats in each constituency) increases.
+
+
+== Potential for tactical voting ==
+The potential for tactical voting in a single non-transferable vote system is large. Receiving only one vote, the rational voter must only vote for a candidate that has a chance of winning, but will not win by too great a margin, thus taking votes away from party colleagues.  This also creates opportunities for tactical nominations, with parties nominating candidates similar to their opponents' candidates in order to split the vote. SNTV has been measured through the lens of such concepts as decision-theoretic analysis. Professor Gary W. Cox, an expert on SNTV, has studied the results of this system’s use in Japan. Cox has an explanation of real-world data finding the, “two systems [plurality and semi-proportional] are alike in their strategic voting equilibria.” (Cox 608) His research shows that voters use the information offered in campaigns (polls, reporting, fundraising totals, endorsements, etc.), to rationally decide who the most viable candidates are then vote for them.
+SNTV can also result in complicated intra-party dynamics because in a SNTV system, a candidate must not only run against candidates from the other party, but must also run against candidates from their own party.
+Because running on issues may lead to a situation in which a candidate becomes too popular and therefore draws votes away from other allied candidates, SNTV may encourage legislators to join factions which consist of patron-client relationships in which a powerful legislator can apportion votes to his or her supporters.
+In addition, parties must ensure that their supporters evenly distribute their votes among the party's candidates. Historically, in Taiwan, the Kuomintang did this by sending members a letter telling them which candidate to vote for. With the Democratic Progressive Party, vote sharing is done informally, as members of a family or small group will coordinate their votes. The New Party had a surprisingly effective system by asking party supporters to vote for the candidate that corresponded to their birthdate. This led to a system of vote allocation which had been adopted by all parties for the 2004 ROC legislative elections.
+
+
+== Usage ==
+SNTV is used for legislative elections in Afghanistan, Kuwait since 2013 and for elections to the upper houses of Indonesia and Japan, and for the Senate of Thailand under the 1997 constitution.
+
+
+=== Puerto Rico ===
+In Puerto Rico, where SNTV is known as at-large representation ("representación por acumulación" in Spanish), political parties vary the ballot order of their candidates across electoral divisions, in order to ensure each candidate has a roughly equal chance of being elected.  Since most voters choose the candidates placed at the top of their party lists on the ballots they receive, at-large candidates from the same party usually obtain approximately equal vote totals.
+The two major Puerto Rican political parties, the Popular Democratic Party and the New Progressive Party, usually nominate six candidates for each chamber, while the much smaller Puerto Rican Independence Party runs single-candidate slates for both the Senate and the House of Representatives.  The overall distribution of legislative seats is largely determined by the results for the sixteen Senate and forty House district seats, elected by plurality voting.
+
+
+=== Japan, South Korea, and Taiwan ===
+SNTV was once used to elect the legislatures of Japan, South Korea and the Republic of China (Taiwan), but its use has been discontinued for the most part. It is still used in Japan for some seats in the House of Councillors (Sangi-in), prefectural assemblies and municipal assemblies, and in Taiwan for the six aboriginal seats in the Legislative Yuan (national legislature), as well as local assemblies.
+In Taiwan, the party structure was further complicated by the fact that while members of the Legislative Yuan were elected by SNTV, executive positions were (and still are) elected by a first past the post. This created a party system in which smaller factionalized parties, which SNTV promotes, have formed two large coalitions that resembles the two party system which first past the post rewards. Starting with the 2008 legislative elections, the SNTV system was discarded in favor of a mixed single member district (SMD) with proportional representation based on national party votes, similar to Japan.
+
+
+=== Hong Kong ===
+Although the electoral system for about half of the seats of the Legislative Council of the territory is nominally a party-list proportional representation system with Hare quota, in practice political parties would field multiple lists in the same constituency. For example, the Democratic Party fielded three separate lists in the eight-seat New Territories West constituency in the 2008 election, aiming to win three seats (which they ended up with two winners). Split list or split tickets is done in order to win more seats with fewer votes, since the first candidate on each list would require less than the Hare quota to get a seat. Supporters are asked to split their votes among the lists of the same party, usually along geographical location of residence.
+In the 2012 election, no candidate list won more than one seat in any of the six PR constituencies which returned a total of 40 seats, rendering the result effectively the same as SNTV.
+
+
+=== Libya ===
+In accordance with its post-Gadaffi electoral law, Libya in 2012 elected 80 members of its 200-seat General National Congress using single non-transferable vote. Some commentators have cited the system as a factor in the subsequent return to civil war in 2014.
+
+
+== See also ==
+Single transferable vote
+Plurality-at-large voting  (multiple non-transferable vote (MNTV))
+Runoff voting
+
+
+== References ==
+
+
+== External links ==
+A Handbook of Electoral System Design from International IDEA
+ACE Project—Expert site providing encyclopedia on Electoral Systems and Management, country by country data, a library of electoral materials, latest election news, the opportunity to submit questions to a network of electoral experts, and a forum to discuss all of the above
+Electoral Design Reference Materials from the ACE Project

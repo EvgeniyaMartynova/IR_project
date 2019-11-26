@@ -1,0 +1,18 @@
+Upper critical solution temperature
+
+The upper critical solution temperature (UCST) or upper consolute temperature is the critical temperature above which the components of a mixture are miscible in all proportions. The word upper indicates that the UCST is an upper bound to a temperature range of partial miscibility, or miscibility for certain compositions only. For example, hexane-nitrobenzene mixtures have a UCST of 19 °C, so that these two substances are miscible in all proportions above 19 °C but not at lower temperatures. Examples at higher temperatures are the aniline-water system at 168 °C (at pressures high enough for liquid water to exist at that temperature), and the lead-zinc system at 798 °C (a temperature where both metals are liquid).A solid state example is the palladium-hydrogen system which has a solid solution phase (H2 in Pd) in equilibrium with a hydride phase (PdHn) below the UCST at 300 °C. Above this temperature there is a single solid solution phase.In the phase diagram of the mixture components, the UCST is the shared maximum of the concave down spinodal and binodal (or coexistence) curves. The UCST is in general dependent on pressure.
+The phase separation at the UCST is in general driven by unfavorable energetics; in particular, interactions between components favor a partially demixed state.
+
+
+== Polymer-solvent mixtures ==
+
+Some polymer solutions also have a lower critical solution temperature (LCST) or lower bound to a temperature range of partial miscibility. As shown in the diagram, for polymer solutions the LCST is higher than the UCST, so that there is a temperature interval of complete miscibility, with partial miscibility at both higher and lower temperatures.The UCST and LCST of polymer mixtures in general depend on polymer degree of polymerization and polydispersity.The seminal statistical mechanical model for the UCST of polymers is the Flory–Huggins solution theory.
+By adding soluble impurities the upper critical solution temperature increases and lower critical solution temperature decreases.
+
+
+== See also ==
+Lower critical solution temperature
+Coil-globule transition
+
+
+== References ==

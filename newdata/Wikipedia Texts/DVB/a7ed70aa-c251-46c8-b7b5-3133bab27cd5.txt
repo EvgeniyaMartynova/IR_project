@@ -1,0 +1,57 @@
+DVB-S2
+
+Digital Video Broadcasting - Satellite - Second Generation (DVB-S2) is a digital television broadcast standard that has been designed as a successor for the popular DVB-S system. It was developed in 2003 by the DVB Project, an international industry consortium, and ratified by ETSI (EN 302307) in March 2005. The standard is based on, and improves upon DVB-S and the electronic news-gathering (or Digital Satellite News Gathering) system, used by mobile units for sending sounds and images from remote locations worldwide back to their home television stations.
+DVB-S2 is designed for broadcast services including standard and HDTV, interactive services including Internet access, and (professional) data content distribution. The development of DVB-S2 coincided with the introduction of HDTV and H.264 (MPEG-4 AVC) video codecs.
+Two new key features that were added compared to the DVB-S standard are:
+
+A powerful coding scheme based on a modern LDPC code. For low encoding complexity, the LDPC codes chosen have a special structure, also known as Irregular Repeat-Accumulate codes.
+VCM (Variable Coding and Modulation) and ACM (Adaptive Coding and Modulation) modes, which allow optimizing bandwidth utilization by dynamically changing transmission parameters.Other features include enhanced modulation schemes up to 32APSK, additional code rates, and the introduction of a generic transport mechanism for IP packet data including MPEG-4 audio–video streams, while supporting backward compatibility with existing MPEG-2 TS based transmission.
+DVB-S2 achieves significantly better performance than its predecessors – mainly allowing for an increase of available bitrate over the same satellite transponder bandwidth. The measured DVB-S2 performance gain over DVB-S is around 30% at the same satellite transponder bandwidth and emitted signal power. When the contribution of improvements in video compression is added, an (MPEG-4 AVC) HDTV service can now be delivered in the same bandwidth that supported an early DVB-S based MPEG-2 SDTV service only a decade before.
+In March 2014, DVB-S2X specification has been published by DVB Project as an optional extension adding further improvements.
+
+
+== Main features ==
+Direct input of one or more MPEG-2 Transport Streams (TS). MPEG-TS is supported using a compatibility mode.
+The native stream format for DVB-S2 is called Generic Stream (GS), and can be used to efficiently carry IP-based data, including MPEG-4 AVC/H.264 services.
+Backward compatibility to DVB-S, intended for end users, and DVB-DSNG, used for backhauls and electronic news gathering.
+Variable coding and modulation (VCM) to optimize bandwidth utilization based on the priority of the input data; e.g., SDTV could be delivered using a more robust setting than the corresponding HDTV service.
+Adaptive coding and modulation (ACM) to allow flexibly adapting transmission parameters to the reception conditions of terminals, e.g., switching to a lower code rate during fading.
+Four modulation modes:
+QPSK and 8PSK are proposed for broadcast applications, and can be used in non-linear transponders driven near to saturation.
+16APSK and  32APSK are used mainly for professional, semi-linear applications, but can also be used for broadcasting though they require a higher level of available C/N and an adoption of advanced pre-distortion methods in the uplink station in order to minimize the effect of transponder nonlinearity.
+Improved rolloff: α = 0.20 and α = 0.25 in addition to the roll-off of DVB-S α = 0.35.
+Improved coding: a modern large LDPC code is concatenated with an outer BCH code to achieve quasi-error-free (QEF) reception conditions on an AWGN channel. The outer code is introduced to avoid error floors at low bit-error rates. A single forward error correction  or FEC frame may have either 64,800 bits (normal) or 16,200 bits (short). If VCM or ACM is used, the broadcast can be a combination of normal and short frames.
+Several code rates for flexible configuration of transmission parameters: 1/4, 1/3, 2/5, 1/2, 3/5, 2/3, 3/4, 4/5, 5/6, 6/7, 8/9, and 9/10. Code rates 1/4, 1/3, and 2/5 have been introduced for exceptionally poor reception conditions in combination with QPSK modulation. Encoding values 8/9 and 9/10 behave poorly under marginal link conditions (where the signal level is below the noise level). However, with targeted spot Ku or Ka band downlinks these code rates may be recommended to prevent out-of-region viewing for copyright or cultural reasons.
+Optional input stream synchronization to provide a constant end-to-end delay.Depending on code rate and modulation, the system can operate at a C/N between −2.4 dB (QPSK, 1/4) and 16 dB (32APSK, 9/10) with a quasi-error free goal of a 10−7 TS packet error rate. Distance to the Shannon limit ranges from 0.7 dB to 1.2 dB.
+Modes and features of DVB-S2 in comparison to DVB-S:
+
+
+== Use cases ==
+Envisaged scenarios for DVB-S2 by the standard document are:
+
+Broadcasting television services in SDTV or HDTV. Optionally, this transmission may be backwards compatible with DVB-S, but does not benefit from the 30% extra bandwidth.
+Interactive services including Internet access. Data generated by the user may be sent by cable (copper/fibre optic), mobile wireless, or satellite uplink (DVB-RCS).
+Professional applications, where data must be multiplexed in real time and then broadcast in the VHF/UHF band (e.g., digital TV contribution, satellite news gathering). These transmissions are not intended for the average viewer.
+Large-scale data content distribution. These include point-to-point and multicast services, as well as transmission to head-ends for (re-)distribution over other media.
+
+
+== The DVB-S to DVB-S2 upgrade process ==
+The conversion process from DVB-S to DVB-S2 is being accelerated, due to the rapid increase of HDTV and introduction  of 3D-HDTV. The main factor slowing down this process is the need to replace or upgrade set-top boxes, or acquire TVs with DVB-S2 integrated tuners, which makes the transition slower for established operators.
+Current direct-to-home broadcasters using DVB-S2 are:
+
+These broadcasters have used DVB-S2 in their internal broadcast distribution networks, but may not have instituted DVB-S2 transmissions for consumers.
+
+
+== References ==
+
+Digital Video Broadcasting (DVB); Second generation framing structure, channel coding and modulation systems for Broadcasting, Interactive Services, News Gathering and other broadband satellite applications (DVB-S2), ETSI EN 302 307, V1.2.1, April 2009.
+Digital Video Broadcasting (DVB) User guidelines for the second generation system for Broadcasting, Interactive Services, News Gathering and other broadband satellite applications (DVB-S2), ETSI TR 102 376, V1.1.1, February 2005.
+DVB-S2 Fact Sheet
+DVB-S2 – ready for lift off, article in the EBU technical review
+
+
+== External links ==
+Online Satellite Calculations
+Newtec DVB-S2(x) Calculator
+16APSK/32APSK STV0900A tests under Linux
+IRA code paper

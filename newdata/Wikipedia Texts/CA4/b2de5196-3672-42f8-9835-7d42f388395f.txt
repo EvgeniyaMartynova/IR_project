@@ -1,0 +1,24 @@
+Carbonic anhydrase 4
+
+Carbonic anhydrase 4 is an enzyme that in humans is encoded by the CA4 gene.
+
+
+== Function ==
+Carbonic anhydrases (CAs) are a large family of zinc metalloenzymes that catalyze the reversible hydration of carbon dioxide.  They participate in a variety of biological processes, including respiration, calcification, acid-base balance, bone resorption, and the formation of aqueous humor, cerebrospinal fluid, saliva, and gastric acid.  They show extensive diversity in tissue distribution and in their subcellular localization.  CA IV is a glycosylphosphatidyl-inositol-anchored membrane isozyme expressed on the luminal surfaces of pulmonary (and certain other) capillaries and of proximal renal tubules.  Its exact function is not known, however, it may have a role in inherited renal abnormalities of bicarbonate transport.CA IV has been identified in pulmonary epithelium of many mammalian species and may be uniquely adaptive for gas exchange necessary for the high metabolic requirements of mammals. A majority of the CO2 produced by metabolism is transported as bicarbonate (HCO3-).  At the tissue capillary, CO2 diffuses from tissue to plasma.  Other forms of carbonic anhydrase enzyme are not present in the plasma, restricting the equilibrium reaction of CO2+H2O = H2CO3 = H+  HCO3-. CO2 in the plasma diffuses into the Red Blood Cell.  CA is present within the Red Blood Cell, facilitating the conversion of CO2 to HCO3-. HCO3- so produced is transferred by the HCO3-/Cl- "shuttle" from the interior of the Red Blood Cell to the plasma.  HCO3- doers not diffuse across cell membranes and, in the absence of CA, stays as HCO3- and concentrates in plasma. Up to 80% of metabolically produced CO2 is transported in plasma in the form of HCO3-.  Blood moves from the tissue capillary to the pulmonary capillary where CO2 is exchanged at the lung. In the pulmonary capillary, bicarbonate can not simply diffuse either into the Red Blood Cell or the alvioli.  It is traditionally thought that HCO3- is returned to the interior of the Red Blood Cell by a reversal of the HCO3-/Cl- shuttle, where, in the presence of CA, it is returned to a CO2 form to diffuse from the interior of the Red Blood Cell, to the plasma and then into the alvioli.  Membrane bound CA (CA IV) on the luminal side of the pulmonary membrane would have direct contact with plasma HCO3- and would enzimatically convert HCO3- to CO2 in the area immediately proximal to the exchange membrane, greatly increasing the concentration gradient for exchange. In this way, plasma HCO3- can be converted to CO2 within the plasma compartment and exchanged with the alvioli without the requirement of returning the HCO3- to the interior of the Red Blood Cell.
+
+
+== Interactions ==
+CA4 has been shown to interact with Band 3.
+
+
+== References ==
+
+Send to
+
+
+== Further reading ==
+
+
+== External links ==
+GeneReviews/NCBI/NIH/UW entry on Retinitis Pigmentosa Overview
+Overview of all the structural information available in the PDB for UniProt: P22748 (Carbonic anhydrase 4) at the PDBe-KB.

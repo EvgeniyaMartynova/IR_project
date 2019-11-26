@@ -1,0 +1,942 @@
+Angle of view
+
+In photography, angle of view (AOV) describes the angular extent of a given scene that is imaged by a camera. It is used interchangeably with the more general term field of view.
+It is important to distinguish the angle of view from the angle of coverage, which describes the angle range that a lens can image. Typically the image circle produced by a lens is large enough to cover the film or sensor completely, possibly including some vignetting toward the edge. If the angle of coverage of the lens does not fill the sensor, the image circle will be visible, typically with strong vignetting toward the edge, and the effective angle of view will be limited to the angle of coverage.
+
+A camera's angle of view depends not only on the lens, but also on the sensor. Digital sensors are usually smaller than 35 mm film, and this causes the lens to have a narrower angle of view than with 35 mm film, by a constant factor for each sensor (called the crop factor). In everyday digital cameras, the crop factor can range from around 1 (professional digital SLRs), to 1.6 (consumer SLR), to 2 (Micro Four Thirds ILC) to 4 (enthusiast compact cameras) to 6 (most compact cameras). So a standard 50 mm lens for 35 mm photography acts like a 50 mm standard "film" lens on a professional digital SLR, but would act closer to an 80 mm lens (1.6 x 50mm) on many mid-market DSLRs, and the 40 degree angle of view of a standard 50 mm lens on a film camera is equivalent to a 80 mm lens on many digital SLRs.
+
+
+== Calculating a camera's angle of view ==
+For lenses projecting rectilinear (non-spatially-distorted) images of distant objects, the effective focal length and the image format dimensions completely define the angle of view. Calculations for lenses producing non-rectilinear images are much more complex and in the end not very useful in most practical applications. (In the case of a lens with distortion, e.g., a fisheye lens, a longer lens with distortion can have a wider angle of view than a shorter lens with low distortion)
+Angle of view may be measured horizontally (from the left to right edge of the frame), vertically (from the top to bottom of the frame), or diagonally (from one corner of the frame to its opposite corner).
+For a lens projecting a rectilinear image (focused at infinity, see derivation), the angle of view (α) can be calculated from the chosen dimension (d), and effective focal length (f) as follows:
+
+  
+    
+      
+        α
+        =
+        2
+        arctan
+        ⁡
+        
+          
+            d
+            
+              2
+              f
+            
+          
+        
+      
+    
+    {\displaystyle \alpha =2\arctan {\frac {d}{2f}}}
+  
+  
+    
+      
+        d
+      
+    
+    {\displaystyle d}
+   represents the size of the film (or sensor) in the direction measured (see below: sensor effects). For example, for 35 mm film which is 36 mm wide and 24 mm high, 
+  
+    
+      
+        d
+        =
+        36
+      
+    
+    {\displaystyle d=36}
+   mm would be used to obtain the horizontal angle of view and 
+  
+    
+      
+        d
+        =
+        24
+      
+    
+    {\displaystyle d=24}
+   mm for the vertical angle.
+Because this is a trigonometric function, the angle of view does not vary quite linearly with the reciprocal of the focal length. However, except for wide-angle lenses, it is reasonable to approximate 
+  
+    
+      
+        α
+        ≈
+        
+          
+            d
+            f
+          
+        
+      
+    
+    {\displaystyle \alpha \approx {\frac {d}{f}}}
+   radians or 
+  
+    
+      
+        
+          
+            
+              180
+              d
+            
+            
+              π
+              f
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {180d}{\pi f}}}
+   degrees.
+The effective focal length is nearly equal to the stated focal length of the lens (F), except in macro photography where the lens-to-object distance is comparable to the focal length. In this case, the magnification factor (m) must be taken into account:
+
+  
+    
+      
+        f
+        =
+        F
+        ⋅
+        (
+        1
+        +
+        m
+        )
+      
+    
+    {\displaystyle f=F\cdot (1+m)}
+  (In photography 
+  
+    
+      
+        m
+      
+    
+    {\displaystyle m}
+   is usually defined to be positive, despite the inverted image.) For example, with a magnification ratio of 1:2, we find 
+  
+    
+      
+        f
+        =
+        1.5
+        ⋅
+        F
+      
+    
+    {\displaystyle f=1.5\cdot F}
+   and thus the angle of view is reduced by 33% compared to focusing on a distant object with the same lens.
+Angle of view can also be determined using FOV tables or paper or software lens calculators.
+
+
+=== Example ===
+Consider a 35 mm camera with a lens having a focal length of F = 50 mm. The dimensions of the 35 mm image format are 24 mm (vertically) × 36 mm (horizontal), giving a diagonal of about 43.3 mm.
+At infinity focus, f = F, the angles of view are:
+
+horizontally, 
+  
+    
+      
+        
+          α
+          
+            h
+          
+        
+        =
+        2
+        arctan
+        ⁡
+        
+          
+            h
+            
+              2
+              f
+            
+          
+        
+        =
+        2
+        arctan
+        ⁡
+        
+          
+            36
+            
+              2
+              ×
+              50
+            
+          
+        
+        ≈
+        
+          39.6
+          
+            ∘
+          
+        
+      
+    
+    {\displaystyle \alpha _{h}=2\arctan {\frac {h}{2f}}=2\arctan {\frac {36}{2\times 50}}\approx 39.6^{\circ }}
+  
+vertically, 
+  
+    
+      
+        
+          α
+          
+            v
+          
+        
+        =
+        2
+        arctan
+        ⁡
+        
+          
+            v
+            
+              2
+              f
+            
+          
+        
+        =
+        2
+        arctan
+        ⁡
+        
+          
+            24
+            
+              2
+              ×
+              50
+            
+          
+        
+        ≈
+        
+          27.0
+          
+            ∘
+          
+        
+      
+    
+    {\displaystyle \alpha _{v}=2\arctan {\frac {v}{2f}}=2\arctan {\frac {24}{2\times 50}}\approx 27.0^{\circ }}
+  
+diagonally, 
+  
+    
+      
+        
+          α
+          
+            d
+          
+        
+        =
+        2
+        arctan
+        ⁡
+        
+          
+            d
+            
+              2
+              f
+            
+          
+        
+        =
+        2
+        arctan
+        ⁡
+        
+          
+            43.3
+            
+              2
+              ×
+              50
+            
+          
+        
+        ≈
+        
+          46.8
+          
+            ∘
+          
+        
+      
+    
+    {\displaystyle \alpha _{d}=2\arctan {\frac {d}{2f}}=2\arctan {\frac {43.3}{2\times 50}}\approx 46.8^{\circ }}
+  
+
+
+=== Derivation of the angle-of-view formula ===
+Consider a rectilinear lens in a camera used to photograph an object at a distance 
+  
+    
+      
+        
+          S
+          
+            1
+          
+        
+      
+    
+    {\displaystyle S_{1}}
+  , and forming an image that just barely fits in the dimension, 
+  
+    
+      
+        d
+      
+    
+    {\displaystyle d}
+  , of the frame (the film or image sensor). Treat the lens as if it were a pinhole at distance 
+  
+    
+      
+        
+          S
+          
+            2
+          
+        
+      
+    
+    {\displaystyle S_{2}}
+   from the image plane (technically, the center of perspective of a rectilinear lens is at the center of its entrance pupil):
+
+Now 
+  
+    
+      
+        α
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle \alpha /2}
+   is the angle between the optical axis of the lens and the ray joining its optical center to the edge of the film. Here 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+   is defined to be the angle-of-view, since it is the angle enclosing the largest object whose image can fit on the film. We want to find the relationship between:
+
+the angle 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  
+the "opposite" side of the right triangle, 
+  
+    
+      
+        d
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle d/2}
+   (half the film-format dimension)
+the "adjacent" side, 
+  
+    
+      
+        
+          S
+          
+            2
+          
+        
+      
+    
+    {\displaystyle S_{2}}
+   (distance from the lens to the image plane)Using basic trigonometry, we find:
+
+  
+    
+      
+        tan
+        ⁡
+        (
+        α
+        
+          /
+        
+        2
+        )
+        =
+        
+          
+            
+              d
+              
+                /
+              
+              2
+            
+            
+              S
+              
+                2
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \tan(\alpha /2)={\frac {d/2}{S_{2}}}.}
+  which we can solve for α, giving:
+
+  
+    
+      
+        α
+        =
+        2
+        arctan
+        ⁡
+        
+          
+            d
+            
+              2
+              
+                S
+                
+                  2
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle \alpha =2\arctan {\frac {d}{2S_{2}}}}
+  To project a sharp image of distant objects, 
+  
+    
+      
+        
+          S
+          
+            2
+          
+        
+      
+    
+    {\displaystyle S_{2}}
+   needs to be equal to the focal length, 
+  
+    
+      
+        F
+      
+    
+    {\displaystyle F}
+  , which is attained by setting the lens for infinity focus. Then the angle of view is given by:
+
+  
+    
+      
+        α
+        =
+        2
+        arctan
+        ⁡
+        
+          
+            d
+            
+              2
+              f
+            
+          
+        
+      
+    
+    {\displaystyle \alpha =2\arctan {\frac {d}{2f}}}
+   where 
+  
+    
+      
+        f
+        =
+        F
+      
+    
+    {\displaystyle f=F}
+  Note that the angle of view varies slightly when the focus is not at infinity (See breathing (lens)), given by 
+  
+    
+      
+        
+          S
+          
+            2
+          
+        
+        =
+        
+          
+            
+              
+                S
+                
+                  1
+                
+              
+              f
+            
+            
+              
+                S
+                
+                  1
+                
+              
+              −
+              f
+            
+          
+        
+      
+    
+    {\displaystyle S_{2}={\frac {S_{1}f}{S_{1}-f}}}
+   rearranging the lens equation.
+
+
+==== Macro photography ====
+For macro photography, we cannot neglect the difference between 
+  
+    
+      
+        
+          S
+          
+            2
+          
+        
+      
+    
+    {\displaystyle S_{2}}
+   and 
+  
+    
+      
+        F
+      
+    
+    {\displaystyle F}
+  . From the thin lens formula,
+
+  
+    
+      
+        
+          
+            1
+            F
+          
+        
+        =
+        
+          
+            1
+            
+              S
+              
+                1
+              
+            
+          
+        
+        +
+        
+          
+            1
+            
+              S
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {1}{F}}={\frac {1}{S_{1}}}+{\frac {1}{S_{2}}}}
+  .From the definition of magnification, 
+  
+    
+      
+        m
+        =
+        
+          S
+          
+            2
+          
+        
+        
+          /
+        
+        
+          S
+          
+            1
+          
+        
+      
+    
+    {\displaystyle m=S_{2}/S_{1}}
+  , we can substitute 
+  
+    
+      
+        
+          S
+          
+            1
+          
+        
+      
+    
+    {\displaystyle S_{1}}
+   and with some algebra find:
+
+  
+    
+      
+        
+          S
+          
+            2
+          
+        
+        =
+        F
+        ⋅
+        (
+        1
+        +
+        m
+        )
+      
+    
+    {\displaystyle S_{2}=F\cdot (1+m)}
+  Defining 
+  
+    
+      
+        f
+        =
+        
+          S
+          
+            2
+          
+        
+      
+    
+    {\displaystyle f=S_{2}}
+   as the "effective focal length", we get the formula presented above:
+
+  
+    
+      
+        α
+        =
+        2
+        arctan
+        ⁡
+        
+          
+            d
+            
+              2
+              f
+            
+          
+        
+      
+    
+    {\displaystyle \alpha =2\arctan {\frac {d}{2f}}}
+   where 
+  
+    
+      
+        f
+        =
+        F
+        ⋅
+        (
+        1
+        +
+        m
+        )
+      
+    
+    {\displaystyle f=F\cdot (1+m)}
+  .A second effect which comes into play in macro photography is lens asymmetry (an asymmetric lens is a lens where the aperture appears to have different dimensions when viewed from the front and from the back). The lens asymmetry causes an offset between the nodal plane and pupil positions. The effect can be quantified using the ratio (P) between apparent exit pupil diameter and entrance pupil diameter. The full formula for angle of view now becomes:
+
+  
+    
+      
+        α
+        =
+        2
+        arctan
+        ⁡
+        
+          
+            d
+            
+              2
+              F
+              ⋅
+              (
+              1
+              +
+              m
+              
+                /
+              
+              P
+              )
+            
+          
+        
+      
+    
+    {\displaystyle \alpha =2\arctan {\frac {d}{2F\cdot (1+m/P)}}}
+  
+
+
+== Measuring a camera's field of view ==
+
+In the optical instrumentation industry the term field of view (FOV) is most often used, though the measurements are still expressed as angles. Optical tests are commonly used for measuring the FOV of UV, visible, and infrared (wavelengths about 0.1–20 μm in the electromagnetic spectrum) sensors and cameras.
+The purpose of this test is to measure the horizontal and vertical FOV of a lens and sensor used in an imaging system, when the lens focal length or sensor size is not known (that is, when the calculation above is not immediately applicable). Although this is one typical method that the optics industry uses to measure the FOV, there exist many other possible methods.
+UV/visible light from an integrating sphere (and/or other source such as a black body) is focused onto a square test target at the focal plane of a collimator (the mirrors in the diagram), such that a virtual image of the test target will be seen infinitely far away by the camera under test. The camera under test senses a real image of the virtual image of the target, and the sensed image is displayed on a monitor.
+
+The sensed image, which includes the target, is displayed on a monitor, where it can be measured. Dimensions of the full image display and of the portion of the image that is the target are determined by inspection (measurements are typically in pixels, but can just as well be inches or cm).
+
+  
+    
+      
+        D
+      
+    
+    {\displaystyle D}
+   = dimension of full image
+
+  
+    
+      
+        d
+      
+    
+    {\displaystyle d}
+   = dimension of image of targetThe collimator's distant virtual image of the target subtends a certain angle, referred to as the angular extent of the target, that depends on the collimator focal length and the target size. Assuming the sensed image includes the whole target, the angle seen by the camera, its FOV, is this angular extent of the target times the ratio of full image size to target image size.The target's angular extent is:
+
+  
+    
+      
+        α
+        =
+        2
+        arctan
+        ⁡
+        
+          
+            L
+            
+              2
+              
+                f
+                
+                  c
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle \alpha =2\arctan {\frac {L}{2f_{c}}}}
+  where 
+  
+    
+      
+        L
+      
+    
+    {\displaystyle L}
+   is the dimension of the target and 
+  
+    
+      
+        
+          f
+          
+            c
+          
+        
+      
+    
+    {\displaystyle f_{c}}
+   is the focal length of collimator.The total field of view is then approximately:
+
+  
+    
+      
+        
+          F
+          O
+          V
+        
+        =
+        α
+        
+          
+            D
+            d
+          
+        
+      
+    
+    {\displaystyle \mathrm {FOV} =\alpha {\frac {D}{d}}}
+  or more precisely, if the imaging system is rectilinear:
+
+  
+    
+      
+        
+          F
+          O
+          V
+        
+        =
+        2
+        arctan
+        ⁡
+        
+          
+            
+              L
+              D
+            
+            
+              2
+              
+                f
+                
+                  c
+                
+              
+              d
+            
+          
+        
+      
+    
+    {\displaystyle \mathrm {FOV} =2\arctan {\frac {LD}{2f_{c}d}}}
+  This calculation could be a horizontal or a vertical FOV, depending on how the target and image are measured.
+
+
+== Lens types and effects ==
+
+
+=== Focal length ===
+
+Lenses are often referred to by terms that express their angle of view:
+
+Fisheye lenses, typical focal lengths are between 8 mm and 10 mm for circular images, and 15–16 mm for full-frame images. Up to 180° and beyond.
+A circular fisheye lens (as opposed to a full-frame fisheye) is an example of a lens where the angle of coverage is less than the angle of view. The image projected onto the film is circular because the diameter of the image projected is narrower than that needed to cover the widest portion of the film.
+Ultra wide angle lens is a rectilinear which is less than 24 mm of focal length in 35 mm film format, here 14 mm gives 114° and 24 mm gives 84° .
+Wide-angle lenses (24–35 mm in 35 mm film format) cover between 84° and 64°
+Normal, or Standard lenses (36–60 mm in 35 mm film format) cover between 62° and 40°
+Long focus lenses (any lens with a focal length greater than the diagonal of the film or sensor used) generally have an angle of view of 35° or less. Since photographers usually only encounter the telephoto lens sub-type, they are referred to in common photographic parlance as:
+"Medium telephoto", a focal length of 85 mm to 135 mm in 35 mm film format covering between 30° and 10°
+"Super telephoto" (over 300 mm in 35 mm film format) generally cover between 8° through less than 1°Zoom lenses are a special case wherein the focal length, and hence angle of view, of the lens can be altered mechanically without removing the lens from the camera.
+
+
+=== Characteristics ===
+For a given camera–subject distance, longer lenses magnify the subject more. For a given subject magnification (and thus different camera–subject distances), longer lenses appear to compress distance; wider lenses appear to expand the distance between objects.
+Another result of using a wide angle lens is a greater apparent perspective distortion when the camera is not aligned perpendicularly to the subject: parallel lines converge at the same rate as with a normal lens, but converge more due to the wider total field. For example, buildings appear to be falling backwards much more severely when the camera is pointed upward from ground level than they would if photographed with a normal lens at the same distance from the subject, because more of the subject building is visible in the wide-angle shot.
+Because different lenses generally require a different camera–subject distance to preserve the size of a subject, changing the angle of view can indirectly distort perspective, changing the apparent relative size of the subject and foreground.
+If the subject image size remains the same, then at any given aperture all lenses, wide angle and long lenses, will give the same depth of field.
+
+
+=== Examples ===
+An example of how lens choice affects angle of view.
+
+
+== Common lens angles of view ==
+This table shows the diagonal, horizontal, and vertical angles of view, in degrees, for lenses producing rectilinear images, when used with 36 mm × 24 mm format (that is, 135 film or full-frame 35 mm digital using width 36 mm, height 24 mm, and diagonal 43.3 mm for d in the formula above). Digital compact cameras sometimes state the focal lengths of their lenses in 35 mm equivalents, which can be used in this table.
+For comparison, the human visual system perceives an angle of view of about 140° by 80°.
+
+
+== Sensor size effects ("crop factor") ==
+
+As noted above, a camera's angle of view depends not only on the lens, but also on the sensor used. Digital sensors are usually smaller than 35 mm film, causing the lens to usually behave as a longer focal length lens would behave, and have a narrower angle of view than with 35 mm film, by a constant factor for each sensor (called the crop factor). In everyday digital cameras, the crop factor can range from around 1 (professional digital SLRs), to 1.6 (mid-market SLRs), to around 3 to 6 for compact cameras. So a standard 50 mm lens for 35 mm photography acts like a 50 mm standard "film" lens even on a professional digital SLR, but would act closer to a 75mm (1.5×50 mm Nikon) or 80mm lens (1.6×50 mm Canon) on many mid-market DSLRs, and the 40 degree angle of view of a standard 50mm lens on a film camera is equivalent to a 28–35 mm lens on many digital SLRs.
+The table below shows the horizontal, vertical and diagonal angles of view, in degrees, when used with 22.2 mm × 14.8 mm format (that is Canon's DSLR APS-C frame size) and a diagonal of 26.7 mm.
+
+
+== Cinematography and video gaming ==
+Modifying the angle of view over time (known as zooming), is a frequently used cinematic technique, often combined with camera movement to produce a "dolly zoom" effect, made famous by the film Vertigo. Using a wide angle of view can exaggerate the camera's perceived speed, and is a common technique in tracking shots, phantom rides, and racing video games. See also Field of view in video games.
+
+
+== See also ==
+35 mm equivalent focal length
+Camera angle
+Camera coverage
+Camera operator
+Cinematic techniques
+Field of view
+Filmmaking
+Multiple-camera setup
+Single-camera setup
+Video production
+Image sensor format
+Crop factor
+Ultrawide formats
+
+
+== Notes and references ==
+
+
+== External links ==
+Simple Explanation of Angle of View and Focal Length
+Angle of View on digital SLR cameras with reduced sensor size
+Focal Length and Angle of View

@@ -1,0 +1,31 @@
+Praskoviya Parchomenko (page does not exist)
+
+This is a list of all astronomers who are credited by the Minor Planet Center (MPC) with the discovery of one or several minor planets. A second table lists all institutional discoverers of minor planets such as observatories and surveys (see § Discovering dedicated institutions). As of May 2019, the MPC credits a total of 541,128 numbered minor planets to 1020 astronomers and 235 institutional discoverers (e.g. observatories, telescopes and surveys), respectively.
+For how a discovery is made and a detailed description of the table, see observations of small Solar System bodies and § Notes, respectively.
+
+
+== Discovering astronomers ==
+
+
+== Discovering dedicated institutions ==
+
+
+== Notes ==
+The discovery table consist of the following fields: 
+
+Astronomers and Institutions: links to the corresponding article about the discovering astronomer or institution on Wikipedia. If not linked, the displayed name should be a redirect to this list. For example, the page Masanao Abe forwards to the anchored table row List of minor planet discoverers § M. Abe using the astronomer's MPC-name as ID.
+Discoveries: displays the total number of discovered and co-discovered minor planets made by the discoverer (numbered bodies only). It links to the corresponding "Discovery by..." category, which are subcategories of Category:Discoveries by astronomer and Category:Astronomical discoveries by institution, respectively. Note that these categories do not contain discoveries for which no page on Wikipedia exists. Astronomers with only a few discoveries often do not have their own discovery-category (redlinks). For those who have discovered only one single minor planet, the link in the discovery column directly points to the corresponding entry in the list of minor planets. There are typically no linked categories for astronomers with an unknown first name.
+DOB–DOD and Observatory code: displays the date of birth and death for astronomers, and alphanumeric IAU code(s) for institutions, respectively.
+Country: nationality of the astronomer or location of the discovering dedicated institution, respectively. Some discoverers have assigned two flags, with the first being the most appropriate to allow for a sensible sorting by country.
+Link-label; info, links and, notes: The link-label is used for piped discoverer links, intended for a consistent usage in minor-planet object articles and in the List of minor planets (see index). After the link-label, additional information is given: this includes links to external sources (Src), links to the MPC database (see here) for objects discovered or co-discovered by the astronomer, and trans-wiki links to existing articles on French, German and Italian Wikipedia. (Note that the link-label should be separated by a semi-colon from all other information).
+Name(s) at MPC: displays the name of the discoverer as used by the MPC (non-diacritical version; where the abbreviated first name is written before the family name). Some discoverers have multiple names due to inconsistencies and typos. For example, the MPC credits some discoveries made by § Spacewatch to Sapcewatch and Spacwatch such as in MPC and MPC, respectively.
+Cite: minor-planet discoverers are often honored with the naming of (one or several) asteroids by their colleges. The associated citation typically gives the discoverer's full name, his or her date of birth and additional  biographical information.
+
+
+== References ==
+
+
+== External links ==
+Minor Planet Center's data file, "NumberedMPs.txt" (45 MB)
+German discoverers, minor planet discoverer chart by Erwin Schwab
+Amateurastronomen am Sternenhimmel, von Gerhard Lehmann, Jens Kandler & André Knöfel, 14 August 2013

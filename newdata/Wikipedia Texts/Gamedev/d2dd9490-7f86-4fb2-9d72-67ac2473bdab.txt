@@ -1,0 +1,286 @@
+Video game development
+
+Video game development is the process of creating a video game. The effort is undertaken by a developer, ranging from a single person to an international team dispersed across the globe. Development of traditional commercial PC and console games is normally funded by a publisher, and can take several years to reach completion. Indie games usually take less time and money and can be produced by individuals and smaller developers. The independent game industry has been on the rise, facilitated by the growth of accessible game development software such as Unity platform and Unreal Engine and new online distribution systems such as Steam and Uplay, as well as the mobile game market for Android and iOS devices.
+The first video games, developed in the 1960s, were noncommercial. They required mainframe computers to run and were not available to the general public. Commercial game development began in the '70s with the advent of first-generation video game consoles and early home computers like the Apple I. At that time, owing to low costs and low capabilities of computers, a lone programmer could develop a full and complete game. However, in the late '80s and '90s, ever-increasing computer processing power and heightened expectations from gamers made it difficult for a single person to produce a mainstream console or PC game. The average cost of producing a triple-A video game slowly rose, from US$1–4 million in 2000, to over $5 million in 2006, then to over $20 million by 2010.
+Mainstream commercial PC and console games are generally developed in phases: first, in pre-production, pitches, prototypes, and game design documents are written; if the idea is approved and the developer receives funding, then full-scale development begins. The development of a complete game usually involves a team of 20–100 individuals with various responsibilities, including designers, artists, programmers, and testers.
+
+
+== Overview ==
+Games are produced through the software development process. Games are developed as a creative outlet and to generate profit. Development is normally funded by a publisher. Well-made games bring profit more readily. However, it is important to estimate a game's financial requirements, such as development costs of individual features. Failing to provide clear implications of game's expectations may result in exceeding allocated budget. In fact, the majority of commercial games do not produce profit. Most developers cannot afford changing their development schedule mid-way, and require estimating their capabilities with available resources before production.The game industry requires innovations, as publishers cannot profit from constant release of repetitive sequels and imitations. Every year new independent development companies open and some manage to develop hit titles. Similarly, many developers close down because they cannot find a publishing contract or their production is not profitable. It is difficult to start a new company due to high initial investment required. Nevertheless, growth of casual and mobile game market has allowed developers with smaller teams to enter the market. Once the companies become financially stable, they may expand to develop larger games. Most developers start small and gradually expand their business.  A developer receiving profit from a successful title may store up capital to expand and re-factor their company, as well as tolerate more failed deadlines.An average development budget for a multiplatform game is US$18-28M, with high-profile games often exceeding $40M.In the early era of home computers and video game consoles in the early 1980s, a single programmer could handle almost all the tasks of developing a game — programming, graphical design, sound effects, etc. It could take as little as six weeks to develop a game. However, the high user expectations and requirements of modern commercial games far exceed the capabilities of a single developer and require the splitting of responsibilities. A team of over a hundred people can be employed full-time for a single project.Game development, production, or design is a process that starts from an idea or concept. Often the idea is based on a modification of an existing game concept. The game idea may fall within one or several genres. Designers often experiment with different combinations of genres. A game designer generally writes an initial game proposal document, that describes the basic concept, gameplay, feature list, setting and story, target audience, requirements and schedule, and finally staff and budget estimates. Different companies have different formal procedures and philosophies regarding game design and development. There is no standardized development method; however commonalities exist.A game developer may range from a single individual to a large multinational company. There are both independent and publisher-owned studios. Independent developers rely on financial support from a game publisher. They usually have to develop a game from concept to prototype without external funding. The formal game proposal is then submitted to publishers, who may finance the game development from several months to years. The publisher would retain exclusive rights to distribute and market the game and would often own the intellectual property rights for the game franchise. Publisher's company may also own the developer's company, or it may have internal development studio(s). Generally the publisher is the one who owns the game's intellectual property rights.All but the smallest developer companies work on several titles at once. This is necessary because of the time taken between shipping a game and receiving royalty payments, which may be between 6 and 18 months. Small companies may structure contracts, ask for advances on royalties, use shareware distribution, employ part-time workers and use other methods to meet payroll demands.Console manufacturers, such as Microsoft, Nintendo, or Sony, have a standard set of technical requirements that a game must conform to in order to be approved. Additionally, the game concept must be approved by the manufacturer, who may refuse to approve certain titles.Most modern PC or console games take from one to three years to complete., where as a mobile game can be developed in a few months. The length of development is influenced by a number of factors, such as genre, scale, development platform and number of assets.Some games can take much longer than the average time frame to complete. An infamous example is 3D Realms' Duke Nukem Forever, announced to be in production in April 1997 and released fourteen years later in June 2011. Planning for Maxis' game Spore began in late 1999; the game was released nine years later in September 2008. The game Prey was briefly profiled in a 1997 issue of PC Gamer, but was not released until 2006, and only then in highly altered form. Finally, Team Fortress 2 was in development from 1998 until its 2007 release, and emerged from a convoluted development process involving "probably three or four different games", according to Gabe Newell.The game revenue from retails is divided among the parties along the distribution chain, such as — developer, publisher, retail, manufacturer and console royalty. Many developers fail to profit from this and go bankrupt. Many developers seek alternative economic models through Internet marketing and distribution channels to improve returns., as through a mobile distribution channel the share of a developer can be up to 70% of the total revenue  and through an online distribution channel almost 100%.
+
+
+== History ==
+The history of game making begins with the development of the first video games, although which video game is the first depends on the definition of video game. The first games created had little entertainment value, and their development focus was separate from user experience—in fact, these games required mainframe computers to play them. OXO, written by Alexander S. Douglas in 1952, was the first computer game to use a digital display.  In 1958, a game called Tennis for Two, which displayed its output on an oscilloscope, was made by Willy Higinbotham, a physicist working at the Brookhaven National Laboratory.  In 1961, a mainframe computer game called Spacewar! was developed by a group of Massachusetts Institute of Technology students led by Steve Russell.True commercial design and development of games began in the 1970s, when arcade video games and first-generation consoles were marketed. In 1971, Computer Space was the first commercially sold, coin-operated video game. It used a black-and-white television for its display, and the computer system was made of 74 series TTL chips. In 1972, the first home console system was released called Magnavox Odyssey, developed by Ralph H. Baer. That same year, Atari released Pong, an arcade game that increased video game popularity. The commercial success of Pong led other companies to develop Pong clones, spawning the video game industry.Programmers worked within the big companies to produce games for these devices. The industry did not see huge innovation in game design and a large number of consoles had very similar games. Many of these early games were often Pong clones. Some games were different, however, such as Gun Fight, which was significant for several reasons: an early 1975 on-foot, multi-directional shooter, which depicted game characters, game violence, and human-to-human combat. Tomohiro Nishikado's original version was based on discrete logic, which Dave Nutting adapted using the Intel 8080, making it the first video game to use a microprocessor. Console manufacturers soon started to produce consoles that were able to play independently developed games, and ran on microprocessors, marking the beginning of second-generation consoles, beginning with the release of the Fairchild Channel F in 1976.
+The flood of Pong clones led to the video game crash of 1977, which eventually came to an end with the mainstream success of Taito's 1978 arcade shooter game Space Invaders, marking the beginning of the golden age of arcade video games and inspiring dozens of manufacturers to enter the market. Its creator Nishikado not only designed and programmed the game, but also did the artwork, engineered the arcade hardware, and put together a microcomputer from scratch. It was soon ported to the Atari 2600, becoming the first "killer app" and quadrupling the console's sales. At the same time, home computers appeared on the market, allowing individual programmers and hobbyists to develop games. This allowed hardware manufacturer and software manufacturers to act separately. A very large number of games could be produced by an individual, as games were easy to make because graphical and memory limitation did not allow for much content. Larger companies developed, who focused selected teams to work on a title. The developers of many early home video games, such as Zork, Baseball, Air Warrior, and Adventure, later transitioned their work as products of the early video game industry.
+The industry expanded significantly at the time, with the arcade video game sector alone (representing the largest share of the gaming industry) generating higher revenues than both pop music and Hollywood films combined. The home video game industry, however, suffered major losses following the North American video game crash of 1983. In 1984 Jon Freeman warned in Computer Gaming World:
+
+Q: Are computer games the way to fame and fortune?
+A: No. Not unless your idea of fame is having your name recognized by one or two astute individuals at Origins ... I've been making a living (after a fashion) designing games for most of the last six years. I wouldn't recommend it for someone with a weak heart or a large appetite, though.
+
+Chris Crawford and Don Daglow in 1987 similarly advised prospective designers to write games as a hobby first, and to not quit their existing jobs early. The home video game industry was revitalized soon after by the widespread success of the Nintendo Entertainment System.Compute!'s Gazette in 1986 stated that although individuals developed most early video games, "It's impossible for one person to have the multiple talents necessary to create a good game". By 1987 a video game required 12 months to develop and another six to plan marketing. Projects remained usually solo efforts, with single developers delivering finished games to their publishers. With the ever-increasing processing and graphical capabilities of arcade, console and computer products, along with an increase in user expectations, game design moved beyond the scope of a single developer to produce a marketable game. The Gazette stated, "The process of writing a game involves coming up with an original, entertaining concept, having the skill to bring it to fruition through good, efficient programming, and also being a fairly respectable artist". This sparked the beginning of team-based development. In broad terms, during the 1980s, pre-production involved sketches and test routines of the only developer. In the 1990s, pre-production consisted mostly of game art previews. In the early 2000s, pre-production usually produced a playable demo.In 2000 a 12 to 36 month development project was funded by a publisher for US$1M–3M. Additionally, $250k–1.5M were spent on marketing and sales development. In 2001, over 3000 games were released for PC; and from about 100 games turning profit only about 50 made significant profit. In the early 2000s it became increasingly common to use middleware game engines, such as Quake engine or Unreal engine.In the early 2000s, also mobile games started to gain popularity. However, mobile games distributed by mobile operators remained a marginal form of gaming until the Apple App Store was launched in 2008.In 2005, a mainstream console video game cost from US$3M to $6M to develop. Some games cost as much as $20M to develop. In 2006 the profit from a console game sold at retail was divided among parties of distribution chain as follows: developer (13%), publisher (32%), retail (32%), manufacturer (5%), console royalty (18%). In 2008 a developer would retain around 17% of retail price and around 85% if sold online.Since the third generation of consoles, the home video game industry has constantly increased and expanded. The industry revenue has increased at least five-fold since the 1990s. In 2007, the software portion of video game revenue was $9.5 billion, exceeding that of the movie industry.The Apple App Store, introduced in 2008, was the first mobile application store operated directly by the mobile platform holder. It significantly changed the consumer behaviour more favourable for downloading mobile content and quickly broadened the markets of mobile games.In 2009 games' market annual value was estimated between $7–30 billion, depending on which sales figures are included. This is on par with films' box office market. A publisher would typically fund an independent developer for $500k–$5M for a development of a title. In 2012, the total value had already reached $66.3 billion and by then the video game markets were no longer dominated by console games. According to Newzoo, the share of MMO's was 19.8%, PC/MAC's 9.8%, tablets' 3.2%, smartphones 10.6%, handhelds' 9.8%, consoles' only 36.7% and online casual games 10.2%. The fastest growing market segments being mobile games with an average annual rate of 19% for smartphones and 48% for tablets.In the past several years, many developers opened and many closed down. Each year a number of developers are acquired by larger companies or merge with existing companies. For example, in 2007 Blizzard Entertainment's parent company, Vivendi Games merged with Activision. In 2008 Electronic Arts nearly acquired Take-Two Interactive. In 2009 Midway Games was acquired by Time-Warner and Eidos Interactive merged with Square Enix.
+
+
+== Roles ==
+
+
+=== Producer ===
+
+Development is overseen by internal and external producers. The producer working for the developer is known as the internal producer and manages the development team, schedules, reports progress, hires and assigns staff, and so on. The producer working for the publisher is known as the external producer and oversees developer progress and budget. Producer's responsibilities include PR, contract negotiation, liaising between the staff and stakeholders, schedule and budget maintenance, quality assurance, beta test management, and localization. This role may also be referred to as project manager, project lead, or director.
+
+
+=== Publisher ===
+
+A video game publisher is a company that publishes video games that they have either developed internally or have had developed by an external video game developer. As with book publishers or publishers of DVD movies, video game publishers are responsible for their product's manufacturing and marketing, including market research and all aspects of advertising.
+They usually finance the development, sometimes by paying a video game developer (the publisher calls this external development) and sometimes by paying an internal staff of developers called a studio. Consequently, they also typically own the IP of the game. Large video game publishers also distribute the games they publish, while some smaller publishers instead hire distribution companies (or larger video game publishers) to distribute the games they publish.
+Other functions usually performed by the publisher include deciding on and paying for any license that the game may utilize; paying for localization; layout, printing, and possibly the writing of the user manual; and the creation of graphic design elements such as the box design.
+Large publishers may also attempt to boost efficiency across all internal and external development teams by providing services such as sound design and code packages for commonly needed functionality.
+Because the publisher usually finances development, it usually tries to manage development risk with a staff of producers or project managers to monitor the progress of the developer, critique ongoing development, and assist as necessary. Most video games created by an external video game developer are paid for with periodic advances on royalties. These advances are paid when the developer reaches certain stages of development, called milestones.
+Independent video game developers create games without a publisher and may choose to digitally distribute their games.
+
+
+=== Development team ===
+Developers can range in size from small groups making casual games to housing hundreds of employees and producing several large titles.  Companies divide their subtasks of game's development. Individual job titles may vary; however, roles are the same within the industry. The development team consists of several members. Some members of the team may handle more than one role; similarly more than one task may be handled by the same member. Team size can vary from 20 to 100 or more members, depending on the game's scope. The most represented are artists, followed by programmers, then designers, and finally, audio specialists, with two to three producers in management. These positions are employed full-time. Other positions, such as testers, may be employed only part-time. Salaries for these positions vary depending on both the experience and the location of the employee. An entry-level programmer can make, on average, around $70,000 annually and an experienced programmer can make, on average, around $125,000 annually.A development team includes these roles or disciplines:
+
+
+==== Designer ====
+
+A game designer is a person who designs gameplay, conceiving and designing the rules and structure of a game. Development teams usually have a lead designer who coordinates the work of other designers. They are the main visionary of the game. One of the roles of a designer is being a writer, often employed part-time to conceive game's narrative, dialogue, commentary, cutscene narrative, journals, video game packaging content, hint system, etc. In larger projects, there are often separate designers for various parts of the game, such as, game mechanics, user interface, characters, dialogue, etc.
+
+
+==== Artist ====
+
+A game artist is a visual artist who creates video game art. The art production is usually overseen by an art director or art lead, making sure their vision is followed. The art director manages the art team, scheduling and coordinating within the development team.The artist's job may be 2D oriented or 3D oriented. 2D artists may produce concept art, sprites, textures, environmental backdrops or terrain images, and user interface. 3D artists may produce models or meshes, animation, 3D environment, and cinematics. Artists sometimes occupy both roles.
+
+
+==== Programmer ====
+
+A game programmer is a software engineer who primarily develops video games or related software (such as game development tools). The game's codebase development is handled by programmers. There are usually one to several lead programmers, who implement the game's starting codebase and overview future development and programmer allocation on individual modules.
+Individual programming disciplines roles include:
+Physics – the programming of the game engine, including simulating physics, collision, object movement, etc.;
+AI – producing computer agents using game AI techniques, such as scripting, planning, rule-based decisions, etc.
+Graphics – the managing of graphical content utilization and memory considerations; the production of graphics engine, integration of models, textures to work along the physics engine.
+Sound – integration of music, speech, effect sounds into the proper locations and times.
+Gameplay – implementation of various games rules and features (sometimes called a generalist);
+Scripting – development and maintenance of high-level command system for various in-game tasks, such as AI, level editor triggers, etc.
+UI – production of user interface elements, like option menus, HUDs, help and feedback systems, etc.
+Input processing – processing and compatibility correlation of various input devices, such as keyboard, mouse, gamepad, etc.
+Network communications – the managing of data inputs and outputs for local and internet gameplay.
+Game tools – the production of tools to accompany the development of the game, especially for designers and scripters.
+
+
+==== Level designer ====
+
+A level designer is a person who creates levels, challenges or missions for computer and/or video games using a specific set of programs. These programs may be commonly available commercial 3D or 2D design programs, or specially designed and tailored level editors made for a specific game.
+Level designers work with both incomplete and complete versions of the game. Game programmers usually produce level editors and design tools for the designers to use. This eliminates the need for designers to access or modify game code. Level editors may involve custom high-level scripting languages for interactive environments or AIs. As opposed to the level editing tools sometimes available to the community, level designers often work with placeholders and prototypes aiming for consistency and clear layout before required artwork is completed.
+
+
+==== Sound engineer ====
+Sound engineers are technical professionals responsible for sound effects and sound positioning. They sometimes oversee voice acting and other sound asset creation. Composers who create a game's musical score also comprise a game's sound team, though often this work is outsourced.
+
+
+==== Tester ====
+
+The quality assurance is carried out by game testers. A game tester analyzes video games to document software defects as part of a quality control. Testing is a highly technical field requiring computing expertise, and analytic competence.The testers ensure that the game falls within the proposed design: it both works and is entertaining.This involves testing of all features, compatibility, localization, etc. Although, necessary throughout the whole development process, testing is expensive and is often actively utilized only towards the completion of the project.
+
+
+== Development process ==
+Game development is a software development process, as a video game is software with art, audio, and gameplay. Formal software development methods are often overlooked. Games with poor development methodology are likely to run over budget and time estimates, as well as contain a large number of bugs. Planning is important for individual and group projects alike.Overall game development is not suited for typical software life cycle methods, such as the waterfall model.One method employed for game development is agile development. It is based on iterative prototyping, a subset of software prototyping. Agile development depends on feedback and refinement of game's iterations with gradually increasing feature set. This method is effective because most projects do not start with a clear requirement outline. A popular method of agile software development is Scrum.Another successful method is Personal Software Process (PSP) requiring additional training for staff to increase awareness of project's planning. This method is more expensive and requires commitment of team members. PSP can be extended to Team Software Process, where the whole team is self-directing.Game development usually involves an overlap of these methods. For example, asset creation may be done via waterfall model, because requirements and specification are clear,  but gameplay design might be done using iterative prototyping.Development of a commercial game usually includes the following stages:
+
+
+=== Pre-production ===
+Pre-production or design phase is a planning phase of the project focused on idea and concept development and production of initial design documents. The goal of concept development is to produce clear and easy to understand documentation, which describes all the tasks, schedules and estimates for the development team. The suite of documents produced in this phase is called production plan. This phase is usually not funded by a publisher, however good publishers may require developers to produce plans during pre-production.The concept documentation can be separated into three stages or documents—high concept, pitch and concept; however, there is no industry standard naming convention, for example, both Bethke (2003) and Bates (2004) refer to pitch document as "game proposal", yet Moore, Novak (2010) refers to concept document as "game proposal".The late stage of pre-production may also be referred to as proof of concept, or technical review when more detailed game documents are produced.
+Publishers have started to expect broader game proposals even featuring playable prototypes.
+
+
+==== High concept ====
+High concept is a brief description of a game. The high concept is the one-or two-sentence response to the question, "What is your game about?".
+
+
+==== Pitch ====
+A pitch, concept document, proposal document, or game proposal is a short summary document intended to present the game's selling points and detail why the game would be profitable to develop.Verbal pitches may be made to management within the developer company, and then presented to publishers. A written document may need to be shown to publishers before funding is approved. A game proposal may undergo one to several green-light meetings with publisher executives who determine if the game is to be developed. The presentation of the project is often given by the game designers. Demos may be created for the pitch; however may be unnecessary for established developers with good track records.If the developer acts as its own publisher, or both companies are subsidiaries of a single company, then only the upper management needs to give approval.
+
+
+==== Concept ====
+Concept document, game proposal, or game plan is a more detailed document than the pitch document. This includes all the information produced about the game. This includes the high concept, game's genre, gameplay description, features, setting, story, target audience, hardware platforms, estimated schedule, marketing analysis, team requirements, and risk analysis.Before an approved design is completed, a skeleton crew of programmers and artists usually begins work.  Programmers may develop quick-and-dirty prototypes showcasing one or more features that stakeholders would like to see incorporated in the final product.  Artists may develop concept art and asset sketches as a springboard for developing real game assets.  Producers may work part-time on the game at this point, scaling up for full-time commitment as development progresses. Game producers work during pre-production is related to planning the schedule, budget and estimating tasks with the team. The producer aims to create a solid production plan so that no delays are experienced at the start of the production.
+
+
+==== Game design document ====
+
+Before a full-scale production can begin, the development team produces the first version of a game design document incorporating all or most of the material from the initial pitch. The design document describes the game's concept and major gameplay elements in detail. It may also include preliminary sketches of various aspects of the game. The design document is sometimes accompanied by functional prototypes of some sections of the game. The design document remains a living document throughout the development—often changed weekly or even daily.Compiling a list of game's needs is called "requirement capture".
+
+
+==== Prototype ====
+
+Writing prototypes of gameplay ideas and features is an important activity that allows programmers and game designers to experiment with different algorithms and usability scenarios for a game. A great deal of prototyping may take place during pre-production before the design document is complete and may, in fact, help determine what features the design specifies. Prototyping at this stage is often done manually, (paper prototyping), not digitally, as this is often easier and faster to test and make changes before wasting time and resources into what could be a canceled idea or project. Prototyping may also take place during active development to test new ideas as the game emerges.
+Prototypes are often meant only to act as a proof of concept or to test ideas, by adding, modifying or removing some of the features. Most algorithms and features debuted in a prototype may be ported to the game once they have been completed.
+Often prototypes need to be developed quickly with very little time for up-front design (around 15 to 20 minutes of testing). Therefore, usually very prolific programmers are called upon to quickly code these testbed tools. RAD tools may be used to aid in the quick development of these programs. In case the prototype is in a physical form, programmers and designers alike will make the game with paper, dice, and other easy to access tools in order to make the prototype faster.
+A successful development model is iterative prototyping, where design is refined based on current progress. There are various technology available for video game development
+
+
+=== Production ===
+Production is the main stage of development, when assets and source code for the game are produced.Mainstream production is usually defined as the period of time when the project is fully staffed.  Programmers write new source code, artists develop game assets, such as, sprites or 3D models. Sound engineers develop sound effects and composers develop music for the game. Level designers create levels, and writers write dialogue for cutscenes and NPCs.  Game designers continue to develop the game's design throughout production.
+
+
+==== Design ====
+
+Game design is an essential and collaborative process of designing the content and rules of a game, requiring artistic and technical competence as well as writing skills. Creativity and an open mind is vital for the completion of a successful video game.
+During development, the game designer implements and modifies the game design to reflect the current vision of the game. Features and levels are often removed or added. The art treatment may evolve and the backstory may change. A new platform may be targeted as well as a new demographic. All these changes need to be documented and disseminated to the rest of the team. Most changes occur as updates to the design document.
+
+
+==== Programming ====
+
+The programming of the game is handled by one or more game programmers. They develop prototypes to test ideas, many of which may never make it into the final game.  The programmers incorporate new features demanded by the game design and fix any bugs introduced during the development process. Even if an off-the-shelf game engine is used, a great deal of programming is required to customize almost every game.
+
+
+==== Level creation ====
+
+From a time standpoint, the game's first level takes the longest to develop.   As level designers and artists use the tools for level building, they request features and changes to the in-house tools that allow for quicker and higher quality development. Newly introduced features may cause old levels to become obsolete, so the levels developed early on may be repeatedly developed and discarded. Because of the dynamic environment of game development, the design of early levels may also change over time. It is not uncommon to spend upwards of twelve months on one level of a game developed over the course of three years. Later levels can be developed much more quickly as the feature set is more complete and the game vision is clearer and more stable.
+
+
+==== Art production ====
+
+
+==== Audio production ====
+Game audio may be separated into three categories—sound effects, music, and voice-over.Sound effect production is the production of sounds by either tweaking a sample to a desired effect or replicating it with real objects. Sound effects are important and impact the game's delivery.Music may be synthesized or performed live.There are several ways in which music is presented in a game.
+
+Music may be ambient, especially for slow periods of game, where the music aims to reinforce the aesthetic mood and game setting.
+Music may be triggered by in-game events. For example, in such games as Pac-Man or Mario, player picking up power-ups triggered respective musical scores.
+Action music, such as chase, battle or hunting sequences is fast-paced, hard-changing score.
+Menu music, similar to credits music, creates aural impact while relatively little action is taking place.A game title with 20 hours of single-player gameplay may feature around 60 minutes of music.Voice-overs and voice acting creates character gameplay interactivity. Voice acting adds personality to the game's characters.
+
+
+==== Testing ====
+
+At the end of the project, quality assurance plays a significant role.  Testers start work once anything is playable. This may be one level or subset of the game software that can be used to any reasonable extent. Early on, testing a game occupies a relatively small amount of time. Testers may work on several games at once. As development draws to a close, a single game usually employs many testers full-time (and often with overtime). They strive to test new features and regression test existing ones. Testing is vital for modern, complex games as single changes may lead to catastrophic consequences.
+At this time features and levels are being finished at the highest rate and there is more new material to be tested than during any other time in the project. Testers need to carry out regression testing to make sure that features that have been in place for months still operate correctly.   Regression testing is one of the vital tasks required for effective software development. As new features are added, subtle changes to the codebase can produce unexpected changes in different portions of the game. This task is often overlooked, for several reasons. Sometimes, when a feature is implemented and tested, it is considered "working" for the rest of the project and little attention is given to repeated testing. Also, features that are added late in development are prioritized and existing features often receive insufficient testing time. Proper regression testing is also increasingly expensive as the number of features increases and is often not scheduled correctly.
+Despite the dangers of overlooking regression testing, some game developers and publishers fail to test the full feature suite of the game and ship a game with bugs. This can result in customers dissatisfaction and failure to meet sales goals. When this does happen, most developers and publishers quickly release patches that fix the bugs and make the game fully playable again.
+
+
+=== Milestones ===
+Commercial game development projects may be required to meet milestones set by publisher. Milestones mark major events during game development and are used to track game's progress. Such milestones may be, for example, first playable, alpha, or beta  game versions. Project milestones depend on the developer schedules.Milestones are usually based on multiple short descriptions for functionality; examples may be "Player roaming around in game environment" or "Physics working, collisions, vehicle" etc. (numerous descriptions are possible).  These milestones are usually how the developer gets paid; sometimes as "an advance against royalty". These milestones are listed, anywhere from three to twenty depending on developer and publisher.  The milestone list is usually a collaborative agreement between the publisher and developer.  The developer usually advocates for making the milestone descriptions as simple as possible; depending on the specific publisher - the milestone agreements may get very detailed for a specific game.  When working with a good publisher, the "spirit of the law" is usually adhered to regarding milestone completion... in other words if the milestone is 90% complete the milestone is usually paid with the understanding that it will be 100% complete by the next due milestone.  It is a collaborative agreement between publisher and developer, and usually (but not always) the developer is constrained by heavy monthly development expenses that need to be met.  Also, sometimes milestones are "swapped", the developer or publisher may mutually agree to amend the agreement and rearrange milestone goals depending on changing requirements and development resources available.  Milestone agreements are usually included as part of the legal development contracts.  After each "milestone" there is usually a payment arrangement.  Some very established developers may simply have a milestone agreement based on the amount of time the game is in development (monthly / quarterly) and not specific game functionality - this is not as common as detailed functionality "milestone lists".
+There is no industry standard for defining milestones, and such vary depending on publisher, year, or project. Some common milestones for two-year development cycle are as follows:
+
+
+==== First playable ====
+The first playable is the game version containing representative gameplay and assets, this is the first version with functional major gameplay elements. It is often based on the prototype created in pre-production. Alpha and first playable are sometimes used to refer to a single milestone, however large projects require first playable before feature complete alpha. First playable occurs 12 to 18 months before code release.  It is sometimes referred to as the "Pre-Alpha" stage.
+
+
+==== Alpha ====
+
+Alpha is the stage when key gameplay functionality is implemented, and assets are partially finished. A game in alpha is feature complete, that is, game is playable and contains all the major features. These features may be further revised based on testing and feedback. Additional small, new features may be added, similarly planned, but unimplemented features may be dropped. Programmers focus mainly on finishing the codebase, rather than implementing additions.  Alpha occurs eight to ten months before code release, but this can vary significantly based on the scope of content and assets any given game has.
+
+
+==== Code freeze ====
+Code freeze is the stage when new code is no longer added to the game and only bugs are being corrected. Code freeze occurs three to four months before code release.
+
+
+==== Beta ====
+
+Beta is feature and asset complete version of the game, when only bugs are being fixed. This version contains no bugs that prevent the game from being shippable. No changes are made to the game features, assets, or code. Beta occurs two to three months before code release.
+
+
+==== Code release ====
+Code release is the stage when many bugs are fixed and game is ready to be shipped or submitted for console manufacturer review. This version is tested against QA test plan. First code release candidate is usually ready three to four weeks before code release.
+
+
+==== Gold master ====
+
+Gold master is the final game's build that is used as a master for production of the game.
+
+
+==== Crunch time ====
+Overtime is expected in the games industry. Particularly, crunch time or crunch mode is unpaid overtime requested by many companies to meet project deadlines and milestones that negatively affects game developers. A team missing a deadline risks the danger of having the project cancelled or employees being laid off. Although many companies are reducing the amount of crunch time, it is still prominent in smaller companies.Many companies offer time-off, called comp time or extra paid time off after product ships to compensate for crunch time's negative effects. Some companies offer bonuses and financial rewards for successful milestone reach. Sometimes on-site crunch meals are offered and delivered to the team during crunch time.The International Game Developers Association (IGDA) surveyed nearly 1,000 game developers in 2004 and produced a report to highlight the many problems caused by bad practice.
+
+
+=== Post-production ===
+After the game goes gold and ships, some developers will give team members comp time (perhaps up to a week or two) to compensate for the overtime put in to complete the game, though this compensation is not standard.
+
+
+==== Maintenance ====
+Once a game ships, the maintenance phase for the video game begins.Games developed for video game consoles have had almost no maintenance period in the past. The shipped game would forever house as many bugs and features as when released. This was common for consoles since all consoles had identical or nearly identical hardware; making incompatibility, the cause of many bugs, a non-issue. In this case, maintenance would only occur in the case of a port, sequel, or enhanced remake that reuses a large portion of the engine and assets.
+In recent times popularity of online console games has grown, and online capable video game consoles and online services such as Xbox Live for the Xbox have developed. Developers can maintain their software through downloadable patches. These changes would not have been possible in the past without the widespread availability of the Internet.
+PC development is different. Game developers try to account for majority of configurations and hardware. However, the number of possible configurations of hardware and software inevitably leads to discovery of game-breaking circumstances that the programmers and testers didn't account for.
+Programmers wait for a period to get as many bug reports as possible. Once the developer thinks they've obtained enough feedback, the programmers start working on a patch. The patch may take weeks or months to develop, but it's intended to fix most accounted bugs and problems with the game that were overlooked past code release, or in rare cases, fix unintended problems caused by previous patches. Occasionally a patch may include extra features or content or may even alter gameplay.
+In the case of a massively multiplayer online game (MMOG), such as a MMORPG or MMORTS, the shipment of the game is the starting phase of maintenance. Such online games are in continuous maintenance as the gameworld is continuously changed and iterated and new features are added. The maintenance staff for a popular MMOG can number in the dozens, sometimes including members of the original programming team.
+
+
+== Outsourcing ==
+Several development disciplines, such as audio, dialogue, or motion capture, occur for relatively short periods of time. Efficient employment of these roles requires either large development house with multiple simultaneous title production or outsourcing from third-party vendors. Employing personnel for these tasks full-time is expensive, so a majority of developers outsource a portion of the work. Outsourcing plans are conceived during the pre-production stage; where the time and finances required for outsourced work are estimated.
+The music cost ranges based on length of composition, method of performance (live or synthesized), and composer experience. In 2003 a minute of high quality synthesized music cost between US$600-1.5k. A title with 20 hours of gameplay and 60 minutes of music may have cost $50k-60k for its musical score.
+Voice acting is well-suited for outsourcing as it requires a set of specialized skills. Only large publishers employ in-house voice actors.
+Sound effects can also be outsourced.
+Programming is generally outsourced less than other disciplines, such as art or music. However, outsourcing for extra programming work or savings in salaries has become more common in recent years.
+
+
+== Marketing ==
+The game production has similar distribution methods to those of music and film industries.The publisher's marketing team targets the game for a specific market and then advertises it. The team advises the developer on target demographics and market trends, as well as suggests specific features. The game is then advertised and the game's high concept is incorporated into the promotional material, ranging from magazine ads to TV spots. Communication between developer and marketing is important.The length and purpose of a game demo depends on the purpose of the demo and target audience. A game's demo may range between a few seconds (such as clips or screenshots) to hours of gameplay. The demo is usually intended for journalists, buyers, trade shows, general public, or internal employees (who, for example, may need to familiarize with the game to promote it). Demos are produced with public relations, marketing and sales in mind, maximizing the presentation effectiveness.
+
+
+=== Trade show demo ===
+As a game nears completion, the publisher will want to showcase a demo of the title at trade shows. Many games have a "Trade Show demo" scheduled.The major annual trade shows are, for example, Electronic Entertainment Expo (E3) or Penny Arcade Expo (PAX). E3 is the largest show in North America. E3 is hosted primarily for marketing and business deals. New games and platforms are announced at E3 and it received broad press coverage. Thousands of products are on display and press demonstration schedules are kept. In recent years E3 has become a more closed-door event and many advertisers have withdrawn, reducing E3's budget. PAX, created by authors of Penny Arcade blog and web-comic, is a mature and playful event with a player-centred philosophy.
+
+
+=== Localization ===
+
+A game created in one language may also be published in other countries which speak a different language. For that region, the developers may want to translate the game to make it more accessible. For example, some games created for PlayStation Vita were initially published in Japanese language, like Soul Sacrifice. Non-native speakers of the game's original language may have to wait for the translation of the game to their language. But most modern big-budget games take localization into account during the development process and the games are released in several different languages simultaneously.Localization is the process of translating the language assets in a game into other languages. By localizing games, they increase their level of accessibility where games could help to expend the international markets effectively. Game localization is generally known as language translations yet a "full localization" of a game is a complex project. Different levels of translation range from: zero translation being that there is no translation to the product and all things are sent raw, basic translation where only a few text and subtitles are translated or even added, and a full translation where new voice overs and game material changes are added.
+There are various essential elements on localizing a game including translating the language of the game to adjusting in-game assets for different cultures to reach more potential consumers in other geographies (or globalization for short). Translation seems to fall into the scope of localization, which itself constitutes a substantially broader endeavor. These include the different levels of translation to the globalization of the game itself. However, certain developers seem to be divided on whether globalization falls under localization or not.
+Moreover, in order to fit into the local markets, game production companies often change or redesign the graphic designs or the packaging of the game for marketing purposes. For example, the popular game Assassin's Creed has two different packaging designs for the Japanese and US market. By localizing the graphics and packaging designs, companies might arouse better connections and attention from the consumers from various regions.
+
+
+== Indie development ==
+
+Independent games or indie games are produced by individuals and small teams with no large-scale developer or publisher affiliations. Indie developers generally rely on Internet distribution schemes. Many hobbyist indie developers create mods of existing games. Indie developers are credited for creative game ideas (for example, Darwinia, Weird Worlds, World of Goo). Current economic viability of indie development is questionable, however in recent years internet delivery platforms, such as, Xbox Live Arcade and Steam have improved indie game success. In fact, some indie games have become very successful, such as Braid, World of Goo, and Minecraft. In recent years many communities have emerged in support of indie games such as the popular indie game marketplace Itch.io, indie game YouTube channels and a large indie community on Steam (service). It is common for indie game deveopers to release games for free and generate revenue through other means such as microtransactions (in-game transactions), in-game advertisements and crowd-funding services like Patreon and Kickstarter.
+
+
+== Game industry ==
+
+The video game industry (formally referred to as interactive entertainment) is the economic sector involved with the development, marketing and sale of video games. The industry sports several unique approaches.
+
+
+=== Culture ===
+Game development culture always has been and continues to be very casual by normal business standards. Many game developers are strongly individualistic and usually tolerant of divergent personalities. Despite the casual culture, game development is taken seriously by its practitioners, who may take offense if it is suggested that they don't have "a real job."
+
+
+=== Locales ===
+
+
+==== United States ====
+
+In the United States, in the early history of video game development, the prominent locale for game development was the corridor from San Francisco to Silicon Valley in California. Most new developers in the US open near such "hot beds".At present, many large publishers still operate there, such as: Activision Blizzard, Capcom Entertainment, Disney Interactive, Eidos Interactive, Electronic Arts, Foundation 9, LucasArts Entertainment, Namco Bandai Games, Sega of America, Sony Computer Entertainment America, THQ. However, due to the nature of game development, many publishers are present in other regions, such as Big Fish Games (Washington), GarageGames (Oregon), Majesco Entertainment (New Jersey), Microsoft Corporation (Washington), Nintendo of America (Washington), Take-Two Interactive (New York), SouthPeak Games (Virginia).
+
+
+=== Education ===
+Many universities and design schools are offering classes specifically focused on game development. Some have built strategic alliances with major game development companies. These alliances ensure that students have access to the latest technologies and are provided the opportunity to find jobs within the gaming industry once qualified. Many innovative ideas are presented at conferences, such as Independent Games Festival (IGF) or Game Developers Conference (GDC).
+Indie game development may motivate students who produce a game for their final projects or thesis and may open their own game company.Universities offer Computer Science degrees which give you a strong basis of knowledge if you wish to become a programmer 
+
+
+=== Stability ===
+Video game industry employment is fairly volatile, similar to other artistic industries including television, music, etc. Scores of game development studios crop up, work on one game, and then quickly go under. This may be one reason why game developers tend to congregate geographically; if their current studio goes under, developers can flock to an adjacent one or start another from the ground up.
+In an industry where only the top 20% of products make a profit, it's easy to understand this fluctuation. Numerous games may start development and are cancelled, or perhaps even completed but never published. Experienced game developers may work for years and yet never ship a title: such is the nature of the business. This volatility is likely inherent to the artistic nature of games.
+
+
+== See also ==
+
+International Game Developers Association
+Independent video game development
+Software development
+Software development process
+List of video gaming topics
+Video game controversy
+Open source video games
+
+
+== References ==
+
+
+=== Bibliography ===
+
+
+== External links ==
+GameDev.net, a resource for game development
+DevMaster.net, game development site
+Gamasutra.com, articles on game development
+
+
+=== Wikis ===
+Game Development Wiki at Gamedev.net (discontinued and archived)

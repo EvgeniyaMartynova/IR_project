@@ -1,0 +1,62 @@
+Computer wallpaper
+
+A wallpaper or background (also known as a desktop wallpaper, desktop background, desktop picture or desktop image on computers) is a digital image (photo, drawing etc.) used as a decorative background of a graphical user interface on the screen of a computer, smartphone or other electronic devices. On a computer, wallpapers are generally used on the desktop, while on a mobile phone they serve as the background for the home screen. Though most devices come with a default background image, modern devices usually allow users to manually change the background image.
+The term "wallpaper" was used in Microsoft Windows before Windows Vista (where it is called the "desktop background"), while macOS refers to it as "desktop picture". On older systems which allowed small repeated patterns to be set as background images, the term desktop pattern was used.
+
+
+== History ==
+
+The X Window System was one of the earliest systems to include support for an arbitrary image as wallpaper via the xsetroot program, which at least as early as the X10R3 release in 1985 could tile the screen with any solid color or any binary-image X BitMap file. In 1989, a free software program called xgifroot was released that allowed an arbitrary color GIF image to be used as wallpaper, and in the same year the free xloadimage program was released which could display a variety of image formats (including color images in Sun Rasterfile format) as the desktop background. Subsequently, a number of programs were released that added wallpaper support for additional image formats and other features, such as the xpmroot program (released in 1993 as part of fvwm) and the xv software (released in 1994).
+The original Macintosh operating system only allowed a selection of 8×8-pixel binary-image tiled patterns; the ability to use small color patterns was added in System 5 in 1987.  MacOS 8 in 1997 was the first Macintosh version to include built-in support for using arbitrary images as desktop pictures, rather than small repeating patterns.Windows 3.0 in 1990 was the first version of Microsoft Windows to come with support for wallpaper customization, and used the term "wallpaper" for this feature. Although Windows 3.0 only came with 7 small patterns (2 black-and-white and 5 16-color), the user could supply other images in the BMP file format with up to 8-bit color (although the system was theoretically capable of handling 24-bit color images, it did so by dithering them to an 8-bit palette). to provide similar wallpaper features otherwise lacking in those systems.  A wallpaper feature was added in a beta release of OS/2 2.0 in 1991.Due to the widespread use of personal computers, some wallpapers have become immensely recognizable and gained iconic cultural status. Bliss, the default wallpaper of Microsoft Windows XP has become the most viewed photograph of the 2000s.
+
+
+== Animated backgrounds ==
+
+Animated backgrounds (sometimes referred to as live backgrounds or dynamic backgrounds) refers to wallpapers which feature a moving image or a 2D / 3D scene as an operating system background rather than a static image, it may also refer to wallpapers being cycled in a playlist, often with certain transition effects. Some operating systems, such as the Android operating system, provide native support for animated wallpapers.
+
+
+=== Microsoft ===
+
+
+==== Windows ====
+Modern Windows systems can be configured to cycle through pictures from a folder at regular intervals. Windows does not natively support animated backgrounds, however, third-party software can be installed to have full support for placing animated images, video files, 2D or 3D scenes and web pages as wallpapers. Similar functionality could be found in the Active Desktop feature of Windows 98 and later versions.
+
+
+=== Google ===
+
+
+==== Android ====
+Live wallpapers have been introduced in Android 2.0 (Eclair) to provide native support for animated wallpapers. From a technical point of view, live wallpapers are software applications which provide a moving background image and may allow for user interaction or utilize other hardware and software features within the device (accelerometer, GPS, network access, etc.).
+
+
+=== Apple ===
+
+
+==== macOS ====
+macOS has built-in support, via the Desktop & Screen Saver panel in its System Preferences, for cycling through a folder collection of images on a timed interval or when logging in or waking from sleep. Since macOS Mojave, the user can also select a "Dynamic Desktop" that automatically updates to visually match the time of the day.Additionally, macOS has the native ability to run a screen saver on the desktop; in this configuration, the screen saver appears beneath the desktop icons in place of the system wallpaper. However, macOS does not come with a built-in interface to do this; it must be done through Terminal commands or various third-party applications.
+
+
+==== iOS ====
+Dynamically animated backgrounds have also been introduced in iOS 7 and later versions, however they are restricted to the ones provided by Apple. Jailbroken iOS devices can download other dynamic backgrounds.
+
+
+=== Linux / Unix ===
+
+
+==== GNOME ====
+GNOME 2 also can be set to cycle through pictures from a folder at regular intervals, similarly to Windows 7.
+
+
+==== KDE ====
+KDE version 4 and later provide various dynamic wallpapers, including a slideshow, and other options provided by plugins, such as fractals and Earth map.
+
+
+==== Enlightenment ====
+Enlightenment v17 supports image sequences, animated and interactive desktop backgrounds in its default configuration.
+
+
+== See also ==
+Wallpaper group
+
+
+== References ==

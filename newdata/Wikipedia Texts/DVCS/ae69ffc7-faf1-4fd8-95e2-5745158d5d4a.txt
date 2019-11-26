@@ -1,0 +1,92 @@
+Data Validation and Certification Server (page does not exist)
+
+An Extended Validation Certificate (EV) is a certificate conforming to X.509 that proves the legal entity of the owner and is signed by a Certificate Authority key that can issue EV certificates. EV certificates can be used in the same manner as any other X.509 certificates, including securing web communications with HTTPS and signing software and documents. EV certificates are different from domain-validated certificates and organization-validation certificates in that they can be issued only by a subset of certificate authorities (CAs) and require verification of the requesting entity's legal identity before certificate issuance. 
+As of August 2019, Google Chrome, Mozilla Firefox and Apple Safari web browsers show the verified legal identity in their user interface, either before, or instead of, the domain name, but they plan to remove this distinction in the near future. Mobile browsers typically display EV certificated the same way they do DV and OV certificates. Of the ten most popular websites online, none use EV certificates and the trend is away from their usage.
+For software, the verified legal identity is displayed to the user by the operating system (e.g., Microsoft Windows) before proceeding with the installation.
+Extended Validation certificates are stored in a file format specified by and typically use the same encryption as organization-validated certificates and domain-validated certificates, so they are compatible with most server and User Agent software.
+The criteria for issuing EV certificates are defined by the Guidelines for Extended Validation promulgated by the CA/Browser Forum, a voluntary organization whose members include leading CAs and vendors of Internet software as well as representatives from the legal and audit professions.To issue an extended validation certificate, a CA requires verification of the requesting entity's identity and its operational status with its control over domain name and hosting server.
+
+
+== History ==
+
+
+=== Introduction by CA/Browser forum ===
+In 2005 Melih Abdulhayoglu, CEO of the Comodo Group, convened the first meeting of the organization that became the CA/Browser Forum, hoping to improve standards for issuing SSL/TLS certificates. On June 12, 2007, the CA/Browser Forum officially ratified the first version of the Extended Validation (EV) SSL Guidelines, which took effect immediately. The formal approval successfully brought to a close more than two years of effort, and provided the infrastructure for trusted Web site identity on the Internet. Then, in April 2008, the Forum announced version 1.1 of the Guidelines, building on the practical experience of its member CAs and relying-party application software suppliers gained in the months since the first version was approved for use. 
+
+
+=== Creation of special UI indicators in browsers ===
+Most major browsers created special User Interface indicators for pages loaded via HTTPS secured by an EV certificate soon after the creation of the standard. This includes Microsoft Edge 12, Google Chrome 1.0, Internet Explorer 7.0, Firefox 3, Safari 3.2, Opera 9.5. Furthermore, some mobile browsers, including Safari for iOS, Windows Phone, Firefox for Android, Chrome for Android, and iOS, added such UI indicators. Usually, browsers with EV support display the validated identity—usually a combination of organization name and jurisdiction—contained in the EV certificate's 'subject' field.
+In most implementations, the enhanced display includes:
+
+The name of the company or entity that owns the certificate;
+A lock symbol, also in the address bar, that varies in color depending on the security status of the website.By clicking on the lock symbol, the user can obtain more information about the certificate, including the name of the certificate authority (CA) that issued the EV certificate.
+
+
+=== Removal of special UI indicators ===
+In August of 2019, Google Chrome 76 and Firefox 70 browsers announced plans to redesign user interfaces to remove emphasis for EV certificates. Firefox 70 removed the distinction in the omnibox or URL bar (EV and DV certificates are displayed similarly with just a lock icon), but the details about certificate EV status are accessible in the more detailed view that opens after click on the lock icon.
+
+
+== Motivation ==
+An important motivation for using digital certificates with SSL/TLS was to add trust to online transactions by requiring website operators to undergo vetting with a certificate authority (CA) in order to get a certificate.
+However, commercial pressures have led some CAs to introduce "domain-validated" certificates. Domain-validated certificates existed before validation standards, and generally only require some proof of domain control. In particular, domain-validated certificates do not assert that a given legal entity has any relationship with the domain, although the domain may resemble a particular legal entity.
+In the past, most browsers' user interfaces did not clearly differentiate between low-validation certificates and those that have undergone more rigorous vetting. Since any successful SSL/TLS connection would cause a green padlock icon to appear in most browsers, users were not likely to be aware of whether the website owner has been validated or not. As a result, fraudsters (including phishing websites) could use TLS to add perceived credibility to their websites. Users of modern browsers can always check the identity of certificate owners by examining the details of the issued certificate which always indicates the certificate owner information such as the name of the organization and its location.
+EV certificates are validated against both the Baseline Requirements and the Extended Validation requirements, which place additional requirements on how authorities vet companies. These include manual checks of all the domain names requested by the applicant, checks against official government sources, checks against independent information sources, and phone calls to the company to confirm the position of the applicant. If the certificate is accepted, the government-registered serial number of the business as well as the physical address are stored in the EV certificate.
+By establishing stricter issuing criteria and requiring consistent application of those criteria by all participating CAs, EV certificates are intended to restore confidence among users that a website operator is a legally established business or organization with a verifiable identity.
+That said, there is still the concern that the same lack of accountability that led to the loss of public confidence in domain-validated certificates will lead to lax certification practices that will erode the value of EV certificates as well.
+
+
+== Issuing criteria ==
+Only CAs who pass an independent qualified audit review may offer EV, and all CAs globally must follow the same detailed issuance requirements which aim to:
+
+Establish the legal identity as well as the operational and physical presence of website owner;
+Establish that the applicant is the domain name owner or has exclusive control over the domain name;
+Confirm the identity and authority of the individuals acting for the website owner, and that documents pertaining to legal obligations are signed by an authorized officer;
+Limit the duration of certificate validity to ensure the certificate information is up to date. CA/B Forum is also limiting the maximum re-use of domain validation data and organisation data to maximum of 397 days (must not exceed 398 days) from March 2020 onward.With the exception of Extended Validation Certificates for .onion domains, it is otherwise not possible to get a wildcard Extended Validation Certificate – instead, all fully qualified domain names must be included in the certificate and inspected by the certificate authority.
+
+
+== Extended Validation certificate identification ==
+EV certificates are standard X.509 digital certificates. The primary way to identify an EV certificate is by referencing the Certificate Policies extension field. Each issuer uses a different object identifier (OID) in this field to identify their EV certificates, and each OID is documented in the issuer's Certification Practice Statement. As with root certificate authorities in general, browsers may not recognize all issuers.
+EV HTTPS certificates contain a subject with X.509 OIDs for jurisdictionOfIncorporationCountryName (OID: 1.3.6.1.4.1.311.60.2.1.3), jurisdictionOfIncorporationStateOrProvinceName (OID: 1.3.6.1.4.1.311.60.2.1.2) (optional) , jurisdictionLocalityName (OID: 1.3.6.1.4.1.311.60.2.1.1) (optional), businessCategory (OID: 2.5.4.15) and serialNumber (OID: 2.5.4.5), with the serialNumber pointing to the ID at the relevant secretary of state (US) or government business registrar (outside US), as well as a CA-specific policy identifier so that EV-aware software, such as a web browser, can recognize them.
+
+
+== Online Certificate Status Protocol ==
+
+The criteria for issuing Extended Validation certificates do not require issuing certificate authorities to immediately support Online Certificate Status Protocol for revocation checking. However, the requirement for a timely response to revocation checks by the browser has prompted most certificate authorities that had not previously done so to implement OCSP support. Section 26-A of the issuing criteria requires CAs to support OCSP checking for all certificates issued after Dec. 31, 2010.
+
+
+== Criticism ==
+
+
+=== Colliding entity names ===
+The legal entity names are not unique, therefore an attacker who wants to impersonate an entity might incorporate a different business with the same name (but, e.g., in a different state or country) and obtain a valid certificate for it, but then use the certificate to impersonate the original site. In one demonstration, researcher incorporated a business called "Stripe, Inc." in Kentucky and showed that browsers display it similarly to how they display certificate of payment processor "Stripe, Inc." incorporated in Delaware. Researcher claimed the demonstration setup took about an hour of his time, US$100 in legal costs and US$77 for the certificate. Also, he noted that "with enough mouse clicks, [user] may be able to [view] the city and state [where entity is incorporated], but neither of these are helpful to a typical user, and they will likely just blindly trust the [EV certificate] indicator".
+
+
+=== Availability to small businesses ===
+Since EV certificates are being promoted and reported as a mark of a trustworthy website, some small business owners have voiced concerns that EV certificates give undue advantage to large businesses. The published drafts of the EV Guidelines excluded unincorporated business entities, and early media reports focused on that issue. Version 1.0 of the EV Guidelines was revised to embrace unincorporated associations as long as they were registered with a recognized agency, greatly expanding the number of organizations that qualified for an Extended Validation Certificate. A list of EV certificates with price and features comparison is available for small business to select a cost effective certificate.
+
+
+=== Effectiveness against phishing attacks with IE7 security UI ===
+In 2006, researchers at Stanford University and Microsoft Research conducted a usability study of the EV display in Internet Explorer 7. Their paper concluded that "participants who received no training in browser security features did not notice the extended validation indicator and did not outperform the control group", whereas "participants who were asked to read the Internet Explorer help file were more likely to classify both real and fake sites as legitimate".
+
+
+=== Domain-validated certificates were created by CAs in the first place ===
+While proponents of EV Certificates claim they help against phishing attacks, security expert Peter Gutmann states the new class of certificates restore a CA's profits which were eroded due to the race to the bottom that occurred among issuers in the industry. Gutmann calls this phenomenon "PKI-Me-Harder".
+
+The introduction … of so-called high-assurance or extended validation (EV) certificates that allow CAs to charge more for them than standard ones, is simply a case of rounding up twice the usual number of suspects—presumably somebody’s going to be impressed by it, but the effect on phishing is minimal since it is not fixing any problem that the phishers are exploiting. Indeed, cynics would say that this was exactly the problem that certificates and CAs were supposed to solve in the first place, and that “high-assurance” certificates are just a way of charging a second time for an existing service. A few years ago certificates still cost several hundred dollars, but now that the shifting baseline of certificate prices and quality has moved to the point where they can be obtained for $9.95 (or even for nothing at all) the big commercial CAs have had to reinvent themselves by defining a new standard and convincing the market to go back to the prices paid in the good old days.
+
+This deja-vu-all-over-again approach can be seen by examining Verisign’s certificate practice statement (CPS), the document that governs its certificate issuance. The security requirements in the EV-certificate 2008 CPS are (except for minor differences in the legalese used to express them) practically identical to the requirements for Class 3 certificates listed in Verisign’s version 1.0 CPS from 1996. EV certificates simply roll back the clock to the approach that had already failed the first time it was tried in 1996, resetting the shifting baseline and charging 1996 prices as a side-effect. There have even been proposals for a kind of sliding-window approach to certificate value in which, as the inevitable race to the bottom cheapens the effective value of established classes of certificates, they’re regarded as less and less effective by the software that uses them…
+
+
+== See also ==
+Qualified Website Authentication Certificate
+HTTPS
+HTTP Strict Transport Security
+
+
+== References ==
+
+
+== External links ==
+CA/Browser Forum Web site
+Firefox green padlock for EV certificates
+Extended Validation Certificate – Authentication Requirements

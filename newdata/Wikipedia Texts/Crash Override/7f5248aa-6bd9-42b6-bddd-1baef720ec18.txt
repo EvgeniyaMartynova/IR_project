@@ -1,0 +1,40 @@
+Crashoverride
+
+Industroyer (also referred to as Crashoverride) is a malware framework considered to have been used in the cyberattack on Ukraine’s power grid on December 17, 2016.
+ 
+The attack cut a fifth of Kiev, the capital, off power for one hour and is considered to have been a large-scale test. 
+ The Kiev incident was the second cyberattack on Ukraine's power grid in two years. The first attack occurred on December 23rd, 2015. Industroyer is the first ever known malware specifically designed to attack electrical grids.
+
+At the same time, it is the fourth malware publicly revealed to target industrial control systems, after Stuxnet, Havex, and BlackEnergy.
+
+
+== Discovery and naming ==
+The malware was discovered by Slovak internet security company ESET. ESET and most of the cybersecurity companies detect it under the name “Industroyer”.
+Cybersecurity firm Dragos named the malware “Crashoverride”. 
+
+
+== Description ==
+The detailed analysis of Industroyer 
+revealed that the malware was designed to disrupt the working processes of industrial control systems, specifically those used in electrical substations.
+Industroyer is modular malware; its main components are the following:
+
+A main backdoor  is used to control all other components of the malware. It connects to its remote Command & Control servers in order to receive commands from the attackers.
+An additional backdoor provides an alternative persistence mechanism that allows the attackers to regain access to a targeted network in case the main backdoor is detected and/or disabled.
+A launcher component is a separate executable responsible for launching the payload components and the data wiper component. The launcher component contains a specific activation time and date; analyzed samples contained two dates: December 17th, 2016 and December 20th, 2016. (Note: the former date was the date the attack actually went ahead.)
+Four payload components target particular industrial communication protocols specified in the following standards: IEC 60870-5-101, IEC 60870-5-104, IEC 61850, and OLE for Process Control Data Access (OPC Data Access). The functionalities of the payload components include mapping the network, and then issuing commands to the specific industrial control devices.
+A data wiper component is designed to erase system-crucial Registry keys and overwrite files to make the system unbootable and recovery from the attack harder.
+
+
+== See also ==
+Control system security
+Cyberwarfare
+December 2015 Ukraine power grid cyberattack
+
+
+== References ==
+
+
+== Further reading ==
+ENISA "Protecting Industrial Control Systems. Recommendations for Europe and Member States". 2011-12-14.
+U.S. DEPARTMENT OF HOMELAND SECURITY "Recommended Practice: Developing an Industrial Control Systems, Cybersecurity Incident Response Capability" (PDF). 2009-10-01.
+Andy Greenberg (2017-06-20). "How an Entire Nation Became Russia's Test Lab For Cyberwar". Wired.

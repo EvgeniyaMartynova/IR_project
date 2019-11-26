@@ -1,0 +1,72 @@
+Iriver H100 series
+
+The iriver H100 series (originally iHP-100 series) is a series of discontinued portable digital audio players (DAP) made by iriver  and originally released in October 2003. The models in the H100 series differ mainly in hard drive storage capacity.  The players were succeeded by the iriver H300 series.
+
+
+== Features ==
+Plays MP3, Ogg Vorbis, WAV and WMA (non-DRM) format files
+Analog and digital optical line in and out
+Records from line in (analogue or optical), built-in or external microphone to WAV or MP3 format (supports powered or unpowered external microphones)
+Built-in stereo FM radio tuner
+160×128 pixel greyscale LCD (4 shades of grey)
+Wired remote with 128×64 pixel black and white LCD, which can control any function of the DAP (same as iMP-550)
+Built-in 1300 mA·h Li-polymer  battery, advertised 16 hours playback time
+USB 2.0, supports USB Mass Storage (drag and drop music transfers)
+Upgradeable firmware
+Motorola Coldfire CPU at 120 MHz [1]
+16 MB RAM (H110, H115) or 32 MB RAM (H120, H140)
+
+
+== Upgrades ==
+
+
+=== Firmware ===
+It is possible to upgrade the firmware on H100 series players. These upgrades generally contain bug fixes and new features. The latest official version of the H100 series firmware was v1.66.
+
+
+=== Hard drive ===
+The H100 series is equipped with a 1.8 inch (45 mm) form factor hard drive manufactured by Toshiba. Storage density has increased since their introduction, making it possible for users to replace the factory drives with higher capacity aftermarket models. Opening the case of the player voids the warranty. However, after the case has been opened the upgrade consists of simply unplugging the old drive and inserting the new one.
+As of December 2005, the H120 can be upgraded with a 30GB single-platter drive (giving a 50% storage increase) and the H140 can be upgraded with an 60GB double-platter drive (giving a 50% storage increase). Due to differing physical sizes, the two drive types cannot be used interchangeably (i.e. a double-platter drive will not fit in an H120 casing).
+As of 2008 The H140 can be upgraded using a ZIF to ATA conversion cable to take a larger capacity 1.8 inch non ata hard disk drive. The 240GB MK2431GAH ZIF drive has been used in the H140 and the 160GB MK1634GAL ZIF drive has been used in the H120.
+As of 2012, the H120 can be upgraded to a 120GB SSD drive using a 50Pin Series 1.8" CF ATA SSD.
+As of 2018, the H120 can be upgraded to a 128gb Micro SD drive using a 1.8" IDE to SD adaptor.
+
+
+=== Battery ===
+The battery used in the H100 series is physically similar to the battery used in iPods and other DAPs. It is possible to replace the factory battery with a higher capacity one (up to 2200 mA·h has been reported) for greatly increased playback time. In some instances the polarity of the battery leads must be reversed, and the installation process will void the warranty.
+
+
+=== RTC (Real-time clock) ===
+Users have succeeded in adding an RTC chip to the player's main circuit board, allowing the device to display the current date and time as well as adding alarm clock functionality, accurate filesystem timestamping and last.fm logging. Note that Rockbox is the only firmware known to be able to utilize an RTC-modified H1xx.[2]
+
+
+== Models ==
+H110 (originally iHP-100, later iHP-110): 10 GB hard drive
+H115 (originally iHP-115): 15 GB hard drive
+H120 (originally iHP-120): 20 GB hard drive
+H140 (originally iHP-140): 40 GB hard drive
+
+
+=== Dimensions and weight ===
+H110, H115, H120: 105×60×19 mm, 160 g (including battery)
+H140: 105×60×22 mm, 172 g (including battery)
+
+
+== See also ==
+Rockbox (alternative, open source firmware for the iriver H10, H100 and H300 series)
+
+
+== References ==
+
+
+== External links ==
+www.iriver.com — the manufacturer's web
+New Product 10G HDD based MP3 player, iHP-100 — the product announcement from the manufacturer's web
+iRiver iHP-100 Series — the first version of the product page from the manufacturer's web
+Classic style jukebox H100 series — product information on the manufacturer's web
+Soarland ZIF HDD to ATA IDE/SATA Adapter - Adapter Manufacturer & Custom Made
+Index page for the iriver Rockbox porting effort — wiki page describing the status of Rockbox port to iriver H100 series and links to the hardware information including PCB scans, schematics and component datasheets
+www.misticriver.net — MisticRiver, unofficial site for iriver users
+H100 series on iriver Wiki
+iRiver H120 with 80GB HDD guide - instructions for using an 80gb ZIF drive in the iHP-120 with an IDE to ZIF adapter
+iriver Taper's FAQ, 2007 June 9

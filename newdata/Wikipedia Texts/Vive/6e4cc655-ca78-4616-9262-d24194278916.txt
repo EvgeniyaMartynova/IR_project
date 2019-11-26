@@ -1,0 +1,55 @@
+Vive (software)
+
+The HTC Vive is a virtual reality headset developed by HTC and Valve Corporation. The headset uses "room scale" tracking technology, allowing the user to move in 3D space and use motion-tracked handheld controllers to interact with the environment.The HTC Vive was unveiled during HTC's Mobile World Congress keynote in March 2015. Development kits were sent out in August and September 2015, and the first Consumer version of the device was released on 7 June 2016.
+
+
+== Development ==
+Prototypes of a Valve-produced virtual reality system were demonstrated during 2014. On 23 February 2015, Valve announced SteamVR and that it would demonstrate a "SteamVR hardware system" at the 2015 Game Developers Conference. HTC officially unveiled its device, Vive, during its Mobile World Congress keynote on 1 March 2015.  Preorders started on 29 February 2016 at 10:00 a.m. EST. Valve and HTC have since announced that the headset will be free for selected developers.At Consumer Electronics Show 2016, HTC and Valve unveiled a near-final hardware revision of the device, known as HTC Vive Pre.
+
+
+== History ==
+During his Immersed 2015 keynote, Phil Chen, Chief Content Officer for HTC and founder of the HTC Vive, explained that he "stumbled upon VR" and later, HTC met Valve, which turned out to be "serendipity". Chen also explained that HTC and Valve don't have a clear dividing line between each of their responsibilities, and HTC is very much a partner in the research and development process.In June 2016, HTC announced the release of their 'Business Edition' of the Vive for US$1,200 which would include a Professional Use License, a 12-month Commercial Warranty, access to an exclusive support line, a 5-meter (16 ft) cable extension kit, and it included the Deluxe Audio Strap.In November 2016, HTC announced a tether-less VR upgrade kit made by TPCAST. A public model was shown at CES 2017 and had a price of $249.At Google I/O in May 2017, Google announced a new, all in-built 'Standalone VR' system that would be made by the Vive team and also by Lenovo. Whilst in June 2017 Valve revealed details of a second variation of Vive controller which utilizes finger tracking called the Knuckles Vive controller.
+
+
+== Hardware and accessories ==
+Vive Headset: The Vive headset has a refresh rate of 90 Hz and a 110 degree field of view. The device uses two OLED panels, one per eye, each having a display resolution of 1080×1200 (2160×1200 combined pixels). Safety features include a front-facing camera that allows the user to observe their surroundings without removing their headset. The software can also use the camera to identify any moving or static objects in a room; this functionality can be used as part of a "Chaperone" safety system, which will automatically display a virtual wall or a feed from the camera to safely guide users from obstacles or real-world walls. Inside the headset's outer-shell divots are dozens of infrared sensors that detect the base stations' IR pulses to determine the headset's current location in a space. Other sensors include a G-Sensor, gyroscope and proximity sensor.
+Vive Controllers: The controllers have multiple input methods including a track pad, grip buttons, and a dual-stage trigger and a use per charge of about 6 hours. Across the ring of the controller are 24 infrared sensors that detect the base stations to determine the location of the controller. The SteamVR Tracking system is used to track the controller location to a fraction of a millimeter, with update rates ranging from 250 Hz to 1 kHz.
+Vive Base Stations: Also known as the Lighthouse tracking system are two black boxes that create a 360 degree virtual space up to 15x15 foot radius. The base stations emit timed infrared pulses at 60 pulses per second that are then picked up by the headset and controllers with sub-millimeter precision. Wireless syncing lowers the amount of wires as well standard threading making the base stations practical to use in a home.
+Vive Tracker: A motion tracking accessory; it is designed to be attached to physical accessories and controllers, so that they can be tracked via the Lighthouse system. Vive Trackers feature a connector that can be used to communicate with the accessory it is attached to. On launch, the Vive Tracker was sold as a standalone product, and in bundles with accessories and games designed to integrate with it, such as the Hyper Blaster (a light gun-style controller), and a racquet designed for sports games. Other third-party accessories have been developed for use with Vive Trackers, such as bands designed to be attached to a user's arms or legs to enable body tracking.
+Vive Deluxe Audio Strap: In June 2017, HTC released the Deluxe Audio Strap for US$99. It added integrated over-ear headphones as well as improved the HMD's comfort through better weight distribution.
+Vive Wireless Adapter: The Vive Wireless Adapter was launched as an accessory in September 2018 for the original Vive and Vive Pro. It allows to connect the Headset with the Computer wirelessly. The Wireless Adapter is priced at $300 for Vive and $360 for Vive Pro.
+Valve Index Controllers: The Vive can use the Valve Index controllers (known during development as Knuckle Controllers) developed by Valve.The Vive initially required computers running Microsoft Windows. In February 2017, support was added for Linux, followed by support for MacOS in June 2017.
+
+
+== Games ==
+
+By March 2016, the time at which the pre-orders for the HTC Vive opened, 107 games were known to be coming to the virtual reality format.In February 2017 Valve CEO Gabe Newell announced via Reddit AMA 'ask me anything'  session Valve is developing three AAA VR IPs. Ultimately, in November 2019, Valve announced Half-Life: Alyx as its flagship VR title for the Vive and its own Valve Index headset, to be released in March 2020, though the game will support all headsets compatible with the SteamVR protocol.An open source third party program called Revive allows for Oculus Rift games to be used with the HTC Vive.
+
+
+== Adoption ==
+
+Valve released its OpenVR software development kit (SDK), an updated version of its Steamworks VR API with documentation and examples of how to build software that supports SteamVR hardware. It provides support for the HTC Vive Developer Edition, including the SteamVR controller and Lighthouse.SteamVR was launched with native support for Unity on its platform.On 30 April 2015, Epic Games announced support for Valve's SteamVR technology, allowing developers to create VR projects with Unreal Engine 4 for the HTC Vive. Epic said that SteamVR is completely integrated into Unreal Engine 4 across Blueprint visual scripting and native code, meaning projects can be built without being dependent on programmer support if needed. Epic's own Showdown tech demo can already be experienced on SteamVR using the Vive headset.In July 2016, VR news website Road to VR used game session figures from the Steam VR platform to estimate that approximately 100,000 Vive headsets had been shipped since launch. In the same month, SensoMotoric Instruments (SMI), a computer vision company, integrated its eye tracking technology in the HTC Vive to turn it into a dedicated eye tracking solution for research and professional applications. In November 2016, Vive announced that it would begin the first retail sales of its headsets at JB Hi-Fi and Harvey Norman stores in Australia later that month.On 23 November 2016, HTC announced that the Vive was sold at a profit and that HTC Vive sales were "much higher" than 140,000.
+
+
+== Vive Pro ==
+On 8 January 2018, HTC unveiled an upgraded Vive model known as HTC Vive Pro. It features higher-resolution displays, now at 1440x1600 resolution per eye, along with a second outward-facing camera, attachable headphones, a microphone for noise cancellation analysis, and a refreshed design with a more "balanced" form, lighter weight, and a sizing dial. The Vive Pro uses a USB 3.0 (USB Type A) and a DisplayPort connector to connect to the PC. A hidden USB-C connector can be used to connect an additional USB device to the Vive Pro HMD. The Vive Pro is sold alongside the original as a high-end model; it is sold in headset-only as well as in full bundles. The Vive Pro headset-only package is targeted towards existing Vive users, as Lighthouse base stations are required to use the headset, but not included in the package. Two different bundles are sold since April 2018:The Vive Pro Starter Kit includes a Vive Pro Headset and the original SteamVR 1.0 Lighthouse base stations, as well as controllers.The Vive Pro Full Kit includes a Vive Pro Headset and the more recent SteamVR 2.0 Lighthouse base stations, as well as controllers.The Vive Pro, that can be used both with SteamVR 1.0 and SteamVR 2.0 Lighthouse base stations, is compatible with all existing Vive accessories. However, not all Vive accessories support both available versions of the Lighthouse base stations. SteamVR 2.0 base stations can not be used in combination with the controllers shipped with the standard Vive Package and the initial Vive Trackers (before "Vive Tracker 2018"). 
+SteamVR 2.0 base stations allow to use more than two base stations in one (optically undivided) room, which allows to support a tracked space of up to 10 x 10 m in size.
+
+
+== Vive Pro Eye ==
+In January 2019, at CES 2019 HTC unveiled an upgraded variant of HTC Vive Pro called Vive Pro Eye. The new device features built-in eye tracking that enables foveated rendering and hands-free interaction in VR and accessibility options for users who can't use regular motion controllers.
+
+
+== Vive Focus ==
+Vive Focus is a self-contained (as opposed to tethered to a computer) headset first launched in China and then worldwide (in 37 countries) in November 2018. The headset introductory price in US was US$599.
+
+
+== Vive Cosmos ==
+In November 2018 HTC filed a "Vive Cosmos" trademark application. The headset was officially unveiled on January 7 in a very brief announcement at CES 2019 and via Twitter. The presentation video showed a headset with a flip-up screen enabling user to see the real world without taking off the headset completely, four inside-out tracking cameras (two in the front and one on each side) and two handset motion controllers. An additional add-on for the headset, set to be released in Q1 2020, will allow compatibility with the original SteamVR tracking system. However, the Cosmos controllers will not support SteamVR tracking. HTC has announced the release date for the headset will be October 3, 2019
+
+
+== References ==
+
+
+== External links ==
+Official website

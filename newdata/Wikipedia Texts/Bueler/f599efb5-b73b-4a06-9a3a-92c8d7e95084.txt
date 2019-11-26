@@ -1,0 +1,89 @@
+Amazon Fire TV
+
+Amazon Fire TV (Stylized as amazon fireTV) is a digital media player and its microconsole remote control developed by Amazon. The device is a small network appliance that can deliver digital audio/video content streamed via the internet to a high-definition television. It also allows users to play video games with the included remote control, using either a mobile app or an optional game controller. 
+The device comes in two form factors: Fire TV, a set-top box, and Fire TV Stick, a cut-down version presented as an HDMI plug-in stick.
+The first-generation Fire TV device featured 2 GB of RAM, MIMO dual-band Wi-Fi, and a Bluetooth remote control with a microphone for voice search. It supported 1080p streaming and Dolby Digital Plus 7.1 surround sound but was dependent on internet bandwidth of the user. Unveiled on April 2, 2014, the Amazon Fire TV (1st Generation) was made available for purchase in the US the same day for US$99 and was launched with a video game called Sev Zero. The second-generation version was released in 2015, adding 4K resolution support.In September 2018, Amazon announced the Fire TV Recast, a digital video recorder which works with an HD antenna to record shows for later viewing on a Fire TV or an Amazon Echo Show device. It is designed for use with over-the-air TV services and is a part of the cord-cutting movement.
+
+
+== Fire TV cost ==
+
+
+=== Original model ===
+
+
+==== First generation ====
+The first Fire TV (codenamed "Bueller" after the eponymous character from Ferris Bueller's Day Off) offers HDMI audio, with support for Dolby Digital Plus and 7.1 surround sound pass-through, along with an Ethernet port and a USB 2.0 port. According to Amazon, the Fire TV is designed to outpace competitors like the Apple TV and Roku in performance: The 0.72-inch-thick box features a 1.7 GHz quad-core CPU (Qualcomm Snapdragon 8064), 2 GB of RAM and 8 GB of internal storage, along with a dual-band wireless radio for 1080p streaming over 802.11a/b/g/n Wi-Fi and a 10/100 ethernet connection. The company said that it does not intend the Fire TV to compete with gaming consoles; instead, its gaming capabilities are geared toward people who do not already own a console but may play games on a smartphone or tablet. It has a dedicated controller accessory.
+
+
+==== Second generation ====
+Amazon released a second-generation Fire TV, codenamed "Sloane", in late 2015. The 2nd generation now features 4K resolution support, improved processor performance, and a MediaTek 8173C chipset to support H.265 (HEVC), VP8, and VP9 codecs. Wireless hardware upgrades includes a dual-band 802.11a/b/g/n/ac Wi-Fi with 2x2 MIMO and Bluetooth 4.1.
+
+
+==== Third generation ====
+The third-generation Fire TV, also known as the Fire TV with 4K Ultra HD and Alexa Voice Remote, was released in 2017; it eschews the previous set-top box design for a small, diamond-shaped "pendant" reminiscent of the Fire TV Stick, which is hung from a short HDMI cable. It contains a slower processor, but more RAM than the second-generation Fire TV, and also has support for 4K resolution streaming, Dolby Atmos, and HDR10.Production was discontinued in 2018 in favor of the current Fire TV Stick.
+
+
+=== Fire TV Cube ===
+
+
+==== First generation ====
+The Fire TV Cube was released in June 2018. It is similar in function to the third-generation Fire TV, but also includes embedded Alexa functionality similar to the Amazon Echo smart speaker line, and can use HDMI-CEC and an IR blaster to control other devices with voice commands. As its voice functionality is integrated into the device itself, the Fire TV Cube does not include the voice remote. The device uses a 1.5 GHz quad-core ARM 4xCA53 processor, 2 GB RAM, and 16 GB storage.
+
+
+==== Second generation ====
+A second-generation model was unveiled in September 2019, featuring a hexa-core processor, "Local Voice Control" (which allows client-side recognition of common voice commands to improve response time), and support for Dolby Vision and HDR10+. It was also sold in Canada, the United Kingdom, Germany and Japan.
+
+
+=== Fire TV Stick ===
+
+
+==== First generation ====
+On November 19, 2014, Amazon released a smaller version of the Fire TV called the Fire TV Stick. Codenamed "Montoya", it has a dongle form factor that plugs into an HDMI port, and maintains much of the functionality of the larger Fire TV. Its hardware is slightly different, it has 1 GB of RAM, 8 GB of internal storage, weighs 0.9 oz. (25.1 g) and it uses a Broadcom BCM28155 1.0 GHz Cortex-A9 processor and a Broadcom VideoCore IV GPU. Wireless hardware includes a dual-band 802.11 a/b/g/n Wi-Fi with 2x2 MIMO and Bluetooth 3.0   The Fire TV Stick is bundled with a remote control, in either of two variants; one with voice search on the remote and one without Alexa.
+
+
+==== Second generation ====
+
+On October 20, 2016, Amazon released the Fire TV Stick with Alexa Voice Remote, codenamed "Tank". Other than the new remote, the updates include MediaTek MT8127D Quad-core ARM 1.3 GHz processor with a Mali-450 MP4 GPU, and support for the H.265 (HEVC) codec. Wireless hardware upgrades includes a dual-band 802.11a/b/g/n/ac Wi-Fi with 2x2 MIMO and Bluetooth 4.1. It retains the 1GB of RAM and 8GB of storage and weighs slightly more at 1.1 oz. (32.0 g).In January 2019, the second-generation Fire TV Stick was re-issued with the updated remote from the 4K model.
+
+
+==== Fire TV Stick 4K ====
+In October 2018, Amazon unveiled the Fire TV Stick 4K, which succeeded the third-generation Fire TV. It is upgraded to a 1.7 GHz quad-core processor and supports 4K output, HDR10+ and Dolby Vision, Dolby Atmos, and hardware-accelerated MPEG-2 decoding. It also includes an updated voice remote that contains an infrared emitter and buttons for controlling TV power and volume (which can also be controlled with voice commands). The remote is backward compatible with previous Fire TV models, and also sold separately as an upgrade.
+
+
+== Software ==
+The device initially ran Fire OS 3.0, based on Android Jelly Bean 4.2. According to Amazon, that made it "simple for developers to port their services and games over to Fire TV."In November 2017, Amazon launched the Fire TV version of the Amazon Silk web browser. In December 2017, Mozilla launched a Fire TV version of the Mozilla Firefox browser.
+
+
+=== Updates ===
+On March 24, 2015, Amazon announced an update to the Fire TV software to provide the following additional features which address some of the concerns raised in early reviews:
+Expandable USB storage on Amazon Fire TV; the user can connect a USB mass storage device to expand the Fire TV storage.
+Connect to the user's hotel or dorm room Wi-Fi with captive portal support, which enables the user to connect to Wi-Fi that requires web authentication—this includes Wi-Fi at most major hotels, as well as some universities.
+Private listening on Fire TV, adds support for wireless Bluetooth headphones to Fire TV.
+Browse and search Prime Playlists: Prime members can now take advantage of Prime Music playlists from Fire TV with hundreds of expertly curated Prime Playlists to pick from.
+Hidden PIN entry, the PIN entry screen hides the numbers selected.
+New shortcuts put the user's Fire TV to sleep or enable display mirroring by pressing and holding the Home button on the remote.
+
+
+== Content ==
+Providers that can be streamed on the Fire TV Stick include A&E, Amazon Prime Video, BBC News, Bloomberg TV, CBS All Access, Crackle, Disney Junior, HBO NOW, History Channel, Huff Post Live, Hulu, Hulu Plus, iHeartRadio, MLB TV Premium, NBA Game Time, Netflix, PBS Kids, Showtime, Spotify, Vimeo, Watch ESPN, Watch Food Network, Watch HGTV, and YouTube. 
+Also, Amazon TV devices can be used for digital signage using special software. Thus, any content can be displayed on any screens.
+
+
+== Models ==
+
+
+== Reception ==
+Dan Seifert from The Verge reviewed Fire TV on April 4, 2014, giving it an 8.8/10 rating and largely praising its functionality and future potential. Dave Smith from ReadWrite wrote, "Fire TV aims to be the cure for what ails TV set-top boxes." GeekWire editor Andy Liu's review is headlined "Amazon's Fire TV sets a new bar for streaming boxes."Ars Technica praised the device for specifications that surpassed competitors, good build quality, and a microphone works very well if you use Amazon content. However, the reviewer disliked the fact that its media browser puts Amazon content in the front, which makes other applications less convenient to use, limited game selection with many games not optimized, and only 5.16GB of free space, which limits the number of games that can be installed.
+
+
+== See also ==
+Amazon
+Comparison of digital media players
+Smart TV
+
+
+== References ==
+
+
+== External links ==
+Official website

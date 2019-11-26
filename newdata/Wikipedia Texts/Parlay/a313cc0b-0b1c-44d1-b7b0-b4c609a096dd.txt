@@ -1,0 +1,80 @@
+Parlay Group
+
+The Parlay Group was a technical industry consortium (founded 1998, ended around 2007) that specified APIs for the telephone network. These APIs enable the creation of services by organizations both inside and outside of the traditional carrier environment. In fact, it is hoped that services can be created by IT developers, rather than telephony experts.
+
+
+== Parlay/OSA ==
+Parlay/OSA was an open API for the telephone network. It was developed by The Parlay Group, which worked closely with ETSI and 3GPP, which all co-publish it. Within 3GPP, Parlay is part of Open Services Access.
+Parlay APIs include: call control, conferencing, user interaction (audio and text messaging, SMS/MMS), and billing. The APIs are specified in the CORBA Interface definition language and WSDL. The use of CORBA enables remote access between the Parlay gateway and the application code. A set of Java mappings allow the APIs to be invoked locally as well. A major goal of the APIs is to be independent of the underlying telephony network technology (e.g. CDMA, GSM, landline SS7).
+
+
+=== Parlay X ===
+
+In 2003 the Parlay Group released a new set of web services called Parlay X. These are a much simpler set of APIs intended to be used by a larger community of developers. The Parlay X web services include Third Party Call Control (3PCC), location and simple payment. The Parlay X specifications complement the more powerful but more complex Parlay APIs. Parlay X implementations are now (September 2004) in commercial service from BT and Sprint.
+Parlay work historically stems from the TINA effort. Parlay is somewhat related to JAIN, and is currently (early 2003) completely unrelated to the Service Creation Community.
+
+
+== Parlay Technology ==
+The objective of Parlay/OSA is to provide an API that is independent of the underlying networking technology and of the programming technology used to create new services. As a result, the Parlay/OSA APIs are specified in UML. There are then a set of realizations, for specific programming environments:
+CORBA/IDL,
+Java, and
+Web services specified by WSDL.
+
+
+=== Parlay Framework ===
+The role of the Parlay/OSA Framework was to provide a way for the network to authenticate applications using the Parlay/OSA API. The Framework also allows applications to discover the capabilities of the network, and provides management functions for handling fault and overload situations.
+This is to ensure to a telecom network operator that any applications using the Parlay API cannot affect the security or integrity of the network.
+
+
+=== Implementing Parlay ===
+The Parlay/OSA specifications define an API, they do not say how the API is to be implemented.
+The typical Parlay/OSA implementation adds a new network element - the Parlay/OSA Gateway, which implements the Framework. It may implement the individual service APIs, or may interact with other network elements such as switches to provide individual service capabilities such as call control or location.
+Some vendors treat the Parlay/OSA Gateway as a stand-alone network element (e.g., the Ericsson NRG, jNetX OSA/Parlay GW, AePONA Network Gateway  (formerly known as Causeway), HERIT Parlay/Parlay X Gateway), others include this function in an IN Service Control Point (e.g., the Telcordia OSP).
+
+
+=== Parlay and Web Services ===
+The Parlay X APIs define a set of simple telecom-related Web services. Parlay X Version 1, published in May 2003, defines web services for:
+Third Party Call,  Network Initiated Third Party Call, Send SMS, Receive SMS, Send Message, Receive Message, Amount Charging, Volume Charging, User Status and Terminal Location
+Parlay X Version 2.1, published in June 2006, defines web services for:
+Third Party Call, Call Notification, Short Messaging, Multimedia Messaging, Payment, Account Management, Terminal Status, Terminal Location, Call Handling, Audio Call, Multimedia Conference, Address List Management, and Presence.
+The current draft specifications for Parlay X 3.0 as of September 2007  defines web services for:
+Third Party Call, Call Notification, Short messaging, Multimedia Messaging, Payment, Account Management, Terminal Status, Terminal Location, Call Handling, Audio Call, Multimedia Conference, Address List Management, Presence, Message Broadcast, Geocoding, Application Driven QoS, Device Capabilities and Configuration, Multimedia Streaming control, Multimedia Multicast Session Management.
+
+
+== See also ==
+Service layer
+
+
+== References ==
+
+
+=== Web ===
+Parlay/OSA at ETSI
+Download specifications
+Telecommunications Information Networking Architecture Consortium
+
+
+=== Printed ===
+
+
+==== Journal Articles ====
+Moerdijk, A-J; & Klostermann, L. Opening the Networks with Parlay/OSA: Standards and Aspects Behind the APIs.  IEEE Network.  May/June 2003, 58-64.
+
+
+==== Books ====
+Unmehopa, Musa; Vemuri, Kumar; & Bennett, Andy. Parlay/OSA: From Standards to Reality. John Wiley, 2006. ISBN 0-470-02595-6
+Jain, Ravi; Bakker, John-Luc; & Anjum, Farooq (2004). Programming Converged Networks: Call Control in Java, XML and Parlay/OSA,. Wiley Interscience, 2004. ISBN 0-471-26801-1
+Mueller, Steve. APIs And Protocols For Convergent Network Services. McGraw-Hill, 2002. ISBN 0-07-138880-X
+Zuidweg, Johan. Next Generation Intelligent Networks. Artech House, 2002. ISBN 1-58053-263-2
+
+
+==== News ====
+Let your mouse do the dialling (26 May 2004)., Financial Times,  IT Review p. 3.
+BT plc (26 April 2004).  BT Wholesale Web Call Connect service: [broken] http://www.btplc.com/News/Pressreleasesandarticles/Corporatenewsreleases/2004/nr0426.htm   Press Release.
+
+
+==== Related Company ====
+Aepona Ltd. provides OSA/Parlay Gateway and Parlay X System: http://www.aepona.com
+jNetX provides OSA/Parlay Gateway as Exposure/Integration Layer of N(x) Convergent Service Platform: http://www.jnetx.com
+HERIT Inc. HERIT provides OSA/Parlay Gateway, Parlay AS and Parlay X System : http://www.herit.net
+hSenid Mobile provides OSA/Parlay Gateway : https://web.archive.org/web/20090819152055/http://www.hsenidmobile.com/ServiceDeliveryPlatform.php

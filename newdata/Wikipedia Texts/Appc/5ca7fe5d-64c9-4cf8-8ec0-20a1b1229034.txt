@@ -1,0 +1,60 @@
+Container Linux by CoreOS
+
+Container Linux  (formerly CoreOS Linux) is an open-source lightweight operating system based on the Linux kernel and designed for providing infrastructure to clustered deployments, while focusing on automation, ease of application deployment, security, reliability and scalability. As an operating system, Container Linux provides only the minimal functionality required for deploying applications inside software containers, together with built-in mechanisms for service discovery and configuration sharing.Container Linux shares foundations with Gentoo Linux, Chrome OS, and Chromium OS through a common software development kit (SDK). Container Linux adds new functionality and customization to this shared foundation to support server hardware and use cases.  As of January 2015, CoreOS is actively developed, primarily by Alex Polvi, Brandon Philips and Michael Marineau, with its major features available as a stable release.
+
+
+== Overview ==
+Container Linux provides no package manager as a way for distributing payload applications, requiring instead all applications to run inside their containers. Serving as a single control host, a Container Linux instance uses the underlying operating-system-level virtualization features of the Linux kernel to create and configure multiple containers that perform as isolated Linux systems. That way, resource partitioning between containers is performed through multiple isolated userspace instances, instead of using a hypervisor and providing full-fledged virtual machines. This approach relies on the Linux kernel's cgroups and namespaces functionalities, which together provide abilities to limit, account and isolate resource usage (CPU, memory, disk I/O, etc.) for the collections of userspace processes.Initially, Container Linux exclusively used Docker as a component providing an additional layer of abstraction and interface to the operating-system-level virtualization features of the Linux kernel, as well as providing a standardized format for containers that allows applications to run in different environments.  In December 2014, CoreOS released and started to support rkt (initially released as Rocket) as an alternative to Docker, providing through it another standardized format of the application-container images, the related definition of the container runtime environment, and a protocol for discovering and retrieving container images.  CoreOS provides rkt as an implementation of the so-called app container (appc) specification that describes required properties of the application container image (ACI); CoreOS initiated appc and ACI as an independent committee-steered set of specifications, aiming at having them become part of the vendor- and operating-system-independent Open Container Initiative (OCI; initially named the Open Container Project or OCP) 
+containerization standard, which was announced in June 2015.Container Linux uses ebuild scripts from Gentoo Linux for automated compilation of its system components, and uses systemd as its primary init system with tight integration between systemd and various Container Linux's internal mechanisms.
+
+
+=== Updates distribution ===
+Container Linux achieves additional security and reliability of its operating system updates by employing FastPatch as a dual-partition scheme for the read-only part of its installation, meaning that the updates are performed as a whole and installed onto a passive secondary boot partition that becomes active upon a reboot or kexec. This approach avoids possible issues arising from updating only certain parts of the operating system, ensures easy rollbacks to a known-to-be-stable version of the operating system, and allows each boot partition to be signed for additional security.  The root partition and its root file system are automatically resized to fill all available disk-space upon reboots; while the root partition provides read-write storage space, the operating system itself is mounted read-only under /usr.To ensure that only a certain part of the cluster reboots at once when the operating system updates are applied, preserving that way the resources required for running deployed applications, CoreOS provides locksmith as a reboot manager for Container Linux. Using locksmith, one can select between different update strategies that are determined by how the reboots are performed as the last step in applying updates; for example, one can configure how many cluster members are allowed to reboot simultaneously. Internally, locksmith operates as the locksmithd daemon that runs on cluster members, while the locksmithctl command-line utility manages configuration parameters.  Locksmith is written in the Go language and distributed under the terms of the Apache License 2.0.The updates distribution system employed by Container Linux is based on Google's open-source Omaha project, which provides a mechanism for rolling out updates and the underlying request–response protocol based on XML.  Additionally, CoreOS provides CoreUpdate as a web-based dashboard for the management of cluster-wide updates. Operations available through CoreUpdate include assigning cluster members to different groups that share customized update policies, reviewing cluster-wide breakdowns of Container Linux versions, stopping and restarting updates, and reviewing recorded update logs. CoreUpdate also provides a HTTP-based API that allows its integration into third-party utilities or deployment systems.
+
+
+=== Cluster infrastructure ===
+
+Container Linux provides etcd, a daemon that runs across all computers in a cluster and provides a dynamic configuration registry, allowing various configuration data to be easily and reliably shared between the cluster members. Since the key–value data stored within etcd is automatically distributed and replicated with automated master election and consensus establishment using the Raft algorithm, all changes in stored data are reflected across the entire cluster, while the achieved redundancy prevents failures of single cluster members from causing data loss.  Beside the configuration management, etcd also provides service discovery by allowing deployed applications to announce themselves and the services they offer. Communication with etcd is performed through an exposed REST-based API, which internally uses JSON on top of HTTP; the API may be used directly (through curl or wget, for example), or indirectly through etcdctl, which is a specialized command-line utility also supplied by CoreOS.. Etcd is also used in Kubernetes software.
+Container Linux also provides the fleet cluster manager which controls Container Linux's separate systemd instances at the cluster level. As of 2017 "fleet" is no longer actively developed and is deprecated in favor of Kubernetes. By using fleetd, Container Linux creates a distributed init system that ties together separate systemd instances and a cluster-wide etcd deployment; internally, fleetd daemon communicates with local systemd instances over D-Bus, and with the etcd deployment through its exposed API. Using fleetd allows the deployment of single or multiple containers cluster-wide, with more advanced options including redundancy, failover, deployment to specific cluster members, dependencies between containers, and grouped deployment of containers. A command-line utility called fleetctl is used to configure and monitor this distributed init system; internally, it communicates with the fleetd daemon using a JSON-based API on top of HTTP, which may also be used directly. When used locally on a cluster member, fleetctl communicates with the local fleetd instance over a Unix domain socket; when used from an external host, SSH tunneling is used with authentication provided through public SSH keys.All of the above-mentioned daemons and command-line utilities (etcd, etcdctl, fleetd and fleetctl) are written in the Go language and distributed under the terms of the Apache License 2.0.
+
+
+== Deployment ==
+When running on dedicated hardware, Container Linux can be either permanently installed to local storage, such as a hard disk drive (HDD) or solid-state drive (SSD), or booted remotely over a network using Preboot Execution Environment (PXE) in general, or iPXE as one of its implementations.  CoreOS also supports deployments on various hardware virtualization platforms, including Amazon EC2, DigitalOcean, Google Compute Engine, Microsoft Azure, OpenStack, QEMU/KVM, Vagrant and VMware.  Container Linux may also be installed on Citrix XenServer, noting that a "template" for CoreOS exists.
+Container Linux can also be deployed through its commercial distribution called Tectonic, which additionally integrates Google's Kubernetes as a cluster management utility. As of April 2015, Tectonic is planned to be offered as beta software to select customers.  Furthermore, CoreOS provides Flannel as a component implementing an overlay network required primarily for the integration with Kubernetes.As of February 2015, Container Linux supports only the x86-64 architecture.
+
+
+== Derivatives ==
+Following its acquisition of CoreOS, Inc. in January 2018, Red Hat announced that it would be merging CoreOS Container Linux with Red Hat's Project Atomic, to create a new operating system, Red Hat CoreOS, while aligning the upstream Fedora Project open source community around Fedora CoreOS, combining technologies from both predecessors.
+On March 6, 2018, Kinvolk GmbH announced Flatcar Linux, a derivative of CoreOS Container Linux. This tracks the upstream CoreOS alpha/beta/stable channel releases, with an experimental Edge release channel added in May 2019.
+
+
+== Reception ==
+LWN.net reviewed CoreOS in 2014:
+For those who are putting together large, distributed systems—web applications being a prime example—CoreOS would appear to have a lot of interesting functionality. It should allow applications of that type to grow and shrink as needed with demand, as well as provide a stable platform where upgrades are not a constant headache. For "massive server deployments", CoreOS, or something with many of the same characteristics, looks like the future.
+
+
+== See also ==
+
+Application virtualization –  software technology that encapsulates application software from the operating system on which it is executed
+Comparison of application virtualization software –  various portable and scripting language virtual machines
+Comparison of platform virtualization software –  various emulators and hypervisors, which emulate the whole physical computers
+LXC (Linux Containers) –  an environment for running multiple isolated Linux systems (containers) on a single Linux control host
+Operating-system-level virtualization implementations –  based on operating system kernel's support for multiple isolated userspace instances
+Software as a service (SaaS) –  a software licensing and delivery model that hosts the software centrally and licenses it on a subscription basis
+Virtualization –  a general concept of providing virtual versions of computer hardware platforms, operating systems, storage devices, etc.
+
+
+== References ==
+
+
+== External links ==
+Official CoreOS and Tectonic websites, and GitHub source code repositories: CoreOS , etcd , fleet , rkt  and CoreOS-overlay
+CoreOS at DistroWatch
+First glimpse at CoreOS, September 3, 2013, by Sébastien Han
+CoreOS: Linux for the cloud and the datacenter, ZDNet, July 2, 2014, by Steven J. Vaughan-Nichols
+What's CoreOS? An existential threat to Linux vendors, InfoWorld, October 9, 2014, by Matt Asay
+Understanding CoreOS distributed architecture, March 4, 2015, a talk to Alex Polvi by Aaron Delp and Brian Gracely
+CoreOS fleet architecture, August 26, 2014, by Brian Waldon et al.
+Running CoreOS on Google Compute Engine, May 23, 2014
+CoreOS moves from Btrfs to Ext4 + OverlayFS, Phoronix, January 18, 2015, by Michael Larabel
+Containers and persistent data, LWN.net, May 28, 2015, by Josh Berkus

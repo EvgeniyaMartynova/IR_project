@@ -1,0 +1,11 @@
+Well-formed element
+
+In web page design, and generally for all markup languages such as  SGML, HTML, and XML, a well-formed element is one that is either a) opened and subsequently closed, or b) an empty element, which in that case must be terminated; and in either case which is properly nested so that it does not overlap with other elements.
+For example, in HTML: <b>word</b> is a well-formed element, while <i><b>word</i> is not, since the bold element is not closed. 
+In XHTML, and XML, empty elements (elements that inherently have no content) are terminated by putting a slash at the end of the "opening" (only) tag, e.g. <img />, <br />, <hr />, etc. In HTML 4.01 and earlier, no slash is added to terminate the element. HTML5 does not require one, but it is often added for compatibility with XHTML and XML processing.
+In a well-formed document, 
+
+all elements are well-formed, and
+a single element, known as the root element, contains all of the other elements in the document.For example, the code below is not well-formed HTML, because the em and strong elements overlap:
+
+In XML, the phrase well-formed document is often used to describe a text that follows all the syntactic rules as well-formedness rules in the XML specification: strictly speaking the phrase is tautological, since a text that does not follow these rules is not an XML document. The rules for well-formed XML documents go beyond the general requirements for the markup languages mentioned above. The additional rules include, for example, a rule to quote attribute values, case-sensitiveness of tag names, rules about the characters that can appear in names and elsewhere, the syntax of comments, processing instructions, entity references, and CDATA sections, and many other similar details. Sometimes the adjective well-formed is used to contrast with valid: a valid XML document is one that is not only well-formed, but also conforms to the grammar defined in its own DTD (Document Type Definition).

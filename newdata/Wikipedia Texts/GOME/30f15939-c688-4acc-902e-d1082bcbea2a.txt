@@ -1,0 +1,100 @@
+MetOp
+
+MetOp is a series of three polar-orbiting meteorological satellites developed by the European Space Agency (ESA) and operated by the European Organization for the Exploitation of Meteorological Satellites (EUMETSAT). The satellites form the space segment component of the overall  EUMETSAT Polar System (EPS), which in turn is the European half of the EUMETSAT/NOAA Initial Joint Polar System (IJPS). The satellites carry a payload comprising 11 scientific instruments and two which support  Cospas-Sarsat Search and Rescue services. In order to provide data continuity between MetOp and NOAA Polar Operational Satellites (POES), several instruments are carried on both fleets of satellites.
+MetOp-A, launched on October 19, 2006, is Europe's first polar orbiting satellite used for operational meteorology. With respect to its primary mission of providing data for Numerical Weather Prediction, studies have shown that MetOp-A data are measured as having the largest impact of any individual satellite platform on reducing 24-hour forecasting errors, and accounts for about 25% of the total impact on global forecast error reduction across all data sources.  
+Each of the three satellites were originally intended to be operated sequentially, however good performance of the Metop-A and Metop-B satellites mean a period of three satellite operations are now expected. 
+In 2022 a second generation of MetOp satellites will be deployed, called MetOp-SG.
+
+
+== Background ==
+MetOp has been developed as a joint undertaking between the European Space Agency (ESA) and European Organisation for the Exploitation of Meteorological Satellites (EUMETSAT). Recognising the growing importance of Numerical Weather Prediction (NWP) in weather forecasting, MetOp was designed with a suite of instruments to provide NWP models with high resolution global atmospheric temperature and humidity structure. Data from MetOp are additionally used for atmospheric chemistry and provision of long term data sets for climate records.
+
+
+=== MetOp heritage ===
+The MetOp satellites have a modular construction, comprising a Service Module, a Payload Module and a suite of Instruments.
+A SPOT heritage service module provides power (via solar array and five batteries for eclipse), attitude and orbit control, thermal regulation and Tracking, Telemetry and Command (TT&C).
+An Envisat heritage payload module provides common command and control and power buses for the instruments along with science data acquisition and transmission.
+The suite of instruments are largely derived from precursors flown on the European Space Agency's European Remote-Sensing Satellite (ERS)/Envisat satellites or are fully recurrent units originally developed for NOAA's Television Infrared Observation Satellite (TIROS) series of polar-orbiting satellites.
+
+
+== Data acquisition ==
+
+With the exception of Search and Rescue, which is a purely local mission with its own dedicated transmitter, all data from the MetOp Instruments are formatted and multiplexed by the Payload Module and either stored on a solid-state recorder for later transmission via an X-Band antenna, or directly transmitted to local users via High Rate Picture Transmission (HRPT) VHF antenna.
+The main Command and Data Acquisition (CDA) head is located at Svalbard Satellite Station in Norway. The high latitude of this station allows the global data stored in the solid state recorder of each satellite to be dumped via X-Band once per orbit. Each MetOp satellite produces approximately 2 GB of raw data per orbit. Additionally, in order to improve timeliness of products, one of the operational satellites dumps the data from the descending part of the orbit over the McMurdo groundstation in Antarctica. Data are then trickle fed from the ground stations to EUMETSAT Headquarters in Darmstadt, Germany, where they are processed, stored and disseminated to various agencies and organisations with a latency of approximately 2 hours without the McMurdo ground station and 1 hour with Svalbard.
+HRPT is used to provide a real-time direct readout local mission via a network of receivers on ground provided by cooperating organisations. Data from these stations is also transmitted to EUMETSAT and redistributed to provide a regional service with approximately 30 minutes latency. Due to radiation sensitivity of the HRPT hardware, the MetOp-A HRPT does not operate over the polar regions or South Atlantic Anomaly.
+
+
+== Command and control ==
+Command and Control of MetOp is performed from the EPS Control Room at EUMETSAT Headquarters in Darmstadt, Germany. The control center is connected to the CDA in Svalbard which is used for S-Band ranging and doppler measurements (for orbit determination), acquisition of real-time house keeping telemetry and uplink of telecommands. The CDA at Svalbard, located at approximately 78 degrees North, provides TT&C coverage on each orbit. Commands for routine operations are generally uplinked at each CDA contact, approximately 36 hours in advance of on-board execution.
+Orbit determination can also be performed using data from the GNSS Receiver for Atmospheric Sounding (GRAS) instrument.
+An independent back-up control center is also located at Instituto Nacional de Técnica Aeroespacial, near Madrid, Spain.
+
+
+== Mission profile ==
+The MetOp and NOAA satellites both carry a common set of core instruments. In addition, MetOp carries a set of new European instruments, which measure atmospheric temperature and humidity with unprecedented accuracy along with profiles of atmospheric ozone and other trace gases. Wind speed and direction over the oceans will also be measured. It is expected that these new instruments will herald a significant contribution to the ever-growing need for fast and accurate global data to improve numerical weather prediction. This in turn will lead to more-reliable weather forecasts and, in the longer-term, help with monitoring changing climates more accurately.
+In addition to its meteorological uses, it will provide imagery of land and ocean surfaces as well as search and rescue equipment to aid ships and aircraft in distress. A data relay system is also on board, linking up to buoys and other data collection devices.
+
+
+== Launch and deployment ==
+
+MetOp-A, the first ever European polar-orbiting meteorological satellite, was successfully launched on 19 October 2006 from Baikonur Cosmodrome, Kazakhstan using a Soyuz-ST Fregat launcher, after six attempts. At just over 4,000 kg and measuring 17.6 × 6.5 × 5.2 m when in orbit, MetOp is Europe's second-largest Earth-observation satellite, after Envisat which was launched in 2002.The first signal from the satellite was received at 1835 BST on 20 October 2006, and it was confirmed that the satellite was in its nominally correct orbit with the solar panel deployed. Control of the satellite was with the European Space Operations Centre (ESOC — part of ESA) which had the responsibility of achieving the final positioning of the satellite, deployment of all the antennas and final reconfiguration of the satellite following necessary orbit control maneuvers. The satellite was handed over to EUMETSAT operations on 22 October 2006.  The first image was received at 0800 UTC on 25 October—a visible light image of Scandinavia and Eastern Europe — but there was a six-month period of verification and calibration of the satellite and its instrument payload before it was declared operational. Before that point, the Met Office received data and started to test and then use it as input to the operational numerical weather prediction runs.
+MetOp-A was declared fully operational in mid-May 2007 and the full data of its 11 scientific instruments are available to its users on operational basis MetOp-B was declared fully operational and pronounced to replace MetOp-A as "EUMETSAT’s prime operational LEO weather satellite" in April 2013.MetOp-C was scheduled for launch towards the end of 2016, which was postponed until 2017 and was launched successfully on 7 November 2018. 
+Due to the longer than expected in-orbit performance of Metop-A and Metop-B, it is planned for all three Metop spacecraft to be flying simultaneously.
+
+
+== Instruments ==
+
+The following instruments  are flown on board the MetOp satellites:
+
+
+=== Shared instruments ===
+The following instruments are shared on the NPOES satellites which form the US contribution to IJPS
+
+AMSU-A1/AMSU-A2 – Advanced Microwave Sounding Units
+HIRS/4 – High-resolution Infrared Radiation Sounder (N.B. Not included on MetOp-C)
+AVHRR/3 – Advanced Very High Resolution Radiometer
+A-DCS – Advanced Data Collection System
+SEM-2 – Space Environment Monitor
+SARP-3 – Search And Rescue Processor (N.B. Not included on MetOp-C)
+SARR – Search And Rescue Repeater (N.B. Not included on MetOp-C)
+MHS – Microwave Humidity Sounder
+
+
+=== MetOp specific instruments ===
+The following instruments are flown exclusively on the MetOp satellites
+
+IASI – Infrared Atmospheric Sounding Interferometer
+GRAS – Global Navigation Satellite System Receiver for Atmospheric Sounding
+ASCAT – Advanced SCATterometer
+GOME-2 – Global Ozone Monitoring Experiment-2
+
+
+== GOME-2 ==
+The first atmospheric contributions by MetOp-A were made by the Global Ozone Monitoring Experiment-2 (GOME-2), a scanning spectrometer on board the satellite.  GOME-2, designed by DLR (the German Aerospace Centre) and developed by SELEX Galileo as the successor of ERS-2's GOME (1995), provided coverage of most areas of planet Earth measuring the atmospheric ozone, the distribution of surface ultraviolet radiation, and the amount of nitrogen dioxide (NO2). The GOME-2 instrument provides a second source of ozone observations that supplement data from the SBUV/2 ozone instruments on the NOAA-18 and NOAA-19 satellites, which are part of the IJPS.
+
+
+== Infrared atmospheric sounding interferometer (IASI) ==
+One of the most important instruments carried onboard MetOp is the infrared atmospheric sounding interferometer, the most accurate infrared sounding interferometer currently in orbit. IASI observes the atmosphere in the infra-red (3.7 – 15.5 µm) in 8461 channels, allowing to measure the atmosphere temperature within 1 °C and relative humidity within 10% for each slice of 1 km height. Earth surface is revisited twice a day. IASI by itself produces half of all MetOp data.
+
+
+== The Metop constellation ==
+Metop's A and B were launched respectively on 19 October 2006 and 17 September 2012  from the Baikonur Cosmodrome, with Metop-C launched on 7 November 2018 from the Guiana Space Centre.It was originally planned that subsequent MetOp satellites will be launched at approximately five-year intervals, each having a planned operational life of 5 years - as such there would just be one operational Satellite at a time. However, based on the good performance of both the Metop-A and B satellites, EUMETSAT Council agreed to extend the EPS programme until at least 2027. Moreover, it is currently foreseen to operate Metop-A until the end of 2021, with similar extensions for Metops B and C. As of 2016, almost all remaining fuel on board Metop-A is budgeted for end-of-life disposal operations required to put Metop-A in an orbit which will decay and cause re-entry within 25 years in accordance with ISO 24113 Space Debris Mitigation Guidelines. The vast majority of fuel consumption during the operations phase is needed to compensate for inclination drift and maintain a Sun-synchronous orbit with a mean Mean Local Solar Time of Ascending Node of 09:30, and it is estimated that the platform can survive for at least 5 years with a drifting Local Time of the Ascending Node (LTAN). These 
+end-of-life disposal operations were initially unplanned, but are deemed necessary after the Iridium-Cosmos collision and Fengyun-1C anti-satellite test have significantly worsened the Space Debris situation in Low Earth Orbit.   
+Prior to the Launch of Metop-C, Metops A and B were operated in a co-planar orbit approximately half an orbit apart. With the launch of Metop-C, the three Metop Satellites will initially share the same orbit separated by approximately a third of an orbit, albeit with Metop-A drifting in LTAN. MetOp-B and C High Rate Picture Transmission (HRPT) will be transmitting real time data active over all geographic zones due to upgraded hardware, while MetOp-A HRPT will continue to be switched off over high risk radiation zones.
+The successor to the MetOp satellites will be MetOp-SG, currently with the first MetOp-SG A satellite expected to be deployed in 2021.
+
+
+== See also ==
+Satellite flare
+
+
+== References ==
+
+http://www.eumetsat.int/website/home/AboutUs/Publications/AnnualReport/index.html
+
+
+== External links ==
+
+European Space Agency
+EUMETSAT
+Met Office Press Release (archive)

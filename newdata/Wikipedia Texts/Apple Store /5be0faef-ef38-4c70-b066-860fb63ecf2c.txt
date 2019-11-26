@@ -1,0 +1,50 @@
+Mac App Store
+
+The App Store (also known as the Mac App Store) is a digital distribution platform for macOS apps, created and maintained by Apple Inc. The platform was announced on October 20, 2010, at Apple's "Back to the Mac" event. Apple began accepting app submissions from registered developers on November 3, 2010, in preparation for its launch.Mac App Store was launched on January 6, 2011, as part of the free Mac OS X 10.6.6 update for all current Snow Leopard users. After 24 hours of release, Apple announced that there were over one million downloads.On June 4, 2018, Apple announced that a new version of the App Store would be included in macOS Mojave.
+
+
+== Regulations ==
+Like the App Store on iOS, the Mac App Store is regulated by Apple.
+To submit an app for consideration, the developer must be a member of the Apple Developer Program. As of June 2019, the membership fee is US$99 a year.Apps must be approved by Apple before becoming available on the store. Disallowed types of apps revealed by Apple include apps that:
+change the native user interface elements or behaviors of macOS.
+do not comply with Apple Macintosh Human Interface Guidelines.
+are similar in look or function to current Apple products (e.g. Mac App Store, Finder, iTunes, and iChat).
+are similar to other apps that are already present in Mac App Store (e.g. Adobe Illustrator and CorelDraw, Photoshop Lightroom and Apple Aperture, Cinema 4D and 3D Max).
+contain or display pornographic material.
+are or install shared components (kernel extensions, browser plugins, QuickTime components, etc.).
+provide contents or services that expire.
+do not run on the currently shipping version of macOS.
+are beta, demo, trial, or test versions of software.
+reference trademarks for which the developer does not have explicit use permission.
+are free software licensed only under GPL (because the App Store Terms of Service imposes additional restrictions incompatible with the GPL).
+use software libraries that are either optionally installed or deemed deprecated by Apple for macOS users. Examples given:
+Apple's implementation of Java SE 6 (although the OpenJDK implementation of Java SE 7 is permitted if bundled into the app).
+PowerPC code requiring Rosetta.
+are not sandboxed (as of June 1, 2012). At WWDC 2013, Apple announced that this rule no longer applied, and that so-called "temporary exceptions" may be used when the app has a reason not to be sandboxed.
+are not a 64-bit app (as of January 1, 2018)
+contain malicious code.As with the iOS App Store, Apple rates applications worldwide based on their content, and determines the age group for which each is appropriate. macOS will allow blocking of objectionable apps in System Preferences. The following are the ratings that Apple has detailed:
+
+
+== Usage by Apple ==
+Since the opening of Mac App Store, Apple has increasingly used it as the primary means of distribution of its own in-house software products at the expense of boxed versions being sold at its retail stores. This position was increased with the July 2011 release of OS X Lion, which was the first release of OS X not sold in the form of DVD boxes. This method limited the reach of distribution of the operating system to those who currently use Mac OS X 10.6.6+, although other means offered by Apple after the release included a USB flash drive containing the operating system and a digital in-store download of the operating system through Apple Store locations. Starting from OS X Mountain Lion, Apple's operating systems can only be downloaded from the Mac App Store.
+This has also affected Apple's prior means of distribution through its own website, with the Downloads gallery being removed in July 2011 and replaced with links to the Mac App Store information page. However, it has not affected the Dashboard widget gallery, nor has it affected the Safari Extensions gallery, both of which remain online and web-based (however, in Safari 12, the old kind of extensions was deprecated and replaced by the new, more safe, one, available exclusively on the Mac App Store). Apple Support Download section also remains online, as it provides mostly security updates for current and older software applications and operating systems, many dating back to before 1998.
+
+
+== Counterfeit apps ==
+Not long after independent game developer Wolfire Games placed its game, Lugaru, on Mac App store, as Lugaru HD for $9.99, the developer noticed a counterfeit copy of their game also being sold on the App Store for US$0.99.  The developer contacted Apple on January 31, 2011, and on February 10, 2011, the counterfeit copy of the game was removed from the App Store.A number of news sites have remarked that for all the scrutiny Apple places on apps listed in their store, a counterfeit copy of an existing app should not have made it through the process, and the days it had been since the developer had alerted Apple to the counterfeit software is disconcerting to developers.
+
+
+== History ==
+Mac App Store launched with over 1000 apps on January 6, 2011, including Apple's own iWork '09, iLife '11, Aperture, and third-party applications ported from iOS, such as Angry Birds, Flight Control, Things and Twitter for Mac. Most of the apps belonged to the Games category, which had nearly three times as many apps in the next largest category, Utilities. The most common price point was $20–50. Angry Birds, a popular video game on iOS App Store, was the number one paid app on Mac App Store on the first day.An update to Mac App Store for OS X Mountain Lion introduced an Easter egg in which, if one downloads an app from Mac App Store and goes to one's app folder before the app has finished downloading, one will see the app's timestamp as "January 24, 1984, at 2:00 AM," the date the original Macintosh went on sale. This is the first time an Easter egg has appeared in a piece of Apple software since Steve Jobs had declared a ban on Easter eggs when he returned to Apple in 1997.On November 11, 2015, a number of apps purchased through Mac App Store began to fail at launch. Users worldwide got error messages and were forced to delete and re-download affected apps. It was discovered the next day by Tapbots developer Paul Haddad that the issue had to do with an expired security certificate. On November 17, Apple sent an email with explanations to developers. The company stated that most of the issues were resolved and that troubleshooting information was provided to the AppleCare support team.On December 17, 2015, responsibility for overseeing App Store was given to Phil Schiller, Apple's senior vice president of Worldwide Marketing. Previously App Store was led by Eddy Cue, Apple's senior vice president of Internet Software and Services.
+On January 1, 2018, Apple announced it was no longer accepting 32-bit apps on the Mac App Store, while existing 32-bit apps on the App Store must be updated to fit the 64-bit architecture by June 1, 2018.
+
+
+== See also ==
+List of Macintosh software
+
+
+== References ==
+
+
+== External links ==
+Official website

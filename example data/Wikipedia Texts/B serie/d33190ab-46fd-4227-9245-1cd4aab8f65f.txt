@@ -1,0 +1,107 @@
+BMC B-series engine
+
+The BMC B series was a line of straight-4 internal combustion engine mostly used in motor cars, created by British company Austin Motor Company.
+
+
+== Design ==
+
+The precursor of the "B" series engine was a 1200 cc Overhead Valve (OHV) engine which was used in the 1947-1952 Austin A40 Devon, and, in slightly modified form, in the 1953 Austin A40 Somerset. This engine had the same basic dimensions as one of Austin's pre-war sidevalve engines but to an all-new OHV design which had many features copied from the Chevrolet 235 straight-six engine used on military trucks that the Austin works had overhauled during the Second World War. These features included the valve gear and especially the siamesed cylinder head ports. Austin realised that eventually they would need an engine that could power many of its forthcoming medium-sized cars, and this would require an engine of at least 1500 cc capacity. Since the A40 Devon engine could not have its capacity enlarged, a new engine needed to be designed and built.
+The design of this new engine commenced around January 1952, and was designated as the "B" series. The first production version of the B series retained the same 1200cc capacity as the A40 engine and, superficially, appeared to be identical, with the same valve gear, same cylinder head design, same positioning of its ancillary parts (many of which were interchangeable with the older engine) and so on. But the B-series block and head were slightly larger in both length and width and the block had thicker cylinder wall castings (making the new engine heavier than the A40 motor). This was to allow room for enlargement of the cylinder bore to provide the larger capacities foreseen by BMC. The stroke was retained at 89 mm (3.5 in) and was never altered. Originally of approximately 1.2 Litre capacity, later displacements ranged widely from 1.2 L to 2.4 L, the latter being an Australia only production six-cylinder variant. The most common engine sizes were 1.5 L and 1.8 L and saw service in a number of vehicles. This included a version of the engine built under license in India by Hindustan Motors for its Ambassador series of cars. Petrol versions were produced in the greatest numbers, but diesel versions exist for both cars and marine applications.
+
+
+== Construction ==
+The engine was of conventional construction with a one-piece crankcase and cylinder block in cast iron with the crankcase extending down to the lowest level of the main bearing caps; with a cylinder head, also usually in cast iron, and a sump made from pressed steel for rear-wheel drive vehicles. Early engines used a three-bearing crankshaft, but later engines used five bearings. On all except the rare twin overhead camshaft variant, the camshaft — which was chain driven and mounted low in the block — operated the overhead valves via pushrods and rocker arms. The two inlet ports in the non-crossflow cylinder head were shared between cylinders 1 + 2 and 3 + 4 and the three exhaust ports between cylinder 1, 2 + 3 and 4. Valve clearance was adjustable by screws and locknuts on the rocker arms. Another unconventional characteristic of the engine is that the bore spacing is not constant between all four bores. The distance from cylinder 1 to 2 is 3.4375"; 2 to 3 =3.875" ;and 3 to 4 =3.4375". 
+The B series shares many design features (such as the heart-shaped combustion chambers and siamese inlet ports designed by Harry Weslake), as well as its basic layout and general appearance, with the smaller BMC A-series engine. However another difference was its block's full-depth skirt which provided excellent bottom-end strength. This made the engine highly durable and suitable for developing into diesel versions in later years.
+
+
+== Engine types ==
+
+
+=== 1.2 litre engines ===
+The 1.2 L (1,199.6 cc) version was the first version of the engine. The bore and the stroke was 65.5 mm × 89 mm (2.58 in × 3.50 in). The maximum power output was 39 bhp (29 kW) at 4300 rpm.
+After the formation of British Motor Corporation (BMC) the new B Series engine was used in the following vehicles:
+
+1954–56 Morris Cowley
+1954–56 Austin A40 Cambridge
+1954–55 Nash Metropolitan 1200 (used unique "2G" engine prefix)
+Massey-Harris Combine Harvester
+
+
+=== 1.5 litre engines ===
+
+The 1.5 L (1,490 cc) version was first used in 1953 in the MG Magnette ZA in twin carburettor version and in 1954 in the Morris Oxford series II and Austin Cambridge. In 1957, it was used in the original MGA. Output in twin carburettor form was 68–72 bhp (51–54 kW) and 55 bhp (41 kW) with a single carburettor. Bore and stroke was 73 mm × 89 mm (2.9 in × 3.5 in).
+There was also a diesel version of this engine size. Power output was 40 bhp (30 kW) at 4,000 rpm and torque 64 lb⋅ft (87 N⋅m) at 1,900 rpm. The 1.5–litre diesel engines were made in India by Hindustan Motors for many decades until the production of the legendary Ambassador was phased out in 2013. They are very popular amongst the taxicab market in India even today.
+
+
+=== Twin-Cam engines ===
+A special Twin-Cam (DOHC) version of the 1.6 L (1,588 cc) B-series engine was produced for the MGA. Output was 108 bhp (81 kW) at 6700 rpm in the high-compression (9.9:1) version and 100 bhp (75 kW) in the optional low-compression (8.3:1) version. The engine block was cast iron, but the crossflow eight-port cylinder head was of aluminium alloy. Drive to the twin camshafts was by chain from a gear-driven, half-speed shaft running in the space that would have been occupied by the conventional camshaft.
+This engine gained a reputation for being unreliable in service, especially in the high-compression version which needed high-octane fuel, but this has now been largely overcome. The piston burning habits — thought to be the result of ignition timing — was later discovered to be due to a vibration induced lean burn situation involving the float bowls, easily correctable by flexibly mounting the carburettors. A total of 2,111 cars were built, in both coupé and roadster versions.
+A very few engines with the special displacement of 1.8 L (1,762 cc) were produced for racing purposes.
+Applications:
+
+1958–60 MGA Twin-Cam
+
+
+=== 1.6 litre engines ===
+The engine was enlarged to 1.6 L (1,588 cc) in 1958 by increasing the bore to 75.4 mm (2.97 in).
+Applications:
+
+1959–61 MGA 1600
+1960–62 TVR Grantura Mark II, IIA
+1959-61 Elva Courier Mark II
+
+
+=== 1.6 litre Mark II engines ===
+The engine was enlarged to 1.6 L (1,623 cc) in 1961 with another bore increase, this time to 76.2 mm (3.00 in).
+
+The 1.6 L (1,623 cc) B series also formed the basis of the "Blue Streak" engine developed by BMC Australia for use in the locally-built Austin Freeway and Wolseley 24/80 models, both in turn variants of the existing Austin A60 Cambridge. The "Blue Streak" was an inline-6 development of the B series, adding two extra cylinders to create a 2.4 L (2,433 cc) engine. Different market demands in Australia required the fitting of a six-cylinder engine to a car the size of BMC's mid-range Farina model and the corporate C-series engine would not fit, requiring the development of the unique "Blue Streak" engine. Both models were withdrawn in 1965 and no further use of the engine was made.
+
+
+=== 1.8 litre engines ===
+The engine was enlarged again to 1.8 L (1,798 cc) in 1962. Bore was 80.2 mm (3.16 in) and stroke was still 89 mm (3.5 in), power varied by application with typically 94 bhp (70 kW) @ 5500 rpm in twin carburettor format and 85 bhp (63 kW) in single carburettor format as used in the Morris Marina. The engine at first had a three-bearing crankshaft with a five-bearing version appearing in 1964.
+There was also a diesel version of this capacity, used in the Leyland Sherpa van with a power output of 56 bhp (42 kW) @ 4,250 rpm, and built under license in Turkey for many years. It is still widely used on narrowboats on the canals of the UK.
+
+
+=== 2.4 litre engines ===
+There was a 2.4 L (2,433 cc) six-cylinder unit, named "Blue Streak", which was used in the Australian Austin Freeway and Wolseley 24/80.
+
+
+== Engine numbering ==
+There were two series of engine numbers used; BMC changed the system at the end of 1956.
+
+
+=== Numbering system, 1936 to 1956 ===
+As an example numbers were of the style "BP15GB" followed by the engines serial number, where:
+
+BP = B series engine with P for pushrod (Overhead Valve)
+15 = capacity
+G = MG (for full list of codes see reference below)
+B = This final letter denotes the engine version.
+
+
+=== Numbering system, 1957 to 1970 ===
+As an example numbers were of the style "15GB-U-H" plus a serial number, where:
+
+15 = capacity
+G = MG (other letters were: A = Austin, B = Industrial, H = Miscellaneous, J = Commercial, M = Morris, R = Riley, V = Vanden Plas and W = Wolseley )
+B = B series engine
+U = Central gear change (other letters were: A = Automatic, M = Manumatic clutch, N = Column change, O = Overdrive and P = Police)
+H = High compression (alternatively L = Low compression)
+
+
+=== Numbering system, 1970 onwards ===
+Beginning in the early 1970s the numbering system was simplified to "18 V" plus a serial number, where 18 represents the capacity and V = vertical, i.e. longitudinal (in-line, not vee-arranged) engine with rear-wheel drive, and H = Horizontal, i.e. transverse engine with front-wheel drive.There was sometimes a country indicator after the first part of the code, e.g. "18V-Z" was use for some United States (except California) MG MGB engines.
+
+
+== See also ==
+BMC A-series engine
+
+
+== References ==
+
+Porter, Lindsay (1985). BMC and Leyland B-Series Engine Data. Osprey. ISBN 0-85045-597-9.
+
+
+== External links ==
+List of engine codes
+B series engine description at "the unofficial Austin Rover resource"

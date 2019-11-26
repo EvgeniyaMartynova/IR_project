@@ -1,0 +1,1860 @@
+Purity (quantum mechanics)
+
+In quantum mechanics, and especially quantum information theory, the purity of a normalized quantum state is a scalar defined as
+
+  
+    
+      
+        γ
+        
+        ≡
+        
+        
+          
+            tr
+          
+        
+        (
+        
+          ρ
+          
+            2
+          
+        
+        )
+        
+      
+    
+    {\displaystyle \gamma \,\equiv \,{\mbox{tr}}(\rho ^{2})\,}
+  where 
+  
+    
+      
+        ρ
+        
+      
+    
+    {\displaystyle \rho \,}
+   is the density matrix of the state. The purity defines a measure on quantum states, giving information on how much a state is mixed.
+
+
+== Mathematical properties ==
+The purity of a normalized quantum state satisfies 
+  
+    
+      
+        
+          
+            1
+            d
+          
+        
+        ≤
+        γ
+        ≤
+        1
+        
+      
+    
+    {\displaystyle {\frac {1}{d}}\leq \gamma \leq 1\,}
+  , where 
+  
+    
+      
+        d
+        
+      
+    
+    {\displaystyle d\,}
+   is the dimension of the Hilbert space upon which the state is defined. The upper bound is obtained by 
+  
+    
+      
+        t
+        r
+        (
+        ρ
+        )
+        =
+        1
+        
+      
+    
+    {\displaystyle tr(\rho )=1\,}
+  and 
+  
+    
+      
+        t
+        r
+        (
+        
+          ρ
+          
+            2
+          
+        
+        )
+        ≤
+        t
+        r
+        (
+        ρ
+        )
+        
+      
+    
+    {\displaystyle tr(\rho ^{2})\leq tr(\rho )\,}
+  (see trace). If 
+  
+    
+      
+        ρ
+        
+      
+    
+    {\displaystyle \rho \,}
+   is a projection, which describe a pure state, then it holds that 
+  
+    
+      
+        t
+        r
+        (
+        
+          ρ
+          
+            2
+          
+        
+        )
+        =
+        t
+        r
+        (
+        ρ
+        )
+        =
+        1
+        
+      
+    
+    {\displaystyle tr(\rho ^{2})=tr(\rho )=1\,}
+   (see Projections). The lower bound is obtained by the completely mixed state, represented by the matrix 
+  
+    
+      
+        
+          
+            1
+            d
+          
+        
+        
+          I
+          
+            d
+          
+        
+        
+      
+    
+    {\displaystyle {\frac {1}{d}}I_{d}\,}
+  .
+The purity of a quantum state is conserved under unitary transformations acting on the density matrix in the form 
+  
+    
+      
+        ρ
+        ↦
+        U
+        ρ
+        
+          U
+          
+            †
+          
+        
+        
+      
+    
+    {\displaystyle \rho \mapsto U\rho U^{\dagger }\,}
+  , where 
+  
+    
+      
+        U
+        
+      
+    
+    {\displaystyle U\,}
+  is an unitary matrix. Specifically, it is conserved under the time evolution operator 
+  
+    
+      
+        U
+        (
+        t
+        ,
+        
+          t
+          
+            0
+          
+        
+        )
+        =
+        
+          e
+          
+            
+              
+                
+                  −
+                  i
+                
+                ℏ
+              
+            
+            H
+            (
+            t
+            −
+            
+              t
+              
+                0
+              
+            
+            )
+          
+        
+        
+      
+    
+    {\displaystyle U(t,t_{0})=e^{{\frac {-i}{\hbar }}H(t-t_{0})}\,}
+  , where 
+  
+    
+      
+        H
+        
+      
+    
+    {\displaystyle H\,}
+  is the Hamiltonian operator.
+
+
+== Physical meaning ==
+A pure quantum state can be represented as a single vector 
+  
+    
+      
+        
+          |
+        
+        ψ
+        ⟩
+      
+    
+    {\displaystyle |\psi \rangle }
+   in the Hilbert space. In the density matrix formulation, a pure state is represented by the matrix 
+  
+    
+      
+        
+          ρ
+          
+            
+              p
+              u
+              r
+              e
+            
+          
+        
+        =
+        
+          |
+        
+        ψ
+        ⟩
+        ⟨
+        ψ
+        
+          |
+        
+      
+    
+    {\displaystyle \rho _{\mathrm {pure} }=|\psi \rangle \langle \psi |}
+  . However, a mixed state cannot be represented this way, and instead is represented by a linear combination of pure states 
+  
+    
+      
+        
+          ρ
+          
+            
+              m
+              i
+              x
+              e
+              d
+            
+          
+        
+        =
+        ∑
+        
+          p
+          
+            i
+          
+        
+        
+          |
+        
+        
+          ψ
+          
+            i
+          
+        
+        ⟩
+        ⟨
+        
+          ψ
+          
+            i
+          
+        
+        
+          |
+        
+      
+    
+    {\displaystyle \rho _{\mathrm {mixed} }=\sum p_{i}|\psi _{i}\rangle \langle \psi _{i}|}
+  , while 
+  
+    
+      
+        ∑
+        
+          p
+          
+            i
+          
+        
+        =
+        1
+      
+    
+    {\displaystyle \sum p_{i}=1}
+   for normalization. The purity parameter is related to the coefficients: If only one coefficient is equal to 
+  
+    
+      
+        1
+      
+    
+    {\displaystyle 1}
+  , the state is pure; else the purity measures how much their values are similar. Indeed, the purity is 
+  
+    
+      
+        
+          
+            1
+            d
+          
+        
+      
+    
+    {\displaystyle {\frac {1}{d}}}
+   when the state is completely mixed, i.e. 
+  
+    
+      
+        
+          ρ
+          
+            
+              c
+              o
+              m
+              p
+              l
+              e
+              t
+              e
+              l
+              y
+               
+              m
+              i
+              x
+              e
+              d
+            
+          
+        
+        =
+        
+          
+            1
+            d
+          
+        
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            d
+          
+        
+        
+          |
+        
+        
+          ψ
+          
+            i
+          
+        
+        ⟩
+        ⟨
+        
+          ψ
+          
+            i
+          
+        
+        
+          |
+        
+        =
+        
+          
+            1
+            d
+          
+        
+        
+          I
+          
+            d
+          
+        
+      
+    
+    {\displaystyle \rho _{\mathrm {completely\ mixed} }={\frac {1}{d}}\sum _{i=1}^{d}|\psi _{i}\rangle \langle \psi _{i}|={\frac {1}{d}}I_{d}}
+  , where 
+  
+    
+      
+        
+          |
+        
+        
+          ψ
+          
+            i
+          
+        
+        ⟩
+      
+    
+    {\displaystyle |\psi _{i}\rangle }
+   are the 
+  
+    
+      
+        d
+      
+    
+    {\displaystyle d}
+   orthonormal vectors that constitute the basis Hilbert space.
+
+
+=== Geometrical representation ===
+On Bloch sphere, pure states are represented by a point on the surface of the sphere, whereas mixed states are represented by an interior point. Thus, a purity of a state can be visualized as the degree in which it is close to the surface of the sphere. For example, the completely mixed state of a single qubit 
+  
+    
+      
+        
+          
+            1
+            2
+          
+        
+        
+          I
+          
+            2
+          
+        
+        
+      
+    
+    {\displaystyle {\frac {1}{2}}I_{2}\,}
+  is represented by the center of the sphere, by symmetry.
+A graphical intuition of purity can be gained by looking at the relation between the density matrix and Bloch sphere:
+
+  
+    
+      
+        ρ
+        =
+        
+          
+            1
+            2
+          
+        
+        
+          (
+          
+            I
+            +
+            
+              
+                
+                  a
+                  →
+                
+              
+            
+            ⋅
+            
+              
+                
+                  σ
+                  →
+                
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \rho ={\frac {1}{2}}\left(I+{\vec {a}}\cdot {\vec {\sigma }}\right)}
+  , where 
+  
+    
+      
+        
+          
+            
+              a
+              →
+            
+          
+        
+      
+    
+    {\displaystyle {\vec {a}}}
+   is the vector representing the quantum state (on or inside the sphere), and 
+  
+    
+      
+        
+          
+            
+              σ
+              →
+            
+          
+        
+        =
+        (
+        
+          σ
+          
+            x
+          
+        
+        ,
+        
+          σ
+          
+            y
+          
+        
+        ,
+        
+          σ
+          
+            z
+          
+        
+        )
+      
+    
+    {\displaystyle {\vec {\sigma }}=(\sigma _{x},\sigma _{y},\sigma _{z})}
+   are Pauli matrices.
+Since Pauli matrices are traceless, it still holds that 
+  
+    
+      
+        t
+        r
+        (
+        ρ
+        )
+        =
+        1
+      
+    
+    {\displaystyle tr(\rho )=1}
+  .
+However, using 
+  
+    
+      
+        (
+        
+          
+            
+              a
+              →
+            
+          
+        
+        ⋅
+        
+          
+            
+              σ
+              →
+            
+          
+        
+        )
+        (
+        
+          
+            
+              b
+              →
+            
+          
+        
+        ⋅
+        
+          
+            
+              σ
+              →
+            
+          
+        
+        )
+        =
+        (
+        
+          
+            
+              a
+              →
+            
+          
+        
+        ⋅
+        
+          
+            
+              b
+              →
+            
+          
+        
+        )
+        
+        I
+        +
+        i
+        (
+        
+          
+            
+              a
+              →
+            
+          
+        
+        ×
+        
+          
+            
+              b
+              →
+            
+          
+        
+        )
+        ⋅
+        
+          
+            
+              σ
+              →
+            
+          
+        
+      
+    
+    {\displaystyle ({\vec {a}}\cdot {\vec {\sigma }})({\vec {b}}\cdot {\vec {\sigma }})=({\vec {a}}\cdot {\vec {b}})\,I+i({\vec {a}}\times {\vec {b}})\cdot {\vec {\sigma }}}
+  :
+
+  
+    
+      
+        
+          ρ
+          
+            2
+          
+        
+        =
+        
+          
+            1
+            2
+          
+        
+        [
+        
+          
+            1
+            2
+          
+        
+        (
+        1
+        +
+        
+          |
+        
+        a
+        
+          
+            |
+          
+          
+            2
+          
+        
+        )
+        I
+        +
+        
+          
+            
+              a
+              →
+            
+          
+        
+        ⋅
+        
+          
+            
+              σ
+              →
+            
+          
+        
+        ]
+      
+    
+    {\displaystyle \rho ^{2}={\frac {1}{2}}[{\frac {1}{2}}(1+|a|^{2})I+{\vec {a}}\cdot {\vec {\sigma }}]}
+  , hence 
+  
+    
+      
+        t
+        r
+        (
+        
+          ρ
+          
+            2
+          
+        
+        )
+        =
+        
+          
+            1
+            2
+          
+        
+        (
+        1
+        +
+        
+          |
+        
+        a
+        
+          
+            |
+          
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle tr(\rho ^{2})={\frac {1}{2}}(1+|a|^{2})}
+  
+Which agrees with the fact that only states on the sphere itself are pure (i.e. 
+  
+    
+      
+        
+          |
+        
+        a
+        
+          |
+        
+        =
+        1
+      
+    
+    {\displaystyle |a|=1}
+  ).
+
+
+== Relation to other concepts ==
+
+
+=== Linear entropy ===
+Purity is trivially related to the Linear entropy 
+  
+    
+      
+        
+          S
+          
+            L
+          
+        
+        
+      
+    
+    {\displaystyle S_{L}\,}
+   of a state by
+
+  
+    
+      
+        γ
+        =
+        1
+        −
+        
+          S
+          
+            L
+          
+        
+        
+        .
+      
+    
+    {\displaystyle \gamma =1-S_{L}\,.}
+  
+
+
+=== Entanglement ===
+
+A 2-qubits pure state 
+  
+    
+      
+        
+          |
+        
+        ψ
+        
+          ⟩
+          
+            A
+            B
+          
+        
+        ∈
+        
+          H
+          
+            A
+          
+        
+        ⊗
+        
+          H
+          
+            B
+          
+        
+      
+    
+    {\displaystyle |\psi \rangle _{AB}\in H_{A}\otimes H_{B}}
+   can be written (using Schmidt decomposition) as 
+  
+    
+      
+        
+          |
+        
+        ψ
+        
+          ⟩
+          
+            A
+            B
+          
+        
+        =
+        
+          ∑
+          
+            j
+          
+        
+        
+          λ
+          
+            j
+          
+        
+        
+          |
+        
+        j
+        
+          ⟩
+          
+            A
+          
+        
+        
+          |
+        
+        j
+        
+          ⟩
+          
+            B
+          
+        
+      
+    
+    {\displaystyle |\psi \rangle _{AB}=\sum _{j}\lambda _{j}|j\rangle _{A}|j\rangle _{B}}
+  , where 
+  
+    
+      
+        {
+        
+          |
+        
+        j
+        
+          ⟩
+          
+            A
+          
+        
+        }
+        ,
+        {
+        
+          |
+        
+        j
+        
+          ⟩
+          
+            B
+          
+        
+        }
+      
+    
+    {\displaystyle \{|j\rangle _{A}\},\{|j\rangle _{B}\}}
+   are the bases of 
+  
+    
+      
+        
+          H
+          
+            A
+          
+        
+        ,
+        
+          H
+          
+            B
+          
+        
+      
+    
+    {\displaystyle H_{A},H_{B}}
+   respectively, and 
+  
+    
+      
+        
+          ∑
+          
+            j
+          
+        
+        
+          λ
+          
+            j
+          
+          
+            2
+          
+        
+        =
+        1
+        ,
+        
+          λ
+          
+            j
+          
+        
+        ≥
+        0
+      
+    
+    {\displaystyle \sum _{j}\lambda _{j}^{2}=1,\lambda _{j}\geq 0}
+  . Its density matrix is 
+  
+    
+      
+        
+          ρ
+          
+            A
+            B
+          
+        
+        =
+        
+          ∑
+          
+            i
+            ,
+            j
+          
+        
+        
+          λ
+          
+            i
+          
+        
+        
+          λ
+          
+            j
+          
+        
+        
+          |
+        
+        i
+        
+          ⟩
+          
+            A
+          
+        
+        ⟨
+        j
+        
+          
+            |
+          
+          
+            A
+          
+        
+        ⊗
+        
+          |
+        
+        i
+        
+          ⟩
+          
+            B
+          
+        
+        ⟨
+        j
+        
+          
+            |
+          
+          
+            B
+          
+        
+      
+    
+    {\displaystyle \rho ^{AB}=\sum _{i,j}\lambda _{i}\lambda _{j}|i\rangle _{A}\langle j|_{A}\otimes |i\rangle _{B}\langle j|_{B}}
+  . The degree in which it is entangled is related to the purity of the states of its subsystems, 
+  
+    
+      
+        
+          ρ
+          
+            A
+          
+        
+        =
+        t
+        
+          r
+          
+            B
+          
+        
+        (
+        
+          ρ
+          
+            A
+            B
+          
+        
+        )
+        =
+        
+          ∑
+          
+            j
+          
+        
+        
+          λ
+          
+            j
+          
+          
+            2
+          
+        
+        
+          |
+        
+        j
+        
+          ⟩
+          
+            A
+          
+        
+        ⟨
+        j
+        
+          
+            |
+          
+          
+            A
+          
+        
+      
+    
+    {\displaystyle \rho ^{A}=tr_{B}(\rho _{AB})=\sum _{j}\lambda _{j}^{2}|j\rangle _{A}\langle j|_{A}}
+  , and similarly for 
+  
+    
+      
+        
+          ρ
+          
+            B
+          
+        
+      
+    
+    {\displaystyle \rho ^{B}}
+   (see partial trace). If this initial state is separable (i.e. there's only a single 
+  
+    
+      
+        
+          λ
+          
+            j
+          
+        
+        ≠
+        0
+      
+    
+    {\displaystyle \lambda _{j}\neq 0}
+  ), then 
+  
+    
+      
+        
+          ρ
+          
+            A
+          
+        
+        ,
+        
+          ρ
+          
+            B
+          
+        
+      
+    
+    {\displaystyle \rho ^{A},\rho ^{B}}
+   are both pure. Otherwise, this state is entangled and 
+  
+    
+      
+        
+          ρ
+          
+            A
+          
+        
+        ,
+        
+          ρ
+          
+            B
+          
+        
+      
+    
+    {\displaystyle \rho ^{A},\rho ^{B}}
+   are both mixed. For example, if 
+  
+    
+      
+        
+          |
+        
+        ψ
+        
+          ⟩
+          
+            A
+            B
+          
+        
+        =
+        
+          |
+        
+        
+          Φ
+          
+            +
+          
+        
+        ⟩
+        =
+        
+          
+            1
+            
+              2
+            
+          
+        
+        (
+        
+          |
+        
+        0
+        
+          ⟩
+          
+            A
+          
+        
+        ⊗
+        
+          |
+        
+        0
+        
+          ⟩
+          
+            B
+          
+        
+        +
+        
+          |
+        
+        1
+        
+          ⟩
+          
+            A
+          
+        
+        ⊗
+        
+          |
+        
+        1
+        
+          ⟩
+          
+            B
+          
+        
+        )
+      
+    
+    {\displaystyle |\psi \rangle _{AB}=|\Phi ^{+}\rangle ={\frac {1}{\sqrt {2}}}(|0\rangle _{A}\otimes |0\rangle _{B}+|1\rangle _{A}\otimes |1\rangle _{B})}
+   which is a maximally entangled state, then 
+  
+    
+      
+        
+          ρ
+          
+            A
+          
+        
+        ,
+        
+          ρ
+          
+            B
+          
+        
+      
+    
+    {\displaystyle \rho ^{A},\rho ^{B}}
+   are both completely mixed.
+For 2-qubits (pure or mixed) states, the Schmidt number (number of Schmidt coefficients) is at most 2. Using this and Peres–Horodecki criterion (for 2-qubits), a state is entangled if its partial transpose has at least one negative eigenvalue. Using the Schmidt coefficients from above, the negative eigenvalue is 
+  
+    
+      
+        −
+        
+          λ
+          
+            0
+          
+        
+        
+          λ
+          
+            1
+          
+        
+      
+    
+    {\displaystyle -\lambda _{0}\lambda _{1}}
+  . The negativity 
+  
+    
+      
+        
+          
+            N
+          
+        
+        =
+        −
+        
+          λ
+          
+            0
+          
+        
+        
+          λ
+          
+            1
+          
+        
+      
+    
+    {\displaystyle {\mathcal {N}}=-\lambda _{0}\lambda _{1}}
+   of this eigenvalue is also used as a measure of entanglement - the state is more entangled as this eigenvalue is more negative (up to 
+  
+    
+      
+        −
+        
+          
+            1
+            2
+          
+        
+      
+    
+    {\displaystyle -{\frac {1}{2}}}
+   for bell states). For the state of subsystem 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+   (similarly for 
+  
+    
+      
+        B
+      
+    
+    {\displaystyle B}
+  ), it holds that:
+
+  
+    
+      
+        
+          ρ
+          
+            A
+          
+        
+        =
+        t
+        
+          r
+          
+            B
+          
+        
+        (
+        
+          |
+        
+        ψ
+        
+          ⟩
+          
+            A
+            B
+          
+        
+        ⟨
+        ψ
+        
+          
+            |
+          
+          
+            A
+            B
+          
+        
+        )
+        =
+        
+          λ
+          
+            0
+          
+          
+            2
+          
+        
+        
+          |
+        
+        0
+        
+          ⟩
+          
+            A
+          
+        
+        ⟨
+        0
+        
+          
+            |
+          
+          
+            A
+          
+        
+        +
+        
+          λ
+          
+            1
+          
+          
+            2
+          
+        
+        
+          |
+        
+        1
+        
+          ⟩
+          
+            A
+          
+        
+        ⟨
+        1
+        
+          
+            |
+          
+          
+            A
+          
+        
+      
+    
+    {\displaystyle \rho ^{A}=tr_{B}(|\psi \rangle _{AB}\langle \psi |_{AB})=\lambda _{0}^{2}|0\rangle _{A}\langle 0|_{A}+\lambda _{1}^{2}|1\rangle _{A}\langle 1|_{A}}
+  
+And the purity is 
+  
+    
+      
+        γ
+        =
+        
+          λ
+          
+            0
+          
+          
+            4
+          
+        
+        +
+        
+          λ
+          
+            1
+          
+          
+            4
+          
+        
+        =
+        (
+        
+          λ
+          
+            0
+          
+          
+            2
+          
+        
+        +
+        
+          λ
+          
+            1
+          
+          
+            2
+          
+        
+        
+          )
+          
+            2
+          
+        
+        −
+        2
+        (
+        
+          λ
+          
+            0
+          
+        
+        
+          λ
+          
+            1
+          
+        
+        
+          )
+          
+            2
+          
+        
+        =
+        1
+        −
+        2
+        
+          
+            
+              N
+            
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \gamma =\lambda _{0}^{4}+\lambda _{1}^{4}=(\lambda _{0}^{2}+\lambda _{1}^{2})^{2}-2(\lambda _{0}\lambda _{1})^{2}=1-2{\mathcal {N}}^{2}}
+  .
+One can see that the more entangled the composite state is (i.e. more negative), the less pure the subsystem state.
+
+
+=== Inverse Participation Ratio (IPR) ===
+In the context of localization, a quantity closely related to the purity, the so-called inverse participation ratio (IPR) turns out to be useful. It is defined as the inverse of the integral (or sum for finite system size) over the square of the density in some space, e.g., real space, momentum space, or even phase space, where the densities would be the square of the real space wave function 
+  
+    
+      
+        
+          |
+        
+        ψ
+        (
+        x
+        )
+        
+          
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle |\psi (x)|^{2}}
+  , the square of the momentum space wave function 
+  
+    
+      
+        
+          |
+        
+        
+          
+            
+              ψ
+              ~
+            
+          
+        
+        (
+        k
+        )
+        
+          
+            |
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle |{\tilde {\psi }}(k)|^{2}}
+  , or some phase space density like the Husimi distribution, respectively.The largest value of the IPR corresponds to a fully delocalized state, 
+  
+    
+      
+        ψ
+        (
+        x
+        )
+        =
+        1
+        
+          /
+        
+        
+          
+            N
+          
+        
+      
+    
+    {\displaystyle \psi (x)=1/{\sqrt {N}}}
+   for a system of size 
+  
+    
+      
+        N
+      
+    
+    {\displaystyle N}
+  , where the IPR yields 
+  
+    
+      
+        1
+        
+          /
+        
+        
+          ∑
+          
+            x
+          
+        
+        
+          |
+        
+        ψ
+        (
+        x
+        )
+        
+          
+            |
+          
+          
+            4
+          
+        
+        =
+        ⋅
+        (
+        
+          N
+          
+            1
+            
+              /
+            
+            2
+          
+        
+        
+          )
+          
+            4
+          
+        
+        
+          /
+        
+        N
+        =
+        N
+      
+    
+    {\displaystyle 1/\sum _{x}|\psi (x)|^{4}=\cdot (N^{1/2})^{4}/N=N}
+  . Small  values of the IPR correspond to  localized states (pure states in the analogy), as can be seen with the perfectly localized state 
+  
+    
+      
+        ψ
+        (
+        x
+        )
+        =
+        
+          δ
+          
+            x
+            ,
+            
+              x
+              
+                0
+              
+            
+          
+        
+      
+    
+    {\displaystyle \psi (x)=\delta _{x,x_{0}}}
+  , where the IPR yields 
+  
+    
+      
+        1
+        
+          /
+        
+        
+          ∑
+          
+            x
+          
+        
+        
+          |
+        
+        ψ
+        (
+        x
+        )
+        
+          
+            |
+          
+          
+            4
+          
+        
+        =
+        1
+      
+    
+    {\displaystyle 1/\sum _{x}|\psi (x)|^{4}=1}
+  . In one dimension IPR is directly proportional to the localization length, i.e., the size of the region over which a state is localized. Localized and delocalized (extended) states in the framework of condensed matter physics then correspond to insulating and metallic states, respectively, if one imagines an electron on a lattice not being able to move in the crystal (localized wave function, IPR is small) or being able to move (extended state, IPR is large).
+In the context of localization, it is often not necessary to know the wave function itself; it often suffices to know the localization properties. This is why the IPR is useful in this context. The IPR basically takes the full information about a quantum system (the wave function; for a 
+  
+    
+      
+        N
+      
+    
+    {\displaystyle N}
+  -dimensional Hilbert space one would have to store 
+  
+    
+      
+        N
+      
+    
+    {\displaystyle N}
+   values, the components of the wave function) and compresses it into one single number that then only contains some information about the localization properties of the state. Even though these two examples of a perfectly localized and a perfectly delocalized state were only shown for the real space wave function and correspondingly for the real space IPR, one could obviously extend the idea to momentum space and even phase space; the IPR then gives some information about the localization in the space at consideration, e.g. a plane wave would be strongly delocalized in real space, but its Fourier transform then is strongly localized, so here the real space IPR would be large and the momentum space IPR would be small. Actually the two examples shown above interchange their IPR when switching from real space to momentum space.
+
+
+== Projectivity of a measurement ==
+For a quantum measurement, the projectivity is the purity of its pre-measurement state.
+This pre-measurement state is the main tool of the retrodictive approach of quantum physics, in which we make predictions about state preparations leading to a given measurement result. It allows us to determine in which kind of states the measured system was prepared for leading to such a result.
+
+
+== References ==

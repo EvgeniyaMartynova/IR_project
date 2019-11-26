@@ -1,0 +1,63 @@
+Functional Requirements for Bibliographic Records
+
+Functional Requirements for Bibliographic Records (FRBR ) is a conceptual entity–relationship model developed by the International Federation of Library Associations and Institutions (IFLA) that relates user tasks of retrieval and access in online library catalogues and bibliographic databases from a user’s perspective. It represents a more holistic approach to retrieval and access as the relationships between the entities provide links to navigate through the hierarchy of relationships. The model is significant because it is separate from specific cataloguing standards such as Anglo-American Cataloguing Rules (AACR) or International Standard Bibliographic Description (ISBD).
+
+
+== User tasks ==
+The ways that people can use FRBR data have been defined as follows: to find entities in a search, to identify an entity as being the correct one, to select an entity that suits the user's needs, or to obtain an entity (physical access or licensing).FRBR comprises groups of entities:
+
+Group 1 entities are work, expression, manifestation, and item (WEMI). They represent the products of intellectual or artistic endeavor.
+Group 2 entities are person, family and corporate body, responsible for the custodianship of Group 1’s intellectual or artistic endeavor.
+Group 3 entities are subjects of Group 1 or Group 2’s intellectual endeavor, and include concepts, objects, events, places.
+Group 1 entities are the foundation of the FRBR model:
+
+Work is a "distinct intellectual or artistic creation." For example, Beethoven's Ninth Symphony apart from all ways of expressing it is a work. When we say, "Beethoven's Ninth is magnificent!" we generally are referring to the work.
+Expression is "the specific intellectual or artistic form that a work takes each time it is 'realized.'" An expression of Beethoven's Ninth might be each draft of the musical score he writes down (not the paper itself, but the music thereby expressed).
+Manifestation is "the physical embodiment of an expression of a work. As an entity, manifestation represents all the physical objects that bear the same characteristics, in respect to both intellectual content and physical form." The performance the London Philharmonic made of the Ninth in 1996 is a manifestation. It was a physical embodiment even if not recorded, though of course manifestations are most frequently of interest when they are expressed in a persistent form such as a recording or printing. When we say, "The recording of the London Philharmonic's 1996 performance captured the essence of the Ninth," we are generally referring to a manifestation.
+Item is "a single exemplar of a manifestation. The entity defined as item is a concrete entity." Each copy of the 1996 pressings of that 1996 recording is an item. When we say, "Both copies of the London Philharmonic's 1996 performance of the Ninth are checked out of my local library," we are generally referring to items.Group 1 entities are not strictly hierarchical, because entities do not always inherit properties from other entities.  Despite initial positive assessments of FRBR clarifying the thoughts around the conceptual underpinnings of works, there has been later disagreement about what the Group 1 entities actually mean.  The distinction between Works and Expressions is also unclear in many cases.
+
+
+== Relationships ==
+In addition to the relationships between Group 1 and Groups 2 and 3 discussed above, there are many additional relationships covering such things as digitized editions of a work to the original text, and derivative works such as adaptations and parodies, or new texts which are critical evaluations of a pre-existing text.  FRBR is built upon relationships between and among entities. "Relationships serve as the vehicle for depicting the link between one entity and another, and thus as the means of assisting the user to ‘navigate’ the universe that is represented in a bibliography, catalogue, or bibliographic database." Examples of relationship types include, but are not limited to:
+
+
+=== Equivalence relationships ===
+Equivalence relationships exist between exact copies of the same manifestation of a work or between an original item and reproductions of it, so long as the intellectual content and authorship are preserved. Examples include reproductions such as copies, issues, facsimiles and reprints, photocopies, and microfilms.
+
+
+=== Derivative relationships ===
+Derivative relationships exist between a bibliographic work and a modification based on the work. Examples include:
+
+Editions, versions, translations, summaries, abstracts, and digests
+Adaptations that become new works but are based on old works
+Genre changes
+New works based on the style or thematic content of the work
+
+
+=== Descriptive relationships ===
+Descriptive relationships exist between a bibliographic entity and a description, criticism, evaluation, or review of that entity, such as between a work and a book review describing it. Descriptive relationships also includes annotated editions, casebooks, commentaries, and critiques of an existing work.
+
+
+== See also ==
+BIBFRAME
+Functional Requirements for Authority Data (FRAD)
+FRSAD
+FRBRoo
+IFLA Library Reference Model
+Resource Description and Access (RDA)
+
+
+== References ==
+
+
+== Further reading ==
+Karen Coyle, FRBR Before and After, online, CC-BY license.  American Library Association, 2015. ISBN 978-0-8389-1364-2
+IFLA Study Group on the Functional Requirements for Bibliographic Records. Functional requirements for bibliographic records : final report. — München: K.G. Saur, 1998. — (UBCIM publications ; new series, vol. 19). — ISBN 3-598-11382-X. (Accessed Nov. 6, 2005)
+Madison, Olivia M.A. (July 2000). "The IFLA Functional Requirements for Bibliographic Records: International Standards for Universal Bibliographic Control". Library Resources and Technical Services. 3. 44 (3): 153–159. doi:10.5860/lrts.44n3.153. Retrieved 16 February 2013.
+Tillett, Barbara. FRBR: A Conceptual Model for the Bibliographic Universe. Library of Congress Cataloging Distribution Service, 2004. (Accessed Nov. 6, 2005)
+
+
+== External links ==
+RDA: Resource Description and Access
+Functional Requirements for Bibliographic Records, International Federation of Library Associations and Institutions
+Library of Congress Training for RDA: Resource Description & Access: FRBR: FRBR, RDA, and MARC

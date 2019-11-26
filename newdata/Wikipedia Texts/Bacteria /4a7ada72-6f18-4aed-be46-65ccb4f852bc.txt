@@ -1,0 +1,85 @@
+Bacteria (malware)
+
+In computing, a fork bomb (also called rabbit virus or wabbit) is a denial-of-service attack wherein a process continually replicates itself to deplete available system resources, slowing down or crashing the system due to resource starvation.
+
+
+== History ==
+Around 1978, an early variant of a fork bomb called wabbit was reported to run on a System/360. It may have descended from a similar attack called RABBITS reported from 1969 on a Burroughs 5500 at the University of Washington.
+
+
+== Implementation ==
+Fork bombs operate both by consuming CPU time in the process of forking, and by saturating the operating system's process table. A basic implementation of a fork bomb is an infinite loop that repeatedly launches new copies of itself.
+In Unix-like operating systems, fork bombs are generally written to use the fork system call. As forked processes are also copies of the first program, once they resume execution from the next address at the frame pointer, they continue forking endlessly within their own copy of the same infinite loop; this has the effect of causing an exponential growth in processes. As modern Unix systems generally use a copy-on-write resource management technique when forking new processes, a fork bomb generally will not saturate such a system's memory.
+Microsoft Windows operating systems do not have an equivalent functionality to the Unix fork system call; a fork bomb on such an operating system must therefore create a new process instead of forking from an existing one.
+
+
+== Examples of fork bombs ==
+
+
+=== Ruby ===
+
+
+=== Perl ===
+An inline shell example using the Perl interpreter:
+
+
+=== Python ===
+
+
+=== C ===
+
+
+=== Java ===
+
+
+=== Lua ===
+
+
+=== Assembly (Linux running on IA-32) ===
+
+
+=== Shell script ===
+Here's an example in which a shell script is told to run two instances of $0 ― $0 is a shell variable returning the name of the script itself ― and pipe the output of one through the other, which results in exponentially replicating processes.
+
+A simpler way is to just run ./$0& twice:
+
+
+=== Bash ===
+In Bash, a fork bomb can be performed by declaring and calling a multiple-recursive function:
+
+Additionally, one of the most famous and commonly cited examples of a fork bomb is this dense one-line Bash command:
+
+This command is an obfuscated version of the above. The trick here is that : is used as a function name, which is possible because the colon is not a reserved character in Bash as it is in most other languages. Otherwise, it is identical.
+With unicode support, it can similarly be rendered as:
+
+
+=== Windows batch ===
+
+The same as above, but shorter:
+
+The same as above, but done in command line using ^ to escape specials:
+
+Condensed version designed to be run directly from the Run... prompt:
+
+
+=== PowerShell ===
+
+
+=== JavaScript ===
+
+
+== Prevention ==
+As a fork bomb's mode of operation is entirely encapsulated by creating new processes, one way of preventing a fork bomb from severely affecting the entire system is to limit the maximum number of processes that a single user may own. On Linux, this can be achieved by using the ulimit utility; for example, the command ulimit -u 30 would limit the affected user to a maximum of thirty owned processes.
+On PAM-enabled systems, this limit can also be set in /etc/security/limits.conf,
+and on FreeBSD, the system administrator can put limits in /etc/login.conf.
+The modern Linux systems also allow finer-grained fork bomb prevention through cgroups and PID controller.
+
+
+== See also ==
+Denial-of-service attack
+Deadlock
+Time bomb (software)
+Logic bomb
+
+
+== References ==

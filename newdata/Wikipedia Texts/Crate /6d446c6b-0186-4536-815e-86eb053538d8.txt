@@ -1,0 +1,19 @@
+CrateIO
+
+CrateDB is a distributed SQL database management system that integrates a fully searchable document oriented data store. It is open-source, written in Java, based on a shared nothing architecture, and is designed for high scalability and includes components from Presto, Lucene, Elasticsearch and Netty.
+
+
+== History ==
+The CrateDB project was started by Jodok Batlogg, an open source contributor and creator who has contributed to the Open Source Initiative Vorarlberg while at Lovely Systems in Dornbirn. The software is an open source, clustered database used for fast text search and analytics. The company, now called Crate.io, raised its first round of financing in April 2014, a $4M round in March 2016, and a $2.5M round in January 2017 from Dawn Capital, Draper Esprit, Speedinvest, and Sunstone Capital.In June 2014, Crate.io won the judge's choice award at the GigaOm Structure Launchpad competition and in October 2014, they win the TechCrunch Disrupt Europe in London.CrateDB 1.0 was released in December 2016. and was reported to have had more than one million downloads. CrateDB 2.0 and an Enterprise Edition was released in May 2017.
+
+
+== Overview ==
+CrateDB's language is SQL but it uses the document-oriented approach of NoSQL style databases. The software uses the SQL parser from Presto, its own query analysis and distributed query engine. Elasticsearch and Lucene is used for the transport protocol and cluster discovery and Netty for asynchronous event driven network application framework.CrateDB offers automatic data replication and self-healing clusters for high availability.
+CrateDB includes a built-in Administration Interface. The Command Line interface (Crate Shell – CraSh) allows interactive queries. Its Python client is most advanced and features SQLAlchemy integration.
+
+
+== References ==
+
+
+== External links ==
+Official website

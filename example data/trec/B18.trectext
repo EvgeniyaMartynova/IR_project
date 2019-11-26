@@ -1,0 +1,1663 @@
+<DOC>
+<DOCNO>36be82bc-01c7-4d09-b438-25cd651c658e</DOCNO>
+<TEXT>
+Chess
+
+Chess is a two-player strategy board game played on a checkered board with 64 squares arranged in an 8×8 grid. The game is played by millions of people worldwide. Chess is believed to be derived from the Indian game chaturanga sometime before the 7th century. Chaturanga is also the likely ancestor of the Eastern strategy games xiangqi (Chinese chess), janggi (Korean chess), and shogi (Japanese chess). Chess reached Europe by the 9th century, due to the Umayyad conquest of Hispania. The pieces assumed their current powers in Spain in the late 15th century; the modern rules were standardized in the 19th century.
+Play involves no hidden information. Each player begins with 16 pieces: one king, one queen, two rooks, two knights, two bishops, and eight pawns. Each piece type moves differently, with the most powerful being the queen and the least powerful the pawn. The objective is to checkmate the opponent's king by placing it under an inescapable threat of capture. To this end, a player's pieces are used to attack and capture the opponent's pieces, while supporting each other. During the game, play typically involves exchanging pieces for the opponent's similar pieces, and finding and engineering opportunities to trade advantageously or to get a better position. In addition to checkmate, a player wins the game if the opponent resigns, or (in a timed game) runs out of time. There are also several ways that a game can end in a draw.
+The first generally recognized World Chess Champion, Wilhelm Steinitz, claimed his title in 1886. Since 1948, the World Championship has been regulated by the Fédération Internationale des Échecs (FIDE), the game's international governing body. FIDE also awards life-time master titles to skilled players, the highest of which is Grandmaster (GM). Many national chess organizations have a title system of their own. FIDE also organizes the Women's World Championship, the World Junior Championship, the World Senior Championship, the Blitz and Rapid World Championships, and the Chess Olympiad, a popular competition among international teams. FIDE is a member of the International Olympic Committee, which can be considered recognition of chess as a sport. Several national sporting bodies (e.g. the Spanish Consejo Superior de Deportes) also recognize chess as a sport. Chess was included in the 2006 and 2010 Asian Games. There is also a Correspondence Chess World Championship and a World Computer Chess Championship. Online chess has opened amateur and professional competition to a wide and varied group of players.
+Since the second half of the 20th century, chess engines have been programmed to play with increasing success, to the point where the strongest programs play at a higher level than the best human players. Since the 1990s, computer analysis has contributed significantly to chess theory, particularly in the endgame. The IBM computer Deep Blue was the first machine to overcome a reigning World Chess Champion in a match when it defeated Garry Kasparov in 1997. The rise of strong chess engines runnable on hand-held devices has led to increasing concern about cheating during tournaments.
+There are many variants of chess that utilize different rules, pieces, or boards. One of these, Fischer Random Chess, has gained widespread popularity and official FIDE recognition.
+
+
+== Rules ==
+
+The rules of chess are published by FIDE (Fédération Internationale des Échecs), chess's international governing body, in its Handbook. Rules published by national governing bodies, or by unaffiliated chess organizations, commercial publishers, etc., may differ. FIDE's rules were most recently revised in 2018.
+
+
+=== Setup ===
+
+By convention, chess game pieces are divided into white and black sets. Each set consists of 16 pieces: one king, one queen, two rooks, two bishops, two knights, and eight pawns. The pieces are set out as shown in the diagram and photo. The players of the sets are referred to as White and Black, respectively.
+The game is played on a square board of eight rows (called ranks, denoted 1 to 8 from bottom to top according to White's perspective) and eight columns (called files, denoted a to h from left to right according to White's perspective). The 64 squares alternate in color and are referred to as light and dark squares. The chessboard is placed with a light square at the right-hand corner nearest to each player. Thus, each queen starts on a square of its own color (the white queen on a light square; the black queen on a dark square).
+
+
+=== Movement ===
+In competitive games, the colors are allocated by the organizers; in informal games, the colors are usually decided randomly, for example by coin toss, or by one player's concealing a white and black pawn in either hand and having the opponent choose. White moves first, after which players alternate turns, moving one piece per turn (except for castling, when two pieces are moved). A piece is moved to either an unoccupied square or one occupied by an opponent's piece, which is captured and removed from play. With the sole exception of en passant, all pieces capture by moving to the square that the opponent's piece occupies.
+Moving is compulsory; it is illegal to skip a turn, even when having to move is detrimental. A player may not make any move that would put or leave the player's own king in check. If the player to move has no legal move, the game is over; the result is either checkmate (a loss for the player with no legal move) if the king is in check, or stalemate (a draw) if the king is not.
+Each piece has its own way of moving. In the diagrams, the dots mark the squares to which the piece can move if there are no intervening piece(s) of either color (except the knight, which leaps over any intervening pieces). 
+
+The king moves one square in any direction. The king also has a special move called castling that involves also moving a rook.
+A rook can move any number of squares along a rank or file, but cannot leap over other pieces. Along with the king, a rook is involved during the king's castling move.
+A bishop can move any number of squares diagonally, but cannot leap over other pieces.
+The queen combines the power of a rook and bishop and can move any number of squares along a rank, file, or diagonal, but cannot leap over other pieces.
+A knight moves to any of the closest squares that are not on the same rank, file, or diagonal. (Thus the move forms an "L"-shape: two squares vertically and one square horizontally, or two squares horizontally and one square vertically.) The knight is the only piece that can leap over other pieces.
+A pawn can move forward to the unoccupied square immediately in front of it on the same file, or on its first move it can advance two squares along the same file, provided both squares are unoccupied (black dots in the diagram); or the pawn can capture an opponent's piece on a square diagonally in front of it on an adjacent file, by moving to that square (black "x"s). A pawn has two special moves: the en passant capture and promotion.
+
+
+=== Castling ===
+
+Once in every game, each king can make a special move, known as castling. Castling consists of moving the king two squares along the first rank toward a rook (that is on the player's first rank and then placing the rook on the last square that the king just crossed. Castling is permissible if the following conditions are met:
+Neither the king nor the rook has previously moved during the game.
+There are no pieces between the king and the rook.
+The king cannot be in check, nor can the king pass through any square that is under attack by an enemy piece, or move to a square that would result in check. (Note that castling is permitted if the rook is under attack, or if the rook crosses an attacked square.)
+
+
+=== En passant ===
+
+When a pawn makes a two-step advance from its starting position and there is an opponent's pawn on a square next to the destination square on an adjacent file, then the opponent's pawn can capture it en passant ("in passing"), moving to the square the pawn passed over. This can be done only on the very next turn; otherwise the right to do so is forfeited. For example, in the animated diagram, the black pawn advances two steps from g7 to g5, and the white pawn on f5 can take it en passant on g6 (but only on White's next move).
+
+
+=== Promotion ===
+
+When a pawn advances to the eighth rank, as a part of the move it is promoted and must be exchanged for the player's choice of queen, rook, bishop, or knight of the same color. Usually, the pawn is chosen to be promoted to a queen, but in some cases another piece is chosen; this is called underpromotion. In the animated diagram, the pawn on c7 can be advanced to the eighth rank and be promoted. There is no restriction on the piece promoted to, so it is possible to have more pieces of the same type than at the start of the game (e.g., two or more queens).
+
+
+=== Check ===
+
+When a king is under immediate attack by one or two of the opponent's pieces, it is said to be in check. A move in response to a check is legal only if it results in a position where the king is no longer in check. This can involve capturing the checking piece; interposing a piece between the checking piece and the king (which is possible only if the attacking piece is a queen, rook, or bishop and there is a square between it and the king); or moving the king to a square where it is not under attack. Castling is not a permissible response to a check.
+The object of the game is to checkmate the opponent; this occurs when the opponent's king is in check, and there is no legal way to remove it from attack. It is never legal for a player to make a move that puts or leaves the player's own king in check. In casual games it is common to announce "check" when putting the opponent's king in check, but this is not required by the rules of chess, and is not usually done in tournaments.
+
+
+=== End of the game ===
+
+
+==== Win ====
+
+Games can be won in the following ways:
+
+Checkmate: The player whose turn it is to move is in check and has no legal move to escape check.
+Resignation: Either player may resign, conceding the game to the opponent. It is usually considered poor etiquette to play on in a hopeless position, and for this reason high-level games rarely end in checkmate.
+Win on time: In games with a time control, a player wins if the opponent runs out of time, even if the opponent has a superior position, as long as the player has a theoretical possibility to checkmate the opponent.
+Forfeit: A player who cheats, violates the rules, or violates the rules specified for the particular tournament, can be forfeited. In high-level tournaments, players have been forfeited for such things as:
+arriving late for the game (even by a matter of seconds);
+receiving a call or text on a cell phone;
+refusing to undergo a drug test;
+refusing to undergo a body search for electronic devices;
+unsporting behavior (e.g. refusing to shake hands with the opponent).
+
+
+==== Draw ====
+
+There are several ways games can end in a draw:
+
+Draw by agreement: Draws are most commonly reached by mutual agreement between the players. The correct procedure is to verbally offer the draw, make a move, then start the opponent's clock. Traditionally, players have been allowed to agree to a draw at any point in the game, occasionally even without playing a move; in recent years efforts have been made to discourage short draws, for example by forbidding draw offers before move thirty.
+Stalemate: The player whose turn it is to move has no legal move and is not in check.
+Threefold repetition of position: This most commonly occurs when neither side is able to avoid repeating moves without incurring a disadvantage. In this situation, either player can claim a draw; this requires the players to keep a valid written record of the game so that the claim can be verified by the arbiter if challenged. The three occurrences of the position need not occur on consecutive moves for a claim to be valid. FIDE rules make no mention of perpetual check; this is merely a specific type of draw by threefold repetition.
+Fifty-move rule: If during the previous 50 moves no pawn has been moved and no capture has been made, either player can claim a draw. There are several known endgames where it is possible to force a mate but it requires more than 50 moves before a pawn move or capture is made; examples include some endgames with two knights against a pawn and some pawnless endgames such as queen against two bishops. Historically, FIDE has sometimes revised the fifty-move rule to make exceptions for these endgames, but these have since been repealed. Some correspondence chess organizations do not enforce the fifty-move rule.
+Fivefold repetition of position: Similar to the threefold-repetition rule, but in this case neither player needs to claim the draw; thus a tournament director can intervene and declare the game to be drawn. This is a relatively recent (2014) addition to the FIDE rules.
+Seventy-five-move rule: Similar to the fifty-move rule, but as with the fivefold repetition rule, this applies independently of claims by the players, and allows a tournament director to intervene. This rule likewise is a recent addition to the FIDE rules.
+Insufficient material: If neither player has a theoretical possibility to checkmate the opponent; for example, if a player has only the king and a knight, and the opponent has only the king, checkmate is impossible and the game is drawn by this rule. On the other hand, if both players still have a knight there is a highly unlikely yet theoretical possibility of checkmate, so this rule does not apply.
+Draw on time: In games with a time control, the game is drawn if a player is out of time and the opponent has no theoretical possibility to checkmate the player.
+
+
+=== Time control ===
+
+In competition, chess games are played with a time control. If a player's time runs out before the game is completed, the game is automatically lost (provided the opponent has enough pieces left to deliver checkmate). The duration of a game ranges from long (or "classical") games, which can take up to seven hours (even longer if adjournments are permitted), to bullet chess (under 3 minutes per player for the entire game). Intermediate between these are rapid chess games, lasting between 20 minutes and two hours per game, a popular time control in amateur weekend tournaments.
+Time is controlled using a chess clock that has two displays, one for each player's remaining time. Analog chess clocks have been largely replaced by digital clocks, which allow for time controls with increments.
+Time controls are also enforced in correspondence chess competition. A typical time control is 50 days for every 10 moves.
+
+
+== History ==
+
+
+=== Predecessors ===
+
+Chess is believed to have originated in Eastern India, c. 280–550, in the Gupta Empire, where its early form in the 6th century was known as chaturaṅga (Sanskrit: चतुरङ्ग), literally four divisions [of the military] – infantry, cavalry, elephants, and chariotry, represented by the pieces that would evolve into the modern pawn, knight, bishop, and rook, respectively. Thence it spread eastward and westward along the Silk Road. The earliest evidence of chess is found in the nearby Sasanian Persia around 600, where the game came to be known by the name chatrang. Chatrang was taken up by the Muslim world after the Islamic conquest of Persia (633–44), where it was then named shatranj, with the pieces largely retaining their Persian names. In Spanish "shatranj" was rendered as ajedrez ("al-shatranj"), in Portuguese as xadrez, and in Greek as ζατρίκιον (zatrikion, which comes directly from the Persian chatrang), but in the rest of Europe it was replaced by versions of the Persian shāh ("king"), which was familiar as an exclamation and became the English words "check" and "chess".The oldest archaeological chess artifacts, ivory pieces, were excavated in ancient Afrasiab, today's Samarkand, in Uzbekistan, central Asia, and date to about 760, with some of them possibly older. The oldest known chess manual was in Arabic and dates to 840–850, written by al-Adli ar-Rumi (800–870), a renowned Arab chess player, titled Kitab ash-shatranj (Book of the chess). This is a lost manuscript, but referenced in later works. The eastern migration of chess, into China and Southeast Asia, has even less documentation than its migration west. The first reference to Chinese chess, called xiàngqí 象棋, appears in a book entitled Xuán guaì lù 玄怪錄 ("Record of the Mysterious and Strange"), dating to about 800. Alternatively, some contend that chess arose from Chinese chess or one of its predecessors, although this has been contested.The game reached Western Europe and Russia by at least three routes, the earliest being in the 9th century. By the year 1000, it had spread throughout both Muslim Iberia and Latin Europe. A Latin poem de scachis dated to the late 10th century has been preserved in Einsiedeln Abbey. A famous 13th-century manuscript covering shatranj, backgammon, and dice is known as the Libro de los juegos.
+
+
+=== 1200–1700: Origins of the modern game ===
+
+Around 1200, the rules of shatranj started to be modified in southern Europe, and around 1475, several major changes made the game essentially as it is known today. These modern rules for the basic moves had been adopted in Italy and Spain. Pawns gained the option of advancing two squares on their first move, while bishops and queens acquired their modern abilities. The queen replaced the earlier vizier chess piece towards the end of the 10th century and by the 15th century had become the most powerful piece; consequently modern chess was referred to as "Queen's Chess" or "Mad Queen Chess". Castling, derived from the "kings leap" usually in combination with a pawn or rook move to bring the king to safety, was introduced. These new rules quickly spread throughout western Europe.
+
+Writings about the theory of how to play chess began to appear in the 15th century. The Repetición de Amores y Arte de Ajedrez (Repetition of Love and the Art of Playing Chess) by Spanish churchman Luis Ramirez de Lucena was published in Salamanca in 1497. Lucena and later masters like Portuguese Pedro Damiano, Italians Giovanni Leonardo Di Bona, Giulio Cesare Polerio and Gioachino Greco, and Spanish bishop Ruy López de Segura developed elements of openings and started to analyze simple endgames.
+
+
+=== 1700–1873: The Romantic Era in chess ===
+
+In the 18th century, the center of European chess life moved from the Southern European countries to France. The two most important French masters were François-André Danican Philidor, a musician by profession, who discovered the importance of pawns for chess strategy, and later Louis-Charles Mahé de La Bourdonnais, who won a famous series of matches with the Irish master Alexander McDonnell in 1834. Centers of chess activity in this period were coffee houses in major European cities like Café de la Régence in Paris and Simpson's Divan in London.The rules concerning stalemate were finalized in the early 19th century. Also in the 19th century, the convention that White moves first was established (formerly either White or Black could move first). Finally the rules around castling were standardized – variations in the castling rules had persisted in Italy until the late 19th century. The resulting standard game is sometimes referred to as Western chess or international chess, particularly in Asia where other games of the chess family such as xiangqi are prevalent. Since the 19th century, the only rule changes have been technical in nature, for example establishing the correct procedure for claiming a draw by repetition.
+As the 19th century progressed, chess organization developed quickly. Many chess clubs, chess books, and chess journals appeared. There were correspondence matches between cities; for example, the London Chess Club played against the Edinburgh Chess Club in 1824. Chess problems became a regular part of 19th-century newspapers; Bernhard Horwitz, Josef Kling, and Samuel Loyd composed some of the most influential problems. In 1843, von der Lasa published his and Bilguer's Handbuch des Schachspiels (Handbook of Chess), the first comprehensive manual of chess theory.
+Chess was occasionally criticized in the 19th century as a waste of time.
+
+The first modern chess tournament was organized by Howard Staunton, a leading English chess player, and was held in London in 1851. It was won by the German Adolf Anderssen, who was hailed as the leading chess master. His brilliant, energetic attacking style was typical for the time. Sparkling games like Anderssen's Immortal Game and Evergreen Game or Morphy's "Opera Game" were regarded as the highest possible summit of the chess art.The romantic era was characterized by opening gambits (sacrificing pawns or even pieces), daring attacks, and brazen sacrifices. Many elaborate and beautiful but unsound move sequences called "combinations" were played by the masters of the time. The game was played more for art than theory. A profound belief that chess merit resided in the players' genius rather than inherent in the position on the board pervaded chess practice.
+Deeper insight into the nature of chess came with the American Paul Morphy, an extraordinary chess prodigy. Morphy won against all important competitors (except Staunton, who refused to play), including Anderssen, during his short chess career between 1857 and 1863. Morphy's success stemmed from a combination of brilliant attacks and sound strategy; he intuitively knew how to prepare attacks.
+
+
+=== 1873–1945: Birth of a sport ===
+Prague-born Wilhelm Steinitz beginning in 1873 described how to avoid weaknesses in one's own position and how to create and exploit such weaknesses in the opponent's position. The scientific approach and positional understanding of Steinitz revolutionized the game. Steinitz was the first to break a position down into its components. Before Steinitz, players brought their queen out early, did not completely develop their other pieces, and mounted a quick attack on the opposing king, which either succeeded or failed. The level of defense was poor and players did not form any deep plan. In addition to his theoretical achievements, Steinitz founded an important tradition: his triumph over the leading German master Johannes Zukertort in 1886 is regarded as the first official World Chess Championship. Steinitz lost his crown in 1894 to a much younger player, the German mathematician Emanuel Lasker, who maintained this title for 27 years, the longest tenure of any world champion.
+
+After the end of the 19th century, the number of master tournaments and matches held annually quickly grew. Some sources state that in 1914 the title of chess Grandmaster was first formally conferred by Tsar Nicholas II of Russia to Lasker, Capablanca, Alekhine, Tarrasch, and Marshall, but this is a disputed claim. The tradition of awarding such titles was continued by the World Chess Federation (FIDE), founded in 1924 in Paris. In 1927, the Women's World Chess Championship was established; the first to hold the title was Czech-English master Vera Menchik.It took a prodigy from Cuba, José Raúl Capablanca (World Champion 1921–1927), who loved simple positions and endgames, to end the German-speaking dominance in chess; he was undefeated in tournament play for eight years, until 1924. His successor was Russian-French Alexander Alekhine, a strong attacking player who died as the world champion in 1946. He briefly lost the title to Dutch player Max Euwe in 1935 and regained it two years later.Between the world wars, chess was revolutionized by the new theoretical school of so-called hypermodernists like Aron Nimzowitsch and Richard Réti. They advocated controlling the center of the board with distant pieces rather than with pawns, thus inviting opponents to occupy the center with pawns, which become objects of attack.
+
+
+=== 1945–present: Post-World War II era ===
+After the death of Alekhine, a new World Champion was sought. FIDE, which has controlled the title since then (except for one interruption), ran a tournament of elite players. The winner of the 1948 tournament, Russian Mikhail Botvinnik, started an era of Soviet dominance in the chess world. Until the end of the Soviet Union, there was only one non-Soviet champion, American Bobby Fischer (champion 1972–1975). Botvinnik revolutionized opening theory. Previously Black strove for equality, to neutralize White's first-move advantage. As Black, Botvinnik strove for the initiative from the beginning. In the previous informal system of World Championships, the current champion decided which challenger he would play for the title and the challenger was forced to seek sponsors for the match. FIDE set up a new system of qualifying tournaments and matches. The world's strongest players were seeded into Interzonal tournaments, where they were joined by players who had qualified from Zonal tournaments. The leading finishers in these Interzonals would go on the "Candidates" stage, which was initially a tournament, and later a series of knockout matches. The winner of the Candidates would then play the reigning champion for the title. A champion defeated in a match had a right to play a rematch a year later. This system operated on a three-year cycle. Botvinnik participated in championship matches over a period of fifteen years. He won the world championship tournament in 1948 and retained the title in tied matches in 1951 and 1954. In 1957, he lost to Vasily Smyslov, but regained the title in a rematch in 1958. In 1960, he lost the title to the 23-year-old Latvian prodigy Mikhail Tal, an accomplished tactician and attacking player. Botvinnik again regained the title in a rematch in 1961.
+Following the 1961 event, FIDE abolished the automatic right of a deposed champion to a rematch, and the next champion, Armenian Tigran Petrosian, a player renowned for his defensive and positional skills, held the title for two cycles, 1963–1969. His successor, Boris Spassky from Russia (champion 1969–1972), won games in both positional and sharp tactical style. The next championship, the so-called Match of the Century, saw the first non-Soviet challenger since World War II, American Bobby Fischer, who defeated his Candidates opponents by unheard-of margins and clearly won the world championship match. In 1975, however, Fischer refused to defend his title against Soviet Anatoly Karpov when FIDE did not meet his demands, and Karpov obtained the title by default. Fischer modernized many aspects of chess, especially by extensively preparing openings.Karpov defended his title twice against Viktor Korchnoi and dominated the 1970s and early 1980s with a string of tournament successes. Karpov's reign finally ended in 1985 at the hands of Garry Kasparov, another Soviet player from Baku, Azerbaijan. Kasparov and Karpov contested five world title matches between 1984 and 1990; Karpov never won his title back. In 1993, Garry Kasparov and Nigel Short broke with FIDE to organize their own match for the title and formed a competing Professional Chess Association (PCA). From then until 2006, there were two simultaneous World Champions and World Championships: the PCA or Classical champion extending the Steinitzian tradition in which the current champion plays a challenger in a series of many games, and the other following FIDE's new format of many players competing in a tournament to determine the champion. Kasparov lost his Classical title in 2000 to Vladimir Kramnik of Russia. The World Chess Championship 2006, in which Kramnik beat the FIDE World Champion Veselin Topalov, reunified the titles and made Kramnik the undisputed World Chess Champion. In September 2007, he lost the title to Viswanathan Anand of India, who won the championship tournament in Mexico City. Anand defended his title in the revenge match of 2008, 2010 and 2012. In 2013, Magnus Carlsen beat Anand in the 2013 World Chess Championship. He defended his title the following year, again against Anand. Carlsen confirmed his title in 2016 against the Russian Sergey Karjakin and in 2018 against the American Fabiano Caruana, in both occasions by a rapid tiebreaker match after equality in 12 games of classical time control, and is the reigning world champion.
+
+
+== Place in culture ==
+
+		
+		
+		
+		
+
+
+=== Pre-modern ===
+In the Middle Ages and during the Renaissance, chess was a part of noble culture; it was used to teach war strategy and was dubbed the "King's Game". Gentlemen are "to be meanly seene in the play at Chestes", says the overview at the beginning of Baldassare Castiglione's The Book of the Courtier (1528, English 1561 by Sir Thomas Hoby), but chess should not be a gentleman's main passion. Castiglione explains it further:
+
+And what say you to the game at chestes? It is truely an honest kynde of enterteynmente and wittie, quoth Syr Friderick. But me think it hath a fault, whiche is, that a man may be to couning at it, for who ever will be excellent in the playe of chestes, I beleave he must beestowe much tyme about it, and applie it with so much study, that a man may assoone learne some noble scyence, or compase any other matter of importaunce, and yet in the ende in beestowing all that laboure, he knoweth no more but a game. Therfore in this I beleave there happeneth a very rare thing, namely, that the meane is more commendable, then the excellency.
+Many of the elaborate chess sets used by the aristocracy have been lost, but others partially survive, such as the Lewis chessmen.
+Chess was often used as a basis of sermons on morality. An example is Liber de moribus hominum et officiis nobilium sive super ludo scacchorum ('Book of the customs of men and the duties of nobles or the Book of Chess'), written by an Italian Dominican monk Jacobus de Cessolis c. 1300. This book was one of the most popular of the Middle Ages. The work was translated into many other languages (the first printed edition was published at Utrecht in 1473) and was the basis for William Caxton's The Game and Playe of the Chesse (1474), one of the first books printed in English. Different chess pieces were used as metaphors for different classes of people, and human duties were derived from the rules of the game or from visual properties of the chess pieces:
+The knyght ought to be made alle armed upon an hors in suche wyse that he haue an helme on his heed and a spere in his ryght hande/ and coueryd wyth his sheld/ a swerde and a mace on his lyft syde/ Cladd wyth an hawberk and plates to fore his breste/ legge harnoys on his legges/ Spores on his heelis on his handes his gauntelettes/ his hors well broken and taught and apte to bataylle and couerid with his armes/ whan the knyghtes ben maad they ben bayned or bathed/ that is the signe that they shold lede a newe lyf and newe maners/ also they wake alle the nyght in prayers and orysons vnto god that he wylle gyue hem grace that they may gete that thynge that they may not gete by nature/ The kynge or prynce gyrdeth a boute them a swerde in signe/ that they shold abyde and kepe hym of whom they take theyr dispenses and dignyte.
+Known in the circles of clerics, students, and merchants, chess entered into the popular culture of Middle Ages. An example is the 209th song of Carmina Burana from the 13th century, which starts with the names of chess pieces, Roch, pedites, regina...
+
+
+=== Modern ===
+During the Age of Enlightenment, chess was viewed as a means of self-improvement. Benjamin Franklin, in his article "The Morals of Chess" (1750), wrote:
+
+The Game of Chess is not merely an idle amusement; several very valuable qualities of the mind, useful in the course of human life, are to be acquired and strengthened by it, so as to become habits ready on all occasions; for life is a kind of Chess, in which we have often points to gain, and competitors or adversaries to contend with, and in which there is a vast variety of good and ill events, that are, in some degree, the effect of prudence, or the want of it. By playing at Chess then, we may learn:
+I. Foresight, which looks a little into futurity, and considers the consequences that may attend an action [...]
+II. Circumspection, which surveys the whole Chess-board, or scene of action: – the relation of the several Pieces, and their situations [...]
+III. Caution, not to make our moves too hastily [...]
+
+With these or similar views, chess is taught to children in schools around the world today. Many schools host chess clubs, and there are many scholastic tournaments specifically for children. Tournaments are held regularly in many countries, hosted by organizations such as the United States Chess Federation and the National Scholastic Chess Foundation.
+
+Chess is often depicted in the arts; significant works where chess plays a key role range from Thomas Middleton's A Game at Chess to Through the Looking-Glass by Lewis Carroll, to Vladimir Nabokov's The Defense, to The Royal Game by Stefan Zweig. Chess is featured in films like Ingmar Bergman's The Seventh Seal and Satyajit Ray's The Chess Players.
+Chess is also present in contemporary popular culture. For example, the characters in Star Trek play a futuristic version of the game called "Tri-Dimensional Chess". "Wizard's Chess" is featured in J.K. Rowling's Harry Potter plays. The hero of Searching for Bobby Fischer struggles against adopting the aggressive and misanthropic views of a world chess champion. Chess is used as the core theme in the musical Chess by Tim Rice, Björn Ulvaeus, and Benny Andersson. The thriller film Knight Moves is about a chess grandmaster who is accused of being a serial killer. Pawn Sacrifice, starring Tobey Maguire as Bobby Fischer and Liev Schreiber as Boris Spassky, depicts the drama surrounding the 1972 World Chess Championship in Iceland during the Cold War.
+
+
+=== Prohibition in Islam ===
+In 1979 in Islamic Republic of Iran, Grand Ayatollah Ruhollah Khomeini issued a religious fatwa ruling against chess on the grounds that it "excessively fatigues the brain" and constitutes gambling. The same Ayatollah lifted the ban in 1988, however, and said it was permissible as long as it was not a means of gambling. Iran now has an active confederation for playing chess and sends players to international events.Grand Ayatollah Ali al-Sistani of Iraq, issued multiple fatwas against chess and backgammon ruling that playing both “is absolutely forbidden even without placing a bet”.In 2016 in Saudi Arabia, Grand Mufti Abdul-Aziz ibn Abdullah Al ash-Sheikh issued a religious fatwa ruling that chess is forbidden in Islam because it constitutes gambling, stating "chess is a waste of time and an opportunity to squander money. It causes enmity and hatred between people." This fatwa is not legally binding, however, and chess remains a popular game in Muslim countries.
+
+
+== Notation for recording moves ==
+
+Chess games and positions are recorded using a system of notation, most commonly algebraic chess notation. Abbreviated algebraic (or short algebraic) notation generally records moves in the format:
+
+abbreviation of the piece moved – file where it moved – rank where it movedThe pieces are identified by their initials. In English, these are K (king), Q (queen), R (rook), B (bishop), and N (knight; N is used to avoid confusion with king). For example, Qg5 means "queen moves to the g-file, 5th rank" (that is, to the square g5). Chess literature published in other languages may use different initials for pieces, or figurine algebraic notation (FAN) may be used to avoid language issues. To resolve ambiguities, an additional letter or number is added to indicate the file or rank from which the piece moved (e.g. Ngf3 means "knight from the g-file moves to the square f3"; R1e2 means "rook on the first rank moves to e2"). The letter P for pawn is not used; so e4 means "pawn moves to the square e4".
+If the piece makes a capture, "x" is inserted before the destination square. Thus Bxf3 means "bishop captures on f3". When a pawn makes a capture, the file from which the pawn departed is used in place of a piece initial, and ranks may be omitted if unambiguous. For example, exd5 (pawn on the e-file captures the piece on d5) or exd (pawn on the e-file captures a piece somewhere on the d-file). Particularly in Germany, some publications use ":" rather than "x" to indicate capture, but this is now rare. Some publications omit the capture symbol altogether; so exd5 would be rendered simply as ed.
+If a pawn moves to its last rank, achieving promotion, the piece chosen is indicated after the move (for example, e1Q or e1=Q). Castling is indicated by the special notations 0-0 for kingside castling and 0-0-0 for queenside castling. An en passant capture is sometimes marked with the notation "e.p." A move that places the opponent's king in check usually has the notation "+" added (the notation "++" for a double check is considered obsolete). Checkmate can be indicated by "#". At the end of the game, "1–0" means White won, "0–1" means Black won, and "½–½" indicates a draw.Chess moves can be annotated with punctuation marks and other symbols. (For example: "!" indicates a good move; "!!" an excellent move; "?" a mistake; "??" a blunder; "!?" an interesting move that may not be best; or "?!" a dubious move not easily refuted.)
+
+For example, one variation of a simple trap known as the Scholar's mate (see animated diagram) can be recorded:
+
+ 1. e4 e5 2. Qh5?! Nc6 3. Bc4 Nf6?? 4. Qxf7#The text-based Portable Game Notation (PGN), which is understood by chess software, is based on short form English language algebraic notation.
+Until about 1980, the majority of English language chess publications used a form of descriptive notation. In descriptive notation, files are named according to the piece which occupies the back rank at the start of the game, and each square has two different names depending on whether it is from White's or Black's point of view. For example, the square known as "e3" in algebraic notation is "K3" (King's 3rd) from White's point of view, and "K6" (King's 6th) from Black's point of view. When recording captures, the captured piece is named rather than the square on which it is captured (except to resolve ambiguities). Thus, Scholar's mate is rendered in descriptive notation:
+
+ 1. P-K4 P-K4 2. Q-R5?! N-QB3 3. B-B4 N-B3?? 4. QxBP mateA few players still prefer descriptive notation, but it is no longer recognized by FIDE.
+Another system is ICCF numeric notation, recognized by the International Correspondence Chess Federation though its use is in decline. Squares are identified by numeric coordinates, for example a1 is "11" and h8 is "88". Moves are described by the "from" and "to" squares, e.g. the opening move 1.e4 is rendered as 1.5254. Captures are not indicated. Castling is described by the king's move only; e.g. 5171 for White castling kingside, 5838 for Black castling queenside.
+
+
+== Stages ==
+A game of chess can generally be loosely subdivided into three phases or stages of play: the opening, followed by the middlegame, then last the endgame.
+
+
+=== Opening ===
+
+A chess opening is the group of initial moves of a game (the "opening moves"). Recognized sequences of opening moves are referred to as openings and have been given names such as the Ruy Lopez or Sicilian Defense. They are catalogued in reference works such as the Encyclopaedia of Chess Openings. There are dozens of different openings, varying widely in character from quiet positional play (for example, the Réti Opening) to very aggressive (the Latvian Gambit). In some opening lines, the exact sequence considered best for both sides has been worked out to more than 30 moves. Professional players spend years studying openings and continue doing so throughout their careers, as opening theory continues to evolve.
+The fundamental strategic aims of most openings are similar:
+development: This is the technique of placing the pieces (particularly bishops and knights) on useful squares where they will have an optimal impact on the game.
+control of the center: Control of the central squares allows pieces to be moved to any part of the board relatively easily, and can also have a cramping effect on the opponent.
+king safety: It is critical to keep the king safe from dangerous possibilities. A correctly timed castling can often enhance this.
+pawn structure: Players strive to avoid the creation of pawn weaknesses such as isolated, doubled, or backward pawns, and pawn islands – and to force such weaknesses in the opponent's position.Most players and theoreticians consider that White, by virtue of the first move, begins the game with a small advantage. This initially gives White the initiative. Black usually strives to neutralize White's advantage and achieve equality, or to develop dynamic counterplay in an unbalanced position.
+
+
+=== Middlegame ===
+
+The middlegame is the part of the game which starts after the opening. There is no clear line between the opening and the middlegame, but typically the middlegame will start when most pieces have been developed. (Similarly, there is no clear transition from the middlegame to the endgame; see start of the endgame.) Because the opening theory has ended, players have to form plans based on the features of the position, and at the same time take into account the tactical possibilities of the position. The middlegame is the phase in which most combinations occur. Combinations are a series of tactical moves executed to achieve some gain. Middlegame combinations are often connected with an attack against the opponent's king. Some typical patterns have their own names; for example, the Boden's Mate or the Lasker–Bauer combination.Specific plans or strategic themes will often arise from particular groups of openings which result in a specific type of pawn structure. An example is the minority attack, which is the attack of queenside pawns against an opponent who has more pawns on the queenside. The study of openings is therefore connected to the preparation of plans that are typical of the resulting middlegames.Another important strategic question in the middlegame is whether and how to reduce material and transition into an endgame (i.e. simplify). Minor material advantages can generally be transformed into victory only in an endgame, and therefore the stronger side must choose an appropriate way to achieve an ending. Not every reduction of material is good for this purpose; for example, if one side keeps a light-squared bishop and the opponent has a dark-squared one, the transformation into a bishops and pawns ending is usually advantageous for the weaker side only, because an endgame with bishops on opposite colors is likely to be a draw, even with an advantage of a pawn, or sometimes even with a two-pawn advantage.
+
+
+=== Endgame ===
+
+The endgame (also end game or ending) is the stage of the game when there are few pieces left on the board. There are three main strategic differences between earlier stages of the game and the endgame:
+Pawns become more important. Endgames often revolve around endeavors to promote a pawn by advancing it to the furthest rank.
+The king, which requires safeguarding from attack during the middlegame, emerges as a strong piece in the endgame. It is often brought to the center where it can protect its own pawns, attack enemy pawns, and hinder moves of the opponent's king.
+Zugzwang, a situation in which the player who is to move is forced to incur a disadvantage, is often a factor in endgames but rarely in other stages of the game. In the example diagram, either side having the move is in zugzwang: Black to move must play 1...Kb7 allowing White to promote the pawn after 2.Kd7; White to move must permit a draw, either by 1.Kc6 stalemate or by losing the pawn after any other legal move.Endgames can be classified according to the type of pieces remaining on the board. Basic checkmates are positions in which one side has only a king and the other side has one or two pieces and can checkmate the opposing king, with the pieces working together with their king. For example, king and pawn endgames involve only kings and pawns on one or both sides, and the task of the stronger side is to promote one of the pawns. Other more complicated endings are classified according to pieces on the board other than kings, such as "rook and pawn versus rook" endgames.
+
+
+== Strategy and tactics ==
+Chess strategy consists of setting and achieving long-term positioning advantages during the game – for example, where to place different pieces – while tactics concentrate on immediate maneuver. These two aspects of the gameplay cannot be completely separated, because strategic goals are mostly achieved through tactics, while the tactical opportunities are based on the previous strategy of play. A game of chess is normally divided into three phases: the opening, typically the first 10 moves, when players move their pieces to useful positions for the coming battle; the middlegame; and last the endgame, when most of the pieces are gone, kings typically take a more active part in the struggle, and pawn promotion is often decisive.
+
+
+=== Fundamentals of tactics ===
+
+In chess, tactics in general concentrate on short-term actions – so short-term that they can be calculated in advance by a human player or a computer. The possible depth of calculation depends on the player's ability. In quiet positions with many possibilities on both sides, a deep calculation is more difficult and may not be practical, while in positions with a limited number of forced variations, strong players can calculate long sequences of moves.
+Theoreticians describe many elementary tactical methods and typical maneuvers, for example: pins, forks, skewers, batteries, discovered attacks (especially discovered checks), zwischenzugs, deflections, decoys, sacrifices, underminings, overloadings, and interferences. Simple one-move or two-move tactical actions – threats, exchanges of material, and double attacks – can be combined into more complicated sequences of tactical maneuvers that are often forced from the point of view of one or both players. A forced variation that involves a sacrifice and usually results in a tangible gain is called a combination. Brilliant combinations – such as those in the Immortal Game – are considered beautiful and are admired by chess lovers. A common type of chess exercise, aimed at developing players' skills, is a position where a decisive combination is available and the challenge is to find it.
+
+
+=== Fundamentals of strategy ===
+
+Chess strategy is concerned with evaluation of chess positions and with setting up goals and long-term plans for the future play. During the evaluation, players must take into account numerous factors such as the value of the pieces on the board, control of the center and centralization, the pawn structure, king safety, and the control of key squares or groups of squares (for example, diagonals, open files, and dark or light squares).
+The most basic step in evaluating a position is to count the total value of pieces of both sides. The point values used for this purpose are based on experience; usually pawns are considered worth one point, knights and bishops about three points each, rooks about five points (the value difference between a rook and a bishop or knight being known as the exchange), and queens about nine points. The king is more valuable than all of the other pieces combined, since its checkmate loses the game. But in practical terms, in the endgame the king as a fighting piece is generally more powerful than a bishop or knight but less powerful than a rook. These basic values are then modified by other factors like position of the piece (e.g. advanced pawns are usually more valuable than those on their initial squares), coordination between pieces (e.g. a pair of bishops usually coordinate better than a bishop and a knight), or the type of position (e.g. knights are generally better in closed positions with many pawns while bishops are more powerful in open positions).
+Another important factor in the evaluation of chess positions is the pawn structure (sometimes known as the pawn skeleton): the configuration of pawns on the chessboard. Since pawns are the least mobile of the pieces, the pawn structure is relatively static and largely determines the strategic nature of the position. Weaknesses in the pawn structure, such as isolated, doubled, or backward pawns and holes, once created, are often permanent. Care must therefore be taken to avoid these weaknesses unless they are compensated by another valuable asset (for example, by the possibility of developing an attack).
+
+
+== Competitive play ==
+
+
+=== Organization of competitions ===
+Contemporary chess is an organized sport with structured international and national leagues, tournaments, and congresses. Chess's international governing body is FIDE (Fédération Internationale des Échecs). Most countries have a national chess organization as well (such as the US Chess Federation and English Chess Federation) which in turn is a member of FIDE. FIDE is a member of the International Olympic Committee, but the game of chess has never been part of the Olympic Games; chess does have its own Olympiad, held every two years as a team event.
+
+The current World Chess Champion is Magnus Carlsen of Norway. The reigning Women's World Champion is Hou Yifan from China. The world's highest rated female player, Judit Polgár, has never participated in the Women's World Chess Championship, instead preferring to compete with the leading men and maintaining a ranking among the top male players.Other competitions for individuals include the World Junior Chess Championship, the European Individual Chess Championship, and the National Chess Championships. Invitation-only tournaments regularly attract the world's strongest players. Examples include Spain's Linares event, Monte Carlo's Melody Amber tournament, the Dortmund Sparkassen meeting, Sofia's M-tel Masters, and Wijk aan Zee's Tata Steel tournament.
+Regular team chess events include the Chess Olympiad and the European Team Chess Championship. The World Chess Solving Championship and World Correspondence Chess Championships include both team and individual events.
+Besides these prestigious competitions, there are thousands of other chess tournaments, matches, and festivals held around the world every year catering to players of all levels. Chess is promoted as a "mind sport" by the Mind Sports Organisation, alongside other mental-skill games such as contract bridge, Go, and Scrabble.
+
+
+=== Titles and rankings ===
+
+The best players can be awarded specific lifetime titles by the world chess organization FIDE:
+Grandmaster (shortened as GM; sometimes International Grandmaster or IGM is used) is awarded to world-class chess masters. Apart from World Champion, Grandmaster is the highest title a chess player can attain. Before FIDE will confer the title on a player, the player must have an Elo chess rating (see below) of at least 2500 at one time and three favorable results (called norms) in tournaments involving other grandmasters, including some from countries other than the applicant's. There are other milestones a player can achieve to attain the title, such as winning the World Junior Championship.
+International Master (shortened as IM). The conditions are similar to GM, but less demanding. The minimum rating for the IM title is 2400.
+FIDE Master (shortened as FM). The usual way for a player to qualify for the FIDE Master title is by achieving a FIDE rating of 2300 or more.
+Candidate Master (shortened as CM). Similar to FM, but with a FIDE rating of at least 2200.All the titles are open to men and women. Separate women-only titles, such as Woman Grandmaster (WGM), are available. Beginning with Nona Gaprindashvili in 1978, a number of women have earned the GM title, and most of the top ten women in 2006 hold the unrestricted GM title.As of 2018, there are 1725 active grandmasters and 3903 international masters in the world. The top three countries with the largest numbers of grandmasters are Russia, the United States, and Germany, with 251, 98, and 96, respectively.FIDE also awards titles for arbiters and trainers.International titles are awarded to composers and solvers of chess problems and to correspondence chess players (by the International Correspondence Chess Federation). National chess organizations may also award titles, usually to the advanced players still under the level needed for international titles; an example is the chess expert title used in the United States.
+In order to rank players, FIDE, ICCF, and national chess organizations use the Elo rating system developed by Arpad Elo. Elo is a statistical system based on the assumption that the chess performance of each player in his or her games is a random variable. Arpad Elo thought of a player's true skill as the average of that player's performance random variable, and showed how to estimate the average from results of player's games. The US Chess Federation implemented Elo's suggestions in 1960, and the system quickly gained recognition as being both fairer and more accurate than older systems; it was adopted by FIDE in 1970. A beginner or casual player typically has an Elo rating of less than 1000; an ordinary club player has a rating of about 1500, a strong club player about 2000, a grandmaster usually has a rating of over 2500, and an elite player has a rating of over 2700. The highest FIDE rating of all time, 2881, was achieved by Magnus Carlsen on the March 2014 FIDE rating list.
+
+
+== Composition ==
+
+Chess composition is the art of creating chess problems (also called chess compositions). The creator is known as a chess composer. There are many types of chess problems; the two most important are:
+
+Directmates: White to move first and checkmate Black within a specified number of moves, against any defense. These are often referred to as "mate in n" – for example "mate in three" (a three-mover); two- and three-move problems are the most common. These usually involve positions that would be highly unlikely to occur in an actual game, and are intended to illustrate a particular theme, usually requiring a surprising or counter-intuitive key move.
+Studies: orthodox problems where the stipulation is that White to play must win or draw. Almost all studies are endgame positions.Chess composition is a distinct branch of chess sport, and tournaments exist for both the composition and solving of chess problems.
+
+
+=== Example ===
+
+This is one of the most famous chess studies; it was published by Richard Réti 4 December 1921. It seems impossible to catch the advanced black pawn, while the black king can easily stop the white pawn. The solution is a diagonal advance, which brings the king to both pawns simultaneously:
+
+1. Kg7! h4 2. Kf6! Kb6Or 2...h3 3.Ke7 and the white king can support its pawn.
+
+'3. Ke5!!Now the white king comes just in time to support his pawn, or catch the black one.
+
+3... h3If 3...Kxc6, 4.Kf4 and White will capture the pawn.
+
+4. Kd6 ½–½Both sides will queen, resulting in a draw.
+
+
+== Publications ==
+
+Chess has a very extensive literature. In 1913, the chess historian H.J.R. Murray estimated the total number of books, magazines, and chess columns in newspapers to be about 5,000. B.H. Wood estimated the number, as of 1949, to be about 20,000. David Hooper and Kenneth Whyld write that, "Since then there has been a steady increase year by year of the number of new chess publications. No one knows how many have been printed." There are two significant public chess libraries: the John G. White Chess and Checkers Collection at Cleveland Public Library, with over 32,000 chess books and over 6,000 bound volumes of chess periodicals; and the Chess & Draughts collection at the National Library of the Netherlands, with about 30,000 books. GM Lothar Schmid owned the world's largest private collection of chess books and memorabilia. David DeLucia's chess library contains 7,000 to 8,000 chess books, a similar number of autographs (letters, score sheets, manuscripts), and about 1,000 items of "ephemera". Dirk Jan ten Geuzendam opines that DeLucia's collection "is arguably the finest chess collection in the world".
+
+
+== Mathematics and computers ==
+
+The game structure and nature of chess are related to several branches of mathematics. Many combinatorical and topological problems connected to chess have been known for hundreds of years.
+
+
+=== Combinatorics of chess and chess puzzles ===
+
+The number of legal positions in chess is estimated to be about 1043, and has been proved to be fewer than 1047, with a game-tree complexity of approximately 10123. The game-tree complexity of chess was first calculated by Claude Shannon as 10120, a number known as the Shannon number. An average position typically has thirty to forty possible moves, but there may be as few as zero (in the case of checkmate or stalemate) or (in a constructed position) as many as 218.Chess has inspired many combinatorial puzzles, such as the knight's tour and the eight queens puzzle.
+
+
+=== Computer chess ===
+The idea of creating a chess-playing machine dates to the 18th century; around 1769, the chess-playing automaton called The Turk became famous before being exposed as a hoax. Serious trials based on automata, such as El Ajedrecista, were too complex and limited to be useful.
+Since the advent of the digital computer in the 1950s, chess enthusiasts, computer engineers, and computer scientists have built, with increasing degrees of seriousness and success, chess-playing machines and computer programs. The groundbreaking paper on computer chess, "Programming a Computer for Playing Chess", was published in 1950 by Shannon. He wrote:
+
+The chess machine is an ideal one to start with, since: (1) the problem is sharply defined both in allowed operations (the moves) and in the ultimate goal (checkmate); (2) it is neither so simple as to be trivial nor too difficult for satisfactory solution; (3) chess is generally considered to require "thinking" for skillful play; a solution of this problem will force us either to admit the possibility of a mechanized thinking or to further restrict our concept of "thinking"; (4) the discrete structure of chess fits well into the digital nature of
+modern computers.
+
+The Association for Computing Machinery (ACM) held the first major chess tournament for computers, the North American Computer Chess Championship, in September 1970. CHESS 3.0, a chess program from Northwestern University, won the championship. Nowadays, chess programs compete in the World Computer Chess Championship, held annually since 1974. At first considered only a curiosity, the best chess playing programs have become extremely strong. In 1997, a computer won a chess match using classical time controls against a reigning World Champion for the first time: IBM's Deep Blue beat Garry Kasparov 3½–2½ (it scored two wins, one loss, and three draws). However, the match was controversial, and computers would only win such a match again in 2006.
+In 2009, a mobile phone won a category 6 tournament with a performance rating 2898: chess engine Hiarcs 13 running on the mobile phone HTC Touch HD won the Copa Mercosur tournament with nine wins and one draw. The best chess programs are now able to consistently beat the strongest human players, to the extent that human–computer matches no longer attract interest from chess players or media.
+With huge databases of past games and high analytical ability, computers can help players to learn chess and prepare for matches. Internet Chess Servers allow people to find and play opponents worldwide. The presence of computers and modern communication tools have raised concerns regarding cheating during games, most notably the "bathroom controversy" during the 2006 World Championship.
+
+
+=== Relation to game theory ===
+In 1913, Ernst Zermelo used chess as a basis for his theory of game strategies, which is considered as one of the predecessors of game theory. Zermelo's theorem states that it is possible to solve chess, i.e. to determine with certainty the outcome of a perfectly played game (either White can force a win, or Black can force a win, or both sides can force at least a draw). According to Claude Shannon, however, there are 1043 legal positions in chess, so it will take an impossibly long time to compute a perfect strategy with any feasible technology.
+
+The 11-category, game theoretical taxonomy of chess includes: two player, no-chance, combinatorial, Markov state (present state is all a player needs to move; although past state led up to that point, knowledge of the sequence of past moves is not required to make the next move, except to take into account of en passant and castling, which do depend on the past moves), zero sum, symmetric, perfect information, non-cooperative, discrete, extensive form (tree decisions, not payoff matrices), and sequential.
+
+
+=== Computational complexity ===
+Generalized chess (played on n×n board, without the fifty-move rule) is EXPTIME-complete.
+
+
+=== Combinatorial game theory ===
+Some applications of combinatorial game theory to chess endgames were found by Elkies (1996).
+
+
+== Psychology ==
+
+There is an extensive scientific literature on chess psychology. Alfred Binet and others showed that knowledge and verbal, rather than visuospatial, ability lies at the core of expertise. In his doctoral thesis, Adriaan de Groot showed that chess masters can rapidly perceive the key features of a position. According to de Groot, this perception, made possible by years of practice and study, is more important than the sheer ability to anticipate moves. De Groot showed that chess masters can memorize positions shown for a few seconds almost perfectly. The ability to memorize does not alone account for chess-playing skill, since masters and novices, when faced with random arrangements of chess pieces, had equivalent recall (about six positions in each case). Rather, it is the ability to recognize patterns, which are then memorized, which distinguished the skilled players from the novices. When the positions of the pieces were taken from an actual game, the masters had almost total positional recall.More recent research has focused on chess as mental training; the respective roles of knowledge and look-ahead search; brain imaging studies of chess masters and novices; blindfold chess; the role of personality and intelligence in chess skill; gender differences; and computational models of chess expertise. The role of practice and talent in the development of chess and other domains of expertise has led to much recent research. Ericsson and colleagues have argued that deliberate practice is sufficient for reaching high levels of expertise in chess. Recent research indicates that factors other than practice are also important. For example, Fernand Gobet and colleagues have shown that stronger players started playing chess at a young age and that experts born in the Northern Hemisphere are more likely to have been born in late winter and early spring. Compared to general population, chess players are more likely to be non-right-handed, though they found no correlation between handedness and skill.
+
+
+=== Chess and intelligence ===
+A relationship between chess skill and intelligence has long been discussed in the literature and popular culture. Academic studies of the relationship date back at least to 1927. Academic opinion has long been split on how strong the relationship is, with some studies finding no relationship and others finding a relatively strong one. A 2016 meta-analysis and review based on 19 studies and a total sample size of 1,779 found that various aspects of general intelligence correlate with chess skill, with average correlations ranging from 0.13 (visuospatial ability) to 0.35 (numerical ability). The review did not find strong evidence of publication bias biasing these estimates. Moderator analyses indicated that the relationship was stronger in unranked players (r = 0.32) vs. ranked players (r = 0.14), as well as stronger in children (r = 0.32) than adults (r = 0.11).
+
+
+== Variants ==
+
+There are more than two thousand published chess variants, most of them of relatively recent origin, including:
+
+Direct predecessors of chess such as chaturanga and shatranj.
+Traditional national or regional games that share common ancestors with Western chess such as xiangqi, shogi, janggi, makruk, and sittuyin.
+Modern variations employing different rules (e.g. Losing chess), different forces (e.g. Dunsany's Chess), non-standard pieces (e.g. Grand Chess), or different board geometries (e.g. hexagonal chess). One rules variant that has gained significantly in popularity is Chess960 (named "Fischerandom" by its inventor). In Chess960, the starting position is selected randomly from 960 unique possibilities, including the classic chess initial position without change, while the other 959 render the use of prepared opening lines impracticable. In 2008, FIDE added Chess960 to its Handbook.
+Infinite chess, which has drawn the attention of mathematicians.Prime sources in English describing chess variants and their rules include David Pritchard's encyclopedias, the website The Chess Variant Pages created by Hans Bodlaender with various contributors, and the magazine Variant Chess published from 1990 (George Jellis) to 2010 (the British Chess Variants Society).
+In the context of chess variants, regular (i.e. FIDE) chess is commonly referred to as Western chess, international chess, orthodox chess, orthochess, and classic chess.
+
+
+== See also ==
+
+Reference aids
+
+Outline of chess (subject-wide table of contents)
+Glossary of chess
+Index of chess articlesLists
+
+List of chess books
+List of chess games
+List of chess players
+List of chess world championship matches
+List of strong chess tournaments
+
+
+== Notes ==
+
+
+== References ==
+
+
+=== Bibliography ===
+
+
+== Further reading ==
+Dunnington, Angus (2003). Chess Psychology: Approaching the Psychological Battle Both on and Off the Board. Everyman Chess. ISBN 978-1-85744-326-4.
+Fine, Reuben (1983). The World's Great Chess Games. Courier Dover Publications. ISBN 978-0-486-24512-6. OCLC 9394460.
+Hale, Benjamin (2008). Philosophy Looks at Chess. Open Court Publishing Company. ISBN 978-0-8126-9633-2.
+Kotov, Alexander (1971). Think Like a Grandmaster. B.T.Batsford Ltd. ISBN 978-0-7134-3160-5.
+Lasker, Emanuel (1960). Lasker's Manual of Chess. Dover. ISBN 978-0-486-20640-0.
+Mason, James (1947). The Art of Chess. Dover Publications. ISBN 978-0-486-20463-5. OCLC 45271009. (see the included supplement, "How Do You Play Chess")
+Pachman, Ludek (1971). Modern Chess Strategy. Dover. ISBN 978-0-486-20290-7.
+Reti, Richard (1960). Modern Ideas in Chess. Dover. ISBN 978-0-486-20638-7.
+Rizzitano, James (2004). Understanding Your Chess. Gambit Publications. ISBN 978-1-904600-07-7. OCLC 55205602.
+
+
+== External links ==
+
+Chess at CurlieInternational organizationsFIDE – World Chess Federation
+ICCF – International Correspondence Chess FederationNewsChessbase news
+The Week in Chess
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>b2968702-72cc-4e4f-8d02-ffbcaf99e227</DOCNO>
+<TEXT>
+Alton Bay Seaplane Base
+
+Alton Bay Seaplane Base (FAA LID: B18) is a state-owned, public-use seaplane base located in a cove of Lake Winnipesaukee. The base is two nautical miles (4 km) north of the central business district of Alton Bay, in Belknap County, New Hampshire, United States.
+
+
+== Facilities and aircraft ==
+Alton Bay Seaplane Base has one seaplane landing area designated 1/19 and measuring 2,600 x 100 feet (792 x 30 m). For the 12-month period ending 31 December 2011, the airport had 600 general aviation aircraft operations, an average of 50 per month.During the winter months, the base may seasonally open an ice runway instead of the normal seaplane landing area. This is the only FAA approved ice runway in the contiguous United States. 
+The earliest the ice runway has opened is January 10. It is required to close no later than March 15.
+
+
+== References ==
+
+
+== External links ==
+
+Resources for this airport:
+FAA airport information for B18
+AirNav airport information for B18
+FlightAware airport information and live flight tracker
+SkyVector aeronautical chart for B18
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>0b8b71d7-87e4-4de1-8464-62de5fc6a486</DOCNO>
+<TEXT>
+B-18 Bolo
+
+The Douglas B-18 Bolo is an American medium bomber which served with the United States Army Air Corps and the Royal Canadian Air Force (as the Digby) during the late 1930s and early 1940s. The Bolo was built by the Douglas Aircraft Company, based on its DC-2, and was developed to replace the Martin B-10.
+By 1940, it was considered to be underpowered, to have inadequate defensive armament, and to carry too small a bomb load. Many were destroyed during the attacks on Pearl Harbor and the Philippines in December 1941.
+In 1942, the surviving B-18s were relegated to antisubmarine, transport duty, and training. A B-18 was one of the first American aircraft to sink a German U-boat, U-654 on 22 August 1942 in the Caribbean.
+
+
+== Design and development ==
+In 1934, the United States Army Air Corps put out a request for a bomber with double the bomb load and range of the Martin B-10, which was just entering service as the Army's standard bomber. In the evaluation at Wright Field the following year, Douglas showed its DB-1. It competed with the Boeing Model 299 (later developed into the Boeing B-17 Flying Fortress) and Martin Model 146.
+While the Boeing design was clearly superior, the crash of the B-17 prototype (caused by taking off with the controls still locked) removed it from consideration. During the depths of the Great Depression, the lower price of the DB-1 ($58,500 vs. $99,620 for the Model 299) also counted in its favor. The Douglas design was ordered into immediate production in January 1936 as the B-18.
+The DB-1 design was essentially that of the DC-2, with several modifications. The wingspan was 4.5 ft (1.4 m) greater. The fuselage was deeper, to better accommodate bombs and the six-member crew; the wings were fixed in the middle of the cross-section rather than to the bottom due to the deeper fuselage. Added armament included nose, dorsal, and ventral gun turrets.
+Preston Tucker's firm received a contract to supply  a remote controlled gun turret for the aircraft.
+
+
+== Operational history ==
+
+The initial contract called for 133 B-18s (including DB-1), using Wright R-1820 radial engines.  The last B-18 of the run, designated DB-2 by the company, had a power-operated nose turret. This design did not become standard. Additional contracts in 1937 (177 aircraft) and 1938 (40 aircraft) were for the B-18A, which had the bombardier's position further forward over the nose-gunner's station. The B-18A also used more powerful engines.
+Deliveries of B-18s to Army units began in the first half of 1937, with the first examples being test and evaluation aircraft being turned over to the Materiel Division at Wright Field, Ohio, the Technical Training Command at Chanute Field, Illinois, the Aberdeen Proving Ground, Maryland, and Lowry Field, Colorado. Deliveries to operational groups began in late 1937, the first being the 7th Bombardment Group at Hamilton Field, California.
+Production B-18s, with full military equipment fitted, had a maximum speed of 217 mph, cruising speed of 167 mph, and combat range of 850 miles. By 1940, most USAAC bomber squadrons were equipped with B-18s or B-18As.
+However, the deficiencies in the B-18/B-18A bomber were becoming readily apparent to almost everyone. In range, in speed, in bomb load, and particularly in defensive armor and armament, the design came up short, and the Air Corps conceded that the aircraft was obsolete and totally unsuited in the long-range bombing role for which it had originally been acquired. To send crews out in such a plane against a well-armed, determined foe would have been nothing short of suicidal.
+However, in spite of the known shortcomings of the B-18/B-18A, the Douglas aircraft was the most numerous American bomber type deployed outside the continental United States at the time of the attack on Pearl Harbor.  It was hoped that the B-18 could play a stopgap role until more suitable aircraft such as the Boeing B-17 Flying Fortress and Consolidated B-24 Liberator became available in quantity.
+
+
+=== World War II ===
+
+When war came to the Pacific, most of the B-18/B-18A aircraft based overseas in the Philippines and in Hawaii were destroyed on the ground in the initial Japanese onslaught. The few Bolos that remained played no significant role in subsequent operations.
+The B-18s remaining in the continental US and in the Caribbean were then deployed in a defensive role in anticipation of attacks on the US mainland. These attacks never materialized.  B-17s supplanted B-18s in first-line service in 1942. Following this, 122 B-18As were modified for anti-submarine warfare. The bombardier was replaced by a search radar with a large radome. Magnetic anomaly detection (MAD) equipment was sometimes housed in a tail boom. These aircraft, designated B-18B, were used in the Caribbean on anti-submarine patrol. On 2 October 1942, a B-18A, piloted by Captain Howard Burhanna Jr. of the 99th Bomb Squadron, depth charged and sank the German submarine U-512 north of Cayenne, French Guiana.Two aircraft were transferred to Força Aérea Brasileira in 1942 and used with a provisional conversion training unit set up under the provisions of Lend-Lease. They were later used for anti-submarine patrols. They were struck off charge at the end of the war.  In 1940 the Royal Canadian Air Force acquired 20 B-18As (as the Douglas Digby Mark I), and also used them for patrol duties, being immediately issued to 10 Squadron to replace the squadron's Westland Wapitis.Bolos and Digbys sank an additional two submarines during the course of the war. RCAF Eastern Air Command (EAC) Digbys carried out 11 attacks on U-boats. U-520 was confirmed sunk by Flying Officer F. Raymes' crew of No. 10 (BR) Squadron, on 30 October 1942. east of Newfoundland. However, the antisubmarine role was relatively short-lived, and the Bolos were superseded in this role in 1943 by Consolidated B-24 Liberators which had a much heavier payload and a substantially longer range which finally closed the mid-Atlantic gap.
+Surviving USAAF B-18s ended their useful lives in training and transport roles within the continental United States, and saw no further combat action. Two B-18As were modified as unarmed cargo transports under the designation C-58. At the end of the war, those bombers that were left were sold as surplus on the commercial market. Some postwar B-18s of various models were operated as cargo or crop-spraying aircraft by commercial operators.
+Some of the Douglas Digbys in Canadian service were converted to either C-58s or used for training.
+
+
+== Variants ==
+DB-1
+Manufacturer's designation for prototype, first of B-18 production run, 1 built.
+B-18
+Initial production version, 131 or 133 built.B-18MTrainer B-18 with bomb gear removed.DB-2Manufacturer's designation for prototype with powered nose turret; last of B-18 production run, 1 built.
+B-18A
+B-18 with more powerful Wright R-1820-53 engines and relocated bombardier's station, 217 built.
+B-18AM
+Trainer B-18A with bomb gear removed.
+B-18B
+Antisubmarine conversion, 122 converted by adding a radar and magnetic anomaly detector
+B-18C
+Antisubmarine conversion, 2 converted. Fixed forward-firing .50 cal machine gun, starboard side of the fuselage near lower nose glazing.
+XB-22
+Improved version of B-18 using Wright R-2600-3 radial engines (1,600 hp/1,194 kW). Never built, largely due to better light bombers such as the B-23 Dragon.
+C-58
+Transport conversion.
+Digby Mark I
+Royal Canadian Air Force modification of B-18A. Named after the RAF school of bombing at RAF Digby.
+
+
+== Operators ==
+ BrazilBrazilian Air Force1st Bomber Group (3 examples)
+ CanadaRoyal Canadian Air ForceNo. 10 Squadron RCAF, Halifax, Nova Scotia (Digby Mk.1)
+ United StatesUnited States Army Air Corps/United States Army Air Forces1st Search Attack Group, Langley Field, Virginia (B-18A/B/C)
+2d Bombardment Group, Langley Field, Virginia (B-18A)
+3d Bombardment Group, Barksdale Field, Louisiana (B-18)
+5th Bombardment Group, Hickam Field, Hawaii (B-18)**
+6th Bombardment Group, Rio Hato Airfield, Panama, (B-18/B-18A/B)
+7th Bombardment Group, Hamilton Field, California, (B-18)
+5th Bombardment Group, Luke Field, Oahu, Hawaii Territory (B-18)**
+9th Bombardment Group, Caribbean; Panama and South American air bases (B-18/B-18A/B)
+11th Bombardment Group, Hickam Field, Hawaii Territory (B-18)**
+13th Bombardment Group, Langley Field, Virginia (B-18A/B)
+17th Bombardment Group, McChord Field, Washington (B-18)
+19th Bombardment Group, Clark Field, Philippines Commonwealth (B-18)**
+22d Bombardment Group, Muroc Field, California (B-18)
+25th Bombardment Group, Caribbean (B-18/B)
+27th Bombardment Group, Barksdale Field, Louisiana (B-18)
+28th Bombardment Group, California, (B-18)
+28th Composite Group, Elmendorf Field, Alaska, (B-18A)
+29th Bombardment Group, Langley Field (B-18A)
+40th Bombardment Group, Panama, Puerto Rico (B-18/B)
+41st Bombardment Group, California, (B-18)
+42nd Bombardment Group, Portland, Oregon (B-18)
+45th Bombardment Group, Savannah Airfield, Georgia (B-18A)
+47th Bombardment Group, McChord Field, Washington (B-18)
+479th Antisubmarine Group, Langley Field, Virginia (B-18A/B)**Note:  Most aircraft destroyed 7–8 December 1941 at outbreak of World War II
+
+
+== Aircraft on display ==
+
+Only six B-18s still exist, five of them preserved or under restoration in museums in the United States:
+B-1836-446 – Kohala Mountains, Hawaii. Tail code "81 50R". Crash-landed due to engine failure on February 25, 1941. Crew was rescued and the aircraft was abandoned; it remains in a gulch on private land. The Air Force later recovered the nose turret for 37-029 and the dorsal turret for 37-469. There have been plans to recover the aircraft for the Pacific Air Museum in Honolulu.
+37-029 – Castle Air Museum at the former Castle Air Force Base in Atwater, California.  Dropped from USAAF inventory in 1944, it was registered as NC52056 in 1945, later to N52056. The B-18 was used by Avery Aviation and then Hawkins and Powers, as a firebomber, dropping borate for many years.B-18A37-469 – National Museum of the United States Air Force at Wright-Patterson Air Force Base in Dayton, Ohio. One of the first production Bolos, was delivered to Wright Field in 1937 for evaluation testing. Sold as N56847, converted to crop sprayer; by May 1969 stored derelict at Tucson, Arizona. It sat outdoors for many years before being restored to static display condition.  This aircraft has an incorrect dorsal turret. The museum has been attempting to locate a correct turret for this aircraft for many years.
+39-025 – Wings Over the Rockies Air and Space Museum at the former Lowry Air Force Base in Denver, Colorado. This Bolo spent World War II at several airfields as a bombardier trainer and as a light transport. It was dropped from inventory on 3 November 1944, and was later sold, acquiring the civil registry NC62477. It spent 14 years on the civil registry before going to Cuba in 1958. In November 1958 the aircraft was seized in Florida by US Treasury agents when it was hauling guns to Fidel Castro. In 1960, the aircraft was parked at Cannon AFB, New Mexico, until being presented to the National Museum of the United States Air Force at Wright-Patterson AFB. It flew to the museum in April 1961. In 1988, the aircraft was transferred to the Wings Over The Rockies Aviation and Space Museum where it was restored though the 1990s. It is displayed there as AAC Ser. No. 39-522.B-18B37-505 – At the McChord Air Museum, McChord AFB, Washington. Sold as  N67947, then Mexican registration XB-JAJ. Acquired by Tucson Air Museum Foundation of Tucson, Arizona and stored at Watsonville, California. This was the last flyable B-18, making its final flight to Tucson on 10 April 1971. At Pima Air & Space Museum in 1973, it was subsequently acquired by the National Museum of the United States Air Force in 1981 and moved to Davis-Monthan AFB, Arizona for storage, then in 1983 put on display at the McChord Air Museum. Access to the McChord Air Museum is currently restricted to military personnel (active, reserve, national guard, retired), and their dependents unless a base visitor pass is acquired in advance.
+38-593 – Pima Air & Space Museum adjacent to Davis-Monthan Air Force Base in Tucson, Arizona. This Bolo spent the early part of WWII on anti-submarine patrol. In 1943 began use a light transport. She was retired and struck from the inventory in 1945. Was operated as a firebomber as N66267, 1954–1970. In storage at Phoenix Goodyear Airport, Litchfield Park, Arizona by September 1969, then delivered to Pima on 5 September 1976. The aircraft sat outside in the desert for many years before being restored and moved indoors for display. The aircraft is still equipped with an antisubmarine search radar dome.
+
+
+== Specifications (B-18A) ==
+Data from McDonnell Douglas aircraft since 1920 : Volume IGeneral characteristics
+Crew: 6
+Length: 57 ft 10 in (17.63 m)
+Wingspan: 89 ft 6 in (27.28 m)
+Height: 15 ft 2 in (4.62 m)
+Wing area: 959 sq ft (89.1 m2)
+Airfoil: root: NACA 2215; tip: NACA 2209
+Empty weight: 16,320 lb (7,403 kg)
+Gross weight: 24,000 lb (10,886 kg)
+Max takeoff weight: 27,673 lb (12,552 kg)
+Powerplant: 2 × Wright R-1820-53 Cyclone 9-cylinder air-cooled radial piston engines, 1,000 hp (750 kW)  each
+Propellers: 3-bladed fully-feathering Hamilton Standard Hydromatic propellersPerformance
+
+Maximum speed: 216 mph (348 km/h, 188 kn) at 10,000 ft (3,000 m)
+Cruise speed: 167 mph (269 km/h, 145 kn)
+Range: 900 mi (1,400 km, 780 nmi)
+Ferry range: 2,100 mi (3,400 km, 1,800 nmi)
+Service ceiling: 23,900 ft (7,300 m)
+Time to altitude: 10,000 ft (3,000 m) in 9 minutes 54 seconds
+Wing loading: 25 lb/sq ft (120 kg/m2)
+Power/mass: 0.0833 hp/lb (0.1369 kW/kg)Armament
+Guns: 3 × 0.30 in (7.6 mm) machine guns
+Bombs: 2,900 lb (1,300 kg) normal ; 4,400 lb (2,000 kg) maximumAvionics
+SCR-517-T-4  ASV radar B-18B
+Mark IV Magnetic anomaly detector (MAD) B-18B
+
+
+== Notable appearances in media ==
+
+
+== See also ==
+
+Related development
+
+Douglas DC-2
+Douglas B-23 Dragon
+
+Related lists
+
+List of aircraft of World War II
+List of bomber aircraft
+List of military aircraft of the United States
+
+
+== References ==
+
+
+=== Notes ===
+
+
+=== Bibliography ===
+
+
+== External links ==
+B-18 Bolo (factsheet with gallery), USAF Museum, archived from the original on 2007-03-15.
+Baugher, Joseph ‘Joe’ (ed.), "Douglas B-18 Bolo", USAF bombers, Baughers.
+"Douglas B-18 Bolo / B-23 Dragon", Douglas DC-1 / DC-2 Military Series.
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>f85500a9-89f7-4989-a627-460974b202d8</DOCNO>
+<TEXT>
+Volvo B18 engine
+
+This B18 is a 1.8 litres (1,778 cc) automobile Inline-four engine produced by Volvo from 1961 through 1968. The cam-in-block engine had overhead valves (OHV) operated by pushrods. The crankshaft rode in five main bearings, making the B18 quite different in design from its predecessor, the three-bearing B16. A larger 2.0 litres (1,986 cc) version called the B20 appeared in 1969.
+These engines are reputed to be very durable. The world's highest mileage car, a 1966 Volvo P1800, traveled more than 4,890,993 km (3,039,122 mi) on its original B18 engine.Despite their OHV and pushrod design, the engines can rev to 6,500 rpm.
+
+
+== B18 ==
+
+The B18 displaced 1.8 L; 108.5 cu in (1,778 cc), with a bore of 84.14 mm (3.31 in) and stroke of 80 mm (3.15 in). The engine was used in Volvo's PV544, P210 Duett, 120 (Amazon), P1800 and 140 series. The B18 could also be found in the L3314 and the Bandvagn 202 military vehicles. It was fitted to many Volvo Penta sterndrive marine propulsion systems. It was also used in the Facel Vega Facel III and the Marcos 1800 GT.
+There are four variations of this engine:
+
+B18A: 8.5:1-8.7:1 compression. single carburetor version. 75 bhp (55.9 kW) SAE
+B18B: 9.5:1-10:1 compression. Dual carburetor version. 100 and 115 bhp (74.6 and 85.8 kW) SAE with a higher compression ratio, fitted variously with dual sidedraft SU or Zenith/Stromberg carburettors.
+B18C: single carburetor version. 40 bhp (29.8 kW) SAE with a lower compression ratio and 2500 RPM mechanical regulator, fitted in the gasoline powered versions of the Volvo BM 320 tractor. This version was also used for the elevator in the PS-15 radar system.
+B18D: 8.5:1-8.7:1 compression. Dual SU carburetor version. 90 and 95 bhp (67.1 and 70.8 kW) SAE
+
+
+=== DOHC ===
+In 1971 Swedish engineer Gunnar Axelsson developed a DOHC cylinder head for the B18 engine family. This cylinder head was used in competition Volvos for several years. On 1 January 2014 the Grainger & Worrall company announced that they had partnered with Axelsson to reproduce the DOHC head for the B18 engine. Power output of the base engine was expected to be 190 bhp (141.7 kW), while a high-output version developing 225 bhp (167.8 kW) would also be available.
+
+
+=== B36 ===
+
+In 1952 Volvo unveiled the Volvo Philip concept car powered by a 3.6 litre V8 engine that would later be called the B36. The V8 engine had exactly the same bore and stroke dimensions as the four-cylinder B18, leading some to suggest that the B18 is one-half of the V8. Significant differences between the two engines included the fact that while the cylinder heads on the V8 are crossflows, the four cylinder has both intake and exhaust ports on the same side. This suggests that the engines are for the most part separate designs.
+
+
+== B20 ==
+
+The B20 engine displaced 2.0 L; 121.2 cu in (1,986 cc), with the cylinders on 105 / 108 mm (4.13 / 4.25 in) split bore centers, where the spacing between cylinders 2 and 3 is wider than between cylinders 1 and 2 or 3 and 4. The design is virtually identical to the earlier B18, but with an enlarged 88.9 mm (3.5 in) bore, thus most parts are functionally interchangeable, albeit with running changes to the manufacture and design of components. The B20 engine was used in the Volvo 120, 1800, 140, C202 and 240 series, and also in the Bofors Haubits FH77 howitzer. A modified version was used in the one-off 1969 Volvo GTZ concept car. The B20 was produced from 1969 to 1981.
+There are five variations of this engine:
+
+B20A: 8.7:1 compression. Single carburetor version. 82 bhp (61.1 kW). First produced in 1969.
+B20B: 9.5:1 compression. Dual carburetor version. 118 bhp (88.0 kW) with a higher compression ratio, fitted variously with dual SU or Zenith/Stromberg sidedraft carburetors. First produced in 1969.
+B20D: 8.7:1 compression. Dual carburetor version. 105 bhp (78.3 kW) up to 1971 then 110 bhp (82.0 kW) from 1972 with a lower compression ratio, fitted variously with dual SU or Zenith/Stromberg sidedraft carburetors. First produced in 1969.
+B20E: 10.5:1 compression. Bosch D-Jetronic electronic fuel injection up to 1973 then K-Jetronic mechanical fuel injection from 1974 on. 130 bhp (96.9 kW) for 1970 and 1971 and 135 bhp (100.7 kW) from 1972. First produced in 1970.
+B20F: 8.7:1 compression. D-Jetronic fuel injection up to 1973 then K-Jetronic fuel injection from 1974 on. 118 bhp (88.0 kW). First produced in 1972 for lower emissions.The B20E and B20F versions featured larger valves, and intake/exhaust ports and for 1974-1975 switched from electronic D-Jetronic to mechanical K-Jetronic injection.
+In 1974 the number of bolts holding the flywheel increased from 6 to 8 and the size of the connecting rods was increased. From 1975 the thread standard changed from SAE to Metric as Volvo switched over with the new 200 series.
+The B20A was revived for four years for use in the C202 from 1977 to 1981.
+
+
+=== B30 ===
+
+From the 1969 model year Volvo produced a six-cylinder version of this engine called the B30 for the newly released Volvo 164. Adding two extra cylinders with the same dimensions to the B20 produced a 3.0 L; 181.8 cu in (2,979 cc) engine.
+
+
+== See also ==
+List of Volvo engines
+Volvo B30 engine
+Volvo PV544
+Volvo P210 Duett
+Volvo 120 (Amazon)
+Volvo P1800
+Volvo 140
+Volvo 240
+Volvo C202
+
+
+== References ==
+
+
+== External links ==
+Grimshaw, Paul (15 January 2003). "Special Article - Chronology of Volvo Engine Development" (PDF).
+"Volvo B18B/D workshop manual" (PDF). volvo1800pictures.com. Retrieved 24 August 2019.</ref>
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>9db6c854-1db6-4bcb-aefb-74aeb43e415e</DOCNO>
+<TEXT>
+B18 (New York City bus)
+
+The Metropolitan Transportation Authority (MTA) operates 76 express bus routes in New York City, United States. Generally, express routes operated by MTA Bus Company or Academy Bus (under contract to the city Economic Development Corporation) are assigned multi-borough (BM, BxM, QM, SIM) prefixes. Exceptions to this rule are 7 Brooklyn and Queens express routes operated by MTA New York City Transit. Those routes use an X prefix.
+The unidirectional fare, payable with MetroCard or OMNY, a contactless payment system which will replace the Metrocard by 2023, is $6.75. Discount fare media is available. Except for the ad hoc X80 service, coins are not accepted on express buses; only a MetroCard (for now) or OMNY (Staten Island to Manhattan) is accepted.
+
+
+== Manhattan to Staten Island ==
+
+Most routes travel to and from Staten Island via the Verrazano-Narrows Bridge, Gowanus Expressway, and Hugh L. Carey Tunnel into Lower Manhattan. Some routes operate through New Jersey via the Goethals Bridge, New Jersey Turnpike, New Jersey Route 495, and Lincoln Tunnel to directly serve Midtown Manhattan.
+On August 19, 2018, all of the Staten Island-Manhattan express bus routes were redesigned to offer simpler and direct routes, fewer stops to speed up the trips, and additional service for off-peak hours and weekends. The new routes originally planned consists of 21 express routes: 11 traveling to Midtown, 8 traveling to Downtown and 2 traveling to Greenwich Village via Battery Park City. The previously used "X" routes have been dropped in favor of "SIM," or Staten Island to Manhattan, routes. This was the result of the two-year Staten Island Bus Study conducted by MTA, launched in 2015, which analyzed trip performance data, ridership profiles and extensive customer input, to determine the most effective way to reconfigure the network.All routes are operated by New York City Transit, except for the SIM23 and SIM24, which are operated by Academy Bus. All routes run during rush hours in the peak direction. In addition, the SIM1C, SIM3C, SIM4C and SIM33C provide off-peak weekday and weekend service, and the SIM1C provides overnight service. These four -C routes cover most stops in Manhattan served by other routes during peak hours.
+
+
+=== Notes and history ===
+
+
+== Manhattan to Brooklyn ==
+X- routes are operated by New York City Transit, while BM-routes are operated by MTA Bus Company. All routes operate nonstop between Brooklyn and Manhattan via the Gowanus Expressway or Prospect Expressway to the Hugh L. Carey Tunnel, with some routes continuing non-stop via the FDR Drive to reach Midtown. The exception to this is the BM5, which also makes stops in Queens and uses the Long Island Expressway and Queens Midtown Tunnel to reach Midtown.
+
+
+==== History and notes ====
+
+
+== Manhattan to Queens ==
+X- routes are operated by New York City Transit, while QM- routes are operated by MTA Bus Company. All routes operate nonstop outbound via the Ed Koch Queensboro Bridge and inbound via the Long Island Expressway and Queens Midtown Tunnel.
+
+
+==== History and notes ====
+
+
+== Manhattan to the Bronx ==
+All routes are operated by MTA Bus.
+
+
+=== History and notes ===
+Former Liberty Lines Express routes were taken over by MTA Bus Company on January 3, 2005, while former New York Bus Service routes were taken over on July 1, 2005.
+
+
+== Manhattan intra-borough ==
+
+
+== Former routes ==
+
+
+=== New York City Transit ===
+
+
+==== Staten Island Express routes ====
+Most X routes were discontinued between 2010 and 2018 due to budget cuts and a reimagining of the bus network.
+In 2015, the MTA began a comprehensive study of express bus lines on Staten Island. These lines had not been drastically changed since the 1980s, and as a result, they had been updated piece-by-piece. As a result, these routes were circuitous, redundant, and infrequent. The MTA proposed replacing all of the existing express bus routes with simpler and shorter variants, a proposal supported by 76% of Staten Island residents who had learned about the study. In March 2018, after hosting several meetings with Staten Island residents, the MTA announced that express bus service to Staten Island was expected to be completely reorganized in August 2018. As part of the redesign, all of the existing bus routes would be discontinued and replaced with new routes with a "SIM" prefix on August 19, 2018. The "SIM" prefix was chosen to reduce confusion with the "X"-prefixed routes they replaced, but deviate from the "S" prefix used by local Staten Island bus routes. The routes that were discontinued prior to August 18, 2018 were: X6, X13, X16, X18, X20, X21 (first use).
+The remaining X routes are expected to be revamped and renamed sometime between 2019 and 2021.
+
+
+===== Other X- routes =====
+
+
+=== MTA Bus Company ===
+
+
+=== Command Bus Company (special service) ===
+Eight special routes, which was operated by Pioneer Bus then Command Bus Company. All service discontinued in 2001.
+Note: An additional route, the BM2S bus route, ran from Starrett City to Downtown Manhattan ran via Flatlands Avenue between East 80th Street and East 105th Street. The service still operates as part of regular BM2 service during rush hour.  In addition, Command operated ferry shuttle buses around the Bay Ridge area from the Brooklyn Army Terminal after September 11, 2001, for the free ferry ride to/from the Wall Street pier. Both Pioneer Bus then Command Bus operated bus service to/from Roosevelt Raceway.
+
+
+=== Caravan Transit (temporary operation) ===
+From late 1988 to early 1990, Queens Surface Corporation temporarily outsourced these lines to Caravan Transit (a school bus operator) due to equipment shortages with the approval of the NYCDOT. Caravan Transit returned the lines to Queens Surface Corp. when 50 new MCI Classics suburban type buses (900-949) were delivered new to that company during 1989.
+
+
+=== Metro Apple Express (MAX) ===
+Metro Apple Express (MAX) operated buses in Brooklyn, Manhattan, Queens and to Jones Beach during its existence. They did not have fare boxes on the bus so the drivers were able to make change. Their bus schedules were color-coded for each route, BM10 was black, BM11 was blue, BM12 was green and BM15 was red. The president was Patrick Condren.
+
+
+=== Red & Tan in Hudson County ===
+
+
+=== Atlantic Express ===
+All routes going into Manhattan terminate at Midtown on East 59th Street and Madison Avenue.
+All routes traveled via into West Shore Expressway, Goethals Bridge into New Jersey's New Jersey Turnpike, Lincoln Tunnel; in Manhattan: 34th Street, Madison Avenue (northbound) and 5th Avenue (Southbound).
+These routes were operated by Academy Bus until June 2001, when the franchises were awarded to Atlantic Express. All of these routes have been rebranded or eliminated.
+
+
+== References ==
+
+
+== External links ==
+MTA NYC Transit - Bus Service
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>1b9626b0-9379-4beb-9b3c-7911d74a7c31</DOCNO>
+<TEXT>
+Honda B engine
+
+The B-series are a family of inline four-cylinder DOHC automotive engines introduced by Honda in 1988. Sold concurrently with the D-series which were primarily SOHC engines designed for more economical applications, the B-series were a performance option featuring dual overhead cams along with the first application of Honda's VTEC system (available in some models). To identify a Honda B-series engine, the letter B is normally followed by two numbers to designate the displacement of the engine, another letter, and in US-spec engines, another number. The Japanese spec-engines are normally designated with a four character alphanumeric designation. The B-series, the B20B variant in particular, is not to be confused with the earlier Honda B20A engine introduced in 1985 and primarily available in the Prelude and Accord-derived vehicles from 1985-1991. While sharing some design elements and both being multivalve Honda four-cylinders, the B-series and B20A differ substantially in architecture, enough to be considered distinct engine families.
+They were made in 1.6 L (1,595 cc), 1.7 L (1,678 cc), 1.8 L (1,797 cc), and 2.0 litres (1,973 cc) variants, with and without VTEC (Variable valve Timing and Electronic lift Control). Later models have minor upgrades including modifications to the intake valves and ports and piston tops, along with individual cylinder oil injectors (B18C models). They produce between 126 hp (94 kW; 128 PS) and 190 hp (142 kW; 193 PS), with some models capable of a redline over 8,500 rpm.
+Although it has many variations, the basic design differs very little among the B-Series. There are actually two short blocks which are used for the entire series. The distinction between them was the cylinder block deck height. The one used for B16 and B17 engines (except for B16B) has a deck height of 203.9 mm (8.03 in) while the short block used for B16B, B18 and B20 engines has a deck height of 212 mm (8.3 in).The Honda B16 has appeared in six different forms over the years. 
+The Honda B-series was replaced by the K-series in Civic, Integra, and CR-V applications.
+
+
+== B16 ==
+
+
+=== B16A (First Generation) ===
+
+The first VTEC engine.
+
+B16A found in:
+1989-1993 Honda Integra XSi
+1989-1991 Honda CRX SiR (EF8)
+1989-1991 Honda Civic SiR (EF9)
+Displacement: 1.6 L; 97.3 cu in (1,595 cc)
+Compression: 10.2:1
+Bore x Stroke: 81 mm × 77.4 mm (3.19 in × 3.05 in)
+Rod Length: 134 mm (5.3 in)
+Rod/stroke ratio: 1.745
+Power: 160 hp (119 kW; 162 PS) at 7,600 rpm & 150 N⋅m (111 lb⋅ft) at 7000 rpmVTEC engagement: 5500 rpm
+
+Redline: 8000 rpm
+Rev Limiter: 8200 rpm
+Transmission: S1/J1/YS1 (4.4 final drive, cable clutch, optional LSD for YS1), Y1 (4.266 final drive, cable clutch, optional LSD)
+ECU code: P-fk1 (DA6/DA8/EF8), PW0 (EF8/EF9/DA6), PR3 (EF8/EF9) OBD0
+
+
+=== B16A (Second Generation) ===
+
+Found in:
+1992–1993 Honda Integra "XSi" (DA6,DA8)
+1992–1994 Honda Civic SiR/SiRII (EG6)
+1992–1993 Honda Civic Ferio SiR (EG9)
+1992–1995 Honda CR-X del Sol SiR (EG2)
+1996–1998 Honda Civic SiR/SiRII (EK4)
+1996–2000 Honda Civic Ferio SiR (EK4)
+Displacement: 1.6 L; 97.3 cu in (1,595 cc)
+Compression: 10.4:1
+Bore x Stroke: 81 mm × 77.4 mm (3.19 in × 3.05 in)
+Rod Length: 134 mm (5.3 in)
+Rod/stroke ratio: 1.745
+Power: MT: 172 PS (127 kW; 170 hp) at 7400 rpm & 157 N⋅m (116 lb⋅ft) at 7000
+VTEC engagement: 5500 rpm
+Redline: 8200 rpm (AT: 6900 rpm)
+Transmission: YS1/S4C/Y21/S21 (4.4 final drive, optional LSD)
+ECU code: P30 (EG2/EG6/EG8/EG9), PR3 (DA6)
+OBD1 P2T (EK4) OBD2
+
+
+=== B16B (Type R) ===
+
+Found in:
+1997–2001 Civic Type R
+Displacement: 1.6 L; 97.3 cu in (1,595 cc)
+Compression ratio: 10.8:1
+Bore x stroke: 81 mm × 77.4 mm (3.19 in × 3.05 in)
+Rod/Stroke ratio: 1.85:1
+Rod Length: 142.42 mm (5.607 in)
+Power: 185 PS (182 bhp; 136 kW) at 8,200 rpm
+Torque: 160 N⋅m (118 lb⋅ft) at 7,500 rpm
+Redline: 8400 rpm
+Rev-limit: 9000 rpm
+Transmission: S4C With Helical LSD (4.4 final drive, dual-cone synchronizer on 2nd gear)
+VTEC engagement 6100 rpm
+ECU code: PCT
+ECU Socket Type: OBD-2A (1996-1998 models) / OBD-2B (1999-2000 models)
+Note: This engine uses the same block as the Integra Type R, which is taller than the B16a block, but with a crank the same stroke as the b16a. It uses longer rods to accommodate for this, which is why the Rod/Stroke ratio is higher than a standard B16. It is basically a ‘Destroked B18C Type R engine’
+
+
+=== B16A1 ===
+
+VTEC
+Found in:
+CRX'1.6 DOHC VTEC (EE8) - European market (EDM)
+Civic'1.6 DOHC VTEC(EE9) - European market (EDM)
+Displacement: 1.6 L; 97.3 cu in (1,595 cc)
+Bore×Stroke: 81 mm × 77.4 mm (3.19 in × 3.05 in)
+Compression: at 10.2:1
+Power: 150 hp (112 kW; 152 PS) at 7600 rpm
+Torque: 111 lb⋅ft (150 N⋅m)  at 7100 rpm
+Redline: 8200 RPM
+VTEC engagement at 5200 RPM
+Transmission: Y2
+OBD0
+ECU CODE: PW0
+
+
+=== B16A2 ===
+
+DOHC VTEC
+Found in:
+1992-2000 Honda Civic EDM VTi (EG6/EG9 & EK4)
+1992-1997 Honda Civic del Sol EDM VTi (EG)
+1996-1997 Honda Civic del Sol VTEC USDM (EG2)
+1996-1998 Honda Civic AUDM & NZDM Vti-R (EK4)
+1999-2000 Honda Civic AUDM Vti-R (EM1)
+1999-2000 Honda Civic USDM Si (EM1)
+1999-2000 Honda Civic SiR Philippines (EK4 sedan)
+1999-2000 Honda Civic CDM SiR (EM1)
+Displacement: 1.6 L; 97.3 cu in (1,595 cc)
+Power: 160 hp (119 kW; 162 PS)  at 7,600 rpm & 111 lb⋅ft (150 N⋅m) at 6,500 rpm
+Compression: 10.2:1
+VTEC Engagement at 5,600rpm
+Redline at 8,000 rpm
+rev-limit at 8,200 rpm
+Bore×Stroke: 81 mm × 77.4 mm (3.19 in × 3.05 in)
+Transmission: Y21, S4C
+
+
+=== B16A3 ===
+DOHC VTEC
+Found in:
+1994-1995 Del Sol VTEC USDM VERSION
+Displacement: 1.6 L; 97.3 cu in (1,595 cc)
+Power: 160 hp (119 kW; 162 PS)  at 7,600 rpm & 111 lb⋅ft (150 N⋅m)  at 6700 rpm
+Compression: 10.2:1
+VTEC Engagement at 5,600 rpm
+Redline at 8,200 rpm
+rev-limit at 8,500 rpm
+Bore×Stroke: 81 mm × 77.4 mm (3.19 in × 3.05 in)
+Transmission: Y21
+
+
+=== B16A5 ===
+VTEC
+Found in:
+1996-2000 Civic Si-RII (JDM version) (EK4)
+Displacement: 1.6 L; 97.3 cu in (1,595 cc)
+Compression: 10.4:1
+Power: 174 hp (130 kW; 176 PS) at 7800 rpm & 150 N⋅m (111 lb⋅ft) at 6300 rpm
+Redline: 8300 rpm
+Transmission: Y21
+Note: Only offered with SiRs with automatic transmissions.
+
+
+=== B16A6 ===
+VTEC
+Found in:
+1996–2000 Honda Civic – Middle East & South Africa VTEC (SO3, SO4)
+Displacement: 1.6 L; 97.3 cu in (1,595 cc)
+Compression: 10.2:1
+Power: 118 kW (160 PS; 158 hp)  at 7800 rpm & 118 lb⋅ft (160 N⋅m)  at 6400 rpm
+Transmission: S4C
+VTEC engagement at 5500 RPM"Baby B"
+Any B series engine under 1600cc
+
+
+== B17 ==
+
+
+=== B17A1 ===
+VTEC
+Found in:
+1992–1993 Integra GS-R (USDM VTEC Model VIN DB2)
+Displacement: 1.7 L; 102.4 cu in (1,678 cc)
+Bore x Stroke: 81 mm × 81.4 mm (3.19 in × 3.20 in)
+Rod/Stroke Ratio: 1.63
+Rod Length: 132.28 mm (5.208 in)
+Compression: 9.7:1
+VTEC engagement; VTEC Solenoid Engagement at 5750
+Power: 160 bhp (119 kW; 162 PS) at 7600 rpm & 117 lb⋅ft (159 N⋅m) at 7000 rpm
+Redline: 8000
+Fuel Cutoff: 8250 rpm
+First DOHC VTEC B series to be marketed in North America as export only. Not available in Japan.
+Came equipped with the YS1 cable transmission, which was different from other cable B-series YS1 transmissions as it has a different input shaft and a shorter final drive.
+
+
+== B18 ==
+
+
+=== B18A1 ===
+Found in:
+1990–1991 Acura Integra USDM "RS/LS/LS Special Edition/GS" (DA9 Liftback/Hatchback, DB1 Sedan)
+OBD0
+Displacement:  1.8 L; 111.9 cu in (1,834 cc)
+Compression: 9.2:1
+Bore x Stroke: 81 mm × 89 mm (3.19 in × 3.50 in)
+Rod Length: 137.01 mm (5.394 in)
+Rod/Stroke Ratio: 1.54
+Redline: 6,500 rpm
+Rev Limiter: 7,200 rpm
+Programmed fuel injection
+Power: 130 bhp (97 kW; 132 PS)  at 6000 rpm & 121 lb⋅ft (164 N⋅m) at 5000 rpm
+Transmission: S1, A1, cable.The Japanese B18A is not considered part of the modern B-series family. This engine shares many characteristics with the B20A/B21 See Honda B20A engine.
+
+1986–1989 Accord Aerodeck LXR-S/LX-S (Japan)
+1986–1989 Accord EXL-S/EX-S (Japan)
+1986–1989 Vigor MXL-S (Japan)
+Displacement: 1.8 L; 111.9 cu in (1,834 cc)
+Compression: 9.7:1
+Bore x Stroke: 81 mm × 89 mm (3.19 in × 3.50 in)
+Dual Keihin Carburetors
+Power: 100 hp (75 kW; 101 PS) at 6100 rpm & 128 lb⋅ft (174 N⋅m) at 4700 rpm
+Transmission: A2N5, E2N5
+
+
+=== B18A1 ===
+Non-VTEC
+Found in:
+1992-1993 Acura Integra USDM "GS/LS/LS Special Edition/RS" (DA9 Liftback/Hatchback, DB1 Sedan)
+OBD1 PR4 ECU
+Displacement: 1.8 L; 111.9 cu in (1,834 cc)
+Compression: 9.2:1
+Bore x Stroke: 81 mm × 89 mm (3.19 in × 3.50 in)
+Rod Length: 137.01 mm (5.394 in)
+Rod/Stroke Ratio: 1.54
+Redline: 6700 rpm
+Rev Limiter: 7200 rpm
+Programmed fuel injection
+Power: 140 bhp (104 kW; 142 PS)  at 6300 rpm & 126 lb⋅ft (171 N⋅m) at 5000 rpm
+Transmission: YS1, cable. Larger input shaft than 90-91. Uses same clutch as 94+ B series hydro.
+
+
+=== B18A2 ===
+Non-VTEC
+Found in:
+1990-1993 Honda Integra LS DB1 Sedan (Made in India)
+OBD0 PR4 ECU
+Displacement: 1.8 L; 111.9 cu in (1,834 cc)
+Compression: 9.2:1
+Bore x Stroke: 81 mm × 89 mm (3.19 in × 3.50 in)
+Rod Length: 137.01 mm (5.394 in)
+Rod/Stroke Ratio: 1.54
+Redline: 6500 rpm
+Rev Limiter: 6700 rpm
+Programmed fuel injection
+Power: 140 hp (104 kW; 142 PS)  at 6300 rpm &  126 lb⋅ft (171 N⋅m)  at 5000 rpm
+Transmission: YS1, cable.
+
+
+=== B18B1 ===
+
+Non-VTEC
+Ecu code:P75
+Found in:
+94-01 Integra RS/LS/SE/GS - DB7/DC4/DC3
+1994–2000 Honda Integra  "RS/LS/GS/SE/(GSI Australia)" (DC4/DB7)
+1992–1996 JDM Honda Domani (MA5)
+1993–1994 JDM Honda Integra (DB7)
+1996–1999 JDM Honda Orthia (EL1)
+Displacement: 1.8 L; 111.9 cu in (1,834 cc)
+Compression: 9.2:1
+Bore x Stroke: 81 mm × 89 mm (3.19 in × 3.50 in)
+Rod Length: 137.01 mm (5.394 in)
+Rod/Stroke Ratio: 1.56
+Power: 140 bhp (104 kW; 142 PS)  at 6300 rpm &  127 lb⋅ft (172 N⋅m)  at 5200 rpm
+Redline: 6800 rpm (7200 rpm on JDM Domani)
+Rev Limit: 7300 rpm
+Transmission: Y80/S80 Hydraulic
+JDM version is marked B18B on the block without any number.
+JDM version has 9.4:1 compression ratio whereas the USDM version has 9.2:1.
+JDM version's higher compression ratio and factory tuning results in higher torque and power ratings
+Ecu code:P75
+
+
+=== B18B2 ===
+Non-VTEC
+Found in:
+94-01 Integra RS/LS/SE/GS - DB7/DC4/DC3
+1994–2001Honda Integra  "RS/LS/GS/SE/(GSI Australia)" (DC4/DB7)
+Displacement: 1.8 L; 111.9 cu in (1,834 cc)
+Compression: 9.2:1
+Bore x Stroke: 81 mm × 89 mm (3.19 in × 3.50 in)
+Rod Length: 137.01 mm (5.394 in)
+Rod/Stroke Ratio: 1.56
+Power: 143 bhp (107 kW; 145 PS)  at 6300 rpm &  127 lb⋅ft (172 N⋅m)  at 5200 rpm
+Redline: 6800 rpm (7200 rpm on JDM Domani)
+Rev Limit: 7300 rpm
+Transmission: Y80/S80
+Ecu code: P75
+
+
+=== B18B3 ===
+Non-VTEC
+Found in:
+1992–1995 Honda Civic – Middle East & South Africa Ballade (SR4)
+Displacement: 1.8 L; 111.9 cu in (1,834 cc)
+Compression: 9.2:1
+Bore x Stroke: 81 mm × 89 mm (3.19 in × 3.50 in)
+Power: 143 hp (107 kW; 145 PS) at 6000 rpm & 123 lb⋅ft (167 N⋅m) at 5000 rpm
+Transmission: y80
+
+
+=== B18B4 ===
+Non-VTEC
+Found in:
+1996–2000 Honda Civic – Middle East & South Africa Ballade (SO4)
+Displacement: 1.8 L; 111.9 cu in (1,834 cc)
+Compression: 9.2:1
+Bore x Stroke: 81 mm × 89 mm (3.19 in × 3.50 in)
+Power: 103 kW (140 PS; 138 hp) at 6200 rpm & 126 lb⋅ft (171 N⋅m) at 4900 rpm
+Transmission: S4C(non B16A ratios), S80?
+
+
+=== JDM B18C Type R ===
+
+DOHC VTEC
+Identification: PR3 stamp on engine head, top radiator hose connected towards back of head
+Found in:
+96-01 Honda Integra JDM Type R (DC2 & DB8)
+Rev-limit: 8900 rpm
+Redline: 8300 rpm
+Power: 197 hp (147 kW; 200 PS) at 8000 rpm & 180 N⋅m (133 lb⋅ft) at 7200 rpm (96 spec) ; 200 hp (149 kW; 203 PS) at 8000 rpm & 186 N⋅m (137 lb⋅ft) at 6200 rpm (98 spec)
+Transmission: S80 with Helical LSD
+S80 spec: J4D (96 Spec: 4.4 final drive), N3E (98 Spec: 4.785 final drive w/ 1.034 4th & .787 5th Gears)
+Displacement: 1.8 L; 109.7 cu in (1,797 cc)
+Compression: 11.1:1
+Bore x Stroke: 81 mm × 87.2 mm (3.19 in × 3.43 in)
+Rod Length: 137.9 mm (5.43 in)
+Rod/Stroke Ratio: 1.58
+VTEC Engagement at 5800 rpm (96 spec) 6000 rpm (98 spec)
+ECU code: P73-003 (96 spec) P73-013 (98 spec) P73-023 (00 spec)JDM B18C
+SiR-G/GSR
+
+VTEC
+Found in:
+95-98 Honda Integra JDM SiR/SiR II (DB8, DC2)
+98-99 Honda Integra JDM SiR-G (DB8, DC2)
+Identification top rad hose connected towards front of head
+Red Line: 8000 rpm
+Rev-Limit: 8200
+Power: 132.5 kW (180 PS; 178 bhp) at 7200 rpm & 126 lb⋅ft (171 N⋅m) at 6200 rpm
+Displacement: 1.8 L; 109.7 cu in (1,797 cc)
+Compression: 10.6:1
+Bore x Stroke: 81 mm × 87.2 mm (3.19 in × 3.43 in)
+ECU code: P72
+VTEC Engagement at 4400 rpm
+Transmission Y80 (with optional LSD)
+
+
+=== B18C1 ===
+b18c jdm spec 10.8 comp 178 hp rated gsr auto and manual option
+
+DOHC VTEC
+Found in:
+1994–2001 Acura Integra USDM GS-R (DC2 & DB8)
+Displacement: 1.8 L; 109.7 cu in (1,797 cc)
+Compression: 10.0:1
+Bore x Stroke: 81 mm × 87.2 mm (3.19 in × 3.43 in)
+Rod Length: 137.9 mm (5.429 in)
+Rod/Stroke Ratio: 1.60
+Power: 170 hp (127 kW; 172 PS) at 7600 rpm
+Torque: 128 lb⋅ft (174 N⋅m) at 6200 rpm
+Redline: 8100 rpm (Fuel Cut-off at 8300 rpm)
+Secondary Runners Open at 5,750 rpm
+VTEC Engagement at 4,400 rpm
+ECU code: P72
+
+
+=== B18C2 ===
+DOHC VTEC
+Found in:
+1994-2001 Honda Integra AUDM/NZDM VTi-R
+Compression: 10.0:1
+Displacement: 1.8 L; 109.7 cu in (1,797 cc)
+Bore x Stroke: 81 mm × 87.2 mm (3.19 in × 3.43 in)
+Power: 170 hp (127 kW; 172 PS) at 7300 rpm
+Torque: 128 lb⋅ft (174 N⋅m) at 6200 rpm
+Redline: 8000 rpm (Fuel cut-off at 8200 rpm)
+VTEC Engagement at 4500 rpm
+IAB Engagement at 6000 rpm
+Transmission: Y80 (obd1) - S80 (obd2)
+ECU code: P72
+
+
+=== B18C3 ===
+DOHC VTEC
+Found in: Honda Integra Asian market,
+Power: 187 hp (139 kW; 190 PS) at 7600 rpm & 174 N⋅m (128 lb⋅ft) at 7500 rpm
+Compression: 10.8:1
+Bore x Stroke: 81 mm × 87.2 mm (3.19 in × 3.43 in)
+
+
+=== B18C4 ===
+VTEC
+Found in:
+1996–2000 UK Civic VTi 5-door Hatch (MB6)
+1996–2000 UK Civic 1.8i VTi-S (Limited Edition) 5-door Hatch (MB6)
+1996–2001 UK Civic Aerodeck 1.8i VTi 5-door Wagon (MC2)
+1998–1999 EU Civic Aerodeck 1.8i VTi 5-door Wagon (MC2)
+1998–1999 EU Civic 1.8i VTi 5-door Hatch (MB6)
+Displacement: 1.8 L; 109.7 cu in (1,797 cc)
+IAB open at 4300 rpm
+VTEC engagement at 5750 rpm
+Compression: 10.0:1
+Power: 169 hp (126 kW; 171 PS) at 7600 rpm & 128 lb⋅ft (174 N⋅m) at 6200 rpm
+Limit: 8,400 rpm
+Transmission: S9B 4.26 final drive Torsen LSD.
+ECU code: 37820-P9K-E11 (1997-1999) 37820-P9K-G11 (2000-2001)
+bore x stroke: 81 mm × 87.2 mm (3.19 in × 3.43 in)
+
+
+=== B18C5 (Type R) ===
+DOHC VTEC
+Found in:
+1997-1998,1999 CDM, 2000-2001 Acura Integra USDM/CDM Type R
+Displacement: 1.8 L; 109.7 cu in (1,797 cc)
+Compression: 10.6:1
+Bore x Stroke: 81 mm × 87.2 mm (3.19 in × 3.43 in)
+Rod Length: 137.9 mm (5.43 in)
+Rod/Stroke Ratio: 1.58
+Power: 195 hp (145 kW; 198 PS) at 7800 rpm & 130 lb⋅ft (176 N⋅m) at 7500 rpm
+Redline: 8400rpm (Fuel cut-off at 9000rpm)
+VTEC Engagement at 5700 rpm
+Transmission: S80 w/LSD
+
+
+=== B18C6 (Type R) ===
+DOHC VTEC
+Found in:
+1998–2001 Honda Integra UKDM/EUDM Type R
+Displacement: 1,797 cc (1.8 L; 109.7 cu in)
+Compression: 11.1:1
+Air intake diameter: 2.4 in (62 mm)
+Bore: 81 mm × 87.2 mm (3.19 in × 3.43 in)
+Rod Length: 137.9 mm (5.43 in)
+Rod/Stroke Ratio: 1.58
+Power: 190 PS (140 kW; 187 hp)  at 7900 rpm &  131 lb⋅ft (178 N⋅m)  at 7300 rpm
+Redline: 8400 rpm
+Rev-limiter: 8600 rpm
+VTEC engagement: 5900 rpm
+Transmission: S80 w/LSD
+ECU code: 37820-P73-G01
+
+
+=== B18C7 (Type R) ===
+DOHC VTEC
+Found in:
+1999-2001 Honda Integra AUDM/NZDM Type R
+Displacement: 1.8 L; 109.7 cu in (1,797 cc)
+Compression: 11.1:1
+Air intake diameter: 62 mm (2.4 in)
+Bore x Stroke: 81 mm × 87.2 mm (3.19 in × 3.43 in)
+Rod Length: 137.9 mm (5.43 in)
+Rod/Stroke Ratio: 1.58
+Power: 189 hp (141 kW; 192 PS) at 8200 rpm & 172 N⋅m (127 lb⋅ft) at 7500 rpm
+Redline: 8400 rpm
+Rev-limiter: 8600 rpm
+VTEC engagement: 6000 rpm
+
+
+== B20 ==
+
+
+=== B20B-B20B4 ===
+1996–1998 specs
+Non-VTEC
+Found in: USDM and JDM Honda CR-V, JDM Orthia, Stepwgn, S-MX
+Displacement: 2.0 L; 120.4 cu in (1,973 cc)
+Power: 126–142–140 hp (94–106–104 kW; 128–144–142 PS) at 5400 rpm
+Torque: 133 lb⋅ft (180 N⋅m) at 4800
+Rod length: 137 mm (5.4 in)
+Compression: B20B4 (AO PISTONS) 8.8:1 (P75) or 9.2:1 (P8R)
+Bore x Stroke: 84 mm × 89 mm (3.31 in × 3.50 in)
+Redline: 6500 rpm
+No Knock Sensor
+Low Compression engine
+
+
+=== B20B-B20B8 ===
+1999 - 2001 specsNon VTEC 
+
+Found in: USDM CR-V as a B20B8, CR-V and Honda Orthia as a B20B
+Displacement: 2.0 L; 120.4 cu in (1,973 cc)
+Power: 148–150 hp (110–112 kW; 150–152 PS) at 6200 rpm
+Torque: 140 lb⋅ft (190 N⋅m) at 5500 rpm
+Rod length: 137 mm (5.4 in)
+Compression: 9.4:1 (P8R)-9.6:1 (P75)
+Bore x Stroke: 84 mm × 89 mm (3.31 in × 3.50 in)
+Redline: 6,800 rpm
+
+
+=== B20Z2 ===
+1999 - 2001 specsNon VTEC 
+
+Found in: USDM CR-V as a B20Z2, CR-V and Honda Orthia as a B20B
+Displacement: 2.0 L; 120.4 cu in (1,973 cc)
+Power: 148–150 hp (110–112 kW; 150–152 PS) at 6200 rpm
+Torque: 140 lb⋅ft (190 N⋅m) at 5500 rpm
+Rod length: 137 mm (5.4 in)
+Compression: 9.4:1 (P8R)-9.6:1 (P75)
+Bore x Stroke: 84 mm × 89 mm (3.31 in × 3.50 in)
+Redline: 6,800 rpm
+
+
+=== B20B JDM ===
+1995–1997 spec  
+Non-VTEC
+Found in: JDM Honda Orthia, CR-V
+Displacement: 1,973 cc (120.4 cu in)
+Power: 146 hp (109 kW; 148 PS)  at 6200 rpm
+Torque: 178 N⋅m (131 lb⋅ft)  at 5200 [4500 rpm 2.0GX-S]
+Rod length: 137 mm (5.4 in)
+Compression: 9.2:1
+Bore x stroke: 84 mm × 89 mm (3.31 in × 3.50 in)
+Redline: 6700 rpm
+Rev limit: 7300 rpm
+1998-2002 specs
+Non-VTEC
+Displacement: 2.0 L; 120.4 cu in (1,973 cc)
+Power: 150 hp (112 kW; 152 PS) at 6300 rpm
+Torque: 184 N⋅m (136 lb⋅ft) at 4500
+Rod length: 137 mm (5.4 in)
+Compression: 9.6:1
+Bore x stroke: 84 mm × 89 mm (3.31 in × 3.50 in)
+Redline: 6500 rpm
+Rev limit: 7200 rpm
+Source http://www.honda.co.jp/auto-archive/
+
+
+== B20A/B20B ==
+The B20A3 and B20A5 are the predecessor to the B family. All B-series engines were based from the B20A, but most engine components are not compatible. For more information, refer to the F3-series Honda race car that used a B20A engine. Also see Honda B20A engine.
+
+
+== B Series Transmissions ==
+Note: All (1992 up, non-Prelude) "Big Spline" B series Transmissions are interchangeable.
+YS1 casing can take S80 Internals or a hydraulic conversion kit can be used to operate hydraulic transmissions in cable operated models, however A1/S1/J1/Y1 internals do not swap into the later model YS1 or hydraulic casings due to different shaft diameters.
+
+
+=== J1/S1 ===
+Found in: Integra XSI/RSI (DA6), Civic SiR (EF9), CRX SiR (DA9, EF8)
+Type: Cable
+1st: 3.25
+2nd: 2.052
+3rd: 1.416
+4th: 1.103
+5th: 0.906
+R: 3.000
+FD: 4.400
+
+
+=== A1/YS1 ===
+Found in: 1990-93 USDM Integra LS/RS/GS (DA)
+Type:cable
+1st: 3.23
+2nd: 1.901
+3rd: 1.269
+4th: 0.966
+5th: 0.742
+R: 3.000
+FD: 4.266
+
+
+=== Y1 ===
+Found in: CRX/Civic (optional LSD)
+Type: Cable
+1st: 3.166
+2nd: 2.052
+3rd: 1.416
+4th: 1.103
+5th: 0.870
+R: 3.000
+FD: 4.266
+
+
+=== Y2 ===
+Found in: CRX/Civic UKDM
+Type: Cable
+1st: 3.166
+2nd: 2.052
+3rd: 1.416
+4th: 1.103
+5th: 0.870
+R: 3.000
+FD: 4.133
+
+
+=== YS1 ===
+Found in: Integra 92-93 XSI/RSI, USDM GS-R (DA6, DA9)
+Type: Cable
+1st: 3.307
+2nd: 2.105
+3rd: 1.459
+4th: 1.107
+5th: 0.880
+R: 3.000
+FD: 4.400
+
+
+=== S80/N3E ===
+Found in: Integra Type R Spec R 98+ (LSD)
+Type: Hydraulic
+1st: 3.230
+2nd: 2.105
+3rd: 1.458
+4th: 1.034
+5th: 0.787
+R: 3.000
+FD: 4.785
+
+
+=== S80/Y80 ===
+Found in: JDM SiR-G (optional LSD) / 94+ USDM GS-R (no LSD)
+Type: Hydraulic
+1st: 3.231
+2nd: 1.923
+3rd: 1.431
+4th: 1.034
+5th: 0.787
+R: 3.000
+FD: 4.400
+
+
+=== S9B ===
+Found in:
+EDM/UKDM 96-01 Honda Civic 1.8 VTi MB6 (optional Torsen LSD)
+EDM/UKDM 97-01 Honda Civic Aerodeck 1.8 VTi MC2 (optional Torsen LSD)
+UKDM 1998 Honda Civic 1.8 VTi-S MB6 (Torsen LSD)
+UKDM 1998 Honda Civic Aerodeck 1.8 VTi-S MC2 (Torsen LSD)
+Note: Torsen LSD is the same as a S80 Helical LSD but with a different brand name, nevertheless both LSD share the same part number by Honda in UK and Europe (41200-P80-003).
+Type: Hydraulic
+1st: 3.230
+2nd: 1.900
+3rd: 1.360
+4th: 1.034
+5th: 0.848
+R: 3.000
+FD: 4.267
+
+
+=== Y21/Y80/S80/S4C ===
+Found in:
+JDM 96-97 Integra R(LSD)
+JDM Civic Type R [EK9](LSD)
+JDM Civic SiR [EK4, EG6](optional LSD)
+JDM CR-X DEL SOL SIR (EG2)(optional LSD)
+USDM DEL SOL VTEC (EG2)(OPTIONAL LSD)
+UKDM Civic Vti (EG6, EK4, EM1)
+Type: Hydraulic
+1st: 3.230
+2nd: 2.105
+3rd: 1.458
+4th: 1.107
+5th: 0.848
+R: 3.000
+FD: 4.400, 4.266
+
+
+== See also ==
+List of Honda engines
+
+
+== References ==
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>933cb986-3554-4e8a-b8d7-d0b52171c365</DOCNO>
+<TEXT>
+B18 road (Cyprus) (page does not exist)
+
+Cyprus ( (listen); Greek: Κύπρος [ˈcipros]; Turkish: Kıbrıs [ˈkɯbɾɯs]), officially the Republic of Cyprus (Greek: Κυπριακή Δημοκρατία,  lit. Cypriot Republic; Turkish: Kıbrıs Cumhuriyeti, lit. Republic of Cyprus), is an island country in the Eastern Mediterranean and the third largest and third most populous island in the Mediterranean, located south of Turkey, west of Syria and Lebanon, northwest of Israel and Palestine, north of Egypt, and southeast of Greece.
+The earliest known human activity on the island dates to around the 10th millennium BC. Archaeological remains from this period include the well-preserved Neolithic village of Khirokitia, and Cyprus is home to some of the oldest water wells in the world. Cyprus was settled by Mycenaean Greeks in two waves in the 2nd millennium BC. As a strategic location in the Middle East, it was subsequently occupied by several major powers, including the empires of the Assyrians, Egyptians and Persians, from whom the island was seized in 333 BC by Alexander the Great. Subsequent rule by Ptolemaic Egypt, the Classical and Eastern Roman Empire, Arab caliphates for a short period, the French Lusignan dynasty and the Venetians, was followed by over three centuries of Ottoman rule between 1571 and 1878 (de jure until 1914).Cyprus was placed under the UK's administration based on the Cyprus Convention in 1878 and was formally annexed by the UK in 1914. While Turkish Cypriots made up 18% of the population, the partition of Cyprus and creation of a Turkish state in the north became a policy of Turkish Cypriot leaders and Turkey in the 1950s. Turkish leaders for a period advocated the annexation of Cyprus to Turkey as Cyprus was considered an "extension of Anatolia" by them; while, since the 19th century, the majority Greek Cypriot population and its Orthodox church had been pursuing union with Greece, which became a Greek national policy in the 1950s. Following nationalist violence in the 1950s, Cyprus was granted independence in 1960. The crisis of 1963–64 brought further intercommunal violence between Greek Cypriots and Turkish Cypriots, which displaced more than 25,000 Turkish Cypriots into enclaves and brought the end of Turkish Cypriot representation in the republic. On 15 July 1974, a coup d'état was staged by Greek Cypriot nationalists and elements of the Greek military junta in an attempt at enosis, the incorporation of Cyprus into Greece. This action precipitated the Turkish invasion of Cyprus on 20 July, which led to the capture of the present-day territory of Northern Cyprus in the following month, after a ceasefire collapsed, and the displacement of over 150,000 Greek Cypriots and 50,000 Turkish Cypriots. A separate Turkish Cypriot state in the north was established by unilateral declaration in 1983; the move was widely condemned by the international community, with Turkey alone recognizing the new state. These events and the resulting political situation are matters of a continuing dispute.
+The Republic of Cyprus has de jure sovereignty over the entire island, including its territorial waters and exclusive economic zone, with the exception of the Sovereign Base Areas of Akrotiri and Dhekelia, which remain under the UK's control according to the London and Zürich Agreements. However, the Republic of Cyprus is de facto partitioned into two main parts: the area under the effective control of the Republic, located in the south and west and comprising about 59% of the island's area, and the north, administered by the self-declared Turkish Republic of Northern Cyprus, covering about 36% of the island's area. Another nearly 4% of the island's area is covered by the UN buffer zone. The international community considers the northern part of the island to be territory of the Republic of Cyprus occupied by Turkish forces. The occupation is viewed as illegal under international law and amounting to illegal occupation of EU territory since Cyprus became a member of the European Union.Cyprus is a major tourist destination in the Mediterranean. With an advanced, high-income economy and a very high Human Development Index, the Republic of Cyprus has been a member of the Commonwealth since 1961 and was a founding member of the Non-Aligned Movement until it joined the European Union on 1 May 2004. On 1 January 2008, the Republic of Cyprus joined the eurozone.
+
+
+== Etymology ==
+
+The earliest attested reference to Cyprus is the 15th century BC Mycenaean Greek 𐀓𐀠𐀪𐀍, ku-pi-ri-jo, meaning "Cypriot" (Greek: Κύπριος), written in Linear B syllabic script.
+The classical Greek form of the name is Κύπρος (Kýpros).
+The etymology of the name is unknown.
+Suggestions include:
+
+the Greek word for the Mediterranean cypress tree (Cupressus sempervirens), κυπάρισσος (kypárissos)
+the Greek name of the henna tree (Lawsonia alba), κύπρος (kýpros)
+an Eteocypriot word for copper. It has been suggested, for example, that it has roots in the Sumerian word for copper (zubar) or for bronze (kubar), from the large deposits of copper ore found on the island.Through overseas trade, the island has given its name to the Classical Latin word for copper through the phrase aes Cyprium, "metal of Cyprus", later shortened to Cuprum.The standard demonym relating to Cyprus or its people or culture is Cypriot. The terms Cypriote and Cyprian are also used, though less frequently.
+The state's official name in Greek literally translates to "Cypriot Republic" in English, but this translation is not used officially; "Republic of Cyprus" is used instead.
+
+
+== History ==
+
+
+=== Prehistoric and Ancient Cyprus ===
+
+The earliest confirmed site of human activity on Cyprus is Aetokremnos, situated on the south coast, indicating that hunter-gatherers were active on the island from around 10,000 BC, with settled village communities dating from 8200 BC. The arrival of the first humans correlates with the extinction of the dwarf hippos and dwarf elephants. Water wells discovered by archaeologists in western Cyprus are believed to be among the oldest in the world, dated at 9,000 to 10,500 years old.Remains of an 8-month-old cat were discovered buried with a human body at a separate Neolithic site in Cyprus. The grave is estimated to be 9,500 years old (7500 BC), predating ancient Egyptian civilisation and pushing back the earliest known feline-human association significantly. The remarkably well-preserved Neolithic village of Khirokitia is a UNESCO World Heritage Site dating to approximately 6800 BC.
+
+During the late Bronze Age the island experienced two waves of Greek settlement. The first wave consisted of Mycenaean Greek traders who started visiting Cyprus around 1400 BC. A major wave of Greek settlement is believed to have taken place following the Bronze Age collapse of Mycenaean Greece from 1100 to 1050 BC, with the island's predominantly Greek character dating from this period. Cyprus occupies an important role in Greek mythology being the birthplace of Aphrodite and Adonis, and home to King Cinyras, Teucer and Pygmalion. Literary evidence suggests an early Phoenician presence at Kition which was under Tyrian rule at the beginning of the 10th century BC. Some Phoenician merchants who were believed to come from Tyre colonized the area and expanded the political influence of Kition. After c. 850 BC the sanctuaries [at the Kathari site] were rebuilt and reused by the Phoenicians."
+
+Cyprus is at a strategic location in the Middle East. It was ruled by Assyria for a century starting in 708 BC, before a brief spell under Egyptian rule and eventually Persian rule in 545 BC. The Cypriots, led by Onesilus, king of Salamis, joined their fellow Greeks in the Ionian cities during the unsuccessful Ionian Revolt in 499 BC against the Achaemenid Empire. The revolt was suppressed, but Cyprus managed to maintain a high degree of autonomy and remained inclined towards the Greek world.The island was conquered by Alexander the Great in 333 BC. Following his death and the subsequent division of his empire and wars among his successors, Cyprus became part of the Hellenistic empire of Ptolemaic Egypt. It was during this period that the island was fully Hellenized. In 58 BC Cyprus was acquired by the Roman Republic.
+
+
+=== Middle Ages ===
+
+When the Roman Empire was divided into Eastern and Western parts in 395, Cyprus became part of the East Roman, or Byzantine Empire, and would remain so until the Crusades some 800 years later. Under Byzantine rule, the Greek orientation that had been prominent since antiquity developed the strong Hellenistic-Christian character that continues to be a hallmark of the Greek Cypriot community.Beginning in 649, Cyprus endured several attacks launched by raiders from the Levant, which continued for the next 300 years. Many were quick piratical raids, but others were large-scale attacks in which many Cypriots were slaughtered and great wealth carried off or destroyed.There are no Byzantine churches which survive from this period; thousands of people were killed, and many cities – such as Salamis – were destroyed and never rebuilt. Byzantine rule was restored in 965, when Emperor Nikephoros II Phokas scored decisive victories on land and sea.In 1191, during the Third Crusade, Richard I of England captured the island from Isaac Komnenos of Cyprus He used it as a major supply base that was relatively safe from the Saracens. A year later Richard sold the island to the Knights Templar, who, following a bloody revolt, in turn sold it to Guy of Lusignan. His brother and successor Aimery was recognised as King of Cyprus by Henry VI, Holy Roman Emperor.Following the death in 1473 of James II, the last Lusignan king, the Republic of Venice assumed control of the island, while the late king's Venetian widow, Queen Catherine Cornaro, reigned as figurehead. Venice formally annexed the Kingdom of Cyprus in 1489, following the abdication of Catherine. The Venetians fortified Nicosia by building the Walls of Nicosia, and used it as an important commercial hub. Throughout Venetian rule, the Ottoman Empire frequently raided Cyprus. In 1539 the Ottomans destroyed Limassol and so fearing the worst, the Venetians also fortified Famagusta and Kyrenia.Although the Lusignan French aristocracy remained the dominant social class in Cyprus throughout the medieval period, the former assumption that Greeks were treated only as serfs on the island is no longer considered by academics to be accurate. It is now accepted that the medieval period saw increasing numbers of Greek Cypriots elevated to the upper classes, a growing Greek middle ranks, and the Lusignan royal household even marrying Greeks. This included King John II of Cyprus who married Helena Palaiologina.
+
+
+=== Cyprus under the Ottoman Empire ===
+
+In 1570, a full-scale Ottoman assault with 60,000 troops brought the island under Ottoman control, despite stiff resistance by the inhabitants of Nicosia and Famagusta. Ottoman forces capturing Cyprus massacred many Greek and Armenian Christian inhabitants. The previous Latin elite were destroyed and the first significant demographic change since antiquity took place with the formation of a Muslim community. Soldiers who fought in the conquest settled on the island and Turkish peasants and craftsmen were brought to the island from Anatolia. This new community also included banished Anatolian tribes, "undesirable" persons and members of various "troublesome" Muslim sects, as well as a number of new converts on the island.
+
+The Ottomans abolished the feudal system previously in place and applied the millet system to Cyprus, under which non-Muslim peoples were governed by their own religious authorities. In a reversal from the days of Latin rule, the head of the Church of Cyprus was invested as leader of the Greek Cypriot population and acted as mediator between Christian Greek Cypriots and the Ottoman authorities. This status ensured that the Church of Cyprus was in a position to end the constant encroachments of the Roman Catholic Church. Ottoman rule of Cyprus was at times indifferent, at times oppressive, depending on the temperaments of the sultans and local officials, and the island began over 250 years of economic decline.The ratio of Muslims to Christians fluctuated throughout the period of Ottoman domination. In 1777–78, 47,000 Muslims constituted a majority over the island's 37,000 Christians. By 1872, the population of the island had risen to 144,000, comprising 44,000 Muslims and 100,000 Christians. The Muslim population included numerous crypto-Christians, including the Linobambaki, a crypto-Catholic community that arose due to religious persecution of the Catholic community by the Ottoman authorities; this community would assimilate into the Turkish Cypriot community during British rule.As soon as the Greek War of Independence broke out in 1821, several Greek Cypriots left for Greece to join the Greek forces. In response, the Ottoman governor of Cyprus arrested and executed 486 prominent Greek Cypriots, including the Archbishop of Cyprus, Kyprianos, and four other bishops. In 1828, modern Greece's first president Ioannis Kapodistrias called for union of Cyprus with Greece, and numerous minor uprisings took place. Reaction to Ottoman misrule led to uprisings by both Greek and Turkish Cypriots, although none were successful. After centuries of neglect by the Turks, the unrelenting poverty of most of the people, and the ever-present tax collectors fuelled Greek nationalism, and by the 20th century idea of enosis, or union, with newly independent Greece was firmly rooted among Greek Cypriots.Under the Ottoman rule, numeracy, school enrollment and literacy rates were all low. They persisted sometime after Ottoman rule ended and then increased rapidly during the twentieth century.
+
+
+=== Cyprus under the British Empire ===
+
+In the aftermath of the Russo-Turkish War (1877–1878) and the Congress of Berlin, Cyprus was leased to the British Empire which de facto took over its administration in 1878 (though, in terms of sovereignty, Cyprus remained a de jure Ottoman territory until 5 November 1914, together with Egypt and Sudan) in exchange for guarantees that Britain would use the island as a base to protect the Ottoman Empire against possible Russian aggression.
+
+The island would serve Britain as a key military base for its colonial routes. By 1906, when the Famagusta harbour was completed, Cyprus was a strategic naval outpost overlooking the Suez Canal, the crucial main route to India which was then Britain's most important overseas possession. Following the outbreak of the First World War and the decision of the Ottoman Empire to join the war on the side of the Central Powers, on 5 November 1914 the British Empire formally annexed Cyprus and declared the Ottoman Khedivate of Egypt and Sudan a Sultanate and British protectorate.In 1915, Britain offered Cyprus to Greece, ruled by King Constantine I of Greece, on condition that Greece join the war on the side of the British. The offer was declined. In 1923, under the Treaty of Lausanne, the nascent Turkish republic relinquished any claim to Cyprus, and in 1925 it was declared a British crown colony. Many Greek and Turkish Cypriots fought in the British Army during both world wars. During the Second World War, many enlisted in the Cyprus Regiment.
+The Greek Cypriot population, meanwhile, had become hopeful that the British administration would lead to enosis. The idea of enosis was historically part of the Megali Idea, a greater political ambition of a Greek state encompassing the territories with Greek inhabitants in the former Ottoman Empire, including Cyprus and Asia Minor with a capital in Constantinople, and was actively pursued by the Cypriot Orthodox Church, which had its members educated in Greece. These religious officials, together with Greek military officers and professionals, some of whom still pursued the Megali Idea, would later found the guerrilla organisation Ethniki Organosis Kyprion Agoniston or National Organisation of Cypriot Fighters (EOKA). The Greek Cypriots viewed the island as historically Greek and believed that union with Greece was a natural right. In the 1950s, the pursuit of enosis became a part of the Greek national policy.
+
+Initially, the Turkish Cypriots favoured the continuation of the British rule. However, they were alarmed by the Greek Cypriot calls for enosis as they saw the union of Crete with Greece, which led to the exodus of Cretan Turks, as a precedent to be avoided, and they took a pro-partition stance in response to the militant activity of EOKA. The Turkish Cypriots also viewed themselves as a distinct ethnic group of the island and believed in their having a separate right to self-determination from Greek Cypriots. Meanwhile, in the 1950s, Turkish leader Menderes considered Cyprus an "extension of Anatolia", rejected the partition of Cyprus along ethnic lines and favoured the annexation of the whole island to Turkey. Nationalistic slogans centred on the idea that "Cyprus is Turkish" and the ruling party declared Cyprus to be a part of the Turkish homeland that was vital to its security. Upon realising the fact that the Turkish Cypriot population was only 20% of the islanders made annexation unfeasible, the national policy was changed to favour partition. The slogan "Partition or Death" was frequently used in Turkish Cypriot and Turkish protests starting in the late 1950s and continuing throughout the 1960s. Although after the Zürich and London conferences Turkey seemed to accept the existence of the Cypriot state and to distance itself from its policy of favouring the partition of the island, the goal of the Turkish and Turkish Cypriot leaders remained that of creating an independent Turkish state in the northern part of the island.In January 1950, the Church of Cyprus organised a referendum under the supervision of clerics and with no Turkish Cypriot participation, where 96% of the participating Greek Cypriots voted in favour of enosis, The Greeks were 80.2% of the total island' s population at the time (census 1946). Restricted autonomy under a constitution was proposed by the British administration but eventually rejected. In 1955 the EOKA organisation was founded, seeking union with Greece through armed struggle. At the same time the Turkish Resistance Organisation (TMT), calling for Taksim, or partition, was established by the Turkish Cypriots as a counterweight. British officials also tolerated the creation of the Turkish underground organisation T.M.T. The Secretary of State for the Colonies in a letter dated 15 July 1958 had advised the Governor of Cyprus not to act against T.M.T despite its illegal actions so as not to harm British relations with the Turkish government.
+
+
+=== Independence and inter-communal violence ===
+
+On 16 August 1960, Cyprus attained independence after the Zürich and London Agreement between the United Kingdom, Greece and Turkey. Cyprus had a total population of 573,566; of whom 442,138 (77.1%) were Greeks, 104,320 (18.2%) Turks, and 27,108 (4.7%) others. The UK retained the two Sovereign Base Areas of Akrotiri and Dhekelia, while government posts and public offices were allocated by ethnic quotas, giving the minority Turkish Cypriots a permanent veto, 30% in parliament and administration, and granting the three mother-states guarantor rights.
+However, the division of power as foreseen by the constitution soon resulted in legal impasses and discontent on both sides, and nationalist militants started training again, with the military support of Greece and Turkey respectively. The Greek Cypriot leadership believed that the rights given to Turkish Cypriots under the 1960 constitution were too extensive and designed the Akritas plan, which was aimed at reforming the constitution in favour of Greek Cypriots, persuading the international community about the correctness of the changes and violently subjugating Turkish Cypriots in a few days should they not accept the plan. Tensions were heightened when Cypriot President Archbishop Makarios III called for constitutional changes, which were rejected by Turkey and opposed by Turkish Cypriots.Intercommunal violence erupted on 21 December 1963, when two Turkish Cypriots were killed at an incident involving the Greek Cypriot police. The violence resulted in the death of 364 Turkish and 174 Greek Cypriots, destruction of 109 Turkish Cypriot or mixed villages and displacement of 25,000–30,000 Turkish Cypriots. The crisis resulted in the end of the Turkish Cypriot involvement in the administration and their claiming that it had lost its legitimacy; the nature of this event is still controversial. In some areas, Greek Cypriots prevented Turkish Cypriots from travelling and entering government buildings, while some Turkish Cypriots willingly withdrew due to the calls of the Turkish Cypriot administration. Turkish Cypriots started living in enclaves; the republic's structure was changed, unilaterally, by Makarios and Nicosia was divided by the Green Line, with the deployment of UNFICYP troops.In 1964, Turkey threatened to invade Cyprus in response to the continuing Cypriot intercommunal violence, but this was stopped by a strongly worded telegram from the US President Lyndon B. Johnson on 5 June, warning that the US would not stand beside Turkey in case of a consequential Soviet invasion of Turkish territory. Meanwhile, by 1964, enosis was a Greek policy that could not be abandoned; Makarios and the Greek prime minister Georgios Papandreou agreed that enosis should be the ultimate aim and King Constantine wished Cyprus "a speedy union with the mother country". Greece dispatched 10,000 troops to Cyprus to counter a possible Turkish invasion.
+
+
+=== 1974 coup, Turkish invasion, and division ===
+
+On 15 July 1974, the Greek military junta under Dimitrios Ioannides carried out a coup d'état in Cyprus, to unite the island with Greece. The coup ousted president Makarios III and replaced him with pro-enosis nationalist Nikos Sampson. In response to the coup, five days later, on 20 July 1974, the Turkish army invaded the island, citing a right to intervene to restore the constitutional order from the 1960 Treaty of Guarantee. This justification has been rejected by the United Nations and the international community.The Turkish air force began bombing Greek positions in Cyprus, and hundreds of paratroopers were dropped in the area between Nicosia and Kyrenia, where well-armed Turkish Cypriot enclaves had been long-established; while off the Kyrenia coast, Turkish troop ships landed 6,000 men as well as tanks, trucks and armoured vehicles.Three days later, when a ceasefire had been agreed, Turkey had landed 30,000 troops on the island and captured Kyrenia, the corridor linking Kyrenia to Nicosia, and the Turkish Cypriot quarter of Nicosia itself. The junta in Athens, and then the Sampson regime in Cyprus fell from power. In Nicosia, Glafkos Clerides assumed the presidency and constitutional order was restored, removing the pretext for the Turkish invasion. But after the peace negotiations in Geneva, the Turkish government reinforced their Kyrenia bridgehead and started a second invasion on 14 August. The invasion resulted in the seizure of Morphou, Karpass, Famagusta and the Mesaoria.
+International pressure led to a ceasefire, and by then 36% of the island had been taken over by the Turks and 180,000 Greek Cypriots had been evicted from their homes in the north. At the same time, around 50,000 Turkish Cypriots were displaced to the north and settled in the properties of the displaced Greek Cypriots. Among a variety of sanctions against Turkey, in mid-1975 the US Congress imposed an arms embargo on Turkey for using US-supplied equipment during the Turkish invasion of Cyprus in 1974. There were 1,534 Greek Cypriots and 502 Turkish Cypriots missing as a result of the fighting.
+
+
+=== Post-division ===
+
+After the restoration of constitutional order and the return of Archbishop Makarios III to Cyprus in December 1974, Turkish troops remained, occupying the northeastern portion of the island. In 1983, the Turkish Cypriot leader proclaimed the Turkish Republic of Northern Cyprus (TRNC), which is recognised only by Turkey.The events of the summer of 1974 dominate the politics on the island, as well as Greco-Turkish relations. Around 150,000 settlers from Turkey are believed to be living in the north—many of whom were forced from Turkey by the Turkish government—in violation of the Geneva Convention and various UN resolutions.
+
+The Turkish invasion, the ensuing occupation and the declaration of independence by the TRNC have been condemned by United Nations resolutions, which are reaffirmed by the Security Council every year. The last major effort to settle the Cyprus dispute was the Annan Plan in 2004, drafted by the then Secretary General, Kofi Annan. The plan was put to a referendum in both Northern Cyprus and the Cypriot Republic. 65% of Turkish Cypriots voted in support of the plan and 74% Greek Cypriots voted against the plan, claiming that it disproportionately favoured the Turkish side.
+In total, 66.7% of the voters rejected the Annan Plan V.
+On 1 May 2004 Cyprus joined the European Union, together with nine other countries. Cyprus was accepted into the EU as a whole, although the EU legislation is suspended in Northern Cyprus until a final settlement of the Cyprus problem. In July 2006, the island served as a haven for people fleeing Lebanon, due to the conflict between Israel and Hezbollah (also called "The July War").Efforts have been made to enhance freedom of movement between the two sides. In April 2003, Northern Cyprus unilaterally eased border restrictions, permitting Cypriots to cross between the two sides for the first time in 30 years. In March 2008, a wall that had stood for decades at the boundary between the Republic of Cyprus and the UN buffer zone was demolished. The wall had cut across Ledra Street in the heart of Nicosia and was seen as a strong symbol of the island's 32-year division. On 3 April 2008, Ledra Street was reopened in the presence of Greek and Turkish Cypriot officials. North and South relaunched reunification talks on 15 May 2015.The European Union issued a warning in February 2019 that Cyprus, an EU member, was selling EU Passports to Russian oligarchs, saying it would allow organized crime syndicates to infiltrate the EU.
+
+
+== Geography ==
+
+Cyprus is the third largest island in the Mediterranean Sea, after the Italian islands of Sicily and Sardinia (both in terms of area and population). It is also the world's 80th largest by area and world's 51st largest by population. It measures 240 kilometres (149 mi) long from end to end and 100 kilometres (62 mi) wide at its widest point, with Turkey 75 kilometres (47 mi) to the north. It lies between latitudes 34° and 36° N, and longitudes 32° and 35° E.
+Other neighbouring territories include Syria and Lebanon to the east (105 and 108 kilometres (65 and 67 mi), respectively), Israel 200 kilometres (124 mi) to the southeast, Egypt 380 kilometres (236 mi) to the south, and Greece to the northwest: 280 kilometres (174 mi) to the small Dodecanesian island of Kastellorizo (Megisti), 400 kilometres (249 mi) to Rhodes and 800 kilometres (497 mi) to the Greek mainland. Sources alternatively place Cyprus in Europe, or Western Asia and the Middle East.The physical relief of the island is dominated by two mountain ranges, the Troodos Mountains and the smaller Kyrenia Range, and the central plain they encompass, the Mesaoria. The Mesaoria plain is drained by the Pedieos River, the longest on the island. The Troodos Mountains cover most of the southern and western portions of the island and account for roughly half its area. The highest point on Cyprus is Mount Olympus at 1,952 m (6,404 ft), located in the centre of the Troodos range. The narrow Kyrenia Range, extending along the northern coastline, occupies substantially less area, and elevations are lower, reaching a maximum of 1,024 m (3,360 ft). The island lies within the Anatolian Plate.
+
+Geopolitically, the island is subdivided into four main segments. The Republic of Cyprus occupies the southern two-thirds of the island (59.74%). The Turkish Republic of Northern Cyprus occupies the northern third (34.85%), and the United Nations-controlled Green Line provides a buffer zone that separates the two and covers 2.67% of the island. Lastly, two bases under British sovereignty are located on the island: Akrotiri and Dhekelia, covering the remaining 2.74%.
+
+
+=== Climate ===
+
+Cyprus has a subtropical climate – Mediterranean and semi-arid type (in the north-eastern part of the island) – Köppen climate classifications Csa and BSh, with very mild winters (on the coast) and warm to hot summers. Snow is possible only in the Troodos Mountains in the central part of island. Rain occurs mainly in winter, with summer being generally dry.
+Cyprus has one of the warmest climates in the Mediterranean part of the European Union. The average annual temperature on the coast is around 24 °C (75 °F) during the day and 14 °C (57 °F) at night. Generally, summers last about eight months, beginning in April with average temperatures of 21–23 °C (70–73 °F) during the day and 11–13 °C (52–55 °F) at night, and ending in November with average temperatures of 22–23 °C (72–73 °F) during the day and 12–14 °C (54–57 °F) at night, although in the remaining four months temperatures sometimes exceed 20 °C (68 °F).Among all cities in the Mediterranean part of the European Union, Limassol has one of the warmest winters, in the period January – February average temperature is 17–18 °C (63–64 °F) during the day and 7–8 °C (45–46 °F) at night, in other coastal locations in Cyprus is generally 16–17 °C (61–63 °F) during the day and 6–8 °C (43–46 °F) at night. During March, Limassol has average temperatures of 19–20 °C (66–68 °F) during the day and 9–11 °C (48–52 °F) at night, in other coastal locations in Cyprus is generally 17–19 °C (63–66 °F) during the day and 8–10 °C (46–50 °F) at night.The middle of summer is hot – in July and August on the coast the average temperature is usually around 33 °C (91 °F) during the day and around 22 °C (72 °F) at night (inland, in the highlands average temperature exceeds 35 °C (95 °F)) while in the June and September on the coast the average temperature is usually around 30 °C (86 °F) during the day and around 20 °C (68 °F) at night in Limassol, while is usually around 28 °C (82 °F) during the day and around 18 °C (64 °F) at night in Paphos. Large fluctuations in temperature are rare. Inland temperatures are more extreme, with colder winters and hotter summers compared with the coast of the island.Average annual temperature of sea is 21–22 °C (70–72 °F), from 17 °C (63 °F) in February to 27–28 °C (81–82 °F) in August (depending on the location). In total 7 months – from May to November – the average sea temperature exceeds 20 °C (68 °F).Sunshine hours on the coast are around 3,200 per year, from an average of 5–6 hours of sunshine per day in December to an average of 12–13 hours in July. This is about double that of cities in the northern half of Europe; for comparison, London receives about 1,540 per year. In December, London receives about 50 hours of sunshine while coastal locations in Cyprus about 180 hours (almost as much as in May in London).
+
+
+=== Water supply ===
+
+Cyprus suffers from a chronic shortage of water. The country relies heavily on rain to provide household water, but in the past 30 years average yearly precipitation has decreased. Between 2001 and 2004, exceptionally heavy annual rainfall pushed water reserves up, with supply exceeding demand, allowing total storage in the island's reservoirs to rise to an all-time high by the start of 2005.
+However, since then demand has increased annually – a result of local population growth, foreigners moving to Cyprus and the number of visiting tourists – while supply has fallen as a result of more frequent droughts.Dams remain the principal source of water both for domestic and agricultural use; Cyprus has a total of 107 dams (plus one currently under construction) and reservoirs, with a total water storage capacity of about 330,000,000 m3 (1.2×1010 cu ft). Water desalination plants are gradually being constructed to deal with recent years of prolonged drought.
+The Government has invested heavily in the creation of water desalination plants which have supplied almost 50 per cent of domestic water since 2001. Efforts have also been made to raise public awareness of the situation and to encourage domestic water users to take more responsibility for the conservation of this increasingly scarce commodity.
+Turkey has built a water pipeline under the Mediterranean Sea from Anamur on its southern coast to the northern coast of Cyprus, to supply Northern Cyprus with potable and irrigation water (see Northern Cyprus Water Supply Project).
+
+
+== Politics ==
+
+Cyprus is a presidential republic. The head of state and of the government is elected by a process of universal suffrage for a five-year term. Executive power is exercised by the government with legislative power vested in the House of Representatives whilst the Judiciary is independent of both the executive and the legislature.
+The 1960 Constitution provided for a presidential system of government with independent executive, legislative and judicial branches as well as a complex system of checks and balances including a weighted power-sharing ratio designed to protect the interests of the Turkish Cypriots. The executive was led by a Greek Cypriot president and a Turkish Cypriot vice-president elected by their respective communities for five-year terms and each possessing a right of veto over certain types of legislation and executive decisions. Legislative power rested on the House of Representatives who were also elected on the basis of separate voters' rolls.
+Since 1965, following clashes between the two communities, the Turkish Cypriot seats in the House remain vacant. In 1974 Cyprus was divided de facto when the Turkish army occupied the northern third of the island. The Turkish Cypriots subsequently declared independence in 1983 as the Turkish Republic of Northern Cyprus but were recognised only by Turkey. In 1985 the TRNC adopted a constitution and held its first elections. The United Nations recognises the sovereignty of the Republic of Cyprus over the entire island of Cyprus.
+
+The House of Representatives currently has 59 members elected for a five-year term, 56 members by proportional representation and 3 observer members representing the Armenian, Latin and Maronite minorities. 24 seats are allocated to the Turkish community but remain vacant since 1964. The political environment is dominated by the communist AKEL, the liberal conservative Democratic Rally, the centrist Democratic Party, the social-democratic EDEK and the centrist EURO.KO.
+In 2008, Dimitris Christofias became the country's first Communist head of state. Due to his involvement in the 2012–13 Cypriot financial crisis, Christofias did not run for re-election in 2013. The Presidential election in 2013 resulted in Democratic Rally candidate Nicos Anastasiades winning 57.48% of the vote. As a result, Anastasiades was sworn in on and has been President since 28 February 2013. Anastasiades was re-elected with 56% of the vote in the 2018 presidential election.
+
+
+=== Administrative divisions ===
+
+The Republic of Cyprus is divided into six districts: Nicosia, Famagusta, Kyrenia, Larnaca, Limassol and Paphos.
+
+
+=== Exclaves and enclaves ===
+
+Cyprus has four exclaves, all in territory that belongs to the British Sovereign Base Area of Dhekelia. The first two are the villages of Ormidhia and Xylotymvou. The third is the Dhekelia Power Station, which is divided by a British road into two parts. The northern part is the EAC refugee settlement. The southern part, even though located by the sea, is also an exclave because it has no territorial waters of its own, those being U.K. waters.The UN buffer zone runs up against Dhekelia and picks up again from its east side off Ayios Nikolaos and is connected to the rest of Dhekelia by a thin land corridor. In that sense the buffer zone turns the Paralimni area on the southeast corner of the island into a de facto, though not de jure, exclave.
+
+
+=== Foreign relations ===
+
+The Republic of Cyprus is a member of the following international groups: Australia Group, CN, CE, CFSP, EBRD, EIB, EU, FAO, IAEA, IBRD, ICAO, ICC, ICCt, ITUC, IDA, IFAD, IFC, IHO, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ITU, MIGA, NAM, NSG, OPCW, OSCE, PCA, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UPU, WCL, WCO, WFTU, WHO, WIPO, WMO, WToO, WTO.
+
+
+=== Law, justice and human rights ===
+
+The Cyprus Police (Greek: Αστυνομία Κύπρου, Turkish: Kıbrıs Polisi) is the only National Police Service of the Republic of Cyprus and is under the Ministry of Justice and Public Order since 1993.In "Freedom in the World 2011", Freedom House rated Cyprus as "free". In January 2011, the Report of the Office of the United Nations High Commissioner for Human Rights on the question of Human Rights in Cyprus noted that the ongoing division of Cyprus continues to affect human rights throughout the island "... including freedom of movement, human rights pertaining to the question of missing persons, discrimination, the right to life, freedom of religion, and economic, social and cultural rights." The constant focus on the division of the island can sometimes mask other human rights issues.In 2014, Turkey was ordered by the European Court of Human Rights to pay well over $100m in compensation to Cyprus for the invasion; Ankara announced that it would ignore the judgment. In 2014, a group of Cypriot refugees and a European parliamentarian, later joined by the Cypriot government, filed a complaint to the International Court of Justice, accusing Turkey of violating the Geneva Conventions by directly or indirectly transferring its civilian population into occupied territory. Over the preceding ten years, civilian transfer by Turkey had "reached new heights", in the words of one US ambassador. Other violations of the Geneva and the Hague Conventions—both ratified by Turkey—amount to what archaeologist Sophocles Hadjisavvas called "the organized destruction of Greek and Christian heritage in the north". These violations include looting of cultural treasures, deliberate destruction of churches, neglect of works of art, and altering the names of important historical sites, which was condemned by the International Council on Monuments and Sites. Hadjisavvas has asserted that these actions are motivated by a Turkish policy of erasing the Greek presence in Northern Cyprus within a framework of ethnic cleansing, as well as by greed and profit-seeking on the part of the individuals involved.
+
+
+=== Armed forces ===
+
+The Cypriot National Guard is the main military institution of the Republic of Cyprus. It is a combined arms force, with land, air and naval elements. Historically all men were required to spend 24 months serving in the National Guard after their 17th birthday, but in 2016 this period of compulsory service was reduced to 14 months.Annually, approximately 10,000 persons are trained in recruit centres. Depending on their awarded specialty the conscript recruits are then transferred to specialty training camps or to operational units.
+While until 2016 the armed forces were mainly conscript based, since then a large Professional Enlisted institution has been adopted (ΣΥΟΠ), which combined with the reduction of conscript service produces an approximate 3:1 ratio between conscript and professional enlisted.
+
+
+== Economy ==
+
+In the early 21st century the Cypriot economy has diversified and become prosperous. However, in 2012 it became affected by the Eurozone financial and banking crisis. In June 2012, the Cypriot government announced it would need €1.8 billion in foreign aid to support the Cyprus Popular Bank, and this was followed by Fitch downgrading Cyprus's credit rating to junk status. Fitch said Cyprus would need an additional €4 billion to support its banks and the downgrade was mainly due to the exposure of Bank of Cyprus, Cyprus Popular Bank and Hellenic Bank, Cyprus's three largest banks, to the Greek financial crisis.
+
+The 2012–2013 Cypriot financial crisis led to an agreement with the Eurogroup in March 2013 to split the country's second largest bank, the Cyprus Popular Bank (also known as Laiki Bank), into a "bad" bank which would be wound down over time and a "good" bank which would be absorbed by the Bank of Cyprus. In return for a €10 billion bailout from the European Commission, the European Central Bank and the International Monetary Fund, often referred to as the "troika", the Cypriot government was required to impose a significant haircut on uninsured deposits, a large proportion of which were held by wealthy Russians who used Cyprus as a tax haven. Insured deposits of €100,000 or less were not affected.
+
+According to the 2017 International Monetary Fund estimates, its per capita GDP (adjusted for purchasing power) at $36,442 is below the average of the European Union. Cyprus has been sought as a base for several offshore businesses for its low tax rates. Tourism, financial services and shipping are significant parts of the economy. Economic policy of the Cyprus government has focused on meeting the criteria for admission to the European Union. The Cypriot government adopted the euro as the national currency on 1 January 2008.Cyprus is last EU member fully isolated from energy interconnections and it is expected that will be connected to European network via EuroAsia Interconnector, 2000 MW HVDC undersea power cable. EuroAsia Interconnector will connect Greek, Cypriot, and Israeli power grids. It is a leading Project of Common Interest of the European Union and also priority Electricity Highway Interconnector Project.In recent years significant quantities of offshore natural gas have been discovered in the area known as Aphrodite (at the exploratory drilling block 12) in Cyprus' exclusive economic zone (EEZ), about 175 kilometres (109 miles) south of Limassol at 33°5'40″N and 32°59'0″E. However, Turkey's offshore drilling companies have accessed both natural gas and oil resources since 2013. Cyprus demarcated its maritime border with Egypt in 2003, with Lebanon in 2007, and with Israel in 2010. In August 2011, the US-based firm Noble Energy entered into a production-sharing agreement with the Cypriot government regarding the block's commercial development.Turkey, which does not recognise the border agreements of Cyprus with its neighbours, threatened to mobilise its naval forces if Cyprus proceeded with plans to begin drilling at Block 12. Cyprus' drilling efforts have the support of the US, EU, and UN, and on 19 September 2011 drilling in Block 12 began without any incidents being reported.Because of the heavy influx of tourists and foreign investors, the property rental market in Cyprus has grown in recent years. In late 2013, the Cyprus Town Planning Department announced a series of incentives to stimulate the property market and increase the number of property developments in the country's town centres. This followed earlier measures to quickly give immigration permits to third country nationals investing in Cyprus property.
+
+
+=== Transport ===
+
+Available modes of transport are by road, sea and air. Of the 10,663 km (6,626 mi) of roads in the Republic of Cyprus in 1998, 6,249 km (3,883 mi) were paved, and 4,414 km (2,743 mi) were unpaved. In 1996 the Turkish-occupied area had a similar ratio of paved to unpaved, with approximately 1,370 km (850 mi) of paved road and 980 km (610 mi) unpaved. Cyprus is one of only four EU nations in which vehicles drive on the left-hand side of the road, a remnant of British colonisation (the others being Ireland, Malta and the United Kingdom). A series of motorways runs along the coast from Paphos east to Ayia Napa, with two motorways running inland to Nicosia, one from Limassol and one from Larnaca.
+Per capita private car ownership is the 29th-highest in the world. There were approximately 344,000 privately owned vehicles, and a total of 517,000 registered motor vehicles in the Republic of Cyprus in 2006. In 2006, plans were announced to improve and expand bus services and other public transport throughout Cyprus, with the financial backing of the European Union Development Bank. In 2010 the new bus network was implemented.Cyprus has several heliports and two international airports: Larnaca International Airport and Paphos International Airport. A third airport, Ercan International Airport, operates in the Turkish Cypriot administered area with direct flights only to Turkey (Turkish Cypriot ports are closed to international traffic apart from Turkey). Nicosia International Airport has been closed since 1974.
+The main harbours of the island are Limassol and Larnaca, which service cargo, passenger and cruise ships.
+
+
+=== Communications ===
+
+Cyta, the state-owned telecommunications company, manages most telecommunications and Internet connections on the island. However, following deregulation of the sector, a few private telecommunications companies emerged, including MTN, Cablenet, OTEnet Telecom, Omega Telecom and PrimeTel. In the Turkish-controlled area of Cyprus, three different companies are present: Turkcell, KKTC Telsim and Turk Telekom.
+
+
+== Demographics ==
+
+According to the CIA World Factbook, in 2001 Greek Cypriots comprised 77%, Turkish Cypriots 18%, and others 5% of the Cypriot population. At the time of the 2011 government census, there were 10,520 people of Russian origin living in Cyprus.According to the first population census after the declaration of independence, carried out in December 1960 and covering the entire island, Cyprus had a total population of 573,566, of whom 442,138 (77.1%) were Greeks, 104,320 (18.2%) Turkish, and 27,108 (4.7%) others.Due to the inter-communal ethnic tensions between 1963 and 1974, an island-wide census was regarded as impossible. Nevertheless, the Cypriot government conducted one in 1973, without the Turkish Cypriot populace. According to this census, the Greek Cypriot population was 482,000. One year later, in 1974, the Cypriot government's Department of Statistics and Research estimated the total population of Cyprus at 641,000; of whom 506,000 (78.9%) were Greeks, and 118,000 (18.4%) Turkish. After the partition of the island in 1974, the government of Cyprus conducted four more censuses: in 1976, 1982, 1992 and 2001; these excluded the Turkish population which was resident in the northern part of the island.According to the Republic of Cyprus's latest estimate, in 2005, the number of Cypriot citizens currently living in the Republic of Cyprus is around 871,036. In addition to this, the Republic of Cyprus is home to 110,200 foreign permanent residents and an estimated 10,000–30,000 undocumented illegal immigrants currently living in the south of the island.
+According to the 2006 census carried out by Northern Cyprus, there were 256,644 (de jure) people living in Northern Cyprus. 178,031 were citizens of Northern Cyprus, of whom 147,405 were born in Cyprus (112,534 from the north; 32,538 from the south; 371 did not indicate what part of Cyprus they were from); 27,333 born in Turkey; 2,482 born in the UK and 913 born in Bulgaria. Of the 147,405 citizens born in Cyprus, 120,031 say both parents were born in Cyprus; 16,824 say both parents born in Turkey; 10,361 have one parent born in Turkey and one parent born in Cyprus.In 2010, the International Crisis Group estimated that the total population of Cyprus was 1.1 million, of which there was an estimated 300,000 residents in the north, perhaps half of whom were either born in Turkey or are children of such settlers.The villages of Rizokarpaso (only one in the north), Potamia (Nicosia district) and Pyla (Larnaca District) are the only settlements remaining with a mixed Greek and Turkish Cypriot population.Y-Dna haplogroups are found at the following frequencies in Cyprus: J (43.07% including 6.20% J1), E1b1b (20.00%), R1 (12.30% including 9.2% R1b), F (9.20%), I (7.70%), K (4.60%), A (3.10%). J, K, F and E1b1b haplogroups consist of lineages with differential distribution within Middle East, North Africa and Europe while R1 and I are typical in West European populations.
+Outside Cyprus there is a significant and thriving Greek Cypriot diaspora and Turkish Cypriot diaspora in the United Kingdom, Australia, Canada, the United States, Greece and Turkey.
+
+
+=== Functional urban areas ===
+
+
+=== Religion ===
+
+The majority of Greek Cypriots identify as Greek Orthodox, whereas most Turkish Cypriots are adherents of Sunni Islam. According to Eurobarometer 2005, Cyprus was the second most religious state in the European Union at that time, after Malta (although in 2005 Romania wasn't in the European Union; currently Romania is the most religious state in the EU) (see Religion in the European Union). The first President of Cyprus, Makarios III, was an archbishop. The current leader of the Greek Orthodox Church of Cyprus is Archbishop Chrysostomos II.
+Hala Sultan Tekke, situated near the Larnaca Salt Lake is an object of pilgrimage for both Muslims and Christians.According to the 2001 census carried out in the Government-controlled area, 94.8% of the population were Eastern Orthodox, 0.9% Armenians and Maronites, 1.5% Roman Catholics, 1.0% Church of England, and 0.6% Muslims. There is also a Jewish community on Cyprus. The remaining 1.3% adhered to other religious denominations or did not state their religion.
+
+
+=== Languages ===
+
+Cyprus has two official languages, Greek and Turkish. Armenian and Cypriot Maronite Arabic are recognised as minority languages. Although without official status, English is widely spoken and it features widely on road signs, public notices, and in advertisements, etc. English was the sole official language during British colonial rule and the lingua franca until 1960, and continued to be used (de facto) in courts of law until 1989 and in legislation until 1996. 80.4% of Cypriots are proficient in the English language as a second language. Russian is widely spoken among the country's minorities, residents and citizens of post-Soviet countries, and Pontic Greeks. Russian, after English and Greek, is the third language used on many signs of shops and restaurants, particularly in Limassol and Paphos. In addition to these languages, 12% speak French and 5% speak German.The everyday spoken language of Greek Cypriots is Cypriot Greek and that of Turkish Cypriots is Cypriot Turkish. These vernaculars both differ from their standard registers significantly.
+
+
+=== Education ===
+
+Cyprus has a highly developed system of primary and secondary education offering both public and private education. The high quality of instruction can be attributed in part to the fact that nearly 7% of the GDP is spent on education which makes Cyprus one of the top three spenders of education in the EU along with Denmark and Sweden.State schools are generally seen as equivalent in quality of education to private-sector institutions. However, the value of a state high-school diploma is limited by the fact that the grades obtained account for only around 25% of the final grade for each topic, with the remaining 75% assigned by the teacher during the semester, in a minimally transparent way. Cypriot universities (like universities in Greece) ignore high school grades almost entirely for admissions purposes. While a high-school diploma is mandatory for university attendance, admissions are decided almost exclusively on the basis of scores at centrally administered university entrance examinations that all university candidates are required to take.
+The majority of Cypriots receive their higher education at Greek, British, Turkish, other European and North American universities. It is noteworthy that Cyprus currently has the highest percentage of citizens of working age who have higher-level education in the EU at 30% which is ahead of Finland's 29.5%. In addition, 47% of its population aged 25–34 have tertiary education, which is the highest in the EU. The body of Cypriot students is highly mobile, with 78.7% studying in a university outside Cyprus.
+
+
+== Culture ==
+
+Greek Cypriots and Turkish Cypriots share a lot in common in their culture due to cultural exchanges but also have differences. Several traditional food (such as souvla and halloumi) and beverages are similar, as well as expressions and ways of life. Hospitality and buying or offering food and drinks for guests or others are common among both. In both communities, music, dance and art are integral parts of social life and many artistic, verbal and nonverbal expressions, traditional dances such as tsifteteli, similarities in dance costumes and importance placed on social activities are shared between the communities. However, the two communities have distinct religions and religious cultures, with the Greek Cypriots traditionally being Greek Orthodox and Turkish Cypriots traditionally being Sunni Muslims, which has partly hindered cultural exchange. Greek Cypriots have influences from Greece and Christianity, while Turkish Cypriots have influences from Turkey and Islam.
+The Limassol Carnival Festival is an annual carnival which is held at Limassol, in Cyprus. The event which is very popular in Cyprus was introduced in the 20th century.
+
+
+=== Arts ===
+
+The art history of Cyprus can be said to stretch back up to 10,000 years, following the discovery of a series of Chalcolithic period carved figures in the villages of Khoirokoitia and Lempa. The island is the home to numerous examples of high quality religious icon painting from the Middle Ages as well as many painted churches. Cypriot architecture was heavily influenced by French Gothic and Italian renaissance introduced in the island during the era of Latin domination (1191–1571).
+A well known traditional art that dates at least from the 14th century is the Lefkara Lace (also known as "Lefkaratika", which originates from the village Lefkara.  Lefkara lace is recognized as an intangible cultural heritage (ICH) by Unesco, and it is characterized by distinct design patterns, and its intricate, time-consuming production process. A genuine Lefkara lace with full embroidery can take typically hundreds of hours to be made, and that is why it is usually priced quite high. Another local form of art the originated from Lefkara is the production of Cypriot Filigree (locally known as Trifourenio), a type of jewellery that is made with twisted threads of silver. In Lefkara village there is government funded center named Lefkara Handicraft Center the mission of which is to educate and teach the art of making the embroidery and silver jewellery. There's also the Museum of Traditional Embroidery an Silversmithing located in the village which has large collection of local handmade art.
+In modern times Cypriot art history begins with the painter Vassilis Vryonides (1883–1958) who studied at the Academy of Fine Arts in Venice. Arguably the two founding fathers of modern Cypriot art were Adamantios Diamantis (1900–1994) who studied at London's Royal College of Art and Christopheros Savva (1924–1968) who also studied in London, at Saint Martin's School of Art. In many ways these two artists set the template for subsequent Cypriot art and both their artistic styles and the patterns of their education remain influential to this day. In particular the majority of Cypriot artists still train in England while others train at art schools in Greece and local art institutions such as the Cyprus College of Art, University of Nicosia and the Frederick Institute of Technology.
+One of the features of Cypriot art is a tendency towards figurative painting although conceptual art is being rigorously promoted by a number of art "institutions" and most notably the Nicosia Municipal Art Centre. Municipal art galleries exist in all the main towns and there is a large and lively commercial art scene. Cyprus was due to host the international art festival Manifesta in 2006 but this was cancelled at the last minute following a dispute between the Dutch organizers of Manifesta and the Cyprus Ministry of Education and Culture over the location of some of the Manifesta events in the Turkish sector of the capital Nicosia.Other notable Greek Cypriot artists include Helene Black, Kalopedis family, Panayiotis Kalorkoti, Nicos Nicolaides, Stass Paraskos, Arestís Stasí, Telemachos Kanthos, Konstantia Sofokleous and Chris Achilleos, and Turkish Cypriot artists include İsmet Güney, Ruzen Atakan and Mutlu Çerkez.
+
+
+=== Music ===
+
+The traditional folk music of Cyprus has several common elements with Greek, Turkish, and Arabic Music, all of which have descended from Byzantine music, including Greek Cypriot and Turkish Cypriot dances such as the sousta, syrtos, zeibekikos, tatsia, and karsilamas as well as the Middle Eastern-inspired tsifteteli and arapies. There is also a form of musical poetry known as chattista which is often performed at traditional feasts and celebrations. The instruments commonly associated with Cyprus folk music are the violin ("fkiolin"), lute ("laouto"), accordion, Cyprus flute (pithkiavlin), oud ("outi"), kanonaki and percussions (including the "toumperleki"). Composers associated with traditional Cypriot music include Solon Michaelides, Marios Tokas, Evagoras Karageorgis and Savvas Salides. Among musicians is also the acclaimed pianist Cyprien Katsaris, composer Andreas G. Orphanides, and composer and artistic director of the European Capital of Culture initiative Marios Joannou Elia.
+Popular music in Cyprus is generally influenced by the Greek Laïka scene; artists who play in this genre include international platinum star Anna Vissi, Evridiki, and Sarbel. Hip Hop, R&B have been supported by the emergence of Cypriot rap and the urban music scene at Ayia Napa, while in the last years the reggae scene is growing, especially through the participation of many Cypriot artists at the annual Reggae Sunjam festival. Is also noted Cypriot rock music and Éntekhno rock is often associated with artists such as Michalis Hatzigiannis and Alkinoos Ioannidis. Metal also has a small following in Cyprus represented by bands such as Armageddon (rev.16:16), Blynd, Winter's Verge, Methysos and Quadraphonic.
+
+
+=== Literature ===
+
+Literary production of the antiquity includes the Cypria, an epic poem, probably composed in the late 7th century BC and attributed to Stasinus. The Cypria is one of the very first specimens of Greek and European poetry. The Cypriot Zeno of Citium was the founder of the Stoic school of philosophy.
+Epic poetry, notably the "acritic songs", flourished during Middle Ages. Two chronicles, one written by Leontios Machairas and the other by Georgios Voustronios, cover the entire Middle Ages until the end of Frankish rule (4th century–1489). Poèmes d'amour written in medieval Greek Cypriot date back from the 16th century. Some of them are actual translations of poems written by Petrarch, Bembo, Ariosto and G. Sannazzaro. Many Cypriot scholars fled Cyprus at troubled times such as Ioannis Kigalas (c. 1622–1687) who migrated from Cyprus to Italy in the 17th century, several of his works have survived in books of other scholars.
+
+Hasan Hilmi Efendi, a Turkish Cypriot poet, was rewarded by the Ottoman sultan Mahmud II and said to be the "sultan of the poems".Modern Greek Cypriot literary figures include the poet and writer Kostas Montis, poet Kyriakos Charalambides, poet Michalis Pasiardis, writer Nicos Nicolaides, Stylianos Atteshlis, Altheides, Loukis Akritas and Demetris Th. Gotsis. Dimitris Lipertis, Vasilis Michaelides and Pavlos Liasides are folk poets who wrote poems mainly in the Cypriot-Greek dialect. Among leading Turkish Cypriot writers are Osman Türkay, twice nominated for the Nobel Prize in Literature, Özker Yaşın, Neriman Cahit, Urkiye Mine Balman, Mehmet Yaşın and Neşe Yaşın.
+There is an increasingly strong presence of both temporary and permanent emigre Cypriot writers in world literature, as well as writings by second and third -generation Cypriot writers born or raised abroad, often writing in English. This includes writers such as Michael Paraskos and Stephanos Stephanides.Examples of Cyprus in foreign literature include the works of Shakespeare, with most of the play Othello by William Shakespeare set on the island of Cyprus. British writer Lawrence Durrell lived in Cyprus from 1952 until 1956, during his time working for the British colonial government on the island, and wrote the book Bitter Lemons about his time in Cyprus which won the second Duff Cooper Prize in 1957.
+
+
+=== Mass media ===
+
+In the 2015 Freedom of the Press report of Freedom House, the Republic of Cyprus and Northern Cyprus were ranked "free". The Republic of Cyprus scored 25/100 in press freedom, 5/30 in Legal Environment, 11/40 in Political Environment, and 9/30 in Economic Environment (the lower scores the better). Reporters Without Borders rank the Republic of Cyprus 24th out of 180 countries in the 2015 World Press Freedom Index, with a score of 15.62The law provides for freedom of speech and press, and the government generally respects these rights in practice. An independent press, an effective judiciary, and a functioning democratic political system combine to ensure freedom of speech and of the press. The law prohibits arbitrary interference with privacy, family, home, or correspondence, and the government generally respects these prohibitions in practice.Local television companies in Cyprus include the state owned Cyprus Broadcasting Corporation which runs two television channels. In addition on the Greek side of the island there are the private channels ANT1 Cyprus, Plus TV, Mega Channel, Sigma TV, Nimonia TV (NTV) and New Extra. In Northern Cyprus, the local channels are BRT, the Turkish Cypriot equivalent to the Cyprus Broadcasting Corporation, and a number of private channels. The majority of local arts and cultural programming is produced by the Cyprus Broadcasting Corporation and BRT, with local arts documentaries, review programmes and filmed drama series.
+
+
+=== Cinema ===
+
+The most worldwide known Cypriot director, to have worked abroad, is Michael Cacoyannis.
+In the late 1960s and early 1970s, George Filis produced and directed Gregoris Afxentiou, Etsi Prodothike i Kypros, and The Mega Document. In 1994, Cypriot film production received a boost with the establishment of the Cinema Advisory Committee. In 2000, the annual amount set aside for filmmaking in the national budget was CYP£500,000 (about €850,000). In addition to government grants, Cypriot co-productions are eligible for funding from the Council of Europe's Eurimages Fund, which finances European film co-productions. To date, four feature films on which a Cypriot was an executive producer have received funding from Eurimages. The first was I Sphagi tou Kokora (1996), followed by Hellados (unreleased), To Tama (1999), and O Dromos gia tin Ithaki (2000).In 2009, Greek filmmaker Vassilis Mazomenos shot the drama film Guilt in Cyprus. The film was awarded the Best Screenwriting and Best Photography award at the London Greek Film Festival, and was an official selection in the Montreal World Film Festival, Cairo International Film Festival, India International Film Festival, Tallinn Black Nights Film Festival, and Fantasporto. It was also the opening film in the Panorama of European Cinema in Athens. In 2010, the film was nominated for the best film from the Hellenic Film Academy.
+Only a small number of foreign films have been made in Cyprus. This includes Incense for the Damned (1970), The Beloved (1970), and Ghost in the Noonday Sun (1973). Parts of the John Wayne film The Longest Day (1962) were also filmed in Cyprus.
+
+
+=== Cuisine ===
+
+During the medieval period, under the French Lusignan monarchs of Cyprus an elaborate form of courtly cuisine developed, fusing French, Byzantine and Middle Eastern forms. The Lusignan kings were known for importing Syrian cooks to Cyprus, and it has been suggested that one of the key routes for the importation of Middle Eastern recipes into France and other Western European countries, such as blancmange, was via the Lusignan Kingdom of Cyprus. These recipes became known in the West as Vyands de Chypre, or Foods of Cyprus, and the food historian William Woys Weaver has identified over one hundred of them in English, French, Italian and German recipe books of the Middle Ages. One that became particularly popular across Europe in the medieval and early modern periods was a stew made with chicken or fish called malmonia, which in English became mawmeny.Another example of a Cypriot food ingredient entering the Western European canon is the cauliflower, still popular and used in a variety of ways on the island today, which was associated with Cyprus from the early Middle Ages. Writing in the 12th and 13th centuries the Arab botanists Ibn al-'Awwam and Ibn al-Baitar claimed the vegetable had its origins were Cyprus, and this association with the island was echoed in Western Europe, where cauliflowers were originally known as Cyprus cabbage or Cyprus colewart. There was also a long and extensive trade in cauliflower seeds from Cyprus, until well into the sixteenth century.Although much of the Lusignan food culture was lost after the fall of Cyprus to the Ottomans in 1571, a number of dishes that would have been familiar to the Lusignans survive today, including various forms of tahini and houmous, zalatina, skordalia and pickled wild song birds called ambelopoulia. Ambelopoulia, which is today highly controversial, and illegal, was exported in vast quantities from Cyprus during the Lusignan and Venetian periods, particularly to Italy and France. In 1533 the English traveller to Cyprus, John Locke, claimed to have seen the pickled wild birds packed into large jars, or which 1200 jars were exported from Cyprus annually.Also familiar to the Lusignans would have been Halloumi cheese, which some food writers today claim originated in Cyprus during the Byzantine period although the name of the cheese itself is thought by academics to be of Arabic origin. There is no surviving written documentary evidence of the cheese being associated with Cyprus before the year 1554, when the Italian historian Florio Bustron wrote of a sheep-milk cheese from Cyprus he called calumi. Halloumi (Hellim) is commonly served sliced, grilled, fried and sometimes fresh, as an appetiser or meze dish.
+
+Seafood and fish dishes include squid, octopus, red mullet, and sea bass. Cucumber and tomato are used widely in salads. Common vegetable preparations include potatoes in olive oil and parsley, pickled cauliflower and beets, asparagus and taro. Other traditional delicacies are meat marinated in dried coriander seeds and wine, and eventually dried and smoked, such as lountza (smoked pork loin), charcoal-grilled lamb, souvlaki (pork and chicken cooked over charcoal), and sheftalia (minced meat wrapped in mesentery). Pourgouri (bulgur, cracked wheat) is the traditional source of carbohydrate other than bread, and is used to make the delicacy koubes.
+Fresh vegetables and fruits are common ingredients. Frequently used vegetables include courgettes, green peppers, okra, green beans, artichokes, carrots, tomatoes, cucumbers, lettuce and grape leaves, and pulses such as beans, broad beans, peas, black-eyed beans, chick-peas and lentils. The most common fruits and nuts are pears, apples, grapes, oranges, mandarines, nectarines, medlar, blackberries, cherry, strawberries, figs, watermelon, melon, avocado, lemon, pistachio, almond, chestnut, walnut, and hazelnut.
+Cyprus is also well known for its desserts, including lokum (also known as Turkish Delight) and Soutzoukos. This island has protected geographical indication (PGI) for its lokum produced in the village of Geroskipou.
+
+
+=== Sports ===
+
+Sport governing bodies include the Cyprus Football Association, Cyprus Basketball Federation, Cyprus Volleyball Federation, Cyprus Automobile Association, Cyprus Badminton Federation, Cyprus Cricket Association, Cyprus Rugby Federation and the Cyprus Pool Association.
+Notable sports teams in the Cyprus leagues include APOEL FC, Anorthosis Famagusta FC, AC Omonia, AEL Lemesos, Apollon FC, Nea Salamis Famagusta FC, AEK Larnaca FC, AEL Limassol B.C., Keravnos B.C. and Apollon Limassol B.C.. Stadiums or sports venues include the GSP Stadium (the largest in the Republic of Cyprus-controlled areas), Tsirion Stadium (second largest), Neo GSZ Stadium, Antonis Papadopoulos Stadium, Ammochostos Stadium and Makario Stadium.
+In the 2008–09 season, Anorthosis Famagusta FC was the first Cypriot team to qualify for the UEFA Champions League Group stage. Next season, APOEL FC qualified for the UEFA Champions League group stage, and reached the last 8 of the 2011-12 UEFA Champions League after finishing top of its group and beating French Olympique Lyonnais in the Round of 16.
+The Cyprus national rugby union team known as The Moufflons currently holds the record for most consecutive international wins, which is especially notable as the Cyprus Rugby Federation was only formed in 2006.
+Tennis player Marcos Baghdatis was ranked 8th in the world, was a finalist at the Australian Open, and reached the Wimbledon semi-final, all in 2006. High jumper Kyriakos Ioannou achieved a jump of 2.35 m at the 11th IAAF World Championships in Athletics in Osaka, Japan, in 2007, winning the bronze medal. He has been ranked third in the world. In motorsports, Tio Ellinas is a successful race car driver, currently racing in the GP3 Series for Marussia Manor Motorsport. There is also mixed martial artist Costas Philippou, who competes in the Ultimate Fighting Championship promotion's middleweight division. Costas holds a 6–3 record in UFC bouts, and recently defeated "The Monsoon" Lorenz Larkin by a knockout in the first round.
+Also notable for a Mediterranean island, the siblings Christopher and Sophia Papamichalopoulou qualified for the 2010 Winter Olympics in Vancouver, British Columbia, Canada. They were the only athletes who managed to qualify and thus represented Cyprus at the 2010 Winter Olympics.
+The country's first ever Olympic medal, a silver medal, was won by the sailor Pavlos Kontides, at the 2012 Summer Olympics in the Men's Laser class.
+
+
+== See also ==
+Ancient regions of Anatolia
+Index of Cyprus-related articles
+Outline of Cyprus
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Further reading ==
+
+
+== External links ==
+
+"Cyprus". The World Factbook. Central Intelligence Agency.
+Timeline of Cyprus by BBC
+Cyprus from UCB Libraries GovPubs
+Cyprus information from the United States Department of State includes Background Notes, Country Study and major reports
+Cyprus at Curlie
+Cyprus profile from the BBC News
+The UN in Cyprus
+Cypriot Pottery, Bryn Mawr College Art and Artifact Collections
+The Cesnola collection of Cypriot art : stone sculpture, a fully digitised text from The Metropolitan Museum of Art librariesGovernment
+
+Cyprus High Commission Trade Centre – London
+Republic of Cyprus – English Language
+Constitution of the Republic of Cyprus
+Press and Information Office – Ministry of Interior
+Annan PlanTourism
+
+Read about Cyprus on visitcyprus.com – the official travel portal for Cyprus
+Cyprus informational portal and open platform for contribution of Cyprus-related content – www.Cyprus.com
+ Geographic data related to Cyprus at OpenStreetMapOfficial publications
+
+The British government's Foreign Affairs Committee report on Cyprus.
+Legal Issues arising from certain population transfers and displacements on the territory of the Republic of Cyprus in the period since 20 July 1974
+Address to Cypriots by President Papadopoulos (FULL TEXT)
+Official Cyprus Government Web Site
+Embassy of Greece, USA – Cyprus: Geographical and Historical Background
+</TEXT>
+</DOC>
+

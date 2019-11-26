@@ -1,0 +1,401 @@
+Solar neutrino unit
+
+Electron neutrinos are produced in the Sun as a product of nuclear fusion. Solar neutrinos constitute by far the largest flux of neutrinos from natural sources observed on Earth, as compared with e.g. atmospheric neutrinos or the diffuse supernova neutrino background.
+
+
+== Production mechanisms ==
+
+Solar neutrinos are produced in the core of the Sun through various nuclear fusion reactions, each of which occurs at a particular rate and leads to its own spectrum of neutrino energies. Details of the more prominent of these reactions are described below.
+The main contribution comes from the proton-proton reaction. The reaction is:
+
+  
+    
+      
+        
+          p
+        
+        +
+        
+          p
+        
+        →
+        
+          d
+        
+        +
+        
+          
+            e
+          
+          
+            +
+          
+        
+        +
+        
+          
+            ν
+          
+          
+            e
+          
+        
+      
+    
+    {\displaystyle {\text{p}}+{\text{p}}\to {\text{d}}+{\text{e}}^{+}+\operatorname {\nu } _{\text{e}}}
+  or in words:
+
+two protons 
+  
+    
+      
+        →
+      
+    
+    {\displaystyle \to }
+   deuteron + positron + electron neutrino.Of all Solar neutrinos, 86% are produced from this reaction. As shown in the figure titled "Solar neutrinos (proton-proton chain) in the Standard Solar Model", the deuteron will fuse with another proton to create a 3He nucleus and a gamma ray. This reaction can be seen as:
+
+  
+    
+      
+        
+          d
+        
+        +
+        
+          p
+        
+        →
+        
+          
+            
+            
+              3
+            
+          
+        
+        
+          He
+        
+        +
+        
+          γ
+        
+      
+    
+    {\displaystyle {\text{d}}+{\text{p}}\to {^{3}}{\text{He}}+\operatorname {\gamma } }
+  The isotope 4He can be produced by using the 3He in the previous reaction which is seen below.
+
+  
+    
+      
+        
+          
+            
+            
+              3
+            
+          
+        
+        
+          He
+        
+        +
+        
+          
+            
+            
+              3
+            
+          
+        
+        
+          He
+        
+        →
+        
+          
+            
+            
+              4
+            
+          
+        
+        
+          He
+        
+        +
+        2
+        
+        
+          p
+        
+      
+    
+    {\displaystyle {^{3}}{\text{He}}+{^{3}}{\text{He}}\to {^{4}}{\text{He}}+2\,{\text{p}}}
+  With both helium-3 and helium-4 now in the environment, one of each weight of helium nucleus can fuse to produce beryllium:
+
+  
+    
+      
+        
+          
+            
+            
+              3
+            
+          
+        
+        
+          He
+        
+        +
+        
+          
+            
+            
+              4
+            
+          
+        
+        
+          He
+        
+        →
+        
+          
+            
+            
+              7
+            
+          
+        
+        
+          Be
+        
+        +
+        
+          γ
+        
+      
+    
+    {\displaystyle {^{3}}{\text{He}}+{^{4}}{\text{He}}\to {^{7}}{\text{Be}}+\operatorname {\gamma } }
+  Beryllium-7 can follow two different paths from this stage: It could capture an electron and produce the more stable lithium-7 nucleus and an electron neutrino, or alternatively, it could capture one of the abundant protons, which would create boron-8. The first reaction via lithium-7 is:
+
+  
+    
+      
+        
+          
+            
+            
+              7
+            
+          
+        
+        
+          Be
+        
+        +
+        
+          
+            e
+          
+          
+            −
+          
+        
+        →
+        
+          
+            
+            
+              7
+            
+          
+        
+        
+          Li
+        
+        +
+        
+          
+            ν
+          
+          
+            e
+          
+        
+      
+    
+    {\displaystyle {^{7}}{\text{Be}}+{\text{e}}^{-}\to {^{7}}{\text{Li}}+\operatorname {\nu } _{\text{e}}}
+  This lithium-yielding reaction produces 14% of the solar neutrinos. The resulting lithium-7 later combines with a proton to produce two nuclei of helium-4. The alternative reaction is proton capture, that produces boron-8, which then beta+ decays into beryllium-8 as shown below:
+
+  
+    
+      
+        
+          
+            
+            
+              7
+            
+          
+        
+        
+          Be
+        
+        +
+        
+          p
+        
+        →
+        
+          
+            
+            
+              8
+            
+          
+        
+        
+          B
+        
+        +
+        
+          γ
+        
+      
+    
+    {\displaystyle {^{7}}{\text{Be}}+{\text{p}}\to {^{8}}{\text{B}}+\operatorname {\gamma } }
+  
+
+  
+    
+      
+        
+          
+            
+            
+              8
+            
+          
+        
+        
+          B
+        
+        →
+        
+          
+            
+            
+              8
+            
+          
+        
+        
+          Be
+        
+        
+          
+            
+            
+              ∗
+            
+          
+        
+        +
+        
+          
+            e
+          
+          
+            +
+          
+        
+        +
+        
+          
+            ν
+          
+          
+            e
+          
+        
+      
+    
+    {\displaystyle {^{8}}{\text{B}}\to {^{8}}{\text{Be}}{^{*}}+{\text{e}}^{+}+\operatorname {\nu } _{\text{e}}}
+  This alternative boron-yielding reaction produces about 0.02% of the solar neutrinos; although so few that they would conventionally be neglected, these rare solar neutrinos stand out because of their higher average energies. The asterisk (*) on the beryllium-8 nucleus indicates that it is in an excited, unstable state. The excited beryllium-8 nucleus then splits into two helium-4 nuclei:
+
+  
+    
+      
+        
+          
+            
+            
+              8
+            
+          
+        
+        
+          Be
+        
+        
+          
+            
+            
+              ∗
+            
+          
+        
+        →
+        
+          
+            
+            
+              4
+            
+          
+        
+        
+          He
+        
+        +
+        
+          
+            
+            
+              4
+            
+          
+        
+        
+          He
+        
+      
+    
+    {\displaystyle {^{8}}{\text{Be}}{^{*}}\to {^{4}}{\text{He}}+{^{4}}{\text{He}}}
+  
+
+
+== Observed data ==
+
+The highest flux of solar neutrinos come directly from the proton-proton interaction, and have a low energy, up to 400 keV, as shown in Fig. 1.  There are also several other significant production mechanisms, with energies up to 18 MeV.  From the Earth, the amount of neutrino flux at Earth is around 7·1010 particles·cm−2·s −1. The number of neutrinos can be predicted by the Standard Solar Model.  The detected number of electron neutrinos was only 1/3 of the predicted number, and this was known as the solar neutrino problem.  It led to the idea of neutrino oscillation and the fact that neutrinos can change flavour.  This was confirmed when the total flux of solar neutrinos of all types was measured and it agreed with the earlier predictions of expected electron neutrino flux, as seen by Sudbury Neutrino Observatory, and thus confirmed that neutrinos have mass. Solar models additionally predict the location within the Sun's core where solar neutrinos should originate from, depending on the nuclear fusion reaction which leads to their production. Future neutrino detectors will be able to detect the incoming direction of these neutrinos with enough precision to measure this effect.
+
+The energy spectrum of solar neutrinos is also predicted by solar models. It is essential to know this energy spectrum because different neutrino detection experiments are sensitive to different neutrino energy ranges. The Homestake Experiment used chlorine and was most sensitive to solar neutrinos produced by the decay of the beryllium isotope 7Be. The Sudbury Neutrino Observatory is most sensitive to solar neutrinos produced by 8B. The detectors that use gallium are most sensitive to the solar neutrinos produced by the proton-proton chain reaction process, however they were not able to observe this contribution separately. The observation of the neutrinos from the basic reaction of this chain, proton-proton fusion in deuterium, was achieved for the first time by Borexino in 2014. In 2012 the same collaboration reported detecting low-energy neutrinos for the  proton-electron-proton (pep reaction) that produces 1 in 400 deuterium nuclei in the sun. The detector contained 100 metric tons of liquid and saw on average 3 events each day (due to carbon 11 production) from this relatively uncommon thermonuclear reaction. Note that Borexino measured neutrinos of several energies; in this manner they have demonstrated experimentally,  for the first time, the pattern of solar neutrino oscillations predicted by the theory. Neutrinos can trigger nuclear reactions.  By looking at ancient ores of various ages that have been exposed to solar neutrinos over geologic time, it may be possible to interrogate the luminosity of the Sun over time, which, according to the Standard Solar Model, has changed with time.
+
+
+== See also ==
+Neutrino oscillations
+Solar neutrino problem
+Neutrino detector
+Neutral particle oscillation
+Solar neutrino unit
+
+
+== References ==
+
+
+== Further reading ==
+Haxton, W.C.; Hamish Robertson, R.G.; Serenelli, Aldo M. (18 August 2013). "Solar Neutrinos: Status and Prospects". Annual Review of Astronomy and Astrophysics. 51 (1): 21–61. arXiv:1208.5723. Bibcode:2013ARA&A..51...21H. CiteSeerX 10.1.1.755.6940. doi:10.1146/annurev-astro-081811-125539.

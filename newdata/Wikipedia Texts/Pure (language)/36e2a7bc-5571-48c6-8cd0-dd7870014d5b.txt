@@ -1,0 +1,120 @@
+Pure (programming language)
+
+Pure, successor to the equational language Q, is a dynamically typed, functional programming language based on term rewriting. It has facilities for user-defined operator syntax, macros, arbitrary-precision arithmetic (multiple-precision numbers), and compiling to native code through the LLVM. Pure is free and open-source software distributed (mostly) under the GNU Lesser General Public License version 3 or later.
+Pure comes with an interpreter and debugger, provides automatic memory management, has powerful functional and symbolic programming abilities, and interfaces to libraries in C (e.g., for numerics, low-level protocols, and other such tasks). At the same time, Pure is a small language designed from scratch; its interpreter is not large, and the library modules are written in Pure. The syntax of Pure resembles that of Miranda and Haskell, but it is a free-format language and thus uses explicit delimiters (rather than off-side rule indents) to denote program structure.
+The Pure language is a successor of the equational programming language Q, previously created by the same author, Albert Gräf at the University of Mainz, Germany. Relative to Q, it offers some important new features (such as local functions with lexical scoping, efficient vector and matrix support, and the built-in C interface) and programs run much faster as they are compiled just-in-time to native code on the fly. Pure is mostly aimed at mathematical applications and scientific computing currently, but its interactive interpreter environment, the C interface and the growing set of addon modules make it suitable for a variety of other applications, such as artificial intelligence, symbolic computation, and real-time multimedia processing.
+Pure plug-ins are available for the Gnumeric spreadsheet and Miller Puckette's Pure Data graphical multimedia software, which make it possible to extend these programs with functions written in the Pure language. Interfaces are also provided as library modules to GNU Octave, OpenCV, OpenGL, the GNU Scientific Library, FAUST, SuperCollider, and liblo (for Open Sound Control (OSC)).
+
+
+== Examples ==
+The Fibonacci numbers (naive version):
+
+ fib 0 = 0;
+ fib 1 = 1;
+ fib n = fib (n-2) + fib (n-1) if n>1;
+
+Better (tail-recursive and linear-time) version:
+
+ fib n = fibs (0,1) n with
+   fibs (a,b) n = if n<=0 then a else fibs (b,a+b) (n-1);
+ end;
+
+Compute the first 20 Fibonacci numbers:
+
+ map fib (1..20);
+
+An algorithm for the n queens problem which employs a list comprehension to organize the backtracking search:
+
+ queens n = search n 1 [] with
+   search n i p  = [reverse p] if i>n;
+                 = cat [search n (i+1) ((i,j):p) | j = 1..n; safe (i,j) p];
+   safe (i,j) p  = ~any (check (i,j)) p;
+   check (i1,j1) (i2,j2)
+                 = i1==i2 || j1==j2 || i1+j1==i2+j2 || i1-j1==i2-j2;
+ end;
+
+While Pure uses eager evaluation by default, it also supports lazy data structures such as streams (lazy lists). For instance, David Turner's algorithm for computing the stream of prime numbers by trial division can be expressed in Pure:
+
+ primes = sieve (2..inf) with
+   sieve (p:qs) = p : sieve [q | q = qs; q mod p] &;
+ end;
+
+Use of the & operator turns the tail of the sieve into a thunk to delay its computation. The thunk is evaluated implicitly and then memoized (using call by need evaluation) when the corresponding part of the list is accessed, e.g.:
+
+ primes!!(0..99); // yields the first 100 primes
+
+Pure has efficient support for vectors and matrices (similar to that of MATLAB and GNU Octave), including vector and matrix comprehensions. E.g., a Gaussian elimination algorithm with partial pivoting can be implemented in Pure thus:
+
+ gauss_elimination x::matrix = p,x
+ when n,m = dim x; p,_,x = foldl step (0..n-1,0,x) (0..m-1) end;
+ 
+ step (p,i,x) j
+ = if max_x==0 then p,i,x else
+     // updated row permutation and index:
+     transp i max_i p, i+1,
+     {// the top rows of the matrix remain unchanged:
+      x!!(0..i-1,0..m-1);
+      // the pivot row, divided by the pivot element:
+      {x!(i,l)/x!(i,j)                 | l=0..m-1};
+      // subtract suitable multiples of the pivot row:
+      {{x!(k,l)-x!(k,j)*x!(i,l)/x!(i,j) | k=i+1..n-1; l=0..m-1}}
+ when
+   n,m = dim x; max_i, max_x = pivot i (col x j);
+   x = if max_x>0 then swap x i max_i else x;
+ end with
+   pivot i x = foldl max (0,0) [j,abs (x!j)|j=i..#x-1];
+   max (i,x) (j,y) = if x<y then j,y else i,x;
+ end;
+ 
+ /* Swap rows i and j of the matrix x. */
+ 
+ swap x i j = x!!(transp i j (0..n-1),0..m-1) when n,m = dim x end;
+ 
+ /* Apply a transposition to a permutation. */
+ 
+ transp i j p = [p!tr k | k=0..#p-1]
+ with tr k = if k==i then j else if k==j then i else k end;
+ 
+ /* Example: */
+ 
+ let x = dmatrix {2,1,-1,8; -3,-1,2,-11; -2,1,2,-3};
+ x; gauss_elimination x;
+
+As a language based on term rewriting, Pure fully supports symbolic computation with expressions. Here is an example showing the use of local rewriting rules to expand and factor simple arithmetic expressions:
+
+ expand = reduce with
+   (a+b)*c = a*c+b*c;
+   a*(b+c) = a*b+a*c;
+ end;
+ 
+ factor = reduce with
+   a*c+b*c = (a+b)*c;
+   a*b+a*c = a*(b+c);
+ end;
+ 
+ expand ((a+b)*2); // yields a*2+b*2
+ factor (a*2+b*2); // yields (a+b)*2
+
+Calling C functions from Pure is very easy. E.g., the following imports the puts function from the C library and uses it to print the string "Hello, world!" on the terminal:
+
+
+== See also ==
+
+Functional programming
+Functional languages
+
+
+== References ==
+Albert Gräf. "Signal Processing in the Pure Programming Language". Linux Audio Conference 2009.
+Michael Riepe. "Pure – eine einfache funktionale Sprache". Heise.
+"Interview With Albert Gräf". blueparen.
+
+
+== Notes ==
+
+
+== External links ==
+Official website
+Pure language and library documentation
+Pure quick reference
+Pure Primer

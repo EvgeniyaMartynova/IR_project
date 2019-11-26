@@ -1,0 +1,72 @@
+Musical set
+
+A set (pitch set, pitch-class set, set class, set form, set genus, pitch collection) in music theory, as in mathematics and general parlance, is a collection of objects. In musical contexts the term is traditionally applied most often to collections of pitches or pitch-classes, but theorists have extended its use to other types of musical entities, so that one may speak of sets of durations or timbres, for example.
+
+A set by itself does not necessarily possess any additional structure, such as an ordering or permutation. Nevertheless, it is often musically important to consider sets that are equipped with an order relation (called segments); in such contexts, bare sets are often referred to as "unordered", for the sake of emphasis.Two-element sets are called dyads, three-element sets trichords (occasionally "triads", though this is easily confused with the traditional meaning of the word triad).  Sets of higher cardinalities are called tetrachords (or tetrads), pentachords (or pentads), hexachords (or hexads), heptachords (heptads or, sometimes, mixing Latin and Greek roots, "septachords"), octachords (octads), nonachords (nonads), decachords (decads), undecachords, and, finally, the dodecachord.
+A time-point set is a duration set where the distance in time units between attack points, or time-points, is the distance in semitones between pitch classes.
+
+
+== Serial ==
+In the theory of serial music, however, some authors (notably Milton Babbitt) use the term "set" where others would use "row" or "series", namely to denote an ordered collection (such as a twelve-tone row) used to structure a work. These authors speak of "twelve tone sets", "time-point sets", "derived sets", etc. (See below.) This is a different usage of the term "set" from that described above (and referred to in the term "set theory").
+For these authors, a set form (or row form) is a particular arrangement of such an ordered set: the prime form (original order), inverse (upside down), retrograde (backwards), and retrograde inverse (backwards and upside down).A derived set is one which is generated or derived from consistent operations on a subset, for example Webern's Concerto, Op.24, in which the last three subsets are derived from the first:
+This can be represented numerically as the integers 0 to 11:
+
+0 11 3 4 8 7 9 5 6 1 2 10
+
+The first subset (B B♭ D) being:
+
+0 11 3 prime-form, interval-string = ⟨−1 +4⟩
+
+The second subset (E♭ G F♯) being the retrograde-inverse of the first, transposed up one semitone:
+
+  3 11 0 retrograde, interval-string = ⟨−4 +1⟩ mod 12
+  
+  3  7 6 inverse, interval-string = ⟨+4 −1⟩ mod 12
++ 1  1 1
+  ------
+= 4  8 7 
+
+The third subset (G♯ E F) being the retrograde of the first, transposed up (or down) six semitones:
+
+  3 11 0 retrograde
++ 6  6 6
+  ------
+  9  5 6 
+
+And the fourth subset (C C♯ A) being the inverse of the first, transposed up one semitone:
+
+  0 11  3 prime form, interval-vector = ⟨−1 +4⟩ mod 12 
+
+  0  1  9 inverse, interval-string = ⟨+1 −4⟩ mod 12
++ 1  1  1
+  -------
+  1  2 10
+
+Each of the four trichords (3-note sets) thus displays a relationship which can be made obvious by any of the four serial row operations, and thus creates certain invariances. These invariances in serial music are analogous to the use of common-tones and common-chords in tonal music.
+
+
+== Non-serial ==
+
+The fundamental concept of a non-serial set is that it is an unordered collection of pitch classes.The normal form of a set is the most compact ordering of the pitches in a set. Tomlin defines the "most compact" ordering as the one where, "the largest of the intervals between any two consecutive pitches is between the first and last pitch listed". For example, the set (0,2) (a major second) is in normal form while the set (0,10) (a minor seventh, the inversion of a major second) is not, its normal form being (10,0).
+Rather than the "original" (untransposed, uninverted) form of the set the prime form may be considered either the normal form of the set or the normal form of its inversion, whichever is more tightly packed. Forte (1973) and Rahn (1980) both list the prime forms of a set as the most left-packed possible version of the set. Forte packs from the left and Rahn packs from the right ("making the small numbers smaller," versus making, "the larger numbers ... smaller"). For many years it was accepted that there were only five instances in which the two algorithms differ . However in 2017, music theorist Ian Ring discovered that there is a sixth set class where Forte and Rahn's algorithms arrive at different prime forms.. Ian Ring also established a much simpler algorithm for computing the prime form of a set, which produces the same results as the more complicated algorithm previously published by John Rahn.
+
+
+== Vectors ==
+
+
+== See also ==
+Forte number
+Pitch interval
+Similarity relation
+
+
+== Further reading ==
+Schuijer, Michiel (2008). Analyzing Atonal Music: Pitch-Class Set Theory and Its Contexts. ISBN 978-1-58046-270-9.
+
+
+== References ==
+
+
+== External links ==
+"Set Theory Calculator", JayTomlin.com. Calculates normal form, prime form, Forte number, and interval class vector for a given set and vice versa.
+"PC Set Calculator", MtA.Ca.
