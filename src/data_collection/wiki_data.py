@@ -8,8 +8,9 @@ import os
 import uuid
 import random
 import re
+import shutil
 
-data_path = "newdata/"#"../../../data"
+data_path = "newdata"#"../../../data"
 topics_texts_folder = "Wikipedia Texts"
 topics_aspects_folder = "Topics Aspects"
 
@@ -147,8 +148,8 @@ def download_wiki_data(links):
                         except:
                             print("Unknown Error")
                             continue
-                if len(aspects) == 0:
-                    os.rmdir(topic_directory)
+                if len(aspects) == 0 or len(aspects) == 1:
+                    shutil.rmtree(topic_directory)
                 else:
                     save_page_topic_aspects(topic, aspects)
 
