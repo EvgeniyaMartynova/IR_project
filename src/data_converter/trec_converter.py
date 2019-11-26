@@ -44,7 +44,7 @@ def read_file(directory, file_name):
 def convert_text_to_trec_doc(text, document_number):
     trec_doc = doc_begin + new_line
     trec_doc += docno_begin + document_number + docno_end + new_line
-    lines = text.partition('\n')
+    lines = text.partition('\n\n')
     title = lines[0]
     trec_doc += title_begin + title + title_end + new_line
     body = "".join(lines[2:])

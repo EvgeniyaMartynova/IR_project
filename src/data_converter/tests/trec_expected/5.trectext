@@ -1,5 +1,6 @@
 <DOC>
 <DOCNO>5</DOCNO>
+<TITLE>Title 5.5</TITLE>
 <TEXT>
 File 5.5
 </TEXT>
@@ -7,6 +8,7 @@ File 5.5
 
 <DOC>
 <DOCNO>4</DOCNO>
+<TITLE>Title 5.4</TITLE>
 <TEXT>
 File 5.4
 </TEXT>
@@ -14,6 +16,7 @@ File 5.4
 
 <DOC>
 <DOCNO>3</DOCNO>
+<TITLE>Title 5.3</TITLE>
 <TEXT>
 File 5.3
 </TEXT>
@@ -21,6 +24,7 @@ File 5.3
 
 <DOC>
 <DOCNO>2</DOCNO>
+<TITLE>Title 5.2</TITLE>
 <TEXT>
 File 5.2
 </TEXT>
@@ -28,6 +32,7 @@ File 5.2
 
 <DOC>
 <DOCNO>0</DOCNO>
+<TITLE>Title 5.0</TITLE>
 <TEXT>
 File 5.0
 </TEXT>
@@ -35,6 +40,7 @@ File 5.0
 
 <DOC>
 <DOCNO>1</DOCNO>
+<TITLE>Title 5.1</TITLE>
 <TEXT>
 File 5.1
 </TEXT>
