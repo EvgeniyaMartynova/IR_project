@@ -7,6 +7,9 @@ doc_end = "</DOC>"
 docno_begin = "<DOCNO>"
 docno_end = "</DOCNO>"
 
+title_begin = "<TITLE>"
+title_end = "</TITLE>"
+
 text_begin = "<TEXT>"
 text_end = "</TEXT>"
 
@@ -41,7 +44,11 @@ def read_file(directory, file_name):
 def convert_text_to_trec_doc(text, document_number):
     trec_doc = doc_begin + new_line
     trec_doc += docno_begin + document_number + docno_end + new_line
-    trec_doc += text_begin + new_line + text + new_line + text_end + new_line
+    lines = text.partition('\n\n')
+    title = lines[0]
+    trec_doc += title_begin + title + title_end + new_line
+    body = "".join(lines[2:])
+    trec_doc += text_begin + new_line + body + new_line + text_end + new_line
     trec_doc += doc_end + new_line + new_line
 
     return trec_doc
