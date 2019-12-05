@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-rootdir = '/home/manuela/Uni/jaar_1_Master/Information Retrieval/IR_project/newdata/Wikipedia Texts'
+rootdir = '../../newdata/Wikipedia Texts'
 
 filecount = []
 for subdir, dirs, files in os.walk(rootdir):
