@@ -1,6 +1,6 @@
 import os
-rootdir = '/home/manuela/Uni/jaar_1_Master/Information Retrieval/IR_project/newdata/Wikipedia Texts'
-apsects = '/home/manuela/Uni/jaar_1_Master/Information Retrieval/IR_project/newdata/Topics Aspects'
+rootdir = '../../newdata/Wikipedia Texts'
+apsects = '../../newdata/Topics Aspects'
 
 def remove_wikitexts():
     for subdir, dirs, files in os.walk(rootdir):
