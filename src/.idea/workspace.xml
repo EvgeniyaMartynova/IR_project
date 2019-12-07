@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6299beeb-b21e-4191-880d-392924b46870" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/data_collection/wiki_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_collection/wiki_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/disambiguation_page_link_collector/Links.pkl" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data_collection/wiki_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="136" column="70" selection-start-line="136" selection-start-column="70" selection-end-line="136" selection-end-column="70" />
+            <state relative-caret-position="-806">
+              <caret line="85" column="39" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -128,6 +127,7 @@
       <find>dis_page</find>
       <find>wikipedia.page</find>
       <find>extract_disambiguation_pages</find>
+      <find>extract_topics_aspects</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -376,13 +376,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="38" y="23" width="1627" height="954" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26182964" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3700696" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21229698" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24709977" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -534,8 +535,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data_collection/wiki_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="136" column="70" selection-start-line="136" selection-start-column="70" selection-end-line="136" selection-end-column="70" />
+        <state relative-caret-position="-806">
+          <caret line="85" column="39" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
