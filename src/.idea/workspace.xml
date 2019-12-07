@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6299beeb-b21e-4191-880d-392924b46870" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_cleaning/cleanup.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_cleaning/cleanup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_collection/wiki_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_collection/wiki_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/disambiguation_page_link_collector/Links.pkl" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +16,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_converter/tests/test_converter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
+            <state>
               <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/topic_collection/topic_finder.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="16" />
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="16" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -59,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/re_ranking/CosineSimilarity.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="69" lean-forward="true" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
+              <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
               <folding>
                 <element signature="e#0#59#0" expanded="true" />
               </folding>
@@ -79,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data_collection/wiki_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+            <state relative-caret-position="307">
+              <caret line="136" column="70" selection-start-line="136" selection-start-column="70" selection-end-line="136" selection-end-column="70" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -91,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_cleaning/cleanup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -120,6 +120,14 @@
       <find>strip</find>
       <find>odp</find>
       <find>random</find>
+      <find>li</find>
+      <find>&lt;li&gt;</find>
+      <find>wikipedia.pa</find>
+      <find>extract_func_from_link</find>
+      <find>wikipedia</find>
+      <find>dis_page</find>
+      <find>wikipedia.page</find>
+      <find>extract_disambiguation_pages</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -131,10 +139,10 @@
         <option value="$PROJECT_DIR$/tests/test_converter.py" />
         <option value="$PROJECT_DIR$/data_converter/test_converter.py" />
         <option value="$PROJECT_DIR$/data_collection/wiki2.py" />
-        <option value="$PROJECT_DIR$/data_collection/wiki_data.py" />
         <option value="$PROJECT_DIR$/data_converter/trec_converter.py" />
         <option value="$PROJECT_DIR$/data_converter/tests/test_converter.py" />
         <option value="$PROJECT_DIR$/data_cleaning/cleanup.py" />
+        <option value="$PROJECT_DIR$/data_collection/wiki_data.py" />
       </list>
     </option>
   </component>
@@ -216,7 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.CosineSimilarity">
+  <component name="RunManager" selected="Python.wiki_data">
     <configuration name="CosineSimilarity" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="src" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -238,7 +246,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="trec_converter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="wiki_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="src" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -246,11 +254,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_converter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_collection" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_converter/trec_converter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_collection/wiki_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -306,18 +314,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.CosineSimilarity" />
-      <item itemvalue="Python.trec_converter" />
-      <item itemvalue="Python tests.Unittests for data_converter.tests.test_converter.TestConverter" />
-      <item itemvalue="Python tests.Unittests for data_converter.tests.test_converter.TestConverter.test_conversion" />
       <item itemvalue="Python tests.Unittests for data_converter.tests.test_converter.TestConverter.test_convert_text_to_trec_doc" />
+      <item itemvalue="Python tests.Unittests for data_converter.tests.test_converter.TestConverter.test_conversion" />
+      <item itemvalue="Python tests.Unittests for data_converter.tests.test_converter.TestConverter" />
+      <item itemvalue="Python.wiki_data" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.wiki_data" />
         <item itemvalue="Python.CosineSimilarity" />
         <item itemvalue="Python tests.Unittests for data_converter.tests.test_converter.TestConverter" />
         <item itemvalue="Python tests.Unittests for data_converter.tests.test_converter.TestConverter.test_conversion" />
         <item itemvalue="Python tests.Unittests for data_converter.tests.test_converter.TestConverter.test_convert_text_to_trec_doc" />
-        <item itemvalue="Python.trec_converter" />
       </list>
     </recent_temporary>
   </component>
@@ -368,21 +376,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="38" y="23" width="1627" height="954" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26182964" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26182964" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3700696" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39907193" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3700696" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.24709977" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32946634" />
-      <window_info anchor="bottom" id="Python Console" order="9" weight="0.29234338" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.2088167" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -435,7 +442,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data_converter/tests/test_converter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
+        <state>
           <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
@@ -467,16 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_collection/wiki_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../TxMM/TxMM_assignment_4/TxMM_A4_Files_and_Dataset/authorship.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
@@ -490,7 +487,7 @@
     <entry file="file://$PROJECT_DIR$/re_ranking/CosineSimilarity.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="69" lean-forward="true" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
+          <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
           </folding>
@@ -500,7 +497,7 @@
     <entry file="file://$PROJECT_DIR$/topic_collection/topic_finder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="16" />
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="16" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -509,8 +506,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data_cleaning/cleanup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/bs4/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="443" column="26" selection-start-line="443" selection-start-column="26" selection-end-line="443" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_collection/wiki_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="136" column="70" selection-start-line="136" selection-start-column="70" selection-end-line="136" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

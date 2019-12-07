@@ -2,7 +2,6 @@ import wikipedia
 from bs4 import BeautifulSoup as bs
 import requests
 import string
-from collections import defaultdict
 import pickle
 import os
 import uuid
@@ -10,7 +9,7 @@ import random
 import re
 import shutil
 
-data_path = "newdata"#"../../../data"
+data_path = "../../../data"
 topics_texts_folder = "Wikipedia Texts"
 topics_aspects_folder = "Topics Aspects"
 
@@ -69,21 +68,16 @@ def extract_disambiguation_pages(url):
     return dis_pages
 
 
-def extract_func_from_link(link):
-    url = wiki_url + link
-    page = requests.get(url)
-    html = bs(page.text, 'lxml')
-    return html
-
-
-def extract_topics_aspects(html):
-    page_links = html.find('ul').find_all('li')
-    aspects_pages = []
-    for links in page_links:
-        ref_link = links.find('a')
-        if ref_link:
-            aspects_pages.append((ref_link.get("href"), ref_link.get("title")))
-    return aspects_pages
+def extract_topics_aspects(disambiguation_page_title):
+    try:
+        page = wikipedia.page(disambiguation_page_title, auto_suggest=False)
+        return None
+    except wikipedia.exceptions.DisambiguationError as disambiguation:
+        aspects = [title for title in disambiguation.options if "(disambiguation)" not in title]
+        return aspects
+    except:
+        print("Failed to resolve ambiguity %s" % disambiguation_page_title)
+        return None
 
 
 def build_page_path(topic_directory, index):
@@ -118,12 +112,13 @@ def download_wiki_data(links):
 
         # collect links of disambiguation pages
         pages = dict()
-        for link, topic in disambiguation_pages:
+        for link, title in disambiguation_pages:
             # remove (disambiguation) from pages that have it and the remaining whitespace
-            topic = re.sub('\(disambiguation\)$', '' ,topic)
+            topic = re.sub('\(disambiguation\)$', '' ,title)
             print(topic)
-            page_html = extract_func_from_link(link)
-            pages[topic] = extract_topics_aspects(page_html)
+            aspects = extract_topics_aspects(title)
+            if aspects is not None:
+                pages[topic] = aspects
         print(pages)
 
         topics = pages.keys()
@@ -132,21 +127,21 @@ def download_wiki_data(links):
             if topic_directory is not None:
                 aspect_pages = pages[topic]
                 aspects = []
-                for aspect_link, aspect_title in aspect_pages:
-                    if aspect_title:
+                for aspect_page in aspect_pages:
+                    if aspect_page:
                         try:
-                            page = wikipedia.page(aspect_title)
+                            page = wikipedia.page(aspect_page, auto_suggest=False)
                             page_id = uuid.uuid4()
-                            save_page(aspect_title, page.content, page_id, topic_directory)
-                            aspects.append((aspect_title, page_id))
+                            save_page(aspect_page, page.content, page_id, topic_directory)
+                            aspects.append((aspect_page, page_id))
                         except wikipedia.exceptions.DisambiguationError:
-                            print("Page Error")
+                            print("Page Error %s" % aspect_page)
                             continue
                         except wikipedia.exceptions.PageError:
-                            print("Page non existent")
+                            print("Page non existent %s" % aspect_page)
                             continue
                         except:
-                            print("Unknown Error")
+                            print("Unknown Error %s" % aspect_page)
                             continue
                 if len(aspects) == 0 or len(aspects) == 1:
                     shutil.rmtree(topic_directory)
@@ -156,11 +151,12 @@ def download_wiki_data(links):
 
 
 def main():
-    with open("Links.pkl", 'rb') as f:
+    with open("../Links.pkl", 'rb') as f:
         links = pickle.load(f)
-    sample = random.sample(links, 30)
+    sample = random.sample(links, 5)
     print(sample)
     download_wiki_data(sample)
+
 
 if __name__ == '__main__':
     main()
