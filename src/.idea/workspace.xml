@@ -69,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/re_ranking/affinity.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="27" column="124" selection-start-line="27" selection-start-column="124" selection-end-line="27" selection-end-column="124" />
+            <state relative-caret-position="201">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="e#0#59#0" expanded="true" />
               </folding>
@@ -389,8 +389,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30046403" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.31902552" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30046403" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.31902552" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -433,6 +433,11 @@
           <url>file://$PROJECT_DIR$/data_collection/tests/DataCollectionTests.py</url>
           <line>89</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/re_ranking/affinity.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -578,8 +583,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/re_ranking/affinity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="27" column="124" selection-start-line="27" selection-start-column="124" selection-end-line="27" selection-end-column="124" />
+        <state relative-caret-position="201">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
           </folding>
