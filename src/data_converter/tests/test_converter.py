@@ -2,6 +2,7 @@ from unittest import TestCase
 from .. import trec_converter as tc
 import os
 
+
 class TestConverter(TestCase):
     def setUp(self):
         print(os.getcwd())

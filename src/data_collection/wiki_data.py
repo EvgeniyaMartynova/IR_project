@@ -75,7 +75,7 @@ def extract_topics_with_aspects(disambiguation_pages):
         aspects = extract_topic_aspects(title)
         if aspects is not None:
             # remove (disambiguation) from title to keep documents collection uncluttered
-            topic = re.sub('\(disambiguation\)$', '', title)
+            topic = re.sub('\(disambiguation\)$', '', title).strip()
             pages[topic] = aspects
 
     return pages
@@ -126,8 +126,8 @@ def save_page(page_title, page_content, page_index, topic_directory):
     f.close()
 
 
-def save_page_topic_aspects(topic, aspects):
-    f = open(topic_aspect_path(topic), "w+")
+def save_page_topic_aspects(topic_path, aspects):
+    f = open(topic_path, "w+")
     for aspect, index in aspects:
         f.write(str(index) + "\t" + aspect + "\n")
     f.close()
@@ -157,7 +157,7 @@ def download_wiki_data(links):
                 if len(extracted_aspects) == 0 or len(extracted_aspects) == 1:
                     shutil.rmtree(topic_directory)
                 else:
-                    save_page_topic_aspects(topic, extracted_aspects)
+                    save_page_topic_aspects(topic_aspect_path(topic), extracted_aspects)
 
 
 

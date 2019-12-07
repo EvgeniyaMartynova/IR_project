@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6299beeb-b21e-4191-880d-392924b46870" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_collection/wiki_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_collection/wiki_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_converter/tests/test_converter.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_converter/tests/test_converter.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_converter/tests/test_converter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+            <state relative-caret-position="421">
+              <caret line="60" column="44" lean-forward="true" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="50" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -25,12 +27,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/topic_collection/topic_finder.py">
+        <entry file="file://$PROJECT_DIR$/data_collection/wiki_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="1604">
+              <caret line="147" column="37" selection-start-line="147" selection-start-column="37" selection-end-line="147" selection-end-column="37" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data_collection/tests/DataCollectionTests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="87" column="46" lean-forward="true" selection-start-line="87" selection-start-column="46" selection-end-line="87" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,20 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/disambiguation_page_link_collector/disambiguation_collection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="405">
               <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data_collection/wiki_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="141" column="51" selection-start-line="141" selection-start-column="51" selection-end-line="141" selection-end-column="51" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -129,6 +131,7 @@
       <find>extract_disambiguation_pages</find>
       <find>extract_topics_aspects</find>
       <find>extract_aspect</find>
+      <find>save_page_topic_aspects</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -141,9 +144,11 @@
         <option value="$PROJECT_DIR$/data_converter/test_converter.py" />
         <option value="$PROJECT_DIR$/data_collection/wiki2.py" />
         <option value="$PROJECT_DIR$/data_converter/trec_converter.py" />
-        <option value="$PROJECT_DIR$/data_converter/tests/test_converter.py" />
         <option value="$PROJECT_DIR$/data_cleaning/cleanup.py" />
+        <option value="$PROJECT_DIR$/data_converter/tests/test_converter.py" />
+        <option value="$PROJECT_DIR$/data_collection/DataCollectionTests.py" />
         <option value="$PROJECT_DIR$/data_collection/wiki_data.py" />
+        <option value="$PROJECT_DIR$/data_collection/tests/DataCollectionTests.py" />
       </list>
     </option>
   </component>
@@ -175,6 +180,12 @@
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="data_collection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="data_collection" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
@@ -225,47 +236,65 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.wiki_data">
-    <configuration name="CosineSimilarity" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests for data_collection.tests.DataCollectionTests.DataCollectionTests">
+    <configuration name="Unittests for data_collection.tests.DataCollectionTests.DataCollectionTests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/re_ranking" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/re_ranking/CosineSimilarity.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;data_collection.tests.DataCollectionTests.DataCollectionTests&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="wiki_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for data_collection.tests.DataCollectionTests.DataCollectionTests.test__page_topic_aspects" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_collection" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_collection/wiki_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;data_collection.tests.DataCollectionTests.DataCollectionTests.test__page_topic_aspects&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for data_collection.tests.DataCollectionTests.DataCollectionTests.test_extract_topics_with_aspects_all_exist" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="src" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;data_collection.tests.DataCollectionTests.DataCollectionTests.test_extract_topics_with_aspects_all_exist&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for data_collection.tests.DataCollectionTests.DataCollectionTests.test_extract_topics_with_aspects_not_all_exist" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="src" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;data_collection.tests.DataCollectionTests.DataCollectionTests.test_extract_topics_with_aspects_not_all_exist&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests for data_converter.tests.test_converter.TestConverter" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -273,7 +302,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_converter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -283,50 +312,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for data_converter.tests.test_converter.TestConverter.test_conversion" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="src" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_converter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_pattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;data_converter.tests.test_converter.TestConverter.test_conversion&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for data_converter.tests.test_converter.TestConverter.test_convert_text_to_trec_doc" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="src" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_converter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_pattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;data_converter.tests.test_converter.TestConverter.test_convert_text_to_trec_doc&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.CosineSimilarity" />
-      <item itemvalue="Python tests.Unittests for data_converter.tests.test_converter.TestConverter.test_convert_text_to_trec_doc" />
-      <item itemvalue="Python tests.Unittests for data_converter.tests.test_converter.TestConverter.test_conversion" />
+      <item itemvalue="Python tests.Unittests for data_collection.tests.DataCollectionTests.DataCollectionTests.test_extract_topics_with_aspects_all_exist" />
+      <item itemvalue="Python tests.Unittests for data_collection.tests.DataCollectionTests.DataCollectionTests.test_extract_topics_with_aspects_not_all_exist" />
+      <item itemvalue="Python tests.Unittests for data_collection.tests.DataCollectionTests.DataCollectionTests.test__page_topic_aspects" />
       <item itemvalue="Python tests.Unittests for data_converter.tests.test_converter.TestConverter" />
-      <item itemvalue="Python.wiki_data" />
+      <item itemvalue="Python tests.Unittests for data_collection.tests.DataCollectionTests.DataCollectionTests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.wiki_data" />
-        <item itemvalue="Python.CosineSimilarity" />
+        <item itemvalue="Python tests.Unittests for data_collection.tests.DataCollectionTests.DataCollectionTests" />
+        <item itemvalue="Python tests.Unittests for data_collection.tests.DataCollectionTests.DataCollectionTests.test__page_topic_aspects" />
         <item itemvalue="Python tests.Unittests for data_converter.tests.test_converter.TestConverter" />
-        <item itemvalue="Python tests.Unittests for data_converter.tests.test_converter.TestConverter.test_conversion" />
-        <item itemvalue="Python tests.Unittests for data_converter.tests.test_converter.TestConverter.test_convert_text_to_trec_doc" />
+        <item itemvalue="Python tests.Unittests for data_collection.tests.DataCollectionTests.DataCollectionTests.test_extract_topics_with_aspects_not_all_exist" />
+        <item itemvalue="Python tests.Unittests for data_collection.tests.DataCollectionTests.DataCollectionTests.test_extract_topics_with_aspects_all_exist" />
       </list>
     </recent_temporary>
   </component>
@@ -344,35 +343,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_data_converter_tests_test_converter_TestConverter_test_build__docno - 2019.11.26 at 19h 11m 06s.xml">
-      <configuration name="Unittests for data_converter.tests.test_converter.TestConverter.test_build__docno" configurationId="tests" />
+    <history-entry file="Unittests_for_data_collection_tests_DataCollectionTests_DataCollectionTests - 2019.12.07 at 18h 37m 24s.xml">
+      <configuration name="Unittests for data_collection.tests.DataCollectionTests.DataCollectionTests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_data_converter_tests_test_converter_TestConverter_test_build__docno - 2019.11.26 at 19h 11m 31s.xml">
-      <configuration name="Unittests for data_converter.tests.test_converter.TestConverter.test_build__docno" configurationId="tests" />
+    <history-entry file="Unittests_for_data_collection_tests_DataCollectionTests_DataCollectionTests_test__page_topic_aspects - 2019.12.07 at 18h 37m 50s.xml">
+      <configuration name="Unittests for data_collection.tests.DataCollectionTests.DataCollectionTests.test__page_topic_aspects" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_data_converter_tests_test_converter_TestConverter_test_convert_text_to_trec_doc - 2019.11.26 at 19h 11m 37s.xml">
-      <configuration name="Unittests for data_converter.tests.test_converter.TestConverter.test_convert_text_to_trec_doc" configurationId="tests" />
+    <history-entry file="Unittests_for_data_collection_tests_DataCollectionTests_DataCollectionTests_test__page_topic_aspects - 2019.12.07 at 18h 39m 10s.xml">
+      <configuration name="Unittests for data_collection.tests.DataCollectionTests.DataCollectionTests.test__page_topic_aspects" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_data_converter_tests_test_converter_TestConverter_test_conversion - 2019.11.26 at 19h 11m 49s.xml">
-      <configuration name="Unittests for data_converter.tests.test_converter.TestConverter.test_conversion" configurationId="tests" />
+    <history-entry file="Unittests_for_data_collection_tests_DataCollectionTests_DataCollectionTests_test__page_topic_aspects - 2019.12.07 at 18h 39m 32s.xml">
+      <configuration name="Unittests for data_collection.tests.DataCollectionTests.DataCollectionTests.test__page_topic_aspects" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_data_converter_tests_test_converter_TestConverter_test_convert_text_to_trec_doc - 2019.11.26 at 19h 12m 42s.xml">
-      <configuration name="Unittests for data_converter.tests.test_converter.TestConverter.test_convert_text_to_trec_doc" configurationId="tests" />
+    <history-entry file="Unittests_for_data_collection_tests_DataCollectionTests_DataCollectionTests_test__page_topic_aspects - 2019.12.07 at 18h 40m 26s.xml">
+      <configuration name="Unittests for data_collection.tests.DataCollectionTests.DataCollectionTests.test__page_topic_aspects" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_data_converter_tests_test_converter_TestConverter_test_convert_text_to_trec_doc - 2019.11.26 at 19h 13m 40s.xml">
-      <configuration name="Unittests for data_converter.tests.test_converter.TestConverter.test_convert_text_to_trec_doc" configurationId="tests" />
+    <history-entry file="Unittests_for_data_collection_tests_DataCollectionTests_DataCollectionTests_test__page_topic_aspects - 2019.12.07 at 18h 42m 06s.xml">
+      <configuration name="Unittests for data_collection.tests.DataCollectionTests.DataCollectionTests.test__page_topic_aspects" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_data_converter_tests_test_converter_TestConverter_test_convert_text_to_trec_doc - 2019.11.26 at 19h 14m 00s.xml">
-      <configuration name="Unittests for data_converter.tests.test_converter.TestConverter.test_convert_text_to_trec_doc" configurationId="tests" />
+    <history-entry file="Unittests_for_data_collection_tests_DataCollectionTests_DataCollectionTests_test__page_topic_aspects - 2019.12.07 at 18h 43m 25s.xml">
+      <configuration name="Unittests for data_collection.tests.DataCollectionTests.DataCollectionTests.test__page_topic_aspects" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_data_converter_tests_test_converter_TestConverter_test_convert_text_to_trec_doc - 2019.11.26 at 19h 14m 50s.xml">
-      <configuration name="Unittests for data_converter.tests.test_converter.TestConverter.test_convert_text_to_trec_doc" configurationId="tests" />
+    <history-entry file="Unittests_for_data_collection_tests_DataCollectionTests_DataCollectionTests_test__page_topic_aspects - 2019.12.07 at 18h 43m 51s.xml">
+      <configuration name="Unittests for data_collection.tests.DataCollectionTests.DataCollectionTests.test__page_topic_aspects" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_data_converter_tests_test_converter_TestConverter_test_convert_text_to_trec_doc - 2019.11.26 at 19h 15m 22s.xml">
-      <configuration name="Unittests for data_converter.tests.test_converter.TestConverter.test_convert_text_to_trec_doc" configurationId="tests" />
+    <history-entry file="Unittests_for_data_collection_tests_DataCollectionTests_DataCollectionTests_test__page_topic_aspects - 2019.12.07 at 18h 45m 37s.xml">
+      <configuration name="Unittests for data_collection.tests.DataCollectionTests.DataCollectionTests.test__page_topic_aspects" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_data_converter_tests_test_converter_TestConverter_test_convert_text_to_trec_doc - 2019.11.26 at 19h 15m 45s.xml">
-      <configuration name="Unittests for data_converter.tests.test_converter.TestConverter.test_convert_text_to_trec_doc" configurationId="tests" />
+    <history-entry file="Unittests_for_data_collection_tests_DataCollectionTests_DataCollectionTests_test__page_topic_aspects - 2019.12.07 at 18h 45m 38s.xml">
+      <configuration name="Unittests for data_collection.tests.DataCollectionTests.DataCollectionTests.test__page_topic_aspects" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -384,8 +383,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21229698" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.24709977" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30046403" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4965197" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -425,9 +424,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/data_converter/trec_converter.py</url>
-          <line>46</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/data_collection/tests/DataCollectionTests.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -439,40 +438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="306" column="8" selection-start-line="306" selection-start-column="8" selection-end-line="306" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_converter/tests/test_converter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_converter/trec_converter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="65" selection-start-line="45" selection-start-column="65" selection-end-line="45" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/re_ranking/re_ranking.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/disambiguation_page_link_collector/disambiguation_collection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -492,16 +457,6 @@
           <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/topic_collection/topic_finder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -534,12 +489,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_collection/wiki_data.py">
+    <entry file="file://$PROJECT_DIR$/topic_collection/topic_finder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="141" column="51" selection-start-line="141" selection-start-column="51" selection-end-line="141" selection-end-column="51" />
+        <state relative-caret-position="45">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/re_ranking/re_ranking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_collection/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_collection/DataCollectionTests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/disambiguation_page_link_collector/disambiguation_collection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_converter/trec_converter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="65" selection-start-line="45" selection-start-column="65" selection-end-line="45" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_collection/wiki_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1604">
+          <caret line="147" column="37" selection-start-line="147" selection-start-column="37" selection-end-line="147" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_converter/tests/test_converter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="60" column="44" lean-forward="true" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="690" column="29" lean-forward="true" selection-start-line="690" selection-start-column="29" selection-end-line="690" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_collection/tests/DataCollectionTests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="87" column="46" lean-forward="true" selection-start-line="87" selection-start-column="46" selection-end-line="87" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
