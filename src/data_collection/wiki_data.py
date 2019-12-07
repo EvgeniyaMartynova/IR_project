@@ -96,7 +96,7 @@ def extract_topic_aspects(disambiguation_page_title):
         return None
 
 
-def extract_aspect(aspect_title):
+def extract_aspect_page(aspect_title):
     try:
         return wikipedia.page(aspect_title, auto_suggest=False)
     except wikipedia.exceptions.DisambiguationError:
@@ -139,7 +139,7 @@ def download_wiki_data(links):
     for page in links:
         # url = dis_page.url + "?from=" + letter
         url = wiki_url + page
-        disambiguation_pages = extract_disambiguation_pages(url)[0:5]
+        disambiguation_pages = extract_disambiguation_pages(url)
         topics_with_aspects = extract_topics_with_aspects(disambiguation_pages)
         topics = topics_with_aspects.keys()
 
@@ -149,7 +149,7 @@ def download_wiki_data(links):
                 aspect_pages = topics_with_aspects[topic]
                 extracted_aspects = []
                 for aspect_title in aspect_pages:
-                    aspect_page = extract_aspect(aspect_title)
+                    aspect_page = extract_aspect_page(aspect_title)
                     if aspect_page is not None:
                         page_id = uuid.uuid4()
                         save_page(aspect_title, aspect_page.content, page_id, topic_directory)
