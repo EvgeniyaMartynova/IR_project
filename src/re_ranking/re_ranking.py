@@ -38,6 +38,8 @@ def re_rank_docs(hits):
     re_ranked_documents = []
     for document in af_ranking:
         normalized_similarity_score = document.query_similarity / max_similarity_score
+        # for some reason in paper they use log normalization, I do not see a reason for it yet and also with AR
+        # we get negative document score because of diversity penalty
         normalized_affinity_score = document.score / max_affinity_score
         final_score = alpha*normalized_similarity_score + beta*normalized_affinity_score
         re_ranked_document = ReRankedDocument(document.docid, document.content, final_score)
