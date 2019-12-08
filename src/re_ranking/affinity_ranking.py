@@ -10,12 +10,22 @@ affinity_threshold = 10
 dumping_factor = 0.85
 
 
+class Document:
+
+    def __init__(self, docid, content, query_similarity):
+        self.docid = docid
+        self.content = content
+        self.query_similarity = query_similarity
+
+
 class RankedDocument:
 
-    def __init__(self, content, score, index):
+    def __init__(self, docid, content, score, query_similarity, index):
+        self.docid = docid
         self.content = content
         self.score = score
         self.info_rich = score
+        self.query_similarity = query_similarity
         self.index = index
 
 
@@ -99,9 +109,28 @@ def diversity_penalty(documents, adjacency_matrix):
     return diversity_penalized_ranking
 
 
-def main():
-    docs = get_documents()
+# documents is a list of Document class instances
+def get_affinity_ranking(documents):
+    documents_content = list(map(lambda x: x.content, documents))
+    affinity_matrix = get_affinity_matrix(documents_content)
+    adjacency_matrix = get_adjacency_matrix(affinity_matrix)
+    transition_matrix = get_transition_matrix(adjacency_matrix, dumping_factor)
+    document_rank = get_document_rank(transition_matrix)
 
+    ranked_documents = []
+    for index, document in enumerate(documents):
+        score = document_rank[index]
+        ranked_documents.append(RankedDocument(document.docid, document.content, score, document.query_similarity, index))
+
+    ranked_documents.sort(key=lambda x: x.score, reverse=True)
+
+    diversity_penalized_ranking = diversity_penalty(ranked_documents, adjacency_matrix)
+    return diversity_penalized_ranking
+
+
+def main():
+    # TODO: mote to test folder
+    docs = get_documents()
     doc_trump = "Mr. Trump became president after winning the political election. Though he lost the support of some republican friends, Trump is friends with President Putin"
     doc_election = "President Trump says Putin had no political interference is the election outcome. He says it was a witchhunt by political parties. He claimed President Putin is a friend who had nothing to do with the election"
     doc_putin = "Post elections, Vladimir Putin became President of Russia. President Putin had served as the Prime Minister earlier in his political career"
@@ -127,6 +156,8 @@ def main():
     ranked_documents.sort(key=lambda x: x.score, reverse=True)
 
     diversity_penalized_ranking = diversity_penalty(ranked_documents, adjacency_matrix)
+
+    print("test")
 
 
 
