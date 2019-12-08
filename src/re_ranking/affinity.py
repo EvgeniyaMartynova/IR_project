@@ -1,18 +1,31 @@
 from sklearn.feature_extraction.text import CountVectorizer
 import numpy as np
 from sklearn.preprocessing import normalize
+import os
+import copy
 
 # the way I see it now is the it's an arbitrary model parameter
 # probably it will need tuning
-affinity_threshold = 2
+affinity_threshold = 10
 dumping_factor = 0.85
+
+
+class RankedDocument:
+
+    def __init__(self, content, score, index):
+        self.content = content
+        self.score = score
+        self.info_rich = score
+        self.index = index
+
 
 # affinity measure between documents, mathematically it is a projection of vector2 on vector1
 def affinity(vector1, vector2):
     dot_product = np.dot(vector1, vector2)
     vector1_norm = np.linalg.norm(vector1)
     if vector1_norm > 0:
-        return dot_product/vector1_norm
+        score = dot_product/vector1_norm
+        return score
     return 0
 
 
@@ -58,19 +71,63 @@ def get_document_rank(transition_matrix):
     return principal_eigen_vector
 
 
+def get_documents():
+    docs = []
+    for the_file in os.listdir("docs"):
+        if the_file.endswith(".txt"):
+            file = open(os.path.join("docs", the_file), mode='r')
+            docs.append(file.read().strip())
+            file.close()
+
+    return docs
+
+
+def diversity_penalty(documents, adjacency_matrix):
+    diversity_penalized_ranking = []
+    remaining_documents = copy.deepcopy(documents)
+
+    while len(remaining_documents) > 0:
+        remaining_documents.sort(key=lambda x: x.score, reverse=True)
+        top_document = remaining_documents.pop(0)
+        diversity_penalized_ranking.append(top_document)
+        top_document_index = top_document.index
+        top_document_info_rich = top_document.info_rich
+        for document in remaining_documents:
+            document_index = document.index
+            document.score = document.score - adjacency_matrix[document_index, top_document_index]*top_document_info_rich
+
+    return diversity_penalized_ranking
+
+
 def main():
+    docs = get_documents()
+
     doc_trump = "Mr. Trump became president after winning the political election. Though he lost the support of some republican friends, Trump is friends with President Putin"
     doc_election = "President Trump says Putin had no political interference is the election outcome. He says it was a witchhunt by political parties. He claimed President Putin is a friend who had nothing to do with the election"
     doc_putin = "Post elections, Vladimir Putin became President of Russia. President Putin had served as the Prime Minister earlier in his political career"
     documents = [doc_trump, doc_election, doc_putin]
-    affinity_matrix = get_affinity_matrix(documents)
+    affinity_matrix = get_affinity_matrix(docs)
+    print("Affinity")
     print(affinity_matrix)
     adjacency_matrix = get_adjacency_matrix(affinity_matrix)
+    print("Adjacency")
     print(adjacency_matrix)
     transition_matrix = get_transition_matrix(adjacency_matrix, dumping_factor)
+    print("Transition")
     print(transition_matrix)
     document_rank = get_document_rank(transition_matrix)
+    print("Rank")
     print(document_rank)
+
+    ranked_documents = []
+    for index, content in enumerate(docs):
+        score = document_rank[index]
+        ranked_documents.append(RankedDocument(content, score, index))
+
+    ranked_documents.sort(key=lambda x: x.score, reverse=True)
+
+    diversity_penalized_ranking = diversity_penalty(ranked_documents, adjacency_matrix)
+
 
 
 if __name__ == '__main__':
