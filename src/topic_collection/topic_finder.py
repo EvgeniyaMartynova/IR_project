@@ -1,15 +1,25 @@
 import os
 import pandas as pd
 
-rootdir = '../../newdata/Wikipedia Texts'
+def sort_topics(root_dir):
+    filecount = []
+    for subdir, dirs, files in os.walk(root_dir):
+        if subdir != root_dir:
+            nr_files = len(files)
+            filecount.append((nr_files, subdir))
 
-filecount = []
-for subdir, dirs, files in os.walk(rootdir):
-    if subdir != rootdir:
-        nr_files = len(files)
-        filecount.append((nr_files,subdir))
+    filecount.sort(key=lambda tup: tup[0], reverse=True)
+    data = pd.DataFrame(filecount, columns=["Count", "Topic"])
+    data["Topic"] = data["Topic"].str.slice(len(root_dir))
+    data.to_csv("../../newdata/TopicCounts.csv", index=False)
 
-filecount.sort(key=lambda tup: tup[0], reverse=True)
-data = pd.DataFrame(filecount, columns=["file_nr", "topic"])
-data["topic"] = data["topic"].str.replace(rootdir+"/","")
-data.to_csv("../../newdata/Topiccounts.csv", index=False)
+def get_top_topics(top):
+    data = pd.read_csv("../../newdata/TopicCounts.csv", nrows=top)
+    return data
+
+def main():
+    sort_topics('../../newdata/Wikipedia Texts/')
+    get_top_topics(20)
+
+if __name__ == '__main__':
+    main()
