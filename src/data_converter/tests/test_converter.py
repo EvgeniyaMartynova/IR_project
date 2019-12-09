@@ -6,8 +6,8 @@ import os
 class TestConverter(TestCase):
     def setUp(self):
         print(os.getcwd())
-        for the_file in os.listdir("tests/trec"):
-            file_path = os.path.join("tests/trec", the_file)
+        for the_file in os.listdir("data_converter/tests/trec"):
+            file_path = os.path.join("data_converter/tests/trec", the_file)
             try:
                 os.unlink(file_path)
             except Exception as e:
@@ -46,9 +46,9 @@ class TestConverter(TestCase):
         self.assertEqual(trec_doc, trec_doc_expected)
 
     def test_conversion(self):
-        tc.convert("tests/docs", "tests/trec")
+        tc.convert("data_converter/tests/docs", "data_converter/tests/trec")
 
-        trec_files = os.listdir("tests/trec")
+        trec_files = os.listdir("data_converter/tests/trec")
         self.assertEqual(len(trec_files), 3)
 
         for file in trec_files:
@@ -56,8 +56,8 @@ class TestConverter(TestCase):
 
         # compare files content
         for file_name in ["1.trectext", "3.trectext", "5.trectext"]:
-            generated_file = open("tests/trec/" + file_name, mode='r')
-            expected_file = open("tests/trec_expected/" + file_name, mode='r')
+            generated_file = open("data_converter/tests/trec/" + file_name, mode='r')
+            expected_file = open("data_converter/tests/trec_expected/" + file_name, mode='r')
             self.assertEqual(generated_file.read().strip(), expected_file.read().strip())
             generated_file.close()
             expected_file.close()
