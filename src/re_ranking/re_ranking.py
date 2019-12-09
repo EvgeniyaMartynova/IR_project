@@ -1,6 +1,6 @@
 
 from pyserini.search import pysearch
-import affinity_ranking as ar
+from . import affinity_ranking as ar
 
 # tunable coefficients for scores linear combination
 # alpha query similarity measure score
