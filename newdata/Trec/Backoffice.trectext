@@ -1,0 +1,61 @@
+<DOC>
+<DOCNO>0eb353eb-2ae6-49db-b3cc-7834643eff93</DOCNO>
+<TITLE>Front and back office application</TITLE>
+<TEXT>
+A front office application is any software that has a direct relation to customers. It provides functionality and data necessary to take orders, configure complex products and provide effective service and support to customers. It includes customer relationship management (CRM), sales force automation, customer support and field service.  In turn, a back office application has no such direct relation. It provides functionality for internal operations such as enterprise resource planning (ERP), inventory control, manufacturing and all of the supply chain activities associated with procuring goods, services and raw materials. If an ERP system includes order entry and customer service capabilities, that system would bridge both back office and front office.
+
+
+== Examples ==
+The software enabling the customer to order a product from a company is considered a front office application. If a salesperson is typing the order into the application, it is still considered a front office application even though the customer is not directly interacting with the software.If the company uses different software to order the product from a manufacturer, it is considered a back office application.
+
+
+== See also ==
+Front office
+Back office
+
+
+== References ==
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>99fd94f7-8628-4a95-8bfb-b5985291e9e3</DOCNO>
+<TITLE>Back office</TITLE>
+<TEXT>
+A back office in most corporations is where work that supports front office work is done. The front office is the "face" of the company and is all the resources of the company that are used to make sales and interact with customers and clients. The back office is all the resources of the company that are devoted to actually producing a product or service and all the other labor that isn't seen by customers, such as administration or logistics. Broadly speaking, back office work includes roles that affect the costs side of business' trading statement and front office work includes roles that affect the income side of business' trading statement.
+Although the operations of a back office are seldom prominent, they are a major contributor to a business' success. They can include functions such as accounting, planning, inventory management, supply-chain management, human resources and logistics.Back offices are often located somewhere other than company headquarters. Many are in areas and countries with cheaper rent and lower labor costs.  Some office parks provide back offices for tenants whose front offices are in more expensive neighborhoods. Back office functions can be outsourced to consultants and contractors, including ones in other countries.
+
+
+== References ==
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>b58fd88d-730b-412d-864e-bc8e38348cd1</DOCNO>
+<TITLE>Microsoft BackOffice Server</TITLE>
+<TEXT>
+Microsoft BackOffice Server is a discontinued computer software package featuring Windows NT Server and other Microsoft server products that ran on NT Server. It was marketed during the 1990s and early 2000s for use in branch operations and for small businesses to run their back office operations. 
+The small business edition of BackOffice Server was released for versions 4.0 and 4.5. In 2000 it was spun off from the "BackOffice" brand, becoming a variant of Windows Server branded as Windows Small Business Server. BackOffice Server itself was discontinued on October 1, 2001.
+
+
+== Software included ==
+Besides Windows NT Server, versions of BackOffice Server suite also included Microsoft SQL Server, Microsoft SNA Server, Microsoft Systems Management Server (SMS), Microsoft Mail Server or Microsoft Exchange Server, Microsoft Proxy Server or Microsoft Internet Security and Acceleration (ISA) Server, and Internet Information Services (IIS). The "Small Business" editions omitted SNA Server and SMS.
+
+
+== Versions ==
+late 1994 — BackOffice 1.0includes Windows NT Server 3.5, Microsoft SQL Server 4.21a, Microsoft SNA Server 2.1, Microsoft SMS 1.0, and Microsoft Mail Server 3.2.late 1995 — BackOffice 1.5includes Windows NT Server 3.51, Microsoft SQL Server 6.0, Microsoft SNA Server 2.11, Microsoft SMS 1.1, and Microsoft Mail Server 3.5.April 25, 1996 — BackOffice 2.0includes Windows NT Server 3.51, Microsoft Internet Information Services 1.0, Microsoft SQL Server 6.0 or 6.5, Microsoft SNA Server 2.11, Microsoft SMS 1.1, and Microsoft Exchange Server 4.0.December 1996 — BackOffice 2.5includes Windows NT Server 4.0, Internet Information Services 2.0, Microsoft SQL Server 6.5, Microsoft SNA Server 3.0, Microsoft SMS 1.2, Microsoft Exchange Server 4.0, Microsoft Proxy Server 1.0, Microsoft Index Server 1.1, Internet Explorer 3.01, and FrontPage 1.1December 9, 1997 — BackOffice Server 4.0includes Windows NT Server 4.0 SP3, Internet Information Services 3.0, Microsoft SQL Server 6.5, Microsoft SNA Server 4.0, Microsoft SMS 1.2, Microsoft Exchange Server 5.5, Microsoft Proxy Server 2.0, Microsoft Index Server 2.0, Microsoft Transaction Server 2.0, Microsoft Site Server 3.0, Microsoft FrontPage 98, and Visual InterDev 1.0.January 12, 1999 — BackOffice Server 4.5includes Windows NT Server 4.0 SP4, Internet Information Services 4.0, Microsoft SQL Server 7.0, Microsoft SNA Server 4.0 SP2, Microsoft SMS 2.0, Microsoft Exchange Server 5.5 SP2, Microsoft Proxy Server 2.0, Microsoft Index Server 2.0, Microsoft Transaction Server 2.0, Internet Explorer 5.0, Microsoft FrontPage 2000, and Microsoft Visual InterDev 6.0.February 28, 2001 — BackOffice Server 2000includes Windows 2000 Server, Microsoft SQL Server 2000, Microsoft SMS 2.0, Microsoft Exchange Server 2000, Microsoft ISA Server 2000, and Microsoft Host Integration Server 2000.
+
+
+== Requirements ==
+BackOffice Server 4.5 with 1 server license and 5 clients access licenses (CAL) was marketed for US$675.  It required 2 GB minimum hard drive space, a minimum processor type of Pentium Pro 200 MHz, and a minimum RAM size of 128 MB.
+
+
+== See also ==
+Windows Small Business Server
+
+
+== External links ==
+Microsoft BackOffice Server Archived documentation on Microsoft Technet
+</TEXT>
+</DOC>
+

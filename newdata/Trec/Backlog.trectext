@@ -1,0 +1,496 @@
+<DOC>
+<DOCNO>121ace8a-b605-4793-a79f-c1294881a899</DOCNO>
+<TITLE>Berkeley sockets</TITLE>
+<TEXT>
+Berkeley sockets is an application programming interface (API) for Internet sockets and Unix domain sockets, used for inter-process communication (IPC). It is commonly implemented as a library of linkable modules. It originated with the 4.2BSD Unix operating system, released in 1983.
+A socket is an abstract representation (handle) for the local endpoint of a network communication path. The Berkeley sockets API represents it as a file descriptor (file handle) in the Unix philosophy that provides a common interface for input and output to streams of data.
+Berkeley sockets evolved with little modification from a de facto standard into a component of the POSIX specification. The term POSIX sockets is essentially synonymous with Berkeley sockets, but they are also known as BSD sockets, acknowledging the first implementation in the Berkeley Software Distribution.
+
+
+== History and implementations ==
+Berkeley sockets originated with the 4.2BSD Unix operating system, released in 1983, as a programming interface. Not until 1989, however, could the University of California, Berkeley release versions of the operating system and networking library free from the licensing constraints of AT&T Corporation's proprietary Unix.
+All modern operating systems implement a version of the Berkeley socket interface. It became the standard interface for applications running in the Internet. Even the Winsock implementation for MS Windows, created by unaffiliated developers, closely follows the standard.
+The BSD sockets API is written in the C programming language. Most other programming languages provide similar interfaces, typically written as a wrapper library based on the C API.
+
+
+=== BSD and POSIX sockets ===
+As the Berkeley socket API evolved and ultimately yielded the POSIX socket API, certain functions were deprecated or removed and replaced by others. The POSIX API is also designed to be reentrant.
+
+
+=== Alternatives ===
+The STREAMS-based Transport Layer Interface (TLI) API offers an alternative to the socket API. Many systems that provide the TLI API also provide the Berkeley socket API.
+Non-Unix systems often expose the Berkeley socket API with a translation layer to a native networking API. Plan 9 and Genode use file-system APIs with control files rather than file-descriptors.
+
+
+== Header files ==
+The Berkeley socket interface is defined in several header files. The names and content of these files differ slightly between implementations.  In general, they include:
+
+
+== Socket API functions ==
+
+The Berkeley socket API typically provides the following functions:
+
+socket() creates a new socket of a certain type, identified by an integer number, and allocates system resources to it.
+bind() is typically used on the server side, and associates a socket with a socket address structure, i.e. a specified local IP address and a port number.
+listen() is used on the server side, and causes a bound TCP socket to enter listening state.
+connect() is used on the client side, and assigns a free local port number to a socket. In case of a TCP socket, it causes an attempt to establish a new TCP connection.
+accept() is used on the server side. It accepts a received incoming attempt to create a new TCP connection from the remote client, and creates a new socket associated with the socket address pair of this connection.
+send(), recv(), sendto(), and recvfrom() are used for sending and receiving data. The standard functions write() and read() may also be used.
+close() causes the system to release resources allocated to a socket. In case of TCP, the connection is terminated.
+gethostbyname() and gethostbyaddr() are used to resolve host names and addresses. IPv4 only.
+select() is used to suspend, waiting for one or more of a provided list of sockets to be ready to read, ready to write, or that have errors.
+poll() is used to check on the state of a socket in a set of sockets. The set can be tested to see if any socket can be written to, read from or if an error occurred.
+getsockopt() is used to retrieve the current value of a particular socket option for the specified socket.
+setsockopt() is used to set a particular socket option for the specified socket.
+
+
+=== socket ===
+The function socket() creates an endpoint for communication and returns a file descriptor for the socket. It uses three arguments:
+
+domain, which specifies the protocol family of the created socket. For example:
+AF_INET for network protocol IPv4 (IPv4-only)
+AF_INET6 for IPv6 (and in some cases, backward compatible with IPv4)
+AF_UNIX for local socket (using a file)
+type, one of:
+SOCK_STREAM (reliable stream-oriented service or Stream Sockets)
+SOCK_DGRAM (datagram service or Datagram Sockets)
+SOCK_SEQPACKET (reliable sequenced packet service)
+SOCK_RAW (raw protocols atop the network layer)
+protocol specifying the actual transport protocol to use. The most common are IPPROTO_TCP, IPPROTO_SCTP, IPPROTO_UDP, IPPROTO_DCCP. These protocols are specified in file netinet/in.h. The value 0 may be used to select a default protocol from the selected domain and type.The function returns -1 if an error occurred. Otherwise, it returns an integer representing the newly assigned descriptor.
+
+
+=== bind ===
+bind() associates a socket with an address. When a socket is created with socket(), it is only given a protocol family, but not assigned an address. This association must be performed before the socket can accept connections from other hosts. The function has three arguments:
+
+sockfd, a descriptor representing the socket
+my_addr, a pointer to a sockaddr structure representing the address to bind to.
+addrlen, a field of type socklen_t specifying the size of the sockaddr structure.Bind() returns 0 on success and -1 if an error occurs.
+
+
+=== listen ===
+After a socket has been associated with an address, listen() prepares it for incoming connections. However, this is only necessary for the stream-oriented (connection-oriented) data modes, i.e., for socket types (SOCK_STREAM, SOCK_SEQPACKET). listen() requires two arguments:
+
+sockfd, a valid socket descriptor.
+backlog, an integer representing the number of pending connections that can be queued up at any one time. The operating system usually places a cap on this value.Once a connection is accepted, it is dequeued. On success, 0 is returned. If an error occurs, -1 is returned.
+
+
+=== accept ===
+When an application is listening for stream-oriented connections from other hosts, it is notified of such events (cf. select() function) and must initialize the connection using function accept(). It creates a new socket for each connection and removes the connection from the listening queue. The function has the following arguments:
+
+sockfd, the descriptor of the listening socket that has the connection queued.
+cliaddr, a pointer to a sockaddr structure to receive  the client's address information.
+addrlen, a pointer to a socklen_t location that specifies the size of the client address structure passed to accept(). When accept() returns, this location contains the size (in bytes) of the  structure.accept() returns the new socket descriptor for the accepted connection, or the value -1 if an error occurs. All further communication with the remote host now occurs via this new socket.
+Datagram sockets do not require processing by accept() since the receiver may immediately respond to the request using the listening socket.
+
+
+=== connect ===
+connect() establishes a direct communication link to a specific remote host identified by its address via a socket, identified by its file descriptor.
+When using a connection-oriented protocol, this establishes a connection. Certain types of protocols are connectionless, most notably the User Datagram Protocol. When used with connectionless protocols, connect defines the remote address for sending and receiving data, allowing the use of functions such as send and recv. In these cases, the connect function prevents reception of datagrams from other sources.
+connect() returns an integer representing the error code: 0 represents success, while –1 represents an error. Historically, in BSD-derived systems, the state of a socket descriptor is undefined if the call to connect fails (as it is specified in the Single Unix Specification), thus, portable applications should close the socket descriptor immediately and obtain a new descriptor with socket(), in the case the call to connect() fails.
+
+
+=== gethostbyname and gethostbyaddr ===
+The functions gethostbyname() and gethostbyaddr() are used to resolve host names and addresses in the domain name system or the local host's other resolver mechanisms (e.g., /etc/hosts lookup). They return a pointer to an object of type struct hostent, which describes an Internet Protocol host.  The functions use the following arguments:
+
+name specifies the DNS name of the host.
+addr specifies a pointer to a struct in_addr containing the address of the host.
+len specifies the length, in bytes, of addr.
+type specifies the address family type (e.g., AF_INET) of the host address.The functions return a NULL pointer in case of error, in which case the external integer h_errno may be checked to see whether this is a temporary failure or an invalid or unknown host. Otherwise a valid struct hostent * is returned.
+These functions are not strictly a component of the BSD socket API, but are often used in conjunction with the API functions. Furthermore, these functions are now considered legacy interfaces for querying the domain name system. New functions that are completely protocol-agnostic (supporting IPv6) have been defined. These new function are getaddrinfo() and getnameinfo(), and are based on a new addrinfo data structure.
+
+
+== Protocol and address families ==
+The socket API is a general interface for Unix networking and allows the use of various network protocols and addressing architectures.
+The following lists a sampling of protocol families (preceded by the standard symbolic identifier) defined in a modern Linux or BSD implementation:
+
+A socket for communications using any family is created with the socket() function, by specifying the desired protocol family (PF_-identifier) as an argument.
+The original design concept of the socket interface distinguished between protocol types (families) and the specific address types that each may use. It was envisioned that a protocol family may have several address types. Address types were defined by additional symbolic constants, using the prefix AF instead of PF. The AF-identifiers are intended for all data structures that specifically deal with the address type and not the protocol family.
+However, this concept of separation of protocol and address type has not found implementation support and the AF-constants were defined by the corresponding protocol identifier, leaving the distinction between AF and PF constants as a technical argument of no practical consequence. Indeed, much confusion exists in the proper usage of both forms.The POSIX.1—2008 specification doesn't specify any PF-constants, but only AF-constants
+
+
+=== Raw sockets ===
+Raw sockets provide a simple interface that bypasses the processing by the host's TCP/IP stack. They permit implementation of networking protocols in user space and aid in debugging of the protocol stack. Raw sockets are used by some services, such as ICMP, that operate at the Internet Layer of the TCP/IP model.
+
+
+== Options for sockets ==
+After creating a socket, it is possible to set options on it. Some of the more common options are:
+
+TCP_NODELAY disables the Nagle algorithm.
+SO_KEEPALIVE enables periodic 'liveness' pings, if supported by the OS.
+
+
+== Blocking and non-blocking mode ==
+Berkeley sockets can operate in one of two modes: blocking or non-blocking.
+A blocking socket does not return control until it has sent (or received) some or all data specified for the operation. It is normal for a blocking socket not to send all data. The application must check the return value to determine how many bytes have been sent or received and it must resend any data not already processed. When using blocking sockets, special consideration should be given to accept() as it may still block after indicating readability if a client disconnects during the connection phase.
+On the other hand, a non-blocking socket returns whatever is in the receive buffer and immediately continues. If not written correctly, programs using non-blocking sockets are particularly susceptible to race conditions due to variances in network link speed.
+A socket is typically set to blocking or nonblocking mode using the fcntl() or ioctl() functions.
+
+
+== Terminating sockets ==
+The operating system does not release the resources allocated to a socket until the socket is closed. This is especially important if the connect call fails and will be retried.
+When an application closes a socket, only the interface to the socket is destroyed. It is the kernel's responsibility to destroy the socket internally. Sometimes, a socket may enter a TIME_WAIT state, on the server side, for up to 4 minutes.On SVR4 systems use of close() may discard data. The use of shutdown() or SO_LINGER may be required on these systems to guarantee delivery of all data.
+
+
+== Client-server example using TCP ==
+The Transmission Control Protocol (TCP) is a connection-oriented protocol that provides a variety of error correction and performance features for transmission of byte streams. A process creates a TCP socket by calling the socket() function with the parameters for the protocol family (PF INET, PF_INET6), the socket mode for Stream Sockets (SOCK_STREAM), and the IP protocol identifier for TCP (IPPROTO_TCP).
+
+
+=== Server ===
+Setting up a simple TCP server involves the following steps:
+
+Creating a TCP socket, with a call to socket().
+Binding the socket to the listen port, with a call to bind(). Before calling bind(), a programmer must declare a sockaddr_in structure, clear it (with memset()), and the sin_family (AF_INET), and fill its sin_port (the listening port, in network byte order) fields. Converting a short int to network byte order can be done by calling the function htons() (host to network short).
+Preparing the socket to listen for connections (making it a listening socket), with a call to listen().
+Accepting incoming connections, via a call to accept(). This blocks until an incoming connection is received, and then returns a socket descriptor for the accepted connection. The initial descriptor remains a listening descriptor, and accept() can be called again at any time with this socket, until it is closed.
+Communicating with the remote host, which can be done through send() and recv() or write() and read().
+Eventually closing each socket that was opened, once it is no longer needed, using close().The following program creates a TCP server on port number 1100:
+
+
+=== Client ===
+Programming a TCP client application involves the following steps:
+
+Creating a TCP socket, with a call to socket().
+Connecting to the server with the use of connect(), passing a sockaddr_in structure with the sin_family set to AF_INET, sin_port set to the port the endpoint is listening (in network byte order), and sin_addr set to the IP address of the listening server (also in network byte order.)
+Communicating with the server by using send() and recv() or write() and read().
+Terminating the connection and cleaning up with a call to close().
+
+
+== Client-server example using UDP ==
+The User Datagram Protocol (UDP) is a connectionless protocol with no guarantee of delivery. UDP packets may arrive out of order, multiple times, or not at all. Because of this minimal design, UDP has considerably less overhead than TCP. Being connectionless means that there is no concept of a stream or permanent connection between two hosts. Such data are referred to as datagrams (Datagram Sockets).
+UDP address space, the space of UDP port numbers (in ISO terminology, the TSAPs), is completely disjoint from that of TCP ports.
+
+
+=== Server ===
+An application may set up a UDP server on port number 7654 as follows. The programs contains an infinite loop that receives UDP datagrams using recvfrom().
+
+
+=== Client ===
+A simple client program for sending a UDP packet containing the string "Hello World!" to address 127.0.0.1 and port number 7654 might look like this:
+
+In this code, buffer is a pointer to the data to be sent, and buffer_length specifies the size of the data.
+
+
+== Caveats ==
+For TCP connections, the operating system may have to retransmit the data given to it with a write() call. However, the user space program is at liberty to overwrite, or even deallocate, the data buffer passed to write() after write() returns. This implies that the operating system must make a copy of the data which can lead to a considerable CPU load in high throughput/performance applications. Other APIs, such as those supporting RDMA require that the data buffer is not released until the acknowledgement from the remote end has been received and thus make it possible to have zero memory copy operations.
+
+
+== References ==
+
+The de jure standard definition of the Sockets interface is contained in the POSIX standard, known as:
+
+IEEE Std. 1003.1-2001 Standard for Information Technology—Portable Operating System Interface (POSIX).
+Open Group Technical Standard: Base Specifications, Issue 6, December 2001.
+ISO/IEC 9945:2002Information about this standard and ongoing work on it is available from the Austin website.
+The IPv6 extensions to the base socket API are documented in RFC 3493 and RFC 3542.
+
+W. Richard, Stevens; Stephen A., Rago (May 24, 2013). Advanced Programming in the UNIX Environment (Third ed.). Addison-Wesley Professional. ISBN 978-0321637734. Retrieved 27 February 2015.
+
+
+== External links ==
+Unix Manual Pages
+accept(2)
+connect(2)
+UNIX Programmer's Supplementary Documents (PSD: 20-1)
+Beej's Guide to Network Programming - 2007
+UnixSocket FAQ
+quick TCP-IP NetIntro with C examples
+Porting Berkeley Socket programs to Winsock - Microsoft's documentation.
+Programming UNIX Sockets in C - Frequently Asked Questions - 1996
+Linux network programming - Linux Journal, 1998This article is based on material taken from  the Free On-line Dictionary of Computing  prior to 1 November 2008 and incorporated under the "relicensing" terms of the GFDL, version 1.3 or later.
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>15ab6dc0-3e3b-46d1-8292-cc046c8ff2b5</DOCNO>
+<TITLE>Scrum (software development)</TITLE>
+<TEXT>
+Scrum is an agile process framework for managing complex knowledge work, with an initial emphasis on software development, although it has been used in other fields and is slowly starting to be explored for other complex work, research and advanced technologies.  It is designed for teams of ten or fewer members, who break their work into goals that can be completed within timeboxed iterations, called sprints, no longer than one month and most commonly two weeks, then track progress and re-plan in 15-minute time-boxed stand-up meetings, called daily scrums.
+
+
+== Name ==
+Scrum is occasionally seen written in all-capitals, as SCRUM. The word is not an acronym, so this stylization is not correct; it likely arose due to an early paper by Ken Schwaber which capitalized SCRUM in its title.While the trademark on the term Scrum itself has been allowed to lapse, it is deemed as owned by the wider community rather than an individual, so the leading capital for Scrum is retained in this article.
+Many of the terms used in Scrum are typically written with leading capitals (e.g., Scrum Master, Daily Scrum). However, to maintain an encyclopedic tone, this article uses normal sentence case for these terms (e.g., scrum master, daily scrum) — unless they are recognized marks (such as Certified Scrum Master).
+
+
+== Key ideas ==
+Scrum is a lightweight, iterative and incremental framework for managing complex work. The framework challenges assumptions of the traditional, sequential approach to product development, and enables teams to self-organize by encouraging physical co-location or close online collaboration of all team members, as well as daily face-to-face communication among all team members and disciplines involved.
+A key principle of Scrum is the dual recognition that customers will change their minds about what they want or need (often called requirements volatility) and that there will be unpredictable challenges—for which a predictive or planned approach is not suited. 
+As such, Scrum adopts an evidence-based empirical approach — accepting that the problem cannot be fully understood or defined up front, and instead focusing on how to maximize the team's ability to deliver quickly, to respond to emerging requirements, and to adapt to evolving technologies and changes in market conditions.
+
+
+== History ==
+Hirotaka Takeuchi and Ikujiro Nonaka introduced the term scrum in the context of product development in their 1986 Harvard Business Review article, 'The New New Product Development Game'. Takeuchi and Nonaka later argued in The Knowledge Creating Company that it is a form of "organizational knowledge creation, [...] especially good at bringing about innovation continuously, incrementally and spirally".
+The authors described a new approach to commercial product development that would increase speed and flexibility, based on case studies from manufacturing firms in the automotive, photocopier and printer industries. They called this the holistic or rugby approach, as the whole process is performed by one cross-functional team across multiple overlapping phases, in which the team "tries to go the distance as a unit, passing the ball back and forth". (In rugby football, a scrum is used to restart play, as the forwards of each team interlock with their heads down and attempt to gain possession of the ball.)
+The Scrum framework was based on research by Schwaber with Tunde Babatunde at DuPont Research Station and University of Delaware. Tunde advised that attempts to develop complex product, such as software, that weren’t based in empiricism were doomed to higher risks and rates of failure as the initial conditions and assumptions change. Empiricism, using frequent inspection and adaptation, with flexibility and transparency is the most suitable approach.
+In the early 1990s, Ken Schwaber used what would become Scrum at his company, Advanced Development Methods; while Jeff Sutherland, John Scumniotales and Jeff McKenna developed a similar approach at Easel Corporation, referring to it using the single word scrum.Ken and Jeff worked together to integrate their ideas into a single framework, Scrum. They tested Scrum and continually improved it, leading to their 1995 paper, contributions to the Agile Manifesto  in 2001, and the worldwide spread and use of Scrum since 2002.
+In 1995, Sutherland and Schwaber jointly presented a paper describing the Scrum framework at the Business Object Design and Implementation Workshop held as part of Object-Oriented Programming, Systems, Languages & Applications '95 (OOPSLA '95) in Austin, Texas. Over the following years, Schwaber and Sutherland collaborated to combine this material—with their experience and evolving good practice—to develop what became known as Scrum.In 2001, Schwaber worked with Mike Beedle to describe the method in the book, Agile Software Development with Scrum. Scrum's approach to planning and managing product development involves bringing decision-making authority to the level of operation properties and certainties.In 2002, Schwaber with others founded the Scrum Alliance and set up the Certified Scrum accreditation series. Schwaber left the Scrum Alliance in late 2009 and founded Scrum.org which oversees the parallel Professional Scrum accreditation series.Since 2009, a public document called The Scrum Guide has been published and updated by Schwaber and Sutherland. It has been revised 5 times, with the current version being November 2017.
+
+
+== Roles ==
+There are three roles in the Scrum framework. These are ideally co-located to ensure optimal communication among team members. Together these three roles form the scrum team. While many organizations have other roles involved with defining and delivering the product, Scrum defines only these three.
+
+
+=== Product owner ===
+The product owner, representing the product's stakeholders and the voice of the customer (or may represent the desires of a committee), is responsible for delivering good business results.  Hence, the product owner is accountable for the product backlog and for maximizing the value that the team delivers. The product owner defines the product in customer-centric terms (typically user stories), adds them to the product backlog, and prioritizes them based on importance and dependencies. A scrum team should have only one product owner (although a product owner could support more than one team) This role should not be combined with that of the scrum master. The product owner should focus on the business side of product development and spend the majority of their time liaising with stakeholders and the team. The product owner should not dictate how the team reaches a technical solution, but rather will seek consensus among the team members. This role is crucial and requires a deep understanding of both sides: the business and the engineers (developers) in the scrum team. Therefore a good product owner should be able to communicate what the business needs, ask why they need it (because there may be better ways to achieve that), and convey the message to all stakeholders including the delivery Team using a technical language, as required. The Product Owner uses Scrum’s empirical tools to manage highly complex work, while controlling risk and achieving value.
+Communication is a core responsibility of the product owner. The ability to convey priorities and empathize with team members and stakeholders is vital to steer product development in the right direction. The product owner role bridges the communication gap between the team and its stakeholders, serving as a proxy for stakeholders to the team and as a team representative to the overall stakeholder community.As the face of the team to the stakeholders, the following are some of the communication tasks of the product owner to the stakeholders:
+Define and announce releases.
+Communicate delivery and team status.
+Share progress during governance meetings.
+Share significant RIDAs (risks, impediments, dependencies, and assumptions) with stakeholders.
+Negotiate priorities, scope, funding, and schedule.
+Ensure that the product backlog is visible, transparent and clear.Empathy is a key attribute for a product owner to have—the ability to put one's self in another's shoes. A product owner converses with different stakeholders, who have a variety of backgrounds, job roles, and objectives. A product owner must be able to see from these different points of view. To be effective, it is wise for a product owner to know the level of detail the audience needs. The development team needs thorough feedback and specifications so they can build a product up to expectation, while an executive sponsor may just need summaries of progress. Providing more information than necessary may lose stakeholder interest and waste time. A direct means of communication is the most preferred by seasoned agile product owners.A product owner's ability to communicate effectively is also enhanced by being skilled in techniques that identify stakeholder needs, negotiate priorities between stakeholder interests, and collaborate with developers to ensure effective implementation of requirements.
+
+
+=== Development team ===
+The development team has from three to nine members who carry out all tasks required to build increments of valuable output every sprint.While team members are referred to as developers in some literature, the term refers to anyone who plays a role in the development and support of the system or product, and can include researchers, architects, designers, data specialists, statisticians, analysts, engineers, programmers, and testers, among others. However, due to the confusion that can arise when some people do not feel the term 'developer' applies to them, they are often referred to just as team members. 
+The team is self-organizing. While no work should come to the team except through the product owner, and the scrum master is expected to protect the team from too much distraction, the team should still be encouraged to interact directly with customers and/or stakeholders to gain maximum understanding and immediacy of feedback.
+
+
+=== Scrum master ===
+Scrum is facilitated by a scrum master, who is accountable for removing impediments to the ability of the team to deliver the product goals and deliverables. The scrum master is not a traditional team lead or project manager but acts as a buffer between the team and any distracting influences. The scrum master ensures that the scrum framework is followed. The scrum master helps to ensure the team follows the agreed processes in the Scrum framework, often facilitates key sessions, and encourages the team to improve. The role has also been referred to as a team facilitator or servant-leader to reinforce these dual perspectives.
+The core responsibilities of a scrum master include (but are not limited to):
+Helping the product owner maintain the product backlog in a way that ensures the needed work is well understood so the team can continually make forward progress
+Helping the team to determine the definition of done for the product, with input from key stakeholders
+Coaching the team, within the Scrum principles, in order to deliver high-quality features for its product
+Promoting self-organization within the team
+Helping the scrum team to avoid or remove impediments to its progress, whether internal or external to the team
+Facilitating team events to ensure regular progress
+Educating key stakeholders on Agile and Scrum principles
+Coaching the development team in self-organization and cross-functionalityThe scrum master helps people and organizations adopt empirical and lean thinking, leaving behind hopes for certainty and predictability. 
+One of the ways the scrum master role differs from a project manager is that the latter may have people management responsibilities and the scrum master does not. A scrum master provides a limited amount of direction since the team is expected to be empowered and self-organizing. Scrum does not formally recognise the role of project manager, as traditional command and control tendencies would cause difficulties.
+
+
+== Workflow ==
+
+
+=== Sprint ===
+
+A sprint (also known as iteration or timebox) is the basic unit of development in Scrum. The sprint is a timeboxed effort; that is, the length is agreed and fixed in advance for each sprint and is normally between one week and one month, with two weeks being the most common.Each sprint starts with a sprint planning event that establishes a sprint goal and the required product backlog items. The team accepts what they agree is ready and translate this into a sprint backlog, with a breakdown of the work required and an estimated forecast for the sprint goal. Each sprint ends with a sprint review and sprint retrospective, that reviews progress to show to stakeholders and identify lessons and improvements for the next sprints.Scrum emphasizes valuable, useful output at the end of the sprint that is really done. In the case of software, this likely includes that the software has been fully integrated, tested and documented, and is potentially releasable.
+
+
+=== Sprint planning ===
+At the beginning of a sprint, the scrum team holds a sprint planning event to:
+
+Mutually discuss and agree on the scope of work that is intended to be done during that sprint
+Select product backlog items that can be completed in one sprint
+Prepare a sprint backlog that includes the work needed to complete the selected product backlog items
+Agree the sprint goal, a short description of what they are forecasting to deliver at the end of the sprint.
+The recommended duration is four hours for a two-week sprint (pro-rata for other sprint durations) During the first half, the whole scrum team (development team, scrum master, and product owner) selects the product backlog items they believe could be completed in that sprint
+During the second half, the development team identifies the detailed work (tasks) required to complete those product backlog items; resulting in a confirmed sprint backlog
+As the detailed work is elaborated, some product backlog items may be split or put back into the product backlog if the team no longer believes they can complete the required work in a single sprint
+Once the development team has prepared their sprint backlog, they forecast (usually by voting) which tasks will be delivered within the sprint.
+
+
+=== Daily scrum ===
+
+Each day during a sprint, the team holds a daily scrum (or stand-up) with specific guidelines:
+
+All members of the development team come prepared. The daily scrum:
+starts precisely on time even if some development team members are missing
+should happen at the same time and place every day
+is limited (timeboxed) to fifteen minutes
+Anyone is welcome, though only development team members should contribute.
+During the daily scrum, each team member typically answers three questions:
+What did I complete yesterday that contributed to the team meeting our sprint goal?
+What do I plan to complete today to contribute to the team meeting our sprint goal?
+Do I see any impediment that could prevent me or the team from meeting our sprint goal?Any impediment (e.g., stumbling block, risk, issue, delayed dependency, assumption proved unfounded) identified in the daily scrum should be captured by the scrum master and displayed on the team's scrum board or on a shared risk board, with an agreed person designated to working toward a resolution (outside of the daily scrum). While the currency of work status is the whole team's responsibility, the scrum master often updates the sprint burndown chart. Where the team does not see the value in these events, it is the responsibility of the scrum master to find out why. This is part of the responsibility of educating the team and stakeholders about the Scrum principles.No detailed discussions should happen during the daily scrum. Once the meeting ends, individual members can get together to discuss issues in detail; such a meeting is sometimes known as a 'breakout session' or an 'after party'.
+
+
+=== Sprint review ===
+At the end of a sprint, the team holds two events: the sprint review and the sprint retrospective.
+At the sprint review, the team:
+
+reviews the work that was completed and the planned work that was not completed
+presents the completed work to the stakeholders (a.k.a. the  demo)
+collaborates with the stakeholders on what to work on nextGuidelines for sprint reviews:
+
+Incomplete work cannot be demonstrated.
+The recommended duration is two hours for a two-week sprint (proportional for other sprint-durations).
+
+
+=== Sprint retrospective ===
+At the sprint retrospective, the team:
+
+Reflects on the past sprint
+Identifies and agrees on continuous process improvement actionsGuidelines for sprint retrospectives:
+
+Three main questions are asked in the sprint retrospective: What went well during the sprint? What did not go well? What could be improved for better productivity in the next sprint?
+The recommended duration is one-and-a-half hours for a two-week sprint (proportional for other sprint duration(s))
+This event is facilitated by the scrum master
+
+
+=== Backlog refinement ===
+Backlog refinement (formerly called grooming) is the ongoing process of reviewing product backlog items and checking that they are appropriately prepared and ordered in a way that makes them clear and executable for teams once they enter sprints via the sprint planning activity. Product backlog items may be broken into multiple smaller ones. Acceptance criteria may be clarified. Dependencies may be identified and investigated.
+Although not originally a core Scrum practice, backlog refinement has been added to the Scrum Guide and adopted as a way of managing the quality of product backlog items entering a sprint, with a recommended investment of up to 10% of a team's sprint capacity.The backlog can also include technical debt (also known as design debt or code debt). This is a concept in software development that reflects the implied cost of additional rework caused by choosing an easy solution now instead of using a better approach that would take longer.
+
+
+=== Cancelling a sprint ===
+The product owner can cancel a sprint if necessary. The product owner may do so with input from the team, scrum master or management. For instance, management may wish the product owner to cancel a sprint if external circumstances negate the value of the sprint goal. If a sprint is abnormally terminated, the next step is to conduct a new sprint planning, where the reason for the termination is reviewed.
+
+
+== Artifacts ==
+
+
+=== Product backlog ===
+The product backlog is a breakdown of work to be done and contains an ordered list of product requirements that a scrum team maintains for a product. Common formats include user stories and use cases. The requirements define features, bug fixes, non-functional requirements, etc.—whatever must be done to deliver a viable product. The product owner prioritizes product backlog items (PBIs) based on considerations such as risk, business value, dependencies, size, and date needed.
+The product backlog is what will be delivered, ordered into the sequence in which it should be delivered. It is visible to everyone but may only be changed with the consent of the product owner, who is ultimately responsible for ordering product backlog items for the development team to choose.
+The product backlog contains the product owner's assessment of business value and the development team's assessment of development effort, which are often, but not always, stated in story points using the rounded Fibonacci scale. These estimates help the product owner to gauge the timeline and may influence the ordering of product backlog items; for example, if two features have the same business value, the product owner may schedule earlier delivery of the one with the lower development effort (because the return on investment is higher) or the one with higher development effort (because it is more complex or riskier, and they want to retire that risk earlier).The product backlog and the business value of each product backlog item is the responsibility of the product owner. The effort to deliver each item is estimated by the development team in story points, or time. By estimating in story points, the team reduces the dependency in individual developers; this is useful especially in dynamic teams where developers are often assigned to other projects after sprint delivery. For instance, if a user story is estimated as a 5 in effort (using Fibonacci sequence), it remains 5 regardless of how many developers are working on it
+Story points define the effort in a time-box, so they do not change with time. For instance, in one hour an individual can walk, run, or climb, but the effort expended is clearly different. The gap progression between the terms in the Fibonacci sequence encourages the team to deliver carefully considered estimates. Estimates of 1, 2 or 3 imply similar efforts (1 being trivial), but if the team estimates an 8 or 13 (or higher), the impact on both delivery and budget can be significant. The value of using story points is that the team can reuse them by comparing similar work from previous sprints, but it should be recognized that estimates are relative to the team. For example, an estimate of 5 for one team could be a 2 for another having senior developers and higher skills.
+Every team should have a product owner, although in many instances a product owner could work with more than one team. The product owner is responsible for maximizing the value of the product. The product owner gathers input and takes feedback from, and is lobbied by, many people, but ultimately makes the call on what gets built.
+The product backlog:
+
+Captures requests to modify a product—including new features, replacing old features, removing features, and fixing issues
+Ensures the development team has work that maximizes business benefit to the product ownerTypically, the product owner and the scrum team work together to develop the breakdown of work; this becomes the product backlog, which evolves as new information surfaces about the product and about its customers, and so later sprints may address new work.
+
+
+==== Management ====
+A product backlog, in its simplest form, is merely a list of items to work on. Having well-established rules about how work is added, removed and ordered helps the whole team make better decisions about how to change the product.The product owner prioritizes product backlog items based on which are needed soonest. The team then chooses which items they can complete in the coming sprint. On the scrum board, the team moves items from the product backlog to the sprint backlog, which is the list of items they will build. Conceptually, it is ideal for the team to only select what they think they can accomplish from the top of the list, but it is not unusual to see in practice that teams are able to take lower-priority items from the list along with the top ones selected. This normally happens because there is time left within the sprint to accommodate more work. Items at the top of the backlog, the items to work on first, should be broken down into stories that are suitable for the development team to work on. The further down the backlog goes, the less refined the items should be. As Schwaber and Beedle put it "The lower the priority, the less detail until you can barely make out the backlog item."As the team works through the backlog, it must be assumed that change happens outside their environment—the team can learn about new market opportunities to take advantage of, competitor threats that arise, and feedback from customers that can change the way the product was meant to work. All of these new ideas tend to trigger the team to adapt the backlog to incorporate new knowledge. This is part of the fundamental mindset of an agile team. The world changes, the backlog is never finished.
+
+
+=== Sprint backlog ===
+
+The sprint backlog is the list of work the development team must address during the next sprint. The list is derived by the scrum team progressively selecting product backlog items in priority order from the top of the product backlog until they feel they have enough work to fill the sprint. The development team should keep in mind its past performance assessing its capacity for the new-sprint, and use this as a guideline of how much 'effort' they can complete.
+The product backlog items may be broken down into tasks by the development team. Tasks on the sprint backlog are never assigned (or pushed) to team members by someone else; rather team members sign up for (or pull) tasks as needed according to the backlog priority and their own skills and capacity. This promotes self-organization of the development team and developer buy-in.
+The sprint backlog is the property of the development team, and all included estimates are provided by the development team. Often an accompanying task board is used to see and change the state of the tasks of the current sprint, like to do, in progress and done.
+Once a sprint backlog is committed, no additional work can be added to the sprint backlog except by the team. Once a sprint has been delivered, the product backlog is analyzed and reprioritized if necessary, and the next set of functionality is selected for the next sprint.
+
+
+=== Increment ===
+The increment is the potentially releasable output of the sprint that meets the sprint goal. It is formed from all the completed sprint backlog items, integrated with the work of all previous sprints. The increment must be complete, according to the scrum team's definition of done (DoD), fully functioning, and in a usable condition regardless of whether the product owner decides to actually deploy and use it.
+
+
+=== Extensions ===
+The following artifacts and techniques can be used to help people use Scrum.
+
+
+==== Sprint burndown chart ====
+
+The sprint burndown chart is a publicly displayed chart showing remaining work in the sprint backlog. Updated every day, it gives a simple view of the sprint progress. It also provides quick visualizations for reference. The horizontal axis of the sprint burndown chart shows the days in a sprint, while the vertical axis shows the amount of work remaining each day (typically representing the estimate of hours of work remaining).
+During sprint planning, the ideal burndown chart is plotted. Then, during the sprint, each member picks up tasks from the sprint backlog and works on them. At the end of the day, they update the remaining hours for tasks to be completed. In such a way, the actual burndown chart is updated day by day.
+It should not be confused with an earned value chart.
+
+
+==== Release burn-up chart ====
+
+The release burn-up chart is a way for the team to provide visibility and track progress toward a release. Updated at the end of each sprint, it shows progress toward delivering a forecast scope. The horizontal axis of the release burn-up chart shows the sprints in a release, while the vertical axis shows the amount of work completed at the end of each sprint (typically representing cumulative story points of work completed). Progress is plotted as a line that grows up to meet a horizontal line that represents the forecast scope; often shown with a forecast, based on progress to date, that indicates how much scope might be completed by a given release date or how many sprints it will take to complete the given scope.
+The release burn-up chart makes it easy to see how much work has been completed, how much work has been added or removed (if the horizontal scope line moves), and how much work is left to be done.
+
+
+==== Definition of ready (DoR) ====
+The start criteria to determine whether the specifications and inputs are set enough to start the work item, i.e. a user story.
+
+
+==== Definition of done (DoD) ====
+The exit-criteria to determine whether a product backlog item is complete. In many cases, the DoD requires that all regression tests be successful. The definition of done may vary from one scrum team to another but must be consistent within one team.
+
+
+==== Velocity ====
+The total effort a team is capable of in a sprint. The number is derived by evaluating the work (typically in user story points) completed in the last sprint. The collection of historical velocity data is a guideline for assisting the team in understanding how much work they can likely achieve in a future sprint.
+
+
+==== Spike ====
+A time-boxed period used to research a concept or create a simple prototype. Spikes can either be planned to take place in between sprints or, for larger teams, a spike might be accepted as one of many sprint delivery objectives. Spikes are often introduced before the delivery of large or complex product backlog items in order to secure budget, expand knowledge, or produce a proof of concept. The duration and objective(s) of a spike is agreed between product owner and development team before the start. Unlike sprint commitments, spikes may or may not deliver tangible, shippable, valuable functionality. For example, the objective of a spike might be to successfully reach a decision on a course of action. The spike is over when the time is up, not necessarily when the objective has been delivered.
+
+
+==== Tracer bullet ====
+Also called a drone spike, a tracer bullet is a spike with the current architecture, current technology set, current set of best practices that result in production quality code. It might just be a very narrow implementation of the functionality but is not throwaway code. It is of production quality, and the rest of the iterations can build on this code. The name has military origins as ammunition that makes the path of the bullet visible, allowing for corrections. Often these implementations are a 'quick shot' through all layers of an application, such as connecting a single form's input field to the back-end, to prove the layers connect as expected.
+
+
+== Limitations ==
+The benefits of Scrum may be more difficult to achieve when:
+Teams whose members are geographically dispersed or part-time: In Scrum, developers should have close and ongoing interaction, ideally working together in the same space most of the time. While recent improvements in technology have reduced the impact of these barriers (e.g., being able to collaborate on a digital whiteboard), the Agile manifesto asserts that the best communication is face to face.
+Teams whose members have very specialized skills: In Scrum, developers should have T-shaped skills, allowing them to work on tasks outside of their specialization. This can be encouraged by good Scrum leadership. While team members with very specific skills can and do contribute well, they should be encouraged to learn more about and collaborate with other disciplines.
+Products with many external dependencies: In Scrum, dividing product development into short sprints requires careful planning; external dependencies, such as user acceptance testing or coordination with other teams, can lead to delays and the failure of individual sprints.
+Products that are mature or legacy or with regulated quality control: In Scrum, product increments should be fully developed and tested in a single sprint; products that need large amounts of regression testing or safety testing (e.g., medical devices or vehicle control) for each release are less suited to short sprints than to longer waterfall releases.From a business perspective, Scrum has many virtues, one of which is that it is designed to yield the best business solutions. However, the efficiency by which it does so in any given organization can vary widely and is largely dependent on the ability of the organization to adhere to the implementation guidelines. Every company has its own distinct organizational structure, culture, and set of business practices, and some are more naturally amenable to this methodology than others.
+
+
+== Tools for implementation ==
+
+Like other agile methods, effective adoption of Scrum can be supported through a wide range of tools.
+Many companies use universal tools, such as spreadsheets to build and maintain artifacts such as the sprint backlog. There are also open-source and proprietary software packages for Scrum—which are either dedicated to product development using the Scrum framework or support multiple product development approaches including Scrum.
+Other organizations implement Scrum without software tools and maintain their artifacts in hard-copy forms such as paper, whiteboards, and sticky notes.
+
+
+== Scrum values ==
+Scrum is a feedback-driven empirical approach which is, like all empirical process control, underpinned by the three pillars of transparency, inspection, and adaptation. All work within the Scrum framework should be visible to those responsible for the outcome: the process, the workflow, progress, etc. In order to make these things visible, scrum teams need to frequently inspect the product being developed and how well the team is working. With frequent inspection, the team can spot when their work deviates outside of acceptable limits and adapt their process or the product under development.These three pillars require trust and openness in the team, which the following five values of Scrum enable:
+Commitment: Team members individually commit to achieving their team goals, each and every sprint.
+Courage: Team members know they have the courage to work through conflict and challenges together so that they can do the right thing.
+Focus: Team members focus exclusively on their team goals and the sprint backlog; there should be no work done other than through their backlog.
+Openness: Team members and their stakeholders agree to be transparent about their work and any challenges they face.
+Respect: Team members respect each other to be technically capable and to work with good intent.
+
+
+== Adaptations ==
+The hybridization of Scrum with other software development methodologies is common as Scrum does not cover the whole product development lifecycle; therefore, organizations find the need to add in additional processes to create a more comprehensive implementation. For example, at the start of product development, organizations commonly add process guidance on the business case, requirements gathering and prioritization, initial high-level design, and budget and schedule forecasting.Various authors and communities of people who use Scrum have also suggested more detailed techniques for how to apply or adapt Scrum to particular problems or organizations.  Many refer to these methodological techniques as 'patterns' - by analogy with design patterns in architecture and software. Such patterns have extended Scrum outside of the software development domain into Manufacturing, Finance and Human Resources.
+
+
+=== Scrumban ===
+
+Scrumban is a software production model based on Scrum and Kanban. Scrumban is especially suited for product maintenance with frequent and unexpected work items, such as production defects or programming errors. In such cases the time-limited sprints of the Scrum framework may be perceived to be of less benefit, although Scrum's daily events and other practices can still be applied, depending on the team and the situation at hand. Visualization of the work stages and limitations for simultaneous unfinished work and defects are familiar from the Kanban model. Using these methods, the team's workflow is directed in a way that allows for minimum completion time for each work item or programming error, and on the other hand ensures each team member is constantly employed.To illustrate each stage of work, teams working in the same space often use post-it notes or a large whiteboard. In the case of decentralized teams, stage-illustration software such as Assembla, JIRA or Agilo.
+The major differences between Scrum and Kanban is that in Scrum work is divided into sprints that last a fixed amount of time, whereas in Kanban the flow of work is continuous. This is visible in work stage tables, which in Scrum are emptied after each sprint, whereas in Kanban all tasks are marked on the same table. Scrum focuses on teams with multifaceted know-how, whereas Kanban makes specialized, functional teams possible.
+
+
+=== Scrum of scrums ===
+The scrum of scrums is a technique to operate Scrum at scale, for multiple teams working on the same product, allowing them to discuss progress on their interdependencies, focusing on how to coordinate delivering software, especially on areas of overlap and integration. Depending on the cadence (timing) of the scrum of scrums, the relevant daily scrum for each scrum team ends by designating one member as an ambassador to participate in the scrum of scrums with ambassadors from other teams. Depending on the context, the ambassadors may be technical contributors or each team's scrum master.Rather than simply a progress update, the scrum of scrums should focus on how teams are collectively working to resolve, mitigate, or accept any risks, impediments, dependencies, and assumptions (RIDAs) that have been identified. The scrum of scrums tracks these RIDAs via a backlog of its own, such as a risk board (sometimes known as a ROAM board after the initials of resolved, owned, accepted, and mitigated), which typically leads to greater coordination and collaboration between teams.This should run similar to a daily scrum, with each ambassador answering the following four questions:
+What risks, impediments, dependencies, or assumptions has your team resolved since we last met?
+What risks, impediments, dependencies, or assumptions will your team resolve before we meet again?
+Are there any new risks, impediments, dependencies, or assumptions slowing your team down or getting in their way?
+Are you about to introduce a new risk, impediment, dependency, or assumption that will get in another team's way?As Jeff Sutherland commented,
+Since I originally defined the Scrum of Scrums (Ken Schwaber was at IDX working with me), I can definitively say the Scrum of Scrums is not a 'meta Scrum'. The Scrum of Scrums as I have used it is responsible for delivering the working software of all teams to the Definition of Done at the end of the sprint, or for releases during the sprint. PatientKeeper delivered to production four times per Sprint. Ancestry.com delivers to production 220 times per two-week Sprint. Hubspot delivers live software 100-300 times a day. The Scrum of Scrums Master is held accountable for making this work. So the Scrum of Scrums is an operational delivery mechanism.
+
+
+=== Large-scale Scrum ===
+Large-scale Scrum (LeSS) is a product development framework that extends Scrum with scaling rules and guidelines without losing the original purposes of Scrum.
+There are two levels to the framework: the first LeSS level is designed for up to eight teams; the second level, known as 'LeSS Huge', introduces additional scaling elements for development with up to hundreds of developers. "Scaling Scrum starts with understanding and being able to adopt standard real one-team Scrum. Large-scale Scrum requires examining the purpose of single-team Scrum elements and figuring out how to reach the same purpose while staying within the constraints of the standard Scrum rules."Bas Vodde and Craig Larman evolved the LeSS framework from their experiences working with large-scale product development, especially in the telecoms and finance industries. It evolved by taking Scrum and trying many different experiments to discover what works. In 2013, the experiments were solidified into the LeSS framework rules. The intention of LeSS is to 'descale' organization complexity, dissolving unnecessary complex organizational solutions, and solving them in simpler ways. Less roles, less management, less organizational structures.
+
+
+== See also ==
+Disciplined agile delivery
+Lean software development
+Project management
+Unified Process
+High-performance teams
+Agile testing
+
+
+== References ==
+
+
+== Further reading ==
+Vacaniti, Daniel (February 2018). "The Kanban Guide for Scrum Teams" (PDF). scrum.org. Retrieved March 12, 2018.
+Sutherland, Jeff; Schwaber, Ken (2013). "Scrum Guides". ScrumGuides.org. Retrieved July 26, 2017.
+Verheyen, Gunther (2013). Scrum - A Pocket Guide (A Smart Travel Companion) ISBN 978-9087537203.
+Münch, Jürgen; Armbrust, Ove; Soto, Martín; Kowalczyk, Martin (2012). Software Process Definition and Management. ISBN 978-3-642-24291-5.
+Deemer, Pete; Benefield, Gabrielle; Larman, Craig; Vodde, Bas (2009). "The Scrum Primer". Retrieved June 1, 2009.
+Janoff, N.S.; Rising, L. (2000). "The Scrum Software Development Process for Small Teams" (PDF). Retrieved February 26, 2015.
+
+
+== External links ==
+Scaled Scrum by Scrum.org
+Agile Alliance's Scrum library
+A Scrum Process Description by the Eclipse Process Framework (EPF) Project
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>de6c6f7a-01aa-41fc-8af6-c61127d78b3a</DOCNO>
+<TITLE>Backlog of unexamined patent applications</TITLE>
+<TEXT>
+Although not clearly defined, the backlog of unexamined patent applications consists, at one point in time, of all the patent applications that have been filed and still remain to be examined. The backlog was said to be 4.2 million worldwide in 2007, and in 2009 it reportedly continued to grow. Alone, the United States Patent and Trademark Office (USPTO) was reported to have, in 2009, a backlog of more than 700,000 patent applications. According to Beth Simone Noveck,
+
+According to Alison Brimelow, former president of the European Patent Office, the "backlog of patent applications is counter-productive to legal certainty, and that has a negative effect on the innovation process". According to a 2010 study by London Economics, "the cost to the global economy of the delay in processing patent applications may be as much as £7.65 billion each year."According to former U.S. federal judge Paul R. Michel, in an interview conducted in 2011, "delay is [...] the greatest problem with the [U.S.] patent system" and "[the USPTO] desperately needs thousands of additional examiners and new IT systems. Indeed, it has needed them for years."Since 2006, a number of collaborations, known as Patent Prosecution Highway (PPH), have been set up between various patent offices, in order to avoid the duplication of search and examination work and ultimately reducing the patent backlog.
+However, those applying for patents can sometimes prefer a lengthy 'patent pending' period and the legal uncertainty that it brings.
+
+
+== See also ==
+Patent prosecution
+
+
+== References ==
+
+
+== Further reading ==
+"Decision T 2707/16 (Dynamically generating multiple hierarchies/MICROSOFT TECHNOLOGY LICENSING) of 11.12.2018" (PDF). Boards of Appeal of the European Patent Office. Reasons 16 to 36. - discussing the length of examination proceedings
+</TEXT>
+</DOC>
+
