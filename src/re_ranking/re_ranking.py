@@ -29,9 +29,7 @@ def extract_docs_for_reranking(query, index_path, K):
     return hits
 
 
-def re_rank_docs(query, index_path):
-    hits = extract_docs_for_reranking(query, index_path, 30)
-    # Apply affinity re-ranking here
+def re_rank_docs(hits):
     docs_to_re_rank = list(map(lambda x: ar.Document(x.docid, x.content, x.score), hits))
     af_ranking = ar.get_affinity_ranking(docs_to_re_rank)
     max_similarity_score = hits[0].score
@@ -40,6 +38,8 @@ def re_rank_docs(query, index_path):
     re_ranked_documents = []
     for document in af_ranking:
         normalized_similarity_score = document.query_similarity / max_similarity_score
+        # for some reason in paper they use log normalization, I do not see a reason for it yet and also with AR
+        # we get negative document score because of diversity penalty
         normalized_affinity_score = document.score / max_affinity_score
         final_score = alpha*normalized_similarity_score + beta*normalized_affinity_score
         re_ranked_document = ReRankedDocument(document.docid, document.content, final_score)
@@ -51,9 +51,14 @@ def re_rank_docs(query, index_path):
 
 def main():
     # Depends on local environment
-    docs = re_rank_docs("Mad dog", "../../../data/index")
+    # original search results
+    hits = extract_docs_for_reranking("Mad dog", "../../../data/index", 30)
+    # re-ranked search results
+    re_ranked_docs = re_rank_docs(hits)
 
-    print(docs[0].docid)
+    # Apply evaluation metric for original and re-ranked results
+
+    print(re_ranked_docs[0].docid)
 
 
 if __name__ == '__main__':

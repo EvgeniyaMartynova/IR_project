@@ -4,9 +4,6 @@ from sklearn.preprocessing import normalize
 import os
 import copy
 
-# the way I see it now is the it's an arbitrary model parameter
-# probably it will need tuning
-affinity_threshold = 10
 dumping_factor = 0.85
 
 
@@ -52,16 +49,28 @@ def get_affinity_matrix(collection):
             # matrix should have zero diagonal, because we do not need the information about the similarity of a document to itself
             if i != j:
                 affinity_matrix[i, j] = affinity(document_0, document_1)
+
     return affinity_matrix
 
 
-def apply_threshold(affinity):
+def apply_threshold(affinity, affinity_threshold):
     return affinity if affinity >= affinity_threshold else 0
 
 
 # think about more efficient way to implement it and also how to pass "threshold" to apply_threshold as a parameter
 def get_adjacency_matrix(affinity_matrix):
-    adjacency_matrix = np.vectorize(apply_threshold)(affinity_matrix)
+    # the best criteria I came up with so far
+    median = np.median(affinity_matrix[np.where( affinity_matrix > 0)])
+    affinity_threshold = median * 0.25
+
+    # i think there is a better way to do it, but I haven't found it
+    size = np.shape(affinity_matrix)
+    adjacency_matrix = np.zeros(size)
+
+    for i in range(0, size[0]):
+        for j in range(0, size[1]):
+            adjacency_matrix[i, j] = apply_threshold(affinity_matrix[i, j], affinity_threshold)
+
     # we will use normalized matrix, this way of normalization will work if there are zero only rows
     return normalize(adjacency_matrix, axis=1, norm='l1')
 
@@ -151,7 +160,7 @@ def main():
     ranked_documents = []
     for index, content in enumerate(docs):
         score = document_rank[index]
-        ranked_documents.append(RankedDocument(content, score, index))
+        ranked_documents.append(RankedDocument(index, content, score, score, index))
 
     ranked_documents.sort(key=lambda x: x.score, reverse=True)
 

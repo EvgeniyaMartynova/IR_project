@@ -164,7 +164,7 @@ def download_wiki_data(links):
 def main():
     with open("../Links.pkl", 'rb') as f:
         links = pickle.load(f)
-    sample = random.sample(links, 5)
+    sample = random.sample(links, 30)
     print(sample)
     download_wiki_data(sample)
 
