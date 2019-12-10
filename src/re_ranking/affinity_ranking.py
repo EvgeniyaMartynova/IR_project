@@ -3,8 +3,11 @@ import numpy as np
 from sklearn.preprocessing import normalize
 import os
 import copy
+from nltk import download
+from nltk.corpus import stopwords
 
 dumping_factor = 0.85
+download('stopwords')
 
 
 class Document:
@@ -36,11 +39,17 @@ def affinity(vector1, vector2):
     return 0
 
 
-def get_affinity_matrix(collection):
-    collection_size = len(collection)
-    count_vectorizer = CountVectorizer()
+def convert_documents_to_vectors(collection):
+    stop_words = stopwords.words('english')
+    count_vectorizer = CountVectorizer(stop_words=stop_words)
     document_vectors = count_vectorizer.fit_transform(collection)
     document_vectors = document_vectors.toarray()
+    return document_vectors
+
+
+def get_affinity_matrix(collection):
+    document_vectors = convert_documents_to_vectors(collection)
+    collection_size = len(document_vectors)
     affinity_matrix = np.zeros((collection_size, collection_size))
     # TODO: try to improve this code
     for i, document_0 in enumerate(document_vectors):
@@ -140,10 +149,7 @@ def get_affinity_ranking(documents):
 def main():
     # TODO: mote to test folder
     docs = get_documents()
-    doc_trump = "Mr. Trump became president after winning the political election. Though he lost the support of some republican friends, Trump is friends with President Putin"
-    doc_election = "President Trump says Putin had no political interference is the election outcome. He says it was a witchhunt by political parties. He claimed President Putin is a friend who had nothing to do with the election"
-    doc_putin = "Post elections, Vladimir Putin became President of Russia. President Putin had served as the Prime Minister earlier in his political career"
-    documents = [doc_trump, doc_election, doc_putin]
+
     affinity_matrix = get_affinity_matrix(docs)
     print("Affinity")
     print(affinity_matrix)

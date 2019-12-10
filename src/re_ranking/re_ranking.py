@@ -1,6 +1,6 @@
 
 from pyserini.search import pysearch
-from . import affinity_ranking as ar
+import affinity_ranking as ar
 
 # tunable coefficients for scores linear combination
 # alpha query similarity measure score
@@ -52,7 +52,7 @@ def re_rank_docs(hits):
 def main():
     # Depends on local environment
     # original search results
-    hits = extract_docs_for_reranking("Mad dog", "../../../data/index", 30)
+    hits = extract_docs_for_reranking("Masked Rider", "../../../data/index", 1000)
     # re-ranked search results
     re_ranked_docs = re_rank_docs(hits)
 
