@@ -3,7 +3,6 @@ from pyserini.search import pysearch
 import affinity_ranking as ar
 import matplotlib.pyplot as plt
 import numpy as np
-import math
 
 # tunable coefficients for scores linear combination
 # query similarity measure score
