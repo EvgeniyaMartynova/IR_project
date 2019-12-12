@@ -14,4 +14,4 @@ At the moment the simplest way to extract the documents for re-ranking is implem
 nohup sh target/appassembler/bin/IndexCollection -collection TrecCollection -input trec_collection_path -index index_path -generator JsoupGenerator -threads 4 -storePositions -storeDocvectors -storeRawDocs >& log.odp.pos+docvectors+rawdocs &
 ```
 6. Install Pyserini to work with Anserini through Python as described here https://github.com/castorini/pyserini. Note: you migh need to install `Cython` and `wget` first
-7. The logic to extract documenst for re-ranking is in 're-ranking.py' file. Apply the re-ranking alg on the top of search results in re_rank_docs() function
+7. The logic to extract documenst for re-ranking is in 're-ranking.py' file. Extract ranked dosumenst with extract_docs_for_reranking() function and use re_rank_docs() to get re-ranked list
