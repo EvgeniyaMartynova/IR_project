@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6299beeb-b21e-4191-880d-392924b46870" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/re_ranking/affinity_ranking.py" beforeDir="false" afterPath="$PROJECT_DIR$/re_ranking/affinity_ranking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/re_ranking/tests/test_affinity_re_ranking.py" beforeDir="false" afterPath="$PROJECT_DIR$/re_ranking/tests/test_affinity_re_ranking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/re_ranking/re_ranking.py" beforeDir="false" afterPath="$PROJECT_DIR$/re_ranking/re_ranking.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/re_ranking/re_ranking.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="59" column="94" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="94" />
+            <state relative-caret-position="1001">
+              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
               <folding>
                 <element signature="e#1#37#0" expanded="true" />
               </folding>
@@ -25,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/re_ranking/affinity_ranking.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+            <state relative-caret-position="721">
+              <caret line="139" column="80" lean-forward="true" selection-start-line="139" selection-start-column="80" selection-end-line="139" selection-end-column="80" />
               <folding>
                 <element signature="e#0#59#0" expanded="true" />
               </folding>
@@ -40,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/re_ranking/tests/test_affinity_re_ranking.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="278">
+              <caret line="122" column="29" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -69,7 +70,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>topics_path</find>
       <find>download_page</find>
       <find>mk</find>
       <find>create_topics_directory</find>
@@ -98,6 +98,7 @@
       <find>get_affinity_matrix</find>
       <find>get_adjacency_matrix</find>
       <find>affinity_threshold</find>
+      <find>ar_documents</find>
       <find>InputDocument</find>
     </findStrings>
   </component>
@@ -119,9 +120,10 @@
         <option value="$PROJECT_DIR$/data_converter/trec_converter.py" />
         <option value="$PROJECT_DIR$/data_converter/tests/test_converter.py" />
         <option value="$PROJECT_DIR$/evaluation/ndcg.py" />
-        <option value="$PROJECT_DIR$/re_ranking/re_ranking.py" />
         <option value="$PROJECT_DIR$/re_ranking/tests/test_affinity_re_ranking.py" />
+        <option value="$PROJECT_DIR$/re_ranking/tests/test_re_rank_docs.py" />
         <option value="$PROJECT_DIR$/re_ranking/affinity_ranking.py" />
+        <option value="$PROJECT_DIR$/re_ranking/re_ranking.py" />
       </list>
     </option>
   </component>
@@ -308,8 +310,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.re_ranking" />
-        <item itemvalue="Python tests.Unittests for test_affinity_re_ranking.TestAffinityReRanking" />
         <item itemvalue="Python tests.Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_get_adjacency_matrix" />
+        <item itemvalue="Python tests.Unittests for test_affinity_re_ranking.TestAffinityReRanking" />
         <item itemvalue="Python tests.Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_affinity_ranking" />
         <item itemvalue="Python tests.Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_get_document_rank" />
       </list>
@@ -329,12 +331,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_affinity_re_ranking_TestAffinityReRanking_test_affinity_ranking - 2019.12.13 at 23h 18m 21s.xml">
-      <configuration name="Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_affinity_ranking" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_affinity_re_ranking_TestAffinityReRanking_test_affinity_ranking - 2019.12.13 at 23h 22m 16s.xml">
-      <configuration name="Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_affinity_ranking" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_affinity_re_ranking_TestAffinityReRanking_test_affinity_ranking - 2019.12.13 at 23h 22m 18s.xml">
       <configuration name="Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_affinity_ranking" configurationId="tests" />
     </history-entry>
@@ -358,6 +354,12 @@
     </history-entry>
     <history-entry file="Unittests_for_test_affinity_re_ranking_TestAffinityReRanking - 2019.12.13 at 23h 27m 25s.xml">
       <configuration name="Unittests for test_affinity_re_ranking.TestAffinityReRanking" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_affinity_re_ranking_TestAffinityReRanking - 2019.12.13 at 23h 27m 37s.xml">
+      <configuration name="Unittests for test_affinity_re_ranking.TestAffinityReRanking" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_affinity_re_ranking_TestAffinityReRanking_test_get_adjacency_matrix - 2019.12.14 at 00h 07m 02s.xml">
+      <configuration name="Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_get_adjacency_matrix" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -422,11 +424,6 @@
           <url>file://$PROJECT_DIR$/data_collection/tests/DataCollectionTests.py</url>
           <line>89</line>
           <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/re_ranking/re_ranking.py</url>
-          <line>89</line>
-          <option name="timeStamp" value="61" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -612,20 +609,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/re_ranking/re_ranking.py">
+    <entry file="file://$PROJECT_DIR$/re_ranking/tests/test_re_rank_docs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="59" column="94" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="94" />
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <element signature="e#1#37#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/re_ranking/tests/test_affinity_re_ranking.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="278">
+          <caret line="122" column="29" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -634,10 +631,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/re_ranking/affinity_ranking.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+        <state relative-caret-position="721">
+          <caret line="139" column="80" lean-forward="true" selection-start-line="139" selection-start-column="80" selection-end-line="139" selection-end-column="80" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/re_ranking/re_ranking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1001">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="e#1#37#0" expanded="true" />
           </folding>
         </state>
       </provider>

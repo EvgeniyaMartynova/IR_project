@@ -10,7 +10,7 @@ from nltk.corpus import stopwords
 # and applies different kinds of optimization for better numerical stability
 from scipy.linalg import eigh
 
-affinity_threshold = 0.1
+affinity_threshold = 0.2
 dumping_factor = 0.85
 #download('stopwords')
 
@@ -60,19 +60,18 @@ def get_affinity_matrix(document_vectors):
     # TODO: try to improve this code
     for i, document_0 in enumerate(document_vectors):
         for j, document_1 in enumerate(document_vectors):
-            # from the paper it is unclear if they keep zero diagonal or not. I'm inclined to think that adjacency/affinity
-            # matrix should have zero diagonal, because we do not need the information about the similarity of a document to itself
+            # we do not need the information about the similarity of a document to itself
             if i != j:
                 affinity_matrix[i, j] = affinity(document_0, document_1)
 
     # normalize by division at max item to make matrix items belong to 0..1 interval
     # but preserve the relation between all the matrix items
     # optional, done for convenience of defining the threshold and its more intuitive understanding
-    return affinity_matrix /np.amax(affinity_matrix)
+    return affinity_matrix / np.amax(affinity_matrix)
 
 
 # TODO: for the final implementation get rid of this method and put the logic to get_affinity_matrix
-# Now it is still useful for debuging
+# Now it is still useful for debugging
 def get_adjacency_matrix(affinity_matrix, threshold):
     # the best criteria I came up with so far
     median = np.median(affinity_matrix[np.where(affinity_matrix > 0)])

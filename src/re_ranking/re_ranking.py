@@ -4,13 +4,6 @@ import affinity_ranking as ar
 import matplotlib.pyplot as plt
 import numpy as np
 
-# tunable coefficients for scores linear combination
-# query similarity measure score
-alpha = 0.75
-# affinity ranking score
-beta = 1 - alpha
-
-
 class ReRankedDocument:
 
     def __init__(self, docid, content, score):
@@ -56,7 +49,8 @@ def extract_docs_for_reranking(query, index_path, K):
     return hits
 
 
-def re_rank_docs(hits):
+def re_rank_docs(hits, alpha=0.75, plot=False):
+    beta = 1 - alpha
     docs_to_re_rank = list(map(lambda x: ar.InputDocument(x.docid, x.content, x.score), hits))
     ar_documents = ar.get_affinity_ranking(docs_to_re_rank)
 
@@ -79,7 +73,8 @@ def re_rank_docs(hits):
     # to compare the scores variation. I would include it into appendix to justify the normalization choice
     # and also to point out how the shape of affinity ranks curve affects the results
     # (this is the disadvantage in my opinion, see "images/Affinity ranking")
-    plot_scores(hits, ar_documents, re_ranked_documents)
+    if plot:
+        plot_scores(hits, ar_documents, re_ranked_documents)
 
     return re_ranked_documents
 
@@ -87,9 +82,9 @@ def re_rank_docs(hits):
 def main():
     # Depends on local environment
     # original search results
-    hits = extract_docs_for_reranking("Blue Creek", "../../../data/index", 100)
+    hits = extract_docs_for_reranking("Union Station", "../../../data/index", 300)
     # re-ranked search results
-    re_ranked_docs = re_rank_docs(hits)
+    re_ranked_docs = re_rank_docs(hits, plot=True)
 
     # Apply evaluation metric for original and re-ranked results
 
