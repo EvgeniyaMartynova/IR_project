@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6299beeb-b21e-4191-880d-392924b46870" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/re_ranking/affinity_ranking.py" beforeDir="false" afterPath="$PROJECT_DIR$/re_ranking/affinity_ranking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/re_ranking/docs/07bbf821-ae5e-4e9b-a066-9f36bbdbe4dd.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/re_ranking/docs/3017af48-cec7-45bb-ba6a-706c938b2d08.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/re_ranking/docs/33b4ba7c-7974-430f-9845-096f421a0fcc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/re_ranking/docs/9a3e7247-41e4-430e-8a30-db3d23f02a7f.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/re_ranking/docs/ed063488-a849-49a4-b608-c527ecb5d7c1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/re_ranking/docs/f09a0a30-7a8d-483f-8b41-618a72dcc1f5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/re_ranking/re_ranking.py" beforeDir="false" afterPath="$PROJECT_DIR$/re_ranking/re_ranking.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/re_ranking/tests/test_affinity_re_ranking.py" beforeDir="false" afterPath="$PROJECT_DIR$/re_ranking/tests/test_affinity_re_ranking.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/re_ranking/affinity_ranking.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1677">
-              <caret line="137" column="60" lean-forward="true" selection-start-line="137" selection-start-column="60" selection-end-line="137" selection-end-column="60" />
+            <state relative-caret-position="142">
+              <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
               <folding>
                 <element signature="e#0#59#0" expanded="true" />
               </folding>
@@ -45,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/re_ranking/tests/test_affinity_re_ranking.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -128,8 +120,8 @@
         <option value="$PROJECT_DIR$/data_converter/tests/test_converter.py" />
         <option value="$PROJECT_DIR$/evaluation/ndcg.py" />
         <option value="$PROJECT_DIR$/re_ranking/re_ranking.py" />
-        <option value="$PROJECT_DIR$/re_ranking/affinity_ranking.py" />
         <option value="$PROJECT_DIR$/re_ranking/tests/test_affinity_re_ranking.py" />
+        <option value="$PROJECT_DIR$/re_ranking/affinity_ranking.py" />
       </list>
     </option>
   </component>
@@ -228,7 +220,42 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_affinity_ranking">
+  <component name="RunManager" selected="Python.re_ranking">
+    <configuration name="re_ranking" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="src" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/re_ranking" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/re_ranking/re_ranking.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_affinity_re_ranking.TestAffinityReRanking" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="src" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/re_ranking/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_affinity_re_ranking.TestAffinityReRanking&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_affinity_ranking" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -257,20 +284,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_get_affinity_matrix" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="src" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/re_ranking/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_affinity_re_ranking.TestAffinityReRanking.test_get_affinity_matrix&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_get_document_rank" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -285,34 +298,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_get_transition_matrix" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="src" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/re_ranking/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_affinity_re_ranking.TestAffinityReRanking.test_get_transition_matrix&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_get_affinity_matrix" />
       <item itemvalue="Python tests.Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_get_adjacency_matrix" />
-      <item itemvalue="Python tests.Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_get_transition_matrix" />
       <item itemvalue="Python tests.Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_get_document_rank" />
       <item itemvalue="Python tests.Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_affinity_ranking" />
+      <item itemvalue="Python tests.Unittests for test_affinity_re_ranking.TestAffinityReRanking" />
+      <item itemvalue="Python.re_ranking" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.re_ranking" />
+        <item itemvalue="Python tests.Unittests for test_affinity_re_ranking.TestAffinityReRanking" />
+        <item itemvalue="Python tests.Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_get_adjacency_matrix" />
         <item itemvalue="Python tests.Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_affinity_ranking" />
         <item itemvalue="Python tests.Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_get_document_rank" />
-        <item itemvalue="Python tests.Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_get_transition_matrix" />
-        <item itemvalue="Python tests.Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_get_adjacency_matrix" />
-        <item itemvalue="Python tests.Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_get_affinity_matrix" />
       </list>
     </recent_temporary>
   </component>
@@ -330,24 +329,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_affinity_re_ranking_TestAffinityReRanking_test_get_document_rank - 2019.12.13 at 23h 00m 17s.xml">
-      <configuration name="Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_get_document_rank" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_affinity_re_ranking_TestAffinityReRanking_test_get_document_rank - 2019.12.13 at 23h 07m 36s.xml">
-      <configuration name="Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_get_document_rank" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_affinity_re_ranking_TestAffinityReRanking_test_get_document_rank - 2019.12.13 at 23h 08m 44s.xml">
-      <configuration name="Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_get_document_rank" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_affinity_re_ranking_TestAffinityReRanking_test_affinity_ranking - 2019.12.13 at 23h 13m 58s.xml">
-      <configuration name="Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_affinity_ranking" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_affinity_re_ranking_TestAffinityReRanking_test_affinity_ranking - 2019.12.13 at 23h 14m 59s.xml">
-      <configuration name="Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_affinity_ranking" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_affinity_re_ranking_TestAffinityReRanking_test_affinity_ranking - 2019.12.13 at 23h 17m 50s.xml">
-      <configuration name="Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_affinity_ranking" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_affinity_re_ranking_TestAffinityReRanking_test_affinity_ranking - 2019.12.13 at 23h 18m 21s.xml">
       <configuration name="Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_affinity_ranking" configurationId="tests" />
     </history-entry>
@@ -359,6 +340,24 @@
     </history-entry>
     <history-entry file="Unittests_for_test_affinity_re_ranking_TestAffinityReRanking_test_affinity_ranking - 2019.12.13 at 23h 22m 52s.xml">
       <configuration name="Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_affinity_ranking" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_affinity_re_ranking_TestAffinityReRanking_test_affinity_ranking - 2019.12.13 at 23h 23m 17s.xml">
+      <configuration name="Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_affinity_ranking" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_affinity_re_ranking_TestAffinityReRanking - 2019.12.13 at 23h 24m 57s.xml">
+      <configuration name="Unittests for test_affinity_re_ranking.TestAffinityReRanking" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_affinity_re_ranking_TestAffinityReRanking - 2019.12.13 at 23h 25m 57s.xml">
+      <configuration name="Unittests for test_affinity_re_ranking.TestAffinityReRanking" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_affinity_re_ranking_TestAffinityReRanking_test_get_adjacency_matrix - 2019.12.13 at 23h 26m 11s.xml">
+      <configuration name="Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_get_adjacency_matrix" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_affinity_re_ranking_TestAffinityReRanking_test_get_adjacency_matrix - 2019.12.13 at 23h 27m 20s.xml">
+      <configuration name="Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_get_adjacency_matrix" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_affinity_re_ranking_TestAffinityReRanking - 2019.12.13 at 23h 27m 25s.xml">
+      <configuration name="Unittests for test_affinity_re_ranking.TestAffinityReRanking" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -379,8 +378,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41513762" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42431194" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32110092" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44151375" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32912844" />
@@ -428,11 +427,6 @@
           <url>file://$PROJECT_DIR$/re_ranking/re_ranking.py</url>
           <line>89</line>
           <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/re_ranking/tests/test_affinity_re_ranking.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="80" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -628,22 +622,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/re_ranking/affinity_ranking.py">
+    <entry file="file://$PROJECT_DIR$/re_ranking/tests/test_affinity_re_ranking.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1677">
-          <caret line="137" column="60" lean-forward="true" selection-start-line="137" selection-start-column="60" selection-end-line="137" selection-end-column="60" />
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <element signature="e#0#59#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/re_ranking/tests/test_affinity_re_ranking.py">
+    <entry file="file://$PROJECT_DIR$/re_ranking/affinity_ranking.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+        <state relative-caret-position="142">
+          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#59#0" expanded="true" />
           </folding>
         </state>
       </provider>

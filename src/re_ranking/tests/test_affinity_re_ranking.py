@@ -2,7 +2,6 @@ from unittest import TestCase
 import affinity_ranking as ar
 import numpy as np
 import math
-from nltk.corpus import stopwords
 import os
 
 class TestAffinityReRanking(TestCase):
@@ -62,7 +61,7 @@ class TestAffinityReRanking(TestCase):
 
         expected_matrix = np.array([[0, 0.9/1.9, 0.4/1.9, 0.1/1.9, 0, 0.5/1.9],
                                     [1/1.8, 0, 0.8/1.8, 0, 0, 0],
-                                    [0, 0.7/1.6, 0, 0.6/1.6, 0, 0.3/1.9],
+                                    [0, 0.7/1.6, 0, 0.6/1.6, 0, 0.3/1.6],
                                     [0, 0, 0, 0, 0, 0],
                                     [0.7/3.4, 0.4/3.4, 0.6/3.4, 0.9/3.4, 0, 0.8/3.4],
                                     [0, 0, 0.101/0.601, 0.5/0.601, 0, 0]

@@ -151,12 +151,3 @@ def get_affinity_ranking(documents):
     return diversity_penalized_ranking
 
 
-def main():
-    affinity_ranking = get_affinity_ranking([])
-
-
-
-
-if __name__ == '__main__':
-    main()
-
