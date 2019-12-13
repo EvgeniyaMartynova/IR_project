@@ -87,7 +87,7 @@ def re_rank_docs(hits):
 def main():
     # Depends on local environment
     # original search results
-    hits = extract_docs_for_reranking("Masked Rider", "../../../data/index", 100)
+    hits = extract_docs_for_reranking("Blue Creek", "../../../data/index", 100)
     # re-ranked search results
     re_ranked_docs = re_rank_docs(hits)
 

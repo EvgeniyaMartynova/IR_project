@@ -1,7 +1,6 @@
 from sklearn.feature_extraction.text import CountVectorizer
 import numpy as np
 from sklearn.preprocessing import normalize
-import os
 import copy
 from nltk import download
 # nltk stopwords are used, because CountVectorizer's stop words list is controversal. Nltk's list is quite small
@@ -11,7 +10,7 @@ from nltk.corpus import stopwords
 # and applies different kinds of optimization for better numerical stability
 from scipy.linalg import eigh
 
-affinity_threshold = 0.05
+affinity_threshold = 0.1
 dumping_factor = 0.85
 #download('stopwords')
 
@@ -35,7 +34,8 @@ class RankedDocument:
         self.index = index
 
 
-# affinity measure between documents, mathematically it is a projection of vector2 on vector1
+# affinity measure of vector2 to vector1, mathematically it is a projection of vector2 on vector1
+# thus bigger documents have higher affinity value than smaller documents
 def affinity(vector1, vector2):
     dot_product = np.dot(vector1, vector2)
     vector1_norm = np.linalg.norm(vector1)
@@ -54,8 +54,7 @@ def convert_documents_to_vectors(collection):
     return document_vectors
 
 
-def get_affinity_matrix(collection):
-    document_vectors = convert_documents_to_vectors(collection)
+def get_affinity_matrix(document_vectors):
     collection_size = len(document_vectors)
     affinity_matrix = np.zeros((collection_size, collection_size))
     # TODO: try to improve this code
@@ -72,18 +71,14 @@ def get_affinity_matrix(collection):
     return affinity_matrix /np.amax(affinity_matrix)
 
 
-def apply_threshold(affinity):
-    return affinity if affinity >= affinity_threshold else 0
-
-
 # TODO: for the final implementation get rid of this method and put the logic to get_affinity_matrix
 # Now it is still useful for debuging
-def get_adjacency_matrix(affinity_matrix):
+def get_adjacency_matrix(affinity_matrix, threshold):
     # the best criteria I came up with so far
     median = np.median(affinity_matrix[np.where(affinity_matrix > 0)])
     maximum = np.amax(affinity_matrix)
     print("Affinity matrix maximum {}, median (excluding zero values) {}".format(maximum, median))
-    non_zero_items = np.size(affinity_matrix[np.where(affinity_matrix > affinity_threshold)])
+    non_zero_items = np.size(affinity_matrix[np.where(affinity_matrix > threshold)])
     size = np.shape(affinity_matrix)
     print("Number of edges in affinity graph of {}. Graph number of nodes {}".format(non_zero_items, size[0]))
 
@@ -92,7 +87,8 @@ def get_adjacency_matrix(affinity_matrix):
 
     for i in range(0, size[0]):
         for j in range(0, size[1]):
-            adjacency_matrix[i, j] = apply_threshold(affinity_matrix[i, j])
+            affinity = affinity_matrix[i, j]
+            adjacency_matrix[i, j] = affinity if affinity >= threshold else 0
 
     if np.count_nonzero(adjacency_matrix) == 0:
         print("Warning: affinity graph has no edges")
@@ -140,8 +136,9 @@ def diversity_penalty(documents, adjacency_matrix):
 # documents is a list of InputDocument class instances
 def get_affinity_ranking(documents):
     documents_content = list(map(lambda x: x.content, documents))
-    affinity_matrix = get_affinity_matrix(documents_content)
-    adjacency_matrix = get_adjacency_matrix(affinity_matrix)
+    document_vectors = convert_documents_to_vectors(documents_content)
+    affinity_matrix = get_affinity_matrix(document_vectors)
+    adjacency_matrix = get_adjacency_matrix(affinity_matrix, affinity_threshold)
     transition_matrix = get_transition_matrix(adjacency_matrix, dumping_factor)
     document_rank = get_document_rank(transition_matrix)
 
@@ -150,51 +147,13 @@ def get_affinity_ranking(documents):
         score = document_rank[index]
         ranked_documents.append(RankedDocument(document.docid, document.content, score, document.query_similarity, index))
 
-    ranked_documents.sort(key=lambda x: x.score, reverse=True)
-
     diversity_penalized_ranking = diversity_penalty(ranked_documents, adjacency_matrix)
     return diversity_penalized_ranking
 
 
-# TODO: mote to test folder
-def get_documents():
-    docs = []
-    for the_file in os.listdir("docs"):
-        if the_file.endswith(".txt"):
-            file = open(os.path.join("docs", the_file), mode='r')
-            docs.append(file.read().strip())
-            file.close()
-
-    return docs
-
-
 def main():
-    # TODO: mote to tests
-    docs = get_documents()
+    affinity_ranking = get_affinity_ranking([])
 
-    affinity_matrix = get_affinity_matrix(docs)
-    print("Affinity")
-    print(affinity_matrix)
-    adjacency_matrix = get_adjacency_matrix(affinity_matrix)
-    print("Adjacency")
-    print(adjacency_matrix)
-    transition_matrix = get_transition_matrix(adjacency_matrix, dumping_factor)
-    print("Transition")
-    print(transition_matrix)
-    document_rank = get_document_rank(transition_matrix)
-    print("Rank")
-    print(document_rank)
-
-    ranked_documents = []
-    for index, content in enumerate(docs):
-        score = document_rank[index]
-        ranked_documents.append(RankedDocument(index, content, score, score, index))
-
-    ranked_documents.sort(key=lambda x: x.score, reverse=True)
-
-    diversity_penalized_ranking = diversity_penalty(ranked_documents, adjacency_matrix)
-
-    print("stop")
 
 
 
