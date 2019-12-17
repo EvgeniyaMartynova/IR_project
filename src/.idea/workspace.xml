@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6299beeb-b21e-4191-880d-392924b46870" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/re_ranking/affinity_ranking.py" beforeDir="false" afterPath="$PROJECT_DIR$/re_ranking/affinity_ranking.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/re_ranking/re_ranking.py" beforeDir="false" afterPath="$PROJECT_DIR$/re_ranking/re_ranking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topic_collection/topic_finder.py" beforeDir="false" afterPath="$PROJECT_DIR$/topic_collection/topic_finder.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/re_ranking/re_ranking.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1001">
-              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="151">
+              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
               <folding>
                 <element signature="e#1#37#0" expanded="true" />
               </folding>
@@ -27,10 +27,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/evaluation/evaluate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/re_ranking/affinity_ranking.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="721">
-              <caret line="139" column="80" lean-forward="true" selection-start-line="139" selection-start-column="80" selection-end-line="139" selection-end-column="80" />
+            <state relative-caret-position="-909">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#0#59#0" expanded="true" />
               </folding>
@@ -41,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/re_ranking/tests/test_affinity_re_ranking.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="122" column="29" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
+            <state relative-caret-position="353">
+              <caret line="56" column="23" lean-forward="true" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -51,9 +60,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/topic_collection/topic_finder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
+            <state relative-caret-position="9210">
               <caret line="627" selection-start-line="627" selection-end-line="627" />
             </state>
           </provider>
@@ -98,8 +119,8 @@
       <find>get_affinity_matrix</find>
       <find>get_adjacency_matrix</find>
       <find>affinity_threshold</find>
-      <find>ar_documents</find>
       <find>InputDocument</find>
+      <find>ar_documents</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -123,6 +144,7 @@
         <option value="$PROJECT_DIR$/re_ranking/tests/test_affinity_re_ranking.py" />
         <option value="$PROJECT_DIR$/re_ranking/tests/test_re_rank_docs.py" />
         <option value="$PROJECT_DIR$/re_ranking/affinity_ranking.py" />
+        <option value="$PROJECT_DIR$/topic_collection/topic_finder.py" />
         <option value="$PROJECT_DIR$/re_ranking/re_ranking.py" />
       </list>
     </option>
@@ -244,6 +266,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="topic_finder" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="src" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/topic_collection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/topic_collection/topic_finder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for test_affinity_re_ranking.TestAffinityReRanking" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -286,34 +329,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_get_document_rank" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="src" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/re_ranking/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_affinity_re_ranking.TestAffinityReRanking.test_get_document_rank&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Python.re_ranking" />
+      <item itemvalue="Python.topic_finder" />
       <item itemvalue="Python tests.Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_get_adjacency_matrix" />
-      <item itemvalue="Python tests.Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_get_document_rank" />
       <item itemvalue="Python tests.Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_affinity_ranking" />
       <item itemvalue="Python tests.Unittests for test_affinity_re_ranking.TestAffinityReRanking" />
-      <item itemvalue="Python.re_ranking" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.re_ranking" />
+        <item itemvalue="Python.topic_finder" />
         <item itemvalue="Python tests.Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_get_adjacency_matrix" />
         <item itemvalue="Python tests.Unittests for test_affinity_re_ranking.TestAffinityReRanking" />
         <item itemvalue="Python tests.Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_affinity_ranking" />
-        <item itemvalue="Python tests.Unittests for test_affinity_re_ranking.TestAffinityReRanking.test_get_document_rank" />
       </list>
     </recent_temporary>
   </component>
@@ -373,15 +402,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="18" y="23" width="1647" height="964" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2623053" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26542056" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32110092" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44151375" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41169724" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.24541284" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32912844" />
@@ -424,6 +452,11 @@
           <url>file://$PROJECT_DIR$/data_collection/tests/DataCollectionTests.py</url>
           <line>89</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/topic_collection/topic_finder.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="87" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -497,16 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/topic_collection/topic_finder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_converter/trec_converter" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -552,13 +575,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/evaluation/ndcg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="11" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation/ndcg.py" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/suite.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -602,49 +619,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/re_ranking/tests/test_re_rank_docs.py" />
+    <entry file="file://$PROJECT_DIR$/topic_collection/topic_finder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
+        <state relative-caret-position="9210">
           <caret line="627" selection-start-line="627" selection-end-line="627" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/re_ranking/tests/test_re_rank_docs.py">
+    <entry file="file://$PROJECT_DIR$/evaluation/evaluate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="615">
+          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/re_ranking/tests/test_affinity_re_ranking.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="122" column="29" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
+        <state relative-caret-position="353">
+          <caret line="56" column="23" lean-forward="true" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/re_ranking/affinity_ranking.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
-          <caret line="139" column="80" lean-forward="true" selection-start-line="139" selection-start-column="80" selection-end-line="139" selection-end-column="80" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/re_ranking/re_ranking.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1001">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="151">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
           <folding>
             <element signature="e#1#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/re_ranking/affinity_ranking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-909">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
           </folding>
         </state>
       </provider>

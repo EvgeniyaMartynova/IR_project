@@ -82,7 +82,7 @@ def re_rank_docs(hits, alpha=0.75, plot=False):
 def main():
     # Depends on local environment
     # original search results
-    hits = extract_docs_for_reranking("Union Station", "../../../data/index", 300)
+    hits = extract_docs_for_reranking("St. Mary's Church", "../../../data/index", 300)
     # re-ranked search results
     re_ranked_docs = re_rank_docs(hits, plot=True)
 
