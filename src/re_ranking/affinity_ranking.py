@@ -10,7 +10,7 @@ from nltk.corpus import stopwords
 # and applies different kinds of optimization for better numerical stability
 from scipy.linalg import eigh
 
-affinity_threshold = 0.2
+affinity_threshold = 0.1
 dumping_factor = 0.85
 #download('stopwords')
 
