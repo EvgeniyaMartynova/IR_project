@@ -21,18 +21,32 @@ def plot_scores(hits, ar_documents, re_ranked_documents):
     re_ranked_scores = list(map(lambda x: x.score, re_ranked_documents))
     t = np.arange(0, len(hits), 1)
 
-    plt.figure()
-    plt.subplot(311)
+    fig = plt.figure()
+    fig.tight_layout()
+    subplot = fig.add_subplot(111)
+    subplot.set_xlabel('Document', fontdict={'fontsize': 11, 'fontweight': 'bold'})
+    subplot.set_ylabel('Score', fontdict={'fontsize': 11, 'fontweight': 'bold'})
+    subplot.spines['top'].set_color('none')
+    subplot.spines['bottom'].set_color('none')
+    subplot.spines['left'].set_color('none')
+    subplot.spines['right'].set_color('none')
+    subplot.tick_params(labelcolor='w', top=False, bottom=False, left=False, right=False)
+
+    subplot1 = fig.add_subplot(311)
     plt.plot(t, original_scores)
-    plt.suptitle('Original')
+    subplot1.title.set_text('Query similarity')
+    subplot1.title.set_fontsize(11)
 
-    plt.subplot(312)
+    subplot2 = fig.add_subplot(312)
     plt.plot(t, affinity_scores)
-    plt.suptitle('Affinity')
+    subplot2.title.set_text('Affinity')
+    subplot2.title.set_fontsize(11)
 
-    plt.subplot(313)
+    subplot3 = fig.add_subplot(313)
     plt.plot(t, re_ranked_scores)
-    plt.suptitle('Re-ranked')
+    subplot3.title.set_text('Re-ranked')
+    subplot3.title.set_fontsize(11)
+    plt.subplots_adjust(hspace=0.7)
     plt.show()
 
 
@@ -86,9 +100,6 @@ def main():
     # re-ranked search results
     re_ranked_docs = re_rank_docs(hits, plot=True)
 
-    # Apply evaluation metric for original and re-ranked results
-
-    print(re_ranked_docs[0].docid)
 
 
 if __name__ == '__main__':
