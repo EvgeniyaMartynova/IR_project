@@ -6,8 +6,6 @@ from nltk import download
 # nltk stopwords are used, because CountVectorizer's stop words list is controversal. Nltk's list is quite small
 # and thus should be more robust. Source https://www.aclweb.org/anthology/W18-2502
 from nltk.corpus import stopwords
-# scipy's implementation of eigen vector calculation is more robust
-# and applies different kinds of optimization for better numerical stability
 from scipy.linalg import eigh
 
 affinity_threshold = 0.1
@@ -47,7 +45,6 @@ def affinity(vector1, vector2):
 
 def convert_documents_to_vectors(collection):
     stop_words = stopwords.words('english')
-    # stop words are removed from vector space since they add no value to documents similarity
     count_vectorizer = CountVectorizer(stop_words=stop_words)
     document_vectors = count_vectorizer.fit_transform(collection)
     document_vectors = document_vectors.toarray()
@@ -60,7 +57,6 @@ def get_affinity_matrix(document_vectors):
     # TODO: try to improve this code
     for i, document_0 in enumerate(document_vectors):
         for j, document_1 in enumerate(document_vectors):
-            # we do not need the information about the similarity of a document to itself
             if i != j:
                 affinity_matrix[i, j] = affinity(document_0, document_1)
 
@@ -70,10 +66,11 @@ def get_affinity_matrix(document_vectors):
     return affinity_matrix / np.amax(affinity_matrix)
 
 
-# TODO: for the final implementation get rid of this method and put the logic to get_affinity_matrix
-# Now it is still useful for debugging
+# This method is left for debugging and displaying of AG statistics only
+# When it is not needed it can be merged with get_affinity_matrix
+# to apply the threshold and normalization straightaway
 def get_adjacency_matrix(affinity_matrix, threshold):
-    # the best criteria I came up with so far
+    # print AG statistics
     median = np.median(affinity_matrix[np.where(affinity_matrix > 0)])
     maximum = np.amax(affinity_matrix)
     print("Affinity matrix maximum {}, median (excluding zero values) {}".format(maximum, median))
@@ -81,9 +78,7 @@ def get_adjacency_matrix(affinity_matrix, threshold):
     size = np.shape(affinity_matrix)
     print("Number of edges in affinity graph of {}. Graph number of nodes {}".format(non_zero_items, size[0]))
 
-    # i think there is a better way to do it, but I haven't found it
     adjacency_matrix = np.zeros(size)
-
     for i in range(0, size[0]):
         for j in range(0, size[1]):
             affinity = affinity_matrix[i, j]
@@ -92,7 +87,6 @@ def get_adjacency_matrix(affinity_matrix, threshold):
     if np.count_nonzero(adjacency_matrix) == 0:
         print("Warning: affinity graph has no edges")
 
-    # we will use normalized matrix, this way of normalization will work if there are zero only rows
     return normalize(adjacency_matrix, axis=1, norm='l1')
 
 
@@ -104,9 +98,7 @@ def get_transition_matrix(adjacency_matrix, dumping_factor):
 
 def get_document_rank(transition_matrix):
     eigen_values, eigen_vectors = eigh(transition_matrix)
-    # principal eigen vector is the one which corresponds to the largest eigen value
     principal_eigen_vector = eigen_vectors[:, eigen_values.argmax()]
-    # normalize
     principal_eigen_vector /= principal_eigen_vector.sum()
     return principal_eigen_vector
 

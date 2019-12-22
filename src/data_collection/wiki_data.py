@@ -1,7 +1,6 @@
 import wikipedia
 from bs4 import BeautifulSoup as bs
 import requests
-import string
 import pickle
 import os
 import uuid
@@ -9,13 +8,12 @@ import random
 import re
 import shutil
 
+# TODO: please change to you local path
 data_path = "../../../data"
 topics_texts_folder = "Wikipedia Texts"
 topics_aspects_folder = "Topics Aspects"
 
 wiki_url = "https://en.wikipedia.org"
-
-abc_list = string.ascii_uppercase
 dis_page = wikipedia.WikipediaPage("Category:All disambiguation pages")
 
 
@@ -59,7 +57,6 @@ def extract_disambiguation_pages(url):
     subcategories_html = html.find_all('div', class_='mw-category-group')
     dis_pages = []
 
-    # get disambiguation pages
     for subcategory_html in subcategories_html:
         links = subcategory_html.find_all('a')
         for link in links:
@@ -83,7 +80,7 @@ def extract_topics_with_aspects(disambiguation_pages):
 
 def extract_topic_aspects(disambiguation_page_title):
     try:
-        # we try to access disambiguation page to raise wikipedia.exceptions.DisambiguationError
+        # try to access disambiguation page to raise wikipedia.exceptions.DisambiguationError
         _ = wikipedia.page(disambiguation_page_title, auto_suggest=False)
         return None
     except wikipedia.exceptions.DisambiguationError as disambiguation:
@@ -137,7 +134,6 @@ def download_wiki_data(links):
     create_topics_texts_directory()
     create_topics_aspects_directory()
     for page in links:
-        # url = dis_page.url + "?from=" + letter
         url = wiki_url + page
         disambiguation_pages = extract_disambiguation_pages(url)
         topics_with_aspects = extract_topics_with_aspects(disambiguation_pages)
@@ -162,7 +158,8 @@ def download_wiki_data(links):
 
 
 def main():
-    with open("../Links.pkl", 'rb') as f:
+    links_path = "../Links.pkl"
+    with open(links_path, 'rb') as f:
         links = pickle.load(f)
     sample = random.sample(links, 30)
     print(sample)

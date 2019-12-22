@@ -88,7 +88,7 @@ def re_rank_docs(hits, query, alpha=0.75, plot=False):
     re_ranked_documents.sort(key=lambda x: x.score, reverse=True)
     # to compare the scores variation. I would include it into appendix to justify the normalization choice
     # and also to point out how the shape of affinity ranks curve affects the results
-    # (this is the disadvantage in my opinion, see "images/Affinity ranking")
+    # (this is the disadvantage in my opinion, see "images/Selected queries detailed ranking")
     if plot:
         plot_scores(hits, ar_documents, re_ranked_documents, query)
 
@@ -99,7 +99,9 @@ def main():
     # Depends on local environment
     # original search results
     query = "Discovery"
-    hits = extract_docs_for_reranking(query, "../../../data/index", 300)
+    # TODO:  please change to you local path if run the code from here
+    index_path = "../../../data/index"
+    hits = extract_docs_for_reranking(query, index_path, 300)
     # re-ranked search results
     re_ranked_docs = re_rank_docs(hits, query = query, plot=True)
 
