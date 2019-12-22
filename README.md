@@ -7,7 +7,7 @@ The document collection we use is extracted from disambiguated Wikipedia pages. 
 #### Steps to play with re-ranking implementation and evaluation
 At the moment the simplest way to extract the documents for re-ranking is implemented, see step 1 from the issue https://github.com/EvgeniyaMartynova/IR_project/issues/8
 
-1. Download the Wikipedia data set from the links given above and pre-build index or build index with the steps given below
+1. Download the Wikipedia data set from the links given above and pre-built index or build index with the steps given below
 2. The re-ranking implementation can be found in /src/re-ranking folder and the code for evaluation is in /src/evaluation folder. Each folder contains a readme file with the instructions for running the code.
 3. The possible queries (titles of disambiguation pages) ordered by the number of relevant documents (pages linked by a disambiguation page) can be found in /queries/TopicCounts.csv and the set of the queries we used for evaluation is in /queries/Final20Queries.csv
 
@@ -19,3 +19,5 @@ At the moment the simplest way to extract the documents for re-ranking is implem
 ```
 nohup sh target/appassembler/bin/IndexCollection -collection TrecCollection -input trec_collection_path -index index_path -generator JsoupGenerator -threads 4 -storePositions -storeDocvectors -storeRawDocs >& log.odp.pos+docvectors+rawdocs &
 ```
+
+We appreciate any feedback, especially about possible implementation improvements and code style!
