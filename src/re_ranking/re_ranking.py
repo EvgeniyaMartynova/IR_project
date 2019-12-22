@@ -49,7 +49,8 @@ def plot_scores(hits, ar_documents, re_ranked_documents, title):
     subplot3.title.set_fontsize(11)
     plt.subplots_adjust(hspace=0.7)
 
-    plt.savefig(title + '.png')
+    plt.show()
+    #plt.savefig(title + '.png')
 
 
 '''
@@ -65,6 +66,14 @@ def extract_docs_for_reranking(query, index_path, K):
     return hits
 
 
+'''
+   results : list of io.anserini.search.SimpleSearcher$Result
+   Parameters
+   - hits - a list of io.anserini.search.SimpleSearcher$Result
+   - query - search query
+   - alpha - a parameter which indicate how much weight the original ranking should get, from 0 to 1
+   - plot - indicate if plot the documents scores or not
+'''
 def re_rank_docs(hits, query, alpha=0.75, plot=False):
     beta = 1 - alpha
     docs_to_re_rank = list(map(lambda x: ar.InputDocument(x.docid, x.content, x.score), hits))
