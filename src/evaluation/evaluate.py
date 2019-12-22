@@ -3,7 +3,7 @@ from re_ranking import re_ranking
 import math
 import pandas as pd
 
-# TODO: please change to you local path
+# TODO: please change to your local path
 path_to_data = "../../../data/Topics Aspects"
 
 def get_relevance(query):

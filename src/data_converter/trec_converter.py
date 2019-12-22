@@ -76,7 +76,7 @@ def convert(documents_path, trec_path):
 
 
 def main():
-    # TODO:  please change to you local path if run the code from here
+    # TODO:  please change to your local path if run the code from here
     documents_data_path = "../../../data/Wikipedia Texts"
     output_path = "../../../data/trec"
     create_trec_directory(output_path)

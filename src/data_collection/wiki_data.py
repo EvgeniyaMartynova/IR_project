@@ -8,7 +8,7 @@ import random
 import re
 import shutil
 
-# TODO: please change to you local path
+# TODO: please change to your local path
 data_path = "../../../data"
 topics_texts_folder = "Wikipedia Texts"
 topics_aspects_folder = "Topics Aspects"

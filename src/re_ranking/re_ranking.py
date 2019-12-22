@@ -67,7 +67,7 @@ def extract_docs_for_reranking(query, index_path, K):
 
 
 '''
-   results : list of io.anserini.search.SimpleSearcher$Result
+   results : list of ReRankedDocument
    Parameters
    - hits - a list of io.anserini.search.SimpleSearcher$Result
    - query - search query
@@ -108,7 +108,7 @@ def main():
     # Depends on local environment
     # original search results
     query = "Discovery"
-    # TODO:  please change to you local path if run the code from here
+    # TODO:  please change to your local path if run the code from here
     index_path = "../../../data/index"
     hits = extract_docs_for_reranking(query, index_path, 300)
     # re-ranked search results
