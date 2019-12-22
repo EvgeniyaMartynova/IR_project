@@ -3,6 +3,7 @@ from pyserini.search import pysearch
 import affinity_ranking as ar
 import matplotlib.pyplot as plt
 import numpy as np
+import math
 
 class ReRankedDocument:
 
@@ -14,10 +15,10 @@ class ReRankedDocument:
 
 def plot_scores(hits, ar_documents, re_ranked_documents, title):
     max_similarity_score = hits[0].score
-    max_affinity_score = ar_documents[0].score
+    max_affinity_score = math.log(ar_documents[0].score)
 
     original_scores = list(map(lambda x: x.score / max_similarity_score, hits))
-    affinity_scores = list(map(lambda x: x.score / max_affinity_score, ar_documents))
+    affinity_scores = list(map(lambda x: math.log(x.score) / max_affinity_score, ar_documents))
     re_ranked_scores = list(map(lambda x: x.score, re_ranked_documents))
     t = np.arange(0, len(hits), 1)
 
@@ -78,7 +79,7 @@ def re_rank_docs(hits, query, alpha=0.75, plot=False):
         # for some reason in paper they use average log normalization of affinity ranking.
         # I tried to apply it after shifting the values to be > 0
         # But it does make sense, because after normalization with log(max_affinity_score)
-        # the shape of the curve it the same as with average normalization
+        # the shape of the curve is the same as with average normalization
         normalized_affinity_score = document.score / max_affinity_score
         final_score = alpha*normalized_similarity_score + beta*normalized_affinity_score
         re_ranked_document = ReRankedDocument(document.docid, document.content, final_score)

@@ -127,7 +127,7 @@ def diversity_penalty(documents, adjacency_matrix):
     min_score = diversity_penalized_ranking[-1].score
     if min_score < 0:
         for document in diversity_penalized_ranking:
-            document.score -= min_score
+            document.score -= min_score - 1
 
     return diversity_penalized_ranking
 
