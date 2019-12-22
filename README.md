@@ -8,11 +8,11 @@ The document collection we use is extracted from disambiguated Wikipedia pages. 
 At the moment the simplest way to extract the documents for re-ranking is implemented, see step 1 from the issue https://github.com/EvgeniyaMartynova/IR_project/issues/8
 
 1. Download the Wikipedia data set from the links given above and pre-build index or build index with the steps given below
-2. The re-ranking implementation can be found in /src/re-ranking folder and the code fro evaluation is in /src/evaluation folder. Each folder contains a readme file with the instructions for running the code.
+2. The re-ranking implementation can be found in /src/re-ranking folder and the code for evaluation is in /src/evaluation folder. Each folder contains a readme file with the instructions for running the code.
 3. The possible queries (titles of disambiguation pages) ordered by the number of relevant documents (pages linked by a disambiguation page) can be found in /queries/TopicCounts.csv and the set of the queries we used for evaluation is in /queries/Final20Queries.csv
 
 #### Steps to build index with Anserini
-1. To build index only the data from "Wikipedia Texts" folder is needed
+1. To build the index only the data from "Wikipedia Texts" folder is needed
 2. Conver Wikipedia data to TREC format by running `trec_converter.convert(doc_folder, trec_folder)` located in /src/data_converter. doc_folder is a path to "Wikipedia Texts" folder and trec_folder is a path where you want to put TREC files
 3. Build Anserini as described here https://github.com/castorini/anserini
 5. The command to build index, run it from the root Anserini folder:
