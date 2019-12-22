@@ -3,6 +3,7 @@ from pyserini.search import pysearch
 import affinity_ranking as ar
 import matplotlib.pyplot as plt
 import numpy as np
+import math
 
 class ReRankedDocument:
 
@@ -14,10 +15,10 @@ class ReRankedDocument:
 
 def plot_scores(hits, ar_documents, re_ranked_documents, title):
     max_similarity_score = hits[0].score
-    max_affinity_score = ar_documents[0].score
+    max_affinity_score = math.log(ar_documents[0].score)
 
     original_scores = list(map(lambda x: x.score / max_similarity_score, hits))
-    affinity_scores = list(map(lambda x: x.score / max_affinity_score, ar_documents))
+    affinity_scores = list(map(lambda x: math.log(x.score) / max_affinity_score, ar_documents))
     re_ranked_scores = list(map(lambda x: x.score, re_ranked_documents))
     t = np.arange(0, len(hits), 1)
 
@@ -48,7 +49,8 @@ def plot_scores(hits, ar_documents, re_ranked_documents, title):
     subplot3.title.set_fontsize(11)
     plt.subplots_adjust(hspace=0.7)
 
-    plt.savefig(title + '.png')
+    plt.show()
+    #plt.savefig(title + '.png')
 
 
 '''
@@ -64,6 +66,14 @@ def extract_docs_for_reranking(query, index_path, K):
     return hits
 
 
+'''
+   results : list of io.anserini.search.SimpleSearcher$Result
+   Parameters
+   - hits - a list of io.anserini.search.SimpleSearcher$Result
+   - query - search query
+   - alpha - a parameter which indicate how much weight the original ranking should get, from 0 to 1
+   - plot - indicate if plot the documents scores or not
+'''
 def re_rank_docs(hits, query, alpha=0.75, plot=False):
     beta = 1 - alpha
     docs_to_re_rank = list(map(lambda x: ar.InputDocument(x.docid, x.content, x.score), hits))
@@ -78,7 +88,7 @@ def re_rank_docs(hits, query, alpha=0.75, plot=False):
         # for some reason in paper they use average log normalization of affinity ranking.
         # I tried to apply it after shifting the values to be > 0
         # But it does make sense, because after normalization with log(max_affinity_score)
-        # the shape of the curve it the same as with average normalization
+        # the shape of the curve is the same as with average normalization
         normalized_affinity_score = document.score / max_affinity_score
         final_score = alpha*normalized_similarity_score + beta*normalized_affinity_score
         re_ranked_document = ReRankedDocument(document.docid, document.content, final_score)
@@ -87,7 +97,7 @@ def re_rank_docs(hits, query, alpha=0.75, plot=False):
     re_ranked_documents.sort(key=lambda x: x.score, reverse=True)
     # to compare the scores variation. I would include it into appendix to justify the normalization choice
     # and also to point out how the shape of affinity ranks curve affects the results
-    # (this is the disadvantage in my opinion, see "images/Affinity ranking")
+    # (this is the disadvantage in my opinion, see "images/Selected queries detailed ranking")
     if plot:
         plot_scores(hits, ar_documents, re_ranked_documents, query)
 
@@ -98,7 +108,9 @@ def main():
     # Depends on local environment
     # original search results
     query = "Discovery"
-    hits = extract_docs_for_reranking(query, "../../../data/index", 300)
+    # TODO:  please change to you local path if run the code from here
+    index_path = "../../../data/index"
+    hits = extract_docs_for_reranking(query, index_path, 300)
     # re-ranked search results
     re_ranked_docs = re_rank_docs(hits, query = query, plot=True)
 
